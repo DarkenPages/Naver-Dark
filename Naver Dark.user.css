@@ -557,6 +557,14 @@
 	.profile .my_service .btn_logout:hover {
 		border-color: #4f4f4f;
 	}
+	
+	.section_timesquare .tnh_link {
+		color: #cacaca;
+	}
+	
+	.section_timesquare .type_weather .it_temp, .section_timesquare .type_weather .info_tmr {
+		color: #fff;
+	}
 }
 
 @-moz-document url-prefix("https://note.naver.com")
@@ -3355,6 +3363,14 @@
 	.cs_newest .sct_content .ar_pgn .ly_info .link {
 		color: #8686ff;
 	}
+	
+	.sp_kindic .group_relevant {
+		border-top: 1px solid #404040;
+	}
+	
+	.sp_kindic .sc_paging .btn_prev, .sp_kindic .sc_paging .btn_next {
+		filter: invert(86%);
+	}
 }
 
 @-moz-document url-prefix("https://nid.naver.com/user2/help/")
@@ -4898,6 +4914,24 @@
 	
 	.og .tit {
 		color: #fff;
+	}
+	
+	.skin-1080 .restrict_area {
+		border-color: #404040;
+	}
+	
+	.skin-1080 .restrict_area .restrict_more {
+		border-top-color: #404040;
+	}
+	
+	.inspection {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.inspection a {
+		filter: invert(86%);
 	}
 }
 

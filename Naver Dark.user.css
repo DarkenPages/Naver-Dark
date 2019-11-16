@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.0
+@version		1.11.0
 @namespace		Avis Studio
 ==/UserStyle== */
 
@@ -987,7 +987,12 @@
 	
 	.cmn_promotion_image {
 		border-bottom: 1px solid #404040;
-		background-color: rgb(44, 41, 39);
+		border-radius: 10px;
+		margin: 10px;
+	}
+	
+	.divList .listWrap {
+		top: 20px !important;
 	}
 	
 	.btn_workset, .h_lft_menu, .h_lft_menu .btn_add, .h_lft_menu .btn_setup, .section_etcmail, .section_typemail, div.faq_cover a, h3.h_lft_menu {
@@ -1305,7 +1310,7 @@
 		background: #242424 !important;
 	}
 	
-	.gnb_area .gnb_list_box .gnb_last .btn_more, a.btn_change_layout.view_split_hor .spr, a.btn_change_layout.view_split_ver .spr, a.btn_change_type.view_conversation .spr, .cmn_promotion_image p img, #nav_snb .foldup .ico_fold, #nav_snb .ico_fold, .icoImportantOff, .attach_card_head .read .yes, .cv_card .read .yes, .cv_card.autoSpread .read .yes, .mailList .read .yes, .mailList .expand button.close, .mailList .expand button.open, .mailListBtn .buttonSet button.sendto .ic_send, .mailListBtn .buttonSet .disabled .buDel, .mailListBtn .buttonSet button[disabled=disabled] .buDel, .mailListBtn .buttonSet .buDel, a.btn_refresh, a.btn_change_type.view_timeline .spr, a.btn_change_layout.view_list .spr, .color-picker .cls_layer:hover, .dh_layer .hTitle .lClose:hover, .dh_layer .ly_alert .btn_layer_close:hover, .dh_layer .type_c .lClose:hover, .dh_layer button.btn_close:hover, .ly_classify .btn_layer_close:hover, .ly_tooltip .btn_layer_close:hover, .notice_layer .hTitle .lClose:hover, .setup_layer .btn_close:hover, .skin_set_wrap .btn_cls:hover, .tooltipLayer2 .t1Con .btn_close:hover, .tp_layer .tl_con .btn_close:hover, .type_alert .btn_close:hover, div.viewTitle .icoVipOff, div.viewTitle dl dt .viewMoreOff, div.viewTitle dl dt .viewMoreOn, div.mInput_holder .btn_recentaddr a img, div.mInput_holder .btn_recentaddr a:hover img, .mailWriteItem .private .btn_help, table.mailWriteItem .sClose, table.mailWriteItem .sOpen, div.mailListBtn .layoutSelectText .button_s2 .ico_arrow, div.mailListBtn .layoutSelectText .button_s2 .ico_win, div.mailListBtn .layoutSelectText .button_s2 .ico_setting_write, .icon_attach, #smart_editor2 .se2_conversion_mode, #smart_editor2 .se2_text_tool, #smart_editor2 .se2_reck, #smart_editor2 .se2_ckfin, .pop_reserve .input_area select, .cp_save_list li .imp, .cp_address_save .btn_c .ico, select, .list_mode_select .list_mode_normal, .list_mode_select .list_mode_hor, .list_mode_select .list_mode_ver, .icon_preview, .setup_layer .folder_preview, .setup_layer .list_preview, .setup_layer .newmail_preview1, .setup_layer .newmail_preview2, ul.form_ul1 .form_content #trash_period, #outbox_period, .ly_classify .filter_address .btn_toggle, .form_ul1 .form_content .icon_tip, .tooltip_cover .tooltip_arrow_bottom, a.btn_change_type.view_sender .spr, .attach_card_body .btn_savepc, .attfile_area .file_list .btn_savepc, .attfile_area .attfile_toggle, div.relMails .relBox .help, .attach_card_head .read .admin, .cv_card .read .admin, .cv_card.autoSpread .read .admin, .mailList .read .admin, div.nav_endless .ico_view_top {
+	.gnb_area .gnb_list_box .gnb_last .btn_more, a.btn_change_layout.view_split_hor .spr, a.btn_change_layout.view_split_ver .spr, a.btn_change_type.view_conversation .spr, #nav_snb .foldup .ico_fold, #nav_snb .ico_fold, .icoImportantOff, .attach_card_head .read .yes, .cv_card .read .yes, .cv_card.autoSpread .read .yes, .mailList .read .yes, .mailList .expand button.close, .mailList .expand button.open, .mailListBtn .buttonSet button.sendto .ic_send, .mailListBtn .buttonSet .disabled .buDel, .mailListBtn .buttonSet button[disabled=disabled] .buDel, .mailListBtn .buttonSet .buDel, a.btn_refresh, a.btn_change_type.view_timeline .spr, a.btn_change_layout.view_list .spr, .color-picker .cls_layer:hover, .dh_layer .hTitle .lClose:hover, .dh_layer .ly_alert .btn_layer_close:hover, .dh_layer .type_c .lClose:hover, .dh_layer button.btn_close:hover, .ly_classify .btn_layer_close:hover, .ly_tooltip .btn_layer_close:hover, .notice_layer .hTitle .lClose:hover, .setup_layer .btn_close:hover, .skin_set_wrap .btn_cls:hover, .tooltipLayer2 .t1Con .btn_close:hover, .tp_layer .tl_con .btn_close:hover, .type_alert .btn_close:hover, div.viewTitle .icoVipOff, div.viewTitle dl dt .viewMoreOff, div.viewTitle dl dt .viewMoreOn, div.mInput_holder .btn_recentaddr a img, div.mInput_holder .btn_recentaddr a:hover img, .mailWriteItem .private .btn_help, table.mailWriteItem .sClose, table.mailWriteItem .sOpen, div.mailListBtn .layoutSelectText .button_s2 .ico_arrow, div.mailListBtn .layoutSelectText .button_s2 .ico_win, div.mailListBtn .layoutSelectText .button_s2 .ico_setting_write, .icon_attach, #smart_editor2 .se2_conversion_mode, #smart_editor2 .se2_text_tool, #smart_editor2 .se2_reck, #smart_editor2 .se2_ckfin, .pop_reserve .input_area select, .cp_save_list li .imp, .cp_address_save .btn_c .ico, select, .list_mode_select .list_mode_normal, .list_mode_select .list_mode_hor, .list_mode_select .list_mode_ver, .icon_preview, .setup_layer .folder_preview, .setup_layer .list_preview, .setup_layer .newmail_preview1, .setup_layer .newmail_preview2, ul.form_ul1 .form_content #trash_period, #outbox_period, .ly_classify .filter_address .btn_toggle, .form_ul1 .form_content .icon_tip, .tooltip_cover .tooltip_arrow_bottom, a.btn_change_type.view_sender .spr, .attach_card_body .btn_savepc, .attfile_area .file_list .btn_savepc, .attfile_area .attfile_toggle, div.relMails .relBox .help, .attach_card_head .read .admin, .cv_card .read .admin, .cv_card.autoSpread .read .admin, .mailList .read .admin, div.nav_endless .ico_view_top {
 		filter: invert(86%);
 	}
 	

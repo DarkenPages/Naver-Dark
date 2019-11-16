@@ -565,6 +565,27 @@
 	.section_timesquare .type_weather .it_temp, .section_timesquare .type_weather .info_tmr {
 		color: #fff;
 	}
+	
+	.rb_push {
+		background-color: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.rb_push .rp_title {
+		color: #fff;
+	}
+	
+	.rb_push .rp_dsc {
+		border-top: 1px solid #404040;
+	}
+	
+	.rb_push .rp_dsc_line {
+		color: #cacaca;
+	}
+	
+	.rb_push .rp_label_ad {
+		filter: invert(86%);
+	}
 }
 
 @-moz-document url-prefix("https://note.naver.com")

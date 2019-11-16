@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         NAVER Dark Mode
 // @namespace    https://www.naver.com
-// @version      1.0
+// @version      1.0.0
 // @description  Incredibly gorgeous productivity style for NAVER. Requires other UserCSS extension to apply UserCSS immediately.
 // @author       OrigamiDream
 // @include      *

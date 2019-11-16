@@ -3947,6 +3947,81 @@
 		top: 27px;
 		filter: invert(86%);
 	}
+	
+	.srch_top p strong {
+		color: #fff;
+	}
+	
+	.srch_cate {
+		background-color: #2f2f2f;
+		border-top: 2px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.srch_cate .tx_depth1 a, .srch_cate .tx_depth2 a, .srch_cate .tx_depth3 a, .srch_cate .tx_depth4 a {
+		filter: invert(82.2%);
+	}
+	
+	.srch_rel dl dt {
+		filter: invert(86%);
+	}
+	
+	.srch_rel ul li a {
+		color: #8686ff;
+	}
+	
+	#content_srch .section h3 img, #content_srch .srch_section_hd .sub, #content_srch .srch_section_hd .more, #content_srch .srch_section_hd .sub2, #content_srch .basic1 .ico_sold, #content_srch .basic1 .ico_sale, #content_srch .basic1 .subj em, #content_srch .basic1 .area em {
+		filter: invert(86%);
+	}
+	
+	#content_srch .line {
+		border-top: 1px solid #404040;
+	}
+	
+	.srch_rel {
+		border-bottom: 1px solid #404040;
+	}
+	
+	#content_srch .basic1 .mng {
+		color: #fff;
+	}
+	
+	#content_srch .sp_cafemng li {
+		border-top: 1px solid #404040;
+	}
+	
+	#content_srch .go_more {
+		color: #8686ff;
+	}
+	
+	#content_srch .basic1 .thumb {
+		border: 1px solid #404040;
+	}
+	
+	.thumb_slide_wrap {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.thumb_num {
+		filter: invert(86%);
+	}
+	
+	#aside .tab_option form {
+		filter: invert(86%);
+	}
+	
+	.srch_bg_wrap {
+		background: none;
+	}
+	
+	#content_srch .basic1 dt a {
+		color: #8686ff;
+	}
+	
+	#content_srch .basic1 dd, #content_srch .basic1 dd {
+		color: #fff;
+	}
 }
 
 @-moz-document url-prefix("https://talk.cafe.naver.com")
@@ -5519,6 +5594,34 @@
 	
 	.wrap_my_information .area_my_account .name, .list_post_article .author:hover .name_author, .list_post_article .info_post strong.title_post, .list_post_article .author .name_author, .wrap_my_information .area_notice .title, .wrap_my_information .area_notice .link, .wrap_my_information .area_link .link, .wrap_my_information .list_news .title_my_post, .wrap_my_information .area_my_content .button_delete_all, .wrap_my_information .area_my_content .link_manage_buddy, .area_topic .heading .category_topic {
 		color: #fff;
+	}
+	
+	.list_search_post .desc .text .search_keyword {
+		color: #fff;
+	}
+	
+	.pika-single.is-bound {
+		background-color: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.pika-label {
+		background-color: #242424;
+		color: #fff;
+	}
+	
+	.pika-prev, .pika-next {
+		background: #242424;
+	}
+	
+	.pika-table th {
+		background: #2f2f2f;
+		color: #fff;
+	}
+	
+	.pika-button {
+		background: #242424;
+		color: #cacaca;
 	}
 }
 

@@ -11452,6 +11452,10 @@
 		color: #cacaca;
 		border: 1px solid #404040;
 	}
+	
+	.u_ni_dashboard_component.u_ni_type_2 .u_ni_value_wrap {
+		color: #fff;
+	}
 }
 
 @-moz-document url-prefix("https://cafe.naver.com/ManageEventQuestionExample.nhn")

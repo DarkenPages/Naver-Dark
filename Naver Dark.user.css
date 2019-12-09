@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.15.0
+@version		1.15.2
 @namespace		Avis Studio
 ==/UserStyle== */
 
@@ -6337,10 +6337,22 @@
 
 @-moz-document url-prefix("https://cafe.naver.com/CafeInvite")
 {
-	html, head { background: #242424; }
-	.invite-to-into input, .invite-padd02 input, .invite-padd02 textarea { background: #242424 !important; border: 1px solid #404040; }
-	#main-area .m-tcol-c textarea { border: 1px solid #404040 !important; }
-	.invite-to-into img { filter: invert(86%); }
+	html, head {
+		background: #242424;
+	}
+	
+	.invite-to-into input, .invite-padd02 input, .invite-padd02 textarea {
+		background: #242424 !important;
+		border: 1px solid #404040;
+	}
+	
+	#main-area .m-tcol-c textarea {
+		border: 1px solid #404040 !important;
+	}
+	
+	.invite-to-into img {
+		filter: invert(86%);
+	}
 }
 
 @-moz-document url-prefix("https://cafe.naver.com/BlogBuddyInviteView.nhn")
@@ -11777,5 +11789,40 @@
 	.u_ni_inflow_detail .u_ni_item a {
 		color: #cacaca;
 		border-bottom: 1px solid #404040;
+	}
+}
+
+@-moz-document url-prefix("https://cafe.naver.com/CafeInviteView.nhn")
+{
+	
+	
+	.invite .nickname {
+		color: #fff;
+	}
+	
+	.invite .invite_cafe {
+		border: 1px solid #404040;
+		color: #cacaca;
+		background: #242424;
+	}
+	
+	.invite .invite_tit, .invite .invite_content {
+		border: 1px solid #404040;
+		background: #242424;
+		color: #cacaca;
+	}
+	
+	.btn_type {
+		border: 1px solid #404040;
+		background: #404040;
+		color: #fff !important;
+	}
+	
+	#header h1 {
+		color: #242424;
+	}
+	
+	#header {
+		background-color: #019341;
 	}
 }

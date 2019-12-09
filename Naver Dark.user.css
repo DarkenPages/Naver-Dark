@@ -171,8 +171,8 @@
 	}
 	
 	.profile .slide_cover li a:hover {
-		background-color: #484848;
-		color: #8c8c8c;
+		background-color: #242424;
+		color: #019341;
 	}
 	
 	.profile .slide_btn .btn_prev {
@@ -193,7 +193,7 @@
 	}
 	
 	.service .svc_head .task_right button:hover {
-		border: 1px solid #a4a2a2;
+		border: 1px solid #4f4f4f;
 	}
 	
 	.service {
@@ -453,7 +453,7 @@
 	}
 	
 	.profile .slide_btn .btn_prev:hover, .profile .slide_btn .btn_next:hover, .service .svc_office .svc_head .ly_new a:hover {
-		background-color: #484848;
+		background-color: #242424;
 	}
 	
 	.profile .slide_btn .btn_next, .section_timesquare .type_stock .ts_s_btn {
@@ -585,6 +585,63 @@
 	
 	.rb_push .rp_label_ad {
 		filter: invert(86%);
+	}
+	
+	.special_hidden .search .green_window {
+		margin: 0;
+		border: 2px solid #019341;
+		background: none;
+		background-color: #242424;
+	}
+	
+	.special_hidden .search .sch_smit {
+		filter: none;
+		background: #019341;
+	}
+	
+	.special_hidden .search .ico_search_submit {
+		visibility: visible;
+	}
+	
+	.special_bg.special_hidden {
+		background: none !important;
+	}
+	
+	.area_logo h1.special {
+		top: 50%;
+		left: -2px;
+		margin-top: -25px;
+	}
+	
+	.area_logo .special_img {
+		position: absolute;
+		width: 198px;
+		height: 48px;
+	}
+	
+	.area_logo h1.special:after {
+		content: '';
+		display: block;
+		overflow: hidden;
+		width: 198px;
+		height: 48px;
+		background-image: linear-gradient(transparent,transparent),url(https://s.pstatic.net/static/www/img/uit/2019/sp_search.svg);
+		background-repeat: no-repeat;
+		background-position: -4px -4px;
+		text-indent: 101%;
+		white-space: nowrap;
+	}
+	
+	.area_newsstand .api_pbs_btn:hover, .section_svcmore .ss_btn_svcall:hover, .section_svcmore .ss_btn_setting:hover {
+		border-color: #4f4f4f;
+	}
+	
+	.service .svc_npay .npay_link {
+		border-top: 1px solid #404040;
+	}
+	
+	.service .svc_npay .npay_link .shortcut_cover a {
+		color: #cacaca;
 	}
 }
 
@@ -3397,6 +3454,72 @@
 	.sp_kindic .sc_paging .btn_prev, .sp_kindic .sc_paging .btn_next {
 		filter: invert(86%);
 	}
+	
+	.cs_produce .prcs_detail h4 a {
+		color: #8686ff;
+	}
+	
+	.cs_produce *.txt_black {
+		color: #fff !important;
+	}
+	
+	.cs_produce .top_line {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_produce {
+		color: #fff;
+	}
+	
+	.cs_produce .prcs_guide .ico_alert, .cs_produce a.btn_txt, .cs_produce a.btn_txt_orge {
+		filter: invert(86%);
+	}
+	
+	.land .tab {
+		border-left: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.land .tab li {
+		border: 1px solid #404040;
+		background: #242424;
+	}
+	
+	.land .tab li.selected {
+		border: 1px solid #4f4f4f;
+		background: #2f2f2f;
+	}
+	
+	.land .tab li a {
+		color: #cacaca;
+	}
+	
+	.land .detail dd img {
+		filter: invert(86%);
+	}
+	
+	.land .list thead th {
+		border-top: 1px solid #404040;
+		background: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.land .list td {
+		border-top: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.land table.list {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.dsc_ninfo a.link {
+		color: #6868ff;
+	}
+	
+	.land .tab li.selected a {
+		color: #fff;
+	}
 }
 
 @-moz-document url-prefix("https://nid.naver.com/user2/help/")
@@ -4022,6 +4145,123 @@
 	#content_srch .basic1 dd, #content_srch .basic1 dd {
 		color: #fff;
 	}
+	
+	.cc_layer_alert {
+		background: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.cc_layer_alert .cc_alert_content .txt {
+		color: #fff;
+	}
+	
+	.cc_layer_alert .cc_alert_footer {
+		border-top: 1px solid #404040;
+	}
+	
+	.cc_layer_alert .cc_alert_btn {
+		border: 1px solid #404040;
+		color: #fff;
+	}
+	
+	.content_game .title_area .title {
+		filter: invert(100%);
+		mix-blend-mode: difference;
+	}
+	
+	.content_game .list_area .title, .content_game .list_reserve .list_info .name, .content_game .list_game .name_area {
+		color: #fff;
+	}
+	
+	.content_game .box_search .input_search {
+		background-color: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.common_select .layer_list, .content_game .area_header .common_select .layer {
+		background: #242424;
+	}
+	
+	.content_game .button_apply {
+		background-color: #242424;
+		border: 1px solid #019341;
+		color: #019341;
+	}
+	
+	.content_game .intro_area li {
+		background-color: #2f2f2f;
+	}
+	
+	.content_game .intro_area .intro_title {
+		color: #fff;
+	}
+	
+	.content_game .intro_area .intro_text {
+		color: #cacaca;
+	}
+	
+	.content_game .intro_area .thumb_game, .content_game .intro_area .thumb_reserve {
+		mix-blend-mode: difference;
+	}
+	
+	.star_best_list li {
+		border: 1px solid #404040;
+	}
+	
+	.star_best_list .star_name {
+		color: #fff;
+	}
+	
+	.star_best_list .name_area, .star_area .common_list .list_info .txt_area {
+		color: #cacaca;
+	}
+	
+	.edu_intro {
+		border: 1px solid #404040;
+	}
+	
+	.edu_intro .spot .title {
+		color: #fff;
+	}
+	
+	.edu_intro .spot .txt {
+		color: #cacaca;
+	}
+	
+	.common_btn_box .btn_box {
+		border: 1px solid #404040;
+		background: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.edu_intro .info {
+		border-top: 1px solid #404040;
+	}
+	
+	.edu_area .edu_tab {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.user_feed_name .cafe_name, .user_feed_info .title_area .tit, .user_feed_info .con_bottom .user_name, .user_feed_recommend .title, .recommend_list .name {
+		color: #fff;
+	}
+	
+	.recommend_list .card {
+		border: 1px solid #404040;
+	}
+	
+	.user_feed_area {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.common_box_layer {
+		border: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	.common_box_layer .btn {
+		color: #cacaca;
+	}
 }
 
 @-moz-document url-prefix("https://talk.cafe.naver.com")
@@ -4285,11 +4525,6 @@
 		color: #cacaca;
 	}
 	
-	#main-area:not(.skin-1080) .prev-next+form .list-search input[type="image"] {
-		background-color: #fff;
-		filter: invert(86%);
-	}
-	
 	a#tag4:link {
 		color: #cacaca;
 		background-color: #019341;
@@ -4357,11 +4592,6 @@
 		background: #404040;
 	}
 	
-	#widget-count {
-		border: 1px solid #404040 !important;
-		background-color: #404040;
-	}
-	
 	.skin-1080 #widget-bean .bean-btns .btn-saving {
 		border-right: 1px solid #404040;
 	}
@@ -4380,14 +4610,6 @@
 		background-color: #404040 !important;
 		color: #cacaca !important;
 		border-color: #4f4f4f !important;
-	}
-	
-	#group-area:not(.skin-1080) .cafe-info-action .info-action-tab li p {
-		color: #666 !important;
-	}
-	
-	#group-area:not(.skin-1080) #cafe-menu .cafe-menu-tit .down-btn, #group-area:not(.skin-1080) #cafe-menu .cafe-menu-tit .up-btn {
-		filter: invert(0%) !important;
 	}
 	
 	#main-area .skin-bgcolor {
@@ -4499,7 +4721,7 @@
 		color: #fff !important;
 	}
 	
-	.cafe_list_control .btn_navi a, .cafe_list_control .btn_navi span, :root .cafe_list_control .action .btn_shortcut_edit, td[background="https://cafe.pstatic.net/img/bg_480_2.gif"], td img[src="https://cafe.pstatic.net/img/bg_480_3.gif"], #naver_common_editor h3.bi img, #naver_common_editor .tab_category ul, #naver_common_editor .tool_bg2, #naver_common_editor .b_tool_bg, #naver_common_editor .size_more, #tageditonclick img, #tageditonclick+img, #searchHelpIcon img, #nboard #naver_common_editor ul.post .prohibit+a img, #nboard #naver_common_editor ul.post .help02, #naver_common_editor .rbox03 .rbox03_bg, #naver_common_editor .rbox03 .rbox03_b, #naver_common_editor .rbox03 .rbox03_t, html>body #naver_common_editor .shadow01, .se2_line_sticker button.se2_prev, .se2_line_sticker button.se2_next, .se2_line_sticker button.se2_prev_off, .se2_line_sticker button.se2_next_off, .se2_line_sticker_set li button, .se2_line_sticker_set div.se2_linesticker_list li, #naver_common_editor .rbox02 .rbox02_t, #naver_common_editor .rbox02 .rbox02_bg, #naver_common_editor .rbox02 .rbox02_b, .list-blog .tit-box img, .gate-box .tit-box img, .photo_view .view_top, .photo_view .btn_close a, .reply-box .u_likeit_list_module .u_likeit_list_btn .u_ico, .spi_lst em, .u_cbox .u_cbox_addition .u_cbox_btn_upload_sticker, .u_cbox .u_cbox_addition .u_cbox_btn_upload_photo, #main-area .article-board .list-i-selling, .spi_default .spi_ly_pop .spi_close span, #special-menu, #main-area:not(.skin-1080) .prev-next+iframe+.list-search input, #main-area #sub-tit, #main-area .sub-tit-bottom, .article-board .board-box img, #main-area .btn span, #main-area .btn p, #layer_msg .temporary_write .btn_close, html>body #layer_msg .temporary_write .edit_change_btn img, #layer_msg .temporary_write .btn_confirm, #layer_msg .temporary_write li a.title, #layer_msg .temporary_write li .close img, .Flash_det_wrap .Flash_det_play_area embed, .seljs_option li.seljs_mover fieldset input[type="image"], .worn_layer_popup .closelayer, .worn_layer_popup .btn_box ._btnConfirm, .worn_layer_popup .btn_box ._btnClose, .worn_layer_popup .btn_box ._btnCancel, #main-area .btn2 p, #main-area .btn2 span, .gnb_svc_more, #gnb-menu .join-cafe .btn-join, #group-area:not(.skin-1080) .cafe-info-action .info-action-tab li.tit-info-on, #group-area:not(.skin-1080) .cafe-info-action .info-action-tab li.tit-action, #group-area:not(.skin-1080) .info-action-tab li.tit-bookmark, #group-area:not(.skin-1080) .cafe-info-action .box-g, #group-area:not(.skin-1080) #cafe-menu .box-g-t, #group-area:not(.skin-1080) #cafe-menu .box-g-m, #group-area:not(.skin-1080) #cafe-menu .box-g-b, #group-area:not(.skin-1080) .cafe-info-action .info-action-tab li.tit-info, #group-area:not(.skin-1080) .cafe-info-action .info-action-tab li.tit-action-on, .skin-1080 #cafe-banner, .banner_chatbot a img, .sp_end.sale_now, .sp_end.sale_report, .sp_end.fraud_check, .sp_end.safety_deal_help, .NHN_Writeform_Main img[src="https://dthumb-phinf.pstatic.net/?src=%22http%3A%2F%2Fi66.tinypic.com%2F50leds.jpg%22&type=cafe_wa740"], .article-intro .group_rank .img_rank img, .article-intro .group_rank .rank_graph .flash_graph, .origin-txt span .tit-ico, .icon_q, .cafetype_layer .btn_close img, .btn_cafepart .cafetype_layer .arr, #main-area .group_rank.border-sub .flash_graph.border-sub object, #main-area .group_rank.border-sub .img_rank img, .tag-bg-t, .tag-bg-b, .user_feed_option .option_btn:before, .cc_layer_mynews .cc_mynews_list .cc_mynews_notice .icon_option, .cc_layer_mynews .cc_mynews_list .cc_mynews_notice .btn_close:before, .cc_layer_mynews .cc_mynews_list .info_top .count:before, .cc_layer_mynews .cc_mynews_option_btn:before, .cc_layer_dimmed .layer_wrap .btn_layer_close:before, .cc_layer_dimmed .radio_box.type_green input[type="radio"]:checked+label:before, .list-blog .etc-box .copy, .list-blog .etc-box .chat img, .join_info h3 img {
+	.cafe_list_control .btn_navi a, .cafe_list_control .btn_navi span, :root .cafe_list_control .action .btn_shortcut_edit, td[background="https://cafe.pstatic.net/img/bg_480_2.gif"], td img[src="https://cafe.pstatic.net/img/bg_480_3.gif"], #naver_common_editor h3.bi img, #naver_common_editor .tab_category ul, #naver_common_editor .tool_bg2, #naver_common_editor .tool_bg, #naver_common_editor .b_tool_bg, #naver_common_editor .size_more, #tageditonclick img, #tageditonclick+img, #searchHelpIcon img, #nboard #naver_common_editor ul.post .prohibit+a img, #nboard #naver_common_editor ul.post .help02, #naver_common_editor .rbox03 .rbox03_bg, #naver_common_editor .rbox03 .rbox03_b, #naver_common_editor .rbox03 .rbox03_t, html>body #naver_common_editor .shadow01, .se2_line_sticker button.se2_prev, .se2_line_sticker button.se2_next, .se2_line_sticker button.se2_prev_off, .se2_line_sticker button.se2_next_off, .se2_line_sticker_set li button, .se2_line_sticker_set div.se2_linesticker_list li, #naver_common_editor .rbox02 .rbox02_t, #naver_common_editor .rbox02 .rbox02_bg, #naver_common_editor .rbox02 .rbox02_b, .list-blog .tit-box img, .gate-box .tit-box img, .photo_view .view_top, .photo_view .btn_close a, .reply-box .u_likeit_list_module .u_likeit_list_btn .u_ico, .spi_lst em, .u_cbox .u_cbox_addition .u_cbox_btn_upload_sticker, .u_cbox .u_cbox_addition .u_cbox_btn_upload_photo, #main-area .article-board .list-i-selling, .spi_default .spi_ly_pop .spi_close span, #main-area #sub-tit, #main-area .sub-tit-bottom, .article-board .board-box img, #main-area .btn span, #main-area .btn p, #layer_msg .temporary_write .btn_close, html>body #layer_msg .temporary_write .edit_change_btn img, #layer_msg .temporary_write .btn_confirm, #layer_msg .temporary_write li a.title, #layer_msg .temporary_write li .close img, .Flash_det_wrap .Flash_det_play_area embed, .seljs_option li.seljs_mover fieldset input[type="image"], .worn_layer_popup .closelayer, .worn_layer_popup .btn_box ._btnConfirm, .worn_layer_popup .btn_box ._btnClose, .worn_layer_popup .btn_box ._btnCancel, #main-area .btn2 p, #main-area .btn2 span, .gnb_svc_more, #gnb-menu .join-cafe .btn-join, .skin-1080 #cafe-banner, .banner_chatbot a img, .sp_end.sale_now, .sp_end.sale_report, .sp_end.fraud_check, .sp_end.safety_deal_help, .NHN_Writeform_Main img[src="https://dthumb-phinf.pstatic.net/?src=%22http%3A%2F%2Fi66.tinypic.com%2F50leds.jpg%22&type=cafe_wa740"], .article-intro .group_rank .img_rank img, .article-intro .group_rank .rank_graph .flash_graph, .origin-txt span .tit-ico, .icon_q, .cafetype_layer .btn_close img, .btn_cafepart .cafetype_layer .arr, #main-area .group_rank.border-sub .flash_graph.border-sub object, #main-area .group_rank.border-sub .img_rank img, .tag-bg-t, .tag-bg-b, .user_feed_option .option_btn:before, .cc_layer_mynews .cc_mynews_list .cc_mynews_notice .icon_option, .cc_layer_mynews .cc_mynews_list .cc_mynews_notice .btn_close:before, .cc_layer_mynews .cc_mynews_list .info_top .count:before, .cc_layer_mynews .cc_mynews_option_btn:before, .cc_layer_dimmed .layer_wrap .btn_layer_close:before, .cc_layer_dimmed .radio_box.type_green input[type="radio"]:checked+label:before, .list-blog .etc-box .copy, .list-blog .etc-box .chat img, .join_info h3 img {
 		filter: invert(86%);
 	}
 	
@@ -4507,7 +4729,7 @@
 		color: #000 !important;
 	}
 	
-	.btn_type1.post_write:before, .check_box input+label:before, .check_box input:checked+label:before, .check_box.green_check input:checked+label:before, .box_notice .close .ico_newcafe, .ico_aside, .info-action-tab .tit-bookmark .btn-bookmark-off, .ia-info-data .ico_setting, .ia-info-data .ico_stat, .ia-info-data .ico_alarm, .ia-info-data2 .mem-cnt-info .ico, .ia-info-data2 .mem-cnt-info .ico_lock2, .ia-info-data3 .ico_bkmk, .ia-info-data3 .ico_bkmk2, .ia-info-data3 .ico_mbl, #member-action-data .ico_vst, #member-action-data .ico_wrt, #member-action-data .ico_cmt, #member-action-data .ico_pay, #cafe-menu .cafe-menu-tit .up-btn, #cafe-menu .cafe-menu-tit .down-btn, #linked-member .member-reload, #linked-member .member-up, #linked-member .member-down, .prev-next .pgL:before, .prev-next .pgR:after, .article-board .unload .ico_newcafe, .ico_newcafe, #naver-gnb #gnb-menu .gnb_service_li .gnb_icon, .footer .naver_cafe, .select_component .select_box:after, .select_component.is_selected .select_box:after, .btn_type1.prev:before, .btn_type1.post_prev:before, .btn_type1.post_next:before, .btn_refresh:before, .radio_box input+label:before, .radio_box input:checked+label:before, .radio_box.green_radio input:checked+label:before, .learn_more:after, .learn_more.is_selected:after, .icon_tip, .icon_select, .box_calendar .link_prev, .box_calendar .link_next, .layer_calendar .ly_header a:after, .layer_calendar .ly_header a.calendar-btn-prev-mon:after, .layer_calendar .ly_header a.calendar-btn-next-mon:after, .ly_begin.type_join .btn_clse:before, .alarm_switch .layer_alarm .btn_close:before, .search_mini .search_btn:after, .cafe-info-action .lab_thmb, .ia-info-data2 .level-info .ico_check, #member-action-data .ico_manager, .ia-adult .ico_adult, .ia-info-btn .link_chat .new_chatting, #cafe-menu .cafe-menu-tit .ico-bookmark, #cafe-menu .cafe-menu-list .ico-book, #cafe-menu .cafe-menu-list .ico-market, #cafe-menu .cafe-menu-list .ico-calendar, #cafe-menu .cafe-menu-list .ico-kin, #cafe-menu .cafe-menu-list .ico-link, #cafe-menu .cafe-menu-list .ico-list, #cafe-menu .cafe-menu-list .ico-map, #cafe-menu .cafe-menu-list .ico-memo, #cafe-menu .cafe-menu-list .ico-photo, #cafe-menu .cafe-menu-list .ico-cafe-kin, #cafe-menu .cafe-menu-list .ico-simple, #cafe-menu .cafe-menu-list .ico-attendance, #cafe-menu .cafe-menu-list .ico-tag, #widget-bean .bean-btns .btn-saving .ico_aside, #widget-bean .bean-btns .btn-put-in .ico_aside, #widget-weather .temperature:after, .list-i-selling-safe, .list-i-sellout, .list-i-selling, .list-i-groupbuy, .list-i-groupbuy-safe, .list-i-share, .list-i-exchage, .list-i-selected, .list-i-img, .list-i-movie, .list-i-map, .list-i-restrict, .list-i-music, .list-i-upload, .list-i-poll, .list-i-calendar, .list-i-link, #sub-tit .ico_bookmark:before, #sub-tit .ico_bookmark.on:before, .sub_info_box .link_more .ico_more, .sub_info_box .list_qna li:before, .list-style .msg_permit:before, .list-style .sort_form .sort_card, .list-style .sort_form .sort_video, .list-style .sort_form .sort_album, .list-style .sort_form .sort_list, .list-style .sort_form .sort_card.is_selected, .list-style .sort_form .sort_video.is_selected, .list-style .sort_form .sort_album.is_selected, .list-style .sort_form .sort_list.is_selected, .article-movie-sub .like_area .comment_area .comment_ico, .article-movie-sub .like_area .u_likeit_list_module .u_ico, .article-movie-sub .like_area .u_likeit_list_module .on .u_ico, .article-movie-sub .movie-img .num:before, .article-movie-sub .movie-img .ico_play, .box_write .set_attach .btn_photo:before, .box_write .set_attach .btn_mov:before, .box_write .set_attach .btn_option:before, .simple_lst_section .layer_bookmark .link_close:before, .restrict_area .msg:before, .article-attendance .box_mission .link_del, .article-attendance .list_attendance .rank1, .article-attendance .list_attendance .rank2, .article-attendance .list_attendance .rank3, .article-cafekin .list_total .ico_answer, .article-cafekin .list_total .ico_pick, .article-tag .list_tag .desc_tag .ico_tag, .article-intro .tbl_cafe_info .lab_thmb, #main-area .list-tit span a:after, #main-area table.searchad .ico_npay, #main-area table.searchad .ico_nid, #main-area table.searchad .adsby .sa_logo, #main-area table.searchad .adsby .ico_help, #content-area #group-area:not(.skin-1080) .group-tit h4 {
+	.btn_type1.post_write:before, .check_box input+label:before, .check_box input:checked+label:before, .check_box.green_check input:checked+label:before, .box_notice .close .ico_newcafe, .ico_aside, .info-action-tab .tit-bookmark .btn-bookmark-off, .ia-info-data .ico_setting, .ia-info-data .ico_stat, .ia-info-data .ico_alarm, .ia-info-data2 .mem-cnt-info .ico, .ia-info-data2 .mem-cnt-info .ico_lock2, .ia-info-data3 .ico_bkmk, .ia-info-data3 .ico_bkmk2, .ia-info-data3 .ico_mbl, #member-action-data .ico_vst, #member-action-data .ico_wrt, #member-action-data .ico_cmt, #member-action-data .ico_pay, #cafe-menu .cafe-menu-tit .up-btn, #cafe-menu .cafe-menu-tit .down-btn, #linked-member .member-reload, #linked-member .member-up, #linked-member .member-down, .prev-next .pgL:before, .prev-next .pgR:after, .article-board .unload .ico_newcafe, .ico_newcafe, #naver-gnb #gnb-menu .gnb_service_li .gnb_icon, .footer .naver_cafe, .select_component .select_box:after, .select_component.is_selected .select_box:after, .btn_type1.prev:before, .btn_type1.post_prev:before, .btn_type1.post_next:before, .btn_refresh:before, .radio_box input+label:before, .radio_box input:checked+label:before, .radio_box.green_radio input:checked+label:before, .learn_more:after, .learn_more.is_selected:after, .icon_tip, .icon_select, .box_calendar .link_prev, .box_calendar .link_next, .layer_calendar .ly_header a:after, .layer_calendar .ly_header a.calendar-btn-prev-mon:after, .layer_calendar .ly_header a.calendar-btn-next-mon:after, .ly_begin.type_join .btn_clse:before, .alarm_switch .layer_alarm .btn_close:before, .search_mini .search_btn:after, .cafe-info-action .lab_thmb, .ia-info-data2 .level-info .ico_check, #member-action-data .ico_manager, .ia-adult .ico_adult, .ia-info-btn .link_chat .new_chatting, #cafe-menu .cafe-menu-tit .ico-bookmark, #cafe-menu .cafe-menu-list .ico-book, #cafe-menu .cafe-menu-list .ico-market, #cafe-menu .cafe-menu-list .ico-calendar, #cafe-menu .cafe-menu-list .ico-kin, #cafe-menu .cafe-menu-list .ico-link, #cafe-menu .cafe-menu-list .ico-list, #cafe-menu .cafe-menu-list .ico-map, #cafe-menu .cafe-menu-list .ico-memo, #cafe-menu .cafe-menu-list .ico-photo, #cafe-menu .cafe-menu-list .ico-cafe-kin, #cafe-menu .cafe-menu-list .ico-simple, #cafe-menu .cafe-menu-list .ico-attendance, #cafe-menu .cafe-menu-list .ico-tag, #widget-bean .bean-btns .btn-saving .ico_aside, #widget-bean .bean-btns .btn-put-in .ico_aside, #widget-weather .temperature:after, .list-i-selling-safe, .list-i-sellout, .list-i-selling, .list-i-groupbuy, .list-i-groupbuy-safe, .list-i-share, .list-i-exchage, .list-i-selected, .list-i-img, .list-i-movie, .list-i-map, .list-i-restrict, .list-i-music, .list-i-upload, .list-i-poll, .list-i-calendar, .list-i-link, #sub-tit .ico_bookmark:before, #sub-tit .ico_bookmark.on:before, .sub_info_box .link_more .ico_more, .sub_info_box .list_qna li:before, .list-style .msg_permit:before, .list-style .sort_form .sort_card, .list-style .sort_form .sort_video, .list-style .sort_form .sort_album, .list-style .sort_form .sort_list, .list-style .sort_form .sort_card.is_selected, .list-style .sort_form .sort_video.is_selected, .list-style .sort_form .sort_album.is_selected, .list-style .sort_form .sort_list.is_selected, .article-movie-sub .like_area .comment_area .comment_ico, .article-movie-sub .like_area .u_likeit_list_module .u_ico, .article-movie-sub .like_area .u_likeit_list_module .on .u_ico, .article-movie-sub .movie-img .num:before, .article-movie-sub .movie-img .ico_play, .box_write .set_attach .btn_photo:before, .box_write .set_attach .btn_mov:before, .box_write .set_attach .btn_option:before, .simple_lst_section .layer_bookmark .link_close:before, .restrict_area .msg:before, .article-attendance .box_mission .link_del, .article-attendance .list_attendance .rank1, .article-attendance .list_attendance .rank2, .article-attendance .list_attendance .rank3, .article-cafekin .list_total .ico_answer, .article-cafekin .list_total .ico_pick, .article-tag .list_tag .desc_tag .ico_tag, .article-intro .tbl_cafe_info .lab_thmb, #main-area .list-tit span a:after, #main-area table.searchad .ico_npay, #main-area table.searchad .ico_nid, #main-area table.searchad .adsby .sa_logo, #main-area table.searchad .adsby .ico_help {
 		filter: invert(86%) !important;
 	}
 	
@@ -4556,7 +4778,7 @@
 		border: 1px solid #404040 !important;
 	}
 	
-	.select_component .select_list li a, .select_component .date_enter .tit, #naver_common_editor ul.subject .item, #naver_common_editor ul.subject .pd02, #naver_common_editor .file_attach_menu li a, #naver_common_editor ul.subject .infoattach a, #naver_common_editor div, #naver_common_editor ul, #naver_common_editor td, #naver_common_editor input, #naver_common_editor textarea, #naver_common_editor ul.post .item, .check_box label, .select_component2 .select_box, .select_component2 .select_list li a, #content-area .cmlist .comm, .u_cbox a, #content-area .box-reply2 .m-tcol-c, #content-area .cminput .u_cbox_btn_upload a, .spi_default .spi_ly_pop .spi_dsc, .spi_default, .spi_default ul, .spi_default li, .spi_default form, .spi_default fieldset, .spi_default legend, .spi_default input, .spi_lst_release strong, #main-area .m-tcol-c, #main-area .inbox .tbody, .keyword_alarm, input, #layer_msg .temporary_write .cafe_tab li.on a, .cafe_list h5, #gnb-menu a, #gnb-menu .view_mobile, #gnb-menu a.gnb_my .gnb_name, .tagarea .tag_item, .cc_layer_mynews .cc_mynews_list .cc_mynews_notice .notice_txt, .cc_layer_mynews .cc_mynews_list .info_title, .cc_layer_mynews .cc_mynews_list .cc_mynews_info {
+	.select_component .select_list li a, .select_component .date_enter .tit, #naver_common_editor ul.subject .item, #naver_common_editor ul.subject .pd02, #naver_common_editor .file_attach_menu li a, #naver_common_editor ul.subject .infoattach a, #naver_common_editor div, #naver_common_editor ul, #naver_common_editor td, #naver_common_editor input, #naver_common_editor textarea, #naver_common_editor ul.post .item, .check_box label, .select_component2 .select_box, .select_component2 .select_list li a, #content-area .cmlist .comm, .u_cbox a, #content-area .box-reply2 .m-tcol-c, #content-area .cminput .u_cbox_btn_upload a, .spi_default .spi_ly_pop .spi_dsc, .spi_default, .spi_default ul, .spi_default li, .spi_default form, .spi_default fieldset, .spi_default legend, .spi_default input, .spi_lst_release strong, #main-area .m-tcol-c, #main-area .inbox .tbody, .keyword_alarm, input, #layer_msg .temporary_write .cafe_tab li.on a, .cafe_list h5, #gnb-menu a, #gnb-menu .view_mobile, #gnb-menu a.gnb_my .gnb_name, .cc_layer_mynews .cc_mynews_list .cc_mynews_notice .notice_txt, .cc_layer_mynews .cc_mynews_list .info_title, .cc_layer_mynews .cc_mynews_list .cc_mynews_info {
 		color: #cacaca;
 	}
 	
@@ -4603,7 +4825,7 @@
 		color: #000;
 	}
 	
-	.se2_line_sticker_set li button img, html>body #naver_common_editor .inserttable_items span.color, .u_cbox .u_cbox_addition .u_cbox_btn_upload_sticker .m-tcol-c, .u_cbox .u_cbox_addition .u_cbox_btn_upload_photo .m-tcol-c, #group-area:not(.skin-1080) #cafe-menu .cafe-menu-space, #group-area:not(.skin-1080) .ia-action-data .prfl_thmb img, #content-area #sub-tit .img-per .thumb .mask+img {
+	.se2_line_sticker_set li button img, html>body #naver_common_editor .inserttable_items span.color, .u_cbox .u_cbox_addition .u_cbox_btn_upload_sticker .m-tcol-c, .u_cbox .u_cbox_addition .u_cbox_btn_upload_photo .m-tcol-c, #content-area #sub-tit .img-per .thumb .mask+img {
 		filter: invert(100%);
 	}
 	
@@ -4646,7 +4868,7 @@
 		color: #fff;
 	}
 	
-	#main-area:not(.skin-1080) .prev-next+form .list-search input, .seljs_title select, .seljs_title textarea, .seljs_title .list-search input {
+	.seljs_title select, .seljs_title textarea, .seljs_title .list-search input {
 		background-color: #242424;
 		border: 1px solid #404040 !important;
 	}
@@ -5033,6 +5255,359 @@
 	
 	.inspection a {
 		filter: invert(86%);
+	}
+	
+	.skin-1080 .article-guide {
+		border: 1px solid #404040;
+	}
+	
+	.skin-1080 .article-guide .tit_guide {
+		color: #cacaca;
+	}
+	
+	.layer {
+		background-color: #242424;
+		border: 2px solid #404040;
+	}
+	
+	.layer .btn_lyr_clse {
+		filter: invert(86%);
+	}
+	
+	.layer .cont_area .desc .inner {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.layer .btn_type_wh {
+		background-color: #2f2f2f;
+		color: #cacaca;
+		border: 1px solid #404040;
+	}
+	
+	.layer .layer_in .tit img {
+		filter: invert(86%);
+	}
+	
+	.tab_sub_wrap li.selected a {
+		color: #fff;
+	}
+	
+	.tab_sub_wrap {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.skin-1080 .mem_list_wrap ~ .prev-next, .skin-1080 .mem_list_wrap {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.search_mini .search_input {
+		border: 1px solid #404040;
+		background: #242424;
+		color: #cacaca;
+	}
+	
+	#gnb_my_lyr_iframe {
+		height: 0px !important;
+	}
+	
+	#vote_pop .main_list {
+		color: #cacaca;
+	}
+	
+	.tem1 .vote_bot {
+		border-top: 1px solid #404040;
+	}
+	
+	.tem1 .vote_bot span a img {
+		filter: invert(86%);
+	}
+	
+	.vote_main .main_top {
+		color: #cacaca;
+	}
+	
+	.vote_bot2 span a img {
+		filter: invert(86%);
+	}
+	
+	.list-blog {
+		border: 1px solid #404040;
+	}
+	
+	#comment_main2 {
+		width: 744px !important;
+	}
+	
+	#btn_addtext {
+		filter: invert(86%);
+	}
+	
+	.ln14 {
+		color: #978899;
+	}
+	
+	.list-blog .tag, .btn_ly_open {
+		filter: invert(86%);
+	}
+	
+	#main-area .list-btn-nor .m-tcol-c, #main-area .list-btn-nor2.upper-list .m-tcol-c {
+		color: #444 !important;
+	}
+	
+	.tbl_lst_type td .nick {
+		color: #fff;
+	}
+	
+	.article-reserve .title_cell {
+		color: #cacaca;
+	}
+	
+	.join_noti_section {
+		border: 1px solid #404040;
+		background: #242424;
+	}
+	
+	.join_noti_section .list_bold {
+		color: #fff;
+	}
+	
+	.skin-1080 #sub-tit .title_area p.m-tcol-c {
+		color: #222 !important;
+	}
+	
+	.skin-1080 #widget-count {
+		border: 1px solid #404040;
+	}
+	
+	.skin-1080 .com .box-ww {
+		background-color: #404040;
+	}
+	
+	#group-area:not(.skin-1080) .cafe-info-action .info-action-tab li.tit-info {
+		background: none;
+		border-left: 1px solid #404040;
+		border-right: 0;
+		box-sizing: border-box;
+	}
+	
+	#group-area:not(.skin-1080) .cafe-info-action .info-action-tab li.tit-action-on {
+		background: none;
+		border-left: 1px solid #404040;
+		border-right: 1px solid #404040;
+		box-sizing: border-box;
+	}
+	
+	#group-area:not(.skin-1080) .cafe-info-action .info-action-tab li.tit-info-on {
+		background: none;
+		border-left: 1px solid #404040;
+		border-right: 1px solid #404040;
+		box-sizing: border-box;
+	}
+	
+	#group-area:not(.skin-1080) .cafe-info-action .info-action-tab li.tit-action {
+		background: none;
+		border-left: 0;
+		border-right: 1px solid #404040;
+		box-sizing: border-box;
+	}
+	
+	#group-area:not(.skin-1080) .cafe-info-action .info-action-tab li.tit-bookmark {
+		background: none;
+		box-sizing: border-box;
+	}
+	
+	#group-area:not(.skin-1080) .cafe-info-action .info-action-tab li.tit-bookmark .btn-bookmark-on {
+		background-image: url(https://ssl.pstatic.net/static/cafe/cafe_pc/sp/sp_icon_white_72ca546e.svg);
+		background-position: -4px -2px;
+		box-sizing: border-box;
+		filter: none !important;
+	}
+	
+	#group-area:not(.skin-1080) .cafe-info-action .info-action-tab li.tit-bookmark .btn-bookmark-off {
+		background-image: url(https://ssl.pstatic.net/static/cafe/cafe_pc/sp/sp_icon_white_72ca546e.svg);
+		background-position: -38px -2px;
+		box-sizing: border-box;
+		filter: none !important;
+	}
+	
+	#group-area:not(.skin-1080) .cafe-info-action .info-action-tab li.tit-bookmark img {
+		width: 30px !important;
+		height: 33px !important;
+	}
+	
+	#group-area:not(.skin-1080) .cafe-info-action .ia-info-data li .mlink {
+		width: 100px;
+	}
+	
+	#group-area:not(.skin-1080) .cafe-info-action .box-g {
+		background: none;
+		border: 1px solid #404040;
+		box-sizing: border-box;
+	}
+	
+	#group-area:not(.skin-1080) .cafe-info-action .border-sub {
+		border-color: #404040;
+	}
+	
+	#group-area:not(.skin-1080) .info-action-tab {
+		width: 171px;
+		border-top: 1px solid #404040;
+		border-right: 1px solid #404040;
+		box-sizing: border-box;
+	}
+	
+	#group-area:not(.skin-1080) .ia-info-data li .ball .ico-manager {
+		background: none;
+		border: 1px solid #404040;
+	}
+	
+	#group-area:not(.skin-1080) .ia-info-data li .ball:after {
+		content: '매니저';
+		position: absolute;
+		font-size: 10px;
+		left: 2px;
+		top: 1px;
+	}
+	
+	#group-area:not(.skin-1080) .top_emblem_2016 {
+		border-bottom: 1px solid #404040;
+	}
+	
+	#group-area:not(.skin-1080) .ly_info_dsc .cont {
+		background: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	#group-area:not(.skin-1080) .ly_info_dsc .cont .tail2 {
+		filter: invert(82.3%);
+	}
+	
+	#group-area:not(.skin-1080) .top_emblem_2016 .logo {
+		background: url(https://ssl.pstatic.net/static/cafe/cafe_pc/aside_powercafe.png) no-repeat;
+		background-size: 40px 36px;
+		box-sizing: border-box;
+		padding-left: 40px;
+	}
+	
+	#group-area:not(.skin-1080) .cafe-info-action .ia-info-data, #group-area .cafe-info-action .ia-info-data2 {
+		border-color: #404040;
+	}
+	
+	#group-area:not(.skin-1080) .cafe-info-action .ia-info-btn {
+		border-top: 1px solid #404040;
+	}
+	
+	#group-area:not(.skin-1080) .cafe-info-action .btn-write {
+		background: #5a5a5a;
+	}
+	
+	#group-area:not(.skin-1080) .cafe-write-btn {
+		position: relative;
+	}
+	
+	#group-area:not(.skin-1080) .cafe-info-action .cafe-write-btn a[onclick="writeBoard();clickcr(this, 'mnu.write', '', '', event);return false;"]:before {
+		content: '카페 글쓰기';
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		color: #fff;
+		font-size: 13px;
+	}
+	
+	#group-area:not(.skin-1080) .cafe-info-action .cafe-write-btn a[onclick="joinCafe();return false;"]:before {
+		content: '카페 가입하기';
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		color: #fff;
+		font-size: 13px;
+	}
+	
+	#group-area:not(.skin-1080) .cafe-info-action .btn-join {
+		background: #5a5a5a;
+	}
+	
+	#group-area:not(.skin-1080) #cafe-search input {
+		border: 1px solid #404040;
+		background: #242424;
+		color: #cacaca;
+		width: 123px;
+	}
+	
+	#group-area:not(.skin-1080) .btn-search-green {
+		background: #019341;
+	}
+	
+	#group-area:not(.skin-1080) #cafe-search form a {
+		position: relative;
+		width: 41px;
+		height: 21px;
+	}
+	
+	#group-area:not(.skin-1080) #cafe-search form a:before {
+		content: '검색';
+		position: absolute;
+		color: #fff;
+		left: 50%;
+		top: 50%;
+		transform: translate(-45%, -45%);
+		font-size: 13px;
+	}
+	
+	#group-area:not(.skin-1080) .ia-action-data .name img.btn_edit {
+		border: 1px solid #404040;
+		box-sizing: border-box;
+		padding-left: 23px;
+	}
+	
+	#group-area:not(.skin-1080) .ia-action-data .name .prfl_info a {
+		position: relative;
+	}
+	
+	#group-area:not(.skin-1080) .ia-action-data .name .prfl_info a:before {
+		content: 'EDIT';
+		position: absolute;
+		color: #fff;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 8px;
+	}
+	
+	#group-area:not(.skin-1080) .cafe-info-action .ia-action-data {
+		border-color: #404040;
+	}
+	
+	#group-area:not(.skin-1080) #cafe-menu .box-g-t, #group-area:not(.skin-1080) #cafe-menu .box-g-b {
+		background: #404040;
+	}
+	
+	#group-area:not(.skin-1080) #cafe-menu .box-g-m {
+		background: none;
+	}
+	
+	#group-area:not(.skin-1080) #cafe-menu .cafe-menu-tit.frst {
+		border: none !important;
+	}
+	
+	#group-area:not(.skin-1080) #cafe-menu .cafe-menu-tit {
+		background: none;
+		border-bottom: 1px solid #404040;
+	}
+	
+	#content-area #group-area:not(.skin-1080) .tcol-t, #content-area #group-area:not(.skin-1080) .tcol-c {
+		color: #cacaca;
+	}
+	
+	.skin-1080 .article-intro .box_profile {
+		background-color: #2f2f2f;
+	}
+	
+	.skin-1080 .search_result .alarm_switch {
+		color: #cacaca;
 	}
 }
 
@@ -5776,9 +6351,42 @@
 
 @-moz-document url-prefix("https://cafe.naver.com/MyCafeIntro.nhn")
 {
-	html, head { background: #242424; }
-	#widget-count { filter: invert(86%); border: none !important; background-color: #fff !important; }
-	#content-area .tcol-p { color: #fff !important; }
+	html, head {
+		background: #242424;
+	}
+	
+	#content-area .tcol-p {
+		color: #fff !important;
+	}
+	
+	#main-area:not(.skin-1080) #widget-count {
+		height: 40px;
+		background: none;
+		border: 1px solid #404040 !important;
+		box-sizing: border-box;
+	}
+	
+	#main-area:not(.skin-1080) #widget-count .cnt1, #main-area:not(.skin-1080) #widget-count .cnt2 {
+		margin: 5px;
+		margin-left: 70px;
+	}
+	
+	#main-area:not(.skin-1080) #widget-count p span.txt {
+		margin: 5px;
+		position: absolute;
+		display: inline-block;
+		font-weight: bold;
+		font-size: 10px;
+		text-transform: uppercase;
+	}
+	
+	#main-area:not(.skin-1080) #widget-count p.total span.txt {
+		margin-top: 20px;
+	}
+	
+	#main-area:not(.skin-1080) #widget-count .cnt2 {
+		margin-top: 20px;
+	}
 }
 
 @-moz-document url-prefix("https://cafe.naver.com/CafeApply")
@@ -5840,68 +6448,410 @@
 
 @-moz-document url-prefix("https://datalab.naver.com")
 {
-	html, head { background: #242424; }
-	.header .sp_sta { background: none; color: #019341; }
-	.header .sp_sta .blind { overflow: auto; width: 200px; height: 30px; margin-top: 3px; clip: auto; font-size: 15px; font-family: 'Arial Black'; }
-	.tab_list_area .list.on .list_itm, .com_title_list_area .list.active .list_area { border-bottom: 2px solid #019341; color: #cacaca; }
-	.select .select_list { background: #242424; border: 1px solid #404040; border-top: 0; }
-	.tab_list_area .list_itm:hover, .com_title_list_area .list_area:hover { color: #c4c4c4; border-bottom: 2px solid #4c4c4c; }
-	.graph_area .graph_period .period, .section_local_status .select, .local_search_box .select, .step_form .select, .step_form .period, .step_form .input_text, .section_ca_board .edit_header .input_text, .section_opendata .srch_sub .select, .section_opendata .srch_sub .srch_sub_text, .section_srch_trend .trend_form .select, .section_srch_trend .trend_form .input_text { border: 1px solid #404040; background-color: #242424; color: #cacaca; }
-	.step_form .period.active { background: #4c4c4c; }
-	.select_chk.v1 .lbl.active:before, .select_chk .chk:checked + .lbl:not(.active):before, .select_chk.v1 .chk:checked + .lbl:not(.active):before { filter: invert(0%); }
-	.ca_btn_go { background: #019341; }
-	.ca_btn_go:before { mix-blend-mode: screen; }
-	.bb-axis-x .tick tspan:nth-child(1) { fill: #fff; }
-	.section_serch_area .date_indo .date_box { color: #cacaca; border-color: #404040; }
-	.section_serch_area .time_indo .time_box { color: #cacaca; border-color: #404040; }
-	.layer_time { border: 1px solid #404040; background: #242424; }
-	.layer_time .time_input { color: #fff; border: 1px solid #404040; background: #242424; }
-	.layer_time .lst_time li a { color: #fff; background: #242424; }
-	.time_scroll .iScrollVerticalScrollbar { background: #242424; border-left: 1px solid #404040; }
-	.time_scroll { background-color: #242424; border: 1px solid #404040; border-left: 0; }
-	.sel_indo .select .select_btn { background-color: #242424; color: #cacaca; }
-	.sel_indo .select .select_list li .option:hover { color: #cacaca; background: #2c2c2c; }
-	.keyword_rank .num { background: #242424; border: 1px solid #404040; color: #fff; }
-	.btn_data .data_txt { color: #000; }
-	.btn_data .data_txt:after { border-color: transparent transparent transparent #000; }
-	.btn_submit { background-color: #2c2c2c; border-top: 1px solid #404040; }
-	.chart:before { border-left: 1px dashed #404040; }
-	.section_local .map_select .filter_area > strong { background-color: #242424; border-bottom: 1px solid #404040; }
-	.tab_w_graph .graph_list { background: #242424; border-right: 1px solid #404040; }
-	.graph_tooltip .tooltip_period { border-bottom: 1px solid #404040; background: #242424; color: #cacaca; }
-	.com_btn_reset { border: 1px solid #404040; background: #242424; color: #cacaca; }
-	.section_trend .filter_title { color: #cacaca; background: #404040; }
-	.section_trend .filter_area:last-child .filter_option { border-right: 1px solid #404040; }
-	.com_btn_srch { color: #000!important; }
-	.graph_area .graph_title .jump_banner:after { background-color: #242424; }
-	.set_keyword2 .cell.input input { color: #cacaca; background-color: #242424; }
-	.set_keyword2 .cell.keyword { background-color: #2c2c2c; border: 1px solid #404040; border-width: 1px 0; }
-	.section_opendata.v2 .opendata_result .result_sort_area { border-bottom-color: #404040; }
-	.local_search_box .box2 { border-top: 1px solid #404040; background-color: #2a2a2a; }
-	.lnb, .section_trend .filter_option { background: #242424; border-bottom: 1px solid #404040; }
-	.lnb .list:not(.active) .nav1, .lnb .list:not(.active) .nav2, .lnb .list:not(.active) .nav3, .lnb .list:not(.active) .nav4, .lnb .list:not(.active) .nav5, .lnb .list:not(.active) .nav6, .lnb .list:not(.active) .nav7, .lnb .list:not(.active) .nav8, .select .select_btn:after, .section_keyword.spot .keyword_area.real_time .keyword_notice .btn_more_keyword:after, .step_form .sp_btn_keyword_del, .select_chk .lbl:before, .section_serch_area .btn_keyword_del, .calendar_head .calendar-btn-prev-mon .btn_prev, .calendar_head .calendar-btn-next-mon .btn_next, .calendar_body, .graph_area .graph_title .title + .title:before, .graph_area .com_loading .loading_area img, .com_btn_reset:before, .sp_ca_guide.step1, .sp_ca_guide.step2, .sp_ca_guide.step3, .sp_ca_guide.step4, .tab_w_graph .sub_title.active .sp_graph_num.v1, .tab_w_graph .sub_title.active .sp_graph_num.v2, .tab_w_graph .sub_title.active .sp_graph_num.v3, .tab_w_graph .sub_title.active .sp_graph_num.v4, .tab_w_graph .sub_title.active .sp_graph_num.v5, .tab_w_graph .sub_title.active .sp_graph_num.v6, .tab_w_graph .sub_title.active .sp_graph_num.v7, .tab_w_graph .sub_title.active .sp_graph_num.v8, .tab_w_graph .sub_title.active .sp_graph_num.v9, .tab_w_graph .sub_title.active .sp_graph_num.v10, .layer_popup_progress_inner:before, .pie_graph_area .ico_layer_graph, .section_graph .sort_list .list.active:before, .statistics_top_area .date_indo .date_btn, .statistics_top_area .date_indo .date_btn:hover, .tooltip_icon:after, .section_opendata.v2 .sort_sub .h_title a::before, .section_local_status .card_agency dd a img { filter: invert(86%); }
-	.lnb:before, .section_graph.keyword .keyword_btn_prev, .section_graph.keyword .keyword_btn_next, .keyword_rank .rank_title:after, .graph_cate.board .list_value:before, .graph_area .graph_period .period.active, .section_opendata .com_box_inner:before, .opendata_result .result_list .list_title .date:before, .opendata_result .result_list .type:before, .opendata_result .result_list .offer:before { background: #404040; }
-	.spot, .spot.section_keyword .keyword_btn_prev, .spot.section_keyword .keyword_btn_next, .section_graph .graph_desc_area, .layer_time .lst_time li a:hover, .layer_time .lst_time li.selected a:hover, .section_trend .filter_option.inactive_area { background: #2c2c2c; }
-	.spot_title .title, .select .select_btn, .select .select_list .option, .section_keyword.spot .keyword_area.real_time .keyword_notice .btn_more_keyword, .keyword_rank .rank_title, .section_home_local .list_desc .desc_title, .set_keyword .input_text.w4, .insite_form .category .select .select_btn, .section_local .map_select .filter_area .filter_option .map_list li a, .graph_progress_cate .rank_txt, .graph_progress_cate .count_txt, .graph_progress_cate .percent_txt, .pie_graph_area .info_percent, .section_graph .sort_list .list.active, .tooltip_layer .tooltip_desc, .local_search_box label, .section_trend .result_filter .result_sub_text { color: #cacaca; }
-	.tab_list_area, .com_title_list_area, .section_trend .trend_tab { border-bottom: 2px solid #404040; }
-	.select, .section_serch_area .set_keyword, .graph_tooltip, .tooltip_layer { background: #242424; border: 1px solid #404040; }
-	.scroll_cst::-webkit-scrollbar-track, .scroll_cst::-webkit-scrollbar, .graph_area .com_loading, .section_insite.blank_space { background: #242424; }
-	.scroll_cst::-webkit-scrollbar-thumb, .time_scroll .iScrollIndicator { background: #2f2f2f; }
-	.keyword_rank .rank_inner, .section_insite { background: #242424; border: 1px solid #404040; box-shadow: 1px 1px 0 0 #404040; }
-	.section_keyword.spot .keyword_area.real_time .keyword_rank .num, .layer_time .hour_minute, .keyword_rank .list_area, .section_insite .insite_title, .section_trend .trend_tab .tab_list .list, .section_trend .option_list .list_title, .set_keyword2 .cell.keyword span, .section_insite.blank_space .not_find_text, .section_opendata.v2 .opendata_result .result_sort_area .sort_sub_title, .section_opendata.srch .result_none .title { color: #fff; }
-	.container, .section_keyword .keyword_btn_prev, .section_keyword .keyword_btn_next, .wrap { background: #2a2a2a; }
-	.section_banner .banner_inner, .com_box_inner, .section_home_local .list a, .section_insite_sub .section_insite { border: 1px solid #404040; background: #242424; box-shadow: 1px 1px 0 0 #404040; }
-	.step_form .form_row.hr, .sub_area, .pie_graph_area .cate_list, .opendata_result .result_list .list + .list, .section_opendata.srch .result_none .suggest_area, .section_keyword .keyword_carousel + .status_keyword_desc { border-top: 1px solid #404040; }
-	.graph_cate.board, .sub_area .btn_today, .sel_indo .select, .jcarousel.carousel_line_r:after, .set_period.category .select .select_list, .top1000_btn_area .btn_page_box .btn_page_prev, .top1000_btn_area .btn_page_box .btn_page_next, .graph_cate.full, .section_trend .tool_result, .graph_area .graph_title .jump_banner, .set_keyword_wrap, .com_paginate strong.page_num, .section_opendata.v2 .com_paginate .page_next, .local_search_box { border: 1px solid #404040; }
-	.com_box_inner .guide_desc, .com_title.title_middle, .section_insite .insite_title.v2, .section_insite_sub .section_insite .insite_title, .opendata_result .result_sort_area, .section_opendata.v2 .sort_sub, .opendata_result .result_list { border-bottom: 1px solid #404040; }
-	.section_serch_area .date_indo, .sel_indo .select .select_list { border: 1px solid #404040; background-color: #242424; }
-	.layer_area, .section_serch_area .time_indo, .insite_inquiry, .layer_popup_progress_inner, .layer_popup_noti_inner { background-color: #242424; border: 1px solid #404040; }
-	.section_local .map_select .filter_area + .filter_area, .section_trend .filter_area:first-child .filter_option, .local_search_box .box1 .inner + .inner { border-left: 1px solid #404040; }
-	.com_btn_srch:before, .opendata_result .result_sort_area .sort_sub_title .title + .title:before { filter: invert(100%); }
-	.form_float + .form_float:before, .horizontal_list .list_group li:first-child:before, .horizontal_list .list_group li:before, .section_local_status .status_keyword_desc .card_agency dt:after { background-color: #404040; }
-	.statistics_top_area .info_box, .local_search_box .select .select_btn { background-color: #242424; border-color: #404040; }
-	.local_search_box .box1 .inner, .local_search_box .select .select_btn.active { background-color: #2c2c2c; }
-	.local_search_box .box2 .select .select_btn, .local_search_box .select .select_btn.active + .select_list { border-color: #404040; }
+	html, head {
+		background: #242424;
+	}
+	
+	.header .sp_sta {
+		background: none;
+		color: #019341;
+	}
+	
+	.header .sp_sta .blind {
+		overflow: auto;
+		width: 200px;
+		height: 30px;
+		margin-top: 3px;
+		clip: auto;
+		font-size: 15px;
+		font-family: 'Arial Black';
+	}
+	
+	.tab_list_area .list.on .list_itm, .com_title_list_area .list.active .list_area {
+		border-bottom: 2px solid #019341;
+		color: #cacaca;
+	}
+	
+	.select .select_list {
+		background: #242424;
+		border: 1px solid #404040;
+		border-top: 0;
+	}
+	
+	.tab_list_area .list_itm:hover, .com_title_list_area .list_area:hover {
+		color: #c4c4c4;
+		border-bottom: 2px solid #4c4c4c;
+	}
+	
+	.graph_area .graph_period .period, .section_local_status .select, .local_search_box .select, .step_form .select, .step_form .period, .step_form .input_text, .section_ca_board .edit_header .input_text, .section_opendata .srch_sub .select, .section_opendata .srch_sub .srch_sub_text, .section_srch_trend .trend_form .select, .section_srch_trend .trend_form .input_text {
+		border: 1px solid #404040;
+		background-color: #242424;
+		color: #cacaca;
+	}
+	
+	.step_form .period.active {
+		background: #4c4c4c;
+	}
+	
+	.select_chk.v1 .lbl.active:before, .select_chk .chk:checked+.lbl:not(.active):before, .select_chk.v1 .chk:checked+.lbl:not(.active):before {
+		filter: invert(0%);
+	}
+	
+	.ca_btn_go {
+		background: #019341;
+	}
+	
+	.ca_btn_go:before {
+		mix-blend-mode: screen;
+	}
+	
+	.bb-axis-x .tick tspan:nth-child(1) {
+		fill: #fff;
+	}
+	
+	.section_serch_area .date_indo .date_box {
+		color: #cacaca;
+		border-color: #404040;
+	}
+	
+	.section_serch_area .time_indo .time_box {
+		color: #cacaca;
+		border-color: #404040;
+	}
+	
+	.layer_time {
+		border: 1px solid #404040;
+		background: #242424;
+	}
+	
+	.layer_time .time_input {
+		color: #fff;
+		border: 1px solid #404040;
+		background: #242424;
+	}
+	
+	.layer_time .lst_time li a {
+		color: #fff;
+		background: #242424;
+	}
+	
+	.time_scroll .iScrollVerticalScrollbar {
+		background: #242424;
+		border-left: 1px solid #404040;
+	}
+	
+	.time_scroll {
+		background-color: #242424;
+		border: 1px solid #404040;
+		border-left: 0;
+	}
+	
+	.sel_indo .select .select_btn {
+		background-color: #242424;
+		color: #cacaca;
+	}
+	
+	.sel_indo .select .select_list li .option:hover {
+		color: #cacaca;
+		background: #2c2c2c;
+	}
+	
+	.keyword_rank .num {
+		background: #242424;
+		border: 1px solid #404040;
+		color: #fff;
+	}
+	
+	.btn_data .data_txt {
+		color: #000;
+	}
+	
+	.btn_data .data_txt:after {
+		border-color: transparent transparent transparent #000;
+	}
+	
+	.btn_submit {
+		background-color: #2c2c2c;
+		border-top: 1px solid #404040;
+	}
+	
+	.chart:before {
+		border-left: 1px dashed #404040;
+	}
+	
+	.section_local .map_select .filter_area>strong {
+		background-color: #242424;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.tab_w_graph .graph_list {
+		background: #242424;
+		border-right: 1px solid #404040;
+	}
+	
+	.graph_tooltip .tooltip_period {
+		border-bottom: 1px solid #404040;
+		background: #242424;
+		color: #cacaca;
+	}
+	
+	.com_btn_reset {
+		border: 1px solid #404040;
+		background: #242424;
+		color: #cacaca;
+	}
+	
+	.section_trend .filter_title {
+		color: #cacaca;
+		background: #404040;
+	}
+	
+	.section_trend .filter_area:last-child .filter_option {
+		border-right: 1px solid #404040;
+	}
+	
+	.com_btn_srch {
+		color: #000 !important;
+	}
+	
+	.graph_area .graph_title .jump_banner:after {
+		background-color: #242424;
+	}
+	
+	.set_keyword2 .cell.input input {
+		color: #cacaca;
+		background-color: #242424;
+	}
+	
+	.set_keyword2 .cell.keyword {
+		background-color: #2c2c2c;
+		border: 1px solid #404040;
+		border-width: 1px 0;
+	}
+	
+	.section_opendata.v2 .opendata_result .result_sort_area {
+		border-bottom-color: #404040;
+	}
+	
+	.local_search_box .box2 {
+		border-top: 1px solid #404040;
+		background-color: #2a2a2a;
+	}
+	
+	.lnb, .section_trend .filter_option {
+		background: #242424;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.lnb .list:not(.active) .nav1, .lnb .list:not(.active) .nav2, .lnb .list:not(.active) .nav3, .lnb .list:not(.active) .nav4, .lnb .list:not(.active) .nav5, .lnb .list:not(.active) .nav6, .lnb .list:not(.active) .nav7, .lnb .list:not(.active) .nav8, .select .select_btn:after, .section_keyword.spot .keyword_area.real_time .keyword_notice .btn_more_keyword:after, .step_form .sp_btn_keyword_del, .select_chk .lbl:before, .section_serch_area .btn_keyword_del, .calendar_head .calendar-btn-prev-mon .btn_prev, .calendar_head .calendar-btn-next-mon .btn_next, .calendar_body, .graph_area .graph_title .title+.title:before, .graph_area .com_loading .loading_area img, .com_btn_reset:before, .sp_ca_guide.step1, .sp_ca_guide.step2, .sp_ca_guide.step3, .sp_ca_guide.step4, .tab_w_graph .sub_title.active .sp_graph_num.v1, .tab_w_graph .sub_title.active .sp_graph_num.v2, .tab_w_graph .sub_title.active .sp_graph_num.v3, .tab_w_graph .sub_title.active .sp_graph_num.v4, .tab_w_graph .sub_title.active .sp_graph_num.v5, .tab_w_graph .sub_title.active .sp_graph_num.v6, .tab_w_graph .sub_title.active .sp_graph_num.v7, .tab_w_graph .sub_title.active .sp_graph_num.v8, .tab_w_graph .sub_title.active .sp_graph_num.v9, .tab_w_graph .sub_title.active .sp_graph_num.v10, .layer_popup_progress_inner:before, .pie_graph_area .ico_layer_graph, .section_graph .sort_list .list.active:before, .statistics_top_area .date_indo .date_btn, .statistics_top_area .date_indo .date_btn:hover, .tooltip_icon:after, .section_opendata.v2 .sort_sub .h_title a::before, .section_local_status .card_agency dd a img {
+		filter: invert(86%);
+	}
+	
+	.lnb:before, .section_graph.keyword .keyword_btn_prev, .section_graph.keyword .keyword_btn_next, .keyword_rank .rank_title:after, .graph_cate.board .list_value:before, .graph_area .graph_period .period.active, .section_opendata .com_box_inner:before, .opendata_result .result_list .list_title .date:before, .opendata_result .result_list .type:before, .opendata_result .result_list .offer:before {
+		background: #404040;
+	}
+	
+	.spot, .spot.section_keyword .keyword_btn_prev, .spot.section_keyword .keyword_btn_next, .section_graph .graph_desc_area, .layer_time .lst_time li a:hover, .layer_time .lst_time li.selected a:hover, .section_trend .filter_option.inactive_area {
+		background: #2c2c2c;
+	}
+	
+	.spot_title .title, .select .select_btn, .select .select_list .option, .section_keyword.spot .keyword_area.real_time .keyword_notice .btn_more_keyword, .keyword_rank .rank_title, .section_home_local .list_desc .desc_title, .set_keyword .input_text.w4, .insite_form .category .select .select_btn, .section_local .map_select .filter_area .filter_option .map_list li a, .graph_progress_cate .rank_txt, .graph_progress_cate .count_txt, .graph_progress_cate .percent_txt, .pie_graph_area .info_percent, .section_graph .sort_list .list.active, .tooltip_layer .tooltip_desc, .local_search_box label, .section_trend .result_filter .result_sub_text {
+		color: #cacaca;
+	}
+	
+	.tab_list_area, .com_title_list_area, .section_trend .trend_tab {
+		border-bottom: 2px solid #404040;
+	}
+	
+	.select, .section_serch_area .set_keyword, .graph_tooltip, .tooltip_layer {
+		background: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.scroll_cst::-webkit-scrollbar-track, .scroll_cst::-webkit-scrollbar, .graph_area .com_loading, .section_insite.blank_space {
+		background: #242424;
+	}
+	
+	.scroll_cst::-webkit-scrollbar-thumb, .time_scroll .iScrollIndicator {
+		background: #2f2f2f;
+	}
+	
+	.keyword_rank .rank_inner, .section_insite {
+		background: #242424;
+		border: 1px solid #404040;
+		box-shadow: 1px 1px 0 0 #404040;
+	}
+	
+	.section_keyword.spot .keyword_area.real_time .keyword_rank .num, .layer_time .hour_minute, .keyword_rank .list_area, .section_insite .insite_title, .section_trend .trend_tab .tab_list .list, .section_trend .option_list .list_title, .set_keyword2 .cell.keyword span, .section_insite.blank_space .not_find_text, .section_opendata.v2 .opendata_result .result_sort_area .sort_sub_title, .section_opendata.srch .result_none .title {
+		color: #fff;
+	}
+	
+	.container, .section_keyword .keyword_btn_prev, .section_keyword .keyword_btn_next, .wrap {
+		background: #2a2a2a;
+	}
+	
+	.section_banner .banner_inner, .com_box_inner, .section_home_local .list a, .section_insite_sub .section_insite {
+		border: 1px solid #404040;
+		background: #242424;
+		box-shadow: 1px 1px 0 0 #404040;
+	}
+	
+	.step_form .form_row.hr, .sub_area, .pie_graph_area .cate_list, .opendata_result .result_list .list+.list, .section_opendata.srch .result_none .suggest_area, .section_keyword .keyword_carousel+.status_keyword_desc {
+		border-top: 1px solid #404040;
+	}
+	
+	.graph_cate.board, .sub_area .btn_today, .sel_indo .select, .jcarousel.carousel_line_r:after, .set_period.category .select .select_list, .top1000_btn_area .btn_page_box .btn_page_prev, .top1000_btn_area .btn_page_box .btn_page_next, .graph_cate.full, .section_trend .tool_result, .graph_area .graph_title .jump_banner, .set_keyword_wrap, .com_paginate strong.page_num, .section_opendata.v2 .com_paginate .page_next, .local_search_box {
+		border: 1px solid #404040;
+	}
+	
+	.com_box_inner .guide_desc, .com_title.title_middle, .section_insite .insite_title.v2, .section_insite_sub .section_insite .insite_title, .opendata_result .result_sort_area, .section_opendata.v2 .sort_sub, .opendata_result .result_list {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.section_serch_area .date_indo, .sel_indo .select .select_list {
+		border: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	.layer_area, .section_serch_area .time_indo, .insite_inquiry, .layer_popup_progress_inner, .layer_popup_noti_inner {
+		background-color: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.section_local .map_select .filter_area+.filter_area, .section_trend .filter_area:first-child .filter_option, .local_search_box .box1 .inner+.inner {
+		border-left: 1px solid #404040;
+	}
+	
+	.com_btn_srch:before, .opendata_result .result_sort_area .sort_sub_title .title+.title:before {
+		filter: invert(100%);
+	}
+	
+	.form_float+.form_float:before, .horizontal_list .list_group li:first-child:before, .horizontal_list .list_group li:before, .section_local_status .status_keyword_desc .card_agency dt:after {
+		background-color: #404040;
+	}
+	
+	.statistics_top_area .info_box, .local_search_box .select .select_btn {
+		background-color: #242424;
+		border-color: #404040;
+	}
+	
+	.local_search_box .box1 .inner, .local_search_box .select .select_btn.active {
+		background-color: #2c2c2c;
+	}
+	
+	.local_search_box .box2 .select .select_btn, .local_search_box .select .select_btn.active+.select_list {
+		border-color: #404040;
+	}
+	
+	.com_title.title_keyword .title {
+		color: #fff;
+	}
+	
+	.selection_area .selection_header {
+		border-bottom: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.field_option {
+		border-right: 1px solid #404040;
+	}
+	
+	.selection_area .selection_content {
+		background-color: #242424;
+	}
+	
+	.selection_area {
+		border: 1px solid #404040;
+	}
+	
+	.selection_box .title_txt {
+		color: #fff;
+	}
+	
+	.selection_box + .selection_box .box_wrap:before {
+		background-color: #404040;
+	}
+	
+	.selection_box .section_serch_area .date_box .date_txt, .selection_box .section_serch_area .time_box .time_txt {
+		color: #fff;
+	}
+	
+	.section_keyword_detail .graph_tab_box .graph_tab_list li {
+		border: 1px solid #404040;
+	}
+	
+	.graph_tab_box .graph_tab_list li {
+		border: solid #404040;
+		border-width: 1px 1px 1px 0;
+	}
+	
+	.section_keyword_detail {
+		background-color: #242424;
+	}
+	
+	.section_keyword_detail .graph_tab_box .graph_tab_list li.on a {
+		background-color: #019341;
+		color: #242424;
+	}
+	
+	.various_filter_area .filter_list, .previous_data {
+		background-color: #242424;
+	}
+	
+	.data_item a {
+		color: #cacaca;
+		border: 1px solid #404040;
+	}
+	
+	.filter_item .item_graph_wrap {
+		background-color: #404040;
+	}
+	
+	.ranking_item .item_num, .ranking_item .item_title {
+		color: #fff;
+	}
+	
+	.ranking_box:before {
+		background-color: #404040;
+	}
+	
+	.selection_box .section_keyword_detail .graph_tab_list li.on a:before {
+		border: 1px solid #404040;
+	}
+	
+	.tooltip_guide .tooltip_wrap {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.tooltip_guide .tooltip_txt {
+		color: #cacaca;
+	}
+	
+	.com_title_wide {
+		background-color: #2f2f2f;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.tab_w_graph .graph_area .graph_tit, .page_area .page_num {
+		color: #fff;
+	}
+	
+	.bb-xgrid-line line, .bb-grid line.bb-ygrid {
+		stroke: #404040;
+	}
+	
+	.page_area .btn_page_prev, .page_area .btn_page_next {
+		filter: invert(86%);
+	}
+	
+	.tab_w_graph .graph_list .title_area .title {
+		color: #fff;
+	}
+	
+	.filter_item .item_title {
+		color: #242424;
+	}
 }
 
 @-moz-document url-prefix("https://mashup.map.naver.com")
@@ -7837,5 +8787,2987 @@
 	.paging .pre, .paging .next {
 		border: 1px solid #404040;
 		color: #cacaca;
+	}
+}
+
+@-moz-document url-prefix("https://cafe.naver.com/CafeStaffView.nhn")
+{
+	.bx2_shadow {
+		border: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.bx2 {
+		bordeR: 1px solid #404040;
+	}
+	
+	
+	.bx2 * {
+		color: #cacaca;
+	}
+	
+	.desc2 {
+		border-top: 1px solid #404040;
+	}
+	
+	#content {
+		border-bottom: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	#footer {
+		border-top: 3px solid #404040;
+	}
+	
+	.board_list li {
+		filter: invert(86%);
+	}
+	
+	#footer img {
+		filter: invert(86%);
+	}
+	
+	h1 {
+		color: #fff;
+		background: none;
+		background-color: #404040;
+	}
+	
+	#header {
+		background: none;
+		background-color: #404040;
+	}
+}
+
+@-moz-document url-prefix("https://cafe.naver.com/MemberDelegate.nhn")
+{
+	.desc1 {
+		color: #fff;
+	}
+	
+	.bx1_shadow {
+		background: #2f2f2f;
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.bx1 {
+		border: 1px solid #404040;
+	}
+	
+	#footer img {
+		filter: invert(86%);
+	}
+	
+	h1 {
+		background: none;
+		background-color: #404040;
+	}
+	
+	#header {
+		background: none;
+		background-color: #404040;
+	}
+	
+	.desc3 input {
+		filter: invert(86%);
+	}
+}
+
+@-moz-document url-prefix("https://cafe.naver.com/ManagerDelegateNoticePopup.nhn")
+{
+	.text_area .desc {
+		color: #cacaca;
+	}
+	
+	.user_area {
+		background-color: #2f2f2f;
+	}
+	
+	h1 {
+		color: #000;
+	}
+	
+	.user_area .info .ic_and {
+		background-color: #404040;
+	}
+	
+	.header {
+		background-color: #019341;
+	}
+	
+	.footer .btn_green {
+		border: 1px solid #019341;
+		color: #019341;
+	}
+}
+
+@-moz-document url-prefix("https://cafe.naver.com/Manage"), url-prefix("https://cafe.stat.naver.com/cafe")
+{
+	html, head, body {
+		background: #242424;
+	}
+	
+	#join-cafe-iframe {
+		border: 1px solid #404040;
+	}
+	
+	#header {
+		background: #505050;
+	}
+	
+	#header .gnb {
+		background: #404040;
+	}
+	
+	#header .lnb {
+		background: #505050;
+		height: 67px;
+	}
+	
+	.gnb .go_adm {
+		background: none;
+	}
+	
+	.gnb .go_adm:after {
+		position: absolute;
+		content: '카페관리';
+		top: -34px;
+		left: 70px;
+		color: #fff;
+	}
+	
+	.gnb .go_nvr:after {
+		filter: invert(86%);
+		position: absolute;
+		content: '';
+		background: url(https://ssl.pstatic.net/static/cafe/cafe_pc/sp/sp_icon_06952b76.svg);
+		background-repeat: no-repeat;
+		background-position: -4px -4px;
+		width: 60px;
+		height: 16px;
+		top: 7.5px;
+		left: 10px;
+	}
+	
+	.gnb .go_nvr {
+		background: none;
+	}
+	
+	.lnb .lnb_menu {
+		background: none;
+		width: 750px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/* Manage Home */
+	
+	.lnb .lnb_menu .menu {
+		width: 68px;
+		height: 67px;
+		background: #505050;
+		position: relative;
+	}
+	
+	.lnb .lnb_menu .menu a:before {
+		content: '관리 홈';
+		position: absolute;
+		font-weight: bold;
+		top: 50%;
+		color: #cacaca;
+		width: 67px;
+		height: 20px;
+		text-align: center;
+		transform: translateY(40%);
+	}
+	
+	.lnb .lnb_menu .menu a:after {
+		content: '';
+		background: url(https://glyphicons.com/img/glyphicons/basic/2x/glyphicons-basic-21-home@2x.png) no-repeat;
+		filter: invert(80%);
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -80%);
+		background-size: 25px 25px;
+	}
+	
+	.lnb .lnb_menu .menu .on2 {
+		width: 68px;
+		height: 67px;
+		background: #595959;
+	}
+	
+	.lnb .lnb_menu .menu a.on2:before {
+		content: '관리 홈';
+		position: absolute;
+		font-weight: bold;
+		top: 50%;
+		color: #fff;
+		width: 67px;
+		height: 20px;
+		text-align: center;
+		transform: translateY(40%);
+	}
+	
+	.lnb .lnb_menu .menu a.on2:after {
+		content: '';
+		background: url(https://glyphicons.com/img/glyphicons/basic/2x/glyphicons-basic-21-home@2x.png) no-repeat;
+		filter: invert(100%);
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -80%);
+		background-size: 25px 25px;
+	}
+	
+	.lnb .lnb_menu .menu .on {
+		width: 68px;
+		height: 67px;
+		background: #019341;
+	}
+	
+	.lnb .lnb_menu li.menu a.on {
+		height: 67px;
+	}
+	
+	.lnb .lnb_menu .menu a.on:before {
+		content: '관리 홈';
+		position: absolute;
+		font-weight: bold;
+		top: 50%;
+		color: #000;
+		width: 67px;
+		height: 20px;
+		text-align: center;
+		transform: translateY(40%);
+	}
+	
+	.lnb .lnb_menu .menu a.on:after {
+		content: '';
+		background: url(https://glyphicons.com/img/glyphicons/basic/2x/glyphicons-basic-21-home@2x.png) no-repeat;
+		filter: invert(0%);
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -80%);
+		background-size: 25px 25px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/* Administrate Cafe */
+	
+	.lnb .lnb_menu .menu2 {
+		width: 68px;
+		height: 67px;
+		background: #505050;
+		position: relative;
+	}
+	
+	.lnb .lnb_menu .menu2 > a:before {
+		content: '카페 운영';
+		position: absolute;
+		font-weight: bold;
+		top: 50%;
+		color: #cacaca;
+		width: 67px;
+		height: 20px;
+		text-align: center;
+		transform: translateY(40%);
+	}
+	
+	.lnb .lnb_menu .menu2 > a:after {
+		content: '';
+		background: url(https://glyphicons.com/img/glyphicons/basic/2x/glyphicons-basic-137-cogwheel@2x.png) no-repeat;
+		filter: invert(80%);
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -80%);
+		background-size: 25px 25px;
+	}
+	
+	.lnb .lnb_menu .menu2 .on2 {
+		width: 68px;
+		height: 67px;
+		background: #595959;
+	}
+	
+	.lnb .lnb_menu li.menu2 a.on {
+		height: 67px;
+	}
+	
+	.lnb .lnb_menu .menu2 > a.on2:before {
+		content: '카페 운영';
+		position: absolute;
+		font-weight: bold;
+		top: 50%;
+		color: #fff;
+		width: 67px;
+		height: 20px;
+		text-align: center;
+		transform: translateY(40%);
+	}
+	
+	.lnb .lnb_menu .menu2 > a.on2:after {
+		content: '';
+		background: url(https://glyphicons.com/img/glyphicons/basic/2x/glyphicons-basic-137-cogwheel@2x.png) no-repeat;
+		filter: invert(100%);
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -80%);
+		background-size: 25px 25px;
+	}
+	
+	.lnb .lnb_menu .menu2 > .on {
+		width: 68px;
+		height: 67px;
+		background: #019341;
+	}
+	
+	.lnb .lnb_menu .menu2 > a.on:before {
+		content: '카페 운영';
+		position: absolute;
+		font-weight: bold;
+		top: 50%;
+		color: #000;
+		width: 67px;
+		height: 20px;
+		text-align: center;
+		transform: translateY(40%);
+	}
+	
+	.lnb .lnb_menu .menu2 > a.on:after {
+		content: '';
+		background: url(https://glyphicons.com/img/glyphicons/basic/2x/glyphicons-basic-137-cogwheel@2x.png) no-repeat;
+		filter: invert(0%);
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -80%);
+		background-size: 25px 25px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/* Member & Staff */
+	
+	.lnb .lnb_menu .menu3 {
+		width: 68px;
+		height: 67px;
+		background: #505050;
+		position: relative;
+	}
+	
+	.lnb .lnb_menu .menu3 > a:before {
+		content: '멤버•스탭';
+		position: absolute;
+		font-weight: bold;
+		top: 50%;
+		color: #cacaca;
+		width: 67px;
+		height: 20px;
+		text-align: center;
+		transform: translateY(40%);
+	}
+	
+	.lnb .lnb_menu .menu3 > a:after {
+		content: '';
+		background: url(https://glyphicons.com/img/glyphicons/basic/2x/glyphicons-basic-25-user-parents@2x.png) no-repeat;
+		filter: invert(80%);
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -80%);
+		background-size: 25px 25px;
+	}
+	
+	.lnb .lnb_menu .menu3 .on2 {
+		width: 68px;
+		height: 67px;
+		background: #595959;
+	}
+	
+	.lnb .lnb_menu li.menu3 a.on {
+		height: 67px;
+	}
+	
+	.lnb .lnb_menu .menu3 > a.on2:before {
+		content: '멤버•스탭';
+		position: absolute;
+		font-weight: bold;
+		top: 50%;
+		color: #fff;
+		width: 67px;
+		height: 20px;
+		text-align: center;
+		transform: translateY(40%);
+	}
+	
+	.lnb .lnb_menu .menu3 > a.on2:after {
+		content: '';
+		background: url(https://glyphicons.com/img/glyphicons/basic/2x/glyphicons-basic-25-user-parents@2x.png) no-repeat;
+		filter: invert(100%);
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -80%);
+		background-size: 25px 25px;
+	}
+	
+	.lnb .lnb_menu .menu3 > .on {
+		width: 68px;
+		height: 67px;
+		background: #019341;
+	}
+	
+	.lnb .lnb_menu .menu3 > a.on:before {
+		content: '멤버•스탭';
+		position: absolute;
+		font-weight: bold;
+		top: 50%;
+		color: #000;
+		width: 67px;
+		height: 20px;
+		text-align: center;
+		transform: translateY(40%);
+	}
+	
+	.lnb .lnb_menu .menu3 > a.on:after {
+		content: '';
+		background: url(https://glyphicons.com/img/glyphicons/basic/2x/glyphicons-basic-25-user-parents@2x.png) no-repeat;
+		filter: invert(0%);
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -80%);
+		background-size: 25px 25px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/* Member & Staff */
+	
+	.lnb .lnb_menu .menu4 {
+		width: 68px;
+		height: 67px;
+		background: #505050;
+		position: relative;
+	}
+	
+	.lnb .lnb_menu .menu4 > a:before {
+		content: '가입•등급';
+		position: absolute;
+		font-weight: bold;
+		top: 50%;
+		color: #cacaca;
+		width: 67px;
+		height: 20px;
+		text-align: center;
+		transform: translateY(40%);
+	}
+	
+	.lnb .lnb_menu .menu4 > a:after {
+		content: '';
+		background: url(https://glyphicons.com/img/glyphicons/basic/2x/glyphicons-basic-7-user-plus@2x.png) no-repeat;
+		filter: invert(80%);
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -80%);
+		background-size: 25px 25px;
+	}
+	
+	.lnb .lnb_menu .menu4 .on2 {
+		width: 68px;
+		height: 67px;
+		background: #595959;
+	}
+	
+	.lnb .lnb_menu li.menu4 a.on {
+		height: 67px;
+	}
+	
+	.lnb .lnb_menu .menu4 > a.on2:before {
+		content: '가입•등급';
+		position: absolute;
+		font-weight: bold;
+		top: 50%;
+		color: #fff;
+		width: 67px;
+		height: 20px;
+		text-align: center;
+		transform: translateY(40%);
+	}
+	
+	.lnb .lnb_menu .menu4 > a.on2:after {
+		content: '';
+		background: url(https://glyphicons.com/img/glyphicons/basic/2x/glyphicons-basic-7-user-plus@2x.png) no-repeat;
+		filter: invert(100%);
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -80%);
+		background-size: 25px 25px;
+	}
+	
+	.lnb .lnb_menu .menu4 > .on {
+		width: 68px;
+		height: 67px;
+		background: #019341;
+	}
+	
+	.lnb .lnb_menu .menu4 > a.on:before {
+		content: '가입•등급';
+		position: absolute;
+		font-weight: bold;
+		top: 50%;
+		color: #000;
+		width: 67px;
+		height: 20px;
+		text-align: center;
+		transform: translateY(40%);
+	}
+	
+	.lnb .lnb_menu .menu4 > a.on:after {
+		content: '';
+		background: url(https://glyphicons.com/img/glyphicons/basic/2x/glyphicons-basic-7-user-plus@2x.png) no-repeat;
+		filter: invert(0%);
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -80%);
+		background-size: 25px 25px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/* Menu */
+	
+	.lnb .lnb_menu .menu5 {
+		width: 68px;
+		height: 67px;
+		background: #505050;
+		position: relative;
+	}
+	
+	.lnb .lnb_menu .menu5 > a:before {
+		content: '메뉴';
+		position: absolute;
+		font-weight: bold;
+		top: 50%;
+		color: #cacaca;
+		width: 67px;
+		height: 20px;
+		text-align: center;
+		transform: translateY(40%);
+	}
+	
+	.lnb .lnb_menu .menu5 > a:after {
+		content: '';
+		background: url(https://glyphicons.com/img/glyphicons/basic/2x/glyphicons-basic-509-server-cogwheel@2x.png) no-repeat;
+		filter: invert(80%);
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -80%);
+		background-size: 25px 25px;
+	}
+	
+	.lnb .lnb_menu .menu5 .on2 {
+		width: 68px;
+		height: 67px;
+		background: #595959;
+	}
+	
+	.lnb .lnb_menu li.menu5 a.on {
+		height: 67px;
+	}
+	
+	.lnb .lnb_menu .menu5 > a.on2:before {
+		content: '메뉴';
+		position: absolute;
+		font-weight: bold;
+		top: 50%;
+		color: #fff;
+		width: 67px;
+		height: 20px;
+		text-align: center;
+		transform: translateY(40%);
+	}
+	
+	.lnb .lnb_menu .menu5 > a.on2:after {
+		content: '';
+		background: url(https://glyphicons.com/img/glyphicons/basic/2x/glyphicons-basic-509-server-cogwheel@2x.png) no-repeat;
+		filter: invert(100%);
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -80%);
+		background-size: 25px 25px;
+	}
+	
+	.lnb .lnb_menu .menu5 > .on {
+		width: 68px;
+		height: 67px;
+		background: #019341;
+	}
+	
+	.lnb .lnb_menu .menu5 > a.on:before {
+		content: '메뉴';
+		position: absolute;
+		font-weight: bold;
+		top: 50%;
+		color: #000;
+		width: 67px;
+		height: 20px;
+		text-align: center;
+		transform: translateY(40%);
+	}
+	
+	.lnb .lnb_menu .menu5 > a.on:after {
+		content: '';
+		background: url(https://glyphicons.com/img/glyphicons/basic/2x/glyphicons-basic-509-server-cogwheel@2x.png) no-repeat;
+		filter: invert(0%);
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -80%);
+		background-size: 25px 25px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/* Post and Post Form */
+	
+	.lnb .lnb_menu .menu6 {
+		width: 68px;
+		height: 67px;
+		background: #505050;
+		position: relative;
+	}
+	
+	.lnb .lnb_menu .menu6 > a:before {
+		content: '글•글양식';
+		position: absolute;
+		font-weight: bold;
+		top: 50%;
+		color: #cacaca;
+		width: 67px;
+		height: 20px;
+		text-align: center;
+		transform: translateY(40%);
+	}
+	
+	.lnb .lnb_menu .menu6 > a:after {
+		content: '';
+		background: url(https://glyphicons.com/img/glyphicons/basic/2x/glyphicons-basic-151-square-edit@2x.png) no-repeat;
+		filter: invert(80%);
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -80%);
+		background-size: 25px 25px;
+	}
+	
+	.lnb .lnb_menu .menu6 .on2 {
+		width: 68px;
+		height: 67px;
+		background: #595959;
+	}
+	
+	.lnb .lnb_menu li.menu6 a.on {
+		height: 67px;
+	}
+	
+	.lnb .lnb_menu .menu6 > a.on2:before {
+		content: '글•글양식';
+		position: absolute;
+		font-weight: bold;
+		top: 50%;
+		color: #fff;
+		width: 67px;
+		height: 20px;
+		text-align: center;
+		transform: translateY(40%);
+	}
+	
+	.lnb .lnb_menu .menu6 > a.on2:after {
+		content: '';
+		background: url(https://glyphicons.com/img/glyphicons/basic/2x/glyphicons-basic-151-square-edit@2x.png) no-repeat;
+		filter: invert(100%);
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -80%);
+		background-size: 25px 25px;
+	}
+	
+	.lnb .lnb_menu .menu6 > .on {
+		width: 68px;
+		height: 67px;
+		background: #019341;
+	}
+	
+	.lnb .lnb_menu .menu6 > a.on:before {
+		content: '글•글양식';
+		position: absolute;
+		font-weight: bold;
+		top: 50%;
+		color: #000;
+		width: 67px;
+		height: 20px;
+		text-align: center;
+		transform: translateY(40%);
+	}
+	
+	.lnb .lnb_menu .menu6 > a.on:after {
+		content: '';
+		background: url(https://glyphicons.com/img/glyphicons/basic/2x/glyphicons-basic-151-square-edit@2x.png) no-repeat;
+		filter: invert(0%);
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -80%);
+		background-size: 25px 25px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/* Spam and Deleted Posts */
+	
+	.lnb .lnb_menu .menu7 {
+		width: 68px;
+		height: 67px;
+		background: #505050;
+		position: relative;
+	}
+	
+	.lnb .lnb_menu .menu7 > a:before {
+		content: '스팸•삭제글';
+		position: absolute;
+		font-weight: bold;
+		top: 50%;
+		color: #cacaca;
+		width: 67px;
+		height: 20px;
+		text-align: center;
+		transform: translateY(40%);
+	}
+	
+	.lnb .lnb_menu .menu7 > a:after {
+		content: '';
+		background: url(https://glyphicons.com/img/glyphicons/basic/2x/glyphicons-basic-17-bin@2x.png) no-repeat;
+		filter: invert(80%);
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -80%);
+		background-size: 25px 25px;
+	}
+	
+	.lnb .lnb_menu .menu7 .on2 {
+		width: 68px;
+		height: 67px;
+		background: #595959;
+	}
+	
+	.lnb .lnb_menu li.menu7 a.on {
+		height: 67px;
+	}
+	
+	.lnb .lnb_menu .menu7 > a.on2:before {
+		content: '스팸•삭제글';
+		position: absolute;
+		font-weight: bold;
+		top: 50%;
+		color: #fff;
+		width: 67px;
+		height: 20px;
+		text-align: center;
+		transform: translateY(40%);
+	}
+	
+	.lnb .lnb_menu .menu7 > a.on2:after {
+		content: '';
+		background: url(https://glyphicons.com/img/glyphicons/basic/2x/glyphicons-basic-17-bin@2x.png) no-repeat;
+		filter: invert(100%);
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -80%);
+		background-size: 25px 25px;
+	}
+	
+	.lnb .lnb_menu .menu7 > .on {
+		width: 68px;
+		height: 67px;
+		background: #019341;
+	}
+	
+	.lnb .lnb_menu .menu7 > a.on:before {
+		content: '스팸•삭제글';
+		position: absolute;
+		font-weight: bold;
+		top: 50%;
+		color: #000;
+		width: 67px;
+		height: 20px;
+		text-align: center;
+		transform: translateY(40%);
+	}
+	
+	.lnb .lnb_menu .menu7 > a.on:after {
+		content: '';
+		background: url(https://glyphicons.com/img/glyphicons/basic/2x/glyphicons-basic-17-bin@2x.png) no-repeat;
+		filter: invert(0%);
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -80%);
+		background-size: 25px 25px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/* Decorate */
+	
+	.lnb .lnb_menu .menu8 {
+		width: 68px;
+		height: 67px;
+		background: #505050;
+		position: relative;
+	}
+	
+	.lnb .lnb_menu .menu8 > a:before {
+		content: '꾸미기';
+		position: absolute;
+		font-weight: bold;
+		top: 50%;
+		color: #cacaca;
+		width: 67px;
+		height: 20px;
+		text-align: center;
+		transform: translateY(40%);
+	}
+	
+	.lnb .lnb_menu .menu8 > a:after {
+		content: '';
+		background: url(https://glyphicons.com/img/glyphicons/basic/2x/glyphicons-basic-248-palette@2x.png) no-repeat;
+		filter: invert(80%);
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -80%);
+		background-size: 25px 25px;
+	}
+	
+	.lnb .lnb_menu .menu8 .on2 {
+		width: 68px;
+		height: 67px;
+		background: #595959;
+	}
+	
+	.lnb .lnb_menu li.menu8 a.on {
+		height: 67px;
+	}
+	
+	.lnb .lnb_menu .menu8 > a.on2:before {
+		content: '꾸미기';
+		position: absolute;
+		font-weight: bold;
+		top: 50%;
+		color: #fff;
+		width: 67px;
+		height: 20px;
+		text-align: center;
+		transform: translateY(40%);
+	}
+	
+	.lnb .lnb_menu .menu8 > a.on2:after {
+		content: '';
+		background: url(https://glyphicons.com/img/glyphicons/basic/2x/glyphicons-basic-248-palette@2x.png) no-repeat;
+		filter: invert(100%);
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -80%);
+		background-size: 25px 25px;
+	}
+	
+	.lnb .lnb_menu .menu8 > .on {
+		width: 68px;
+		height: 67px;
+		background: #019341;
+	}
+	
+	.lnb .lnb_menu .menu8 > a.on:before {
+		content: '꾸미기';
+		position: absolute;
+		font-weight: bold;
+		top: 50%;
+		color: #000;
+		width: 67px;
+		height: 20px;
+		text-align: center;
+		transform: translateY(40%);
+	}
+	
+	.lnb .lnb_menu .menu8 > a.on:after {
+		content: '';
+		background: url(https://glyphicons.com/img/glyphicons/basic/2x/glyphicons-basic-248-palette@2x.png) no-repeat;
+		filter: invert(0%);
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -80%);
+		background-size: 25px 25px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/* Statistics */
+	
+	.lnb .lnb_menu .menu9 {
+		width: 68px;
+		height: 67px;
+		background: #505050;
+		position: relative;
+	}
+	
+	.lnb .lnb_menu .menu9 > a:before {
+		content: '통계';
+		position: absolute;
+		font-weight: bold;
+		top: 50%;
+		color: #cacaca;
+		width: 67px;
+		height: 20px;
+		text-align: center;
+		transform: translateY(40%);
+	}
+	
+	.lnb .lnb_menu .menu9 > a:after {
+		content: '';
+		background: url(https://glyphicons.com/img/glyphicons/basic/2x/glyphicons-basic-43-stats-circle@2x.png) no-repeat;
+		filter: invert(80%);
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -80%);
+		background-size: 25px 25px;
+	}
+	
+	.lnb .lnb_menu .menu9 .on2 {
+		width: 68px;
+		height: 67px;
+		background: #595959;
+	}
+	
+	.lnb .lnb_menu li.menu9 a.on {
+		height: 67px;
+	}
+	
+	.lnb .lnb_menu .menu9 > a.on2:before {
+		content: '통계';
+		position: absolute;
+		font-weight: bold;
+		top: 50%;
+		color: #fff;
+		width: 67px;
+		height: 20px;
+		text-align: center;
+		transform: translateY(40%);
+	}
+	
+	.lnb .lnb_menu .menu9 > a.on2:after {
+		content: '';
+		background: url(https://glyphicons.com/img/glyphicons/basic/2x/glyphicons-basic-43-stats-circle@2x.png) no-repeat;
+		filter: invert(100%);
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -80%);
+		background-size: 25px 25px;
+	}
+	
+	.lnb .lnb_menu .menu9 > .on {
+		width: 68px;
+		height: 67px;
+		background: #019341;
+	}
+	
+	.lnb .lnb_menu .menu9 > a.on:before {
+		content: '통계';
+		position: absolute;
+		font-weight: bold;
+		top: 50%;
+		color: #000;
+		width: 67px;
+		height: 20px;
+		text-align: center;
+		transform: translateY(40%);
+	}
+	
+	.lnb .lnb_menu .menu9 > a.on:after {
+		content: '';
+		background: url(https://glyphicons.com/img/glyphicons/basic/2x/glyphicons-basic-43-stats-circle@2x.png) no-repeat;
+		filter: invert(0%);
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -80%);
+		background-size: 25px 25px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/* Chatting */
+	
+	.lnb .lnb_menu .menu10 {
+		width: 68px;
+		height: 67px;
+		background: #505050;
+		position: relative;
+	}
+	
+	.lnb .lnb_menu .menu10 > a:before {
+		content: '채팅';
+		position: absolute;
+		font-weight: bold;
+		top: 50%;
+		color: #cacaca;
+		width: 67px;
+		height: 20px;
+		text-align: center;
+		transform: translateY(40%);
+	}
+	
+	.lnb .lnb_menu .menu10 > a:after {
+		content: '';
+		background: url(https://glyphicons.com/img/glyphicons/basic/2x/glyphicons-basic-235-chat-conversation@2x.png) no-repeat;
+		filter: invert(80%);
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -80%);
+		background-size: 25px 25px;
+	}
+	
+	.lnb .lnb_menu .menu10 .on2 {
+		width: 68px;
+		height: 67px;
+		background: #595959;
+	}
+	
+	.lnb .lnb_menu li.menu10 a.on {
+		height: 67px;
+	}
+	
+	.lnb .lnb_menu .menu10 > a.on2:before {
+		content: '채팅';
+		position: absolute;
+		font-weight: bold;
+		top: 50%;
+		color: #fff;
+		width: 67px;
+		height: 20px;
+		text-align: center;
+		transform: translateY(40%);
+	}
+	
+	.lnb .lnb_menu .menu10 > a.on2:after {
+		content: '';
+		background: url(https://glyphicons.com/img/glyphicons/basic/2x/glyphicons-basic-235-chat-conversation@2x.png) no-repeat;
+		filter: invert(100%);
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -80%);
+		background-size: 25px 25px;
+	}
+	
+	.lnb .lnb_menu .menu10 > .on {
+		width: 68px;
+		height: 67px;
+		background: #019341;
+	}
+	
+	.lnb .lnb_menu .menu10 > a.on:before {
+		content: '채팅';
+		position: absolute;
+		font-weight: bold;
+		top: 50%;
+		color: #000;
+		width: 67px;
+		height: 20px;
+		text-align: center;
+		transform: translateY(40%);
+	}
+	
+	.lnb .lnb_menu .menu10 > a.on:after {
+		content: '';
+		background: url(https://glyphicons.com/img/glyphicons/basic/2x/glyphicons-basic-235-chat-conversation@2x.png) no-repeat;
+		filter: invert(0%);
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -80%);
+		background-size: 25px 25px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/* Mail and Notes */
+	
+	.lnb .lnb_menu .menu11 {
+		width: 68px;
+		height: 67px;
+		background: #505050;
+		position: relative;
+	}
+	
+	.lnb .lnb_menu .menu11 > a:before {
+		content: '메일•쪽지';
+		position: absolute;
+		font-weight: bold;
+		top: 50%;
+		color: #cacaca;
+		width: 67px;
+		height: 20px;
+		text-align: center;
+		transform: translateY(40%);
+	}
+	
+	.lnb .lnb_menu .menu11 > a:after {
+		content: '';
+		background: url(https://glyphicons.com/img/glyphicons/basic/2x/glyphicons-basic-122-envelope-empty@2x.png) no-repeat;
+		filter: invert(80%);
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -80%);
+		background-size: 25px 25px;
+	}
+	
+	.lnb .lnb_menu .menu11 .on2 {
+		width: 68px;
+		height: 67px;
+		background: #595959;
+	}
+	
+	.lnb .lnb_menu li.menu11 a.on {
+		height: 67px;
+	}
+	
+	.lnb .lnb_menu .menu11 > a.on2:before {
+		content: '메일•쪽지';
+		position: absolute;
+		font-weight: bold;
+		top: 50%;
+		color: #fff;
+		width: 67px;
+		height: 20px;
+		text-align: center;
+		transform: translateY(40%);
+	}
+	
+	.lnb .lnb_menu .menu11 > a.on2:after {
+		content: '';
+		background: url(https://glyphicons.com/img/glyphicons/basic/2x/glyphicons-basic-122-envelope-empty@2x.png) no-repeat;
+		filter: invert(100%);
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -80%);
+		background-size: 25px 25px;
+	}
+	
+	.lnb .lnb_menu .menu11 > .on {
+		width: 68px;
+		height: 67px;
+		background: #019341;
+	}
+	
+	.lnb .lnb_menu .menu11 > a.on:before {
+		content: '메일•쪽지';
+		position: absolute;
+		font-weight: bold;
+		top: 50%;
+		color: #000;
+		width: 67px;
+		height: 20px;
+		text-align: center;
+		transform: translateY(40%);
+	}
+	
+	.lnb .lnb_menu .menu11 > a.on:after {
+		content: '';
+		background: url(https://glyphicons.com/img/glyphicons/basic/2x/glyphicons-basic-122-envelope-empty@2x.png) no-repeat;
+		filter: invert(0%);
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -80%);
+		background-size: 25px 25px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/* Favorite Menus */
+	
+	.lnb .lnb_menu2 .menu2 {
+		width: 86px;
+		height: 67px;
+		background: #505050;
+		position: relative;
+	}
+	
+	.lnb .lnb_menu2 {
+		height: 67px;
+	}
+	
+	.lnb .lnb_menu2 li.menu2 {
+		height: 67px;
+	}
+	
+	.lnb .lnb_menu2 .menu2 > a:before {
+		content: '즐겨찾는 메뉴';
+		position: absolute;
+		font-weight: bold;
+		top: 50%;
+		color: #cacaca;
+		width: 86px;
+		height: 20px;
+		text-align: center;
+		transform: translateY(40%);
+	}
+	
+	.lnb .lnb_menu2 .menu2 > a {
+		background: none !important;
+		height: 67px !important;
+	}
+	
+	.lnb .lnb_menu2 .menu2 > a:after {
+		content: '';
+		background: url(https://glyphicons.com/img/glyphicons/basic/2x/glyphicons-basic-49-star@2x.png) no-repeat;
+		filter: invert(80%);
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -80%);
+		background-size: 25px 25px;
+	}
+	
+	.lnb .lnb_menu2 .menu2 .on2 {
+		width: 86px;
+		height: 67px;
+		background: #595959 !important;
+	}
+	
+	.lnb .lnb_menu2 .menu2 a.on {
+		height: 67px;
+	}
+	
+	.lnb .lnb_menu2 .menu2 > a.on2:before {
+		content: '즐겨찾는 메뉴';
+		position: absolute;
+		font-weight: bold;
+		top: 50%;
+		color: #fff;
+		width: 86px;
+		height: 20px;
+		text-align: center;
+		transform: translateY(40%);
+	}
+	
+	.lnb .lnb_menu2 .menu2 > a.on2:after {
+		content: '';
+		background: url(https://glyphicons.com/img/glyphicons/basic/2x/glyphicons-basic-49-star@2x.png) no-repeat;
+		filter: invert(100%);
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -80%);
+		background-size: 25px 25px;
+	}
+	
+	.lnb .lnb_menu2 .menu2 > .on {
+		width: 68px;
+		height: 67px;
+		background: #019341;
+	}
+	
+	.lnb .lnb_menu2 .menu2 > a.on:before {
+		content: '즐겨찾는 메뉴';
+		position: absolute;
+		font-weight: bold;
+		top: 50%;
+		color: #fff;
+		width: 86px;
+		height: 20px;
+		text-align: center;
+		transform: translateY(40%);
+	}
+	
+	.lnb .lnb_menu2 .menu2 > a.on:after {
+		content: '';
+		background: url(https://glyphicons.com/img/glyphicons/basic/2x/glyphicons-basic-49-star@2x.png) no-repeat;
+		filter: invert(100%);
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -80%);
+		background-size: 25px 25px;
+	}
+	
+	
+	
+	
+	
+	
+	/* Cafe Smart Bot */
+	
+	.banner_chatbot {
+		filter: invert(75%);
+	}
+	
+	
+	
+	
+	
+	.lnb .lnb_sub2 {
+		background: none;
+	}
+	
+	.lnb .lnb_sub2 li {
+		background: #2f2f2f;
+	}
+	
+	.lnb .lnb_sub2 li span {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.lnb .lnb_sub2 li a, .lnb .lnb_sub2 li a.off {
+		color: #cacaca;
+	}
+	
+	.lnb .lnb_sub2 li.last {
+		background: #2f2f2f;
+	}
+	
+	
+	.main_wrap .bx_type2 .bx_cont {
+		background: #2f2f2f;
+	}
+	
+	.main_wrap .bx_type2 .bx_top, .main_wrap .bx_type3 .bx_top, .main_wrap .bx_type2 .bx_btm {
+		background: #404040;
+	}
+	
+	.cafe_thumb_122 img, .cafe_thumb_122 .border.mask_white {
+		border-radius: 50px;
+	}
+	
+	.main_wrap h2 {
+		color: #fff;
+	}
+	
+	.main_wrap .cafe_info_area .info_lst2 li, .main_wrap .noti_lst li a, .main_wrap .fr_group .fr_cont p, .main_wrap .section_lst .lst_area p {
+		color: #cacaca;
+	}
+	
+	.main_wrap .btn_set, .main_wrap .btn_more, .main_wrap .btn_apply_view, .main_wrap .section_lst .btn_bk_set {
+		filter: invert(86%);
+	}
+	
+	.section_all_menu {
+		border-color: #404040;
+	}
+	
+	.main_wrap .bx_type {
+		border-top: 1px solid #404040;
+	}
+	
+	.section_all_menu .group_lst {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.main_wrap .bx_type .bx_lb, .main_wrap .bx_type .bx_rb {
+		background: none;
+	}
+	
+	.main_wrap .bx_type .bx_cont {
+		border-color: #404040;
+	}
+	
+	.section_all_menu {
+		padding: 0;
+	}
+	
+	.main_wrap .bx_type {
+		background: none;
+		border-bottom: 5px solid #404040;
+	}
+	
+	.section_all_menu .group_lst .menu_lst_area strong {
+		color: #fff;
+	}
+	
+	.main_wrap .cafe_info_area .info_lst li .ico_mem, .main_wrap .cafe_info_area .info_lst li .ico_cnt {
+		filter: invert(86%);
+	}
+	
+	#footer {
+		background: #2f2f2f;
+	}
+	
+	.main_wrap .bkmk_menu_lst li a {
+		filter: invert(86%);
+	}
+	
+	.lnb_sub {
+		background: #2f2f2f;
+	}
+	
+	.lnb_sub li a {
+		color: #cacaca;
+	}
+	
+	.lnb_sub li a.off {
+		color: #505050 !important;
+	}
+	
+	.section_top .h_cont h2 {
+		filter: invert(86%);
+	}
+	
+	.tbl_frm_type th, .tbl_frm_type .cafe_url {
+		color: #fff;
+	}
+	
+	.tbl_frm_type td {
+		color: #cacaca;
+	}
+	
+	input.text4, .tbl_frm_type .cafe_img .text4, textarea.text {
+		border-color: #404040;
+	}
+	
+	input.text4, .tbl_frm_type .cafe_name .text4, .tbl_frm_type .cafe_img .text4, textarea.text {
+		background: #242424;
+		color: #cacaca;
+	}
+	
+	.tbl_frm_type .bu_lst_type2 .date_chk, .tbl_frm_type .mcafe_edit strong {
+		color: #cacaca;
+	}
+	
+	.valid_txt strong, .valid_txt em, .tbl_frm_type .cafe_img .btn_edit, .cafe_thumb_70 .border.mask_white_setting, .btn_type {
+		filter: invert(86%);
+	}
+	
+	.cafe_keyword {
+		filter: invert(86%);
+	}
+	
+	.btn_type_ny, .btn_type_ny2, .btn_type_ny span, .btn_type_ny strong, .btn_type_ny2 span, .btn_type_ny2 strong {
+		background: #019341;
+		border-radius: 3px;
+		color: #242424;
+	}
+	
+	.cafe_keyword li span, .cafe_keyword li em {
+		color: #404040;
+	}
+	
+	.tbl_frm_type th, .tbl_frm_type td {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.ly_type {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.ly_type .ly_cont, .c_gy2 {
+		color: #Cacaca !important;
+	}
+	
+	.btn_type3 {
+		filter: invert(86%);
+	}
+	
+	.section_top .tab_menu {
+		background: #2f2f2f;
+	}
+	
+	.section_top .tab_menu ul {
+		border-color: #404040;
+	}
+	
+	.section_top .tab_menu li.on {
+		background: #505050 !important;
+	}
+	
+	.section_top .tab_menu li {
+		background: none;
+	}
+	
+	.section_top .tab_menu li.on a {
+		color: #fff;
+	}
+	
+	.section_top .tab_menu li a, .section_top .tab_menu li span {
+		color: #cacaca;
+	}
+	
+	.tbl_frm_type.ty_v1 th, .tbl_frm_type.ty_v1 td, .tbl_frm_type.ty_v2 th, .tbl_frm_type.ty_v2 td {
+		border-top: 1px solid #404040;
+	}
+	
+	.tbl_frm_type.ty_v1, .tbl_frm_type.ty_v2 {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.section_top .tab_menu li.frst {
+		border-right: 1px solid #404040;
+	}
+	
+	input.text {
+		border-color: #404040;
+		background: #242424;
+		color: #cacaca;
+	}
+	
+	.srch_info {
+		color: #cacaca;
+	}
+	
+	.srch_info .date {
+		background: none;
+	}
+	
+	.srch_info_v2 {
+		position: relative;
+	}
+	
+	.srch_info .date:before {
+		position: absolute;
+		content: '';
+		background: url(https://glyphicons.com/img/glyphicons/basic/2x/glyphicons-basic-46-calendar@2x.png) no-repeat;
+		width: 22px;
+		height: 21px;
+		background-size: 22px 21px;
+		background-position: -1px -1px;
+		left: 80px;
+		filter: invert(100%);
+		border: 1px solid #c0c0c0;
+		box-sizing: border-box;
+	}
+	
+	#content .btn_help {
+		filter: invert(86%);
+	}
+	
+	input {
+		background: #242424;
+		color: #cacaca;
+		border: 1px solid #404040;
+	}
+	
+	.lst_sel .srch_info input + .date.v2 + input + .date.v2:before {
+		left: 193px;
+	}
+	
+	.join_get .inner .srch_info #applyblockstartdate_btn:before {
+		left: 476px;
+	}
+	
+	.join_get .inner .srch_info #applyblockenddate_btn:before {
+		left: 600px;
+	}
+	
+	.calendar {
+		background: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.calendar table thead th {
+		color: #cacaca;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.calendar div {
+		background: #303030;
+	}
+	
+	.calendar div .calendar-title {
+		color: #fff;
+	}
+	
+	.calendar div a.rollover img {
+		filter: invert(86%);
+	}
+	
+	.calendar table td a:hover {
+		background: #404040;
+	}
+	
+	.calendar table .calendar-sat a, .calendar table .calendar-sat a:visited, .calendar table .calendar-sat a:hover, .calendar table .calendar-sat a:active {
+		color: #8686ff;
+	}
+	
+	.calendar table td a:visited, .calendar table td a:active {
+		color: #fff;
+	}
+	
+	.calendar table td a, .calendar table td a:hover {
+		color: #cacaca;
+	}
+	
+	.calendar table .calendar-selected, .calendar table .calendar-today a:hover, .calendar table .calendar-today a:visited, .calendar table .calendar-today a:active, .calendar table .calendar-today {
+		background: #404040;
+	}
+	
+	.tbl_lst_type th {
+		filter: invert(86%);
+	}
+	
+	.tbl_lst_type td {
+		border-bottom: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.tbl_frm_type .bar {
+		color: #404040;
+	}
+	
+	.btn_type_rd, .btn_type_rd2, .btn_type_rd2 span {
+		background: none;
+		color: #000;
+	}
+	
+	.btn_type_rd strong, .btn_type_rd2 span {
+		background: rgb(173, 0, 0);
+		border-radius: 5px;
+	}
+	
+	.tbl_lst_type.v2 .entry {
+		color: #fff;
+	}
+	
+	.tbl_lst_type tbody tr:hover {
+		background: #2f2f2f;
+	}
+	
+	input.text2 {
+		border-color: #404040;
+		color: #cacaca;
+	}
+	
+	.bx_srch_inner {
+		border-left: 1px solid #404040;
+		border-right: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.bx_srch {
+		border-bottom: 1px solid #404040;
+		background: none;
+	}
+	
+	.bx_srch_inner .srch_in .btn_type2, .bx_srch_inner .srch_in .btn_type2 span {
+		background: none;
+	}
+	
+	.srch_detail {
+		color: #fff;
+	}
+	
+	.srch_info {
+		border-top: 1px solid #404040;
+	}
+	
+	.btn_type2_gn strong, .btn_type2_gn span, .btn_type2_gn {
+		border-radius: 3px;
+	}
+	
+	.board_tit strong {
+		color: #fff;
+	}
+	
+	.board_tit {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.action_in {
+		color: #fff;
+	}
+	
+	.action_in .bar {
+		background: #404040;
+	}
+	
+	.board_area {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.tbl_lst_type tr.line_b td {
+		border-color: #404040;
+	}
+	
+	.ly_loading .loading_area {
+		background: #242424;
+	}
+	
+	.ly_loading .loading_area .img_loading, .tbl_lst_type td .btn_mem_view {
+		filter: invert(86%);
+	}
+	
+	.tbl_lst_type tbody tr.selected td {
+		background: #505050;
+	}
+	
+	.c_paginate a {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.c_paginate .prev, .c_paginate .next, .tbl_lst_type2 td .txt_tip {
+		filter: invert(86%);
+	}
+	
+	.tbl_lst_type2 tr.last th, .tbl_lst_type2 tr.last td {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.bx_srch.bx_v1, .tbl_lst_type2 td {
+		border-top: 1px solid #404040;
+	}
+	
+	.group_input_frm .mem_choice {
+		color: #cacaca;
+	}
+	
+	.group_input_frm .go_cgm .bar {
+		color: #404040;
+	}
+	
+	.group_input_frm .mem_choice .msg .tit {
+		border-left: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.permit {
+		border-radius: 4px;
+	}
+	
+	.tbl_lst_type2 th {
+		border-top: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.tbl_lst_type td .txt label, .tbl_lst_type td .txt5 label, .tbl_join td label {
+		color: #cacaca;
+	}
+	
+	.tbl_join th, .tbl_join td {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.tbl_join td .text5 {
+		border: 1px solid #404040;
+		background: #242424;
+		color: #cacaca;
+	}
+	
+	.tbl_lst_type2 th .reset .ic_reset {
+		filter: invert(86%);
+	}
+	
+	.btn_type_edt2, .btn_type_edt2 span, .btn_type_edt2 strong {
+		background: #404040;
+		color: #cacaca;
+	}
+	
+	.btn_type_edt, .btn_type_edt span, .btn_type_edt strong {
+		background: #019341;
+		color: #242424;
+	}
+	
+	.tbl_join .lst_fill li {
+		color: #cacaca;
+	}
+	
+	.tbl_join .lst_fill li .text3, .tbl_join li .text4 {
+		border-color: #404040;
+		color: #cacaca;
+	}
+	
+	.tbl_join .lst_fill li .text3.finans, .tbl_join .lst_fill li .text4.finans {
+		color: #cacaca;
+	}
+	
+	.section_top .noti_area_v2 {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.tbl_lst_type2.tbl_join .frst_brd {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	.tbl_lst_type2.tbl_join .inner img {
+		filter: invert(86%);
+	}
+	
+	.btn_type2 strong, .btn_type2 span {
+		background: none;
+	}
+	
+	.btn_type2, .sub_info_box {
+		background: none;
+	}
+	
+	.btn_type2 .bu_add2 {
+		filter: invert(86%);
+	}
+	
+	.section_cont .cont_tit, .section_cont .editer .dsc {
+		color: #cacaca;
+	}
+	
+	.section_cont .editer .textarea_msg {
+		border: 1px solid #404040;
+		background: #242424;
+		color: #cacaca;
+	}
+	
+	#imageurlview {
+		border-radius: 20px;
+	}
+	
+	.section_cont .bx_dsc_area {
+		border: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.section_cont .bx_dsc_area strong {
+		color: #cacaca;
+	}
+	
+	.section_cont .chk_grd, .section_cont .chk_grd span {
+		background: #404040;
+		color: #cacaca;
+	}
+	
+	.level_view {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.ly_type3 {
+		border: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	.ico_level .icon_list {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.tbl_level td.level .text2, .tbl_level td .text2 {
+		color: #cacaca;
+	}
+	
+	#content .btn_help2 {
+		filter: invert(86%);
+	}
+	.section_cont .bx_type .bx_top, .section_cont .bx_type .bx_btm, .section_cont .bx_type .bx_cont {
+		background: none;
+		border: 1px solid #404040;
+	}
+	
+	.btn_type_ny3 span {
+		background: none;
+	}
+	
+	.btn_type_ny3 {
+		background: #019341;
+	}
+	
+	.add_group {
+		background: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.add_lst {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.btn_add a {
+		filter: invert(86%);
+	}
+	
+	.edit_set_group .edit_area .edit_lst_area {
+		border-right: 1px solid #404040;
+		border-left: 1px solid #404040;
+	}
+	
+	.add_lst .divide a span {
+		background: #404040;
+	}
+	
+	.edit_set_group .edit_area .edit_btn_area li a, .edit_set_group .edit_more {
+		filter: invert(86%);
+	}
+	
+	.edit_set_group {
+		border-right: 1px solid #404040;
+	}
+	
+	.edit_set_group .set_area {
+		border-top: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.set_box .set_tit {
+		color: #fff;
+	}
+	
+	.add_lst li a {
+		color: #cacaca;
+	}
+	
+	.add_lst li.on {
+		background: #404040;
+	}
+	
+	.detail_area th {
+		color: #fff;
+	}
+	
+	.detail_area .ipt_type, .detail_area .ipt_type2 {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.detail_area .type_box p strong, .detail_area td {
+		color: #cacaca;
+	}
+	
+	.detail_area .line {
+		border-top: 1px solid #404040;
+	}
+	
+	.edit_set_group .edit_area .edit_lst_area .edit_lst_box {
+		border-top: 1px solid #404040;
+	}
+	
+	.add_lst li a span, .member_table_2.stat_cafe_app span {
+		color: #cacaca;
+	}
+	
+	.noti_finish {
+		border-top: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.noti_finish.solo .noti_tit {
+		filter: invert(86%);
+	}
+	
+	.add_lst .h_menu_tit {
+		color: #cacaca;
+	}
+	
+	.book_tit {
+		color: #cacaca;
+		border-top: 1px solid #404040;
+	}
+	
+	#LockHelpOpener {
+		filter: invert(0%) !important;
+	}
+	
+	.group_book_make .book_info td .m_p, .group_book_make .book_info td .delegate_area .in_line {
+		color: #cacaca;
+	}
+	
+	.group_book_make .book_info {
+		border-right: 1px solid #404040;
+	}
+	
+	.group_book_make .view_info {
+		border-left: 1px solid #404040;
+	}
+	
+	.group_book_make .view_info .view_tit {
+		color: #fff;
+	}
+	
+	.group_book_make .book_info th {
+		color: #fff;
+	}
+	
+	.group_book_make .book_info td {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.group_book_make .book_info th {
+		border-bottom: 1px solid #404040;
+		color: #fff;
+	}
+	
+	.group_book_make .view_img_area {
+		filter: invert(86%);
+	}
+	
+	.tbl_write th {
+		color: #fff;
+	}
+	
+	.tbl_write th, .tbl_write td {
+		border-top: 1px solid #404040;
+	}
+	
+	input.text3 {
+		border-color: #404040;
+	}
+	
+	.write_staff label {
+		color: #cacaca;
+	}
+	
+	.write_staff .ico_help {
+		filter: invert(86%);
+	}
+	
+	.pop_board {
+		background-color: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.tit_layer {
+		color: #fff;
+	}
+	
+	.pop_board .lst_board {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.pop_board .lst_board label {
+		color: #cacaca;
+	}
+	
+	.btn_type_edt3 {
+		filter: invert(86%);
+	}
+	
+	.tbl_write .board_apply {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.tbl_write .board_apply li, .tbl_write .board_apply span {
+		color: #cacaca;
+	}
+	
+	.group_tag, .group_input_frm {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.group_input_frm h3 {
+		color: #fff;
+	}
+	
+	.ly_type2 {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.ly_type2 .clse, .ly_type2 .arr, .ly_type2 .arr2 {
+		filter: invert(82.3%);
+	}
+	
+	.ly_type2 .ly_cont {
+		color: #cacaca;
+	}
+	
+	.board_top.board_top_v1 {
+		color: #cacaca;
+		border-top: 1px solid #404040;
+	}
+	
+	.board_tit .srch_date em {
+		color: #fff;
+	}
+	
+	.board_tit .srch_date .btn_prev, .board_tit .srch_date .btn_next {
+		filter: invert(86%);
+	}
+	
+	.lnb .lnb_menu li a.off {
+		background: none;
+	}
+	
+	.u_ni_title_component .u_ni_title {
+		color: #fff;
+	}
+	
+	.u_ni_calendar_component .u_ni_btn_calendar {
+		background-color: #cacaca;
+	}
+	
+	.u_ni_tooltip_content:before {
+		filter: invert(82.3%);
+	}
+	
+	.u_ni_tooltip_content {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.u_ni_wrap .u_ni_tooltip_content {
+		color: #cacaca;
+	}
+	
+	.u_ni_header_wrap .u_ni_info_section {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.u_ni_dashboard_component {
+		border: 1px solid #404040;
+	}
+	
+	.u_ni_dashboard_component .u_ni_item + .u_ni_item {
+		border-left: 1px solid #404040;
+	}
+	
+	.u_ni_dashboard_component .u_ni_item .u_ni_title, .u_ni_dashboard_component .u_ni_item .u_ni_value {
+		color: #cacaca;
+	}
+	
+	.u_ni_tab_component .u_ni_item.u_ni_is_active {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.u_ni_tab_component .u_ni_item {
+		border: 1px solid #404040;
+		background: #242424;
+	}
+	
+	.u_ni_tab_component .u_ni_item.u_ni_is_active + .u_ni_item {
+		border-left: 1px solid #404040;
+	}
+	
+	.u_ni_tab_component .u_ni_list {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.u_ni_wrap .u_ni_date, .u_ni_wrap .u_ni_data {
+		color: #cacaca;
+	}
+	
+	.u_ni_stats_detail_wrap .u_ni_condition_section {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.u_ni_table_component.u_ni_type_1 thead th {
+		color: #cacaca;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.u_ni_table_component.u_ni_type_1 tbody th, .u_ni_table_component.u_ni_type_1 td {
+		color: #fff;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.u_ni_btn_download {
+		border: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	.u_ni_tab_component .u_ni_item a {
+		color: #cacaca;
+	}
+	
+	.u_ni_dashboard_component.u_ni_type_1 {
+		background-color: #2f2f2f;
+	}
+	
+	.u_ni_tab_component.u_ni_type_1 .u_ni_item.u_ni_is_active a {
+		color: #fff;
+	}
+	
+	.u_ni_tab_component.u_ni_type_1 .u_ni_item.u_ni_is_active {
+		border-bottom-color: #404040;
+	}
+	
+	.u_ni_tab_component.u_ni_type_1 .u_ni_item {
+		border-color: #404040;
+	}
+	
+	.u_ni_tab_component.u_ni_type_1 .u_ni_list {
+		border-top: 1px solid #404040;
+		border-right: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	.u_ni_menu_item {
+		background-color: #242424;
+	}
+	
+	.u_ni_menu_item:hover {
+		background-color: #2f2f2f;
+	}
+	
+	.u_ni_menu_item a {
+		color: #cacaca;
+	}
+	
+	.u_ni_menu_list {
+		border: 1px solid #404040;
+	}
+	
+	.u_ni_menu_item {
+		border-left: 1px solid #404040;
+	}
+	
+	.u_ni_menu_item.u_ni_is_active:before {
+		background-color: #019341;
+	}
+	
+	.u_ni_option_component.u_ni_type_1 {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.u_ni_option_component.u_ni_type_1 .u_ni_btn_radio_list .u_ni_btn_radio_item input:checked + label {
+		border-color: #4f4f4f;
+	}
+	
+	.u_ni_option_component.u_ni_type_1 .u_ni_btn_radio_list .u_ni_btn_radio_item label {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.u_ni_option_component.u_ni_type_1 .u_ni_btn_radio_list .u_ni_btn_radio_item + .u_ni_btn_radio_item label {
+		border-color: #404040;
+	}
+	
+	.u_ni_select_component .u_ni_select_box {
+		background-color: #242424;
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.u_ni_select_component .u_ni_select_box .u_ni_ico_select {
+		border-left: 1px solid #404040;
+	}
+	
+	.u_ni_select_component .u_ni_select_list {
+		background-color: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.u_ni_select_component .u_ni_select_list .u_ni_select_link {
+		color: #cacaca;
+	}
+	
+	.u_ni_option_component.u_ni_type_1 .u_ni_btn_radio_list .u_ni_btn_radio_item input:disabled + label {
+		color: #666;
+		border-color: #404040;
+	}
+	
+	.lnb_sub .btn_statistic a:hover {
+		color: #cacaca;
+	}
+	
+	.lnb_sub .btn_statistic .statistic_help i {
+		filter: invert(86%);
+	}
+	
+	.u_ni_range_component .u_ni_range_group .u_ni_range {
+		color: #fff;
+	}
+	
+	.u_ni_inflow_component {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.u_ni_inflow_main {
+		background-color: #404040;
+	}
+	
+	.u_ni_inflow_main .u_ni_item.u_ni_is_active .u_ni_link, .u_ni_inflow_main .u_ni_item.u_ni_is_active .u_ni_count, .u_ni_inflow_main .u_ni_item.u_ni_is_active .u_ni_percent {
+		color: #000;
+	}
+	
+	.u_ni_inflow_sub .u_ni_item .u_ni_link {
+		color: #cacaca;
+	}
+	
+	.u_ni_inflow_main .u_ni_item.u_ni_is_active:before {
+		background-color: #019341;
+	}
+	
+	.u_ni_inflow_sub .u_ni_btn_more {
+		color: #fff;
+	}
+	
+	.u_ni_inflow_sub .u_ni_btn_more:after {
+		filter: invert(86%);
+	}
+	
+	.u_ni_table_component.u_ni_type_3 thead th, .u_ni_table_component.u_ni_type_4 thead th, .u_ni_table_component.u_ni_type_5 thead th, .u_ni_table_component.u_ni_type_6 thead th, .u_ni_table_component.u_ni_type_2 thead th {
+		color: #cacaca;
+		border-bottom: 2px solid #404040;
+	}
+	
+	.u_ni_table_component.u_ni_type_3 tbody th, .u_ni_table_component.u_ni_type_4 tbody th, .u_ni_table_component.u_ni_type_5 tbody th, .u_ni_table_component.u_ni_type_6 tbody th {
+		color: #fff;
+	}
+	
+	.u_ni_table_component.u_ni_type_3 .u_ni_bg {
+		background-color: #2f2f2f;
+	}
+	
+	.u_ni_table_component.u_ni_type_3 tbody th, .u_ni_table_component.u_ni_type_3 td, .u_ni_table_component.u_ni_type_4 tbody th, .u_ni_table_component.u_ni_type_4 td, .u_ni_table_component.u_ni_type_5 tbody th, .u_ni_table_component.u_ni_type_5 td, .u_ni_table_component.u_ni_type_6 tbody th, .u_ni_table_component.u_ni_type_6 td {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.u_ni_table_component.u_ni_type_2 thead tr + tr th {
+		border-color: #404040;
+	}
+	
+	.u_ni_table_component.u_ni_type_2 tbody th, .u_ni_table_component.u_ni_type_2 td {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.u_ni_progress_component {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.u_ni_progress_component .u_ni_meta_group .u_ni_meta .u_ni_title, .u_ni_table_component.u_ni_type_4 th.u_ni_highlight {
+		color: #fff;
+	}
+	
+	.u_ni_table_component.u_ni_type_7 table {
+		border-top: 1px solid #404040;
+	}
+	
+	.u_ni_table_component.u_ni_type_7 tbody th, .u_ni_table_component.u_ni_type_7 td {
+		border-top: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.u_ni_table_component.u_ni_type_7 tbody tr:first-child th, .u_ni_table_component.u_ni_type_7 tbody tr:first-child td {
+		border-top-color: #404040;
+	}
+	
+	.u_ni_table_double .u_ni_table_component.u_ni_type_7 table {
+		border-bottom-color: #404040;
+	}
+	
+	.u_ni_option_component.u_ni_type_1 .u_ni_btn_radio_list .u_ni_btn_radio_item input:checked + label {
+		color: #fff;
+	}
+	
+	.u_ni_nodata_section .u_ni_desc {
+		color: #fff;
+	}
+	
+	.u_ni_table_component.u_ni_type_7 table {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.u_ni_stats_info_wrap .u_ni_desc_section .u_ni_desc {
+		border-bottom: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.u_ni_table_component.u_ni_type_7 .u_ni_table_item .u_ni_link {
+		color: #cacaca;
+	}
+	
+	.u_ni_table_component.u_ni_type_7 .u_ni_table_item:first-child {
+		border-top: 1px solid #404040;
+	}
+	
+	.u_ni_table_component.u_ni_type_7 .u_ni_table_item {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.u_ni_title_component.u_ni_ico_cafe .u_ni_link {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.u_ni_dashboard_component.u_ni_type_3 .u_ni_dashboard_group {
+		border: 1px solid #404040;
+	}
+	
+	.u_ni_dashboard_component.u_ni_type_3 .u_ni_dashboard_group + .u_ni_dashboard_group > .u_ni_title {
+		color: #fff;
+	}
+	
+	.u_ni_table_component.u_ni_type_8 table th, .u_ni_table_component.u_ni_type_8 table td {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.u_ni_table_component.u_ni_type_8 thead th:first-child {
+		background-color: #2f2f2f;
+	}
+	
+	.u_ni_table_component.u_ni_type_8 thead th {
+		color: #cacaca;
+	}
+	
+	.u_ni_table_component.u_ni_type_8 thead th + th {
+		border-left: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.u_ni_table_component.u_ni_type_8 table {
+		border-top: 1px solid #404040;
+	}
+	
+	.u_ni_table_component.u_ni_type_8 tbody th {
+		background-color: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.u_ni_table_component.u_ni_type_8 tbody th + td, .u_ni_table_component.u_ni_type_8 tbody td + td {
+		border-left: 1px solid #404040;
+		color: #fff;
+	}
+	
+	.u_ni_btn_download, .u_ni_option_list .u_ni_option_item label {
+		color: #cacaca;
+	}
+	
+	.section_cont .bx_type .bx_cont .item strong {
+		color: #fff;
+	}
+	
+	.section_cont .bx_type .bx_cont .item input {
+		border-color: #404400;
+	}
+	
+	.section_cont .bx_type.w680 .bx_cont .wrt textarea, .section_cont .bx_type .bx_cont .wrt textarea {
+		background: #242424;
+		color: #cacaca;
+		border: 1px solid #404040;
+	}
+}
+
+@-moz-document url-prefix("https://cafe.naver.com/ManageEventQuestionExample.nhn")
+{
+	html, head, body {
+		background: #242424;
+		color: #cacaca;
+	}
+	
+	.pop_content h2 {
+		color: #fff;
+	}
+	
+	.ex_q_lst td {
+		color: #cacaca;
+	}
+	
+	.ex_q_lst td {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.ex_q_lst {
+		border-top: 1px solid #404040;
+	}
+	
+	.p_paginate {
+		border-top: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	#pop_footer {
+		border-top: 1px solid #404040;
+	}
+	
+	.p_paginate a {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+}
+
+@-moz-document url-prefix("https://cafe.naver.com/jsp/mycafe/manage/operate/ManageMyCafeJoinEventHelp.jsp")
+{
+	#pop_ly_wrap #pop_header {
+		background-color: #2f2f2f;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.desc2, .lst_ntce li {
+		color: #cacaca;
+	}
+	
+	.btn_type {
+		filter: invert(86%);
+	}
+}
+
+@-moz-document url-prefix("https://cafe.naver.com/CafeEventPop.nhn")
+{
+	.pop_b04 {
+		background-color: #242424;
+	}
+	
+	td {
+		color: #cacaca;
+	}
+	
+	table tbody tr td a img {
+		filter: invert(86%);
+	}
+}
+
+@-moz-document url-prefix("https://nid.naver.com/user2/help/contactInfo.nhn")
+{
+	.update {
+		background: #242424;
+	}
+	
+	.contact_info {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	#footer {
+		border-top: 1px solid #404040;
+	}
+	
+	.contact_info .input_text {
+		border: 1px solid #404040;
+		color: #cacaca;
+		background: #242424;
+	}
+	
+	.btn_author {
+		filter: invert(86%);
+	}
+	
+	.update .spot {
+		background: none;
+	}
+	
+	.update .spot:before {
+		content: '';
+		background: #fff;
+		position: absolute;
+		width: 730px;
+		height: 296px;
+		top: -10px;
+		left: -10px;
+		border-radius: 15px;
+	}
+	
+	.update .spot:after {
+		content: '';
+		background: url(https://static.nid.naver.com/images/web/user/sp_update_info_140127.png) no-repeat;
+		width: 710px;
+		height: 276px;
+		position: absolute;
+	}
+	
+	.update .spot .link_spot {
+		z-index: 10;
+	}
+	
+	.update #footer address a {
+		color: #fff;
+	}
+}
+
+@-moz-document url-prefix("https://cafe.naver.com/ManageSecedePopupView.nhn"), url-prefix("https://cafe.naver.com/ManageCafeOptionalBoardStaffPopup.nhn"), url-prefix("https://cafe.naver.com/ManageJoinRefusalAddPopup.nhn"), url-prefix("https://cafe.naver.com/ManageCafeJoinNoticePreview.nhn"), url-prefix("https://cafe.naver.com/ManageProhibitWordView.nhn")
+{
+	.lst_type dt {
+		color: #fff;
+	}
+	
+	.bx_area {
+		border: 1px solid #404040;
+	}
+	
+	.pers_nick_area .nick {
+		color: #fff;
+	}
+	
+	.lst_reason li {
+		color: #cacaca;
+	}
+	
+	.lst_reason li.etc textarea {
+		border-color: #404040;
+		background: #242424;
+		color: #cacaca !important;
+	}
+	
+	#pop_footer {
+		border-top: 1px solid #404040;
+	}
+	
+	.lst_board li {
+		color: #cacaca;
+	}
+	
+	.staf_lst_tit, .staf_lst_tit2 {
+		filter: invert(86%);
+	}
+	
+	.staf_lst_con {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.tbl_lst tbody tr:hover, .tbl_lst tbody tr.selected td {
+		background-color: #242424;
+	}
+	
+	.pop_refuse .empty strong {
+		color: #cacaca;
+	}
+	
+	.lst_type dd.result {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.h_type2 {
+		border-bottom: 1px solid #404040;
+		background: #404040;
+	}
+	
+	.h_type2 h1 {
+		color: #fff;
+	}
+	
+	.join_wel_view .pop_content.pc {
+		border-radius: 18px;
+		height: 824px;
+	}
+	
+	.join_wel_view .layer {
+		background: #242424;
+	}
+	
+	#pop_container .layer .top_area img {
+		filter: invert(86%);
+	}
+	
+	.cafe_thumb_70 .border.mask_white, .cafe_thumb_70 .border {
+		border-radius: 25px;
+	}
+	
+	.join_wel_view .layer .cont_area .desc .inner {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.join_wel_view .pop_content.mapp, .join_wel_view .pop_content.mweb {
+		border-radius: 120px / 60px;
+	}
+	
+	.pop_content h2 {
+		color: #fff;
+	}
+	
+	.scroll_area {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.tbl_btm_area {
+		color: #cacaca;
+	}
+	
+	.tip_area {
+		background: #2f2f2f;
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.tip_area p strong .tip {
+		filter: invert(86%);
+	}
+	
+	.tip_area p strong {
+		color: #fff;
+	}
+	
+	.tbl_btm_area {
+		color: #cacaca;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.tbl_lst th, .tbl_spam th {
+		filter: invert(86%);
+	}
+	
+	.tbl_spam td {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.tbl_spam tbody tr:hover, .tbl_spam tbody tr.selected td {
+		background: #2f2f2f;
+	}
+	
+	.tbl_spam td .tit {
+		color: #cacaca;
+	}
+}
+
+@-moz-document url-prefix("https://note.naver.com/note/sendForm.nhn")
+{
+	.toady_sent {
+		border-bottom: 1px solid #404040;
+	}
+	
+	#pop_wrap .button, #pop_wrap .button_s {
+		border-color: #404040;
+		color: #cacaca;
+	}
+	
+	.pop_content .writing_area {
+		border-top: 1px solid #404040;
+	}
+	
+	.pop_content .writing_area textarea {
+		border: 1px solid #404040;
+	}
+	
+	.pop_content .writing_option {
+		color: #cacaca;
+	}
+}
+
+@-moz-document url-prefix("https://up.cafe.naver.com/CafeBookCoverImageUploadView.nhn")
+{
+	#pop_footer {
+		border-top: 1px solid #404040;
+	}
+	
+	input {
+		border: 1px solid #404040;
+		background: #242424;
+		color: #cacaca;
+	}
+	
+	#pop_footer .btn_type strong, #pop_footer .btn_type span {
+		background: #404040;
+		color: #cacaca;
+	}
+}
+
+@-moz-document url-prefix("https://cafe.stat.naver.com/view/")
+{
+	html, body {
+		background: #242424;
+	}
+	
+	.u_ni_inflow_detail .u_ni_title {
+		background-color: #019341;
+	}
+	
+	.u_ni_inflow_detail .u_ni_item a {
+		color: #cacaca;
+		border-bottom: 1px solid #404040;
 	}
 }

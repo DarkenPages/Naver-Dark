@@ -5609,6 +5609,10 @@
 	.skin-1080 .search_result .alarm_switch {
 		color: #cacaca;
 	}
+	
+	#group-area:not(.skin-1080) .cafe-info-action .gm-tcol-c {
+		color: #cacaca;
+	}
 }
 
 @-moz-document url-prefix("https://section.blog.naver.com"), url-prefix("http://section.blog.naver.com")

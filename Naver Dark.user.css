@@ -525,7 +525,7 @@
 		height: 21px;
 		background-position: -4px -4px;
 		clip: auto;
-		overflow: auto;
+		overflow: hidden;
 		color: transparent;
 		top: 49px;
 		left: 115px;
@@ -3520,6 +3520,258 @@
 	.land .tab li.selected a {
 		color: #fff;
 	}
+	
+	.cs_nation .namap_area .map_opener {
+		filter: invert(86%);
+	}
+	
+	.cs_nation .natab_type {
+		background: #2f2f2f;
+	}
+	
+	.cs_nation .natab_box {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_nation .natab_type li {
+		background: #404040;
+	}
+	
+	.cs_nation .natab_type a, .cs_nation .natab_type li.item span {
+		background: #404040;
+	}
+	
+	.cs_nation .natab_type {
+		border: 1px solid #404040;
+		border-width: 0 1px;
+	}
+	
+	.cs_nation .map_zoom_area a {
+		background-color: #242424;
+	}
+	
+	.cs_nation .map_zoom_area a .ico_mapzoom {
+		filter: invert(86%);
+	}
+	
+	.cs_nation .map_zoom_area .map_zoom_out {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_nation .nacon_area, .cs_nation .naflag_box {
+		background: none;
+	}
+	
+	.cs_nation .info_naflag dt strong {
+		color: #fff;
+	}
+	
+	.u_soundPlayer .u_controls_play, .u_soundPlayer .u_controls_stop, .u_soundPlayer .u_player_controls {
+		background-color: #2f2f2f;
+	}
+	
+	.u_soundPlayer .u_controls_progress {
+		background-color: #4f4f4f;
+	}
+	
+	.u_soundPlayer {
+		border: 1px solid #404040;
+	}
+	
+	.u_soundPlayer .u_controls_stop {
+		border: solid #404040;
+		border-width: 0 1px;
+	}
+	
+	.cs_nation .natab_type2 li.selected a {
+		color: #fff;
+		background: #2f2f2f;
+	}
+	
+	.cs_nation .natab_type2 li a {
+		background: #242424;
+		color: #cacaca;
+	}
+	
+	.cs_nation .natab_type2 {
+		background: #242424;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_nation .natab_type2 li.selected, .cs_nation .natab_type2 li {
+		border: 1px solid #404040;
+		border-width: 0 1px;
+	}
+	
+	.cs_nation .lst_overv .num_case, .cs_nation .lst_overv .num_case span {
+		background: #2f2f2f;
+	}
+	
+	.cs_nation .lst_overv dd {
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_nation .lst_overv .apm {
+		filter: invert(86%);
+	}
+	
+	.cs_nation .nacon_area {
+		border: 1px solid #404040;
+		border-top: 0;
+	}
+	
+	.cs_nation .img_naflag a {
+		height: 71px;
+	}
+	
+	.cs_nation .prcs_guide .pro_com a img {
+		border-radius: 5px;
+	}
+	
+	.cs_nation .natab_type li ul {
+		background: #2f2f2f;
+		border: 1px solid #404040;
+		border-top: 0;
+	}
+	
+	.cs_nation .natab_type li li a {
+		color: #cacaca !important;
+	}
+	
+	.cs_nation .natab_type li li {
+		background: #404040;
+	}
+	
+	.cs_nation .natab_type li li.selected a {
+		background: #4f4f4f;
+	}
+	
+	.cs_nation .nacon_box, .cs_nation .naflag_box {
+		border-top: 1px solid #404040;
+	}
+	
+	.dic_aside .dic_dsc .ico_area_de img, .dic_aside .ly_tooltip .arw {
+		filter: invert(86%);
+	}
+	
+	.dic_aside .ly_tooltip {
+		border: 1px solid #404040;
+	}
+	
+	.dic_aside .ly_tooltip .content {
+		background: #242424;
+	}
+	
+	.cs_university .api_title .campus_select .btn_select, .cs_university .university_area {
+		color: #cacaca;
+	}
+	
+	.cs_university .university_info +.university_info {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_university .university_info .university_link_list li {
+		filter: invert(86%);
+	}
+	
+	.cs_university .university_info .item .txt .link_map {
+		color: #cacaca;
+		border: 1px solid #404040;
+	}
+	
+	.cs_university .tab_area {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_university .tab_area .list_tab li[aria-selected="true"] a .menu {
+		color: #fff;
+	}
+	
+	.cs_university .tab_area .list_tab li a .menu {
+		color: #cacaca;
+	}
+	
+	.cs_university .sub_tab_area {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_university .sub_tab_area .list_tab li[aria-selected="true"] a .menu {
+		color: #fff;
+	}
+	
+	.cs_university .sub_tab_area .list_tab li a .menu {
+		color: #cacaca;
+	}
+	
+	.cs_university .chart .chart_list_all .university_chart .chart_top .chart_name, .cs_university .chart .chart_list_all .university_chart .chart_top .chart_text, .cs_university .chart .chart_list_all .university_chart .chart_top .chart_sub_text {
+		color: #cacaca;
+	}
+	
+	.cs_university .chart .chart_list_all .chart_list_box .chart_box_bar {
+		background-color: #404040;
+	}
+	
+	.cs_university .page_sec a, .cs_university .cs_applyinfo img, .cs_university .rel_txt .ico_alert {
+		filter: invert(86%);
+	}
+	
+	.cs_university .bar {
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_university .api_title .campus_select .campus_list {
+		border: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	.cs_university .api_title .campus_select .campus_list ul {
+		background: #242424;
+	}
+	
+	.cs_university .api_title .campus_select .campus_list ul li a {
+		color: #cacaca;
+	}
+	
+	.cs_university .api_title .official {
+		filter: invert(86%);
+	}
+	
+	.cs_university .table_area table thead th {
+		border: 1px solid #404040;
+		border-width: 1px 0;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_university .table_area table tbody td {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_university .table_area table tbody td .tb_txt .btn_pdf, .cs_university .table_area table tbody td .tb_txt .btn_down {
+		background: url(https://glyphicons.com/img/glyphicons/basic/2x/glyphicons-basic-37-file@2x.png) no-repeat;
+		background-size: 15px 16px;
+		filter: invert(86%);
+	}
+	
+	.cs_university .table_more_info .btn_question {
+		color: #cacaca;
+		border: 1px solid #404040;
+	}
+	
+	.cs_university .chart .chart_list_all .chart_list_box.dormitory .dormitory_list ul li strong {
+		color: #cacaca;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_university .chart .chart_list_all .chart_list_box.dormitory .dormitory_list ul {
+		border: 1px solid #404040;
+		border-width: 1px 0;
+	}
+	
+	.cs_university .chart .chart_list_all .chart_list_box.dormitory .dormitory_list ul li p {
+		border-top: 1px solid #404040;
+		color: #cacaca;
+	}
 }
 
 @-moz-document url-prefix("https://nid.naver.com/user2/help/")
@@ -5554,7 +5806,7 @@
 		left: 50%;
 		top: 50%;
 		transform: translate(-45%, -45%);
-		font-size: 13px;
+		font-size: 11px;
 	}
 	
 	#group-area:not(.skin-1080) .ia-action-data .name img.btn_edit {

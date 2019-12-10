@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.15.2
+@version		1.15.3
 @namespace		Avis Studio
 ==/UserStyle== */
 
@@ -1694,6 +1694,10 @@
 	
 	#gnb .gnb_my_interface {
 		filter: invert(82%);
+	}
+	
+	.mailList .notRead .mTitle a {
+		color: #6bacfc;
 	}
 }
 

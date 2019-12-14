@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.15.3
+@version		1.16.1
 @namespace		Avis Studio
 ==/UserStyle== */
 
@@ -3776,6 +3776,111 @@
 		border-top: 1px solid #404040;
 		color: #cacaca;
 	}
+	
+	.sp_shop .shop_correct_wrap .product_area .product_info .info_list {
+		color: #cacaca;
+	}
+	
+	.sp_shop .spsh {
+		filter: invert(86%);
+	}
+	
+	.sp_shop .shop_correct_wrap .dsc_area .dsc_tab .tab_list .link {
+		color: #fff;
+	}
+	
+	.sp_shop .shop_correct_wrap .rank .ly_score_wrap {
+		border: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	.sp_shop .shop_correct_wrap .rank .ly_score_wrap .score_tit, .sp_shop .shop_correct_wrap .dsc_area .dsc_tab .link_more, .sp_shop .shop_correct_wrap .sub_area .link_more {
+		color: #cacaca;
+	}
+	
+	.sp_shop .shop_correct_wrap .rank .ly_score_wrap .score_bar_wrap {
+		background-color: #404040;
+	}
+	
+	.sp_shop .shop_correct_wrap .dsc_area .dsc_tab, .sp_shop .shop_correct_wrap .dsc_area .dsc_pannel {
+		border-top: 1px solid #404040;
+	}
+	
+	.sp_shop .shop_correct_wrap .dsc_area .compare_table .link.name {
+		color: #fff;
+	}
+	
+	.sp_shop .shop_correct_wrap .dsc_area .compare_table tbody tr:hover {
+		background-color: #2f2f2f;
+	}
+	
+	.sp_shop .shop_correct_wrap .dsc_area .compare_table tbody tr+tr td {
+		border-top: 1px solid #404040;
+	}
+	
+	.sp_shop .shop_correct_wrap .sub_area {
+		border: 1px solid #404040;
+	}
+	
+	.sp_shop .shop_correct_wrap .sub_area .sub_tab .tab_list .link {
+		border-left: 1px solid #404040;
+		border-right: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+		color: #fff;
+	}
+	
+	.sp_shop .shop_correct_wrap .sub_area .sub_tab .tab_list .link[aria-selected=true] {
+		background-color: #2f2f2f;
+	}
+	
+	.sp_shop .shop_correct_wrap .sub_area .sub_tab {
+		background-color: #2f2f2f;
+	}
+	
+	.sp_shop .shop_correct_wrap .sub_area .sub_pannel {
+		border-top: 1px solid #404040;
+	}
+	
+	.sp_shop .shop_correct_wrap .product_list .product_item .info .name {
+		color: #8383ff;
+	}
+	
+	.sp_shop .shop_correct_wrap .dsc_area .compare_table .link.name img {
+		filter: invert(86%);
+	}
+	
+	.sp_shop .shop_correct_wrap .dsc_area .compare_table tbody tr:hover .link.name img {
+		filter: invert(82.3%);
+	}
+	
+	.sp_shop .shop_correct_wrap .dsc_area .product_info .border {
+		background-color: #404040;
+	}
+	
+	.sp_shop .shop_correct_wrap .dsc_area .review_list .review_item .link {
+		color: #fff;
+	}
+	
+	.sp_shop .shop_correct_wrap .dsc_area .review_list .txt {
+		color: #cacaca;
+	}
+	
+	.sp_shop .shop_correct_wrap .dsc_area .review_list .review_item+.review_item .link:before {
+		background: #404040;
+	}
+	
+	.api_datalab_wrap .bar_graph_wrap .bar_item .graph_bar {
+		background-color: #404040;
+		border: 1px solid #404040;
+	}
+	
+	.sp_shop .shop_correct_wrap .dsc_area .datalab_wrap .datalab_item+.datalab_item .inner {
+		border-left: 1px solid #404040;
+	}
+	
+	.sp_shop_default .lst_guide .bx_area.ad .detail_area {
+		background-color: #2f2f2f;
+	}
 }
 
 @-moz-document url-prefix("https://nid.naver.com/user2/help/")
@@ -5869,6 +5974,238 @@
 	#group-area:not(.skin-1080) .cafe-info-action .gm-tcol-c {
 		color: #cacaca;
 	}
+	
+	.skin-1080 .article-auth {
+		border: 1px solid #404040;
+	}
+	
+	.skin-1080 .article-auth .desc, .skin-1080 .article-auth .chk .txt_chk, .skin-1080 .article-auth .chk .list_chk li {
+		color: #cacaca;
+	}
+	
+	img[src="https://cafe.pstatic.net/cafe4/btn_attestation_now.gif"], img[src="https://cafe.pstatic.net/cafe4/btn_experience_auth_later.gif"] {
+		filter: invert(86%);
+	}
+	
+	#naver_common_editor span.save {
+		color: #cacaca;
+	}
+	
+	#naver_common_editor .template {
+		border-left: 1px solid #404040;
+		border-right: 1px solid #404040;
+	}
+	
+	.table_commerce th {
+		color: #fff;
+		border-top: 1px solid #404040;
+	}
+	
+	.table_commerce td {
+		border-top: 1px solid #404040;
+	}
+	
+	.deal_sort button {
+		background-color: #2f2f2f;
+		border: 1px solid #404040 !important;
+		border-right: 0 !important;
+		color: #cacaca;
+	}
+	
+	.deal_sort button.on {
+		background-color: #019341;
+		border-color: #019341 !important;
+		color: #242424;
+	}
+	
+	#naver_common_editor div.npay_receive {
+		color: #cacaca;
+	}
+	
+	#naver_common_editor div.npay_receive .btn_tooltip {
+		filter: invert(86%);
+	}
+	
+	#naver_common_editor div.npay_receive .comm_layer2 .box_area {
+		border-color: #404040;
+	}
+	
+	.comm_layer2 .box_area {
+		background-color: #242424;
+		border: 1px solid #404040;
+	}
+	
+	#naver_common_editor div.npay_receive .comm_layer2 .box_area .tit, #naver_common_editor div.npay_receive .comm_layer2 .box_area .msg {
+		color: #fff;
+	}
+	
+	#naver_common_editor .comm_layer2 .btn_close img {
+		filter: invert(86%);
+	}
+	
+	#naver_common_editor div.npay_receive .comm_layer2 .box_area .msg_list li {
+		color: #cacaca;
+	}
+	
+	#naver_common_editor div.npay_receive .switch_box .toggle_switch .switch_slider {
+		background-color: #404040;
+	}
+	
+	#naver_common_editor .table_commerce .input_price input {
+		 color: #fff;
+	}
+	
+	.table_commerce .input_price {
+		border: 1px solid #404040;
+	}
+	
+	.sell_price .input_price {
+		border-color: #404040;
+	}
+	
+	.table_commerce .input_price em {
+		color: #cacaca;
+		border-left: 1px solid #404040;
+	}
+	
+	.wseller .btn_cert {
+		color: #242424;
+		background-color: #019341;
+	}
+	
+	#naver_common_editor .table_commerce .info {
+		color: #fff;
+	}
+	
+	.table_commerce table {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.wseller .info {
+		border-top: 1px solid #404040;
+	}
+	
+	.wseller .agree {
+		color: #cacaca;
+	}
+	
+	#naver_common_editor .table_commerce button span.btn_tooltip {
+		filter: invert(86%);
+	}
+	
+	.comm_layer2 .box_area strong {
+		color: #fff;
+	}
+	
+	.comm_layer2 .sayc {
+		color: #cacaca;
+	}
+	
+	#naver_common_editor .btns {
+		border-top: 1px solid #404040;
+	}
+	
+	#naver_common_editor #sale_otn_layer .btns a img, #naver_common_editor button .sp_wcommerce {
+		filter: invert(86%);
+	}
+	
+	.box_wmark .layer_wmark {
+		background-color: #242424;
+		border: 1px solid #404040;
+	}
+	
+	#naver_common_editor .box_wmark .layer_wmark .txt {
+		color: #cacaca;
+	}
+	
+	#sale_watermark_layer .btns a img {
+		filter: invert(86%);
+	}
+	
+	#sale_watermark_layer .inner_wmark a img {
+		filter: invert(86%);
+	}
+	
+	.file_commerce {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	#naver_common_editor .file_commerce .item {
+		color: #cacaca;
+	}
+	
+	#tagHelpIcon img {
+		filter: invert(86%);
+	}
+	
+	.deal_sort button.on + button {
+		border-right: 1px solid #404040 !important;
+	}
+	
+	.table_commerce .td_tit {
+		color: #fff;
+	}
+	
+	.table_deal {
+		border: 1px solid #404040;
+	}
+	
+	.table_deal thead th {
+		border-top: 1px solid #404040 !important;
+		color: #cacaca;
+		background-color: #2f2f2f;
+	}
+	
+	.table_deal tbody td {
+		border-top-color: #404040;
+		border-left: 1px solid #404040;
+		color: #cacaca !important;
+	}
+	
+	.table_deal thead th {
+		border-left: 1px solid #404040 !important;
+	}
+	
+	.table_deal tbody th {
+		border-top-color: #404040;
+		color: #cacaca !important;
+	}
+	
+	.section_market {
+		border-top: 1px solid #404040;
+	}
+	
+	#naver_common_editor .comm_layer3 h3 {
+		color: #fff;
+	}
+	
+	.deal_area thead th {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+		border-right: 0;
+		color: #cacaca;
+	}
+	
+	img[src="https://cafe.pstatic.net/editor/btn_close3.gif"] {
+		filter: invert(86%);
+	}
+	
+	.deal_area.v2 tbody th, .deal_area.v2 tbody td {
+		color: #cacaca;
+	}
+	
+	.deal_area.v3 .account_corp_more {
+		filter: invert(86%);
+	}
+	
+	img[src="https://cafe.pstatic.net/editor/btn_confirm2.gif"] {
+		filter: invert(86%);
+	}
+	
+	.comm_layer3 .cash_info {
+		background-color: #2f2f2f;
+	}
 }
 
 @-moz-document url-prefix("https://section.blog.naver.com"), url-prefix("http://section.blog.naver.com")
@@ -6685,12 +7022,35 @@
 
 @-moz-document url-prefix("https://cafe.poll.naver.com")
 {
-	html, head { background: #242424; }
-	.tem1 { border: 1px solid #404040; background: #242424; }
-	.tem1 .tit_b_2 { background: #2c2c2c; border-bottom: 1px solid #404040; }
-	.vote_main .list_h_2 .line_l table { filter: invert(100%); }
-	.tem1 .vote_bot2 { border-top: 1px solid #404040; }
-	.vote_main .list_h_2 .line_l, .tem1 .vote_main .main_top { filter: invert(86%); }
+	html, head {
+		background: #242424;
+	}
+	
+	.tem1 {
+		border: 1px solid #404040;
+		background: #242424;
+	}
+	
+	.tem1 .tit_b_2 {
+		background: #2c2c2c;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.vote_main .list_h_2 .line_l table {
+		filter: invert(100%);
+	}
+	
+	.tem1 .vote_bot2 {
+		border-top: 1px solid #404040;
+	}
+	
+	.vote_main .list_h_2 .line_l, .tem1 .vote_main .main_top {
+		filter: invert(86%);
+	}
+	
+	#vote_pop .main_top .wrap {
+		color: #242424;
+	}
 }
 
 @-moz-document url-prefix("https://cafe.naver.com/ArticlePrint.nhn")
@@ -12080,5 +12440,2474 @@
 	
 	#header {
 		background-color: #019341;
+	}
+}
+
+@-moz-document url-prefix("https://sports.news.naver.com")
+{
+	html, body, head {
+		background-color: #242424;
+		color: #cacaca;
+	}
+	
+	.sports_menu {
+		background-color: #242424;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.sports_menu .link_main_menu {
+		color: #fff;
+	}
+	
+	/* User Profile CSS */
+	
+	.gnb_notice_li .svc_panel, .gnb_notice_li .svc_scroll {
+		background: #2f2f2f;
+	}
+	
+	.gnb_notice_li .svc_head {
+		background: #2f2f2f;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.gnb_notice_li .gnb_notice_lyr, .gnb_my_lyr {
+		background: none;
+	}
+	
+	a.gnb_my .gnb_name {
+		color: #cacaca;
+	}
+	
+	.gnb_notice_li .svc_head .task_right {
+		filter: invert(86%);
+	}
+	
+	.gnb_notice_li .svc_list li {
+		border-top: 1px solid #404040;
+	}
+	
+	.gnb_ly_alert {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.gnb_notice_li .gnb_notice_all {
+		border-top: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.gnb_my_li .gnb_my_content {
+		background: #2f2f2f;
+	}
+	
+	.gnb_my_li .gnb_my_content .gnb_img_area img {
+		border-radius: 50%;
+		-moz-border-radius: 50%;
+		-webkit-border-radius: 50%;
+	}
+	
+	.column_wrap .column_header {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.gnb_my_li .gnb_my_content .gnb_mask {
+		background: none;
+	}
+	
+	.gnb_my_li .gnb_my_content .gnb_name, #gnb a:hover, #gnb a {
+		color: #cacaca;
+	}
+	
+	.gnb_bg {
+		background: none;
+	}
+	
+	.gnb_txt {
+		background: #404040;
+	}
+	
+	#gnb {
+		color: #cacaca;
+	}
+	
+	#gnb a, #gnb a:visited {
+		color: #cacaca;
+	}
+	
+	#gnb #gnb_my_lyr_iframe {
+		width: 100% !important;
+	}
+	
+	#gnb .gnb_my_li .gnb_my_community a {
+		background-color: #2f2f2f;
+		border-top: 1px solid #404040;
+		border-right: 1px solid #404040;
+	}
+	
+	#gnb .gnb_my_li .gnb_my_community a.gnb_pay span {
+		background-image: url(https://ssl.pstatic.net/static/cafe/homepc/sprite/sp_home_a09f1fce.svg), none;
+		background-repeat: no-repeat;
+		background-position: -4px -4px;
+		width: 11px;
+		height: 20px;
+		position: absolute;
+		top: -4px;
+		left: 35px;
+	}
+	
+	#gnb .gnb_my_li .gnb_my_community a.gnb_pay span:after {
+		position: absolute;
+		content: 'Pay';
+		color: #cacaca;
+		font-size: 14px;
+		margin-top: 11px;
+		left: 13px;
+		letter-spacing: 1px;
+	}
+	
+	.gnb_notice_li a.gnb_notice .gnb_icon, .mail_li a.gnb_mail .gnb_icon, .gnb_service_li a.gnb_service .gnb_icon {
+		filter: invert(86%);
+	}
+	
+	.gnb_lst .ico_arrow {
+		filter: invert(82%);
+	}
+	
+	a.gnb_my .ico_arrow {
+		top: 26px;
+	}
+	
+	.gnb_favorite_area, .gnb_search_area {
+		background: none;
+	}
+	
+	.gnb_favorite_lstwrp {
+		background: #2f2f2f;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.gnb_service_li .ico_arrow {
+		z-index: 99;
+		top: 28px;
+	}
+	
+	.gnb_search_area {
+		margin: 0 4px 0;
+		padding: 18px 0 17px;
+		background: #2f2f2f;
+	}
+	
+	.gnb_search_lstwrp .gnb_search_lst {
+		border-left: 1px solid #404040;
+	}
+	
+	.gnb_banner {
+		padding: 0;
+		margin: 0 4px;
+		background: none;
+		background-color: #2f2f2f;
+	}
+	
+	.gnb_banner .gnb_service_event {
+		width: 100%;
+		filter: invert(82%);
+	}
+	
+	.gnb_linkwrp {
+		background: none;
+	}
+	
+	.gnb_linkwrp a {
+		background: #2f2f2f;
+	}
+	
+	a.gnb_service_all {
+		border-top: 1px solid #404040;
+	}
+	
+	.gnb_pop_input .gnb_pop_lst li a {
+		color: #444 !important;
+	}
+	
+	#gnb_promo {
+		margin: 0 18px;
+	}
+	
+	.gnb_search_lstwrp {
+		padding-left: 3px;
+	}
+	
+	.gnb_favorite_lst .gnb_add a span.ic_add, .gnb_search_box, .sports_header .logo_naver, .sports_header .logo_sports {
+		filter: invert(86%);
+	}
+	
+	#gnb .gnb_my_interface {
+		filter: invert(82%);
+	}
+	
+	.sports_menu .search_field {
+		background-color: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.sports_menu .search_field .input_search, .main_headline_small .inner {
+		color: #cacaca;
+	}
+	
+	.main_ranknews_tab .inner a {
+		border-left: 1px solid #404040;
+	}
+	
+	.main_ranknews_tab .inner {
+		border-top: 1px solid #404040;
+		border-right: 1px solid #404040;
+	}
+	
+	.main_ranknews_tab .inner span {
+		border-bottom: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	.main_ranknews_tab .inner .selected span {
+		border-color: #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.main_ranknews_list .title {
+		color: #cacaca;
+	}
+	
+	.main_ranknews_list .rank_num {
+		color: #cacaca;
+		background-color: #404040;
+	}
+	
+	.main_article .head h2 {
+		color: #fff;
+	}
+	
+	.main_article .head .airs {
+		filter: invert(86%);
+	}
+	
+	.main_article_tab a span {
+		border-bottom: 2px solid #404040;
+	}
+	
+	.main_article_tab a {
+		color: #cacaca;
+	}
+	
+	.main_article .head {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.main_article_list a, .main_column_box .title, .main_group2 .main_column:first-child .title, .main_vod_list .vod_li .title {
+		color: #8383ff;
+	}
+	
+	.main_vod_list .text .title {
+		color: #cacaca;
+	}
+	
+	.main_article_thmb .thmb_box a {
+		color: #cacaca;
+	}
+	
+	.main_vod .head h2, .main_column .head h2, .aside_head h3.title {
+		color: #fff;
+	}
+	
+	.main_article {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.main_wrap .aside {
+		border-right: 1px solid #404040;
+		border-left: 1px solid #404040;
+	}
+	
+	.aside_inner {
+		border-top: 1px solid #404040;
+	}
+	
+	.aside_inner .more span:after, .aside_radio h3.title, .aside_radio .circle span, .main_vod_list .text .play .ico, .aside_shopping .shopping_paginated .nav span {
+		filter: invert(86%);
+	}
+	
+	.aside_column .text {
+		color: #cacaca;
+	}
+	
+	.main_vod, .main_column_list {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.main_photo {
+		border-top: 1px solid #404040;
+	}
+	
+	.notice_foot {
+		border-bottom: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	#footer {
+		border-top: 2px solid #404040;
+	}
+	
+	.notice_foot .inner span:before {
+		filter: invert(86%);
+	}
+	
+	#footer ul li a {
+		color: #cacaca;
+	}
+	
+	.main_column_list .nav span {
+		filter: invert(82.3%);	
+	}
+	
+	.main_column_list .list_wrap {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.main_column_list .list .inner {
+		border-left: 1px solid #404040;
+	}
+	
+	.main_column_list .list a {
+		color: #cacaca;
+	}
+	
+	.main_column_list .nav {
+		border-left: 1px solid #404040;
+	}
+	
+	.main_wrap .aside_inner .da_l, .main_wrap .aside_inner .da_r {
+		background-color: #404040;
+	}
+	
+	.sports_menu.type_submenu:before {
+		border-top: 1px solid #404040;
+	}
+	
+	.home_spot {
+		background-color: #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.headline_news_guide .title_area .ico_beta, .headline_news_guide .title_area .ico_guide, .home_news .head .airs {
+		filter: invert(86%);
+	}
+	
+	.headline_ct a, .headline_title .title, .head_issue_list a, .home_news_list a {
+		color: #8383ff !important;
+	}
+	
+	.headline_title {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.headline_news_guide .title_area .btn_guide:before {
+		background-color: #404040;
+	}
+	
+	.head_issue {
+		border-right: 1px solid #404040;
+		border-left: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.head_issue h2 {
+		color: #fff;
+	}
+	
+	.head_issue_list .list li {
+		border-top: 1px solid #404040;
+	}
+	
+	.home_vod_tab .inner {
+		border-right: 1px solid #404040;
+		border-left: 1px solid #404040;
+	}
+	
+	.home_vod_list, .home_mn {
+		border: 1px solid #404040;
+		border-top: 0;
+	}
+	
+	.home_vod_tab a + a:before {
+		background-color: #404040;
+	}
+	
+	.home_da2 {
+		background-color: #404040;
+	}
+	
+	.home_mn2 {
+		border: 1px solid #404040;
+		border-top: 0;
+	}
+	
+	.home_column .head h2, .home_column_box .text, .home_radio .head h2, .home_radio_list .list a {
+		color: #fff;
+	}
+	
+	.home_column_box a, .home_shopping .list_shopping .list li a, .home_shopping .list_shopping .list li .text, .notice_foot .inner a {
+		color: #cacaca;
+	}
+	
+	.home_column .head, .home_radio .head {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.home_column .head .head_nav .nav span, .home_radio_list .circle {
+		filter: invert(86%);
+	}
+	
+	.home_clist {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.home_clist .nav span {
+		filter: invert(82.3%);
+	}
+	
+	.home_radio_list .list a {
+		border-left: 1px solid #404040;
+	}
+	
+	.home_photo_ct .home_photo_list .list li {
+		border-bottom: 1px solid #404040;
+		border-left: 1px solid #404040;
+	}
+	
+	.home_issue_box .issue_box a, .hmb_news .thmb_small .title, .hmb_news .thmb_small2 .title {
+		color: #cacaca;
+	}
+	
+	.hmb_tbl tbody th, .hmb_tbl tbody td {
+		color: #cacaca;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.hmb_tbl thead th {
+		color: #cacaca;
+		border-bottom: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.home_mn .home_box_head {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.home_news .head h2 {
+		color: #fff;
+	}
+	
+	.home_news .head {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.news_lnb .sort a {
+		color: #cacaca;
+	}
+	
+	.news_lnb .sort .toggle a:after, .news_lnb .option .button.selected span {
+		filter: invert(86%);
+	}
+	
+	.news_lnb .option .check a:not(.selected) .view1, .news_lnb .option .check a:not(.selected) .view2 {
+		filter: invert(86%);
+	}
+	
+	.news_list .text .title {
+		color: #fff;
+	}
+	
+	.news_lnb {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.news_list li {
+		border-top: 1px solid #404040;
+	}
+	
+	.news_list {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.paginate a, .paginate strong {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.paginate a:hover {
+		border-color: #4f4f4f;
+	}
+	
+	.paginate_day .prev, .paginate_day .next {
+		filter: invert(86%);
+	}
+	
+	.mainpage .page_wrap .aside, .news_wrap .aside, .video_wrap .aside {
+		border-right: 1px solid #404040;
+		border-left: 1px solid #404040;
+	}
+	
+	.aside_news_list .title {
+		color: #cacaca;
+	}
+	
+	.aside_tab2 a span {
+		border-right: 1px solid #404040;
+	}
+	
+	.aside_tab2 a {
+		background: #404040;
+		color: #cacaca;
+	}
+	
+	.aside_vod_list2 .text .title, .aside_rank_player .list .inner, .aside_rank_player .list .stat {
+		color: #cacaca;
+	}
+	
+	.aside_rank_player .list li + li, .aside_column li + li {
+		border-top: 1px solid #404040;
+	}
+	
+	.news_team {
+		border: 1px solid #404040;
+	}
+	
+	.news_team a {
+		border-left: 1px solid #404040;
+		border-top: 1px solid #404040;
+		color: #fff;
+	}
+	
+	.news_team .selected a {
+		background: #2f2f2f;
+	}
+	
+	.news_team li:after {
+		border-left: 1px solid #404040;
+		border-top: 1px solid #404040;
+	}
+	
+	.videocenter {
+		background: #242424;
+	}
+	
+	.video_channel dl.info .name {
+		color: #cacaca;
+	}
+	
+	.video_channel dl.info:before {
+		background-color: #404040;
+	}
+	
+	.video_top {
+		background: #404040;
+	}
+	
+	.aside_vod_list2 .text .play .ico, .u_likeit_list_module .u_likeit_list_btn .u_ico, .video_summary .service .comment .ico, .video_summary .info .play span {
+		filter: invert(86%);
+	}
+	
+	.u_likeit_list_module .u_type_video .u_cnt {
+		color: #cacaca;
+	}
+	
+	.u_likeit_list_module .u_type_video, .video_summary .u_likeit_list_module .u_likeit_list_btn, .video_summary .service .comment, .video_summary .service .share {
+		border: 1px solid #404040;
+	}
+	
+	.video_summary .service .comment {
+		color: #cacaca;
+	}
+	
+	.video_summary .info .play {
+		color: #fff;
+	}
+	
+	.tab_type1 li a {
+		border-left: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.tab_type1 {
+		border-right: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.video_list .text .title {
+		color: #cacaca;
+	}
+	
+	.video_head .search {
+		border: 1px solid #404040;
+		background: #242424;
+		color: #cacaca;
+	}
+	
+	.video_head .search .typing {
+		background: #242424;
+		color: #cacaca;
+	}
+	
+	.video_head .search .btn, .video_list .text .play span, .paginate .pre, .paginate .prev, .paginate .next, .aside_vod_list .text .ico {
+		filter: invert(86%);
+	}
+	
+	.combo_box .scrollbar-thumb, .aside_vod_play .scrollbar-thumb, .layer_cald .scrollbar-thumb, .aside_vod_play .scrollbar-thumb {
+		background-color: #4f4f4f;
+	}
+	
+	.combo_box .scrollbar-track, .aside_vod_play .scrollbar-track, .layer_cald .scrollbar-track, .aside_vod_play .scrollbar-track {
+		background-color: #404040;
+	}
+	
+	.aside_tab a.selected {
+		color: #fff;
+	}
+	
+	.aside_tab a span {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.aside_tab a + a span {
+		border-left: 1px solid #404040;
+	}
+	
+	.aside_tab a.selected span {
+		border-bottom-color: #404040;
+	}
+	
+	.tab_type2 .prev span, .tab_type2 .next span, .schedule_nav .link_today, .schedule_nav .week, .schedule_nav .link_cal .ico, .u_cbox .u_cbox_btn_refresh .u_cbox_ico_refresh {
+		filter: invert(86%);
+	}
+	
+	.u_cbox .u_cbox_write .u_cbox_write_inner {
+		background-color: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.u_cbox .u_cbox_write .u_cbox_inbox, .u_cbox .u_cbox_profile_area {
+		background-color: #242424;
+	}
+	
+	.u_cbox .u_cbox_box_name, .u_cbox a, .u_cbox .u_cbox_sort .u_cbox_sort_option_on .u_cbox_sort_label, .u_cbox .u_cbox_cleanbot_content, .u_cbox .u_cbox_layer_help .u_cbox_info_title {
+		color: #fff;
+	}
+	
+	.u_cbox .u_cbox_layer_help .u_cbox_info_txt {
+		color: #cacaca;
+	}
+	
+	.u_cbox .u_cbox_tool .u_cbox_btn_reply {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.u_cbox .u_cbox_recomm_set .u_cbox_btn_recomm, .u_cbox .u_cbox_recomm_set .u_cbox_btn_unrecomm {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.u_cbox .u_cbox_comment_box {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.u_cbox .u_cbox_layer_dimmed {
+		background-color: #242424;
+	}
+	
+	.u_cbox .u_cbox_layer_cleanbot {
+		background-color: #2f2f2f;
+	}
+	
+	.u_cbox .u_cbox_layer_cleanbot_titleicon {
+		filter: invert(82.3%);
+	}
+	
+	.u_cbox .u_cbox_layer_cleanbot_title, .list_f2 dd a {
+		color: #fff;
+	}
+	
+	.list_f2 {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.schedule_vs {
+		border: 1px solid #404040;
+		border-top: 0;
+		background-color: #2f2f2f;
+	}
+	
+	.schedule_week {
+		border: 1px solid #404040;
+	}
+	
+	.schedule_week li a:before, .schedule_week li .disabled:before, .schedule_week .arr:before {
+		background: #404040;
+	}
+	
+	.schedule_week .next {
+		border-right: 1px solid #404040;
+	}
+	
+	.schedule_week li .day {
+		color: #fff;
+	}
+	
+	.schedule_vs .vs_area .num {
+		color: #cacaca;
+	}
+	
+	.schedule_vs .bx ~ .bx {
+		border-left: 1px solid #404040;
+	}
+	
+	.schedule_vs .vs_btn .btn {
+		border: 1px solid #404040;
+		background-color: #404040;
+		color: #cacaca;
+	}
+	
+	.schedule_month_area .schedule_subtitle {
+		color: #fff;
+	}
+	
+	.date_select_nav .select_box .btn_toggle {
+		border: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	.date_select_nav .select_box .now_selected {
+		color: #cacaca;
+	}
+	
+	.date_select_nav .select_box_area.type_date .select_box .now_selected {
+		color: #fff;
+	}
+	
+	.date_select_nav .btn_now_date {
+		color: #cacaca;
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.schedule_month {
+		border: 1px solid #404040;
+	}
+	
+	.schedule_month .list a {
+		color: #cacaca;
+	}
+	
+	.schedule_month_table thead th {
+		border-bottom: 1px solid #404040;
+		background-color: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.schedule_month_table thead th.date {
+		border-left: 1px solid #404040;
+	}
+	
+	.schedule_month_table tbody th {
+		border-top: 1px solid #404040;
+		border-left: 1px solid #404040;
+		color: #cacaca;
+		background: #2f2f2f;
+	}
+	
+	.schedule_month_table .team_left .name, .schedule_month_table .team_right .name, .schedule_month_table .team_left .score, .schedule_month_table .team_right .score, .schedule_month_table .broadcast .btn {
+		color: #cacaca;
+	}
+	
+	.schedule_month_table .broadcast .btn {
+		border: 1px solid #404040;
+	}
+	
+	.schedule_month_table thead th.last {
+		border-right: 1px solid #404040;
+	}
+	
+	.schedule_month_table tbody td {
+		border-top: 1px solid #404040;
+	}
+	
+	.schedule_month_table tbody td.last {
+		border-right: 1px solid #404040;
+	}
+	
+	.schedule_month_table {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.schedule_month_table tbody .division td {
+		border-top-color: #404040;
+	}
+	
+	.schedule_month_table .time {
+		color: #fff;
+	}
+	
+	.schedule_month_table tbody .division th {
+		border-top-color: #404040;
+	}
+	
+	.u_cbox .u_cbox_layer_cleanbot_checklabel {
+		background-color: #404040;
+		color: #cacaca;
+	}
+	
+	.u_cbox .u_cbox_layer_cleanbot_extrabutton {
+		color: #cacaca;
+	}
+	
+	.photo_title .photo_tab_list > li {
+		border: 1px solid #404040;
+	}
+	
+	.u_cbox .u_cbox_layer_cleanbot_extra {
+		border-top: 1px solid #404040;
+	}
+	
+	.u_cbox .u_cbox_cleanbot {
+		border: 1px solid #404040;
+	}
+	
+	.u_cbox .u_cbox_layer_help {
+		border: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	.u_cbox .u_cbox_sort .u_cbox_ico_select {
+		filter: invert(86%);
+	}
+	
+	.u_cbox .u_cbox_write .u_cbox_inbox .u_cbox_text {
+		color: #cacaca;
+	}
+	
+	.u_cbox .u_cbox_upload {
+		border-top: 1px solid #404040;
+	}
+	
+	.u_cbox .u_cbox_notice {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.u_cbox .u_cbox_notice .u_cbox_notice_tit {
+		color: #cacaca;
+	}
+	
+	.u_cbox {
+		background-color: #242424;
+		color: #fff;
+	}
+	
+	.u_cbox .u_cbox_count {
+		color: #fff;
+	}
+	
+	.layer_cald {
+		border: 1px solid #404040;
+		background: #242424;
+	}
+	
+	.layer_cald table.date {
+		background: #242424;
+	}
+	
+	.video_wrap .schedule_nav {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.tab_type2 {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.schedule_nav .day {
+		color: #fff;
+	}
+	
+	.aside_head .service .repeat_list {
+		border-radius: 5px;
+	}
+	
+	.aside_vod_play #scroll, .combo_box .scrollbar-content, .aside_vod_play .scrollbar-content, .layer_cald .scrollbar-content {
+		background: #242424;
+	}
+	
+	.aside_vod_list .text .title {
+		color: #fff;
+	}
+	
+	.video_list ~ .paginate {
+		border-top: 1px solid #404040;
+	}
+	
+	.record_tab .menu img {
+		border-radius: 5px;
+	}
+	
+	.quick_top .ico {
+		filter: invert(82.3%);
+	}
+	
+	.photo_title .photo_tab_list_link {
+		color: #cacaca;
+	}
+	
+	.sch_baseball .sch_score {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.sch_baseball .sch_score .tab li {
+		border: 1px solid #404040;
+		border-top: 0;
+		background: #2f2f2f;
+	}
+	
+	.sch_baseball .sch_score .tab li a em {
+		color: #cacaca;
+	}
+	
+	.sch_baseball .sch_score .tab li.on {
+		border: 1px solid #404040;
+		border-top: 0;
+		background-color: #404040;
+	}
+	
+	.sch_baseball .sch_score .tab li.btn_next2, .sch_vs {
+		border-left: 1px solid #404040;
+		border-right: 1px solid #404040;
+	}
+	
+	.sch_baseball .sch_score .tab li.btn_prev2, .sch_vs li + li {
+		border-left: 1px solid #404040;
+	}
+	
+	.sch_empty.kbo_empty p, .sch_vs .vs_btn a, .sch_vs .vs_btn span {
+		filter: invert(86%);
+	}
+	
+	.sch_vs .vs_btn {
+		border-top: 1px solid #404040;
+	}
+	
+	.tab_team li a {
+		color: #cacaca;
+	}
+	
+	.tab_team {
+		border: 1px solid #404040;
+	}
+	
+	.tab_team {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.sch_tb_head .tl {
+		color: #cacaca;
+	}
+	
+	.sch_tb_head {
+		border-right: 1px solid #404040;
+		border-left: 1px solid #404040;
+	}
+	
+	.sch_tb_head p.tr a img {
+		filter: invert(86%);
+	}
+	
+	.sch_baseball .sch_tb_top {
+		border-bottom: 1px solid #404040;
+		background: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.sch_baseball .sch_tb_top table th span {
+		text-indent: 0;
+		padding-top: 5px;
+	}
+	
+	.sch_baseball .sch_tb {
+		border: 1px solid #404040;
+		background: #242424;
+	}
+	
+	.sch_baseball .td_date strong, .sch_baseball .td_date, .sch_baseball .team_lft, .sch_baseball .td_score, .sch_vs .end .vs_num {
+		color: #cacaca;
+	}
+	
+	.sch_baseball table img, .sch_vs .vs_cnt em {
+		filter: invert(86%);
+	}
+	
+	.gamedata_info {
+		border-top: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.section_center {
+		background: #1c346b;
+	}
+	
+	.section_scoreboard2 .t_name_txt, .section_vs2 .t_name_txt, .section_scoreboard2 .p_score {
+		color: #fff;
+	}
+	
+	.t_score thead th {
+		background: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.t_score thead th.first {
+		color: #cacaca;
+	}
+	
+	.t_score thead th span[class^=i] {
+		filter: invert(82.3%);
+	}
+	
+	.t_score thead th span em {
+		color: transparent;
+	}
+	
+	.t_score tbody th {
+		border-bottom: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.t_score td {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.t_score {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.sch_baseball .sch_tb2 {
+		background: #2f2f2f;
+	}
+	
+	.sch_baseball .nogame2 {
+		background: #2f2f2f;
+	}
+	
+	.sch_baseball .sch_tb2 {
+		border: 1px solid #404040;
+	}
+	
+	.sch_baseball .sch_vs {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.record_tab .menu {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.record_tab li.selected .menu {
+		border-left: 1px solid #404040;
+		border-bottom-color: #404040;
+	}
+	
+	.record_tab .list {
+		border-right: 1px solid #404040;
+		border-left: 1px solid #404040;
+	}
+	
+	.record_tab a {
+		background: #242424;
+		color: #cacaca;
+	}
+	
+	.record_tab li.selected a {
+		background: #2f2f2f;
+	}
+	
+	.record_tab li.selected + li .menu {
+		border-left: 1px solid #404040;
+	}
+	
+	.record_sub_title .record_h, .record_tbl .team_title {
+		color: #fff;
+	}
+	
+	.record_tbl table {
+		border-color: #404040;
+	}
+	
+	.record_tbl td span {
+		color: #cacaca;
+	}
+	
+	.record_tbl td {
+		border-bottom: 1px solid #404040;
+		background: none;
+	}
+	
+	.record_tbl + .record_tbl table {
+		border-top-color: #404040;
+	}
+	
+	.record_tbl th.selected .sort {
+		color: #fff;
+	}
+	
+	.record_tbl th .sort:after {
+		filter: invert(86%);
+	}
+	
+	.record_kr .kr_info {
+		background-color: #2f2f2f;
+	}
+	
+	.record_kr, .record_lead {
+		border-color: #404040;
+	}
+	
+	.record_kr .kr_info .name, .record_lead .info .name, .record_lead .stat, .record_lead .rank_num {
+		color: #cacaca;
+	}
+	
+	.record_lead .lead_inner li + li {
+		border-left: 1px solid #404040;
+	}
+	
+	.record_kr .inner + .inner, .record_lead .text + .text, .record_lead .lead_inner + .lead_inner {
+		border-top: 1px solid #404040;
+	}
+	
+	.toggle_tab a {
+		background-color: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.record_tbl td.num strong {
+		color: #cacaca;
+	}
+	
+	.record_tbl2 li {
+		color: #fff;
+	}
+	
+	.record_lead .lead_title {
+		border-bottom: 1px solid #404040;
+		background: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.record_tbl th {
+		background: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.tab_mnu {
+		border-left: 1px solid #404040;
+	}
+	
+	.tab_mnu a, .tab_mnu .offtab {
+		filter: invert(86%);
+	}
+	
+	.tab_mnu li {
+		border: 1px solid #404040;
+		border-left: none;
+	}
+	
+	.tab_mnu .on .mnu2 a {
+		background-color: #fff;
+	}
+	
+	.tab_mnu .on a {
+		border: 1px solid #fff;
+	}
+	
+	.tab_mnu .on {
+		border: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.section_tab {
+		background: #242424;
+		border-bottom: 1px solid #404040;
+		box-sizing: border-box;
+	}
+	
+	.p_winlosesave strong, .ad_result_skin h3 {
+		color: #848eb2;
+	}
+	
+	.section_todayrec .home, .section_todayrec .away {
+		background: #2f2f2f;
+	}
+	
+	.section_chart .ground_area .hit p, .section_chart .ground_area .out p, .section_chart .ground_area .run p, .section_todayrec dd.t1 span, .section_todayrec .away dd.t1 em, .section_todayrec .home dd.t1 em, .section_todayrec .home dd em, .section_todayrec .home dd span, .section_todayrec .away dd span, .section_todayrec .away dd em, .section_todayrec .home h4, .section_todayrec .away h4 {
+		filter: invert(86%);
+	}
+	
+	.section_todayrec dl dt {
+		color: #cacaca;
+	}
+	
+	.ad_result_skin .aside {
+		background: #242424;
+		border-right: 1px solid #404040;
+	}
+	
+	.section_chart {
+		border: 1px solid #404040;
+	}
+	
+	.section_chart h4 {
+		border-bottom: 1px solid #404040;
+		background: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.section_chart .data_wrap {
+		border-left: 1px solid #404040;
+		border-right: 1px solid #404040;
+	}
+	
+	.section_chart .select_area li {
+		border-bottom: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.section_chart .select_area li a, .section_chart .select_area li span {
+		color: #cacaca;
+	}
+	
+	.section_chart .ground_area .legend p .run {
+		background: url(https://imgnews.pstatic.net/image/sports/nsports/2010/ico_chart_run.png) no-repeat;
+		filter: invert(86%);
+		background-size: 10px 10px;
+	}
+	
+	.section_chart .ground_area .legend p .hit {
+		background: url(https://imgnews.pstatic.net/image/sports/nsports/2010/ico_chart_hit.png) no-repeat;
+		filter: invert(86%);
+		background-size: 10px 10px;
+	}
+	
+	.section_chart .ground_area .legend p .out {
+		background: url(https://imgnews.pstatic.net/image/sports/nsports/2010/ico_chart_out.png) no-repeat;
+		filter: invert(86%);
+		background-size: 10px 10px;
+	}
+	
+	.section_chart .ground_area .note {
+		filter: invert(86%);
+	}
+	
+	.section_todayrec {
+		border: 1px solid #404040;
+	}
+	
+	.ad_result_skin {
+		background: none !important;
+	}
+	
+	.ad_result_skin .article {
+		background: #242424;
+		border-left: 1px solid #404040;
+	}
+	
+	.section_chart .ground_area {
+		border-radius: 10px;
+		height: 413px;
+	}
+	
+	.p_info2 .thumb a {
+		border: 1px solid #404040;
+	}
+	
+	.p_info2 .vs_info, .p_info2 .status_area td, .p_info2 .status_area th span {
+		color: #cacaca;
+	}
+	
+	.p_info2 .status_area {
+		border: 1px solid #404040;
+		border-width: 1px 0 1px 0;
+	}
+	
+	.p_info2 .status_area .mid th, .p_info2 .status_area .mid td {
+		background: #2f2f2f;
+	}
+	
+	.p_info2 .status_area td .detail, .t_type1 th {
+		color: #cacaca;
+	}
+	
+	.t_type1 {
+		background: #2f2f2f;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.t_type1 td {
+		color: #cacaca;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.t_type1 .last td {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.kbo_gc_type2 .h_write h3, .h_write h3 {
+		color: #fff;
+	}
+	
+	.h_write .btn_rfsh {
+		filter: invert(86%);
+	}
+	
+	.p_next_bat {
+		border-bottom: 1px solid #404040;
+		background: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.cbox_write_area {
+		background: #2f2f2f;
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cbox_txt textarea {
+		color: #cacaca;
+		border: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.cbox_txt textarea.cbx_ipt_txt {
+		background: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	input[type=image] {
+		filter: invert(86%);
+	}
+	
+	.cbox_list_area {
+		background: #2f2f2f;
+	}
+	
+	.cbox_list_top {
+		border-bottom: 2px solid #404040;
+	}
+	
+	.cbx_cmt {
+		color: #cacaca;
+	}
+	
+	.cbox_list li {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cbx_page {
+		border-top: 2px solid #404040;
+	}
+	
+	.cbx_page a, .cbx_page strong {
+		border-right: 1px solid #404040;
+		border-left: 1px solid #404040;
+		background: #404040;
+		color: #cacaca;
+	}
+	
+	.cbx_page a.cbx_next {
+		background: #404040;
+	}
+	
+	.ly_lineup .scrl_area {
+		scrollbar-3dlight-color: #2f2f2f;
+		scrollbar-darkshadow-color: #2f2f2f;
+		scrollbar-hightlight-color: #242424;
+		scrollbar-shadow-color: #242424;
+		scrollbar-arrow-color: #404040;
+		scrollbar-face-color: #242424;
+		scrollbar-track-color: #2f2f2f;
+	}
+	
+	.ly_lineup {
+		background: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.ly_lineup h4 {
+		color: #fff;
+	}
+	
+	.ly_lineup .lineup_area th {
+		color: #cacaca;
+		border: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.ly_lineup .lineup_area .bg td {
+		background: #2f2f2f;
+	}
+	
+	.ly_lineup .lineup_area td, .ly_lineup .lineup_area td em {
+		color: #cacaca;
+	}
+	
+	.p_info2 .ly_detail {
+		background: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.p_info2 dd, .p_info2 .ly_detail ul li strong {
+		color: #cacaca;
+	}
+	
+	.p_info2 .ly_detail .btn_ly_clse {
+		filter: invert(86%);
+	}
+	
+	.t_name .t_rank, .t_name .t_win, .t_name .t_lose {
+		border: 1px solid #404040;
+	}
+	
+	.g_time, .kbo_gc_type2 .g_time strong {
+		color: #7ca1e0;
+	}
+	
+	.t_result_board tbody th, .t_result_board td {
+		border-bottom: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.list_gameevent {
+		color: #cacaca;
+	}
+	
+	.t_result_board2 tfoot th, .t_result_board2 tbody th, .t_result_board2 td {
+		border-bottom: 1px solid #404040;
+		border-left: 1px solid #404040;
+		background: #242424;
+		color: #cacaca;
+	}
+	
+	.t_result_board2 .bg th, .t_result_board2 .bg td {
+		background: #2f2f2f;
+	}
+	
+	.schedule_nav .link_lately {
+		filter: invert(86%);
+	}
+	
+	.tab_type2 {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.type_match {
+		background-color: #242424;
+	}
+	
+	.type_match .no_game {
+		background: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.type_match .bx {
+		border: 1px solid #404040;
+	}
+	
+	.u_cbox .u_cbox_chart_wrap {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.u_cbox .u_cbox_chart_cont {
+		background: #2f2f2f;
+	}
+	
+	.u_cbox .u_cbox_chart_cnt {
+		color: #fff;
+	}
+	
+	.u_cbox .u_cbox_chart_male .u_cbox_chart_mask, .u_cbox .u_cbox_chart_female .u_cbox_chart_mask {
+		filter: invert(82.3%);
+	}
+	
+	.u_cbox .u_cbox_chart_open .u_cbox_chart_fold_ico {
+		filter: invert(86%);
+	}
+	
+	.paginate a:hover, .paginate a:active, .paginate a:focus {
+		background-color: #2f2f2f;
+	}
+	
+	.paginate a, .paginate strong {
+		background: #2f2f2f;
+	}
+	
+	.rr_wrap .tit_box2 h4 {
+		color: #fff;
+	}
+	
+	.rr_wrap .tbl_box {
+		background: #2f2f2f;
+	}
+	
+	.rr_wrap .tbl_box thead div strong {
+		filter: invert(82.3%);
+	}
+	
+	.rr_wrap .tbl_box tbody th {
+		border-bottom: 1px solid #404040;
+		color: #cacaca;
+		background: #404040;
+	}
+	
+	.rr_wrap .tbl_box tbody td {
+		border-bottom: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.rr_wrap .tbl_box .tm span, .rr_wrap .tbl_box .ply span {
+		color: #cacaca;
+	}
+	
+	.rr_wrap .tbl_box .h_ln {
+		border-bottom: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.rr_wrap .tbl_box tbody td:last-child {
+		border-right: 1px solid #404040;
+	}
+	
+	.rr_wrap .p_head thead th {
+		border-top: 1px solid #404040;
+		border-left: 1px solid #404040;
+	}
+	
+	.rr_wrap .p_head thead div {
+		border-bottom: 1px solid #404040;
+		background-color: #404040;
+	}
+	
+	.rr_wrap .p_head thead div .title {
+		color: #cacaca;
+		filter: none;
+	}
+	
+	.rr_wrap .p_head tbody tr td {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.rr_wrap .p_head td {
+		border-left: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.rr_wrap .p_head .ph_rank .ord, .rr_wrap .p_head .ph_rank strong {
+		color: #cacaca;
+	}
+	
+	.rr_wrap .p_head thead th:last-child {
+		border-right: 1px solid #404040;
+	}
+	
+	.rr_wrap .tbl_box tbody .on td {
+		border-bottom: 1px solid #404040;
+		background: #383838;
+	}
+	
+	.tbl_paging .paging_arr span {
+		filter: invert(82.3%);
+	}
+	
+	.tbl_paging .paging_arr {
+		border-left: 1px solid #404040;
+	}
+	
+	.rr_wrap .tbl_box tbody .dv th, .rr_wrap .tbl_box tbody .dv td {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.column_list3 .inner {
+		border: 1px solid #404040;
+		background: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.column_list3 .name:after {
+		filter: invert(82.3%);
+	}
+	
+	.column_head.type2 {
+		background: #2f2f2f;
+		border-top: 2px solid #404040;
+	}
+	
+	.news_list .text .desc {
+		color: #cacaca;
+	}
+	
+	.t_score tbody.mlb td {
+		background-color: #2f2f2f;
+	}
+	
+	.home_box h2, .hmb_sch .day, .hmb_list .hmb_list_items .vs_list .score {
+		color: #fff;
+	}
+	
+	.home_mn .btn_wrap .btn, .home_mn .btn_wrap span.btn {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.home_box_head .more span:after, .home_issue .component_box .more span:after {
+		filter: invert(86%);
+	}
+	
+	.home_issue .component_box {
+		border-top: 1px solid #404040;
+	}
+	
+	.hmb_sch, .hmb_tab {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.hmb_sch + .hmb_tab {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.gc {
+		border-radius: 10px;
+	}
+	
+	.type_match .team .name {
+		color: #fff;
+	}
+	
+	.rr_h2 {
+		filter: invert(86%);
+	}
+	
+	.league_choice_tab li a {
+		background-color: #2f2f2f;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.league_choice_tab li:first-child a, .league_choice_tab li.is_selected + li a {
+		border-left: 1px solid #404040;
+	}
+	
+	.league_choice_tab li:last-child a {
+		border-right: 1px solid #404040;
+	}
+	
+	.league_choice_tab li.is_selected a {
+		background-color: #242424;
+		border-left: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.rr_wrap .tit_box .tr_h3, .rr_wrap .tit_box .tr_h3.challenge, .rr_wrap .tit_box .pr_h4, .rr_wrap .tit_box .apr_h5, .rr_wrap .tit_box .apr_h6 {
+		color: #fff;
+	}
+	
+	.rr_wrap .tbl_box thead div, .season_goals .players .player_thum .num {
+		filter: invert(86%);
+	}
+	
+	.rr_wrap .tbl_box thead div strong {
+		filter: none;
+	}
+	
+	.rr_wrap .tbl_box tbody tr th {
+		border-right: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+		background: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.rr_wrap .tbl_box td {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+		background: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.rr_wrap .tbl_box tbody .last th, .rr_wrap .tbl_box tbody .last td {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.season_goals .inbox, .rr_wrap .tbl_box .on td {
+		border: 1px solid #404040;
+	}
+	
+	.rr_wrap .type2 tbody .on th {
+		border-bottom: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.rr_wrap .type2 tbody .dv th, .rr_wrap .type2 tbody .dv td {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	.season_goals .players .player_thum .name strong {
+		color: #fff;
+	}
+	
+	.hmb_list .hmb_list_items {
+		border-top: 1px solid #404040;
+	}
+	
+	.hmb_tab .nav {
+		border: 1px solid #404040;
+	}
+	
+	.mCSB_scrollTools .mCSB_draggerRail {
+		background-color: #2f2f2f;
+	}
+	
+	.mCSB_scrollTools {
+		border-left: 1px solid #404040;
+	}
+	
+	.hmb_tbl .wrap {
+		color: #fff;
+	}
+	
+	.news_headline .info .press_link {
+		filter: invert(86%);
+	}
+	
+	.news_headline {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.news_work .comment {
+		color: #cacaca;
+		border: 1px solid #404040;
+	}
+	
+	.u_likeit_button {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.news_work .setting .article_zoom_tit, .news_work .setting .article_zoom_in, .news_work .setting .article_zoom_out, .news_work .setting .article_print, .news_work .comment .ico, .comment_guide .arr:after, .u_likeit_layer:before {
+		filter: invert(82.3%);
+	}
+	
+	.hmb_list .hmb_list_items .vs_list .name {
+		color: #cacaca;
+	}
+	
+	.tomain_info_phrase {
+		color: #fff;
+		background-color: #2f2f2f;
+	}
+	
+	.tomain_info_phrase .tomain_info_text, .aside_radio .info .title {
+		color: #fff;
+	}
+	
+	.news_headline .logo img {
+		filter: invert(86%);
+	}
+	
+	.u_likeit_list_btn.u_type_tomain .u_cnt {
+		color: #fff;
+	}
+	
+	.u_likeit_layer {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.news_end {
+		color: #cacaca;
+	}
+	
+	.news_end span[style="color:#0000CD"] {
+		color: #8383ff !important;
+	}
+	
+	.news_end_btn .u_likeit {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.u_likeit_inline {
+		background-color: #242424;
+	}
+	
+	.u_likeit_list_count, .link_news h3, .link_news ul a, .u_cbox .u_cbox_view_comment .u_cbox_in_view_comment, .comment_guide .toggle {
+		color: #fff;
+	}
+	
+	.comment_guide {
+		border: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.u_likeit_list_btn.u_type_tomain, .link_news .link_press_collection {
+		border: 1px solid #404040;
+	}
+	
+	.link_news {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.u_likeit_list_btn.u_type_tomain .u_txt, .link_news .link_press_collection {
+		color: #cacaca;
+	}
+	
+	.tomain .tomain_help_btn {
+		filter: invert(86%);
+	}
+	
+	.news_end a {
+		color: #cacaca;
+	}
+	
+	.news_columnist {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.news_columnist .name {
+		color: #fff;
+	}
+	
+	.home_live_box .live_box_card {
+		background-color: #2f2f2f;
+	}
+	
+	.home_live_box .live_box_card .category {
+		color: #cacaca;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.home_live_box .live_box_card .match_info .team .name {
+		color: #cacaca;
+	}
+	
+	.home_live_box:after {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.home_special_small {
+		border-right: 1px solid #404040;
+		border-left: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.sch_score, .sch_score .tab {
+		background-color: #2f2f2f;
+	}
+	
+	.sch_score .tab li {
+		background: #2f2f2f;
+		border-right: 1px solid #404040;
+		box-sizing: border-box;
+		margin-left: 0;
+		width: 134px;
+	}
+	
+	.sch_score .tab li.btn_prev2 {
+		border-left: 1px solid #404040;
+	}
+	
+	.sch_score .tab li.btn_next2 {
+		border-left: none;
+	}
+	
+	.sch_score .tab li.on, .sch_score .tab li.btn_next2 {
+		border-right: 1px solid #404040;
+	}
+	
+	.sch_score .tab li img {
+		filter: invert(86%);
+	}
+	.sch_score .tab li a, .sch_score .tab li a em {
+		color: #cacaca;
+	}
+	
+	.sch_vs .inner_lft {
+		border-top: 1px solid #404040;
+		background-color: #2f2f2f;
+		border-right: 1px solid #404040;
+	}
+	
+	.kbl_nba .sch_vs .end .vs_num {
+		color: #cacaca;
+	}
+	
+	.kbl_nba .sch_vs .end .vs_bg {
+		filter: invert(86%);
+	}
+	
+	.sch_paging div {
+		border-top: 1px solid #404040;
+	}
+	
+	.kbl_nba .inner_mid {
+		border-top: 1px solid #404040;
+		border-right: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.sch_vs .inner_rgt {
+		border-top: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.sch_paging {
+		border-right: 1px solid #404040;
+		border-left: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.sch_volleyball .sch_tb_top {
+		filter: invert(86%);
+	}
+	
+	.sch_volleyball .sch_tb {
+		border: 1px solid #404040;
+		background: #2f2f2f;
+		border-top-color: #404040;
+		border-bottom-color: #404040;
+	}
+	
+	.sch_volleyball .td_date strong {
+		color: #fff;
+	}
+	
+	.sch_volleyball .td_date, .sch_volleyball .td_score {
+		color: #cacaca;
+	}
+	
+	.sch_volleyball .sch_tb2 {
+		border: 1px solid #404040;
+		background: #3a3a3a;
+		border-top-color: #404040;
+		border-bottom-color: #404040;
+	}
+	
+	.sch_volleyball .team_lft, .sch_volleyball .team_rgt {
+		color: #cacaca;
+	}
+	
+	.sch_volleyball .sch_tb .td_btn img, .sch_volleyball .sch_tb2 .td_btn img {
+		filter: invert(86%);
+	}
+	
+	.sch_vs .vs_lft_name, .sch_vs .vs_rgt_name {
+		color: #cacaca;
+	}
+	
+	.sch_empty .kovo, .kbl_nba .kbl_empty p, .kbl_nba .nba_empty p {
+		filter: invert(81.2%);
+	}
+	
+	.sch_vs_tbl, .rr_wrap .tit_box h4 {
+		filter: invert(86%);
+	}
+	
+	.sch_nogame {
+		border-radius: 0 0 15px 15px;
+	}
+	
+	.rr_wrap, .tb_k_w .rr_wrap .tbl_box td.last, .tb_nba .rr_wrap .tbl_box td.last {
+		border-top: 1px solid #404040;
+	}
+	
+	.tb_k_w .rr_wrap .tbl_box td.last, .tb_nba .rr_wrap .tbl_box td.last {
+		border-right: 1px solid #404040;
+	}
+	
+	.rr_wrap .tbl_box.p_head {
+		border-top: 1px solid #404040;
+	}
+	
+	.tb_k_w .rr_wrap .p_head td {
+		border-left: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.tb_k_w .rr_wrap .p_head .ph_info {
+		color: #cacaca;
+	}
+	
+	.tb_nba .rr_wrap .round_choice, .rr_wrap .round_choice {
+		height: 27px;
+		border-radius: 10px;
+	}
+	
+	.home_live_box .live_box_card:empty {
+		background-color: #2f2f2f;
+	}
+	
+	.home_wrap .home_special_small .special_ct a img {
+		border-radius: 20px;
+	}
+	
+	.home_clist .list a {
+		color: #cacaca;
+	}
+	
+	.sch_event ul li a, .sch_golf .h_sch {
+		filter: invert(86%);
+	}
+	
+	.match_vs .game {
+		color: #cacaca;
+	}
+	
+	.match_vs .inner {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.hmb_list .hmb_list_items2 .match_title {
+		color: #cacaca;
+	}
+	
+	.golf_tab ul {
+		border-right: 1px solid #404040;
+		border-left: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.golf_tab ul li, .tbl_golf_top, .tbl_golf_wrap .btn_vod, .tbl_golf_wrap .btn_live {
+		filter: invert(86%);
+	}
+	
+	.tbl_golf_wrap tbody td {
+		border-top: 1px solid #404040;
+		border-left: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.tbl_golf_wrap tbody th {
+		background: #2f2f2f;
+	}
+	
+	.tbl_golf_wrap .golf_tb, .tbl_golf_wrap .golf_tb2 {
+		border: 1px solid #404040;
+	}
+	
+	.tbl_golf_wrap .golf_tb2 tbody th {
+		background: #3a3a3a;
+	}
+	
+	.tbl_golf_wrap .golf_tb2 tbody td {
+		background: #242424;
+	}
+	
+	.tbl_golf_wrap .golf_tb2 tbody td {
+		border-top-color: #404040;
+	}
+	
+	#content > div + table img {
+		filter: invert(86%);
+	}
+	
+	.gray20, a.gray20:link, a.gray20:visited, a.gray20:hover, a.gray20:active {
+		color: #cacaca;
+	}
+	
+	.home_live_box .live_box_card .general_info .match_title {
+		color: #cacaca;
+	}
+	
+	.home_live_box .live_box_card .image_area {
+		background-color: #2f2f2f;
+	}
+	
+	.tab_event .menu .olympic, .home_box_bottom .btn_guide .ico_guide, .select_box_common .btn_toggle:after {
+		filter: invert(86%);
+	}
+	
+	.hmb_news_vod {
+		background-color: #242424;
+	}
+	
+	.home_box_bottom {
+		border-top: 1px solid #404040;
+	}
+	
+	.select_box_common .btn_toggle {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.esports_schedule .schedule_month_list {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.esports_schedule .schedule_month_item .tab {
+		border-top: 2px solid #404040;
+		background-color: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.esports_schedule .schedule_table_title .league {
+		color: #fff;
+	}
+	
+	.esports_schedule .schedule_month_table [class^=head] {
+		background-color: #2f2f2f;
+		border-top: 1px solid #404040;
+		border-bottom: 2px solid #404040;
+		color: #cacaca;
+	}
+	
+	.esports_schedule .schedule_month_table .division th {
+		border-top-color: #404040;
+	}
+	
+	.esports_schedule .schedule_month_table tbody th {
+		border-top: 1px solid #404040;
+		border-right: 1px solid #404040;
+	}
+	
+	.esports_schedule .schedule_month_table .division td {
+		border-top-color: #404040;
+	}
+	
+	.esports_schedule .schedule_month_table tbody td {
+		border-top: 1px solid #404040;
+	}
+	
+	.esports_schedule .schedule_month_table .btn_video, .esports_schedule .schedule_month_table .btn_broadcast, .esports_schedule .schedule_month_table .btn_popup_open {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.esports_schedule .schedule_month_table .btn_video:hover {
+		border-color: #4f4f4f;
+		color: #cacaca;
+	}
+	
+	.esports_schedule .schedule_month_table .division_inner td, .esports_schedule .schedule_month_table .division_inner .time {
+		border-top-color: #404040;
+	}
+	
+	.esports_schedule .schedule_month_table td.time {
+		color: #cacaca;
+	}
+	
+	.esports_schedule .schedule_month_table .division_inner .time:before {
+		background-color: #404040;
+	}
+	
+	.schedule_record_wrap .btn_popup_open {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.schedule_record_popup {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.schedule_record_popup .schedule_record_header .match_name {
+		color: #cacaca;
+	}
+	
+	.schedule_record_table .record_list .rank, .schedule_record_table .record_list .team, .schedule_record_table .record_list .point {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.schedule_record_table .record_list .team, .schedule_record_table .record_list .rank, .schedule_record_table .record_list .point {
+		color: #cacaca;
+	}
+	
+	.schedule_record_popup .pagination_group .btn_prev, .schedule_record_popup .pagination_group .btn_next {
+		filter: invert(86%);
+	}
+	
+	.schedule_record_popup .btn_popup_close {
+		filter: invert(82.3%);
+	}
+	
+	.video_head .title .match {
+		color: #fff;
+	}
+	
+	.type_match .match_box {
+		border: 1px solid #404040;
+	}
+	
+	.scoreboard .scoreboard_date_wrap h3 img, .scoreboard_date_wrap .date_wrap img, .tbl_scoreboard_myteam thead th.myteam img, .tbl_scoreboard_myteam thead th img {
+		filter: invert(86%);
+	}
+	
+	.tbl_scoreboard_day tbody th {
+		background-color: #2f2f2f;
+		border-top: 1px solid #404040;
+		border-right: 1px solid #404040;
+	}
+	
+	.tbl_scoreboard_myteam thead th {
+		background: #2f2f2f;
+	}
+	
+	.tbl_scoreboard_day tbody tr th img {
+		filter: invert(82.3%);
+	}
+	
+	.tbl_scoreboard_day tbody tr.start td {
+		border-top: 1px solid #404040;
+	}
+	
+	.tbl_scoreboard_day tbody td {
+		border-left: 1px solid #404040;
+		border-top: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.tbl_scoreboard_day tbody td.gameinfo {
+		background: none;
+	}
+	
+	.tbl_scoreboard_gameinfo tbody td.relay img {
+		filter: invert(86%);
+	}
+	
+	.tbl_scoreboard_gameinfo tbody td.state img {
+		border-radius: 5px;
+	}
+	
+	.content_title .count {
+		border-top: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.column_list li:after {
+		background: #2f2f2f;
+	}
+	
+	.news_list .source .comment .ico, .content_title .link_all .ico, .tip_box .option .link_guide .ico {
+		filter: invert(86%);
+	}
+	
+	.new_news_lnb {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.tip_box {
+		border-bottom: 1px solid #404040;
+	}
+}
+
+@-moz-document url-prefix("https://comments.sports.naver.com")
+{
+	.cbox, #cbox_module .cbox_write_box, #cbox_module .cbox_write_box2 {
+		border: 1px solid #404040;
+	}
+	
+	#cbox_module .cbox_write_box2 {
+		background: #242424;
+	}
+	
+	#cbox_module .cbox_list_info .cbox_h_type img, .cbox_p .cbox_reflesh a, .cbox_p .cbox_block .block_id {
+		filter: invert(86%);
+	}
+	
+	#cbox_module .cbox_write_default .cbox_user_area textarea {
+		background: #242424 !important;
+		color: #cacaca !important;
+		border: 1px solid #404040;
+	}
+	
+	#cbox_module .cbox_write {
+		border-bottom: 1px solid #404040;
+	}
+	
+	#cbox_module .cbox_list_comment .cbox_desc_comment {
+		color: #cacaca;
+	}
+	
+	#cbox_module .cbox_list_comment li {
+		border-bottom: 1px solid #404040;
+	}
+	
+	#cbox_module .cbox_paginate a, #cbox_module .cbox_paginate strong {
+		border: 1px solid #404040;
+		color: #cacaca !important;
+	}
+	
+	#cbox_module .cbox_paginate a.cbox_pre, #cbox_module .cbox_paginate a.cbox_next, #cbox_module .cbox_paginate a.cbox_next_end, #cbox_module .cbox_paginate a.cbox_pre_end {
+		filter: invert(86%);
+	}
+	
+	.cbox_p .cbox_block .ly_block_id {
+		border: 1px solid #404040;
+		background: #242424;
+	}
+	
+	.cbox_p .cbox_block .ly_block_id h3 {
+		color: #cacaca;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cbox_p .cbox_block .ly_block_id .btn {
+		border-top: 1px solid #404040;
+	}
+	
+	.cbox_p .cbox_block .ly_block_id .btn img {
+		filter: invert(86%);
+	}
+	
+	.cbox_p label {
+		color: #cacaca;
+	}
+	
+	input[type=image] {
+		filter: invert(86%);
+	}
+}
+
+@-moz-document url-prefix("https://nid.naver.com/iasystem/pop.nhn")
+{
+	.mobile_title {
+		color: #cacaca;
+	}
+	
+	:root .input_check_big label, :root .input_chk_small label {
+		filter: invert(89%);
+	}
+	
+	.ipin_box, .row_group {
+		background-color: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.join_row {
+		background: #242424;
+		border-top: 1px solid #404040;
+	}
+	
+	.int {
+		background: #242424;
+		color: #cacaca;
+	}
+	
+	.ps_box .int {
+		background: #242424;
+	}
+	
+	.mobile_verify .country_code, .mobile_verify .bir_mm .ps_box, .mobile_verify .bir_yy .ps_box {
+		border-right: 1px solid #404040;
+	}
+	
+	.jender label {
+		background: #242424;
+		color: #cacaca;
+	}
+	
+	.mobile_verify .jender label {
+		background: #2f2f2f;
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.mobile_verify .bir_tt {
+		background: #404040;
+		color: #cacaca;
+	}
+	
+	a.btn_c {
+		border: 1px solid #404040;
+		background: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.btn_back, .btn_confirm, .btn_next, .btn_next2, .btn_submit {
+		background: #019341;
+		border: 1px solid #404040;
+	}
+	
+	.mobile_verify .btn, :root .mobile_verify .btn {
+		background: none;
+	}
+	
+	.btn_confirm {
+		position: relative;
+	}
+	
+	.btn_back a.btn, .btn_confirm a.btn, .btn_next a.btn, .btn_next2 a.btn, .btn_submit a.btn {
+		text-indent: 0;
+		color: #242424;
+		position: absolute;
+		text-align: center;
+		font-size: 18px;
+		font-weight: bold;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		width: auto;
+		height: auto;
+	}
+}
+
+@-moz-document url-prefix("https://nid.naver.com/user2/common/terms/terms.nhn")
+{
+	.privacy_title {
+		background-color: #019341;
+		color: #242424;
+	}
+	
+	.pop_content, .content_area {
+		background-color: #242424;
+	}
+	
+	.tab_menu li a {
+		color: #cacaca;
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.agree_content {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.agree_text {
+		color: #cacaca;
+	}
+	
+	.btn_wrap button {
+		background-color: #019341;
+		color: #242424;
+	}
+	
+	.footer_area {
+		background-color: #2f2f2f;
+		border-top: 1px solid #404040;
 	}
 }

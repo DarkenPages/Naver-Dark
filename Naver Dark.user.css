@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.16.1
+@version		1.16.2
 @namespace		Avis Studio
 ==/UserStyle== */
 
@@ -6205,6 +6205,10 @@
 	
 	.comm_layer3 .cash_info {
 		background-color: #2f2f2f;
+	}
+	
+	.skin-1080 .com .box-w .group-noinfo {
+		color: #cacaca;
 	}
 }
 

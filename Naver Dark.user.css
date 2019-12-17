@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.16.5
+@version		1.16.6
 @namespace		Avis Studio
 ==/UserStyle== */
 
@@ -625,7 +625,7 @@
 		overflow: hidden;
 		width: 198px;
 		height: 48px;
-		background-image: linear-gradient(transparent,transparent),url(https://s.pstatic.net/static/www/img/uit/2019/sp_search.svg);
+		background-image: linear-gradient(transparent, transparent), url(https://s.pstatic.net/static/www/img/uit/2019/sp_search.svg);
 		background-repeat: no-repeat;
 		background-position: -4px -4px;
 		text-indent: 101%;
@@ -6952,9 +6952,40 @@
 
 @-moz-document url-prefix("https://nid.naver.com/nidlogin.login")
 {
-	html, head { background: #242424; }
-	.title p { color: #cacaca; }
-	.social_header .social_title { color: #cacaca; }
+	html, head {
+		background: #242424;
+	}
+	
+	.title p {
+		color: #cacaca;
+	}
+	
+	.social_header .social_title {
+		color: #cacaca;
+	}
+	
+	.tab_m {
+		border: 1px solid #404040;
+	}
+	
+	.tab_m li a {
+		background: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.tab_m li a:hover, .tab_m li a:visited {
+		color: #cacaca;
+	}
+	
+	.tab_m li a.on {
+		color: #242424;
+		border: 1px solid #404040;
+		background: #019341;
+	}
+	
+	.country_code .sel_value {
+		filter: invert(86%);
+	}
 }
 
 @-moz-document url-prefix("https://nid.naver.com/login/ext/")

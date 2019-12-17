@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.16.6
+@version		1.16.8
 @namespace		Avis Studio
 ==/UserStyle== */
 
@@ -6358,6 +6358,37 @@
 	
 	#main-area:not(.skin-1080) .border-sub {
 		border-color: #404040 !important;
+	}
+	
+	.skin-1080 .ia-info-data2 .level_alert, .skin-1080 .ly_info_dsc .cont, #group-area:not(.skin-1080) .level_alert {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.skin-1080 .ia-info-data2 .level_alert .ico_top_arr, .skin-1080 .ly_info_dsc .cont .tail2, #group-area:not(.skin-1080) .level_alert .ico_top_arr {
+		filter: invert(86%);
+	}
+	
+	.skin-1080 .ia-info-data2 .level_alert .txt, .skin-1080 .ly_info_dsc .cont p, #group-area:not(.skin-1080) .level_alert .txt {
+		color: #cacaca;
+	}
+	
+	.skin-1080 .article-commerce .box_commerce {
+		border: 1px solid #404040;
+		color: #cacaca;
+		background-color: #2f2f2f;
+	}
+	
+	.skin-1080 .article-commerce .list_sub_tab .on .link, .skin-1080 .article-commerce .list_sub_tab .link, .skin-1080 .article-commerce .article-board_uni td {
+		color: #cacaca;
+	}
+	
+	.skin-1080 .article-commerce .article-board .bgcolor {
+		background-color: #2f2f2f;
+	}
+	
+	#main-area:not(.skin-1080) .commlist-d2 {
+		border: 1px solid #404040;
 	}
 }
 

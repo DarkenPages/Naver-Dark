@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.16.9
+@version		1.16.12
 @namespace		Avis Studio
 ==/UserStyle== */
 
@@ -243,7 +243,7 @@
 	
 	.phishing_banner {
 		border: 1px solid #404040;
-		background-color: #2c2c2c;
+		background-color: rgb(38, 45, 49);
 	}
 	
 	.social_text {
@@ -282,7 +282,7 @@
 	}
 	
 	#footer ul li, .logo, .sp, .wrg {
-		filter: invert(88.7%);
+		filter: invert(88.7%) hue-rotate(-180deg);
 	}
 	
 	.sp.h_logo, .logo {
@@ -4021,49 +4021,292 @@
 		background-color: #2f2f2f;
 		color: #cacaca;
 	}
+	
+	.cs_kleague .section_play {
+		border: 1px solid #404040;
+		border-top: 0;
+	}
+	
+	.cs_kleague .section_play .play_intro .play_area a, .cs_kleague .tb_football2 td p span.font_black {
+		color: #fff;
+	}
+	
+	.cs_kleague .section_play .play_intro .play_area .result div strong {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_kleague .section_play .play_intro .play_area .result em, .cs_kleague .section_play .play_intro .btn_area img, .cs_kleague p.txt_notice {
+		filter: invert(86%);
+	}
+	
+	.cs_kleague .kbo_info {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_kleague .tab_menu li a {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_kleague .korea_schedule {
+		background: #2f2f2f;
+	}
+	
+	.cs_kleague .tab_menu {
+		border-top: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.cs_kleague .tab_menu li.selected {
+		border-color: #404040;
+		background: #404040;
+	}
+	
+	.cs_kleague .tab_menu li {
+		border-right: 1px solid #404040;
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_kleague .tb_football2 th, .cs_kleague .tb_schedule td, .cs_kleague .tb_football th {
+		border-bottom: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.cs_kleague .tb_football2 td, .cs_kleague .tb_football td, .people_info .people_type .lst_cont .lst_tb.lcr_tb th, .people_info .people_type .lst_cont .lst_tb.lcr_tb td {
+		border-left: 1px solid #404040;
+	}
+	
+	.people_type .lst_tb th {
+		background-color: #2f2f2f;
+	}
+	
+	.people_type table th, .people_info .people_type .lst_cont .lst_cont_rcd, .people_type .lst_cont.btm_line {
+		border-bottom: 1px solid #404040;
+	}
+	
+	:root .people_type table td {
+		border-right-color: #404040;
+		border-bottom-color: #404040;
+	}
+	
+	.people_type .lst_tb td {
+		border-top: 1px solid #404040;
+	}
+	
+	.people_type .lst_tb td {
+		color: #fff;
+	}
+	
+	.cs_foreigninfo .exchange_banner .inner {
+		border: 1px solid #404040;
+	}
+	
+	.cs_foreigninfo .exchange_banner .link_area {
+		background: #2f2f2f;
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_foreigninfo .exchange_banner .link_area .link_txt {
+		color: #8383ff;
+	}
 }
 
 @-moz-document url-prefix("https://nid.naver.com/user2/help/")
 {
-	html, head { background: #242424; }
-	.tbl_model th { color: #cacaca; border-right: 1px solid #404040; background: #242424; }
-	#lnb_area { border-top: 1px solid #404040; border-bottom: 1px solid #404040; background-color: #242424; }
-	#header { background-color: #242424; }
-	.sh_lst3 dd, .sh_lst2 dd { color: #cacaca; background: #242424; }
-	.sh_lst dt, .spc_header h2 { color: #c8c8c8; }
-	.spc_content [class^=spc_row] input[type=password], .spc_row .txt_userid { background: #242424; color: #cacaca; }
-	.tbl_row { border: 1px solid #404040; border-right: none; border-left: none; }
-	.tbl_row .none_device a { color: #6c96a4; }
-	.tbl_row td, .tbl_row th { color: #cacaca; border-bottom: 1px solid #404040; }
-	.tbl_sns td, .tbl_sns th { border-top: 1px solid #404040; color: #cacaca; }
-	.link_wrap .btn_connect { background-color: #242424; border: 1px solid #404040; }
-	.tbl_model td, .tbl_model th, .connect_list { border-top: 1px solid #404040; }
-	.tbl_model, .connect_list > li { border-bottom: 1px solid #404040; }
-	.c_header h2, .btn_file label .btn2, .btn_model[href] .btn2, .section_home h2, .sh_lst3 dt, .sh_lst2 dt, .captcha_member .spc_row input[type=text], .tbl_model .contxt_tit, .tbl_model .contxt_webctrl .country_code, .tbl_model .contxt_tit2, .section_secretid > .contxt, .ssi_group h3, .ssi_group2 > .contxt, .tbl_sns td a, .sns_title, .connect_info li { color: #cacaca; }
-	.tbl_model input[type=text], .spc_content .btn_area_btm button, .btn_model .btn4, .tbl_model select, .btn_model[href] .btn6 { color: #cacaca; border: 1px solid #404040; background: #242424; }
-	.btn_model .btn2, .sh_group, .sh_group2, .sh_group3, .sh_group4, .section_pwconfirm, .btn_model .btn3 { border: 1px solid #404040; background: #242424; }
-	.profile_photo .mask, .spico, .tab_viewrecord { filter: invert(86%); }
-	.skin_main, .tbl_row th, .tbl_sns th { background: #242424; }
-	.sh_lst2 .link_area, .spc_content [class^=spc_row], .tbl_model .contxt_webctrl .country_code_w { border: 1px solid #404040; }
-	.tbl_sns tbody tr:hover, .connect_list li:hover { background-color: #2c2c2c; }
-	#content { background-color: #242424 !important; }
-	#content .content_header h2 img { filter: invert(86%); }
-	.content_header { border-bottom: 2px solid #4f4f4f !important; }
-	.find_id_list li { filter: invert(86%); }
-	.box6 { border: 1px solid #404040 !important; }
-	.box_inn .label_rd, .box_inn .label_txt { color: #cacaca !important; }
-	.box_inn + .box_inn { border-top: 1px solid #404040 !important; }
-	.box_inn .input_txt { border: 1px solid #404040 !important; background: #242424 !important; color: #fff !important; }
-	.country_code .sel_value + select { background: #242424 !important; color: #cacaca !important; }
-	.country_code { border: 1px solid #404040 !important; }
-	.btn_findpw { background: none; background-color: #242424; border-radius: 2px; border: 1px solid #404040; box-sizing: border-box; }
-	.btn_login2 { background: none; background-color: #019341; border-radius: 2px; }
-	.btn_findpw:before { content: '비밀번호 찾기'; position: absolute; top: 8px; font-weight: bold; color: #cacaca; left: 18px; }
-	.btn_login2:before { content: '로그인하기'; position: absolute; top: 10px; font-weight: bold; color: #242424; left: 32px; }
-	.country_code .sel_value, .btn_checkid, .btn_confirm2, .btn_ct, .btn_login, .btn_next2, .btn_prev, .dash, .edge, .ico_arr, .ico_arr2, .ico_help2 { filter: invert(86%); }
-	.help_tooltip2 p { color: #cacaca; border: 1px solid #404040; background: #242424; }
-	.list_id .label_rd { color: #fff; }
-	.list_id span { color: #cacaca; }
+	html, head {
+		background: #242424;
+	}
+	
+	.tbl_model th {
+		color: #cacaca;
+		border-right: 1px solid #404040;
+		background: #242424;
+	}
+	
+	#lnb_area {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	#header {
+		background-color: #242424;
+	}
+	
+	.sh_lst3 dd, .sh_lst2 dd {
+		color: #cacaca;
+		background: #242424;
+	}
+	
+	.sh_lst dt, .spc_header h2 {
+		color: #c8c8c8;
+	}
+	
+	.spc_content [class^=spc_row] input[type=password], .spc_row .txt_userid {
+		background: #242424;
+		color: #cacaca;
+	}
+	
+	.tbl_row {
+		border: 1px solid #404040;
+		border-right: none;
+		border-left: none;
+	}
+	
+	.tbl_row .none_device a {
+		color: #6c96a4;
+	}
+	
+	.tbl_row td, .tbl_row th {
+		color: #cacaca;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.tbl_sns td, .tbl_sns th {
+		border-top: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.link_wrap .btn_connect {
+		background-color: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.tbl_model td, .tbl_model th, .connect_list {
+		border-top: 1px solid #404040;
+	}
+	
+	.tbl_model, .connect_list>li {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.c_header h2, .btn_file label .btn2, .btn_model[href] .btn2, .section_home h2, .sh_lst3 dt, .sh_lst2 dt, .captcha_member .spc_row input[type=text], .tbl_model .contxt_tit, .tbl_model .contxt_webctrl .country_code, .tbl_model .contxt_tit2, .section_secretid>.contxt, .ssi_group h3, .ssi_group2>.contxt, .tbl_sns td a, .sns_title, .connect_info li {
+		color: #cacaca;
+	}
+	
+	.tbl_model input[type=text], .spc_content .btn_area_btm button, .btn_model .btn4, .tbl_model select, .btn_model[href] .btn6 {
+		color: #cacaca;
+		border: 1px solid #404040;
+		background: #242424;
+	}
+	
+	.btn_model .btn2, .sh_group, .sh_group2, .sh_group3, .sh_group4, .section_pwconfirm, .btn_model .btn3 {
+		border: 1px solid #404040;
+		background: #242424;
+	}
+	
+	.profile_photo .mask, .spico, .tab_viewrecord {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.banner_area {
+		border-bottom: 1px solid #404040;
+		border-right: 1px solid #404040;
+	}
+	
+	.skin_main, .tbl_row th, .tbl_sns th {
+		background: #242424;
+	}
+	
+	.sh_lst2 .link_area, .spc_content [class^=spc_row], .tbl_model .contxt_webctrl .country_code_w {
+		border: 1px solid #404040;
+	}
+	
+	.tbl_sns tbody tr:hover, .connect_list li:hover {
+		background-color: #2c2c2c;
+	}
+	
+	#content {
+		background-color: #242424 !important;
+	}
+	
+	#content .content_header h2 img {
+		filter: invert(86%);
+	}
+	
+	.content_header {
+		border-bottom: 2px solid #4f4f4f !important;
+	}
+	
+	.find_id_list li {
+		filter: invert(86%);
+	}
+	
+	.box6 {
+		border: 1px solid #404040 !important;
+	}
+	
+	.box_inn .label_rd, .box_inn .label_txt {
+		color: #cacaca !important;
+	}
+	
+	.box_inn+.box_inn {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	.box_inn .input_txt {
+		border: 1px solid #404040 !important;
+		background: #242424 !important;
+		color: #fff !important;
+	}
+	
+	.country_code .sel_value+select {
+		background: #242424 !important;
+		color: #cacaca !important;
+	}
+	
+	.country_code {
+		border: 1px solid #404040 !important;
+	}
+	
+	.btn_findpw {
+		background: none;
+		background-color: #242424;
+		border-radius: 2px;
+		border: 1px solid #404040;
+		box-sizing: border-box;
+	}
+	
+	.btn_login2 {
+		background: none;
+		background-color: #019341;
+		border-radius: 2px;
+	}
+	
+	.btn_findpw:before {
+		content: '비밀번호 찾기';
+		position: absolute;
+		top: 8px;
+		font-weight: bold;
+		color: #cacaca;
+		left: 18px;
+	}
+	
+	.btn_login2:before {
+		content: '로그인하기';
+		position: absolute;
+		top: 10px;
+		font-weight: bold;
+		color: #242424;
+		left: 32px;
+	}
+	
+	.country_code .sel_value, .btn_checkid, .btn_confirm2, .btn_ct, .btn_login, .btn_next2, .btn_prev, .dash, .edge, .ico_arr, .ico_arr2, .ico_help2 {
+		filter: invert(86%);
+	}
+	
+	.help_tooltip2 p {
+		color: #cacaca;
+		border: 1px solid #404040;
+		background: #242424;
+	}
+	
+	.list_id .label_rd {
+		color: #fff;
+	}
+	
+	.list_id span {
+		color: #cacaca;
+	}
 }
 
 @-moz-document url-prefix("https://nid.naver.com/user2/help/realNameCheck.nhn")

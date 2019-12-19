@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.16.12
+@version		1.16.13
 @namespace		Avis Studio
 ==/UserStyle== */
 
@@ -15210,6 +15210,48 @@
 	.u_cbox .u_cbox_reply_area .u_cbox_upload .u_cbox_btn_upload {
 		border-color: #404040;
 		background-color: #2f2f2f;
+	}
+	
+	.news_work .count .sns_share, .sns_share_wrap .share {
+	    border: 1px solid #404040;
+	}
+	
+	.news_work .count .sns_share .sns_share_ico, .sns_share_wrap .share .sp_ico {
+	    filter: invert(86%);
+	}
+	
+	.news_work .setting .article_font, .news_work .setting .font_set .dotum span {
+	    filter: invert(82.3%);
+	}
+	
+	.news_work .setting .font_set {
+	    border: 1px solid #404040;
+	    background: #2f2f2f;
+	    z-index: 1;
+	}
+	
+	.news_work .setting .font_set a:hover {
+	    background: #404040;
+	}
+	
+	.spi_lst .spi_lst_release {
+	    background-color: #2f2f2f;
+	    border: 1px solid #404040;
+	}
+	
+	.spi_default a {
+	    color: #cacaca;
+	}
+	
+	.spi_btn_release .spi_lst_release a.spi_input_copyurl, .spi_sns_share .spi_lst .spi_btn_release .spi_lst_release a.spi_input_copyurl, .spi_onebtn .spi_lst .spi_btn_release .spi_lst_release a.spi_input_copyurl {
+	    color: #cacaca;
+	    border: 1px solid #404040;
+	    background-color: #404040;
+	}
+	
+	.spi_btn_release .spi_lst_release a.spi_btn_copyurl, .spi_sns_share .spi_lst .spi_btn_release .spi_lst_release a.spi_btn_copyurl, .spi_onebtn .spi_lst .spi_btn_release .spi_lst_release a.spi_btn_copyurl {
+	    color: #cacaca !important;
+	    border: 1px solid #404040;
 	}
 }
 

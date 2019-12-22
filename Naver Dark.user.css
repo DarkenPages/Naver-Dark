@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.16.13
+@version		1.16.15
 @namespace		Avis Studio
 ==/UserStyle== */
 
@@ -5730,11 +5730,12 @@
 	}
 	
 	.sp_end.sale_safety {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.pay_btns .npay_btn {
-		background-color: #019341
+		background-color: #019341 !important;
+		color: #fff !important;
 	}
 	
 	.inquiry_commerce, .harm_commerce {
@@ -6637,6 +6638,10 @@
 	body > div#wrap > div#header + div#container, body > div#wrap > div#header > h1 > a[href="http://www.naver.com/"] > img[src*="https://cafe.pstatic.net/img/notice/h1"][alt="NAVER"], body > div#wrap > div#header > h1 > a[href="https://cafe.naver.com"] > img[src*="https://cafe.pstatic.net/img/notice/h1"][alt="카페"], body > div#wrap > div#header + div#container > h2 + div.content, body > div#wrap > div#header + div#container + div#footer > address, body > div#wrap > div#header > h1 + p.menu {
 		filter: invert(86%) hue-rotate(-180deg);
 		color: #888 !important;
+	}
+	
+	.sp_end.new_article, .sp_end.sale_finish {
+		filter: invert(86%);
 	}
 }
 
@@ -13496,6 +13501,10 @@
 		color: #cacaca;
 	}
 	
+	.videocenter .video_list ~ .paginate {
+		border-top: 1px solid #404040;
+	}
+	
 	.video_summary .info .play {
 		color: #fff;
 	}
@@ -13514,13 +13523,13 @@
 		color: #cacaca;
 	}
 	
-	.video_head .search {
+	.video_head .search, .videocenter .video_head .search {
 		border: 1px solid #404040;
 		background: #242424;
 		color: #cacaca;
 	}
 	
-	.video_head .search .typing {
+	.video_head .search .typing, .videocenter .video_head .search .typing {
 		background: #242424;
 		color: #cacaca;
 	}
@@ -13541,7 +13550,7 @@
 		color: #fff;
 	}
 	
-	.aside_tab a span {
+	.aside_tab a span, .videocenter .video_wrap .schedule_nav, .videocenter .tab_type2 {
 		border-bottom: 1px solid #404040;
 	}
 	
@@ -15253,6 +15262,52 @@
 	    color: #cacaca !important;
 	    border: 1px solid #404040;
 	}
+	
+	.headline .headline_item .link_headline, .good_news .news_list .link_news_end {
+		color: #8383ff;
+	}
+	
+	.headline .headline_item, .news_wrap .news_list li {
+		border-top: 1px solid #404040;
+	}
+	
+	.home_feature .feature_side:before, .videocenter .tab_type1 li a {
+		border-left: 1px solid #404040;
+	}
+	
+	.home_video_panel .link_video_end, .videocenter .video_list .text .title, .videocenter .video_summary .service .comment, .videocenter .tab_type1 li a, .videocenter .video_channel dl.info .name {
+		color: #cacaca;
+	}
+	
+	.home_issue_box .text, .news_wrap .news_list .text .title, .videocenter .video_summary .info .play {
+		color: #fff;
+	}
+	
+	.videocenter .tab_type1 {
+		border-right: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.news_wrap .news_list {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.videocenter .video_summary .u_likeit_list_module .u_likeit_list_btn, .videocenter .video_summary .service .comment, .videocenter .video_summary .service .share {
+		border: 1px solid #404040;
+	}
+	
+	.home_video_control {
+		border-top: 1px solid #404040;
+	}
+	
+	.videocenter .video_top {
+		background: #404040;
+	}
+	
+	.mainpage .page_wrap .aside, .news_wrap .aside, .videocenter .video_wrap .aside {
+		border-right: 1px solid #404040;
+		border-left: 1px solid #404040;
+	}
 }
 
 @-moz-document url-prefix("https://comments.sports.naver.com")
@@ -15439,5 +15494,26 @@
 	.footer_area {
 		background-color: #2f2f2f;
 		border-top: 1px solid #404040;
+	}
+}
+
+@-moz-document url-prefix("https://nid.naver.com/oauth2.0/authorize")
+{
+	.oauth_personal {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.oauth_user_pop {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.txt_bold {
+		color: #fff;
+	}
+	
+	.oauth_personal .tit {
+		color: #cacaca;
 	}
 }

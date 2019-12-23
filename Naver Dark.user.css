@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.16.15
+@version		1.16.16
 @namespace		Avis Studio
 ==/UserStyle== */
 
@@ -6642,6 +6642,10 @@
 	
 	.sp_end.new_article, .sp_end.sale_finish {
 		filter: invert(86%);
+	}
+	
+	.article_prenet .p_n2 td {
+		background: #2f2f2f;
 	}
 }
 

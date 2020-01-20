@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.16.16
+@version		1.16.17
 @namespace		Avis Studio
 ==/UserStyle== */
 
@@ -374,9 +374,13 @@
 		background: #242424 !important;
 	}
 	
-	.section_btmbn, .page a, .area_hotkeyword .ah_list, .area_newstop, .area_newsstand, .section_themecast, .area_themelist {
+	.section_btmbn, .page a, .area_newstop, .area_newsstand, .section_themecast, .area_themelist {
 		background: #242424;
 		border: 1px solid #404040;
+	}
+	
+	.area_hotkeyword .ah_list {
+		border-left: 1px solid #404040;
 	}
 	
 	.btmbanner_list .bl_t, .section_timesquare .tnb_text, .area_newsstand .aplc_link .aplc_current, .an_pc_words, .gift_news_header .gift_news_title, .malltit_w .malltit>a, .tl_btmbanner .tb_tit, .cast_atc .ca_a, .malllst dd a, .pf_banner .banner_words, .page em strong, .men_giftlst_s, .pf_header .pf_title, .area_hotkeyword .ah_a, .area_hotkeyword .ah_ha, .area_hotkeyword .ah_ltit, .search .input_text, .api_atcmp_wrap .layer_plus .dsc, .api_atcmp_wrap a, .area_notice .an_a, .area_notice .an_ta, .area_services .as_a, .area_user .au_tit, .area_terms .at_cr, .area_terms .at_ca, .cast_flash .cf_ta, .area_newsstand .an_ta, .area_category .ac_a, .tl_default .td_t, .tl_default .td_a:visited .td_t, .profile .private .user_name a, .profile .my_service .link_cover a, .service .svc_head h3.tit, .service .svc_navigation .task_right .cnt em, .service .svc_list .new .subject, .service .svc_list .today .subject, .service .svc_list .unread .subject, .area_newsstand .apln_link, .service .svc_head .tit.selected, .service .svc_npay .svc_list .subject, .svc_blank .svc_msg_box .tit, .service .svc_office .svc_list .subject, .service .svc_office .svc_head .ly_new a, .service .svc_calendar .date_area .date, .service .svc_head .task_right .my_hb, .service .svc_memo .svc_list .subject, .service .svc_add .notice .msg, .service .svc_add .column li label, .section_timesquare .hp_curr, .section_timesquare .type_stock .ts_link, .section_timesquare .type_weather .temp_current, .section_timesquare .type_weather .text_current, .section_timesquare .type_weather .text_fine_dust, .section_timesquare .type_weather .ib_text, .section_svcmore .ss_stit, .section_svcmore .ss_sa, .section_svcmore .ss_pa, .section_timesquare .tc_tt, .section_timesquare .tc_st, .section_timesquare .tv_text, .type_tools .tt_a, #n2_nboard div, #n2_nboard ul, #n2_nboard td, #n2_nboard input, #n2_nboard textarea, #n2_skin_wrap li a, table.Nnavi a, #n2_nboard .list_paging ul, #n2_nboard .list_paging li a, .api_atcmp_wrap .expand .opt_exchange .opt_nation, .api_atcmp_wrap .expand .opt_exchange .amount, #footer *, #footer address a, .svlst_tit, #n2_nboard .conts {
@@ -646,6 +650,70 @@
 	
 	.section_minime {
 		background: #242424;
+	}
+	
+	.tl_ranking .tr_rt, .tl_ranking .tr_ta {
+		color: #cacaca;
+	}
+	
+	.area_hotkeyword .ah_layer {
+		background: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.area_hotkeyword .ah_tit {
+		color: #fff;
+	}
+	
+	.area_hotkeyword .ah_top {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.area_hotkeyword .ah_info {
+		border-top: 1px solid #404040;
+	}
+	
+	.area_hotkeyword .ah_filter {
+		background-color: #2f2f2f;
+	}
+	
+	.area_hotkeyword .list_filter .filter_item {
+		background-color: #404040;
+	}
+	
+	.area_hotkeyword .list_age_wrap {
+		border-top: 1px solid #404040;
+	}
+	
+	.area_hotkeyword .list_age .age_item {
+		border: 1px solid #404040;
+		border-width: 1px 0 0 1px;
+	}
+	
+	.area_hotkeyword .list_age {
+		border: 1px solid #404040;
+	}
+	
+	.area_hotkeyword .list_age .age[aria-checked=true] {
+		color: #fff;
+		background-color: #404040;
+	}
+	
+	.area_hotkeyword .list_filter_wrap .guide_tooltip .tooltip_message, .area_hotkeyword .list_filter .name {
+		color: #000;
+	}
+	
+	.area_hotkeyword .list_filter_wrap .guide_tooltip .ico_close {
+		filter: invert(86%);
+	}
+	
+	.area_hotkeyword .ly_help {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.area_hotkeyword .ly_help .help_message {
+		color: #cacaca;
 	}
 }
 

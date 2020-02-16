@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.16.17
+@version		1.16.19
 @namespace		Avis Studio
 ==/UserStyle== */
 
@@ -1439,8 +1439,8 @@
 		background: #242424 !important;
 	}
 	
-	.gnb_area .gnb_list_box .gnb_last .btn_more, a.btn_change_layout.view_split_hor .spr, a.btn_change_layout.view_split_ver .spr, a.btn_change_type.view_conversation .spr, #nav_snb .foldup .ico_fold, #nav_snb .ico_fold, .icoImportantOff, .attach_card_head .read .yes, .cv_card .read .yes, .cv_card.autoSpread .read .yes, .mailList .read .yes, .mailList .expand button.close, .mailList .expand button.open, .mailListBtn .buttonSet button.sendto .ic_send, .mailListBtn .buttonSet .disabled .buDel, .mailListBtn .buttonSet button[disabled=disabled] .buDel, .mailListBtn .buttonSet .buDel, a.btn_refresh, a.btn_change_type.view_timeline .spr, a.btn_change_layout.view_list .spr, .color-picker .cls_layer:hover, .dh_layer .hTitle .lClose:hover, .dh_layer .ly_alert .btn_layer_close:hover, .dh_layer .type_c .lClose:hover, .dh_layer button.btn_close:hover, .ly_classify .btn_layer_close:hover, .ly_tooltip .btn_layer_close:hover, .notice_layer .hTitle .lClose:hover, .setup_layer .btn_close:hover, .skin_set_wrap .btn_cls:hover, .tooltipLayer2 .t1Con .btn_close:hover, .tp_layer .tl_con .btn_close:hover, .type_alert .btn_close:hover, div.viewTitle .icoVipOff, div.viewTitle dl dt .viewMoreOff, div.viewTitle dl dt .viewMoreOn, div.mInput_holder .btn_recentaddr a img, div.mInput_holder .btn_recentaddr a:hover img, .mailWriteItem .private .btn_help, table.mailWriteItem .sClose, table.mailWriteItem .sOpen, div.mailListBtn .layoutSelectText .button_s2 .ico_arrow, div.mailListBtn .layoutSelectText .button_s2 .ico_win, div.mailListBtn .layoutSelectText .button_s2 .ico_setting_write, .icon_attach, #smart_editor2 .se2_conversion_mode, #smart_editor2 .se2_text_tool, #smart_editor2 .se2_reck, #smart_editor2 .se2_ckfin, .pop_reserve .input_area select, .cp_save_list li .imp, .cp_address_save .btn_c .ico, select, .list_mode_select .list_mode_normal, .list_mode_select .list_mode_hor, .list_mode_select .list_mode_ver, .icon_preview, .setup_layer .folder_preview, .setup_layer .list_preview, .setup_layer .newmail_preview1, .setup_layer .newmail_preview2, ul.form_ul1 .form_content #trash_period, #outbox_period, .ly_classify .filter_address .btn_toggle, .form_ul1 .form_content .icon_tip, .tooltip_cover .tooltip_arrow_bottom, a.btn_change_type.view_sender .spr, .attach_card_body .btn_savepc, .attfile_area .file_list .btn_savepc, .attfile_area .attfile_toggle, div.relMails .relBox .help, .attach_card_head .read .admin, .cv_card .read .admin, .cv_card.autoSpread .read .admin, .mailList .read .admin, div.nav_endless .ico_view_top {
-		filter: invert(86%);
+	.gnb_area .gnb_list_box .gnb_last .btn_more, a.btn_change_layout.view_split_hor .spr, a.btn_change_layout.view_split_ver .spr, a.btn_change_type.view_conversation .spr, #nav_snb .foldup .ico_fold, #nav_snb .ico_fold, .icoImportantOff, .attach_card_head .read .yes, .cv_card .read .yes, .cv_card.autoSpread .read .yes, .mailList .read .yes, .mailList .expand button.close, .mailList .expand button.open, .mailListBtn .buttonSet button.sendto .ic_send, .mailListBtn .buttonSet .disabled .buDel, .mailListBtn .buttonSet button[disabled=disabled] .buDel, .mailListBtn .buttonSet .buDel, a.btn_refresh, a.btn_change_type.view_timeline .spr, a.btn_change_layout.view_list .spr, .color-picker .cls_layer:hover, .dh_layer .hTitle .lClose:hover, .dh_layer .ly_alert .btn_layer_close:hover, .dh_layer .type_c .lClose:hover, .dh_layer button.btn_close:hover, .ly_classify .btn_layer_close:hover, .ly_tooltip .btn_layer_close:hover, .notice_layer .hTitle .lClose:hover, .setup_layer .btn_close:hover, .skin_set_wrap .btn_cls:hover, .tooltipLayer2 .t1Con .btn_close:hover, .tp_layer .tl_con .btn_close:hover, .type_alert .btn_close:hover, div.viewTitle .icoVipOff, div.viewTitle dl dt .viewMoreOff, div.viewTitle dl dt .viewMoreOn, div.mInput_holder .btn_recentaddr a img, div.mInput_holder .btn_recentaddr a:hover img, .mailWriteItem .private .btn_help, table.mailWriteItem .sClose, table.mailWriteItem .sOpen, div.mailListBtn .layoutSelectText .button_s2 .ico_arrow, div.mailListBtn .layoutSelectText .button_s2 .ico_win, div.mailListBtn .layoutSelectText .button_s2 .ico_setting_write, .icon_attach, #smart_editor2 .se2_conversion_mode, #smart_editor2 .se2_text_tool, #smart_editor2 .se2_reck, #smart_editor2 .se2_ckfin, .pop_reserve .input_area select, .cp_save_list li .imp, .cp_address_save .btn_c .ico, select, .list_mode_select .list_mode_normal, .list_mode_select .list_mode_hor, .list_mode_select .list_mode_ver, .icon_preview, .setup_layer .folder_preview, .setup_layer .list_preview, .setup_layer .newmail_preview1, .setup_layer .newmail_preview2, ul.form_ul1 .form_content #trash_period, #outbox_period, .ly_classify .filter_address .btn_toggle, .form_ul1 .form_content .icon_tip, .tooltip_cover .tooltip_arrow_bottom, a.btn_change_type.view_sender .spr, .attach_card_body .btn_savepc, .attfile_area .file_list .btn_savepc, .attfile_area .attfile_toggle, div.relMails .relBox .help, .attach_card_head .read .admin, .cv_card .read .admin, .cv_card.autoSpread .read .admin, .mailList .read .admin, div.nav_endless .ico_view_top, .attach_card_head .read .re, .cv_card .read .re, .cv_card.autoSpread .read .re, .mailList .read .re {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.gnb_area .gnb_list_box .gnb_last ul, .h_mail .gnb_area .gnb_list_box .gnb_last ul, .h_mail_lite .gnb_area .gnb_list_box .gnb_last ul, div.divWrite .mailWriteItem .utx_btn, .setup_lnb .menu_list li {
@@ -1585,12 +1585,29 @@
 
 @-moz-document url-prefix("https://mail.naver.com")
 {
-	html, head { background: #242424; }
-	.gnb_list_box li:not(.mail) a { filter: invert(86%); }
-	.viewTitle dl dd.noImgs { border: 1px solid #404040 !important; background-color: #404040 !important; color: #cacaca !important; }
-	div.dh_layer .type_c .phising_help .sTipTxt3 { background-color: #404040 !important; }
+	html, head {
+		background: #242424;
+	}
+	
+	.gnb_list_box li:not(.mail) a {
+		filter: invert(86%);
+	}
+	
+	.viewTitle dl dd.noImgs {
+		border: 1px solid #404040 !important;
+		background-color: #404040 !important;
+		color: #cacaca !important;
+	}
+	
+	div.dh_layer .type_c .phising_help .sTipTxt3 {
+		background-color: #404040 !important;
+	}
 	
 	/* User Profile CSS */
+	
+	:root #gnb .gnb_pad_lyr {
+		background: none;
+	}
 	
 	.gnb_notice_li .svc_panel, .gnb_notice_li .svc_scroll {
 		background: #2f2f2f;
@@ -1815,7 +1832,7 @@
 	.ly_draw .draw_color_type input:checked + .type_item, .ly_shape .shape_color_type input:checked + .type_item { color: #c8c8c8; background-color: #2c2c2c; }
 	.ly_draw .draw_color_type, .ly_shape .shape_color_type { border-bottom: 1px solid #404040; }
 	.select_area .select_horizon button:hover, .select_area .select_vertical button:hover { background-color: #2c2c2c; }
-	.image_editor .canvas_cover, .btn_colorpicker:after, .color_picker_preset button.color_transparent, .disabled .tools .resize button:after, .ly_resize .check_resize_scale + label:before, .ly_resize .check_resize_scale:checked + label:before, .ly_text .text_style .text_bold:before, .ly_text .text_style .text_italic:before, .ly_text .text_style .text_strike:before, .ly_text .text_style .text_underline:before, .ly_text_picker .color-picker .btn_close:before, .range_cover .range_decrease:after, .range_cover .range_increase:after, .tool_box .crop button.disabled.over:before, .tool_box .crop button.disabled:before, .tool_box .crop button.over:before, .tool_box .crop button.selected:before, .tool_box .crop button:before, .tool_box .draw button.disabled.over:before, .tool_box .draw button.disabled:before, .tool_box .draw button.over:before, .tool_box .draw button.selected:before, .tool_box .draw button:before, .tool_box .redo button.disabled.over:before, .tool_box .redo button.disabled:before, .tool_box .redo button.over:before, .tool_box .redo button.selected:before, .tool_box .redo button:before, .tool_box .remove button.disabled.over:before, .tool_box .remove button.disabled:before, .tool_box .remove button.over:before, .tool_box .remove button.selected:before, .tool_box .remove button:before, .tool_box .reset button.disabled.over:before, .tool_box .reset button.disabled:before, .tool_box .reset button.over:before, .tool_box .reset button.selected:before, .tool_box .reset button:before, .tool_box .rotation button.disabled.over:before, .tool_box .rotation button.disabled:before, .tool_box .rotation button.over:before, .tool_box .rotation button.selected:before, .tool_box .rotation button:before, .tool_box .shape button.disabled.over:before, .tool_box .shape button.disabled:before, .tool_box .shape button.over:before, .tool_box .shape button.selected:before, .tool_box .shape button:before, .tool_box .text button.disabled.over:before, .tool_box .text button.disabled:before, .tool_box .text button.over:before, .tool_box .text button.selected:before, .tool_box .text button:before, .tool_box .undo button.disabled.over:before, .tool_box .undo button.disabled:before, .tool_box .undo button.over:before, .tool_box .undo button.selected:before, .tool_box .undo button:before, .tool_box button.setting.disabled.over:before, .tool_box button.setting.disabled:before, .tool_box button.setting.over:before, .tool_box button.setting.selected:before, .tool_box button.setting:before, .tool_box.disabled .crop button.over:before, .tool_box.disabled .crop button:before, .tool_box.disabled .draw button.over:before, .tool_box.disabled .draw button:before, .tool_box.disabled .redo button.over:before, .tool_box.disabled .redo button:before, .tool_box.disabled .remove button.over:before, .tool_box.disabled .remove button:before, .tool_box.disabled .reset button.over:before, .tool_box.disabled .reset button:before, .tool_box.disabled .rotation button.over:before, .tool_box.disabled .rotation button:before, .tool_box.disabled .shape button.over:before, .tool_box.disabled .shape button:before, .tool_box.disabled .text button.over:before, .tool_box.disabled .text button:before, .tool_box.disabled .tools .resize_cover .check_resize_relate + label:before, .tool_box.disabled .undo button.over:before, .tool_box.disabled .undo button:before, .tool_box.disabled button.setting.over:before, .tool_box.disabled button.setting:before, .tools .resize button.disabled:after, .tools .resize button:after, .tools .resize button[disabled=disabled]:after, .tools .resize button[disabled]:after, .tools .resize_cover .check_resize_relate + label:before, .tools .resize_cover .check_resize_relate:checked + label:before, .tools .resize_cover .check_resize_scale + label:before, .tools .resize_cover .check_resize_scale:checked + label:before, .range_cover .range_base { filter: invert(86%); }
+	.image_editor .canvas_cover, .btn_colorpicker:after, .color_picker_preset button.color_transparent, .disabled .tools .resize button:after, .ly_resize .check_resize_scale + label:before, .ly_resize .check_resize_scale:checked + label:before, .ly_text .text_style .text_bold:before, .ly_text .text_style .text_italic:before, .ly_text .text_style .text_strike:before, .ly_text .text_style .text_underline:before, .ly_text_picker .color-picker .btn_close:before, .range_cover .range_decrease:after, .range_cover .range_increase:after, .tool_box .crop button.disabled.over:before, .tool_box .crop button.disabled:before, .tool_box .crop button.over:before, .tool_box .crop button.selected:before, .tool_box .crop button:before, .tool_box .draw button.disabled.over:before, .tool_box .draw button.disabled:before, .tool_box .draw button.over:before, .tool_box .draw button.selected:before, .tool_box .draw button:before, .tool_box .redo button.disabled.over:before, .tool_box .redo button.disabled:before, .tool_box .redo button.over:before, .tool_box .redo button.selected:before, .tool_box .redo button:before, .tool_box .remove button.disabled.over:before, .tool_box .remove button.disabled:before, .tool_box .remove button.over:before, .tool_box .remove button.selected:before, .tool_box .remove button:before, .tool_box .reset button.disabled.over:before, .tool_box .reset button.disabled:before, .tool_box .reset button.over:before, .tool_box .reset button.selected:before, .tool_box .reset button:before, .tool_box .rotation button.disabled.over:before, .tool_box .rotation button.disabled:before, .tool_box .rotation button.over:before, .tool_box .rotation button.selected:before, .tool_box .rotation button:before, .tool_box .shape button.disabled.over:before, .tool_box .shape button.disabled:before, .tool_box .shape button.over:before, .tool_box .shape button.selected:before, .tool_box .shape button:before, .tool_box .text button.disabled.over:before, .tool_box .text button.disabled:before, .tool_box .text button.over:before, .tool_box .text button.selected:before, .tool_box .text button:before, .tool_box .undo button.disabled.over:before, .tool_box .undo button.disabled:before, .tool_box .undo button.over:before, .tool_box .undo button.selected:before, .tool_box .undo button:before, .tool_box button.setting.disabled.over:before, .tool_box button.setting.disabled:before, .tool_box button.setting.over:before, .tool_box button.setting.selected:before, .tool_box button.setting:before, .tool_box.disabled .crop button.over:before, .tool_box.disabled .crop button:before, .tool_box.disabled .draw button.over:before, .tool_box.disabled .draw button:before, .tool_box.disabled .redo button.over:before, .tool_box.disabled .redo button:before, .tool_box.disabled .remove button.over:before, .tool_box.disabled .remove button:before, .tool_box.disabled .reset button.over:before, .tool_box.disabled .reset button:before, .tool_box.disabled .rotation button.over:before, .tool_box.disabled .rotation button:before, .tool_box.disabled .shape button.over:before, .tool_box.disabled .shape button:before, .tool_box.disabled .text button.over:before, .tool_box.disabled .text button:before, .tool_box.disabled .tools .resize_cover .check_resize_relate + label:before, .tool_box.disabled .undo button.over:before, .tool_box.disabled .undo button:before, .tool_box.disabled button.setting.over:before, .tool_box.disabled button.setting:before, .tools .resize button.disabled:after, .tools .resize button:after, .tools .resize button[disabled=disabled]:after, .tools .resize button[disabled]:after, .tools .resize_cover .check_resize_relate + label:before, .tools .resize_cover .check_resize_relate:checked + label:before, .tools .resize_cover .check_resize_scale + label:before, .tools .resize_cover .check_resize_scale:checked + label:before, .range_cover .range_base { filter: invert(86%) hue-rotate(-180deg); }
 	.image_editor, .ly_text_picker .cp-panel-color, .ly_text_picker .cp-panel-hue { border: 1px solid #404040; }
 	.tools .resize_cover .check_resize_relate:checked + label, .tools .resize_cover .check_resize_scale + label:before, .disabled .tools .resize_cover .check_resize_scale + label:before { background-color: #242424; }
 	.tools .resize_cover .check_resize_relate + label, .tools button.selected, .ly_resize, .ly_text { border: 1px solid #404040; background-color: #242424; }
@@ -1827,7 +1844,7 @@
 @-moz-document url-prefix("https://mail.naver.com/notice")
 {
 	html, head { background: #242424; }
-	body div h1 img { filter: invert(86%); }
+	body div h1 img { filter: invert(86%) hue-rotate(-180deg); }
 	body div h1 { border-bottom: 1px solid #404040 !important; }
 }
 
@@ -2484,7 +2501,7 @@
 	}
 	
 	.lnb0 .tab:not(.on) .spnew, .lnb8 .tab:not(.on) .spnew, .lnb10 .tab:not(.on) .spnew, .lnb2 .tab:not(.on) .spnew, .lnb3 .tab:not(.on) .spnew, .lnb5 .tab:not(.on) .spnew, .lnb4 .tab:not(.on) .spnew, .lnb20 .tab:not(.on) .spnew, .lnb1 .tab:not(.on) .spnew, .lnb21 .tab:not(.on) .spnew, .lnb6 .tab:not(.on) .spnew, .lnb12 .tab:not(.on) .spnew, .lnb7 .tab:not(.on) .spnew, .lnb13 .tab:not(.on) .spnew, .lnb15 .tab:not(.on) .spnew, .lnb14 .tab:not(.on) .spnew, .lnb16 .tab:not(.on) .spnew, .lnb_more .spnew.name, .footer_group .spim, .header_group .spim, .lnb_group .spim, .snb_inner .spim, .z_aside .spim, .op_calendar .cal_date, .op_calendar .ly_close, .sp_keyword .link_help .api_ico_help, .dic_aside .dic_dsc .list_more, .ndic .dic_grade span, .go_site, .dsc .sprenew.api_ico_help2, .kindic .tit .ico_help, .result_more .rsltmr_area, .sprenew.api_ico_help2, .news .news_option .n_update a.btn, .news .news_option .n_update a.btn2, .news .news_option .sort a, .news .news_option .sort span, .art_view a img, .type01 .icon, .sh_music_top .music_listen a img, .sh_music_top .music_lst img, .music .spms, .sp_video .spmv, .sp_video .spmv_af:after, .sp_video .spmv_bf:before, .cs_reelect_sub .cont_sbntc .cont_sbinfor .btn_close, .sp_mobile .type01 li .ico_fee, .sp_mobile .type01 li .ico_discnt, .cs_toolbar p.info, .cs_stoolbar p.info, .sp_mobile .type01 .grade a img, .sp_mobile .type01 .grade img, .sp_kindic .group_kindic .info_area .tit_box .icon, .cs_foreigninfo .info, .cs_foreigninfo .c_rate .rate_compare .rate_select_bx .rate_select>a, .cs_foreigninfo .c_rate .compare_area .ico_same, .grp_info a img, .grp_img .img a img, #addrkor_form input[type="image"], .ds_address .prcs_guide .other_links dl dd li, .ds_address .ds_box .result .detail table dl dt img, .cs_area_number p.info, .cs_area_number .cs_box dl dd input[type="image"], .cs_area_number .list_num2 li, .cs_area_number .prcs_guide .other_links dl dd li, .cs_foreigninfo .noti_area p, .go_relate.ref_link, .cs_foreigninfo .ch_wrap .lst_select, .cs_foreigninfo .ch_wrap .nation_srch, .cs_foreigninfo .ch_wrap .lst_rate, .cs_foreigninfo .ch_wrap .stock_info, .cs_foreigninfo .ch_wrap .lst_worldtime, .cs_foreigninfo .ch_wrap .btn_section li a, .cs_foreigninfo .c_worldtime .time_info .sp, .cs_foreigninfo .c_worldtime .time_info li.lst_link .btn_other a, .cs_foreigninfo .c_worldtime .ic, #addreng_form input[type="image"], .greenmap .map_num span, .info_area .txt_inline a img, .greenmap .lst_map .info_area dd .bt_open, .greenmap .spmbu, .region .spmbu, .bt_scial2, #lcs_map, .greenmap .local_map .map_control .help, .greenmap .btn_pr a img, .sp_post .sppt, .sp_feedback .spfb, .cs_contuntil .unit .tab_area .tabs li, .cs_contuntil .unit .compare_area .unit_slc, .cs_contuntil .unit .compare_area .btn_chg, .cs_contuntil .unit p.info, .api_ico_help, .realtime2 .sprt.btn_change, .realtime2 .rt_sort .sort .sprt, .realtime2 .btn_reply .ico, .realtime2 .bt_renew .dsc_info .ico_info, .book_list .type01 dd.review .grade, .book_list .type01 dd .btn_to img, .dsc_ncaution2 .ly_ad_dsc .ico_arr, .cs_stock .ar_spot .spt_tlt h3 a .t_nm, .cs_stock .ar_spot .spt_tlt .my_stock .btn_my, .offer_more2 .confirm img, .people_info .btn_profile_update, .people_info .layer_tooltip2 .arw.detail, .cs_weather .table_info .list_area .item_time .tomorrow .tomorrow_icon, .cs_weather .table_info .ico.dday, .cs_weather .table_info .list_area .on .dot_point, .cs_weather .table_info .list_area .dot_point, .cs_weather .title_sub .sub_option [role="option"][aria-selected="true"] .ico_select, .cs_weather .title_sub .sub_option .ico_select, .cs_weather .table_info .info_list.rainfall .list_area .item_condition .rain_rate.level2, .cs_weather .table_info .info_list.rainfall .list_area .item_condition .rain_rate.level1, .cs_weather .table_info .info_list.humidity .list_area .wt_status .ico_humidity_bg, .cs_disaster .box_info .ico_alert, .cs_disaster .wrap_dzst .map_dzst img, .cs_disaster .wrap_dzst5 .scr_dzst2 .layer_info .link_popup .icon_alert, .cs_disaster .wrap_dzst5 .scr_dzst .ly_earthquake .btn_close, .cs_disaster .wrap_dzst2 .tit_dzst select, .cs_disaster .wrap_dzst2 .scr_dzst .help, .cs_disaster .wrap_dzst2 .ly_typhoon .btn_close, .cs_disaster .wrap_dzst2 .ly_typhoon ul li img, .cs_disaster .wrap_dzst3 .status, .cs_disaster .wrap_dzst3 .btn_map, .cs_disaster .wrap_dzst3 .btn_map2, .cs_disaster .wrap_dzst3 .tab_area li strong, .cs_disaster .wrap_dzst3 .tab_area li a, .cs_disaster .wrap_dzst3 .tab_area li strong, .cs_disaster .wrap_dzst6 .tip .ico, .cs_disaster .wrap_dzst6 .wattage, .contents03 #header em, .cs_traffic .t_noti .t_txt, .cs_traffic .t_btn li a img, .cs_traffic .t_acct .ta_lst li .type, .cs_weather .bnr_line a img, .cs_weather .c_box .c_body .news_area .l_news .msg span, .cs_weather .noti_area .btn_region img, .cs_weather .noti_area p, .cs_weather .c_box .c_body .map_area .ext, .cs_weather .c_box .c_body .news_area .leis_news .ln_header .period a, .cs_weather .c_box .c_body .loc_area .lst_loc .btn_rdo, .bus_realinfo .traf_section dl dd .btn_search, .bus_realinfo .notice_area .other_btn .btn_area_er, .bus_realinfo .notice_area .other_btn .btn_area_set, .bus_realinfo .bi_stop_area li .k_bus_nt, .bus_realinfo .bi_stop_area li .k_bus_st, .bus_realinfo .k_bustop_pin a img, .ly_bus_close, .ly_bustop .ly_ico_pin, .ly_bus_btn a img, .bus_realinfo .bi_stop_area2 .topbar .k_bus_udt, .bus_realinfo .bi_stop_area2 .topbar2 .k_bus_tover, .bus_realinfo .bi_stop_area2 .topbar3 .k_bus_noinfo, .bus_realinfo .bi_stop_area2 a.btn_refresh, .cs_traffic .t_lst2 li, .cs_broadcast .brcs_detail .btn_ratemore, .cs_broadcast .brcs_detail dd.intro .btn, .cs_broadcast .brcs_detail dd.ico, .cs_broadcast .brcs_detail .btn_area a img, .cs_broadcast .btn_area .subscribe .ico_subscribe, .cs_broadcast .btn_area .subscribe .txt, .cs_broadcast .btn_area .subscribe .num, .cs_broadcast .scroll_box.scroll_tab .page_area .paging_bx a[class^=btn_page_] .ico_spr, .cs_broadcast .brcs_detail dd .btn_alarm img, .cs_newest .sct_content .ar_pgn .ico_alert, .cs_broadcast .lst_cont .lt_cont .btn_page_prev .btn_ico, .cs_broadcast .lst_cont .rt_cont .btn_page_next .btn_ico, .cs_broadcast .lst_cont .cont_inner .timetable2 li .tv_round .ico_sub, .cs_broadcast .scroll_info dd .text_info2 ul, .cs_broadcast .scroll_info dd .btn, .cs_broadcast_list .notice_info .description:before {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	#lnb .addon, .ly_dimmed, .news .news_guide_bx, .cs_calculator .calculator_area td div, .cs_foreigninfo .c_nation .lst_country, .cs_contuntil .unit .compare_area .unit_lst li, .cs_contuntil .unit .compare_area.time .time_box span, .cs_foreigninfo .c_rate .rate_table_bx .rate_table_info thead tr, .people_info .layer_tooltip2 .content, .bus_realinfo .bi_stop_area2 .scroll2, .cs_broadcast .lst_cont .lt_cont .btn_page_prev, .cs_broadcast .lst_cont .rt_cont .btn_page_next {
@@ -4176,6 +4193,20 @@
 	.cs_foreigninfo .exchange_banner .link_area .link_txt {
 		color: #8383ff;
 	}
+	
+	.u_likeit_list_module .u_likeit_list_btn .u_ico, .drct_ico img, .drct_ico .api_ly_npay .npay_arr, #lnb .lnb_menu .lnb9 .name, #lnb .lnb_util .list_util .bt_help .ico_help, #lnb .lnb_util .list_util .bt_origin .ico_origin {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.sp_post .type01 dd[class^=post] a {
+		color: #fff;
+	}
+	
+	.drct_ico .api_ly_npay .npay_bx {
+		background-color: #2f2f2f;
+		color: #fff;
+		border: 1px solid #404040;
+	}
 }
 
 @-moz-document url-prefix("https://nid.naver.com/user2/help/")
@@ -5204,6 +5235,10 @@
 	
 	.cafe_list .sort li.on a {
 		color: #697b97 !important;
+	}
+	
+	#special-menu, #cafe-banner {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	img[src="https://ssl.pstatic.net/static/common/lg/naver01.gif"] {
@@ -6715,6 +6750,18 @@
 	.article_prenet .p_n2 td {
 		background: #2f2f2f;
 	}
+	
+	#main-area:not(.skin-1080) #tbody td, #main-area:not(.skin-1080) #tbody th {
+		color: #cacaca;
+	}
+	
+	#group-area:not(.skin-1080) #widget-bean .widget-bean {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.submit_commerce {
+		color: #242424;
+	}
 }
 
 @-moz-document url-prefix("https://section.blog.naver.com"), url-prefix("http://section.blog.naver.com")
@@ -8029,8 +8076,12 @@
 @-moz-document url-prefix("https://mashup.map.naver.com")
 {
 	html, head { background: #242424; }
-	#btn_area, #list_area, #map_area, .nmap_api_zoom { filter: invert(86%); }
-	embed[name="NMapEditor"] { filter: invert(86%); }
+	#btn_area, #list_area, #map_area, .nmap_api_zoom { filter: invert(86%) hue-rotate(-180deg); }
+	embed[name="NMapEditor"] { filter: invert(86%) hue-rotate(-180deg); }
+	
+	body {
+		font-family: "Helvetica";
+	}
 }
 
 @-moz-document url-prefix("https://terms.naver.com")
@@ -15379,6 +15430,10 @@
 	.mainpage .page_wrap .aside, .news_wrap .aside, .videocenter .video_wrap .aside {
 		border-right: 1px solid #404040;
 		border-left: 1px solid #404040;
+	}
+	
+	.p_info .nolineup, .tab_mnu .lyr_status, .tab_mnu .lyr_status2, .tab_mnu .lyr_status3 {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 }
 

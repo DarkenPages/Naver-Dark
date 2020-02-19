@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.16.19
+@version		1.16.20
 @namespace		Avis Studio
 ==/UserStyle== */
 
@@ -53,7 +53,6 @@
 	.area_hotkeyword .ah_tab_btn {
 		color: #cacaca;
 		background: #242424;
-		border: 1px solid #404040;
 	}
 	
 	.header {
@@ -685,11 +684,6 @@
 		border-top: 1px solid #404040;
 	}
 	
-	.area_hotkeyword .list_age .age_item {
-		border: 1px solid #404040;
-		border-width: 1px 0 0 1px;
-	}
-	
 	.area_hotkeyword .list_age {
 		border: 1px solid #404040;
 	}
@@ -714,6 +708,19 @@
 	
 	.area_hotkeyword .ly_help .help_message {
 		color: #cacaca;
+	}
+	
+	.area_hotkeyword .ah_tab_btn {
+		border-left: 1px solid #404040;
+	}
+	
+	.area_hotkeyword .ah_tab {
+		border: 1px solid #404040;
+	}
+	
+	.area_hotkeyword .list_age .age {
+		border: 1px solid #404040;
+		border-width: 1px 0 0 1px;
 	}
 }
 

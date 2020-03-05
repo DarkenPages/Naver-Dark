@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.16.20
+@version		1.16.22
 @namespace		Avis Studio
 ==/UserStyle== */
 
@@ -554,7 +554,7 @@
 	}
 	
 	.area_logo .special_img {
-		filter: invert(85.5%);
+		filter: invert(85.5%) hue-rotate(-180deg);
 	}
 	
 	.profile .my_service .btn_logout:hover {
@@ -7395,6 +7395,10 @@
 	
 	.country_code .sel_value {
 		filter: invert(86%);
+	}
+	
+	.diaper_banner, .otp_step_banner {
+	    filter: invert(86%) hue-rotate(-180deg);
 	}
 }
 

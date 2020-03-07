@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.16.22
+@version		1.16.25
 @namespace		Avis Studio
 ==/UserStyle== */
 
@@ -4213,6 +4213,49 @@
 		background-color: #2f2f2f;
 		color: #fff;
 		border: 1px solid #404040;
+	}
+	
+	.snb_itembox .lst_choice li a:focus, .snb_itembox .lst_choice li a:hover {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.snb_itembox .btn_inp .tx {
+		border: 1px solid #404040;
+	}
+	
+	.message_bottom {
+		border: 4px solid #404040;
+	}
+	
+	.message_bottom p {
+		color: #fff;
+	}
+	
+	#sub_pack a img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_holiday .holiday_box {
+		border: 3px solid #404040;
+	}
+	
+	.cs_holiday .holiday_box h4 em {
+		color: #fff;
+	}
+	
+	.cs_holiday .holiday_box .holi_addinfo a {
+		color: #cacaca;
+		border: 1px solid #404040;
+	}
+	
+	.cs_holiday .holiday_box .holi_info a {
+		color: #5252ff;
+	}
+	
+	.cs_holiday .holiday_box .holi_thmb img {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 }
 

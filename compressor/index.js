@@ -29,7 +29,7 @@ let remaining = contents.substring(lastIndex, contents.length);
 
 cssPurge.purgeCSS(remaining, {
     trim: true,
-    shorten: true,
+    shorten: false,
     format: true,
     verbose: false
 }, function(error, result) {

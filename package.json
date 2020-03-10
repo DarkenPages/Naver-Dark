@@ -1,0 +1,22 @@
+{
+  "name": "naver-dark-compressor",
+  "version": "1.0.0",
+  "description": "Naver-Dark stylesheet compressor",
+  "main": "compressor/index.js",
+  "scripts": {
+    "compress": "node compressor/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarkenPages/Naver-Dark.git"
+  },
+  "author": "OrigamiDream",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DarkenPages/Naver-Dark/issues"
+  },
+  "homepage": "https://github.com/DarkenPages/Naver-Dark#readme",
+  "dependencies": {
+    "css-purge": "^3.1.8"
+  }
+}

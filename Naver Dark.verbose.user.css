@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.18.07
+@version		1.19.01
 @namespace		Avis Studio
 ==/UserStyle== */
 
@@ -725,6 +725,20 @@
 	
 	.service .svc_navigation .svc_ico {
 		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.api_atcmp_wrap .words .atcmp_quick a.mquick {
+		border: 1px solid #404040;
+		background-color: #242424;
+		color: #cacaca;
+	}
+	
+	.api_atcmp_wrap .words .atcmp_quick a.mquick:hover {
+		border-color: #404040;
+	}
+	
+	.api_atcmp_wrap .expand .opt_shortcut .opt_txt {
+		color: #cacaca;
 	}
 }
 
@@ -1861,58 +1875,243 @@
 
 @-moz-document url-prefix("https://www.navercorp.com")
 {
-	html, head { background: #242424; }
-	.gnb_menu .gnb_dropMenu_wrap > li:before, .gnb_menu .gnb_dropMenu_wrap > li:last-child:after { background-color: #018038; }
-	.gnb_menu .gnb_dropMenu .classify { border-top: #018038; }
-	.btn_rect.color { border-color: #6c776e; }
-	textarea.text_box { color: #cacaca; border-bottom: 1px solid #404040; background: #242424; }
-	.foundation_service h4 { border-bottom: 2px solid #404040; color: #cacaca; }
-	.investors_table th { border-top: 2px solid #404040; color: #cacaca; }
-	.investors_table tbody tr:first-child td { border-color: #404040; }
-	.pop { background-color: #242424; color: #cacaca; }
-	.investors_table.type2.half .th_title { color: #fff; border-bottom: 1px solid #404040; }
-	a, a:link { color: #395580; }
-	.sticky_wrap { background: #242424; border-top: 1px solid #404040; }
-	.navi_wrap .lang_select .select_list li.on a { color: #c8c8c8; }
-	.sub_con.alliance .alliance_list_box .alliance_list > li { background: #2c2c2c; border-bottom: 2px solid #404040; }
-	.round_connect ul li h5 { color: #cacaca; border: 1px solid #404040; }
-	.section.cummunicate_btm { border-top: 10px solid #404040; }
-	.table_form .bg_gray_r { background: #2c2c2c; border-right: 1px solid #404040; }
-	.result_top .link_box { border: 1px solid #404040; border-width: 1px 0; }
-	.policy_table th, .policy_table td { color: #cacaca; background-color: #242424; border-top: 1px solid #404040; border-bottom: 1px solid #404040; border-left: 1px solid #404040; }
-	.privacy_con_list li .type_table dt { background: #242424; color: #cacaca; border-top: 1px solid #404040; }
-	.text_black21 { color: #fff!important; }
-	.policy_detail_title { border-bottom: 2px solid #404040; color: #fff; }
-	.summary_title, .support_title, .affiliate_box .btn_affiliate, .content_head .page_title, .page_tab .page_tab_item:hover, .page_tab .page_tab_item:focus, .page_tab .page_tab_item[aria-selected="true"], .page_subTab_item:hover, .page_subTab_item:focus, .page_subTab_item[aria-selected="true"], .quick_menu_item:hover, .quick_menu_item:focus, .quick_menu_item[aria-selected="true"], .history_box .history_year, .service_container .service_title, .radio_list label:hover, .radio_list input:checked + label, .content_box_right.guide_box strong, .contact .content_box_right dt, .info_list .info_list_title, .btn_text, .foundation_service_list h5, .connect_service_list h5, .list_type, .report_list .report_info_title, .news_list .news_list_title, .channel_list h4, .article_list dt, .additional_list dt, .util_box .util_item a, .stock_info_top .top_left .price, .pop .pop_title, .faq_title, .investors_table.type2.half .total, .investors_table.type2.half .total_num, .main_con .summaries dt, .sub_con h3, .sub_con h4, .sub_con .tab li a[aria-selected="true"], .section.select_year ul li.on a, .sub_con h5, .sub_con.alliance .alliance_list_box h4 a, .sub_con.alliance .sequence_text .txt_num, .input_form > dt, .sub_contact .tel_number dt, .sub_contact .contact_list li dl dt a, .service_list li .service_info dt a, .sub_con .down_link_area a, .section.ethics_list dl dt, .service_list li .service_info dt, .bg_datacenter_box .bg_datacenter dl, .value_list li dl dt a, .press_section .press_list .press_info .txt_area .list_title, .table_form thead, .table_form tfoot, .drectors_info .drectors_info_list dt, .incorporation_box .incorporation_list dt, .disclosure_top .top_link_box a, .disclosure_list > li a, .survey_info .survey_info_top .top_left, .survey_info .survey_info_top .top_right dl dt, .survey_info .survey_info_list dl dt, .table_form .txt_black, .form_caleander, .section.faq_box dl dt, .table_form .accont_bottom_sub p.autograph, .list_box h4, .privacy_view .view_title, .privacy_con_list li h6, .privacy_con_list li .type_table.type_notice .top_box, .privacy_con_list li p a.privacy_link, .content_container.detail .list_box h5, .content_container.detail .manager_box dd strong, .content_container.detail .policy_link, .content_container.detail .list_box p strong, .content_container.detail .list_box p em { color: #fff; }
-	.news_title, .career_text, .summary_stock .stock_info_box, .gnb_menu .gnb_menu_item, .header_util .header_lang a, .support_text, .content_head .page_info, .content_box .content_box_left, .content_box .content_box_right, .history_box .history_month, .order_list .order_text, .radio_list label, .btn_link, .util_list .btn_link, .agree_box label, .channel_container.icon .channel_list h3, .unit, .investors_table.type2 .name, .investors_table.type2 .title, .stock_info_top .top_left dt, .table.stock tbody th, .table.stock tfoot td, .ir_guide, .ir_guide_list, .month p, .calendar_guide .state span, .pop .inquire_info .info_title, .content_container.settlement .investors_table .dark, .table_notice .notice_text strong, .summary_link, .main_con .summaries dd .news_header, .main_con .summaries.type_career dd a, .main_con .summaries.type_stoc dd .stoc_num, .navi_wrap .navi_depth_1 .navi_depth_low > li a, .sub_con .section.top_sec p, .sub_con .profile_list dl dt, .history_list dl dt, .sub_con .site_link, .sub_con.alliance .alliance_list_box .alliance_list > li > a, .value_list.type_connect li dl dd, .value_list li dl dt, .value_list.type_connect li dl dd a, .sub_con .section.top_sec .search_box .btn_select, .section.cummunicate_btm .communication_manu li a, .disclosure_list > li .link_box a, .result_top .link_box a, .table_form .accont_bottom p.autograph, .table_form .accont_bottom p.date_txt, .location li:last-child .location_list, .policy_info_top .policy_text, .contents_list .list, .privacy_top .privacy_lst li a, .privacy_list li a, .policy_list .policy_list_title { color: #cacaca; }
-	.summary_container:before, .header_util .header_lang a:first-child:after, .header_util .btn_sitemap .btn_line, .support_list_box:before, .footer_menu > li:before, .page_tab li:before, .service_menu > li:before, .btn_expanded, .radio_list.tip:before, .foundation_service_list > a:before, .connect_service_list:before, .list_type:not(:first-child):before, .channel_container.icon .channel_list:last-child:before, .subscript p span:first-child:before, .stock_info_top .top_left .detail:before, .summary_stock .stock_info_box .stock_price_box:before, .footer_wrap .ft_menu li::after, .report_btn_area .btn_prev:after { background-color: #404040; }
-	header, header:hover, header.active, .input_text.file { background-color: #242424; }
-	.gnb_menu .gnb_dropMenu_wrap, .gnb_menu .gnb_menu_list .gnb_menu_item:before, .gnb_menu .gnb_menu_list_recruit .gnb_menu_item:before, header.active .sitemap { background-color: #019341; }
-	.gnb_menu .gnb_menu_list_recruit:hover .gnb_menu_item.recruit:after, .gnb_menu .gnb_menu_list_recruit .gnb_menu_item:focus:after, .btn_expanded.on:after, .btn_link:after, .map, .service_link_item, .icon_prev:before, .icon_next:before, .icon_list:before, .icon_down:before, .icon_vod:before, .idc_info_list:nth-child(1) .idc_info_img:before, .idc_info_list:nth-child(2) .idc_info_img:before, .idc_info_list:nth-child(3) .idc_info_img:before, .info_img_box img, .search .btn_search:before, .btn_more:before, .pagination .pagination_prev, .pagination .pagination_next, .util_box .util_item a:before, .header_wrap .btn_menu, .navi_wrap .navi_depth_1 > li > a .btn_select, .navi_wrap .navi_depth_1 > li > a .btn_round_link, .sub_con.alliance .sequence_circle li .ico_arr_right, #mapContainer, .sp_ico.btn_link_goole, .sp_ico.btn_link_apple, .sp_ico.btn_link_onestore, .sp_ico.btn_link_home, .bg_datacenter_box .bg_datacenter dl dt, .bg_happy_bean, .bg_culture, .sub_con .section.top_sec .search_box .btn_select .arr_select, .sub_con .section.top_sec .search_box .ico_search { filter: invert(86%); }
-	footer, .service_area, .select_menu .select_item:hover, .investors_table.type2 .bg_blue, .policy_info_area { background-color: #2c2c2c; }
-	.table th, .table td, .input_text, .select_year_small a { color: #cacaca; border-bottom: 1px solid #404040; }
-	.history_box, .investors_table td, .article, .content_container.finances .investors_table tbody tr:first-child th, .faq_list, .content_container.settlement .investors_table tbody tr:first-child th, .main_con .summaries, .history_list li, .sub_con .down_link_area, .value_list.type_connect li dl dd + dd, .sub_con .section.top_sec .search_box .search_select .btn_list li a, .form_caleander .cal_link_box, .privacy_con_list li .type_table dd, .report_btn_area { border-top: 1px solid #404040; }
-	.order_list:before, .btn_rect, .sub_con.alliance .bottom_btn a, .btn_white { border: 1px solid #404040; }
-	.btn_rect.color:hover, .btn_rect:hover, .gnb_menu .gnb_dropMenu .gnb_dropMenu_item, .btn_rect.v2:hover, .sitemap_list, .sitemap_list .menu_list a { color: #000; }
-	.btn_select, .table .input_text, .search input, .content_container.finances .investors_table tbody th, .content_container.settlement .investors_table tbody th, .btn_affiliate, .input_search { border-bottom: 1px solid #404040; color: #cacaca; }
-	.select_menu, .affiliate_list { background-color: #242424; border: 1px solid #404040; }
-	.btn_file, .btn_down, .btn_rect.v2 { border: 1px solid #404040; color: #cacaca; }
-	.radio_list label:before, .agree_box label:before { border: 2px solid #404040; }
-	.radio_list label:hover:before, .agree_box label:hover:before { border: 2px solid #4c4c4c; }
-	.content_box_right.guide_box, .content_box.left_wide, .info_list, .news_list, .investors_table.type2 tbody tr:last-child td, .article.s7, .pop .inquire_info > li, .sub_con .profile_list dl, .section.select_year ul, .sub_con.alliance .alliance_list_box h4, .sub_contact .contact_list li, .service_box .box_detail, .service_list li, .section.ethics_list dl, .value_list li dl, .section.cummunicate_btm .communication_manu li, .table_form tbody tr, .drectors_info .drectors_info_list, .disclosure_list > li, .table_form.type_survey tfoot tr, .section.faq_box dl dd, .table_form .accont_bottom, .list_box, .privacy_top, .privacy_con_list li, .privacy_con_list li .type_table, .privacy_con_list li p a.privacy_link, .privacy_list li, .policy_list { border-bottom: 1px solid #404040; }
-	.gnb_menu .gnb_dropMenu .gnb_dropMenu_item span:before, .sitemap_list .menu_title:before, .sitemap_list .menu_list a span:before { background-color: #000; }
-	.investors_table tfoot td, .table_form.type_survey tfoot { border-top: 1px solid #404040; color: #cacaca; }
-	.article:first-child, .table tr:first-child { border-top: 2px solid #404040; }
-	.table .br, .content_container.finances .br, .investors_table.type2.half .col2 { border-right: 1px solid #404040; }
-	.investors_table.type2.half .col3, .sub_con .section.top_sec .search_box .search_select .btn_list li:nth-child(even), .survey_info .survey_info_top .top_right, .table_form .bl_gray { border-left: 1px solid #404040; }
-	.service_list.main li + li::after, .navi_wrap .lang_select .select_list li::before, .sub_con .tab li::after { background: #404040; }
-	.footer_wrap, .navi_wrap .navi_depth_1 .navi_depth_low, .table_form .bg_gray, .privacy_notice { background: #2c2c2c; }
-	.header_wrap, .navi_wrap, .navi_wrap .navi_bottom { background: #242424; }
-	.navi_wrap .navi_depth_1 > li > a, .policy_info_top { border-bottom: 1px solid #404040; color: #fff; }
-	.sub_con.alliance .sequence_circle li, .sub_con .section.top_sec .search_box .search_select a, .select_year_small .select_list a { background: #242424; color: #cacaca; }
-	.survey_info .survey_info_top, .form_caleander .cal_week li { border-top: 2px solid #404040; border-bottom: 1px solid #404040; }
-	.footer_wrap .footer_logo { filter: invert(100%); }
-	.affiliate_box .btn_affiliate:before { filter: invert(86%); }
+	html, head {
+		background: #242424;
+	}
+	
+	.gnb_menu .gnb_dropMenu_wrap>li:before, .gnb_menu .gnb_dropMenu_wrap>li:last-child:after {
+		background-color: #018038;
+	}
+	
+	.gnb_menu .gnb_dropMenu .classify {
+		border-top: #018038;
+	}
+	
+	.btn_rect.color {
+		border-color: #6c776e;
+	}
+	
+	textarea.text_box {
+		color: #cacaca;
+		border-bottom: 1px solid #404040;
+		background: #242424;
+	}
+	
+	.foundation_service h4 {
+		border-bottom: 2px solid #404040;
+		color: #cacaca;
+	}
+	
+	.investors_table th {
+		border-top: 2px solid #404040;
+		color: #cacaca;
+	}
+	
+	.investors_table tbody tr:first-child td {
+		border-color: #404040;
+	}
+	
+	.pop {
+		background-color: #242424;
+		color: #cacaca;
+	}
+	
+	.investors_table.type2.half .th_title {
+		color: #fff;
+		border-bottom: 1px solid #404040;
+	}
+	
+	a, a:link {
+		color: #395580;
+	}
+	
+	.sticky_wrap {
+		background: #242424;
+		border-top: 1px solid #404040;
+	}
+	
+	.navi_wrap .lang_select .select_list li.on a {
+		color: #c8c8c8;
+	}
+	
+	.sub_con.alliance .alliance_list_box .alliance_list>li {
+		background: #2c2c2c;
+		border-bottom: 2px solid #404040;
+	}
+	
+	.round_connect ul li h5 {
+		color: #cacaca;
+		border: 1px solid #404040;
+	}
+	
+	.section.cummunicate_btm {
+		border-top: 10px solid #404040;
+	}
+	
+	.table_form .bg_gray_r {
+		background: #2c2c2c;
+		border-right: 1px solid #404040;
+	}
+	
+	.result_top .link_box {
+		border: 1px solid #404040;
+		border-width: 1px 0;
+	}
+	
+	.policy_table th, .policy_table td {
+		color: #cacaca;
+		background-color: #242424;
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+		border-left: 1px solid #404040;
+	}
+	
+	.privacy_con_list li .type_table dt {
+		background: #242424;
+		color: #cacaca;
+		border-top: 1px solid #404040;
+	}
+	
+	.text_black21 {
+		color: #fff !important;
+	}
+	
+	.policy_detail_title {
+		border-bottom: 2px solid #404040;
+		color: #fff;
+	}
+	
+	.summary_title, .support_title, .affiliate_box .btn_affiliate, .content_head .page_title, .page_tab .page_tab_item:hover, .page_tab .page_tab_item:focus, .page_tab .page_tab_item[aria-selected="true"], .page_subTab_item:hover, .page_subTab_item:focus, .page_subTab_item[aria-selected="true"], .quick_menu_item:hover, .quick_menu_item:focus, .quick_menu_item[aria-selected="true"], .history_box .history_year, .service_container .service_title, .radio_list label:hover, .radio_list input:checked+label, .content_box_right.guide_box strong, .contact .content_box_right dt, .info_list .info_list_title, .btn_text, .foundation_service_list h5, .connect_service_list h5, .list_type, .report_list .report_info_title, .news_list .news_list_title, .channel_list h4, .article_list dt, .additional_list dt, .util_box .util_item a, .stock_info_top .top_left .price, .pop .pop_title, .faq_title, .investors_table.type2.half .total, .investors_table.type2.half .total_num, .main_con .summaries dt, .sub_con h3, .sub_con h4, .sub_con .tab li a[aria-selected="true"], .section.select_year ul li.on a, .sub_con h5, .sub_con.alliance .alliance_list_box h4 a, .sub_con.alliance .sequence_text .txt_num, .input_form>dt, .sub_contact .tel_number dt, .sub_contact .contact_list li dl dt a, .service_list li .service_info dt a, .sub_con .down_link_area a, .section.ethics_list dl dt, .service_list li .service_info dt, .bg_datacenter_box .bg_datacenter dl, .value_list li dl dt a, .press_section .press_list .press_info .txt_area .list_title, .table_form thead, .table_form tfoot, .drectors_info .drectors_info_list dt, .incorporation_box .incorporation_list dt, .disclosure_top .top_link_box a, .disclosure_list>li a, .survey_info .survey_info_top .top_left, .survey_info .survey_info_top .top_right dl dt, .survey_info .survey_info_list dl dt, .table_form .txt_black, .form_caleander, .section.faq_box dl dt, .table_form .accont_bottom_sub p.autograph, .list_box h4, .privacy_view .view_title, .privacy_con_list li h6, .privacy_con_list li .type_table.type_notice .top_box, .privacy_con_list li p a.privacy_link, .content_container.detail .list_box h5, .content_container.detail .manager_box dd strong, .content_container.detail .policy_link, .content_container.detail .list_box p strong, .content_container.detail .list_box p em {
+		color: #fff;
+	}
+	
+	.news_title, .career_text, .summary_stock .stock_info_box, .gnb_menu .gnb_menu_item, .header_util .header_lang a, .support_text, .content_head .page_info, .content_box .content_box_left, .content_box .content_box_right, .history_box .history_month, .order_list .order_text, .radio_list label, .btn_link, .util_list .btn_link, .agree_box label, .channel_container.icon .channel_list h3, .unit, .investors_table.type2 .name, .investors_table.type2 .title, .stock_info_top .top_left dt, .table.stock tbody th, .table.stock tfoot td, .ir_guide, .ir_guide_list, .month p, .calendar_guide .state span, .pop .inquire_info .info_title, .content_container.settlement .investors_table .dark, .table_notice .notice_text strong, .summary_link, .main_con .summaries dd .news_header, .main_con .summaries.type_career dd a, .main_con .summaries.type_stoc dd .stoc_num, .navi_wrap .navi_depth_1 .navi_depth_low>li a, .sub_con .section.top_sec p, .sub_con .profile_list dl dt, .history_list dl dt, .sub_con .site_link, .sub_con.alliance .alliance_list_box .alliance_list>li>a, .value_list.type_connect li dl dd, .value_list li dl dt, .value_list.type_connect li dl dd a, .sub_con .section.top_sec .search_box .btn_select, .section.cummunicate_btm .communication_manu li a, .disclosure_list>li .link_box a, .result_top .link_box a, .table_form .accont_bottom p.autograph, .table_form .accont_bottom p.date_txt, .location li:last-child .location_list, .policy_info_top .policy_text, .contents_list .list, .privacy_top .privacy_lst li a, .privacy_list li a, .policy_list .policy_list_title {
+		color: #cacaca;
+	}
+	
+	.summary_container:before, .header_util .header_lang a:first-child:after, .header_util .btn_sitemap .btn_line, .support_list_box:before, .footer_menu>li:before, .page_tab li:before, .service_menu>li:before, .btn_expanded, .radio_list.tip:before, .foundation_service_list>a:before, .connect_service_list:before, .list_type:not(:first-child):before, .channel_container.icon .channel_list:last-child:before, .subscript p span:first-child:before, .stock_info_top .top_left .detail:before, .summary_stock .stock_info_box .stock_price_box:before, .footer_wrap .ft_menu li::after, .report_btn_area .btn_prev:after {
+		background-color: #404040;
+	}
+	
+	header, header:hover, header.active, .input_text.file {
+		background-color: #242424;
+	}
+	
+	.gnb_menu .gnb_dropMenu_wrap, .gnb_menu .gnb_menu_list .gnb_menu_item:before, .gnb_menu .gnb_menu_list_recruit .gnb_menu_item:before, header.active .sitemap {
+		background-color: #019341;
+	}
+	
+	.gnb_menu .gnb_menu_list_recruit:hover .gnb_menu_item.recruit:after, .gnb_menu .gnb_menu_list_recruit .gnb_menu_item:focus:after, .btn_expanded.on:after, .btn_link:after, .map, .service_link_item, .icon_prev:before, .icon_next:before, .icon_list:before, .icon_down:before, .icon_vod:before, .idc_info_list:nth-child(1) .idc_info_img:before, .idc_info_list:nth-child(2) .idc_info_img:before, .idc_info_list:nth-child(3) .idc_info_img:before, .info_img_box img, .search .btn_search:before, .btn_more:before, .pagination .pagination_prev, .pagination .pagination_next, .util_box .util_item a:before, .header_wrap .btn_menu, .navi_wrap .navi_depth_1>li>a .btn_select, .navi_wrap .navi_depth_1>li>a .btn_round_link, .sub_con.alliance .sequence_circle li .ico_arr_right, #mapContainer, .sp_ico.btn_link_goole, .sp_ico.btn_link_apple, .sp_ico.btn_link_onestore, .sp_ico.btn_link_home, .bg_datacenter_box .bg_datacenter dl dt, .bg_happy_bean, .bg_culture, .sub_con .section.top_sec .search_box .btn_select .arr_select, .sub_con .section.top_sec .search_box .ico_search {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	footer, .service_area, .select_menu .select_item:hover, .investors_table.type2 .bg_blue, .policy_info_area {
+		background-color: #2c2c2c;
+	}
+	
+	.table th, .table td, .input_text, .select_year_small a {
+		color: #cacaca;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.history_box, .investors_table td, .article, .content_container.finances .investors_table tbody tr:first-child th, .faq_list, .content_container.settlement .investors_table tbody tr:first-child th, .main_con .summaries, .history_list li, .sub_con .down_link_area, .value_list.type_connect li dl dd+dd, .sub_con .section.top_sec .search_box .search_select .btn_list li a, .form_caleander .cal_link_box, .privacy_con_list li .type_table dd, .report_btn_area {
+		border-top: 1px solid #404040;
+	}
+	
+	.order_list:before, .btn_rect, .sub_con.alliance .bottom_btn a, .btn_white {
+		border: 1px solid #404040;
+	}
+	
+	.btn_rect.color:hover, .btn_rect:hover, .gnb_menu .gnb_dropMenu .gnb_dropMenu_item, .btn_rect.v2:hover, .sitemap_list, .sitemap_list .menu_list a {
+		color: #000;
+	}
+	
+	.btn_select, .table .input_text, .search input, .content_container.finances .investors_table tbody th, .content_container.settlement .investors_table tbody th, .btn_affiliate, .input_search {
+		border-bottom: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.select_menu, .affiliate_list {
+		background-color: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.btn_file, .btn_down, .btn_rect.v2 {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.radio_list label:before, .agree_box label:before {
+		border: 2px solid #404040;
+	}
+	
+	.radio_list label:hover:before, .agree_box label:hover:before {
+		border: 2px solid #4c4c4c;
+	}
+	
+	.content_box_right.guide_box, .content_box.left_wide, .info_list, .news_list, .investors_table.type2 tbody tr:last-child td, .article.s7, .pop .inquire_info>li, .sub_con .profile_list dl, .section.select_year ul, .sub_con.alliance .alliance_list_box h4, .sub_contact .contact_list li, .service_box .box_detail, .service_list li, .section.ethics_list dl, .value_list li dl, .section.cummunicate_btm .communication_manu li, .table_form tbody tr, .drectors_info .drectors_info_list, .disclosure_list>li, .table_form.type_survey tfoot tr, .section.faq_box dl dd, .table_form .accont_bottom, .list_box, .privacy_top, .privacy_con_list li, .privacy_con_list li .type_table, .privacy_con_list li p a.privacy_link, .privacy_list li, .policy_list {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.gnb_menu .gnb_dropMenu .gnb_dropMenu_item span:before, .sitemap_list .menu_title:before, .sitemap_list .menu_list a span:before {
+		background-color: #000;
+	}
+	
+	.investors_table tfoot td, .table_form.type_survey tfoot {
+		border-top: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.article:first-child, .table tr:first-child {
+		border-top: 2px solid #404040;
+	}
+	
+	.table .br, .content_container.finances .br, .investors_table.type2.half .col2 {
+		border-right: 1px solid #404040;
+	}
+	
+	.investors_table.type2.half .col3, .sub_con .section.top_sec .search_box .search_select .btn_list li:nth-child(even), .survey_info .survey_info_top .top_right, .table_form .bl_gray {
+		border-left: 1px solid #404040;
+	}
+	
+	.service_list.main li+li::after, .navi_wrap .lang_select .select_list li::before, .sub_con .tab li::after {
+		background: #404040;
+	}
+	
+	.footer_wrap, .navi_wrap .navi_depth_1 .navi_depth_low, .table_form .bg_gray, .privacy_notice {
+		background: #2c2c2c;
+	}
+	
+	.header_wrap, .navi_wrap, .navi_wrap .navi_bottom {
+		background: #242424;
+	}
+	
+	.navi_wrap .navi_depth_1>li>a, .policy_info_top {
+		border-bottom: 1px solid #404040;
+		color: #fff;
+	}
+	
+	.sub_con.alliance .sequence_circle li, .sub_con .section.top_sec .search_box .search_select a, .select_year_small .select_list a {
+		background: #242424;
+		color: #cacaca;
+	}
+	
+	.survey_info .survey_info_top, .form_caleander .cal_week li {
+		border-top: 2px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.footer_wrap .footer_logo {
+		filter: invert(100%);
+	}
+	
+	.affiliate_box .btn_affiliate:before {
+		filter: invert(86%);
+	}
+	
+	.support_list_box a:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
 }
 
 @-moz-document url-prefix("https://search.naver.com")
@@ -5498,8 +5697,6 @@
 	}
 	
 	.article-board thead th {
-		border-top-color: #404040 !important;
-		border-bottom-color: #404040 !important;
 		color: #cacaca !important;
 		border-top: 1px solid #404040 !important;
 		border-bottom: 1px solid #404040 !important;

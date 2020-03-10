@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.17.02
+@version		1.18.07
 @namespace		Avis Studio
 ==/UserStyle== */
 
@@ -465,7 +465,7 @@
 	}
 	
 	.service .svc_npay .svc_list .point_plus .thumb, .service .svc_npay .arrow_right, .gnb_my_li .gnb_my_content .gnb_change {
-		filter: invert(100%);
+		filter: invert(100%) hue-rotate(-180deg);
 	}
 	
 	.section_svcmore .ss_btns, .section_svcmore .ss_btn_close, .section_svcmore .ss_svcbox {
@@ -721,6 +721,10 @@
 	.area_hotkeyword .list_age .age {
 		border: 1px solid #404040;
 		border-width: 1px 0 0 1px;
+	}
+	
+	.service .svc_navigation .svc_ico {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 }
 
@@ -16305,5 +16309,1364 @@
 	
 	.envmt_cont .control_box .box_area .lft_zone {
 		border-right: 1px solid #404040;
+	}
+}
+
+@-moz-document regexp("https://calendar\\.naver\\.com/(?!promotion.nhn|subscribePage.nhn).*")
+{
+	html, body, head {
+		background: #242424;
+		color: #cacaca;
+	}
+	
+	#header.h_calendar {
+		background: #2f2f2f;
+	}
+	
+	.gnb_list_box li:not(.calendar) a, .gnb_area .gnb_list_box .gnb_last .btn_more {
+		filter: invert(86%);
+	}
+	
+	.h_calendar .gnb_area .gnb_list_box .gnb_last ul {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	#container {
+		background: #242424;
+	}
+	
+	#nav_snb {
+		border-right: 1px solid #404040;
+		background: #242424 !important;
+		border-color: #404040 !important;
+	}
+	
+	.mini_calender .btn_fold .ico, .mini_calender .sp, .mini_calender .btn_prev, .mini_calender .btn_next, .calendar_category .ico, .view_othertype .ico_more {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.mini_calender .date_area .date {
+		color: #fff;
+	}
+	
+	.snb_schedule .btn_workset a span {
+		color: #242424;
+	}
+	
+	.calendar_category .all_view {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.calendar_category .mycal, .calendar_category .view_sort, .calendar_category .my_todo .category_list.share, .calendar_category .cal_tit .btn_makecal, .calendar_category .cal_tit .btn_settingcal, .calendar_category .all_view, .calendar_category .my_group, .calendar_category .nworks, .calendar_category .my_todo, .calendar_category .bn_nworks a, .calendar_category .nworks_todo, .calendar_category .view_share, .calendar_category .view_todo, .alarm_area, .bn_nworks, .view_othertype, .calendar_category .category_list li.corp_cal:after {
+		border-color: #404040 !important;
+	}
+	
+	.calendar_category {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	.calendar_category .cal_tit p a {
+		color: #cacaca;
+	}
+	
+	.calendar_category .cal_tit .btn_makecal .ico, .calendar_category .cal_tit .btn_settingalarm .ico, .calendar_category .cal_tit .btn_settingcal .ico, .calendar_category .all_view .ico_cal, .calendar_category .category_list li .show_menu, .calendar_category .view_sort li .show_menu, .calendar_category .category_list li .show_menu:hover, .calendar_category .view_sort li .show_menu:hover, li.disabled .ck_box, .ck_color_ffe3e9.ck_box, .ck_color_fae3d9.ck_box, .ck_color_fcfac1.ck_box, .ck_color_e9f1c3.ck_box, .ck_color_d9eff2.ck_box, .ck_color_ede0fa.ck_box, .ck_color_ffffff.ck_box, .ck_color_e9e9e9.ck_box, .calendar_category .view_sort .ico, .calendar_category .view_sort li .setting_cate, .calendar_category .all .ico, .calendar_category .today .ico, .calendar_category .weeks .ico, .calendar_category .important .ico, .calendar_category .complete .ico, .calendar_category .charge .ico, .calendar_category .assign .ico, .calendar_category .category_works .btn_makeworks, .view_othertype .ico_todo, .view_othertype .ico_schedule, .bn_nworks a .icon, li.selected .cl_box, .calendar_menu_layer .color_list li.disabled .cl_box, .calendar_menu_layer.cl_modify .color_list li .cl_box:hover, .calendar_menu_layer .btn_del, .calendar_menu_layer .btn_cls, .help_layer .arrow, .help_layer.tooltip_noreply .arrow {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.help_layer p {
+		background: #242424;
+		color: #cacaca;
+		border: 1px solid #404040;
+	}
+	
+	.calendar_menu_wrap {
+		border-color: #404040;
+		background: #242424;
+	}
+	
+	.calendar_menu_layer h4 {
+		border-bottom: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.calendar_menu_layer .action_list li a {
+		color: #cacaca;
+	}
+	
+	.calendar_menu_layer .action_list li a:hover {
+		background-color: #2f2f2f;
+	}
+	
+	.calendar_menu_layer .action_list {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.layer_lst2 .edit_input {
+		border: 1px solid #404040;
+		color: #cacaca;
+		background: #242424;
+	}
+	
+	.layer_lst2 .set_btn button {
+		background: #242424;
+		border-color: #404040;
+		color: #cacaca;
+	}
+	
+	.layer_lst2 .set_btn button.btn_emphasis {
+		background: #242424;
+	}
+	
+	.layer_lst2 .set_btn button:hover {
+		border-color: #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.layer_popup {
+		border-color: #404040;
+		background: #242424;
+	}
+	
+	.layer_popup .layer_content {
+		background: #242424;
+	}
+	
+	.layer_popup .layer_header h4 {
+		color: #fff;
+	}
+	
+	.layer_popup .layer_header {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.selectbox13 .selectbox-box {
+		filter: invert(86%);
+		color: #242424;
+	}
+	
+	.selectbox13 .selectbox-layer {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.selectbox-list {
+		background-color: #2f2f2f !important;
+	}
+	
+	.ly_delete_schedule .select_area {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.selectbox13 .selectbox-list ul li {
+		color: #cacaca;
+		background-color: #242424;
+	}
+	
+	.ly_delete_schedule .select_area {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.selectbox13 .selectbox-layer .selectbox-item-selected, .selectbox-layer .selectbox13 .selectbox-item-hovered {
+		background-color: #404040;
+	}
+	
+	.selectbox13 .selectbox-list ul li.selectbox-item-selected, .selectbox13 .selectbox-list ul li.selectbox-item-over {
+		background-color: #404040 !important;
+	}
+	
+	.selectbox13 .selectbox-layer .selectbox-list li {
+		color: #cacaca;
+	}
+	
+	.ly_delete_schedule .select_date {
+		color: #cacaca;
+		background: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.layer_calendar {
+		border-color: #404040;
+		background: #2f2f2f;
+	}
+	
+	.layer_calendar .ly_header .calendar-btn-prev-year, .layer_calendar .ly_header .calendar-btn-prev-mon, .layer_calendar .ly_header .calendar-btn-next-mon, .layer_calendar .ly_header .calendar-btn-next-year {
+		filter: invert(86%);
+	}
+	
+	.layer_calendar .ly_header .calendar-title {
+		color: #fff;
+	}
+	
+	.layer_calendar table td a:hover {
+		color: #cacaca;
+		background: #404040;
+	}
+	
+	.layer_calendar table .calendar-today a {
+		border-color: #404040;
+	}
+	
+	.layer_calendar .select_area {
+		border-top: 1px solid #404040;
+	}
+	
+	.layer_calendar .select_area .btn_group button {
+		background: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	#footer {
+		background: #242424;
+		border-top: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	#footer .quick_left {
+		background: #242424;
+	}
+	
+	.frame {
+		background: none;
+	}
+	
+	.monthly_calendar .week {
+		color: #cacaca;
+		border-bottom: 1px solid #404040;
+		border-top: 1px solid #404040;
+		background: #242424;
+	}
+	
+	.monthly_calendar .table_container {
+		background: #242424;
+	}
+	
+	.monthly_calendar .schedule_list {
+		color: #fff;
+	}
+	
+	.monthly_calendar .grid {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.monthly_calendar .grid td ~ td {
+		border-left: 1px solid #404040;
+	}
+	
+	.monthly_calendar .grid .today_area .outline {
+		background: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.sort_area .date_view .date {
+		color: #cacaca;
+	}
+	
+	.sort_area .date_view button {
+		filter: invert(86%);
+	}
+	
+	button {
+		color: #cacaca;
+		background: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.layer_popup .layer_footer button {
+		color: #fff;
+		border-color: #404040;
+		background: #2f2f2f;
+	}
+	
+	.sort_area .view_type button {
+		border: 1px solid #404040;
+		color: #cacaca;
+		background-color: #242424;
+	}
+	
+	.sort_area .view_type button:hover {
+		border-color: #404040;
+		background-color: #2f2f2f;
+	}
+	
+	#content_top .info_area .btn_fold {
+		background-color: #242424;
+		border: 1px solid #404040;
+	}
+	
+	#content_top .info_area .btn_fold:hover {
+		border-color: #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.search_box .search, .search_box .detail {
+		background: #242424;
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.search_box .search_btn {
+		filter: invert(86%);
+	}
+	
+	.search_box .detail:hover {
+		background: #2f2f2f;
+		border-color: #404040;
+		color: #cacaca;
+	}
+	
+	#content_top .info_area .btn_reload, .type_schedule.todo .ico, .type_schedule .ico, .btn_common .share, .calendar_name .selectbox-box.calendar_color_ffffff:after, .calendar_name .selectbox-item-over:after, .btn_sy .add_map2, .paginate .pre_end_n .spr, .paginate .pre_end .spr, .paginate .pre_n .spr, .paginate .pre .spr, .paginate .next_n .spr, .paginate .next .spr, .paginate .next_end_n .spr, .paginate .next_end .spr, .tooltip_vertical.subscribe_url .close {
+		filter: invert(86%);
+	}
+	
+	.srch_row1 label.l_tit {
+		color: #cacaca;
+	}
+	
+	.srch_row1 input {
+		color: #cacaca;
+		border: 1px solid #404040;
+		background: #242424;
+	}
+	
+	.search_area .select_wrap {
+		color: #cacaca;
+		background-color: #242424;
+	}
+	
+	.search_area .select_wrap.selectbox13 .selectbox-layer {
+		border-color: #404040;
+	}
+	
+	.srch_row2 .l_tit {
+		color: #cacaca;
+	}
+	
+	.srch_row2 input {
+		color: #cacaca;
+		border: 1px solid #404040;
+		background: #242424;
+	}
+	
+	.srch_row3 .l_tit {
+		color: #cacaca;
+	}
+	
+	.search_area .btn_srch {
+		background: #242424;
+		color: #cacaca;
+		border: 1px solid #404040;
+	}
+	
+	.search_area .btn_srch:hover {
+		background: #2f2f2f;
+		color: #cacaca;
+		border: 1px solid #404040;
+	}
+	
+	.search_area {
+		border-bottom: 1px solid #404040;
+	}
+	
+	button.type_schedule {
+		background: #242424;
+	}
+	
+	.weekly_calendar .title {
+		border-top: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.weekly_calendar .title .standard a {
+		color: #fff;
+	}
+	
+	.weekly_calendar table td {
+		border-right: 1px solid #404040;
+	}
+	
+	.weekly_calendar .title .flex_area {
+		background-color: #2f2f2f;
+	}
+	
+	.weekly_calendar .special_schedule .fix_area .time {
+		border-right: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.weekly_calendar .title .time {
+		border-right: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.weekly_calendar .special_schedule .todo, .weekly_calendar .special_schedule .anniversary, .weekly_calendar .special_schedule .allday {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.weekly_calendar .day_schedule .time {
+		border-right: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.weekly_calendar .day_schedule .set_time {
+		border-bottom: 1px solid #404040;
+		color: #cacaca;
+		background: #242424;
+	}
+	
+	.layer_set_time {
+		border-color: #404040;
+		background: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.layer_add_timezone .btn_area button, .layer_set_timezone .btn_area button, .layer_set_time .btn_area button {
+		color: #cacaca;
+		border-color: #404040;
+		background: #242424;
+	}
+	
+	.layer_add_timezone .btn_area button:hover, .layer_set_timezone .btn_area button:hover, .layer_set_time .btn_area button:hover {
+		border-color: #404040;
+		background: #2f2f2f;
+	}
+	
+	.layer_set_time h2 {
+		border-bottom: 1px solid #404040;
+		color: #fff;
+	}
+	
+	.searchLayer {
+		background: #242424;
+	}
+	
+	.searchLayer a:hover, .searchLayer a:focus, .searchLayer a.onfocus, .searchLayer .selected {
+		background: #2f2f2f;
+	}
+	
+	a {
+		color: #cacaca;
+	}
+	
+	.searchLayer a {
+		color: #cacaca;
+	}
+	
+	.layer_popup .layer_footer button:hover {
+		border-color: #404040;
+		background-color: #242424;
+	}
+	
+	.layer_popup .layer_footer button.btn_emphasis {
+		background: #242424;
+	}
+	
+	.weekly_calendar .day_schedule .time ul {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.weekly_calendar .day_schedule .time ul.over {
+		background: #242424;
+	}
+	
+	.weekly_calendar .day_schedule .time ul li {
+		color: #cacaca;
+	}
+	
+	.weekly_calendar .day_schedule .flex_area {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.grid_time_wrapper .dual, .btn_footer {
+		border-top: 1px solid #404040;
+	}
+	
+	.grid_time_wrapper .hour_cell {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.btn_common a {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	#content_top .info_area h3 {
+		color: #cacaca;
+	}
+	
+	#holder {
+		background: #242424;
+	}
+	
+	.sub_tit .btn_fold {
+		border: 1px solid #404040;
+	}
+	
+	.sub_tit h3 {
+		color: #fff;
+	}
+	
+	.schedule_body {
+		background: #242424;
+	}
+	
+	.btn_header button, .btn_footer button {
+		background-color: #242424;
+	}
+	
+	.btn_header button:hover, .btn_footer button:hover {
+		background-color: #2f2f2f;
+	}
+	
+	.btn_header button.save:hover, .btn_footer button.save:hover {
+		border-color: #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.btn_header button.save, .btn_footer button.save {
+		background-color: #242424;
+	}
+	
+	.section .article {
+		color: #fff;
+	}
+	
+	.schedule_header, .schedule_cont .section, .layer_set_timezone h2 {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.layer_add_timezone .btn_area button.btn_emphasis, .layer_set_timezone .btn_area button.btn_emphasis, .layer_set_time .btn_area button.btn_emphasis {
+		background: #2f2f2f;
+	}
+	
+	.cp_address .address_block {
+		background: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.cp_address .address_block .input_txt, .cp_address .address_block.on .input_txt {
+		color: #cacaca;
+	}
+	
+	.cp_address .add_btn a {
+		border-left: 1px solid #404040;
+	}
+	
+	.cp_body button {
+		border: 1px solid #404040;
+		color: #fff;
+		background-color: #242424;
+	}
+	
+	.cp_body button .tx {
+		color: #fff;
+	}
+	
+	.cp_ch_bor {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.cp_ch_tab li a {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cp_ch_tab li.on a {
+		background-color: #404040;
+		color: #cacaca;
+	}
+	
+	.cp_ch_area {
+		background: #2f2f2f;
+	}
+	
+	.cp_ch_top {
+		border-bottom: 1px solid #404040;
+		background: #2f2f2f;
+		border-left: 1px solid #404040;
+	}
+	
+	.cp_ch_bot {
+		border-top: 1px solid #404040;
+	}
+	
+	.cp_ch_list li {
+		border-top: 1px solid #404004;
+		border-bottom: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.cp_ch_list li.over {
+		background: #404040;
+	}
+	
+	.cp_ch_list li.no_line {
+		border-top-color: #404040;
+		border-bottom-color: #404040;
+	}
+	
+	.cp_ch_list li .name, .cp_ch_bot .cbot_right .num_p {
+		color: #cacaca;
+	}
+	
+	.cp_ch_bot .cbot_right .close_btn a {
+		border: 1px solid #404040;
+		background: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.attendant_article {
+		background: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.attendant_lst {
+		filter: invert(80%);
+	}
+	
+	.schedule_section .link_help {
+		filter: invert(86%);
+	}
+	
+	.sticker_section li {
+		border: 1px solid #404040;
+	}
+	
+	.sticker_section li.over {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.sticker_more {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.layer_add_sticker .tab button {
+		border: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+		background: #242424;
+	}
+	
+	.layer_add_sticker .tab, .layer_add_sticker .sticker_category {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.layer_popup.layer_add_sticker .layer_footer {
+		border-top: 1px solid #404040;
+	}
+	
+	.layer_add_sticker .btn_position {
+		background-color: #242424;
+		color: #cacaca;
+	}
+	
+	.layer_add_sticker .sticker_category .big_category .prev {
+		background-color: #242424;
+	}
+	
+	.layer_add_sticker .sticker_category .big_category .next {
+		background-color: #242424;
+	}
+	
+	.layer_add_sticker .sticker_category li .category1, .layer_add_sticker .sticker_category li .category2, .layer_add_sticker .sticker_category li .category3, .layer_add_sticker .sticker_category li .category4, .layer_add_sticker .sticker_category li .category5, .layer_add_sticker .sticker_category li .category6, .layer_add_sticker .sticker_category li .category7, .layer_add_sticker .sticker_category li .category8, .layer_add_sticker .sticker_category li .category9, .layer_add_sticker .sticker_category li .category10, .layer_add_sticker .sticker_category li .category11, .layer_add_sticker .sticker_category li .category12, .layer_add_sticker .sticker_category li .category13, .layer_add_sticker .sticker_category li .category14, .layer_add_sticker .sticker_category li .category15, .layer_add_sticker .sticker_category li .category1.on, .layer_add_sticker .sticker_category li .category2.on, .layer_add_sticker .sticker_category li .category3.on, .layer_add_sticker .sticker_category li .category4.on, .layer_add_sticker .sticker_category li .category5.on, .layer_add_sticker .sticker_category li .category6.on, .layer_add_sticker .sticker_category li .category7.on, .layer_add_sticker .sticker_category li .category8.on, .layer_add_sticker .sticker_category li .category9.on, .layer_add_sticker .sticker_category li .category10.on, .layer_add_sticker .sticker_category li .category11.on, .layer_add_sticker .sticker_category li .category12.on, .layer_add_sticker .sticker_category li .category13.on, .layer_add_sticker .sticker_category li .category14.on, .layer_add_sticker .sticker_category li .category15.on, .layer_add_sticker .sticker_category .big_category .prev .btn_prev:before, .layer_add_sticker .sticker_category .big_category .prev .btn_prev.on:before, .layer_add_sticker .sticker_category .big_category .prev .btn_prev.on:hover:before, .layer_add_sticker .sticker_category .big_category .next .btn_next:before, .layer_add_sticker .sticker_category .big_category .next .btn_next.on:before, .layer_add_sticker .sticker_category .big_category .next .btn_next.on:hover:before {
+		border-radius: 20px;
+	}
+	
+	.layer_add_sticker .sticker_list li button, .layer_add_sticker .sticker_list.small li button {
+		background: #242424;
+	}
+	
+	.position_select .view {
+		filter: invert(86%);
+	}
+	
+	.schedule_cont .txtbox {
+		border: 1px solid #404040;
+		background: #242424;
+		color: #cacaca;
+	}
+	
+	.schedule_cont .document .amount span {
+		color: #cacaca;
+	}
+	
+	.schedule_cont .document .doc_list {
+		border: 1px solid #404040;
+	}
+	
+	.schedule_cont .document .amount .cnt {
+		color: #cacaca;
+	}
+	
+	.schedule_cont .alarm .btn_switch {
+		color: #cacaca;
+		background: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.schedule_cont .alarm .btn_switch:hover {
+		border-color: #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.schedule_cont .alarm .add_plus .btn_sy:hover {
+		border-color: #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.schedule_cont .document .cont a:hover {
+		border-color: #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.ly_quick_wrap .ly_pop_box {
+		border-color: #404040;
+		background: #2f2f2f;
+	}
+	
+	.ly_quick_wrap .ly_pop {
+		background: #2f2f2f;
+	}
+	
+	.ly_quick_wrap h4 a, .ly_quick_lst dd {
+		color: #cacaca;
+	}
+	
+	.ly_quick_wrap .ly_header {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.ly_quick_wrap .ly_footer .btn_default.btn_emphasis {
+		background: #2f2f2f;
+	}
+	
+	.ly_quick_wrap .ly_footer button:hover {
+		border-color: #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.ly_quick_wrap .ly_footer .btn_default {
+		color: #cacaca;
+		border-color: #404040;
+		background: #2f2f2f;
+	}
+	
+	.sub_tit .btn_fold:hover {
+		border-color: #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.view_schedule .cld_thead {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.view_schedule .list_area li {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.layer_popup .layer_header2 {
+		color: #fff;
+		background: #242424;
+	}
+	
+	.weekly_calendar .special_schedule .today .grid_cell div, .today .grid_time_wrapper .grid_time {
+		background: #2f2f2f;
+	}
+	
+	.mini_calender table .calendar-today a {
+		border-color: #404040;
+	}
+	
+	.calendar_search_result .sub_tit, .view_memorialday_layer .sub_tit, .year_calendar_allviewer .sub_tit {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.view_memorialday_layer .calendar_btns {
+		border-top: 1px solid #404040;
+	}
+	
+	.view_memorialday_layer .add_memorialday input.dc {
+		color: #cacaca;
+		background: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.view_memorialday_layer .add_memorialday .datecalc_zone {
+		border: 1px solid #404040;
+	}
+	
+	.view_memorialday_layer .btn_date_calc:before {
+		filter: invert(86%);
+	}
+	
+	.date_cal_wrap .input_initial label, .date_cal_wrap .input_date .slt_date_type .selectbox-label {
+		color: #fff;
+	}
+	
+	.date_cal_wrap .input_date .slt_date_type .selectbox-box, .selectbox-layer {
+		border: 1px solid #404040;
+	}
+	
+	.input_txt {
+		border: 1px solid #404040;
+		color: #cacaca;
+		background: #242424;
+	}
+	
+	.date_cal_wrap .input_basis {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.date_cal_wrap {
+		color: #cacaca;
+		background: #2f2f2f;
+	}
+	
+	.date_cal_wrap input.text {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.date_cal_wrap .input_basis .cal_list input.text {
+		background: #242424;
+	}
+	
+	.date_cal_wrap .calculation_result {
+		border: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.date_cal_wrap .btn_area button {
+		color: #cacaca;
+		border-color: #404040;
+		background: #242424;
+	}
+	
+	.view_memorialday_layer .add_memorialday .sticker_btn {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.layer_popup .layer_header {
+		color: #cacaca;
+	}
+	
+	.view_memorialday_layer .add_memorialday .dc_5 {
+		background: #242424;
+		color: #cacaca;
+		border: 1px solid #404040;
+	}
+	
+	.view_memorialday_layer .add_memorialday .dc_8 {
+		background-color: #242424;
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.anniversary_edit .schedule_btm .schedule_btm_inner {
+		border-top: 1px solid #404040;
+	}
+	
+	.anniversary_edit .schedule_btm .schedule_btm_inner button, .anniversary_edit .schedule_btm .schedule_btm_inner button.save {
+		background-color: #2f2f2f;
+	}
+	
+	.view_memorialday_layer .calendar_btns .small {
+		background-color: #2f2f2f;
+	}
+	
+	.view_memorialday_layer .memorialday_list th {
+		background-color: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.view_memorialday_layer .memorialday_list .tx {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.view_memorialday_layer .memorialday_list table tbody tr:hover {
+		background-color: #404040;
+	}
+	
+	.view_memorialday_layer .memorialday_list td.date, .view_memorialday_layer .memorialday_list td.calendar, .view_memorialday_layer .memorialday_list td.edit a {
+		color: #cacaca;
+	}
+	
+	.paginate {
+		background: #242424;
+	}
+	
+	.paginate strong, .paginate a {
+		border: 1px solid #404040;
+	}
+	
+	.view_memorialday_layer .memorialday_list td.list_contents .ico_repeat {
+		filter: invert(86%);
+	}
+	
+	.view_memorialday_layer .memorialday_list th a {
+		filter: invert(86%);
+		color: #242424;
+	}
+	
+	.resize_scroll {
+		background: #242424;
+	}
+	
+	.calendar_setting_layer .tab_setting li.tc-selected a {
+		background: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.calendar_setting_layer .tab_setting li {
+		background: #242424;
+		border: 1px solid #404040;
+		border-bottom: 0;
+	}
+	
+	.panels {
+		background: #2f2f2f;
+	}
+	
+	.calendar_setting_layer .calendar_edit th {
+		background-color: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.calendar_setting_layer .calendar_edit {
+		border-color: #404040;
+	}
+	
+	.calendar_setting_layer .calendar_edit td {
+		border-top: 1px solid #404040;
+		border-left: 1px solid #404040;
+	}
+	
+	.calendar_setting_layer .calendar_edit .outside_set a {
+		color: #cacaca;
+	}
+	
+	.edit_calender_layer .sub_tit, .edit_calender_layer .edit_calender td {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.alarm_area .check_area label {
+		color: #fff;
+	}
+	
+	.edit_calender_layer .edit_calender textarea {
+		border: 1px solid #404040;
+		color: #cacaca;
+		background: #242424;
+	}
+	
+	.btn_sy {
+		border: 1px solid #404040;
+	}
+	
+	.alarm_area .btn_switch {
+		background: #242424;
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.alarm_area .detail_area .btn_switch {
+		color: #cacaca;
+		background-color: #242424;
+	}
+	
+	.alarm_area .detail_area .btn_switch:not(.on):hover {
+		border-color: #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.edit_calender_layer .sec_invite .adress_list ul {
+		border: 1px solid #404040;
+	}
+	
+	.edit_calender_layer .calendar_btns .normal+.normal {
+		background: #2f2f2f;
+	}
+	
+	.calendar_setting_layer .set_alarm {
+		border: 1px solid #404040;
+		border-width: 1px 0;
+	}
+	
+	.calendar_setting_layer .set_alarm .alarm {
+		border-left: 1px solid #404040;
+	}
+	
+	.calendar_setting_layer .set_alarm .txt_area {
+		color: #cacaca;
+	}
+	
+	.calendar_setting_layer .set_alarm .btn_area .btn_switch.on {
+		color: #242424;
+	}
+	
+	.calendar_setting_layer .calendar_edit .alarm_edit {
+		background: #242424;
+	}
+	
+	.calendar_setting_layer .set_alarm .btn_area .btn_switch {
+		background: #404040;
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.cmn_promotion_image {
+		border-bottom: 1px solid #404040;
+		border-radius: 10px;
+		margin: 10px;
+	}
+	
+	.weekly_calendar, .monthly_calendar {
+		top: 17px;
+	}
+	
+	.list_calendar {
+		margin-top: 17px;
+	}
+	
+	.view_schedule .list_area {
+		margin-top: 17px;
+	}
+	
+	#content_top {
+		height: 0px;
+	}
+	
+	.edit_calender_layer .edit_calender th {
+		border-bottom: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.calendar_setting_layer .tab_setting {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.calendar_setting_layer .common_edit th {
+		color: #fff;
+	}
+	
+	.calendar_setting_layer .common_edit {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.calendar_setting_layer .common_edit th .link_help, .calendar_setting_layer .common_edit .select_list li .link_help, .calendar_setting_layer .key_guide .classify .func1, .calendar_setting_layer .key_guide .classify .func2, .calendar_setting_layer .key_guide .classify .func3, .calendar_setting_layer .key_guide .classify .func4, .calendar_setting_layer .key_guide .classify .func5, .calendar_setting_layer .key_guide .classify .func6, .calendar_setting_layer .key_guide .classify .func7, .calendar_setting_layer .key_guide .classify .func_m, .calendar_setting_layer .key_guide .classify .func_n, .calendar_setting_layer .key_guide .classify .func_s, .calendar_setting_layer .key_guide .classify .func_o, .calendar_setting_layer .key_guide .classify .func_p, .calendar_setting_layer .key_guide .classify .func_q, .calendar_setting_layer .key_guide .classify .func_t, .calendar_setting_layer .key_guide .classify .func_w, .calendar_setting_layer .key_guide .classify .func_z, .calendar_setting_layer .key_guide .classify .func_shift, .calendar_setting_layer .key_guide .classify .func_ctrl, .calendar_setting_layer .calendar_edit td.setorder .btn_up_end, .calendar_setting_layer .calendar_edit td.setorder .btn_up, .calendar_setting_layer .calendar_edit td.setorder .btn_down, .calendar_setting_layer .calendar_edit td.setorder .btn_down_end, .calendar_setting_layer .set_alarm .pc .thmb, .calendar_setting_layer .set_alarm .mail .thmb, .calendar_setting_layer .set_alarm .app .thmb {
+		filter: invert(86%);
+	}
+	
+	.calendar_setting_layer .key_guide .key_wrap {
+		background: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.calendar_setting_layer .key_guide .key_list .tit, .calendar_setting_layer .key_guide .classify li {
+		color: #cacaca;
+	}
+	
+	.calendar_setting_layer .key_guide .key_list .row2 {
+		border-left: 1px solid #404040;
+		border-right: 1px solid #404040;
+	}
+	
+	.calendar_setting_layer .calendar_btns .normal:first-child {
+		background: #2f2f2f;
+	}
+	
+	.calendar_setting_layer .calendar_btns .normal {
+		background: #2f2f2f;
+		border-color: #404040;
+		color: #cacaca;
+	}
+	
+	.calendar_setting_layer .key_guide .alert .tip {
+		color: #2f2f2f;
+	}
+	
+	.calendar_setting_layer .key_guide .alert {
+		color: #cacaca;
+	}
+	
+	.view_memorialday_layer .memorialday_list td.start_day {
+		color: #cacaca;
+	}
+	
+	.view_memorialday_layer .memorialday_list td {
+		border-top: 1px solid #404040;
+		border-right: 1px solid #404040;
+	}
+	
+	.view_memorialday_layer .memorialday_list .date {
+		border-right: 1px solid #404040;
+	}
+	
+	.date_cal_wrap .btn_area button:hover {
+		border-color: #404040;
+		background: #2f2f2f;
+	}
+	
+	.period_edit_layer li label {
+		color: #cacaca;
+	}
+	
+	.period_edit_layer .layer_footer {
+		background: #242424;
+	}
+	
+	.view_schedule .list_area .list_content a {
+		color: #242424;
+	}
+	
+	.layer_add_sticker .tab button.on {
+		background: #2f2f2f;
+	}
+	
+	.cp_ch_list_area, .cp_ch_bot {
+		border-left: 1px solid #404040;
+	}
+	
+	.schedule_cont .input_txt {
+		border: 1px solid #404040;
+		background: #242424;
+		color: #cacaca;
+	}
+	
+	.section .pos_input {
+		border: 1px solid #404040;
+	}
+	
+	.section .article .btn_sy {
+		background-color: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.schedule_cont .place .btn_sy:hover {
+		border-color: #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.layer_set_timezone {
+		border-color: #404040;
+		background: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.skin_set_wrap {
+		border-color: #404040;
+		background: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.skin_set_wrap .skin_title {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.skin_set_wrap .sk_list_area li a {
+		color: #cacaca;
+	}
+	
+	.skin_set_wrap .sk_list_area li {
+		border: 1px solid #404040;
+	}
+	
+	.skin_set_wrap button strong {
+		background: #2f2f2f;
+	}
+	
+	.skin_set_wrap button {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.skin_set_wrap .btn_cls {
+		filter: invert(81.5%);
+	}
+	
+	.skin_set_wrap .skin_p {
+		color: #cacaca;
+	}
+	
+	/* User Profile CSS */
+	
+	.gnb_notice_li .svc_panel, .gnb_notice_li .svc_scroll {
+		background: #2f2f2f;
+	}
+	
+	.gnb_notice_li .svc_head {
+		background: #2f2f2f;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.gnb_notice_li .gnb_notice_lyr, .gnb_my_lyr {
+		background: none;
+	}
+	
+	a.gnb_my .gnb_name {
+		color: #cacaca;
+	}
+	
+	.gnb_notice_li .svc_head .task_right {
+		filter: invert(86%);
+	}
+	
+	.gnb_notice_li .svc_list li {
+		border-top: 1px solid #404040;
+	}
+	
+	.gnb_ly_alert {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.gnb_notice_li .gnb_notice_all {
+		border-top: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.gnb_my_li .gnb_my_content {
+		background: #2f2f2f;
+	}
+	
+	.gnb_my_li .gnb_my_content .gnb_img_area img {
+		border-radius: 50%;
+		-moz-border-radius: 50%;
+		-webkit-border-radius: 50%;
+	}
+	
+	.gnb_my_li .gnb_my_content .gnb_mask {
+		background: none;
+	}
+	
+	.gnb_my_li .gnb_my_content .gnb_name, #gnb a:hover, #gnb a {
+		color: #cacaca;
+	}
+	
+	.gnb_bg {
+		background: none;
+	}
+	
+	.gnb_txt {
+		background: #404040;
+	}
+	
+	#gnb {
+		color: #cacaca;
+	}
+	
+	#gnb a, #gnb a:visited {
+		color: #cacaca;
+	}
+	
+	#gnb #gnb_my_lyr_iframe {
+		width: 100% !important;
+	}
+	
+	#gnb .gnb_my_li .gnb_my_community a {
+		background-color: #2f2f2f;
+		border-top: 1px solid #404040;
+		border-right: 1px solid #404040;
+	}
+	
+	#gnb .gnb_my_li .gnb_my_community a.gnb_pay span {
+		background-image: url(https://ssl.pstatic.net/static/cafe/homepc/sprite/sp_home_a09f1fce.svg), none;
+		background-repeat: no-repeat;
+		background-position: -4px -4px;
+		width: 11px;
+		height: 20px;
+		position: absolute;
+		top: -4px;
+		left: 35px;
+	}
+	
+	#gnb .gnb_my_li .gnb_my_community a.gnb_pay span:after {
+		position: absolute;
+		content: 'Pay';
+		color: #cacaca;
+		font-size: 14px;
+		margin-top: 11px;
+		left: 13px;
+		letter-spacing: 1px;
+	}
+	
+	.gnb_lst .ico_arrow {
+		filter: invert(82%);
+	}
+	
+	a.gnb_my .ico_arrow {
+		top: 26px;
+	}
+	
+	.gnb_favorite_area, .gnb_search_area {
+		background: none;
+	}
+	
+	.gnb_favorite_lstwrp {
+		background: #2f2f2f;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.gnb_service_li .ico_arrow {
+		z-index: 99;
+		top: 28px;
+	}
+	
+	.gnb_search_area {
+		margin: 0 4px 0;
+		padding: 18px 0 17px;
+		background: #2f2f2f;
+	}
+	
+	.gnb_search_lstwrp .gnb_search_lst {
+		border-left: 1px solid #404040;
+	}
+	
+	.gnb_banner {
+		padding: 0;
+		margin: 0 4px;
+		background: none;
+		background-color: #2f2f2f;
+	}
+	
+	.gnb_banner .gnb_service_event {
+		width: 100%;
+		filter: invert(82%);
+	}
+	
+	.gnb_linkwrp {
+		background: none;
+	}
+	
+	.gnb_linkwrp a {
+		background: #2f2f2f;
+	}
+	
+	a.gnb_service_all {
+		border-top: 1px solid #404040;
+	}
+	
+	.gnb_pop_input .gnb_pop_lst li a {
+		color: #444 !important;
+	}
+	
+	#gnb_promo {
+		margin: 0 18px;
+	}
+	
+	.gnb_search_lstwrp {
+		padding-left: 3px;
+	}
+	
+	.gnb_favorite_lst .gnb_add a span.ic_add, .gnb_search_box {
+		filter: invert(86%);
+	}
+	
+	#gnb .gnb_my_interface {
+		filter: invert(82%);
 	}
 }

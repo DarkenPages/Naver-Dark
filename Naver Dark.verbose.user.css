@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.19.01
+@version		1.19.05
 @namespace		Avis Studio
 ==/UserStyle== */
 
@@ -3260,7 +3260,7 @@
 	}
 	
 	.cs_v_con_side .v_guide_info_bx .guide_txt .btn_app_install, .cs_v_con_side .video_detail_info .ico, .cs_v_con_side .v_guide_info_bx .guide_txt ul {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.api_paging_bx a[class^=btn_page_], .api_paging_bx span[class^=btn_page_] {
@@ -3269,7 +3269,7 @@
 	}
 	
 	.section_more + a img {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	#lnb .lnb_menu .bt_option {
@@ -3281,7 +3281,7 @@
 	}
 	
 	.greenmap .correct_wrap .row dd .ico_addr_o {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.greenmap .btn_map_area .btn {
@@ -3289,7 +3289,7 @@
 	}
 	
 	.map_opn {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.gnb_notice_li .svc_panel, .gnb_notice_li .svc_scroll {
@@ -3310,7 +3310,7 @@
 	}
 	
 	.gnb_notice_li .svc_head .task_right {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.gnb_notice_li .svc_list li {
@@ -4436,10 +4436,6 @@
 		color: #fff;
 	}
 	
-	#sub_pack a img {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
 	.cs_holiday .holiday_box {
 		border: 3px solid #404040;
 	}
@@ -4459,6 +4455,177 @@
 	
 	.cs_holiday .holiday_box .holi_thmb img {
 		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.nx_place .sc_box.default {
+		border: 1px solid #404040;
+		border-top-width: 0;
+	}
+	
+	.nx_place .api_more_wrap .api_more_theme {
+		border: 1px solid #404040;
+		background: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.nx_place .api_more_wrap .api_more_icon_inner {
+		color: #242424;
+		border: 1px solid #019341;
+		background: #019341;
+	}
+	
+	.nx_place .api_more_wrap .icon_more {
+		filter: invert(86%);
+	}
+	
+	.nx_place .top_photo_area+.ct_box_area {
+		border: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.nx_place .biz_name_area {
+		background: #242424;
+	}
+	
+	.nx_place .func_btn_area .list_func_btn {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.nx_place .biz_name_area .biz_name {
+		color: #fff;
+	}
+	
+	.nx_place .biz_name_area .review, .nx_place .list_bizinfo .list_address .link, .nx_place .list_bizinfo .list_menu li.view_image .link {
+		color: #576882;
+	}
+	
+	.nx_place .list_bizinfo .biztime_area .time.highlight::after, .nx_place .list_bizinfo .biztime_area .desc.highlight::after {
+		background: #404040;
+	}
+	
+	.nx_place .list_bizinfo .list_menu .menu, .nx_place .list_bizinfo .list_menu .price {
+		background: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.nx_place .list_bizinfo .btn_info .icon {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.nx_place .list_bizinfo .list_menu .photo_count svg path{
+		fill: #576882;
+	}
+	
+	.nx_place .list_bizinfo .biztime_area {
+		color: #cacaca;
+	}
+	
+	.nx_place .func_btn_area .list_func_btn .list_item+.list_item::before {
+		background: #404040;
+	}
+	
+	.nx_place .list_bizinfo .txt {
+		color: #cacaca;
+	}
+	
+	.nx_place .list_bizinfo .label_address {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.nx_place .list_bizinfo .ly_info {
+		background: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.nx_place .list_bizinfo .ly_info::before {
+		border: 1px solid #404040;
+	}
+	
+	.nx_place .list_bizinfo .ly_info .txt {
+		color: #cacaca;
+	}
+	
+	.nx_place .list_bizinfo .ly_info .link {
+		color: #576882;
+	}
+	
+	.nx_place .list_bizinfo .ly_info::after {
+		border-right: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+		background: #242424;
+	}
+	
+	.nx_place .sc_box.contact {
+		border: 1px solid #404040;
+	}
+	
+	.nx_place .transport_area .link {
+		color: #576882;
+	}
+	
+	.nx_place .transport_area .list_station, .nx_place .transport_area .walk_info .info, .nx_place .datalab_area .list_theme .txt {
+		color: #cacaca;
+	}
+	
+	.nx_place .api_c3p_datalab .c3-ygrids line, .nx_place .api_c3p_datalab .c3-axis-x path, .nx_place .api_c3p_datalab .c3-chart-arcs .c3-arc, .nx_place .api_c3p_datalab .c3-chart-arcs .c3-arc {
+		stroke: #404040 !important;
+	}
+	
+	.nx_place .api_c3p_datalab .datalab-max-point .txt {
+		background-color: #242424;
+	}
+	
+	.nx_place .datalab_area .indicator_datalab .btn.active {
+		color: #fff;
+	}
+	
+	.nx_place .datalab_area .bar_chart .list_vertical_bar .bar {
+		border: 1px solid #404040;
+		background: #404040;
+	}
+	
+	.nx_place .datalab_area .chart_area_wrapper .btn_area .btn {
+		border: 1px solid #404040;
+	}
+	
+	.nx_place .datalab_area h3.datalab .icon_datalab {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.nx_place .datalab_area h4 {
+		color: #fff;
+	}
+	
+	.nx_place .transport_area .walk_info .inner {
+		background: #242424;
+	}
+	
+	.nx_place .list_card .info_area {
+		border: 1px solid #404040;
+		border-top-width: 0;
+	}
+	
+	.nx_place .list_card .name {
+		color: #576882;
+	}
+	
+	.nx_place .list_card .txt {
+		color: #cacaca;
+	}
+	
+	.nx_place .indicator .btn_direction {
+		border: 1px solid #404040;
+	}
+	
+	.api_datalab_wrap .line_graph_wrap .api_c3p_datalab .datalab-min-point .txt:before, .spcm, .sprenew, .nx_place .transport_area .ic_line, .nx_place .transport_area .fp_bus {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.nx_place .transport_area .walk_info .exit {
+		color: #cacaca;
 	}
 }
 
@@ -5626,7 +5793,7 @@
 	.pop_btn a, .bx1 a img, .pers_file .btns { filter: invert(86%); }
 }
 
-@-moz-document url-prefix("https://cafe.naver.com")
+@-moz-document url-prefix("https://cafe.naver.com"), url-prefix("cafe.naver.com")
 {
 	html, head {
 		background: #242424;
@@ -8108,7 +8275,7 @@
 	}
 	
 	.vote_main .list_h_2 .line_l table {
-		filter: invert(100%);
+		filter: invert(100%) hue-rotate(-180deg);
 	}
 	
 	.tem1 .vote_bot2 {

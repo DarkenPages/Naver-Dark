@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         NAVER Dark Mode
+// @name         Dark mode for NAVER
 // @namespace    naverdark
 // @version      1.0.15
-// @description  Incredibly gorgeous productivity style for NAVER. Requires other UserCSS extension to apply UserCSS immediately.
+// @description  Seamless and gorgeous Dark mode for NAVER
 // @author       OrigamiDream
 // @downloadURL  https://raw.githubusercontent.com/DarkenPages/Naver-Dark/master/Naver%20Dark.user.js
 // @updateURL    https://raw.githubusercontent.com/DarkenPages/Naver-Dark/master/Naver%20Dark.user.js

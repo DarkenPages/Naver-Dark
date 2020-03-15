@@ -4,8 +4,8 @@
 // @version      1.0.15
 // @description  Incredibly gorgeous productivity style for NAVER. Requires other UserCSS extension to apply UserCSS immediately.
 // @author       OrigamiDream
-// @downloadURL  https://github.com/DarkenPages/Naver-Dark/raw/master/Naver%20Dark.user.js
-// @updateURL    https://github.com/DarkenPages/Naver-Dark/raw/master/Naver%20Dark.user.js
+// @downloadURL  https://raw.githubusercontent.com/DarkenPages/Naver-Dark/master/Naver%20Dark.user.js
+// @updateURL    https://raw.githubusercontent.com/DarkenPages/Naver-Dark/master/Naver%20Dark.user.js
 // homepageURL   https://github.com/DarkenPages/Naver-Dark
 // @include      *
 // @grant        none

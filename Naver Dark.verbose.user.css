@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.19.05
+@version		1.19.06
 @namespace		Avis Studio
 ==/UserStyle== */
 
@@ -5238,7 +5238,11 @@
 	}
 	
 	.user_mycafe_thumb .link:after, .autocomplete_area .func, .snb_area .snb_inner h1, .srch_container .icon_manager, .srch_container .icon_dormancy, .srch_container .icon-powercafe, .srch_container .icon-official, .srch_container .icon-wiu, .srch_container .icon-star, .srch_container .icon-star-txt, .common_icon_box .icon_manager, .common_icon_box .icon_dormancy, .common_icon_box .icon-wiu, .common_icon_box .icon-star, .common_icon_box .icon-star-txt, .common_title .btn_title_more:after, .common_btn_side .btn_side_prev, .common_btn_side .btn_side_prev:disabled, .common_btn_side .btn_side_next, .common_btn_side .btn_side_next:disabled, .common_btn_form button.add:before, .check_box input+label:before, .check_box input:checked+label:before, .common_scroll_box .btn.btn_scroll_prev:before, .common_scroll_box .btn.btn_scroll_next:before, .common_list .list_info .level.up:before, .common_list .list_info .level.down:before, .common_page .btn_page_prev:before, .common_page .btn_page_next:after, .common_category .btn_category:after, .common_select .btn_select:after, .common_notice_layer .icon_notice, .aside .user_info .user_count .storage:before, .aside .user_info .user_count .note:before, .aside .cafe_make .btn_cafe_make:before, .aside .notice .notice_more:after, .aside .link_more .link_cafe:before, .aside .link_more .link_report:before, .home_editors_title .btn_editors_more:after, .home_user .btn_mycafe_more:after, .home_user_mycafe .btn_mycafe_edit:before, .user_mycafe_box .btn_mycafe_user:after, .user_mycafe_info .user_mycafe_new:before, .user_feed_info .movie_img .icon_video, .ranking_list .cafe_thumb:after, .ranking_list .cell_level .level.up:before, .ranking_list .cell_level .level.down:before, .pop_ranking .info_list .icon.writing:before, .pop_ranking .info_list .icon.search:before, .pop_ranking .info_list .icon.member:before, .pop_ranking .info_list .icon.app:before, .mycafe_group .group .group_open .btn_open, .mycafe_group .group .group_open .btn_close, .mycafe_list tr.drag .drag_tip:before, .mycafe_list .member_no:before, .mycafe_list .my_article:after, .mycafe_list .view_text:before, .mycafe_list .bookmark_cafe, .mycafe_list .bookmark_cafe[aria-pressed="true"], .mycafe_manage .noti:before, .mycafe_manage .btn_all.close:after, .mycafe_manage .btn_all.open:after, .mycafe_btns .btn_reset:before, .lnb>li.mynews.on .lnb_link .txt:before, .user_feed_option .option_btn:before, .cc_layer_mynews .cc_mynews_list .cc_mynews_notice .icon_option, .cc_layer_mynews .cc_mynews_list .cc_mynews_notice .btn_close:before, .cc_layer_mynews .cc_mynews_list .info_top .count:before, .cc_layer_mynews .cc_mynews_option_btn:before, .cc_layer_dimmed .layer_wrap .btn_layer_close:before, .cc_layer_dimmed .radio_box.type_green input[type="radio"]:checked+label:before, .content_terms .terms_pic, #footer address a img, .cafe_banner .banner a img, .sp_rep, .section_rep h2.main_tit, .section_rep p.txt_honor, .article_crit .crit_title, .article_crit .sp_rep.txt, .snb_search_box .ico_search, .snb_search_box .search_option a .ic_down, .snb_search_box .search_option a .ic_up, .snb_search_box .btn_arrow span, .terms_option_box .terms_option .ic_down, .section_create .cafe_input td .txt strong, .section_create .cafe_input td .note, .section_create .cafe_input th .stit, .section_create .cafe_input td .txt_commerce, .section_create .cafe_input td .input_txt, .section_create .cafe_input td .btn_srch, .section_create .cafe_input td .txt em, .section_create .cafe_input td .captcha_area img, .pop_ranking .graph_area:before {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.common_box_tab .tab_list .on .btn_tab {
+		color: #242424;
 	}
 	
 	.common_box_tab .tab_list .btn_tab, .common_btn_side .link_side_all {

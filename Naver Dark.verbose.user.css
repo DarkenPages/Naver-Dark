@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.19.12
+@version		1.19.21
 @namespace		Avis Studio
 ==/UserStyle== */
 
@@ -905,8 +905,22 @@
 		color: #cacaca;
 	}
 	
-	.ico_mail, .btn_fold .ico, .task_btn .subSet .refresh, .task_btn .mode_list, .task_btn .mode_hor, .task_btn .mode_ver, .paginate a.pre_end, .paginate a.pre_end_n, .paginate a.pre, .paginate a.pre_n, .paginate a.next, .paginate a.next_n, .paginate a.next_end, .paginate a.next_end_n, .ico_window, .ico_send, null, .skin_set_wrap .sk_list_area li, .skin_set_wrap .sk_list_area li .sk_view, .skin_set_wrap .btn_cls, .skin_set_wrap .sk_list_area li .white, select, .note_setup .ico_list1, .note_setup .ico_list2, .note_setup .ico_list3 {
-		filter: invert(86%);
+	.ico_mail, .btn_fold .ico, .task_btn .subSet .refresh, .task_btn .mode_list, .task_btn .mode_hor, .task_btn .mode_ver, .paginate a.pre_end, .paginate a.pre_end_n, .paginate a.pre, .paginate a.pre_n, .paginate a.next, .paginate a.next_n, .paginate a.next_end, .paginate a.next_end_n, .ico_window, .ico_send, null, .skin_set_wrap .sk_list_area li, .skin_set_wrap .sk_list_area li .sk_view, .skin_set_wrap .btn_cls, .skin_set_wrap .sk_list_area li .white, .note_setup .ico_list1, .note_setup .ico_list2, .note_setup .ico_list3 {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	select {
+		background: #242424;
+		color: #cacaca;
+		border: 1px solid #404040;
+	}
+	
+	.content_header .msearch select, .task_btn .subSet select, .notelist_head li, .notelist .note_info .date, .notelist .note_info .refuse, .notelist .note_info .date_send {
+		color: #cacaca;
+	}
+	
+	.note_read .msg_contents a {
+		color: #576882;
 	}
 	
 	.svc_menu_area .list_menu, .svc_menu_area .list_menu, .btn_workset, .btn_workset, .svc_menu_area, .svc_menu_area, .h_lft_menu, .h_lft_menu .btn_setup, .h_lft_menu .btn_add, .section_etcmail, .section_typemail, .bn_nworks, .section_skinset, .content_header, .btn_fold, .section_detail_srch, .searchkey_result, .svc_menu_area .list_menu, .h_lft_menu, .h_lft_menu .btn_setup, .h_lft_menu .btn_add, .section_etcmail, .section_typemail, .bn_nworks, .section_skinset, .content_header, .btn_fold, .section_detail_srch, .searchkey_result, .svc_menu_area .list_menu {
@@ -965,7 +979,7 @@
 	}
 	
 	.gnb_list_box li:not(.note) a {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	/* User Profile CSS */
@@ -988,7 +1002,7 @@
 	}
 	
 	.gnb_notice_li .svc_head .task_right {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.gnb_notice_li .svc_list li {
@@ -1111,7 +1125,7 @@
 	
 	.gnb_banner .gnb_service_event {
 		width: 100%;
-		filter: invert(82%);
+		filter: invert(82%) hue-rotate(-180deg);
 	}
 	
 	.gnb_linkwrp {
@@ -1139,11 +1153,19 @@
 	}
 	
 	.gnb_favorite_lst .gnb_add a span.ic_add, .gnb_search_box {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	#gnb .gnb_my_interface {
-		filter: invert(82%);
+		filter: invert(82%) hue-rotate(-180deg);
+	}
+	
+	.notelist .note_type span, .note_read .info .t_ico, .ico_report {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.note_read .info dd {
+		color: #fff;
 	}
 }
 
@@ -1493,8 +1515,39 @@
 		background: #242424 !important;
 	}
 	
-	.gnb_area .gnb_list_box .gnb_last .btn_more, a.btn_change_layout.view_split_hor .spr, a.btn_change_layout.view_split_ver .spr, a.btn_change_type.view_conversation .spr, #nav_snb .foldup .ico_fold, #nav_snb .ico_fold, .icoImportantOff, .attach_card_head .read .yes, .cv_card .read .yes, .cv_card.autoSpread .read .yes, .mailList .read .yes, .mailList .expand button.close, .mailList .expand button.open, .mailListBtn .buttonSet button.sendto .ic_send, .mailListBtn .buttonSet .disabled .buDel, .mailListBtn .buttonSet button[disabled=disabled] .buDel, .mailListBtn .buttonSet .buDel, a.btn_refresh, a.btn_change_type.view_timeline .spr, a.btn_change_layout.view_list .spr, .color-picker .cls_layer:hover, .dh_layer .hTitle .lClose:hover, .dh_layer .ly_alert .btn_layer_close:hover, .dh_layer .type_c .lClose:hover, .dh_layer button.btn_close:hover, .ly_classify .btn_layer_close:hover, .ly_tooltip .btn_layer_close:hover, .notice_layer .hTitle .lClose:hover, .setup_layer .btn_close:hover, .skin_set_wrap .btn_cls:hover, .tooltipLayer2 .t1Con .btn_close:hover, .tp_layer .tl_con .btn_close:hover, .type_alert .btn_close:hover, div.viewTitle .icoVipOff, div.viewTitle dl dt .viewMoreOff, div.viewTitle dl dt .viewMoreOn, div.mInput_holder .btn_recentaddr a img, div.mInput_holder .btn_recentaddr a:hover img, .mailWriteItem .private .btn_help, table.mailWriteItem .sClose, table.mailWriteItem .sOpen, div.mailListBtn .layoutSelectText .button_s2 .ico_arrow, div.mailListBtn .layoutSelectText .button_s2 .ico_win, div.mailListBtn .layoutSelectText .button_s2 .ico_setting_write, .icon_attach, #smart_editor2 .se2_conversion_mode, #smart_editor2 .se2_text_tool, #smart_editor2 .se2_reck, #smart_editor2 .se2_ckfin, .pop_reserve .input_area select, .cp_save_list li .imp, .cp_address_save .btn_c .ico, select, .list_mode_select .list_mode_normal, .list_mode_select .list_mode_hor, .list_mode_select .list_mode_ver, .icon_preview, .setup_layer .folder_preview, .setup_layer .list_preview, .setup_layer .newmail_preview1, .setup_layer .newmail_preview2, ul.form_ul1 .form_content #trash_period, #outbox_period, .ly_classify .filter_address .btn_toggle, .form_ul1 .form_content .icon_tip, .tooltip_cover .tooltip_arrow_bottom, a.btn_change_type.view_sender .spr, .attach_card_body .btn_savepc, .attfile_area .file_list .btn_savepc, .attfile_area .attfile_toggle, div.relMails .relBox .help, .attach_card_head .read .admin, .cv_card .read .admin, .cv_card.autoSpread .read .admin, .mailList .read .admin, div.nav_endless .ico_view_top, .attach_card_head .read .re, .cv_card .read .re, .cv_card.autoSpread .read .re, .mailList .read .re {
+	.gnb_area .gnb_list_box .gnb_last .btn_more, a.btn_change_layout.view_split_hor .spr, a.btn_change_layout.view_split_ver .spr, a.btn_change_type.view_conversation .spr, #nav_snb .foldup .ico_fold, #nav_snb .ico_fold, .icoImportantOff, .attach_card_head .read .yes, .cv_card .read .yes, .cv_card.autoSpread .read .yes, .mailList .read .yes, .mailList .expand button.close, .mailList .expand button.open, .mailListBtn .buttonSet button.sendto .ic_send, .mailListBtn .buttonSet .disabled .buDel, .mailListBtn .buttonSet button[disabled=disabled] .buDel, .mailListBtn .buttonSet .buDel, a.btn_refresh, a.btn_change_type.view_timeline .spr, a.btn_change_layout.view_list .spr, .color-picker .cls_layer:hover, .dh_layer .hTitle .lClose:hover, .dh_layer .ly_alert .btn_layer_close:hover, .dh_layer .type_c .lClose:hover, .dh_layer button.btn_close:hover, .ly_classify .btn_layer_close:hover, .ly_tooltip .btn_layer_close:hover, .notice_layer .hTitle .lClose:hover, .setup_layer .btn_close:hover, .skin_set_wrap .btn_cls:hover, .tooltipLayer2 .t1Con .btn_close:hover, .tp_layer .tl_con .btn_close:hover, .type_alert .btn_close:hover, div.viewTitle .icoVipOff, div.mInput_holder .btn_recentaddr a img, div.mInput_holder .btn_recentaddr a:hover img, .mailWriteItem .private .btn_help, table.mailWriteItem .sClose, table.mailWriteItem .sOpen, div.mailListBtn .layoutSelectText .button_s2 .ico_arrow, div.mailListBtn .layoutSelectText .button_s2 .ico_win, div.mailListBtn .layoutSelectText .button_s2 .ico_setting_write, .icon_attach, #smart_editor2 .se2_conversion_mode, #smart_editor2 .se2_text_tool, #smart_editor2 .se2_reck, #smart_editor2 .se2_ckfin, .pop_reserve .input_area select, .cp_save_list li .imp, .cp_address_save .btn_c .ico, select, .list_mode_select .list_mode_normal, .list_mode_select .list_mode_hor, .list_mode_select .list_mode_ver, .icon_preview, .setup_layer .folder_preview, .setup_layer .list_preview, .setup_layer .newmail_preview1, .setup_layer .newmail_preview2, ul.form_ul1 .form_content #trash_period, #outbox_period, .ly_classify .filter_address .btn_toggle, .form_ul1 .form_content .icon_tip, .tooltip_cover .tooltip_arrow_bottom, a.btn_change_type.view_sender .spr, .attach_card_body .btn_savepc, .attfile_area .file_list .btn_savepc, .attfile_area .attfile_toggle, div.relMails .relBox .help, .attach_card_head .read .admin, .cv_card .read .admin, .cv_card.autoSpread .read .admin, .mailList .read .admin, div.nav_endless .ico_view_top, .attach_card_head .read .re, .cv_card .read .re, .cv_card.autoSpread .read .re, .mailList .read .re {
 		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	div.viewTitle dl dt .viewMoreOn {
+		filter: invert(86%) hue-rotate(-180deg);
+		background-position: -481px -114px;
+		width: 15px;
+		height: 15px;
+	}
+	
+	div.viewTitle dl dt .viewMoreOff {
+		filter: invert(86%) hue-rotate(-180deg);
+		background-position: -504px -1px;
+		width: 15px;
+		height: 15px;
+	}
+	
+	.attfile_area .virus {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.attfile_area {
+		margin-bottom: 30px;
+	}
+	
+	#nav_snb h3.h_lft_menu {
+		color: #cacaca;
+	}
+	
+	.toTop {
+		background: #fff;
+		padding-bottom: 10px;
 	}
 	
 	.gnb_area .gnb_list_box .gnb_last ul, .h_mail .gnb_area .gnb_list_box .gnb_last ul, .h_mail_lite .gnb_area .gnb_list_box .gnb_last ul, div.divWrite .mailWriteItem .utx_btn, .setup_lnb .menu_list li {
@@ -1571,8 +1624,13 @@
 		background: transparent;
 	}
 	
-	.faq_exam_list .category, #readFrame, .mail_preview .preview_area .pre_body, .readFrame, .upld_flist .attach_type, .upld_flist .down_period, .upld_flist .file_name, .upld_flist .file_select, .upld_flist .file_size, .upld_flist .status, .mail_preview .preview_area .pre_header h4.pre_tit, .divList .nom, .cp_save_list li .name input, .form_ul1 .form_title, .setup_content .m_noti .tx strong, .dh_layer .type_b .view_more a, .dh_layer .type_c .view_more a, .attach_card_head .name a, .divList.grp_sender .infor_sender li.sender a {
+	.faq_exam_list .category, .mail_preview .preview_area .pre_body, .readFrame, .upld_flist .attach_type, .upld_flist .down_period, .upld_flist .file_name, .upld_flist .file_select, .upld_flist .file_size, .upld_flist .status, .mail_preview .preview_area .pre_header h4.pre_tit, .divList .nom, .cp_save_list li .name input, .form_ul1 .form_title, .setup_content .m_noti .tx strong, .dh_layer .type_b .view_more a, .dh_layer .type_c .view_more a, .attach_card_head .name a, .divList.grp_sender .infor_sender li.sender a {
 		color: #fff;
+	}
+	
+	#readFrame {
+		background: #fff;
+		color: #000;
 	}
 	
 	#footer, .info_mailbox thead th {
@@ -8331,6 +8389,21 @@
 	
 	.diaper_banner, .otp_step_banner {
 	    filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.theme_txt p {
+		border-radius: 10px;
+		margin: 10px;
+		
+		background: #182030;
+		background-color: #182030;
+		
+		border: 1px solid #246;
+		color: #fff;
+	}
+	
+	.theme_txt + #wrap #header .h_logo {
+		margin-top: 25px;
 	}
 }
 
@@ -18584,5 +18657,32 @@
 	
 	.tbl_type td.site input {
 		font-family: 'Helvetica';
+	}
+}
+
+@-moz-document url-prefix("https://note.naver.com/notice")
+{
+	.notice_pop {
+		background: none;
+	}
+	
+	.notice_pop h1 img, table.Nnavi .pgL img, table.Nnavi .pgR img, #n2_skin_wrap .subject img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	#n2_nboard .title_wrap .add_info {
+		color: #cacaca !important;
+	}
+	
+	.sb_style_2 .selectbox .box {
+		border: 1px solid #cacaca !important;
+	}
+	
+	#n2_nboard .option .amount div {
+		color: #242424;
+	}
+	
+	#n2_nboard a:hover {
+		background: #fefefe !important;
 	}
 }

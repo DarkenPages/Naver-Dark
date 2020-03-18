@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.19.21
+@version		1.19.23
 @namespace		Avis Studio
 ==/UserStyle== */
 
@@ -7078,7 +7078,7 @@
 	}
 	
 	.inspection a {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.skin-1080 .article-guide {
@@ -7758,6 +7758,20 @@
 	
 	.post_adpost.blog2_post_adpost dl.type1 .addr img {
 		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.inspection h3, .inspect_comment {
+		filter: invert(86%) hue-rotate(-180deg);
+		color: #242424 !important;
+	}
+	
+	#content-area .box-reply2 .m-tcol-c.inspect_comment {
+		filter: invert(86%) hue-rotate(-180deg);
+		color: #242424 !important;
+	}
+	
+	#content-area .box-reply2 .m-tcol-c.inspect_comment a {
+		color: #242424 !important;
 	}
 }
 

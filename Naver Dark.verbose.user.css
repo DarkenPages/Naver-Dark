@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.20.9
+@version		1.20.10
 @namespace		Avis Studio
 ==/UserStyle== */
 
@@ -792,11 +792,11 @@
 	}
 	
 	.area_navigation .mn_modoo .an_icon {
-		width: 87px;
+		width: 90px;
 	}
 	
 	.area_navigation .mn_v .an_icon {
-		width: 43px;
+		width: 45px;
 	}
 	
 	.area_navigation .an_a:after {

@@ -28,7 +28,7 @@ let { properties, lastIndex } = fetchUserStyleProperties(contents);
 let remaining = contents.substring(lastIndex, contents.length);
 
 cssPurge.purgeCSS(remaining, {
-    trim: true,
+    trim: false,
     shorten: false,
     format: true,
     verbose: false

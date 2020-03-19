@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.19.23
+@version		1.20.8
 @namespace		Avis Studio
 ==/UserStyle== */
 
@@ -313,7 +313,11 @@
 	}
 	
 	a, a:link {
-		color: #576882;
+	    color: #7474e3;
+	}
+	
+	a:visited, .type01 dt a:visited, .type01 li a:visited {
+	    color: #e177e3;
 	}
 	
 	.spi_btn_release .spi_lst_release a.spi_input_copyurl, .spi_sns_share .spi_lst .spi_btn_release .spi_lst_release a.spi_input_copyurl, .spi_onebtn .spi_lst .spi_btn_release .spi_lst_release a.spi_input_copyurl, .spi_btn_release .spi_lst_release a.spi_btn_copyurl, .spi_sns_share .spi_lst .spi_btn_release .spi_lst_release a.spi_btn_copyurl, .spi_onebtn .spi_lst .spi_btn_release .spi_lst_release a.spi_btn_copyurl {
@@ -754,7 +758,7 @@
 	}
 	
 	.ad_section .nx_power .lst.ext_price .lst_price .txt_inner {
-		color: #576882;
+		color: #7474e3;
 	}
 	
 	.ad_section .nx_power .lst.ext_price .lst_price .price {
@@ -768,6 +772,403 @@
 	
 	.greenmap .local_map .thumb2 {
 		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.section_svcmore .ss_btn_confirm:hover, .section_svcmore .ss_btn_cancel:hover, .section_svcmore .ss_btn_reset:hover {
+		border-color: #4f4f4f;
+	}
+	
+	.section_svcmore .ss_btn_confirm.ss_btn_abled {
+		color: #242424;
+		background: #019341;
+	}
+	
+	.area_navigation .an_txt {
+		font-size: 0;
+		overflow: auto;
+	}
+	
+	.area_navigation .an_a {
+		overflow: auto;
+	}
+	
+	.area_navigation :after {
+		word-break: keep-all;
+	}
+	
+	.area_navigation .mn_modoo .an_icon {
+		width: 87px;
+	}
+	
+	.area_navigation .mn_v .an_icon {
+		width: 43px;
+	}
+	
+	.area_navigation .an_a:after {
+	    color: #cacaca;
+	    font-weight: 1000;
+	    font-family: 'NanumSquare';
+	    font-size: 14px;
+	    top: -0.5px;
+	    position: absolute;
+	    overflow: auto;
+	    width: 100%;
+	}
+	
+	.area_navigation .an_mtxt:before {
+	    font-weight: 1000;
+	    font-family: 'NanumSquare';
+	    font-size: 14px;
+	    top: -0.5px;
+	    position: absolute;
+	    overflow: auto;
+	    width: 100%;
+	}
+	
+	.area_navigation .an_mtxt:after {
+		position: absolute;
+		content: '';
+		top: 5px;
+		right: 0;
+		width: 1px;
+		height: 6px;
+		padding-left: 13px;
+		margin-left: 5px;
+		vertical-align: 1px;
+		background-image: url(https://ssl.pstatic.net/sstatic/search/pc/img/sp_svg_common_240dccc4.svg), none;
+	}
+	
+	.area_navigation .mn_comic .an_icon,
+	.area_navigation .mn_book .an_icon,
+	.area_navigation .mn_music .an_icon, 
+	.area_navigation .mn_movie .an_icon, 
+	.area_navigation .mn_map .an_icon, 
+	.area_navigation .mn_land .an_icon, 
+	.area_navigation .mn_stock .an_icon, 
+	.area_navigation .mn_news .an_icon, 
+	.area_navigation .mn_dic .an_icon,
+	.area_navigation .mn_grafolio .an_icon,
+	.area_navigation .mn_weather .an_icon,
+	.area_navigation .mn_booking .an_icon,
+	.area_navigation .mn_ndrive .an_icon,
+	.area_navigation .mn_post .an_icon,
+	.area_navigation .mn_datalab .an_icon,
+	.area_navigation .mn_line .an_icon,
+	.area_navigation .mn_memo .an_icon,
+	.area_navigation .mn_band .an_icon,
+	.area_navigation .mn_bookmark .an_icon,
+	.area_navigation .mn_software .an_icon,
+	.area_navigation .mn_smartboard .an_icon,
+	.area_navigation .mn_sports .an_icon,
+	.area_navigation .mn_nstore .an_icon,
+	.area_navigation .mn_nstoreon .an_icon,
+	.area_navigation .mn_audioclip .an_icon,
+	.area_navigation .mn_office .an_icon,
+	.area_navigation .mn_webnovel .an_icon,
+	.area_navigation .mn_auto .an_icon,
+	.area_navigation .mn_contact .an_icon,
+	.area_navigation .mn_terms .an_icon,
+	.area_navigation .mn_calendar .an_icon,
+	.area_navigation .mn_academic .an_icon,
+	.area_navigation .mn_airticket .an_icon,
+	.area_navigation .mn_hotel .an_icon,
+	.area_navigation .mn_modoo .an_icon,
+	.area_navigation .mn_myfeed .an_icon,
+	.area_navigation .mn_ngame .an_icon,
+	.area_navigation .mn_entertain .an_icon,
+	.area_navigation .mn_v .an_icon,
+	.area_navigation .mn_krdic .an_icon,
+	.area_navigation .mn_endic .an_icon,
+	.area_navigation .mn_jpdic .an_icon,
+	.area_navigation .mn_cndic .an_icon,
+	.area_navigation .mn_hanja .an_icon,
+	.area_navigation .mn_influencer .an_icon,
+	.area_navigation .mn_keep .an_icon,
+	.area_navigation .mn_vibe .an_icon,
+	.area_navigation .mn_naveralpha .an_icon,
+	.area_navigation .mn_clova .an_icon,
+	.area_navigation .mn_whale .an_icon,
+	.area_navigation .mn_papago .an_icon,
+	.area_navigation .an_mtxt,
+	.area_navigation .an_btn_more.an_fold .an_mtxt,
+	.area_navigation .mn_mail .an_icon,
+	.area_navigation .mn_cafe .an_icon,
+	.area_navigation .mn_blog .an_icon,
+	.area_navigation .mn_kin .an_icon,
+	.area_navigation .mn_shopping .an_icon,
+	.area_navigation .mn_checkout .an_icon,
+	.area_navigation .mn_tvcast .an_icon {
+		background: none;
+	}
+	
+	.area_navigation .mn_tvcast:before {
+		content: '';
+		position: absolute;
+		background-image: url(https://ssl.pstatic.net/static/tv/navertv/pc/img/sp_navertv_441342fa.svg);
+		background-repeat: no-repeat;
+		background-position: -4px -4px;
+		background-size: 230px;
+		height: 15px;
+		width: 15px;
+		filter: brightness(75%);
+	}
+	
+	.area_navigation .mn_tvcast:after {
+		content: 'TV';
+		color: #019341;
+		left: 14px;
+	}
+	
+	.area_navigation .mn_checkout:after {
+		content: 'Pay';
+		color: #019341;
+	}
+	
+	.area_navigation .mn_shopping:after {
+		content: '쇼핑';
+		color: #019341;
+	}
+	
+	.area_navigation .mn_kin:after {
+		content: '지식iN';
+		color: #019341;
+	}
+	
+	.area_navigation .mn_blog:after {
+		content: '블로그';
+		color: #019341;
+	}
+	
+	.area_navigation .mn_cafe:after {
+		content: '카페';
+		color: #019341;
+	}
+	
+	.area_navigation .mn_mail:after {
+		content: '메일';
+		color: #019341;
+	}
+	
+	.area_navigation .an_btn_more.an_fold .an_mtxt:before {
+		content: '접기';
+	    color: #019341;
+	}
+	
+	.area_navigation .an_btn_more.an_fold .an_mtxt:after {
+		background-position: -47px -170px;
+	}
+	
+	.area_navigation :not(.an_fold) .an_mtxt:before {
+		content: '더보기';
+	    color: #242424;
+	}
+	
+	.area_navigation :not(.an_fold) .an_mtxt:after {
+		background-position: -66px -170px;
+	}
+	
+	.area_navigation .mn_papago:after {
+		content: '파파고';
+	}
+	
+	.area_navigation .mn_whale:after {
+		content: '웨일';
+	}
+	
+	.area_navigation .mn_clova:after {
+		content: '클로바';
+	}
+	
+	.area_navigation .mn_naveralpha:after {
+		content: '네이버 알파';
+	}
+	
+	.area_navigation .mn_vibe:after {
+		content: 'VIBE';
+	}
+	
+	.area_navigation .mn_keep:after {
+		content: 'Keep';
+	}
+	
+	.area_navigation .mn_influencer:after {
+		content: '인플루언서 검색';
+	}
+	
+	.area_navigation .mn_hanja:after {
+		content: '한자';
+	}
+	
+	.area_navigation .mn_cndic:after {
+		content: '중국어';
+	}
+	
+	.area_navigation .mn_jpdic:after {
+		content: '일본어';
+	}
+	
+	.area_navigation .mn_endic:after {
+		content: '영어/영영';
+	}
+	
+	.area_navigation .mn_krdic:after {
+		content: '국어';
+	}
+	
+	.area_navigation .mn_v:after {
+		content: 'V LIVE';
+	}
+	
+	.area_navigation .mn_entertain:after {
+	    content: 'TV연예';
+	}
+	
+	.area_navigation .mn_ngame:after {
+	    content: 'PC게임';
+	}
+	
+	.area_navigation .mn_myfeed:after {
+	    content: 'MY구독';
+	}
+	
+	.area_navigation .mn_modoo:after {
+	    content: 'modoo![모두]';
+	}
+	
+	.area_navigation .mn_hotel:after {
+	    content: '호텔';
+	}
+	
+	.area_navigation .mn_airticket:after {
+	    content: '항공권';
+	}
+	
+	.area_navigation .mn_academic:after {
+	    content: '학술정보';
+	}
+	
+	.area_navigation .mn_calendar:after {
+	    content: '캘린더';
+	}
+	
+	.area_navigation .mn_terms:after {
+	    content: '지식백과';
+	}
+	
+	.area_navigation .mn_contact:after {
+	    content: '주소록';
+	}
+	
+	.area_navigation .mn_auto:after {
+	    content: '자동차';
+	}
+	
+	.area_navigation .mn_webnovel:after {
+	    content: '웹소설';
+	}
+	
+	.area_navigation .mn_office:after {
+	    content: '오피스';
+	}
+	
+	.area_navigation .mn_audioclip:after {
+	    content: '오디오클립';
+	}
+	
+	.area_navigation .mn_nstoreon:after {
+	    content: '시리즈on';
+	}
+	
+	.area_navigation .mn_nstore:after {
+	    content: '시리즈';
+	}
+	
+	.area_navigation .mn_sports:after {
+	    content: '스포츠';
+	}
+	
+	.area_navigation .mn_smartboard:after {
+	    content: '스마트보드';
+	}
+	
+	.area_navigation .mn_software:after {
+	    content: '소프트웨어';
+	}
+	
+	.area_navigation .mn_bookmark:after {
+	    content: '북마크';
+	}
+	
+	.area_navigation .mn_band:after {
+	    content: '밴드';
+	}
+	
+	.area_navigation .mn_memo:after {
+	    content: '메모';
+	}
+	
+	.area_navigation .mn_line:after {
+	    content: '라인';
+	}
+	
+	.area_navigation .mn_datalab:after {
+	    content: '데이터랩';
+	}
+	
+	.area_navigation .mn_post:after {
+	    content: '포스트';
+	}
+	
+	.area_navigation .mn_ndrive:after {
+	    content: '클라우드';
+	}
+	
+	.area_navigation .mn_booking:after {
+	    content: '예약';
+	}
+	
+	.area_navigation .mn_weather:after {
+	    content: '날씨';
+	}
+	
+	.area_navigation .mn_grafolio:after {
+	    content: '그라폴리오';
+	}
+	
+	.area_navigation .mn_dic:after {
+	    content: '사전';
+	}
+	
+	.area_navigation .mn_news:after {
+	    content: '뉴스';
+	}
+	
+	.area_navigation .mn_stock:after {
+	    content: '증권';
+	}
+	
+	.area_navigation .mn_land:after {
+	    content: '부동산';
+	}
+	
+	.area_navigation .mn_map:after {
+	    content: '지도';
+	}
+	
+	.area_navigation .mn_movie:after {
+	    content: '영화';
+	}
+	
+	.area_navigation .mn_music:after {
+	    content: '뮤직';
+	}
+	
+	.area_navigation .mn_book:after {
+	    content: '책';
+	}
+	
+	.area_navigation .mn_comic:after {
+	    content: '웹툰';
 	}
 }
 
@@ -920,7 +1321,7 @@
 	}
 	
 	.note_read .msg_contents a {
-		color: #576882;
+		color: #7474e3;
 	}
 	
 	.svc_menu_area .list_menu, .svc_menu_area .list_menu, .btn_workset, .btn_workset, .svc_menu_area, .svc_menu_area, .h_lft_menu, .h_lft_menu .btn_setup, .h_lft_menu .btn_add, .section_etcmail, .section_typemail, .bn_nworks, .section_skinset, .content_header, .btn_fold, .section_detail_srch, .searchkey_result, .svc_menu_area .list_menu, .h_lft_menu, .h_lft_menu .btn_setup, .h_lft_menu .btn_add, .section_etcmail, .section_typemail, .bn_nworks, .section_skinset, .content_header, .btn_fold, .section_detail_srch, .searchkey_result, .svc_menu_area .list_menu {
@@ -3144,7 +3545,7 @@
 	}
 	
 	.sp_shop_default.section .dsc_ninfo a {
-		color: #576882 !important;
+		color: #7474e3 !important;
 	}
 	
 	.sp_shop_default .lst_tab .stab {
@@ -3301,7 +3702,7 @@
 	}
 	
 	.cs_v_con_side .v_thum_list .lst_thum li .video_tit a {
-		color: #576882;
+		color: #7474e3;
 	}
 	
 	.cs_v_con_side .v_celeb_info .sns_info .sns_name, .z_aside .helper .list_helper .helper_question, .cs_flower_project .tab_area li.on a {
@@ -4585,7 +4986,7 @@
 	}
 	
 	.nx_place .biz_name_area .review, .nx_place .list_bizinfo .list_address .link, .nx_place .list_bizinfo .list_menu li.view_image .link {
-		color: #576882;
+		color: #7474e3;
 	}
 	
 	.nx_place .list_bizinfo .biztime_area .time.highlight::after, .nx_place .list_bizinfo .biztime_area .desc.highlight::after {
@@ -4602,7 +5003,7 @@
 	}
 	
 	.nx_place .list_bizinfo .list_menu .photo_count svg path{
-		fill: #576882;
+		fill: #7474e3;
 	}
 	
 	.nx_place .list_bizinfo .biztime_area {
@@ -4636,7 +5037,7 @@
 	}
 	
 	.nx_place .list_bizinfo .ly_info .link {
-		color: #576882;
+		color: #7474e3;
 	}
 	
 	.nx_place .list_bizinfo .ly_info::after {
@@ -4650,7 +5051,7 @@
 	}
 	
 	.nx_place .transport_area .link {
-		color: #576882;
+		color: #7474e3;
 	}
 	
 	.nx_place .transport_area .list_station, .nx_place .transport_area .walk_info .info, .nx_place .datalab_area .list_theme .txt {
@@ -4696,7 +5097,7 @@
 	}
 	
 	.nx_place .list_card .name {
-		color: #576882;
+		color: #7474e3;
 	}
 	
 	.nx_place .list_card .txt {
@@ -4741,8 +5142,8 @@
 	}
 	
 	.ad_section .lst_type .lst .lnk_tit, .ad_section .lst_type .lst .lnk_tit:hover, .ad_section .lst_type .lst.type_subtitle .sub_tit, .ad_section .lst_type .lst.type_subtitle .sub_tit:hover {
-		color: #576882;
-		border-bottom: 1px solid #576882;
+		color: #7474e3;
+		border-bottom: 1px solid #7474e3;
 	}
 	
 	.ad_section .sp_ad {
@@ -4750,7 +5151,7 @@
 	}
 	
 	.ad_section .nx_power .lst.ext_link .link {
-		color: #576882;
+		color: #7474e3;
 	}
 	
 	.dsc_ncaution, .nx_place .section_head .biz_btn_area .btn {
@@ -4785,7 +5186,7 @@
 	}
 	
 	.nx_place .list_place_col1 .name {
-		color: #576882;
+		color: #7474e3;
 	}
 	
 	.nx_place .list_area .indicator {
@@ -4884,7 +5285,7 @@
 	}
 	
 	.nx_place .section_more a {
-		color: #576882;
+		color: #7474e3;
 	}
 	
 	.cs_game_list .list_bx {
@@ -4960,7 +5361,7 @@
 	}
 	
 	.dic_kr dd dd a.auto_link {
-		color: #576882 !important;
+		color: #7474e3 !important;
 	}
 	
 	.ndic .tts_area .ico_tts {
@@ -5000,8 +5401,164 @@
 		color: #cacaca;
 	}
 	
-	.sp_shop_default .lst_guide .ad_box .ad_badge {
+	.sp_shop_default .lst_guide .ad_box .ad_badge, .region .info_basic .thumb2 .map_control img {
 		filter: invert(81%) hue-rotate(-180deg);
+	}
+	
+	.region .info_basic .thumb2 {
+		border: 1px solid #404040;
+	}
+	
+	.region .info_basic .thumb2 .map_control {
+		border-top: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.region dl.row dd {
+		color: #fff;
+	}
+	
+	.region .road_sch em {
+		color: #fff;
+	}
+	
+	.region .info_basic .addr .ico_addr_o, .region .info_basic .addr .ico_addr_r {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.region .box_input {
+		border: 1px solid #404040;
+		color: #cacaca;
+		background: #242424;
+	}
+	
+	.region .box_input.action {
+		color: #cacaca !important;
+	}
+	
+	.region dl.row dd.around_array input[type="image"], .region .road_sch input[type="image"] {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.region .road_sch .search_more {
+		border: 1px solid #404040;
+		background: #242424;
+		position: relative;
+	}
+	
+	.region .road_sch .search_more:after {
+		content: '';
+		filter: invert(86%) hue-rotate(-180deg);
+		background: url(https://ssl.pstatic.net/sstatic/search/pc/img/map_sp_bullet.png) 100% -82px no-repeat;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		left: 0;
+		z-index: 999;
+	}
+	
+	.region .n1_info {
+		background: #242424;
+	}
+	
+	.region .n1_info:after {
+		content: '';
+		filter: invert(86%) hue-rotate(-180deg);
+		background: url(https://ssl.pstatic.net/sstatic/search/pc/img/map_sp_bullet.png) no-repeat 0 -16px;
+		position: absolute;
+		width: 100%;
+		height: 16px;
+		left: 0;
+		z-index: 999;
+	}
+	
+	.region .pop_layer01 {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.api_ly_road .road_search .search_head {
+		border-bottom: 1px solid #404040 !important;
+		background-color: #2f2f2f !important;
+	}
+	
+	.api_ly_road .road_search .tit_search {
+		color: #cacaca !important;
+	}
+	
+	.api_ly_road {
+		background-color: #2f2f2f !important;
+	}
+	
+	.api_ly_road .dsc .ico, .api_ly_road .road_search .search_area .btn_search, .api_ly_road .road_content .scroll .lst li .btn_map {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.api_ly_road .road_search .search_area .text_road {
+		border: 1px solid #404040 !important;
+		background-color: #2f2f2f !important;
+		color: #cacaca !important;
+	}
+	
+	.api_ly_road .road_head .tit {
+		color: #cacaca !important;
+	}
+	
+	.api_ly_road .road_head {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	.api_ly_road .road_content .scroll .lst li {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	.api_ly_road .road_content .scroll .lst li .link_addr:hover {
+		background-color: #3a3a3a;
+	}
+	
+	.api_ly_road a, .api_ly_road em, .api_ly_road span, .api_ly_road strong {
+		color: #fff !important;
+	}
+	
+	.region .info_basic .addr .lst_addr_case li:first-child {
+		color: #7474e3;
+	}
+	
+	.ds_address .ds_box dl dt, .ds_address .prcs_guide .other_links dl dt {
+		color: #cacaca !important;
+	}
+	
+	.sp_music_audio .common_audio_list, .cs_tvcast .main_box {
+		border: 1px solid #404040;
+	}
+	
+	.sp_music_audio .common_audio_list .item+.item {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_tvcast .tv_thum_list .lst_thum li .tv_tit .top_no {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_tvcast .tv_thum_list .lst_thum li .tv_tit a {
+		color: #cacaca;
+	}
+	
+	.cs_tvcast .tv_box img, .snb_itembox .sch_foot .btn_initial {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_tvcast .main_box .tab_bx li a {
+		color: #000;
+	}
+	
+	.book_list .type01 .e_price {
+		color: #fff;
+	}
+	
+	.option_menu .menu .m, .option_menu .option_choice, .snb_itembox .sch_option .rule_check {
+		color: #cacaca;
 	}
 }
 
@@ -5476,7 +6033,7 @@
 	}
 	
 	.lnb_link {
-		color: #576882;
+		color: #7474e3;
 	}
 	
 	.cc_layer_mynews .cc_mynews_header {
@@ -7753,7 +8310,7 @@
 	}
 	
 	.pcol3 {
-		color: #576882;
+		color: #7474e3;
 	}
 	
 	.post_adpost.blog2_post_adpost dl.type1 .addr img {
@@ -18616,7 +19173,7 @@
 	}
 	
 	.info_area p a, .info_area li a {
-		color: #576882;
+		color: #7474e3;
 	}
 	
 	.info_area ul {

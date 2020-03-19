@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.20.8
+@version		1.20.9
 @namespace		Avis Studio
 ==/UserStyle== */
 
@@ -785,11 +785,6 @@
 	
 	.area_navigation .an_txt {
 		font-size: 0;
-		overflow: auto;
-	}
-	
-	.area_navigation .an_a {
-		overflow: auto;
 	}
 	
 	.area_navigation :after {
@@ -811,7 +806,7 @@
 	    font-size: 14px;
 	    top: -0.5px;
 	    position: absolute;
-	    overflow: auto;
+	    overflow: hidden;
 	    width: 100%;
 	}
 	
@@ -821,7 +816,7 @@
 	    font-size: 14px;
 	    top: -0.5px;
 	    position: absolute;
-	    overflow: auto;
+	    overflow: hidden;
 	    width: 100%;
 	}
 	

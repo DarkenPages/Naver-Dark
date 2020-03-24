@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.22.34
+@version		1.22.36
 @namespace		Avis Studio
 ==/UserStyle== */
 @-moz-document url-prefix("https://www.naver.com"), url-prefix("https://my.naver.com"), url-prefix("https://ui.nboard2.naver.com"), url-prefix("https://search.naver.com"), url-prefix("https://nid.naver.com"), url-prefix("https://castbox.shopping.naver.com"), url-prefix("https://section.cafe.naver.com"), url-prefix("https://talk.cafe.naver.com"), url-prefix("https://cafe.upphoto.naver.com"), url-prefix("https://cafe.naver.com/CafeMemberInfo.nhn"), url-prefix("https://section.blog.naver.com"), url-prefix("https://uploader1.nmv.naver.com"), url-prefix("https://up.cafe.naver.com"), url-prefix("https://datalab.naver.com"), url-prefix("https://www.navercorp.com"), url-prefix("https://mail.naver.com"), url-prefix("https://note.naver.com"), url-prefix("https://mashup.map.naver.com")  {
@@ -7916,6 +7916,24 @@
   .cs_stock .cont_dtcon.cont_tb .ipo_tb th,
   .cs_stock .cont_dtcon.cont_tb .ipo_tb td {
     border-bottom: 1px solid #404040;
+  }
+
+  .cs_stock img,
+  .cs_stock .ar_spot .spt_tlt h3 a .stk_nm.arr {
+    filter: invert(86%) hue-rotate(-180deg);
+  }
+
+  .cs_stock .ar_spot .spt_tlt h3 a .stk_nm.arr {
+    color: #242424 !important;
+  }
+
+  .cs_stock .ar_cont .cont_dtcon .dtcon_lst .wst_tb .line+tr th,
+  .cs_stock .ar_cont .cont_dtcon .dtcon_lst .wst_tb .line+tr td {
+    border-top: 1px solid #404040;
+  }
+
+  .cs_stock .ar_cont .cont_dtcon .dtcon_lst .wst_tb th a {
+    color: #cacaca;
   }
 }
 

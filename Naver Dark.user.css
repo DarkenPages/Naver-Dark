@@ -25739,6 +25739,15 @@
   .og.map2 .map_sr img {
     filter: invert(86%) hue-rotate(-180deg);
   }
+
+  .u_cbox .u_cbox_type_delete .u_cbox_text_wrap,
+  .u_cbox .u_cbox_type_blind .u_cbox_text_wrap {
+    color: #fff;
+  }
+
+  .u_cbox .u_cbox_reply_area .u_cbox_paginate {
+    border-bottom: 1px solid #404040;
+  }
 }
 
 @-moz-document url-prefix("https://editor.post.naver.com"), url-prefix("https://post.stat.naver.com")  {

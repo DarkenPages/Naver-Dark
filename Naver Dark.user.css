@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.23.5
+@version		1.23.7
 @namespace		Avis Studio
 ==/UserStyle== */
 @-moz-document url-prefix("https://www.naver.com"), url-prefix("https://my.naver.com"), url-prefix("https://ui.nboard2.naver.com"), url-prefix("https://search.naver.com"), url-prefix("https://nid.naver.com"), url-prefix("https://castbox.shopping.naver.com"), url-prefix("https://section.cafe.naver.com"), url-prefix("https://talk.cafe.naver.com"), url-prefix("https://cafe.upphoto.naver.com"), url-prefix("https://cafe.naver.com/CafeMemberInfo.nhn"), url-prefix("https://section.blog.naver.com"), url-prefix("https://uploader1.nmv.naver.com"), url-prefix("https://up.cafe.naver.com"), url-prefix("https://datalab.naver.com"), url-prefix("https://www.navercorp.com"), url-prefix("https://mail.naver.com"), url-prefix("https://note.naver.com"), url-prefix("https://mashup.map.naver.com")  {
@@ -7935,6 +7935,238 @@
   .cs_stock .ar_cont .cont_dtcon .dtcon_lst .wst_tb th a {
     color: #cacaca;
   }
+
+  .ds_calendar .calendar {
+    background: none;
+  }
+
+  .ds_calendar .tab {
+    background: #2f2f2f;
+    border-bottom: 1px solid #404040;
+  }
+
+  .ds_calendar .tab li a {
+    color: #fff;
+    background: #2f2f2f;
+  }
+
+  .ds_calendar .con_calendar {
+    border: 1px solid #404040;
+    border-top: 0;
+  }
+
+  .ds_calendar .lunar_area {
+    border-top: 1px solid #404040;
+    color: #cacaca;
+  }
+
+  .ds_calendar p.info,
+  .ds_calendar .thismonth a .btn_prev,
+  .ds_calendar .thismonth a .btn_next,
+  .ds_calendar .thismonth a .btn_arr,
+  .ds_calendar .thismonth ._title img {
+    filter: invert(86%) hue-rotate(-180deg);
+  }
+
+  .ds_calendar .calendar_detail {
+    border-top: 1px solid #404040;
+  }
+
+  .ds_calendar .calendar tbody td a {
+    color: #fff;
+  }
+
+  .ds_calendar .calendar tbody td a:hover {
+    background: #2f2f2f;
+    color: #fff;
+  }
+
+  .ds_calendar .calendar tbody td.selected,
+  .ds_calendar .calendar tbody td.selected a,
+  .ds_calendar .calendar tbody td.selected a:hover {
+    color: #242424 !important;
+  }
+
+  .ds_calendar .con_area {
+    border-left: 1px solid #404040;
+  }
+
+  .ds_calendar .years_reckon {
+    background: #2f2f2f;
+  }
+
+  .ds_calendar .calendar_area {
+    border-right: 1px solid #404040;
+  }
+
+  .ds_calendar .years_reckon .set_date dt {
+    color: #fff;
+  }
+
+  .ds_calendar .years_reckon .set_date .input_txt,
+  .ds_calendar .years_reckon .set_date .input_txt_out,
+  .ds_calendar .years_reckon .set_date .input_txt_focus,
+  .ds_calendar .army_section .set_date .input_txt,
+  .ds_calendar .army_section .set_date .input_txt_out,
+  .ds_calendar .army_section .set_date .sel_kind,
+  .ds_calendar .army_section .set_date .input_txt_focus,
+  .ds_calendar .date_calculator .input_txt,
+  .ds_calendar .date_calculator .input_txt_default,
+  .ds_calendar .date_calculator .input_txt_out,
+  .ds_calendar .date_calculator .input_txt_focus,
+  .ds_calendar .trans_sun_lunar .set_date .input_txt,
+  .ds_calendar .trans_sun_lunar .set_date .input_txt_out,
+  .ds_calendar .trans_sun_lunar .set_date .input_txt_focus,
+  .ds_calendar .trans_sun_lunar .set_date .sel_trans {
+    border: 1px solid #404040;
+    background: #242424;
+    color: #cacaca;
+  }
+
+  .ds_calendar .years_reckon .yr_today_bg,
+  .ds_calendar .years_reckon .set_date .btn_area img,
+  .ds_calendar .calendar_offer img,
+  .ds_calendar .army_section .set_date img,
+  .ds_calendar .set_date .btn_reset,
+  .ds_calendar .date_calculator .date_info .date_section span a im,
+  .ds_calendar .trans_sun_lunar .today_info dt .btn_help,
+  .ds_calendar .trans_sun_lunar .set_date img {
+    filter: invert(86%) hue-rotate(-180deg);
+  }
+
+  .ds_calendar .date_calculator .input_result {
+    border: 1px solid #404040;
+    background: #242424;
+  }
+
+  .ds_calendar .years_reckon .set_date {
+    border-bottom: 1px solid #404040;
+  }
+
+  .ds_calendar .years_reckon .years_result ul li {
+    color: #cacaca;
+  }
+
+  .ds_calendar .years_reckon .years_head {
+    border: 1px solid #404040;
+    background-color: #404040;
+  }
+
+  .ds_calendar .ly_direct_select {
+    border: 1px solid #404040;
+    background: #2f2f2f;
+  }
+
+  .ds_calendar .ly_direct_select .tit_ds,
+  .ds_calendar .army_section .set_date dt,
+  .ds_calendar .date_graph .plan_graph p.plan_next span,
+  .ds_calendar .date_graph .plan_graph p.plan_next,
+  .ds_calendar .date_calculator .set_date dt {
+    color: #fff;
+  }
+
+  .ds_calendar .ly_direct_select .btn_clse img,
+  .ds_calendar .date_graph .plan_graph .graph_alt_wrap {
+    filter: invert(81.2%);
+  }
+
+  .ds_calendar .ly_direct_select .sel_year a {
+    color: #cacaca;
+  }
+
+  .ds_calendar .ly_direct_select .sel_year a:hover,
+  .ds_calendar .ly_direct_select .sel_year .selected a,
+  .ds_calendar .ly_direct_select .sel_month .selected a,
+  .ds_calendar .ly_direct_select .sel_month a:hover {
+    background: #3a3a3a;
+    color: #cacaca;
+  }
+
+  .ds_calendar .army_section,
+  .ds_calendar .trans_sun_lunar {
+    background: #2f2f2f;
+  }
+
+  .ds_calendar .army_section .set_date {
+    border-bottom: 1px solid #404040;
+  }
+
+  .ds_calendar .tab li.last.selected {
+    border-right: 1px solid #404040;
+  }
+
+  .ds_calendar .tab .selected,
+  .ds_calendar .tab .selected a {
+    background: #404040;
+  }
+
+  .ds_calendar .date_graph .plan_graph {
+    background: none;
+  }
+
+  .ds_calendar .date_graph .plan_graph p.plan_ing .dsc_txt {
+    color: #cacaca;
+    background: #2f2f2f;
+    border: 1px solid #4f4f4f;
+  }
+
+  .ds_calendar .date_calculator {
+    background: #2f2f2f;
+  }
+
+  .ds_calendar .date_calculator .date_desc,
+  .ds_calendar .date_calculator .date_info .date_section span,
+  .ds_calendar .trans_sun_lunar .today_info dd {
+    color: #cacaca;
+  }
+
+  .ds_calendar .date_calculator .set_date,
+  .ds_calendar .trans_sun_lunar .set_date {
+    border-bottom: 1px solid #404040;
+  }
+
+  .ds_calendar .m_calendar .c_header {
+    background: #2f2f2f;
+  }
+
+  .ds_calendar .m_calendar .this_cld table thead th {
+    color: #cacaca;
+    border-bottom: 1px solid #404040;
+    border-left: 1px solid #404040;
+  }
+
+  .ds_calendar .m_calendar .this_cld {
+    border-top: 1px solid #404040;
+  }
+
+  .ds_calendar .m_calendar .this_cld table thead {
+    background: none;
+  }
+
+  .ds_calendar .m_calendar .this_cld table tbody td {
+    border-left: 1px solid #404040;
+    border-top: 1px solid #404040;
+  }
+
+  .ds_calendar .m_calendar .this_cld table tbody .cld_day {
+    color: #cacaca;
+  }
+
+  .ds_calendar .m_calendar .this_cld table tbody .cld_today {
+    border: 1px solid #4f4f4f;
+    background: #3a3a3a;
+  }
+
+  .cs_holiday .holiday_box .holi_date,
+  .cs_holiday .holiday_box .holi_date_add {
+    color: #cacaca;
+  }
+
+  .cs_holiday .calendar,
+  .checkbox-applied span.checkbox-mark,
+  .checkbox-applied span.checkbox-mark.checkbox-checked {
+    filter: invert(86%) hue-rotate(-180deg);
+  }
 }
 
 @-moz-document url-prefix("https://nid.naver.com/user2/help/")  {
@@ -14165,6 +14397,11 @@
     background: #242424;
   }
 
+  .category_wrap .btn_category,
+  .search_area .btn_search_all {
+    filter: invert(86%) hue-rotate(-180deg);
+  }
+
   .main_spot_area {
     border-bottom: 1px solid #404040;
     background: #2f2f2f;
@@ -14772,12 +15009,10 @@
   }
 
   .graph_area .labels .male .item {
-    background-position: -291px -107px;
     filter: invert(86%) hue-rotate(-180deg);
   }
 
   .graph_area .labels .female .item {
-    background-position: -291px -129px;
     filter: invert(86%) hue-rotate(-180deg);
   }
 

@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.23.5
+@version		1.23.7
 @namespace		Avis Studio
 ==/UserStyle== */
 
@@ -313,11 +313,11 @@
 	}
 	
 	a, a:link {
-	    color: #7474e3;
+		color: #7474e3;
 	}
 	
 	a:visited, .type01 dt a:visited, .type01 li a:visited {
-	    color: #e177e3;
+		color: #e177e3;
 	}
 	
 	.spi_btn_release .spi_lst_release a.spi_input_copyurl, .spi_sns_share .spi_lst .spi_btn_release .spi_lst_release a.spi_input_copyurl, .spi_onebtn .spi_lst .spi_btn_release .spi_lst_release a.spi_input_copyurl, .spi_btn_release .spi_lst_release a.spi_btn_copyurl, .spi_sns_share .spi_lst .spi_btn_release .spi_lst_release a.spi_btn_copyurl, .spi_onebtn .spi_lst .spi_btn_release .spi_lst_release a.spi_btn_copyurl {
@@ -800,24 +800,24 @@
 	}
 	
 	.area_navigation .an_a:after {
-	    color: #cacaca;
-	    font-weight: 1000;
-	    font-family: 'NanumSquare';
-	    font-size: 14px;
-	    top: -0.5px;
-	    position: absolute;
-	    overflow: hidden;
-	    width: 100%;
+		color: #cacaca;
+		font-weight: 1000;
+		font-family: 'NanumSquare';
+		font-size: 14px;
+		top: -0.5px;
+		position: absolute;
+		overflow: hidden;
+		width: 100%;
 	}
 	
 	.area_navigation .an_mtxt:before {
-	    font-weight: 1000;
-	    font-family: 'NanumSquare';
-	    font-size: 14px;
-	    top: -0.5px;
-	    position: absolute;
-	    overflow: hidden;
-	    width: 100%;
+		font-weight: 1000;
+		font-family: 'NanumSquare';
+		font-size: 14px;
+		top: -0.5px;
+		position: absolute;
+		overflow: hidden;
+		width: 100%;
 	}
 	
 	.area_navigation .an_mtxt:after {
@@ -835,12 +835,12 @@
 	
 	.area_navigation .mn_comic .an_icon,
 	.area_navigation .mn_book .an_icon,
-	.area_navigation .mn_music .an_icon, 
-	.area_navigation .mn_movie .an_icon, 
-	.area_navigation .mn_map .an_icon, 
-	.area_navigation .mn_land .an_icon, 
-	.area_navigation .mn_stock .an_icon, 
-	.area_navigation .mn_news .an_icon, 
+	.area_navigation .mn_music .an_icon,
+	.area_navigation .mn_movie .an_icon,
+	.area_navigation .mn_map .an_icon,
+	.area_navigation .mn_land .an_icon,
+	.area_navigation .mn_stock .an_icon,
+	.area_navigation .mn_news .an_icon,
 	.area_navigation .mn_dic .an_icon,
 	.area_navigation .mn_grafolio .an_icon,
 	.area_navigation .mn_weather .an_icon,
@@ -946,7 +946,7 @@
 	
 	.area_navigation .an_btn_more.an_fold .an_mtxt:before {
 		content: '접기';
-	    color: #019341;
+		color: #019341;
 	}
 	
 	.area_navigation .an_btn_more.an_fold .an_mtxt:after {
@@ -955,7 +955,7 @@
 	
 	.area_navigation :not(.an_fold) .an_mtxt:before {
 		content: '더보기';
-	    color: #242424;
+		color: #242424;
 	}
 	
 	.area_navigation :not(.an_fold) .an_mtxt:after {
@@ -1015,155 +1015,155 @@
 	}
 	
 	.area_navigation .mn_entertain:after {
-	    content: 'TV연예';
+		content: 'TV연예';
 	}
 	
 	.area_navigation .mn_ngame:after {
-	    content: 'PC게임';
+		content: 'PC게임';
 	}
 	
 	.area_navigation .mn_myfeed:after {
-	    content: 'MY구독';
+		content: 'MY구독';
 	}
 	
 	.area_navigation .mn_modoo:after {
-	    content: 'modoo![모두]';
+		content: 'modoo![모두]';
 	}
 	
 	.area_navigation .mn_hotel:after {
-	    content: '호텔';
+		content: '호텔';
 	}
 	
 	.area_navigation .mn_airticket:after {
-	    content: '항공권';
+		content: '항공권';
 	}
 	
 	.area_navigation .mn_academic:after {
-	    content: '학술정보';
+		content: '학술정보';
 	}
 	
 	.area_navigation .mn_calendar:after {
-	    content: '캘린더';
+		content: '캘린더';
 	}
 	
 	.area_navigation .mn_terms:after {
-	    content: '지식백과';
+		content: '지식백과';
 	}
 	
 	.area_navigation .mn_contact:after {
-	    content: '주소록';
+		content: '주소록';
 	}
 	
 	.area_navigation .mn_auto:after {
-	    content: '자동차';
+		content: '자동차';
 	}
 	
 	.area_navigation .mn_webnovel:after {
-	    content: '웹소설';
+		content: '웹소설';
 	}
 	
 	.area_navigation .mn_office:after {
-	    content: '오피스';
+		content: '오피스';
 	}
 	
 	.area_navigation .mn_audioclip:after {
-	    content: '오디오클립';
+		content: '오디오클립';
 	}
 	
 	.area_navigation .mn_nstoreon:after {
-	    content: '시리즈on';
+		content: '시리즈on';
 	}
 	
 	.area_navigation .mn_nstore:after {
-	    content: '시리즈';
+		content: '시리즈';
 	}
 	
 	.area_navigation .mn_sports:after {
-	    content: '스포츠';
+		content: '스포츠';
 	}
 	
 	.area_navigation .mn_smartboard:after {
-	    content: '스마트보드';
+		content: '스마트보드';
 	}
 	
 	.area_navigation .mn_software:after {
-	    content: '소프트웨어';
+		content: '소프트웨어';
 	}
 	
 	.area_navigation .mn_bookmark:after {
-	    content: '북마크';
+		content: '북마크';
 	}
 	
 	.area_navigation .mn_band:after {
-	    content: '밴드';
+		content: '밴드';
 	}
 	
 	.area_navigation .mn_memo:after {
-	    content: '메모';
+		content: '메모';
 	}
 	
 	.area_navigation .mn_line:after {
-	    content: '라인';
+		content: '라인';
 	}
 	
 	.area_navigation .mn_datalab:after {
-	    content: '데이터랩';
+		content: '데이터랩';
 	}
 	
 	.area_navigation .mn_post:after {
-	    content: '포스트';
+		content: '포스트';
 	}
 	
 	.area_navigation .mn_ndrive:after {
-	    content: '클라우드';
+		content: '클라우드';
 	}
 	
 	.area_navigation .mn_booking:after {
-	    content: '예약';
+		content: '예약';
 	}
 	
 	.area_navigation .mn_weather:after {
-	    content: '날씨';
+		content: '날씨';
 	}
 	
 	.area_navigation .mn_grafolio:after {
-	    content: '그라폴리오';
+		content: '그라폴리오';
 	}
 	
 	.area_navigation .mn_dic:after {
-	    content: '사전';
+		content: '사전';
 	}
 	
 	.area_navigation .mn_news:after {
-	    content: '뉴스';
+		content: '뉴스';
 	}
 	
 	.area_navigation .mn_stock:after {
-	    content: '증권';
+		content: '증권';
 	}
 	
 	.area_navigation .mn_land:after {
-	    content: '부동산';
+		content: '부동산';
 	}
 	
 	.area_navigation .mn_map:after {
-	    content: '지도';
+		content: '지도';
 	}
 	
 	.area_navigation .mn_movie:after {
-	    content: '영화';
+		content: '영화';
 	}
 	
 	.area_navigation .mn_music:after {
-	    content: '뮤직';
+		content: '뮤직';
 	}
 	
 	.area_navigation .mn_book:after {
-	    content: '책';
+		content: '책';
 	}
 	
 	.area_navigation .mn_comic:after {
-	    content: '웹툰';
+		content: '웹툰';
 	}
 }
 
@@ -5657,6 +5657,196 @@
 	.cs_stock .ar_cont .cont_dtcon .dtcon_lst .wst_tb th a {
 		color: #cacaca;
 	}
+	
+	.ds_calendar .calendar {
+		background: none;
+	}
+	
+	.ds_calendar .tab {
+		background: #2f2f2f;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.ds_calendar .tab li a {
+		color: #fff;
+		background: #2f2f2f;
+	}
+	
+	.ds_calendar .con_calendar {
+		border: 1px solid #404040;
+		border-top: 0;
+	}
+	
+	.ds_calendar .lunar_area {
+		border-top: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.ds_calendar p.info, .ds_calendar .thismonth a .btn_prev, .ds_calendar .thismonth a .btn_next, .ds_calendar .thismonth a .btn_arr, .ds_calendar .thismonth ._title img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.ds_calendar .calendar_detail {
+		border-top: 1px solid #404040;
+	}
+	
+	.ds_calendar .calendar tbody td a {
+		color: #fff;
+	}
+	
+	
+	.ds_calendar .calendar tbody td a:hover {
+		background: #2f2f2f;
+		color: #fff;
+	}
+	
+	.ds_calendar .calendar tbody td.selected, .ds_calendar .calendar tbody td.selected a, .ds_calendar .calendar tbody td.selected a:hover {
+		color: #242424 !important;
+	}
+	
+	.ds_calendar .con_area {
+		border-left: 1px solid #404040;
+	}
+	
+	.ds_calendar .years_reckon {
+		background: #2f2f2f;
+	}
+	
+	.ds_calendar .calendar_area {
+		border-right: 1px solid #404040;
+	}
+	
+	.ds_calendar .years_reckon .set_date dt {
+		color: #fff;
+	}
+	
+	.ds_calendar .years_reckon .set_date .input_txt, .ds_calendar .years_reckon .set_date .input_txt_out, .ds_calendar .years_reckon .set_date .input_txt_focus, .ds_calendar .army_section .set_date .input_txt, .ds_calendar .army_section .set_date .input_txt_out, .ds_calendar .army_section .set_date .sel_kind, .ds_calendar .army_section .set_date .input_txt_focus, .ds_calendar .date_calculator .input_txt, .ds_calendar .date_calculator .input_txt_default, .ds_calendar .date_calculator .input_txt_out, .ds_calendar .date_calculator .input_txt_focus, .ds_calendar .trans_sun_lunar .set_date .input_txt, .ds_calendar .trans_sun_lunar .set_date .input_txt_out, .ds_calendar .trans_sun_lunar .set_date .input_txt_focus, .ds_calendar .trans_sun_lunar .set_date .sel_trans {
+		border: 1px solid #404040;
+		background: #242424;
+		color: #cacaca;
+	}
+	
+	.ds_calendar .years_reckon .yr_today_bg, .ds_calendar .years_reckon .set_date .btn_area img, .ds_calendar .calendar_offer img, .ds_calendar .army_section .set_date img, .ds_calendar .set_date .btn_reset, .ds_calendar .date_calculator .date_info .date_section span a im, .ds_calendar .trans_sun_lunar .today_info dt .btn_help, .ds_calendar .trans_sun_lunar .set_date img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.ds_calendar .date_calculator .input_result {
+		border: 1px solid #404040;
+		background: #242424;
+	}
+	
+	.ds_calendar .years_reckon .set_date {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.ds_calendar .years_reckon .years_result ul li {
+		color: #cacaca;
+	}
+	
+	.ds_calendar .years_reckon .years_head {
+		border: 1px solid #404040;
+		background-color: #404040;
+	}
+	
+	.ds_calendar .ly_direct_select {
+		border: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.ds_calendar .ly_direct_select .tit_ds, .ds_calendar .army_section .set_date dt, .ds_calendar .date_graph .plan_graph p.plan_next span, .ds_calendar .date_graph .plan_graph p.plan_next, .ds_calendar .date_calculator .set_date dt {
+		color: #fff;
+	}
+	
+	.ds_calendar .ly_direct_select .btn_clse img, .ds_calendar .date_graph .plan_graph .graph_alt_wrap {
+		filter: invert(81.2%);
+	}
+	
+	.ds_calendar .ly_direct_select .sel_year a {
+		color: #cacaca;
+	}
+	
+	.ds_calendar .ly_direct_select .sel_year a:hover, .ds_calendar .ly_direct_select .sel_year .selected a, .ds_calendar .ly_direct_select .sel_month .selected a, .ds_calendar .ly_direct_select .sel_month a:hover {
+		background: #3a3a3a;
+		color: #cacaca;
+	}
+	
+	.ds_calendar .army_section, .ds_calendar .trans_sun_lunar {
+		background: #2f2f2f;
+	}
+	
+	.ds_calendar .army_section .set_date {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.ds_calendar .tab li.last.selected {
+		border-right: 1px solid #404040;
+	}
+	
+	.ds_calendar .tab .selected, .ds_calendar .tab .selected a {
+		background: #404040;
+	}
+	
+	.ds_calendar .date_graph .plan_graph {
+		background: none;
+	}
+	
+	.ds_calendar .date_graph .plan_graph p.plan_ing .dsc_txt {
+		color: #cacaca;
+		background: #2f2f2f;
+		border: 1px solid #4f4f4f;
+	}
+	
+	.ds_calendar .date_calculator {
+		background: #2f2f2f;
+	}
+	
+	.ds_calendar .date_calculator .date_desc, .ds_calendar .date_calculator .date_info .date_section span, .ds_calendar .trans_sun_lunar .today_info dd {
+		color: #cacaca;
+	}
+	
+	.ds_calendar .date_calculator .set_date, .ds_calendar .trans_sun_lunar .set_date {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.ds_calendar .m_calendar .c_header {
+		background: #2f2f2f;
+	}
+	
+	.ds_calendar .m_calendar .this_cld table thead th {
+		color: #cacaca;
+		border-bottom: 1px solid #404040;
+		border-left: 1px solid #404040;
+	}
+	
+	.ds_calendar .m_calendar .this_cld {
+		border-top: 1px solid #404040;
+	}
+	
+	.ds_calendar .m_calendar .this_cld table thead {
+		background: none;
+	}
+	
+	.ds_calendar .m_calendar .this_cld table tbody td {
+		border-left: 1px solid #404040;
+		border-top: 1px solid #404040;
+	}
+	
+	.ds_calendar .m_calendar .this_cld table tbody .cld_day {
+		color: #cacaca;
+	}
+	
+	.ds_calendar .m_calendar .this_cld table tbody .cld_today {
+		border: 1px solid #4f4f4f;
+		background: #3a3a3a;
+	}
+	
+	.cs_holiday .holiday_box .holi_date, .cs_holiday .holiday_box .holi_date_add {
+		color: #cacaca;
+	}
+	
+	.cs_holiday .calendar, .checkbox-applied span.checkbox-mark, .checkbox-applied span.checkbox-mark.checkbox-checked {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
 }
 
 @-moz-document url-prefix("https://nid.naver.com/user2/help/")
@@ -10061,6 +10251,10 @@
 		background: #242424;
 	}
 	
+	.category_wrap .btn_category, .search_area .btn_search_all {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
 	.main_spot_area {
 		border-bottom: 1px solid #404040;
 		background: #2f2f2f;
@@ -10612,12 +10806,10 @@
 	}
 	
 	.graph_area .labels .male .item {
-		background-position: -291px -107px;
 		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.graph_area .labels .female .item {
-		background-position: -291px -129px;
 		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
@@ -10979,35 +11171,120 @@
 
 @-moz-document url-prefix("https://terms.naver.com/print.nhn")
 {
-	html, head { background: #242424; }
-	#pop_header { border-bottom: 1px solid #404040; background: #242424; }
-	#pop_wrap { background: #242424; }
-	#pop_header .section_btn .btn_close, #pop_header .section_btn .btn_print, #pop_header h1 a.logo, #pop_header h1 a.service, #pop_footer a.btn_print2, #pop_footer a.btn_close2 { filter: invert(86%); }
+	html, head {
+		background: #242424;
+	}
+	
+	#pop_header {
+		border-bottom: 1px solid #404040;
+		background: #242424;
+	}
+	
+	#pop_wrap {
+		background: #242424;
+	}
+	
+	#pop_header .section_btn .btn_close, #pop_header .section_btn .btn_print, #pop_header h1 a.logo, #pop_header h1 a.service, #pop_footer a.btn_print2, #pop_footer a.btn_close2 {
+		filter: invert(86%);
+	}
 }
 
 @-moz-document url-prefix("https://terms.naver.com/claim.nhn"), url-prefix("https://terms.naver.com/claimList.nhn")
 {
-	html, head { background: #242424; }
-	#pop2_wrap, #pop2_header { background: #242424; }
-	.cont_type .tbl_type th { background: #242424; color: #cacaca; }
-	.cont_type .tbl_type td, .cont_type .tbl_type th { border-top: 1px solid #404040; }
-	.cont_type .info_area p, .cont_type .tbl_type td, .cont_type .tbl_type td strong { color: #cacaca; }
-	.cont_type .tab li.on { background: #242424; }
-	.cont_type .tab li.on a.m1 span { filter: invert(86%); }
-	.cont_type .tab li { border-left: 1px solid #404040; border-bottom: 1px solid #404040; background: #2f2f2f; }
-	.cont_type .tab li a.m2 span { filter: invert(83%); }
-	.cont_type .tbl_type { border-bottom: 1px solid #404040; }
-	.cont_type .tbl_type td .bx_scroll { border: 1px solid #404040; border-bottom: 1px solid #404040; color: #cacaca; background: #242424; }
-	.cont_type .tbl_type td input { color: #cacaca; background: #242424; border: 1px solid #404040; }
-	.cont_type .tbl_type td .btn, .cont_type .tbl_type td .help:before, #pop2_header h1 .logo, #pop2_header h1 .serv { filter: invert(86%); }
-	.cont_type .info_area .tit h3 strong, .cont_type .info_area .tit .source { color: #fff; }
-	.cont_type .tab li a.m1 span { filter: invert(83%); }
-	.cont_type .info_area .noti:before { filter: invert(86%); }
-	.cont_type .tbl_type2 th { border-left: 1px solid #404040; border-top: 1px solid #404040; }
-	.cont_type .tbl_type2 thead th { background: #242424; color: #cacaca; }
-	.cont_type .tbl_type2 { border: 1px solid #404040; }
-	.cont_type .tbl_type2 td { border-top: 1px solid #404040; border-left: 1px solid #404040; }
-	.cont_type .tbl_type2 tbody td { color: #cacaca; }
+	html, head {
+		background: #242424;
+	}
+	
+	#pop2_wrap, #pop2_header {
+		background: #242424;
+	}
+	
+	.cont_type .tbl_type th {
+		background: #242424;
+		color: #cacaca;
+	}
+	
+	.cont_type .tbl_type td, .cont_type .tbl_type th {
+		border-top: 1px solid #404040;
+	}
+	
+	.cont_type .info_area p, .cont_type .tbl_type td, .cont_type .tbl_type td strong {
+		color: #cacaca;
+	}
+	
+	.cont_type .tab li.on {
+		background: #242424;
+	}
+	
+	.cont_type .tab li.on a.m1 span {
+		filter: invert(86%);
+	}
+	
+	.cont_type .tab li {
+		border-left: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.cont_type .tab li a.m2 span {
+		filter: invert(83%);
+	}
+	
+	.cont_type .tbl_type {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cont_type .tbl_type td .bx_scroll {
+		border: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+		color: #cacaca;
+		background: #242424;
+	}
+	
+	.cont_type .tbl_type td input {
+		color: #cacaca;
+		background: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.cont_type .tbl_type td .btn, .cont_type .tbl_type td .help:before, #pop2_header h1 .logo, #pop2_header h1 .serv {
+		filter: invert(86%);
+	}
+	
+	.cont_type .info_area .tit h3 strong, .cont_type .info_area .tit .source {
+		color: #fff;
+	}
+	
+	.cont_type .tab li a.m1 span {
+		filter: invert(83%);
+	}
+	
+	.cont_type .info_area .noti:before {
+		filter: invert(86%);
+	}
+	
+	.cont_type .tbl_type2 th {
+		border-left: 1px solid #404040;
+		border-top: 1px solid #404040;
+	}
+	
+	.cont_type .tbl_type2 thead th {
+		background: #242424;
+		color: #cacaca;
+	}
+	
+	.cont_type .tbl_type2 {
+		border: 1px solid #404040;
+	}
+	
+	.cont_type .tbl_type2 td {
+		border-top: 1px solid #404040;
+		border-left: 1px solid #404040;
+	}
+	
+	.cont_type .tbl_type2 tbody td {
+		color: #cacaca;
+	}
 }
 
 @-moz-document url-prefix("https://terms.naver.com/list.nhn"), url-prefix("https://terms.naver.com/tag"), url-prefix("https://terms.naver.com/entry")

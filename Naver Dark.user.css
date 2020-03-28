@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.23.7
+@version		1.23.8
 @namespace		Avis Studio
 ==/UserStyle== */
 @-moz-document url-prefix("https://www.naver.com"), url-prefix("https://my.naver.com"), url-prefix("https://ui.nboard2.naver.com"), url-prefix("https://search.naver.com"), url-prefix("https://nid.naver.com"), url-prefix("https://castbox.shopping.naver.com"), url-prefix("https://section.cafe.naver.com"), url-prefix("https://talk.cafe.naver.com"), url-prefix("https://cafe.upphoto.naver.com"), url-prefix("https://cafe.naver.com/CafeMemberInfo.nhn"), url-prefix("https://section.blog.naver.com"), url-prefix("https://uploader1.nmv.naver.com"), url-prefix("https://up.cafe.naver.com"), url-prefix("https://datalab.naver.com"), url-prefix("https://www.navercorp.com"), url-prefix("https://mail.naver.com"), url-prefix("https://note.naver.com"), url-prefix("https://mashup.map.naver.com")  {
@@ -1611,6 +1611,10 @@
 
   .area_navigation .mn_comic:after {
     content: '웹툰';
+  }
+
+  .section_timesquare .type_weather .it_text {
+    color: #cacaca;
   }
 }
 
@@ -6236,7 +6240,7 @@
   }
 
   #wrap #header_wrap .search_area .special img {
-    filter: invert(85.5%);
+    filter: invert(85.5%) hue-rotate(-180deg);
   }
 
   .cs_suneung .sn_box {

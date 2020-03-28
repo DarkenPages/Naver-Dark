@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.23.7
+@version		1.23.8
 @namespace		Avis Studio
 ==/UserStyle== */
 
@@ -1164,6 +1164,10 @@
 	
 	.area_navigation .mn_comic:after {
 		content: '웹툰';
+	}
+	
+	.section_timesquare .type_weather .it_text {
+		color: #cacaca;
 	}
 }
 
@@ -4063,7 +4067,7 @@
 	}
 	
 	#wrap #header_wrap .search_area .special img {
-		filter: invert(85.5%);
+		filter: invert(85.5%) hue-rotate(-180deg);
 	}
 	
 	.cs_suneung .sn_box {

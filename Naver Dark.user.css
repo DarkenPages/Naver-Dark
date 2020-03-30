@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.23.8
+@version		1.23.10
 @namespace		Avis Studio
 ==/UserStyle== */
 @-moz-document url-prefix("https://www.naver.com"), url-prefix("https://my.naver.com"), url-prefix("https://ui.nboard2.naver.com"), url-prefix("https://search.naver.com"), url-prefix("https://nid.naver.com"), url-prefix("https://castbox.shopping.naver.com"), url-prefix("https://section.cafe.naver.com"), url-prefix("https://talk.cafe.naver.com"), url-prefix("https://cafe.upphoto.naver.com"), url-prefix("https://cafe.naver.com/CafeMemberInfo.nhn"), url-prefix("https://section.blog.naver.com"), url-prefix("https://uploader1.nmv.naver.com"), url-prefix("https://up.cafe.naver.com"), url-prefix("https://datalab.naver.com"), url-prefix("https://www.navercorp.com"), url-prefix("https://mail.naver.com"), url-prefix("https://note.naver.com"), url-prefix("https://mashup.map.naver.com")  {
@@ -6396,8 +6396,9 @@
   }
 
   .cs_newest .sct_content .ar_pgn .btn_more .ico_more,
-  .cs_newest .sct_content .ar_pgn .ly_info .btn_close .ico_close {
-    filter: invert(86%);
+  .cs_newest .sct_content .ar_pgn .ly_info .btn_close .ico_close,
+  .cs_newest .sct_content .ar_pgn .pgn a {
+    filter: invert(86%) hue-rotate(-180deg);
   }
 
   .cs_newest .sct_content .ar_pgn .ly_info {
@@ -8168,8 +8169,239 @@
 
   .cs_holiday .calendar,
   .checkbox-applied span.checkbox-mark,
-  .checkbox-applied span.checkbox-mark.checkbox-checked {
+  .checkbox-applied span.checkbox-mark.checkbox-checked,
+  .cs_broadcast.right .group_graph_wrap .btn_help,
+  .cs_broadcast .play_count .sp_icon {
     filter: invert(86%) hue-rotate(-180deg);
+  }
+
+  .cs_broadcast.right .group_graph_wrap .lst_hgraph .g_term a {
+    color: #fff;
+  }
+
+  .cs_broadcast .title_box {
+    background-color: #2f2f2f;
+    border: 1px solid #404040;
+    border-width: 1px 0;
+  }
+
+  .cs_broadcast .top_info {
+    border-bottom: 1px solid #404040;
+  }
+
+  .cs_broadcast .broadcast_wrap .detail_info > dd .date {
+    color: #cacaca !important;
+  }
+
+  .cs_broadcast .btn_area .btn_list li {
+    border: 1px solid #404040;
+    background-color: #2f2f2f;
+  }
+
+  .cs_broadcast .btn_area .btn_list li a {
+    color: #cacaca;
+  }
+
+  .cs_broadcast .btn_area .btn_list li a.like {
+    background-color: #2f2f2f;
+    color: #cacaca;
+  }
+
+  .cs_broadcast .broadcast_tab_wrap .tab_area {
+    background-color: #2f2f2f;
+    border: 1px solid #404040;
+    border-width: 1px 1px 0 1px;
+  }
+
+  .cs_broadcast .broadcast_tab_wrap .tab_list li a {
+    color: #cacaca;
+  }
+
+  .cs_broadcast .tab_contents_box .inner_contents {
+    border: 1px solid #404040;
+    border-width: 0 1px 1px 1px;
+  }
+
+  .cs_broadcast .tab_contents_box:before {
+    background-color: #404040;
+  }
+
+  .cs_broadcast .formula_video .tit a {
+    color: #fff;
+  }
+
+  .cs_broadcast .page_area {
+    background-color: #2f2f2f;
+    border-top: 1px solid #404040;
+  }
+
+  .cs_broadcast .paging_bx > a[class^=btn_page_] .ico_spr {
+    filter: invert(86%) hue-rotate(-180deg);
+  }
+
+  .cs_broadcast .character_box .actor_desc strong,
+  .cs_broadcast .turn_info_wrap .turn_detail_area .turn_detail_desc .episode_txt {
+    color: #cacaca;
+  }
+
+  .cs_broadcast .turn_info_wrap .turn_top_area {
+    border-bottom: 1px solid #404040;
+  }
+
+  .cs_broadcast .channel_info {
+    border-bottom: 1px solid #404040;
+  }
+
+  .cs_broadcast .bb-grid line {
+    stroke: #404040;
+  }
+
+  .cs_broadcast .rate_info_box li + li:before {
+    background-color: #404040;
+  }
+
+  .cs_broadcast .rate_info_box li em {
+    border: 1px solid #2d5dad;
+  }
+
+  .cs_broadcast .rate_info_box li.best_rating em {
+    border: 1px solid #515355;
+  }
+
+  .cs_broadcast .title_box .popup_subscribe {
+    background-color: #2f2f2f;
+    border: 1px solid #404040;
+  }
+
+  .cs_broadcast .title_box .popup_subscribe .title {
+    color: #fff;
+  }
+
+  .cs_broadcast .title_box .popup_subscribe .sub_desc {
+    color: #cacaca;
+  }
+
+  .cs_broadcast .title_box .popup_subscribe.cancel .btn_box a {
+    border: 1px solid #404040;
+    color: #cacaca;
+  }
+
+  .sp_tv .lst_tab {
+    border: 1px solid #404040;
+    border-width: 1px 1px 0 1px;
+    background-color: #2f2f2f;
+  }
+
+  .sp_tv .item_area {
+    border: 1px solid #404040;
+  }
+
+  .sp_tv .lst_tab li.on a {
+    border: 1px solid #404040;
+    color: #fff;
+    background-color: #3a3a3a;
+  }
+
+  .sp_tv .lst_tab li {
+    border-right: 1px solid #404040;
+  }
+
+  .sp_tv .tab_btn .sptv,
+  .sp_tv .dsc_info .sptv.ico_info,
+  .sp_tv .dsc_info .ico_area .logo img {
+    filter: invert(86%) hue-rotate(-180deg);
+  }
+
+  .cs_broadcast .broadcast_tab_wrap .btn_area .pg_btn,
+  .cs_broadcast .broadcast_tab_wrap .tab_area:before,
+  .cs_broadcast .broadcast_tab_wrap .tab_area:after {
+    filter: invert(81.2%) hue-rotate(-180deg);
+  }
+
+  .cs_tvtime .timeline_head {
+    border-left: 1px solid #404040;
+  }
+
+  .cs_tvtime .timeline_head .title_left {
+    border: 1px solid #404040;
+    border-width: 1px 0 1px 0;
+  }
+
+  .cs_tvtime .weekly .timeline_head .title_left {
+    border-color: #404040;
+  }
+
+  .cs_tvtime .weekly .timeline_body .program_list {
+    border-left: 1px solid #404040;
+  }
+
+  .cs_tvtime .weekly .timeline_body .program_list .ind_program {
+    border: 1px solid #404040;
+    border-width: 0 0 0 1px;
+  }
+
+  .cs_tvtime .weekly .timeline_body .program_list .item {
+    border: 1px solid #404040;
+    border-width: 1px 1px 0 1px;
+    border-left: 0;
+  }
+
+  .cs_tvtime .weekly .timeline_body {
+    border-right: 1px solid #404040;
+  }
+
+  .cs_tvtime .tvtime_wrap {
+    border: 1px solid #404040;
+    border-width: 0 0 1px;
+  }
+
+  .cs_tvtime .weekly .timeline_head .title_right .prev_btn,
+  .cs_tvtime .weekly .timeline_head .title_right .next_btn {
+    border: 1px solid #404040;
+    background-color: #2f2f2f;
+  }
+
+  .cs_tvtime .weekly .timeline_head .title_right .time_wrap > ul li {
+    border: 1px solid #404040;
+    border-width: 1px 0 1px 1px;
+    background: #2f2f2f;
+  }
+
+  .cs_tvtime .weekly .timeline_head .title_right .time_wrap > ul li > a {
+    color: #cacaca;
+  }
+
+  .cs_tvtime .other_info dl dt {
+    color: #fff;
+  }
+
+  .cs_tvtime .other_info {
+    border-top: 1px solid #404040;
+  }
+
+  .cs_tvtime .weekly .timeline_body .program_list .ind_program.today {
+    background-color: #2f2f2f;
+  }
+
+  .cs_tvtime .s_label,
+  .cs_tvtime .age_icon,
+  .cs_broadcast .graph_box .pg_btn_area .pg_btn,
+  .cs_newest .sct_top .top_content .btn_more {
+    filter: invert(86%) hue-rotate(-180deg);
+  }
+
+  .cs_tvtime .weekly .timeline_body .program_list .ind_program.today.on,
+  .cs_tvtime .weekly .timeline_body .program_list .ind_program.on {
+    background-color: #3a3a3a;
+  }
+
+  .cs_tvtime .notice_area:before,
+  .cs_broadcast .channel_info:before {
+    background-color: #404040;
+  }
+
+  .cs_broadcast .title_box .subscribe {
+    color: #cacaca;
   }
 }
 

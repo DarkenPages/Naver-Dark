@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.23.20
+@version		1.23.23
 @namespace		Avis Studio
 @license		MIT
 ==/UserStyle== */
@@ -8613,6 +8613,183 @@
 
   .cs_production_type .step_area .title {
     border-top: 1px solid #404040;
+  }
+
+  .cs_economy_chart .chart_content_box {
+    border: 1px solid #404040;
+  }
+
+  .cs_economy_chart .tab_area:before,
+  .cs_economy_chart .tab_area:after,
+  .cs_economy_chart .tab_area .pg_btn {
+    filter: invert(86%);
+  }
+
+  .cs_economy_chart .tab_list li a {
+    color: #cacaca;
+  }
+
+  .cs_economy_chart .tab_area + div .chart_area,
+  .cs_economy_chart .sub_tab_list {
+    border-top: 1px solid #404040;
+  }
+
+  .cs_economy_chart .summary_area .summary_text strong,
+  .cs_economy_chart .sub_tab_list .tab[aria-selected="true"] a {
+    color: #fff;
+  }
+
+  .cs_economy_chart .graph_box {
+    background-color: #2f2f2f;
+    border-top: 1px solid #404040;
+  }
+
+  .cs_economy_chart .chart_area .graph_box .y_title {
+    background-color: #2f2f2f;
+  }
+
+  .cs_economy_chart .chart_area .graph_box .y_title:after,
+  .cs_economy_chart .graph_inner .scroll_wrapper:after {
+    background-color: #404040;
+  }
+
+  .cs_economy_chart .bb-custom-background {
+    fill: #242424;
+  }
+
+  .cs_economy_chart .bb-ygrid-line line,
+  .cs_economy_chart .bb-custom-tick-line {
+    stroke: #404040 !important;
+  }
+
+  .cs_economy_chart .comment_area {
+    background-color: #242424;
+    border-top: 1px solid #404040;
+  }
+
+  .cs_economy_chart .comment_area .desp_title {
+    color: #fff !important;
+  }
+
+  .cs_economy_chart .comment_area .desp_word {
+    color: #cacaca;
+  }
+
+  .cs_economy_chart .comment_area .table_area table tr th {
+    background-color: #2f2f2f;
+    border-left: 1px solid #404004;
+    color: #cacaca;
+  }
+
+  .cs_economy_chart .comment_area .table_area {
+    border-top: 1px solid #404040;
+    border-bottom: 1px solid #404040;
+  }
+
+  .cs_economy_chart .comment_area .table_area table tr td {
+    border: 1px solid #404040;
+    border-width: 1px 0 0 1px;
+  }
+
+  .cs_economy_chart .page_area .btn_page {
+    border: 1px solid #404040;
+    background-color: #242424;
+  }
+
+  .cs_economy_chart .notice_desp:after {
+    background-color: #404040;
+  }
+
+  .cs_economy_chart .notice_desp .ico_q {
+    filter: invert(86%) hue-rotate(-180deg);
+  }
+
+  .cs_economy_chart .other_info {
+    border-top: 1px solid #404040;
+  }
+
+  .cs_economy_chart .other_info dl dt {
+    color: #fff !important;
+  }
+
+  .cs_economy_chart .other_info dl dd a {
+    color: #7474e3;
+  }
+
+  .cs_economy_chart .sub_tab_list .tab + .tab:after {
+    background-color: #404040;
+  }
+
+  .cs_economy_chart .bb-custom-axis-y-label tspan,
+  .cs_economy_chart .bb-custom-axis-y2-label tspan,
+  .cs_economy_chart .bb-axis-y .tick text,
+  .cs_economy_chart .bb-axis-y2 .tick text,
+  .cs_economy_chart .bb-axis-x .tick text,
+  .cs_economy_chart .graph_box .legend_area li {
+    fill: #cacaca !important;
+  }
+
+  .cs_economy_chart .graph_box .legend_area li {
+    color: #cacaca !important;
+  }
+
+  .cs_economy_chart .bb-tooltip-container {
+    border: 1px solid #404040;
+    background-color: #2f2f2f;
+  }
+
+  .cs_economy_chart .bb-tooltip-container .title_tooltip {
+    background-color: #2f2f2f;
+    color: #cacaca;
+  }
+
+  .cs_economy_chart .bb-tooltip-container .bb-tooltip li > span {
+    background-color: #2f2f2f;
+  }
+
+  .cs_economy_chart .bb-tooltip-container .bb-tooltip li > span.name {
+    color: #cacaca;
+  }
+
+  .cs_economy_chart .bb-tooltip-container .bb-tooltip li > span.value {
+    color: #fff;
+  }
+
+  .cs_economy_chart .error_area .tit_message {
+    color: #fff;
+  }
+
+  .cs_economy_chart .graph_box .right_notice {
+    border-top: 1px solid #404040;
+    color: #cacaca;
+  }
+
+  .cs_economy_chart .graph_box .loading_area .loading_ico img {
+    filter: invert(81.5%);
+  }
+
+  .cs_economy_chart .graph_inner .graph_page .arrow_btn {
+    filter: invert(81.5%) hue-rotate(-180deg);
+  }
+
+  .cs_economy_chart .tab_area + div .data_table {
+    border-top: 1px solid #404040;
+  }
+
+  .cs_economy_chart .data_table .head_table tr th {
+    border: 1px solid #404040;
+    border-width: 1px 0 1px 1px;
+    background-color: #2f2f2f;
+    color: #cacaca;
+  }
+
+  .cs_economy_chart .data_table .body_table tr td {
+    border: 1px solid #404040;
+    border-width: 1px 0 0 1px;
+  }
+
+  .cs_economy_chart .data_table .body_table {
+    border-bottom: 1px solid #404040;
   }
 }
 

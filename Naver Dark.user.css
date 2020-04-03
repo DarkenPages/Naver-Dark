@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.23.23
+@version		1.24.12
 @namespace		Avis Studio
 @license		MIT
 ==/UserStyle== */
@@ -8790,6 +8790,650 @@
 
   .cs_economy_chart .data_table .body_table {
     border-bottom: 1px solid #404040;
+  }
+
+  .cs_general_election .election_content .election_area {
+    border: 1px solid #404040;
+    border-width: 0 1px 1px;
+  }
+
+  .cs_general_election .detail_info dd {
+    color: #cacaca;
+  }
+
+  .cs_general_election .ele_btn_area .ele_info_btn {
+    border: 1px solid #404040;
+    color: #7474e3;
+  }
+
+  .cs_general_election .ele_info_btn em:before,
+  .cs_general_election .ele_timeline .ele_inner .time_list:before {
+    filter: invert(86%) hue-rotate(-180deg);
+  }
+
+  .cs_general_election .ele_timeline .ele_inner:before,
+  .cs_general_election .ele_timeline .ele_inner .inner:after,
+  .cs_general_election .info_txt:before {
+    background-color: #404040;
+  }
+
+  .cs_general_election .ele_inner .time_list p {
+    color: #cacaca;
+  }
+
+  .cs_general_election .ele_timeline .ele_inner .inner.selected,
+  .cs_general_election .ele_timeline .ele_inner .inner.d_day {
+    background-color: #2f2f2f;
+  }
+
+  .cs_general_election .sub_tab_area .type_main {
+    border: 1px solid #404040;
+    border-width: 0 1px 0;
+    border-bottom: 1px solid #404040;
+  }
+
+  .cs_general_election .sub_tab_area .type_main .tab_list .tab[aria-selected="true"] a {
+    color: #cacaca;
+  }
+
+  .cs_general_election .polls_tab_area,
+  .cs_general_election .info_select {
+    background-color: #242424;
+  }
+
+  .cs_general_election .select_box {
+    border: 1px solid #404040;
+    background-color: #242424;
+  }
+
+  .cs_general_election .btn_select {
+    color: #cacaca;
+  }
+
+  .cs_general_election .btn_polls .btn_pollssave,
+  .cs_general_election .btn_polls.on .btn_pollssave {
+    background-color: #242424;
+    border: 1px solid #404040;
+    color: #cacaca;
+  }
+
+  .cs_general_election .notice_area .notice_txt em {
+    color: #fff;
+  }
+
+  .cs_general_election .select_box .list_select {
+    background: #2f2f2f;
+    border: 1px solid #404040;
+  }
+
+  .cs_general_election .list_select ul li a {
+    color: #cacaca;
+  }
+
+  .cs_general_election .my_local_candidate .candidate_search_area {
+    border-top: 1px solid #404040;
+  }
+
+  .cs_general_election .candidate_search_area .search_result .search_all + .search_list_area {
+    background: #242424;
+  }
+
+  .cs_general_election .search_list .list_item .item_box .party .party_txt {
+    color: #cacaca;
+  }
+
+  .cs_general_election .search_list .list_item .item_box .thumb_box .thumb .mask {
+    filter: invert(86%);
+  }
+
+  .cs_general_election .my_local_candidate .polls_tab .notice_area .title_txt {
+    color: #fff;
+  }
+
+  .cs_general_election .save .btn_polls.on .btn_pollssave {
+    background-color: #019341;
+    border: 1px solid #019341;
+    color: #242424;
+  }
+
+  .cs_general_election .pop_ly_info {
+    background-color: #2f2f2f;
+    border: 1px solid #404040;
+  }
+
+  .cs_general_election .pop_ly_info .notice_txt {
+    color: #cacaca;
+  }
+
+  .cs_general_election .sub_tab_area .type_main .tab_list .tab + .tab:before {
+    border-left: 1px solid #404040;
+  }
+
+  .cs_general_election .sub_tab ul li {
+    background: #242424;
+    border: 1px solid #404040;
+  }
+
+  .cs_general_election .sub_tab ul li[role="tab"][aria-selected="true"] {
+    background: #2f2f2f;
+  }
+
+  .cs_general_election .sub_tab ul li a {
+    color: #cacaca;
+  }
+
+  .cs_general_election .sub_tab ul li[role="tab"][aria-selected="true"] a {
+    color: #9285d4;
+  }
+
+  .cs_general_election .notice_area.proportional .notice_txt + .notice_txt,
+  .cs_general_election .candidate_search_area {
+    border-top: 1px solid #404040;
+  }
+
+  .cs_general_election .error_area .ico_err {
+    filter: invert(86%) hue-rotate(-180deg);
+  }
+
+  .cs_general_election .page_area {
+    background: #2f2f2f;
+    border-top: 1px solid #404040;
+  }
+
+  .cs_general_election a[class^=btn_page_] {
+    background-color: #242424;
+    border: 1px solid #404040;
+  }
+
+  .cs_general_election .voting_info .voting_box .info_text {
+    color: #fff;
+  }
+
+  .cs_general_election .voting_info .outline_info dd {
+    color: #cacaca;
+  }
+
+  .cs_general_election .voting_info {
+    border-bottom: 1px solid #404040;
+  }
+
+  .cs_general_election .early_voting .voting_process .process_area.v2 {
+    border-left: 1px solid #404040;
+  }
+
+  .cs_general_election .early_voting .voting_process .process_area .process_top {
+    border-bottom: 1px solid #404040;
+  }
+
+  .cs_general_election .voting_process .process_top,
+  .cs_general_election .voting_process .process_list ul li,
+  .cs_general_election .code_conduct_area .code_conduct ul li {
+    color: #cacaca;
+  }
+
+  .cs_general_election .voting_process .process_top strong,
+  .cs_general_election .view_link .notice_area .notice_txt em,
+  .cs_general_election .code_conduct_area .code_conduct strong {
+    color: #fff;
+  }
+
+  .cs_general_election .view_link:before,
+  .cs_general_election .code_conduct_area .code_conduct {
+    border-top: 1px solid #404040;
+  }
+
+  .cs_general_election .polls_input input {
+    background-color: #242424;
+    border: 1px solid #404040;
+    background: none;
+    color: #cacaca;
+  }
+
+  .cs_general_election .polls_input {
+    background-color: #242424;
+  }
+
+  .cs_general_election .btn_polls .btn_pollssearch {
+    background-color: #019341;
+    border: 1px solid #019341;
+    color: #242424;
+  }
+
+  .cs_general_election .polls_search:before,
+  .cs_general_election .polls_search .search_table .table_list .list_item {
+    border-top: 1px solid #404040;
+  }
+
+  .cs_general_election .polls_search .search_table .table_list .list_item .item_box .polls,
+  .cs_general_election .polls_search .search_table .table_list .list_item .item_box .place .title_link,
+  .cs_general_election .issue_area .issue_box .item .item_title {
+    color: #fff;
+  }
+
+  .cs_general_election .polls_search .search_table .table_list .list_item .item_box .btn .ico,
+  .cs_general_election .polls_search .search_table .facilities_info li,
+  .cs_reby_election .election_banner .ele_icon,
+  .cs_reby_election .election_timeline ul li .time_list:before,
+  .cs_reby_election .election_timeline ul li:after {
+    filter: invert(86%) hue-rotate(-180deg);
+  }
+
+  .cs_general_election .voting .voting_process .process_area .process_list ul li,
+  .cs_general_election .issue_area .issue_box .item .item_detail {
+    color: #cacaca;
+  }
+
+  .cs_reby_election .election_box {
+    border: 1px solid #404040;
+  }
+
+  .cs_reby_election .election_title {
+    background-color: #2f2f2f;
+    border-bottom: 1px solid #404040;
+  }
+
+  .cs_reby_election .election_info .detail_info dd {
+    color: #cacaca;
+  }
+
+  .cs_reby_election .election_banner {
+    border: 1px solid #404040;
+  }
+
+  .cs_reby_election .tab_area {
+    border-top: 1px solid #404040;
+  }
+
+  .cs_reby_election .tab_area .main_tab .tab_list li[aria-selected="true"] a {
+    color: #fff;
+  }
+
+  .cs_reby_election .tab_area .main_tab .tab_list li a,
+  .cs_reby_election .election_timeline ul li .time_list p {
+    color: #cacaca;
+  }
+
+  .cs_reby_election .tab_area .main_tab {
+    border-bottom: 1px solid #404040;
+  }
+
+  .cs_reby_election .election_timeline ul li.selected,
+  .cs_reby_election .election_timeline ul li.d_day {
+    background-color: #2f2f2f;
+  }
+
+  .cs_reby_election .rel_area:before {
+    background-color: #404040;
+  }
+
+  .cs_reby_election .tab_area .sub_tab {
+    background-color: #2f2f2f;
+    border-bottom: 1px solid #404040;
+  }
+
+  .cs_reby_election .tab_area .sub_tab .tab_list li[aria-selected="true"] a {
+    color: #fff;
+  }
+
+  .cs_reby_election .election_area table th {
+    border: 1px solid #404040;
+    border-width: 1px 1px 1px 0;
+    background-color: #2f2f2f;
+    color: #cacaca;
+  }
+
+  .cs_reby_election .election_area table tbody td {
+    border-bottom: 1px solid #404040;
+  }
+
+  .cs_reby_election .election_area table tbody td + td {
+    border-left: 1px solid #404040;
+  }
+
+  .cs_reby_election .alert_popup .ly_info {
+    background-color: #2f2f2f;
+    border: 1px solid #404040;
+  }
+
+  .cs_reby_election .alert_popup .ly_info .text,
+  .cs_general_election .description dd {
+    color: #cacaca;
+  }
+
+  .cs_general_election .general_election_wrap {
+    border: 1px solid #404040;
+  }
+
+  .cs_general_election .title_wrap {
+    background-color: #2f2f2f;
+    border-bottom: 1px solid #404040;
+  }
+
+  .cs_general_election .election_box .top_graph,
+  .cs_general_election .election_box .bottom_graph,
+  .cs_general_election .election_box .area_right .bg_map img {
+    filter: invert(86%) hue-rotate(-180deg);
+  }
+
+  .cs_general_election .result_ly {
+    border: 1px solid #404040;
+    background-color: #2f2f2f;
+  }
+
+  .cs_general_election .result_ly > strong {
+    color: #fff;
+  }
+
+  .cs_general_election .result_ly .close_btn {
+    filter: invert(81.5%);
+  }
+
+  .cs_general_election .election_box .area_right .graph_title dt {
+    color: #cacaca !important;
+  }
+
+  .cs_general_election .info_wrap a {
+    color: #7474e3;
+  }
+
+  .cs_general_election .info_wrap:after {
+    background-color: #404040;
+  }
+
+  .cs_general_election .title_wrap .option_bx .list_select {
+    border: 1px solid #404040;
+    background: #2f2f2f;
+  }
+
+  .cs_general_election .title_wrap .option_bx .list_select ul li a {
+    color: #cacaca;
+  }
+
+  .cs_voting_rate .voting_rate_bx {
+    border: 1px solid #404040;
+    background: #2f2f2f;
+  }
+
+  .cs_voting_rate .table_bx {
+    border: 1px solid #404040;
+    border-width: 0 1px 1px;
+  }
+
+  .cs_voting_rate .table_bx .table_title {
+    color: #fff;
+  }
+
+  .cs_voting_rate .table_bx .table_header table th {
+    background-color: #2f2f2f;
+    border: 1px solid #404040;
+    border-width: 1px 1px 0 0;
+    color: #cacaca;
+  }
+
+  .cs_voting_rate .table_bx .table_content {
+    border: 1px solid #404040;
+  }
+
+  .cs_voting_rate .table_bx .table_body table th,
+  .cs_voting_rate .table_bx .table_body table td {
+    color: #cacaca;
+    border: 1px solid #404040;
+  }
+
+  .cs_voting_rate .table_bx .table_body table th {
+    border-width: 0 0 1px 1px;
+  }
+
+  .cs_voting_rate .table_bx .sub_option .btn_option[aria-selected=true] {
+    color: #fff;
+  }
+
+  .cs_voting_rate .page_area .paging_bx a[class^=btn_page_],
+  .cs_voting_rate .voting_rate_bx .graph_bx {
+    filter: invert(86%) hue-rotate(-180deg);
+  }
+
+  .cs_voting_rate .table_bx .table_body table td {
+    border-width: 0 0 0 1px;
+  }
+
+  .cs_voting_rate .legend_info li,
+  .cs_voting_rate .voting_rate_bx .graph_legend li {
+    color: #cacaca;
+  }
+
+  .cs_voting_rate .info_wrap a {
+    color: #7474e3;
+  }
+
+  .cs_voting_rate .info_wrap:after {
+    background-color: #404040;
+  }
+
+  .cs_president_list .president_wrap {
+    border: 1px solid #404040;
+  }
+
+  .cs_president_list .title_wrap {
+    background-color: #2f2f2f;
+    border-bottom: 1px solid #404040;
+  }
+
+  .cs_president_list .description dd {
+    color: #cacaca;
+  }
+
+  .cs_president_list .description {
+    border-bottom: 1px solid #404040;
+  }
+
+  .cs_president_list .result_bx .result_title {
+    color: #fff;
+  }
+
+  .cs_president_list .result_list .dtail_bx .party,
+  .cs_president_list .result_list .dtail_bx .vote {
+    color: #cacaca;
+  }
+
+  .cs_president_list .page_area .paging_bx a[class^=btn_page_] {
+    border: 1px solid #404040;
+    background-color: #242424;
+  }
+
+  .cs_president_list .region_vote .map_bx {
+    border-right: 1px solid #404040;
+  }
+
+  .cs_president_list .region_vote,
+  .cs_president_list .region_vote .legend_bx {
+    border-top: 1px solid #404040;
+  }
+
+  .cs_president_list .region_vote .vote_list_bx .vote_list .region {
+    color: #fff;
+  }
+
+  .cs_president_list .region_vote .vote_list_bx .vote_list .candidate .name {
+    color: #cacaca;
+  }
+
+  .cs_president_list .region_vote .vote_list_bx .vote_list .bx {
+    border-bottom: 1px solid #404040;
+  }
+
+  .cs_president_list .info_wrap:after {
+    background-color: #404040;
+  }
+
+  .cs_president_list .info_wrap a {
+    color: #7474e3;
+  }
+
+  .cs_president_list .region_vote .map_bx .map_title {
+    color: #fff;
+  }
+
+  .cs_president_list .region_vote .map_bx .map_img img {
+    filter: invert(86%) hue-rotate(-180deg);
+  }
+
+  .cs_president_list .region_vote .map_bx:after {
+    border: 1px solid #404040;
+    border-width: 1px 1px 0 1px;
+  }
+
+  .cs_president_list .title_wrap .option_bx .list_select {
+    border: 1px solid #404040;
+    background: #2f2f2f;
+  }
+
+  .cs_president_list .title_wrap .option_bx .list_select ul li a {
+    color: #cacaca;
+  }
+
+  .cs_president_list .graph_wrap .graph_title {
+    color: #fff;
+  }
+
+  .cs_president_list .graph_wrap .candidate .dtail_bx .name a {
+    color: #7474e3;
+  }
+
+  .cs_president_list .graph_wrap .candidate .dtail_bx .rank {
+    color: #cacaca;
+    border: 1px solid #404040;
+  }
+
+  .cs_president_list .graph_wrap .candidate .dtail_bx .party,
+  .cs_president_list .graph_wrap .graph_bx .value_info li {
+    color: #cacaca;
+  }
+
+  .cs_president_list .graph_wrap .graph_bx .graph .inner {
+    color: #242424;
+  }
+
+  .cs_president_list .graph_wrap .bx {
+    border-bottom: 1px solid #404040;
+  }
+
+  .cs_president_list .graph_wrap .graph_bx .graph .inner:after {
+    background-color: #404040;
+  }
+
+  .cs_president_list .graph_wrap .candidate .dtail_bx .rank.win {
+    color: #242424;
+  }
+
+  .cs_region_election .region_election_area .election_area {
+    border: 1px solid #404040;
+  }
+
+  .cs_region_election .region_election_area .election_area .election_title_area {
+    border-bottom: 1px solid #404040;
+    background-color: #2f2f2f;
+  }
+
+  .cs_region_election .option_bx .select_link .ico {
+    filter: invert(81.5%);
+  }
+
+  .cs_region_election .detail_info dd {
+    color: #cacaca;
+  }
+
+  .cs_region_election .region_election_area .election_area .election_title_area .option_bx .list_select {
+    background: #2f2f2f;
+    border: 1px solid #404040;
+  }
+
+  .cs_region_election .region_election_area .election_area .election_title_area .option_bx .list_select ul li a {
+    color: #cacaca;
+  }
+
+  .cs_region_election .second_area .governor_graph_bar {
+    border: 1px solid #404040;
+    border-width: 1px 0 0 0;
+  }
+
+  .cs_region_election .second_area .governor_graph_bar.before_l {
+    border-width: 0 1px 0 0;
+    border-color: #404040;
+  }
+
+  .cs_region_election .graph_info {
+    border-top: 1px solid #404040;
+  }
+
+  .cs_region_election .info_txt:before {
+    background-color: #404040;
+  }
+
+  .cs_region_election .info_txt .relation_link dd a {
+    color: #7474e3;
+  }
+
+  .cs_region_election .second_area .second_map,
+  .cs_region_election .first_area .graph_map,
+  .cs_region_election .region_election_area .arrow_btn .next_btn .next_arrow,
+  .cs_region_election .region_election_area .arrow_btn .before_btn span.before_arrow {
+    filter: invert(86%) hue-rotate(-180deg);
+  }
+
+  .cs_region_election .region_election_area .arrow_btn .next_btn {
+    background-color: #242424;
+    border: 1px solid #404040;
+    border-right: 0;
+  }
+
+  .cs_region_election .region_election_area .arrow_btn .before_btn {
+    background-color: #242424;
+    border: 1px solid #404040;
+    border-left: 0;
+  }
+
+  .cs_region_election .second_area .governor_graph_bar.mayor_l {
+    border: 1px solid #404040;
+    border-width: 0 1px 0 0;
+  }
+
+  .cs_region_election .first_area .governor_graph_bar {
+    border: 1px solid #242424;
+    border-width: 0 1px 0 0;
+  }
+
+  .cs_by_election .by_election_content {
+    border: 1px solid #404040;
+  }
+
+  .cs_by_election .by_election_info table thead th {
+    color: #cacaca;
+    background-color: #2f2f2f;
+    border: 1px solid #404040;
+    border-width: 1px 1px 1px 0;
+  }
+
+  .cs_by_election .by_election_info table tbody th,
+  .cs_by_election .by_election_info table tbody td {
+    border-bottom: 1px solid #404040;
+  }
+
+  .cs_by_election .by_election_info table tbody td + td {
+    border-left: 1px solid #404040;
+  }
+
+  .cs_by_election .by_election_info table tbody th {
+    border-right: 1px solid #404040;
+  }
+
+  .cs_by_election .page_area {
+    border-top: 1px solid #404040;
+    background: #2f2f2f;
+  }
+
+  .cs_by_election .rel_area:before {
+    background-color: #404040;
   }
 }
 

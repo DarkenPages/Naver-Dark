@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.24.12
+@version		1.24.14
 @namespace		Avis Studio
 @license		MIT
 ==/UserStyle== */
@@ -9435,6 +9435,41 @@
   .cs_by_election .rel_area:before {
     background-color: #404040;
   }
+
+  .cs_minimum_wages .minimum_wages_wrap {
+    border: 1px solid #404040;
+  }
+
+  .cs_minimum_wages .info_area dl dd {
+    color: #cacaca;
+  }
+
+  .cs_minimum_wages .other_info dl dd a {
+    color: #7474e3;
+  }
+
+  .cs_minimum_wages .tb_area .wage_table thead th {
+    background-color: #2f2f2f;
+    color: #cacaca;
+  }
+
+  .cs_minimum_wages .tb_area .wage_table tbody tr td {
+    border-top: 1px solid #404040;
+  }
+
+  .cs_minimum_wages .tb_area .wage_table tbody tr td + td,
+  .cs_minimum_wages .tb_area .wage_table thead th + th {
+    border-left: 1px solid #404040;
+  }
+
+  .cs_minimum_wages .tb_area .wage_table {
+    border: 1px solid #404040;
+    border-width: 1px 0;
+  }
+
+  .cs_minimum_wages .subinfo_box:before {
+    background-color: #404040;
+  }
 }
 
 @-moz-document url-prefix("https://nid.naver.com/user2/help/")  {
@@ -16438,7 +16473,11 @@
   }
 
   .table_layout1 tr:first-child .se_cell {
-    background-color: #2f2f2f;
+    background-color: #2f2f2f !important;
+  }
+
+  .table_layout1 tr .se_cell:first-child {
+    background-color: #2f2f2f !important;
   }
 
   .table_layout1 .se_table_col,

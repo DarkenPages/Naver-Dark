@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.24.14
+@version		1.25.12
 @namespace		Avis Studio
 @license		MIT
 ==/UserStyle== */
@@ -1009,9 +1009,6 @@
 
   .area_logo .special_img {
     filter: invert(85.5%) hue-rotate(-180deg);
-    position: absolute;
-    width: 198px;
-    height: 48px;
   }
 
   .profile .my_service .btn_logout:hover {
@@ -1068,24 +1065,32 @@
     background: none !important;
   }
 
-  .area_logo h1.special {
-    top: 50%;
-    left: -2px;
-    margin-top: -25px;
-  }
-
-  .area_logo h1.special:after {
-    content: '';
-    display: block;
-    overflow: hidden;
-    width: 198px;
-    height: 48px;
-    background-image: linear-gradient(transparent, transparent), url(https://s.pstatic.net/static/www/img/uit/2019/sp_search.svg);
-    background-repeat: no-repeat;
-    background-position: -4px -4px;
-    text-indent: 101%;
-    white-space: nowrap;
-  }
+  /*
+	.area_logo h1.special {
+		top: 50%;
+		left: -2px;
+		margin-top: -25px;
+	}
+	
+	.area_logo .special_img {
+		position: absolute;
+		width: 530px;
+		height: 170px;
+	}
+	
+	.area_logo h1.special:after {
+		content: '';
+		display: block;
+		overflow: hidden;
+		width: 198px;
+		height: 48px;
+		background-image: linear-gradient(transparent, transparent), url(https://s.pstatic.net/static/www/img/uit/2019/sp_search.svg);
+		background-repeat: no-repeat;
+		background-position: -4px -4px;
+		text-indent: 101%;
+		white-space: nowrap;
+	}
+	*/
 
   .area_newsstand .api_pbs_btn:hover,
   .section_svcmore .ss_btn_svcall:hover,
@@ -1624,6 +1629,10 @@
 
   .area_hotkeyword .ah_roll .ah_e+.ah_k {
     color: #fff;
+  }
+
+  .search .ico_search_submit {
+    filter: invert(86%);
   }
 }
 
@@ -9470,6 +9479,11 @@
   .cs_minimum_wages .subinfo_box:before {
     background-color: #404040;
   }
+
+  .academic .type01 .afiles,
+  .academic .type01 .alibry {
+    filter: invert(86%) hue-rotate(-180deg);
+  }
 }
 
 @-moz-document url-prefix("https://nid.naver.com/user2/help/")  {
@@ -13521,6 +13535,10 @@
 
   #content-area .box-reply2 .m-tcol-c.inspect_comment a {
     color: #242424 !important;
+  }
+
+  .article-board .pers_nick_area .mem-level img {
+    filter: invert(86%) hue-rotate(-180deg);
   }
 }
 
@@ -26850,6 +26868,19 @@
     border: 1px solid #404040;
     background-color: #2f2f2f;
   }
+
+  .u_cbox .u_cbox_notice {
+    background-color: #404040;
+    border: 1px solid #404040;
+  }
+
+  .u_cbox .u_cbox_notice .u_cbox_notice_tit {
+    color: #fff;
+  }
+
+  .u_cbox .u_cbox_notice .u_cbox_con_notice {
+    color: #cacaca;
+  }
 }
 
 @-moz-document url-prefix("https://srp.naver.com"), url-prefix("http://srp.naver.com")  {
@@ -31580,5 +31611,242 @@
   .ly_setting_wrap .setting_info > a,
   .ly_setting_wrap .btn_toggle {
     filter: invert(86%) hue-rotate(-180deg);
+  }
+}
+
+@-moz-document url-prefix("https://nid.naver.com/user2/V2Join.nhn")  {
+  :root .input_chk label:before {
+    filter: invert(87%) hue-rotate(-180deg);
+  }
+
+  .input_chk label {
+    color: #cacaca;
+  }
+
+  .terms_box {
+    background: #242424;
+    border: 1px solid #404040;
+  }
+
+  .terms_box .article,
+  .article,
+  .policy_summary {
+    color: #cacaca;
+  }
+
+  .easy_guide {
+    background: #2f2f2f;
+    border: 1px solid #019341;
+  }
+
+  .join_mobile .int_mobile_area .btn_verify,
+  .btn_primary {
+    color: #242424;
+  }
+
+  .btn_primary {
+    background: #019341;
+    color: #242424 !important;
+  }
+
+  a.btn_group_join:hover,
+  a.btn_group_join:visited {
+    color: #fff;
+  }
+
+  .ps_box,
+  .ps_box_disable {
+    background: #242424;
+    border: 1px solid #404040;
+  }
+
+  .join_mobile .ps_box_disable,
+  .join_mobile .ps_box_disable input {
+    background: #2f2f2f;
+  }
+
+  .btn_default {
+    background-color: #2f2f2f;
+  }
+
+  .btn_area>span .btn_type {
+    color: #cacaca;
+  }
+}
+
+@-moz-document url-prefix("https://nid.naver.com/user2/join/groupJoin.nhn")  {
+  #header .lang .sl_box,
+  :root .group_agr .agr_inwrap label:after {
+    filter: invert(86%) hue-rotate(-180deg);
+  }
+
+  .terms_p {
+    border: 1px solid #404040;
+    background: #2f2f2f;
+  }
+
+  .input_chk label {
+    color: #cacaca;
+  }
+
+  :root .input_chk label:after {
+    filter: invert(81.5%) hue-rotate(-180deg);
+  }
+
+  .terms_box {
+    border: 1px solid #404040;
+    background: #242424;
+  }
+
+  .article,
+  .policy_summary {
+    color: #cacaca;
+  }
+
+  .group_agr .agr_inwrap .txt {
+    color: #cacaca;
+  }
+
+  .btn_default {
+    color: #242424;
+    background-color: #2f2f2f;
+    border: 1px solid #404040;
+  }
+
+  .btn_area>span .btn_type {
+    color: #cacaca;
+  }
+
+  .terms_bx_list {
+    border-top: 1px solid #404040;
+  }
+
+  .btn_primary {
+    color: #242424 !important;
+    background-color: #019341;
+    border: 1px solid #019341;
+  }
+
+  .gr_title {
+    color: #fff;
+  }
+
+  .join_row {
+    border-top: 1px solid #404040;
+    background: #242424;
+  }
+
+  .row_group {
+    background: #242424;
+    border: 1px solid #404040;
+  }
+
+  .ps_box {
+    background: none;
+  }
+
+  .ps_box:after {
+    content: '';
+    background: #242424 url(https://static.nid.naver.com/images/ui/join/pc_ico_join3_20170905.png) 100% 0 no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    filter: invert(86%) hue-rotate(-180deg);
+  }
+
+  .ps_box.int_id:after {
+    background-position: 100% -57px;
+  }
+
+  .ps_box.int_pass:after {
+    background-position: 100% -476px;
+  }
+
+  .ps_box.int_pass_step1:after {
+    background-position: 100% -126px;
+  }
+
+  .ps_box.int_pass_step2:after {
+    background-position: 100% -196px;
+  }
+
+  .ps_box.int_pass_step3:after {
+    background-position: 100% -266px;
+  }
+
+  .ps_box.int_pass_step4:after {
+    background-position: 100% -336px;
+  }
+
+  .ps_box.int_pass_check:after {
+    background-position: 100% -525px;
+  }
+
+  .ps_box.int_pass_check2:after {
+    background-position: 100% -406px;
+  }
+
+  html[lang=en] .ps_box.int_pass_step1:after {
+    background-position: 100% -631px;
+  }
+
+  html[lang=en] .ps_box.int_pass_step2:after {
+    background-position: 100% -701px;
+  }
+
+  html[lang=en] .ps_box.int_pass_step3 {
+    background-position: 100% -771px;
+  }
+
+  html[lang=en] .ps_box.int_pass_step4 {
+    background-position: 100% -841px;
+  }
+
+  .join_mobile .country_code .sel_value {
+    color: #cacaca;
+  }
+
+  .join_mobile .country_code .sel_value:after {
+    filter: invert(86%) hue-rotate(-180deg);
+  }
+
+  .join_mobile .country_code {
+    border-right: 1px solid #404040;
+  }
+
+  .btn_c {
+    border: 1px solid #404040;
+    background: #2f2f2f;
+  }
+
+  .join_row .sel_box:after {
+    right: 4px;
+    left: initial;
+  }
+
+  input:-ms-input-placeholder {
+    color: #aaaaaa;
+  }
+
+  input::-webkit-input-placeholder {
+    color: #aaaaaa;
+  }
+
+  input::-moz-placeholder {
+    color: #aaaaaa;
+  }
+
+  #header .h_logo {
+    background: none;
+    background-image: url(https://static.nid.naver.com/images/ui/join/m_naver_logo_20191126.png);
+    widht: 240px
+	
+		height: 44px;
+    background-position: 0 0;
+    background-size: 240px auto;
+    margin: 0 auto;
+    overflow: hidden;
   }
 }

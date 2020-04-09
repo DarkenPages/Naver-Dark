@@ -1,11 +1,11 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.25.12
+@version		1.25.22
 @namespace		Avis Studio
 @license		MIT
 ==/UserStyle== */
-@-moz-document url-prefix("https://www.naver.com"), url-prefix("https://my.naver.com"), url-prefix("https://ui.nboard2.naver.com"), url-prefix("https://search.naver.com"), url-prefix("https://nid.naver.com"), url-prefix("https://castbox.shopping.naver.com"), url-prefix("https://section.cafe.naver.com"), url-prefix("https://talk.cafe.naver.com"), url-prefix("https://cafe.upphoto.naver.com"), url-prefix("https://cafe.naver.com/CafeMemberInfo.nhn"), url-prefix("https://section.blog.naver.com"), url-prefix("https://uploader1.nmv.naver.com"), url-prefix("https://up.cafe.naver.com"), url-prefix("https://datalab.naver.com"), url-prefix("https://www.navercorp.com"), url-prefix("https://mail.naver.com"), url-prefix("https://note.naver.com"), url-prefix("https://mashup.map.naver.com")  {
+@-moz-document url-prefix("https://www.naver.com"), url-prefix("https://my.naver.com"), url-prefix("https://ui.nboard2.naver.com"), url-prefix("https://search.naver.com"), url-prefix("https://castbox.shopping.naver.com"), url-prefix("https://section.cafe.naver.com"), url-prefix("https://talk.cafe.naver.com"), url-prefix("https://cafe.upphoto.naver.com"), url-prefix("https://cafe.naver.com/CafeMemberInfo.nhn"), url-prefix("https://section.blog.naver.com"), url-prefix("https://uploader1.nmv.naver.com"), url-prefix("https://up.cafe.naver.com"), url-prefix("https://datalab.naver.com"), url-prefix("https://www.navercorp.com"), url-prefix("https://mail.naver.com"), url-prefix("https://note.naver.com"), url-prefix("https://mashup.map.naver.com")  {
   html,
   head {
     background: #242424;
@@ -3322,6 +3322,15 @@
     filter: invert(82%);
   }
 
+  .gnb_notice_li .svc_list .gnb_new {
+    background: #404040;
+  }
+
+  .gnb_notice_li .svc_list .gnb_unread .gnb_subject,
+  .gnb_notice_li .svc_list .gnb_unread .svc_name {
+    color: #fff;
+  }
+
   .mailList .notRead .mTitle a {
     color: #6bacfc;
   }
@@ -3510,8 +3519,8 @@
     border-bottom: 0;
   }
 
-  .ly_draw .draw_color_type input:checked + .type_item,
-  .ly_shape .shape_color_type input:checked + .type_item {
+  .ly_draw .draw_color_type input:checked+.type_item,
+  .ly_shape .shape_color_type input:checked+.type_item {
     color: #c8c8c8;
     background-color: #2c2c2c;
   }
@@ -3530,8 +3539,8 @@
   .btn_colorpicker:after,
   .color_picker_preset button.color_transparent,
   .disabled .tools .resize button:after,
-  .ly_resize .check_resize_scale + label:before,
-  .ly_resize .check_resize_scale:checked + label:before,
+  .ly_resize .check_resize_scale+label:before,
+  .ly_resize .check_resize_scale:checked+label:before,
   .ly_text .text_style .text_bold:before,
   .ly_text .text_style .text_italic:before,
   .ly_text .text_style .text_strike:before,
@@ -3605,7 +3614,7 @@
   .tool_box.disabled .shape button:before,
   .tool_box.disabled .text button.over:before,
   .tool_box.disabled .text button:before,
-  .tool_box.disabled .tools .resize_cover .check_resize_relate + label:before,
+  .tool_box.disabled .tools .resize_cover .check_resize_relate+label:before,
   .tool_box.disabled .undo button.over:before,
   .tool_box.disabled .undo button:before,
   .tool_box.disabled button.setting.over:before,
@@ -3614,10 +3623,10 @@
   .tools .resize button:after,
   .tools .resize button[disabled=disabled]:after,
   .tools .resize button[disabled]:after,
-  .tools .resize_cover .check_resize_relate + label:before,
-  .tools .resize_cover .check_resize_relate:checked + label:before,
-  .tools .resize_cover .check_resize_scale + label:before,
-  .tools .resize_cover .check_resize_scale:checked + label:before,
+  .tools .resize_cover .check_resize_relate+label:before,
+  .tools .resize_cover .check_resize_relate:checked+label:before,
+  .tools .resize_cover .check_resize_scale+label:before,
+  .tools .resize_cover .check_resize_scale:checked+label:before,
   .range_cover .range_base {
     filter: invert(86%) hue-rotate(-180deg);
   }
@@ -3628,13 +3637,13 @@
     border: 1px solid #404040;
   }
 
-  .tools .resize_cover .check_resize_relate:checked + label,
-  .tools .resize_cover .check_resize_scale + label:before,
-  .disabled .tools .resize_cover .check_resize_scale + label:before {
+  .tools .resize_cover .check_resize_relate:checked+label,
+  .tools .resize_cover .check_resize_scale+label:before,
+  .disabled .tools .resize_cover .check_resize_scale+label:before {
     background-color: #242424;
   }
 
-  .tools .resize_cover .check_resize_relate + label,
+  .tools .resize_cover .check_resize_relate+label,
   .tools button.selected,
   .ly_resize,
   .ly_text {
@@ -3647,10 +3656,10 @@
     color: #cacaca;
   }
 
-  .ly_text .size_control + .font_color_preset,
-  .ly_text .size_control + .text_style,
-  .ly_text .text_style + .font_color_preset,
-  .ly_shape .select_shape + .size_control,
+  .ly_text .size_control+.font_color_preset,
+  .ly_text .size_control+.text_style,
+  .ly_text .text_style+.font_color_preset,
+  .ly_shape .select_shape+.size_control,
   .ly_draw .draw_color_preset {
     border-top: 1px solid #404040;
   }
@@ -6143,6 +6152,15 @@
 
   #gnb .gnb_my_interface {
     filter: invert(82%);
+  }
+
+  .gnb_notice_li .svc_list .gnb_new {
+    background: #404040;
+  }
+
+  .gnb_notice_li .svc_list .gnb_unread .gnb_subject,
+  .gnb_notice_li .svc_list .gnb_unread .svc_name {
+    color: #fff;
   }
 
   .u_likeit_list_module .u_likeit_list_btn.u_none_border {
@@ -9481,7 +9499,56 @@
   }
 
   .academic .type01 .afiles,
-  .academic .type01 .alibry {
+  .academic .type01 .alibry,
+  .cs_uio_carousel .crs_ct_sct .crs_ct_lst .cnt_area .cnt_likeit .u_ico,
+  .cs_uio_carousel .crs_ct_sct .crs_ct_lst .cnt_area .cnt_share .u_ico,
+  .cs_uio_carousel .sct_pgnv a {
+    filter: invert(86%) hue-rotate(-180deg);
+  }
+
+  .cs_uio_carousel .crs_ct_sct .crs_ct_lst .desc_box {
+    border: 1px solid #404040;
+  }
+
+  .cs_uio_carousel .crs_ct_sct .crs_ct_lst .desc_box .txt_area>p {
+    color: #fff;
+  }
+
+  .cs_uio_carousel .crs_ct_sct .crs_ct_lst .sec_ofr {
+    border-top: 1px solid #404040;
+  }
+
+  .cs_uio_carousel .crs_ct_sct .crs_ct_lst .sec_ofr .ofr_nm {
+    color: #7474e3;
+  }
+
+  .cs_uio_carousel .sct_pgnv em strong,
+  .cs_general_election .privacy_info .privacy_number label {
+    color: #fff;
+  }
+
+  .cs_general_election .sub_tab_area .type_main .tab_list .tab {
+    border: none;
+  }
+
+  .cs_general_election .polls_input .example .info_title {
+    color: #cacaca;
+  }
+
+  .cs_general_election .privacy_info .gender_sub .gender_input label {
+    color: #cacaca;
+  }
+
+  .cs_general_election .privacy_info .privacy_number:before {
+    border-left: 1px solid #404040;
+  }
+
+  .cs_general_election .privacy_info .gender_sub .gender_input {
+    color: #cacaca;
+  }
+
+  .cs_general_election a[class^=btn_page_] .ico_spr,
+  .cs_general_election .privacy_info .gender_sub .gender_input label:before {
     filter: invert(86%) hue-rotate(-180deg);
   }
 }
@@ -9924,6 +9991,15 @@
     filter: invert(82%);
   }
 
+  .gnb_notice_li .svc_list .gnb_new {
+    background: #404040;
+  }
+
+  .gnb_notice_li .svc_list .gnb_unread .gnb_subject,
+  .gnb_notice_li .svc_list .gnb_unread .svc_name {
+    color: #fff;
+  }
+
   .banner_area .text,
   .yellow_point {
     color: #242424;
@@ -9932,16 +10008,37 @@
   .sh_lst .nic_desc {
     color: #fff;
   }
+
+  #footer address {
+    color: #cacaca;
+  }
+
+  .copyright a {
+    color: #fff;
+  }
 }
 
-@-moz-document url-prefix("https://nid.naver.com/user2/help/realNameCheck.nhn")  {
+@-moz-document url-prefix("https://nid.naver.com/user2/help/realNameCheck.nhn"), url-prefix("https://nid.naver.com/user2/rncheck")  {
   html,
-  head {
+  head,
+  body {
     background: #242424;
   }
 
   #header .menu {
     color: #404040;
+  }
+
+  .cont_tit {
+    background-color: #019341;
+  }
+
+  .cont_tit .txt {
+    color: #242424;
+  }
+
+  #container {
+    color: #cacaca;
   }
 
   .id_tab_wap {
@@ -9963,12 +10060,150 @@
   .id_tab li label,
   .real_help_guide,
   .id_btn a img {
-    filter: invert(86%);
+    filter: invert(86%) hue-rotate(-180deg);
   }
 
   #header .menu a,
   .non_sign .con_hd h2,
   .non_sign .s_tit {
+    color: #cacaca;
+  }
+
+  .section_check label,
+  .section_collect label {
+    color: #fff;
+  }
+
+  .id_btn .btn.on {
+    background-color: #019341;
+    border: 1px solid #019341;
+    color: #242424;
+  }
+
+  .id_btn .btn {
+    color: #cacaca;
+    border: 1px solid #404040;
+  }
+
+  .mobile_title {
+    color: #fff;
+  }
+
+  :root .input_check_big label,
+  :root .input_chk_small label {
+    filter: invert(89%) hue-rotate(-180deg);
+  }
+
+  .ipin_box,
+  .row_group {
+    border: 1px solid #404040;
+    background: #242424;
+  }
+
+  .join_row {
+    border-top: 1px solid #404040;
+    background: #242424;
+  }
+
+  input {
+    color: #cacaca;
+  }
+
+  .int {
+    color: #cacaca;
+    background: #242424;
+  }
+
+  .ps_box .int {
+    background: #242424;
+  }
+
+  .sel {
+    filter: invert(86%) hue-rotate(-180deg);
+  }
+
+  .mobile_verify .country_code,
+  .mobile_verify .bir_mm .ps_box,
+  .mobile_verify .bir_yy .ps_box {
+    border-right: 1px solid #404040;
+  }
+
+  .jender label {
+    background: #242424;
+    color: #cacaca;
+  }
+
+  .mobile_verify .jender label {
+    border: 1px solid #404040;
+    background: #242424;
+    color: #cacaca;
+  }
+
+  .mobile_verify .bir_tt {
+    background: #2f2f2f;
+    color: #cacaca;
+  }
+
+  a.btn_c {
+    border: 1px solid #404040;
+    background: #2f2f2f;
+    color: #cacaca;
+  }
+
+  :root .mobile_verify .btn {
+    position: relative;
+    background: #019341;
+  }
+
+  :root .mobile_verify .btn:after {
+    content: '확인';
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    color: #242424;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 20px;
+    text-indent: initial;
+    font-weight: bold;
+  }
+
+  .cont_tit img {
+    filter: invert(86%) hue-rotate(-150deg);
+  }
+
+  .non_sign .con_hd h3,
+  .non_sign .con_hd h4 {
+    color: #fff;
+  }
+
+  .table_model td,
+  .table_model th {
+    border: 0;
+    border-top: 1px solid #404040;
+  }
+
+  .table_model th {
+    color: #fff;
+    border-right: 1px solid #404040;
+    background: #2f2f2f;
+  }
+
+  .table_model {
+    border-bottom: 1px solid #404040;
+  }
+
+  .table_model td {
+    color: #cacaca;
+  }
+
+  #footer address a {
+    color: #fff;
+  }
+
+  #footer a {
     color: #cacaca;
   }
 }
@@ -11047,7 +11282,7 @@
 
   .layer_more .link,
   .layer_more .link_form {
-    color: #fff!important;
+    color: #fff !important;
   }
 
   .talk_write .frame_msg {
@@ -11086,7 +11321,7 @@
     background-image: linear-gradient(to top, #404040, #404040 52%, rgba(0, 0, 0, 0));
   }
 
-  .radio_box.type_green input[type="radio"]:checked + label:before,
+  .radio_box.type_green input[type="radio"]:checked+label:before,
   .wrap_chat .link_join .ico_join,
   .wrap_chat .link_join .ico_request,
   .wrap_chat .link_join .ico_arr,
@@ -11094,8 +11329,8 @@
   .setting_request .btn_close:before,
   .list_chatting .chat_name .ico_alert,
   .list_chatting .more_chatting .ico_more,
-  .list_chatting input:checked + .label_chatting .icon_checkbox,
-  .check_all input:checked + .label_all .icon_checkbox,
+  .list_chatting input:checked+.label_chatting .icon_checkbox,
+  .check_all input:checked+.label_all .icon_checkbox,
   .menu_chat .menu_btns .ico_setting,
   .menu_chat .menu_btns .ico_exit,
   .menu_chat .link_close .ico_close,
@@ -11121,19 +11356,19 @@
   .dimmed_layer .link_close .ico_close,
   .dimmed_layer .box_fixed .tip_wrap .public_room_tip::before,
   .member_layer .link_setting,
-  .set_layer .inner_keep .list_set .inp_keep:checked + .lab_keep .ico_chk,
+  .set_layer .inner_keep .list_set .inp_keep:checked+.lab_keep .ico_chk,
   .public_layer .upload .ico_profile,
   .public_layer .info_room.link_arr:after,
   .public_layer .room_member_grade .label_sel .ico_sel_mem,
-  .public_layer .room_member_grade .inp_sel:checked + .label_sel .ico_sel_mem,
-  .public_layer .room_member_grade .checked + .label_sel .ico_sel_mem,
+  .public_layer .room_member_grade .inp_sel:checked+.label_sel .ico_sel_mem,
+  .public_layer .room_member_grade .checked+.label_sel .ico_sel_mem,
   .cafe_layer .list_cafe .ico_cafe,
   .set_member_layer .list_sel_member .btn_delete .ico_chat,
   .set_member_layer .box_search .ico_search,
   .set_member_layer .box_search .btn_reset .ico_chat,
   .set_member_layer .list_member .label_sel .ico_sel_mem,
-  .set_member_layer .list_member .inp_sel:checked + .label_sel .ico_sel_mem,
-  .set_member_layer .list_member .checked + .label_sel .ico_sel_mem,
+  .set_member_layer .list_member .inp_sel:checked+.label_sel .ico_sel_mem,
+  .set_member_layer .list_member .checked+.label_sel .ico_sel_mem,
   .setting_layer .cafe_box .name_area .thumb:before,
   .talk_header_btn .link_setting .ico_chat,
   .talk_header_btn .link_more .ico_chat,
@@ -11165,7 +11400,7 @@
     border: 1px solid #404040;
   }
 
-  .header .info_add .link + .link,
+  .header .info_add .link+.link,
   .setting_layer .cafe_box .setting_list,
   .list_chatting .more_chatting .link,
   .dimmed_layer .list_set li {
@@ -11193,7 +11428,7 @@
   .setting_layer .txt_info,
   .setting_layer .cafe_box .setting_list li,
   .cafe_layer .list_cafe li,
-  .cafe_layer .txt_cafe + .list_cafe li:only-child,
+  .cafe_layer .txt_cafe+.list_cafe li:only-child,
   .set_member_layer .box_search,
   .set_member_layer .list_member li,
   .wrap_chat .link_join,
@@ -11244,7 +11479,7 @@
   }
 
   .talk_write .box_sticker .link_next,
-  .menu_chat .menu_btns .link_menu + .link_menu {
+  .menu_chat .menu_btns .link_menu+.link_menu {
     border-left: 1px solid #404040;
   }
 }
@@ -12787,6 +13022,15 @@
 
   #gnb .gnb_my_interface {
     filter: invert(82%);
+  }
+
+  .gnb_notice_li .svc_list .gnb_new {
+    background: #404040;
+  }
+
+  .gnb_notice_li .svc_list .gnb_unread .gnb_subject,
+  .gnb_notice_li .svc_list .gnb_unread .svc_name {
+    color: #fff;
   }
 
   .og .txt {
@@ -16729,8 +16973,18 @@
     filter: invert(86%) hue-rotate(-180deg);
   }
 
+  .gnb_notice_li .svc_list .gnb_new {
+    background: #404040;
+  }
+
   #gnb .gnb_my_interface {
     filter: invert(82%) hue-rotate(-180deg);
+    filter: invert(82%);
+  }
+
+  .gnb_notice_li .svc_list .gnb_unread .gnb_subject,
+  .gnb_notice_li .svc_list .gnb_unread .svc_name {
+    color: #fff;
   }
 
   .u_word_dic.u_active:after {
@@ -17313,6 +17567,15 @@
   #gnb .gnb_my_interface {
     filter: invert(82%);
   }
+
+  .gnb_notice_li .svc_list .gnb_new {
+    background: #404040;
+  }
+
+  .gnb_notice_li .svc_list .gnb_unread .gnb_subject,
+  .gnb_notice_li .svc_list .gnb_unread .svc_name {
+    color: #fff;
+  }
 }
 
 @-moz-document url-prefix("https://www.naver.com/more.html")  {
@@ -17497,6 +17760,15 @@
 
   #gnb .gnb_my_interface {
     filter: invert(82%);
+  }
+
+  .gnb_notice_li .svc_list .gnb_new {
+    background: #404040;
+  }
+
+  .gnb_notice_li .svc_list .gnb_unread .gnb_subject,
+  .gnb_notice_li .svc_list .gnb_unread .svc_name {
+    color: #fff;
   }
 }
 
@@ -21294,6 +21566,15 @@
     filter: invert(82%);
   }
 
+  .gnb_notice_li .svc_list .gnb_new {
+    background: #404040;
+  }
+
+  .gnb_notice_li .svc_list .gnb_unread .gnb_subject,
+  .gnb_notice_li .svc_list .gnb_unread .svc_name {
+    color: #fff;
+  }
+
   .sports_menu .search_field {
     background-color: #242424;
     border: 1px solid #404040;
@@ -24256,6 +24537,15 @@
     filter: invert(82%);
   }
 
+  .gnb_notice_li .svc_list .gnb_new {
+    background: #404040;
+  }
+
+  .gnb_notice_li .svc_list .gnb_unread .gnb_subject,
+  .gnb_notice_li .svc_list .gnb_unread .svc_name {
+    color: #fff;
+  }
+
   .envmt_cont,
   .envmt_cont .control_box,
   .end_tx,
@@ -25882,6 +26172,15 @@
   #gnb .gnb_my_interface {
     filter: invert(82%);
   }
+
+  .gnb_notice_li .svc_list .gnb_new {
+    background: #404040;
+  }
+
+  .gnb_notice_li .svc_list .gnb_unread .gnb_subject,
+  .gnb_notice_li .svc_list .gnb_unread .svc_name {
+    color: #fff;
+  }
 }
 
 @-moz-document url-prefix("https://upm.search.naver.com")  {
@@ -26881,6 +27180,25 @@
   .u_cbox .u_cbox_notice .u_cbox_con_notice {
     color: #cacaca;
   }
+
+  .se_card_wrap .se_series .se_ico_groupseries,
+  .se_card_wrap .se_series .se_ico_series {
+    color: #fff;
+    border: 1px solid #fff;
+  }
+
+  .se_card_wrap.is-brightBg .se_author,
+  .se_card_wrap.is-brightBg .se_coverCard .se_sectionTitle .se_viewArea,
+  .se_card_wrap.is-brightBg .se_detail,
+  .se_card_wrap.is-brightBg .se_publishDate,
+  .se_card_wrap.is-brightBg .se_series,
+  .se_card_wrap.is-brightBg .se_view {
+    color: #fff;
+  }
+
+  .sect_search_post_wrap .banner_recommend_post {
+    background-color: #242424;
+  }
 }
 
 @-moz-document url-prefix("https://srp.naver.com"), url-prefix("http://srp.naver.com")  {
@@ -27685,6 +28003,15 @@
 
   #gnb .gnb_my_interface {
     filter: invert(82%);
+  }
+
+  .gnb_notice_li .svc_list .gnb_new {
+    background: #404040;
+  }
+
+  .gnb_notice_li .svc_list .gnb_unread .gnb_subject,
+  .gnb_notice_li .svc_list .gnb_unread .svc_name {
+    color: #fff;
   }
 
   /* User Profile End */
@@ -31303,6 +31630,15 @@
 
   #gnb .gnb_my_interface {
     filter: invert(82%);
+  }
+
+  .gnb_notice_li .svc_list .gnb_new {
+    background: #404040;
+  }
+
+  .gnb_notice_li .svc_list .gnb_unread .gnb_subject,
+  .gnb_notice_li .svc_list .gnb_unread .svc_name {
+    color: #fff;
   }
 
   .layer_alert {

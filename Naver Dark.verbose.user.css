@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.25.33
+@version		1.26.85
 @namespace		Avis Studio
 @license		MIT
 ==/UserStyle== */
@@ -348,7 +348,7 @@
 		background-color: #242424;
 	}
 	
-	.left .arrow, .da_type_video .balloon_area, .area_newsstand img.api_logo, .malltit_w .malltit img, .area_catebtns .ac_bgl, .area_catebtns .ac_bgr, .area_catebtns .ac_btn_cate .ac_bicon, .area_catebtns .ac_btn_cate:hover .ac_bicon, .area_catebtns .ac_btn_next .ac_bicon, .area_catebtns .ac_btn_next.ac_disabled .ac_bicon, .area_catebtns .ac_btn_next:hover .ac_bicon, .area_catebtns .ac_btn_prev .ac_bicon, .area_catebtns .ac_btn_prev.ac_disabled .ac_bicon, .area_catebtns .ac_btn_prev:hover .ac_bicon, .area_catebtns .ac_ico_new, .area_category .ac_ico_new, .area_themelist .at_a.tcc_knowledge .at_icon, .area_themelist .at_btn_close .at_bicon, .area_themelist .at_btn_close:hover .at_bicon, .area_themelist .at_btn_import .at_bicon, .area_themelist .at_btn_import:hover .at_bicon, .area_themelist .at_btn_setting .at_bicon, .area_themelist .at_btn_setting:hover .at_bicon, .area_themelist .at_import_login, .area_themesetting .at_btn_close .at_bicon, .area_themesetting .at_btn_close:hover .at_bicon, .area_themesetting .at_btn_import .at_bicon, .area_themesetting .at_btn_import:hover .at_bicon, .area_themesetting .at_btn_reset .at_bicon, .area_themesetting .at_import_login, .area_themesetting .at_iradio .radio-mark, .area_themesetting .at_iradio .radio-mark.radio-checked, .section_svcmore .ss_btn_close:hover .ss_ico_close, .section_svcmore .ss_ico_close, .section_svcmore .ss_ico_reset, .themecast_close_ly .tcl_close .tcl_cicon, .themecast_close_ly .tcl_view .tcl_vicon, .tl_bigimage .tb_ico_video, .tl_default .td_ico_video .td_icon, .tl_ranking .tr_ico_decrease, .tl_ranking .tr_ico_increase, .tl_ranking .tr_ico_new, .tl_ranking .tr_ico_next, .tl_ranking .tr_ico_prev, .tl_special .ts_ico_video .ts_icon, .tl_special .ts_ico_worldcup_video, .tl_special .tst_ico_video, .bx_ico_sale, .gift_news_header .gift_btn_refresh, .gift_news_header .gift_btn_refresh:hover, .malltit_w .mg_arr, .page a.next .page_icon, .page a.next:hover .page_icon, .page a.prev .page_icon, .page a.prev:hover .page_icon, .pf_header .gift_btn_refresh, .pf_header .gift_btn_refresh:hover, .shop_header .sh_icon, .shop_tab .st_gift .st_icon, .shop_tab .st_mens .st_icon, .shop_tab .st_shopping .st_icon, .shop_tab li.on .st_gift .st_icon, .shop_tab li.on .st_mens .st_icon, .shop_tab li.on .st_shopping .st_icon, .api_atcmp_wrap .spat, .api_atcmp_wrap .my_words .ico_noti, .area_newsstand .api_item img.api_logo, .area_catebtns .ac_bgl, .area_catebtns .ac_bgr, .profile .user_thumbnail .mask, .service .svc_cafe .svc_list .list_cover .thumb .mask, .service .svc_add .column li label .ico, .area_themelist .at_ico_new, .section_svcmore .ico_academic, .section_svcmore .ico_audioclip, .section_svcmore .ico_clova, .section_svcmore .ico_naveralpha, .section_svcmore .ico_papago, .section_svcmore .ico_smartboard, .section_svcmore .ico_tarte, .section_svcmore .ico_vibe, .section_svcmore .ico_whale, .section_svcmore .n, .section_svcmore .svc_radio .radio-checked, .section_svcmore .svc_radio .radio-disabled, .section_svcmore .svc_radio .radio-mark, .an_btn_close:hover .an_ico_close, .an_ico_close, .area_newsstand .an_ico_link, .area_newsstand .apln_btn_ico_delete, .area_newsstand .apln_btn_ico_delete:hover, .area_newsstand .apln_btn_ico_plus, .area_newsstand .apln_nt_standby, .area_newsstand .as2_btn.is_selected .as2_btn_ico.ico_image, .area_newsstand .as2_btn.is_selected .as2_btn_ico.ico_list, .area_newsstand .as2_btn:hover .as2_btn_ico.ico_image, .area_newsstand .as2_btn:hover .as2_btn_ico.ico_list, .area_newsstand .as2_btn:hover .as2_btn_ico.ico_setting, .area_newsstand .as2_btn_ico.ico_image, .area_newsstand .as2_btn_ico.ico_list, .area_newsstand .as2_btn_ico.ico_setting, .cast_flash .cf_ico_link, .area_clova .ac_qr, .area_hotkeyword .ah_btn_help .ah_ico_help, .area_hotkeyword .ah_ico_datagraph, .area_hotkeyword .ah_ico_datalab, .area_hotkeyword .ah_ico_hlink, .area_hotkeyword .ah_ico_open, .area_links .al_happybean .al_ico, .area_links .al_happybean:hover .al_ico, .area_links .al_ico_link, .area_links .al_jr .al_ico, .area_links .al_jr:hover .al_ico, .area_services .as_ico_all, .banner_area .ba_btn .ico_ba_btn, .banner_area .ba_btn_close .ico_btn_close, .banner_area .ba_logo, .section_svcmore .svc_more_arrow, .tl_banner .tb_ico_link, .area_navigation .an_btn_more.an_fold .an_mtxt, .area_navigation .an_mtxt, .area_navigation .mn_academic .an_icon, .area_navigation .mn_airticket .an_icon, .area_navigation .mn_audioclip .an_icon, .area_navigation .mn_auto .an_icon, .area_navigation .mn_band .an_icon, .area_navigation .mn_book .an_icon, .area_navigation .mn_booking .an_icon, .area_navigation .mn_bookmark .an_icon, .area_navigation .mn_calendar .an_icon, .area_navigation .mn_clova .an_icon, .area_navigation .mn_cndic .an_icon, .area_navigation .mn_comic .an_icon, .area_navigation .mn_contact .an_icon, .area_navigation .mn_datalab .an_icon, .area_navigation .mn_dic .an_icon, .area_navigation .mn_endic .an_icon, .area_navigation .mn_entalk .an_icon, .area_navigation .mn_entertain .an_icon, .area_navigation .mn_grafolio .an_icon, .area_navigation .mn_hanja .an_icon, .area_navigation .mn_hotel .an_icon, .area_navigation .mn_jpdic .an_icon, .area_navigation .mn_krdic .an_icon, .area_navigation .mn_land .an_icon, .area_navigation .mn_line .an_icon, .area_navigation .mn_map .an_icon, .area_navigation .mn_me .an_icon, .area_navigation .mn_memo .an_icon, .area_navigation .mn_modoo .an_icon, .area_navigation .mn_moneybook .an_icon, .area_navigation .mn_movie .an_icon, .area_navigation .mn_music .an_icon, .area_navigation .mn_myfeed .an_icon, .area_navigation .mn_naveralpha .an_icon, .area_navigation .mn_navercast .an_icon, .area_navigation .mn_ndrive .an_icon, .area_navigation .mn_news .an_icon, .area_navigation .mn_ngame .an_icon, .area_navigation .mn_nstore .an_icon, .area_navigation .mn_office .an_icon, .area_navigation .mn_papago .an_icon, .area_navigation .mn_pholar .an_icon, .area_navigation .mn_photo .an_icon, .area_navigation .mn_post .an_icon, .area_navigation .mn_smartboard .an_icon, .area_navigation .mn_software .an_icon, .area_navigation .mn_sports .an_icon, .area_navigation .mn_stock .an_icon, .area_navigation .mn_tarte .an_icon, .area_navigation .mn_terms .an_icon, .area_navigation .mn_trans .an_icon, .area_navigation .mn_v .an_icon, .area_navigation .mn_vibe .an_icon, .area_navigation .mn_weather .an_icon, .area_navigation .mn_webnovel .an_icon, .area_navigation .mn_whale .an_icon, .footer .fl_cr .f_logo, .notice_header .nh_l .nh_item .nh_diary, .notice_header .nh_l .nh_item .nh_service, .notice_header .nh_title, #n2_skin_wrap .skin, #n2_nboard .form_search img, #n2_nboard .form_search .btn, .option a.list_button img, #n2_nboard .private_wrap .clipboard img, #n2_nboard .view_btn img, #gnb.gnb_one .gnb_my_li .ico_arrow, #gnb.gnb_one .ico_arrow, .gnb_bg_top, .gnb_svc_more .gnb_svc_hd, .gnb_svc_more .gnb_svc_lstwrp, .gnb_svc_more .svc_btnwrp, .gnb_bg_btm, :root .sel, address .spsv_naver2, #promotion11 img {
+	.left .arrow, .da_type_video .balloon_area, .area_newsstand img.api_logo, .malltit_w .malltit img, .area_catebtns .ac_bgl, .area_catebtns .ac_bgr, .area_catebtns .ac_btn_cate .ac_bicon, .area_catebtns .ac_btn_cate:hover .ac_bicon, .area_catebtns .ac_btn_next .ac_bicon, .area_catebtns .ac_btn_next.ac_disabled .ac_bicon, .area_catebtns .ac_btn_next:hover .ac_bicon, .area_catebtns .ac_btn_prev .ac_bicon, .area_catebtns .ac_btn_prev.ac_disabled .ac_bicon, .area_catebtns .ac_btn_prev:hover .ac_bicon, .area_catebtns .ac_ico_new, .area_category .ac_ico_new, .area_themelist .at_a.tcc_knowledge .at_icon, .area_themelist .at_btn_close .at_bicon, .area_themelist .at_btn_close:hover .at_bicon, .area_themelist .at_btn_import .at_bicon, .area_themelist .at_btn_import:hover .at_bicon, .area_themelist .at_btn_setting .at_bicon, .area_themelist .at_btn_setting:hover .at_bicon, .area_themelist .at_import_login, .area_themesetting .at_btn_close .at_bicon, .area_themesetting .at_btn_close:hover .at_bicon, .area_themesetting .at_btn_import .at_bicon, .area_themesetting .at_btn_import:hover .at_bicon, .area_themesetting .at_btn_reset .at_bicon, .area_themesetting .at_import_login, .area_themesetting .at_iradio .radio-mark, .area_themesetting .at_iradio .radio-mark.radio-checked, .section_svcmore .ss_btn_close:hover .ss_ico_close, .section_svcmore .ss_ico_close, .section_svcmore .ss_ico_reset, .themecast_close_ly .tcl_close .tcl_cicon, .themecast_close_ly .tcl_view .tcl_vicon, .tl_bigimage .tb_ico_video, .tl_default .td_ico_video .td_icon, .tl_ranking .tr_ico_decrease, .tl_ranking .tr_ico_increase, .tl_ranking .tr_ico_new, .tl_ranking .tr_ico_next, .tl_ranking .tr_ico_prev, .tl_special .ts_ico_video .ts_icon, .tl_special .ts_ico_worldcup_video, .tl_special .tst_ico_video, .bx_ico_sale, .gift_news_header .gift_btn_refresh, .gift_news_header .gift_btn_refresh:hover, .malltit_w .mg_arr, .page a.next .page_icon, .page a.next:hover .page_icon, .page a.prev .page_icon, .page a.prev:hover .page_icon, .pf_header .gift_btn_refresh, .pf_header .gift_btn_refresh:hover, .shop_header .sh_icon, .shop_tab .st_gift .st_icon, .shop_tab .st_mens .st_icon, .shop_tab .st_shopping .st_icon, .shop_tab li.on .st_gift .st_icon, .shop_tab li.on .st_mens .st_icon, .shop_tab li.on .st_shopping .st_icon, .api_atcmp_wrap .spat, .api_atcmp_wrap .my_words .ico_noti, .area_newsstand .api_item img.api_logo, .area_catebtns .ac_bgl, .area_catebtns .ac_bgr, .profile .user_thumbnail .mask, .service .svc_cafe .svc_list .list_cover .thumb .mask, .service .svc_add .column li label .ico, .area_themelist .at_ico_new, .section_svcmore .ico_academic, .section_svcmore .ico_audioclip, .section_svcmore .ico_clova, .section_svcmore .ico_naveralpha, .section_svcmore .ico_papago, .section_svcmore .ico_smartboard, .section_svcmore .ico_tarte, .section_svcmore .ico_vibe, .section_svcmore .ico_whale, .section_svcmore .n, .section_svcmore .svc_radio .radio-checked, .section_svcmore .svc_radio .radio-disabled, .section_svcmore .svc_radio .radio-mark, .an_btn_close:hover .an_ico_close, .an_ico_close, .area_newsstand .an_ico_link, .area_newsstand .apln_btn_ico_delete, .area_newsstand .apln_btn_ico_delete:hover, .area_newsstand .apln_btn_ico_plus, .area_newsstand .apln_nt_standby, .area_newsstand .as2_btn.is_selected .as2_btn_ico.ico_image, .area_newsstand .as2_btn.is_selected .as2_btn_ico.ico_list, .area_newsstand .as2_btn:hover .as2_btn_ico.ico_image, .area_newsstand .as2_btn:hover .as2_btn_ico.ico_list, .area_newsstand .as2_btn:hover .as2_btn_ico.ico_setting, .area_newsstand .as2_btn_ico.ico_image, .area_newsstand .as2_btn_ico.ico_list, .area_newsstand .as2_btn_ico.ico_setting, .cast_flash .cf_ico_link, .area_clova .ac_qr, .area_hotkeyword .ah_btn_help .ah_ico_help, .area_hotkeyword .ah_ico_datagraph, .area_hotkeyword .ah_ico_datalab, .area_hotkeyword .ah_ico_hlink, .area_hotkeyword .ah_ico_open, .area_links .al_happybean .al_ico, .area_links .al_happybean:hover .al_ico, .area_links .al_ico_link, .area_links .al_jr .al_ico, .area_links .al_jr:hover .al_ico, .area_services .as_ico_all, .banner_area .ba_btn .ico_ba_btn, .banner_area .ba_btn_close .ico_btn_close, .banner_area .ba_logo, .section_svcmore .svc_more_arrow, .tl_banner .tb_ico_link, .area_navigation .an_btn_more.an_fold .an_mtxt, .area_navigation .an_mtxt, .area_navigation .mn_academic .an_icon, .area_navigation .mn_airticket .an_icon, .area_navigation .mn_audioclip .an_icon, .area_navigation .mn_auto .an_icon, .area_navigation .mn_band .an_icon, .area_navigation .mn_book .an_icon, .area_navigation .mn_booking .an_icon, .area_navigation .mn_bookmark .an_icon, .area_navigation .mn_calendar .an_icon, .area_navigation .mn_clova .an_icon, .area_navigation .mn_cndic .an_icon, .area_navigation .mn_comic .an_icon, .area_navigation .mn_contact .an_icon, .area_navigation .mn_datalab .an_icon, .area_navigation .mn_dic .an_icon, .area_navigation .mn_endic .an_icon, .area_navigation .mn_entalk .an_icon, .area_navigation .mn_entertain .an_icon, .area_navigation .mn_grafolio .an_icon, .area_navigation .mn_hanja .an_icon, .area_navigation .mn_hotel .an_icon, .area_navigation .mn_jpdic .an_icon, .area_navigation .mn_krdic .an_icon, .area_navigation .mn_land .an_icon, .area_navigation .mn_line .an_icon, .area_navigation .mn_map .an_icon, .area_navigation .mn_me .an_icon, .area_navigation .mn_memo .an_icon, .area_navigation .mn_modoo .an_icon, .area_navigation .mn_moneybook .an_icon, .area_navigation .mn_movie .an_icon, .area_navigation .mn_music .an_icon, .area_navigation .mn_myfeed .an_icon, .area_navigation .mn_naveralpha .an_icon, .area_navigation .mn_navercast .an_icon, .area_navigation .mn_ndrive .an_icon, .area_navigation .mn_news .an_icon, .area_navigation .mn_ngame .an_icon, .area_navigation .mn_nstore .an_icon, .area_navigation .mn_office .an_icon, .area_navigation .mn_papago .an_icon, .area_navigation .mn_pholar .an_icon, .area_navigation .mn_photo .an_icon, .area_navigation .mn_post .an_icon, .area_navigation .mn_smartboard .an_icon, .area_navigation .mn_software .an_icon, .area_navigation .mn_sports .an_icon, .area_navigation .mn_stock .an_icon, .area_navigation .mn_tarte .an_icon, .area_navigation .mn_terms .an_icon, .area_navigation .mn_trans .an_icon, .area_navigation .mn_v .an_icon, .area_navigation .mn_vibe .an_icon, .area_navigation .mn_weather .an_icon, .area_navigation .mn_webnovel .an_icon, .area_navigation .mn_whale .an_icon, .footer .fl_cr .f_logo, .notice_header .nh_l .nh_item .nh_diary, .notice_header .nh_l .nh_item .nh_service, .notice_header .nh_title, #n2_skin_wrap .skin, #n2_nboard .form_search img, #n2_nboard .form_search .btn, .option a.list_button img, #n2_nboard .private_wrap .clipboard img, #n2_nboard .view_btn img, :root .sel, address .spsv_naver2, #promotion11 img {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
@@ -1357,7 +1357,7 @@
 		background-color: #242424;
 	}
 	
-	#gnb, #gnb a, #gnb a:visited, #gnb a:active, #gnb a:focus, .list_menu ul li a, .list_head, .task_btn .buttonSet, .list_head .default strong, .content_header .notice, .note_read .note_none li a, .searchkey_result .keyword, .searchkey_result .keyword a, .note_read .note_none li, .note_read .info dt, .list_head .default, .list_head a, .list_head span, .setup_menu_area li a, .note_setup .btns .button, .button, .button_s, .cutlistTable td label {
+	.list_menu ul li a, .list_head, .task_btn .buttonSet, .list_head .default strong, .content_header .notice, .note_read .note_none li a, .searchkey_result .keyword, .searchkey_result .keyword a, .note_read .note_none li, .note_read .info dt, .list_head .default, .list_head a, .list_head span, .setup_menu_area li a, .note_setup .btns .button, .button, .button_s, .cutlistTable td label {
 		color: #cacaca;
 	}
 	
@@ -1438,184 +1438,6 @@
 		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
-	/* User Profile CSS */
-	
-	.gnb_notice_li .svc_panel, .gnb_notice_li .svc_scroll {
-		background: #2f2f2f;
-	}
-	
-	.gnb_notice_li .svc_head {
-		background: #2f2f2f;
-		border-bottom: 1px solid #404040;
-	}
-	
-	.gnb_notice_li .gnb_notice_lyr, .gnb_my_lyr {
-		background: none;
-	}
-	
-	a.gnb_my .gnb_name {
-		color: #cacaca;
-	}
-	
-	.gnb_notice_li .svc_head .task_right {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.gnb_notice_li .svc_list li {
-		border-top: 1px solid #404040;
-	}
-	
-	.gnb_ly_alert {
-		background-color: #2f2f2f;
-		border: 1px solid #404040;
-	}
-	
-	.gnb_notice_li .gnb_notice_all {
-		border-top: 1px solid #404040;
-		background-color: #2f2f2f;
-	}
-	
-	.gnb_my_li .gnb_my_content {
-		background: #2f2f2f;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_img_area img {
-		border-radius: 50%;
-		-moz-border-radius: 50%;
-		-webkit-border-radius: 50%;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_mask {
-		background: none;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_name, #gnb a:hover, #gnb a {
-		color: #cacaca;
-	}
-	
-	.gnb_bg {
-		background: none;
-	}
-	
-	.gnb_txt {
-		background: #404040;
-	}
-	
-	#gnb {
-		color: #cacaca;
-	}
-	
-	#gnb a, #gnb a:visited {
-		color: #cacaca;
-	}
-	
-	#gnb #gnb_my_lyr_iframe {
-		width: 100% !important;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a {
-		background-color: #2f2f2f;
-		border-top: 1px solid #404040;
-		border-right: 1px solid #404040;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a.gnb_pay span {
-		background-image: url(https://ssl.pstatic.net/static/cafe/homepc/sprite/sp_home_a09f1fce.svg), none;
-		background-repeat: no-repeat;
-		background-position: -4px -4px;
-		width: 11px;
-		height: 20px;
-		position: absolute;
-		top: -4px;
-		left: 35px;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a.gnb_pay span:after {
-		position: absolute;
-		content: 'Pay';
-		color: #cacaca;
-		font-size: 14px;
-		margin-top: 11px;
-		left: 13px;
-		letter-spacing: 1px;
-	}
-	
-	.gnb_lst .ico_arrow {
-		filter: invert(82%);
-	}
-	
-	a.gnb_my .ico_arrow {
-		top: 26px;
-	}
-	
-	.gnb_favorite_area, .gnb_search_area {
-		background: none;
-	}
-	
-	.gnb_favorite_lstwrp {
-		background: #2f2f2f;
-		border-bottom: 1px solid #404040;
-	}
-	
-	.gnb_service_li .ico_arrow {
-		z-index: 99;
-		top: 28px;
-	}
-	
-	.gnb_search_area {
-		margin: 0 4px 0;
-		padding: 18px 0 17px;
-		background: #2f2f2f;
-	}
-	
-	.gnb_search_lstwrp .gnb_search_lst {
-		border-left: 1px solid #404040;
-	}
-	
-	.gnb_banner {
-		padding: 0;
-		margin: 0 4px;
-		background: none;
-		background-color: #2f2f2f;
-	}
-	
-	.gnb_banner .gnb_service_event {
-		width: 100%;
-		filter: invert(82%) hue-rotate(-180deg);
-	}
-	
-	.gnb_linkwrp {
-		background: none;
-	}
-	
-	.gnb_linkwrp a {
-		background: #2f2f2f;
-	}
-	
-	a.gnb_service_all {
-		border-top: 1px solid #404040;
-	}
-	
-	.gnb_pop_input .gnb_pop_lst li a {
-		color: #444 !important;
-	}
-	
-	#gnb_promo {
-		margin: 0 18px;
-	}
-	
-	.gnb_search_lstwrp {
-		padding-left: 3px;
-	}
-	
-	.gnb_favorite_lst .gnb_add a span.ic_add, .gnb_search_box {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	#gnb .gnb_my_interface {
-		filter: invert(82%) hue-rotate(-180deg);
-	}
-	
 	.notelist .note_type span, .note_read .info .t_ico, .ico_report {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
@@ -1623,16 +1445,40 @@
 	.note_read .info dd {
 		color: #fff;
 	}
+	
+	/* Customized GNB Profile */
+	
+	.gnb_notice_li a.gnb_notice .gnb_icon, .mail_li a.gnb_mail .gnb_icon, .gnb_service_li a.gnb_service .gnb_icon {
+		filter: invert(0%) !important;
+	}
 }
 
 @-moz-document url-prefix("https://note.naver.com/write")
 {
-	html, head { background: #242424; }
-	.toady_sent { border-bottom: 1px solid #404040; }
-	.pop_content .writing_area { border-top: 1px solid #404040; }
-	#pop_wrap .button, #pop_wrap .button_s { color: #cacaca; border-color: #404040; }
-	.pop_content .writing_area textarea { border: 1px solid #404040; }
-	.pop_content .writing_option { color: #cacaca; }
+	html, head {
+		background: #242424;
+	}
+	
+	.toady_sent {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.pop_content .writing_area {
+		border-top: 1px solid #404040;
+	}
+	
+	#pop_wrap .button, #pop_wrap .button_s {
+		color: #cacaca;
+		border-color: #404040;
+	}
+	
+	.pop_content .writing_area textarea {
+		border: 1px solid #404040;
+	}
+	
+	.pop_content .writing_option {
+		color: #cacaca;
+	}
 }
 
 @-moz-document regexp("https://mail\\.naver\\.com/(?!address/popup).*")
@@ -1959,7 +1805,7 @@
 		color: #cacaca;
 	}
 	
-	#gnb, #gnb a, #gnb a:visited, #gnb a:active, #gnb a:focus, .divContent .subMsg2, .divContent .subMsg2 a, #gnb a, #gnb a:visited, #gnb a:active, #gnb a:focus, #gnb .gnb_my_li .gnb_my_community a:visited, .gnb_notice_li .gnb_notice_all:visited, a.gnb_service_all:visited, .gnb_svc_more .svc_btns:visited, div.list_menu .item_wrap a, div.list_menu li.new_folder .input_txt, div.section_typemail a, .mailList .mTitle a, .section_detail_srch .opt_tit, .section_detail_srch .srch_item_row1 .srch_item label, .section_detail_srch .srch_item_row2 .srch_item label, .section_detail_srch label, .mailListHead, .mailListHead .allMail, .searchkey_result .keyword, .dh_layer .moveBox .moveBox_list li label, .dh_layer .type_a .selector li a, .dh_layer .type_a .selector li a:active, .dh_layer .type_a.list_checkall .selector li a:hover, .mailListBtn .buttonSet .btn_txt, .paginate .num, .dh_layer .hTitle, .notice_layer .hTitle, div.viewTitle h4, .viewTitle h4, div.viewTitle dl dt, .viewTitle dl dd a, .viewTitle dl, .mailWriteItem th .raw_label a, .mailWriteItem .txtTlt, .mailWriteItem .private label, .mInput_holder .list_addrobj li .addr_input input, .mInput_holder .list_addrobj li .addr_input textarea, .dh_layer .autoAddr li a, .mailWriteItem .delete, .mail_preview .preview_area .pre_header ul li, .mail_preview .preview_area .pre_attach ul li, .mail_preview .preview_check .option_tit, .mail_preview .preview_check label, .template_mail_save .guide_txt p, .template_mail .template_list li a, .pop_reserve .notice p, .svrMsg h4, .cp_address_save .cp_tit, .spam_reason dt, .noImgs .ico_caution, .setup_gnb .menu_list a, .setup_lnb .menu_list li.on a, .manage_mailbox .posr, .subtitle, .setup_layer .msg, .ly_pop .btn_layer_btm, .cont_flex_setup .classify .condition a, .setup_layer .paragraph, .setup_layer .tt_list li, button.btn_txt, .box_notice .txt, .attach_card_head .subject a, .attach_card_body .file_info .file_name, .file_list li a, .attfile_area h5, .skin_set_wrap .sk_list_area li a, .relMails .relBox .tit, .dh_layer .type_b, .dh_layer .sTipTxt3 li, .divList.grp_sender .infor_sender li.count a, .divList.grp_sender .infor_sender li.count strong, .searchkey_result .keyword .search_keyword .condition {
+	.divContent .subMsg2, .divContent .subMsg2 a, div.list_menu .item_wrap a, div.list_menu li.new_folder .input_txt, div.section_typemail a, .mailList .mTitle a, .section_detail_srch .opt_tit, .section_detail_srch .srch_item_row1 .srch_item label, .section_detail_srch .srch_item_row2 .srch_item label, .section_detail_srch label, .mailListHead, .mailListHead .allMail, .searchkey_result .keyword, .dh_layer .moveBox .moveBox_list li label, .dh_layer .type_a .selector li a, .dh_layer .type_a .selector li a:active, .dh_layer .type_a.list_checkall .selector li a:hover, .mailListBtn .buttonSet .btn_txt, .paginate .num, .dh_layer .hTitle, .notice_layer .hTitle, div.viewTitle h4, .viewTitle h4, div.viewTitle dl dt, .viewTitle dl dd a, .viewTitle dl, .mailWriteItem th .raw_label a, .mailWriteItem .txtTlt, .mailWriteItem .private label, .mInput_holder .list_addrobj li .addr_input input, .mInput_holder .list_addrobj li .addr_input textarea, .dh_layer .autoAddr li a, .mailWriteItem .delete, .mail_preview .preview_area .pre_header ul li, .mail_preview .preview_area .pre_attach ul li, .mail_preview .preview_check .option_tit, .mail_preview .preview_check label, .template_mail_save .guide_txt p, .template_mail .template_list li a, .pop_reserve .notice p, .svrMsg h4, .cp_address_save .cp_tit, .spam_reason dt, .noImgs .ico_caution, .setup_gnb .menu_list a, .setup_lnb .menu_list li.on a, .manage_mailbox .posr, .subtitle, .setup_layer .msg, .ly_pop .btn_layer_btm, .cont_flex_setup .classify .condition a, .setup_layer .paragraph, .setup_layer .tt_list li, button.btn_txt, .box_notice .txt, .attach_card_head .subject a, .attach_card_body .file_info .file_name, .file_list li a, .attfile_area h5, .skin_set_wrap .sk_list_area li a, .relMails .relBox .tit, .dh_layer .type_b, .dh_layer .sTipTxt3 li, .divList.grp_sender .infor_sender li.count a, .divList.grp_sender .infor_sender li.count strong, .searchkey_result .keyword .search_keyword .condition {
 		color: #cacaca;
 	}
 	
@@ -1971,7 +1817,7 @@
 		background: #242424 !important;
 	}
 	
-	.gnb_area .gnb_list_box .gnb_last .btn_more, a.btn_change_layout.view_split_hor .spr, a.btn_change_layout.view_split_ver .spr, a.btn_change_type.view_conversation .spr, #nav_snb .foldup .ico_fold, #nav_snb .ico_fold, .icoImportantOff, .attach_card_head .read .yes, .cv_card .read .yes, .cv_card.autoSpread .read .yes, .mailList .read .yes, .mailList .expand button.close, .mailList .expand button.open, .mailListBtn .buttonSet button.sendto .ic_send, .mailListBtn .buttonSet .disabled .buDel, .mailListBtn .buttonSet button[disabled=disabled] .buDel, .mailListBtn .buttonSet .buDel, a.btn_refresh, a.btn_change_type.view_timeline .spr, a.btn_change_layout.view_list .spr, .color-picker .cls_layer:hover, .dh_layer .hTitle .lClose:hover, .dh_layer .ly_alert .btn_layer_close:hover, .dh_layer .type_c .lClose:hover, .dh_layer button.btn_close:hover, .ly_classify .btn_layer_close:hover, .ly_tooltip .btn_layer_close:hover, .notice_layer .hTitle .lClose:hover, .setup_layer .btn_close:hover, .skin_set_wrap .btn_cls:hover, .tooltipLayer2 .t1Con .btn_close:hover, .tp_layer .tl_con .btn_close:hover, .type_alert .btn_close:hover, div.viewTitle .icoVipOff, div.mInput_holder .btn_recentaddr a img, div.mInput_holder .btn_recentaddr a:hover img, .mailWriteItem .private .btn_help, table.mailWriteItem .sClose, table.mailWriteItem .sOpen, div.mailListBtn .layoutSelectText .button_s2 .ico_arrow, div.mailListBtn .layoutSelectText .button_s2 .ico_win, div.mailListBtn .layoutSelectText .button_s2 .ico_setting_write, .icon_attach, #smart_editor2 .se2_conversion_mode, #smart_editor2 .se2_text_tool, #smart_editor2 .se2_reck, #smart_editor2 .se2_ckfin, .pop_reserve .input_area select, .cp_save_list li .imp, .cp_address_save .btn_c .ico, select, .list_mode_select .list_mode_normal, .list_mode_select .list_mode_hor, .list_mode_select .list_mode_ver, .icon_preview, .setup_layer .folder_preview, .setup_layer .list_preview, .setup_layer .newmail_preview1, .setup_layer .newmail_preview2, ul.form_ul1 .form_content #trash_period, #outbox_period, .ly_classify .filter_address .btn_toggle, .form_ul1 .form_content .icon_tip, .tooltip_cover .tooltip_arrow_bottom, a.btn_change_type.view_sender .spr, .attach_card_body .btn_savepc, .attfile_area .file_list .btn_savepc, .attfile_area .attfile_toggle, div.relMails .relBox .help, .attach_card_head .read .admin, .cv_card .read .admin, .cv_card.autoSpread .read .admin, .mailList .read .admin, div.nav_endless .ico_view_top, .attach_card_head .read .re, .cv_card .read .re, .cv_card.autoSpread .read .re, .mailList .read .re {
+	a.btn_change_layout.view_split_hor .spr, a.btn_change_layout.view_split_ver .spr, a.btn_change_type.view_conversation .spr, #nav_snb .foldup .ico_fold, #nav_snb .ico_fold, .icoImportantOff, .attach_card_head .read .yes, .cv_card .read .yes, .cv_card.autoSpread .read .yes, .mailList .read .yes, .mailList .expand button.close, .mailList .expand button.open, .mailListBtn .buttonSet button.sendto .ic_send, .mailListBtn .buttonSet .disabled .buDel, .mailListBtn .buttonSet button[disabled=disabled] .buDel, .mailListBtn .buttonSet .buDel, a.btn_refresh, a.btn_change_type.view_timeline .spr, a.btn_change_layout.view_list .spr, .color-picker .cls_layer:hover, .dh_layer .hTitle .lClose:hover, .dh_layer .ly_alert .btn_layer_close:hover, .dh_layer .type_c .lClose:hover, .dh_layer button.btn_close:hover, .ly_classify .btn_layer_close:hover, .ly_tooltip .btn_layer_close:hover, .notice_layer .hTitle .lClose:hover, .setup_layer .btn_close:hover, .skin_set_wrap .btn_cls:hover, .tooltipLayer2 .t1Con .btn_close:hover, .tp_layer .tl_con .btn_close:hover, .type_alert .btn_close:hover, div.viewTitle .icoVipOff, div.mInput_holder .btn_recentaddr a img, div.mInput_holder .btn_recentaddr a:hover img, .mailWriteItem .private .btn_help, table.mailWriteItem .sClose, table.mailWriteItem .sOpen, div.mailListBtn .layoutSelectText .button_s2 .ico_arrow, div.mailListBtn .layoutSelectText .button_s2 .ico_win, div.mailListBtn .layoutSelectText .button_s2 .ico_setting_write, .icon_attach, #smart_editor2 .se2_conversion_mode, #smart_editor2 .se2_text_tool, #smart_editor2 .se2_reck, #smart_editor2 .se2_ckfin, .pop_reserve .input_area select, .cp_save_list li .imp, .cp_address_save .btn_c .ico, select, .list_mode_select .list_mode_normal, .list_mode_select .list_mode_hor, .list_mode_select .list_mode_ver, .icon_preview, .setup_layer .folder_preview, .setup_layer .list_preview, .setup_layer .newmail_preview1, .setup_layer .newmail_preview2, ul.form_ul1 .form_content #trash_period, #outbox_period, .ly_classify .filter_address .btn_toggle, .form_ul1 .form_content .icon_tip, .tooltip_cover .tooltip_arrow_bottom, a.btn_change_type.view_sender .spr, .attach_card_body .btn_savepc, .attfile_area .file_list .btn_savepc, .attfile_area .attfile_toggle, div.relMails .relBox .help, .attach_card_head .read .admin, .cv_card .read .admin, .cv_card.autoSpread .read .admin, .mailList .read .admin, div.nav_endless .ico_view_top, .attach_card_head .read .re, .cv_card .read .re, .cv_card.autoSpread .read .re, .mailList .read .re {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
@@ -2076,7 +1922,7 @@
 		border-top: 1px solid #404040;
 	}
 	
-	.bar, #gnb_svc_search_input {
+	.bar {
 		background: transparent;
 	}
 	
@@ -2171,226 +2017,104 @@
 		background-color: #404040 !important;
 	}
 	
-	/* User Profile CSS */
-	
-	:root #gnb .gnb_pad_lyr {
-		background: none;
-	}
-	
-	.gnb_notice_li .svc_panel, .gnb_notice_li .svc_scroll {
-		background: #2f2f2f;
-	}
-	
-	.gnb_notice_li .svc_head {
-		background: #2f2f2f;
-		border-bottom: 1px solid #404040;
-	}
-	
-	.gnb_notice_li .gnb_notice_lyr, .gnb_my_lyr {
-		background: none;
-	}
-	
-	a.gnb_my .gnb_name {
-		color: #cacaca;
-	}
-	
-	.gnb_notice_li .svc_head .task_right {
-		filter: invert(86%);
-	}
-	
-	.gnb_notice_li .svc_list li {
-		border-top: 1px solid #404040;
-	}
-	
-	.gnb_ly_alert {
-		background-color: #2f2f2f;
-		border: 1px solid #404040;
-	}
-	
-	.gnb_notice_li .gnb_notice_all {
-		border-top: 1px solid #404040;
-		background-color: #2f2f2f;
-	}
-	
-	.gnb_my_li .gnb_my_content {
-		background: #2f2f2f;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_img_area img {
-		border-radius: 50%;
-		-moz-border-radius: 50%;
-		-webkit-border-radius: 50%;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_mask {
-		background: none;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_name, #gnb a:hover, #gnb a {
-		color: #cacaca;
-	}
-	
-	.gnb_bg {
-		background: none;
-	}
-	
-	.gnb_txt {
-		background: #404040;
-	}
-	
-	#gnb {
-		color: #cacaca;
-	}
-	
-	#gnb a, #gnb a:visited {
-		color: #cacaca;
-	}
-	
-	#gnb #gnb_my_lyr_iframe {
-		width: 100% !important;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a {
-		background-color: #2f2f2f;
-		border-top: 1px solid #404040;
-		border-right: 1px solid #404040;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a.gnb_pay span {
-		background-image: url(https://ssl.pstatic.net/static/cafe/homepc/sprite/sp_home_a09f1fce.svg), none;
-		background-repeat: no-repeat;
-		background-position: -4px -4px;
-		width: 11px;
-		height: 20px;
-		position: absolute;
-		top: -4px;
-		left: 35px;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a.gnb_pay span:after {
-		position: absolute;
-		content: 'Pay';
-		color: #cacaca;
-		font-size: 14px;
-		margin-top: 11px;
-		left: 13px;
-		letter-spacing: 1px;
-	}
-	
-	.gnb_lst .ico_arrow {
-		filter: invert(82%);
-	}
-	
-	a.gnb_my .ico_arrow {
-		top: 26px;
-	}
-	
-	.gnb_favorite_area, .gnb_search_area {
-		background: none;
-	}
-	
-	.gnb_favorite_lstwrp {
-		background: #2f2f2f;
-		border-bottom: 1px solid #404040;
-	}
-	
-	.gnb_service_li .ico_arrow {
-		z-index: 99;
-		top: 28px;
-	}
-	
-	.gnb_search_area {
-		margin: 0 4px 0;
-		padding: 18px 0 17px;
-		background: #2f2f2f;
-	}
-	
-	.gnb_search_lstwrp .gnb_search_lst {
-		border-left: 1px solid #404040;
-	}
-	
-	.gnb_banner {
-		padding: 0;
-		margin: 0 4px;
-		background: none;
-		background-color: #2f2f2f;
-	}
-	
-	.gnb_banner .gnb_service_event {
-		width: 100%;
-		filter: invert(82%) hue-rotate(-180deg);
-	}
-	
-	.gnb_linkwrp {
-		background: none;
-	}
-	
-	.gnb_linkwrp a {
-		background: #2f2f2f;
-	}
-	
-	a.gnb_service_all {
-		border-top: 1px solid #404040;
-	}
-	
-	.gnb_pop_input .gnb_pop_lst li a {
-		color: #444 !important;
-	}
-	
-	#gnb_promo {
-		margin: 0 18px;
-	}
-	
-	.gnb_search_lstwrp {
-		padding-left: 3px;
-	}
-	
-	.gnb_favorite_lst .gnb_add a span.ic_add, .gnb_search_box {
-		filter: invert(86%);
-	}
-	
-	#gnb .gnb_my_interface {
-		filter: invert(82%);
-	}
-	
-	.gnb_notice_li .svc_list .gnb_new {
-	    background: #404040;
-	}
-	
-	.gnb_notice_li .svc_list .gnb_unread .gnb_subject,
-	.gnb_notice_li .svc_list .gnb_unread .svc_name {
-	    color: #fff;
-	}
-	
 	.mailList .notRead .mTitle a {
 		color: #6bacfc;
+	}
+	
+	.gnb_notice_li a.gnb_notice .gnb_icon, .mail_li a.gnb_mail .gnb_icon, .gnb_service_li a.gnb_service .gnb_icon {
+		filter: invert(0%) !important;
+	}
+	
+	.gnb_area .gnb_list_box .gnb_last .btn_more {
+		filter: invert(86%);
 	}
 }
 
 @-moz-document url-prefix("https://mail.naver.com/address/popup")
 {
-	html, head { background: #242424; }
-	#pop_header h1, .pop_header h1 { color: #cacaca; }
-	#category .scr_area { border-top: 1px solid #404040; border-right: 1px solid #404040; }
-	.recent { border-bottom: 1px solid #404040; border-right: 1px solid #404040; }
-	#pop_header, .pop_header { border-bottom: 1px solid #404040; background-color: #242424; }
-	button { background-color: #242424; border: 1px solid #404040; color: #cacaca; }
-	.nmaddr #list { border: 1px solid #404040; }
-	.page_ctrl { border-top: 1px solid #404040; color: #fff; }
-	.page_ctrl .page_num { color: #fff; background: #242424; border: 1px solid #404040; }
-	.guard.selected a { color: #000; }
-	.search_form .ipt_wrap input { color: #cacaca; background: #242424; }
-	.addr_list li.selected { background: #2c2c2c; }
-	#toitem .addr_list { border-color: #404040; }
-	.nmaddr, #footer { background: #242424; }
-	#footer .ft_inct, .addr_list_head, #list .addr_list { border-top: 1px solid #404040; }
-	#footer p, .guard .btn_fold, .nmaddr .btn_add, .nmaddr .btn_first, .nmaddr .btn_first_n, .nmaddr .btn_last, .nmaddr .btn_last_n, .nmaddr .btn_next, .nmaddr .btn_next_n, .nmaddr .btn_prev, .nmaddr .btn_prev_n, .nmaddr .btn_remove, .works_group h2, .recent .impt_contact .divbar { filter: invert(86%); }
+	html, head {
+		background: #242424;
+	}
+	
+	#pop_header h1, .pop_header h1 {
+		color: #cacaca;
+	}
+	
+	#category .scr_area {
+		border-top: 1px solid #404040;
+		border-right: 1px solid #404040;
+	}
+	
+	.recent {
+		border-bottom: 1px solid #404040;
+		border-right: 1px solid #404040;
+	}
+	
+	#pop_header, .pop_header {
+		border-bottom: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	button {
+		background-color: #242424;
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.nmaddr #list {
+		border: 1px solid #404040;
+	}
+	
+	.page_ctrl {
+		border-top: 1px solid #404040;
+		color: #fff;
+	}
+	
+	.page_ctrl .page_num {
+		color: #fff;
+		background: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.guard.selected a {
+		color: #000;
+	}
+	
+	.search_form .ipt_wrap input {
+		color: #cacaca;
+		background: #242424;
+	}
+	
+	.addr_list li.selected {
+		background: #2c2c2c;
+	}
+	
+	#toitem .addr_list {
+		border-color: #404040;
+	}
+	
+	.nmaddr, #footer {
+		background: #242424;
+	}
+	
+	#footer .ft_inct, .addr_list_head, #list .addr_list {
+		border-top: 1px solid #404040;
+	}
+	
+	#footer p, .guard .btn_fold, .nmaddr .btn_add, .nmaddr .btn_first, .nmaddr .btn_first_n, .nmaddr .btn_last, .nmaddr .btn_last_n, .nmaddr .btn_next, .nmaddr .btn_next_n, .nmaddr .btn_prev, .nmaddr .btn_prev_n, .nmaddr .btn_remove, .works_group h2, .recent .impt_contact .divbar {
+		filter: invert(86%);
+	}
 }
 
 @-moz-document url-prefix("https://mail.naver.com/write/popup")
 {
-	html, head { background: #242424; }
-	.pop_write .mInput_holder, .pop_write .sguide { background-color: #242424; }
+	html, head {
+		background: #242424;
+	}
+	
+	.pop_write .mInput_holder, .pop_write .sguide {
+		background-color: #242424;
+	}
 }
 
 @-moz-document url-prefix("https://mail.naver.com/write/imageCapture")
@@ -2501,9 +2225,17 @@
 
 @-moz-document url-prefix("https://mail.naver.com/notice")
 {
-	html, head { background: #242424; }
-	body div h1 img { filter: invert(86%) hue-rotate(-180deg); }
-	body div h1 { border-bottom: 1px solid #404040 !important; }
+	html, head {
+		background: #242424;
+	}
+	
+	body div h1 img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	body div h1 {
+		border-bottom: 1px solid #404040 !important;
+	}
 }
 
 @-moz-document url-prefix("https://www.navercorp.com")
@@ -3923,195 +3655,6 @@
 	
 	.map_opn {
 		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.gnb_notice_li .svc_panel, .gnb_notice_li .svc_scroll {
-		background: #2f2f2f;
-	}
-	
-	.gnb_notice_li .svc_head {
-		background: #2f2f2f;
-		border-bottom: 1px solid #404040;
-	}
-	
-	.gnb_notice_li .gnb_notice_lyr, .gnb_my_lyr {
-		background: none;
-	}
-	
-	a.gnb_my .gnb_name {
-		color: #cacaca;
-	}
-	
-	.gnb_notice_li .svc_head .task_right {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.gnb_notice_li .svc_list li {
-		border-top: 1px solid #404040;
-	}
-	
-	.gnb_ly_alert {
-		background-color: #2f2f2f;
-		border: 1px solid #404040;
-	}
-	
-	.gnb_notice_li .gnb_notice_all {
-		border-top: 1px solid #404040;
-		background-color: #2f2f2f;
-	}
-	
-	.gnb_my_li .gnb_my_content {
-		background: #2f2f2f;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_img_area img {
-		border-radius: 50%;
-		-moz-border-radius: 50%;
-		-webkit-border-radius: 50%;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_mask {
-		background: none;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_name, #gnb a:hover, #gnb a {
-		color: #cacaca;
-	}
-	
-	.gnb_bg {
-		background: none;
-	}
-	
-	.gnb_txt {
-		background: #404040;
-	}
-	
-	#gnb {
-		color: #cacaca;
-	}
-	
-	#gnb a, #gnb a:visited {
-		color: #cacaca;
-	}
-	
-	#gnb #gnb_my_lyr_iframe {
-		width: 100% !important;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a {
-		background-color: #2f2f2f;
-		border-top: 1px solid #404040;
-		border-right: 1px solid #404040;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a.gnb_pay span {
-		background-image: url(https://ssl.pstatic.net/static/cafe/homepc/sprite/sp_home_a09f1fce.svg), none;
-		background-repeat: no-repeat;
-		background-position: -4px -4px;
-		width: 11px;
-		height: 20px;
-		position: absolute;
-		top: -4px;
-		left: 35px;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a.gnb_pay span:after {
-		position: absolute;
-		content: 'Pay';
-		color: #cacaca;
-		font-size: 14px;
-		margin-top: 11px;
-		left: 13px;
-		letter-spacing: 1px;
-	}
-	
-	.gnb_notice_li a.gnb_notice .gnb_icon, .mail_li a.gnb_mail .gnb_icon, .gnb_service_li a.gnb_service .gnb_icon {
-		filter: invert(86%);
-	}
-	
-	.gnb_lst .ico_arrow {
-		filter: invert(82%);
-	}
-	
-	a.gnb_my .ico_arrow {
-		top: 26px;
-	}
-	
-	.gnb_favorite_area, .gnb_search_area {
-		background: none;
-	}
-	
-	.gnb_favorite_lstwrp {
-		background: #2f2f2f;
-		border-bottom: 1px solid #404040;
-	}
-	
-	.gnb_service_li .ico_arrow {
-		z-index: 99;
-		top: 28px;
-	}
-	
-	.gnb_search_area {
-		margin: 0 4px 0;
-		padding: 18px 0 17px;
-		background: #2f2f2f;
-	}
-	
-	.gnb_search_lstwrp .gnb_search_lst {
-		border-left: 1px solid #404040;
-	}
-	
-	.gnb_banner {
-		padding: 0;
-		margin: 0 4px;
-		background: none;
-		background-color: #2f2f2f;
-	}
-	
-	.gnb_banner .gnb_service_event {
-		width: 100%;
-		filter: invert(82%) hue-rotate(-180deg);
-	}
-	
-	.gnb_linkwrp {
-		background: none;
-	}
-	
-	.gnb_linkwrp a {
-		background: #2f2f2f;
-	}
-	
-	a.gnb_service_all {
-		border-top: 1px solid #404040;
-	}
-	
-	.gnb_pop_input .gnb_pop_lst li a {
-		color: #444 !important;
-	}
-	
-	#gnb_promo {
-		margin: 0 18px;
-	}
-	
-	.gnb_search_lstwrp {
-		padding-left: 3px;
-	}
-	
-	.gnb_favorite_lst .gnb_add a span.ic_add, .gnb_search_box {
-		filter: invert(86%);
-	}
-	
-	#gnb .gnb_my_interface {
-		filter: invert(82%);
-	}
-	
-	.gnb_notice_li .svc_list .gnb_new {
-	    background: #404040;
-	}
-	
-	.gnb_notice_li .svc_list .gnb_unread .gnb_subject,
-	.gnb_notice_li .svc_list .gnb_unread .svc_name {
-	    color: #fff;
 	}
 	
 	.u_likeit_list_module .u_likeit_list_btn.u_none_border {
@@ -7577,192 +7120,6 @@
 		color: #cacaca;
 	}
 	
-	/* User Profile CSS */
-	
-	.gnb_notice_li .svc_panel, .gnb_notice_li .svc_scroll {
-		background: #2f2f2f;
-	}
-	
-	.gnb_notice_li .svc_head {
-		background: #2f2f2f;
-		border-bottom: 1px solid #404040;
-	}
-	
-	.gnb_notice_li .gnb_notice_lyr, .gnb_my_lyr {
-		background: none;
-	}
-	
-	a.gnb_my .gnb_name {
-		color: #cacaca;
-	}
-	
-	.gnb_notice_li .svc_head .task_right {
-		filter: invert(86%);
-	}
-	
-	.gnb_notice_li .svc_list li {
-		border-top: 1px solid #404040;
-	}
-	
-	.gnb_ly_alert {
-		background-color: #2f2f2f;
-		border: 1px solid #404040;
-	}
-	
-	.gnb_notice_li .gnb_notice_all {
-		border-top: 1px solid #404040;
-		background-color: #2f2f2f;
-	}
-	
-	.gnb_my_li .gnb_my_content {
-		background: #2f2f2f;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_img_area img {
-		border-radius: 50%;
-		-moz-border-radius: 50%;
-		-webkit-border-radius: 50%;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_mask {
-		background: none;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_name, #gnb a:hover, #gnb a {
-		color: #cacaca;
-	}
-	
-	.gnb_bg {
-		background: none;
-	}
-	
-	.gnb_txt {
-		background: #404040;
-	}
-	
-	#gnb {
-		color: #cacaca;
-	}
-	
-	#gnb a, #gnb a:visited {
-		color: #cacaca;
-	}
-	
-	#gnb #gnb_my_lyr_iframe {
-		width: 100% !important;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a {
-		background-color: #2f2f2f;
-		border-top: 1px solid #404040;
-		border-right: 1px solid #404040;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a.gnb_pay span {
-		background-image: url(https://ssl.pstatic.net/static/cafe/homepc/sprite/sp_home_a09f1fce.svg), none;
-		background-repeat: no-repeat;
-		background-position: -4px -4px;
-		width: 11px;
-		height: 20px;
-		position: absolute;
-		top: -4px;
-		left: 35px;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a.gnb_pay span:after {
-		position: absolute;
-		content: 'Pay';
-		color: #cacaca;
-		font-size: 14px;
-		margin-top: 11px;
-		left: 13px;
-		letter-spacing: 1px;
-	}
-	
-	.gnb_lst .ico_arrow {
-		filter: invert(82%);
-	}
-	
-	a.gnb_my .ico_arrow {
-		top: 26px;
-	}
-	
-	.gnb_favorite_area, .gnb_search_area {
-		background: none;
-	}
-	
-	.gnb_favorite_lstwrp {
-		background: #2f2f2f;
-		border-bottom: 1px solid #404040;
-	}
-	
-	.gnb_service_li .ico_arrow {
-		z-index: 99;
-		top: 28px;
-	}
-	
-	.gnb_search_area {
-		margin: 0 4px 0;
-		padding: 18px 0 17px;
-		background: #2f2f2f;
-	}
-	
-	.gnb_search_lstwrp .gnb_search_lst {
-		border-left: 1px solid #404040;
-	}
-	
-	.gnb_banner {
-		padding: 0;
-		margin: 0 4px;
-		background: none;
-		background-color: #2f2f2f;
-	}
-	
-	.gnb_banner .gnb_service_event {
-		width: 100%;
-		filter: invert(82%) hue-rotate(-180deg);
-	}
-	
-	.gnb_linkwrp {
-		background: none;
-	}
-	
-	.gnb_linkwrp a {
-		background: #2f2f2f;
-	}
-	
-	a.gnb_service_all {
-		border-top: 1px solid #404040;
-	}
-	
-	.gnb_pop_input .gnb_pop_lst li a {
-		color: #444 !important;
-	}
-	
-	#gnb_promo {
-		margin: 0 18px;
-	}
-	
-	.gnb_search_lstwrp {
-		padding-left: 3px;
-	}
-	
-	.gnb_favorite_lst .gnb_add a span.ic_add, .gnb_search_box {
-		filter: invert(86%);
-	}
-	
-	#gnb .gnb_my_interface, .nudge_close:before {
-		filter: invert(82%);
-	}
-	
-	.gnb_notice_li .svc_list .gnb_new {
-		background: #404040;
-	}
-	
-	.gnb_notice_li .svc_list .gnb_unread .gnb_subject, .gnb_notice_li .svc_list .gnb_unread .svc_name {
-		color: #fff;
-	}
-	
 	.banner_area .text, .yellow_point {
 		color: #242424;
 	}
@@ -7787,8 +7144,12 @@
 		color: #fff;
 	}
 	
-	.btn_next_s {
+	.btn_next_s, .nudge_close {
 		filter: invert(86%);
+	}
+	
+	.gnb_notice_li a.gnb_notice .gnb_icon, .mail_li a.gnb_mail .gnb_icon, .gnb_service_li a.gnb_service .gnb_icon {
+		filter: invert(0%) !important;
 	}
 }
 
@@ -7970,20 +7331,52 @@
 
 @-moz-document url-prefix("https://nid.naver.com/user2/help/secretId.nhn")
 {
-	html, head { background: #242424; }
-	.input_box { filter: invert(86%); }
-	.box6 { border: 1px solid #404040; }
+	html, head {
+		background: #242424;
+	}
+	
+	.input_box {
+		filter: invert(86%);
+	}
+	
+	.box6 {
+		border: 1px solid #404040;
+	}
 }
 
 @-moz-document url-prefix("https://nid.naver.com/user2/help/userLoginLog.nhn")
 {
-	html, head { background: #242424; }
-	.table_info2 .sort { color: #cacaca; border: 1px solid #404040; background-color: #242424; }
-	.table_info2 .payment_log_period input[type=text] { border: 1px solid #404040; background-color: #242424; color: #cacaca; }
-	.paginate_type2 span { background: #404040; }
-	.paginate a { border: 1px solid #242424; }
-	.paginate_date { color: #404040; }
-	.paginate_date a[href] { color: #cacaca; }
+	html, head {
+		background: #242424;
+	}
+	
+	.table_info2 .sort {
+		color: #cacaca;
+		border: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	.table_info2 .payment_log_period input[type=text] {
+		border: 1px solid #404040;
+		background-color: #242424;
+		color: #cacaca;
+	}
+	
+	.paginate_type2 span {
+		background: #404040;
+	}
+	
+	.paginate a {
+		border: 1px solid #242424;
+	}
+	
+	.paginate_date {
+		color: #404040;
+	}
+	
+	.paginate_date a[href] {
+		color: #cacaca;
+	}
 }
 
 @-moz-document url-prefix("https://section.cafe.naver.com")
@@ -8268,205 +7661,6 @@
 		color: #fff;
 	}
 	
-	.gnb_notice_li .svc_panel, .gnb_notice_li .svc_scroll {
-		background: #2f2f2f;
-	}
-	
-	.gnb_notice_li .svc_head {
-		background: #2f2f2f;
-		border-bottom: 1px solid #404040;
-	}
-	
-	.gnb_notice_li .gnb_notice_lyr, .gnb_my_lyr {
-		background: none;
-	}
-	
-	a.gnb_my .gnb_name {
-		color: #cacaca;
-	}
-	
-	.gnb_notice_li .svc_head .task_right {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.gnb_notice_li .svc_list li {
-		border-top: 1px solid #404040;
-	}
-	
-	.gnb_ly_alert {
-		background-color: #2f2f2f;
-		border: 1px solid #404040;
-	}
-	
-	.gnb_notice_li .gnb_notice_all {
-		border-top: 1px solid #404040;
-		background-color: #2f2f2f;
-	}
-	
-	.gnb_my_li .gnb_my_content {
-		background: #2f2f2f;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_img_area img {
-		border-radius: 50%;
-		-moz-border-radius: 50%;
-		-webkit-border-radius: 50%;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_mask {
-		background: none;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_name, #gnb a:hover, #gnb a {
-		color: #cacaca;
-	}
-	
-	.gnb_bg {
-		background: none;
-	}
-	
-	.gnb_txt {
-		background: #404040;
-	}
-	
-	#gnb {
-		color: #cacaca;
-	}
-	
-	#gnb a, #gnb a:visited {
-		color: #cacaca;
-	}
-	
-	#gnb #gnb_my_lyr_iframe {
-		width: 100% !important;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a {
-		background-color: #2f2f2f;
-		border-top: 1px solid #404040;
-		border-right: 1px solid #404040;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a.gnb_pay span {
-		background-image: url(https://ssl.pstatic.net/static/cafe/homepc/sprite/sp_home_a09f1fce.svg), none;
-		background-repeat: no-repeat;
-		background-position: -4px -4px;
-		width: 11px;
-		height: 20px;
-		position: absolute;
-		top: -4px;
-		left: 35px;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a.gnb_pay span:after {
-		position: absolute;
-		content: 'Pay';
-		color: #cacaca;
-		font-size: 14px;
-		margin-top: 11px;
-		left: 13px;
-		letter-spacing: 1px;
-	}
-	
-	.gnb_lst .ico_arrow {
-		filter: invert(82%) hue-rotate(-180deg);
-	}
-	
-	a.gnb_my .ico_arrow {
-		top: 26px;
-	}
-	
-	.gnb_favorite_area, .gnb_search_area {
-		background: none;
-	}
-	
-	.gnb_favorite_lstwrp {
-		background: #2f2f2f;
-		border-bottom: 1px solid #404040;
-	}
-	
-	.gnb_service_li .ico_arrow {
-		z-index: 99;
-		top: 28px;
-	}
-	
-	.gnb_search_area {
-		margin: 0 4px 0;
-		padding: 18px 0 17px;
-		background: #2f2f2f;
-	}
-	
-	.gnb_search_lstwrp .gnb_search_lst {
-		border-left: 1px solid #404040;
-	}
-	
-	.gnb_banner {
-		padding: 0;
-		margin: 0 4px;
-		background: none;
-		background-color: #2f2f2f;
-	}
-	
-	.gnb_banner .gnb_service_event {
-		width: 100%;
-		filter: invert(82%) hue-rotate(-180deg);
-	}
-	
-	.gnb_linkwrp {
-		background: none;
-	}
-	
-	.gnb_linkwrp a {
-		background: #2f2f2f;
-	}
-	
-	a.gnb_service_all {
-		border-top: 1px solid #404040;
-	}
-	
-	.gnb_pop_input .gnb_pop_lst li a {
-		color: #444 !important;
-	}
-	
-	#gnb_promo {
-		margin: 0 18px;
-	}
-	
-	.gnb_search_lstwrp {
-		padding-left: 3px;
-	}
-	
-	.gnb_favorite_lst .gnb_add a span.ic_add, .gnb_search_box {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	#gnb .gnb_my_interface {
-		filter: invert(82%) hue-rotate(-180deg);
-	}
-	
-	.gnb_notice_li a.gnb_notice .gnb_icon, .mail_li a.gnb_mail .gnb_icon, .gnb_service_li a.gnb_service .gnb_icon {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	#gnb.gnb_one .gnb_my_li .gnb_my .gnb_name {
-		color: #000 !important;
-	}
-	
-	.gnb_my_namebox {
-		background-image: none !important;
-	}
-	
-	.gnb_my_namebox:after {
-		background: url("https://ssl.pstatic.net/static/common/gnb/2014/ico_arrow_wh.gif");
-		background-repeat: no-repeat;
-		width: 5px;
-		height: 4px;
-		position: absolute;
-		margin-left: 100px;
-		top: 27px;
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
 	.srch_top p strong {
 		color: #fff;
 	}
@@ -8661,6 +7855,10 @@
 	
 	.section_create .cafe_input td .thmb img[src="https://ssl.pstatic.net/static/cafe/thumb/make_cafe_thumb_default.png"] {
 		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.gnb_notice_li a.gnb_notice .gnb_icon, .mail_li a.gnb_mail .gnb_icon, .gnb_service_li a.gnb_service .gnb_icon {
+		filter: invert(0%) !important;
 	}
 }
 
@@ -9016,14 +8214,41 @@
 
 @-moz-document url-prefix("https://cafe.naver.com/CafeMemberInfo.nhn")
 {
-	html, head { background: #242424; }
-	.bx1_shadow { background: #242424; }
-	.pop_tit { background: #019341; }
-	th { color: #cacaca; }
-	.bx1 { border: 1px solid #404040; }
-	body, td, div { color: #cacaca!important; }
-	.input_text { color: #cacaca; border: 1px solid #404040; border-right-color: #404040; border-bottom-color: #404040; background-color: #242424; }
-	.pop_btn a, .bx1 a img, .pers_file .btns { filter: invert(86%); }
+	html, head {
+		background: #242424;
+	}
+	
+	.bx1_shadow {
+		background: #242424;
+	}
+	
+	.pop_tit {
+		background: #019341;
+	}
+	
+	th {
+		color: #cacaca;
+	}
+	
+	.bx1 {
+		border: 1px solid #404040;
+	}
+	
+	body, td, div {
+		color: #cacaca !important;
+	}
+	
+	.input_text {
+		color: #cacaca;
+		border: 1px solid #404040;
+		border-right-color: #404040;
+		border-bottom-color: #404040;
+		background-color: #242424;
+	}
+	
+	.pop_btn a, .bx1 a img, .pers_file .btns {
+		filter: invert(86%);
+	}
 }
 
 @-moz-document url-prefix("https://cafe.naver.com"), url-prefix("cafe.naver.com")
@@ -9377,7 +8602,7 @@
 		border: 1px solid #404040;
 	}
 	
-	#naver-gnb #gnb-menu .naver-h, #naver-gnb #gnb-menu .m-cafe, #naver-gnb #gnb-menu .join-cafe, #naver-gnb #gnb-menu .chatting-cafe, #naver-gnb #gnb-menu #gnb, #naver-gnb #gnb-menu .gnb_name, .cafe_list .lst_mycafe li .cafe_name h5 a, .article-album .album-box li .tit a.m-tcol-c, #main-area .m-tcol-c, .article-movie-sub .con, .article-movie-sub .user_info .m-tcol-c, .board-notice.type_faq .article, .board-notice.type_event .article, .board-notice.type_up .article, .prev-next a, .select_component .select_box, .perid-layer a, .article-board .article, .article_prenet .prev_btn .m-tcol-c, .article_prenet .next_btn .m-tcol-c, .article_prenet .aaa .m-tcol-c, .list-btn-nor .m-tcol-c, .list-style .total, .article-album-movie-sub .tit_area .inner .tit_txt, .article-album-sub .tit, .article-album-sub .price, .ia-info-data .gm-tcol-c .id .ellipsis, .ia-info-data3 li, #ia-info-data-emblem .txt, #member-action-data .prfl_info, #member-action-data .grade, #cafe-menu .cafe-menu-tit .gm-tcol-t, #cafe-menu .cafe-menu-list li a, #cafe-menu .cafe-menu-list li span.gm-tcol-c, .com .box-w .group-tit, #linked-member #lm-list .tcol-c, .com .box-w .group-list .tcol-c, .fl .com .pocket_nav, #neighbor-cafe .comment, #widget_company_info .tit_company, #widget_company_info .list_company li, .list-style .link_sort, .article-tag .list_tag .desc_tag .tag, .article-tag .list_tag .tit_area .link_tit, .btn_area .link {
+	#naver-gnb #gnb-menu .naver-h, #naver-gnb #gnb-menu .m-cafe, #naver-gnb #gnb-menu .join-cafe, #naver-gnb #gnb-menu .chatting-cafe, .cafe_list .lst_mycafe li .cafe_name h5 a, .article-album .album-box li .tit a.m-tcol-c, #main-area .m-tcol-c, .article-movie-sub .con, .article-movie-sub .user_info .m-tcol-c, .board-notice.type_faq .article, .board-notice.type_event .article, .board-notice.type_up .article, .prev-next a, .select_component .select_box, .perid-layer a, .article-board .article, .article_prenet .prev_btn .m-tcol-c, .article_prenet .next_btn .m-tcol-c, .article_prenet .aaa .m-tcol-c, .list-btn-nor .m-tcol-c, .list-style .total, .article-album-movie-sub .tit_area .inner .tit_txt, .article-album-sub .tit, .article-album-sub .price, .ia-info-data .gm-tcol-c .id .ellipsis, .ia-info-data3 li, #ia-info-data-emblem .txt, #member-action-data .prfl_info, #member-action-data .grade, #cafe-menu .cafe-menu-tit .gm-tcol-t, #cafe-menu .cafe-menu-list li a, #cafe-menu .cafe-menu-list li span.gm-tcol-c, .com .box-w .group-tit, #linked-member #lm-list .tcol-c, .com .box-w .group-list .tcol-c, .fl .com .pocket_nav, #neighbor-cafe .comment, #widget_company_info .tit_company, #widget_company_info .list_company li, .list-style .link_sort, .article-tag .list_tag .desc_tag .tag, .article-tag .list_tag .tit_area .link_tit, .btn_area .link {
 		color: #cacaca !important;
 	}
 	
@@ -9397,7 +8622,7 @@
 		color: #fff !important;
 	}
 	
-	.cafe_list_control .btn_navi a, .cafe_list_control .btn_navi span, :root .cafe_list_control .action .btn_shortcut_edit, td[background="https://cafe.pstatic.net/img/bg_480_2.gif"], td img[src="https://cafe.pstatic.net/img/bg_480_3.gif"], #naver_common_editor h3.bi img, #naver_common_editor .tab_category ul, #naver_common_editor .tool_bg2, #naver_common_editor .tool_bg, #naver_common_editor .b_tool_bg, #naver_common_editor .size_more, #tageditonclick img, #tageditonclick+img, #searchHelpIcon img, #nboard #naver_common_editor ul.post .prohibit+a img, #nboard #naver_common_editor ul.post .help02, #naver_common_editor .rbox03 .rbox03_bg, #naver_common_editor .rbox03 .rbox03_b, #naver_common_editor .rbox03 .rbox03_t, html>body #naver_common_editor .shadow01, .se2_line_sticker button.se2_prev, .se2_line_sticker button.se2_next, .se2_line_sticker button.se2_prev_off, .se2_line_sticker button.se2_next_off, .se2_line_sticker_set li button, .se2_line_sticker_set div.se2_linesticker_list li, #naver_common_editor .rbox02 .rbox02_t, #naver_common_editor .rbox02 .rbox02_bg, #naver_common_editor .rbox02 .rbox02_b, .list-blog .tit-box img, .gate-box .tit-box img, .photo_view .view_top, .photo_view .btn_close a, .reply-box .u_likeit_list_module .u_likeit_list_btn .u_ico, .spi_lst em, .u_cbox .u_cbox_addition .u_cbox_btn_upload_sticker, .u_cbox .u_cbox_addition .u_cbox_btn_upload_photo, #main-area .article-board .list-i-selling, .spi_default .spi_ly_pop .spi_close span, #main-area #sub-tit, #main-area .sub-tit-bottom, .article-board .board-box img, #main-area .btn span, #main-area .btn p, #layer_msg .temporary_write .btn_close, html>body #layer_msg .temporary_write .edit_change_btn img, #layer_msg .temporary_write .btn_confirm, #layer_msg .temporary_write li a.title, #layer_msg .temporary_write li .close img, .Flash_det_wrap .Flash_det_play_area embed, .seljs_option li.seljs_mover fieldset input[type="image"], .worn_layer_popup .closelayer, .worn_layer_popup .btn_box ._btnConfirm, .worn_layer_popup .btn_box ._btnClose, .worn_layer_popup .btn_box ._btnCancel, #main-area .btn2 p, #main-area .btn2 span, .gnb_svc_more, #gnb-menu .join-cafe .btn-join, .skin-1080 #cafe-banner, .banner_chatbot a img, .sp_end.sale_now, .sp_end.sale_report, .sp_end.fraud_check, .sp_end.safety_deal_help, .NHN_Writeform_Main img[src="https://dthumb-phinf.pstatic.net/?src=%22http%3A%2F%2Fi66.tinypic.com%2F50leds.jpg%22&type=cafe_wa740"], .article-intro .group_rank .img_rank img, .article-intro .group_rank .rank_graph .flash_graph, .origin-txt span .tit-ico, .icon_q, .cafetype_layer .btn_close img, .btn_cafepart .cafetype_layer .arr, #main-area .group_rank.border-sub .flash_graph.border-sub object, #main-area .group_rank.border-sub .img_rank img, .tag-bg-t, .tag-bg-b, .user_feed_option .option_btn:before, .cc_layer_mynews .cc_mynews_list .cc_mynews_notice .icon_option, .cc_layer_mynews .cc_mynews_list .cc_mynews_notice .btn_close:before, .cc_layer_mynews .cc_mynews_list .info_top .count:before, .cc_layer_mynews .cc_mynews_option_btn:before, .cc_layer_dimmed .layer_wrap .btn_layer_close:before, .cc_layer_dimmed .radio_box.type_green input[type="radio"]:checked+label:before, .list-blog .etc-box .copy, .list-blog .etc-box .chat img, .join_info h3 img {
+	.cafe_list_control .btn_navi a, .cafe_list_control .btn_navi span, :root .cafe_list_control .action .btn_shortcut_edit, td[background="https://cafe.pstatic.net/img/bg_480_2.gif"], td img[src="https://cafe.pstatic.net/img/bg_480_3.gif"], #naver_common_editor h3.bi img, #naver_common_editor .tab_category ul, #naver_common_editor .tool_bg2, #naver_common_editor .tool_bg, #naver_common_editor .b_tool_bg, #naver_common_editor .size_more, #tageditonclick img, #tageditonclick+img, #searchHelpIcon img, #nboard #naver_common_editor ul.post .prohibit+a img, #nboard #naver_common_editor ul.post .help02, #naver_common_editor .rbox03 .rbox03_bg, #naver_common_editor .rbox03 .rbox03_b, #naver_common_editor .rbox03 .rbox03_t, html>body #naver_common_editor .shadow01, .se2_line_sticker button.se2_prev, .se2_line_sticker button.se2_next, .se2_line_sticker button.se2_prev_off, .se2_line_sticker button.se2_next_off, .se2_line_sticker_set li button, .se2_line_sticker_set div.se2_linesticker_list li, #naver_common_editor .rbox02 .rbox02_t, #naver_common_editor .rbox02 .rbox02_bg, #naver_common_editor .rbox02 .rbox02_b, .list-blog .tit-box img, .gate-box .tit-box img, .photo_view .view_top, .photo_view .btn_close a, .reply-box .u_likeit_list_module .u_likeit_list_btn .u_ico, .spi_lst em, .u_cbox .u_cbox_addition .u_cbox_btn_upload_sticker, .u_cbox .u_cbox_addition .u_cbox_btn_upload_photo, #main-area .article-board .list-i-selling, .spi_default .spi_ly_pop .spi_close span, #main-area #sub-tit, #main-area .sub-tit-bottom, .article-board .board-box img, #main-area .btn span, #main-area .btn p, #layer_msg .temporary_write .btn_close, html>body #layer_msg .temporary_write .edit_change_btn img, #layer_msg .temporary_write .btn_confirm, #layer_msg .temporary_write li a.title, #layer_msg .temporary_write li .close img, .Flash_det_wrap .Flash_det_play_area embed, .seljs_option li.seljs_mover fieldset input[type="image"], .worn_layer_popup .closelayer, .worn_layer_popup .btn_box ._btnConfirm, .worn_layer_popup .btn_box ._btnClose, .worn_layer_popup .btn_box ._btnCancel, #main-area .btn2 p, #main-area .btn2 span, #gnb-menu .join-cafe .btn-join, .skin-1080 #cafe-banner, .banner_chatbot a img, .sp_end.sale_now, .sp_end.sale_report, .sp_end.fraud_check, .sp_end.safety_deal_help, .NHN_Writeform_Main img[src="https://dthumb-phinf.pstatic.net/?src=%22http%3A%2F%2Fi66.tinypic.com%2F50leds.jpg%22&type=cafe_wa740"], .article-intro .group_rank .img_rank img, .article-intro .group_rank .rank_graph .flash_graph, .origin-txt span .tit-ico, .icon_q, .cafetype_layer .btn_close img, .btn_cafepart .cafetype_layer .arr, #main-area .group_rank.border-sub .flash_graph.border-sub object, #main-area .group_rank.border-sub .img_rank img, .tag-bg-t, .tag-bg-b, .user_feed_option .option_btn:before, .cc_layer_mynews .cc_mynews_list .cc_mynews_notice .icon_option, .cc_layer_mynews .cc_mynews_list .cc_mynews_notice .btn_close:before, .cc_layer_mynews .cc_mynews_list .info_top .count:before, .cc_layer_mynews .cc_mynews_option_btn:before, .cc_layer_dimmed .layer_wrap .btn_layer_close:before, .cc_layer_dimmed .radio_box.type_green input[type="radio"]:checked+label:before, .list-blog .etc-box .copy, .list-blog .etc-box .chat img, .join_info h3 img {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
@@ -9405,7 +8630,7 @@
 		color: #000 !important;
 	}
 	
-	.btn_type1.post_write:before, .check_box input+label:before, .check_box input:checked+label:before, .check_box.green_check input:checked+label:before, .box_notice .close .ico_newcafe, .ico_aside, .info-action-tab .tit-bookmark .btn-bookmark-off, .ia-info-data .ico_setting, .ia-info-data .ico_stat, .ia-info-data .ico_alarm, .ia-info-data2 .mem-cnt-info .ico, .ia-info-data2 .mem-cnt-info .ico_lock2, .ia-info-data3 .ico_bkmk, .ia-info-data3 .ico_bkmk2, .ia-info-data3 .ico_mbl, #member-action-data .ico_vst, #member-action-data .ico_wrt, #member-action-data .ico_cmt, #member-action-data .ico_pay, #cafe-menu .cafe-menu-tit .up-btn, #cafe-menu .cafe-menu-tit .down-btn, #linked-member .member-reload, #linked-member .member-up, #linked-member .member-down, .prev-next .pgL:before, .prev-next .pgR:after, .article-board .unload .ico_newcafe, .ico_newcafe, #naver-gnb #gnb-menu .gnb_service_li .gnb_icon, .footer .naver_cafe, .select_component .select_box:after, .select_component.is_selected .select_box:after, .btn_type1.prev:before, .btn_type1.post_prev:before, .btn_type1.post_next:before, .btn_refresh:before, .radio_box input+label:before, .radio_box input:checked+label:before, .radio_box.green_radio input:checked+label:before, .learn_more:after, .learn_more.is_selected:after, .icon_tip, .icon_select, .box_calendar .link_prev, .box_calendar .link_next, .layer_calendar .ly_header a:after, .layer_calendar .ly_header a.calendar-btn-prev-mon:after, .layer_calendar .ly_header a.calendar-btn-next-mon:after, .ly_begin.type_join .btn_clse:before, .alarm_switch .layer_alarm .btn_close:before, .search_mini .search_btn:after, .cafe-info-action .lab_thmb, .ia-info-data2 .level-info .ico_check, #member-action-data .ico_manager, .ia-adult .ico_adult, .ia-info-btn .link_chat .new_chatting, #cafe-menu .cafe-menu-tit .ico-bookmark, #cafe-menu .cafe-menu-list .ico-book, #cafe-menu .cafe-menu-list .ico-market, #cafe-menu .cafe-menu-list .ico-calendar, #cafe-menu .cafe-menu-list .ico-kin, #cafe-menu .cafe-menu-list .ico-link, #cafe-menu .cafe-menu-list .ico-list, #cafe-menu .cafe-menu-list .ico-map, #cafe-menu .cafe-menu-list .ico-memo, #cafe-menu .cafe-menu-list .ico-photo, #cafe-menu .cafe-menu-list .ico-cafe-kin, #cafe-menu .cafe-menu-list .ico-simple, #cafe-menu .cafe-menu-list .ico-attendance, #cafe-menu .cafe-menu-list .ico-tag, #widget-bean .bean-btns .btn-saving .ico_aside, #widget-bean .bean-btns .btn-put-in .ico_aside, #widget-weather .temperature:after, .list-i-selling-safe, .list-i-sellout, .list-i-selling, .list-i-groupbuy, .list-i-groupbuy-safe, .list-i-share, .list-i-exchage, .list-i-selected, .list-i-img, .list-i-movie, .list-i-map, .list-i-restrict, .list-i-music, .list-i-upload, .list-i-poll, .list-i-calendar, .list-i-link, #sub-tit .ico_bookmark:before, #sub-tit .ico_bookmark.on:before, .sub_info_box .link_more .ico_more, .sub_info_box .list_qna li:before, .list-style .msg_permit:before, .list-style .sort_form .sort_card, .list-style .sort_form .sort_video, .list-style .sort_form .sort_album, .list-style .sort_form .sort_list, .list-style .sort_form .sort_card.is_selected, .list-style .sort_form .sort_video.is_selected, .list-style .sort_form .sort_album.is_selected, .list-style .sort_form .sort_list.is_selected, .article-movie-sub .like_area .comment_area .comment_ico, .article-movie-sub .like_area .u_likeit_list_module .u_ico, .article-movie-sub .like_area .u_likeit_list_module .on .u_ico, .article-movie-sub .movie-img .num:before, .article-movie-sub .movie-img .ico_play, .box_write .set_attach .btn_photo:before, .box_write .set_attach .btn_mov:before, .box_write .set_attach .btn_option:before, .simple_lst_section .layer_bookmark .link_close:before, .restrict_area .msg:before, .article-attendance .box_mission .link_del, .article-attendance .list_attendance .rank1, .article-attendance .list_attendance .rank2, .article-attendance .list_attendance .rank3, .article-cafekin .list_total .ico_answer, .article-cafekin .list_total .ico_pick, .article-tag .list_tag .desc_tag .ico_tag, .article-intro .tbl_cafe_info .lab_thmb, #main-area .list-tit span a:after, #main-area table.searchad .ico_npay, #main-area table.searchad .ico_nid, #main-area table.searchad .adsby .sa_logo, #main-area table.searchad .adsby .ico_help, .skin-1080 #ia-info-data-emblem .logo {
+	.btn_type1.post_write:before, .check_box input+label:before, .check_box input:checked+label:before, .check_box.green_check input:checked+label:before, .box_notice .close .ico_newcafe, .ico_aside, .info-action-tab .tit-bookmark .btn-bookmark-off, .ia-info-data .ico_setting, .ia-info-data .ico_stat, .ia-info-data .ico_alarm, .ia-info-data2 .mem-cnt-info .ico, .ia-info-data2 .mem-cnt-info .ico_lock2, .ia-info-data3 .ico_bkmk, .ia-info-data3 .ico_bkmk2, .ia-info-data3 .ico_mbl, #member-action-data .ico_vst, #member-action-data .ico_wrt, #member-action-data .ico_cmt, #member-action-data .ico_pay, #cafe-menu .cafe-menu-tit .up-btn, #cafe-menu .cafe-menu-tit .down-btn, #linked-member .member-reload, #linked-member .member-up, #linked-member .member-down, .prev-next .pgL:before, .prev-next .pgR:after, .article-board .unload .ico_newcafe, .ico_newcafe, .footer .naver_cafe, .select_component .select_box:after, .select_component.is_selected .select_box:after, .btn_type1.prev:before, .btn_type1.post_prev:before, .btn_type1.post_next:before, .btn_refresh:before, .radio_box input+label:before, .radio_box input:checked+label:before, .radio_box.green_radio input:checked+label:before, .learn_more:after, .learn_more.is_selected:after, .icon_tip, .icon_select, .box_calendar .link_prev, .box_calendar .link_next, .layer_calendar .ly_header a:after, .layer_calendar .ly_header a.calendar-btn-prev-mon:after, .layer_calendar .ly_header a.calendar-btn-next-mon:after, .ly_begin.type_join .btn_clse:before, .alarm_switch .layer_alarm .btn_close:before, .search_mini .search_btn:after, .cafe-info-action .lab_thmb, .ia-info-data2 .level-info .ico_check, #member-action-data .ico_manager, .ia-adult .ico_adult, .ia-info-btn .link_chat .new_chatting, #cafe-menu .cafe-menu-tit .ico-bookmark, #cafe-menu .cafe-menu-list .ico-book, #cafe-menu .cafe-menu-list .ico-market, #cafe-menu .cafe-menu-list .ico-calendar, #cafe-menu .cafe-menu-list .ico-kin, #cafe-menu .cafe-menu-list .ico-link, #cafe-menu .cafe-menu-list .ico-list, #cafe-menu .cafe-menu-list .ico-map, #cafe-menu .cafe-menu-list .ico-memo, #cafe-menu .cafe-menu-list .ico-photo, #cafe-menu .cafe-menu-list .ico-cafe-kin, #cafe-menu .cafe-menu-list .ico-simple, #cafe-menu .cafe-menu-list .ico-attendance, #cafe-menu .cafe-menu-list .ico-tag, #widget-bean .bean-btns .btn-saving .ico_aside, #widget-bean .bean-btns .btn-put-in .ico_aside, #widget-weather .temperature:after, .list-i-selling-safe, .list-i-sellout, .list-i-selling, .list-i-groupbuy, .list-i-groupbuy-safe, .list-i-share, .list-i-exchage, .list-i-selected, .list-i-img, .list-i-movie, .list-i-map, .list-i-restrict, .list-i-music, .list-i-upload, .list-i-poll, .list-i-calendar, .list-i-link, #sub-tit .ico_bookmark:before, #sub-tit .ico_bookmark.on:before, .sub_info_box .link_more .ico_more, .sub_info_box .list_qna li:before, .list-style .msg_permit:before, .list-style .sort_form .sort_card, .list-style .sort_form .sort_video, .list-style .sort_form .sort_album, .list-style .sort_form .sort_list, .list-style .sort_form .sort_card.is_selected, .list-style .sort_form .sort_video.is_selected, .list-style .sort_form .sort_album.is_selected, .list-style .sort_form .sort_list.is_selected, .article-movie-sub .like_area .comment_area .comment_ico, .article-movie-sub .like_area .u_likeit_list_module .u_ico, .article-movie-sub .like_area .u_likeit_list_module .on .u_ico, .article-movie-sub .movie-img .num:before, .article-movie-sub .movie-img .ico_play, .box_write .set_attach .btn_photo:before, .box_write .set_attach .btn_mov:before, .box_write .set_attach .btn_option:before, .simple_lst_section .layer_bookmark .link_close:before, .restrict_area .msg:before, .article-attendance .box_mission .link_del, .article-attendance .list_attendance .rank1, .article-attendance .list_attendance .rank2, .article-attendance .list_attendance .rank3, .article-cafekin .list_total .ico_answer, .article-cafekin .list_total .ico_pick, .article-tag .list_tag .desc_tag .ico_tag, .article-intro .tbl_cafe_info .lab_thmb, #main-area .list-tit span a:after, #main-area table.searchad .ico_npay, #main-area table.searchad .ico_nid, #main-area table.searchad .adsby .sa_logo, #main-area table.searchad .adsby .ico_help, .skin-1080 #ia-info-data-emblem .logo {
 		filter: invert(86%) hue-rotate(-180deg) !important;
 	}
 	
@@ -9454,7 +8679,7 @@
 		border: 1px solid #404040 !important;
 	}
 	
-	.select_component .select_list li a, .select_component .date_enter .tit, #naver_common_editor ul.subject .item, #naver_common_editor ul.subject .pd02, #naver_common_editor .file_attach_menu li a, #naver_common_editor ul.subject .infoattach a, #naver_common_editor div, #naver_common_editor ul, #naver_common_editor td, #naver_common_editor input, #naver_common_editor textarea, #naver_common_editor ul.post .item, .check_box label, .select_component2 .select_box, .select_component2 .select_list li a, #content-area .cmlist .comm, .u_cbox a, #content-area .box-reply2 .m-tcol-c, #content-area .cminput .u_cbox_btn_upload a, .spi_default .spi_ly_pop .spi_dsc, .spi_default, .spi_default ul, .spi_default li, .spi_default form, .spi_default fieldset, .spi_default legend, .spi_default input, .spi_lst_release strong, #main-area .m-tcol-c, #main-area .inbox .tbody, .keyword_alarm, input, #layer_msg .temporary_write .cafe_tab li.on a, .cafe_list h5, #gnb-menu a, #gnb-menu .view_mobile, #gnb-menu a.gnb_my .gnb_name, .cc_layer_mynews .cc_mynews_list .cc_mynews_notice .notice_txt, .cc_layer_mynews .cc_mynews_list .info_title, .cc_layer_mynews .cc_mynews_list .cc_mynews_info {
+	.select_component .select_list li a, .select_component .date_enter .tit, #naver_common_editor ul.subject .item, #naver_common_editor ul.subject .pd02, #naver_common_editor .file_attach_menu li a, #naver_common_editor ul.subject .infoattach a, #naver_common_editor div, #naver_common_editor ul, #naver_common_editor td, #naver_common_editor input, #naver_common_editor textarea, #naver_common_editor ul.post .item, .check_box label, .select_component2 .select_box, .select_component2 .select_list li a, #content-area .cmlist .comm, .u_cbox a, #content-area .box-reply2 .m-tcol-c, #content-area .cminput .u_cbox_btn_upload a, .spi_default .spi_ly_pop .spi_dsc, .spi_default, .spi_default ul, .spi_default li, .spi_default form, .spi_default fieldset, .spi_default legend, .spi_default input, .spi_lst_release strong, #main-area .m-tcol-c, #main-area .inbox .tbody, .keyword_alarm, input, #layer_msg .temporary_write .cafe_tab li.on a, .cafe_list h5, #gnb-menu a, #gnb-menu .view_mobile, .cc_layer_mynews .cc_mynews_list .cc_mynews_notice .notice_txt, .cc_layer_mynews .cc_mynews_list .info_title, .cc_layer_mynews .cc_mynews_list .cc_mynews_info {
 		color: #cacaca;
 	}
 	
@@ -9727,195 +8952,6 @@
 		color: #cacaca;
 	}
 	
-	.gnb_notice_li .svc_panel, .gnb_notice_li .svc_scroll {
-		background: #2f2f2f;
-	}
-	
-	.gnb_notice_li .svc_head {
-		background: #2f2f2f;
-		border-bottom: 1px solid #404040;
-	}
-	
-	.gnb_notice_li .gnb_notice_lyr, .gnb_my_lyr {
-		background: none;
-	}
-	
-	a.gnb_my .gnb_name {
-		color: #cacaca;
-	}
-	
-	.gnb_notice_li .svc_head .task_right {
-		filter: invert(86%);
-	}
-	
-	.gnb_notice_li .svc_list li {
-		border-top: 1px solid #404040;
-	}
-	
-	.gnb_ly_alert {
-		background-color: #2f2f2f;
-		border: 1px solid #404040;
-	}
-	
-	.gnb_notice_li .gnb_notice_all {
-		border-top: 1px solid #404040;
-		background-color: #2f2f2f;
-	}
-	
-	.gnb_my_li .gnb_my_content {
-		background: #2f2f2f;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_img_area img {
-		border-radius: 50%;
-		-moz-border-radius: 50%;
-		-webkit-border-radius: 50%;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_mask {
-		background: none;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_name, #gnb a:hover, #gnb a {
-		color: #cacaca;
-	}
-	
-	.gnb_bg {
-		background: none;
-	}
-	
-	.gnb_txt {
-		background: #404040;
-	}
-	
-	#gnb {
-		color: #cacaca;
-	}
-	
-	#gnb a, #gnb a:visited {
-		color: #cacaca;
-	}
-	
-	#gnb #gnb_my_lyr_iframe {
-		width: 100% !important;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a {
-		background-color: #2f2f2f;
-		border-top: 1px solid #404040;
-		border-right: 1px solid #404040;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a.gnb_pay span {
-		background-image: url(https://ssl.pstatic.net/static/cafe/homepc/sprite/sp_home_a09f1fce.svg), none;
-		background-repeat: no-repeat;
-		background-position: -4px -4px;
-		width: 11px;
-		height: 20px;
-		position: absolute;
-		top: -4px;
-		left: 35px;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a.gnb_pay span:after {
-		position: absolute;
-		content: 'Pay';
-		color: #cacaca;
-		font-size: 14px;
-		margin-top: 11px;
-		left: 13px;
-		letter-spacing: 1px;
-	}
-	
-	.gnb_notice_li a.gnb_notice .gnb_icon, .mail_li a.gnb_mail .gnb_icon, .gnb_service_li a.gnb_service .gnb_icon {
-		filter: invert(86%);
-	}
-	
-	.gnb_lst .ico_arrow {
-		filter: invert(82%);
-	}
-	
-	a.gnb_my .ico_arrow {
-		top: 26px;
-	}
-	
-	.gnb_favorite_area, .gnb_search_area {
-		background: none;
-	}
-	
-	.gnb_favorite_lstwrp {
-		background: #2f2f2f;
-		border-bottom: 1px solid #404040;
-	}
-	
-	.gnb_service_li .ico_arrow {
-		z-index: 99;
-		top: 28px;
-	}
-	
-	.gnb_search_area {
-		margin: 0 4px 0;
-		padding: 18px 0 17px;
-		background: #2f2f2f;
-	}
-	
-	.gnb_search_lstwrp .gnb_search_lst {
-		border-left: 1px solid #404040;
-	}
-	
-	.gnb_banner {
-		padding: 0;
-		margin: 0 4px;
-		background: none;
-		background-color: #2f2f2f;
-	}
-	
-	.gnb_banner .gnb_service_event {
-		width: 100%;
-		filter: invert(82%) hue-rotate(-180deg);
-	}
-	
-	.gnb_linkwrp {
-		background: none;
-	}
-	
-	.gnb_linkwrp a {
-		background: #2f2f2f;
-	}
-	
-	a.gnb_service_all {
-		border-top: 1px solid #404040;
-	}
-	
-	.gnb_pop_input .gnb_pop_lst li a {
-		color: #444 !important;
-	}
-	
-	#gnb_promo {
-		margin: 0 18px;
-	}
-	
-	.gnb_search_lstwrp {
-		padding-left: 3px;
-	}
-	
-	.gnb_favorite_lst .gnb_add a span.ic_add, .gnb_search_box {
-		filter: invert(86%);
-	}
-	
-	#gnb .gnb_my_interface {
-		filter: invert(82%);
-	}
-	
-	.gnb_notice_li .svc_list .gnb_new {
-	    background: #404040;
-	}
-	
-	.gnb_notice_li .svc_list .gnb_unread .gnb_subject,
-	.gnb_notice_li .svc_list .gnb_unread .svc_name {
-	    color: #fff;
-	}
-	
 	.og .txt {
 		border: 1px solid #404040;
 		background: #2f2f2f;
@@ -9991,10 +9027,6 @@
 		border: 1px solid #404040;
 		background: #242424;
 		color: #cacaca;
-	}
-	
-	#gnb_my_lyr_iframe {
-		height: 0px !important;
 	}
 	
 	#vote_pop .main_list {
@@ -10639,6 +9671,10 @@
 	.article-board .pers_nick_area .mem-level img {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
+	
+	#naver-gnb #gnb-menu #gnb #gnb_name1 {
+		color: #cacaca;
+	}
 }
 
 @-moz-document url-prefix("https://section.blog.naver.com"), url-prefix("http://section.blog.naver.com")
@@ -10936,205 +9972,6 @@
 		border-bottom: 1px solid #404040;
 	}
 	
-	.gnb_notice_li .svc_panel, .gnb_notice_li .svc_scroll {
-		background: #2f2f2f;
-	}
-	
-	.gnb_notice_li .svc_head {
-		background: #2f2f2f;
-		border-bottom: 1px solid #404040;
-	}
-	
-	.gnb_notice_li .gnb_notice_lyr, .gnb_my_lyr {
-		background: none;
-	}
-	
-	a.gnb_my .gnb_name {
-		color: #cacaca;
-	}
-	
-	.gnb_notice_li .svc_head .task_right {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.gnb_notice_li .svc_list li {
-		border-top: 1px solid #404040;
-	}
-	
-	.gnb_ly_alert {
-		background-color: #2f2f2f;
-		border: 1px solid #404040;
-	}
-	
-	.gnb_notice_li .gnb_notice_all {
-		border-top: 1px solid #404040;
-		background-color: #2f2f2f;
-	}
-	
-	.gnb_my_li .gnb_my_content {
-		background: #2f2f2f;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_img_area img {
-		border-radius: 50%;
-		-moz-border-radius: 50%;
-		-webkit-border-radius: 50%;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_mask {
-		background: none;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_name, #gnb a:hover, #gnb a {
-		color: #cacaca;
-	}
-	
-	.gnb_bg {
-		background: none;
-	}
-	
-	.gnb_txt {
-		background: #404040;
-	}
-	
-	#gnb {
-		color: #cacaca;
-	}
-	
-	#gnb a, #gnb a:visited {
-		color: #cacaca;
-	}
-	
-	#gnb #gnb_my_lyr_iframe {
-		width: 100% !important;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a {
-		background-color: #2f2f2f;
-		border-top: 1px solid #404040;
-		border-right: 1px solid #404040;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a.gnb_pay span {
-		background-image: url(https://ssl.pstatic.net/static/cafe/homepc/sprite/sp_home_a09f1fce.svg), none;
-		background-repeat: no-repeat;
-		background-position: -4px -4px;
-		width: 11px;
-		height: 20px;
-		position: absolute;
-		top: -4px;
-		left: 35px;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a.gnb_pay span:after {
-		position: absolute;
-		content: 'Pay';
-		color: #cacaca;
-		font-size: 14px;
-		margin-top: 11px;
-		left: 13px;
-		letter-spacing: 1px;
-	}
-	
-	.gnb_notice_li a.gnb_notice .gnb_icon, .mail_li a.gnb_mail .gnb_icon, .gnb_service_li a.gnb_service .gnb_icon {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.gnb_lst .ico_arrow {
-		filter: invert(82%) hue-rotate(-180deg);
-	}
-	
-	a.gnb_my .ico_arrow {
-		top: 26px;
-	}
-	
-	.gnb_favorite_area, .gnb_search_area {
-		background: none;
-	}
-	
-	.gnb_favorite_lstwrp {
-		background: #2f2f2f;
-		border-bottom: 1px solid #404040;
-	}
-	
-	.gnb_service_li .ico_arrow {
-		z-index: 99;
-		top: 28px;
-	}
-	
-	.gnb_search_area {
-		margin: 0 4px 0;
-		padding: 18px 0 17px;
-		background: #2f2f2f;
-	}
-	
-	.gnb_search_lstwrp .gnb_search_lst {
-		border-left: 1px solid #404040;
-	}
-	
-	.gnb_banner {
-		padding: 0;
-		margin: 0 4px;
-		background: none;
-		background-color: #2f2f2f;
-	}
-	
-	.gnb_banner .gnb_service_event {
-		width: 100%;
-		filter: invert(82%) hue-rotate(-180deg);
-	}
-	
-	.gnb_linkwrp {
-		background: none;
-	}
-	
-	.gnb_linkwrp a {
-		background: #2f2f2f;
-	}
-	
-	a.gnb_service_all {
-		border-top: 1px solid #404040;
-	}
-	
-	.gnb_pop_input .gnb_pop_lst li a {
-		color: #444 !important;
-	}
-	
-	#gnb_promo {
-		margin: 0 18px;
-	}
-	
-	.gnb_search_lstwrp {
-		padding-left: 3px;
-	}
-	
-	.gnb_favorite_lst .gnb_add a span.ic_add, .gnb_search_box {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	#gnb .gnb_my_interface {
-		filter: invert(82%) hue-rotate(-180deg);
-	}
-	
-	#gnb.gnb_one .gnb_my_li .gnb_my .gnb_name {
-		color: #000 !important;
-	}
-	
-	.gnb_my_namebox {
-		background-image: none !important;
-	}
-	
-	.gnb_my_namebox:after {
-		background: url("https://ssl.pstatic.net/static/common/gnb/2014/ico_arrow_wh.gif");
-		background-repeat: no-repeat;
-		width: 5px;
-		height: 4px;
-		position: absolute;
-		margin-left: 100px;
-		top: 27px;
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
 	#container .banner_monthly .text {
 		color: #fff;
 	}
@@ -11232,6 +10069,10 @@
 	.wrap_my_information .area_my_account .text_today_guest {
 		color: #cacaca;
 	}
+	
+	.gnb_notice_li a.gnb_notice .gnb_icon, .mail_li a.gnb_mail .gnb_icon, .gnb_service_li a.gnb_service .gnb_icon {
+		filter: invert(0%) !important;
+	}
 }
 
 @-moz-document url-prefix("https://nid.naver.com/nidlogin.login")
@@ -11293,21 +10134,57 @@
 
 @-moz-document url-prefix("https://nid.naver.com/login/ext/")
 {
-	html, head { background: #242424; }
-	#content { filter: invert(86%); }
-	.notice { top: 570px; border-bottom: none; color: #cacaca; }
-	.btn_more { top: 570px; }
-	#footer { border: 1px solid #404040; background-color: #242424; }
-	#footer input, #footer button { background-color: #242424; border-color: #404040; }
+	html, head {
+		background: #242424;
+	}
+	
+	#content {
+		filter: invert(86%);
+	}
+	
+	.notice {
+		top: 570px;
+		border-bottom: none;
+		color: #cacaca;
+	}
+	
+	.btn_more {
+		top: 570px;
+	}
+	
+	#footer {
+		border: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	#footer input, #footer button {
+		background-color: #242424;
+		border-color: #404040;
+	}
 }
 
 @-moz-document url-prefix("https://nid.naver.com/oauth/")
 {
-	html, head { background: #242424; }
-	.bx { background: #242424; border: 1px solid #404040; }
-	.bx .connect img:nth-child(2) { filter: invert(88%); }
-	#footer a img { filter: invert(86%); }
-	.bx a img { filter: invert(86%); }
+	html, head {
+		background: #242424;
+	}
+	
+	.bx {
+		background: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.bx .connect img:nth-child(2) {
+		filter: invert(88%);
+	}
+	
+	#footer a img {
+		filter: invert(86%);
+	}
+	
+	.bx a img {
+		filter: invert(86%);
+	}
 }
 
 @-moz-document url-prefix("https://uploader1.nmv.naver.com"), url-prefix("https://uploader.nmv.naver.com")
@@ -11461,71 +10338,190 @@
 
 @-moz-document url-prefix("https://cafe.naver.com/SecedeCafeArticleView.nhn")
 {
-	html, head { background: #242424; }
-	.list-blog .not_click_area { background-color: #242424; }
-	body, td, div, .m-tcol-c { color: #cacaca; }
-	.list-blog { border: 1px solid #404040; }
-	.list-blog .board-box-line-dashed { border-top: 1px dashed #404040; }
-	#tit-box h1 img, .p_btn img { filter: invert(86%); }
+	html, head {
+		background: #242424;
+	}
+	
+	.list-blog .not_click_area {
+		background-color: #242424;
+	}
+	
+	body, td, div, .m-tcol-c {
+		color: #cacaca;
+	}
+	
+	.list-blog {
+		border: 1px solid #404040;
+	}
+	
+	.list-blog .board-box-line-dashed {
+		border-top: 1px dashed #404040;
+	}
+	
+	#tit-box h1 img, .p_btn img {
+		filter: invert(86%);
+	}
 }
 
 @-moz-document url-prefix("https://cafe.naver.com/FavoriteCafeMenuSetupResultPopup.nhn")
 {
-	html, head { background: #242424; }
-	.pop_container { color: #cacaca; }
-	.pop_btn { border-top: 1px solid #404040; }
-	.pop_btn .btn { border: 1px solid #404040; }
-	.pop_btn .btn.type_point { color: #242424; }
-	.pop_header .logo { filter: invert(86%); }
+	html, head {
+		background: #242424;
+	}
+	
+	.pop_container {
+		color: #cacaca;
+	}
+	
+	.pop_btn {
+		border-top: 1px solid #404040;
+	}
+	
+	.pop_btn .btn {
+		border: 1px solid #404040;
+	}
+	
+	.pop_btn .btn.type_point {
+		color: #242424;
+	}
+	
+	.pop_header .logo {
+		filter: invert(86%);
+	}
 }
 
 @-moz-document url-prefix("https://cafe.naver.com/ArticlePreview.nhn")
 {
-	html, head { background: #242424; }
-	#tit-box h1 img { filter: invert(86%); }
-	.list-blog .not_click_area { background-color: #242424; }
-	.list-blog { border: 1px solid #404040; }
-	.m-tcol-c, body, td, div { color: #cacaca !important; }
-	.p_btn img { filter: invert(86%); }
+	html, head {
+		background: #242424;
+	}
+	
+	#tit-box h1 img {
+		filter: invert(86%);
+	}
+	
+	.list-blog .not_click_area {
+		background-color: #242424;
+	}
+	
+	.list-blog {
+		border: 1px solid #404040;
+	}
+	
+	.m-tcol-c, body, td, div {
+		color: #cacaca !important;
+	}
+	
+	.p_btn img {
+		filter: invert(86%);
+	}
 }
 
 @-moz-document url-prefix("https://cafe.naver.com/BoardReport")
 {
-	html, head { background: #242424; }
-	#pop_wrap #pop_header { background: #242424; border-bottom: 1px solid #404040; }
-	#pop_wrap #pop_header h1 { color: #fff; }
-	#pop_wrap #pop_content .list_report dt { color: #cacaca; }
-	#pop_wrap #pop_content .list_report dt, #pop_wrap #pop_content .list_report dd, #pop_wrap #pop_footer { border-top: 1px solid #404040; }
-	.more, #pop_wrap #pop_footer input[type="image"], #pop_wrap #pop_footer a img, #pop_wrap #pop_content .list_report .list_type2 li { filter: invert(86%); }
+	html, head {
+		background: #242424;
+	}
+	
+	#pop_wrap #pop_header {
+		background: #242424;
+		border-bottom: 1px solid #404040;
+	}
+	
+	#pop_wrap #pop_header h1 {
+		color: #fff;
+	}
+	
+	#pop_wrap #pop_content .list_report dt {
+		color: #cacaca;
+	}
+	
+	#pop_wrap #pop_content .list_report dt, #pop_wrap #pop_content .list_report dd, #pop_wrap #pop_footer {
+		border-top: 1px solid #404040;
+	}
+	
+	.more, #pop_wrap #pop_footer input[type="image"], #pop_wrap #pop_footer a img, #pop_wrap #pop_content .list_report .list_type2 li {
+		filter: invert(86%);
+	}
 }
 
 @-moz-document url-prefix("https://cafe.naver.com/MemberLevelView.nhn")
 {
-	html, head { background: #242424; }
-	.bx_type { border: 1px solid #404040; }
-	.tbl_role th, .tbl_role td { border-bottom: 1px solid #404040; }
-	.bx_type strong, .txt_top { color: #cacaca; }
-	.bx_type ul li, .btn_type { filter: invert(86%); }
+	html, head {
+		background: #242424;
+	}
+	
+	.bx_type {
+		border: 1px solid #404040;
+	}
+	
+	.tbl_role th, .tbl_role td {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.bx_type strong, .txt_top {
+		color: #cacaca;
+	}
+	
+	.bx_type ul li, .btn_type {
+		filter: invert(86%);
+	}
 }
 
 @-moz-document url-prefix("https://cafe.naver.com/CafeSecedeView.nhn")
 {
-	html, head { background: #242424; }
-	.bx1 { border: 1px solid #404040; }
-	.bx1 *, .desc1 strong { color: #cacaca; }
-	.bx1_shadow { border: 1px solid #404040; background: #242424; color: #cacaca; }
-	#footer { border-top: 3px solid #404040; }
-	#content { border-bottom: 1px solid #404040; }
-	#footer a img { filter: invert(86%); }
+	html, head {
+		background: #242424;
+	}
+	
+	.bx1 {
+		border: 1px solid #404040;
+	}
+	
+	.bx1 *, .desc1 strong {
+		color: #cacaca;
+	}
+	
+	.bx1_shadow {
+		border: 1px solid #404040;
+		background: #242424;
+		color: #cacaca;
+	}
+	
+	#footer {
+		border-top: 3px solid #404040;
+	}
+	
+	#content {
+		border-bottom: 1px solid #404040;
+	}
+	
+	#footer a img {
+		filter: invert(86%);
+	}
 }
 
 @-moz-document url-prefix("https://cafe.naver.com/NaverMeSubscribe.nhn")
 {
-	html, head { background: #242424; }
-	.pop_container { color: #cacaca; }
-	.msg_area .link_go:after { filter: invert(86%); }
-	.check_area, .pop_btn { border-top: 1px solid #404040; }
-	.pop_btn .btn { border: 1px solid #404040; }
+	html, head {
+		background: #242424;
+	}
+	
+	.pop_container {
+		color: #cacaca;
+	}
+	
+	.msg_area .link_go:after {
+		filter: invert(86%);
+	}
+	
+	.check_area, .pop_btn {
+		border-top: 1px solid #404040;
+	}
+	
+	.pop_btn .btn {
+		border: 1px solid #404040;
+	}
 }
 
 @-moz-document url-prefix("https://cafe.naver.com/CafeInvite")
@@ -11592,12 +10588,30 @@
 
 @-moz-document url-prefix("https://cafe.naver.com/BlogBuddyInviteView.nhn")
 {
-	html, head { background: #242424; }
-	#pop_header { border: 1px solid #404040; background: #242424; }
-	#pop_header h1 { filter: invert(89.5%); }
-	#pop_header h1 span { display: none; }
-	#pop_footer { border-top: 1px solid #404040; }
-	#pop_wrap h2, #pop_wrap .btn_pop { filter: invert(86%); }
+	html, head {
+		background: #242424;
+	}
+	
+	#pop_header {
+		border: 1px solid #404040;
+		background: #242424;
+	}
+	
+	#pop_header h1 {
+		filter: invert(89.5%);
+	}
+	
+	#pop_header h1 span {
+		display: none;
+	}
+	
+	#pop_footer {
+		border-top: 1px solid #404040;
+	}
+	
+	#pop_wrap h2, #pop_wrap .btn_pop {
+		filter: invert(86%);
+	}
 }
 
 @-moz-document url-prefix("https://cafe.naver.com/MyCafeIntro.nhn")
@@ -11642,24 +10656,69 @@
 
 @-moz-document url-prefix("https://cafe.naver.com/CafeApply")
 {
-	html, head { background: #242424; }
-	#cafeNickNameInput { background: #242424; border-color: #404040!important; }
-	#cafeCheckNicknameButton { filter: invert(86%); }
-	.switch_btn .bg_track[aria-pressed="false"] { background-color: #4f4f4f; }
-	.capcha_desc { color: #cacaca; }
-	.capcha_desc .input_txt2 { border: 1px solid #404040; color: #cacaca; background: #242424; }
-	.capcha_desc span.line { color: #404040; }
+	html, head {
+		background: #242424;
+	}
+	
+	#cafeNickNameInput {
+		background: #242424;
+		border-color: #404040 !important;
+	}
+	
+	#cafeCheckNicknameButton {
+		filter: invert(86%);
+	}
+	
+	.switch_btn .bg_track[aria-pressed="false"] {
+		background-color: #4f4f4f;
+	}
+	
+	.capcha_desc {
+		color: #cacaca;
+	}
+	
+	.capcha_desc .input_txt2 {
+		border: 1px solid #404040;
+		color: #cacaca;
+		background: #242424;
+	}
+	
+	.capcha_desc span.line {
+		color: #404040;
+	}
 }
 
 @-moz-document url-prefix("https://cafe.naver.com/CafeInviteReject.nhn")
 {
-	html, head { background: #242424; }
-	.bx1_shadow { border: 1px solid #404040; background: #242424; color: #cacaca; }
-	#footer { border-top: 3px solid #404040; }
-	#content { border-bottom: 1px solid #404040; }
-	.bx1 { border: 1px solid #404040; }
-	#footer a img { filter: invert(86%); }
-	.bx1 *, .desc1 strong { color: #cacaca; }
+	html, head {
+		background: #242424;
+	}
+	
+	.bx1_shadow {
+		border: 1px solid #404040;
+		background: #242424;
+		color: #cacaca;
+	}
+	
+	#footer {
+		border-top: 3px solid #404040;
+	}
+	
+	#content {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.bx1 {
+		border: 1px solid #404040;
+	}
+	
+	#footer a img {
+		filter: invert(86%);
+	}
+	
+	.bx1 *, .desc1 strong {
+		color: #cacaca;
+	}
 }
 
 @-moz-document url-prefix("https://cafe.poll.naver.com")
@@ -11697,27 +10756,81 @@
 
 @-moz-document url-prefix("https://cafe.naver.com/ArticlePrint.nhn")
 {
-	html, head { background: #242424; }
-	#tit-box h1 img { filter: invert(86%); }
-	.list-blog .not_click_area { background-color: #242424; }
-	.list-blog { border: 1px solid #404040; }
-	.m-tcol-c, body, td, div { color: #cacaca; }
-	.p_btn img { filter: invert(86%); }
+	html, head {
+		background: #242424;
+	}
+	
+	#tit-box h1 img {
+		filter: invert(86%);
+	}
+	
+	.list-blog .not_click_area {
+		background-color: #242424;
+	}
+	
+	.list-blog {
+		border: 1px solid #404040;
+	}
+	
+	.m-tcol-c, body, td, div {
+		color: #cacaca;
+	}
+	
+	.p_btn img {
+		filter: invert(86%);
+	}
 }
 
 @-moz-document url-prefix("https://cafe.naver.com/MyCafeGroupSetupView.nhn")
 {
-	html, head { background: #242424; }
-	.pop_bx { border: 1px solid #404040; background-color: #242424; color: #cacaca; }
-	.select_type ul { background-color: #242424; border: 1px solid #404040; }
-	.select_type li a { color: #cacaca; }
-	.select_type li a:hover { background-color: #2c2c2c; }
-	.pop_set_cafe .opt .bar { color: #404040; }
-	.pop_set_cafe .btm { border-top: 1px solid #404040; }
-	#pop_footer img { filter: invert(865); }
-	.pop_notice { color: #fff; }
-	.pop_set_cafe .opt .input_txt { color: #cacaca; border: 1px solid #404040; background: #242424; }
-	.pop_notice img, .select_type .select_group, .pop_set_cafe .opt .btn, .pop_set_cafe .btm span, input[type="image"] { filter: invert(86%); }
+	html, head {
+		background: #242424;
+	}
+	
+	.pop_bx {
+		border: 1px solid #404040;
+		background-color: #242424;
+		color: #cacaca;
+	}
+	
+	.select_type ul {
+		background-color: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.select_type li a {
+		color: #cacaca;
+	}
+	
+	.select_type li a:hover {
+		background-color: #2c2c2c;
+	}
+	
+	.pop_set_cafe .opt .bar {
+		color: #404040;
+	}
+	
+	.pop_set_cafe .btm {
+		border-top: 1px solid #404040;
+	}
+	
+	#pop_footer img {
+		filter: invert(865);
+	}
+	
+	.pop_notice {
+		color: #fff;
+	}
+	
+	.pop_set_cafe .opt .input_txt {
+		color: #cacaca;
+		border: 1px solid #404040;
+		background: #242424;
+	}
+	
+	.pop_notice img, .select_type .select_group, .pop_set_cafe .opt .btn, .pop_set_cafe .btm span, input[type="image"] {
+		filter: invert(86%);
+	}
 }
 
 @-moz-document url-prefix("https://datalab.naver.com")
@@ -12125,6 +11238,10 @@
 	
 	.filter_item .item_title {
 		color: #242424;
+	}
+	
+	.election_noti .election_main {
+		color: #fff;
 	}
 }
 
@@ -12893,7 +12010,7 @@
 		border-radius: 0%;
 	}
 	
-	.header_area .logo_library, .site_list .logo_terms, .wide_wrap.library .site_list .logo_openlectures, .wide_wrap.library .site_list .logo_dic, .gnb_type2 .mail_li a.gnb_mail:hover .gnb_icon, .gnb_type2 .mail_li a.gnb_mail .gnb_icon {
+	.header_area .logo_library, .site_list .logo_terms, .wide_wrap.library .site_list .logo_openlectures, .wide_wrap.library .site_list .logo_dic {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
@@ -12920,193 +12037,8 @@
 		background: #242424 !important;
 	}
 	
-	.gnb_notice_li .svc_panel, .gnb_notice_li .svc_scroll {
-		background: #2f2f2f;
-	}
-	
-	.gnb_notice_li .svc_head {
-		background: #2f2f2f;
-		border-bottom: 1px solid #404040;
-	}
-	
-	.gnb_notice_li .gnb_notice_lyr, .gnb_my_lyr {
-		background: none;
-	}
-	
-	a.gnb_my .gnb_name {
-		color: #cacaca;
-	}
-	
-	.gnb_notice_li .svc_head .task_right {
+	.notice_area .notice_title {
 		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.gnb_notice_li .svc_list li {
-		border-top: 1px solid #404040;
-	}
-	
-	.gnb_ly_alert {
-		background-color: #2f2f2f;
-		border: 1px solid #404040;
-	}
-	
-	.gnb_notice_li .gnb_notice_all {
-		border-top: 1px solid #404040;
-		background-color: #2f2f2f;
-	}
-	
-	.gnb_my_li .gnb_my_content {
-		background: #2f2f2f;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_img_area img {
-		border-radius: 50%;
-		-moz-border-radius: 50%;
-		-webkit-border-radius: 50%;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_mask {
-		background: none;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_name, #gnb a:hover, #gnb a {
-		color: #cacaca;
-	}
-	
-	.gnb_bg {
-		background: none;
-	}
-	
-	.gnb_txt {
-		background: #404040;
-	}
-	
-	#gnb {
-		color: #cacaca;
-	}
-	
-	#gnb a, #gnb a:visited {
-		color: #cacaca;
-	}
-	
-	#gnb #gnb_my_lyr_iframe {
-		width: 100% !important;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a {
-		background-color: #2f2f2f;
-		border-top: 1px solid #404040;
-		border-right: 1px solid #404040;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a.gnb_pay span {
-		background-image: url(https://ssl.pstatic.net/static/cafe/homepc/sprite/sp_home_a09f1fce.svg), none;
-		background-repeat: no-repeat;
-		background-position: -4px -4px;
-		width: 11px;
-		height: 20px;
-		position: absolute;
-		top: -4px;
-		left: 35px;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a.gnb_pay span:after {
-		position: absolute;
-		content: 'Pay';
-		color: #cacaca;
-		font-size: 14px;
-		margin-top: 11px;
-		left: 13px;
-		letter-spacing: 1px;
-	}
-	
-	.gnb_lst .ico_arrow {
-		filter: invert(82%) hue-rotate(-180deg);
-	}
-	
-	a.gnb_my .ico_arrow {
-		top: 26px;
-	}
-	
-	.gnb_favorite_area, .gnb_search_area {
-		background: none;
-	}
-	
-	.gnb_favorite_lstwrp {
-		background: #2f2f2f;
-		border-bottom: 1px solid #404040;
-	}
-	
-	.gnb_service_li .ico_arrow {
-		z-index: 99;
-		top: 28px;
-	}
-	
-	.gnb_search_area {
-		margin: 0 4px 0;
-		padding: 18px 0 17px;
-		background: #2f2f2f;
-	}
-	
-	.gnb_search_lstwrp .gnb_search_lst {
-		border-left: 1px solid #404040;
-	}
-	
-	.gnb_banner {
-		padding: 0;
-		margin: 0 4px;
-		background: none;
-		background-color: #2f2f2f;
-	}
-	
-	.gnb_banner .gnb_service_event {
-		width: 100%;
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.gnb_linkwrp {
-		background: none;
-	}
-	
-	.gnb_linkwrp a {
-		background: #2f2f2f;
-	}
-	
-	a.gnb_service_all {
-		border-top: 1px solid #404040;
-	}
-	
-	.gnb_pop_input .gnb_pop_lst li a {
-		color: #444 !important;
-	}
-	
-	#gnb_promo {
-		margin: 0 18px;
-	}
-	
-	.gnb_search_lstwrp {
-		padding-left: 3px;
-	}
-	
-	.gnb_favorite_lst .gnb_add a span.ic_add, .gnb_search_box, .notice_area .notice_title {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.gnb_notice_li .svc_list .gnb_new {
-	    background: #404040;
-	}
-	
-	#gnb .gnb_my_interface {
-		filter: invert(82%) hue-rotate(-180deg);
-	}
-	
-	.gnb_notice_li .svc_list .gnb_unread .gnb_subject,
-	.gnb_notice_li .svc_list .gnb_unread .svc_name {
-	    color: #fff;
-	}
-	
-	#gnb .gnb_my_interface {
-		filter: invert(82%);
 	}
 	
 	.u_word_dic.u_active:after {
@@ -13147,6 +12079,10 @@
 	
 	.api_c3p_datalab .c3-chart-arcs .c3-arc {
 		stroke: #4f4f4f !important;
+	}
+	
+	.gnb_notice_li a.gnb_notice .gnb_icon, .mail_li a.gnb_mail .gnb_icon, .gnb_service_li a.gnb_service .gnb_icon {
+		filter: invert(0%) !important;
 	}
 }
 
@@ -13473,562 +12409,20 @@
 
 @-moz-document url-prefix("https://www.naver.com/NOTICE")
 {
-	.gnb_notice_li .svc_panel, .gnb_notice_li .svc_scroll {
-		background: #2f2f2f;
-	}
-	
-	.gnb_notice_li .svc_head {
-		background: #2f2f2f;
-		border-bottom: 1px solid #404040;
-	}
-	
-	.gnb_notice_li .gnb_notice_lyr, .gnb_my_lyr {
-		background: none;
-	}
-	
-	a.gnb_my .gnb_name {
-		color: #cacaca;
-	}
-	
-	.gnb_notice_li .svc_head .task_right {
-		filter: invert(86%);
-	}
-	
-	.gnb_notice_li .svc_list li {
-		border-top: 1px solid #404040;
-	}
-	
-	.gnb_ly_alert {
-		background-color: #2f2f2f;
-		border: 1px solid #404040;
-	}
-	
-	.gnb_notice_li .gnb_notice_all {
-		border-top: 1px solid #404040;
-		background-color: #2f2f2f;
-	}
-	
-	.gnb_my_li .gnb_my_content {
-		background: #2f2f2f;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_img_area img {
-		border-radius: 50%;
-		-moz-border-radius: 50%;
-		-webkit-border-radius: 50%;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_mask {
-		background: none;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_name, #gnb a:hover, #gnb a {
-		color: #cacaca;
-	}
-	
-	.gnb_bg {
-		background: none;
-	}
-	
-	.gnb_txt {
-		background: #404040;
-	}
-	
-	#gnb {
-		color: #cacaca;
-	}
-	
-	#gnb a, #gnb a:visited {
-		color: #cacaca;
-	}
-	
-	#gnb #gnb_my_lyr_iframe {
-		width: 100% !important;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a {
-		background-color: #2f2f2f;
-		border-top: 1px solid #404040;
-		border-right: 1px solid #404040;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a.gnb_pay span {
-		background-image: url(https://ssl.pstatic.net/static/cafe/homepc/sprite/sp_home_a09f1fce.svg), none;
-		background-repeat: no-repeat;
-		background-position: -4px -4px;
-		width: 11px;
-		height: 20px;
-		position: absolute;
-		top: -4px;
-		left: 35px;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a.gnb_pay span:after {
-		position: absolute;
-		content: 'Pay';
-		color: #cacaca;
-		font-size: 14px;
-		margin-top: 11px;
-		left: 13px;
-		letter-spacing: 1px;
-	}
-	
-	.gnb_lst .ico_arrow {
-		filter: invert(82%);
-	}
-	
-	a.gnb_my .ico_arrow {
-		top: 26px;
-	}
-	
-	.gnb_favorite_area, .gnb_search_area {
-		background: none;
-	}
-	
-	.gnb_favorite_lstwrp {
-		background: #2f2f2f;
-		border-bottom: 1px solid #404040;
-	}
-	
-	.gnb_service_li .ico_arrow {
-		z-index: 99;
-		top: 28px;
-	}
-	
-	.gnb_search_area {
-		margin: 0 4px 0;
-		padding: 18px 0 17px;
-		background: #2f2f2f;
-	}
-	
-	.gnb_search_lstwrp .gnb_search_lst {
-		border-left: 1px solid #404040;
-	}
-	
-	.gnb_banner {
-		padding: 0;
-		margin: 0 4px;
-		background: none;
-		background-color: #2f2f2f;
-	}
-	
-	.gnb_banner .gnb_service_event {
-		width: 100%;
-		filter: invert(82%) hue-rotate(-180deg);
-	}
-	
-	.gnb_linkwrp {
-		background: none;
-	}
-	
-	.gnb_linkwrp a {
-		background: #2f2f2f;
-	}
-	
-	a.gnb_service_all {
-		border-top: 1px solid #404040;
-	}
-	
-	.gnb_pop_input .gnb_pop_lst li a {
-		color: #444 !important;
-	}
-	
-	#gnb_promo {
-		margin: 0 18px;
-	}
-	
-	.gnb_search_lstwrp {
-		padding-left: 3px;
-	}
-	
-	.gnb_favorite_lst .gnb_add a span.ic_add, .gnb_search_box {
-		filter: invert(86%);
-	}
-	
-	#gnb .gnb_my_interface {
-		filter: invert(82%);
-	}
-	
-	.gnb_notice_li .svc_list .gnb_new {
-	    background: #404040;
-	}
-	
-	.gnb_notice_li .svc_list .gnb_unread .gnb_subject,
-	.gnb_notice_li .svc_list .gnb_unread .svc_name {
-	    color: #fff;
+	.gnb_notice_li a.gnb_notice .gnb_icon, .mail_li a.gnb_mail .gnb_icon, .gnb_service_li a.gnb_service .gnb_icon {
+		filter: invert(0%) !important;
 	}
 }
 
 @-moz-document url-prefix("https://www.naver.com/more.html")
 {
-	.gnb_notice_li .svc_panel, .gnb_notice_li .svc_scroll {
-		background: #2f2f2f;
-	}
-	
-	.gnb_notice_li .svc_head {
-		background: #2f2f2f;
-		border-bottom: 1px solid #404040;
-	}
-	
-	.gnb_notice_li .gnb_notice_lyr, .gnb_my_lyr {
-		background: none;
-	}
-	
-	a.gnb_my .gnb_name {
-		color: #cacaca;
-	}
-	
-	.gnb_notice_li .svc_head .task_right {
-		filter: invert(86%);
-	}
-	
-	.gnb_notice_li .svc_list li {
-		border-top: 1px solid #404040;
-	}
-	
-	.gnb_ly_alert {
-		background-color: #2f2f2f;
-		border: 1px solid #404040;
-	}
-	
-	.gnb_notice_li .gnb_notice_all {
-		border-top: 1px solid #404040;
-		background-color: #2f2f2f;
-	}
-	
-	.gnb_my_li .gnb_my_content {
-		background: #2f2f2f;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_img_area img {
-		border-radius: 50%;
-		-moz-border-radius: 50%;
-		-webkit-border-radius: 50%;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_mask {
-		background: none;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_name, #gnb a:hover, #gnb a {
-		color: #cacaca;
-	}
-	
-	.gnb_bg {
-		background: none;
-	}
-	
-	.gnb_txt {
-		background: #404040;
-	}
-	
-	#gnb {
-		color: #cacaca;
-	}
-	
-	#gnb a, #gnb a:visited {
-		color: #cacaca;
-	}
-	
-	#gnb #gnb_my_lyr_iframe {
-		width: 100% !important;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a {
-		background-color: #2f2f2f;
-		border-top: 1px solid #404040;
-		border-right: 1px solid #404040;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a.gnb_pay span {
-		background-image: url(https://ssl.pstatic.net/static/cafe/homepc/sprite/sp_home_a09f1fce.svg), none;
-		background-repeat: no-repeat;
-		background-position: -4px -4px;
-		width: 11px;
-		height: 20px;
-		position: absolute;
-		top: -4px;
-		left: 35px;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a.gnb_pay span:after {
-		position: absolute;
-		content: 'Pay';
-		color: #cacaca;
-		font-size: 14px;
-		margin-top: 11px;
-		left: 13px;
-		letter-spacing: 1px;
-	}
-	
-	.gnb_lst .ico_arrow {
-		filter: invert(82%);
-	}
-	
-	a.gnb_my .ico_arrow {
-		top: 26px;
-	}
-	
-	.gnb_favorite_area, .gnb_search_area {
-		background: none;
-	}
-	
-	.gnb_favorite_lstwrp {
-		background: #2f2f2f;
-		border-bottom: 1px solid #404040;
-	}
-	
-	.gnb_service_li .ico_arrow {
-		z-index: 99;
-		top: 28px;
-	}
-	
-	.gnb_search_area {
-		margin: 0 4px 0;
-		padding: 18px 0 17px;
-		background: #2f2f2f;
-	}
-	
-	.gnb_search_lstwrp .gnb_search_lst {
-		border-left: 1px solid #404040;
-	}
-	
-	.gnb_banner {
-		padding: 0;
-		margin: 0 4px;
-		background: none;
-		background-color: #2f2f2f;
-	}
-	
-	.gnb_banner .gnb_service_event {
-		width: 100%;
-		filter: invert(82%) hue-rotate(-180deg);
-	}
-	
-	.gnb_linkwrp {
-		background: none;
-	}
-	
-	.gnb_linkwrp a {
-		background: #2f2f2f;
-	}
-	
-	a.gnb_service_all {
-		border-top: 1px solid #404040;
-	}
-	
-	.gnb_pop_input .gnb_pop_lst li a {
-		color: #444 !important;
-	}
-	
-	#gnb_promo {
-		margin: 0 18px;
-	}
-	
-	.gnb_search_lstwrp {
-		padding-left: 3px;
-	}
-	
-	.gnb_favorite_lst .gnb_add a span.ic_add, .gnb_search_box {
-		filter: invert(86%);
-	}
-	
-	#gnb .gnb_my_interface {
-		filter: invert(82%);
-	}
-	
-	.gnb_notice_li .svc_list .gnb_new {
-	    background: #404040;
-	}
-	
-	.gnb_notice_li .svc_list .gnb_unread .gnb_subject,
-	.gnb_notice_li .svc_list .gnb_unread .svc_name {
-	    color: #fff;
+	.gnb_notice_li a.gnb_notice .gnb_icon, .mail_li a.gnb_mail .gnb_icon, .gnb_service_li a.gnb_service .gnb_icon {
+		filter: invert(0%) !important;
 	}
 }
 
 @-moz-document url-prefix("https://people.search.naver.com")
 {
-	.gnb_notice_li .svc_panel, .gnb_notice_li .svc_scroll {
-		background: #2f2f2f;
-	}
-	
-	.gnb_notice_li .svc_head {
-		background: #2f2f2f;
-		border-bottom: 1px solid #404040;
-	}
-	
-	.gnb_notice_li .gnb_notice_lyr, .gnb_my_lyr {
-		background: none;
-	}
-	
-	a.gnb_my .gnb_name {
-		color: #cacaca;
-	}
-	
-	.gnb_notice_li .svc_head .task_right {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.gnb_notice_li .svc_list li {
-		border-top: 1px solid #404040;
-	}
-	
-	.gnb_ly_alert {
-		background-color: #2f2f2f;
-		border: 1px solid #404040;
-	}
-	
-	.gnb_notice_li .gnb_notice_all {
-		border-top: 1px solid #404040;
-		background-color: #2f2f2f;
-	}
-	
-	.gnb_my_li .gnb_my_content {
-		background: #2f2f2f;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_img_area img {
-		border-radius: 50%;
-		-moz-border-radius: 50%;
-		-webkit-border-radius: 50%;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_mask {
-		background: none;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_name, #gnb a:hover, #gnb a {
-		color: #cacaca;
-	}
-	
-	.gnb_bg {
-		background: none;
-	}
-	
-	.gnb_txt {
-		background: #404040;
-	}
-	
-	#gnb {
-		color: #cacaca;
-	}
-	
-	#gnb a, #gnb a:visited {
-		color: #cacaca;
-	}
-	
-	#gnb #gnb_my_lyr_iframe {
-		width: 100% !important;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a {
-		background-color: #2f2f2f;
-		border-top: 1px solid #404040;
-		border-right: 1px solid #404040;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a.gnb_pay span {
-		background-image: url(https://ssl.pstatic.net/static/cafe/homepc/sprite/sp_home_a09f1fce.svg), none;
-		background-repeat: no-repeat;
-		background-position: -4px -4px;
-		width: 11px;
-		height: 20px;
-		position: absolute;
-		top: -4px;
-		left: 35px;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a.gnb_pay span:after {
-		position: absolute;
-		content: 'Pay';
-		color: #cacaca;
-		font-size: 14px;
-		margin-top: 11px;
-		left: 13px;
-		letter-spacing: 1px;
-	}
-	
-	.gnb_notice_li a.gnb_notice .gnb_icon, .mail_li a.gnb_mail .gnb_icon, .gnb_service_li a.gnb_service .gnb_icon {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.gnb_lst .ico_arrow {
-		filter: invert(82%) hue-rotate(-180deg);
-	}
-	
-	a.gnb_my .ico_arrow {
-		top: 26px;
-	}
-	
-	.gnb_favorite_area, .gnb_search_area {
-		background: none;
-	}
-	
-	.gnb_favorite_lstwrp {
-		background: #2f2f2f;
-		border-bottom: 1px solid #404040;
-	}
-	
-	.gnb_service_li .ico_arrow {
-		z-index: 99;
-		top: 28px;
-	}
-	
-	.gnb_search_area {
-		margin: 0 4px 0;
-		padding: 18px 0 17px;
-		background: #2f2f2f;
-	}
-	
-	.gnb_search_lstwrp .gnb_search_lst {
-		border-left: 1px solid #404040;
-	}
-	
-	.gnb_banner {
-		padding: 0;
-		margin: 0 4px;
-		background: none;
-		background-color: #2f2f2f;
-	}
-	
-	.gnb_banner .gnb_service_event {
-		width: 100%;
-		filter: invert(82%) hue-rotate(-180deg);
-	}
-	
-	.gnb_linkwrp {
-		background: none;
-	}
-	
-	.gnb_linkwrp a {
-		background: #2f2f2f;
-	}
-	
-	a.gnb_service_all {
-		border-top: 1px solid #404040;
-	}
-	
-	.gnb_pop_input .gnb_pop_lst li a {
-		color: #444 !important;
-	}
-	
-	#gnb_promo {
-		margin: 0 18px;
-	}
-	
-	.gnb_search_lstwrp {
-		padding-left: 3px;
-	}
-	
-	.gnb_favorite_lst .gnb_add a span.ic_add, .gnb_search_box {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	#gnb .gnb_my_interface {
-		filter: invert(82%) hue-rotate(-180deg);
-	}
-	
 	html, body {
 		background: #242424;
 		color: #cacaca;
@@ -17423,8 +15817,6 @@
 
 @-moz-document url-prefix("https://cafe.naver.com/CafeInviteView.nhn")
 {
-	
-	
 	.invite .nickname {
 		color: #fff;
 	}
@@ -17470,201 +15862,6 @@
 	
 	.sports_menu .link_main_menu {
 		color: #fff;
-	}
-	
-	/* User Profile CSS */
-	
-	.gnb_notice_li .svc_panel, .gnb_notice_li .svc_scroll {
-		background: #2f2f2f;
-	}
-	
-	.gnb_notice_li .svc_head {
-		background: #2f2f2f;
-		border-bottom: 1px solid #404040;
-	}
-	
-	.gnb_notice_li .gnb_notice_lyr, .gnb_my_lyr {
-		background: none;
-	}
-	
-	a.gnb_my .gnb_name {
-		color: #cacaca;
-	}
-	
-	.gnb_notice_li .svc_head .task_right {
-		filter: invert(86%);
-	}
-	
-	.gnb_notice_li .svc_list li {
-		border-top: 1px solid #404040;
-	}
-	
-	.gnb_ly_alert {
-		background-color: #2f2f2f;
-		border: 1px solid #404040;
-	}
-	
-	.gnb_notice_li .gnb_notice_all {
-		border-top: 1px solid #404040;
-		background-color: #2f2f2f;
-	}
-	
-	.gnb_my_li .gnb_my_content {
-		background: #2f2f2f;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_img_area img {
-		border-radius: 50%;
-		-moz-border-radius: 50%;
-		-webkit-border-radius: 50%;
-	}
-	
-	.column_wrap .column_header {
-		border-bottom: 1px solid #404040;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_mask {
-		background: none;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_name, #gnb a:hover, #gnb a {
-		color: #cacaca;
-	}
-	
-	.gnb_bg {
-		background: none;
-	}
-	
-	.gnb_txt {
-		background: #404040;
-	}
-	
-	#gnb {
-		color: #cacaca;
-	}
-	
-	#gnb a, #gnb a:visited {
-		color: #cacaca;
-	}
-	
-	#gnb #gnb_my_lyr_iframe {
-		width: 100% !important;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a {
-		background-color: #2f2f2f;
-		border-top: 1px solid #404040;
-		border-right: 1px solid #404040;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a.gnb_pay span {
-		background-image: url(https://ssl.pstatic.net/static/cafe/homepc/sprite/sp_home_a09f1fce.svg), none;
-		background-repeat: no-repeat;
-		background-position: -4px -4px;
-		width: 11px;
-		height: 20px;
-		position: absolute;
-		top: -4px;
-		left: 35px;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a.gnb_pay span:after {
-		position: absolute;
-		content: 'Pay';
-		color: #cacaca;
-		font-size: 14px;
-		margin-top: 11px;
-		left: 13px;
-		letter-spacing: 1px;
-	}
-	
-	.gnb_notice_li a.gnb_notice .gnb_icon, .mail_li a.gnb_mail .gnb_icon, .gnb_service_li a.gnb_service .gnb_icon {
-		filter: invert(86%);
-	}
-	
-	.gnb_lst .ico_arrow {
-		filter: invert(82%);
-	}
-	
-	a.gnb_my .ico_arrow {
-		top: 26px;
-	}
-	
-	.gnb_favorite_area, .gnb_search_area {
-		background: none;
-	}
-	
-	.gnb_favorite_lstwrp {
-		background: #2f2f2f;
-		border-bottom: 1px solid #404040;
-	}
-	
-	.gnb_service_li .ico_arrow {
-		z-index: 99;
-		top: 28px;
-	}
-	
-	.gnb_search_area {
-		margin: 0 4px 0;
-		padding: 18px 0 17px;
-		background: #2f2f2f;
-	}
-	
-	.gnb_search_lstwrp .gnb_search_lst {
-		border-left: 1px solid #404040;
-	}
-	
-	.gnb_banner {
-		padding: 0;
-		margin: 0 4px;
-		background: none;
-		background-color: #2f2f2f;
-	}
-	
-	.gnb_banner .gnb_service_event {
-		width: 100%;
-		filter: invert(82%) hue-rotate(-180deg);
-	}
-	
-	.gnb_linkwrp {
-		background: none;
-	}
-	
-	.gnb_linkwrp a {
-		background: #2f2f2f;
-	}
-	
-	a.gnb_service_all {
-		border-top: 1px solid #404040;
-	}
-	
-	.gnb_pop_input .gnb_pop_lst li a {
-		color: #444 !important;
-	}
-	
-	#gnb_promo {
-		margin: 0 18px;
-	}
-	
-	.gnb_search_lstwrp {
-		padding-left: 3px;
-	}
-	
-	.gnb_favorite_lst .gnb_add a span.ic_add, .gnb_search_box, .sports_header .logo_naver, .sports_header .logo_sports {
-		filter: invert(86%);
-	}
-	
-	#gnb .gnb_my_interface {
-		filter: invert(82%);
-	}
-	
-	.gnb_notice_li .svc_list .gnb_new {
-	    background: #404040;
-	}
-	
-	.gnb_notice_li .svc_list .gnb_unread .gnb_subject,
-	.gnb_notice_li .svc_list .gnb_unread .svc_name {
-	    color: #fff;
 	}
 	
 	.sports_menu .search_field {
@@ -19866,6 +18063,14 @@
 	.p_info .nolineup, .tab_mnu .lyr_status, .tab_mnu .lyr_status2, .tab_mnu .lyr_status3 {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
+	
+	.gnb_notice_li a.gnb_notice .gnb_icon, .mail_li a.gnb_mail .gnb_icon, .gnb_service_li a.gnb_service .gnb_icon {
+		filter: invert(0%) !important;
+	}
+	
+	.main_wrap .aside_radio h3 {
+		color: #242424; /* inverted */
+	}
 }
 
 @-moz-document url-prefix("https://comments.sports.naver.com")
@@ -20191,201 +18396,6 @@
 		color: #cacaca;
 	}
 	
-	/* User Profile CSS */
-	
-	.gnb_notice_li .svc_panel, .gnb_notice_li .svc_scroll {
-		background: #2f2f2f;
-	}
-	
-	.gnb_notice_li .svc_head {
-		background: #2f2f2f;
-		border-bottom: 1px solid #404040;
-	}
-	
-	.gnb_notice_li .gnb_notice_lyr, .gnb_my_lyr {
-		background: none;
-	}
-	
-	a.gnb_my .gnb_name {
-		color: #cacaca;
-	}
-	
-	.rgt_zone .ctrl_delegate .lst_option span {
-		color: #fff;
-	}
-	
-	.rgt_zone .result_list li:hover {
-		background: #3f3f3f;
-	}
-	
-	.gnb_notice_li .svc_head .task_right, .rgt_zone .ctrl_delegate .lst_option2 .btn_del_neighbor, .rgt_zone .ctrl_delegate .lst_option2 .reader_cncl {
-		filter: invert(86%);
-	}
-	
-	.gnb_notice_li .svc_list li {
-		border-top: 1px solid #404040;
-	}
-	
-	.gnb_ly_alert {
-		background-color: #2f2f2f;
-		border: 1px solid #404040;
-	}
-	
-	.gnb_notice_li .gnb_notice_all {
-		border-top: 1px solid #404040;
-		background-color: #2f2f2f;
-	}
-	
-	.gnb_my_li .gnb_my_content {
-		background: #2f2f2f;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_img_area img {
-		border-radius: 50%;
-		-moz-border-radius: 50%;
-		-webkit-border-radius: 50%;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_mask {
-		background: none;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_name, #gnb a:hover, #gnb a {
-		color: #cacaca;
-	}
-	
-	.gnb_bg {
-		background: none;
-	}
-	
-	.gnb_txt {
-		background: #404040;
-	}
-	
-	#gnb {
-		color: #cacaca;
-	}
-	
-	#gnb a, #gnb a:visited {
-		color: #cacaca;
-	}
-	
-	#gnb #gnb_my_lyr_iframe {
-		width: 100% !important;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a {
-		background-color: #2f2f2f;
-		border-top: 1px solid #404040;
-		border-right: 1px solid #404040;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a.gnb_pay span {
-		background-image: url(https://ssl.pstatic.net/static/cafe/homepc/sprite/sp_home_a09f1fce.svg), none;
-		background-repeat: no-repeat;
-		background-position: -4px -4px;
-		width: 11px;
-		height: 20px;
-		position: absolute;
-		top: -4px;
-		left: 35px;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a.gnb_pay span:after {
-		position: absolute;
-		content: 'Pay';
-		color: #cacaca;
-		font-size: 14px;
-		margin-top: 11px;
-		left: 13px;
-		letter-spacing: 1px;
-	}
-	
-	.gnb_lst .ico_arrow {
-		filter: invert(82%);
-	}
-	
-	a.gnb_my .ico_arrow {
-		top: 26px;
-	}
-	
-	.gnb_favorite_area, .gnb_search_area {
-		background: none;
-	}
-	
-	.gnb_favorite_lstwrp {
-		background: #2f2f2f;
-		border-bottom: 1px solid #404040;
-	}
-	
-	.gnb_service_li .ico_arrow {
-		z-index: 99;
-		top: 28px;
-	}
-	
-	.gnb_search_area {
-		margin: 0 4px 0;
-		padding: 18px 0 17px;
-		background: #2f2f2f;
-	}
-	
-	.gnb_search_lstwrp .gnb_search_lst {
-		border-left: 1px solid #404040;
-	}
-	
-	.gnb_banner {
-		padding: 0;
-		margin: 0 4px;
-		background: none;
-		background-color: #2f2f2f;
-	}
-	
-	.gnb_banner .gnb_service_event {
-		width: 100%;
-		filter: invert(82%) hue-rotate(-180deg);
-	}
-	
-	.gnb_linkwrp {
-		background: none;
-	}
-	
-	.gnb_linkwrp a {
-		background: #2f2f2f;
-	}
-	
-	a.gnb_service_all {
-		border-top: 1px solid #404040;
-	}
-	
-	.gnb_pop_input .gnb_pop_lst li a {
-		color: #444 !important;
-	}
-	
-	#gnb_promo {
-		margin: 0 18px;
-	}
-	
-	.gnb_search_lstwrp {
-		padding-left: 3px;
-	}
-	
-	.gnb_favorite_lst .gnb_add a span.ic_add, .gnb_search_box {
-		filter: invert(86%);
-	}
-	
-	#gnb .gnb_my_interface {
-		filter: invert(82%);
-	}
-	
-	.gnb_notice_li .svc_list .gnb_new {
-	    background: #404040;
-	}
-	
-	.gnb_notice_li .svc_list .gnb_unread .gnb_subject,
-	.gnb_notice_li .svc_list .gnb_unread .svc_name {
-	    color: #fff;
-	}
-	
 	.envmt_cont, .envmt_cont .control_box, .end_tx, .envmt_foot {
 		background: #2f2f2f;
 	}
@@ -20462,6 +18472,10 @@
 	
 	.envmt_cont .control_box .box_area .lft_zone {
 		border-right: 1px solid #404040;
+	}
+	
+	.gnb_notice_li a.gnb_notice .gnb_icon, .mail_li a.gnb_mail .gnb_icon, .gnb_service_li a.gnb_service .gnb_icon {
+		filter: invert(0%) !important;
 	}
 }
 
@@ -21645,191 +19659,8 @@
 		color: #cacaca;
 	}
 	
-	/* User Profile CSS */
-	
-	.gnb_notice_li .svc_panel, .gnb_notice_li .svc_scroll {
-		background: #2f2f2f;
-	}
-	
-	.gnb_notice_li .svc_head {
-		background: #2f2f2f;
-		border-bottom: 1px solid #404040;
-	}
-	
-	.gnb_notice_li .gnb_notice_lyr, .gnb_my_lyr {
-		background: none;
-	}
-	
-	a.gnb_my .gnb_name {
-		color: #cacaca;
-	}
-	
-	.gnb_notice_li .svc_head .task_right {
-		filter: invert(86%);
-	}
-	
-	.gnb_notice_li .svc_list li {
-		border-top: 1px solid #404040;
-	}
-	
-	.gnb_ly_alert {
-		background-color: #2f2f2f;
-		border: 1px solid #404040;
-	}
-	
-	.gnb_notice_li .gnb_notice_all {
-		border-top: 1px solid #404040;
-		background-color: #2f2f2f;
-	}
-	
-	.gnb_my_li .gnb_my_content {
-		background: #2f2f2f;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_img_area img {
-		border-radius: 50%;
-		-moz-border-radius: 50%;
-		-webkit-border-radius: 50%;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_mask {
-		background: none;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_name, #gnb a:hover, #gnb a {
-		color: #cacaca;
-	}
-	
-	.gnb_bg {
-		background: none;
-	}
-	
-	.gnb_txt {
-		background: #404040;
-	}
-	
-	#gnb {
-		color: #cacaca;
-	}
-	
-	#gnb a, #gnb a:visited {
-		color: #cacaca;
-	}
-	
-	#gnb #gnb_my_lyr_iframe {
-		width: 100% !important;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a {
-		background-color: #2f2f2f;
-		border-top: 1px solid #404040;
-		border-right: 1px solid #404040;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a.gnb_pay span {
-		background-image: url(https://ssl.pstatic.net/static/cafe/homepc/sprite/sp_home_a09f1fce.svg), none;
-		background-repeat: no-repeat;
-		background-position: -4px -4px;
-		width: 11px;
-		height: 20px;
-		position: absolute;
-		top: -4px;
-		left: 35px;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a.gnb_pay span:after {
-		position: absolute;
-		content: 'Pay';
-		color: #cacaca;
-		font-size: 14px;
-		margin-top: 11px;
-		left: 13px;
-		letter-spacing: 1px;
-	}
-	
-	.gnb_lst .ico_arrow {
-		filter: invert(82%);
-	}
-	
-	a.gnb_my .ico_arrow {
-		top: 26px;
-	}
-	
-	.gnb_favorite_area, .gnb_search_area {
-		background: none;
-	}
-	
-	.gnb_favorite_lstwrp {
-		background: #2f2f2f;
-		border-bottom: 1px solid #404040;
-	}
-	
-	.gnb_service_li .ico_arrow {
-		z-index: 99;
-		top: 28px;
-	}
-	
-	.gnb_search_area {
-		margin: 0 4px 0;
-		padding: 18px 0 17px;
-		background: #2f2f2f;
-	}
-	
-	.gnb_search_lstwrp .gnb_search_lst {
-		border-left: 1px solid #404040;
-	}
-	
-	.gnb_banner {
-		padding: 0;
-		margin: 0 4px;
-		background: none;
-		background-color: #2f2f2f;
-	}
-	
-	.gnb_banner .gnb_service_event {
-		width: 100%;
-		filter: invert(82%) hue-rotate(-180deg);
-	}
-	
-	.gnb_linkwrp {
-		background: none;
-	}
-	
-	.gnb_linkwrp a {
-		background: #2f2f2f;
-	}
-	
-	a.gnb_service_all {
-		border-top: 1px solid #404040;
-	}
-	
-	.gnb_pop_input .gnb_pop_lst li a {
-		color: #444 !important;
-	}
-	
-	#gnb_promo {
-		margin: 0 18px;
-	}
-	
-	.gnb_search_lstwrp {
-		padding-left: 3px;
-	}
-	
-	.gnb_favorite_lst .gnb_add a span.ic_add, .gnb_search_box {
-		filter: invert(86%);
-	}
-	
-	#gnb .gnb_my_interface {
-		filter: invert(82%);
-	}
-	
-	.gnb_notice_li .svc_list .gnb_new {
-	    background: #404040;
-	}
-	
-	.gnb_notice_li .svc_list .gnb_unread .gnb_subject,
-	.gnb_notice_li .svc_list .gnb_unread .svc_name {
-	    color: #fff;
+	.gnb_notice_li a.gnb_notice .gnb_icon, .mail_li a.gnb_mail .gnb_icon, .gnb_service_li a.gnb_service .gnb_icon {
+		filter: invert(0%) !important;
 	}
 }
 
@@ -23183,6 +21014,18 @@
 		border-width: 0 1px 1px 1px;
 	}
 	
+	.lst_feed_wrap .feed_body .og .box {
+		background: #2f2f2f !important;
+	}
+	
+	.lst_feed_wrap .feed_body .og .tit {
+		color: #fff !important;
+	}
+	
+	.lst_feed_wrap .feed_body .og .dsc {
+		color: #cacaca !important;
+	}
+	
 	.og.audio {
 		background: #2f2f2f;
 	}
@@ -23201,6 +21044,10 @@
 	
 	.u_cbox .u_cbox_reply_area .u_cbox_paginate {
 		border-bottom: 1px solid #404040;
+	}
+	
+	#header .gnb .naver_logo .ico_naver_logo, .cont_header .naver_logo .ico_naver_logo {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 }
 
@@ -23269,202 +21116,6 @@
 	}
 	
 	/* Browser Message Popup End */
-	
-	
-	/* User Profile */
-	
-	.gnb_notice_li .svc_panel, .gnb_notice_li .svc_scroll {
-		background: #2f2f2f;
-	}
-	
-	.gnb_notice_li .svc_head {
-		background: #2f2f2f;
-		border-bottom: 1px solid #404040;
-	}
-	
-	.gnb_notice_li .gnb_notice_lyr, .gnb_my_lyr {
-		background: none;
-	}
-	
-	a.gnb_my .gnb_name {
-		color: #cacaca;
-	}
-	
-	.gnb_notice_li .svc_head .task_right {
-		filter: invert(86%);
-	}
-	
-	.gnb_notice_li .svc_list li {
-		border-top: 1px solid #404040;
-	}
-	
-	.gnb_ly_alert {
-		background-color: #2f2f2f;
-		border: 1px solid #404040;
-	}
-	
-	.gnb_notice_li .gnb_notice_all {
-		border-top: 1px solid #404040;
-		background-color: #2f2f2f;
-	}
-	
-	.gnb_my_li .gnb_my_content {
-		background: #2f2f2f;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_img_area img {
-		border-radius: 50%;
-		-moz-border-radius: 50%;
-		-webkit-border-radius: 50%;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_mask {
-		background: none;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_name, #gnb a:hover, #gnb a {
-		color: #cacaca;
-	}
-	
-	.gnb_bg {
-		background: none;
-	}
-	
-	.gnb_txt {
-		background: #404040;
-	}
-	
-	#gnb {
-		color: #cacaca;
-	}
-	
-	#gnb a, #gnb a:visited {
-		color: #cacaca;
-	}
-	
-	#gnb #gnb_my_lyr_iframe {
-		width: 100% !important;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a {
-		background-color: #2f2f2f;
-		border-top: 1px solid #404040;
-		border-right: 1px solid #404040;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a.gnb_pay span {
-		background-image: url(https://ssl.pstatic.net/static/cafe/homepc/sprite/sp_home_a09f1fce.svg), none;
-		background-repeat: no-repeat;
-		background-position: -4px -4px;
-		width: 11px;
-		height: 20px;
-		position: absolute;
-		top: -4px;
-		left: 35px;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a.gnb_pay span:after {
-		position: absolute;
-		content: 'Pay';
-		color: #cacaca;
-		font-size: 14px;
-		margin-top: 11px;
-		left: 13px;
-		letter-spacing: 1px;
-	}
-	
-	.gnb_notice_li a.gnb_notice .gnb_icon, .mail_li a.gnb_mail .gnb_icon, .gnb_service_li a.gnb_service .gnb_icon {
-		filter: invert(86%);
-	}
-	
-	.gnb_lst .ico_arrow {
-		filter: invert(82%);
-	}
-	
-	a.gnb_my .ico_arrow {
-		top: 26px;
-	}
-	
-	.gnb_favorite_area, .gnb_search_area {
-		background: none;
-	}
-	
-	.gnb_favorite_lstwrp {
-		background: #2f2f2f;
-		border-bottom: 1px solid #404040;
-	}
-	
-	.gnb_service_li .ico_arrow {
-		z-index: 99;
-		top: 28px;
-	}
-	
-	.gnb_search_area {
-		margin: 0 4px 0;
-		padding: 18px 0 17px;
-		background: #2f2f2f;
-	}
-	
-	.gnb_search_lstwrp .gnb_search_lst {
-		border-left: 1px solid #404040;
-	}
-	
-	.gnb_banner {
-		padding: 0;
-		margin: 0 4px;
-		background: none;
-		background-color: #2f2f2f;
-	}
-	
-	.gnb_banner .gnb_service_event {
-		width: 100%;
-		filter: invert(82%) hue-rotate(-180deg);
-	}
-	
-	.gnb_linkwrp {
-		background: none;
-	}
-	
-	.gnb_linkwrp a {
-		background: #2f2f2f;
-	}
-	
-	a.gnb_service_all {
-		border-top: 1px solid #404040;
-	}
-	
-	.gnb_pop_input .gnb_pop_lst li a {
-		color: #444 !important;
-	}
-	
-	#gnb_promo {
-		margin: 0 18px;
-	}
-	
-	.gnb_search_lstwrp {
-		padding-left: 3px;
-	}
-	
-	.gnb_favorite_lst .gnb_add a span.ic_add, .gnb_search_box {
-		filter: invert(86%);
-	}
-	
-	#gnb .gnb_my_interface {
-		filter: invert(82%);
-	}
-	
-	.gnb_notice_li .svc_list .gnb_new {
-	    background: #404040;
-	}
-	
-	.gnb_notice_li .svc_list .gnb_unread .gnb_subject,
-	.gnb_notice_li .svc_list .gnb_unread .svc_name {
-	    color: #fff;
-	}
-	
-	
-	/* User Profile End */
-	
 	
 	#header, #header .header_bottom {
 		background: #242424;
@@ -25991,191 +23642,8 @@
 		border-bottom: 1px solid #404040;
 	}
 	
-	/* User Profile CSS */
-	
-	.gnb_notice_li .svc_panel, .gnb_notice_li .svc_scroll {
-		background: #2f2f2f;
-	}
-	
-	.gnb_notice_li .svc_head {
-		background: #2f2f2f;
-		border-bottom: 1px solid #404040;
-	}
-	
-	.gnb_notice_li .gnb_notice_lyr, .gnb_my_lyr {
-		background: none;
-	}
-	
-	a.gnb_my .gnb_name {
-		color: #cacaca;
-	}
-	
-	.gnb_notice_li .svc_head .task_right {
+	.layer_info_area .btn_close i {
 		filter: invert(86%);
-	}
-	
-	.gnb_notice_li .svc_list li {
-		border-top: 1px solid #404040;
-	}
-	
-	.gnb_ly_alert {
-		background-color: #2f2f2f;
-		border: 1px solid #404040;
-	}
-	
-	.gnb_notice_li .gnb_notice_all {
-		border-top: 1px solid #404040;
-		background-color: #2f2f2f;
-	}
-	
-	.gnb_my_li .gnb_my_content {
-		background: #2f2f2f;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_img_area img {
-		border-radius: 50%;
-		-moz-border-radius: 50%;
-		-webkit-border-radius: 50%;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_mask {
-		background: none;
-	}
-	
-	.gnb_my_li .gnb_my_content .gnb_name, #gnb a:hover, #gnb a {
-		color: #cacaca;
-	}
-	
-	.gnb_bg {
-		background: none;
-	}
-	
-	.gnb_txt {
-		background: #404040;
-	}
-	
-	#gnb {
-		color: #cacaca;
-	}
-	
-	#gnb a, #gnb a:visited {
-		color: #cacaca;
-	}
-	
-	#gnb #gnb_my_lyr_iframe {
-		width: 100% !important;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a {
-		background-color: #2f2f2f;
-		border-top: 1px solid #404040;
-		border-right: 1px solid #404040;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a.gnb_pay span {
-		background-image: url(https://ssl.pstatic.net/static/cafe/homepc/sprite/sp_home_a09f1fce.svg), none;
-		background-repeat: no-repeat;
-		background-position: -4px -4px;
-		width: 11px;
-		height: 20px;
-		position: absolute;
-		top: -4px;
-		left: 35px;
-	}
-	
-	#gnb .gnb_my_li .gnb_my_community a.gnb_pay span:after {
-		position: absolute;
-		content: 'Pay';
-		color: #cacaca;
-		font-size: 14px;
-		margin-top: 11px;
-		left: 13px;
-		letter-spacing: 1px;
-	}
-	
-	.gnb_lst .ico_arrow {
-		filter: invert(82%);
-	}
-	
-	a.gnb_my .ico_arrow {
-		top: 26px;
-	}
-	
-	.gnb_favorite_area, .gnb_search_area {
-		background: none;
-	}
-	
-	.gnb_favorite_lstwrp {
-		background: #2f2f2f;
-		border-bottom: 1px solid #404040;
-	}
-	
-	.gnb_service_li .ico_arrow {
-		z-index: 99;
-		top: 28px;
-	}
-	
-	.gnb_search_area {
-		margin: 0 4px 0;
-		padding: 18px 0 17px;
-		background: #2f2f2f;
-	}
-	
-	.gnb_search_lstwrp .gnb_search_lst {
-		border-left: 1px solid #404040;
-	}
-	
-	.gnb_banner {
-		padding: 0;
-		margin: 0 4px;
-		background: none;
-		background-color: #2f2f2f;
-	}
-	
-	.gnb_banner .gnb_service_event {
-		width: 100%;
-		filter: invert(82%) hue-rotate(-180deg);
-	}
-	
-	.gnb_linkwrp {
-		background: none;
-	}
-	
-	.gnb_linkwrp a {
-		background: #2f2f2f;
-	}
-	
-	a.gnb_service_all {
-		border-top: 1px solid #404040;
-	}
-	
-	.gnb_pop_input .gnb_pop_lst li a {
-		color: #444 !important;
-	}
-	
-	#gnb_promo {
-		margin: 0 18px;
-	}
-	
-	.gnb_search_lstwrp {
-		padding-left: 3px;
-	}
-	
-	.gnb_favorite_lst .gnb_add a span.ic_add, .gnb_search_box, .layer_info_area .btn_close i {
-		filter: invert(86%);
-	}
-	
-	#gnb .gnb_my_interface {
-		filter: invert(82%);
-	}
-	
-	.gnb_notice_li .svc_list .gnb_new {
-	    background: #404040;
-	}
-	
-	.gnb_notice_li .svc_list .gnb_unread .gnb_subject,
-	.gnb_notice_li .svc_list .gnb_unread .svc_name {
-	    color: #fff;
 	}
 	
 	.layer_alert {
@@ -26696,5 +24164,209 @@
 		background-size: 240px auto;
 		margin: 0 auto;
 		overflow: hidden;
+	}
+}
+
+@-moz-document url-prefix("https://note.naver.com"), url-prefix("https://mail.naver.com"), url-prefix("https://search.naver.com"), url-prefix("https://nid.naver.com/user2/help/"), url-prefix("https://section.cafe.naver.com"), url-prefix("https://cafe.naver.com"), url-prefix("cafe.naver.com"), url-prefix("https://section.blog.naver.com"), url-prefix("http://section.blog.naver.com"), url-prefix("https://terms.naver.com"), url-prefix("https://www.naver.com/NOTICE"), url-prefix("https://www.naver.com/more.html"), url-prefix("https://people.search.naver.com"), url-prefix("https://sports.news.naver.com"), url-prefix("https://noti.naver.com"), url-prefix("https://myfeed.naver.com"), url-prefix("https://editor.post.naver.com"), url-prefix("https://post.stat.naver.com"), url-prefix("https://talk.naver.com"), regexp("https://calendar\\.naver\\.com/(?!promotion.nhn|subscribePage.nhn).*")
+{
+	.gnb_notice_li .svc_panel, .gnb_notice_li .svc_scroll {
+		background: #2f2f2f;
+	}
+	
+	.gnb_notice_li .svc_head {
+		background: #2f2f2f;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.gnb_notice_li .gnb_notice_lyr, .gnb_my_lyr {
+		background: none;
+	}
+	
+	a.gnb_my .gnb_name {
+		color: #cacaca;
+	}
+	
+	.gnb_notice_li .svc_head .task_right {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.gnb_notice_li .svc_list li {
+		border-top: 1px solid #404040;
+	}
+	
+	.gnb_ly_alert {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.gnb_notice_li .gnb_notice_all {
+		border-top: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.gnb_my_li .gnb_my_content {
+		background: #2f2f2f;
+	}
+	
+	.gnb_my_li .gnb_my_content .gnb_img_area img {
+		border-radius: 50%;
+		-moz-border-radius: 50%;
+		-webkit-border-radius: 50%;
+	}
+	
+	.gnb_my_li .gnb_my_content .gnb_mask {
+		background: none;
+	}
+	
+	.gnb_my_li .gnb_my_content .gnb_name, #gnb a:hover, #gnb a {
+		color: #cacaca;
+	}
+	
+	.gnb_bg {
+		background: none;
+	}
+	
+	.gnb_txt {
+		background: #404040;
+	}
+	
+	#gnb {
+		color: #cacaca;
+	}
+	
+	#gnb a, #gnb a:visited {
+		color: #cacaca;
+	}
+	
+	#gnb #gnb_my_lyr_iframe {
+		width: 100% !important;
+	}
+	
+	#gnb .gnb_my_li .gnb_my_community a {
+		background-color: #2f2f2f;
+		border-top: 1px solid #404040;
+		border-right: 1px solid #404040;
+	}
+	
+	#gnb .gnb_my_li .gnb_my_community a.gnb_pay span {
+		background-image: url(https://ssl.pstatic.net/static/cafe/homepc/sprite/sp_home_a09f1fce.svg), none;
+		background-repeat: no-repeat;
+		background-position: -4px -4px;
+		width: 11px;
+		height: 20px;
+		position: absolute;
+		top: -4px;
+		left: 35px;
+	}
+	
+	#gnb .gnb_my_li .gnb_my_community a.gnb_pay span:after {
+		position: absolute;
+		content: 'Pay';
+		color: #cacaca;
+		font-size: 14px;
+		margin-top: 11px;
+		left: 13px;
+		letter-spacing: 1px;
+	}
+	
+	.gnb_notice_li a.gnb_notice .gnb_icon, .mail_li a.gnb_mail .gnb_icon, .gnb_service_li a.gnb_service .gnb_icon {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.gnb_lst .ico_arrow {
+		filter: invert(82%) hue-rotate(-180deg);
+	}
+	
+	a.gnb_my .ico_arrow {
+		top: 26px;
+	}
+	
+	.gnb_favorite_area, .gnb_search_area {
+		background: none;
+	}
+	
+	.gnb_favorite_lstwrp {
+		background: #2f2f2f;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.gnb_service_li .ico_arrow {
+		z-index: 99;
+		top: 28px;
+	}
+	
+	.gnb_search_area {
+		margin: 0 4px 0;
+		padding: 18px 0 17px;
+		background: #2f2f2f;
+	}
+	
+	.gnb_search_lstwrp .gnb_search_lst {
+		border-left: 1px solid #404040;
+	}
+	
+	.gnb_banner {
+		padding: 0;
+		margin: 0 4px;
+		background: none;
+		background-color: #2f2f2f;
+	}
+	
+	.gnb_banner .gnb_service_event {
+		width: 100%;
+		filter: invert(82%) hue-rotate(-180deg);
+	}
+	
+	.gnb_linkwrp {
+		background: none;
+	}
+	
+	.gnb_linkwrp a {
+		background: #2f2f2f;
+	}
+	
+	a.gnb_service_all {
+		border-top: 1px solid #404040;
+	}
+	
+	.gnb_pop_input .gnb_pop_lst li a {
+		color: #444 !important;
+	}
+	
+	#gnb_promo {
+		margin: 0 18px;
+	}
+	
+	.gnb_search_lstwrp {
+		padding-left: 3px;
+	}
+	
+	.gnb_favorite_lst .gnb_add a span.ic_add, .gnb_search_box {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.gnb_notice_li .svc_list .gnb_new {
+	    background: #404040;
+	}
+	
+	.gnb_notice_li .svc_list .gnb_unread .gnb_subject,
+	.gnb_notice_li .svc_list .gnb_unread .svc_name {
+	    color: #fff;
+	}
+	
+	#gnb .gnb_my_interface {
+		filter: invert(82%) hue-rotate(-180deg);
+	}
+	
+	:root #gnb .gnb_pad_lyr {
+		background: none;
+	}
+	
+	.gnb_search_box input {
+		background: transparent;
+	}
+	
+	#gnb.gnb_one .gnb_my_li .ico_arrow, #gnb.gnb_one .ico_arrow, .gnb_bg_top, .gnb_svc_more .gnb_svc_hd, .gnb_svc_more .gnb_svc_lstwrp, .gnb_svc_more .svc_btnwrp, .gnb_bg_btm {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 }

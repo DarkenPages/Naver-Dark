@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.25.24
+@version		1.25.31
 @namespace		Avis Studio
 @license		MIT
 ==/UserStyle== */
@@ -7228,6 +7228,114 @@
 	.cs_general_election a[class^=btn_page_] .ico_spr, .cs_general_election .privacy_info .gender_sub .gender_input label:before {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
+	
+	.cs_general_election .turnout_info .title_box .info_title {
+		color: #fff;
+	}
+	
+	.cs_general_election .turnout_info .graph_area .rate_count ul li {
+		color: #cacaca;
+	}
+	
+	.cs_general_election .turnout_info .graph_area .rate_count ul li:before {
+		background: #404040;
+	}
+	
+	.cs_general_election .turnout_info .graph_area .graph_doughnut svg, .cs_general_election .turnout_info .btn_retry {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_general_election .turnout_area .turnout_graph_area {
+		border-top: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.cs_general_election .turnout_area .turnout_graph_area .title_info {
+		color: #fff;
+	}
+	
+	.cs_general_election .turnout_graph_area .graph_index ul li.index1 {
+		color: #fff;
+	}
+	
+	.cs_general_election .turnout_graph_box {
+		border: 1px solid #404040;
+		border-width: 0 1px 0;
+		border-top: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	.cs_general_election .turnout_graph_box.rate_30:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_general_election .turnout_graph_box .graph_list li:not(.last) .ico_rate_dot.v1 .num {
+		text-shadow: -1px -1px 1px #242424, 1px -1px 1px #242424, -1px 1px 1px #242424, 1px 1px 1px #242424;
+	}
+	
+	.cs_general_election .turnout_graph_box .graph_list li.now_time .tlt_time {
+		color: #fff;
+	}
+	
+	.cs_general_election .turnout_graph_area .graph_table {
+		border: 1px solid #404040;
+		border-width: 0 1px 1px;
+		border-top: 1px solid #404040;
+		background: #242424;
+	}
+	
+	.cs_general_election .turnout_graph_area .graph_table thead th {
+		background: #2f2f2f;
+	}
+	
+	.cs_general_election .turnout_graph_area .graph_table td {
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_general_election .turnout_graph_area .graph_table tr {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_general_election .turnout_graph_area .graph_table tbody tr:first-child td.on {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_general_election .turnout_graph_box .graph_list li.now_time .ico_rate_dot.v1 .rate_num {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_general_election .turnout_graph_area .graph_table th.on:after {
+		filter: none;
+		background: #2f2f2f;
+	}
+	
+	.cs_general_election .turnout_area {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_general_election .turnout_area.local .turnout_graph_area {
+		background: #242424;
+	}
+	
+	.cs_general_election .turnout_area.local .bar_graph_area {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_general_election .option_tab .sub_option li[role="tab"][aria-selected="true"] .btn_option {
+		color: #fff;
+	}
+	
+	.cs_general_election .option_tab .sub_option .btn_option {
+		color: #cacaca;
+	}
+	
+	.cs_general_election .turnout_area .more_view:before {
+		background: #404040;
+	}
+	
+	.greenmap .lst_map .info_area .btn_icon img, .greenmap .local_map .dsc_info em {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
 }
 
 @-moz-document url-prefix("https://nid.naver.com/user2/help/")
@@ -7348,7 +7456,7 @@
 	}
 	
 	.find_id_list li {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.box6 {
@@ -7628,6 +7736,18 @@
 	
 	.copyright a {
 		color: #fff;
+	}
+	
+	.input_box {
+		filter: invert(86%);
+	}
+	
+	.box6 h3 {
+		color: #fff;
+	}
+	
+	.btn_next_s {
+		filter: invert(86%);
 	}
 }
 

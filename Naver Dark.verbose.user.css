@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.26.85
+@version		1.26.87
 @namespace		Avis Studio
 @license		MIT
 ==/UserStyle== */
@@ -24251,21 +24251,22 @@
 	#gnb .gnb_my_li .gnb_my_community a.gnb_pay span {
 		background-image: url(https://ssl.pstatic.net/static/cafe/homepc/sprite/sp_home_a09f1fce.svg), none;
 		background-repeat: no-repeat;
-		background-position: -4px -4px;
-		width: 11px;
-		height: 20px;
+		background-position: -110px -70px;
+		width: 13px;
+		height: 22px;
 		position: absolute;
 		top: -4px;
-		left: 35px;
+		left: 33px;
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	#gnb .gnb_my_li .gnb_my_community a.gnb_pay span:after {
 		position: absolute;
 		content: 'Pay';
-		color: #cacaca;
+		color: #019341;
 		font-size: 14px;
 		margin-top: 11px;
-		left: 13px;
+		left: 15px;
 		letter-spacing: 1px;
 	}
 	

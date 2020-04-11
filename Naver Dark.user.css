@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.31.21
+@version		1.31.33
 @namespace		Avis Studio
 @license		MIT
 ==/UserStyle== */
@@ -9135,6 +9135,54 @@
   }
 
   .cs_general_election .turnout_graph_box.rate_40:before {
+    filter: invert(86%) hue-rotate(-180deg);
+  }
+
+  .news .title_desc .location {
+    color: #fff;
+  }
+
+  .cs_general_election .profile_content .profile_info .name_info .order_txt,
+  .cs_general_election .profile_box dd,
+  .cs_general_election .main_add_tab .list_tab li[role="tab"][aria-selected="true"] a {
+    color: #fff;
+  }
+
+  .cs_general_election .main_add_tab {
+    border: 1px solid #404040;
+  }
+
+  .cs_general_election .political_work .bx .item {
+    border: 1px solid #404040;
+  }
+
+  .cs_general_election .political_work .sub_info {
+    border-top: 1px solid #404040;
+  }
+
+  .cs_general_election .political_work .sub_info .sub_dsc .nickname {
+    color: #cacaca;
+  }
+
+  .cs_general_election .political_work .scm_ellipsis {
+    color: #cacaca;
+  }
+
+  .cs_general_election .political_work .btn .next,
+  .cs_general_election .political_work .btn .prev {
+    filter: invert(86%) hue-rotate(-180deg);
+  }
+
+  .cs_general_election .relation_candidate {
+    background: #242424;
+    border-top: 1px solid #404040;
+  }
+
+  .cs_general_election .relation_candidate .election_title {
+    color: #cacaca;
+  }
+
+  .cs_general_election .relation_candidate .candidate_list li .list_info .thumb_box .thumb_link .mask {
     filter: invert(86%) hue-rotate(-180deg);
   }
 }
@@ -31609,8 +31657,12 @@
     color: #cacaca;
   }
 
-  .article_body div[style*='border-bottom'] {
+  .article_body *[style*='border-bottom'] {
     border-bottom: 1px solid #404040 !important;
+  }
+
+  .article_body *[style*='background-color'] {
+    background-color: #242424 !important;
   }
 
   .om_index_lst .lnk_li a {
@@ -31650,6 +31702,127 @@
 
   .ntc_view .lst dd *[style*='color'] {
     color: #cacaca !important;
+  }
+
+  .serialization_news_ico {
+    border: 1px solid #404040;
+  }
+
+  .serialization_news_title {
+    color: #cacaca;
+  }
+
+  .serialization_news_more:visited {
+    color: #fff;
+  }
+
+  .tts_popup {
+    background: #2f2f2f;
+    border: 1px solid #404040;
+  }
+
+  .tts_spd_select a {
+    color: #cacaca;
+  }
+
+  .tts_spd_select a:hover,
+  .tts_spd_select a:active,
+  .tts_spd_select a:visited {
+    color: #fff;
+  }
+
+  .spd_btn,
+  .head_channel_layer_close {
+    filter: invert(81.5%) hue-rotate(-180deg);
+  }
+
+  .tts_spd_bar {
+    background-color: #2f2f2f;
+  }
+
+  .tts_save {
+    border-top: 1px solid #4f4f4f;
+    color: #cacaca;
+  }
+
+  .tts_save__btn {
+    border: 1px solid #4f4f4f;
+    color: #cacaca;
+  }
+
+  .tts_save__btn:before,
+  .tts_save__btn:after {
+    background-color: #404040;
+  }
+
+  a.tts_save__btn:hover,
+  a.tts_save__btn:active,
+  a.tts_save__btn:visited {
+    color: #fff;
+  }
+
+  .view_type .bar {
+    background-color: #404040;
+  }
+
+  .head_channel_layer {
+    border: 1px solid #404040;
+    background-color: #2f2f2f;
+    color: #cacaca;
+  }
+
+  .head_channel_layer_link,
+  .head_channel_layer_link:visited {
+    color: #fff;
+  }
+
+  .head_channel_layer_link:after {
+    filter: invert(86%) hue-rotate(-180deg);
+  }
+
+  .tv_wrap .options .pi_h2 a,
+  .calendar_date a.next,
+  .ico_tvtoggle .checkbox-mark,
+  .press_re .no_article p:before {
+    filter: invert(86%) hue-rotate(-180deg);
+  }
+
+  .p_info {
+    color: #cacaca;
+  }
+
+  .tv_wrap .p_info .cnt {
+    color: #fff;
+  }
+
+  .press_re .p_info .calendar_date .now {
+    background: #242424;
+  }
+
+  .txt_tvplay {
+    color: #cacaca;
+  }
+
+  .tv_article {
+    border: 1px solid #404040;
+    background-color: #242424;
+  }
+
+  .press_re .no_article strong {
+    color: #fff;
+  }
+
+  .press_re .no_article a {
+    color: #cacaca;
+    border: 1px solid #404040;
+  }
+
+  .todaycolumn_date:before {
+    background-color: #404040;
+  }
+
+  .todaycolumn_lede {
+    color: #cacaca;
   }
 
   .u_cbox {
@@ -32935,5 +33108,27 @@
 
   .cmt_cont {
     border: 1px solid #404040;
+  }
+
+  .candi_lst_wrap table.candi_lst .status_resign .candi_name span {
+    color: #cacaca;
+  }
+
+  .candi_section .btn_guide {
+    filter: invert(86%) hue-rotate(-180deg);
+  }
+
+  .candi_sns_txt_wrap:after {
+    filter: invert(86%) hue-rotate(-180deg);
+  }
+
+  .candi_section .ly_guide {
+    background: #2f2f2f;
+    border: 1px solid #404040;
+    color: #cacaca;
+  }
+
+  .candi_section .ly_guide .btn_close:after {
+    filter: invert(81.5%) hue-rotate(-180deg);
   }
 }

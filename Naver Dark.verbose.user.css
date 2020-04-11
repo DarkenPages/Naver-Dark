@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.31.19
+@version		1.31.21
 @namespace		Avis Studio
 @license		MIT
 ==/UserStyle== */
@@ -26332,6 +26332,49 @@
 	.fact_cont .talk_area .link_lst {
 		border: 1px solid #404040;
 		color: #cacaca;
+	}
+	
+	.article_body div[style*='border-bottom'] {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	.om_index_lst .lnk_li a {
+		color: #cacaca;
+	}
+	
+	.ntc_area .tbl_box .tbl td a {
+		color: #cacaca;
+	}
+	
+	.ntc_area .tbl_box .tbl tr:first-child td {
+		border-top: 1px solid #404040;
+	}
+	
+	.ntc_area .tbl_box .tbl td {
+		border-top: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.ntc_area .tbl_box .tbl {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.ntc_area .tbl_box .tbl th {
+		border-top: 1px solid #404040;
+	}
+	
+	.ntc_area .srch_box .inpt {
+		border: 1px solid #404040;
+		color: #cacaca;
+		background: #242424;
+	}
+	
+	.ntc_area .btn {
+		color: #242424;
+	}
+	
+	.ntc_view .lst dd *[style*='color'] {
+		color: #cacaca !important;
 	}
 }
 

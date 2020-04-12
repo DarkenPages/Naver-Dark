@@ -4,7 +4,8 @@
   "description": "Naver-Dark stylesheet compressor",
   "main": "compressor/index.js",
   "scripts": {
-    "compress": "node compressor/index.js"
+    "compress-legacy": "node compressor/index.js",
+    "compress": "node usercss-compiler/index.js 'Naver Dark.verbose.user.css' 'Naver Dark.user.css'"
   },
   "repository": {
     "type": "git",

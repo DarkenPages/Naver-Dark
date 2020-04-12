@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.31.34
+@version		1.31.38
 @namespace		Avis Studio
 @license		MIT
 ==/UserStyle== */
@@ -8323,6 +8323,54 @@
 		background: #242424;
 	}
 	
+	#tbody *[style*='font-family'] {
+		font-family: 'Apple SD Gothic Neo', 'Helvetica', '맑은 고딕', 'Malgun Gothic', 돋움, dotum, sans-serif !important;
+	}
+	
+	#tbody *[style*=';color'], #tbody *[style*=' color'], #tbody *[style^='color'] {
+		color: #cacaca !important;
+	}
+	
+	#tbody *[style*='border-color'] {
+		border-color: #404040 !important;
+	}
+	
+	#tbody *[style*='border-bottom-color'] {
+		border-bottom-color: #404040 !important;
+	}
+	
+	#tbody *[style*='border-top-color'] {
+		border-top-color: #404040 !important;
+	}
+	
+	#tbody *[style*='border-left-color'] {
+		border-left-color: #404040 !important;
+	}
+	
+	#tbody *[style*='border-right-color'] {
+		border-right-color: #404040 !important;
+	}
+	
+	#tbody *[style*='background-color'] {
+		background-color: #242424 !important;
+	}
+	
+	#tbody *[style*='background '], #tbody *[style*='background:'] {
+		background: #242424 !important;
+	}
+	
+	#tbody *[style*='border '], #tbody *[style*='border:'] {
+		border: 1px solid #404040 !important;
+	}
+	
+	#tbody *[color] {
+		filter: brightness(250%) !important;
+	}
+	
+	#tbody hr {
+		border: 2px solid #404040 !important;
+	}
+	
 	font[color="#000000"] {
 		color: #fff !important;
 	}
@@ -9740,6 +9788,10 @@
 	
 	#naver-gnb #gnb-menu #gnb #gnb_name1 {
 		color: #cacaca;
+	}
+	
+	.list-blog .tit-box .tag_notice {
+		color: #242424;
 	}
 }
 
@@ -26379,14 +26431,6 @@
 		color: #cacaca;
 	}
 	
-	.article_body *[style*='border-bottom'] {
-		border-bottom: 1px solid #404040 !important;
-	}
-	
-	.article_body *[style*='background-color'] {
-		background-color: #242424 !important;
-	}
-	
 	.om_index_lst .lnk_li a {
 		color: #cacaca;
 	}
@@ -26420,10 +26464,6 @@
 	
 	.ntc_area .btn {
 		color: #242424;
-	}
-	
-	.ntc_view .lst dd *[style*='color'] {
-		color: #cacaca !important;
 	}
 	
 	.serialization_news_ico {
@@ -26998,18 +27038,6 @@
 	
 	#cbox_module .u_cbox_chart_fold::after {
 		background: #404040;
-	}
-	
-	.article_body p {
-		color: #cacaca !important;
-	}
-	
-	.article_body span[style] {
-		color: #cacaca !important;
-	}
-	
-	.article_body span[style*='background'] {
-		background-color: #404040 !important;
 	}
 	
 	.statement_cmt {
@@ -27773,5 +27801,40 @@
 	
 	.candi_section .ly_guide .btn_close:after {
 		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+}
+
+@-moz-document url-prefix("https://news.naver.com")
+{
+	.article_body *[style*='border-bottom'] {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	.article_body *[style*='background-color'] {
+		background-color: #242424 !important;
+	}
+	
+	.article_body *[style*='border-top'] {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	.article_body *[style*=' color'], .article_body *[style*=';color'], .article_body *[style^='color'] {
+		color: #cacaca !important;
+	}
+	
+	.ntc_view .lst dd *[style*='border-bottom'] {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	.ntc_view .lst dd *[style*='background-color'] {
+		background-color: #242424 !important;
+	}
+	
+	.ntc_view .lst dd *[style*='border-top'] {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	.ntc_view .lst dd *[style*=' color'], .ntc_view .lst dd *[style*=';color'], .ntc_view .lst dd *[style^='color'] {
+		color: #cacaca !important;
 	}
 }

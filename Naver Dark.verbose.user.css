@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.31.33
+@version		1.31.34
 @namespace		Avis Studio
 @license		MIT
 ==/UserStyle== */
@@ -27761,8 +27761,8 @@
 		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
-	.candi_sns_txt_wrap:after {
-		filter: invert(86%) hue-rotate(-180deg);
+	html[data-useragent*='Windows'] .candi_sns_txt_wrap:after {
+		filter: invert(85.5%) hue-rotate(-180deg);
 	}
 	
 	.candi_section .ly_guide {

@@ -1,9 +1,9 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.31.39
+@version		1.31.47
 @namespace		Avis Studio
-@license		MIT
+@license		CC BY-NC-SA
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://www.naver.com"), url-prefix("https://my.naver.com"), url-prefix("https://ui.nboard2.naver.com"), url-prefix("https://search.naver.com"), url-prefix("https://castbox.shopping.naver.com"), url-prefix("https://section.cafe.naver.com"), url-prefix("https://talk.cafe.naver.com"), url-prefix("https://cafe.upphoto.naver.com"), url-prefix("https://cafe.naver.com/CafeMemberInfo.nhn"), url-prefix("https://section.blog.naver.com"), url-prefix("https://uploader1.nmv.naver.com"), url-prefix("https://up.cafe.naver.com"), url-prefix("https://datalab.naver.com"), url-prefix("https://www.navercorp.com"), url-prefix("https://mail.naver.com"), url-prefix("https://note.naver.com"), url-prefix("https://mashup.map.naver.com"), url-prefix("https://nid.naver.com/nidlogin.login")
@@ -216,8 +216,13 @@
 	}
 	
 	.svc_blank .svc_msg_box .btn_type.btn_green {
-		color: #dbd8d8;
+		color: #242424;
 		background-color: #019341;
+		text-shadow: none;
+	}
+	
+	.service .svc_add .svc_navigation button:hover {
+		border: 1px solid #019341;
 	}
 	
 	.service .svc_office .svc_head .ly_new {
@@ -643,7 +648,7 @@
 	*/
 	
 	.area_newsstand .api_pbs_btn:hover, .section_svcmore .ss_btn_svcall:hover, .section_svcmore .ss_btn_setting:hover {
-		border-color: #4f4f4f;
+		border-color: #019341;
 	}
 	
 	.service .svc_npay .npay_link {
@@ -1224,6 +1229,23 @@
 	
 	.banner_area .ba_btn_download .ico_btn_download {
 		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.area_hotkeyword .ah_election .ah_election_shortcut {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.area_hotkeyword .ah_election .ah_shortcut_a.support .icon {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.area_hotkeyword .ah_election .ah_shortcut_a {
+		color: #cacaca;
+	}
+	
+	.area_hotkeyword .ah_election .ah_shortcut_a+.ah_shortcut_a {
+		border-left: 1px solid #404040;
 	}
 }
 
@@ -2027,6 +2049,225 @@
 	
 	.gnb_area .gnb_list_box .gnb_last .btn_more {
 		filter: invert(86%);
+	}
+	
+	.form_content .manage_sign p.desc {
+		color: #cacaca;
+	}
+	
+	.signiture_list li {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	.manage_sign button.posr {
+		color: #cacaca;
+	}
+	
+	.make_sign .sign_input {
+		border-top: 1px solid #404040;
+		border-left: 1px solid #404040;
+		border-right: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	#sign_prview_layer table tr:first-child td[style] {
+		background: none !important;
+		border-top: 1px solid #404040;
+	}
+	
+	.view_sign img, .icon_tip {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	#sign_prview_layer table tr:not(:first-child) td a {
+		color: #fff !important;
+	}
+	
+	.edit_reply_cover, .missed_msg textarea {
+		border: 1px solid #404040;
+	}
+	
+	.description, .setup_content .chk_all label, .slct_mailbox .chk_all label {
+		color: #cacaca;
+	}
+	
+	.tb_ext_list table td, .tb_ext_list table th {
+		color: #cacaca;
+		border-top: 1px solid #404040;
+	}
+	
+	.tb_ext_list table tbody td {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.tb_ext_list table tbody td a {
+		color: #fff;
+	}
+	
+	.box_notice input, .box_notice label {
+		color: #cacaca;
+	}
+	
+	.box_ext_reg table .slct_type span.type_naver label {
+		background: none;
+		position: relative;
+	}
+	
+	.box_ext_reg table .slct_type span.type_naver label:after {
+		background: url(https://ssl.pstatic.net/sstatic/search/pc/img/sp_svg_common_240dccc4.svg), none;
+		background-size: 136px 104px;
+		background-position: -4px 1px;
+		width: 61px;
+		height: 15px;
+		top: 3px;
+		content: '';
+		position: absolute;
+	}
+	
+	.box_ext_reg table .slct_type span.type_daum label {
+		background: none;
+		position: relative;
+		width: 45px;
+	}
+	
+	.box_ext_reg table .slct_type span.type_daum label:after {
+		background: url(https://upload.wikimedia.org/wikipedia/commons/4/44/Daum_communication_logo.svg), none;
+		background-size: 45px 19px;
+		background-position: 0 0;
+		width: 45px;
+		height: 19px;
+		top: 2px;
+		content: '';
+		position: absolute;
+	}
+	
+	.box_ext_reg table .slct_type span.type_nate label {
+		background: none;
+		position: relative;
+		width: 60px;
+	}
+	
+	.box_ext_reg table .slct_type span.type_nate label:after {
+		background: url(https://upload.wikimedia.org/wikipedia/ko/9/9c/Nate_2009_logo.svg), none;
+		background-size: 60px 21px;
+		background-position: 0 0;
+		width: 60px;
+		height: 21px;
+		top: 1px;
+		content: '';
+		position: absolute;
+	}
+	
+	.box_ext_reg table .slct_type span.type_gmail label {
+		background: none;
+		position: relative;
+		width: 60px;
+	}
+	
+	.box_ext_reg table .slct_type span.type_gmail label:after {
+		background: url(https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg), none;
+		background-size: 60px 21px;
+		background-position: 0 0;
+		width: 60px;
+		height: 21px;
+		top: 1px;
+		content: '';
+		position: absolute;
+	}
+	
+	.box_ext_reg table .slct_type span.type_hotmail label {
+		background: none;
+		position: relative;
+		width: 25px;
+	}
+	
+	.box_ext_reg table .slct_type span.type_hotmail label:after {
+		background: url(https://upload.wikimedia.org/wikipedia/commons/d/df/Microsoft_Office_Outlook_%282018–present%29.svg), none;
+		background-size: 25px 21px;
+		background-position: 0 0;
+		width: 25px;
+		height: 21px;
+		top: 0px;
+		content: '';
+		position: absolute;
+	}
+	
+	.box_ext_reg table .slct_type span.type_yahoo label {
+		background: none;
+		position: relative;
+		width: 60px;
+	}
+	
+	.box_ext_reg table .slct_type span.type_yahoo label:after {
+		background: url(https://upload.wikimedia.org/wikipedia/commons/3/3a/Yahoo%21_%282019%29.svg), none;
+		background-size: 60px 21px;
+		background-position: 0 0;
+		width: 60px;
+		height: 21px;
+		top: 0px;
+		content: '';
+		position: absolute;
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.ly_tooltip .ly_header .h_tit {
+		color: #fff;
+	}
+	
+	.ly_tooltip .ly_header {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.ly_tooltip .tip_extmail dd, .ly_tooltip .tip_extmail dt {
+		color: #cacaca;
+	}
+	
+	.subtitle .stat_load {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.dh_layer .info3 {
+		color: #fff;
+	}
+	
+	.mail_ext_wrap {
+		border: 1px solid #404040;
+	}
+	
+	.has_scrl {
+		background: #242424;
+	}
+	
+	.mail_ext tbody td {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.mail_ext tbody th {
+		color: #fff;
+	}
+	
+	.mail_ext tbody a {
+		color: #fff;
+	}
+	
+	.mail_ext {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.info_mailbox td.box_btn button {
+		color: #cacaca;
+	}
+	
+	.bill_list .logo {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.form_ul1 .form_content .desc2 {
+		color: #cacaca;
+	}
+	
+	.form_ul1 .form_content .desc2 a {
+		color: #fff;
 	}
 }
 
@@ -6986,6 +7227,251 @@
 	.cs_general_election .relation_candidate .candidate_list li .list_info .thumb_box .thumb_link .mask {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
+	
+	.flight .flight_desc .flight_target {
+		color: #fff;
+	}
+	
+	.flight .flight_box {
+		border: 4px solid #404040;
+	}
+	
+	.flight .flight_header a {
+		border-bottom: 3px solid #404040;
+		color: #cacaca;
+	}
+	
+	.flight .flight_header a.on {
+		color: #fff;
+	}
+	
+	.flight .flight_info {
+		background: #2f2f2f;
+	}
+	
+	.flight .flight_header {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.flight .flight_airport a {
+		color: #fff;
+	}
+	
+	.flight .flight_trip_route .flight_btn_region, .flight .flight_trip_route .btn_switch, .flight .flight_select .flight_btn, .flight_calendar .calendar_info:before, .flight .flight_calendar .calendar_head .calendar-btn-prev-mon .btn_prev, .flight .flight_calendar .calendar_head .calendar-btn-next-mon .btn_next {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.flight .flight_select .flight_btn_txt {
+		background: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.flight .flight_calendar .layer_area {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.flight_calendar .layer_header {
+		background-color: #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.flight .flight_calendar .calendar_area:first-child {
+		border-right: 1px solid #404040;
+	}
+	
+	.flight .flight_calendar .calendar_body td.calendar_prev_mon .btn_days:hover, .flight .flight_calendar .calendar_body td.calendar_next_mon .btn_days:hover, .flight .flight_calendar .calendar_body td.calendar-unselectable .btn_days:hover {
+		background-color: #3a3a3a;
+	}
+	
+	.flight .flight_calendar .calendar_body .btn_days:hover {
+		background-color: #404040;
+	}
+	
+	.flight .flight_calendar .calendar_body .btn_days {
+		color: #fff;
+	}
+	
+	.flight .flight_calendar .calendar_body td.calendar_prev_mon .btn_days, .flight .flight_calendar .calendar_body td.calendar_next_mon .btn_days, .flight .flight_calendar .calendar_body td.calendar-unselectable .btn_days {
+		color: #cacaca;
+	}
+	
+	.flight .flight_calendar .sub_area {
+		border-top: 1px solid #404040;
+	}
+	
+	.flight .flight_calendar .calendar_body .btn_days .ico_txt_check, .flight .flight_calendar .calendar_body td.calendar_dim .btn_days, .flight .flight_calendar .calendar_body td.calendar_selected .btn_days {
+		color: #2f2f2f;
+	}
+	
+	.flight .flight_calendar .calendar_body td.calendar_gap .btn_days:before {
+		background-color: #404040;
+	}
+	
+	.flight .flight_btn_unselect, .flight .flight_btn_direct {
+		background-color: #2f2f2f;
+		color: #cacaca;
+		border: 1px solid #404040;
+	}
+	
+	.flight .flight_btn_search {
+		background: #4f8cc9;
+		position: relative;
+	}
+	
+	.flight .flight_btn_search:after {
+		content: '항공권검색';
+		position: absolute;
+		font-size: 15px;
+		font-weight: bold;
+		text-indent: initial;
+		color: #242424;
+		left: 0;
+		top: 50%;
+		transform: translate(0%, -50%);
+		width: 100%;
+		height: 18px;
+	}
+	
+	.flight .flight_ly_person {
+		border: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.flight .flight_ly_person .flight_ly_row .flight_ly_btn_person {
+		background: #242424;
+	}
+	
+	.flight .flight_ly_person .flight_ly_row .flight_ly_btn_person .flight_ly_btn_minus {
+		border: 1px solid #404040;
+	}
+	
+	.flight .flight_ly_person .flight_ly_row .flight_ly_btn_person .flight_ly_btn_minus:hover, .flight .flight_ly_person .flight_ly_row .flight_ly_btn_person .flight_ly_btn_plus:hover {
+		border-color: #404040;
+	}
+	
+	.flight .flight_ly_person .flight_ly_row .flight_ly_count {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.flight .flight_ly_person .flight_ly_row .flight_ly_btn_person .flight_ly_btn_plus {
+		border: 1px solid #404040;
+	}
+	
+	.flight .flight_ly_person .flight_ly_desc, .flight .flight_ly_seat .flight_ly_desc {
+		border-top: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.flight .flight_ly_seat {
+		background: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.flight .flight_ly_seat .flight_ly_btn_seat {
+		background: #242424;
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.flight .flight_ly_seat .flight_ly_btn_seat_on {
+		color: #fff;
+	}
+	
+	.flight .flight_ly_seat .flight_ly_btn_seat:hover {
+		border-color: #404040;
+	}
+	
+	.flight .flight_ly_seat .flight_ly_btn_seat .flight_ly_sel {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.flight .flight_btn_unselect_on {
+		background-color: #6c89ae;
+		border-color: #5a7aa1;
+	}
+	
+	.flight .flight_btn_unselect_on, .flight .flight_btn_direct.on {
+		color: #2f2f2f;
+	}
+	
+	.flight .flight_partners {
+		border-top: 1px solid #404040;
+		background: #242424;
+	}
+	
+	.flight .flight_partners_listitem, .flight .flight_refer .ico_info {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.flight .flight_multi_trip .flight_trip_row .flight_trip_route {
+		background-position: 0 2px;
+	}
+	
+	.flight .flight_multi_trip .flight_trip_row {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.flight .flight_multi_trip .flight_btn_add {
+		color: #cacaca;
+	}
+	
+	.flight .flight_multi_trip .flight_btn_del {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.flight .flight_input {
+		background: #242424;
+		color: #cacaca;
+	}
+	
+	.flight .flight_ly_rec {
+		background: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.flight .flight_ly_rec .flight_ly_rec_title {
+		color: #fff;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.flight .flight_ly_rec th {
+		background: #404040;
+	}
+	
+	.flight .flight_ly_rec table {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.flight .flight_ly_rec a {
+		color: #cacaca;
+	}
+	
+	.flight .flight_ly_auto {
+		background: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.flight .flight_ly_auto .lnk_autocomplete_on a {
+		background: #3a3a3a;
+	}
+	
+	.flight .flight_ly_auto a {
+		color: #cacaca;
+	}
+	
+	.flight .flight_ly_auto li {
+		border-top: 1px solid #404040;
+	}
+	
+	.flight .flight_ly_auto p {
+		color: #cacaca;
+	}
+	
+	.bar {
+		border-left: 1px solid #404040;
+	}
 }
 
 @-moz-document url-prefix("https://nid.naver.com/user2/help/")
@@ -7925,6 +8411,17 @@
 	
 	.gnb_notice_li a.gnb_notice .gnb_icon, .mail_li a.gnb_mail .gnb_icon, .gnb_service_li a.gnb_service .gnb_icon {
 		filter: invert(0%) !important;
+	}
+	
+	.mycafe_list .btn_mail.on {
+		background-color: #019341;
+		color: #242424;
+	}
+	
+	.mycafe_tab a.on {
+		border-color: #019341;
+		background-color: #019341;
+		color: #242424;
 	}
 }
 
@@ -24025,6 +24522,10 @@
 	.ly_setting_wrap .setting_info > a, .ly_setting_wrap .btn_toggle {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
+	
+	.gnb_notice_li a.gnb_notice .gnb_icon, .mail_li a.gnb_mail .gnb_icon, .gnb_service_li a.gnb_service .gnb_icon {
+		filter: invert(0%) !important;
+	}
 }
 
 @-moz-document url-prefix("https://nid.naver.com/user2/V2Join.nhn")
@@ -26574,6 +27075,51 @@
 	}
 	
 	.todaycolumn_lede {
+		color: #cacaca;
+	}
+	
+	.topbox_type6 {
+		border-top: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.topbox_type6:before {
+		background-color: #404040;
+	}
+	
+	.topbox_type6 li a, .topbox_type6 li a:visited {
+		color: #cacaca;
+	}
+	
+	.topbox_type6 li:before, .topbox_type6 li + li:after {
+		background-color: #404040;
+	}
+	
+	.topbox_type6 li a.on:before {
+		background-color: #cacaca;
+	}
+	
+	.type13 {
+		border-bottom: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.result_none h5 {
+		color: #fff;
+	}
+	
+	.result_none_btn {
+		color: #cacaca;
+		border: 1px solid #404040;
+	}
+	
+	.result_none {
+		border: 1px solid #404040;
+		border-width: 0 0 1px;
+		color: #cacaca;
+	}
+	
+	.type13 dd {
 		color: #cacaca;
 	}
 }

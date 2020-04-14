@@ -1,7 +1,8 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.32.24
+@description	Dark mode for NAVER
+@version		1.32.28
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 ==/UserStyle== */
@@ -21728,6 +21729,10 @@
 	#header .gnb .naver_logo .ico_naver_logo, .cont_header .naver_logo .ico_naver_logo {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
+	
+	.u_cbox .u_cbox_ico_bar {
+		background: #4f4f4f;
+	}
 }
 
 @-moz-document url-prefix("https://editor.post.naver.com"), url-prefix("https://post.stat.naver.com")
@@ -25357,21 +25362,33 @@
 		background-position: -4px -29px;
 		width: 56px;
 		height: 17px;
-		margin-top: 3px;
+		margin-top: 2px;
 	}
 	
 	#snb_wrap .h_news {
 		background: none;
 		position: relative;
+		width: auto;
+	}
+	
+	#snb_wrap .h_news:before {
+		content: '뉴스';
+		color: #cacaca;
+		font-weight: bold;
+		font-size: 25px;
+		white-space: nowrap;
+		opacity: 0;
 	}
 	
 	#snb_wrap .h_news:after {
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
 		position: absolute;
 		content: '뉴스';
 		color: #fff;
 		font-weight: bold;
 		font-size: 25px;
-		top: -3px;
 		white-space: nowrap;
 	}
 	
@@ -25382,7 +25399,7 @@
 	.snb_related_service li a[href*='election'] {
 		position: relative;
 		overflow: visible;
-		width: 57px;
+		width: auto;
 	}
 	
 	.snb_related_service li a[href*='election'] img {
@@ -25390,24 +25407,38 @@
 	}
 	
 	.snb_related_service li a[href*='election']:before {
-		position: absolute;
-		content: '';
-		left: 3px;
-		top: 2px;
-		background: url(https://upload.wikimedia.org/wikipedia/commons/9/9e/Vote2.svg) no-repeat;
-		background-size: 17px 17px;
-		width: 100%;
-		height: 25px;
+		content: '총선';
+		height: 18px;
+		display: inline-block;
+		font-size: 18px;
+		white-space: nowrap;
+		color: #cacaca;
+		width: 55px;
+		opacity: 0;
 	}
 	
 	.snb_related_service li a[href*='election']:after {
 		position: absolute;
-		left: 25px;
-		top: 0px;
+		left: 0;
+		top: 50%;
+		transform: translate(0, -50%);
 		content: '총선';
 		color: #fff;
 		font-size: 18px;
 		white-space: nowrap;
+		width: 56px;
+		text-align: right;
+		background: url(https://upload.wikimedia.org/wikipedia/commons/9/9e/Vote2.svg) no-repeat;
+		background-size: 17px 17px;
+		background-position: 0px 50%;
+	}
+	
+	.snb_related_service a {
+	    padding: 0;
+	}
+	
+	.snb_related_service li a {
+	    height: 20px;
 	}
 	
 	.list_ico_new {
@@ -25415,7 +25446,7 @@
 	}
 	
 	.snb_related_service li a[href*='entertain'] {
-		width: 52px;
+		width: auto;
 		position: relative;
 	}
 	
@@ -25423,9 +25454,19 @@
 		display: none;
 	}
 	
+	.snb_related_service li a[href*='entertain']:before {
+	    content: 'TV연예';
+	    color: #cacaca;
+	    font-size: 18px;
+	    white-space: nowrap;
+	    opacity: 0;
+	}
+	
 	.snb_related_service li a[href*='entertain']:after {
 		position: absolute;
-		top: 0px;
+	    left: 50%;
+	    top: 50%;
+	    transform: translate(-50%, -50%);
 		content: 'TV연예';
 		color: #fff;
 		font-size: 18px;
@@ -25433,7 +25474,7 @@
 	}
 	
 	.snb_related_service li a[href*='sports'] {
-		width: 48px;
+		width: auto;
 		position: relative;
 	}
 	
@@ -25441,9 +25482,19 @@
 		display: none;
 	}
 	
+	.snb_related_service li a[href*='sports']:before {
+		content: '스포츠';
+		color: #cacaca;
+		font-size: 18px;
+		white-space: nowrap;
+	    opacity: 0;
+	}
+	
 	.snb_related_service li a[href*='sports']:after {
 		position: absolute;
-		top: 0px;
+		left: 50%;
+	    top: 50%;
+	    transform: translate(-50%, -50%);
 		content: '스포츠';
 		color: #fff;
 		font-size: 18px;
@@ -25451,7 +25502,7 @@
 	}
 	
 	.snb_related_service li a[href*='newsstand'] {
-		width: 77px;
+		width: auto;
 		position: relative;
 	}
 	
@@ -25459,9 +25510,19 @@
 		display: none;
 	}
 	
+	.snb_related_service li a[href*='newsstand']:before {
+		content: '뉴스스탠드';
+		color: #cacaca;
+		font-size: 18px;
+		white-space: nowrap;
+	    opacity: 0;
+	}
+	
 	.snb_related_service li a[href*='newsstand']:after {
 		position: absolute;
-		top: 0px;
+		left: 50%;
+	    top: 50%;
+	    transform: translate(-50%, -50%);
 		content: '뉴스스탠드';
 		color: #fff;
 		font-size: 18px;
@@ -25469,7 +25530,7 @@
 	}
 	
 	.snb_related_service li a[href*='weather'] {
-		width: 31px;
+		width: auto;
 		position: relative;
 	}
 	
@@ -25477,9 +25538,19 @@
 		display: none;
 	}
 	
+	.snb_related_service li a[href*='weather']:before {
+		content: '날씨';
+		color: #cacaca;
+		font-size: 18px;
+		white-space: nowrap;
+	    opacity: 0;
+	}
+	
 	.snb_related_service li a[href*='weather']:after {
 		position: absolute;
-		top: 0px;
+		left: 50%;
+	    top: 50%;
+	    transform: translate(-50%, -50%);
 		content: '날씨';
 		color: #fff;
 		font-size: 18px;

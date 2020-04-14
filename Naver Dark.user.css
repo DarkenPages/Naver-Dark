@@ -1,7 +1,8 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.32.24
+@description	Dark mode for NAVER
+@version		1.32.28
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 ==/UserStyle== */
@@ -2274,6 +2275,7 @@
 	 .hd_prev .ly_opt { border: 1px solid #404040;background: #242424 } 
 	 .og.b_size .txt:after { border: 1px solid #404040;border-width: 0 1px 1px 1px } 
 	 .lst_feed_wrap .feed_body .og .dsc { color: #cacaca !important } 
+	 .u_cbox .u_cbox_ico_bar { background: #4f4f4f } 
  } 
  @-moz-document url-prefix("https://editor.post.naver.com"), url-prefix("https://post.stat.naver.com") { 
 	 body, .send_invitation .form_wrap .srch_area .invite_email { color: #cacaca;background: #242424 } 
@@ -2652,22 +2654,26 @@
 	 .index:before, .classfy ul.list_txt, .section_body, .cluster_item + .cluster_item, .section, .as_finance_tit, .todaycolumn, .writercolumns, .fact_cont .result_area .relation_lst, .fact_cont .section, .tv_sec, .ranking_item, .covenant_area, .om_info_area .info_dsc, .news_ally .ally_process th, .news_ally .ally_process td, .news_repair_area .list_body ul.type02 + .type02, .edit_history_group + .edit_history_group, .ntc_area, .ntc_view .board_pg .box, .newsgroup_body2 .group_table, .section .image, .ntc_area .tbl_box .tbl tr:first-child td, .ntc_area .tbl_box .tbl th { border-top: 1px solid #404040 } 
 	 #footer, .photo_choice_wrap .btn_prev, .photo_choice_wrap .btn_next, .header.is_fixed .lnb_area, .guide_categorization_item, .myscrap_select-list ul li.myscrap_select-item-selected, .myscrap_select-list ul li.myscrap_select-item-over, .tts_spd_bar { background-color: #2f2f2f } 
 	 .gnb_notice_li a.gnb_notice .gnb_icon, .mail_li a.gnb_mail .gnb_icon, .gnb_service_li a.gnb_service .gnb_icon { filter: invert(0%) !important } 
-	 #snb_wrap .h_logo { width: 56px;margin-top: 3px;height: 17px;background: linear-gradient(transparent,transparent),url(https://ssl.pstatic.net/static/sports/2019/pc/11/12/sp_gnb.svg);background-size: 103px 97px;background-position: -4px -29px } 
-	 #snb_wrap .h_news { position: relative;background: none } 
-	 #snb_wrap .h_news:after { white-space: nowrap;top: -3px;position: absolute;font-weight: bold;font-size: 25px;content: '뉴스';color: #fff } 
+	 #snb_wrap .h_logo { width: 56px;margin-top: 2px;height: 17px;background: linear-gradient(transparent,transparent),url(https://ssl.pstatic.net/static/sports/2019/pc/11/12/sp_gnb.svg);background-size: 103px 97px;background-position: -4px -29px } 
+	 #snb_wrap .h_news { width: auto;position: relative;background: none } 
+	 #snb_wrap .h_news:before { white-space: nowrap;opacity: 0;font-weight: bold;font-size: 25px;content: '뉴스';color: #cacaca } 
+	 #snb_wrap .h_news:after { white-space: nowrap;transform: translate(-50%, -50%);top: 50%;position: absolute;left: 50%;font-weight: bold;font-size: 25px;content: '뉴스';color: #fff } 
 	 .is_fixed #snb_wrap .h_news:after { font-size: 17px } 
-	 .snb_related_service li a[href*='election'] { width: 57px;position: relative;overflow: visible } 
+	 .snb_related_service li a[href*='election'] { width: auto;position: relative;overflow: visible } 
 	 .snb_related_service li a[href*='election'] img, .snb_related_service li a[href*='entertain'] img, .snb_related_service li a[href*='sports'] img, .snb_related_service li a[href*='newsstand'] img, .snb_related_service li a[href*='weather'] img { display: none } 
-	 .snb_related_service li a[href*='election']:before { width: 100%;top: 2px;position: absolute;left: 3px;height: 25px;content: '';background: url(https://upload.wikimedia.org/wikipedia/commons/9/9e/Vote2.svg) no-repeat;background-size: 17px 17px } 
-	 .snb_related_service li a[href*='election']:after { white-space: nowrap;top: 0px;position: absolute;left: 25px;font-size: 18px;content: '총선';color: #fff } 
-	 .snb_related_service li a[href*='entertain'] { width: 52px;position: relative } 
-	 .snb_related_service li a[href*='entertain']:after { white-space: nowrap;top: 0px;position: absolute;font-size: 18px;content: 'TV연예';color: #fff } 
-	 .snb_related_service li a[href*='sports'] { width: 48px;position: relative } 
-	 .snb_related_service li a[href*='sports']:after { white-space: nowrap;top: 0px;position: absolute;font-size: 18px;content: '스포츠';color: #fff } 
-	 .snb_related_service li a[href*='newsstand'] { width: 77px;position: relative } 
-	 .snb_related_service li a[href*='newsstand']:after { white-space: nowrap;top: 0px;position: absolute;font-size: 18px;content: '뉴스스탠드';color: #fff } 
-	 .snb_related_service li a[href*='weather'] { width: 31px;position: relative } 
-	 .snb_related_service li a[href*='weather']:after { white-space: nowrap;top: 0px;position: absolute;font-size: 18px;content: '날씨';color: #fff } 
+	 .snb_related_service li a[href*='election']:before { width: 55px;white-space: nowrap;opacity: 0;height: 18px;font-size: 18px;display: inline-block;content: '총선';color: #cacaca } 
+	 .snb_related_service li a[href*='election']:after { width: 56px;white-space: nowrap;transform: translate(0, -50%);top: 50%;text-align: right;position: absolute;left: 0;font-size: 18px;content: '총선';color: #fff;background: url(https://upload.wikimedia.org/wikipedia/commons/9/9e/Vote2.svg) no-repeat;background-size: 17px 17px;background-position: 0px 50% } 
+	 .snb_related_service a { padding: 0 } 
+	 .snb_related_service li a { height: 20px } 
+	 .snb_related_service li a[href*='entertain'], .snb_related_service li a[href*='sports'], .snb_related_service li a[href*='newsstand'], .snb_related_service li a[href*='weather'] { width: auto;position: relative } 
+	 .snb_related_service li a[href*='entertain']:before { white-space: nowrap;opacity: 0;font-size: 18px;content: 'TV연예';color: #cacaca } 
+	 .snb_related_service li a[href*='entertain']:after { white-space: nowrap;transform: translate(-50%, -50%);top: 50%;position: absolute;left: 50%;font-size: 18px;content: 'TV연예';color: #fff } 
+	 .snb_related_service li a[href*='sports']:before { white-space: nowrap;opacity: 0;font-size: 18px;content: '스포츠';color: #cacaca } 
+	 .snb_related_service li a[href*='sports']:after { white-space: nowrap;transform: translate(-50%, -50%);top: 50%;position: absolute;left: 50%;font-size: 18px;content: '스포츠';color: #fff } 
+	 .snb_related_service li a[href*='newsstand']:before { white-space: nowrap;opacity: 0;font-size: 18px;content: '뉴스스탠드';color: #cacaca } 
+	 .snb_related_service li a[href*='newsstand']:after { white-space: nowrap;transform: translate(-50%, -50%);top: 50%;position: absolute;left: 50%;font-size: 18px;content: '뉴스스탠드';color: #fff } 
+	 .snb_related_service li a[href*='weather']:before { white-space: nowrap;opacity: 0;font-size: 18px;content: '날씨';color: #cacaca } 
+	 .snb_related_service li a[href*='weather']:after { white-space: nowrap;transform: translate(-50%, -50%);top: 50%;position: absolute;left: 50%;font-size: 18px;content: '날씨';color: #fff } 
 	 table.container td.snb, .op_container .tab_lst li:last-child, .op_container.is_popup .tab_lst li:last-child { border-right: 1px solid #404040 } 
 	 .sum_on:before { filter: invert(100%) hue-rotate(-180deg) } 
 	 .section.hottopic .category a.is_click:after { height: 2px;background-color: #4f4f4f } 

@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.32.23
+@version		1.32.24
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 ==/UserStyle== */
@@ -27253,6 +27253,14 @@
 	}
 	
 	.type13 dd {
+		color: #cacaca;
+	}
+	
+	.article_body p {
+		color: #cacaca;
+	}
+	
+	.article_body span {
 		color: #cacaca;
 	}
 }

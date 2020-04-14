@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.32.21
+@version		1.32.23
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 ==/UserStyle== */
@@ -9168,6 +9168,7 @@
 	
 	.cafe-search .btn {
 		background-color: #019341;
+		color: #242424;
 	}
 	
 	.tab_list_wrap li.selected a {
@@ -10293,6 +10294,27 @@
 	
 	.list-blog .tit-box .tag_notice {
 		color: #242424;
+	}
+	
+	.input_search_area .btn-search-green {
+		background-color: #019341;
+		color: #242424;
+	}
+	
+	.skin-1080 #neighbor-cafe .bca {
+		color: #fff;
+	}
+	
+	.skin-1080 #member-action-data .grade .txt {
+		color: #cacaca;
+	}
+	
+	.skin-1080 .ia-info-data3 em {
+		color: #fff;
+	}
+	
+	.skin-1080 .ia-info-data3 em span {
+		color: #666;
 	}
 }
 

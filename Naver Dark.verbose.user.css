@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Naver Dark
 @author			OrigamiDream
-@version		1.31.47
+@version		1.32.21
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 ==/UserStyle== */
@@ -21,7 +21,7 @@
 	}
 	
 	.tab_inkey, .tab_inms, .btn_ly_cl, .keyboard_img, .inputko_info, .btn_kor_on, .btn_eng, .mouse_kor, .mouse_eng div, .btn_space, .btn_del, .btn_eng_on, .btn_kor {
-		filter: invert(89%);
+		filter: invert(89%) hue-rotate(-180deg);
 	}
 	
 	.help .txt {
@@ -118,7 +118,7 @@
 	}
 	
 	.api_atcmp_wrap .words li.atcmp_on {
-		background-color: #555;
+		background-color: #2f2f2f;
 	}
 	
 	.api_atcmp_wrap .my_words .noti {
@@ -7995,8 +7995,12 @@
 		border-right: 0;
 	}
 	
-	.lnb_link {
-		color: #7474e3;
+	.lnb_link, .lnb_link:link, .lnb_link:visited {
+		color: #fff;
+	}
+	
+	.on .lnb_link {
+		color: #03c75a;
 	}
 	
 	.cc_layer_mynews .cc_mynews_header {
@@ -10687,6 +10691,42 @@
 	
 	.gnb_notice_li a.gnb_notice .gnb_icon, .mail_li a.gnb_mail .gnb_icon, .gnb_service_li a.gnb_service .gnb_icon {
 		filter: invert(0%) !important;
+	}
+	
+	.header_service .navigator_lnb .item, .header_service .navigator_lnb .item:visited, .header_service .navigator_lnb .item:link {
+		color: #fff;
+	}
+	
+	.header_service .navigator_lnb .item.on, .header_service .navigator_lnb .item[aria-current=page] {
+		color: #00ab33;
+	}
+	
+	.header_service .navigator_lnb .item:hover {
+		color: #00ab33;
+	}
+	
+	.header_service .navigator_lnb_sub .item {
+		color: #fff;
+	}
+	
+	.list_post_article .desc .text {
+		color: #cacaca;
+	}
+	
+	.area_dropdown[data-set="hottopic"] .present_selected, .area_dropdown[data-set="hottopic"] .dropdown_select {
+		border-color: #404040;
+	}
+	
+	.list_search_post .desc .text, .area_topic .heading .description {
+		color: #cacaca;
+	}
+	
+	.category_search_hottopic {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.category_search_hottopic .search_result {
+		color: #cacaca;
 	}
 }
 
@@ -18659,6 +18699,35 @@
 	.main_wrap .aside_radio h3 {
 		color: #242424; /* inverted */
 	}
+	
+	.home_live_box {
+		background-color: #404040;
+	}
+	
+	.hmb_list .hmb_list_items2 {
+		border-top: 1px solid #404040;
+	}
+	
+	#footer address a {
+		color: #cacaca;
+	}
+	
+	.home_spot:before {
+		background-color: #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.news_wrap .news_list .text .desc {
+		color: #cacaca;
+	}
+	
+	.videocenter .video_channel dl.info:before {
+		background-color: #4f4f4f;
+	}
+	
+	.sports_menu .sub_menu_list .link_sub_menu {
+		color: #cacaca;
+	}
 }
 
 @-moz-document url-prefix("https://comments.sports.naver.com")
@@ -24530,8 +24599,20 @@
 
 @-moz-document url-prefix("https://nid.naver.com/user2/V2Join.nhn")
 {
+	body {
+		background: #242424;
+	}
+	
+	#footer a, #footer *, #footer address a, .group_join, #footer a:visited {
+		color: #cacaca;
+	}
+	
 	:root .input_chk label:before {
 		filter: invert(87%) hue-rotate(-180deg);
+	}
+	
+	:root .sel {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.input_chk label {
@@ -24581,10 +24662,40 @@
 	.btn_area>span .btn_type {
 		color: #cacaca;
 	}
+	
+	.int {
+		color: #cacaca;
+		background: #242424;
+	}
+	
+	label {
+		color: #fff;
+	}
 }
 
 @-moz-document url-prefix("https://nid.naver.com/user2/join/groupJoin.nhn")
 {
+	body {
+		background: #242424;
+	}
+	
+	#footer a, #footer *, #footer address a, .group_join, #footer a:visited {
+		color: #cacaca;
+	}
+	
+	input {
+		color: #cacaca;
+		background: #242424;
+	}
+	
+	.btn_c {
+		color: #cacaca;
+	}
+	
+	.btn_group_join {
+		color: #cacaca;
+	}
+	
 	#header .lang .sl_box, :root .group_agr .agr_inwrap label:after {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
@@ -28393,5 +28504,784 @@
 	
 	body, #footer *, #footer address a {
 		color: #242424;
+	}
+}
+
+@-moz-document url-prefix("https://nid.naver.com/user2/help/loginEnv.nhn")
+{
+	.answer .title, .otp_loginset .title, .otp_popup .title {
+		color: #fff;
+	}
+	
+	.answer .desc, .answer .info {
+		color: #cacaca;
+	}
+	
+	html, head, body {
+		background: #242424;
+		color: #cacaca;
+	}
+	
+	#footer {
+		background: #242424;
+	}
+	
+	.otp_bg {
+		background-color: #242424;
+	}
+	
+	.u_cri+.u_cri::before {
+		color: #404040;
+	}
+}
+
+@-moz-document regexp("https://www\\.naver\\.com/(?!NOTICE|more.html).*")
+{
+	html[data-useragent*='Whale'] #header .special_bg {
+		border-bottom: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	html[data-useragent*='Whale'] #gnb {
+		background-color: #242424;
+		box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 1);
+	}
+	
+	html[data-useragent*='Whale'] #gnb .group_nav .btn_more {
+		color: #cacaca;
+	}
+	
+	html[data-useragent*='Whale'] #gnb .group_nav .ly_btn_area {
+		background-color: #242424;
+	}
+	
+	html[data-useragent*='Whale'] #gnb .group_nav .ly_btn_area .btn {
+		color: #cacaca;
+		border: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	html[data-useragent*='Whale'] #gnb .ly_service {
+		border-top: 1px solid #404040;
+		background-color: #242424;
+		box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 1);
+	}
+	
+	html[data-useragent*='Whale'] #gnb .list_service+.list_service {
+		border-left: 1px solid #404040;
+	}
+	
+	html[data-useragent*='Whale'] #gnb .group_service {
+		border: 1px solid #404040;
+		border-width: 0 1px;
+	}
+	
+	html[data-useragent*='Whale'] #gnb .list_service .service_title {
+		color: #fff;
+	}
+	
+	html[data-useragent*='Whale'] #gnb .list_nav.type_empty .empty_box {
+		background-color: #242424;
+		border: 1px solid #404040;
+	}
+	
+	html[data-useragent*='Whale'] #gnb .list_service .ico_chk {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	html[data-useragent*='Whale'] #gnb .list_nav {
+		color: #fff;
+	}
+	
+	html[data-useragent*='Whale'] #gnb .group_keyword .ico_error+.keyword {
+		color: #cacaca;
+	}
+	
+	html[data-useragent*='Whale'] #gnb .ly_realtime {
+		background-color: #242424;
+		box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 1);
+	}
+	
+	html[data-useragent*='Whale'] #gnb .ly_realtime .title_area .title {
+		color: #fff;
+	}
+	
+	html[data-useragent*='Whale'] #gnb .ly_realtime .title_area {
+		border-bottom: 1px solid #404040;
+	}
+	
+	html[data-useragent*='Whale'] #gnb .election_area .election_shortcut {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	html[data-useragent*='Whale'] #gnb .election_area .shortcut_a {
+		color: #cacaca;
+	}
+	
+	html[data-useragent*='Whale'] #gnb .election_area .shortcut_a+.shortcut_a {
+		border-left: 1px solid #404040;
+	}
+	
+	html[data-useragent*='Whale'] input {
+		color: #cacaca;
+		background: #242424;
+		border: 1px solid #404040;
+	}
+	
+	html[data-useragent*='Whale'] #header .search_area .input_text {
+		border: none;
+	}
+	
+	html[data-useragent*='Whale'] #header .search_area .btn_submit .ico_search_submit {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	html[data-useragent*='Whale'] .sc_newscast .group_issue {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	html[data-useragent*='Whale'] .sc_newscast .group_issue .direct_area .link_direct {
+		color: #cacaca;
+	}
+	
+	html[data-useragent*='Whale'] .sc_newscast .group_title .link_newsstand, html[data-useragent*='Whale'] .sc_newscast .group_title .sort_area .btn_sort.sort_on {
+		color: #fff;
+	}
+	
+	html[data-useragent*='Whale'] .sc_newscast .group_title .sort_area .btn_sort {
+		color: #cacaca;
+	}
+	
+	html[data-useragent*='Whale'] .sc_newscast .tile_view .popup_wrap {
+		background-color: #2f2f2f;
+	}
+	
+	html[data-useragent*='Whale'] .sc_newscast .group_news {
+		border: 1px solid #404040;
+		border-width: 1px 0;
+	}
+	
+	html[data-useragent*='Whale'] .sc_newscast .tile_view {
+		border: 1px solid #404040;
+		border-width: 0 1px;
+	}
+	
+	html[data-useragent*='Whale'] .sc_newscast .tile_view .frame_area .line {
+		background-color: #404040;
+	}
+	
+	html[data-useragent*='Whale'] .sc_newscast .tile_view .popup_wrap .btn_popup {
+		background-color: #242424;
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	html[data-useragent*='Whale'] .sc_newscast .tile_view .popup_wrap .btn_popup:hover {
+		border-color: #4f4f4f;
+	}
+	
+	html[data-useragent*='Whale'] .sc_newscast .tile_view .thumb img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	html[data-useragent*='Whale'] .sc_newscast .error_view .error_msg {
+		color: #fff;
+	}
+	
+	html[data-useragent*='Whale'] .sc_newscast .error_view .dsc_msg {
+		color: #cacaca;
+	}
+	
+	html[data-useragent*='Whale'] .sc_newscast .error_view .link_redirect {
+		color: #242424;
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast .group_title .title_area .title, html[data-useragent*='Whale'] .sc_themecast .group_title .info_area .new {
+		color: #fff;
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast .group_title .info_area .btn_set:after {
+		background-color: #404040;
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast .group_edit {
+		border: 1px solid #404040;
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast .list_select_tab {
+		background-color: #2f2f2f;
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast .group_edit .edit_header {
+		border-top: 1px solid #404040;
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast .list_select_tab .tab_item+.tab_item .tab {
+		border-left: 1px solid #404040;
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast .group_edit .edit_header .notice_msg {
+		color: #cacaca;
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast .list_edit .edit_item {
+		border: 1px solid #404040;
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast .list_edit .ico_chk, html[data-useragent*='Whale'] .sc_themecast .group_edit .ico_set, html[data-useragent*='Whale'] .sc_themecast .group_edit .ico_close {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast .group_edit .edit_footer {
+		border-top: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast .group_edit .btn_set {
+		color: #242424;
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast .group_edit .btn_func+.btn_func:before {
+		background-color: #404040;
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast .list_select_tab .tab {
+		color: #fff;
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast .group_title .info_area .btn_set {
+		color: #cacaca;
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast .main_category .tab {
+		border: 1px solid #404040;
+		border-width: 0 1px;
+		color: #cacaca;
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast .main_category .tab[aria-selected=true] {
+		color: #242424;
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast .main_category .tab.id_movie:hover {
+		color: #2650b9;
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast .main_category .tab.id_movie[aria-selected=true]:hover {
+		color: #242424;
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast .main_category .tab.id_movie[aria-selected=true] {
+		border: 1px solid #2650b9;
+		background-color: #2650b9;
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast .main_category:before {
+		border: 1px solid #404040;
+		z-index: 1;
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast.id_enter .topstory_view.type_star, html[data-useragent*='Whale'] .sc_themecast.id_enter .topstory_writer {
+		background-color: #2f2f2f;
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast .topstory_view.type_star .badge_vlive {
+		filter: invert(100%) hue-rotate(-180deg);
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast .theme_link {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast .theme_link .list_service {
+		border-left: 1px solid #404040;
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast .theme_link .service_item .service {
+		color: #cacaca;
+	}
+	
+	html[data-useragent*='Whale'] .service {
+		border: none;
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast .media_view .source {
+		color: #fff;
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast .group_theme+.group_theme {
+		border-top: 1px solid #404040;
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast .chart_view .chart_rank .rank {
+		color: #fff;
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast .chart_view .chart_area+.chart_area {
+		border-top: 1px solid #404040;
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast .chart_view_wrap.type_music .chart_link .link_lyrics:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	html[data-useragent*='Whale'] .theme_head.is_fixed .theme_fix_wrap {
+		background-color: #242424;
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast .btn_more_wrap {
+		border-bottom: 1px solid #404040;
+	}
+	
+	html[data-useragent*='Whale'] #footer {
+		border-top: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	html[data-useragent*='Whale'] #footer .notice_area, html[data-useragent*='Whale'] #footer .aside_area {
+		border-top: 1px solid #404040;
+	}
+	
+	html[data-useragent*='Whale'] #footer .partner_box .link_partner {
+		color: #cacaca;
+	}
+	
+	html[data-useragent*='Whale'] #footer .corp_area {
+		border-top: 1px solid #404040;
+	}
+	
+	html[data-useragent*='Whale'] #footer .list_corp .corp_item {
+		color: #cacaca;
+	}
+	
+	html[data-useragent*='Whale'] #footer ul li {
+		filter: none;
+	}
+	
+	html[data-useragent*='Whale'] #footer .partner_box .link_partner+.link_partner:before {
+		background-color: #404040;
+	}
+	
+	html[data-useragent*='Whale'] #footer .notice_area .link_all {
+		color: #cacaca;
+	}
+	
+	html[data-useragent*='Whale'] #footer .notice_area .link_all:after {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	html[data-useragent*='Whale'] .column_fix_wrap {
+		background-color: #242424;
+	}
+	
+	html[data-useragent*='Whale'] .sc_timesquare {
+		border: 1px solid #404040;
+	}
+	
+	html[data-useragent*='Whale'] .sc_timesquare .card_stock .stock_box:before {
+		background-color: #404040;
+	}
+	
+	html[data-useragent*='Whale'] .sc_timesquare .card_stock .name {
+		color: #cacaca;
+	}
+	
+	html[data-useragent*='Whale'] .sc_timesquare .card_nav .btn_nav {
+		border: 1px solid #404040;
+	}
+	
+	html[data-useragent*='Whale'] .sc_timesquare .card_nav .btn_nav:hover {
+		background-color: #2f2f2f;
+	}
+	
+	html[data-useragent*='Whale'] .sc_timesquare .card_news .news {
+		color: #cacaca;
+	}
+	
+	html[data-useragent*='Whale'] .sc_timesquare .card_news .news_badge {
+		color: #cacaca;
+		border: 1px solid #404040;
+	}
+	
+	html[data-useragent*='Whale'] .sc_timesquare .card_air .state {
+		color: #cacaca;
+	}
+	
+	html[data-useragent*='Whale'] .sc_timesquare .card_air .air_item {
+		color: #fff;
+	}
+	
+	html[data-useragent*='Whale'] .sc_timesquare .card_air .air_item+.air_item:before {
+		background-color: #404040;
+	}
+	
+	html[data-useragent*='Whale'] #gnb .list_nav:not(.type_fix) .nav {
+		color: #cacaca;
+	}
+	
+	html[data-useragent*='Whale'] .sc_login {
+		border: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	html[data-useragent*='Whale'] .sc_login .sub_area .link_look {
+		color: #cacaca;
+	}
+	
+	html[data-useragent*='Whale'] .sc_login .ico_naver {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	html[data-useragent*='Whale'] .sc_login .link_login {
+		color: #242424;
+	}
+	
+	html[data-useragent*='Whale'] .sc_login .sub_area .link_join {
+		color: #cacaca;
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast .list_theme .desc {
+		color: #cacaca;
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast .list_theme .source {
+		color: #fff;
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast .topstory_view .topstory_info .desc {
+		color: #cacaca;
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast .theme_title .title_sub_tab .tab_item.tab_on .tab {
+		color: #242424;
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast .theme_title .title_sub_tab .tab {
+		color: #cacaca;
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast .chart_view .info_box .dsc_wrap {
+		color: #cacaca;
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast .group_topstory {
+		border-bottom: 1px solid #404040;
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast.id_movie .theme_category {
+		color: #3c5ba7;
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast .poster_view .dsc_tit {
+		color: #cacaca;
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast .topstory_view .topstory_info .source {
+		color: #fff;
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast .main_category .tab.id_law[aria-selected=true] {
+		border-color: #3c5ba7;
+		background-color: #3c5ba7;
+	}
+	
+	html[data-useragent*='Whale'] .sc_themecast.id_law .theme_category {
+		color: #3c5ba7;
+	}
+	
+	html[data-useragent*='Whale'] .sc_newscast .list_view .option_area {
+		border: solid #404040;
+		border-width: 0 1px;
+		background-color: #2f2f2f;
+	}
+	
+	html[data-useragent*='Whale'] .sc_newscast .list_view .list_option .option {
+		color: #cacaca;
+	}
+	
+	html[data-useragent*='Whale'] .sc_newscast .list_view .list_option .option_on .option {
+		color: #242424;
+	}
+	
+	html[data-useragent*='Whale'] .sc_newscast .list_view .news_area .media_box .link_media {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	html[data-useragent*='Whale'] .sc_newscast .list_view .news_area .media_box .btn_close {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	html[data-useragent*='Whale'] #footer .list_corp .corp_item+.corp_item:before {
+		background-color: #404040;
+	}
+	
+	html[data-useragent*='Whale'] .sc_newscast .list_view .list_option .option_item.option_on:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	html[data-useragent*='Whale'] #veta_time2 {
+		border-top: 1px solid #404040;
+	}
+	
+	html[data-useragent*='Whale'] .sc_newscast .ly_popup {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	html[data-useragent*='Whale'] .sc_newscast .ly_popup .popup_btn {
+		border-top: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	html[data-useragent*='Whale'] .sc_newscast .ly_popup .btn_confirm+.btn_confirm {
+		border-left: 1px solid #404040;
+	}
+	
+	html[data-useragent*='Whale'] .sc_newscast .ly_popup .popup_msg {
+		color: #fff;
+	}
+	
+	html[data-useragent*='Whale'] .api_atcmp_wrap {
+		color: #cacaca;
+	}
+	
+	html[data-useragent*='Whale'] .api_atcmp_wrap .func a {
+		color: #cacaca;
+	}
+}
+
+@-moz-document url-prefix("https://castbox.shopping.naver.com")
+{
+	html[data-useragent*='Whale'] .shop_wrap .group_pnf {
+		border-top: 1px solid #404040;
+	}
+	
+	html[data-useragent*='Whale'] .shop_wrap .shop_control .num_box .current {
+		color: #fff;
+	}
+	
+	html[data-useragent*='Whale'] .shop_wrap .shop_control .btn {
+		border: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	html[data-useragent*='Whale'] .shop_wrap .shop_control .btn:hover {
+		background-color: #2f2f2f;
+	}
+	
+	html[data-useragent*='Whale'] .shop_wrap .group_mall {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	html[data-useragent*='Whale'] .shop_wrap .shop_header .shop_tab .tab {
+		color: #cacaca;
+	}
+	
+	html[data-useragent*='Whale'] .shop_wrap .group_event {
+		border-top: 1px solid #404040;
+	}
+	
+	html[data-useragent*='Whale'] .shop_wrap .list_event .event_area {
+		color: #cacaca;
+	}
+	
+	html[data-useragent*='Whale'] .shop_wrap .group_shop {
+		border-top: 1px solid #404040;
+	}
+	
+	html[data-useragent*='Whale'] .shop_wrap .sale_area {
+		background-color: #2f2f2f;
+	}
+	
+	html[data-useragent*='Whale'] .shop_wrap .sale_area .desc {
+		color: #cacaca;
+	}
+}
+
+@-moz-document url-prefix("https://www.naver.com/my.html")
+{
+	html[data-useragent*='Whale'] .my_cont {
+		border: 1px solid #404040;
+	}
+	
+	html[data-useragent*='Whale'] .sc_user {
+		background-color: #242424;
+	}
+	
+	html[data-useragent*='Whale'] .sc_user .tab_area .tab_box {
+		border: solid #404040;
+		border-width: 1px 0;
+	}
+	
+	html[data-useragent*='Whale'] .sc_user .tab_area.tab_fold .tab_box {
+		border-bottom: 0;
+	}
+	
+	html[data-useragent*='Whale'] .sc_user .tab_area .tab+.tab {
+		border-left: 1px solid #404040;
+	}
+	
+	html[data-useragent*='Whale'] .sc_user .tab_area .badge_new {
+		color: #242424;
+	}
+	
+	html[data-useragent*='Whale'] .sc_user .info_area .user_info .link_my {
+		color: #cacaca;
+	}
+	
+	html[data-useragent*='Whale'] .sc_user .info_area .btn_logout {
+		color: #242424;
+	}
+	
+	html[data-useragent*='Whale'] .sc_user .info_area .user_info .link_my:before {
+		background-color: #404040;
+	}
+	
+	html[data-useragent*='Whale'] .sc_user .info_area .thumb_mask {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	html[data-useragent*='Whale'] .sc_user .tab_area .tab[aria-selected=true] {
+		background-color: #2f2f2f;
+	}
+	
+	html[data-useragent*='Whale'] .service_wrap {
+		background-color: #2f2f2f;
+	}
+	
+	html[data-useragent*='Whale'] .service_header .func_area .func+.func:before {
+		background-color: #404040;
+	}
+	
+	html[data-useragent*='Whale'] .service_footer {
+		border-top: 1px solid #4f4f4f;
+		background-color: #404040;
+	}
+	
+	html[data-useragent*='Whale'] .list_timeline .item_timeline+.item_timeline {
+		border-top: 1px solid #404040;
+	}
+	
+	html[data-useragent*='Whale'] .list_timeline .dsc_time:before {
+		background-color: #404040;
+	}
+	
+	html[data-useragent*='Whale'] .service_body.type_error .error_area .link_redirect {
+		color: #242424;
+	}
+	
+	html[data-useragent*='Whale'] .flex_list {
+		border: 1px solid #404040;
+	}
+	
+	html[data-useragent*='Whale'] .flex_list .item_flex+.item_flex:before, html[data-useragent*='Whale'] .list_thumb .dsc_wrap .dsc+.dsc:before {
+		background-color: #404040;
+	}
+	
+	html[data-useragent*='Whale'] .list_thumb .item_thumb+.item_thumb {
+		border-top: 1px solid #404040;
+	}
+	
+	html[data-useragent*='Whale'] .timeline_wrap:before {
+		background-color: #4f4f4f;
+	}
+	
+	html[data-useragent*='Whale'] .service_body .ban_pointplus {
+		color: #cacaca;
+		border: 1px solid black;
+		background-color: black;
+	}
+	
+	html[data-useragent*='Whale'] .service_body .ban_pointplus .ico_point {
+		filter: invert(1) hue-rotate(-180deg);
+	}
+	
+	html[data-useragent*='Whale'] .list_grid .file_box:after {
+		border: 1px solid #404040;
+	}
+	
+	html[data-useragent*='Whale'] .list_grid .info_box .title {
+		color: #cacaca;
+	}
+	
+	html[data-useragent*='Whale'] .service_footer .sub_area:before {
+		background-color: #4f4f4f;
+	}
+	
+	html[data-useragent*='Whale'] .service_body .date_area {
+		border: 1px solid #404040;
+	}
+	
+	html[data-useragent*='Whale'] .sc_user .tab_area .tab_box.type_under5 .tab {
+		border-right: 1px solid #404040;
+		border-left: none;
+	}
+	
+	html[data-useragent*='Whale'] .sc_user .info_area .user_info .new_box, html[data-useragent*='Whale'] .sc_user .info_area .user_info .new_box a:visited {
+		color: #cacaca;
+	}
+	
+	html[data-useragent*='Whale'] .sc_user .info_area .user_info .link_set {
+		color: #fff;
+	}
+	
+	html[data-useragent*='Whale'] .service_header .title_area .title_tab.tab_on {
+		color: #cacaca;
+	}
+	
+	html[data-useragent*='Whale'] .service_header .title_area .title_tab+.title_tab:before, html[data-useragent*='Whale'] .list_memo .dsc_date:before {
+		background-color: #404040;
+	}
+	
+	html[data-useragent*='Whale'] .list_memo .item_memo {
+		border: 1px solid #404040;
+	}
+	
+	html[data-useragent*='Whale'] .sc_user .set_area {
+		border: 1px solid #404040;
+		border-width: 1px 0;
+	}
+	
+	html[data-useragent*='Whale'] .sc_user .set_area .set_box {
+		border-right: 1px solid #404040;
+	}
+	
+	html[data-useragent*='Whale'] .sc_user .set_area .link_set {
+		background-color: #242424;
+	}
+	
+	html[data-useragent*='Whale'] .sc_set .list_set .label_set {
+		border: 1px solid #404040;
+	}
+	
+	html[data-useragent*='Whale'] .sc_set .list_set .ico_chk {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	html[data-useragent*='Whale'] .service_footer .set_area .btn_set+.btn_set:before {
+		background-color: #4f4f4f;
+	}
+	
+	html[data-useragent*='Whale'] .service_footer .set_area .btn_set {
+		color: #cacaca;
+	}
+}
+
+@-moz-document url-prefix("https://nv.veta.naver.com")
+{
+	.main_public_title {
+		color: #fff;
+	}
+	
+	.main_public_desc, .main_public_desc2 {
+		color: #cacaca;
+	}
+	
+	html, head, body {
+		background: transparent !important;
 	}
 }

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.32.42
+@version		1.32.43
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -2608,7 +2608,7 @@
 	 .gnb_notice_li .svc_panel, .gnb_notice_li .svc_scroll, .gnb_my_li .gnb_my_content, .gnb_linkwrp a { background: #2f2f2f } 
 	 .gnb_notice_li .svc_head, .gnb_favorite_lstwrp { border-bottom: 1px solid #404040;background: #2f2f2f } 
 	 .gnb_notice_li .gnb_notice_lyr, .gnb_my_lyr, .gnb_my_li .gnb_my_content .gnb_mask, .gnb_bg, .gnb_favorite_area, .gnb_search_area, .gnb_linkwrp, :root #gnb .gnb_pad_lyr { background: none } 
-	 a.gnb_my .gnb_name, .gnb_my_li .gnb_my_content .gnb_name, #gnb a:hover, #gnb a, #gnb, #gnb a, #gnb a:visited { color: #cacaca } 
+	 a.gnb_my .gnb_name, .gnb_my_li .gnb_my_content .gnb_name, #gnb a:hover, #gnb a, #gnb, #gnb a, #gnb a:visited, .gnb_txt { color: #cacaca } 
 	 .gnb_notice_li .svc_head .task_right, .gnb_notice_li a.gnb_notice .gnb_icon, .mail_li a.gnb_mail .gnb_icon, .gnb_service_li a.gnb_service .gnb_icon, .gnb_favorite_lst .gnb_add a span.ic_add, .gnb_search_box, #gnb.gnb_one .gnb_my_li .ico_arrow, #gnb.gnb_one .ico_arrow, .gnb_bg_top, .gnb_svc_more .gnb_svc_hd, .gnb_svc_more .gnb_svc_lstwrp, .gnb_svc_more .svc_btnwrp, .gnb_bg_btm { filter: invert(86%) hue-rotate(-180deg) } 
 	 .gnb_notice_li .svc_list li, a.gnb_service_all { border-top: 1px solid #404040 } 
 	 .gnb_ly_alert { border: 1px solid #404040;background-color: #2f2f2f } 

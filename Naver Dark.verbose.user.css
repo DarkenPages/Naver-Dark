@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.32.43
+@version		1.32.45
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -7603,8 +7603,56 @@
 		border-top: 1px solid #404040;
 	}
 	
-	.cs_general_election .broadcasting_area .bd_list_area .bd_list li .logo_box .bd_logo {
+	.cs_general_election .broadcasting_area .bd_list_area .bd_list li .logo_box .bd_logo, .cs_general_election .profile_content .profile_thumb .thumb_link .mask {
 		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_general_election .ballot_tally_area {
+		border: 1px solid #404040;
+	}
+	
+	.cs_general_election .ballot_tally_area .count_list:before {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_general_election .ballot_tally_area .thumb_box .thumb .mask {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_general_election .ballot_tally_area .rate_bar.v2, .cs_general_election .ballot_tally_area .rate_bar.v3 {
+		background-color: #242424
+	}
+	
+	.cs_general_election .ballot_tally_area .number_area .rate_bar.v2 .candidate_bar, .cs_general_election .ballot_tally_area .number_area .rate_bar.v3 .candidate_bar {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_general_election .forecast .party, .cs_general_election .forecast .rank {
+		color: #fff;
+	}
+	
+	.cs_general_election .profile_content .profile_info .poll_banner .poll_info .count {
+		color: #cacaca !important;
+	}
+	
+	.cs_general_election .profile_content .profile_info .poll_banner .update_time:before {
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_general_election .voting_station + .turnout_area {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_general_election .ballot_tally_area .top_ranker .count_list.type_half .candidate_info .party {
+		color: #cacaca;
+	}
+	
+	.cs_general_election .bar_graph .grp:after, .cs_general_election .top_ranker .rate_num {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_general_election .ballot_tally_area .item_info .party:before {
+		border-left: 1px solid #404040;
 	}
 }
 

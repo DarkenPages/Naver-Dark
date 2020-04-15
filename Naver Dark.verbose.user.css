@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.32.28
+@version		1.32.30
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 ==/UserStyle== */
@@ -28559,6 +28559,87 @@
 	
 	.candi_section .ly_guide .btn_close:after {
 		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.vote_count_banner .banner_area {
+		background: #404040;
+	}
+	
+	.vote_count_banner .banner_area img {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.vote_count_banner .banner_text:before, .vote_count_banner .banner_text .time, .vote_count_banner .banner_text:after {
+		filter: invert(78%) hue-rotate(-180deg);
+	}
+	
+	.turnout_graph .survey_type_line .survey_cont:before, .turnout_graph .bar_graph, .turnout_graph .survey_type_bar_v .survey_cont:before, .turnout_graph .bar_lst {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.turnout_data .data_info .noti {
+		color: #cacaca;
+	}
+	
+	.turnout_data .data_info .bar {
+		background-color: #404040;
+	}
+	
+	.cont_box .btn_cont_more {
+		color: #cacaca;
+	}
+	
+	.vote_state_party {
+		background: #242424;
+	}
+	
+	.vote_state_tit, .total_party_info em {
+		color: #fff;
+	}
+	
+	.total_party_info {
+		color: #cacaca;
+	}
+	
+	.vote_state_spot {
+		border-top: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.vote_state .info_text {
+		color: #cacaca;
+	}
+	
+	.vote_state .status_board.empty {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.vote_state .status_board.empty p {
+		color: #242424;
+	}
+	
+	.total_party_list .party_item:before {
+		border: 1px solid #404040;
+	}
+	
+	.total_party_list .party_item_body {
+		background: #2f2f2f;
+	}
+	
+	.total_party_list .party_item_body .party_seat_detail {
+		border-top: 1px solid #404040;
+	}
+	
+	.total_party_list .party_item_body .party_seat_detail dd {
+		color: #fff;
+	}
+	
+	.total_party_list .party_item_body .party_seat_detail dt {
+		color: #cacaca;
+	}
+	
+	.total_party_info em strong {
+		color: #a79cef;
 	}
 }
 

@@ -2,9 +2,10 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.32.30
+@version		1.32.35
 @namespace		Avis Studio
 @license		CC BY-NC-SA
+@preprocessor	default
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://www.naver.com"), url-prefix("https://my.naver.com"), url-prefix("https://ui.nboard2.naver.com"), url-prefix("https://search.naver.com"), url-prefix("https://castbox.shopping.naver.com"), url-prefix("https://section.cafe.naver.com"), url-prefix("https://talk.cafe.naver.com"), url-prefix("https://cafe.upphoto.naver.com"), url-prefix("https://cafe.naver.com/CafeMemberInfo.nhn"), url-prefix("https://section.blog.naver.com"), url-prefix("https://uploader1.nmv.naver.com"), url-prefix("https://up.cafe.naver.com"), url-prefix("https://datalab.naver.com"), url-prefix("https://www.navercorp.com"), url-prefix("https://mail.naver.com"), url-prefix("https://note.naver.com"), url-prefix("https://mashup.map.naver.com"), url-prefix("https://nid.naver.com/nidlogin.login")
@@ -1247,6 +1248,22 @@
 	
 	.area_hotkeyword .ah_election .ah_shortcut_a+.ah_shortcut_a {
 		border-left: 1px solid #404040;
+	}
+	
+	.section_election .se_party .se_party_d {
+		color: #cacaca;
+	}
+	
+	.section_election .se_info_wrap .se_sd {
+		color: #cacaca;
+	}
+	
+	.section_election .se_info_wrap .se_st {
+		color: #fff;
+	}
+	
+	.section_election .se_party .se_party_tit:before {
+		border-radius: 50%;
 	}
 }
 
@@ -28641,6 +28658,64 @@
 	.total_party_info em strong {
 		color: #a79cef;
 	}
+	
+	body.exitpoll_all .tab_area {
+		background: #242424;
+	}
+	
+	.status_board .grid_card {
+		background-color: #242424;
+	}
+	
+	.grid_head .head_title {
+		color: #fff;
+	}
+	
+	.grid_head {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.grid_cont .candi_name {
+		color: #fff;
+	}
+	
+	.grid_cont .chart_vt .bar {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.grid_cont .vs_compete, a.vote_link_comment:after, a.vote_link_comment:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	body.exitpoll_all {
+		background: #242424;
+	}
+	
+	.grid_cont .candi_party {
+		color: #cacaca;
+	}
+	
+	body.exitpoll_district .tab_area {
+		background: #242424;
+	}
+	
+	.vote_exitpoll_district {
+		background: #2f2f2f;
+		border-top: 1px solid #404040;
+	}
+	
+	.vote_exitpoll_district .floating_tab .tab_lst li a {
+		background-color: #404040;
+		color: #fff;
+	}
+	
+	.vote_exitpoll_district .floating_tab .tab_lst li a:hover {
+		color: #a79cef;
+	}
+	
+	.grid_cont .candi_thumb .thumb_mask {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
 }
 
 @-moz-document url-prefix("https://news.naver.com")
@@ -29232,6 +29307,14 @@
 	
 	html[data-useragent*='Whale'] .api_atcmp_wrap .func a {
 		color: #cacaca;
+	}
+	
+	html[data-useragent*='Whale'] .logo_area .logo_special img {
+		filter: invert(85.7%) hue-rotate(-180deg);
+	}
+	
+	html[data-useragent*='Whale'] #header {
+		background-color: #242424;
 	}
 }
 

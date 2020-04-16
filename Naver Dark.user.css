@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.33.10
+@version		1.33.11
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -772,7 +772,7 @@
 	 .c_header h2, .btn_file label .btn2, .btn_model[href] .btn2, .section_home h2, .sh_lst3 dt, .sh_lst2 dt, .captcha_member .spc_row input[type=text], .tbl_model .contxt_tit, .tbl_model .contxt_webctrl .country_code, .tbl_model .contxt_tit2, .section_secretid>.contxt, .ssi_group h3, .ssi_group2>.contxt, .tbl_sns td a, .sns_title, .connect_info li, .list_id span, #lnb_area .lnb ul li a, #footer address { color: #cacaca } 
 	 .tbl_model input[type=text], .spc_content .btn_area_btm button, .btn_model .btn4, .tbl_model select, .btn_model[href] .btn6, .help_tooltip2 p { color: #cacaca;border: 1px solid #404040;background: #242424 } 
 	 .btn_model .btn2, .sh_group, .sh_group2, .sh_group3, .sh_group4, .section_pwconfirm, .btn_model .btn3 { border: 1px solid #404040;background: #242424 } 
-	 .profile_photo .mask, .spico, .tab_viewrecord, .find_id_list li { filter: invert(86%) hue-rotate(-180deg) } 
+	 .profile_photo .mask, .spico, .tab_viewrecord, .find_id_list li, .sh_lst .pic_desc .img_frame { filter: invert(86%) hue-rotate(-180deg) } 
 	 .banner_area { border-right: 1px solid #404040;border-bottom: 1px solid #404040 } 
 	 .sh_lst2 .link_area, .spc_content [class^=spc_row], .tbl_model .contxt_webctrl .country_code_w { border: 1px solid #404040 } 
 	 .tbl_sns tbody tr:hover, .connect_list li:hover { background-color: #2c2c2c } 

@@ -2,10 +2,9 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.32.51
+@version		1.32.55
 @namespace		Avis Studio
 @license		CC BY-NC-SA
-@preprocessor	default
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://www.naver.com"), url-prefix("https://my.naver.com"), url-prefix("https://ui.nboard2.naver.com"), url-prefix("https://search.naver.com"), url-prefix("https://castbox.shopping.naver.com"), url-prefix("https://section.cafe.naver.com"), url-prefix("https://talk.cafe.naver.com"), url-prefix("https://cafe.upphoto.naver.com"), url-prefix("https://cafe.naver.com/CafeMemberInfo.nhn"), url-prefix("https://section.blog.naver.com"), url-prefix("https://uploader1.nmv.naver.com"), url-prefix("https://up.cafe.naver.com"), url-prefix("https://datalab.naver.com"), url-prefix("https://www.navercorp.com"), url-prefix("https://mail.naver.com"), url-prefix("https://note.naver.com"), url-prefix("https://mashup.map.naver.com"), url-prefix("https://nid.naver.com/nidlogin.login")
@@ -8188,7 +8187,7 @@
 	}
 	
 	.common_search .btn_search {
-		color: #cacaca;
+		color: #242424;
 		background: #019341;
 	}
 	
@@ -8430,7 +8429,7 @@
 	}
 	
 	.srch_cate .tx_depth1 a, .srch_cate .tx_depth2 a, .srch_cate .tx_depth3 a, .srch_cate .tx_depth4 a {
-		filter: invert(82.2%);
+		filter: invert(82.2%) hue-rotate(-180deg);
 	}
 	
 	.srch_rel dl dt {
@@ -8628,6 +8627,18 @@
 		border-color: #019341;
 		background-color: #019341;
 		color: #242424;
+	}
+	
+	.common_list .list_info .name {
+		color: #fff;
+	}
+	
+	.common_list .list_info .txt_area .txt {
+		color: #cacaca;
+	}
+	
+	.common_search {
+		border-top: 1px solid #404040;
 	}
 }
 
@@ -12552,7 +12563,7 @@
 	}
 	
 	.u_likeit_inline {
-		background-color: #2f2f2f;
+		background-color: #242424;
 	}
 	
 	.u_likeit_list_count {
@@ -12982,7 +12993,7 @@
 	}
 	
 	#pop_header .section_btn .btn_close, #pop_header .section_btn .btn_print, #pop_header h1 a.logo, #pop_header h1 a.service, #pop_footer a.btn_print2, #pop_footer a.btn_close2 {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 }
 
@@ -13256,6 +13267,26 @@
 	
 	.table_layout1 tr .se_cell:not(:first-child) {
 		background-color: #242424 !important;
+	}
+	
+	.wide_end .section_area .slider_list.story .desc_area {
+		border: 1px solid #404040;
+	}
+	
+	.wide_end .section_area .slider_list.story a {
+		background-color: #2f2f2f;
+	}
+	
+	.wide_end .section_area .slider_list.story .desc_area .cont {
+		color: #fff;
+	}
+	
+	.wide_end .section_area .slider_list.story .desc_area .site {
+		color: #cacaca;
+	}
+	
+	.summary_area {
+		color: #cacaca;
 	}
 }
 

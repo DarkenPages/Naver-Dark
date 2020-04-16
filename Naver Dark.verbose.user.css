@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.33.9
+@version		1.33.10
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -376,7 +376,7 @@
 		border-right: 1px solid #404040;
 	}
 	
-	.wrap, body, .area_hotkeyword .ah_tab_btn.ah_tab_on, .int {
+	body, .area_hotkeyword .ah_tab_btn.ah_tab_on, .int {
 		background: #242424;
 		color: #cacaca;
 	}
@@ -29700,6 +29700,10 @@
 
 @-moz-document regexp("https://www\\.naver\\.com/(?!NOTICE|more.html).*")
 {
+	.wrap {
+		background: #1c1c1c;
+	}
+	
 	html[data-useragent*='Whale'] #header .special_bg {
 		border-bottom: 1px solid #404040;
 		background-color: #242424;

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.33.9
+@version		1.33.10
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -17,7 +17,7 @@
 	 .area_themesetting .at_btns, .section_navbar, .section_footer, .area_themelist .at_btns { border-top: 1px solid #404040;background: #242424 } 
 	 .malllst dd .ls0, .malllst dd .ls1, .malllst dd .ls2, .malllst dd .ls3, .malllst dd .ls4, .malllst dd .ls5, .malllst dd .ls6, .malllst dd .ls7, .malllst dd .ls8, .malllst dd .ls9 { color: white;background-color: #242424 } 
 	 .men_giftlst_l { border-left: 1px solid #404040;border-bottom: 1px solid #404040 } 
-	 .area_hotkeyword .ah_tab_btn, .wrap, body, .area_hotkeyword .ah_tab_btn.ah_tab_on, .int { color: #cacaca;background: #242424 } 
+	 .area_hotkeyword .ah_tab_btn, body, .area_hotkeyword .ah_tab_btn.ah_tab_on, .int { color: #cacaca;background: #242424 } 
 	 .header, .area_catebtns .ac_btn_cate, .area_catebtns .ac_btn_next, .area_catebtns .ac_btn_prev { border-bottom: 1px solid #404040;background: #242424 } 
 	 .search .green_window, .greenbox, .api_atcmp_wrap { border: 2px solid #019341;background-color: #242424 } 
 	 .search .sch_smit { background: #019341 } 
@@ -2893,6 +2893,7 @@
 	 .u_cri+.u_cri::before { color: #404040 } 
  } 
  @-moz-document regexp("https://www\\.naver\\.com/(?!NOTICE|more.html).*") { 
+	 .wrap { background: #1c1c1c } 
 	 html[data-useragent*='Whale'] #header .special_bg { border-bottom: 1px solid #404040;background-color: #242424 } 
 	 html[data-useragent*='Whale'] #gnb { box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 1);background-color: #242424 } 
 	 html[data-useragent*='Whale'] #gnb .group_nav .btn_more, html[data-useragent*='Whale'] #gnb .group_keyword .ico_error+.keyword, html[data-useragent*='Whale'] #gnb .election_area .shortcut_a, html[data-useragent*='Whale'] .sc_newscast .group_issue .direct_area .link_direct, html[data-useragent*='Whale'] .sc_newscast .group_title .sort_area .btn_sort, html[data-useragent*='Whale'] .sc_newscast .error_view .dsc_msg, html[data-useragent*='Whale'] .sc_themecast .group_edit .edit_header .notice_msg, html[data-useragent*='Whale'] .sc_themecast .group_title .info_area .btn_set, html[data-useragent*='Whale'] .sc_themecast .theme_link .service_item .service, html[data-useragent*='Whale'] #footer .partner_box .link_partner, html[data-useragent*='Whale'] #footer .list_corp .corp_item, html[data-useragent*='Whale'] #footer .notice_area .link_all, html[data-useragent*='Whale'] .sc_timesquare .card_stock .name, html[data-useragent*='Whale'] .sc_timesquare .card_news .news, html[data-useragent*='Whale'] .sc_timesquare .card_air .state, html[data-useragent*='Whale'] #gnb .list_nav:not(.type_fix) .nav, html[data-useragent*='Whale'] .sc_login .sub_area .link_look, html[data-useragent*='Whale'] .sc_login .sub_area .link_join, html[data-useragent*='Whale'] .sc_themecast .list_theme .desc, html[data-useragent*='Whale'] .sc_themecast .topstory_view .topstory_info .desc, html[data-useragent*='Whale'] .sc_themecast .theme_title .title_sub_tab .tab, html[data-useragent*='Whale'] .sc_themecast .chart_view .info_box .dsc_wrap, html[data-useragent*='Whale'] .sc_themecast .poster_view .dsc_tit, html[data-useragent*='Whale'] .sc_newscast .list_view .list_option .option, html[data-useragent*='Whale'] .api_atcmp_wrap, html[data-useragent*='Whale'] .api_atcmp_wrap .func a { color: #cacaca } 

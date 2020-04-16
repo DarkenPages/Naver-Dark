@@ -2,10 +2,9 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.32.46
+@version		1.32.48
 @namespace		Avis Studio
 @license		CC BY-NC-SA
-@preprocessor	default
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://www.naver.com"), url-prefix("https://my.naver.com"), url-prefix("https://ui.nboard2.naver.com"), url-prefix("https://search.naver.com"), url-prefix("https://castbox.shopping.naver.com"), url-prefix("https://section.cafe.naver.com"), url-prefix("https://talk.cafe.naver.com"), url-prefix("https://cafe.upphoto.naver.com"), url-prefix("https://cafe.naver.com/CafeMemberInfo.nhn"), url-prefix("https://section.blog.naver.com"), url-prefix("https://uploader1.nmv.naver.com"), url-prefix("https://up.cafe.naver.com"), url-prefix("https://datalab.naver.com"), url-prefix("https://www.navercorp.com"), url-prefix("https://mail.naver.com"), url-prefix("https://note.naver.com"), url-prefix("https://mashup.map.naver.com"), url-prefix("https://nid.naver.com/nidlogin.login")
@@ -7661,6 +7660,18 @@
 	
 	.cs_general_election .index_area .ico_circle {
 		border-radius: 50%;
+	}
+	
+	.cs_general_election .summary_area .view_link {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_general_election .summary_area .reporting_area .search_all .standard_time + .more_view:before {
+		background: #404040;
+	}
+	
+	.cs_general_election .winner_area .local_candidate + .turnout_area {
+		border-top: 1px solid #404040;
 	}
 }
 
@@ -29135,6 +29146,10 @@
 	
 	.vote_count .floating_tab .tab_lst li a {
 		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.grid_cont .candi_vote, .grid_head .head_state .vote_done {
+		color: #fff;
 	}
 }
 

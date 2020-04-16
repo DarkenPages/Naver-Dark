@@ -2,9 +2,10 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.32.55
+@version		1.33.7
 @namespace		Avis Studio
 @license		CC BY-NC-SA
+@preprocessor	default
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://www.naver.com"), url-prefix("https://my.naver.com"), url-prefix("https://ui.nboard2.naver.com"), url-prefix("https://search.naver.com"), url-prefix("https://castbox.shopping.naver.com"), url-prefix("https://section.cafe.naver.com"), url-prefix("https://talk.cafe.naver.com"), url-prefix("https://cafe.upphoto.naver.com"), url-prefix("https://cafe.naver.com/CafeMemberInfo.nhn"), url-prefix("https://section.blog.naver.com"), url-prefix("https://uploader1.nmv.naver.com"), url-prefix("https://up.cafe.naver.com"), url-prefix("https://datalab.naver.com"), url-prefix("https://www.navercorp.com"), url-prefix("https://mail.naver.com"), url-prefix("https://note.naver.com"), url-prefix("https://mashup.map.naver.com"), url-prefix("https://nid.naver.com/nidlogin.login")
@@ -7673,6 +7674,370 @@
 	.cs_general_election .winner_area .local_candidate + .turnout_area {
 		border-top: 1px solid #404040;
 	}
+	
+	.nx_place .location_guide_area {
+		color: #cacaca;
+	}
+	
+	.nx_place .location_guide_area+.transport_area {
+		border-top: 1px solid #404040;
+	}
+	
+	.nx_place .transport_area .walk_info::before {
+		border-top: 1px dashed #404040;
+		z-index: 1;
+	}
+	
+	.nx_place .datalab_area .table_monthly_chart th {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.nx_place .datalab_area .table_monthly_chart td {
+		border-bottom: 1px solid #404040;
+		color: #cacaca;
+		background: #2f2f2f;
+	}
+	
+	.nx_place .datalab_area .table_monthly_chart tr.now td {
+		background: #3a3a3a;
+	}
+	
+	.nx_place .datalab_area .pie_chart {
+		border-left: 1px dashed #404040;
+	}
+	
+	.news .section_more .dsc_press {
+		color: #cacaca;
+	}
+	
+	#subwaystation_info .nav_subway {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	#subwaystation_info .nav_subway .nav_prev a, .s_line7 .nav_next a {
+		color: #242424;
+	}
+	
+	.cs_subway .trffic_tabw {
+		background: #242424;
+	}
+	
+	.info_section .lst_group {
+		border-right: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.map_section .map_area {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.map_section {
+		border: 1px solid #404040;
+		border-left: 1px solid #404040;
+	}
+	
+	.map_section .map_ctrl {
+		border-top: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.map_section .map_ctrl .move, .map_section .map_ctrl .view, .map_section .map_ctrl .reset, .map_section .map_ctrl .zooming {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.info_section h5 {
+		border-right: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+		background: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.info_section h6 {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+		background: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.info_section h6 em {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.info_section h6 span {
+		color: #fff;
+	}
+	
+	.info_section .lst3 dt em {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.info_section .lst3 a, .info_section h6 span a {
+		color: #7474e3;
+	}
+	
+	.find_section {
+		border: 1px solid #404040;
+		border-top: 0;
+		color: #cacaca;
+	}
+	
+	.find_section label, .find_section span strong {
+		color: #fff;
+	}
+	
+	.find_section .arrow {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.find_section .text, .find_section .find {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.content_search .pop_layer, .content_search .pop_layer01 {
+		background: #2f2f2f;
+		color: #fff;
+	}
+	
+	.cs_subway .pop_layer {
+		border: 2px solid #404040;
+	}
+	
+	.cs_subway .pop_layer .title_area {
+		background: #2f2f2f;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_subway .pop_layer .title_area dt {
+		color: #fff !important;
+	}
+	
+	.cs_subway .pop_layer .title_area .text {
+		border: 1px solid #404040;
+		background: #242424;
+		color: #cacaca;
+	}
+	
+	.cs_subway .pop_layer .title_area dd input[type=image], p.info {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_subway .pop_layer .title_area .close img, .cs_subway .pop_layer .info_area p {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_subway .pop_layer .result_area .subway_line {
+		color: #cacaca;
+	}
+	
+	dl.info3 {
+		border-top: 1px solid #404040;
+	}
+	
+	dl.info3 dt {
+		color: #fff !important;
+	}
+	
+	dl.info3 dd a {
+		color: #7474e3;
+	}
+	
+	dl.info3 dd span {
+		color: #404040 !important;
+	}
+	
+	.greenmap .search_motive ul {
+		background-color: #404040;
+	}
+	
+	.greenmap .search_motive {
+		border: 1px solid #404040;
+	}
+	
+	.find_section2 {
+		color: #cacaca;
+		border: 1px solid #404040;
+		border-top: 0;
+	}
+	
+	.find_section2 label {
+		color: #fff;
+	}
+	
+	.find_section2 .text, .find_section2 .arrow, .find_section2 .find {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.find_section2 span strong {
+		color: #fff;
+	}
+	
+	.transfer dd em {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_subway .trffic_tab_subw {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+		border-top: 0;
+	}
+	
+	.info_section2 .tb_box .tb_list th {
+		background: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.info_section2 .tb_box .tb_list thead th {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_subway .trffic_tab {
+		background: #404040;
+	}
+	
+	.cs_subway .trffic_tab li {
+		background: #242424;
+	}
+	
+	.cs_subway .trffic_tab li.select {
+		background: #2f2f2f;
+		border-bottom: 1px solid #2f2f2f;
+	}
+	
+	.cs_subway .trffic_tab li.select a {
+		background: none;
+	}
+	
+	.cs_subway .trffic_tab li:not(.select) {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_subway .trffic_tab {
+		border: 1px solid #404040;
+		border-left: 0;
+		border-bottom: 0;
+	}
+	
+	.cs_subway .trffic_tab li.select {
+		border-left: 1px solid #404040;
+	}
+	
+	/*.cs_subway .trffic_tab li.frst {*/
+	/*	border-right: 1px solid #404040;*/
+	/*}*/
+	
+	.cs_subway .trffic_tab li:not(.frst) {
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_subway .trffic_tab_sub li {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.info_section2 .scroll, .info_section3 .scroll {
+		border: 1px solid #404040;
+		border-top: 0;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.info_section2 .tb_box .tb_list .first p {
+		color: #cacaca;
+	}
+	
+	.info_section2 .tb_box .tb_list td {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.info_section2 .tb_box .tb_list .mid {
+		border-left: 1px solid #404040;
+		border-right: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.info_section2 .tb_box .tb_list .first .mid p {
+		color: #fff;
+	}
+	
+	.info_section3 h5 {
+		background: #2f2f2f;
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.info_section3 .tb_box .tb_list th {
+		background: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.info_section3 .tb_box .tb_list thead th {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.info_section3 .tb_box .tb_list.line3 {
+		border-right: 1px solid #404040;
+	}
+	
+	.info_section3 .tb_box .tb_list {
+		border-left: 1px solid #404040;
+	}
+	
+	.info_section3 .tb_box .tb_list .first_row td {
+		border-top-color: #404040;
+		border-bottom: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.info_section3 .tb_box .tb_list td {
+		border-bottom: 1px solid #404040;
+		border-left: 1px solid #404040;
+	}
+	
+	.info_section3 .tb_box .tb_list .first_row p {
+		color: #cacaca;
+	}
+	
+	.nsite .type01 dd.site_info .site_search {
+		border: 1px solid #404040;
+	}
+	
+	.nsite .type01 dd.site_info .site_search .search_txt {
+		color: #cacaca;
+		background: #242424;
+	}
+	
+	.nsite .type01 dd.site_info .site_search.insert_txt .search_txt, .dsc_ninfo {
+		color: #cacaca;
+	}
+	
+	.region dl.row dt, .region .road_sch strong {
+		color: #fff;
+	}
+	
+	.type01 .txt_block .info_txt em {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.nx_place .list_bizinfo .guide_item, .nx_place .list_bizinfo .list_item_provider .link {
+		color: #7474e3;
+	}
+	
+	.book_list img[alt='지식인의 서재 추천도서'] {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.book_list .type01 dt {
+		color: #cacaca;
+	}
+	
+	.book_list .type01 .txt_block2 a {
+		color: #7474e3;
+	}
+	
+	.txt84 {
+		color: #fff;
+	}
 }
 
 @-moz-document url-prefix("https://nid.naver.com/user2/help/")
@@ -10528,6 +10893,10 @@
 	
 	.skin-1080 .ia-info-data3 em span {
 		color: #666;
+	}
+	
+	.skin-1080 .sub_tit_profile .info_area, .alarm_switch .alarm_txt {
+		color: #242424;
 	}
 }
 

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.33.11
+@version		1.34.5
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -2894,70 +2894,71 @@
  } 
  @-moz-document regexp("https://www\\.naver\\.com/(?!NOTICE|more.html).*") { 
 	 .wrap { background: #1c1c1c } 
-	 html[data-useragent*='Whale'] #header .special_bg { border-bottom: 1px solid #404040;background-color: #242424 } 
-	 html[data-useragent*='Whale'] #gnb { box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 1);background-color: #242424 } 
-	 html[data-useragent*='Whale'] #gnb .group_nav .btn_more, html[data-useragent*='Whale'] #gnb .group_keyword .ico_error+.keyword, html[data-useragent*='Whale'] #gnb .election_area .shortcut_a, html[data-useragent*='Whale'] .sc_newscast .group_issue .direct_area .link_direct, html[data-useragent*='Whale'] .sc_newscast .group_title .sort_area .btn_sort, html[data-useragent*='Whale'] .sc_newscast .error_view .dsc_msg, html[data-useragent*='Whale'] .sc_themecast .group_edit .edit_header .notice_msg, html[data-useragent*='Whale'] .sc_themecast .group_title .info_area .btn_set, html[data-useragent*='Whale'] .sc_themecast .theme_link .service_item .service, html[data-useragent*='Whale'] #footer .partner_box .link_partner, html[data-useragent*='Whale'] #footer .list_corp .corp_item, html[data-useragent*='Whale'] #footer .notice_area .link_all, html[data-useragent*='Whale'] .sc_timesquare .card_stock .name, html[data-useragent*='Whale'] .sc_timesquare .card_news .news, html[data-useragent*='Whale'] .sc_timesquare .card_air .state, html[data-useragent*='Whale'] #gnb .list_nav:not(.type_fix) .nav, html[data-useragent*='Whale'] .sc_login .sub_area .link_look, html[data-useragent*='Whale'] .sc_login .sub_area .link_join, html[data-useragent*='Whale'] .sc_themecast .list_theme .desc, html[data-useragent*='Whale'] .sc_themecast .topstory_view .topstory_info .desc, html[data-useragent*='Whale'] .sc_themecast .theme_title .title_sub_tab .tab, html[data-useragent*='Whale'] .sc_themecast .chart_view .info_box .dsc_wrap, html[data-useragent*='Whale'] .sc_themecast .poster_view .dsc_tit, html[data-useragent*='Whale'] .sc_newscast .list_view .list_option .option, html[data-useragent*='Whale'] .api_atcmp_wrap, html[data-useragent*='Whale'] .api_atcmp_wrap .func a { color: #cacaca } 
-	 html[data-useragent*='Whale'] #gnb .group_nav .ly_btn_area, html[data-useragent*='Whale'] .theme_head.is_fixed .theme_fix_wrap, html[data-useragent*='Whale'] .column_fix_wrap, html[data-useragent*='Whale'] #header { background-color: #242424 } 
-	 html[data-useragent*='Whale'] #gnb .group_nav .ly_btn_area .btn, html[data-useragent*='Whale'] .sc_newscast .tile_view .popup_wrap .btn_popup { color: #cacaca;border: 1px solid #404040;background-color: #242424 } 
-	 html[data-useragent*='Whale'] #gnb .ly_service { box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 1);border-top: 1px solid #404040;background-color: #242424 } 
-	 html[data-useragent*='Whale'] #gnb .list_service+.list_service, html[data-useragent*='Whale'] #gnb .election_area .shortcut_a+.shortcut_a, html[data-useragent*='Whale'] .sc_themecast .list_select_tab .tab_item+.tab_item .tab, html[data-useragent*='Whale'] .sc_themecast .theme_link .list_service, html[data-useragent*='Whale'] .sc_newscast .ly_popup .btn_confirm+.btn_confirm { border-left: 1px solid #404040 } 
-	 html[data-useragent*='Whale'] #gnb .group_service, html[data-useragent*='Whale'] .sc_newscast .tile_view { border: 1px solid #404040;border-width: 0 1px } 
-	 html[data-useragent*='Whale'] #gnb .list_service .service_title, html[data-useragent*='Whale'] #gnb .list_nav, html[data-useragent*='Whale'] #gnb .ly_realtime .title_area .title, html[data-useragent*='Whale'] .sc_newscast .group_title .link_newsstand, html[data-useragent*='Whale'] .sc_newscast .group_title .sort_area .btn_sort.sort_on, html[data-useragent*='Whale'] .sc_newscast .error_view .error_msg, html[data-useragent*='Whale'] .sc_themecast .group_title .title_area .title, html[data-useragent*='Whale'] .sc_themecast .group_title .info_area .new, html[data-useragent*='Whale'] .sc_themecast .list_select_tab .tab, html[data-useragent*='Whale'] .sc_themecast .media_view .source, html[data-useragent*='Whale'] .sc_themecast .chart_view .chart_rank .rank, html[data-useragent*='Whale'] .sc_timesquare .card_air .air_item, html[data-useragent*='Whale'] .sc_themecast .list_theme .source, html[data-useragent*='Whale'] .sc_themecast .topstory_view .topstory_info .source, html[data-useragent*='Whale'] .sc_newscast .ly_popup .popup_msg { color: #fff } 
-	 html[data-useragent*='Whale'] #gnb .list_nav.type_empty .empty_box, html[data-useragent*='Whale'] .sc_login { border: 1px solid #404040;background-color: #242424 } 
-	 html[data-useragent*='Whale'] #gnb .list_service .ico_chk, html[data-useragent*='Whale'] #header .search_area .btn_submit .ico_search_submit, html[data-useragent*='Whale'] .sc_newscast .tile_view .thumb img, html[data-useragent*='Whale'] .sc_themecast .list_edit .ico_chk, html[data-useragent*='Whale'] .sc_themecast .group_edit .ico_set, html[data-useragent*='Whale'] .sc_themecast .group_edit .ico_close, html[data-useragent*='Whale'] .sc_themecast .chart_view_wrap.type_music .chart_link .link_lyrics:before, html[data-useragent*='Whale'] #footer .notice_area .link_all:after, html[data-useragent*='Whale'] .sc_login .ico_naver, html[data-useragent*='Whale'] .sc_newscast .list_view .news_area .media_box .link_media, html[data-useragent*='Whale'] .sc_newscast .list_view .news_area .media_box .btn_close, html[data-useragent*='Whale'] .sc_newscast .list_view .list_option .option_item.option_on:before { filter: invert(86%) hue-rotate(-180deg) } 
-	 html[data-useragent*='Whale'] #gnb .ly_realtime { box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 1);background-color: #242424 } 
-	 html[data-useragent*='Whale'] #gnb .ly_realtime .title_area, html[data-useragent*='Whale'] .sc_themecast .btn_more_wrap, html[data-useragent*='Whale'] .sc_themecast .group_topstory { border-bottom: 1px solid #404040 } 
-	 html[data-useragent*='Whale'] #gnb .election_area .election_shortcut, html[data-useragent*='Whale'] .sc_newscast .group_issue, html[data-useragent*='Whale'] .sc_themecast .theme_link, html[data-useragent*='Whale'] .sc_newscast .ly_popup { border: 1px solid #404040;background-color: #2f2f2f } 
-	 html[data-useragent*='Whale'] input { color: #cacaca;border: 1px solid #404040;background: #242424 } 
-	 html[data-useragent*='Whale'] #header .search_area .input_text, html[data-useragent*='Whale'] .service { border: none } 
-	 html[data-useragent*='Whale'] .sc_newscast .tile_view .popup_wrap, html[data-useragent*='Whale'] .sc_themecast .list_select_tab, html[data-useragent*='Whale'] .sc_themecast.id_enter .topstory_view.type_star, html[data-useragent*='Whale'] .sc_themecast.id_enter .topstory_writer, html[data-useragent*='Whale'] .sc_timesquare .card_nav .btn_nav:hover { background-color: #2f2f2f } 
-	 html[data-useragent*='Whale'] .sc_newscast .group_news { border: 1px solid #404040;border-width: 1px 0 } 
-	 html[data-useragent*='Whale'] .sc_newscast .tile_view .frame_area .line, html[data-useragent*='Whale'] .sc_themecast .group_title .info_area .btn_set:after, html[data-useragent*='Whale'] .sc_themecast .group_edit .btn_func+.btn_func:before, html[data-useragent*='Whale'] #footer .partner_box .link_partner+.link_partner:before, html[data-useragent*='Whale'] .sc_timesquare .card_stock .stock_box:before, html[data-useragent*='Whale'] .sc_timesquare .card_air .air_item+.air_item:before, html[data-useragent*='Whale'] #footer .list_corp .corp_item+.corp_item:before { background-color: #404040 } 
-	 html[data-useragent*='Whale'] .sc_newscast .tile_view .popup_wrap .btn_popup:hover { border-color: #4f4f4f } 
-	 html[data-useragent*='Whale'] .sc_newscast .error_view .link_redirect, html[data-useragent*='Whale'] .sc_themecast .group_edit .btn_set, html[data-useragent*='Whale'] .sc_themecast .main_category .tab[aria-selected=true], html[data-useragent*='Whale'] .sc_themecast .main_category .tab.id_movie[aria-selected=true]:hover, html[data-useragent*='Whale'] .sc_login .link_login, html[data-useragent*='Whale'] .sc_themecast .theme_title .title_sub_tab .tab_item.tab_on .tab, html[data-useragent*='Whale'] .sc_newscast .list_view .list_option .option_on .option { color: #242424 } 
-	 html[data-useragent*='Whale'] .sc_themecast .group_edit, html[data-useragent*='Whale'] .sc_themecast .list_edit .edit_item, html[data-useragent*='Whale'] .sc_timesquare, html[data-useragent*='Whale'] .sc_timesquare .card_nav .btn_nav { border: 1px solid #404040 } 
-	 html[data-useragent*='Whale'] .sc_themecast .group_edit .edit_header, html[data-useragent*='Whale'] .sc_themecast .group_theme+.group_theme, html[data-useragent*='Whale'] .sc_themecast .chart_view .chart_area+.chart_area, html[data-useragent*='Whale'] #footer .notice_area, html[data-useragent*='Whale'] #footer .aside_area, html[data-useragent*='Whale'] #footer .corp_area, html[data-useragent*='Whale'] #veta_time2 { border-top: 1px solid #404040 } 
-	 html[data-useragent*='Whale'] .sc_themecast .group_edit .edit_footer, html[data-useragent*='Whale'] #footer, html[data-useragent*='Whale'] .sc_newscast .ly_popup .popup_btn { border-top: 1px solid #404040;background-color: #2f2f2f } 
-	 html[data-useragent*='Whale'] .sc_themecast .main_category .tab { color: #cacaca;border: 1px solid #404040;border-width: 0 1px } 
-	 html[data-useragent*='Whale'] .sc_themecast .main_category .tab.id_movie:hover { color: #2650b9 } 
-	 html[data-useragent*='Whale'] .sc_themecast .main_category .tab.id_movie[aria-selected=true] { border: 1px solid #2650b9;background-color: #2650b9 } 
-	 html[data-useragent*='Whale'] .sc_themecast .main_category:before { z-index: 1;border: 1px solid #404040 } 
-	 html[data-useragent*='Whale'] .sc_themecast .topstory_view.type_star .badge_vlive { filter: invert(100%) hue-rotate(-180deg) } 
-	 html[data-useragent*='Whale'] #footer ul li { filter: none } 
-	 html[data-useragent*='Whale'] .sc_timesquare .card_news .news_badge { color: #cacaca;border: 1px solid #404040 } 
-	 html[data-useragent*='Whale'] .sc_themecast.id_movie .theme_category, html[data-useragent*='Whale'] .sc_themecast.id_law .theme_category { color: #3c5ba7 } 
-	 html[data-useragent*='Whale'] .sc_themecast .main_category .tab.id_law[aria-selected=true] { border-color: #3c5ba7;background-color: #3c5ba7 } 
-	 html[data-useragent*='Whale'] .sc_newscast .list_view .option_area { border: solid #404040;border-width: 0 1px;background-color: #2f2f2f } 
-	 html[data-useragent*='Whale'] .logo_area .logo_special img { filter: invert(85.7%) hue-rotate(-180deg) } 
+	 #header .special_bg { border-bottom: 1px solid #404040;background-color: #242424 } 
+	 #gnb, #header.ani_fixed .special_bg { box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 1);background-color: #242424 } 
+	 #gnb .group_nav .btn_more, #gnb .group_keyword .ico_error+.keyword, #gnb .election_area .shortcut_a, .sc_newscast .group_issue .direct_area .link_direct, .sc_newscast .group_title .sort_area .btn_sort, .sc_newscast .error_view .dsc_msg, .sc_themecast .group_edit .edit_header .notice_msg, .sc_themecast .group_title .info_area .btn_set, .sc_themecast .theme_link .service_item .service, #footer .partner_box .link_partner, #footer .list_corp .corp_item, #footer .notice_area .link_all, .sc_timesquare .card_stock .name, .sc_timesquare .card_news .news, .sc_timesquare .card_air .state, #gnb .list_nav:not(.type_fix) .nav, .sc_login .sub_area .link_look, .sc_login .sub_area .link_join, .sc_themecast .list_theme .desc, .sc_themecast .topstory_view .topstory_info .desc, .sc_themecast .theme_title .title_sub_tab .tab, .sc_themecast .chart_view .info_box .dsc_wrap, .sc_themecast .poster_view .dsc_tit, .sc_newscast .list_view .list_option .option, .api_atcmp_wrap, .api_atcmp_wrap .func a { color: #cacaca } 
+	 #gnb .group_nav .ly_btn_area, .theme_head.is_fixed .theme_fix_wrap, .column_fix_wrap, #header { background-color: #242424 } 
+	 #gnb .group_nav .ly_btn_area .btn, .sc_newscast .tile_view .popup_wrap .btn_popup { color: #cacaca;border: 1px solid #404040;background-color: #242424 } 
+	 #gnb .ly_service { box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 1);border-top: 1px solid #404040;background-color: #242424 } 
+	 #gnb .list_service+.list_service, #gnb .election_area .shortcut_a+.shortcut_a, .sc_themecast .list_select_tab .tab_item+.tab_item .tab, .sc_themecast .theme_link .list_service, .sc_newscast .ly_popup .btn_confirm+.btn_confirm { border-left: 1px solid #404040 } 
+	 #gnb .group_service, .sc_newscast .tile_view { border: 1px solid #404040;border-width: 0 1px } 
+	 #gnb .list_service .service_title, #gnb .list_nav, #gnb .ly_realtime .title_area .title, .sc_newscast .group_title .link_newsstand, .sc_newscast .group_title .sort_area .btn_sort.sort_on, .sc_newscast .error_view .error_msg, .sc_themecast .group_title .title_area .title, .sc_themecast .group_title .info_area .new, .sc_themecast .list_select_tab .tab, .sc_themecast .media_view .source, .sc_themecast .chart_view .chart_rank .rank, .sc_timesquare .card_air .air_item, .sc_themecast .list_theme .source, .sc_themecast .topstory_view .topstory_info .source, .sc_newscast .ly_popup .popup_msg, .return_area .btn_return, .banner_top .link_detail, .banner_top .link_detail:visited, .banner_top .link_detail:link { color: #fff } 
+	 #gnb .list_nav.type_empty .empty_box, .sc_login { border: 1px solid #404040;background-color: #242424 } 
+	 #gnb .list_service .ico_chk, #header .search_area .btn_submit .ico_search_submit, .sc_newscast .tile_view .thumb img, .sc_themecast .list_edit .ico_chk, .sc_themecast .group_edit .ico_set, .sc_themecast .group_edit .ico_close, .sc_themecast .chart_view_wrap.type_music .chart_link .link_lyrics:before, #footer .notice_area .link_all:after, .sc_login .ico_naver, .sc_newscast .list_view .news_area .media_box .link_media, .sc_newscast .list_view .news_area .media_box .btn_close, .sc_newscast .list_view .list_option .option_item.option_on:before { filter: invert(86%) hue-rotate(-180deg) } 
+	 #gnb .ly_realtime { box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 1);background-color: #242424 } 
+	 #gnb .ly_realtime .title_area, .sc_themecast .btn_more_wrap, .sc_themecast .group_topstory { border-bottom: 1px solid #404040 } 
+	 #gnb .election_area .election_shortcut, .sc_newscast .group_issue, .sc_themecast .theme_link, .sc_newscast .ly_popup { border: 1px solid #404040;background-color: #2f2f2f } 
+	 input { color: #cacaca;border: 1px solid #404040;background: #242424 } 
+	 #header .search_area .input_text, .service { border: none } 
+	 .sc_newscast .tile_view .popup_wrap, .sc_themecast .list_select_tab, .sc_themecast.id_enter .topstory_view.type_star, .sc_themecast.id_enter .topstory_writer, .sc_timesquare .card_nav .btn_nav:hover { background-color: #2f2f2f } 
+	 .sc_newscast .group_news { border: 1px solid #404040;border-width: 1px 0 } 
+	 .sc_newscast .tile_view .frame_area .line, .sc_themecast .group_title .info_area .btn_set:after, .sc_themecast .group_edit .btn_func+.btn_func:before, #footer .partner_box .link_partner+.link_partner:before, .sc_timesquare .card_stock .stock_box:before, .sc_timesquare .card_air .air_item+.air_item:before, #footer .list_corp .corp_item+.corp_item:before { background-color: #404040 } 
+	 .sc_newscast .tile_view .popup_wrap .btn_popup:hover { border-color: #4f4f4f } 
+	 .sc_newscast .error_view .link_redirect, .sc_themecast .group_edit .btn_set, .sc_themecast .main_category .tab[aria-selected=true], .sc_themecast .main_category .tab.id_movie[aria-selected=true]:hover, .sc_login .link_login, .sc_themecast .theme_title .title_sub_tab .tab_item.tab_on .tab, .sc_newscast .list_view .list_option .option_on .option { color: #242424 } 
+	 .sc_themecast .group_edit, .sc_themecast .list_edit .edit_item, .sc_timesquare, .sc_timesquare .card_nav .btn_nav { border: 1px solid #404040 } 
+	 .sc_themecast .group_edit .edit_header, .sc_themecast .group_theme+.group_theme, .sc_themecast .chart_view .chart_area+.chart_area, #footer .notice_area, #footer .aside_area, #footer .corp_area, #veta_time2 { border-top: 1px solid #404040 } 
+	 .sc_themecast .group_edit .edit_footer, #footer, .sc_newscast .ly_popup .popup_btn { border-top: 1px solid #404040;background-color: #2f2f2f } 
+	 .sc_themecast .main_category .tab { color: #cacaca;border: 1px solid #404040;border-width: 0 1px } 
+	 .sc_themecast .main_category .tab.id_movie:hover { color: #2650b9 } 
+	 .sc_themecast .main_category .tab.id_movie[aria-selected=true] { border: 1px solid #2650b9;background-color: #2650b9 } 
+	 .sc_themecast .main_category:before { z-index: 1;border: 1px solid #404040 } 
+	 .sc_themecast .topstory_view.type_star .badge_vlive { filter: invert(100%) hue-rotate(-180deg) } 
+	 #footer ul li { filter: none } 
+	 .sc_timesquare .card_news .news_badge { color: #cacaca;border: 1px solid #404040 } 
+	 .sc_themecast.id_movie .theme_category, .sc_themecast.id_law .theme_category { color: #3c5ba7 } 
+	 .sc_themecast .main_category .tab.id_law[aria-selected=true] { border-color: #3c5ba7;background-color: #3c5ba7 } 
+	 .sc_newscast .list_view .option_area { border: solid #404040;border-width: 0 1px;background-color: #2f2f2f } 
+	 .logo_area .logo_special img { filter: invert(85.7%) hue-rotate(-180deg) } 
+	 .return_area { border-top: 1px solid #4f4f4f;background-color: #404040 } 
  } 
  @-moz-document url-prefix("https://castbox.shopping.naver.com") { 
-	 html[data-useragent*='Whale'] .shop_wrap .group_pnf, html[data-useragent*='Whale'] .shop_wrap .group_event, html[data-useragent*='Whale'] .shop_wrap .group_shop { border-top: 1px solid #404040 } 
-	 html[data-useragent*='Whale'] .shop_wrap .shop_control .num_box .current { color: #fff } 
-	 html[data-useragent*='Whale'] .shop_wrap .shop_control .btn { border: 1px solid #404040;background-color: #242424 } 
-	 html[data-useragent*='Whale'] .shop_wrap .shop_control .btn:hover, html[data-useragent*='Whale'] .shop_wrap .sale_area { background-color: #2f2f2f } 
-	 html[data-useragent*='Whale'] .shop_wrap .group_mall { border: 1px solid #404040;background-color: #2f2f2f } 
-	 html[data-useragent*='Whale'] .shop_wrap .shop_header .shop_tab .tab, html[data-useragent*='Whale'] .shop_wrap .list_event .event_area, html[data-useragent*='Whale'] .shop_wrap .sale_area .desc { color: #cacaca } 
+	 .shop_wrap .group_pnf, .shop_wrap .group_event, .shop_wrap .group_shop { border-top: 1px solid #404040 } 
+	 .shop_wrap .shop_control .num_box .current { color: #fff } 
+	 .shop_wrap .shop_control .btn { border: 1px solid #404040;background-color: #242424 } 
+	 .shop_wrap .shop_control .btn:hover, .shop_wrap .sale_area { background-color: #2f2f2f } 
+	 .shop_wrap .group_mall { border: 1px solid #404040;background-color: #2f2f2f } 
+	 .shop_wrap .shop_header .shop_tab .tab, .shop_wrap .list_event .event_area, .shop_wrap .sale_area .desc { color: #cacaca } 
  } 
  @-moz-document url-prefix("https://www.naver.com/my.html") { 
-	 html[data-useragent*='Whale'] .my_cont, html[data-useragent*='Whale'] .flex_list, html[data-useragent*='Whale'] .list_grid .file_box:after, html[data-useragent*='Whale'] .service_body .date_area, html[data-useragent*='Whale'] .list_memo .item_memo, html[data-useragent*='Whale'] .sc_set .list_set .label_set { border: 1px solid #404040 } 
-	 html[data-useragent*='Whale'] .sc_user, html[data-useragent*='Whale'] .sc_user .set_area .link_set { background-color: #242424 } 
-	 html[data-useragent*='Whale'] .sc_user .tab_area .tab_box { border: solid #404040;border-width: 1px 0 } 
-	 html[data-useragent*='Whale'] .sc_user .tab_area.tab_fold .tab_box { border-bottom: 0 } 
-	 html[data-useragent*='Whale'] .sc_user .tab_area .tab+.tab { border-left: 1px solid #404040 } 
-	 html[data-useragent*='Whale'] .sc_user .tab_area .badge_new, html[data-useragent*='Whale'] .sc_user .info_area .btn_logout, html[data-useragent*='Whale'] .service_body.type_error .error_area .link_redirect { color: #242424 } 
-	 html[data-useragent*='Whale'] .sc_user .info_area .user_info .link_my, html[data-useragent*='Whale'] .list_grid .info_box .title, html[data-useragent*='Whale'] .sc_user .info_area .user_info .new_box, html[data-useragent*='Whale'] .sc_user .info_area .user_info .new_box a:visited, html[data-useragent*='Whale'] .service_header .title_area .title_tab.tab_on, html[data-useragent*='Whale'] .service_footer .set_area .btn_set { color: #cacaca } 
-	 html[data-useragent*='Whale'] .sc_user .info_area .user_info .link_my:before, html[data-useragent*='Whale'] .service_header .func_area .func+.func:before, html[data-useragent*='Whale'] .list_timeline .dsc_time:before, html[data-useragent*='Whale'] .flex_list .item_flex+.item_flex:before, html[data-useragent*='Whale'] .list_thumb .dsc_wrap .dsc+.dsc:before, html[data-useragent*='Whale'] .service_header .title_area .title_tab+.title_tab:before, html[data-useragent*='Whale'] .list_memo .dsc_date:before { background-color: #404040 } 
-	 html[data-useragent*='Whale'] .sc_user .info_area .thumb_mask, html[data-useragent*='Whale'] .sc_set .list_set .ico_chk { filter: invert(86%) hue-rotate(-180deg) } 
-	 html[data-useragent*='Whale'] .sc_user .tab_area .tab[aria-selected=true], html[data-useragent*='Whale'] .service_wrap { background-color: #2f2f2f } 
-	 html[data-useragent*='Whale'] .service_footer { border-top: 1px solid #4f4f4f;background-color: #404040 } 
-	 html[data-useragent*='Whale'] .list_timeline .item_timeline+.item_timeline, html[data-useragent*='Whale'] .list_thumb .item_thumb+.item_thumb { border-top: 1px solid #404040 } 
-	 html[data-useragent*='Whale'] .timeline_wrap:before, html[data-useragent*='Whale'] .service_footer .sub_area:before, html[data-useragent*='Whale'] .service_footer .set_area .btn_set+.btn_set:before { background-color: #4f4f4f } 
-	 html[data-useragent*='Whale'] .service_body .ban_pointplus { color: #cacaca;border: 1px solid black;background-color: black } 
-	 html[data-useragent*='Whale'] .service_body .ban_pointplus .ico_point { filter: invert(1) hue-rotate(-180deg) } 
-	 html[data-useragent*='Whale'] .sc_user .tab_area .tab_box.type_under5 .tab { border-right: 1px solid #404040;border-left: none } 
-	 html[data-useragent*='Whale'] .sc_user .info_area .user_info .link_set { color: #fff } 
-	 html[data-useragent*='Whale'] .sc_user .set_area { border: 1px solid #404040;border-width: 1px 0 } 
-	 html[data-useragent*='Whale'] .sc_user .set_area .set_box { border-right: 1px solid #404040 } 
+	 .my_cont, .flex_list, .list_grid .file_box:after, .service_body .date_area, .list_memo .item_memo, .sc_set .list_set .label_set { border: 1px solid #404040 } 
+	 .sc_user, .sc_user .set_area .link_set { background-color: #242424 } 
+	 .sc_user .tab_area .tab_box { border: solid #404040;border-width: 1px 0 } 
+	 .sc_user .tab_area.tab_fold .tab_box { border-bottom: 0 } 
+	 .sc_user .tab_area .tab+.tab { border-left: 1px solid #404040 } 
+	 .sc_user .tab_area .badge_new, .sc_user .info_area .btn_logout, .service_body.type_error .error_area .link_redirect { color: #242424 } 
+	 .sc_user .info_area .user_info .link_my, .list_grid .info_box .title, .sc_user .info_area .user_info .new_box, .sc_user .info_area .user_info .new_box a:visited, .service_header .title_area .title_tab.tab_on, .service_footer .set_area .btn_set { color: #cacaca } 
+	 .sc_user .info_area .user_info .link_my:before, .service_header .func_area .func+.func:before, .list_timeline .dsc_time:before, .flex_list .item_flex+.item_flex:before, .list_thumb .dsc_wrap .dsc+.dsc:before, .service_header .title_area .title_tab+.title_tab:before, .list_memo .dsc_date:before { background-color: #404040 } 
+	 .sc_user .info_area .thumb_mask, .sc_set .list_set .ico_chk { filter: invert(86%) hue-rotate(-180deg) } 
+	 .sc_user .tab_area .tab[aria-selected=true], .service_wrap { background-color: #2f2f2f } 
+	 .service_footer { border-top: 1px solid #4f4f4f;background-color: #404040 } 
+	 .list_timeline .item_timeline+.item_timeline, .list_thumb .item_thumb+.item_thumb { border-top: 1px solid #404040 } 
+	 .timeline_wrap:before, .service_footer .sub_area:before, .service_footer .set_area .btn_set+.btn_set:before { background-color: #4f4f4f } 
+	 .service_body .ban_pointplus { color: #cacaca;border: 1px solid black;background-color: black } 
+	 .service_body .ban_pointplus .ico_point { filter: invert(1) hue-rotate(-180deg) } 
+	 .sc_user .tab_area .tab_box.type_under5 .tab { border-right: 1px solid #404040;border-left: none } 
+	 .sc_user .info_area .user_info .link_set { color: #fff } 
+	 .sc_user .set_area { border: 1px solid #404040;border-width: 1px 0 } 
+	 .sc_user .set_area .set_box { border-right: 1px solid #404040 } 
  } 
  @-moz-document url-prefix("https://nv.veta.naver.com") { 
 	 .main_public_title { color: #fff } 

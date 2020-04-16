@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.34.5
+@version		1.34.12
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -1448,7 +1448,7 @@
 	 .section_serch_area .date_indo, .sel_indo .select .select_list, .layer_area, .section_serch_area .time_indo, .insite_inquiry, .layer_popup_progress_inner, .layer_popup_noti_inner { border: 1px solid #404040;background-color: #242424 } 
 	 .section_local .map_select .filter_area+.filter_area, .section_trend .filter_area:first-child .filter_option, .local_search_box .box1 .inner+.inner { border-left: 1px solid #404040 } 
 	 .com_btn_srch:before, .opendata_result .result_sort_area .sort_sub_title .title+.title:before { filter: invert(100%) } 
-	 .form_float+.form_float:before, .horizontal_list .list_group li:first-child:before, .horizontal_list .list_group li:before, .section_local_status .status_keyword_desc .card_agency dt:after, .selection_box + .selection_box .box_wrap:before, .filter_item .item_graph_wrap, .ranking_box:before { background-color: #404040 } 
+	 .form_float+.form_float:before, .horizontal_list .list_group li:first-child:before, .horizontal_list .list_group li:before, .section_local_status .status_keyword_desc .card_agency dt:after, .selection_box + .selection_box .box_wrap:before, .filter_item .item_graph_wrap, .ranking_box:before, .ranking_box .list_group:before { background-color: #404040 } 
 	 .statistics_top_area .info_box, .local_search_box .select .select_btn { border-color: #404040;background-color: #242424 } 
 	 .local_search_box .box1 .inner, .local_search_box .select .select_btn.active { background-color: #2c2c2c } 
 	 .local_search_box .box2 .select .select_btn, .local_search_box .select .select_btn.active+.select_list { border-color: #404040 } 
@@ -2896,15 +2896,15 @@
 	 .wrap { background: #1c1c1c } 
 	 #header .special_bg { border-bottom: 1px solid #404040;background-color: #242424 } 
 	 #gnb, #header.ani_fixed .special_bg { box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 1);background-color: #242424 } 
-	 #gnb .group_nav .btn_more, #gnb .group_keyword .ico_error+.keyword, #gnb .election_area .shortcut_a, .sc_newscast .group_issue .direct_area .link_direct, .sc_newscast .group_title .sort_area .btn_sort, .sc_newscast .error_view .dsc_msg, .sc_themecast .group_edit .edit_header .notice_msg, .sc_themecast .group_title .info_area .btn_set, .sc_themecast .theme_link .service_item .service, #footer .partner_box .link_partner, #footer .list_corp .corp_item, #footer .notice_area .link_all, .sc_timesquare .card_stock .name, .sc_timesquare .card_news .news, .sc_timesquare .card_air .state, #gnb .list_nav:not(.type_fix) .nav, .sc_login .sub_area .link_look, .sc_login .sub_area .link_join, .sc_themecast .list_theme .desc, .sc_themecast .topstory_view .topstory_info .desc, .sc_themecast .theme_title .title_sub_tab .tab, .sc_themecast .chart_view .info_box .dsc_wrap, .sc_themecast .poster_view .dsc_tit, .sc_newscast .list_view .list_option .option, .api_atcmp_wrap, .api_atcmp_wrap .func a { color: #cacaca } 
+	 #gnb .group_nav .btn_more, #gnb .group_keyword .ico_error+.keyword, #gnb .election_area .shortcut_a, .sc_newscast .group_issue .direct_area .link_direct, .sc_newscast .group_title .sort_area .btn_sort, .sc_newscast .error_view .dsc_msg, .sc_themecast .group_edit .edit_header .notice_msg, .sc_themecast .group_title .info_area .btn_set, .sc_themecast .theme_link .service_item .service, #footer .partner_box .link_partner, #footer .list_corp .corp_item, #footer .notice_area .link_all, .sc_timesquare .card_stock .name, .sc_timesquare .card_news .news, .sc_timesquare .card_air .state, #gnb .list_nav:not(.type_fix) .nav, .sc_login .sub_area .link_look, .sc_login .sub_area .link_join, .sc_themecast .list_theme .desc, .sc_themecast .topstory_view .topstory_info .desc, .sc_themecast .theme_title .title_sub_tab .tab, .sc_themecast .chart_view .info_box .dsc_wrap, .sc_themecast .poster_view .dsc_tit, .sc_newscast .list_view .list_option .option, .api_atcmp_wrap, .api_atcmp_wrap .func a, #gnb .set_area .set_msg, #gnb .list_realtime .rank, #gnb .ly_realtime .ly_help .help_message, #gnb .group_keyword .keyword { color: #cacaca } 
 	 #gnb .group_nav .ly_btn_area, .theme_head.is_fixed .theme_fix_wrap, .column_fix_wrap, #header { background-color: #242424 } 
 	 #gnb .group_nav .ly_btn_area .btn, .sc_newscast .tile_view .popup_wrap .btn_popup { color: #cacaca;border: 1px solid #404040;background-color: #242424 } 
 	 #gnb .ly_service { box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 1);border-top: 1px solid #404040;background-color: #242424 } 
 	 #gnb .list_service+.list_service, #gnb .election_area .shortcut_a+.shortcut_a, .sc_themecast .list_select_tab .tab_item+.tab_item .tab, .sc_themecast .theme_link .list_service, .sc_newscast .ly_popup .btn_confirm+.btn_confirm { border-left: 1px solid #404040 } 
 	 #gnb .group_service, .sc_newscast .tile_view { border: 1px solid #404040;border-width: 0 1px } 
-	 #gnb .list_service .service_title, #gnb .list_nav, #gnb .ly_realtime .title_area .title, .sc_newscast .group_title .link_newsstand, .sc_newscast .group_title .sort_area .btn_sort.sort_on, .sc_newscast .error_view .error_msg, .sc_themecast .group_title .title_area .title, .sc_themecast .group_title .info_area .new, .sc_themecast .list_select_tab .tab, .sc_themecast .media_view .source, .sc_themecast .chart_view .chart_rank .rank, .sc_timesquare .card_air .air_item, .sc_themecast .list_theme .source, .sc_themecast .topstory_view .topstory_info .source, .sc_newscast .ly_popup .popup_msg, .return_area .btn_return, .banner_top .link_detail, .banner_top .link_detail:visited, .banner_top .link_detail:link { color: #fff } 
-	 #gnb .list_nav.type_empty .empty_box, .sc_login { border: 1px solid #404040;background-color: #242424 } 
-	 #gnb .list_service .ico_chk, #header .search_area .btn_submit .ico_search_submit, .sc_newscast .tile_view .thumb img, .sc_themecast .list_edit .ico_chk, .sc_themecast .group_edit .ico_set, .sc_themecast .group_edit .ico_close, .sc_themecast .chart_view_wrap.type_music .chart_link .link_lyrics:before, #footer .notice_area .link_all:after, .sc_login .ico_naver, .sc_newscast .list_view .news_area .media_box .link_media, .sc_newscast .list_view .news_area .media_box .btn_close, .sc_newscast .list_view .list_option .option_item.option_on:before { filter: invert(86%) hue-rotate(-180deg) } 
+	 #gnb .list_service .service_title, #gnb .list_nav, #gnb .ly_realtime .title_area .title, .sc_newscast .group_title .link_newsstand, .sc_newscast .group_title .sort_area .btn_sort.sort_on, .sc_newscast .error_view .error_msg, .sc_themecast .group_title .title_area .title, .sc_themecast .group_title .info_area .new, .sc_themecast .list_select_tab .tab, .sc_themecast .media_view .source, .sc_themecast .chart_view .chart_rank .rank, .sc_timesquare .card_air .air_item, .sc_themecast .list_theme .source, .sc_themecast .topstory_view .topstory_info .source, .sc_newscast .ly_popup .popup_msg, .return_area .btn_return, .banner_top .link_detail, .banner_top .link_detail:visited, .banner_top .link_detail:link, #gnb .set_area .set_title, #gnb .ly_realtime .realtime_area .tab[aria-selected=true] { color: #fff } 
+	 #gnb .list_nav.type_empty .empty_box, .sc_login, #gnb .ly_realtime .ly_help { border: 1px solid #404040;background-color: #242424 } 
+	 #gnb .list_service .ico_chk, #header .search_area .btn_submit .ico_search_submit, .sc_newscast .tile_view .thumb img, .sc_themecast .list_edit .ico_chk, .sc_themecast .group_edit .ico_set, .sc_themecast .group_edit .ico_close, .sc_themecast .chart_view_wrap.type_music .chart_link .link_lyrics:before, #footer .notice_area .link_all:after, .sc_login .ico_naver, .sc_newscast .list_view .news_area .media_box .link_media, .sc_newscast .list_view .news_area .media_box .btn_close, .sc_newscast .list_view .list_option .option_item.option_on:before, #gnb .ly_realtime .info_area .link_datalab { filter: invert(86%) hue-rotate(-180deg) } 
 	 #gnb .ly_realtime { box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 1);background-color: #242424 } 
 	 #gnb .ly_realtime .title_area, .sc_themecast .btn_more_wrap, .sc_themecast .group_topstory { border-bottom: 1px solid #404040 } 
 	 #gnb .election_area .election_shortcut, .sc_newscast .group_issue, .sc_themecast .theme_link, .sc_newscast .ly_popup { border: 1px solid #404040;background-color: #2f2f2f } 
@@ -2912,11 +2912,11 @@
 	 #header .search_area .input_text, .service { border: none } 
 	 .sc_newscast .tile_view .popup_wrap, .sc_themecast .list_select_tab, .sc_themecast.id_enter .topstory_view.type_star, .sc_themecast.id_enter .topstory_writer, .sc_timesquare .card_nav .btn_nav:hover { background-color: #2f2f2f } 
 	 .sc_newscast .group_news { border: 1px solid #404040;border-width: 1px 0 } 
-	 .sc_newscast .tile_view .frame_area .line, .sc_themecast .group_title .info_area .btn_set:after, .sc_themecast .group_edit .btn_func+.btn_func:before, #footer .partner_box .link_partner+.link_partner:before, .sc_timesquare .card_stock .stock_box:before, .sc_timesquare .card_air .air_item+.air_item:before, #footer .list_corp .corp_item+.corp_item:before { background-color: #404040 } 
+	 .sc_newscast .tile_view .frame_area .line, .sc_themecast .group_title .info_area .btn_set:after, .sc_themecast .group_edit .btn_func+.btn_func:before, #footer .partner_box .link_partner+.link_partner:before, .sc_timesquare .card_stock .stock_box:before, .sc_timesquare .card_air .air_item+.air_item:before, #footer .list_corp .corp_item+.corp_item:before, #gnb .list_filter .filter_item { background-color: #404040 } 
 	 .sc_newscast .tile_view .popup_wrap .btn_popup:hover { border-color: #4f4f4f } 
-	 .sc_newscast .error_view .link_redirect, .sc_themecast .group_edit .btn_set, .sc_themecast .main_category .tab[aria-selected=true], .sc_themecast .main_category .tab.id_movie[aria-selected=true]:hover, .sc_login .link_login, .sc_themecast .theme_title .title_sub_tab .tab_item.tab_on .tab, .sc_newscast .list_view .list_option .option_on .option { color: #242424 } 
-	 .sc_themecast .group_edit, .sc_themecast .list_edit .edit_item, .sc_timesquare, .sc_timesquare .card_nav .btn_nav { border: 1px solid #404040 } 
-	 .sc_themecast .group_edit .edit_header, .sc_themecast .group_theme+.group_theme, .sc_themecast .chart_view .chart_area+.chart_area, #footer .notice_area, #footer .aside_area, #footer .corp_area, #veta_time2 { border-top: 1px solid #404040 } 
+	 .sc_newscast .error_view .link_redirect, .sc_themecast .group_edit .btn_set, .sc_themecast .main_category .tab[aria-selected=true], .sc_themecast .main_category .tab.id_movie[aria-selected=true]:hover, .sc_login .link_login, .sc_themecast .theme_title .title_sub_tab .tab_item.tab_on .tab, .sc_newscast .list_view .list_option .option_on .option, #gnb .set_area .btn_set, #gnb .list_filter .name { color: #242424 } 
+	 .sc_themecast .group_edit, .sc_themecast .list_edit .edit_item, .sc_timesquare, .sc_timesquare .card_nav .btn_nav, #gnb .list_age { border: 1px solid #404040 } 
+	 .sc_themecast .group_edit .edit_header, .sc_themecast .group_theme+.group_theme, .sc_themecast .chart_view .chart_area+.chart_area, #footer .notice_area, #footer .aside_area, #footer .corp_area, #veta_time2, #gnb .ly_realtime .info_area, #gnb .list_age_wrap { border-top: 1px solid #404040 } 
 	 .sc_themecast .group_edit .edit_footer, #footer, .sc_newscast .ly_popup .popup_btn { border-top: 1px solid #404040;background-color: #2f2f2f } 
 	 .sc_themecast .main_category .tab { color: #cacaca;border: 1px solid #404040;border-width: 0 1px } 
 	 .sc_themecast .main_category .tab.id_movie:hover { color: #2650b9 } 
@@ -2930,6 +2930,9 @@
 	 .sc_newscast .list_view .option_area { border: solid #404040;border-width: 0 1px;background-color: #2f2f2f } 
 	 .logo_area .logo_special img { filter: invert(85.7%) hue-rotate(-180deg) } 
 	 .return_area { border-top: 1px solid #4f4f4f;background-color: #404040 } 
+	 #gnb .ly_realtime .filter_area { border-right: 1px solid #404040;background-color: #2f2f2f } 
+	 #gnb .list_age .age { color: #cacaca;border: 1px solid #404040;border-width: 1px 0 0 1px } 
+	 #gnb .list_age .age[aria-checked=true] { color: #fff;background-color: #404040 } 
  } 
  @-moz-document url-prefix("https://castbox.shopping.naver.com") { 
 	 .shop_wrap .group_pnf, .shop_wrap .group_event, .shop_wrap .group_shop { border-top: 1px solid #404040 } 

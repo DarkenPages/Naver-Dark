@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.32.45
+@version		1.32.46
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -463,7 +463,7 @@
 	 .lst_realtime_srch li .keyword .num, .snb_itembox .sch_foot .btn_ft span, .sp_video .btn_extend .report_mv .btn_cancel, .sp_video .btn_extend .report_mv .btn_confirm, .sp_video .btn_extend .report_mv .btn_report, .sub_pack .music .lst_music_sympathy li .num, .main_pack .sp_image .btn_extend .report_img .btn_report, .main_pack .sp_image .btn_extend .report_img .btn_confirm, .main_pack .sp_image .btn_extend .report_img .btn_cancel, .greenmap .section_head .go_rgt .btn, .realtime2 .btn_reply, .sp_company .company_info .item .txt .link_map, .creator_namecard .ly_notice .btn_box a, .cs_university .university_info .item .txt .link_map, .cs_university .table_more_info .btn_question, .cs_payculculator .calculator_wrap .calculator_area .calculator_cont .pay_way .btn_select, .cs_holiday .holiday_box .holi_addinfo a, .nx_place .list_bizinfo .label_address, .nx_place .list_place_col1 .txt.address .label_address, .ndic .tts_area .ico_tts, .cs_car .profile .btn_dti_add, .cs_broadcast .title_box .popup_subscribe.cancel .btn_box a, .cs_voting_rate .table_bx .table_body table th, .cs_voting_rate .table_bx .table_body table td, .cs_president_list .graph_wrap .candidate .dtail_bx .rank { color: #cacaca;border: 1px solid #404040 } 
 	 #footer { border-top: 2px solid #404040;background-color: #242424 } 
 	 .tab_depth, .ds_address .ds_box dl.txt_infos, .greenmap .local_map .map_control, .cs_broadcast .scroll_box.scroll_tab .page_area, .cs_economy_chart .comment_area { border-top: 1px solid #404040;background-color: #242424 } 
-	 #wrap, .cs_nation .nacon_area, .cs_nation .naflag_box, .ds_calendar .calendar, .ds_calendar .date_graph .plan_graph, .ds_calendar .m_calendar .this_cld table thead { background: none } 
+	 #wrap, .cs_nation .nacon_area, .cs_nation .naflag_box, .ds_calendar .calendar, .ds_calendar .date_graph .plan_graph, .ds_calendar .m_calendar .this_cld table thead, .cs_general_election .index_area .ico_circle:after { background: none } 
 	 .sub_pack .music .section_head .lst_tab span.tab { color: #cacaca;border-color: #404040;background-color: #484848 } 
 	 .snb_itembox.lst_lypopup .view_btn button .tx, .cs_stoolbar .tlst_none.on, .cs_stoolbar .sub_tlst.on, .snb_itembox .sch_option .inp_op, .cs_reelect_sub .cont_sbntc .cont_sbinfor, .bus_realinfo .traf_section dl dd .input_bnum, .series_sch .selectbox-applied, .series_sch .selectbox-naked select, .region .box_input, .ds_calendar .years_reckon .set_date .input_txt, .ds_calendar .years_reckon .set_date .input_txt_out, .ds_calendar .years_reckon .set_date .input_txt_focus, .ds_calendar .army_section .set_date .input_txt, .ds_calendar .army_section .set_date .input_txt_out, .ds_calendar .army_section .set_date .sel_kind, .ds_calendar .army_section .set_date .input_txt_focus, .ds_calendar .date_calculator .input_txt, .ds_calendar .date_calculator .input_txt_default, .ds_calendar .date_calculator .input_txt_out, .ds_calendar .date_calculator .input_txt_focus, .ds_calendar .trans_sun_lunar .set_date .input_txt, .ds_calendar .trans_sun_lunar .set_date .input_txt_out, .ds_calendar .trans_sun_lunar .set_date .input_txt_focus, .ds_calendar .trans_sun_lunar .set_date .sel_trans, .api_error .btn_retry, .flight .flight_ly_seat .flight_ly_btn_seat, .cs_general_election .rate_map .map_btn .map_all { color: #cacaca;border: 1px solid #404040;background: #242424 } 
 	 .cs_calculator .tab { border: 1px solid #404040;border-bottom: none } 
@@ -617,7 +617,7 @@
 	 .people_info .same_name, .cs_holiday .holiday_box { border: 3px solid #404040 } 
 	 .cs_creator_namecard .profile dt a, .dsc_ninfo a.link { color: #6868ff } 
 	 .cs_creator_namecard .news_view.ing, .cs_creator_namecard .beauty_view.ing { color: #000;border: 1px solid #404040 } 
-	 .cs_creator_namecard .title_area .thmb a img, .cs_newest .sct_top .sct_thmb .mask, .main_pack .cs_newest .sct_thmb a img { border-radius: 50% } 
+	 .cs_creator_namecard .title_area .thmb a img, .cs_newest .sct_top .sct_thmb .mask, .main_pack .cs_newest .sct_thmb a img, .cs_general_election .index_area .ico_circle { border-radius: 50% } 
 	 .cs_creator_namecard .title_area .thmb .mask { border-radius: 50%;background: none } 
 	 #wrap #header_wrap .search_area .special img { filter: invert(85.5%) hue-rotate(-180deg) } 
 	 .cs_suneung .tab { border: 1px solid #404040;border-width: 1px 1px 0;background: #2f2f2f } 

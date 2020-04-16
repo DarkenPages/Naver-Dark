@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.32.45
+@version		1.32.46
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -7653,6 +7653,14 @@
 	
 	.cs_general_election .ballot_tally_area .item_info .party:before {
 		border-left: 1px solid #404040;
+	}
+	
+	.cs_general_election .index_area .ico_circle:after {
+		background: none;
+	}
+	
+	.cs_general_election .index_area .ico_circle {
+		border-radius: 50%;
 	}
 }
 

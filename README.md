@@ -7,7 +7,7 @@
 ### 다크 모드 사용하기
 네이버 다크 모드를 사용하려면 사용중인 브라우저에 맞는 [확장 앱](https://add0n.com/stylus.html)<sup id="a2">[2](#fn2)</sup>을 설치해야합니다.<br>
 - [Safari](https://itunes.apple.com/us/app/cascadea/id1432182561?ls=1&mt=12)
-- [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
+- [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [Whale](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
 - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
 - [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/)
 
@@ -19,9 +19,9 @@
 일부 페이지<sup id="a3">[3](#fn3)</sup>에서는 콘텐츠가 잘 보이지 않는 등, 다크 모드가 정상적으로 동작하지 않을 수 있습니다.<br>
 그럴 경우 다음의 추가 확장 앱 중 **하나**를 사용하여 해결할 수 있습니다.<br>
 - [AdGuard](https://adguard.com): AdGuard 는 많은 사람들이 애용하는 뛰어난 확장 앱입니다. 이 앱에는 확장 가능한 **사용자 스크립트**가 내장되어 있습니다.
-  - [Safari](https://adguard.com/ko/adguard-safari/overview.html), [macOS](https://adguard.com/ko/adguard-mac/overview.html), [Chrome](https://adguard.com/ko/adguard-browser-extension/chrome/overview.html), [Windows](https://adguard.com/ko/adguard-windows/overview.html), [Firefox](https://adguard.com/ko/adguard-browser-extension/firefox/overview.html), [Opera](https://adguard.com/ko/adguard-browser-extension/opera/overview.html)
+  - [Safari](https://adguard.com/ko/adguard-safari/overview.html), [macOS](https://adguard.com/ko/adguard-mac/overview.html), [Chrome](https://adguard.com/ko/adguard-browser-extension/chrome/overview.html), [Whale](https://adguard.com/ko/adguard-browser-extension/chrome/overview.html), [Windows](https://adguard.com/ko/adguard-windows/overview.html), [Firefox](https://adguard.com/ko/adguard-browser-extension/firefox/overview.html), [Opera](https://adguard.com/ko/adguard-browser-extension/opera/overview.html)
 - [Tampermonkey](https://www.tampermonkey.net): Tampermonkey 는 **사용자 스크립트**의 대명사입니다.
-  - [Safari](https://apps.apple.com/us/app/tampermonkey/id1482490089), [Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo), [Firefox](https://addons.mozilla.org/ko/firefox/addon/tampermonkey/), [Opera](https://addons.opera.com/ko/extensions/details/tampermonkey-beta/)
+  - [Safari](https://apps.apple.com/us/app/tampermonkey/id1482490089), [Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo), [Whale](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo), [Firefox](https://addons.mozilla.org/ko/firefox/addon/tampermonkey/), [Opera](https://addons.opera.com/ko/extensions/details/tampermonkey-beta/)
 
 다음으로 [다크 모드 추가 스크립트를 설치](https://github.com/DarkenPages/Naver-Dark/raw/master/Naver%20Dark.user.js)하여 추후 업데이트 설치도 지원받으실 수 있습니다.
 <br><br><br>

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.34.12
+@version		1.34.14
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -29629,6 +29629,18 @@
 	
 	.elect_party_group .party_item + .party_item:before {
 		background-color: #404040;
+	}
+	
+	.survey_lst .survey_item {
+		border-top: 1px solid #404040;
+	}
+	
+	.survey_lst .survey_title, .survey_lst .legend_lst li .num {
+		color: #fff;
+	}
+	
+	.survey_lst .legend_lst li {
+		color: #cacaca;
 	}
 }
 

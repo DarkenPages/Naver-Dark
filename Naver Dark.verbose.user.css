@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.33.7
+@version		1.33.9
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -1264,6 +1264,42 @@
 	
 	.section_election .se_party .se_party_tit:before {
 		border-radius: 50%;
+	}
+	
+	.area_newsstand .aplc_link {
+		color: #cacaca;
+	}
+	
+	.area_newsstand .as_btn_my {
+		color: #cacaca;
+	}
+	
+	.area_newsstand .as_btn_my:hover, .cast_link .cl_a:hover, .area_category .ac_a:hover, .sb_style_2 .selectbox .list li.item-selected {
+		color: #fff;
+	}
+	
+	.section_timesquare .hi_tit {
+		color: #cacaca;
+	}
+	
+	.section_timesquare .setting_layer {
+		background-color: #242424;
+	}
+	
+	.section_timesquare .sl_tit_link {
+		color: #cacaca;
+	}
+	
+	.section_timesquare .setting_layer.sl_weather .sl_tit_link.is_selected {
+		color: #fff;
+	}
+	
+	.section_timesquare .sl_head {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.section_timesquare .sl_link {
+		color: #cacaca;
 	}
 }
 
@@ -9004,6 +9040,28 @@
 	
 	.common_search {
 		border-top: 1px solid #404040;
+	}
+	
+	.reservation_list .list_thumb .cafe_name {
+		color: #fff;
+	}
+	
+	.common_category .btn_category {
+		color: #fff;
+	}
+	
+	.common_category .layer {
+		background: #2f2f2f;
+	}
+	
+	.common_category .layer_list {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.common_category .layer_list .btn {
+		background: #2f2f2f;
+		color: #cacaca;
 	}
 }
 

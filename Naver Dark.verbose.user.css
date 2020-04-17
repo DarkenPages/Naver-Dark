@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.34.21
+@version		1.34.23
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -1300,6 +1300,18 @@
 	
 	.section_timesquare .sl_link {
 		color: #cacaca;
+	}
+	
+	.banner_top, .banner_top .link_detail, .banner_top .link_detail:visited, .banner_top .link_detail:link {
+		color: #242424 !important;
+	}
+	
+	.banner_top .link_detail:after, .banner_top .ico_naver, .banner_newmain .btn_change:before, .banner_newmain .ico_naver {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.banner_newmain, .banner_newmain .btn_change, .banner_newmain .link_detail {
+		color: #242424;
 	}
 }
 

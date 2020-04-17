@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.34.23
+@version		1.34.28
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -17945,7 +17945,7 @@
 	}
 	
 	.quick_top .ico {
-		filter: invert(82.3%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.photo_title .photo_tab_list_link {
@@ -17981,8 +17981,12 @@
 		border-left: 1px solid #404040;
 	}
 	
-	.sch_empty.kbo_empty p, .sch_vs .vs_btn a, .sch_vs .vs_btn span {
-		filter: invert(86%);
+	.sch_empty.kbo_empty p {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.sch_vs .vs_btn a, .sch_vs .vs_btn span {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.sch_vs .vs_btn {
@@ -18012,7 +18016,7 @@
 	}
 	
 	.sch_tb_head p.tr a img {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.sch_baseball .sch_tb_top {
@@ -18036,7 +18040,7 @@
 	}
 	
 	.sch_baseball table img, .sch_vs .vs_cnt em {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.gamedata_info {
@@ -18240,7 +18244,7 @@
 	}
 	
 	.section_chart .ground_area .hit p, .section_chart .ground_area .out p, .section_chart .ground_area .run p, .section_todayrec dd.t1 span, .section_todayrec .away dd.t1 em, .section_todayrec .home dd.t1 em, .section_todayrec .home dd em, .section_todayrec .home dd span, .section_todayrec .away dd span, .section_todayrec .away dd em, .section_todayrec .home h4, .section_todayrec .away h4 {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.section_todayrec dl dt {
@@ -18278,24 +18282,24 @@
 	
 	.section_chart .ground_area .legend p .run {
 		background: url(https://imgnews.pstatic.net/image/sports/nsports/2010/ico_chart_run.png) no-repeat;
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 		background-size: 10px 10px;
 	}
 	
 	.section_chart .ground_area .legend p .hit {
 		background: url(https://imgnews.pstatic.net/image/sports/nsports/2010/ico_chart_hit.png) no-repeat;
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 		background-size: 10px 10px;
 	}
 	
 	.section_chart .ground_area .legend p .out {
 		background: url(https://imgnews.pstatic.net/image/sports/nsports/2010/ico_chart_out.png) no-repeat;
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 		background-size: 10px 10px;
 	}
 	
 	.section_chart .ground_area .note {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.section_todayrec {
@@ -18530,7 +18534,7 @@
 	}
 	
 	.u_cbox .u_cbox_chart_open .u_cbox_chart_fold_ico {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.paginate a:hover, .paginate a:active, .paginate a:focus {
@@ -18550,7 +18554,7 @@
 	}
 	
 	.rr_wrap .tbl_box thead div strong {
-		filter: invert(82.3%);
+		filter: invert(82.3%) hue-rotate(-180deg);
 	}
 	
 	.rr_wrap .tbl_box tbody th {
@@ -18615,7 +18619,7 @@
 	}
 	
 	.tbl_paging .paging_arr span {
-		filter: invert(82.3%);
+		filter: invert(82.3%) hue-rotate(-180deg);
 	}
 	
 	.tbl_paging .paging_arr {
@@ -18633,7 +18637,7 @@
 	}
 	
 	.column_list3 .name:after {
-		filter: invert(82.3%);
+		filter: invert(82.3%) hue-rotate(-180deg);
 	}
 	
 	.column_head.type2 {
@@ -18659,7 +18663,7 @@
 	}
 	
 	.home_box_head .more span:after, .home_issue .component_box .more span:after {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.home_issue .component_box {
@@ -18686,7 +18690,7 @@
 	}
 	
 	.rr_h2 {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.league_choice_tab li a {
@@ -18710,14 +18714,6 @@
 	
 	.rr_wrap .tit_box .tr_h3, .rr_wrap .tit_box .tr_h3.challenge, .rr_wrap .tit_box .pr_h4, .rr_wrap .tit_box .apr_h5, .rr_wrap .tit_box .apr_h6 {
 		color: #fff;
-	}
-	
-	.rr_wrap .tbl_box thead div, .season_goals .players .player_thum .num {
-		filter: invert(86%);
-	}
-	
-	.rr_wrap .tbl_box thead div strong {
-		filter: none;
 	}
 	
 	.rr_wrap .tbl_box tbody tr th {
@@ -18776,7 +18772,7 @@
 	}
 	
 	.news_headline .info .press_link {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.news_headline {
@@ -18795,7 +18791,7 @@
 	}
 	
 	.news_work .setting .article_zoom_tit, .news_work .setting .article_zoom_in, .news_work .setting .article_zoom_out, .news_work .setting .article_print, .news_work .comment .ico, .comment_guide .arr:after, .u_likeit_layer:before {
-		filter: invert(82.3%);
+		filter: invert(82.3%) hue-rotate(-180deg);
 	}
 	
 	.hmb_list .hmb_list_items .vs_list .name {
@@ -18812,7 +18808,7 @@
 	}
 	
 	.news_headline .logo img {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.u_likeit_list_btn.u_type_tomain .u_cnt {
@@ -19458,9 +19454,84 @@
 	.sports_menu .sub_menu_list .link_sub_menu {
 		color: #cacaca;
 	}
+	
+	.main_wrap .aside_section {
+		border-right: 1px solid #404040;
+		border-left: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.main_wrap .today_section, .main_wrap .news_section .link_news_item {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.main_wrap .today_section .title {
+		color: #7474e3;
+	}
+	
+	.main_wrap .today_section .news {
+		color: #cacaca;
+	}
+	
+	.aside_shopping .price_wrap .price {
+		text-shadow: 1px 1px 5px #000;
+	}
+	
+	.main_wrap .vod_section .text_area {
+		color: #cacaca;
+	}
+	
+	.main_wrap .vod_section .button_more {
+		background-color: #404040;
+		color: #cacaca;
+	}
+	
+	.main_wrap .vod_section .vod_button_area:before {
+		background-color: #404040;
+	}
+	
+	.main_wrap .news_section .text_area .title {
+		color: #7474e3;
+	}
+	
+	.main_wrap .vod_section .button_more:hover {
+		color: #fff;
+	}
+	
+	.main_wrap .vod_section .button_more:after {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.sports_menu .side_menu_list:before {
+		background-color: #404040;
+	}
+	
+	.article_temp .article_list a {
+		color: #fff;
+	}
+	
+	.article_temp .article_list li {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.rr_wrap .tbl_box thead div {
+		background: #2f2f2f;
+	}
+	
+	.season_goals .players .player_thum .num {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.rr_wrap .tbl_box tbody .on th {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.league_choice_tab li + li a:after {
+		background: #404040;
+	}
 }
 
-@-moz-document url-prefix("https://comments.sports.naver.com")
+@-moz-document url-prefix("https://comments.sports.naver.com"), url-prefix("https://sports.news.naver.com")
 {
 	.cbox, #cbox_module .cbox_write_box, #cbox_module .cbox_write_box2 {
 		border: 1px solid #404040;
@@ -19525,6 +19596,18 @@
 	
 	input[type=image] {
 		filter: invert(86%);
+	}
+	
+	.u_cbox .u_cbox_btn_usercomment {
+		color: #fff;
+	}
+	
+	.u_cbox .u_cbox_btn_totalcomment .u_cbox_ico_arrow, .u_cbox .u_cbox_btn_usercomment .u_cbox_ico_usercomment {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.u_cbox .u_cbox_help_info:before {
+		background-color: #404040;
 	}
 }
 

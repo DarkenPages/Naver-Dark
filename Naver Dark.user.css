@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.42.132
+@version		1.42.135
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -3617,7 +3617,7 @@
     body,html { color: #cacaca;background: #242424 }
 }
 @-moz-document url-prefix("https://terms.naver.com") {
-    .all_category_title .title,.aside .section_title,.aside .total_headword_info .title,.box_media .title,.box_media h3,.section_area .title,.cite_area_wrap .cite_info .title,.content_list .info_area .title a,.graph_area .chart_title,.search_group .keyword,.headword_info .title a,.path_area .path_link,.headword_title .headword,.info_tmp_wrap .title,.input_search:focus,.layer_content .list_add ul li label .tit,.layer_pop_wrap .layer_pop .notice_title,.ly_category .title,.main_sort_area .sort_item.selected a,.text_wrap .text_area .subject a,.text_wrap .text_area a,.main_spot_area .main_spot_title h2,.recent_list_wrap .sort_area .title,.sort_area .btn_area .state strong,.search_group .keyword a,.search_none_area .text,.section_wrap h3,.tmp_agenda h3,.tooltip_area .tooltip_layer .info_title,.u_likeit_list_count,.view_list_item .info_area .title a,a,body { color: #fff }
+    .all_category_title .title,.aside .section_title,.aside .total_headword_info .title,.box_media .title,.box_media h3,.section_area .title,.cite_area_wrap .cite_info .title,.content_list .info_area .title a,.graph_area .chart_title,.search_group .keyword,.headword_info .title,.headword_info .title a,.path_area .path_link,.headword_title .headword,.info_tmp_wrap .title,.input_search:focus,.layer_content .list_add ul li label .tit,.layer_pop_wrap .layer_pop .notice_title,.ly_category .title,.main_sort_area .sort_item.selected a,.text_wrap .text_area .subject a,.text_wrap .text_area a,.main_spot_area .main_spot_title h2,.recent_list_wrap .sort_area .title,.sort_area .btn_area .state strong,.search_group .keyword a,.search_none_area .text,.section_wrap h3,.tmp_agenda h3,.tooltip_area .tooltip_layer .info_title,.u_likeit_list_count,.view_list_item .info_area .title a,a,body { color: #fff }
     .all_category_title,.end_btn .u_likeit,.relate_cont_wrap .relate_title,.search_tab_area,.sort_area { border-bottom: 1px solid #404040 }
     .api_c3p_datalab .c3-chart-arcs .c3-arc { stroke: #4f4f4f !important }
     .aside .cite_item a,.aside .section_item a,.aside .daliy_item a,.box_img .box_bigimg .mline,.box_img .box_bigimg strong,.category_area .category_list .category_item a,.ly_category .title a,.tlist_area .tlist_list a,.cite_area_wrap .desc,.contents_list li,.cite_area_wrap .writer_info .writer,.cite_area_wrap .writer_info strong,.content_list .info_area .desc,.text_wrap .text_area .cont_item a,.headword_title .word,.lnb li a,.medicine_link,.medicine_search_wrap .label_search,.notice_area .notice_list a,.sort_area .tab_item.selected a,.sort_area .tab_item[aria-selected=true] a,.relate_cont_wrap .relate_list li,.tb_style2,.se_theme_default .se_paragraph .se_viewArea,.se_theme_default .se_quotation .se_viewArea,.search_none_area .suggest_area .link,.search_none_area .text_list li,.section_wrap .na_block_quote>p,.section_wrap h4,.subject_item .title,.tmp_profile_tb td,#footer .dic_item a,#footer .dic_title,#footer .info_wrap a,#footer .info_list li,#footer address em,#footer address span,#size_ct .txt,.section_area .ref_item { color: #cacaca }
@@ -3680,7 +3680,7 @@
     .u_helpdict_module .u_btn_helpdict_more .u_helpdict_ico_more,.u_helpdict_module .u_helpdict_close,.u_helpdict_module .u_pronunciation .u_btn_pronun,.u_helpdict_module .u_pronunciation .u_btn_tts,.u_helpdict_module.u_type_a .u_headword .u_btn_headword .u_reference_word:before { filter: invert(86%) hue-rotate(-180deg) }
     .u_helpdict_module .u_btn_helpdict_more,.u_helpdict_module .u_helpdict_notice .u_report_link,.u_helpdict_module .u_pronunciation,.u_helpdict_module .u_pronunciation .u_pronunciation_item .u_origin_source { color: #cacaca }
     .u_helpdict_module .u_btn_more_wrap { border-top: 1px solid #404040;background-color: #2f2f2f }
-    .u_helpdict_module .u_definition .u_mean_word { color: #fff }
+    .u_helpdict_module .u_definition .u_mean_word,.u_helpdict_module .u_definition .u_mean_word .u_hanja_option { color: #fff }
     .u_helpdict_module .u_headword .u_btn_headword { color: #7474e3 }
     .u_helpdict_module .u_helpdict_area + .u_helpdict_area { border-top: 1px solid #404040 }
     .u_helpdict_module .u_helpdict_notice { color: #cacaca;border-top: 1px solid #404040;background-color: #2f2f2f }
@@ -3705,12 +3705,13 @@
 @-moz-document url-prefix("https://terms.naver.com/list.nhn"), url-prefix("https://terms.naver.com/tag"), url-prefix("https://terms.naver.com/entry") {
     .chart_age .list_vertical_bar .vertical_bar { border: 1px solid #404040;background: #404040 }
     .cont_util_area .font_area a,.cont_util_area .util_list li a,.content_list .photo_more,.image_area .state,.na_reference dt,.section_wrap,.section_list .info_area dd.desc,a.gnb_my .gnb_name,.summary_area,.t_txt,.wide_end .cont_area .detail_area .breakable-block,.wide_end .cont_area .detail_area .tmp_profile_tb td,.wide_end .section_area .section_head .link_more,.wide_end .section_area .section_cont .title_area .desc,.wide_end .section_area .slider_list.story .desc_area .site,.wide_main .section_spot_area .section_head .txt_btn,.wide_main .theme_section .cont_title { color: #cacaca }
-    .content_head .h_title,.section_list .info_area dt a,.se_theme_default .se_documentTitle,.se_theme_default .se_sectionTitle .se_fs_H1,.se_theme_default .se_sectionTitle .se_fs_H2,.se_theme_default .se_sectionTitle .se_fs_H3,.u_helpdict_module .u_definition .u_mean_word,.wide_end .section_area .section_head .h_title,.wide_end .section_area .slider_list.story .desc_area .cont,.wide_end .spi_area .layer_area .title,.wide_main .section_head .h_title { color: #fff }
+    .content_head .h_title,.section_list .info_area dt a,.se_oglink .se_og_tit,.se_theme_default .se_documentTitle,.se_theme_default .se_sectionTitle .se_fs_H1,.se_theme_default .se_sectionTitle .se_fs_H2,.se_theme_default .se_sectionTitle .se_fs_H3,.u_helpdict_module .u_definition .u_mean_word,.wide_end .section_area .section_head .h_title,.wide_end .section_area .slider_list.story .desc_area .cont,.wide_end .spi_area .layer_area .title,.wide_main .section_head .h_title { color: #fff }
     .content_list .photo_more,.image_area,.image_area .state { border: 1px solid #404040;background: #242424 }
     .naml_area .t_lv_tit { border-bottom: 1px solid #404040;background: none }
+    .se_oglink .se_og_box:after,.se_oglink .se_og_box:before,.se_oglink .se_viewArea:after,.se_oglink .se_viewArea:before,.sort_area .btn_area .cont_view,.wide_end .section_area .slider_list.story .desc_area { border: 1px solid #404040 }
+    .se_theme_default .se_oglink .se_og_wrap,.se_theme_default .se_subjectMatter .se_viewArea { background: none }
     .section_list .info_area dd .info:before { background: #404040 }
     .sort_area .btn_area .cont_view .image_view,.sort_area .btn_area .cont_view .list_view,.sort_area .btn_area .cont_view .image_view.selected,.sort_area .btn_area .cont_view .image_view[aria-checked=true],.wide_end .section_area .tooltip_area .tooltip_btn:after,.wide_wrap.library .category_wrap .btn_category,.wide_wrap.library .section_area .section_cont .next:before,.wide_wrap.library .section_area .section_cont .prev:before { filter: invert(86%) hue-rotate(-180deg) }
-    .sort_area .btn_area .cont_view,.wide_end .section_area .slider_list.story .desc_area { border: 1px solid #404040 }
     .t_lv_tit h4,head,html { background: #242424 }
     .t_lv_tit,.wide_wrap.library .ly_category { border-color: #404040 }
     .table_layout1 tr .se_cell:not(:first-child) { background-color: #242424 !important }

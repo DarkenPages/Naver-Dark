@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.42.129
+@version		1.42.130
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -644,7 +644,7 @@
     .footer__menu-item+.footer__menu-item:before,.gnb__button-menu-all:before { background: #404040 }
     .gnb_notice_li a.gnb_notice .gnb_icon,.gnb_service_li a.gnb_service .gnb_icon,.mail_li a.gnb_mail .gnb_icon { filter: none !important }
     .groupselectlayer ul li .makeselected { border-top: 1px solid #404040;background: url(https://blogimgs.pstatic.net/nblog/admin/buddy/ico_add_f.gif) #2f2f2f 5px 7px no-repeat }
-    .groupselectlayer ul li .newgroup_input .chkb_txt { color: #cacaca;border: 1px solid #404040;border-top-color #404040;border-left-color: #404040 }
+    .groupselectlayer ul li .newgroup_input .chkb_txt { color: #cacaca;border: 1px solid #404040;border-top-color: #404040;border-left-color: #404040 }
     .groupselectlayer ul li a:hover,.tbl_buddymanage th { color: #cacaca;background-color: #2f2f2f }
     .header__admin { border-bottom: 1px solid #404040;background: #242424 }
     .header__blog { background: #019341 }

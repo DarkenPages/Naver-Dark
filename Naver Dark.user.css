@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.42.126
+@version		1.42.128
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -605,6 +605,14 @@
     #remocon_container #wrapper .cm-head { height: 38px;border-radius: 10px 10px 0 0;background: rgba(0, 0, 0, .25) }
     #remocon_container #wrapper .side-border { border-width: 0;border-color: #404040 }
     #remocon_container a:link,#remocon_container a:visited { color: #e177e3 }
+}
+@-moz-document url-prefix("https://admin.blog.naver.com/UserSkinTitleSave.nhn") {
+    .gray01,a.gray01:active,a.gray01:hover,a.gray01:link,a.gray01:visited { color: #fff }
+    .int { color: #cacaca;border: 1px solid #404040 }
+    .pop_tit { background: #019341 }
+    .pop_tit h1 { color: #242424;background: none }
+    td { background: #242424 }
+    td a img,td input[type=image] { filter: invert(86%) hue-rotate(-180deg) }
 }
 @-moz-document url-prefix("https://admin.blog.naver") {
     .action1_music a img,.mbox_btn img,.title_mbox1 .music_btn,.action1_music input.submit[type=image],.admin_buddymanage_wrap .btn_bar img,.admin_category_menu td a.btnSelect img,.category_list_area .list_btn img,.btn,.btn_connect img,.buddy_bloggo_wrap .move_btn dd button img,.category_add .theme_select,.category_add dd.blog_view_style label img,.category_add dd.category_sort img,.theme_select_layer .btn_close img,.category_list_area .category_list .bar,.cmn_slt .selectbox-applied .selectbox-box,.tbl_buddymanage .select_input .selectbox-box,.groupselectlayer ul li a img,.layer_popup .btn_2 a img,.layer_popup .ly_clse2,.layer_popup2 .btn_1 img,.layer_popup2 .ly_clse2,.layer_tip .tip,.tab1_skin .help,.ly_alert .ly_btns img,.ngb_search .lk_arr,.ngb_search input[type=image],.paginate a.next,.paginate a.next_end,.paginate a.pre,.paginate a.pre_end,.select_skin .none img,.spam_title img,.table1 .ccl_mgt img,.tbl_buddymanage .select_input #buddysel_alertall .selectbox-list li img,.tbl_buddymanage td img,.usedskin2 a img,.wrap_editorset .list_option .icon_aligncenter,.wrap_editorset .list_option .icon_alignjustify,.wrap_editorset .list_option .icon_alignleft,.wrap_editorset .list_option .icon_alignright,#buddydiv .ico_arrow,#layerLoadingBar > div >table > tbody tbody tr td img,#layerLoadingBar > div >table > tbody tbody tr td[background*='box13_b_bg.gif'],#layerLoadingBar > div >table > tbody tbody tr td[background*='box13_l_bg.gif'],#layerLoadingBar > div >table > tbody tbody tr td[background*='box13_r_bg.gif'],#layerLoadingBar > div >table > tbody tbody tr td[background*='box13_t_bg.gif'],select,table.prologue img { filter: invert(86%) hue-rotate(-180deg) }

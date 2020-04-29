@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.42.126
+@version		1.42.128
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -41450,5 +41450,34 @@
 	
 	.map_category .cate_lst li a {
 		color: #cacaca;
+	}
+}
+
+@-moz-document url-prefix("https://admin.blog.naver.com/UserSkinTitleSave.nhn")
+{
+	.pop_tit {
+		background: #019341;
+	}
+	
+	.pop_tit h1 {
+		color: #242424;
+		background: none;
+	}
+	
+	.gray01, a.gray01:link, a.gray01:visited, a.gray01:hover, a.gray01:active {
+		color: #fff;
+	}
+	
+	td {
+		background: #242424;
+	}
+	
+	.int {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	td input[type=image], td a img {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 }

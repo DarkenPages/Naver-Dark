@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.42.128
+@version		1.42.129
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -3792,6 +3792,7 @@
     .post_wrp .post_logo { background: none }
     .post_wrp .post_sec .btn_next,.post_wrp .post_sec .btn_prev { filter: invert(86%) hue-rotate(-180deg) }
     .post_wrp .view_count .bar { background: #404040 }
+    #widgetLayer .post_bx .thumb img[src*='img_none'] { filter: invert(81.5%) hue-rotate(-180deg) }
     body,head,html { color: #cacaca !important;background: #242424 !important }
 }
 @-moz-document url-prefix("https://www.naver.com"), url-prefix("https://my.naver.com"), url-prefix("https://ui.nboard2.naver.com"), url-prefix("https://search.naver.com"), url-prefix("https://castbox.shopping.naver.com"), url-prefix("https://section.cafe.naver.com"), url-prefix("https://talk.cafe.naver.com"), url-prefix("https://cafe.upphoto.naver.com"), url-prefix("https://cafe.naver.com/CafeMemberInfo.nhn"), url-prefix("https://section.blog.naver.com"), url-prefix("https://uploader1.nmv.naver.com"), url-prefix("https://up.cafe.naver.com"), url-prefix("https://datalab.naver.com"), url-prefix("https://www.navercorp.com"), url-prefix("https://mail.naver.com"), url-prefix("https://note.naver.com"), url-prefix("https://mashup.map.naver.com"), url-prefix("https://nid.naver.com/nidlogin.login") {

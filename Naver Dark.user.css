@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.42.138
+@version		1.42.139
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -1026,6 +1026,12 @@
 }
 @-moz-document url-prefix("https://blog.naver.com/PostUpdateForm.nhn") {
     #btn_tempsave:after { opacity: 0 }
+}
+@-moz-document url-prefix("https://blog.naver.com/PostView.nhn"), url-prefix("http://blog.naver.com/PostView.nhn") {
+    .og { box-shadow: none }
+    .og .box { background: #242424 }
+    .og .tit { color: #fff }
+    .og .txt { border: 1px solid #242424;background: #242424 }
 }
 @-moz-document url-prefix("https://blog.naver.com/PostWriteForm.nhn"), url-prefix("https://blog.naver.com/PostUpdateForm.nhn") {
     .npe_wrap .npe_btn_cancel .npe_btn_title { opacity: 1;color: #cacaca }

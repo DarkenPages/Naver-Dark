@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.42.135
+@version		1.42.138
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -32237,32 +32237,48 @@
 		color: #cacaca;
 	}
 	
-	.se-viewer *[style*='border-bottom'] {
-		border-bottom: 1px solid #404040 !important;
-	}
-	
 	.se-viewer *[style*='background-color'] {
 		background-color: #2f2f2f !important;
 	}
 	
-	.se-viewer *[style*='border-top'] {
+	.se-viewer *[style*='border-bottom']:not([style*='border-bottom: none']):not([style*='border-bottom:none']) {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	.se-viewer *[style*='border-top']:not([style*='border-top: none']):not([style*='border-top:none']) {
 		border-top: 1px solid #404040 !important;
+	}
+	
+	.se-viewer *[style*='border-left']:not([style*='border-left: none']):not([style*='border-left:none']) {
+		border-left: 1px solid #404040 !important;
+	}
+	
+	.se-viewer *[style*='border-right']:not([style*='border-right: none']):not([style*='border-right:none']) {
+		border-right: 1px solid #404040 !important;
 	}
 	
 	.se-viewer *[style*=' color'], .se-viewer *[style*=';color'], .se-viewer *[style^='color'] {
 		color: #cacaca !important;
 	}
 	
-	.se_paragraph *[style*='border-bottom'] {
-		border-bottom: 1px solid #404040 !important;
-	}
-	
 	.se_paragraph *[style*='background-color'] {
 		background-color: #2f2f2f !important;
 	}
 	
-	.se_paragraph *[style*='border-top'] {
+	.se_paragraph *[style*='border-bottom']:not([style*='border-bottom: none']):not([style*='border-bottom:none']) {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	.se_paragraph *[style*='border-top']:not([style*='border-top: none']):not([style*='border-top:none']) {
 		border-top: 1px solid #404040 !important;
+	}
+	
+	.se_paragraph *[style*='border-left']:not([style*='border-left: none']):not([style*='border-left:none']) {
+		border-left: 1px solid #404040 !important;
+	}
+	
+	.se_paragraph *[style*='border-right']:not([style*='border-right: none']):not([style*='border-right:none']) {
+		border-right: 1px solid #404040 !important;
 	}
 	
 	.se_paragraph *[style*=' color'], .se_paragraph *[style*=';color'], .se_paragraph *[style^='color'] {
@@ -32832,20 +32848,20 @@
 		background-color: #242424 !important;
 	}
 	
-	#post-area .post-view *[style*='border-top'] {
+	#post-area .post-view *[style*='border-bottom']:not([style*='border-bottom: none']):not([style*='border-bottom:none']) {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	#post-area .post-view *[style*='border-top']:not([style*='border-top: none']):not([style*='border-top:none']) {
 		border-top: 1px solid #404040 !important;
 	}
 	
-	#post-area .post-view *[style*='border-left'] {
+	#post-area .post-view *[style*='border-left']:not([style*='border-left: none']):not([style*='border-left:none']) {
 		border-left: 1px solid #404040 !important;
 	}
 	
-	#post-area .post-view *[style*='border-right'] {
+	#post-area .post-view *[style*='border-right']:not([style*='border-right: none']):not([style*='border-right:none']) {
 		border-right: 1px solid #404040 !important;
-	}
-	
-	#post-area .post-view *[style*='border-bottom'] {
-		border-bottom: 1px solid #404040 !important;
 	}
 	
 	#post-area .post-view table {
@@ -32860,20 +32876,20 @@
 		background-color: #242424 !important;
 	}
 	
-	#post-area .post-view *[style*='BORDER-TOP'] {
+	#post-area .post-view *[style*='BORDER-BOTTOM']:not([style*='BORDER-BOTTOM: NONE']):not([style*='BORDER-BOTTOM:NONE']) {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	#post-area .post-view *[style*='BORDER-TOP']:not([style*='BORDER-TOP: NONE']):not([style*='BORDER-TOP:NONE']) {
 		border-top: 1px solid #404040 !important;
 	}
 	
-	#post-area .post-view *[style*='BORDER-LEFT'] {
+	#post-area .post-view *[style*='BORDER-LEFT']:not([style*='BORDER-LEFT: NONE']):not([style*='BORDER-LEFT:NONE']) {
 		border-left: 1px solid #404040 !important;
 	}
 	
-	#post-area .post-view *[style*='BORDER-RIGHT'] {
+	#post-area .post-view *[style*='BORDER-RIGHT']:not([style*='BORDER-RIGHT: NONE']):not([style*='BORDER-RIGHT:NONE']) {
 		border-right: 1px solid #404040 !important;
-	}
-	
-	#post-area .post-view *[style*='BORDER-BOTTOM'] {
-		border-bottom: 1px solid #404040 !important;
 	}
 	
 	#post-area .post-view table {

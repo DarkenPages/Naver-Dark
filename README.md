@@ -32,7 +32,7 @@
   ### 업데이트 버튼을 눌러주기
   1. 브라우저의 Stylus 확장 아이콘을 클릭합니다.
   2. 팝업이 나타나면 `Manage` 버튼을 클릭합니다.
-  3. 새로우 창이 나타나면 좌측 패널에서 `Check all styles for updates` 버튼을 클릭합니다.
+  3. 새로운 창이 나타나면 좌측 패널에서 `Check all styles for updates` 버튼을 클릭합니다.
   4. 새 업데이트가 준비되어 있다면 `Apply all updates` 버튼을 클릭하여 **완료**합니다.
   
   <img src="https://github.com/DarkenPages/Naver-Dark/blob/master/images/stylus_update.png" width="700px">

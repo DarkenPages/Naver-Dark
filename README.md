@@ -48,6 +48,7 @@
   <img src="https://github.com/DarkenPages/Naver-Dark/blob/master/images/cascadea_update.png" width="500px"/>
   <br>
 </details>
+<br>
 
 ### 추가 지원
 웹 서핑을 하면서 누락됐거나 다크 모드가 적용되었으면 하는 페이지를 발견할 경우 [이슈 신고](https://github.com/DarkenPages/Naver-Dark/issues)를 통해 요청할 수 있습니다.<br>

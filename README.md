@@ -35,9 +35,9 @@
   3. 새로운 창이 나타나면 좌측 패널에서 `Check all styles for updates` 버튼을 클릭합니다.
   4. 새 업데이트가 준비되어 있다면 `Apply all updates` 버튼을 클릭하여 **완료**합니다.
   
-  <img src="https://github.com/DarkenPages/Naver-Dark/blob/master/images/stylus_update.png" width="700px">
+  <img src="https://github.com/DarkenPages/Naver-Dark/blob/master/images/stylus_update.png" width="700px"/>
   <br>
-  </details>
+</details>
 <details>
   <summary>Cascadea for Safari</summary>
 
@@ -45,10 +45,9 @@
   1. Cascadea 앱을 엽니다.
   2. 우측 상단의 새로고침 아이콘 &#8635; 을 클릭하여 **완료**합니다.
   
-  <img src="https://github.com/DarkenPages/Naver-Dark/blob/master/images/cascadea_update.png" width="500px">
+  <img src="https://github.com/DarkenPages/Naver-Dark/blob/master/images/cascadea_update.png" width="500px"/>
   <br>
 </details>
-<br><br><br>
 
 ### 추가 지원
 웹 서핑을 하면서 누락됐거나 다크 모드가 적용되었으면 하는 페이지를 발견할 경우 [이슈 신고](https://github.com/DarkenPages/Naver-Dark/issues)를 통해 요청할 수 있습니다.<br>

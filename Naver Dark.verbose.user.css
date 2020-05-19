@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.47.24
+@version		1.47.25
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -8757,6 +8757,70 @@
 	.cs_sign .physiognomy_area {
 		border: 1px solid #404040;
 		border-width: 0 1px 1px;
+	}
+	
+	.cs_sign .infors .tab_wrap2 {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_sign .infors .lst_infor {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_sign .infors .thumb img {
+		border-radius: 50%;
+	}
+	
+	.cs_sign .infors .luck_zodiac {
+		border: 1px solid #404040;
+	}
+	
+	.cs_sign .infors .luck_zodiac li a {
+		color: #cacaca;
+	}
+	
+	.cs_sign .infors .luck_zodiac li.first_lst, .cs_sign .infors .luck_zodiac.on li.first_lst, .cs_sign .infors .luck_constellation li.first_lst, .cs_sign .infors .luck_constellation.on li.first_lst {
+		background: none;
+		position: relative;
+	}
+	
+	.cs_sign .infors .luck_zodiac li.first_lst:before, .cs_sign .infors .luck_zodiac.on li.first_lst:before, .cs_sign .infors .luck_constellation li.first_lst:before, .cs_sign .infors .luck_constellation.on li.first_lst:before {
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_sign .infors .luck_zodiac.on li.first_lst:before, .cs_sign .infors .luck_constellation.on li.first_lst:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/sign/img/20140305/ico_up.gif) no-repeat 100% 0;
+	}
+	
+	.cs_sign .infors .luck_zodiac li.first_lst:before, .cs_sign .infors .luck_constellation li.first_lst:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/sign/img/20140305/ico_down.gif) no-repeat 100% 0;
+	}
+	
+	.cs_sign .infors .luck_zodiac.on li.first_lst, .cs_sign .infors .luck_constellation.on li.first_lst {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_sign .infors .luck_zodiac.on li:hover, .cs_sign .infors .luck_constellation.on li:hover {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_sign .infors .luck_zodiac li, .cs_sign .infors .luck_constellation li, .cs_sign .infors .luck_constellation.on li.first_lst:hover, .cs_sign .infors .luck_zodiac.on li.first_lst:hover {
+		background: #242424;
+	}
+	
+	.cs_sign .infors .luck_constellation {
+		border: 1px solid #404040;
+	}
+	
+	.cs_sign .infors .luck_constellation li a {
+		color: #cacaca;
 	}
 }
 

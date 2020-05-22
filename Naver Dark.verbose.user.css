@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.6
+@version		1.48.21
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -11042,6 +11042,84 @@
 	.check_box input:disabled + label {
 		color: #666;
 	}
+	
+	.skin-1080 .simple_lst_section .pnick .nick a img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.ln14 {
+		color: #cacaca;
+	}
+	
+	#main-area select, #main-area textarea, #main-area .list-search input {
+		background-color: #242424;
+		border: 1px solid #404040 !important;
+		color: #cacaca;
+	}
+	
+	.reply-write {
+		border-color: #404040;
+	}
+	
+	.reply-write-box tbody td input[type='image'] {
+		filter: invert(86%) hue-rotate(-180deg);
+		background: transparent;
+	}
+	
+	#main-area .inbox .tbody table .m-tcol-c {
+		color: #fff;
+	}
+	
+	.perid-layer li a {
+		background-color: #2f2f2f;
+	}
+	
+	.perid-layer li a, .ly_sbjt li a {
+		color: #cacaca !important;
+	}
+	
+	.perid-layer li.line {
+		border-top: 1px solid #404040;
+	}
+	
+	.list-btn-nor .btn {
+		border: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	.list-btn-nor .m-tcol-c {
+		color: #cacaca !important;
+	}
+	
+	body > div#wrap > div#header + div#container, body > div#wrap > div#header > h1 > a[href="http://www.naver.com/"] > img[src*="https://cafe.pstatic.net/img/notice/h1"][alt="NAVER"], body > div#wrap > div#header > h1 > a[href="https://cafe.naver.com"] > img[src*="https://cafe.pstatic.net/img/notice/h1"][alt="카페"], body > div#wrap > div#header + div#container > h2 + div.content, body > div#wrap > div#header + div#container + div#footer > address, body > div#wrap > div#header > h1 + p.menu {
+		filter: invert(86%) hue-rotate(-180deg);
+		color: #888 !important;
+	}
+	
+	body > div#wrap > div#header + div#container > h2 + div.content > p > a[href='https://help.naver.com/'] {
+		color: #fff;
+	}
+	
+	.skin-1080 .article-attendance .box_write .set_attach {
+		border-top: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	.skin-1080 .article-attendance .list_attendance .link_text {
+		color: #fff;
+	}
+	
+	.skin-1080 .article-attendance .list_attendance li {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.skin-1080 .article-attendance .list_attendance .del:before, .skin-1080 .article-attendance .box_write .link_mission:before {
+		background-color: #404040;
+	}
+	
+	.skin-1080 .article-attendance .list_attendance .cmt {
+		color: #cacaca;
+	}
 }
 
 @-moz-document url-prefix("https://section.blog.naver.com"), url-prefix("http://section.blog.naver.com")
@@ -16071,7 +16149,7 @@
 	}
 	
 	.main_wrap .btn_set, .main_wrap .btn_more, .main_wrap .btn_apply_view, .main_wrap .section_lst .btn_bk_set {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.section_all_menu {
@@ -16108,7 +16186,7 @@
 	}
 	
 	.main_wrap .cafe_info_area .info_lst li .ico_mem, .main_wrap .cafe_info_area .info_lst li .ico_cnt {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	#footer {
@@ -16116,7 +16194,7 @@
 	}
 	
 	.main_wrap .bkmk_menu_lst li a {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.lnb_sub {
@@ -16132,7 +16210,7 @@
 	}
 	
 	.section_top .h_cont h2 {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.tbl_frm_type th, .tbl_frm_type .cafe_url {
@@ -16157,11 +16235,11 @@
 	}
 	
 	.valid_txt strong, .valid_txt em, .tbl_frm_type .cafe_img .btn_edit, .cafe_thumb_70 .border.mask_white_setting, .btn_type {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.cafe_keyword {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.btn_type_ny, .btn_type_ny2, .btn_type_ny span, .btn_type_ny strong, .btn_type_ny2 span, .btn_type_ny2 strong {
@@ -16188,7 +16266,7 @@
 	}
 	
 	.btn_type3 {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.section_top .tab_menu {
@@ -16254,13 +16332,13 @@
 		background-size: 22px 21px;
 		background-position: -1px -1px;
 		left: 80px;
-		filter: invert(100%);
+		filter: invert(100%) hue-rotate(-180deg);
 		border: 1px solid #c0c0c0;
 		box-sizing: border-box;
 	}
 	
 	#content .btn_help {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	input {
@@ -16300,7 +16378,7 @@
 	}
 	
 	.calendar div a.rollover img {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.calendar table td a:hover {
@@ -16324,7 +16402,7 @@
 	}
 	
 	.tbl_lst_type th {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.tbl_lst_type td {
@@ -16415,7 +16493,7 @@
 	}
 	
 	.ly_loading .loading_area .img_loading, .tbl_lst_type td .btn_mem_view {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.tbl_lst_type tbody tr.selected td {
@@ -16428,7 +16506,7 @@
 	}
 	
 	.c_paginate .prev, .c_paginate .next, .tbl_lst_type2 td .txt_tip {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.tbl_lst_type2 tr.last th, .tbl_lst_type2 tr.last td {
@@ -16476,7 +16554,7 @@
 	}
 	
 	.tbl_lst_type2 th .reset .ic_reset {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.btn_type_edt2, .btn_type_edt2 span, .btn_type_edt2 strong {
@@ -16511,7 +16589,7 @@
 	}
 	
 	.tbl_lst_type2.tbl_join .inner img {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.btn_type2 strong, .btn_type2 span {
@@ -16523,7 +16601,7 @@
 	}
 	
 	.btn_type2 .bu_add2 {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.section_cont .cont_tit, .section_cont .editer .dsc {
@@ -16572,7 +16650,7 @@
 	}
 	
 	#content .btn_help2 {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	.section_cont .bx_type .bx_top, .section_cont .bx_type .bx_btm, .section_cont .bx_type .bx_cont {
 		background: none;
@@ -16597,7 +16675,7 @@
 	}
 	
 	.btn_add a {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.edit_set_group .edit_area .edit_lst_area {
@@ -16610,7 +16688,7 @@
 	}
 	
 	.edit_set_group .edit_area .edit_btn_area li a, .edit_set_group .edit_more {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.edit_set_group {
@@ -16665,7 +16743,7 @@
 	}
 	
 	.noti_finish.solo .noti_tit {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.add_lst .h_menu_tit {
@@ -16678,7 +16756,7 @@
 	}
 	
 	#LockHelpOpener {
-		filter: invert(0%) !important;
+		filter: invert(0%) hue-rotate(-180deg) !important;
 	}
 	
 	.group_book_make .book_info td .m_p, .group_book_make .book_info td .delegate_area .in_line {
@@ -16711,7 +16789,7 @@
 	}
 	
 	.group_book_make .view_img_area {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.tbl_write th {
@@ -16731,7 +16809,7 @@
 	}
 	
 	.write_staff .ico_help {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.pop_board {
@@ -16753,7 +16831,7 @@
 	}
 	
 	.btn_type_edt3 {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.tbl_write .board_apply {
@@ -16780,7 +16858,7 @@
 	}
 	
 	.ly_type2 .clse, .ly_type2 .arr, .ly_type2 .arr2 {
-		filter: invert(82.3%);
+		filter: invert(82.3%) hue-rotate(-180deg);
 	}
 	
 	.ly_type2 .ly_cont {
@@ -16797,7 +16875,7 @@
 	}
 	
 	.board_tit .srch_date .btn_prev, .board_tit .srch_date .btn_next {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.lnb .lnb_menu li a.off {
@@ -16813,7 +16891,7 @@
 	}
 	
 	.u_ni_tooltip_content:before {
-		filter: invert(82.3%);
+		filter: invert(82.3%) hue-rotate(-180deg);
 	}
 	
 	.u_ni_tooltip_content {
@@ -16980,7 +17058,7 @@
 	}
 	
 	.lnb_sub .btn_statistic .statistic_help i {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.u_ni_range_component .u_ni_range_group .u_ni_range {
@@ -17013,7 +17091,7 @@
 	}
 	
 	.u_ni_inflow_sub .u_ni_btn_more:after {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.u_ni_table_component.u_ni_type_3 thead th, .u_ni_table_component.u_ni_type_4 thead th, .u_ni_table_component.u_ni_type_5 thead th, .u_ni_table_component.u_ni_type_6 thead th, .u_ni_table_component.u_ni_type_2 thead th {
@@ -17158,8 +17236,33 @@
 		border: 1px solid #404040;
 	}
 	
-	.u_ni_dashboard_component.u_ni_type_2 .u_ni_value_wrap {
+	.u_ni_dashboard_component.u_ni_type_2 .u_ni_value_wrap, .tbl_lst_type td .nick, .section_cont .bx_type .bx_cont .wrt .cafe_info, .section_cont .bx_type .bx_cont .wrt .cafe_info a {
 		color: #fff;
+	}
+	
+	.lst_type li, .section_top .noti_area .dsc, .bu_lst_type li {
+		color: #cacaca;
+	}
+	
+	select {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.lnb_sub li {
+		background: none;
+		position: relative;
+	}
+	
+	.lnb_sub li:not(.frst):before {
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		background: url(https://cafe.pstatic.net/img/manage/sp_bu.gif) no-repeat 0 -73px;
+		filter: invert(75%) hue-rotate(-180deg);
 	}
 }
 
@@ -20092,6 +20195,42 @@
 	
 	#content p[style*='color:#424242'] {
 		color: #cacaca !important;
+	}
+	
+	p.desc3, p.desc2 {
+		color: #cacaca;
+	}
+	
+	#content05 .bx1_shadow {
+		border: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	dl.dl12 dt, p.approval label {
+		color: #fff;
+	}
+	
+	p.desc15 {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	#footer {
+		border-top: 3px solid #404040;
+	}
+	
+	#content05 {
+		border-bottom: 1px solid #404040;
+	}
+	
+	#footer input[type='image'], #footer a img, dl.dl12 dd select {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.input_text {
+		border: 1px solid #404040;
+		background: #242424;
+		color: #cacaca;
 	}
 }
 
@@ -48146,7 +48285,7 @@
 	}
 }
 
-@-moz-document url-prefix("https://cafe.naver.com/ArticleWrite.nhn")
+@-moz-document url-prefix("https://cafe.naver.com/ArticleWrite.nhn"), url-prefix("https://cafe.naver.com/StaffArticleWrite.nhn")
 {
 	#editer_border {
 		border: 1px solid #404040;
@@ -48666,6 +48805,168 @@
 	
 	#naver_common_editor ul.subject .notice-1 {
 		color: #cacaca;
+	}
+	
+	#naver_common_editor .tool_bg {
+		background: #404040;
+	}
+	
+	.warning_message {
+		color: #cacaca;
+	}
+	
+	.btn_post.type_old .old_preview, .btn_post.type_old .old_write {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	#naver_common_editor .template {
+		border-left: 1px solid #404040;
+		border-right: 1px solid #404040;
+	}
+	
+	.table_commerce th {
+		border-top: 1px solid #5a5a5a;
+		color: #fff;
+	}
+	
+	.table_commerce td {
+		border-top: 1px solid #5a5a5a;
+		color: #cacaca;
+	}
+	
+	.deal_sort button.on + button {
+		border-left: 0 !important;
+		border-right: 1px solid #5a5a5a !important;
+	}
+	
+	.deal_sort button {
+		background-color: #2f2f2f;
+		border: 1px solid #5a5a5a !important;
+		border-right: 0 !important;
+		color: #cacaca;
+	}
+	
+	.deal_sort button.on {
+		color: #000;
+	}
+	
+	#naver_common_editor div.npay_receive {
+		color: #cacaca;
+	}
+	
+	.table_commerce .input_price em {
+		border-left: 1px solid #5a5a5a;
+		color: #cacaca;
+	}
+	
+	#naver_common_editor .table_commerce .input_price input {
+		color: #cacaca;
+	}
+	
+	.table_commerce .input_price {
+		border: 1px solid #5a5a5a;
+	}
+	
+	.sell_price .input_price {
+		border-color: #5a5a5a;
+	}
+	
+	#naver_common_editor .table_commerce .info {
+		color: #fff;
+	}
+	
+	.wseller .info {
+		border-top: 1px solid #5a5a5a;
+	}
+	
+	.wseller .agree {
+		color: #fff;
+	}
+	
+	.table_commerce table {
+		border-bottom: 1px solid #5a5a5a;
+	}
+	
+	.file_commerce {
+		border: 1px solid #404040;
+		background-color: #404040;
+	}
+	
+	#naver_common_editor .file_commerce .item {
+		color: #fff;
+	}
+	
+	.table_commerce .td_tit {
+		color: #fff;
+	}
+	
+	.section_market {
+		border-top: 1px solid #5a5a5a;
+	}
+	
+	.table_deal {
+		border: 1px solid #5a5a5a;
+	}
+	
+	.table_deal thead th {
+		background-color: #2f2f2f;
+		border-left: 1px solid #5a5a5a !important;
+		color: #fff;
+	}
+	
+	.table_deal tbody th {
+		border-top-color: #5a5a5a;
+		color: #fff !important;
+		background: #2f2f2f;
+	}
+	
+	.table_deal tbody td {
+		border-top-color: #5a5a5a;
+		border-left: 1px solid #5a5a5a;
+		color: #cacaca !important;
+		background: #242424;
+	}
+	
+	.table_commerce .input_price em, #naver_common_editor .table_commerce .input_price input {
+		background: #242424;
+	}
+	
+	.comm_layer3 {
+		background-color: #242424;
+		border: 1px solid #404040;
+	}
+	
+	#naver_common_editor .comm_layer3 h3 {
+		color: #fff;
+	}
+	
+	.comm_layer3 .txt_area {
+		color: #cacaca;
+	}
+	
+	.comm_layer3 .cash_info {
+		background-color: #2f2f2f;
+	}
+	
+	#naver_common_editor .comm_layer3 .btns a img, #naver_common_editor .btn_close img, #naver_common_editor .wseller .btns a img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.comm_layer2 .box_area {
+		background-color: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.comm_layer2 .box_area strong, #naver_common_editor div.npay_receive .comm_layer2 .box_area .tit, #naver_common_editor div.npay_receive .comm_layer2 .box_area .msg {
+		color: #fff;
+	}
+	
+	.comm_layer2 .sayc, #naver_common_editor div.npay_receive .comm_layer2 .box_area .msg_list li {
+		color: #cacaca;
+	}
+	
+	#naver_common_editor .template {
+		background: #404040;
 	}
 }
 

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.21
+@version		1.48.30
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -1546,6 +1546,10 @@
 	
 	.gnb_notice_li a.gnb_notice .gnb_icon, .mail_li a.gnb_mail .gnb_icon, .gnb_service_li a.gnb_service .gnb_icon {
 		filter: invert(0%) !important;
+	}
+	
+	.note_read .msg_contents a:visited {
+		color: #e177e3;
 	}
 }
 
@@ -8822,6 +8826,150 @@
 	.cs_sign .infors .luck_constellation li a {
 		color: #cacaca;
 	}
+	
+	.cs_game_content_info .game_main .content_info_area .game_content_bx {
+		border: 1px solid #404040;
+		border-width: 0 1px 1px;
+	}
+	
+	.cs_game_content_info .game_main .content_info_area .game_content_bx .explain_txt {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_game_content_info .content_info_area .content_txt {
+		color: #fff;
+	}
+	
+	.cs_game_content_info .content_info_area .detail_txt .detail_txt_list dd, .cs_game_content_info .content_info_area .detail_txt .detail_txt_list dd .system_tab li a {
+		color: #cacaca;
+	}
+	
+	.cs_game_content_info .content_info_area .detail_txt .detail_txt_list dd .system_tab li a:after, .cs_game_content_info .error_md_btn {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_game_content_info .content_info_area .button_area .button_list {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.cs_game_content_info .content_info_area .button_area .button_list li .btn_link {
+		color: #fff;
+	}
+	
+	.cs_game_content_info .content_info_area .button_area .button_list li+li {
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_game_content_info .game_main .content_info_area .game_content_bx .video_area, .cs_game_content_info .more_link+.other_link {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_game_content_info .game_main .content_info_area .game_content_bx .video_area .video_list li .video_title {
+		color: #fff;
+	}
+	
+	.cs_game_content_info .other_link dt {
+		color: #fff;
+	}
+	
+	.cs_game_content_info .game_main .content_info_area .game_content_bx .ly_info, .cs_game_content_info .content_info_area .detail_txt .detail_txt_list dd .ly_info {
+		background-color: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.cs_game_content_info .content_info_area .button_area .button_list li .btn_link .icon.google {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_game_champion .champion_area .champion_box {
+		border: 1px solid #404040;
+	}
+	
+	.cs_game_champion .champion_list .paging_bx a[class^=btn_page_], .cs_game_champion .game_sub .champion_list .paging_bx a[class^=btn_page_] {
+		border: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	.cs_game_champion .champion_list {
+		background-color: #2f2f2f;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_game_champion .champion_list .list_box li .ch_name {
+		color: #cacaca;
+	}
+	
+	.cs_game_champion .champion_info .rel_info dd {
+		color: #fff;
+	}
+	
+	.cs_game_champion .game_sub .champion_info .rel_info+.rel_txt, .cs_game_champion .champion_info .rel_info+.rel_txt {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_game_champion .champion_info .rel_txt, .cs_game_champion .champion_info .rel_link dt {
+		color: #fff;
+	}
+	
+	.cs_game_champion .champion_info .rel_info dd .icon_bar {
+		background-color: #404040;
+	}
+	
+	.cs_game_champion .game_sub .champion_list .list_box li.more_bx .ch_more, .cs_game_champion .game_sub .champion_list .list_box li.more_bx a {
+		color: #7474e3;
+	}
+	
+	.game_cafe_section {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.game_cafe_section .cafe_info {
+		background-color: #2f2f2f;
+	}
+	
+	.game_cafe_section .cafe_notice {
+		background-color: #242424;
+		border-top: 1px solid #404040;
+	}
+	
+	.game_cafe_section .cafe_summary .cafe_name {
+		color: #fff;
+	}
+	
+	.game_cafe_section .notice_list .item {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_game_series .game_list .detail_bx {
+		border: 1px solid #404040;
+		border-width: 0 1px 1px;
+	}
+	
+	.cs_review .group_tab {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+		border-width: 1px 0;
+	}
+	
+	.cs_review .group_tab .btn_prev, .cs_review .group_tab .btn_next {
+		background-color: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.cs_review .group_tab .tab_area .tab .title {
+		color: #cacaca;
+	}
+	
+	.cs_game_content_info .game_main .content_info_area .game_title_bx.basic, .cs_game_content_info .game_main.g_mobile .content_info_area .game_title_bx.basic {
+		border: 1px solid #404040;
+		background-color: #2f2f2f !important;
+	}
+	
+	.cs_game_content_info .game_main.g_mobile .content_info_area .game_title_bx.basic .game_title strong, .cs_game_content_info .game_main .content_info_area .game_title_bx.basic .game_title strong, .cs_game_content_info .game_main .content_info_area .game_title_bx.basic .game_title a, .cs_game_content_info .game_main.g_mobile .content_info_area .game_title_bx.basic .game_title a {
+		color: #7474e3;
+	}
 }
 
 @-moz-document url-prefix("https://nid.naver.com/user2/help/")
@@ -9233,6 +9381,53 @@
 	#footer a {
 		color: #cacaca;
 	}
+	
+	.check_message {
+		background: #242424;
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.check_message h3 {
+		filter: invert(89%) hue-rotate(-180deg);
+	}
+	
+	a.btn_check {
+		color: #242424;
+	}
+	
+	.notice_adult img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.adt_login h3 {
+		color: #cacaca;
+	}
+	
+	.adt_login .box_bg03 {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.adt_login .box_bg03 .sel p {
+		color: #000;
+	}
+	
+	.real_need_help {
+		color: #cacaca;
+	}
+	
+	.adt_login #content {
+		width: inherit;
+	}
+	
+	.adt_login .notice_adult div {
+		margin: 11px 0 0 15px;
+	}
+	
+	.check_message h3 {
+		color: #000 !important;
+	}
 }
 
 @-moz-document url-prefix("https://nid.naver.com/user2/help/secretId.nhn")
@@ -9557,7 +9752,11 @@
 		color: #000;
 	}
 	
-	.section_create .cafe_input .rel select, .section_create .cafe_input td .input_txt2, #group_set1 {
+	.section_create .cafe_input .rel select, #group_set1 {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.section_create .cafe_input td .input_txt2 {
 		background-color: #242424;
 		color: #fff;
 		border: 1px solid #404040;
@@ -11119,6 +11318,10 @@
 	
 	.skin-1080 .article-attendance .list_attendance .cmt {
 		color: #cacaca;
+	}
+	
+	.skin-1080 .box-g-m {
+		border-bottom-color: #404040;
 	}
 }
 
@@ -32822,7 +33025,7 @@
 	}
 	
 	#post-area .post-view *[style*='background-color'] {
-		background-color: #242424 !important;
+		background-color: #2f2f2f !important;
 	}
 	
 	#post-area .post-view *[style*='border-bottom']:not([style*='border-bottom: none']):not([style*='border-bottom:none']) {
@@ -32850,7 +33053,7 @@
 	}
 	
 	#post-area .post-view *[style*='BACKGROUND-COLOR'] {
-		background-color: #242424 !important;
+		background-color: #2f2f2f !important;
 	}
 	
 	#post-area .post-view *[style*='BORDER-BOTTOM']:not([style*='BORDER-BOTTOM: NONE']):not([style*='BORDER-BOTTOM:NONE']) {
@@ -49445,6 +49648,7 @@
 	
 	.map_location_info {
 		background-color: #2f2f2f;
+		box-shadow: 0 0 15px 7px rgba(0, 0, 0, .25);
 	}
 	
 	.map_location_info .ttl_info {
@@ -49844,5 +50048,9 @@
 	
 	.pin_map.on:after, .card_typhoon .title:after {
 		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.card_today .item_today.level5_4.type_dsc .level_text:before {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 }

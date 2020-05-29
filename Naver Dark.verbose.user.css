@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.30
+@version		1.48.33
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -3427,7 +3427,27 @@
 		color: #fff;
 	}
 	
-	#lnb .lnb_menu .tab, .snb_itembox .btn_inp .tx, .contents03_sub td, th, .op_calendar table td, .op_calendar table td a:active, .op_calendar table td a:visited, .op_calendar table td a, .op_calendar table td a:active, .op_calendar table td a:visited, .op_calendar .h_cal strong, .snb_itembox .sch_option .inp_op input, .snb_itembox .sch_option dt, h2, .ndic .txt_sign, .dic_aside dt .dsc_tx, .sc_head h2, .sp_kindic .group_kindic .info_area .txt_box, .type01 dd, .lst_realtime_srch li .keyword .tit, .art_list .lst_art dd a, .sub_pack .music .lst_music_sympathy li .tit, .not_found02 li, .section h3, .cs_reelect_sub .cont_list2 .sbc_txt .tlt em, .cs_reelect_sub .cont_list2 .sbc_txt dd, .contents03 #header h3, .cs_calculator .tab ul li:not(.selected) a, .cs_calculator .cs_box .cal_top label.label_f, .cs_calculator .cs_box .desc .obesity .obesity_box_inner .obesity_layer p, .sp_kindic .kindic_title .title, .cs_foreigninfo .rate_compare .check_area ul li .radio_check.on .radio_text, .cs_foreigninfo .ly_cont li a, .ds_address .ds_box dl dd .box_input.action, .cs_area_number .cs_box dl dt, .cs_foreigninfo .c_nation .lst_country .lst_country_inner a, .cs_foreigninfo .c_worldtime .time_info li ul li .nat span, .sp_feedback .feedback_area .content_how .tit, .cs_contuntil .unit .compare_area .unit_lst li a, .cs_foreigninfo .c_rate .rate_table_bx .rate_table_info th, .cs_foreigninfo .c_rate .rate_table_bx .rate_table_info thead span, .cs_foreigninfo .c_rate .rate_table_bx .rate_table_info a, .dsc_ncaution2 .ly_ad_dsc p, .nsite .type01 dd.channel_info .channel_link, .cs_stock .ar_spot .spt_tlt h3 a .stk_nm, .cs_stock .cont_grp .grp_nav li.on a, .cs_stock .ar_cont .cont_dtcon .dtcon_lst .lst li dd, .cs_stock .ar_cont .cont_dtcon .dtcon_lst .lst2 li a, .cs_stock .ar_spot .spt_tlt .my_stock, .sp_company .company_area, .people_info .layer_tooltip2 .content .request, .people_info .layer_tooltip2 .content .helpdesk, .cs_air_environment .sub_tab_list li.on a, .cs_air_environment .main_tab .list_tab li a, .cs_air_environment .main_box .all_state .state_list li .state_title, .cs_air_environment .ratio strong, .cs_air_environment .main_box .txt_l, .cs_weather .main_info .info_temperature, .cs_weather .main_info .info_data .info_list li, .cs_weather .sub_info .detail_box dl dt a, .cs_weather .title_sub .sub_option .btn_option[role="option"][aria-selected="true"], .cs_weather .table_info .list_area .weather_item, .cs_weather .tomorrow_area .main_info .info_temperature, .cs_weather .monthly_area .main_info .forecast, .cs_weather .sort_box .lst_select .select_box .select_lst li a, .cs_weather .weekly_prospect, .cs_weather .tomorrow_area .main_info .info_data .info_list li .indicator a, .cs_disaster .wrap_dzst5 .scr_dzst2 .detail_list dd, .cs_disaster .wrap_dzst2 .tit_dzst h4, .cs_disaster .wrap_dzst3 h4, .cs_disaster .wrap_dzst6 h4, .cs_traffic .t_tab li a, .cs_traffic .t_sub li a, .cs_weather .c_box .c_body .loc_area .l_header .tit, .cs_weather .c_box .c_body .news_area .leis_news .ln_header .tit, .cs_weather .c_box .c_body .news_area .leis_news .lw_tbl td.dat, .cs_weather .c_box .c_body .rw_tbl dt a, .cs_traffic .t_way p, .cs_broadcast .scroll_box .image_list ul li .cn_tit.tfl, .cs_broadcast .lst_cont .cont_inner .timetable2 li .time_min, .cs_broadcast_list .sort_option .sort_title, .cs_broadcast_list .list_table .bd_detatil .bd_info a, .cs_broadcast_list .list_table .bd_detatil .bd_station a {
+	.type01 dd {
+		color: #cacaca !important;
+	}
+	
+	strong.hl, .realtime2 .rt_org .info_tit strong.hl, .realtime2 a.txt_link strong.hl {
+		color: #fff !important;
+	}
+	
+	a strong.hl, a.tit strong {
+		color: #4b4bee !important;
+	}
+	
+	a:visited strong.hl {
+		color: #f355f6 !important;
+	}
+	
+	a.txt_url strong.hl {
+		color: #22b453 !important;
+	}
+	
+	#lnb .lnb_menu .tab, .snb_itembox .btn_inp .tx, .contents03_sub td, th, .op_calendar table td, .op_calendar table td a:active, .op_calendar table td a:visited, .op_calendar table td a, .op_calendar table td a:active, .op_calendar table td a:visited, .op_calendar .h_cal strong, .snb_itembox .sch_option .inp_op input, .snb_itembox .sch_option dt, h2, .ndic .txt_sign, .dic_aside dt .dsc_tx, .sc_head h2, .sp_kindic .group_kindic .info_area .txt_box, .lst_realtime_srch li .keyword .tit, .art_list .lst_art dd a, .sub_pack .music .lst_music_sympathy li .tit, .not_found02 li, .section h3, .cs_reelect_sub .cont_list2 .sbc_txt .tlt em, .cs_reelect_sub .cont_list2 .sbc_txt dd, .contents03 #header h3, .cs_calculator .tab ul li:not(.selected) a, .cs_calculator .cs_box .cal_top label.label_f, .cs_calculator .cs_box .desc .obesity .obesity_box_inner .obesity_layer p, .sp_kindic .kindic_title .title, .cs_foreigninfo .rate_compare .check_area ul li .radio_check.on .radio_text, .cs_foreigninfo .ly_cont li a, .ds_address .ds_box dl dd .box_input.action, .cs_area_number .cs_box dl dt, .cs_foreigninfo .c_nation .lst_country .lst_country_inner a, .cs_foreigninfo .c_worldtime .time_info li ul li .nat span, .sp_feedback .feedback_area .content_how .tit, .cs_contuntil .unit .compare_area .unit_lst li a, .cs_foreigninfo .c_rate .rate_table_bx .rate_table_info th, .cs_foreigninfo .c_rate .rate_table_bx .rate_table_info thead span, .cs_foreigninfo .c_rate .rate_table_bx .rate_table_info a, .dsc_ncaution2 .ly_ad_dsc p, .nsite .type01 dd.channel_info .channel_link, .cs_stock .ar_spot .spt_tlt h3 a .stk_nm, .cs_stock .cont_grp .grp_nav li.on a, .cs_stock .ar_cont .cont_dtcon .dtcon_lst .lst li dd, .cs_stock .ar_cont .cont_dtcon .dtcon_lst .lst2 li a, .cs_stock .ar_spot .spt_tlt .my_stock, .sp_company .company_area, .people_info .layer_tooltip2 .content .request, .people_info .layer_tooltip2 .content .helpdesk, .cs_air_environment .sub_tab_list li.on a, .cs_air_environment .main_tab .list_tab li a, .cs_air_environment .main_box .all_state .state_list li .state_title, .cs_air_environment .ratio strong, .cs_air_environment .main_box .txt_l, .cs_weather .main_info .info_temperature, .cs_weather .main_info .info_data .info_list li, .cs_weather .sub_info .detail_box dl dt a, .cs_weather .title_sub .sub_option .btn_option[role="option"][aria-selected="true"], .cs_weather .table_info .list_area .weather_item, .cs_weather .tomorrow_area .main_info .info_temperature, .cs_weather .monthly_area .main_info .forecast, .cs_weather .sort_box .lst_select .select_box .select_lst li a, .cs_weather .weekly_prospect, .cs_weather .tomorrow_area .main_info .info_data .info_list li .indicator a, .cs_disaster .wrap_dzst5 .scr_dzst2 .detail_list dd, .cs_disaster .wrap_dzst2 .tit_dzst h4, .cs_disaster .wrap_dzst3 h4, .cs_disaster .wrap_dzst6 h4, .cs_traffic .t_tab li a, .cs_traffic .t_sub li a, .cs_weather .c_box .c_body .loc_area .l_header .tit, .cs_weather .c_box .c_body .news_area .leis_news .ln_header .tit, .cs_weather .c_box .c_body .news_area .leis_news .lw_tbl td.dat, .cs_weather .c_box .c_body .rw_tbl dt a, .cs_traffic .t_way p, .cs_broadcast .scroll_box .image_list ul li .cn_tit.tfl, .cs_broadcast .lst_cont .cont_inner .timetable2 li .time_min, .cs_broadcast_list .sort_option .sort_title, .cs_broadcast_list .list_table .bd_detatil .bd_info a, .cs_broadcast_list .list_table .bd_detatil .bd_station a {
 		color: #cacaca !important;
 	}
 	
@@ -8969,6 +8989,112 @@
 	
 	.cs_game_content_info .game_main.g_mobile .content_info_area .game_title_bx.basic .game_title strong, .cs_game_content_info .game_main .content_info_area .game_title_bx.basic .game_title strong, .cs_game_content_info .game_main .content_info_area .game_title_bx.basic .game_title a, .cs_game_content_info .game_main.g_mobile .content_info_area .game_title_bx.basic .game_title a {
 		color: #7474e3;
+	}
+	
+	.cs_school .school_info+.school_info {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_school .school_info .item .txt {
+		color: #fff;
+	}
+	
+	.cs_school .school_info .item .txt .link_map {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.cs_school .api_title .official, .cs_school .rel_txt .ico_alert {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_school .tab_area {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_school .tab_area .list_tab li.on a .menu {
+		color: #fff;
+	}
+	
+	.cs_school .tab_area .list_tab li a .menu {
+		color: #cacaca;
+	}
+	
+	.cs_school .chart, .cs_school .school_menu {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_school .chart .chart_list_all .school_chart .chart_name, .cs_school .chart .chart_list_all .chart_list_name {
+		color: #cacaca;
+	}
+	
+	.cs_school .chart .chart_list_all .school_chart .chart_box_bar {
+		background-color: #404040;
+	}
+	
+	.cs_school .chart .chart_list_all .school_pie_chart .chart_name {
+		color: #cacaca;
+	}
+	
+	.cs_school .school_map .map_border + img, .cs_school .page_sec a {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_school .school_menu ul .menu_info {
+		border: 1px solid #404040;
+	}
+	
+	.cs_school .school_area {
+		color: #cacaca;
+	}
+	
+	.sp_website .ly_option {
+		background-color: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.sp_website .ly_option .item:hover {
+		background-color: #2f2f2f;
+	}
+	
+	.sp_website .ly_option .item+.item {
+		border-top: 1px solid #404040;
+	}
+	
+	.sp_website .txt_block a:visited, .sp_website .ly_option .item {
+		color: #cacaca;
+	}
+	
+	.research .box_input {
+		border: 1px solid #404040;
+		color: #cacaca;
+		background: #242424;
+	}
+	
+	.research .inp_sec label {
+		color: #cacaca;
+	}
+	
+	.research input[type=image] {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.title_num {
+		color: #fff;
+	}
+	
+	.cs_school .chart .chart_list_all .school_pie_chart .gender_group span {
+		color: #cacaca;
+	}
+	
+	.cs_school .rel_txt .layer_info {
+		background-color: #242424;
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.cs_school .rel_txt .layer_info .title {
+		color: #fff;
 	}
 }
 
@@ -32011,6 +32137,15 @@
 	}
 	
 	.sc_themecast .btn_more_wrap .btn_more {
+		color: #cacaca;
+	}
+	
+	.main_topic_wrap {
+		background-color: #242424;
+		color: #cacaca;
+	}
+	
+	.main_topic_wrap .main_topic_context {
 		color: #cacaca;
 	}
 }

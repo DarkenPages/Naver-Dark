@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.33
+@version		1.48.35
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -9095,6 +9095,257 @@
 	
 	.cs_school .rel_txt .layer_info .title {
 		color: #fff;
+	}
+	
+	.cs_train_station .a_detail .detail dl .cc_address .ico_load_name {
+		border: 1px solid #404040;
+	}
+	
+	.cs_train_station .detail .weather .ico_w {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_train_station dd.way_find span.t_de, .cs_train_station dd.way_find span.t_de {
+		color: #fff;
+	}
+	
+	.cs_train_station dd.way_find .box_input, .cs_train_station dd.way_find img.b_ar {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_train_station .district_slayer {
+		border: 1px solid #404040;
+		background-color: #242424;
+		box-shadow: 0 1px 0 #404040;
+	}
+	
+	.cs_train_station dd.way_find a img, .cs_train_station .relation_kyd .call {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_train_station .detail dd dl dt, .cs_train_station .relation_kyd dt {
+		color: #fff !important;
+	}
+	
+	.cs_train_station .relation_kyd dd a {
+		color: #7474e3;
+	}
+	
+	.cs_train_station .realtime_info {
+		border: 4px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_train_station .slc_station {
+		background-color: #242424;
+	}
+	
+	.cs_train_station .station_sch .btn_change {
+		background-color: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.cs_train_station .train_info_box .bd_l, .cs_train_station .train_info_box .bd_r {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_train_station .st_info {
+		border: 1px solid #404040;
+		border-width: 1px 0;
+	}
+	
+	.cs_train_station .realtime_info input.on {
+		color: #fff;
+	}
+	
+	.cs_train_station .realtime_info input {
+		color: #cacaca;
+	}
+	
+	.cs_train_station .slc_info {
+		background-color: #242424;
+		border: 1px solid #404040;
+		border-width: 1px 0;
+	}
+	
+	.cs_train_station .slc_info .slc_txt {
+		color: #fff;
+	}
+	
+	.cs_train_station .station_sch .btn_change>span, .cs_train_station .ico_input_arr, .cs_train_station .ico_calendar, .cs_train_station .ly_calendar .tit_box a {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_train_station .ly_station.on {
+		background-color: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.cs_train_station .st_lst, .cs_train_station .st_lst+strong {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_train_station .st_lst a {
+		color: #cacaca;
+	}
+	
+	.cs_train_station .st_lst a:hover, .cs_train_station .st_lst li.slect a {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_train_station .st_lst_box strong {
+		color: #fff;
+	}
+	
+	.cs_train_station .ly_calendar.on {
+		border: 1px solid #404040;
+	}
+	
+	.cs_train_station .ly_calendar>div {
+		background-color: #242424;
+	}
+	
+	.cs_train_station .ly_calendar .tit_box .calendar-title {
+		color: #fff;
+	}
+	
+	.cs_train_station .ly_calendar table th {
+		border-top: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.cs_train_station .ly_calendar thead tr {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_train_station .ly_calendar table .calendar-unselectable a, .cs_train_station .ly_calendar table .calendar-unselectable.calendar-sun a {
+		color: #cacaca !important;
+	}
+	
+	.cs_train_station .ly_calendar table td a:hover {
+		background-color: #2f2f2f;
+		color: #fff;
+	}
+	
+	.cs_train_station .ly_calendar table td a:visited, .cs_train_station .ly_calendar table td a:active {
+		color: #fff;
+	}
+	
+	.cs_train_station .ly_calendar table td {
+		border-top: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.cs_train_station .ly_calendar table .calendar-today a:hover, .cs_train_station .ly_calendar table .calendar-today a:visited, .cs_train_station .ly_calendar table .calendar-today a:active {
+		background-color: #2f2f2f;
+		color: #fff;
+	}
+	
+	.cs_train_station .ly_calendar table td a {
+		color: #999;
+	}
+	
+	.cs_train_station .ly_calendar table .calendar-selected {
+		background-color: #3a3a3a;
+	}
+	
+	.cs_train_station .ly_train.on {
+		border: 1px solid #404040;
+		border-width: 0 1px 1px;
+		background-color: #242424;
+	}
+	
+	.cs_train_station .ico_train {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_train_station .ly_train a:hover, .cs_train_station .ly_train li.slect a {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_train_station .ly_train a {
+		color: #cacaca;
+	}
+	
+	.cs_train_station .tain_time_tb {
+		border: 1px solid #404040;
+	}
+	
+	.cs_train_station .tain_time_tb .guide {
+		border-top: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_train_station .tain_time_tb .guide>p, .cs_train_station .option li a {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_train_station .nresult p {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_train_station .view {
+		border: 1px solid #404040;
+		border-bottom: 0;
+	}
+	
+	.cs_train_station .option {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.cs_train_station .view #theater_map {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_train_station .time_tb td, .cs_train_station .time_tb tr:first-child td {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_train_station .time_tb .lk_charge {
+		color: #fff;
+	}
+	
+	.cs_train_station .ly_charge.on {
+		border: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	.cs_train_station .ly_charge .train_info {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_train_station .ly_charge .btn_cls {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_train_station .tb_train_charge th {
+		border-bottom: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.cs_train_station .tb_train_charge tr td:first-child {
+		border-right: 1px solid #404040;
+		color: #fff;
+	}
+	
+	.cs_train_station .btn_search {
+		background: rgb(95, 134, 245);
+		border-radius: 2px;
+		z-index: -1;
+	}
+	
+	.cs_train_station .btn_search:before {
+		position: absolute;
+		content: '열차조회';
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		white-space: nowrap;
+		color: #fff;
+		z-index: 100;
+		font-size: 15px;
+		pointer-events: none;
 	}
 }
 

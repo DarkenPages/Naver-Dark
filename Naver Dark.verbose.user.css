@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.42
+@version		1.48.44
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -9391,7 +9391,7 @@
 		color: #cacaca;
 	}
 	
-	.cs_civil_complaint .cc_con .cc_sec1 div h5 span .btn_cc, .cs_civil_complaint .cc_footer ul li .cc_bar, .cs_civil_complaint .cc_notice p, .cs_civil_complaint .cc_notice p {
+	.cs_civil_complaint .cc_con .cc_sec1 div h5 span .btn_cc, .cs_civil_complaint .cc_footer ul li .cc_bar, .cs_civil_complaint .cc_notice p, .cs_civil_complaint .cc_notice p, .cs_delivery .selc select, .cs_delivery .ginfo {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
@@ -9406,6 +9406,58 @@
 	
 	.cs_civil_complaint .cc_footer h5 {
 		color: #fff;
+	}
+	
+	.cs_delivery .sch_box {
+		border: 1px solid #404040;
+	}
+	
+	.cs_delivery .inp .in_bx {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.cs_delivery .inp input[type=image] {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_delivery .rsult_box {
+		border: 1px solid #404040;
+		color: #cacaca;
+		border-width: 0 1px 1px;
+	}
+	
+	.cs_delivery .subinfo {
+		border: 1px solid #404040;
+		border-width: 0 1px;
+	}
+	
+	.cs_delivery .artb {
+		border: 1px solid #404040;
+		border-top: 0;
+	}
+	
+	.cs_delivery .artb th {
+		background-color: #2f2f2f;
+		color: #fff;
+	}
+	
+	.cs_delivery .artb table {
+		border-top: 2px solid #404040;
+	}
+	
+	.cs_delivery .artb td {
+		border: 1px solid #404040;
+		border-width: 1px 0 0 0;
+		background-color: #242424;
+	}
+	
+	.cs_delivery .artb .on td p {
+		color: #fff;
+	}
+	
+	.cs_delivery .rsult_box .lodg {
+		color: #cacaca;
 	}
 }
 

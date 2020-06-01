@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.35
+@version		1.48.42
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -3960,7 +3960,7 @@
 		background-color: #242424;
 	}
 	
-	.section_more + a img {
+	.section_more+a img {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
@@ -4481,7 +4481,7 @@
 		color: #cacaca;
 	}
 	
-	.cs_university .university_info +.university_info {
+	.cs_university .university_info+.university_info {
 		border-top: 1px solid #404040;
 	}
 	
@@ -4694,7 +4694,7 @@
 	}
 	
 	.sp_shop_default .partial_noti .point {
-	    color: #fff;
+		color: #fff;
 	}
 	
 	.cs_payculculator .calculator_wrap {
@@ -5026,7 +5026,7 @@
 		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
-	.nx_place .list_bizinfo .list_menu .photo_count svg path{
+	.nx_place .list_bizinfo .list_menu .photo_count svg path {
 		fill: #7474e3;
 	}
 	
@@ -5320,7 +5320,7 @@
 		color: #fff !important;
 	}
 	
-	.cs_game_list .relation_area + .notice_info {
+	.cs_game_list .relation_area+.notice_info {
 		border-top: 1px solid #404040;
 	}
 	
@@ -5376,7 +5376,7 @@
 		border: 1px solid #404040;
 	}
 	
-	.sp_company .company_map .map_border + img, .cs_stock .ar_cont .cont_dtcon .dtcon_lst .lst2 li .ico {
+	.sp_company .company_map .map_border+img, .cs_stock .ar_cont .cont_dtcon .dtcon_lst .lst2 li .ico {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
@@ -5891,7 +5891,7 @@
 		border-bottom: 1px solid #404040;
 	}
 	
-	.cs_broadcast .broadcast_wrap .detail_info > dd .date {
+	.cs_broadcast .broadcast_wrap .detail_info>dd .date {
 		color: #cacaca !important;
 	}
 	
@@ -5937,7 +5937,7 @@
 		border-top: 1px solid #404040;
 	}
 	
-	.cs_broadcast .paging_bx > a[class^=btn_page_] .ico_spr {
+	.cs_broadcast .paging_bx>a[class^=btn_page_] .ico_spr {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
@@ -5957,7 +5957,7 @@
 		stroke: #404040;
 	}
 	
-	.cs_broadcast .rate_info_box li + li:before {
+	.cs_broadcast .rate_info_box li+li:before {
 		background-color: #404040;
 	}
 	
@@ -6057,13 +6057,13 @@
 		background-color: #2f2f2f;
 	}
 	
-	.cs_tvtime .weekly .timeline_head .title_right .time_wrap > ul li {
+	.cs_tvtime .weekly .timeline_head .title_right .time_wrap>ul li {
 		border: 1px solid #404040;
 		border-width: 1px 0 1px 1px;
 		background: #2f2f2f;
 	}
 	
-	.cs_tvtime .weekly .timeline_head .title_right .time_wrap > ul li > a {
+	.cs_tvtime .weekly .timeline_head .title_right .time_wrap>ul li>a {
 		color: #cacaca;
 	}
 	
@@ -6096,7 +6096,7 @@
 	}
 	
 	.dic_jp .lang_type, .dic_jp .txt_ex strong {
-	    color: #fff;
+		color: #fff;
 	}
 	
 	.cs_tvtime .main_tab {
@@ -6123,11 +6123,11 @@
 		background-color: #242424;
 	}
 	
-	.cs_tvtime .main_tab + .date_tab, .cs_tvtime .main_tab + .timeline_wrap, .cs_tvtime .main_tab + ._contents_area {
+	.cs_tvtime .main_tab+.date_tab, .cs_tvtime .main_tab+.timeline_wrap, .cs_tvtime .main_tab+._contents_area {
 		border-top: 1px solid #404040;
 	}
 	
-	.cs_tvtime .date_tab li[aria-selected="true"] a, .cs_tvtime .list_left .item > a {
+	.cs_tvtime .date_tab li[aria-selected="true"] a, .cs_tvtime .list_left .item>a {
 		color: #fff;
 	}
 	
@@ -6148,7 +6148,7 @@
 		background-color: #182030;
 	}
 	
-	.cs_tvtime .timeline_head .title_right .time_wrap > ul > li {
+	.cs_tvtime .timeline_head .title_right .time_wrap>ul>li {
 		border: 1px solid #246;
 		border-width: 1px 0 1px;
 	}
@@ -6163,7 +6163,7 @@
 		background-color: #182030;
 	}
 	
-	.cs_tvtime .timeline_head .title_right .time_wrap > ul > li:after {
+	.cs_tvtime .timeline_head .title_right .time_wrap>ul>li:after {
 		opacity: 1;
 		filter: none;
 		background-color: #404040;
@@ -6209,7 +6209,7 @@
 		border: 1px solid #404040;
 	}
 	
-	.cs_tvtime .weekly .timeline_body .program_list .ind_program .inner span.pr_title, .cs_tvtime .weekly .timeline_head .title_right .time_wrap > ul li span {
+	.cs_tvtime .weekly .timeline_body .program_list .ind_program .inner span.pr_title, .cs_tvtime .weekly .timeline_head .title_right .time_wrap>ul li span {
 		color: #fff;
 	}
 	
@@ -6295,7 +6295,7 @@
 		color: #cacaca;
 	}
 	
-	.cs_economy_chart .tab_area + div .chart_area, .cs_economy_chart .sub_tab_list {
+	.cs_economy_chart .tab_area+div .chart_area, .cs_economy_chart .sub_tab_list {
 		border-top: 1px solid #404040;
 	}
 	
@@ -6378,7 +6378,7 @@
 		color: #7474e3;
 	}
 	
-	.cs_economy_chart .sub_tab_list .tab + .tab:after {
+	.cs_economy_chart .sub_tab_list .tab+.tab:after {
 		background-color: #404040;
 	}
 	
@@ -6400,15 +6400,15 @@
 		color: #cacaca;
 	}
 	
-	.cs_economy_chart .bb-tooltip-container .bb-tooltip li > span {
+	.cs_economy_chart .bb-tooltip-container .bb-tooltip li>span {
 		background-color: #2f2f2f;
 	}
 	
-	.cs_economy_chart .bb-tooltip-container .bb-tooltip li > span.name {
+	.cs_economy_chart .bb-tooltip-container .bb-tooltip li>span.name {
 		color: #cacaca;
 	}
 	
-	.cs_economy_chart .bb-tooltip-container .bb-tooltip li > span.value {
+	.cs_economy_chart .bb-tooltip-container .bb-tooltip li>span.value {
 		color: #fff;
 	}
 	
@@ -6429,7 +6429,7 @@
 		filter: invert(81.5%) hue-rotate(-180deg);
 	}
 	
-	.cs_economy_chart .tab_area + div .data_table {
+	.cs_economy_chart .tab_area+div .data_table {
 		border-top: 1px solid #404040;
 	}
 	
@@ -6525,7 +6525,7 @@
 		border-top: 1px solid #404040;
 	}
 	
-	.cs_general_election .candidate_search_area .search_result .search_all + .search_list_area {
+	.cs_general_election .candidate_search_area .search_result .search_all+.search_list_area {
 		background: #242424;
 	}
 	
@@ -6556,7 +6556,7 @@
 		color: #cacaca;
 	}
 	
-	.cs_general_election .sub_tab_area .type_main .tab_list .tab + .tab:before {
+	.cs_general_election .sub_tab_area .type_main .tab_list .tab+.tab:before {
 		border-left: 1px solid #404040;
 	}
 	
@@ -6577,7 +6577,7 @@
 		color: #9285d4;
 	}
 	
-	.cs_general_election .notice_area.proportional .notice_txt + .notice_txt, .cs_general_election .candidate_search_area {
+	.cs_general_election .notice_area.proportional .notice_txt+.notice_txt, .cs_general_election .candidate_search_area {
 		border-top: 1px solid #404040;
 	}
 	
@@ -6721,7 +6721,7 @@
 		border-bottom: 1px solid #404040;
 	}
 	
-	.cs_reby_election .election_area table tbody td + td {
+	.cs_reby_election .election_area table tbody td+td {
 		border-left: 1px solid #404040;
 	}
 	
@@ -6752,7 +6752,7 @@
 		background-color: #2f2f2f;
 	}
 	
-	.cs_general_election .result_ly > strong {
+	.cs_general_election .result_ly>strong {
 		color: #fff;
 	}
 	
@@ -6819,7 +6819,7 @@
 		color: #fff;
 	}
 	
-	.cs_voting_rate .page_area .paging_bx a[class^=btn_page_], .cs_voting_rate .voting_rate_bx .graph_bx{
+	.cs_voting_rate .page_area .paging_bx a[class^=btn_page_], .cs_voting_rate .voting_rate_bx .graph_bx {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
@@ -7041,7 +7041,7 @@
 		border-bottom: 1px solid #404040;
 	}
 	
-	.cs_by_election .by_election_info table tbody td + td {
+	.cs_by_election .by_election_info table tbody td+td {
 		border-left: 1px solid #404040;
 	}
 	
@@ -7079,7 +7079,7 @@
 		border-top: 1px solid #404040;
 	}
 	
-	.cs_minimum_wages .tb_area .wage_table tbody tr td + td, .cs_minimum_wages .tb_area .wage_table thead th + th {
+	.cs_minimum_wages .tb_area .wage_table tbody tr td+td, .cs_minimum_wages .tb_area .wage_table thead th+th {
 		border-left: 1px solid #404040;
 	}
 	
@@ -7571,7 +7571,7 @@
 		color: #cacaca;
 	}
 	
-	.cs_general_election .turnout_info .graph_area .rate_count.reporting ul li .count_num + .count_name:before {
+	.cs_general_election .turnout_info .graph_area .rate_count.reporting ul li .count_num+.count_name:before {
 		border-left: 1px solid #404040;
 	}
 	
@@ -7579,7 +7579,7 @@
 		color: #fff;
 	}
 	
-	.cs_general_election .summary_area .reporting_area .rate_map + .ballot_tally_area.reporting .search_all:after {
+	.cs_general_election .summary_area .reporting_area .rate_map+.ballot_tally_area.reporting .search_all:after {
 		border-top: 1px solid #404040;
 	}
 	
@@ -7627,7 +7627,7 @@
 		background-color: #404040;
 	}
 	
-	.cs_general_election .index_area + .turnout_area.local, .cs_general_election .summary_box {
+	.cs_general_election .index_area+.turnout_area.local, .cs_general_election .summary_box {
 		border-top: 1px solid #404040;
 	}
 	
@@ -7707,7 +7707,7 @@
 		border-left: 1px solid #404040;
 	}
 	
-	.cs_general_election .voting_station + .turnout_area {
+	.cs_general_election .voting_station+.turnout_area {
 		border-top: 1px solid #404040;
 	}
 	
@@ -7735,11 +7735,11 @@
 		border-bottom: 1px solid #404040;
 	}
 	
-	.cs_general_election .summary_area .reporting_area .search_all .standard_time + .more_view:before {
+	.cs_general_election .summary_area .reporting_area .search_all .standard_time+.more_view:before {
 		background: #404040;
 	}
 	
-	.cs_general_election .winner_area .local_candidate + .turnout_area {
+	.cs_general_election .winner_area .local_candidate+.turnout_area {
 		border-top: 1px solid #404040;
 	}
 	
@@ -8167,12 +8167,12 @@
 		color: #cacaca;
 	}
 	
-	.cs_nperformance .detail_info .btn_box > a {
+	.cs_nperformance .detail_info .btn_box>a {
 		border: 1px solid #404040;
 		background: #2f2f2f;
 	}
 	
-	.cs_nperformance .detail_info .btn_box > a .btn_name {
+	.cs_nperformance .detail_info .btn_box>a .btn_name {
 		color: #cacaca;
 	}
 	
@@ -9036,7 +9036,7 @@
 		color: #cacaca;
 	}
 	
-	.cs_school .school_map .map_border + img, .cs_school .page_sec a {
+	.cs_school .school_map .map_border+img, .cs_school .page_sec a {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
@@ -9346,6 +9346,66 @@
 		z-index: 100;
 		font-size: 15px;
 		pointer-events: none;
+	}
+	
+	.cs_civil_complaint .cc_wrap {
+		border: 1px solid #404040;
+	}
+	
+	.cs_civil_complaint .cc_supply dd {
+		color: #7474e3;
+	}
+	
+	.cs_civil_complaint .cc_header {
+		background-color: #2f2f2f;
+	}
+	
+	
+	.cs_civil_complaint .cc_con {
+		background-color: #2f2f2f;
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_civil_complaint .cc_con .cc_sec1 {
+		background: none;
+		position: relative;
+	}
+	
+	.cs_civil_complaint .cc_con .cc_sec1:before {
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		filter: invert(86%) hue-rotate(-180deg);
+		pointer-events: none;
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/civil_complaint/img/repeat_sec1.png) repeat-y;
+	}
+	
+	.cs_civil_complaint .cc_con .cc_sec1 div h5, .cs_civil_complaint .cc_con .cc_sec2 h5 {
+		color: #fff;
+	}
+	
+	.cs_civil_complaint .cc_con .cc_sec1 div ul li {
+		color: #cacaca;
+	}
+	
+	.cs_civil_complaint .cc_con .cc_sec1 div h5 span .btn_cc, .cs_civil_complaint .cc_footer ul li .cc_bar, .cs_civil_complaint .cc_notice p, .cs_civil_complaint .cc_notice p {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_civil_complaint .cc_con .cc_sec2 {
+		background-color: #242424;
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_civil_complaint .cc_footer {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_civil_complaint .cc_footer h5 {
+		color: #fff;
 	}
 }
 
@@ -11699,6 +11759,10 @@
 	
 	.skin-1080 .box-g-m {
 		border-bottom-color: #404040;
+	}
+	
+	img[src='https://ssl.pstatic.net/static/blog/ico_nidlogin2.png'] {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 }
 
@@ -32398,6 +32462,15 @@
 	
 	.main_topic_wrap .main_topic_context {
 		color: #cacaca;
+	}
+	
+	.sc_themecast .topstory_view.type_star .topstory_info {
+		border: 1px solid #404040;
+		border-top: 0;
+	}
+	
+	.sc_themecast.id_movie .topstory_view .topstory_writer, .sc_themecast.id_movie .topstory_view.type_star .topstory_info, .sc_themecast.id_cargame .topstory_view .topstory_writer, .sc_themecast.id_cargame .topstory_view.type_star .topstory_info {
+		background-color: #2f2f2f;
 	}
 }
 

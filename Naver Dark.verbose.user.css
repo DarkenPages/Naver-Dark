@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.44
+@version		1.48.46
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -12903,230 +12903,6 @@
 	}
 	
 	.bx1 *, .desc1 strong {
-		color: #cacaca;
-	}
-}
-
-@-moz-document url-prefix("https://cafe.poll.naver.com"), url-prefix("https://blog.poll.naver.com")
-{
-	html, body, head {
-		background: #242424;
-		color: #cacaca;
-	}
-	
-	.tem1 {
-		border: 1px solid #404040;
-		background: #242424;
-	}
-	
-	.tem1 .tit_b_2 {
-		background: #2c2c2c;
-		border-bottom: 1px solid #404040;
-	}
-	
-	.vote_main .list_h_2 .line_l table {
-		filter: invert(100%) hue-rotate(-180deg);
-	}
-	
-	.tem1 .vote_bot2 {
-		border-top: 1px solid #404040;
-	}
-	
-	.vote_main .list_h_2 .line_l, .tem1 .vote_main .main_top {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	#vote_pop .main_top .wrap {
-		color: #242424;
-	}
-	
-	.top_c_01 {
-		background: #242424;
-		border-bottom: 1px solid #404040;
-	}
-	
-	.top_c_01 h3 {
-		background: none;
-	}
-	
-	.list_f_01 .t_pic .border, form .divFileUpload .btn {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.list_f_01 .txt {
-		color: #cacaca;
-		border: 1px solid #404040;
-		background: #242424;
-	}
-	
-	.ppt_main .left_top {
-		border-bottom: 1px solid #404040;
-	}
-	
-	.list_a_01 {
-		border: 1px solid #404040;
-	}
-	
-	.list_f_01 .txt01 {
-		color: #cacaca;
-		border: 1px solid #404040;
-		background: #242424;
-	}
-	
-	.list_a_01 li {
-		border-bottom: 1px solid #404040;
-	}
-	
-	.list_f_01 .num input {
-		color: #cacaca;
-		background: #242424;
-	}
-	
-	.top_c_02 .top_c_btn a {
-		color: #cacaca;
-	}
-	
-	.top_c_02 .top_c_btn img {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.r_btns .r_down img, .r_btns .r_up img, .r_btns a:last-child img {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.ppt_main .ppt_right {
-		background: #2f2f2f;
-		border-left: 1px solid #404040;
-	}
-	
-	.ppt_main .ppt_right h4 {
-		color: #fff;
-	}
-	
-	.selectbox-box {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.selectbox-layer {
-		background: #242424;
-		border: 1px solid #404040;
-	}
-	
-	.selectbox-list li.selectbox-item-over {
-		background: #2f2f2f;
-	}
-	
-	.selectbox-list li.selectbox-item-selected {
-		color: #fff;
-	}
-	
-	.selectbox-list li {
-		color: #cacaca;
-	}
-	
-	.ppt_main .ppt_right .begin {
-		background: #2f2f2f;
-		border: 1px solid #404040;
-		color: #666;
-	}
-	
-	.ppt_main .ppt_right .over {
-		border: 1px solid #404040;
-	}
-	
-	#ico_date img {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.basic_calender {
-		background-color: #242424;
-		border: 1px solid #404040;
-	}
-	
-	.basic_calender .move_month {
-		background-color: #242424;
-	}
-	
-	button.img_btn img {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.ppt_main .ppt_right .date {
-		color: #cacaca;
-	}
-	
-	.basic_calender .select_area, .basic_calender .selected_area {
-		color: #fff;
-		background-color: #2f2f2f;
-	}
-	
-	.ppt_main .top_a_04 {
-		background: none;
-		border-top: 2px solid #404040;
-	}
-	
-	.ppt_main .tab_skins .skins img {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.tab_a_01 li a {
-		color: #cacaca;
-	}
-	
-	.tab_a_01 li {
-		background: none;
-	}
-	
-	.ppt_main .ppt_right .r_info img {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	#pic_pop {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.ppt_btn {
-		border-top: 1px solid #404040;
-		background: #2f2f2f;
-	}
-	
-	.ppt_main {
-		border-bottom: 1px solid #404040;
-	}
-	
-	.ppt_btn a img {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	#vote_pop.tem1 .main_list *, #vote_pop.tem9 .main_top .wrap * {
-		color: #fff;
-	}
-	
-	#vote_pop:not(.tem1) .main_list * {
-		color: #000;
-	}
-	
-	.tem1 .vote_bot {
-		border-top: 1px solid #404040;
-	}
-	
-	.tem1 .vote_bot img {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.ppt01_btn img {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.tit_b_2 .tit_b_r li {
-		color: #cacaca;
-	}
-	
-	#vote_pop:not(.tem1) {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.vote_main .list_h_2 .line_l ul li .wrap {
 		color: #cacaca;
 	}
 }
@@ -34867,6 +34643,10 @@
 	.se_infoDocSource strong {
 		border-right: 2px solid #fff;
 	}
+	
+	.se-viewer .se-schedule-state-finished {
+		color: #242424;
+	}
 }
 
 @-moz-document url-prefix("https://blog.naver.com/SympathyHistoryList.nhn"), url-prefix("http://blog.naver.com/SympathyHistoryList.nhn")
@@ -50562,6 +50342,21 @@
 	}
 	
 	.card_today .item_today.level5_4.type_dsc .level_text:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+}
+
+@-moz-document url-prefix("https://cafe.poll.naver.com"), url-prefix("https://blog.poll.naver.com")
+{
+	body, td {
+		color: #000 !important;
+	}
+	
+	html, body {
+		background: #242424;
+	}
+	
+	#vote_check, #vote_pop {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
 }

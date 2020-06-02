@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.44
+@version		1.48.46
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -1028,7 +1028,7 @@
     .cwg_wrap .cwg_status,#btn_preview,#btn_submit,#btn_tempsave,.rbtn { position: relative }
     .cwg_wrap .cwg_status:before { width: calc(100% + 10px);transform: translate(-50%, -50%);top: 50%;position: absolute;left: 50%;height: calc(100% + 10px);content: '';border-radius: 10px;background: #242424 }
     .DivideLine,.se-viewer .se-cell,.se-viewer .se-section-placesMap.se-section-placesMap-multiple .se-module-map-text:not(:last-child):after,.se-viewer .se-video .se-media-meta,td[bgcolor='#D1D1D1'] { background-color: #404040 }
-    .floating_category .btn_buddy.add_buddy:focus,.floating_category .btn_buddy.add_buddy:hover,#tag a.tag4:link,#tag a.tag4:visited,#widget-currency .bg-body h3,#widget-currency .bg-body h3 span { color: #242424 }
+    .floating_category .btn_buddy.add_buddy:focus,.floating_category .btn_buddy.add_buddy:hover,.se-viewer .se-schedule-state-finished,#tag a.tag4:link,#tag a.tag4:visited,#widget-currency .bg-body h3,#widget-currency .bg-body h3 span { color: #242424 }
     .floating_category .header,.floating_category .list_category .item,.se-viewer .se-documentTitle .se-component-content:after,.temporary_write .tbl_list td,#edit_module ul.post,#profile table.profile_info td { border-bottom: 1px solid #404040 }
     .floating_category .list_category .name .text:before { background: #cacaca }
     .floating_category,.floating_header .list_autocomplete .item,.floating_header .search_box .btn_search,.pop_buddy_add_lyr .btn_add_buddy,.wrap_blog2_list .wrap_ctrl .area_btn2 .area_select .dropdown_select,#profile table.edit_area td.setting,#profile table.edit_area td.setting img.bgl { background: #242424 }
@@ -2101,29 +2101,9 @@
     head,html { background: #242424 }
 }
 @-moz-document url-prefix("https://cafe.poll.naver.com"), url-prefix("https://blog.poll.naver.com") {
-    .basic_calender { border: 1px solid #404040;background-color: #242424 }
-    .basic_calender .move_month { background-color: #242424 }
-    .basic_calender .select_area,.basic_calender .selected_area { color: #fff;background-color: #2f2f2f }
-    .list_a_01 li,.ppt_main,.ppt_main .left_top { border-bottom: 1px solid #404040 }
-    .list_a_01,.ppt_main .ppt_right .over { border: 1px solid #404040 }
-    .list_f_01 .num input,body,head,html { color: #cacaca;background: #242424 }
-    .list_f_01 .t_pic .border,form .divFileUpload .btn,.ppt_btn a img,.ppt_main .ppt_right .r_info img,.ppt_main .tab_skins .skins img,.ppt01_btn img,.r_btns .r_down img,.r_btns .r_up img,.r_btns a:last-child img,.selectbox-box,.tem1 .vote_bot img,.tem1 .vote_main .main_top,.vote_main .list_h_2 .line_l,.top_c_02 .top_c_btn img,#ico_date img,#pic_pop,#vote_pop:not(.tem1),button.img_btn img { filter: invert(86%) hue-rotate(-180deg) }
-    .list_f_01 .txt,.list_f_01 .txt01 { color: #cacaca;border: 1px solid #404040;background: #242424 }
-    .ppt_btn { border-top: 1px solid #404040;background: #2f2f2f }
-    .ppt_main .ppt_right { border-left: 1px solid #404040;background: #2f2f2f }
-    .ppt_main .ppt_right .begin { color: #666;border: 1px solid #404040;background: #2f2f2f }
-    .ppt_main .ppt_right .date,.selectbox-list li,.tab_a_01 li a,.tit_b_2 .tit_b_r li,.top_c_02 .top_c_btn a,.vote_main .list_h_2 .line_l ul li .wrap { color: #cacaca }
-    .ppt_main .ppt_right h4,.selectbox-list li.selectbox-item-selected,#vote_pop.tem1 .main_list *,#vote_pop.tem9 .main_top .wrap * { color: #fff }
-    .ppt_main .top_a_04 { border-top: 2px solid #404040;background: none }
-    .selectbox-layer,.tem1 { border: 1px solid #404040;background: #242424 }
-    .selectbox-list li.selectbox-item-over { background: #2f2f2f }
-    .tab_a_01 li,.top_c_01 h3 { background: none }
-    .tem1 .tit_b_2 { border-bottom: 1px solid #404040;background: #2c2c2c }
-    .tem1 .vote_bot,.tem1 .vote_bot2 { border-top: 1px solid #404040 }
-    .top_c_01 { border-bottom: 1px solid #404040;background: #242424 }
-    .vote_main .list_h_2 .line_l table { filter: invert(100%) hue-rotate(-180deg) }
-    #vote_pop .main_top .wrap { color: #242424 }
-    #vote_pop:not(.tem1) .main_list * { color: #000 }
+    #vote_check,#vote_pop { filter: invert(86%) hue-rotate(-180deg) }
+    body,html { background: #242424 }
+    body,td { color: #000 !important }
 }
 @-moz-document url-prefix("https://cafe.stat.naver.com/view/") {
     .u_ni_inflow_detail .u_ni_item a { color: #cacaca;border-bottom: 1px solid #404040 }

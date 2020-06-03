@@ -13,9 +13,10 @@
 - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
 - [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/)
 
-<!--
+
 다음으로 [다크 모드 스타일시트를 설치](https://raw.githubusercontent.com/DarkenPages/Naver-Dark/master/Naver%20Dark.user.css)하여 [추후 업데이트 설치](#추후-업데이트-설치)도 지원받으실 수 있습니다.
 
+<!--
 일체감 있는 완전한 다크 모드 지원을 이용하려면 <a href="#다양한-상황에서의-다크-모드-지원">추가 설명</a>을 참조해 주세요.
 <br><br><br>
 ### 다양한 상황에서의 다크 모드 지원

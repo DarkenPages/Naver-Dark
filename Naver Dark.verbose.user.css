@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.46
+@version		1.48.52
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -398,7 +398,7 @@
 		color: #cacaca;
 	}
 	
-	.shop_header, .malllst, .area_hotkeyword .ah_list .ah_l, .tl_ranking .tr_item, .notice, .area_newsstand .an_menulist, .themecast_category, .service .svc_head, .section_timesquare .area_header, #n2_nboard .list_paging li, .sv_wrap {
+	.malllst, .area_hotkeyword .ah_list .ah_l, .tl_ranking .tr_item, .notice, .area_newsstand .an_menulist, .themecast_category, .service .svc_head, .section_timesquare .area_header, #n2_nboard .list_paging li, .sv_wrap {
 		border-bottom: 1px solid #404040;
 	}
 	
@@ -32300,6 +32300,26 @@
 	.sc_themecast.id_movie .topstory_view .topstory_writer, .sc_themecast.id_movie .topstory_view.type_star .topstory_info, .sc_themecast.id_cargame .topstory_view .topstory_writer, .sc_themecast.id_cargame .topstory_view.type_star .topstory_info {
 		background-color: #2f2f2f;
 	}
+	
+	.sc_timesquare .card_stock .stock_title, .sc_timesquare .card_stock .current, .sc_timesquare .card_weather .current {
+		color: #fff;
+	}
+	
+	.sc_timesquare .card_weather .state {
+		color: #cacaca;
+	}
+	
+	.sc_timesquare .card_nav .btn_next:hover:before, .sc_timesquare .card_nav .btn_prev:hover:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.sc_timesquare .card_weather, .sc_timesquare .card_air, .sc_timesquare .card_news {
+		color: #cacaca;
+	}
+	
+	.sc_timesquare .card_weather .location, .sc_timesquare .card_air .location {
+		color: #cacaca;
+	}
 }
 
 @-moz-document url-prefix("https://castbox.shopping.naver.com")
@@ -32322,7 +32342,7 @@
 	}
 	
 	.shop_wrap .group_mall {
-		border: 1px solid #404040;
+		border-bottom: 1px solid #404040;
 		background-color: #2f2f2f;
 	}
 	
@@ -32338,16 +32358,53 @@
 		color: #cacaca;
 	}
 	
-	.shop_wrap .group_shop {
-		border-top: 1px solid #404040;
-	}
-	
 	.shop_wrap .sale_area {
 		background-color: #2f2f2f;
 	}
 	
 	.shop_wrap .sale_area .desc {
 		color: #cacaca;
+	}
+	
+	.shop_wrap .shop_content {
+		border: 1px solid #404040;
+	}
+	
+	.shop_wrap .shop_page .num_box .current {
+		color: #fff;
+	}
+	
+	.shop_wrap .shop_control .btn_prev:hover:before, .shop_wrap .shop_control .btn_next:hover:before, .shop_wrap .shop_page .btn_prev:hover:before, .shop_wrap .shop_page .btn_next:hover:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.shop_wrap .shop_page .btn {
+		border: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	.shop_wrap .shop_page .btn:hover {
+		background-color: #2f2f2f;
+	}
+	
+	.shop_wrap .shop_header .link_shop, .shop_wrap .shop_header .link_shop a {
+		color: #fff;
+	}
+	
+	.shop_wrap .group_mall .link_mall {
+		color: #cacaca;
+	}
+	
+	.shop_wrap .group_mall .link_mall strong, .shop_wrap .group_pnf .shop_title .title, .shop_wrap .group_shop .link_mall {
+		color: #fff;
+	}
+	
+	.shop_wrap .list_event .title {
+		color: #fff;
+	}
+	
+	.shop_wrap .group_shop+.group_shop {
+		border-top: 1px solid #404040;
 	}
 }
 
@@ -34646,6 +34703,10 @@
 	
 	.se-viewer .se-schedule-state-finished {
 		color: #242424;
+	}
+	
+	.cwg_wrap .cwg_track span {
+		background-color: #3a3a3a;
 	}
 }
 

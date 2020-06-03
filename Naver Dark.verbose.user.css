@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.52
+@version		1.48.58
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -29432,42 +29432,89 @@
 		color: #cacaca;
 	}
 	
-	a.highlight {
-		background-color: #2f2f2f !important;
-		color: #7474e3 !important;
-	}
-	
-	.list_body a.highlight, .ytn_top dt a.highlight {
-		background-color: #2f2f2f;
-		color: #7474e3;
-	}
-	
-	a.highlight:active, .list_body a.highlight:hover {
-		color: #7474e3 !important;
+	.list_body a.highlight, .list_body a.highlight, a.highlight {
+		color: #242424 !important;
+		background: none !important;
+		position: relative;
 	}
 	
 	.list_body a.highlight:active, .list_body a.highlight:hover {
-		color: #7474e3 !important;
+		color: #242424 !important;
 	}
 	
-	.ytn_top dt a.highlight:active, .ytn_top dt a.highlight:hover {
-		color: #7474e3;
+	.ytn_top dl.type04 dt > a {
+		display: inline;
 	}
 	
-	.newsflash_header .ytn_info .bar {
-		background-color: #404040;
+	a.highlight:before {
+		content: '';
+		position: absolute;
+		background-color: rgba(255, 238, 0, 1);
+		padding: 3px;
+		border-radius: 3px;
+		width: 100%;
+		height: calc(100% - 6px);
+		left: -3px;
+		top: 0px;
+		z-index: -1;
+		animation-duration: 1s;
+		animation-name: highlight-opacity-animation;
 	}
 	
-	a.highlight:visited {
-		color: #e177e3 !important;
+	a.highlight:after {
+		content: '';
+		position: absolute;
+		background-color: #ffee00;
+		padding: 3px;
+		border-radius: 3px;
+		width: 100%;
+		height: calc(100% - 6px);
+		left: -3px;
+		top: 0px;
+		z-index: -1;
+		animation-duration: 0.2s;
+		animation-name: highlight-animation;
 	}
 	
-	.list_body a.highlight:visited {
-		color: #e177e3;
+	@keyframes highlight-opacity-animation {
+		0% {
+			width: 0%;
+			height: 0%;
+			left: 50%;
+			top: 50%;
+		}
+		
+		10% {
+			background-color: rgba(255, 238, 0, 1);
+			width: 100%;
+			height: calc(100% - 6px);
+			left: -3px;
+			top: 0px;
+		}
+		
+		100% {
+			background-color: rgba(255, 238, 0, 0);
+			width: calc(100% + 8px);
+			height: calc(100% + 2px);
+			left: -7px;
+			top: -4px;
+		}
 	}
 	
-	.list_body a.highlight:visited {
-		color: #e177e3;
+	@keyframes highlight-animation {
+		0% {
+			width: 0%;
+			height: 0%;
+			left: 50%;
+			top: 50%;
+		}
+		
+		100% {
+			width: 100%;
+			height: calc(100% - 6px);
+			left: -3px;
+			top: 0px;
+		}
 	}
 	
 	.fact_cont .talk_area .info_area .txt {
@@ -29746,6 +29793,21 @@
 
 @-moz-document domain("dict.naver.com"), url-prefix("https://terms.naver.com"), url-prefix("https://news.naver.com"), regexp("https://(.*)dic\\.naver\\.com/.*")
 {
+	.u_word_dic.u_active:before, .u_word_dic.u_news_active:before {
+		content: '';
+		position: absolute;
+	    background-color: rgba(255, 238, 0, 1);
+		padding: 3px;
+		border-radius: 3px;
+		width: 100%;
+		height: calc(100% - 6px);
+		left: -3px;
+		top: 0px;
+		z-index: -1;
+	    animation-duration: 1s;
+	    animation-name: highlight-opacity-animation;
+	}
+	
 	.u_word_dic.u_active:after, .u_word_dic.u_news_active:after {
 		content: '';
 		position: absolute;
@@ -29754,9 +29816,52 @@
 		border-radius: 3px;
 		width: 100%;
 		height: calc(100% - 6px);
-		left: -4px;
+		left: -3px;
 		top: 0px;
 		z-index: -1;
+	    animation-duration: 0.2s;
+	    animation-name: highlight-animation;
+	}
+	
+	@keyframes highlight-opacity-animation {
+	    /*1% {*/
+	    /*    width: 0%;*/
+	    /*    height: 0%;*/
+	    /*    left: 50%;*/
+	    /*    top: 50%;*/
+	    /*}*/
+	
+	    10% {
+	        background-color: rgba(255, 238, 0, 1);
+	        width: 100%;
+	        height: calc(100% - 6px);
+	        left: -3px;
+	        top: 0px;
+	    }
+	
+	    100% {
+	        background-color: rgba(255, 238, 0, 0);
+	        width: calc(100% + 8px);
+	        height: calc(100% + 2px);
+	        left: -7px;
+	        top: -4px;
+	    }
+	}
+	
+	@keyframes highlight-animation {
+	    /*1% {*/
+	    /*    width: 0%;*/
+	    /*    height: 0%;*/
+	    /*    left: 50%;*/
+	    /*    top: 50%;*/
+	    /*}*/
+	
+	    100% {
+	        width: 100%;
+	        height: calc(100% - 6px);
+	        left: -3px;
+	        top: 0px;
+	    }
 	}
 	
 	.u_word_dic {
@@ -29769,6 +29874,11 @@
 		color: #242424 !important;
 		z-index: 1;
 		display: inline-block;
+		overflow: visible;
+	}
+	
+	.na_block_quote p {
+		overflow: visible;
 	}
 	
 	.u_helpdict_module {
@@ -29808,6 +29918,10 @@
 	}
 	
 	.u_helpdict_module .u_definition .u_mean_word .u_hanja_option {
+		color: #fff;
+	}
+	
+	.u_helpdict_module.u_type_hanja .u_headword .u_han_mean {
 		color: #fff;
 	}
 }
@@ -43580,6 +43694,98 @@
 	.global_register .btn_register {
 		border: 1px solid #404040;
 		color: #cacaca;
+	}
+	
+	.component_enquiz .inner.oneline .oneline_kor, .component_enquiz .inner.oneline .oneline_question {
+		color: #fff;
+	}
+	
+	.component_enquiz .inner.oneline .oneline_question_block {
+		background-color: #2f2f2f;
+	}
+	
+	.btn_userstranslate {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.entry_conjugation_list {
+		border-top: 1px solid #404040;
+	}
+	
+	.entry_conjugation_list .cont {
+		color: #fff;
+	}
+	
+	.reference {
+		border: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.reference .cont {
+		color: #cacaca;
+	}
+	
+	.component_information .period {
+		background: #2f2f2f;
+		color: #fff;
+	}
+	
+	.component_information .example_tit, .component_information .cont {
+		color: #fff;
+	}
+	
+	.component_thesaurus_result .mean {
+		color: #cacaca;
+	}
+	
+	.component_thesaurus_result .synonym_info a.item {
+		color: #7474e3;
+	}
+	
+	.section_more_area {
+		border-top: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.section_relation_search_word .section_content .word {
+		color: #7474e3;
+	}
+	
+	.tab_thesaurus {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.component_thesaurus_result .row_group {
+		border-top: 1px solid #404040;
+	}
+	
+	.component_filter .radio_group {
+		background: #2f2f2f;
+	}
+	
+	.component_filter .btn_option .inp_label_check {
+		color: #cacaca;
+	}
+	.component_filter .inp_label_check:before {
+		border: 1px solid #404040;
+		background: #242424;
+	}
+	
+	.component_filter .btn_option:before {
+		background: #404040;
+	}
+	
+	.component_filter .inp_label_check.is-active:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.section .tooltip_usertranslation {
+		z-index: 999;
+	}
+	
+	.component_keyword .mean_list .mean_item .user_info .bar {
+		color: #404040;
 	}
 }
 

@@ -4,7 +4,7 @@
 군더더기 없이 일체감<sup id="a1">[1](#fn1)</sup> 있는 색상의 다크 모드로 [네이버](https://www.naver.com)에서 다양한 작업에 더욱 집중할 수 있습니다.<br>
 다크 모드는 눈을 편안하게 하고 어둡게 물러난 배경으로 인해 콘텐츠가 부각되므로 웹 서핑이 더욱 즐거워집니다.<br>
 
-![](https://github.com/DarkenPages/Naver-Dark/blob/master/images/screenshot.png)
+![](https://github.com/DarkenPages/Naver-Dark/blob/master/images/screenshot2_3000x1627.png)
 <br><br><br>
 ### 다크 모드 사용하기
 네이버 다크 모드를 사용하려면 사용중인 브라우저에 맞는 [확장 앱](https://add0n.com/stylus.html)<sup id="a2">[2](#fn2)</sup>을 설치해야합니다.<br>

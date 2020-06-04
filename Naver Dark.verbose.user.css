@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.58
+@version		1.48.63
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -31892,7 +31892,7 @@
 		border-color: #4f4f4f;
 	}
 	
-	.sc_newscast .tile_view .thumb img {
+	html:not([data-dark=true]) .sc_newscast .tile_view .thumb img {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
@@ -31924,8 +31924,8 @@
 		background-color: #2f2f2f;
 	}
 	
-	.sc_themecast .group_edit .edit_header {
-		border-top: 1px solid #404040;
+	.sc_themecast .list_select_tab {
+		border-bottom: 1px solid #404040;
 	}
 	
 	.sc_themecast .list_select_tab .tab_item+.tab_item .tab {
@@ -31966,8 +31966,6 @@
 	}
 	
 	.sc_themecast .main_category .tab {
-		border: 1px solid #404040;
-		border-width: 0 1px;
 		color: #cacaca;
 	}
 	
@@ -32434,6 +32432,68 @@
 	.sc_timesquare .card_weather .location, .sc_timesquare .card_air .location {
 		color: #cacaca;
 	}
+	
+	.sc_newscast .group_issue .issue_area .link_media {
+		color: #fff;
+	}
+	
+	#header .search_area .input_text {
+		color: #cacaca;
+		background-color: #242424;
+	}
+	
+	.sc_timesquare .card_nav .btn_nav {
+		background-color: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.sc_themecast .main_category .category_item {
+		border-right: 1px solid #404040;
+	}
+	
+	.sc_themecast .main_category .list_category:before {
+		border: 1px solid #404040;
+	}
+	
+	.sc_themecast .main_category .list_category {
+		background-color: #242424;
+	}
+	
+	.sc_themecast .theme_title .title {
+		color: #fff;
+	}
+	
+	#gnb .list_nav.type_empty .empty_box.type_point {
+		background-color: #242424;
+	}
+	
+	#gnb .list_age {
+		background-color: #242424;
+	}
+	
+	html[data-dark=true] .sc_user .info_area .btn_logout {
+		color: #cacaca;
+	}
+	
+	html[data-dark=true] #header .special_bg {
+		border-bottom: 1px solid #404040;
+	}
+	
+	html[data-dark=true] #header, html[data-dark=true] #header .special_bg {
+		background-color: #242424;
+	}
+	
+	html[data-dark=true] #header .search_area .input_text {
+		background-color: #242424;
+	}
+	
+	html[data-dark=true] .sc_timesquare .card_nav .btn_next:hover:before, .sc_timesquare .card_nav .btn_prev:hover:before {
+		filter: invert(0%) hue-rotate(0);
+	}
+	
+	html[data-dark=true] #gnb .group_nav .ly_btn_area {
+		background-color: #242424;
+	}
 }
 
 @-moz-document url-prefix("https://castbox.shopping.naver.com")
@@ -32519,6 +32579,14 @@
 	
 	.shop_wrap .group_shop+.group_shop {
 		border-top: 1px solid #404040;
+	}
+	
+	.shop_wrap {
+		background-color: #242424;
+	}
+	
+	html[data-dark=true] .shop_wrap .shop_control .btn_prev:hover:before, .shop_wrap .shop_control .btn_next:hover:before, .shop_wrap .shop_page .btn_prev:hover:before, .shop_wrap .shop_page .btn_next:hover:before {
+		filter: invert(0) hue-rotate(0);
 	}
 }
 

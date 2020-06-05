@@ -2,10 +2,9 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.63
+@version		1.48.66
 @namespace		Avis Studio
 @license		CC BY-NC-SA
-@preprocessor	default
 ==/UserStyle== */
 @-moz-document domain("dict.naver.com") {
     .article .origin_source { color: #cacaca;border-top: 1px solid #404040;background: #242424 }
@@ -632,11 +631,10 @@
     .banner_top .link_detail,.banner_top .link_detail:link,.banner_top .link_detail:visited,.return_area .btn_return,.sc_newscast .error_view .error_msg,.sc_newscast .group_issue .issue_area .link_media,.sc_newscast .group_title .link_newsstand,.sc_newscast .group_title .sort_area .btn_sort.sort_on,.sc_newscast .ly_popup .popup_msg,.sc_themecast .chart_view .chart_rank .rank,.sc_themecast .group_title .info_area .new,.sc_themecast .group_title .title_area .title,.sc_themecast .list_select_tab .tab,.sc_themecast .list_theme .source,.sc_themecast .media_view .source,.sc_themecast .poster_view .dsc_data,.sc_themecast .poster_view .title .rank,.sc_themecast .theme_title .title,.sc_themecast .topstory_view .topstory_info .source,.sc_timesquare .card_air .air_item,.sc_timesquare .card_stock .current,.sc_timesquare .card_stock .stock_title,.sc_timesquare .card_weather .current,#gnb .list_nav,#gnb .list_service .service_title,#gnb .ly_realtime .realtime_area .tab[aria-selected=true],#gnb .ly_realtime .title_area .title,#gnb .set_area .set_title,#header .service_area .link_set { color: #fff }
     .column_fix_wrap,.sc_themecast .main_category .list_category,.theme_head.is_fixed .theme_fix_wrap,#gnb .group_nav .ly_btn_area,#gnb .list_nav.type_empty .empty_box.type_point,#header,html[data-dark=true] #gnb .group_nav .ly_btn_area,html[data-dark=true] #header .search_area .input_text,html[data-dark=true] #header,html[data-dark=true] #header .special_bg { background-color: #242424 }
     .list_thumb .title_wrap .badge_represent { filter: invert(81.5%) hue-rotate(-180deg) }
-    .logo_area .logo_special img { filter: invert(85.7%) hue-rotate(-180deg) }
     .main_topic_wrap { color: #cacaca;background-color: #242424 }
     .return_area { border-top: 1px solid #4f4f4f;background-color: #404040 }
-    .sc_login .ico_naver,.sc_newscast .list_view .list_option .option_item.option_on:before,.sc_newscast .list_view .news_area .media_box .btn_close,.sc_newscast .list_view .news_area .media_box .link_media,.sc_themecast .chart_view_wrap.type_music .chart_link .link_lyrics:before,.sc_themecast .group_edit .ico_close,.sc_themecast .group_edit .ico_set,.sc_themecast .list_edit .ico_chk,.sc_timesquare .card_nav .btn_next:hover:before,.sc_timesquare .card_nav .btn_prev:hover:before,#footer .notice_area .link_all:after,#gnb .list_service .ico_chk,#gnb .ly_realtime .info_area .link_datalab,#header .search_area .btn_submit .ico_search_submit,html:not([data-dark=true]) .sc_newscast .tile_view .thumb img { filter: invert(86%) hue-rotate(-180deg) }
-    .sc_login .link_login,.sc_newscast .error_view .link_redirect,.sc_newscast .list_view .list_option .option_on .option,.sc_themecast .group_edit .btn_set,.sc_themecast .main_category .tab.id_movie[aria-selected=true]:hover,.sc_themecast .main_category .tab[aria-selected=true],.sc_themecast .theme_title .title_sub_tab .tab_item.tab_on .tab,#gnb .list_filter .name,#gnb .set_area .btn_set { color: #242424 }
+    .sc_login .ico_naver,.sc_newscast .list_view .list_option .option_item.option_on:before,.sc_newscast .list_view .news_area .media_box .btn_close,.sc_newscast .list_view .news_area .media_box .link_media,.sc_themecast .chart_view_wrap.type_music .chart_link .link_lyrics:before,.sc_themecast .group_edit .ico_close,.sc_themecast .group_edit .ico_set,.sc_themecast .list_edit .ico_chk,.sc_timesquare .card_nav .btn_next:hover:before,.sc_timesquare .card_nav .btn_prev:hover:before,#footer .notice_area .link_all:after,#gnb .list_service .ico_chk,#header .search_area .btn_submit .ico_search_submit,html:not([data-dark=true]) .sc_newscast .tile_view .thumb img,html:not([data-dark=true]) #gnb .ly_realtime .info_area .link_datalab { filter: invert(86%) hue-rotate(-180deg) }
+    .sc_login .link_login,.sc_newscast .error_view .link_redirect,.sc_newscast .list_view .list_option .option_on .option,.sc_themecast .group_edit .btn_set,.sc_themecast .main_category .tab.id_movie[aria-selected=true]:hover,.sc_themecast .main_category .tab[aria-selected=true],.sc_themecast .theme_title .title_sub_tab .tab_item.tab_on .tab,#gnb .list_filter .name,html:not([data-dark=true]) #gnb .set_area .btn_set,html[data-darkt=true] #gnb .set_area .btn_set[aria-disabled=true] { color: #242424 }
     .sc_login,#gnb .list_age,#gnb .list_nav.type_empty .empty_box,#gnb .ly_realtime .ly_help { border: 1px solid #404040;background-color: #242424 }
     .sc_newscast { margin-top: 0px }
     .sc_newscast .group_issue .direct_area .ico_vote { margin: 5px 4px 0 0 }
@@ -677,6 +675,7 @@
     #header .search_area .input_text { color: #cacaca;border: none;background-color: #242424 }
     #header .special_bg { border-bottom: 1px solid #404040;background-color: #242424 }
     #veta_top { margin-bottom: 12px }
+    html:not([data-dark]) .logo_area .logo_special img { filter: invert(85.7%) hue-rotate(-180deg) }
     input { color: #cacaca;border: 1px solid #404040;background: #242424 }
 }
 @-moz-document url-prefix("https://admin.blog.naver.com/AdminBlogAPI.nhn") {
@@ -4072,7 +4071,7 @@
     .aside .cafe_banner .banner a:after,.aside .smart_bot,.common_select .layer,.common_title .btn_title_more,.content_terms .tab_area .tab,.notice_btns a,.edu_intro,.recommend_list .card,.star_best_list li,#content_srch .basic1 .thumb { border: 1px solid #404040 }
     .aside .cafe_link a,.aside .notice h3 { color: #cacaca;border-bottom: 1px solid #404040 }
     .aside .cafe_make .btn_cafe_make,.mycafe_list .btn_mail.on { color: #242424;background-color: #019341 }
-    .aside .link_more a,.aside .notice .notice_list li a,.aside .smart_bot a,.cc_layer_mynews .cc_mynews_list .cc_mynews_info,.cc_layer_mynews .cc_mynews_list .cc_mynews_notice .notice_txt,.cc_layer_mynews .cc_mynews_list .info_title,.common_alert_layer .msg,.common_list .list_info .name_area,.common_menu_tab .link,.common_option_list .link,.common_page button,.common_title .title,.content_terms,.content_terms .lang_area .terms_option_layer a,.content_terms .terms_area .tit2,.content_terms .txt_area,.criteria .score li,.criteria li p,.editors_pick_list .list_info .name_area,.editors_pick_list .list_info .title_area,.feed_alarm_list .list_info .name_area,.field_category .on,.field_list_wrap .count,.home_theme_title,.home_user .notice .title,.menu .menu_inner .menu_link,.mycafe_bottom .check_box label,.mycafe_group .group .btn_txt,.mycafe_list,.mycafe_manage .btn_all,.mycafe_manage .manage_article .tit,.mycafe_manage .manage_article a,.mycafe_manage .noti,.mycafe_manage .secede_cafe_title .tit,.pop_ranking .info_list .title,.pop_ranking .pop_title .title,.ranking_list .cafe_info .name_area,.ranking_list .cell_num,.represent_popup .special strong,.rule_wrap .list_rule .on,.section_create .cafe_input td,.snb_search_box .search_option_layer a,.user_mycafe_info .user_mycafe_new,.user_mycafe_recent .recent_title .tit,.autocomplete_area .words li a,.common_box_layer .btn,.common_list .list_info .txt_area .txt,.content_game .intro_area .intro_text,.edu_intro .spot .txt,.star_area .common_list .list_info .txt_area,.star_best_list .name_area { color: #cacaca }
+    .aside .link_more a,.aside .notice .notice_list li a,.aside .smart_bot a,.cc_layer_mynews .cc_mynews_list .cc_mynews_info,.cc_layer_mynews .cc_mynews_list .cc_mynews_notice .notice_txt,.cc_layer_mynews .cc_mynews_list .info_title,.common_alert_layer .msg,.common_list .list_info .name_area,.common_menu_tab .link,.common_option_list .link,.common_page button,.common_title .title,.content_terms,.content_terms .lang_area .terms_option_layer a,.content_terms .terms_area .tit2,.content_terms .txt_area,.criteria .score li,.criteria li p,.editors_pick_list .list_info .name_area,.editors_pick_list .list_info .title_area,.feed_alarm_list .list_info .name_area,.field_category .on,.field_list_wrap .count,.home_theme_title,.home_user .notice .title,.menu .menu_inner .menu_link,.mycafe_bottom .check_box label,.mycafe_group .group .btn_txt,.mycafe_list,.mycafe_manage .btn_all,.mycafe_manage .manage_article .tit,.mycafe_manage .manage_article a,.mycafe_manage .noti,.mycafe_manage .secede_cafe_title .tit,.pop_ranking .info_list .title,.pop_ranking .pop_title .title,.ranking_list .cafe_info .name_area,.ranking_list .cell_num,.represent_popup .special strong,.rule_wrap .list_rule .on,.section_create .cafe_input td,.snb_search_box .search_option_layer a,.user_mycafe_info .user_mycafe_new,.user_mycafe_recent .recent_title .tit,.autocomplete_area .words li a,.common_box_layer .btn,.common_list .list_info .txt_area .txt,.common_page .btn,.home_recent .recent_list .txt,.user_mycafe_recent .recent_info,.content_game .intro_area .intro_text,.edu_intro .spot .txt,.star_area .common_list .list_info .txt_area,.star_best_list .name_area { color: #cacaca }
     .aside .login .login_btn,.aside .user_info .btn_login,.common_btn_form .btn,.cc_layer_mynews,.common_btn_form .btn2,.common_select .btn_select { color: #cacaca;border: 1px solid #404040;background: #242424 }
     .aside .login .user_find .btn_pw:before,.common_page .btn_page_next:before,.common_page .btn_page_prev:after,.field_category button:before,.mycafe_manage .manage_article a:last-of-type:before,.snb_search_box .search_option a .ic_and,.toggle_switch .switch_slider { background-color: #404040 }
     .aside .login_area { border-bottom: 1px solid #404040;background-color: #2c2c2c }
@@ -4135,6 +4134,7 @@
     .thumb_slide_wrap { border: 1px solid #404040;background-color: #2f2f2f }
     #content_srch .basic1 dt a:active,#content_srch .basic1 dt a:hover { color: #7474ef }
     #content_srch .basic1 dt a:visited,#content_srch .basic1 li a:visited { color: #e177e3 }
+    #footer ul li { filter: none }
 }
 @-moz-document url-prefix("https://sports.news.naver.com") {
     .ad_result_skin { background: none !important }

@@ -2,10 +2,9 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.63
+@version		1.48.66
 @namespace		Avis Studio
 @license		CC BY-NC-SA
-@preprocessor	default
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://www.naver.com"), url-prefix("https://my.naver.com"), url-prefix("https://ui.nboard2.naver.com"), url-prefix("https://search.naver.com"), url-prefix("https://castbox.shopping.naver.com"), url-prefix("https://section.cafe.naver.com"), url-prefix("https://talk.cafe.naver.com"), url-prefix("https://cafe.upphoto.naver.com"), url-prefix("https://cafe.naver.com/CafeMemberInfo.nhn"), url-prefix("https://section.blog.naver.com"), url-prefix("https://uploader1.nmv.naver.com"), url-prefix("https://up.cafe.naver.com"), url-prefix("https://datalab.naver.com"), url-prefix("https://www.navercorp.com"), url-prefix("https://mail.naver.com"), url-prefix("https://note.naver.com"), url-prefix("https://mashup.map.naver.com"), url-prefix("https://nid.naver.com/nidlogin.login")
@@ -10527,6 +10526,14 @@
 	
 	#content_srch .basic1 dt a:hover, #content_srch .basic1 dt a:active {
 		color: #7474ef;
+	}
+	
+	.home_recent .recent_list .txt, .user_mycafe_recent .recent_info, .common_page .btn {
+		color: #cacaca;
+	}
+	
+	#footer ul li {
+		filter: none;
 	}
 }
 
@@ -32260,7 +32267,7 @@
 		color: #cacaca;
 	}
 	
-	.logo_area .logo_special img {
+	html:not([data-dark]) .logo_area .logo_special img {
 		filter: invert(85.7%) hue-rotate(-180deg);
 	}
 	
@@ -32286,7 +32293,7 @@
 		color: #fff;
 	}
 	
-	#gnb .ly_realtime .info_area .link_datalab {
+	html:not([data-dark=true]) #gnb .ly_realtime .info_area .link_datalab {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
@@ -32294,7 +32301,11 @@
 		border-top: 1px solid #404040;
 	}
 	
-	#gnb .set_area .btn_set {
+	html:not([data-dark=true]) #gnb .set_area .btn_set {
+		color: #242424;
+	}
+	
+	html[data-darkt=true] #gnb .set_area .btn_set[aria-disabled=true] {
 		color: #242424;
 	}
 	

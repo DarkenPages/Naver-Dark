@@ -2,9 +2,10 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.66
+@version		1.48.76
 @namespace		Avis Studio
 @license		CC BY-NC-SA
+@preprocessor	default
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://www.naver.com"), url-prefix("https://my.naver.com"), url-prefix("https://ui.nboard2.naver.com"), url-prefix("https://search.naver.com"), url-prefix("https://castbox.shopping.naver.com"), url-prefix("https://section.cafe.naver.com"), url-prefix("https://talk.cafe.naver.com"), url-prefix("https://cafe.upphoto.naver.com"), url-prefix("https://cafe.naver.com/CafeMemberInfo.nhn"), url-prefix("https://section.blog.naver.com"), url-prefix("https://uploader1.nmv.naver.com"), url-prefix("https://up.cafe.naver.com"), url-prefix("https://datalab.naver.com"), url-prefix("https://www.navercorp.com"), url-prefix("https://mail.naver.com"), url-prefix("https://note.naver.com"), url-prefix("https://mashup.map.naver.com"), url-prefix("https://nid.naver.com/nidlogin.login")
@@ -54,11 +55,6 @@
 	
 	.area_hotkeyword .ah_tab_btn {
 		color: #cacaca;
-		background: #242424;
-	}
-	
-	.header {
-		border-bottom: 1px solid #404040;
 		background: #242424;
 	}
 	
@@ -9456,6 +9452,200 @@
 	}
 	
 	.cs_delivery .rsult_box .lodg {
+		color: #cacaca;
+	}
+	
+	.api_subject_bx .api_title_area .api_title a:visited {
+		color: #e177e3;
+	}
+	
+	.cs_communication_box .channel_box .ch_list {
+		background: none;
+		position: relative;
+	}
+	
+	.cs_communication_box .channel_box .ch_list:before {
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		filter: invert(86%) hue-rotate(-180deg);
+		pointer-events: none;
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/scui/communication_box/img/pc_bg.png) no-repeat;
+	}
+	
+	.cs_communication_box .channel_box span {
+		color: #cacaca;
+	}
+	
+	.cs_korean_quiz .quiz_sct .ct_bx .content_area {
+		border: 1px solid #404040;
+		border-top: 0;
+	}
+	
+	.cs_korean_quiz .quiz_sct .tab_bx ul>li {
+		border: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.cs_korean_quiz .quiz_sct .tab_bx ul>li>a {
+		color: #cacaca;
+	}
+	
+	.cs_korean_quiz .quiz_sct .tab_bx ul>li.on>a {
+		color: #fff;
+	}
+	
+	.cs_korean_quiz .quiz_sct .tab_bx ul>li.on {
+		border-color: #4f4f4f;
+		background: #3a3a3a;
+	}
+	
+	.cs_korean_quiz .quiz_sct .tab_bx ul>li.on+li {
+		border-left-color: #4f4f4f;
+	}
+	
+	.cs_korean_quiz .quiz_sct .slt_area .answer_lst li>a {
+		border: 1px solid #404040;
+		background: none;
+		position: relative;
+	}
+	
+	.cs_korean_quiz .quiz_sct .slt_area.correct .answer_lst li>a.on {
+		position: relative;
+		background: none;
+	}
+	
+	.cs_korean_quiz .quiz_sct .slt_area.correct .answer_lst li>a.on:before {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		content: '';
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/scui/korean_quiz/img/ico_check_o.gif) 305px 50% no-repeat;
+		filter: invert(86%) hue-rotate(-180deg);
+		pointer-events: none;
+	}
+	
+	.cs_korean_quiz .quiz_sct .slt_area.wrong .answer_lst li>a.on {
+		position: relative;
+		background: none;
+	}
+	
+	.cs_korean_quiz .quiz_sct .slt_area.wrong .answer_lst li>a.on:before {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		content: '';
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/scui/korean_quiz/img/ico_check_x.gif) 305px 50% no-repeat;
+		filter: invert(86%) hue-rotate(-180deg);
+		pointer-events: none;
+	}
+	
+	.cs_korean_quiz .quiz_sct .slt_area:not(.wrong):not(.correct) .answer_lst li>a:before {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		content: '';
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/scui/korean_quiz/img/ico_check.gif) 305px 50% no-repeat;
+		filter: invert(86%) hue-rotate(-180deg);
+		pointer-events: none;
+	}
+	
+	.cs_korean_quiz .quiz_sct .slt_area .answer_lst li>a>span {
+		color: #cacaca;
+	}
+	
+	.cs_korean_quiz .quiz_sct .ct_bx .tit_area .quiz_txt>p {
+		color: #fff;
+	}
+	
+	.cs_korean_quiz .graph_area {
+		border: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.cs_korean_quiz .graph_area ul li>strong {
+		color: #999;
+	}
+	
+	.cs_korean_quiz .graph_area ul li .percent {
+		color: #cacaca;
+	}
+	
+	.cs_korean_quiz .graph_area .grp_bx {
+		background: #404040;
+	}
+	
+	.cs_korean_quiz .u_ico, .cs_korean_quiz .spimg, .cs_grammar_check .icon_beta, .cs_grammar_check .info_area {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_korean_quiz .quiz_sct .ct_bx .tit_area .quiz_txt.proverb>strong, .cs_korean_quiz .quiz_sct .ct_bx .tit_area strong {
+		color: #fff;
+	}
+	
+	.cs_korean_quiz .cnt_area .u_cnt {
+		color: #cacaca;
+	}
+	
+	.cs_grammar_check .check_box .text_box {
+		background-color: #242424;
+	}
+	
+	.cs_grammar_check .check_box .text_box.right {
+		background-color: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.cs_grammar_check .check_box .text_box .wrap_area {
+		border: 1px solid #404040;
+	}
+	
+	.cs_grammar_check .check_box .text_box .text_area .txt_gray, .cs_grammar_check .check_box .text_box .text_area .stand_txt {
+		color: #cacaca;
+		background: #242424;
+	}
+	
+	.cs_grammar_check .check_box .text_box .check_info {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_grammar_check .check_box .text_box .check_info .btn_check {
+		border: 1px solid #019341;
+		background: #019341;
+		color: #242424;
+	}
+	
+	.cs_grammar_check .check_box .text_box .check_info .txt_limit em.on {
+		color: #fff;
+	}
+	
+	.cs_grammar_check .bar_icon {
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_grammar_check .check_box .text_box .check_info .txt_limit .delete_btn {
+		color: #cacaca;
+	}
+	
+	.cs_grammar_check .check_box .text_box .check_info .check_area dl dd .circle, .cs_grammar_check .check_box .text_box .check_info .btn_area .copy, .cs_grammar_check .check_box .text_box .check_info .btn_area .colorless, .cs_grammar_check .check_box .text_box .check_info .check_area.colorless dl dd .ico, .cs_grammar_check .copy_popup .close_btn {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_grammar_check .copy_popup {
+		background-color: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.cs_grammar_check .copy_popup .popup_text {
 		color: #cacaca;
 	}
 }
@@ -27448,6 +27638,14 @@
 	
 	#gnb #gnb_my_lyr_iframe {
 		display: none !important;
+	}
+	
+	.gnb_my_li .gnb_my_content .gnb_name a, .gnb_my_li .gnb_my_content .gnb_pay_check a, .gnb_my_li .gnb_my_content .gnb_pay_check span, .gnb_my_li .gnb_my_content .gnb_pay_check strong {
+		color: #fff !important;
+	}
+	
+	.gnb_my_li .gnb_my_content .gnb_edit_lst a {
+		color: #cacaca !important;
 	}
 }
 

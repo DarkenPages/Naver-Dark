@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.78
+@version		1.48.82
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -9649,6 +9649,37 @@
 	.cs_grammar_check .copy_popup .popup_text {
 		color: #cacaca;
 	}
+	
+	.sp_music .music_group {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.sp_music .music_group .btn_area .link {
+		color: #cacaca;
+		border: 1px solid #404040;
+	}
+	
+	.api_ly_info .description {
+		color: #cacaca;
+	}
+	
+	.cs_gallery .ga_info {
+		border: 1px solid #404040;
+		border-top: 0;
+	}
+	
+	.cs_gallery .tags .lnk_tag {
+		background-color: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.cs_gallery .ga_info .writer {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_gallery .ga_info .writer .spga.bg_profile {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
 }
 
 @-moz-document url-prefix("https://nid.naver.com/user2/help/")
@@ -14836,6 +14867,15 @@
 {
 	.gnb_notice_li a.gnb_notice .gnb_icon, .mail_li a.gnb_mail .gnb_icon, .gnb_service_li a.gnb_service .gnb_icon {
 		filter: invert(0%) !important;
+	}
+	
+	.sp_naver, .sp_sv {
+		filter: invert(0%);
+		color: #242424 !important;
+	}
+	
+	.header {
+		background-color: #019341;
 	}
 }
 
@@ -23907,6 +23947,117 @@
 		.pc #header .gnb .pipe, .pc .cont_header .pipe {
 			background-color: #404040;
 		}
+	}
+	
+	.lst_inner_w .sorting_area {
+		background-color: #242424;
+	}
+	
+	.editor_sorting .following_count em {
+		color: #fff;
+	}
+	
+	.select1 {
+		color: #cacaca;
+		background: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.ly_more {
+		border: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	.ly_more li a, .ly_more li button {
+		color: #cacaca;
+	}
+	
+	.ly_more li {
+		border-top: 1px solid #404040;
+	}
+	
+	.tag_feed_wrap .tag_area .tag {
+		background-color: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.btn_flw {
+		border: 1px solid #019341;
+		background-color: #019341;
+		color: #242424;
+	}
+	
+	.lst_inner_w .user_info_item {
+		border-bottom: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.lst_inner_w .editr_lst .user_info_item {
+		border-bottom: 1px solid #404040;
+	}
+	
+	@media only screen and (min-width: 640px) {
+		.lst_inner_w .editr_lst .user_info_item {
+			border-bottom: 1px solid #404040;
+		}
+	}
+	
+	.btn_flw.on {
+		border-color: #404040;
+		color: #fff;
+	}
+	
+	#header.sub {
+		background-color: #242424;
+	}
+	
+	@media only screen and (min-width: 768px) {
+		.pc #header.sub .gnb:after {
+			background-color: #404040;
+		}
+	}
+	
+	#header.sub .gnb:after {
+		background-color: #242424;
+	}
+	
+	.write_wrap .title_editor_list {
+		color: #fff;
+	}
+	
+	.pc .btn_paging_view_pc, .lst_feed_wrap .feed_footer .btn_reply .ico_reply {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.write_wrap .more_editor_list {
+		color: #cacaca;
+	}
+	
+	.write_wrap:after {
+		background-color: #2f2f2f;
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.sorting_select_wrap .btn_sorting:first-child:after {
+		background-color: transparent;
+	}
+	
+	.lst_feed_wrap .feed_footer .btn_reply em, .u_likeit_list_module .u_likeit_list_btn .u_cnt, .u_likeit_list_module .u_likeit_list_btn .u_txt {
+		color: #cacaca;
+	}
+	
+	.lst_feed_wrap .feed_head .feed_info_area .view_post:before {
+		background-color: #404040;
+	}
+	
+	.btn_paging_area.prev .btn_lst_more {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	#footer .btn_area .btn_t2:first-child span {
+		border-right: 1px solid #404040;
 	}
 }
 

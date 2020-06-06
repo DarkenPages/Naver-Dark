@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.76
+@version		1.48.78
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -1186,33 +1186,34 @@
 	.search .ico_search_submit {
 		filter: invert(86%);
 	}
+	
 	.btmbanner_list .bl_d {
-	    color: #cacaca;
+		color: #cacaca;
 	}
 	
 	.section_election .se_wrap {
-	    background: #242424;
-	    border: 1px solid #404040;
+		background: #242424;
+		border: 1px solid #404040;
 	}
 	
 	.section_election .se_title, .section_election .se_status.se_ico_early1 {
-	    filter: invert(86%) hue-rotate(-180deg);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.section_election .se_subtitle_wrap .se_sub_link {
-	    color: #cacaca;
+		color: #cacaca;
 	}
 	
 	.section_election .se_info_wrap .se_point+.se_st {
-	    color: #fff;
+		color: #fff;
 	}
 	
 	.section_election .se_info_wrap .se_point+.se_st:before {
-	    background-color: #7474e3;
+		background-color: #7474e3;
 	}
 	
 	.section_election .se_info_wrap .se_point, .section_election .se_vote {
-	    color: #7474e3;
+		color: #7474e3;
 	}
 	
 	.banner_area.type_chrome {
@@ -32465,7 +32466,7 @@
 		color: #cacaca;
 	}
 	
-	html:not([data-dark]) .logo_area .logo_special img {
+	html:not([data-dark=true]) .logo_area .logo_special img {
 		filter: invert(85.7%) hue-rotate(-180deg);
 	}
 	
@@ -44063,6 +44064,53 @@
 	
 	.component_keyword .mean_list .mean_item .user_info .bar {
 		color: #404040;
+	}
+	
+	.component_korean_qna .qna_headline {
+		border-top: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.component_korean_qna .qna_content {
+		border-top: 1px solid #404040;
+	}
+	
+	.component_korean_qna .qna_headline .desc .item:before {
+		background: #404040;
+	}
+	
+	.component_korean_qna .qna_headline .desc {
+		color: #cacaca;
+	}
+	
+	.component_korean_qna .qna_content .desc {
+		color: #fff;
+	}
+	
+	.component_korean_qna .qna_content .title {
+		border-top: 1px solid #404040;
+	}
+	
+	.component_korean_qna .related_word .item {
+		background: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.component_korean_qna .qna_nav {
+		border-top: 1px solid #404040;
+	}
+	
+	.component_korean_qna .qna_nav .link {
+		color: #cacaca;
+	}
+	
+	.component_korean_qna_list .link {
+		color: #cacaca;
+		border: 1px solid #404040;
+	}
+	
+	.component_korean_qna_list .link:after {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 }
 

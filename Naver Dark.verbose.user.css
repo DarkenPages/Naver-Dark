@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.82
+@version		1.48.93
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -14877,6 +14877,26 @@
 	.header {
 		background-color: #019341;
 	}
+	
+	#footer ul li {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	#footer * {
+		color: #242424;
+	}
+	
+	#footer address {
+		color: #cacaca;
+	}
+	
+	#footer address a {
+		color: #fff;
+	}
+	
+	#footer .info {
+		margin-top: 20px;
+	}
 }
 
 @-moz-document url-prefix("https://people.search.naver.com")
@@ -23441,6 +23461,12 @@
 	.se_paragraph *[style*=' color'], .se_paragraph *[style*=';color'], .se_paragraph *[style^='color'] {
 		color: #cacaca !important;
 	}
+	
+	.ln {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
 }
 
 @-moz-document url-prefix("https://srp.naver.com"), url-prefix("http://srp.naver.com")
@@ -29834,44 +29860,44 @@
 	}
 	
 	@keyframes highlight-opacity-animation {
-		0% {
-			width: 0%;
-			height: 0%;
-			left: 50%;
-			top: 50%;
-		}
-		
-		10% {
-			background-color: rgba(255, 238, 0, 1);
-			width: 100%;
-			height: calc(100% - 6px);
-			left: -3px;
-			top: 0px;
-		}
-		
-		100% {
-			background-color: rgba(255, 238, 0, 0);
-			width: calc(100% + 8px);
-			height: calc(100% + 2px);
-			left: -7px;
-			top: -4px;
-		}
+	    /*1% {*/
+	    /*    width: 0%;*/
+	    /*    height: 0%;*/
+	    /*    left: 50%;*/
+	    /*    top: 50%;*/
+	    /*}*/
+	
+	    10% {
+	        background-color: rgba(255, 238, 0, 1);
+	        width: 100%;
+	        height: calc(100% - 6px);
+	        left: -3px;
+	        top: 0px;
+	    }
+	
+	    100% {
+	        background-color: rgba(255, 238, 0, 0);
+	        width: calc(100% + 28px);
+	        height: calc(100% + 22px);
+	        left: -17px;
+	        top: -14px;
+	    }
 	}
 	
 	@keyframes highlight-animation {
-		0% {
-			width: 0%;
-			height: 0%;
-			left: 50%;
-			top: 50%;
-		}
-		
-		100% {
-			width: 100%;
-			height: calc(100% - 6px);
-			left: -3px;
-			top: 0px;
-		}
+	    /*1% {*/
+	    /*    width: 0%;*/
+	    /*    height: 0%;*/
+	    /*    left: 50%;*/
+	    /*    top: 50%;*/
+	    /*}*/
+	
+	    100% {
+	        width: 100%;
+	        height: calc(100% - 6px);
+	        left: -3px;
+	        top: 0px;
+	    }
 	}
 	
 	.fact_cont .talk_area .info_area .txt {
@@ -30198,10 +30224,10 @@
 	
 	    100% {
 	        background-color: rgba(255, 238, 0, 0);
-	        width: calc(100% + 8px);
-	        height: calc(100% + 2px);
-	        left: -7px;
-	        top: -4px;
+	        width: calc(100% + 28px);
+	        height: calc(100% + 22px);
+	        left: -17px;
+	        top: -14px;
 	    }
 	}
 	
@@ -48417,6 +48443,10 @@
 	.e_13_a, .e_15_b {
 		color: #cacaca;
 	}
+	
+	.ch_22_a {
+		color: #7474e3;
+	}
 }
 
 @-moz-document regexp("https://(.*)dic\\.naver\\.com/popManager\\.nhn.*"), regexp("https://(.*)dic\\.naver\\.com/popSearchExample\\.nhn.*")
@@ -49303,8 +49333,6 @@
 
 @-moz-document url-prefix("https://hanja.dict.naver.com")
 {
-	
-	
 	/* hanja.dict.naver.com */
 	
 	.dic_refer {
@@ -49472,6 +49500,595 @@
 	
 	.view_list ul li.tx_depth7 a:before {
 		background-position: -366px 0;
+	}
+	
+	.top_frame {
+		background: #2f2f2f;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.top_frame h2.title {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.bg_txt_sprite {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.hanja_words dl dt span a, .hanja_chars .chars_r dl dt {
+		color: #cacaca;
+	}
+	
+	.hanja_chars .chars_r dl {
+		background: none;
+		position: relative;
+	}
+	
+	.hanja_chars .chars_r dl:before {
+		background: url(https://ssl.pstatic.net/dicimg/hanja/img/dot_tabmenu.gif) left bottom repeat-x;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	#main_content h2 {
+		border-bottom: 1px solid #cacaca;
+	}
+	
+	.qlink ul li a img, #footer .f_ref .btn_tool {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	#footer .f_ref .source_tit {
+		color: #fff;
+	}
+	
+	#footer .f_ref .source_item a {
+		color: #cacaca;
+	}
+	
+	#footer .f_ref {
+		border-top: 2px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.hanja_chars .chars_l a {
+		background: #242424;
+		color: #fff;
+	}
+	
+	.hanja_chars .chars_l {
+		border: 1px solid #404040;
+	}
+	
+	.hanja_chars .chars_l a:hover, .hanja_words dl dt span a:hover, .hanja_words dl dt a, .hanja_chars .chars_r ul li.blue {
+		color: #7474e3;
+	}
+	
+	.hanja_words dl dt a:hover {
+		border-bottom: 1px solid #7474e3;
+	}
+	
+	.qlink li {
+		background: none;
+		position: relative;
+	}
+	
+	.qlink li:before {
+		background: url(https://ssl.pstatic.net/dicimg/hanja/img/bg_qlink_bar.gif) no-repeat 0 0;
+		filter: invert(86%) hue-rotate(-180deg);
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+	}
+	
+	.search_form .keybox {
+		background-color: #242424;
+		border: 2px solid #019341;
+	}
+	
+	.search_form .btn_sch {
+		background: #019341;
+	}
+	
+	.search_form .btn_sch:before, .search_form .arrow, .myword ul.link li a {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.auto_complete .option a {
+		color: #cacaca;
+	}
+	
+	.myword .link {
+		background: none;
+	}
+	
+	ul.write_or_find li img.on, ul.write_or_find li img.off {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.write_device, .shape_device {
+		background: none;
+	}
+	
+	.write_device:before, .shape_device:before {
+		background: transparent url(https://ssl.pstatic.net/dicimg/hanja/img/bg_main_write.gif) no-repeat;
+		filter: invert(86%) hue-rotate(-180deg);
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+	}
+	
+	.write_device dl .handwrite .handwrite_btns .hand_undo, .write_device dl .handwrite .handwrite_btns .hand_remove {
+		color: #cacaca;
+	}
+	
+	.write_device dl .handwrite .handwrite_btns .bar {
+		padding: 0 0px;
+		color: transparent;
+	}
+	
+	.write_device dl .handwrite .cavs {
+		border: 1px solid #404040;
+	}
+	
+	.write_device dl .list_area table {
+		background: #404040;
+	}
+	
+	.write_device dl .list_area table td {
+		border: 1px solid #242424;
+		background: #242424;
+		color: #fff;
+	}
+	
+	.write_device dl .handwrite .cavs canvas {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.write_device dl .list_area table td.on .hanja .hanja_tultip, .stroke_box ul.strokelist li.on .hanja_tultip {
+		background: #242424;
+		color: #7474e3;
+		border: 1px solid #7474e3;
+	}
+	
+	.stroke_box {
+		border: 1px solid #404040;
+	}
+	
+	.scrollbox {
+		background-color: #2f2f2f;
+	}
+	
+	.scrollbox .content {
+		background: #242424;
+	}
+	
+	.stroke_box table th {
+		background: #2f2f2f;
+		border: 1px solid #404040;
+		color: #fff;
+	}
+	
+	.stroke_box table td {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.scrollbox .scrollbar-v {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.stroke_box ul.strokelist li {
+		color: #cacaca;
+	}
+	
+	.stroke_box ul.strokelist li.on {
+		color: #fff;
+		background: #2f2f2f;
+	}
+	
+	.search_form .keyword {
+		color: #cacaca;
+	}
+	
+	.auto_complete ul li a {
+		color: #cacaca;
+	}
+	
+	.auto_complete ul li.focus {
+		background-color: #2f2f2f;
+	}
+	
+	.auto_complete ul {
+		background: none;
+		position: relative;
+	}
+	
+	.auto_complete ul:before {
+		background: url(https://ssl.pstatic.net/dicimg/hanja/img/line_h_dot1.gif) no-repeat;
+		filter: invert(86%) hue-rotate(-180deg);
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+	}
+	
+	h2.h2_search strong {
+		color: #fff;
+	}
+	
+	.word_popup li a, h5 span.tit, h5 span.tit3, h5 span.tit4, h5 span.tit6, h5 span.tit1, h5 span.tit7, .addword {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.result_chn_words {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.result_chn_words dl dt a {
+		color: #fff;
+	}
+	
+	.result_chn_words dl dd.meaning {
+		color: #cacaca;
+	}
+	
+	.result_chn_words dl dd.meaning a {
+		color: #fff;
+	}
+	
+	.hanja_layer {
+		background: #242424;
+		border: 2px solid #404040;
+	}
+	
+	.hanja_layer .hanja_info dl dt .hanja {
+		color: #fff;
+	}
+	
+	.hanja_layer .hanja_info dl dt, .result_chn_chr dl dd .meaning {
+		color: #cacaca;
+	}
+	
+	.more a, .result_chn_words dl dd a, .result_chn_chr dl dd a, .tb_shape_result td a:hover {
+		color: #7474e3;
+	}
+	
+	.result_chn_words dl dd b {
+		background: #2f2f2f;
+	}
+	
+	.more {
+		background: none;
+		position: relative;
+	}
+	
+	.more:before {
+		background: url(https://ssl.pstatic.net/dicimg/hanja/img/bu_arrow3.gif) 100% 4px no-repeat;
+		filter: invert(86%) hue-rotate(-180deg);
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+	}
+	
+	.result_chn_chr dl dt a {
+		color: #fff;
+	}
+	
+	.result_chn_chr {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.result_chn_chr dl dd .meaning a {
+		color: #fff;
+	}
+	
+	ul.oprate li a {
+		color: #cacaca;
+	}
+	
+	.result_chn_chr h5 {
+		color: #fff;
+	}
+	
+	ul.oprate li {
+		background: none;
+		position: relative;
+	}
+	
+	ul.oprate li:before {
+		background: url(https://ssl.pstatic.net/dicimg/hanja/img/bg_hline2.gif) no-repeat left 2px;
+		filter: invert(86%) hue-rotate(-180deg);
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+	}
+	
+	.tb_shape_result h5 em, .result_chn_words dl dd.meaning a:hover {
+		color: #7474e3;
+	}
+	
+	.tb_shape_result table {
+		border-top: 1px solid #404040;
+		background: #242424;
+	}
+	
+	.tb_shape_result td {
+		background: #242424;
+	}
+	
+	.tb_shape_result td a, .entrytop_box dl dt, .entrytop_box dl dd strong {
+		color: #fff;
+	}
+	
+	.totop img, .util_option .btn_print, .util_option .sns_share a, .font_scale_option button, .entrytop_box dl.single dd ul li img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.btn_stroke, .btn_add_wordbook {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.entrytop_box dl dd ul li a, .entrytop_box dl dd .sound {
+		color: #cacaca;
+	}
+	
+	.word_box .main_tab {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.word_box .main_tab .main_tab_link {
+		color: #cacaca;
+	}
+	
+	.word_box .sub_tab_area {
+		background: #2f2f2f;
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.word_box .cp_tab .on .cp_tab_link {
+		color: #fff;
+	}
+	
+	.word_box .cp_tab .cp_tab_link {
+		color: #cacaca;
+	}
+	
+	.word_box .cp_tab .cp_tab_item:before {
+		background: #404040;
+	}
+	
+	.kinds_list li a, .kinds_list li, .kinds_list .lines li, .kinds_list .lines li span, .kinds_list .lines a {
+		color: #cacaca;
+	}
+	
+	.kinds_list li a:hover, .kinds_list .lines a:hover {
+		color: #7474e3;
+	}
+	
+	.word_txt h5 {
+		color: #fff;
+	}
+	
+	.word_txt {
+		border-top: 1px solid #404040;
+	}
+	
+	.word_txt p, .word_txt p.txt a, .word_txt p.txt1 a {
+		color: #cacaca;
+	}
+	
+	.word_process .main_cell {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.word_process {
+		border: 1px solid #404040;
+	}
+	
+	.word_process .process_img img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.word_process .name_cell {
+		background: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.word_process .name_inner {
+		border-right: 1px solid #404040;
+	}
+	
+	.word_txt li a {
+		color: #cacaca;
+	}
+	
+	.word_write {
+		border-top: 1px solid #404040;
+	}
+	
+	.word_write h5, .word_list h5, .word_list dt a {
+		color: #fff;
+	}
+	
+	.word_list {
+		border-top: 1px solid #404040;
+	}
+	
+	.word_write .btn_ww img, .word_write li img, .write_step p img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.write_step {
+		background: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.write_step .btn_close img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.word_list dd.meaning, .word_list dd.meaning a {
+		color: #cacaca;
+	}
+	
+	.word_list dd.meaning a:hover, .word_list dd a {
+		color: #7474e3;
+	}
+	
+	.btn_print a img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.myword, .find_hanja {
+		border: 2px solid #404040;
+	}
+	
+	.aside h3 {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.myword h3 img, .myword a.add img, .myword a.btn_delete img, .word_help_type .btn_word_help, body:nth-of-type(1) .myword .view span input, .find_hanja h3 img, .word_help_type .word_help_layer span.arr, .word_help_type .close_word_layer {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	#container .myword ul li a span {
+		color: #fff;
+	}
+	
+	#container .myword ul li a em {
+		color: #cacaca;
+	}
+	
+	.myword .view {
+		background-color: #2f2f2f;
+		border-top: 1px solid #404040;
+	}
+	
+	.myword .view>a {
+		border-bottom: 1px solid #cacaca;
+		color: #cacaca;
+	}
+	
+	.find_hanja dl dt {
+		color: #fff;
+	}
+	
+	.find_hanja dl dd a:hover, .find_hanja dl dd a {
+		color: #cacaca;
+	}
+	
+	.word_help_type .word_help_layer {
+		background: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.word_help_type .word_help_layer p {
+		color: #fff;
+	}
+	
+	.myword p {
+		color: #cacaca;
+	}
+	
+	.myword ul li, .sta .select_ime li {
+		background: none;
+		position: relative;
+	}
+	
+	.myword ul li:not(.nowords):before {
+		background: url(https://ssl.pstatic.net/dicimg/hanja/style/202003250957/img/hanja_right_arrow.gif) no-repeat 10px 7px;
+		filter: invert(86%) hue-rotate(-180deg);
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+	}
+	
+	.sta .select_ime li:before {
+		background: url(https://ssl.pstatic.net/dicimg/hanja/style/202003250957/img/sp_dic_hanza.png) no-repeat -219px 0;
+		filter: invert(86%) hue-rotate(-180deg);
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+	}
+	
+	.find_hanja dl dd li span {
+		color: #404040;
+	}
+	
+	.adds li.adv img, .adds li.nav img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.write_device dl dt img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	#top_search .write_device:before {
+		background: #fff url(https://ssl.pstatic.net/dicimg/hanja/img/bg_write_device.gif) !important;
+		filter: invert(86%) hue-rotate(-180deg);
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+	}
+	
+	#top_search .shape_device:before {
+		background: #fff url(https://ssl.pstatic.net/dicimg/hanja/img/bg_shape_device.gif) no-repeat !important;
+		filter: invert(86%) hue-rotate(-180deg);
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+	}
+	
+	.write_device .info label {
+		color: #cacaca;
+	}
+	
+	.write_device .close input[type=image], .shape_device .close input[type=image], .info_wrap .view_link:after {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.shape_device .stroke_find a {
+		color: #fff;
+	}
+	
+	.shape_device .stroke_find {
+		color: #404040;
 	}
 }
 
@@ -51101,5 +51718,54 @@
 	
 	#vote_check, #vote_pop {
 		filter: invert(86%) hue-rotate(-180deg);
+	}
+}
+
+@-moz-document url-prefix("https://hanja.dict.naver.com/print")
+{
+	.entrytop_box {
+		background: none;
+		position: relative;
+	}
+	
+	.entrytop_box .bg_btm, .entrytop_box dl.letter dd.means ul li img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.word_box ul.font-control li.txt {
+		color: #cacaca;
+	}
+	
+	.word_box ul.font-control li {
+		border: 1px solid #404040;
+		background: #242424;
+	}
+	
+	.word_box ul.font-control li a {
+		color: #cacaca;
+	}
+	
+	.word_box ul.font-control li.on {
+		background: #2f2f2f;
+	}
+	
+	.word_box ul.font-control li.on a {
+		color: #7474e3;
+	}
+	
+	.word_txt, .kinds_list, .word_write, .word_list {
+		border-bottom: 1px solid #404040;
+	}
+	
+	#pop_footer {
+		border-top: 1px solid #404040;
+	}
+	
+	#pop_footer address .logo img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	#pop_footer address {
+		color: #cacaca;
 	}
 }

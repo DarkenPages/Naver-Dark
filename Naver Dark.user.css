@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.82
+@version		1.48.93
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -166,7 +166,7 @@
     }
     @keyframes highlight-opacity-animation {
         10% { width: 100%;top: 0px;left: -3px;height: calc(100% - 6px);background-color: rgba(255, 238, 0, 1) }
-        100% { width: calc(100% + 8px);top: -4px;left: -7px;height: calc(100% + 2px);background-color: rgba(255, 238, 0, 0) }
+        100% { width: calc(100% + 28px);top: -14px;left: -17px;height: calc(100% + 22px);background-color: rgba(255, 238, 0, 0) }
     }
 }
 @-moz-document regexp("https://(.*)\\.dict\\.naver\\.com/common/(.*)_eclipsisTable.*") {
@@ -2428,25 +2428,50 @@
     #blocker { background-color: #2f2f2f }
 }
 @-moz-document url-prefix("https://hanja.dict.naver.com") {
-    .auto_complete { border: 1px solid #404040;background: #242424 }
+    .adds li.adv img,.adds li.nav img,.addword,.word_popup li a,h5 span.tit,h5 span.tit1,h5 span.tit3,h5 span.tit4,h5 span.tit6,h5 span.tit7,.bg_txt_sprite,.btn_print a img,.dic_refer .refer_item a img,.dic_refer .refer_title img,.entrytop_box dl.single dd ul li img,.font_scale_option button,.totop img,.util_option .btn_print,.util_option .sns_share a,.find_hanja h3 img,.myword a.add img,.myword a.btn_delete img,.myword h3 img,.word_help_type .btn_word_help,.word_help_type .close_word_layer,.word_help_type .word_help_layer span.arr,body:nth-of-type(1) .myword .view span input,.gbox dl dt a:after,.gbox dl.on dt a:after,.sta .select_ime li a,.info_wrap .view_link:after,.shape_device .close input[type=image],.write_device .close input[type=image],.myword ul.link li a,.search_form .arrow,.search_form .btn_sch:before,.scrollbox .scrollbar-v,.sta .btn_sch:before,.sta .gbox .btn_arw,.sta h2 a,.word_process .process_img img,.word_write .btn_ww img,.word_write li img,.write_step p img,.write_device dl .handwrite .cavs canvas,.write_device dl dt img,.write_step .btn_close img,#footer .f_ref .btn_tool,.qlink ul li a img,ul.write_or_find li img.off,ul.write_or_find li img.on { filter: invert(86%) hue-rotate(-180deg) }
+    .aside h3,.result_chn_chr,.result_chn_words,.stroke_box table td,.word_process .main_cell { border-bottom: 1px solid #404040 }
     .auto_complete .option { color: #cacaca;border-top: 1px solid #404040;background: #2f2f2f }
-    .auto_complete p,.auto_complete2 p,.gbox dl .opt a,.gbox dl dt a,.sta .auto_complete2 .option a,#content p.text_h2 { color: #cacaca }
-    .bar:before { background: none }
-    .dic_refer { border: 2px solid #404040 }
-    .dic_refer .refer_item a img,.dic_refer .refer_title img,.gbox dl dt a:after,.gbox dl.on dt a:after,.sta .select_ime li a,.sta .btn_sch:before,.sta .gbox .btn_arw,.sta h2 a { filter: invert(86%) hue-rotate(-180deg) }
+    .auto_complete .option a,.auto_complete p,.auto_complete2 p,.auto_complete ul li a,.entrytop_box dl dd .sound,.entrytop_box dl dd ul li a,.find_hanja dl dd a,.find_hanja dl dd a:hover,.gbox dl .opt a,.gbox dl dt a,.hanja_chars .chars_r dl dt,.hanja_words dl dt span a,.hanja_layer .hanja_info dl dt,.result_chn_chr dl dd .meaning,.kinds_list .lines a,.kinds_list .lines li,.kinds_list .lines li span,.kinds_list li,.kinds_list li a,.myword p,.result_chn_words dl dd.meaning,.search_form .keyword,.sta .auto_complete2 .option a,.stroke_box ul.strokelist li,.word_box .cp_tab .cp_tab_link,.word_box .main_tab .main_tab_link,.word_list dd.meaning,.word_list dd.meaning a,.word_txt li a,.word_txt p,.word_txt p.txt a,.word_txt p.txt1 a,.write_device .info label,.write_device dl .handwrite .handwrite_btns .hand_remove,.write_device dl .handwrite .handwrite_btns .hand_undo,#container .myword ul li a em,#content p.text_h2,#footer .f_ref .source_item a,ul.oprate li a { color: #cacaca }
+    .auto_complete ul li.focus,.scrollbox { background-color: #2f2f2f }
+    .auto_complete ul,.hanja_chars .chars_r dl,.more,.myword ul li,.sta .select_ime li,.qlink li,.view_list ul li a,ul.oprate li { position: relative;background: none }
+    .auto_complete ul:before { width: 100%;top: 0;position: absolute;left: 0;height: 100%;filter: invert(86%) hue-rotate(-180deg);content: '';background: url(https://ssl.pstatic.net/dicimg/hanja/img/line_h_dot1.gif) no-repeat }
+    .auto_complete,.word_help_type .word_help_layer,.write_step { border: 1px solid #404040;background: #242424 }
+    .bar:before,.myword .link,.shape_device,.write_device { background: none }
+    .btn_add_wordbook,.btn_stroke { color: #cacaca;border: 1px solid #404040 }
+    .dic_refer,.find_hanja,.myword { border: 2px solid #404040 }
+    .entrytop_box dl dd strong,.entrytop_box dl dt,.tb_shape_result td a,.find_hanja dl dt,.hanja_layer .hanja_info dl dt .hanja,.result_chn_chr dl dd .meaning a,.result_chn_chr dl dt a,.result_chn_chr h5,.result_chn_words dl dd.meaning a,.result_chn_words dl dt a,.shape_device .stroke_find a,.text_other p.text01,.word_box .cp_tab .on .cp_tab_link,.word_help_type .word_help_layer p,.word_list dt a,.word_list h5,.word_write h5,.word_txt h5,#container .myword ul li a span,#content h2,#footer .f_ref .source_tit,h2.h2_search strong { color: #fff }
+    .find_hanja dl dd li span,.shape_device .stroke_find { color: #404040 }
     .gbox .keyword { color: #cacaca;background: #242424 }
     .gbox dl .opt { border: 1px solid #404040;border-top: 0;background: #242424 }
-    .gbox dl .opt a:hover { background: #2f2f2f }
+    .gbox dl .opt a:hover,.result_chn_words dl dd b { background: #2f2f2f }
     .gbox dl.on dt a { border: 1px solid #404040;border-bottom: none }
+    .hanja_chars .chars_l a { color: #fff;background: #242424 }
+    .hanja_chars .chars_l a:hover,.hanja_chars .chars_r ul li.blue,.hanja_words dl dt a,.hanja_words dl dt span a:hover,.kinds_list .lines a:hover,.kinds_list li a:hover,.more a,.result_chn_chr dl dd a,.result_chn_words dl dd a,.tb_shape_result td a:hover,.result_chn_words dl dd.meaning a:hover,.tb_shape_result h5 em,.text_other p.text01 a,.word_list dd a,.word_list dd.meaning a:hover { color: #7474e3 }
+    .hanja_chars .chars_l,.stroke_box,.word_process,.write_device dl .handwrite .cavs { border: 1px solid #404040 }
+    .hanja_chars .chars_r dl:before { width: 100%;top: 0;position: absolute;pointer-events: none;left: 0;height: 100%;filter: invert(86%) hue-rotate(-180deg);content: '';background: url(https://ssl.pstatic.net/dicimg/hanja/img/dot_tabmenu.gif) left bottom repeat-x }
+    .hanja_layer { border: 2px solid #404040;background: #242424 }
+    .hanja_words dl dt a:hover { border-bottom: 1px solid #7474e3 }
+    .more:before { width: 100%;top: 0;position: absolute;left: 0;height: 100%;filter: invert(86%) hue-rotate(-180deg);content: '';background: url(https://ssl.pstatic.net/dicimg/hanja/img/bu_arrow3.gif) 100% 4px no-repeat }
+    .myword .view { border-top: 1px solid #404040;background-color: #2f2f2f }
+    .myword .view>a { color: #cacaca;border-bottom: 1px solid #cacaca }
+    .myword ul li:not(.nowords):before { width: 100%;top: 0;position: absolute;left: 0;height: 100%;filter: invert(86%) hue-rotate(-180deg);content: '';background: url(https://ssl.pstatic.net/dicimg/hanja/style/202003250957/img/hanja_right_arrow.gif) no-repeat 10px 7px }
+    .qlink li:before { width: 100%;top: 0;position: absolute;left: 0;height: 100%;filter: invert(86%) hue-rotate(-180deg);content: '';background: url(https://ssl.pstatic.net/dicimg/hanja/img/bg_qlink_bar.gif) no-repeat 0 0 }
+    .scrollbox .content,.sta .gbox .gbox_inner,.tb_shape_result td { background: #242424 }
+    .search_form .btn_sch { background: #019341 }
+    .search_form .keybox { border: 2px solid #019341;background-color: #242424 }
+    .shape_device:before,.write_device:before { z-index: -1;width: 100%;top: 0;position: absolute;left: 0;height: 100%;filter: invert(86%) hue-rotate(-180deg);content: '';background: transparent url(https://ssl.pstatic.net/dicimg/hanja/img/bg_main_write.gif) no-repeat }
     .sta .auto_complete2 { border: 1px solid #404040;border-top: 1px solid #019341;background: #242424 }
     .sta .auto_complete2 .option { border-top: 1px solid #404040;background: #2f2f2f }
     .sta .btn_sch { background-color: #019341 }
     .sta .gbox { border: 2px solid #019341 }
-    .sta .gbox .gbox_inner { background: #242424 }
-    .text_other p.text01 a { color: #7474e3 }
-    .text_other p.text01,#content h2 { color: #fff }
+    .sta .select_ime li:before { width: 100%;top: 0;position: absolute;left: 0;height: 100%;filter: invert(86%) hue-rotate(-180deg);content: '';background: url(https://ssl.pstatic.net/dicimg/hanja/style/202003250957/img/sp_dic_hanza.png) no-repeat -219px 0 }
+    .stroke_box table th { color: #fff;border: 1px solid #404040;background: #2f2f2f }
+    .stroke_box ul.strokelist li.on { color: #fff;background: #2f2f2f }
+    .stroke_box ul.strokelist li.on .hanja_tultip,.write_device dl .list_area table td.on .hanja .hanja_tultip { color: #7474e3;border: 1px solid #7474e3;background: #242424 }
+    .tb_shape_result table { border-top: 1px solid #404040;background: #242424 }
+    .top_frame { border-bottom: 1px solid #404040;background: #2f2f2f }
+    .top_frame h2.title { filter: invert(81.5%) hue-rotate(-180deg) }
     .view_list { border-bottom: 1px solid #404040;background: #242424 }
-    .view_list ul li a { position: relative;background: none }
     .view_list ul li a:before { width: 100%;top: 0;position: absolute;left: 0;height: 100%;filter: invert(86%) hue-rotate(-180deg);content: '';background: url(https://ssl.pstatic.net/dicimg/hanja/img/select_hanja_new4.gif) no-repeat 0 -21px }
     .view_list ul li.tx_depth1 a:before { background-position: 0px 0px }
     .view_list ul li.tx_depth2 a:before { background-position: -58px 0px }
@@ -2456,7 +2481,30 @@
     .view_list ul li.tx_depth5 a:before { background-position: -250px 0px }
     .view_list ul li.tx_depth6 a:before { background-position: -440px 0 }
     .view_list ul li.tx_depth7 a:before { background-position: -366px 0 }
+    .word_box .cp_tab .cp_tab_item:before,.write_device dl .list_area table { background: #404040 }
+    .word_box .main_tab { border-top: 1px solid #404040;border-bottom: 1px solid #404040 }
+    .word_box .sub_tab_area { border-top: 1px solid #404040;border-bottom: 1px solid #404040;background: #2f2f2f }
+    .word_list,.word_txt,.word_write { border-top: 1px solid #404040 }
+    .word_process .name_cell { color: #cacaca;background: #2f2f2f }
+    .word_process .name_inner { border-right: 1px solid #404040 }
+    .write_device dl .handwrite .handwrite_btns .bar { padding: 0 0px;color: transparent }
+    .write_device dl .list_area table td { color: #fff;border: 1px solid #242424;background: #242424 }
+    #footer .f_ref { border-top: 2px solid #404040;border-bottom: 1px solid #404040 }
     #igbox:before { background-color: #404040 }
+    #main_content h2 { border-bottom: 1px solid #cacaca }
+    #top_search .shape_device:before { width: 100%;top: 0;position: absolute;left: 0;height: 100%;filter: invert(86%) hue-rotate(-180deg);content: '';background: #fff url(https://ssl.pstatic.net/dicimg/hanja/img/bg_shape_device.gif) no-repeat !important }
+    #top_search .write_device:before { width: 100%;top: 0;position: absolute;left: 0;height: 100%;filter: invert(86%) hue-rotate(-180deg);content: '';background: #fff url(https://ssl.pstatic.net/dicimg/hanja/img/bg_write_device.gif) !important }
+    ul.oprate li:before { width: 100%;top: 0;position: absolute;left: 0;height: 100%;filter: invert(86%) hue-rotate(-180deg);content: '';background: url(https://ssl.pstatic.net/dicimg/hanja/img/bg_hline2.gif) no-repeat left 2px }
+}
+@-moz-document url-prefix("https://hanja.dict.naver.com/print") {
+    .entrytop_box { position: relative;background: none }
+    .entrytop_box .bg_btm,.entrytop_box dl.letter dd.means ul li img,#pop_footer address .logo img { filter: invert(86%) hue-rotate(-180deg) }
+    .kinds_list,.word_list,.word_txt,.word_write { border-bottom: 1px solid #404040 }
+    .word_box ul.font-control li { border: 1px solid #404040;background: #242424 }
+    .word_box ul.font-control li a,.word_box ul.font-control li.txt,#pop_footer address { color: #cacaca }
+    .word_box ul.font-control li.on { background: #2f2f2f }
+    .word_box ul.font-control li.on a { color: #7474e3 }
+    #pop_footer { border-top: 1px solid #404040 }
 }
 @-moz-document url-prefix("https://learn.dict.naver.com") {
     .Ndrawer_menu { border: 1px solid #404040;background: #242424 }
@@ -2538,7 +2586,7 @@
     .add_area .item_edit input.sort { color: #cacaca !important;border: 1px solid #404040;background: #242424 }
     .add_area .list_add .delete,.edit_area .list_add li .edit,img.btn_add2,img.edit,.edit_area .list_edit .delete,.edit_area .list_edit li .edit,.editor_btn a img,.smart_editor .tool li button,.layer_quizTips .btns a img,.layer_quizTips h3 a.close01,.quiz_sel,.quiz_sel_options,.sta h2 a,#v_content .add_wordbook .btns a img,#v_content .main .tit_a img,#v_content .main_list .list_d02_m1 .edit,#v_content .main_list a.vdown_b,#v_content .main_list a.vdown_g,#v_content .main_list a.vup_b,#v_content .main_list a.vup_g,#v_content .main_list li.li05 a img,#v_content .main_list li.li06 a img,#v_content .main_list li.li07 a img,.tab_wb li img,#v_content .add_wordbook h3 a,#v_content .right .right_search .search_btn img,#v_content .list_d02_n li a img,.c_defalut_1,.c_defalut_2,.edit_area .list_edit .list_a01_n li .add_tts,.edit_area .list_edit li.tip .list_a01_n li a img,.edit_area .list_edit span.star,#v_content .list_d03_n .left .w_baseInfo_ch a img,#v_content .list_d03_n .left .w_baseInfo_en a img,#v_content .list_d03_n .left .w_baseInfo_hj a img,#v_content .list_d03_n .left .w_baseInfo_jp a img,#v_content .list_d03_n .left .w_baseInfo_kr a img,#v_content .vocab_cont .list_k01_n .list_a01_n .aloud img,.print_list1 dt img,#v_content .main .tit_b01_n1 .h_btns a img,#v_content .noword a img,.right .notice .tit,#v_content .main .tit_b01_n1 .list_e02_n dt img,.sta .btn_sch:before,.sta .link_new_version:after,#v_content .main .tit_b01_n1 .list_e02_n img,.quiz_set_list1 dt img,#v_content .right .right_info .info_list h3 img,.add_area .add_tit_area a.handwrite img,.add_area .add_tit_area a.mar_t1 img,.add_area .list_add .add_tts,.add_area .list_add .list_a01_n li .btn_mt,.add_area .list_add li.k01_li span.star,.btn_edit a img,.handwriting_jp,#v_content .right .right_info .list_d01_l .li01,#v_content .right .right_info .list_d01_l .li02,#v_content .right .right_info .list_d01_l .li03 { filter: invert(86%) hue-rotate(-180deg) }
     .add_tit_area .ipt_area .ipt_01,.histogram_tb,.sta .gbox .gbox_inner { background: #242424 }
-    .add_tit_area .ipt_area .tip_con a,.e_19_a { color: #7474e3 }
+    .add_tit_area .ipt_area .tip_con a,.ch_22_a,.e_19_a { color: #7474e3 }
     .c_12_a,.c_12_b,.c_defalut_g,.c_12_m,.c_12_y,.c_13_a,.e_13_a,.e_15_b,.t_12_c,.t_13_a,#footer .policy dd,#footer .policy dd a,#v_content .right .right_info .info_list .list001 ul li a { color: #cacaca }
     .c_12_c,.c_12_e,.c_defalut,.c_12_f,.c_15_a,.layer_quizTips h3,.t_19_a,#v_content .add_wordbook .c_defalut_g,#v_content .add_wordbook h3,#v_content .main .tit_b01_n1 .list_e02_n dd.tips_wordNum span { color: #fff }
     .c_12_o,.c_16_a,*[class*='ipt_word_'] { color: #cacaca;background: #242424 }
@@ -2904,13 +2952,11 @@
     .u_word_dic.u_active:after { z-index: -1;width: 100%;top: -3px;position: absolute;padding: 3px;left: -4px;height: 100%;content: '';border-radius: 3px;background-color: #ffee00 }
     .ytn_top dl.type04 dt > a { display: inline }
     @keyframes highlight-animation {
-        0% { width: 0%;top: 50%;left: 50%;height: 0% }
         100% { width: 100%;top: 0px;left: -3px;height: calc(100% - 6px) }
     }
     @keyframes highlight-opacity-animation {
-        0% { width: 0%;top: 50%;left: 50%;height: 0% }
         10% { width: 100%;top: 0px;left: -3px;height: calc(100% - 6px);background-color: rgba(255, 238, 0, 1) }
-        100% { width: calc(100% + 8px);top: -4px;left: -7px;height: calc(100% + 2px);background-color: rgba(255, 238, 0, 0) }
+        100% { width: calc(100% + 28px);top: -14px;left: -17px;height: calc(100% + 22px);background-color: rgba(255, 238, 0, 0) }
     }
     #article_image[src*='noimage'] { filter: invert(90%) hue-rotate(-180deg) }
     #snb_wrap .h_logo { width: 56px;margin-top: 2px;height: 17px;background: linear-gradient(transparent,transparent),url(https://ssl.pstatic.net/static/sports/2019/pc/11/12/sp_gnb.svg);background-size: 103px 97px;background-position: -4px -29px }
@@ -3568,6 +3614,7 @@
     .layer_post_next { border: 1px solid #4f4f4f;background: #404040 }
     .layer_post_next .btn_area { border-top: 1px solid #4f4f4f }
     .layer_post_next .btn_area .btn:first-child { color: #cacaca;border-right: 1px solid #4f4f4f }
+    .ln { border-top: 1px solid #404040;border-bottom: 1px solid #404040;background-color: #2f2f2f }
     .loading_t1 img,.lst_feed_wrap span > img[src*='loader'],.ly_more a.btn_bigger,.ly_more a.btn_default,.pc .end .like .btn_area .btn_more:after,.pc #header .gnb .logo2 .ico_post_logo_sub,.pc .cont_header .logo2 .ico_post_logo_sub,.u_cbox .u_cbox_comment .u_cbox_ico_best { filter: invert(86%) hue-rotate(-180deg) }
     .lst_default1 li,.my_wrap .lst_default1,.se_paragraph *[style*='border-bottom'],.se-viewer *[style*='border-bottom'],.u_cbox .u_cbox_comment_box,.u_cbox .u_cbox_sort { border-bottom: 1px solid #404040 !important }
     .lst_default1,.my_expert_header_wrap .my_expert_header .btn_wrap .btn,.sect_infl_wrap,.sect_post_wrap { background: #242424 !important }
@@ -4792,6 +4839,11 @@
     .gnb_notice_li a.gnb_notice .gnb_icon,.gnb_service_li a.gnb_service .gnb_icon,.mail_li a.gnb_mail .gnb_icon { filter: invert(0%) !important }
     .header { background-color: #019341 }
     .sp_naver,.sp_sv { filter: invert(0%);color: #242424 !important }
+    #footer .info { margin-top: 20px }
+    #footer * { color: #242424 }
+    #footer address { color: #cacaca }
+    #footer address a { color: #fff }
+    #footer ul li { filter: invert(86%) hue-rotate(-180deg) }
 }
 @-moz-document url-prefix("https://www.naver.com/my.html") {
     .flex_list .item_flex+.item_flex:before,.list_thumb .dsc_wrap .dsc+.dsc:before,.list_memo .dsc_date:before,.service_header .title_area .title_tab+.title_tab:before,.list_timeline .dsc_time:before,.sc_user .info_area .user_info .link_my:before,.service_header .func_area .func+.func:before { background-color: #404040 }

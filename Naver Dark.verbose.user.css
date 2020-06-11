@@ -2,10 +2,9 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.93
+@version		1.48.97
 @namespace		Avis Studio
 @license		CC BY-NC-SA
-@preprocessor	default
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://www.naver.com"), url-prefix("https://my.naver.com"), url-prefix("https://ui.nboard2.naver.com"), url-prefix("https://search.naver.com"), url-prefix("https://castbox.shopping.naver.com"), url-prefix("https://section.cafe.naver.com"), url-prefix("https://talk.cafe.naver.com"), url-prefix("https://cafe.upphoto.naver.com"), url-prefix("https://cafe.naver.com/CafeMemberInfo.nhn"), url-prefix("https://section.blog.naver.com"), url-prefix("https://uploader1.nmv.naver.com"), url-prefix("https://up.cafe.naver.com"), url-prefix("https://datalab.naver.com"), url-prefix("https://www.navercorp.com"), url-prefix("https://mail.naver.com"), url-prefix("https://note.naver.com"), url-prefix("https://mashup.map.naver.com"), url-prefix("https://nid.naver.com/nidlogin.login")
@@ -9680,6 +9679,33 @@
 	.cs_gallery .ga_info .writer .spga.bg_profile {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
+	
+	.nx_place .partner_area .info_area {
+		color: #cacaca;
+	}
+	
+	.nx_place .partner_area {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.nx_place .partner_area .ly_desc {
+		border: 1px solid #404040;
+		background: #242424;
+	}
+	
+	.nx_place .partner_area .ly_desc::before {
+		border: 1px solid #404040;
+	}
+	
+	.nx_place .partner_area .ly_desc::after {
+		background: #242424;
+		border-right: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.nx_place .list_place_col1 .icon_area>[class^=icon_] .icon path[fill="#E0FAEA"] {
+		fill: #242424;
+	}
 }
 
 @-moz-document url-prefix("https://nid.naver.com/user2/help/")
@@ -12580,6 +12606,10 @@
 	
 	.ly_v2 .ly_point {
 		filter: invert(88.7%) hue-rotate(-180deg) grayscale(1);
+	}
+	
+	.captcha .captcha_txt {
+		color: #fff;
 	}
 }
 
@@ -32834,10 +32864,6 @@
 		border: 1px solid #404040;
 	}
 	
-	.sc_themecast .main_category .category_item {
-		border-right: 1px solid #404040;
-	}
-	
 	.sc_themecast .main_category .list_category:before {
 		border: 1px solid #404040;
 	}
@@ -32880,6 +32906,10 @@
 	
 	html[data-dark=true] #gnb .group_nav .ly_btn_area {
 		background-color: #242424;
+	}
+	
+	.sc_themecast .main_category .tab {
+		border-right: 1px solid #404040;
 	}
 }
 

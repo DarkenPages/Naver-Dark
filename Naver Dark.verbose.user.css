@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.98
+@version		1.48.112
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -9706,6 +9706,426 @@
 	
 	.nx_place .list_place_col1 .icon_area>[class^=icon_] .icon path[fill="#E0FAEA"] {
 		fill: #242424;
+	}
+	
+	.cs_sunrise .tab_menu li {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_sunrise .tab_menu li.on {
+		border: 1px solid #404040;
+		background-color: #242424;
+		border-bottom: 1px solid #242424;
+	}
+	
+	.cs_sunrise .tab_menu li.on a {
+		color: #fff;
+	}
+	
+	.cs_sunrise .main_time {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_sunrise .sun_time .btn_search {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_sunrise .sun_detail .sun_list {
+		border: 1px solid #404040;
+		border-left: 0;
+	}
+	
+	.cs_sunrise .sun_detail .sun_list li a.on {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_sunrise .sun_detail .sun_list li dt {
+		color: #7474e3 !important;
+	}
+	
+	.cs_sunrise .sun_detail .sun_list li dt, .cs_sunrise .sun_detail .sun_list li dd {
+		color: #cacaca;
+	}
+	
+	.cs_sunrise .sun_detail .sun_list li a.on dt, .cs_sunrise .sun_detail .sun_list li a.on dd {
+		color: #fff;
+	}
+	
+	.cs_sunrise .sun_detail .sun_list li a.on .weather_lk {
+		background: none;
+		position: relative;
+		z-index: -1;
+	}
+	
+	.cs_sunrise .sun_detail .sun_list li a.on .weather_lk:before {
+		position: absolte;
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/sunrise/img/sp_sunrise.png) no-repeat 0 -78px;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		content: '';
+		pointer-events: none;
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_sunrise .other_link .relation dt {
+		color: #fff !important;
+	}
+	
+	.cs_sunrise .other_link .relation dd .noti_bar {
+		color: #404040;
+	}
+	
+	.cs_sunrise .sun_detail .map_area .map {
+		border: 1px solid #404040;
+	}
+	
+	.cs_sunrise .sun_detail .map_area .map > div > div, .cs_sunrise .sun_detail .map_area .btn_expand, .cs_sunrise .sun_detail .map_area .btn_reduce, .cs_sunrise .sun_time .btn_attraction {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_sunrise .sun_detail .search_ly {
+		border: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	.cs_sunrise .sun_detail .search_ly p span {
+		color: #fff;
+	}
+	
+	.cs_sunrise .sun_detail .sun_list li a.on .weather_lk {
+		color: #7474e3;
+	}
+	
+	.cs_sunrise .sun_select1 {
+		border: 1px solid #404040 !important;
+		background: #242424 !important;
+	}
+	
+	.cs_sunrise .sun_select1 li {
+		background: #242424 !important;
+	}
+	
+	.cs_sunrise .sun_selectbox span {
+		border: 1px solid #404040;
+	}
+	
+	.cs_sunrise .sun_select1 li span {
+		color: #cacaca !important;
+	}
+	
+	.cs_sunrise .sun_select1 li {
+		background: #242424 !important;
+	}
+	
+	.cs_sunrise .sun_selectbox a {
+		background: #242424 !important;
+	}
+	
+	.cs_sunrise .sun_select1 li a:hover {
+		background: #2f2f2f !important;
+	}
+	
+	.cs_sunrise .sun_detail .search_ly2 {
+		border: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	.contents03_sub dt, .contents03_sub dt span {
+		color: #fff !important;
+	}
+	
+	.cs_sunrise .sun_detail .search_ly2 dd .btn_search1, .cs_sunrise .sun_detail .search_ly2 dd .btn_search2, .cs_sunrise .sun_detail .search_ly2 dd .btn_search3, .cs_sunrise .sun_detail .search_ly2 .pg_nate .pre, .cs_sunrise .sun_detail .search_ly2 .pg_nate .nxt {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_sunrise .sun_detail .search_ly2 .pg_nate .csu_pgcr {
+		color: #fff;
+	}
+	
+	.ds_calendar .calendar_detail dt {
+		color: #fff !important;
+	}
+	
+	.ds_calendar .calendar_detail .cs_bar {
+		color: #404040;
+	}
+	
+	.ds_calendar .m_calendar [class*='cld_n']:not(.cld_next), .ds_calendar .m_calendar .cld_dot {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_sportsdb .db_tab .m_tab {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_sportsdb .db_tab .m_tab li a {
+		border: 1px solid #404040 !important;
+		border-bottom: 0 !important;
+		background: #2f2f2f !important;
+	}
+	
+	.cs_sportsdb .db_tab .m_tab li.selected a {
+		background: #242424 !important;
+	}
+	
+	.cs_sportsdb .db_tab .db_msg {
+		color: #cacaca;
+	}
+	
+	.cs_sportsdb .sportsdb_wrap2 {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_sportsdb .sportsdb_wrap2 dt strong {
+		color: #fff;
+	}
+	
+	.cs_sportsdb .sportsdb_wrap2 span {
+		color: #404040;
+	}
+	
+	.cs_sportsdb .nv_date {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+		color: #fff;
+	}
+	
+	.cs_sportsdb .db_list {
+		border-right: 1px solid #404040;
+		border-left: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_sportsdb .db_list .time span {
+		color: #fff;
+	}
+	
+	.cs_sportsdb .db_list td {
+		border-left: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_sportsdb .db_list .time div a {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_sportsdb .b_btns {
+		border: 1px solid #404040;
+		border-top: 0;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_sportsdb .db_list .btns a img, .cs_sportsdb .bt_cal img, .cs_sportsdb .ly_cal .h_cal .bt_nx, .cs_sportsdb .ly_cal .h_cal .bt_pv {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.wrap_shd {
+		border-color: #404040;
+		background: #242424;
+	}
+	
+	.cs_sportsdb .ly_cal {
+		border: 2px solid #404040;
+		background-color: #242424;
+	}
+	
+	.cs_sportsdb .ly_cal .h_cal strong {
+		color: #fff;
+	}
+	
+	.cs_sportsdb .ly_cal .cal_date {
+		background: none;
+	}
+	
+	.cs_sportsdb .ly_cal .h_cal {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_sportsdb .ly_cal .cal_date td, .cs_sportsdb .ly_cal .cal_date td a {
+		color: #fff;
+	}
+	
+	.cs_sportsdb .ly_cal .cal_date td a:hover {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_sportsdb .ly_cal .today {
+		border-top: 1px solid #404040;
+		background-color: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.cs_sportsdb .ly_cal .cal_date td.today2, .cs_sportsdb .ly_cal .cal_date td.today2 a {
+		border: 1px solid #404040 !important;
+	}
+	
+	.cs_sportsdb .ly_cal .cal_date td.select a {
+		background-color: #2f2f2f !important;
+	}
+	
+	.cs_sportsdb .ly_cal .today a {
+		color: #7474e3;
+	}
+	
+	.cs_sportsdb .ly_cal .today span {
+		background: none;
+	}
+	
+	.cs_sportsdb .db_tab .m_tab li a {
+		color: #cacaca;
+	}
+	
+	.cs_sportsdb .db_tab .s_tab .selected a {
+		color: #fff;
+	}
+	
+	.cs_sportsdb .db_tab .s_tab li.fc a {
+		background: none;
+	}
+	
+	.cs_sportsdb .db_tab .s_tab a {
+		color: #cacaca;
+	}
+	
+	.cs_sportsdb .db_tab .s_tab .btn_ly, .cs_sportsdb .db_tab .s_tab .btn_ly_on, .cs_sportsdb .db_tab .s_tab .btn_more {
+		background: none;
+		position: relative;
+	}
+	
+	.cs_sportsdb .db_tab .s_tab .btn_ly:before, .cs_sportsdb .db_tab .s_tab .btn_ly_on:before, .cs_sportsdb .db_tab .s_tab .btn_more:before {
+		position: absolute;
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/scui/sportsdb/img/ico_arw.gif) no-repeat 2px 0;
+		right: -5px;
+		top: 0;
+		width: 18px;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(86%) hue-rotate(-180deg);
+		content: '';
+	}
+	
+	.cs_sportsdb .ly_team {
+		background-color: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.cs_sportsdb .db_tab .s_tab a {
+		color: #cacaca;
+	}
+	
+	.cs_sportsdb .ly_team a, .cs_sportsdb .ly_more a {
+		color: #cacaca !important;
+	}
+	
+	.cs_sportsdb .ly_team a:hover {
+		color: #fff !important;
+	}
+	
+	.cs_sportsdb .ly_team .ls_wrap {
+		border-left: 1px solid #404040;
+		border-right: 1px solid #404040;
+	}
+	
+	.cs_sportsdb .no_db_list {
+		border: 1px solid #404040;
+		border-top: 0;
+	}
+	
+	.cs_sportsdb .ly_more {
+		background: #404040;
+	}
+	
+	.cs_sportsdb .ly_more ul {
+		background: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.cs_sportsdb .ly_more a:hover {
+		color: #fff !important;
+	}
+	
+	.contents03 #header em.apply_ierror {
+		filter: none;
+	}
+	
+	.cs_nart .detail_title, .cs_nart .detail_info {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_nart .detail_info .item_box .star_box {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_nart .detail_info .item_box .star_box dt {
+		color: #cacaca !important;
+	}
+	
+	.cs_nart .detail_info .item_box .star_box dd em {
+		color: #fff;
+	}
+	
+	.cs_nart .detail_info .item_list dd {
+		color: #cacaca;
+	}
+	
+	.cs_nart .detail_info .btn_box>a {
+		background: #404040;
+		border: 1px solid #404040;
+	}
+	
+	.cs_nart .detail_info .btn_box a .btn_name {
+		color: #cacaca;
+	}
+	
+	.cs_nart .detail_info .btn_box .alarm {
+		background: #404040;
+	}
+	
+	.cs_nart .detail_info .btn_box .alarm .btn_icon {
+		filter: invert(74%) hue-rotate(-180deg);
+	}
+	
+	.cs_nart .main_tab {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_nart .main_tab.add {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_nart .add_box {
+		border: 1px solid #404040;
+	}
+	
+	.cs_nart .main_tab.add .list_tab li.on a {
+		color: #fff;
+	}
+	
+	.cs_nart .review_box .content li .star_box .grade {
+		color: #fff;
+	}
+	
+	.cs_nart .review_box .content li .bg_bar {
+		background: #404040;
+	}
+	
+	.cs_nart .review_box .content li {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_nart .review_box .content li .review p {
+		color: #cacaca;
+	}
+	
+	.cs_nart .guide .ico_more, .cs_nart .detail_title .ico {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_nart .event_banner a img {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 }
 

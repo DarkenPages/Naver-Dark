@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.112
+@version		1.48.114
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -33443,12 +33443,16 @@
 		border-width: 1px 0;
 	}
 	
-	.sc_user .tab_area.tab_fold .tab_box {
-		border-bottom: 0;
+	html[data-dark="false"] .sc_user .tab_area .tab+.tab {
+		border-left: 1px solid #404040;
 	}
 	
-	.sc_user .tab_area .tab {
+	html[data-dark="false"] .sc_user .tab_area .tab_box.type_under5 .tab:last-child {
 		border-right: 1px solid #404040;
+	}
+	
+	.sc_user .tab_area.tab_fold .tab_box {
+		border-bottom: 0;
 	}
 	
 	.sc_user .tab_area .badge_new {
@@ -33561,7 +33565,7 @@
 		border: 1px solid #404040;
 	}
 	
-	.sc_user .tab_area .tab_box.type_under5 .tab {
+	html[data-dark="true"] .sc_user .tab_area .tab_box.type_under5 .tab {
 		border-right: 1px solid #404040;
 		border-left: none;
 	}

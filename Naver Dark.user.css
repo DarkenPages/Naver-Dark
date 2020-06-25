@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.112
+@version		1.48.114
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -4872,9 +4872,8 @@
     .sc_user .info_area .user_thumb img { border-radius: 50% }
     .sc_user .info_area .user_thumb:after { width: 22.5px;top: 34px;position: absolute;left: 38.5px;height: 22.5px;filter: invert(86%) hue-rotate(-180deg);content: '';border-radius: 50%;background: url(https://s.pstatic.net/static/www/img/uit/2020/sp_my.af82dc.png);background-size: 341px 308px;background-repeat: no-repeat;background-position: -38px -34px }
     .sc_user .set_area { border: 1px solid #404040;border-width: 1px 0 }
-    .sc_user .set_area .set_box,.sc_user .tab_area .tab { border-right: 1px solid #404040 }
+    .sc_user .set_area .set_box,html[data-dark="false"] .sc_user .tab_area .tab_box.type_under5 .tab:last-child { border-right: 1px solid #404040 }
     .sc_user .tab_area .tab_box { border: solid #404040;border-width: 1px 0 }
-    .sc_user .tab_area .tab_box.type_under5 .tab { border-right: 1px solid #404040;border-left: none }
     .sc_user .tab_area .tab[aria-selected=true],.service_wrap { background-color: #2f2f2f }
     .sc_user .tab_area.tab_fold .tab_box { border-bottom: 0 }
     .sc_user,.sc_user .set_area .link_set { background-color: #242424 }
@@ -4882,6 +4881,8 @@
     .service_body .ban_pointplus .ico_point { filter: invert(1) hue-rotate(-180deg) }
     .service_footer { border-top: 1px solid #4f4f4f;background-color: #404040 }
     .service_footer .set_area .btn_set+.btn_set:before,.service_footer .sub_area:before,.timeline_wrap:before { background-color: #4f4f4f }
+    html[data-dark="false"] .sc_user .tab_area .tab+.tab { border-left: 1px solid #404040 }
+    html[data-dark="true"] .sc_user .tab_area .tab_box.type_under5 .tab { border-right: 1px solid #404040;border-left: none }
 }
 @-moz-document url-prefix("https://www.naver.com/NOTICE") {
     .gnb_notice_li a.gnb_notice .gnb_icon,.gnb_service_li a.gnb_service .gnb_icon,.mail_li a.gnb_mail .gnb_icon { filter: invert(0%) !important }

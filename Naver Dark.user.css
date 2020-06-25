@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.114
+@version		1.48.118
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -1762,6 +1762,7 @@
     #app .Article .ContentRenderer *[style*='background '],#app .Article .ContentRenderer *[style*='background:'] { background: #242424 !important }
     #app .Article .ContentRenderer *[style*='background-color'] { background-color: #242424 !important }
     #app .Article .ContentRenderer *[style*='border-bottom-color'] { border-bottom-color: #404040 !important }
+    #app .Article .ContentRenderer *[style*='border-bottom:']:not([style*='border-bottom:0']):not([style*='border-bottom: 0']):not([style*='border-bottom:none']):not([style*='border-bottom: none']),#app .Article .ContentRenderer *[style*='border-left:']:not([style*='border-left:0']):not([style*='border-left: 0']):not([style*='border-left:none']):not([style*='border-left: none']),#app .Article .ContentRenderer *[style*='border-right:']:not([style*='border-right:0']):not([style*='border-right: 0']):not([style*='border-right:none']):not([style*='border-right: none']),#app .Article .ContentRenderer *[style*='border-top:']:not([style*='border-top:0']):not([style*='border-top: 0']):not([style*='border-top:none']):not([style*='border-top: none']) { border-right: 1px solid #404040 !important }
     #app .Article .ContentRenderer *[style*='border-color'] { border-color: #404040 !important }
     #app .Article .ContentRenderer *[style*='border-left-color'] { border-left-color: #404040 !important }
     #app .Article .ContentRenderer *[style*='border-right-color'] { border-right-color: #404040 !important }

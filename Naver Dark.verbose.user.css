@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.122
+@version		1.48.124
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -33813,7 +33813,7 @@
 		color: #cacaca;
 	}
 	
-	.se-viewer *[style*='background-color'] {
+	.se-viewer *[style*='background-color']:not([style*='background-color: transparent']):not([style*='background-color:transparent']) {
 		background-color: #2f2f2f !important;
 	}
 	
@@ -33837,7 +33837,7 @@
 		color: #cacaca !important;
 	}
 	
-	.se_paragraph *[style*='background-color'] {
+	.se_paragraph *[style*='background-color']:not([style*='background-color: transparent']):not([style*='background-color:transparent']) {
 		background-color: #2f2f2f !important;
 	}
 	
@@ -34420,7 +34420,7 @@
 		background-color: #242424 !important;
 	}
 	
-	#post-area .post-view *[style*='background-color'] {
+	#post-area .post-view *[style*='background-color']:not([style*='background-color: transparent']):not([style*='background-color:transparent']) {
 		background-color: #2f2f2f !important;
 	}
 	
@@ -34456,7 +34456,7 @@
 		color: #cacaca !important;
 	}
 	
-	#post-area .post-view *[style*='BACKGROUND-COLOR'] {
+	#post-area .post-view *[style*='BACKGROUND-COLOR']:not([style*='BACKGROUND-COLOR: TRANSPARENT']):not([style*='BACKGROUND-COLOR:TRANSPARENT']) {
 		background-color: #2f2f2f !important;
 	}
 	

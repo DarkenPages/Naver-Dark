@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.122
+@version		1.48.124
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -1084,7 +1084,7 @@
     .se_documentTitle .se_sectionArea .blog2_post_function .overflow_menu .lyr_overflow_menu>a,.wrap_rabbit .se-documentTitle .blog2_post_function .overflow_menu .lyr_overflow_menu>a { color: #cacaca;border-top: 1px solid #404040 }
     .se_infoDocSource strong { border-right: 2px solid #fff }
     .se_oglink .se_og_wrap,#post-area,#profile table.append td,#profile table.append td img.bgl,#tagview tr td:not(.td5),#whole-body,#whole-footer,#whole-head,div.division-line-x,html>body .ccl_layer .shadow01,html>body .ccl_layer .shadow02 { background: none }
-    .se_paragraph *[style*='background-color'],.se-viewer *[style*='background-color'],#post-area .post-view *[style*='background-color'],#post-area .post-view *[style*='BACKGROUND-COLOR'] { background-color: #2f2f2f !important }
+    .se_paragraph *[style*='background-color']:not([style*='background-color: transparent']):not([style*='background-color:transparent']),.se-viewer *[style*='background-color']:not([style*='background-color: transparent']):not([style*='background-color:transparent']),#post-area .post-view *[style*='background-color']:not([style*='background-color: transparent']):not([style*='background-color:transparent']),#post-area .post-view *[style*='BACKGROUND-COLOR']:not([style*='BACKGROUND-COLOR: TRANSPARENT']):not([style*='BACKGROUND-COLOR:TRANSPARENT']) { background-color: #2f2f2f !important }
     .se_paragraph *[style*='border-bottom']:not([style*='border-bottom: none']):not([style*='border-bottom:none']),.se-viewer *[style*='border-bottom']:not([style*='border-bottom: none']):not([style*='border-bottom:none']),#post-area .post-view *[style*='border-bottom']:not([style*='border-bottom: none']):not([style*='border-bottom:none']),#post-area .post-view *[style*='BORDER-BOTTOM']:not([style*='BORDER-BOTTOM: NONE']):not([style*='BORDER-BOTTOM:NONE']) { border-bottom: 1px solid #404040 !important }
     .se_paragraph *[style*='border-left']:not([style*='border-left: none']):not([style*='border-left:none']),.se-viewer *[style*='border-left']:not([style*='border-left: none']):not([style*='border-left:none']),#post-area .post-view *[style*='border-left']:not([style*='border-left: none']):not([style*='border-left:none']),#post-area .post-view *[style*='BORDER-LEFT']:not([style*='BORDER-LEFT: NONE']):not([style*='BORDER-LEFT:NONE']) { border-left: 1px solid #404040 !important }
     .se_paragraph *[style*='border-right']:not([style*='border-right: none']):not([style*='border-right:none']),.se-viewer *[style*='border-right']:not([style*='border-right: none']):not([style*='border-right:none']),#post-area .post-view *[style*='border-right']:not([style*='border-right: none']):not([style*='border-right:none']),#post-area .post-view *[style*='BORDER-RIGHT']:not([style*='BORDER-RIGHT: NONE']):not([style*='BORDER-RIGHT:NONE']) { border-right: 1px solid #404040 !important }

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.118
+@version		1.48.122
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -1106,7 +1106,7 @@
     .search_list_option li span { color: #404040 }
     .selectbox-list ul li { color: #cacaca;background: #2f2f2f }
     .selectbox-list ul li.selectbox-item-over { background-color: #3a3a3a !important }
-    .side-width-1 .side-border .side-body,.side-width-1 .side-border .side-footer,.side-width-1 .side-border .side-head,.side-width-2 .side-border .side-body,.side-width-2 .side-border .side-footer,.side-width-2 .side-border .side-head { background: #2f2f2f !important }
+    .side-width-1 .side-border .side-body,.side-width-1 .side-border .side-footer,.side-width-1 .side-border .side-head,.side-width-2 .side-border .side-body,.side-width-2 .side-border .side-footer,.side-width-2 .side-border .side-head,#post-area .post-view *[style*='background:']:not([style*='background: none']):not([style*='background:none']):not(td),#post-area .post-view *[style*='BACKGROUND:']:not([style*='BACKGROUND: NONE']):not([style*='BACKGROUND:NONE']):not(td) { background: #2f2f2f !important }
     .temporary_write .btn_tbl_list_delete,.u_trans_module .u_trans_wrap .u_lang_set .u_slt_wrap .u_slt_lang .u_btn_country,#blog-profile .lyr_official_blog .btn_detail,#edit_module ul.post .tag_list { color: #cacaca;border: 1px solid #404040 }
     .temporary_write .tbl_list th { color: #cacaca;border-top: 1px solid #404040;border-bottom: 1px solid #404040 }
     .top_search .inp_top_search[type=text] { top: 0px;margin-right: 45px }
@@ -1160,6 +1160,7 @@
     #post-area .dline,#wrapper div.line { border-top-color: #404040 }
     #post-area .pcol2 { color: #cacaca !important;color: #cacaca }
     #post-area .post-view table { background: #242424;background: #242424 }
+    #post-area .post-view td[style*='background:']:not([style*='background: none']):not([style*='background:none']),#post-area .post-view td[style*='BACKGROUND:']:not([style*='BACKGROUND: NONE']):not([style*='BACKGROUND:NONE']) { background: #242424 !important }
     #post-area:before,#top-area>#blog-title+hr+#blog-menu>.border:before,#top-tight-area .side-body .widget:not([id*='external']):first-child>*[class*='border']:before { z-index: -999;width: 100%;transform: translate(0, -300px);position: absolute;pointer-events: none;left: 0;height: 350px;content: '';background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, #242424 90%) }
     #postWriteFormBody { width: 100%;height: 100%;background: #242424 }
     #profile .profile_new { position: relative;background: none }
@@ -2695,6 +2696,8 @@
     .box_ext_reg table .slct_type span.type_yahoo label:after { width: 60px;top: 0px;position: absolute;height: 21px;filter: invert(86%) hue-rotate(-180deg);content: '';background: url(https://upload.wikimedia.org/wikipedia/commons/3/3a/Yahoo%21_%282019%29.svg), none;background-size: 60px 21px;background-position: 0 0 }
     .box_notice input,.box_notice label,.description,.setup_content .chk_all label,.slct_mailbox .chk_all label,.form_content .manage_sign p.desc,.form_ul1 .form_content .desc2,.info_mailbox td.box_btn button,.ly_tooltip .tip_extmail dd,.ly_tooltip .tip_extmail dt,.manage_sign button.posr { color: #cacaca }
     .dh_layer .info3,.form_ul1 .form_content .desc2 a,.ly_tooltip .ly_header .h_tit,.mail_ext tbody a,.mail_ext tbody th,.tb_ext_list table tbody td a { color: #fff }
+    .dh_layer .nobg .layer_content { background: #242424 !important }
+    .dh_layer .p3 { color: #cacaca;background: #242424 }
     .edit_reply_cover,.missed_msg textarea,.mail_ext_wrap { border: 1px solid #404040 }
     .gnb_area .gnb_list_box .gnb_last .btn_more,.gnb_list_box li:not(.mail) a { filter: invert(86%) }
     .gnb_list_box .mail a,.gnb_list_box .mail a { background-position: -198px -140px }
@@ -3126,11 +3129,27 @@
     #footer button,#footer input { border-color: #404040;background-color: #242424 }
     head,html { background: #242424 }
 }
+@-moz-document url-prefix("https://nid.naver.com/nidlogin.login?mode=form") {
+    .btn_dis,.login_help { color: #cacaca;border: 1px solid #404040;background: #242424 }
+    .btn_login { border: 1px solid #404040 }
+    .btn_login input { color: #fff;background: #242424 }
+    .chk_id_login .lbl_long { filter: invert(81.5%) hue-rotate(-180deg) }
+    .desc_ipsecure em { color: #cacaca }
+    .input_box { border: 1px solid #404040;border-right: 0 }
+    .int.focus { background-color: #2a2a2a }
+    .ip_box .lbl_type { filter: invert(86%) hue-rotate(-180deg) }
+    .lbl_in { color: #cacaca;background: #242424 }
+    .login { border-bottom: 1px solid #404040 }
+    .login_wrap { border: 1px solid #404040;border-bottom: none;background: #2f2f2f }
+}
 @-moz-document url-prefix("https://nid.naver.com/nidlogin.login") {
-    .captcha .captcha_txt { color: #fff }
+    .btn_global,.btn_login input { color: #242424 }
+    .btn_qronce_cancel { color: #cacaca;border: 1px solid #404040;background-color: #242424 }
+    .captcha .captcha_txt,.once_wrap .title,.once_wrap .title_once,.velid_inner .title { color: #fff }
     .country_code .sel_value { filter: invert(86%) }
     .diaper_banner,.otp_step_banner { filter: invert(86%) hue-rotate(-180deg) }
     .ly_v2 .ly_point { filter: invert(88.7%) hue-rotate(-180deg) grayscale(1) }
+    .once_wrap { border: 1px solid #404040;background-color: #242424 }
     .social_header .social_title,.tab_m li a:hover,.tab_m li a:visited,.title p { color: #cacaca }
     .tab_m { border: 1px solid #404040 }
     .tab_m li a { color: #cacaca;background: #2f2f2f }

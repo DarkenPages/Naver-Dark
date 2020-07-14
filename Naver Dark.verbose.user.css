@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.124
+@version		1.48.126
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -13059,6 +13059,60 @@
 	
 	.btn_global, .btn_login input {
 		color: #242424;
+	}
+	
+	.input_box {
+		border: 0 !important;
+	}
+	
+	.login_check_box label {
+		background-color: #242424;
+		color: #cacaca;
+	}
+	
+	.ip_check .ip_txt02, .ip_check .ip_txt01 {
+		color: #cacaca;
+	}
+	
+	.ip_ch label {
+		background-color: #242424;
+	}
+	
+	.qr_once_wrap {
+		border-top: 1px solid #404040;
+	}
+	
+	.qr_once_inner .title {
+		color: #fff;
+	}
+	
+	.qr_once_area .item_btn {
+		background-color: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.qr_once_area .txt {
+		color: #fff;
+	}
+	
+	.qr_once_area .icon_once, .login_check_box .ico_keep_check::before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.rest_time .txt {
+		color: #fff;
+	}
+	
+	.once_wrap .desc, .velid_inner .desc {
+		color: #cacaca;
+	}
+	
+	html[lang=en] .qr_once_area .item_btn, html[lang=zh-Hant] .qr_once_area .item_btn, html[lang=zh-Hans] .qr_once_area .item_btn {
+		border: 1px solid #404040;
+	}
+	
+	.qr_img {
+		border: 1px solid #404040;
 	}
 }
 
@@ -33359,6 +33413,10 @@
 	
 	.sc_themecast .main_category .tab {
 		border-right: 1px solid #404040;
+	}
+	
+	.sc_themecast.id_china .topstory_view .topstory_writer, .sc_themecast.id_china .topstory_view.type_ad .topstory_info, .sc_themecast.id_china .topstory_view.type_star .topstory_info, .sc_themecast .topstory_view.type_star .topstory_info {
+		background-color: #2f2f2f;
 	}
 }
 

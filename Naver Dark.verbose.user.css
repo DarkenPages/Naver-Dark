@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.126
+@version		1.48.128
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -10135,6 +10135,10 @@
 	
 	.cs_nart .event_banner a img {
 		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_holiday .other_lk dt {
+		color: #fff !important;
 	}
 }
 
@@ -21565,7 +21569,7 @@
 	}
 }
 
-@-moz-document url-prefix("https://noti.naver.com"), url-prefix("https://myfeed.naver.com"), url-prefix("https://me.naver.com/tab/news.nhn")
+@-moz-document url-prefix("https://noti.naver.com"), url-prefix("https://myfeed.naver.com"), url-prefix("https://me.naver.com/tab/news.nhn"), url-prefix("https://me.naver.com")
 {
 	html, head, body {
 		background: #242424;
@@ -21646,11 +21650,11 @@
 	}
 	
 	.lft_area h3 a, .no_result .h_no_result {
-		color: #cacaca;
+		color: #fff;
 	}
 	
 	.nlst_checked .tx_tooltip .bubble_content .tx_width .alarm_tx {
-		color: #242424;
+		color: #000;
 	}
 	
 	.time_line .daily_obj li.nlst_checked .tx_tooltip .bubble_content .tx_width .ans_type {
@@ -21766,6 +21770,18 @@
 	
 	.rgt_zone .ctrl_delegate .lst_option2 .reader_cncl {
 		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.no_result .result_con {
+		color: #cacaca;
+	}
+	
+	.snb > li a {
+		color: #fff;
+	}
+	
+	.nlst_checked dt, .nlst_checked strong, .nlst_checked a, .nlst_checked em, .tx_tooltip .bubble_content .from_obj dd a, .tx_tooltip .bubble_content .from_obj dd {
+		color: #000 !important;
 	}
 }
 
@@ -33416,6 +33432,10 @@
 	}
 	
 	.sc_themecast.id_china .topstory_view .topstory_writer, .sc_themecast.id_china .topstory_view.type_ad .topstory_info, .sc_themecast.id_china .topstory_view.type_star .topstory_info, .sc_themecast .topstory_view.type_star .topstory_info {
+		background-color: #2f2f2f;
+	}
+	
+	.sc_themecast.id_enter .topstory_view .topstory_writer, .sc_themecast.id_enter .topstory_view.type_ad .topstory_info, .sc_themecast.id_enter .topstory_view.type_star .topstory_info {
 		background-color: #2f2f2f;
 	}
 }

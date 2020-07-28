@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.126
+@version		1.48.128
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -663,7 +663,7 @@
     .sc_newscast .tile_view .frame_area .line,.sc_themecast .group_edit .btn_func+.btn_func:before,.sc_themecast .group_title .info_area .btn_set:after,.sc_timesquare .card_air .air_item+.air_item:before,.sc_timesquare .card_stock .stock_box:before,#footer .list_corp .corp_item+.corp_item:before,#footer .partner_box .link_partner+.link_partner:before,#gnb .list_filter .filter_item,#header .service_area .sa_bar { background-color: #404040 }
     .sc_newscast .tile_view .popup_wrap .btn_popup,#gnb .group_nav .ly_btn_area .btn { color: #cacaca;border: 1px solid #404040;background-color: #242424 }
     .sc_newscast .tile_view .popup_wrap .btn_popup:hover { border-color: #4f4f4f }
-    .sc_newscast .tile_view .popup_wrap,.sc_themecast .topstory_view.type_star,.sc_themecast .topstory_view.type_star .topstory_info,.sc_themecast.id_china .topstory_view .topstory_writer,.sc_themecast.id_china .topstory_view.type_ad .topstory_info,.sc_themecast.id_china .topstory_view.type_star .topstory_info,.sc_themecast.id_cargame .topstory_view .topstory_writer,.sc_themecast.id_cargame .topstory_view.type_star .topstory_info,.sc_themecast.id_movie .topstory_view .topstory_writer,.sc_themecast.id_movie .topstory_view.type_star .topstory_info,.sc_themecast.id_enter .topstory_view.type_star,.sc_themecast.id_enter .topstory_writer,.sc_timesquare .card_nav .btn_nav:hover { background-color: #2f2f2f }
+    .sc_newscast .tile_view .popup_wrap,.sc_themecast .topstory_view.type_star,.sc_themecast .topstory_view.type_star .topstory_info,.sc_themecast.id_china .topstory_view .topstory_writer,.sc_themecast.id_china .topstory_view.type_ad .topstory_info,.sc_themecast.id_china .topstory_view.type_star .topstory_info,.sc_themecast.id_cargame .topstory_view .topstory_writer,.sc_themecast.id_cargame .topstory_view.type_star .topstory_info,.sc_themecast.id_movie .topstory_view .topstory_writer,.sc_themecast.id_movie .topstory_view.type_star .topstory_info,.sc_themecast.id_enter .topstory_view .topstory_writer,.sc_themecast.id_enter .topstory_view.type_ad .topstory_info,.sc_themecast.id_enter .topstory_view.type_star .topstory_info,.sc_themecast.id_enter .topstory_view.type_star,.sc_themecast.id_enter .topstory_writer,.sc_timesquare .card_nav .btn_nav:hover { background-color: #2f2f2f }
     .sc_newscast .tile_view,#gnb .group_service { border: 1px solid #404040;border-width: 0 1px }
     .sc_themecast .btn_more_wrap,.sc_themecast .group_topstory,#gnb .ly_realtime .title_area,html[data-dark=true] #header .special_bg { border-bottom: 1px solid #404040 }
     .sc_themecast .chart_view .chart_area+.chart_area,.sc_themecast .group_theme+.group_theme,#footer .aside_area,#footer .notice_area,#footer .corp_area,#gnb .list_age_wrap,#gnb .ly_realtime .info_area,#veta_time2 { border-top: 1px solid #404040 }
@@ -3399,12 +3399,12 @@
     #pop_wrap .button,#pop_wrap .button_s { color: #cacaca;border-color: #404040 }
     head,html { background: #242424 }
 }
-@-moz-document url-prefix("https://noti.naver.com"), url-prefix("https://myfeed.naver.com"), url-prefix("https://me.naver.com/tab/news.nhn") {
-    .control_box.alarm .lft_zone .svc_name span strong,.envmt_cont .control_box h4,.lft_zone .svc_name span.on strong,.rgt_zone .ctrl_delegate .lst_option label,.rgt_zone .ctrl_delegate .lst_option2 label { color: #fff }
+@-moz-document url-prefix("https://noti.naver.com"), url-prefix("https://myfeed.naver.com"), url-prefix("https://me.naver.com/tab/news.nhn"), url-prefix("https://me.naver.com") {
+    .control_box.alarm .lft_zone .svc_name span strong,.envmt_cont .control_box h4,.lft_area h3 a,.no_result .h_no_result,.lft_zone .svc_name span.on strong,.rgt_zone .ctrl_delegate .lst_option label,.rgt_zone .ctrl_delegate .lst_option2 label,.snb > li a { color: #fff }
     .control_box.alarm .rgt_zone .result_list ul > li { border-top: 1px solid #404040 }
     .control_box.alarm .rgt_zone .result_list ul,.lft_area h3,.lft_zone .svc_name .subscribe_list ul > li,.lft_zone .svc_name .svc_list ul > li { border-bottom: 1px solid #404040 }
     .control_box.alarm .svc_name dt { background: #404040 }
-    .control_box.alarm .svc_symb em,.rgt_zone .result_list li a,.lft_area h3 a,.no_result .h_no_result,.lft_zone .svc_name .subscribe_list ul > li a,.lft_zone .svc_name .svc_list ul > li a,.loading_tx p { color: #cacaca }
+    .control_box.alarm .svc_symb em,.rgt_zone .result_list li a,.lft_zone .svc_name .subscribe_list ul > li a,.lft_zone .svc_name .svc_list ul > li a,.loading_tx p,.no_result .result_con { color: #cacaca }
     .end_tx span { color: #cacaca;background: #2f2f2f }
     .end_tx,.envmt_cont,.envmt_cont .control_box,.envmt_foot,.envmt_cont .envmt_foot .img_bg_bot span.sc_bg { background: #2f2f2f }
     .envmt_cont .control_box .box_area { border: 1px solid #404040 }
@@ -3420,7 +3420,8 @@
     .lft_zone .svc_name dt,.rgt_zone .ctrl_delegate { border-bottom: 1px solid #404040;background: #404040 }
     .ly_ic_loading { filter: invert(88%) hue-rotate(-180deg) }
     .me_menu1 .contents,.rgt_zone .result_list .env_modal,body,head,html { background: #242424 }
-    .nlst_checked .tx_tooltip .bubble_content .tx_width .alarm_tx { color: #242424 }
+    .nlst_checked .tx_tooltip .bubble_content .tx_width .alarm_tx { color: #000 }
+    .nlst_checked a,.nlst_checked dt,.nlst_checked em,.nlst_checked strong,.tx_tooltip .bubble_content .from_obj dd,.tx_tooltip .bubble_content .from_obj dd a { color: #000 !important }
     .notice_ftr { background-color: #2f2f2f }
     .notice_ftr li a { color: #7c8ca2 }
     .rgt_zone .ctrl_delegate .lst_option span { color: #cacaca;border-left: 1px solid #4f4f4f }
@@ -3768,7 +3769,7 @@
     .api_ly_road .road_head,.movie_info .info_cnm .cnm_head,.movie_info .lst_cont .tb_program th,.movie_info .view_list_div p { border-bottom: 1px solid #404040 !important }
     .api_ly_road .road_search .search_area .text_road { color: #cacaca !important;border: 1px solid #404040 !important;background-color: #2f2f2f !important }
     .api_ly_road .road_search .search_head { border-bottom: 1px solid #404040 !important;background-color: #2f2f2f !important }
-    .api_ly_road a,.api_ly_road em,.api_ly_road span,.api_ly_road strong,.contents03_sub dt,.contents03_sub dt span,.creator_namecard .ly_notice.news strong,.cs_air_environment .detail_info .sec_title,.cs_air_environment .detail_info .state,.cs_air_environment .detail_info dt,.cs_air_environment .weather_box .num,.cs_broadcast .scroll_info dt,.cs_calculator .cs_box .cal .cal_tb table td .input_text,.cs_disaster .wrap_dzst5 .scr_dzst2 .location,.cs_traffic .t_acct .ta_lst dl .road,.cs_traffic .t_dep li a:hover,.cs_traffic .t_dep li.on a,.cs_traffic .t_sort li.on a,.realtime2 .rt_user,.realtime2 li a.txt_link,.t_hw dt,li.style4 input,.cs_dss .ranking_lst .item .num,.cs_economy_chart .comment_area .desp_title,.cs_economy_chart .other_info dl dt,.cs_game_list .relation_area dt,.cs_greeting_card .main_box .slt_area dt,.cs_nperformance .detail_info .item_box .star_box dt,.cs_produce *.txt_black,.cs_sign .con_luck .my_luck dt,.cs_sign .more_links dl dt,.cs_sportsdb .ly_more a:hover,.cs_sportsdb .ly_team a:hover,.cs_stock .ar_cont .cont_dtcon.cont_tb .graph_lst_bx .lst li dt span,.cs_stock .ar_cont .cont_dtcon.cont_tb .lsttype_tb a,.cs_subway .pop_layer .title_area dt,.cs_sunrise .other_link .relation dt,.cs_train_station .detail dd dl dt,.cs_train_station .relation_kyd dt,.ds_calendar .calendar_detail dt,.movie_info .con_mvtab .lst_tab li[role="tab"][aria-selected="true"] a,.movie_info .grade_area li a,.movie_info .lst_cont .cont_inner .lst_tb td.first,.movie_info .lst_cont .cont_inner .timetable2 li .time_min,.pp_sns_view dt .rt_user,.pp_sns_view dt .rt_user .user_name,.realtime2 .rt_org .info_tit strong.hl,.realtime2 a.txt_link strong.hl,strong.hl,.sp_kindic .kindic_title .title,.txt_exp,dl.info3 dt { color: #fff !important }
+    .api_ly_road a,.api_ly_road em,.api_ly_road span,.api_ly_road strong,.contents03_sub dt,.contents03_sub dt span,.creator_namecard .ly_notice.news strong,.cs_air_environment .detail_info .sec_title,.cs_air_environment .detail_info .state,.cs_air_environment .detail_info dt,.cs_air_environment .weather_box .num,.cs_broadcast .scroll_info dt,.cs_calculator .cs_box .cal .cal_tb table td .input_text,.cs_disaster .wrap_dzst5 .scr_dzst2 .location,.cs_traffic .t_acct .ta_lst dl .road,.cs_traffic .t_dep li a:hover,.cs_traffic .t_dep li.on a,.cs_traffic .t_sort li.on a,.realtime2 .rt_user,.realtime2 li a.txt_link,.t_hw dt,li.style4 input,.cs_dss .ranking_lst .item .num,.cs_economy_chart .comment_area .desp_title,.cs_economy_chart .other_info dl dt,.cs_game_list .relation_area dt,.cs_greeting_card .main_box .slt_area dt,.cs_holiday .other_lk dt,.cs_nperformance .detail_info .item_box .star_box dt,.cs_produce *.txt_black,.cs_sign .con_luck .my_luck dt,.cs_sign .more_links dl dt,.cs_sportsdb .ly_more a:hover,.cs_sportsdb .ly_team a:hover,.cs_stock .ar_cont .cont_dtcon.cont_tb .graph_lst_bx .lst li dt span,.cs_stock .ar_cont .cont_dtcon.cont_tb .lsttype_tb a,.cs_subway .pop_layer .title_area dt,.cs_sunrise .other_link .relation dt,.cs_train_station .detail dd dl dt,.cs_train_station .relation_kyd dt,.ds_calendar .calendar_detail dt,.movie_info .con_mvtab .lst_tab li[role="tab"][aria-selected="true"] a,.movie_info .grade_area li a,.movie_info .lst_cont .cont_inner .lst_tb td.first,.movie_info .lst_cont .cont_inner .timetable2 li .time_min,.pp_sns_view dt .rt_user,.pp_sns_view dt .rt_user .user_name,.realtime2 .rt_org .info_tit strong.hl,.realtime2 a.txt_link strong.hl,strong.hl,.sp_kindic .kindic_title .title,.txt_exp,dl.info3 dt { color: #fff !important }
     .api_ly_road,.cs_sportsdb .ly_cal .cal_date td.select a,.movie_info .con_mvtab .tab_box { background-color: #2f2f2f !important }
     .api_realtime_tab li a,.option_menu .option_choice .option button,.sub_pack .music .section_head .lst_tab .tab,.tab_depth .depth li a,.creator_namecard .ly_notice,.cs_broadcast_list .list_table .btn_area>a,.cs_general_election .btn_polls .btn_pollssave,.cs_general_election .btn_polls.on .btn_pollssave,.cs_school .rel_txt .layer_info,.ds_address .ds_box dl dd .box_input { color: #cacaca;border: 1px solid #404040;background-color: #242424 }
     .api_realtime_tab li.selected a { color: #cacaca;border-color: #404040;background-color: #2c2c2c }

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.130
+@version		1.48.131
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -9883,7 +9883,7 @@
 		border: 1px solid #404040;
 	}
 	
-	.cs_sunrise .sun_detail .map_area .map > div > div, .cs_sunrise .sun_detail .map_area .btn_expand, .cs_sunrise .sun_detail .map_area .btn_reduce, .cs_sunrise .sun_time .btn_attraction {
+	.cs_sunrise .sun_detail .map_area .map>div>div, .cs_sunrise .sun_detail .map_area .btn_expand, .cs_sunrise .sun_detail .map_area .btn_reduce, .cs_sunrise .sun_time .btn_attraction {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
@@ -10231,6 +10231,14 @@
 	
 	.cs_holiday .other_lk dt {
 		color: #fff !important;
+	}
+	
+	.sp_kindic .group_kindic .info_area .tit_box .tit:visited {
+		color: #7474e3;
+	}
+	
+	.sp_kindic .group_kindic.type_attach {
+		border-top: 0 !important;
 	}
 }
 

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.128
+@version		1.48.130
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -2372,6 +2372,98 @@
 	.dh_layer .p3 {
 		background: #242424;
 		color: #cacaca;
+	}
+	
+	.ly_tooltip_green.arr_center_bottom:after {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.ly_tooltip_green .msg {
+		color: #000 !important;
+	}
+	
+	.ly_tooltip_green {
+		background-color: #019341;
+	}
+	
+	#nav_snb.show_faq_banner .faq_cover a, #footer .quick_tools a, #footer .quick_tools em, .mailListHead .back_home, .tt_list li, .subtitle span.desc, .info_wrap .tip a, .note_message p {
+		color: #cacaca;
+	}
+	
+	.tt_list li strong {
+		color: #fff;
+	}
+	
+	div.list_menu ul li .btn_status, div.list_menu ul li .btn_use, div.list_menu ul li .btn_wr2me {
+		color: #cacaca !important;
+	}
+	
+	.toTop a {
+		color: #000 !important;
+	}
+	
+	.mailListHead strong {
+		color: #fff !important;
+	}
+	
+	.cont_flex_setup {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.link:visited {
+		color: #7474e3;
+	}
+	
+	.cleanup_tab {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cleanup_tab a, .cleanup_tab h5 {
+		background: #242424;
+		border: 1px solid #404040;
+		border-bottom: 0;
+		color: #fff;
+	}
+	
+	.cleanup_mail_new .cleanup_list_new {
+		background: #242424;
+	}
+	
+	.cleanup_list_body li, .cleanup_mail_new .cleanup_list_head {
+		border: 1px solid #404040;
+		border-bottom: 0;
+	}
+	
+	.cleanup_mail_new .cleanup_list_new .cleanup_list_head li {
+		color: #cacaca;
+	}
+	
+	.cleanup_mail_new .cleanup_list_body {
+		border: 1px solid #404040;
+	}
+	
+	.cleanup_mail_new .cleanup_list_body li {
+		color: #cacaca;
+	}
+	
+	.clean_oldmail .oldmail_mbox .tit, .clean_oldmail h5 {
+		color: #fff;
+	}
+	
+	.clean_oldmail .oldmail_period {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.dh_layer .type_c .smart_mbox_ok .info2 {
+		color: #cacaca;
+	}
+	
+	.notify_area .alert {
+		background-color: #242424;
+	}
+	
+	div.viewTitle dl dt .viewMoreOn {
+		filter: none;
 	}
 }
 

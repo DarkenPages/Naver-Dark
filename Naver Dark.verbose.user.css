@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.131
+@version		1.48.162
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -12604,6 +12604,26 @@
 	
 	img[src='https://ssl.pstatic.net/static/blog/ico_nidlogin2.png'] {
 		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.layer {
+		background-color: #242424;
+	}
+	
+	.layer.type2 h3 {
+		color: #cacaca;
+	}
+	
+	.type2.layer_smartEditor .title {
+		color: #fff;
+	}
+	
+	.type2.layer_smartEditor .desc {
+		color: #cacaca;
+	}
+	
+	.type2.layer_smartEditor .chk label {
+		color: #fff;
 	}
 }
 
@@ -33987,58 +34007,6 @@
 		opacity: 1;
 	}
 	
-	.se-viewer .se-section-quotation .se-cite .se-text-paragraph {
-		color: #cacaca;
-	}
-	
-	.se-viewer *[style*='background-color']:not([style*='background-color: transparent']):not([style*='background-color:transparent']) {
-		background-color: #2f2f2f !important;
-	}
-	
-	.se-viewer *[style*='border-bottom']:not([style*='border-bottom: none']):not([style*='border-bottom:none']) {
-		border-bottom: 1px solid #404040 !important;
-	}
-	
-	.se-viewer *[style*='border-top']:not([style*='border-top: none']):not([style*='border-top:none']) {
-		border-top: 1px solid #404040 !important;
-	}
-	
-	.se-viewer *[style*='border-left']:not([style*='border-left: none']):not([style*='border-left:none']) {
-		border-left: 1px solid #404040 !important;
-	}
-	
-	.se-viewer *[style*='border-right']:not([style*='border-right: none']):not([style*='border-right:none']) {
-		border-right: 1px solid #404040 !important;
-	}
-	
-	.se-viewer *[style*=' color'], .se-viewer *[style*=';color'], .se-viewer *[style^='color'] {
-		color: #cacaca !important;
-	}
-	
-	.se_paragraph *[style*='background-color']:not([style*='background-color: transparent']):not([style*='background-color:transparent']) {
-		background-color: #2f2f2f !important;
-	}
-	
-	.se_paragraph *[style*='border-bottom']:not([style*='border-bottom: none']):not([style*='border-bottom:none']) {
-		border-bottom: 1px solid #404040 !important;
-	}
-	
-	.se_paragraph *[style*='border-top']:not([style*='border-top: none']):not([style*='border-top:none']) {
-		border-top: 1px solid #404040 !important;
-	}
-	
-	.se_paragraph *[style*='border-left']:not([style*='border-left: none']):not([style*='border-left:none']) {
-		border-left: 1px solid #404040 !important;
-	}
-	
-	.se_paragraph *[style*='border-right']:not([style*='border-right: none']):not([style*='border-right:none']) {
-		border-right: 1px solid #404040 !important;
-	}
-	
-	.se_paragraph *[style*=' color'], .se_paragraph *[style*=';color'], .se_paragraph *[style^='color'] {
-		color: #cacaca !important;
-	}
-	
 	.wrap_blog2_sympathy .list_sympathy .area_more .layer_more {
 		background-color: #242424;
 		border: 1px solid #404040;
@@ -34596,6 +34564,58 @@
 	
 	iframe[src*='mashup.map'] {
 		background-color: #242424 !important;
+	}
+	
+	.se-viewer .se-section-quotation .se-cite .se-text-paragraph {
+		color: #cacaca;
+	}
+	
+	.se-viewer *[style*='background-color']:not([style*='background-color: transparent']):not([style*='background-color:transparent']) {
+		background-color: #2f2f2f !important;
+	}
+	
+	.se-viewer *[style*='border-bottom']:not([style*='border-bottom: none']):not([style*='border-bottom:none']) {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	.se-viewer *[style*='border-top']:not([style*='border-top: none']):not([style*='border-top:none']) {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	.se-viewer *[style*='border-left']:not([style*='border-left: none']):not([style*='border-left:none']) {
+		border-left: 1px solid #404040 !important;
+	}
+	
+	.se-viewer *[style*='border-right']:not([style*='border-right: none']):not([style*='border-right:none']) {
+		border-right: 1px solid #404040 !important;
+	}
+	
+	.se-viewer *[style*=' color'], .se-viewer *[style*=';color'], .se-viewer *[style^='color'] {
+		color: #cacaca !important;
+	}
+	
+	.se_paragraph *[style*='background-color']:not([style*='background-color: transparent']):not([style*='background-color:transparent']) {
+		background-color: #2f2f2f !important;
+	}
+	
+	.se_paragraph *[style*='border-bottom']:not([style*='border-bottom: none']):not([style*='border-bottom:none']) {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	.se_paragraph *[style*='border-top']:not([style*='border-top: none']):not([style*='border-top:none']) {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	.se_paragraph *[style*='border-left']:not([style*='border-left: none']):not([style*='border-left:none']) {
+		border-left: 1px solid #404040 !important;
+	}
+	
+	.se_paragraph *[style*='border-right']:not([style*='border-right: none']):not([style*='border-right:none']) {
+		border-right: 1px solid #404040 !important;
+	}
+	
+	.se_paragraph *[style*=' color'], .se_paragraph *[style*=';color'], .se_paragraph *[style^='color'] {
+		color: #cacaca !important;
 	}
 	
 	#post-area .post-view *[style*='background-color']:not([style*='background-color: transparent']):not([style*='background-color:transparent']) {
@@ -37944,1553 +37964,1856 @@
 	}
 }
 
-@-moz-document url-prefix("https://blog.naver.com/PostWriteForm.nhn"), url-prefix("https://blog.naver.com/PostUpdateForm.nhn")
+@-moz-document url-prefix("https://blog.naver.com/PostWriteForm.nhn"), url-prefix("https://blog.naver.com/PostUpdateForm.nhn"), regexp("https://cafe\\.naver\\.com/ca-fe/cafes/(.*)/articles/write.*")
 {
 	html, body, head {
-		background: #242424;
-		color: #cacaca;
+		background: #242424 !important;
+		color: #cacaca !important;
 	}
 	
 	#header {
-		background: #242424;
+		background: #242424 !important;
 	}
 	
 	#header .logo {
-		filter: invert(86%) hue-rotate(-180deg);
+		filter: invert(86%) hue-rotate(-180deg) !important;
 	}
 	
 	#header .area_btn_save .btn_save, #header .area_btn_save .btn_save_count {
-		background-color: #242424;
+		background-color: #242424 !important;
 	}
 	
 	#header .area_btn_save .btn_save .text {
-		color: #cacaca;
+		color: #cacaca !important;
 	}
 	
 	#header .area_btn_save .btn_save {
-		border: 1px solid #404040;
-		border-right: 0;
+		border: 1px solid #404040 !important;
+		border-right: 0 !important;
 	}
 	
 	#header .area_btn_save .btn_save_count {
-		border: 1px solid #404040;
-		border-left: 0;
+		border: 1px solid #404040 !important;
+		border-left: 0 !important;
 	}
 	
 	#header .area_btn_save .btn_save_count:before {
-		border-left: 1px solid #404040;
+		border-left: 1px solid #404040 !important;
 	}
 	
 	.se-body .se-popup-dim-white {
-		background-color: rgba(0, 0, 0, .8);
+		background-color: rgba(0, 0, 0, .8) !important;
 	}
 	
 	.se-body .se-popup-container {
-		background-color: #242424;
-		border: 1px solid #404040;
+		background-color: #242424 !important;
+		border: 1px solid #404040 !important;
 	}
 	
 	.se-body .se-popup-title {
-		color: #fff;
+		color: #fff !important;
 	}
 	
 	.se-body .se-popup-alert .se-popup-alert-text, .se-body .se-popup-transfer-error .se-popup-error-text {
-		color: #cacaca;
+		color: #cacaca !important;
 	}
 	
 	.se-body .se-popup-button {
-		background-color: #242424;
-		border: 1px solid #404040;
+		background-color: #242424 !important;
+		border: 1px solid #404040 !important;
 	}
 	
 	.se-body .se-popup-button-confirm:not(:disabled):active, .se-body .se-popup-button-confirm:not(:disabled):focus, .se-body .se-popup-button-confirm:not(:disabled):hover {
-		color: #242424;
-		border-color: #019341;
-		background-color: #019341;
+		color: #242424 !important;
+		border-color: #019341 !important;
+		background-color: #019341 !important;
 	}
 	
 	.se-body .se-popup-button-confirm:not(:disabled):active:before, .se-body .se-popup-button-confirm:not(:disabled):focus:before, .se-body .se-popup-button-confirm:not(:disabled):hover:before {
-		border-color: #242424;
+		border-color: #242424 !important;
 	}
 	
 	#header .area_btn_publish .btn_publish {
-		color: #242424;
-		background-color: #019341;
+		color: #242424 !important;
+		background-color: #019341 !important;
 	}
 	
 	#header .area_btn_publish .btn_publish .sp_blog_rabbit {
-		filter: invert(86%) hue-rotate(-180deg);
+		filter: invert(86%) hue-rotate(-180deg) !important;
 	}
 	
 	#header .area_btn_overflowmenu .layer_overflowmenu {
-		background-color: #242424;
-		border: 1px solid #404040;
+		background-color: #242424 !important;
+		border: 1px solid #404040 !important;
 	}
 	
 	#header .area_btn_overflowmenu .layer_overflowmenu .link:hover {
-		background-color: #2f2f2f;
+		background-color: #2f2f2f !important;
 	}
 	
 	#header .area_btn_overflowmenu .layer_overflowmenu .link {
-		color: #cacaca;
+		color: #cacaca !important;
 	}
 	
 	.rabbit_su_campaign {
-		background-color: #2f2f2f;
-		border-top: 1px solid #404040;
-		color: #cacaca;
+		background-color: #2f2f2f !important;
+		border-top: 1px solid #404040 !important;
+		color: #cacaca !important;
 	}
 	
 	.rabbit_su_campaign strong {
-		color: #fff;
+		color: #fff !important;
 	}
 	
 	.rabbit_su_campaign legend, .rabbit_su_campaign .lst_link a {
-		color: #cacaca;
+		color: #cacaca !important;
 	}
 	
 	.se-body .se-wrap {
-		background-color: #404040;
+		background-color: #404040 !important;
 	}
 	
 	.se-body .se-wrap:before, .se-body .se-l-document-toolbar {
-		border-top: 1px solid #404040;
+		border-top: 1px solid #404040 !important;
 	}
 	
 	.se-body .se-document-toolbar {
-		background-color: #242424;
+		background-color: #242424 !important;
 	}
 	
 	.se-body .se-cell-context-menu-button.se-context-menu-button-column-split:before, .se-body .se-cell-context-menu-button.se-context-menu-button-delete:before, .se-body .se-cell-context-menu-button.se-context-menu-button-equal-width:before, .se-body .se-cell-context-menu-button.se-context-menu-button-merge:before, .se-body .se-cell-context-menu-button.se-context-menu-button-row-split:before, .se-body .se-contents-toolbar .se-color-apply-button:before, .se-body .se-contents-toolbar .se-color-palette-button-cell-background-color .se-toolbar-icon, .se-body .se-contents-toolbar .se-cycle-toggle-button-container .se-toolbar-button-align.se-align-center .se-toolbar-icon, .se-body .se-contents-toolbar .se-cycle-toggle-button-container .se-toolbar-button-align.se-align-justify .se-toolbar-icon, .se-body .se-contents-toolbar .se-cycle-toggle-button-container .se-toolbar-button-align.se-align-left .se-toolbar-icon, .se-body .se-contents-toolbar .se-cycle-toggle-button-container .se-toolbar-button-align.se-align-right .se-toolbar-icon, .se-body .se-contents-toolbar .se-group-toggle-button.se-toolbar-button-align.se-align-center .se-toolbar-icon, .se-body .se-contents-toolbar .se-group-toggle-button.se-toolbar-button-align.se-align-justify .se-toolbar-icon, .se-body .se-contents-toolbar .se-group-toggle-button.se-toolbar-button-align.se-align-left .se-toolbar-icon, .se-body .se-contents-toolbar .se-group-toggle-button.se-toolbar-button-align.se-align-right .se-toolbar-icon, .se-body .se-contents-toolbar .se-group-toggle-button.se-toolbar-button-code.se-code-code_black .se-toolbar-icon, .se-body .se-contents-toolbar .se-group-toggle-button.se-toolbar-button-code.se-code-code_stripe .se-toolbar-icon, .se-body .se-contents-toolbar .se-group-toggle-button.se-toolbar-button-code.se-code-default .se-toolbar-icon, .se-body .se-contents-toolbar .se-group-toggle-button.se-toolbar-button-horizontalLine.se-horizontalLine-default .se-toolbar-icon, .se-body .se-contents-toolbar .se-group-toggle-button.se-toolbar-button-horizontalLine.se-horizontalLine-line1 .se-toolbar-icon, .se-body .se-contents-toolbar .se-group-toggle-button.se-toolbar-button-horizontalLine.se-horizontalLine-line2 .se-toolbar-icon, .se-body .se-contents-toolbar .se-group-toggle-button.se-toolbar-button-horizontalLine.se-horizontalLine-line3 .se-toolbar-icon, .se-body .se-contents-toolbar .se-group-toggle-button.se-toolbar-button-horizontalLine.se-horizontalLine-line4 .se-toolbar-icon, .se-body .se-contents-toolbar .se-group-toggle-button.se-toolbar-button-horizontalLine.se-horizontalLine-line5 .se-toolbar-icon, .se-body .se-contents-toolbar .se-group-toggle-button.se-toolbar-button-horizontalLine.se-horizontalLine-line6 .se-toolbar-icon, .se-body .se-contents-toolbar .se-group-toggle-button.se-toolbar-button-horizontalLine.se-horizontalLine-line7 .se-toolbar-icon, .se-body .se-contents-toolbar .se-group-toggle-button.se-toolbar-button-image-group.se-image-group-collage .se-toolbar-icon, .se-body .se-contents-toolbar .se-group-toggle-button.se-toolbar-button-image-group.se-image-group-slide .se-toolbar-icon, .se-body .se-contents-toolbar .se-group-toggle-button.se-toolbar-button-map.se-map-default .se-toolbar-icon, .se-body .se-contents-toolbar .se-group-toggle-button.se-toolbar-button-map.se-map-map_text .se-toolbar-icon, .se-body .se-contents-toolbar .se-group-toggle-button.se-toolbar-button-object-arrangement.se-object-arrangement-extend .se-toolbar-icon, .se-body .se-contents-toolbar .se-group-toggle-button.se-toolbar-button-object-arrangement.se-object-arrangement-fit .se-toolbar-icon, .se-body .se-contents-toolbar .se-group-toggle-button.se-toolbar-button-object-arrangement.se-object-arrangement-normal .se-toolbar-icon, .se-body .se-contents-toolbar .se-group-toggle-button.se-toolbar-button-object-arrangement.se-object-arrangement-pagefull .se-toolbar-icon, .se-body .se-contents-toolbar .se-group-toggle-button.se-toolbar-button-quotation.se-quotation-default .se-toolbar-icon, .se-body .se-contents-toolbar .se-group-toggle-button.se-toolbar-button-quotation.se-quotation-quotation_bubble .se-toolbar-icon, .se-body .se-contents-toolbar .se-group-toggle-button.se-toolbar-button-quotation.se-quotation-quotation_corner .se-toolbar-icon, .se-body .se-contents-toolbar .se-group-toggle-button.se-toolbar-button-quotation.se-quotation-quotation_line .se-toolbar-icon, .se-body .se-contents-toolbar .se-group-toggle-button.se-toolbar-button-quotation.se-quotation-quotation_postit .se-toolbar-icon, .se-body .se-contents-toolbar .se-group-toggle-button.se-toolbar-button-quotation.se-quotation-quotation_underline .se-toolbar-icon, .se-body .se-contents-toolbar .se-group-toggle-button.se-toolbar-button-table-align.se-table-align-center .se-toolbar-icon, .se-body .se-contents-toolbar .se-group-toggle-button.se-toolbar-button-table-align.se-table-align-left .se-toolbar-icon, .se-body .se-contents-toolbar .se-group-toggle-button.se-toolbar-button-table-align.se-table-align-right .se-toolbar-icon, .se-body .se-contents-toolbar .se-group-toggle-button.se-toolbar-button-text-arrangement.se-text-arrangement-inner-big-left .se-toolbar-icon, .se-body .se-contents-toolbar .se-group-toggle-button.se-toolbar-button-text-arrangement.se-text-arrangement-inner-big-right .se-toolbar-icon, .se-body .se-contents-toolbar .se-group-toggle-button.se-toolbar-button-text-arrangement.se-text-arrangement-inner-left .se-toolbar-icon, .se-body .se-contents-toolbar .se-group-toggle-button.se-toolbar-button-text-arrangement.se-text-arrangement-inner-right .se-toolbar-icon, .se-body .se-contents-toolbar .se-toolbar-button-bold .se-toolbar-icon, .se-body .se-contents-toolbar .se-toolbar-button-drop-cap .se-toolbar-icon, .se-body .se-contents-toolbar .se-toolbar-button-italic .se-toolbar-icon, .se-body .se-contents-toolbar .se-toolbar-button-link .se-toolbar-icon, .se-body .se-contents-toolbar .se-toolbar-button-object-arrangement-fit .se-toolbar-icon, .se-body .se-contents-toolbar .se-toolbar-button-resizing .se-toolbar-icon, .se-body .se-contents-toolbar .se-toolbar-button-strikethrough .se-toolbar-icon, .se-body .se-contents-toolbar .se-toolbar-button-subscript .se-toolbar-icon, .se-body .se-contents-toolbar .se-toolbar-button-superscript .se-toolbar-icon, .se-body .se-contents-toolbar .se-toolbar-button-table-border .se-toolbar-icon, .se-body .se-contents-toolbar .se-toolbar-button-table-style .se-toolbar-icon, .se-body .se-contents-toolbar .se-toolbar-button-table-width .se-toolbar-icon, .se-body .se-contents-toolbar .se-toolbar-button-underline .se-toolbar-icon, .se-body .se-context-menu .se-context-menu-button.se-context-menu-button-copy:before, .se-body .se-context-menu .se-context-menu-button.se-context-menu-button-cut:before, .se-body .se-context-menu .se-context-menu-button.se-context-menu-button-delete:before, .se-body .se-context-menu .se-context-menu-button.se-context-menu-button-paste:before, .se-body .se-context-toolbar .se-color-palette-button-cell-background-color .se-toolbar-icon, .se-body .se-context-toolbar .se-cycle-toggle-button-container .se-toolbar-button-align.se-align-center .se-toolbar-icon, .se-body .se-context-toolbar .se-cycle-toggle-button-container .se-toolbar-button-align.se-align-justify .se-toolbar-icon, .se-body .se-context-toolbar .se-cycle-toggle-button-container .se-toolbar-button-align.se-align-left .se-toolbar-icon, .se-body .se-context-toolbar .se-cycle-toggle-button-container .se-toolbar-button-align.se-align-right .se-toolbar-icon, .se-body .se-context-toolbar .se-drop-down-button-container .se-toolbar-button-table-style .se-toolbar-icon, .se-body .se-context-toolbar .se-drop-down-button.se-align-center .se-toolbar-icon, .se-body .se-context-toolbar .se-drop-down-button.se-align-justify .se-toolbar-icon, .se-body .se-context-toolbar .se-drop-down-button.se-align-left .se-toolbar-icon, .se-body .se-context-toolbar .se-drop-down-button.se-align-right .se-toolbar-icon, .se-body .se-context-toolbar .se-drop-down-button.se-text-arrangement-inner-big-left .se-toolbar-icon, .se-body .se-context-toolbar .se-drop-down-button.se-text-arrangement-inner-big-right .se-toolbar-icon, .se-body .se-context-toolbar .se-drop-down-button.se-text-arrangement-inner-left .se-toolbar-icon, .se-body .se-context-toolbar .se-drop-down-button.se-text-arrangement-inner-right .se-toolbar-icon, .se-body .se-context-toolbar .se-drop-down-button.se-toolbar-button-align .se-toolbar-icon, .se-body .se-context-toolbar .se-drop-down-button.se-toolbar-button-line-height .se-toolbar-icon, .se-body .se-context-toolbar .se-drop-down-button.se-toolbar-button-text-arrangement .se-toolbar-icon, .se-body .se-context-toolbar .se-group-toggle-button.se-toolbar-button-align.se-align-center .se-toolbar-icon, .se-body .se-context-toolbar .se-group-toggle-button.se-toolbar-button-align.se-align-justify .se-toolbar-icon, .se-body .se-context-toolbar .se-group-toggle-button.se-toolbar-button-align.se-align-left .se-toolbar-icon, .se-body .se-context-toolbar .se-group-toggle-button.se-toolbar-button-align.se-align-right .se-toolbar-icon, .se-body .se-context-toolbar .se-group-toggle-button.se-toolbar-button-code.se-code-code_black .se-toolbar-icon, .se-body .se-context-toolbar .se-group-toggle-button.se-toolbar-button-code.se-code-code_stripe .se-toolbar-icon, .se-body .se-context-toolbar .se-group-toggle-button.se-toolbar-button-code.se-code-default .se-toolbar-icon, .se-body .se-context-toolbar .se-group-toggle-button.se-toolbar-button-horizontalLine.se-horizontalLine-default .se-toolbar-icon, .se-body .se-context-toolbar .se-group-toggle-button.se-toolbar-button-horizontalLine.se-horizontalLine-line1 .se-toolbar-icon, .se-body .se-context-toolbar .se-group-toggle-button.se-toolbar-button-horizontalLine.se-horizontalLine-line2 .se-toolbar-icon, .se-body .se-context-toolbar .se-group-toggle-button.se-toolbar-button-horizontalLine.se-horizontalLine-line3 .se-toolbar-icon, .se-body .se-context-toolbar .se-group-toggle-button.se-toolbar-button-horizontalLine.se-horizontalLine-line4 .se-toolbar-icon, .se-body .se-context-toolbar .se-group-toggle-button.se-toolbar-button-horizontalLine.se-horizontalLine-line5 .se-toolbar-icon, .se-body .se-context-toolbar .se-group-toggle-button.se-toolbar-button-horizontalLine.se-horizontalLine-line6 .se-toolbar-icon, .se-body .se-context-toolbar .se-group-toggle-button.se-toolbar-button-horizontalLine.se-horizontalLine-line7 .se-toolbar-icon, .se-body .se-context-toolbar .se-group-toggle-button.se-toolbar-button-image-group.se-image-group-collage .se-toolbar-icon, .se-body .se-context-toolbar .se-group-toggle-button.se-toolbar-button-image-group.se-image-group-slide .se-toolbar-icon, .se-body .se-context-toolbar .se-group-toggle-button.se-toolbar-button-map.se-map-default .se-toolbar-icon, .se-body .se-context-toolbar .se-group-toggle-button.se-toolbar-button-map.se-map-map_text .se-toolbar-icon, .se-body .se-context-toolbar .se-group-toggle-button.se-toolbar-button-object-arrangement.se-object-arrangement-extend .se-toolbar-icon, .se-body .se-context-toolbar .se-group-toggle-button.se-toolbar-button-object-arrangement.se-object-arrangement-fit .se-toolbar-icon, .se-body .se-context-toolbar .se-group-toggle-button.se-toolbar-button-object-arrangement.se-object-arrangement-normal .se-toolbar-icon, .se-body .se-context-toolbar .se-group-toggle-button.se-toolbar-button-object-arrangement.se-object-arrangement-pagefull .se-toolbar-icon, .se-body .se-context-toolbar .se-group-toggle-button.se-toolbar-button-quotation.se-quotation-default .se-toolbar-icon, .se-body .se-context-toolbar .se-group-toggle-button.se-toolbar-button-quotation.se-quotation-quotation_bubble .se-toolbar-icon, .se-body .se-context-toolbar .se-group-toggle-button.se-toolbar-button-quotation.se-quotation-quotation_corner .se-toolbar-icon, .se-body .se-context-toolbar .se-group-toggle-button.se-toolbar-button-quotation.se-quotation-quotation_line .se-toolbar-icon, .se-body .se-context-toolbar .se-group-toggle-button.se-toolbar-button-quotation.se-quotation-quotation_postit .se-toolbar-icon, .se-body .se-context-toolbar .se-group-toggle-button.se-toolbar-button-quotation.se-quotation-quotation_underline .se-toolbar-icon, .se-body .se-context-toolbar .se-group-toggle-button.se-toolbar-button-table-align.se-table-align-center .se-toolbar-icon, .se-body .se-context-toolbar .se-group-toggle-button.se-toolbar-button-table-align.se-table-align-left .se-toolbar-icon, .se-body .se-context-toolbar .se-group-toggle-button.se-toolbar-button-table-align.se-table-align-right .se-toolbar-icon, .se-body .se-context-toolbar .se-group-toggle-button.se-toolbar-button-text-arrangement.se-text-arrangement-inner-big-left .se-toolbar-icon, .se-body .se-context-toolbar .se-group-toggle-button.se-toolbar-button-text-arrangement.se-text-arrangement-inner-big-right .se-toolbar-icon, .se-body .se-context-toolbar .se-group-toggle-button.se-toolbar-button-text-arrangement.se-text-arrangement-inner-left .se-toolbar-icon, .se-body .se-context-toolbar .se-group-toggle-button.se-toolbar-button-text-arrangement.se-text-arrangement-inner-right .se-toolbar-icon, .se-body .se-context-toolbar .se-toolbar-button-bold .se-toolbar-icon, .se-body .se-context-toolbar .se-toolbar-button-drop-cap .se-toolbar-icon, .se-body .se-context-toolbar .se-toolbar-button-italic .se-toolbar-icon, .se-body .se-context-toolbar .se-toolbar-button-link .se-toolbar-icon, .se-body .se-context-toolbar .se-toolbar-button-object-arrangement-fit .se-toolbar-icon, .se-body .se-context-toolbar .se-toolbar-button-resizing .se-toolbar-icon, .se-body .se-context-toolbar .se-toolbar-button-strikethrough .se-toolbar-icon, .se-body .se-context-toolbar .se-toolbar-button-subscript .se-toolbar-icon, .se-body .se-context-toolbar .se-toolbar-button-superscript .se-toolbar-icon, .se-body .se-context-toolbar .se-toolbar-button-table-border .se-toolbar-icon, .se-body .se-context-toolbar .se-toolbar-button-table-style .se-toolbar-icon, .se-body .se-context-toolbar .se-toolbar-button-table-width .se-toolbar-icon, .se-body .se-context-toolbar .se-toolbar-button-underline .se-toolbar-icon, .se-body .se-cover-button-local-image-upload, .se-body .se-cover-button-sns-image-upload, .se-body .se-cover-button.se-cover-button-del-image:before, .se-body .se-cover-button.se-cover-button-set-position:before, .se-body .se-document-toolbar .se-toolbar-button-document-type.se-default .se-toolbar-icon:before, .se-body .se-document-toolbar .se-toolbar-button-horizontal-line.se-default .se-toolbar-icon:before, .se-body .se-document-toolbar .se-toolbar-button-horizontal-line.se-line1 .se-toolbar-icon:before, .se-body .se-document-toolbar .se-toolbar-button-horizontal-line.se-line2 .se-toolbar-icon:before, .se-body .se-document-toolbar .se-toolbar-button-horizontal-line.se-line3 .se-toolbar-icon:before, .se-body .se-document-toolbar .se-toolbar-button-horizontal-line.se-line4 .se-toolbar-icon:before, .se-body .se-document-toolbar .se-toolbar-button-horizontal-line.se-line5 .se-toolbar-icon:before, .se-body .se-document-toolbar .se-toolbar-button-horizontal-line.se-line6 .se-toolbar-icon:before, .se-body .se-document-toolbar .se-toolbar-button-horizontal-line.se-line7 .se-toolbar-icon:before, .se-body .se-document-toolbar .se-toolbar-button-library .se-toolbar-icon:before, .se-body .se-document-toolbar .se-toolbar-button-quotation.se-default .se-toolbar-icon:before, .se-body .se-document-toolbar .se-toolbar-button-quotation.se-quotation_bubble .se-toolbar-icon:before, .se-body .se-document-toolbar .se-toolbar-button-quotation.se-quotation_corner .se-toolbar-icon:before, .se-body .se-document-toolbar .se-toolbar-button-quotation.se-quotation_line .se-toolbar-icon:before, .se-body .se-document-toolbar .se-toolbar-button-quotation.se-quotation_postit .se-toolbar-icon:before, .se-body .se-document-toolbar .se-toolbar-button-quotation.se-quotation_underline .se-toolbar-icon:before, .se-body .se-document-toolbar .se-toolbar-button-search .se-toolbar-icon:before, .se-body .se-document-toolbar .se-toolbar-button-sticker .se-toolbar-icon:before, .se-body .se-document-toolbar .se-toolbar-button-template .se-toolbar-icon:before, .se-body .se-dragging-ghost-iframe:before, .se-body .se-dragging-ghost-multiple:before, .se-body .se-dragging-ghost-text .se-text-ghost-complex, .se-body .se-file-download-option-button:before, .se-body .se-file-icon, .se-body .se-filed-download-list .se-file-download-button-cloud:before, .se-body .se-filed-download-list .se-file-download-button-local:before, .se-body .se-help-layer-icon-cell-select-all, .se-body .se-help-layer-icon-new, .se-body .se-help-layer-icon-tip, .se-body .se-help-layer-icon-update, .se-body .se-help-layer .se-help-layer-header .se-help-layer-button-back:before, .se-body .se-help-layer .se-help-layer-header .se-help-layer-button-close:before, .se-body .se-help-panel .se-help-carousel-container .slick-next, .se-body .se-help-panel .se-help-carousel-container .slick-next:hover, .se-body .se-help-panel .se-help-carousel-container .slick-prev, .se-body .se-help-panel .se-help-carousel-container .slick-prev:hover, .se-body .se-help-panel .se-help-header.se-help-header-dark .se-help-panel-close-button:before, .se-body .se-help-panel .se-help-header .se-help-panel-close-button:before, .se-body .se-help-panel .se-help-header:before, .se-body .se-help-panel .se-help-section .se-help-nav-item .se-help-nav-link:after, .se-body .se-image-detail-attached-button:before, .se-body .se-image-detail-pay-button:before, .se-body .se-image-detail-purchased-button:before, .se-body .se-image-detail-reference-link, .se-body .se-image-type-option-collage .se-image-type-label:before, .se-body .se-image-type-option-list .se-image-type-label:before, .se-body .se-image-type-option-slide .se-image-type-label:before, .se-body .se-imageGroup-navigation-button.se-imageGroup-navigation-button-next, .se-body .se-imageGroup-navigation-button.se-imageGroup-navigation-button-prev, .se-body .se-insert-menu-button.se-insert-menu-button-image:before, .se-body .se-insert-menu-button.se-insert-menu-button-quotation:before, .se-body .se-insert-menu-button.se-insert-menu-button-sticker:before, .se-body .se-l-anniversary_autumn .se-anniversary-date-info:after, .se-body .se-l-anniversary_spring .se-anniversary-date-info:after, .se-body .se-l-anniversary_summer .se-anniversary-date-info:after, .se-body .se-l-anniversary_winter .se-anniversary-date-info:after, .se-body .se-material-npay, .se-body .se-module-image .se-image-delete-button:before, .se-body .se-module-video .se-360vr-icon, .se-body .se-module-video.se-module-video-deleted .se-video-state-info:before, .se-body .se-module-video.se-module-video-no-thumbnail .se-video-state-info:after, .se-body .se-module-video.se-module-video-no-thumbnail .se-video-state-info:before, .se-body .se-oglink-thumbnail-moment-icon, .se-body .se-oglink-thumbnail-video-icon, .se-body .se-popup-cloud-sns-button.se-popup-cloud-sns-button-cloud:before, .se-body .se-popup-cloud-sns-button.se-popup-cloud-sns-button-facebook:before, .se-body .se-popup-cloud-sns-button.se-popup-cloud-sns-button-instagram:before, .se-body .se-popup-cloud-sns-button.se-popup-cloud-sns-button-pholar:before, .se-body .se-popup-file-source-button.se-popup-file-source-button-cloud:before, .se-body .se-popup-file-source-button.se-popup-file-source-button-local:before, .se-body .se-popup-imageGroup .se-button-container .se-popup-button.se-popup-button-done:before, .se-body .se-popup-imageGroup .se-popup-imageGroup-button-delete-image:before, .se-body .se-popup-imageGroup .se-popup-imageGroup-button-edit-image:before, .se-body .se-popup-imageGroup .se-popup-imageGroup-button-replace-image:before, .se-body .se-popup-imageGroup .se-popup-imageGroup-edit-button-group .se-popup-edit-button-imageGroup-collage .se-popup-edit-button-icon:before, .se-body .se-popup-imageGroup .se-popup-imageGroup-edit-button-group .se-popup-edit-button-imageGroup-individual .se-popup-edit-button-icon:before, .se-body .se-popup-imageGroup .se-popup-imageGroup-edit-button-group .se-popup-edit-button-imageGroup-slide .se-popup-edit-button-icon:before, .se-body .se-popup-oglink-button:before, .se-body .se-popup-placesMap .se-place-add-button:before, .se-body .se-popup-placesMap .se-place-attached-delete-button:before, .se-body .se-popup-placesMap .se-place-attached-item:before, .se-body .se-popup-placesMap .se-place-map-search-info-description.se-place-map-search-info-description-before-search:before, .se-body .se-popup-placesMap .se-place-point-marker.se-place-point-marker-pin-1:before, .se-body .se-popup-placesMap .se-place-point-marker.se-place-point-marker-pin-2:before, .se-body .se-popup-placesMap .se-place-point-marker.se-place-point-marker-pin-3:before, .se-body .se-popup-placesMap .se-place-point-marker.se-place-point-marker-pin-4:before, .se-body .se-popup-placesMap .se-place-point-marker.se-place-point-marker-pin-5:before, .se-body .se-popup-placesMap .se-place-point-marker.se-place-point-marker-pin-single:before, .se-body .se-popup-placesMap .se-place-point-marker:before, .se-body .se-popup-placesMap .se-place-search-button:before, .se-body .se-popup-placesMap .se-place-search-clear-button:before, .se-body .se-popup-placesMap .se-popup-button-drop-pin .se-popup-button-text:before, .se-body .se-popup-placesMap .se-popup-toast-placesMap:before, .se-body .se-popup-talktalk .se-talktalk-defalut-text:before, .se-body .se-popup-talktalk .se-talktalk-defalut:after, .se-body .se-popup-talktalk .se-talktalk-defalut:before, .se-body .se-property-toolbar .se-color-apply-button:before, .se-body .se-property-toolbar .se-color-palette-button-cell-background-color .se-toolbar-icon, .se-body .se-property-toolbar .se-drop-down-button-container .se-toolbar-button-table-style .se-toolbar-icon, .se-body .se-property-toolbar .se-drop-down-button.se-align-center .se-toolbar-icon, .se-body .se-property-toolbar .se-drop-down-button.se-align-justify .se-toolbar-icon, .se-body .se-property-toolbar .se-drop-down-button.se-align-left .se-toolbar-icon, .se-body .se-property-toolbar .se-drop-down-button.se-align-right .se-toolbar-icon, .se-body .se-property-toolbar .se-drop-down-button.se-text-arrangement-inner-big-left .se-toolbar-icon, .se-body .se-property-toolbar .se-drop-down-button.se-text-arrangement-inner-big-right .se-toolbar-icon, .se-body .se-property-toolbar .se-drop-down-button.se-text-arrangement-inner-left .se-toolbar-icon, .se-body .se-property-toolbar .se-drop-down-button.se-text-arrangement-inner-right .se-toolbar-icon, .se-body .se-property-toolbar .se-drop-down-button.se-toolbar-button-align .se-toolbar-icon, .se-body .se-property-toolbar .se-drop-down-button.se-toolbar-button-line-height .se-toolbar-icon, .se-body .se-property-toolbar .se-drop-down-button.se-toolbar-button-text-arrangement .se-toolbar-icon, .se-body .se-property-toolbar .se-drop-down-option-table-style .se-toolbar-drop-down-option-label-text:before, .se-body .se-property-toolbar .se-group-toggle-button.se-toolbar-button-align.se-align-center .se-toolbar-icon, .se-body .se-property-toolbar .se-group-toggle-button.se-toolbar-button-align.se-align-justify .se-toolbar-icon, .se-body .se-property-toolbar .se-group-toggle-button.se-toolbar-button-align.se-align-left .se-toolbar-icon, .se-body .se-property-toolbar .se-group-toggle-button.se-toolbar-button-align.se-align-right .se-toolbar-icon, .se-body .se-property-toolbar .se-group-toggle-button.se-toolbar-button-code.se-code-code_black .se-toolbar-icon, .se-body .se-property-toolbar .se-group-toggle-button.se-toolbar-button-code.se-code-code_stripe .se-toolbar-icon, .se-body .se-property-toolbar .se-group-toggle-button.se-toolbar-button-code.se-code-default .se-toolbar-icon, .se-body .se-property-toolbar .se-group-toggle-button.se-toolbar-button-horizontalLine.se-horizontalLine-default .se-toolbar-icon, .se-body .se-property-toolbar .se-group-toggle-button.se-toolbar-button-horizontalLine.se-horizontalLine-line1 .se-toolbar-icon, .se-body .se-property-toolbar .se-group-toggle-button.se-toolbar-button-horizontalLine.se-horizontalLine-line2 .se-toolbar-icon, .se-body .se-property-toolbar .se-group-toggle-button.se-toolbar-button-horizontalLine.se-horizontalLine-line3 .se-toolbar-icon, .se-body .se-property-toolbar .se-group-toggle-button.se-toolbar-button-horizontalLine.se-horizontalLine-line4 .se-toolbar-icon, .se-body .se-property-toolbar .se-group-toggle-button.se-toolbar-button-horizontalLine.se-horizontalLine-line5 .se-toolbar-icon, .se-body .se-property-toolbar .se-group-toggle-button.se-toolbar-button-horizontalLine.se-horizontalLine-line6 .se-toolbar-icon, .se-body .se-property-toolbar .se-group-toggle-button.se-toolbar-button-horizontalLine.se-horizontalLine-line7 .se-toolbar-icon, .se-body .se-property-toolbar .se-group-toggle-button.se-toolbar-button-image-group.se-image-group-collage .se-toolbar-icon, .se-body .se-property-toolbar .se-group-toggle-button.se-toolbar-button-image-group.se-image-group-slide .se-toolbar-icon, .se-body .se-property-toolbar .se-group-toggle-button.se-toolbar-button-map.se-map-default .se-toolbar-icon, .se-body .se-property-toolbar .se-group-toggle-button.se-toolbar-button-map.se-map-map_text .se-toolbar-icon, .se-body .se-property-toolbar .se-group-toggle-button.se-toolbar-button-object-arrangement.se-object-arrangement-extend .se-toolbar-icon, .se-body .se-property-toolbar .se-group-toggle-button.se-toolbar-button-object-arrangement.se-object-arrangement-fit .se-toolbar-icon, .se-body .se-property-toolbar .se-group-toggle-button.se-toolbar-button-object-arrangement.se-object-arrangement-normal .se-toolbar-icon, .se-body .se-property-toolbar .se-group-toggle-button.se-toolbar-button-object-arrangement.se-object-arrangement-pagefull .se-toolbar-icon, .se-body .se-property-toolbar .se-group-toggle-button.se-toolbar-button-quotation.se-quotation-default .se-toolbar-icon, .se-body .se-property-toolbar .se-group-toggle-button.se-toolbar-button-quotation.se-quotation-quotation_bubble .se-toolbar-icon, .se-body .se-property-toolbar .se-group-toggle-button.se-toolbar-button-quotation.se-quotation-quotation_corner .se-toolbar-icon, .se-body .se-property-toolbar .se-group-toggle-button.se-toolbar-button-quotation.se-quotation-quotation_line .se-toolbar-icon, .se-body .se-property-toolbar .se-group-toggle-button.se-toolbar-button-quotation.se-quotation-quotation_postit .se-toolbar-icon, .se-body .se-property-toolbar .se-group-toggle-button.se-toolbar-button-quotation.se-quotation-quotation_underline .se-toolbar-icon, .se-body .se-property-toolbar .se-group-toggle-button.se-toolbar-button-table-align.se-table-align-center .se-toolbar-icon, .se-body .se-property-toolbar .se-group-toggle-button.se-toolbar-button-table-align.se-table-align-left .se-toolbar-icon, .se-body .se-property-toolbar .se-group-toggle-button.se-toolbar-button-table-align.se-table-align-right .se-toolbar-icon, .se-body .se-property-toolbar .se-group-toggle-button.se-toolbar-button-text-arrangement.se-text-arrangement-inner-big-left .se-toolbar-icon, .se-body .se-property-toolbar .se-group-toggle-button.se-toolbar-button-text-arrangement.se-text-arrangement-inner-big-right .se-toolbar-icon, .se-body .se-property-toolbar .se-group-toggle-button.se-toolbar-button-text-arrangement.se-text-arrangement-inner-left .se-toolbar-icon, .se-body .se-property-toolbar .se-group-toggle-button.se-toolbar-button-text-arrangement.se-text-arrangement-inner-right .se-toolbar-icon, .se-body .se-property-toolbar .se-resizing-input-group:after, .se-body .se-property-toolbar .se-resizing-reset-button:before, .se-body .se-property-toolbar .se-table_layout1 .se-toolbar-drop-down-option-label-text:before, .se-body .se-property-toolbar .se-table_layout2 .se-toolbar-drop-down-option-label-text:before, .se-body .se-property-toolbar .se-table_layout3 .se-toolbar-drop-down-option-label-text:before, .se-body .se-property-toolbar .se-table_layout4 .se-toolbar-drop-down-option-label-text:before, .se-body .se-property-toolbar .se-table_layout5 .se-toolbar-drop-down-option-label-text:before, .se-body .se-property-toolbar .se-table_layout6 .se-toolbar-drop-down-option-label-text:before, .se-body .se-property-toolbar .se-table_layout7 .se-toolbar-drop-down-option-label-text:before, .se-body .se-property-toolbar .se-toolbar-button-bold .se-toolbar-icon, .se-body .se-property-toolbar .se-toolbar-button-drop-cap .se-toolbar-icon, .se-body .se-property-toolbar .se-toolbar-button-italic .se-toolbar-icon, .se-body .se-property-toolbar .se-toolbar-button-link .se-toolbar-icon, .se-body .se-property-toolbar .se-toolbar-button-object-arrangement-fit .se-toolbar-icon, .se-body .se-property-toolbar .se-toolbar-button-resizing .se-toolbar-icon, .se-body .se-property-toolbar .se-toolbar-button-strikethrough .se-toolbar-icon, .se-body .se-property-toolbar .se-toolbar-button-subscript .se-toolbar-icon, .se-body .se-property-toolbar .se-toolbar-button-superscript .se-toolbar-icon, .se-body .se-property-toolbar .se-toolbar-button-table-border .se-toolbar-icon, .se-body .se-property-toolbar .se-toolbar-button-table-style .se-toolbar-icon, .se-body .se-property-toolbar .se-toolbar-button-table-width .se-toolbar-icon, .se-body .se-property-toolbar .se-toolbar-button-underline .se-toolbar-icon, .se-body .se-property-toolbar .se-toolbar-drop-down-option .se-align.se-align-center .se-toolbar-drop-down-option-label-text:before, .se-body .se-property-toolbar .se-toolbar-drop-down-option .se-align.se-align-justify .se-toolbar-drop-down-option-label-text:before, .se-body .se-property-toolbar .se-toolbar-drop-down-option .se-align.se-align-left .se-toolbar-drop-down-option-label-text:before, .se-body .se-property-toolbar .se-toolbar-drop-down-option .se-align.se-align-right .se-toolbar-drop-down-option-label-text:before, .se-body .se-property-toolbar .se-toolbar-drop-down-option .se-text-arrangement.se-text-arrangement-inner-big-left .se-toolbar-drop-down-option-label-text:before, .se-body .se-property-toolbar .se-toolbar-drop-down-option .se-text-arrangement.se-text-arrangement-inner-big-right .se-toolbar-drop-down-option-label-text:before, .se-body .se-property-toolbar .se-toolbar-drop-down-option .se-text-arrangement.se-text-arrangement-inner-left .se-toolbar-drop-down-option-label-text:before, .se-body .se-property-toolbar .se-toolbar-drop-down-option .se-text-arrangement.se-text-arrangement-inner-right .se-toolbar-drop-down-option-label-text:before, .se-body .se-regular-schedule-tooltip, .se-body .se-resize-px-info-multiply, .se-body .se-schedule-detail-description .se-schedule-info:before, .se-body .se-schedule-detail-location .se-schedule-info:before, .se-body .se-schedule-detail-url .se-schedule-info:before, .se-body .se-schedule-info-map-delete-button:before, .se-body .se-section-horizontalLine.se-l-line3 .se-hr, .se-body .se-section-horizontalLine.se-l-line4 .se-hr, .se-body .se-section-horizontalLine.se-l-line5 .se-hr, .se-body .se-section-horizontalLine.se-l-line6 .se-hr, .se-body .se-section-image .se-360vr-icon:after, .se-body .se-section-image .se-360vr-icon:before, .se-body .se-section-image .se-360vr-toggle-container:before, .se-body .se-section-image .se-360vr-toggle-label, .se-body .se-section-oglink.se-l-shopping_affiliate_image.se-l-shopping_affiliate_text .se-oglink-npay, .se-body .se-section-oglink.se-l-shopping_affiliate_image .se-oglink-npay, .se-body .se-section-placesMap.se-l-map_text .se-map-marker:before, .se-body .se-section-placesMap.se-section-placesMap-multiple .se-module-map-text:before, .se-body .se-section-quotation.se-l-default .se-quotation-container:after, .se-body .se-section-quotation.se-l-default .se-quotation-container:before, .se-body .se-section-quotation.se-l-quotation_bubble .se-quotation-container:after, .se-body .se-section-quotation.se-l-quotation_postit .se-quotation-container:before, .se-body .se-section-quotation.se-l-quotation_underline .se-quotation-container:before, .se-body .se-set-schedule-item-description .se-set-schedule-label:before, .se-body .se-set-schedule-item-location .se-set-schedule-label:before, .se-body .se-set-schedule-item-url .se-set-schedule-label:before, .se-body .se-sidebar-element-delete-button:before, .se-body .se-sidebar-element-library.se-sidebar-element-library-audio:after, .se-body .se-sidebar-element-library.se-sidebar-element-library-map:after, .se-body .se-sidebar-element-library.se-sidebar-element-library-video:after, .se-body .se-sidebar-material-npay, .se-body .se-sidebar-material-reference-link:before, .se-body .se-sidebar-more-retry-text:before, .se-body .se-sidebar-photo-reference-link, .se-body .se-sidebar-search-button:before, .se-body .se-spellcheck-recheck-button:before, .se-body .se-sticker-tab-button.se-sticker-tab-button-gif.se-is-selected:before, .se-body .se-sticker-tab-button.se-sticker-tab-button-gif:active:before, .se-body .se-sticker-tab-button.se-sticker-tab-button-gif:before, .se-body .se-sticker-tab-button.se-sticker-tab-button-history:before, .se-body .se-sticker-tab-button.se-sticker-tab-button-market:before, .se-body .se-sticker-tab-button.se-sticker-tab-button-setting:before, .se-body .se-talktalk.se-l-default .se-module-talktalk:after, .se-body .se-talktalk.se-l-default .se-module-talktalk:before, .se-body .se-talktalk .se-talktalk-banner-text:before, .se-body .se-template-delete-button:before, .se-body .se-toolbar-icon-audio, .se-body .se-toolbar-icon-code, .se-body .se-toolbar-icon-delete, .se-body .se-toolbar-icon-file, .se-body .se-toolbar-icon-formula, .se-body .se-toolbar-icon-formula-edit, .se-body .se-toolbar-icon-image, .se-body .se-toolbar-icon-image-edit, .se-body .se-toolbar-icon-image-group-edit, .se-body .se-toolbar-icon-image-replacement, .se-body .se-toolbar-icon-inline-image, .se-body .se-toolbar-icon-map, .se-body .se-toolbar-icon-map-edit, .se-body .se-toolbar-icon-oglink, .se-body .se-toolbar-icon-schedule, .se-body .se-toolbar-icon-schedule-edit, .se-body .se-toolbar-icon-search, .se-body .se-toolbar-icon-social-media-image, .se-body .se-toolbar-icon-special-letter, .se-body .se-toolbar-icon-table, .se-body .se-toolbar-icon-talktalk, .se-body .se-toolbar-icon-talktalk-edit, .se-body .se-toolbar-icon-to-quotation, .se-body .se-toolbar-icon-to-text, .se-body .se-toolbar-icon-video, .se-body .se-toolbar-icon-video-meta, .se-body .se-util-button.se-util-button-device-desktop:before, .se-body .se-util-button.se-util-button-device-mobile:before, .se-body .se-util-button.se-util-button-device-tablet:before, .se-body .se-util-button.se-util-button-guide:before, .se-body .se-video-info-toggle-button:before, .se-body .se-video-play-info:before {
-		filter: invert(86%) hue-rotate(-180deg);
+		filter: invert(86%) hue-rotate(-180deg) !important;
 	}
 	
 	.se-body .se-document-toolbar-button .se-toolbar-label, .se-body .se-document-toolbar .se-toggle-button .se-toolbar-label-text, .se-body .se-document-toolbar .se-icon-select-button-container .se-toolbar-label {
-		color: #fff;
+		color: #fff !important;
 	}
 	
 	.se-body .se-document-toolbar .se-icon-select-button-container:before, .se-body .se-document-toolbar .se-select-option-button:focus, .se-body .se-document-toolbar .se-select-option-button:hover, .se-body .se-document-toolbar .se-icon-select-button:hover {
+		box-shadow: inset 0 0 0 1px #404040 !important;
+		-webkit-box-shadow: inset 0 0 0 1px #404040 !important;
+	}
+	
+	.se-body .se-document-toolbar .se-icon-select-button:hover {
+		border-color: #404040 !important;
+	}
+	
+	.se-body .se-document-toolbar .se-icon-select-button-container.se-is-activated .se-select-option-button {
+		background-color: #2f2f2f !important;
+	}
+	
+	.se-body .se-toolbar-select-option {
+		border: 1px solid #404040 !important;
+		background-color: #242424 !important;
+	}
+	
+	.se-body .se-document-toolbar .se-icon-select-button-container .se-toolbar-select-option-item:not(:first-child) {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-document-toolbar .se-icon-select-button-container .se-toolbar-select-option-item:focus, .se-body .se-document-toolbar .se-icon-select-button-container .se-toolbar-select-option-item:hover {
+		background-color: #2f2f2f !important;
+	}
+	
+	.se-body .se-document-toolbar .se-toolbar-select-option-item:before {
+		filter: invert(86%) hue-rotate(-180deg) !important;
+	}
+	
+	.se-body .se-document-toolbar .se-select-option-button:active {
+		background-color: #3a3a3a !important;
+	}
+	
+	.se-body .se-property-toolbar {
+		background-color: #242424 !important;
+		border-top: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-property-toolbar .se-toolbar-label {
+		color: #cacaca !important;
+	}
+	
+	.se-body .se-property-toolbar .se-label-select-button:hover .se-toolbar-label {
+		color: #fff !important;
+	}
+	
+	.se-body .se-property-toolbar .se-toolbar-select-option-item {
+		color: #cacaca !important;
+	}
+	
+	.se-body .se-property-toolbar .se-toolbar-item-separator-bar .se-toolbar-icon:before {
+		background-color: #404040 !important;
+	}
+	
+	#font-color g path[fill='#000'] {
+		fill: #fff !important;
+	}
+	
+	#font-color g path[fill='#fff'] {
+		fill: #000 !important;
+	}
+	
+	#background-color rect[fill='#fff'] {
+		fill: #000 !important;
+	}
+	
+	#background-color rect[fill='#000'] {
+		fill: #fff !important;
+	}
+	
+	.se-body .se-property-toolbar .se-drop-down-button-container, .se-body .se-property-toolbar .se-custom-layer-button-container {
+		background-color: #3a3a3a !important;
+	}
+	
+	.se-body .se-spellcheck-article {
+		color: #cacaca !important;
+		background-color: #242424 !important;
+	}
+	
+	.se-body .se-spellcheck-article-header {
+		-webkit-box-shadow: 0 1px 7px 0 #000 !important; !important;
+		box-shadow: 0 1px 7px 0 #000 !important;
+	}
+	
+	.se-body .se-spellcheck-recheck-button {
+		color: #cacaca !important;
+	}
+	
+	.se-body .se-spellcheck-article-header-button {
+		border: 1px solid #404040 !important;
+		color: #cacaca !important;
+	}
+	
+	.se-body .se-spellcheck-article-header-button.se-spellcheck-button-completion:hover {
+		color: #242424 !important;
+	}
+	
+	.se-body .se-spellcheck-article-header-button.se-spellcheck-button-completion:hover:before {
+		-webkit-box-shadow: inset 1px -1px 0 0 #242424 !important;
+		box-shadow: inset 1px -1px 0 0 #242424 !important;
+	}
+	
+	.se-body .se-spellcheck-text-test-result {
+		color: #cacaca !important;
+	}
+	
+	.se-body .se-spellcheck-detail {
+		border: 1px solid #404040 !important;
+		background-color: #242424 !important;
+	}
+	
+	.se-body .se-spellcheck-detail-header {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-spellcheck-detail-info {
+		color: #cacaca !important;
+	}
+	
+	.se-body .se-spellcheck-detail-footer {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-spellcheck-detail-button {
+		background-color: #242424 !important;
+		border: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-spellcheck-detail-button-label {
+		color: #cacaca !important;
+	}
+	
+	.se-body .se-spellcheck-detail-button.se-spellcheck-detail-button-apply .se-spellcheck-detail-button-label {
+		color: #242424 !important;
+	}
+	
+	.se-body .se-spellcheck-detail-controls-button {
+		border: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-documentTitle .se-component-content:after {
+		background-color: #404040 !important;
+	}
+	
+	.se-body .se-grammar.se-grammar-error.se-is-selected, .se-body .se-grammar.se-grammar-error:hover {
+		color: #242424 !important !important;
+	}
+	
+	.se-body .se-container:before, .se-body .se-content {
+		background: #242424 !important;
+	}
+	
+	.se-body .se-content-guide {
+		background-color: #242424 !important;
+		border: solid #404040 !important;
+	}
+	
+	.se-body .se-selection .se-caret rect {
+		fill: #fff !important;
+	}
+	
+	.se-body .se-property-toolbar .se-color-picker-option {
+		background-color: #242424 !important;
+		border: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-property-toolbar .se-color-picker-more-button {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-property-toolbar .se-color-picker-more-label {
+		color: #cacaca !important;
+	}
+	
+	.se-body .se-property-toolbar .se-color-apply-button {
+		border: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-property-toolbar .se-selected-color-hex {
+		border: 1px solid #404040 !important;
+		border-left-width: 0 !important;
+		background: #242424 !important;
+		color: #cacaca !important;
+	}
+	
+	.se-body .se-property-toolbar .se-selected-color-palette {
+		border: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-property-toolbar .se-color-apply-label {
+		color: #cacaca !important;
+	}
+	
+	.se-body .se-property-toolbar .se-toolbar-drop-down-option {
+		background: #242424 !important;
+		border: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-property-toolbar .se-drop-down-option-line-height .se-toolbar-drop-down-option-label-text {
+		color: #cacaca !important;
+	}
+	
+	.se-body .se-property-toolbar .se-toolbar-drop-down-option .se-toolbar-option-value {
+		border-top: 1px solid #404040 !important;
+		background-color: #242424 !important;
+	}
+	
+	.se-body .se-property-toolbar .se-toolbar-drop-down-option .se-toolbar-option-value-input {
+		color: #cacaca !important;
+	}
+	
+	.se-body .se-property-toolbar .se-toolbar-custom-layer-option {
+		background-color: #242424 !important;
+		border: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-property-toolbar .se-toolbar-link-input {
+		background: #242424 !important;
+		color: #cacaca !important;
+	}
+	
+	.se-body .se-help-panel {
+		border: 1px solid #404040 !important;
+		background-color: #242424 !important;
+	}
+	
+	.se-body .se-help-panel .se-help-header.se-help-header-dark .se-help-title {
+		color: #fff !important;
+	}
+	
+	.se-body .se-help-panel .se-help-section .se-help-nav-item {
+		border-top: 1px solid #404040 !important;
+		color: #cacaca !important;
+	}
+	
+	.se-body .se-help-panel .se-help-section .se-help-section-header {
+		color: #fff !important;
+	}
+	
+	.se-body .se-help-panel .se-help-carousel-container {
+		background-color: #2f2f2f !important;
+	}
+	
+	.se-body .se-help-panel .se-help-carousel-container .se-help-carousel-content .se-help-carousel-info-title {
+		color: #fff !important;
+	}
+	
+	.se-body .se-help-layer {
+		background: #242424 !important;
+	}
+	
+	.se-body .se-help-layer .se-help-layer-header .se-help-layer-title {
+		color: #fff !important;
+	}
+	
+	.se-body .se-help-layer .se-help-layer-header {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-help-layer .se-help-layer-section {
+		color: #cacaca !important;
+	}
+	
+	.se-body .se-help-layer .se-help-layer-section+.se-help-layer-section {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-help-layer .se-help-layer-section .se-help-layer-section-ordered-list, .se-body .se-help-layer .se-help-layer-section .se-help-layer-section-quote {
+		border-left: 3px solid #404040 !important;
+	}
+	
+	.nvu_wrap.nvu_mode_layer {
+		color: #fff !important;
+	}
+	
+	.nvu_wrap .nvu_header {
+		border-bottom: 1px solid #404040 !important;
+		background-color: #242424 !important;
+	}
+	
+	.nvu_section_append .nvu_header .nvu_tab[aria-selected=true] {
+		color: #fff !important;
+	}
+	
+	.nvu_section_append .nvu_form {
+		background-color: #242424 !important;
+	}
+	
+	.nvu_section_append .nvu_header .nvu_tab[aria-selected=true]:after {
+		background-color: #fff !important;
+	}
+	
+	.nvu_section_append .nvu_area_text .nvu_important {
+		color: #fff !important;
+	}
+	
+	.nvu_wrap .nvu_footer {
+		background-color: #2f2f2f !important;
+		border-top: 1px solid #404040 !important;
+	}
+	
+	.nvu_section_append .nvu_area_button .nvu_btn_append {
+		border: 1px solid #404040 !important;
+		background-color: #242424 !important;
+	}
+	
+	.nvu_section_append .nvu_area_button .nvu_local:hover {
+		background-color: #019341 !important;
+		color: #242424 !important;
+	}
+	
+	.nvu_section_append .nvu_area_button .nvu_local:hover:before, .nvu_section_append .nvu_area_button .nvu_cloud:before {
+		filter: invert(86%) hue-rotate(-180deg) !important;
+	}
+	
+	.nvu_section_append .nvu_area_button .nvu_cloud {
+		color: #cacaca !important;
+	}
+	
+	.nvu_section_upload .nvu_header .nvu_btn_append {
+		color: #cacaca !important;
+	}
+	
+	.nvu_section_upload .nvu_header .nvu_btn_local:before, .nvu_section_upload .nvu_header .nvu_btn_cloud:before {
+		filter: invert(86%) hue-rotate(-180deg) !important;
+	}
+	
+	.nvu_section_upload .nvu_form {
+		background-color: #242424 !important;
+	}
+	
+	.nvu_section_upload .nvu_upload_select {
+		border-right: 1px solid #404040 !important;
+	}
+	
+	.nvu_section_upload .nvu_upload_select .nvu_link_select[aria-selected=true] {
+		background-color: #2f2f2f !important !important;
+	}
+	
+	.nvu_section_upload .nvu_upload_select .nvu_item:not(.nvu_is_dragged):not(.nvu_is_dimmed):hover .nvu_link_select {
+		background-color: #3a3a3a !important;
+	}
+	
+	.nvu_section_upload .nvu_upload_select .nvu_name {
+		color: #fff !important;
+	}
+	
+	.nvu_section_upload .nvu_upload_select .nvu_btn_delete:before {
+		filter: invert(86%) hue-rotate(-180deg) !important;
+	}
+	
+	.nvu_section_upload .nvu_area_data {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	.nvu_section_upload .nvu_area_data .nvu_inp {
+		border: 1px solid #404040 !important;
+		color: #cacaca !important;
+	}
+	
+	.nvu_section_upload .nvu_area_data .nvu_btn_add_tag {
+		background-color: #242424 !important;
+		border: 1px solid #404040 !important;
+	}
+	
+	.nvu_wrap .nvu_btn_type2 {
+		background-color: #242424 !important;
+	}
+	
+	.nvu_wrap .nvu_btn_type2:hover {
+		border-color: #019341 !important;
+		background-color: #019341 !important;
+		color: #242424 !important;
+	}
+	
+	.nvu_wrap .nvu_btn_type1, .nvu_wrap .nvu_btn_type2, .nvu_wrap .nvu_btn_type3, .nvu_wrap .nvu_btn_type4 {
+		border: 1px solid #404040 !important;
+	}
+	
+	.nvu_wrap .nvu_btn_type2:not(.nvu_not_icon):hover:before {
+		filter: invert(86%) hue-rotate(-180deg) !important;
+	}
+	
+	.nvu_section_upload .nvu_rep_candidate .nvu_rep_link {
+		background-color: #404040 !important;
+	}
+	
+	.nvu_section_upload .nvu_area_data .nvu_tag {
+		border: 1px solid #404040 !important;
+		background-color: #2f2f2f !important;
+		color: #cacaca !important;
+	}
+	
+	.se-body .se-popup.se-popup-video-upload .nvu_tag_inp {
+		color: #cacaca !important;
+	}
+	
+	.se-body .se-video-title {
+		color: #fff !important;
+	}
+	
+	.se-body .se-canvas .se-module-video:before {
+		border: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-canvas .se-module-video:hover:before {
+		border-color: #4f4f4f !important;
+	}
+	
+	.se-body .se-canvas .se-video .se-section-video .se-module-video:before {
+		border: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-canvas .se-video .se-section-video .se-module-video:hover:before {
+		border-color: #4f4f4f !important;
+	}
+	
+	.se-body .se-module-video {
+		border: 1px solid #404040 !important;
+		border-top: 0 !important;
+	}
+	
+	.nvu_section_update_meta .nvu_heading {
+		color: #fff !important;
+	}
+	
+	.nvu_section_update_meta .nvu_inp_box .nvu_inp {
+		border: 1px solid #404040 !important;
+		color: #cacaca !important;
+	}
+	
+	.nvu_section_update_meta .nvu_inp_box.nvu_tag_box .nvu_tag {
+		border: 1px solid #404040 !important;
+		background-color: #2f2f2f !important;
+		color: #cacaca !important;
+	}
+	
+	.nvu_section_update_meta .nvu_inp_box.nvu_tag_box .nvu_btn_add_tag {
+		background-color: #242424 !important;
+		border: 1px solid #404040 !important;
+	}
+	
+	.nvu_wrap .nvu_btn_type1, .nvu_wrap .nvu_btn_type2, .nvu_wrap .nvu_btn_type3, .nvu_wrap .nvu_btn_type4 {
+		border: 1px solid #404040 !important;
+	}
+	
+	.nvu_wrap .nvu_btn_type4 {
+		background-color: #242424 !important;
+		color: #cacaca !important;
+	}
+	
+	.nvu_section_update_meta .nvu_btn_close_layer:before {
+		filter: invert(86%) hue-rotate(-180deg) !important;
+	}
+	
+	.se-body .se-video-tag {
+		color: #cacaca !important;
+	}
+	
+	.se-body .se-set-rep-image-button.se-is-selected .se-set-rep-image-button-text, .se-body .se-set-rep-image-button:hover .se-set-rep-image-button-text, .se-body .se-set-rep-image-button-text {
+		color: #242424 !important;
+	}
+	
+	.se-body .se-set-rep-image-button-text:before, .se-body .se-set-rep-image-button.se-is-selected .se-set-rep-image-button-text:before, .se-body .se-set-rep-image-button:hover .se-set-rep-image-button-text:before {
+		border-color: #242424 !important;
+	}
+	
+	.se-body .se-caption.se-is-focused {
+		background-color: #2f2f2f !important;
+	}
+	
+	.se-body .se-caption .se-text-paragraph {
+		color: #cacaca !important;
+	}
+	
+	.se-body .se-sidebar {
+		background-color: #242424 !important;
+	}
+	
+	.se-body .se-sidebar-container {
+		background-color: #242424 !important;
+		border-left: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-sidebar-container-sticker {
+		background-color: #2f2f2f !important;
+	}
+	
+	.se-body .se-sidebar:after {
+		border-left: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-sidebar-header {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-sidebar-container-sticker .se-sidebar-header {
+		background-color: #242424 !important;
+	}
+	
+	.se-body .se-sidebar-title {
+		color: #fff !important;
+	}
+	
+	.se-body .se-sticker-header {
+		background: #242424 !important;
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-sidebar-next-button, .se-body .se-sidebar-prev-button {
+		border: 0 solid #404040 !important;
+		background-color: #242424 !important;
+	}
+	
+	.se-body .se-sidebar-next-button:disabled, .se-body .se-sidebar-prev-button:disabled {
+		border-color: #404040 !important;
+		background-color: #242424 !important;
+	}
+	
+	.se-body .se-sidebar-next-button:before {
+		-webkit-box-shadow: inset -1px -1px 0 0 #cacaca !important;
+		box-shadow: inset -1px -1px 0 0 #cacaca !important;
+	}
+	
+	.se-body .se-sidebar-prev-button:disabled:before {
+		-webkit-box-shadow: inset 1px 1px 0 0 #444 !important;
+		box-shadow: inset 1px 1px 0 0 #444 !important;
+	}
+	
+	.se-body .se-sticker-tab-button {
+		background-color: #2f2f2f !important;
+	}
+	
+	.se-body .se-sticker-tab-button:hover {
+		border-color: #404040 !important;
+	}
+	
+	.se-body .se-sticker-tab-button.se-is-selected, .se-body .se-sticker-tab-button:active {
+		background-color: #404040 !important;
+	}
+	
+	.se-body .se-sidebar-content {
+		background: #242424 !important;
+	}
+	
+	.se-body .se-sidebar-element-sticker:hover {
+		-webkit-box-shadow: 0 0 0 1px #404040 !important;
+		box-shadow: 0 0 0 1px #404040 !important;
+	}
+	
+	.se-body .se-popup-sticker-refresh .se-popup-title {
+		color: #fff !important;
+	}
+	
+	.se-body .se-popup-button-refresh:active, .se-body .se-popup-button-refresh:focus, .se-body .se-popup-button-refresh:hover {
+		color: #242424 !important;
+	}
+	
+	.se-body .se-sidebar-element-sticker:active {
+		background-color: #2f2f2f !important;
+	}
+	
+	.se-body .se-component-edge-button:after {
+		background-color: #4f4f4f !important;
+	}
+	
+	.se-body .se-canvas .se-section-quotation:before {
+		border: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-canvas .se-section-quotation:hover:before {
+		border-color: #4f4f4f !important;
+	}
+	
+	.se-body .se-canvas-bottom-button:after {
+		background-color: #4f4f4f !important;
+	}
+	
+	.se-body .se-section-quotation.se-l-quotation_bubble .se-quotation-container {
+		border: 4px solid #404040 !important;
+		background: #242424 !important;
+	}
+	
+	.se-body .se-section-quotation.se-l-quotation_postit .se-quotation-container {
+		border: solid #404040 !important;
+		border-width: 4px 4px 0 !important;
+		background: #242424 !important;
+	}
+	
+	.se-body .se-section-quotation.se-l-quotation_postit .se-quotation-container:after {
+		background: #242424 !important;
+		border: solid #404040 !important;
+		border-width: 0 0 4px 4px !important;
+	}
+	
+	.se-body .se-section-quotation.se-l-quotation_underline .se-quotation-container {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-canvas .se-section-horizontalLine:before {
+		border: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-canvas .se-section-horizontalLine:hover:before {
+		border-color: #4f4f4f !important;
+	}
+	
+	.se-body .se-section-horizontalLine.se-l-default .se-hr, .se-body .se-section-horizontalLine.se-l-line1 .se-hr {
+		background-color: #cacaca !important;
+	}
+	
+	.se-body .se-section-horizontalLine.se-l-line2 .se-hr {
+		background-color: #cacaca !important;
+	}
+	
+	.se-body .se-section-horizontalLine.se-l-line3 .se-hr {
+		filter: brightness(100%) !important;
+	}
+	
+	.se-body .se-section-horizontalLine.se-l-line4 .se-hr {
+		filter: invert(50%) brightness(100%) !important;
+	}
+	
+	.se-body .se-section-horizontalLine.se-l-line7 .se-hr {
+		background-color: #404040 !important;
+	}
+	
+	.se-body .se-popup-placesMap .se-popup-container {
+		background: #242424 !important;
+	}
+	
+	.se-body .se-popup-placesMap .se-place-search-container {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-popup-placesMap .se-place-search-keyword {
+		border-left: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-popup-placesMap .se-popup-button-container {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-popup-placesMap .se-popup-button-drop-pin .se-popup-button-text {
+		background-color: #242424 !important;
+		border: 1px solid #404040 !important;
+		color: #cacaca !important;
+	}
+	
+	.se-body .se-popup-placesMap .se-popup-button-drop-pin .se-popup-button-text:before {
+		filter: none !important;
+	}
+	
+	.se-body .se-popup-button-confirm:disabled:hover {
+		background-color: #242424 !important;
+		border-color: #404040 !important;
+	}
+	
+	.se-body .se-popup-placesMap .se-popup-button-confirm:disabled {
+		color: #666 !important;
+		background-color: #242424 !important;
+		border-color: #404040 !important;
+	}
+	
+	.se-body .se-popup-button-confirm:disabled {
+		color: #666 !important;
+	}
+	
+	.se-body .se-popup-placesMap .se-popup-button-map-place {
+		color: #fff !important;
+	}
+	
+	.se-body .se-popup-select-option {
+		border: 1px solid #404040 !important;
+		background-color: #242424 !important;
+	}
+	
+	.se-body .se-popup-placesMap .se-popup-select-option-map-place .se-popup-select-option-label:hover {
+		color: #cacaca !important;
+		background-color: #2f2f2f !important;
+	}
+	
+	.se-body .se-popup-select-option-label {
+		color: #cacaca !important;
+	}
+	
+	.se-body .se-popup-placesMap .react-autosuggest__input {
+		color: #fff !important;
+	}
+	
+	.se-body .se-popup-placesMap .se-place-map-container {
+		filter: invert(86%) hue-rotate(-180deg) !important;
+	}
+	
+	.se-body .se-popup-placesMap .se-place-map-search-result {
+		border-right: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-popup-placesMap .se-place-search-keyword:after {
+		background: #404040 !important;
+	}
+	
+	.se-body .se-popup-placesMap .se-place-map-search-result-item {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-popup-placesMap .se-place-map-search-result-item.se-is-highlight, .se-body .se-popup-placesMap .se-place-map-search-result-item:hover {
+		background-color: #2f2f2f !important;
+	}
+	
+	.se-body .se-popup-placesMap .se-place-map-search-result-title {
+		color: #fff !important;
+	}
+	
+	.se-body .se-popup-placesMap .se-place-add-button {
+		border: 1px solid #404040 !important;
+		background-color: #242424 !important;
+	}
+	
+	.se-body .se-popup-placesMap .se-place-search-pagination-button-prev:disabled {
+		border-color: #333 !important;
+	}
+	
+	.se-body .se-popup-placesMap .se-place-search-pagination-button-prev, .se-body .se-popup-placesMap .se-place-search-pagination-button-next {
+		border: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-popup-placesMap .se-place-search-pagination-button-next:before, .se-body .se-popup-placesMap .se-place-search-pagination-button-prev:before {
+		box-shadow: 0 9px 0 0 #404040,-4px 5px 0 0 #404040,4px 5px 0 0 #404040,-3px 6px 0 0 #404040,3px 6px 0 0 #404040,-2px 7px 0 0 #404040,2px 7px 0 0 #404040,-1px 8px 0 0 #404040,1px 8px 0 0 #404040,0 9px 0 0 #404040,0 9px 0 0 #404040 !important;
+	}
+	
+	.se-body .se-popup-placesMap .se-place-search-pagination-button-number {
+		color: #cacaca !important;
+	}
+	
+	.se-body .se-popup-placesMap .se-place-search-pagination-button-prev:disabled:before {
+		box-shadow: 0 9px 0 0 #333,-4px 5px 0 0 #333,4px 5px 0 0 #333,-3px 6px 0 0 #333,3px 6px 0 0 #333,-2px 7px 0 0 #333,2px 7px 0 0 #333,-1px 8px 0 0 #333,1px 8px 0 0 #333,0 9px 0 0 #333,0 9px 0 0 #333 !important;
+	}
+	
+	.se-body .react-autosuggest__suggestions-container {
+		border: 1px solid #404040 !important;
+		color: #cacaca !important;
+		background-color: #242424 !important;
+	}
+	
+	.se-body .se-popup-placesMap .react-autosuggest__suggestions-container {
+		background: #242424 !important;
+		border-top: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-popup-placesMap .react-autosuggest__suggestion{ 
+		color: #cacaca !important;
+	}
+	
+	.se-body .se-popup-placesMap .react-autosuggest__suggestion:hover {
+		background-color: #2f2f2f !important;
+	}
+	
+	.se-body .se-popup-placesMap .se-place-search-pagination-button-next:disabled {
+		border-color: #333 !important;
+	}
+	
+	.se-body .se-popup-placesMap .se-place-search-pagination-button-next:disabled:before {
+		box-shadow: 0 9px 0 0 #333,-4px 5px 0 0 #333,4px 5px 0 0 #333,-3px 6px 0 0 #333,3px 6px 0 0 #333,-2px 7px 0 0 #333,2px 7px 0 0 #333,-1px 8px 0 0 #333,1px 8px 0 0 #333,0 9px 0 0 #333,0 9px 0 0 #333 !important;
+	}
+	
+	.se-body .se-popup-placesMap .se-place-attached-name {
+		color: #000 !important;
+	}
+	
+	.se-body .se-section-placesMap {
+		background-color: #242424 !important;
+	}
+	
+	.se-body .se-section-placesMap {
+		border: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-canvas .se-section-placesMap.se-l-default:hover:before {
+		border-color: #404040 !important;
+	}
+	
+	.se-body .se-section-placesMap .se-map-title {
+		color: #fff !important;
+	}
+	
+	.se-body .se-section-placesMap.se-l-default .se-module-map-image .se-map-image {
+		filter: invert(86%) hue-rotate(-180deg) !important;
+	}
+	
+	.se-body .se-dragging-ghost-single .se-section-placesMap.se-l-map_text .se-map-marker, .se-body .se-l-viewport-tablet .se-section-placesMap.se-l-map_text .se-map-marker {
+		border-right: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-popup-oglink-input-holder {
+		border: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-popup-oglink-input {
+		color: #cacaca !important;
+	}
+	
+	.se-body .se-popup-oglink-loading {
+		filter: invert(86%) hue-rotate(-180deg) !important;
+	}
+	
+	.se-body .se-module-oglink {
+		background-color: #2f2f2f !important;
+	}
+	
+	.se-body .se-oglink-title {
+		color: #fff !important;
+	}
+	
+	.se-body .se-popup-oglink-preview.se-is-scroll {
+		border: solid #404040 !important;
+		border-width: 1px 0 !important;
+		background-color: #242424 !important;
+	}
+	
+	.se-body .se-canvas .se-section-oglink:before {
+		border: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-canvas .se-section-oglink:hover:before {
+		border-color: #404040 !important;
+	}
+	
+	.rabbit_layer_popup .dimmed {
+		background-color: rgba(0, 0, 0, .5) !important;
+	}
+	
+	.rabbit_layer_popup .popup_container {
+		border: 1px solid #404040 !important;
+		background-color: #242424 !important;
+	}
+	
+	.rabbit_layer_popup .popup_content .header .title {
+		color: #fff !important;
+	}
+	
+	.rabbit_layer_popup .popup_content .article {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	.rabbit_layer_popup .popup_content .article .title {
+		color: #fff !important;
+	}
+	
+	.rabbit_layer_popup .popup_content .article .item {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	.rabbit_layer_popup .popup_content .article .item:hover {
+		background-color: #2f2f2f !important;
+	}
+	
+	.rabbit_layer_popup .popup_content .article .delete_button_all {
+		border: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-popup-file-source-button:hover .se-popup-file-source-name {
+		color: #fff !important;
+	}
+	
+	.se-body .se-module-file {
+		border: 1px solid #404040 !important;
+		background: #2f2f2f !important;
+	}
+	
+	.se-body .se-file-name {
+		color: #fff !important;
+	}
+	
+	.se-body .se-canvas .se-section-file:before {
+		border: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-canvas .se-section-file:hover:before {
+		border-color: #404040 !important;
+	}
+	
+	.se-body .se-set-schedule-label {
+		color: #fff !important;
+	}
+	
+	.se-body .se-set-schedule-detail {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-set-schedule-input {
+		background-color: #242424 !important;
+		color: #cacaca !important;
+	}
+	
+	.se-body .se-input-schedule-radio:checked+.se-input-schedule-radio-label {
+		color: #fff !important;
+	}
+	
+	.se-body .se-input-schedule-radio-label {
+		color: #cacaca !important;
+	}
+	
+	.se-body .react-datepicker__input-container input[type=text], .se-body .se-set-time-option {
+		border: 1px solid #404040 !important;
+		background-color: #242424 !important;
+	}
+	
+	.se-body .se-input-schedule-checkbox-label {
+		color: #cacaca !important;
+	}
+	
+	.se-body .se-set-time-option:disabled {
+		background-color: #2f2f2f !important;
+		border-color: #404040 !important;
+		color: #666 !important;
+	}
+	
+	.se-body .se-input-schedule-end-date-checkbox-label {
+		color: #cacaca !important;
+	}
+	.se-body .se-input-schedule-end-date-checkbox-label:after, .se-body .se-input-schedule-end-date-checkbox-label:before {
+		background-color: #cacaca !important;
+	}
+	
+	.se-body .se-schedule-select-list-button {
+		border: 1px solid #404040 !important;
+		color: #cacaca !important;
+	}
+	
+	.se-body .se-schedule-options-wrapper, .se-body .se-schedule-sub-options-wrapper {
+		border: 1px solid #404040 !important;
+		background-color: #242424 !important;
+	}
+	
+	.se-body .react-datepicker {
+		color: #fff !important;
+		background-color: #242424 !important;
+		border: 1px solid #404040 !important;
+	}
+	
+	.se-body .react-datepicker__current-month {
+		border-bottom: 1px solid #404040 !important;
+		color: #fff !important;
+	}
+	
+	.se-body .react-datepicker__day-name {
+		color: #cacaca !important;
+	}
+	
+	.se-body .react-datepicker__day--selected {
+		color: #242424 !important;
+	}
+	
+	.se-body .react-datepicker__day {
+		color: #cacaca !important;
+	}
+	
+	.se-body .se-module-schedule {
+		border: 1px solid #404040 !important;
+		background-color: #2f2f2f !important;
+	}
+	
+	.se-body .se-schedule-title-text {
+		color: #fff !important;
+	}
+	
+	.se-body .se-schedule-duration, .se-body .se-section-schedule .se-map-title, .se-body .se-schedule-url, .se-body .se-schedule-info {
+		color: #cacaca !important;
+	}
+	
+	.se-body .se-schedule-content {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-schedule-info-map .se-module-map-image {
+		filter: invert(86%) hue-rotate(-180deg) !important;
+	}
+	
+	.se-body .se-canvas .se-section-schedule .se-module-schedule:before, .se-body .se-canvas .se-section-code:before {
+		border: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-canvas .se-section-schedule .se-module-schedule:hover:before, .se-body .se-canvas .se-section-code:hover:before {
+		border-color: #404040 !important;
+	}
+	
+	.se-body .se-module-code code[class*=language-], .se-body .se-module-code pre[class*=language-], .se-body .se-module-code .se-code-source-editor {
+		color: #fff !important;
+	}
+	
+	.se-body .se-section-code.se-l-default {
+		background-color: #2f2f2f !important;
+	}
+	
+	.se-body .se-section-code.se-l-code_stripe .se-module-code {
+		background-image: linear-gradient(#2f2f2f 25%,#353535 0,#353535 75%,#2f2f2f 0) !important;
+	}
+	
+	.se-body .se-property-toolbar .se-range-slider-button-container {
+		background-color: #3a3a3a !important;
+	}
+	
+	.se-body .se-canvas .se-section-table:before {
+		border: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-canvas .se-section-table:hover:before {
+		border-color: #404040 !important;
+	}
+	
+	.se-body .se-table-container {
+		background: #242424 !important;
+	}
+	
+	.se-body .se-cell-select-all-button {
+		border: 1px solid #404040 !important;
+		background-color: #242424 !important;
+	}
+	
+	.se-body .se-cell-controlbar-item {
+		background-color: #2f2f2f !important;
+	}
+	
+	.se-body .se-cell-select-button {
+		border: solid #404040 !important;
+	}
+	
+	.se-body .se-cell-select-button:hover {
+		background-color: #3a3a3a !important;
+	}
+	
+	.se-body .se-section-table.se-l-default .se-table-content {
+		border: solid #404040 !important;
+		border-width: 1px 0 0 1px !important;
+	}
+	
+	.se-body .se-cell {
+		background-color: #242424 !important;
+	}
+	
+	.se-body .se-section-table.se-l-default .se-table-content .se-cell {
+		border: solid #404040 !important;
+		border-width: 0 1px 1px 0 !important;
+	}
+	
+	.se-body .se-cell-select-button.se-is-selected {
+		border-color: #4f4f4f !important;
+		background-color: #3a3a3a !important;
+	}
+	
+	.se-body .se-cell.se-is-selected {
+		background-color: #2f2f2f !important !important;
+	}
+	
+	.se-body .se-canvas .se-section-formula:before {
+		border: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-canvas .se-section-formula:hover:before {
+		border-color: #404040 !important;
+	}
+	
+	.se-body .se-tab-header-underline .se-tab-button.se-is-selected .se-tab-button-title {
+		color: #fff !important;
+	}
+	
+	.se-body .se-tab-header-underline:before {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-sidebar-photo-ccl-notice {
+		background-color: #2f2f2f !important;
+		color: #cacaca !important;
+		border-top: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-sidebar-material-title {
+		color: #fff !important;
+	}
+	
+	.se-body .se-sidebar-material-detail-title {
+		color: #cacaca !important;
+	}
+	
+	.se-body .se-canvas .se-section-material:before {
+		border: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-canvas .se-section-material:hover:before {
+		border-color: #404040 !important;
+	}
+	
+	.se-body .se-module-material {
+		background-color: #2f2f2f !important;
+	}
+	
+	.se-body .se-material-thumbnail {
+		background-color: #2f2f2f !important;
+	}
+	
+	.se-body .se-material-title {
+		color: #fff !important;
+	}
+	
+	.se-body .se-sidebar-content-state {
+		background-color: #242424 !important;
+	}
+	
+	.se-body .se-state-error {
+		background: #2f2f2f !important;
+		border: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-canvas .se-module-image:before, .se-body .se-canvas .se-section-image .se-module-image:before {
+		border: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-canvas .se-section-image .se-module-image:hover:before {
+		border-color: #404040 !important;
+	}
+	
+	.npe_wrap .npe_btn_submit .npe_btn_title {
+		color: #242424 !important;
+	}
+	
+	.npe_wrap .npe_btn_cancel {
+		background-color: #242424 !important;
+	}
+	
+	.npe_wrap .npe_btn_cancel:after {
+		border: 1px solid #404040 !important;
+		opacity: 1 !important;
+	}
+	
+	.npe_wrap .npe_btn_cancel .npe_btn_title {
+		color: #cacaca !important;
+		opacity: 1 !important;
+	}
+	
+	.se-body .se-tab-header-noline .se-tab-button.se-is-selected .se-tab-button-title {
+		color: #fff !important;
+	}
+	
+	.se-body .se-tab-header-noline {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-doc-template {
+		background-color: #2f2f2f !important;
+	}
+	
+	.se-body .se-doc-template-title {
+		color: #fff !important;
+	}
+	
+	#header .layer_publish {
+		background: #242424 !important;
+		border: 1px solid #404040 !important;
+	}
+	
+	#header .layer_publish .set_option .set_title, #header .layer_publish .set_theme .theme1, #header .rabbit_checkbox .checkbox_label, #header .rabbit_radio .radio_label {
+		color: #fff !important;
+	}
+	
+	#header .layer_publish .selectbox .selectbox_button {
+		border: 1px solid #404040 !important;
+	}
+	
+	#header .layer_publish .selectbox .selectbox_button .text {
+		color: #cacaca !important;
+	}
+	
+	#header .layer_publish .set_detail .link, #header .layer_publish .set_theme .theme2 {
+		color: #cacaca !important;
+	}
+	
+	#header .layer_publish .layer_section+.layer_section+.layer_section {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	#header .layer_publish .option_tag .area_tag .textarea_tag {
+		border: 1px solid #404040 !important;
+		color: #cacaca !important;
+	}
+	
+	#header .layer_publish .option_tag .area_tag .tag_input {
+		color: #cacaca !important;
+		background: #242424 !important;
+	}
+	
+	#header .layer_publish .option_tag .area_tag .tag {
+		background-color: #2f2f2f !important;
+	}
+	
+	#header .layer_publish .option_tag .area_tag .tag:hover:before {
+		border: 1px solid #404040 !important;
+	}
+	
+	#header .layer_publish .layer_area_btn {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	#header .layer_publish .layer_area_btn [class*=btn_] {
+		border: 1px solid #404040 !important;
+	}
+	
+	#header .layer_publish .layer_area_btn [class*=btn_]:hover .text {
+		color: #242424 !important;
+	}
+	
+	#header .layer_publish .layer_area_btn .btn_confirm:hover .sp_blog_rabbit {
+		filter: invert(86%) hue-rotate(-180deg) !important;
+	}
+	
+	#header .layer_publish .set_detail .layer_tip {
+		background: #242424 !important;
+		border: 1px solid #404040 !important;
+		color: #cacaca !important;
+	}
+	
+	#header .layer_publish .option_publish .btn_publish_fold .sp_blog_rabbit {
+		filter: invert(86%) hue-rotate(-180deg) !important;
+	}
+	
+	#header .layer_publish .selectbox .layer_list_option {
+		border: 1px solid #404040 !important;
+		background-color: #242424 !important;
+	}
+	
+	#header .layer_publish .selectbox .layer_list_option .radio_label .text {
+		color: #fff !important;
+	}
+	
+	#header .layer_publish .selectbox .layer_list_option .radio_label:hover {
+		background-color: #2f2f2f !important;
+	}
+	
+	#header .layer_publish .set_theme_title .title, #header .layer_publish .list_theme .title {
+		color: #fff !important;
+	}
+	
+	#header .layer_publish .layer_area_btn .btn_cancel:hover {
+		background: #242424 !important;
+	}
+	
+	#header .layer_publish .layer_set_link {
+		border: 1px solid #404040 !important;
+		background: #242424 !important;
+	}
+	
+	#header .layer_publish .layer_set_link .radio_label:hover {
+		background-color: #2f2f2f !important;
+	}
+	
+	#header .layer_publish .time .date .input_date {
+		background: #242424 !important;
+		border: 1px solid #404040 !important;
+	}
+	
+	#header .layer_publish .time .hour_option, #header .layer_publish .time .minute_option {
+		background-color: #242424 !important;
+	}
+	
+	#header .layer_publish .time .hour, #header .layer_publish .time .minute {
+		border: 1px solid #404040 !important;
+	}
+	
+	.ui-widget-content {
+		border: 1px solid #404040 !important;
+		background: #242424 !important;
+		color: #cacaca !important;
+	}
+	
+	.ui-widget-header {
+		border-bottom: 1px solid #404040 !important;
+		background: #242424 !important;
+		color: #fff !important;
+	}
+	
+	.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+		border: 1px solid #404040 !important;
+		background: #242424 !important;
+		color: #cacaca !important;
+	}
+	
+	.ui-state-hover .ui-icon, .ui-state-focus .ui-icon, .ui-state-active .ui-icon {
+		border-color: #cacaca !important;
+	}
+	
+	#header .layer_publish .layer_area_btn .btn_cancel:hover .text {
+		color: #cacaca !important;
+	}
+	
+	.pop_layer_wrap.pop_loading .dim {
+		background: #242424 !important;
+	}
+	
+	.se-bootstrap-placeholder {
+		border-top: 1px solid #404040 !important;
+		background-color: #242424 !important;
+	}
+	
+	.pop_layer_wrap.pop_loading .pop_info_text {
+		color: #fff !important;
+	}
+	
+	.wrap_choice_rabbit_editor .dim {
+		background: #242424 !important;
+	}
+	
+	.wrap_choice_rabbit_editor .choice_rabbit_editor {
+		background: #242424 !important;
+		border: 1px solid #404040 !important;
+	}
+	
+	.wrap_choice_rabbit_editor .wrap_text .title, .wrap_choice_rabbit_editor .choice_editor .editor .radio_choice_rabbit:checked+.label .txt, .wrap_choice_rabbit_editor .wrap_editorset .set_item .title, .wrap_choice_rabbit_editor .wrap_editorset .selectbox_button .text {
+		color: #fff !important;
+	}
+	
+	.wrap_choice_rabbit_editor .wrap_btn .btn_check {
+		border: 1px solid #404040 !important;
+	}
+	
+	.wrap_choice_rabbit_editor .wrap_editorset .set_item {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	.wrap_choice_rabbit_editor .wrap_editorset .layer_list_option {
+		border: 1px solid #404040 !important;
+		background: #242424 !important;
+	}
+	
+	.wrap_choice_rabbit_editor .wrap_editorset .layer_list_option .option .radio_label .text {
+		color: #cacaca !important;
+	}
+	
+	.wrap_choice_rabbit_editor .wrap_editorset .layer_list_option .option_lineheight_input {
+		border-top: 1px solid #404040 !important;
+		background: #2f2f2f !important;
+	}
+	
+	.wrap_choice_rabbit_editor .wrap_editorset .layer_list_option .option_lineheight_input .set_lineheight_input {
+		color: #cacaca !important;
+	}
+	
+	.wrap_choice_rabbit_editor .se-color-picker-option {
+		background-color: #242424 !important;
+		border: 1px solid #404040 !important;
+	}
+	
+	.wrap_choice_rabbit_editor .se-color-palette {
+		border: 1px solid #242424 !important;
+		border-width: 1px 0 0 1px !important;
+	}
+	
+	.wrap_choice_rabbit_editor .se-color-picker-more-button {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	.wrap_choice_rabbit_editor .se-color-picker-more-label {
+		color: #cacaca !important;
+	}
+	
+	.wrap_choice_rabbit_editor .se-color-apply-button {
+		border: 1px solid #404040 !important;
+	}
+	
+	.wrap_choice_rabbit_editor .se-color-apply-label {
+		color: #cacaca !important;
+	}
+	
+	.wrap_choice_rabbit_editor .se-color-apply-button:before {
+		border-color: #cacaca !important;
+	}
+	
+	.wrap_choice_rabbit_editor .se-selected-color-hex {
+		border: 1px solid #404040 !important;
+		border-left-width: 0 !important;
+		background: #242424 !important;
+		color: #cacaca !important;
+	}
+	
+	.wrap_choice_rabbit_editor .se-selected-color-palette {
+		border: 1px solid #404040 !important;
+	}
+	
+	.wrap_choice_rabbit_editor .wrap_editorset .list_option .icon_alignright, .wrap_choice_rabbit_editor .wrap_editorset .list_option .icon_alignjustify, .wrap_choice_rabbit_editor .wrap_editorset .list_option .icon_aligncenter, .wrap_choice_rabbit_editor .wrap_editorset .list_option .icon_alignleft {
+		filter: invert(86%) hue-rotate(-180deg) !important;
+	}
+	
+	.se-body .se-popup-special-letter .se-popup-label-select-button .se-popup-select-button-label {
+		color: #fff !important;
+	}
+	
+	.se-body .se-popup-special-letter .se-popup-label-select-button-container {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	.se-body .se-special-letter-content {
+		filter: invert(86%) hue-rotate(-180deg) !important;
+	}
+	
+	.se-body .se-component *[style*='border-bottom'] {
+		border-bottom: 1px solid #404040 !important !important;
+	}
+	
+	.se-body .se-component *[style*='background-color'] {
+		background-color: #242424 !important !important;
+	}
+	
+	.se-body .se-component *[style*='border-top'] {
+		border-top: 1px solid #404040 !important !important;
+	}
+	
+	.se-body .se-component *[style*=' color'], .se-body .se-component *[style*=' !important;color'], .se-body .se-component *[style^='color'] {
+		color: #cacaca !important !important;
+	}
+	
+	.se-body .se-material-detail {
+		color: #cacaca !important;
+	}
+	
+	.se-body .se-cell.se-is-selected {
+		background-color: rgba(0, 204, 39, 0.1) !important;
+	}
+	
+	/* Cafe Smart Editor */
+	
+	.ArticleWrite .WritingTag {
+		background: #242424;
+	}
+	
+	.ArticleWrite .WritingTag .tag_input_box.focus:before {
+		color: #fff;
+	}
+	
+	.CafeEditor .se-body .se-property-toolbar {
+		border-color: #404040;
+		background: #2f2f2f;
+	}
+	
+	.CafeEditor .se-body .se-document-toolbar {
+		background: #2f2f2f;
+	}
+	
+	.CafeEditor .se-body .se-document-toolbar {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.CafeEditor .se-body .se-content-guide {
+		border-width: 0 1px !important;
+	}
+	
+	.CafeEditor .se-body .se-canvas-flexible .se-content-guide {
+		border-width: 0 !important;
+	}
+	
+	.FlexableTextArea .textarea_input {
+		border: 1px solid #404040;
+	}
+	
+	.FormSelectButton .button {
+		border: 1px solid #404040;
+		background: #242424;
+		color: #fff;
+	}
+	
+	.FormSelectButton .button:disabled {
+		background-color: #242424;
+		color: #666;
+	}
+	
+	.FormSelectBox .select_option .option {
+		color: #fff;
+	}
+	
+	.FormSelectBox .select_option .option:hover {
+		background: #2f2f2f;
+	}
+	
+	.FormSelectButton .button .svg-icon {
+		color: #cacaca;
+	}
+	
+	.ArticleWritingTitle .column_category .select_option {
+		background-color: #242424;
+		color: #fff;
+		border: 1px solid #404040;
+	}
+	
+	.ArticleWritingTitle .column_category .option_box .option_none, .ArticleWritingTitle .column_category .select_option .option {
+		color: #fff;
+	}
+	
+	.ArticleWritingTitle .column_category .option_box .option_none:hover, .ArticleWritingTitle .column_category .select_option .option:hover {
+		background: #2f2f2f;
+	}
+	
+	.CafeEditor .se-body .se-popup-cloud-sns .se-popup-cloud-sns-name, .CafeEditor .se-body .se-popup-cloud-sns-button:hover .se-popup-cloud-sns-name, .CafeEditor .se-body .se-panel-header.se-popup-panel-header .se-panel-title {
+		color: #fff;
+	}
+	
+	.CafeEditor .se-body .se-panel-tab:before {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.CafeEditor .se-body .se-panel-tab-next-button:disabled, .CafeEditor .se-body .se-panel-tab-prev-button:disabled {
+		border-color: #404040;
+		border-bottom-color: #404040;
+		background-color: #242424;
+	}
+	
+	.CafeEditor .se-body .se-popup-sticker .se-panel-tab-next-button, .CafeEditor .se-body .se-popup-sticker .se-panel-tab-prev-button {
+		border-color: #404040;
+	}
+	
+	.CafeEditor .se-body .se-panel-header.se-popup-panel-header {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.CafeEditor .se-body .se-popup-sticker .se-panel-tab-next-button:before, .CafeEditor .se-body .se-popup-sticker .se-panel-tab-prev-button:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.CafeEditor .se-body .se-panel-tab-sticker .se-tab-button {
+		background-color: #242424;
+	}
+	
+	.CafeEditor .se-body .se-panel-tab-sticker .se-tab-button:hover {
+		border-color: #4f4f4f;
+	}
+	
+	.CafeEditor .se-body .se-panel-tab-next-button, .CafeEditor .se-body .se-panel-tab-prev-button {
+		border: none;
+		background-color: #242424;
+	}
+	
+	.CafeEditor .se-body .se-document-toolbar-icon-select-button.se-text-icon-toolbar-button:hover {
+		border-color: #404040;
 		box-shadow: inset 0 0 0 1px #404040;
 		-webkit-box-shadow: inset 0 0 0 1px #404040;
 	}
 	
-	.se-body .se-document-toolbar .se-icon-select-button:hover {
-		border-color: #404040;
+	.CafeEditor .se-body .se-document-toolbar-text-icon-container:before, .CafeEditor .se-body .se-document-toolbar-select-option-button:hover, .CafeEditor .se-body .se-document-toolbar-select-option-button:hover {
+		box-shadow: inset 0 0 0 1px #404040;
+		-webkit-box-shadow: inset 0 0 0 1px #404040;
 	}
 	
-	.se-body .se-document-toolbar .se-icon-select-button-container.se-is-activated .se-select-option-button {
+	.CafeEditor .se-body .se-document-toolbar-select-option-button.se-is-activated {
 		background-color: #2f2f2f;
 	}
 	
-	.se-body .se-toolbar-select-option {
-		border: 1px solid #404040;
+	.CafeEditor .se-body .se-toolbar-option {
 		background-color: #242424;
+		border: 1px solid #404040;
 	}
 	
-	.se-body .se-document-toolbar .se-icon-select-button-container .se-toolbar-select-option-item:not(:first-child) {
+	.CafeEditor .se-body .se-toolbar-option-insert-quotation .se-toolbar-option-icon-button:hover {
+		background-color: #2f2f2f;
+	}
+	
+	.CafeEditor .se-body .se-toolbar-option-insert-quotation .se-toolbar-option-icon-button:not(:first-child) {
 		border-top: 1px solid #404040;
 	}
 	
-	.se-body .se-document-toolbar .se-icon-select-button-container .se-toolbar-select-option-item:focus, .se-body .se-document-toolbar .se-icon-select-button-container .se-toolbar-select-option-item:hover {
+	.CafeEditor .se-body .se-toolbar-option-insert-horizontal-line .se-toolbar-option-icon-button:not(:first-child) {
+		border-top: 1px solid #404040;
+	}
+	
+	.CafeEditor .se-body .se-toolbar-option-insert-horizontal-line .se-toolbar-option-icon-button:hover {
 		background-color: #2f2f2f;
 	}
 	
-	.se-body .se-document-toolbar .se-toolbar-select-option-item:before {
+	.CafeEditor .se-body .se-bold-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-code-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-color-picker-apply-button:before, .CafeEditor .se-body .se-color-picker-more-button:after, .CafeEditor .se-body .se-color-picker.se-is-activated~.se-color-picker-more-button:after, .CafeEditor .se-body .se-contents-toolbar-cycle-toggle-button.se-align-center-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-contents-toolbar-cycle-toggle-button.se-align-justify-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-contents-toolbar-cycle-toggle-button.se-align-left-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-contents-toolbar-cycle-toggle-button.se-align-right-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-contents-toolbar-label-select-button:after, .CafeEditor .se-body .se-context-toolbar-cycle-toggle-button.se-align-center-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-context-toolbar-cycle-toggle-button.se-align-justify-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-context-toolbar-cycle-toggle-button.se-align-left-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-context-toolbar-cycle-toggle-button.se-align-right-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-context-toolbar-group-toggle-button.se-align-center-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-context-toolbar-group-toggle-button.se-align-justify-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-context-toolbar-group-toggle-button.se-align-left-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-context-toolbar-group-toggle-button.se-align-right-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-custom-layer-link-apply-button:before, .CafeEditor .se-body .se-custom-layer-link-apply-button:hover:before, .CafeEditor .se-body .se-custom-layer-link-apply-buttonse-is-activated:before, .CafeEditor .se-body .se-delete-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-document-toolbar-select-option-button:after, .CafeEditor .se-body .se-file-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-formula-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-horizontal-line-default-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-image-edit-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-image-group-collage-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-image-group-edit-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-image-group-slide-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-image-replacement-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-image-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-insert-horizontal-line-default-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-insert-quotation-default-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-italic-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-line-height-option-value-apply-button:before, .CafeEditor .se-body .se-line-height-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-link-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-map-default-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-map-edit-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-map-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-module-image .se-image-delete-button:before, .CafeEditor .se-body .se-object-arrangement-fit-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-oglink-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-popup-cloud-sns .se-popup-close-button:before, .CafeEditor .se-body .se-popup-file .se-popup-close-button:before, .CafeEditor .se-body .se-popup-oglink .se-popup-oglink-button:before, .CafeEditor .se-body .se-popup-oglink .se-popup-oglink-button:focus:before, .CafeEditor .se-body .se-popup-oglink .se-popup-oglink-button:hover:before, .CafeEditor .se-body .se-popup-outside .nvu_btn_close:before, .CafeEditor .se-body .se-popup-outside .nvu_btn_close_layer:before, .CafeEditor .se-body .se-popup-outside .se-popup-close-button:before, .CafeEditor .se-body .se-popup-placesMap .se-place-map-search-info-description.se-place-map-search-info-description-before-search:before, .CafeEditor .se-body .se-popup-placesMap .se-place-search-button:before, .CafeEditor .se-body .se-popup-placesMap .se-place-search-pagination .se-place-search-pagination-button-next:before, .CafeEditor .se-body .se-popup-placesMap .se-place-search-pagination .se-place-search-pagination-button-prev:before, .CafeEditor .se-body .se-popup-placesMap .se-popup-button-drop-pin .se-popup-button-text:before, .CafeEditor .se-body .se-popup-radio:checked~.se-popup-select-option-label:after, .CafeEditor .se-body .se-popup-search .se-panel-search-button:before, .CafeEditor .se-body .se-popup-search .se-panel-search-button:focus:before, .CafeEditor .se-body .se-popup-search .se-panel-search-button:hover:before, .CafeEditor .se-body .se-popup-special-letter .se-popup-close-button:before, .CafeEditor .se-body .se-popup-special-letter .se-popup-label-select-button-container.se-is-activated .se-popup-label-select-button:after, .CafeEditor .se-body .se-popup-special-letter .se-popup-label-select-button:after, .CafeEditor .se-body .se-popup-sticker .se-panel-tab-next-button:before, .CafeEditor .se-body .se-popup-sticker .se-panel-tab-prev-button:before, .CafeEditor .se-body .se-popup-sticker .se-panel-tab-sticker .se-tab-button.se-tab-button-market:before, .CafeEditor .se-body .se-popup-sticker .se-panel-tab-sticker .se-tab-button.se-tab-button-setting:before, .CafeEditor .se-body .se-popup-sticker .se-refresh-alert-close-button:before, .CafeEditor .se-body .se-popup-sticker .se-tab-button.se-tab-button-history:before, .CafeEditor .se-body .se-property-toolbar-drop-down-button.se-align-center-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-property-toolbar-drop-down-button.se-align-justify-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-property-toolbar-drop-down-button.se-align-left-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-property-toolbar-drop-down-button.se-align-right-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-property-toolbar-group-toggle-button.se-align-center-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-property-toolbar-group-toggle-button.se-align-justify-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-property-toolbar-group-toggle-button.se-align-left-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-property-toolbar-group-toggle-button.se-align-right-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-property-toolbar-label-select-button:after, .CafeEditor .se-body .se-quotation-default-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-resizing-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-schedule-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-search-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-section-imageGroup .se-imageGroup-navigation-button.se-imageGroup-navigation-button-next:before, .CafeEditor .se-body .se-section-imageGroup .se-imageGroup-navigation-button.se-imageGroup-navigation-button-prev:before, .CafeEditor .se-body .se-section-placesMap.se-section.se-l-map_text .se-map-marker:before, .CafeEditor .se-body .se-section-video .se-video-play-info:before, .CafeEditor .se-body .se-sidebar-no-result:before, .CafeEditor .se-body .se-social-media-image-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-special-letter-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-sticker-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-strikethrough-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-table-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-text-arrangement-inner-big-left-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-text-arrangement-inner-big-right-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-text-arrangement-inner-left-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-text-arrangement-inner-right-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-to-quotation-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-to-text-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-toolbar-icon-background-color, .CafeEditor .se-body .se-toolbar-icon-font-color, .CafeEditor .se-body .se-toolbar-option-align-center-button:before, .CafeEditor .se-body .se-toolbar-option-align-justify-button:before, .CafeEditor .se-body .se-toolbar-option-align-left-button:before, .CafeEditor .se-body .se-toolbar-option-align-right-button:before, .CafeEditor .se-body .se-toolbar-option-text-arrangement-inner-big-left-button:before, .CafeEditor .se-body .se-toolbar-option-text-arrangement-inner-big-right-button:before, .CafeEditor .se-body .se-toolbar-option-text-arrangement-inner-left-button:before, .CafeEditor .se-body .se-toolbar-option-text-arrangement-inner-right-button:before, .CafeEditor .se-body .se-toolbar-option-text-button.se-is-selected:after, .CafeEditor .se-body .se-underline-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-video-meta-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-video-toolbar-button .se-toolbar-icon, .CafeEditor .se-body .se-cafe-schedule-toolbar-button .se-toolbar-custom-icon, .CafeEditor .se-body .se-cafe-vote-toolbar-button .se-toolbar-custom-icon, .se-body .se-audio-info:before, .se-body .se-cell-context-menu-button.se-context-menu-button-column-split:before, .se-body .se-cell-context-menu-button.se-context-menu-button-delete:before, .se-body .se-cell-context-menu-button.se-context-menu-button-equal-width:before, .se-body .se-cell-context-menu-button.se-context-menu-button-merge:before, .se-body .se-cell-context-menu-button.se-context-menu-button-row-split:before, .se-body .se-code-code_black-toolbar-button .se-toolbar-icon, .se-body .se-code-code_stripe-toolbar-button .se-toolbar-icon, .se-body .se-code-default-toolbar-button .se-toolbar-icon, .se-body .se-color-picker-apply-button:before, .se-body .se-context-menu .se-context-menu-button.se-context-menu-button-copy:before, .se-body .se-context-menu .se-context-menu-button.se-context-menu-button-cut:before, .se-body .se-context-menu .se-context-menu-button.se-context-menu-button-delete:before, .se-body .se-context-menu .se-context-menu-button.se-context-menu-button-paste:before, .se-body .se-context-menu .se-context-menu-button.se-context-menu-button-save-as:before, .se-body .se-context-toolbar-group-toggle-button.se-align-center-toolbar-button .se-toolbar-icon, .se-body .se-context-toolbar-group-toggle-button.se-align-justify-toolbar-button .se-toolbar-icon, .se-body .se-context-toolbar-group-toggle-button.se-align-left-toolbar-button .se-toolbar-icon, .se-body .se-context-toolbar-group-toggle-button.se-align-right-toolbar-button .se-toolbar-icon, .se-body .se-cover-button-local-image-upload, .se-body .se-cover-button-sns-image-upload, .se-body .se-cover-button.se-cover-button-del-image:before, .se-body .se-cover-button.se-cover-button-set-position:before, .se-body .se-custom-layer-resizing-input-group:after, .se-body .se-custom-layer-resizing-reset-button:before, .se-body .se-dragging-ghost-iframe:before, .se-body .se-dragging-ghost-multiple:before, .se-body .se-dragging-ghost-text .se-text-ghost-complex, .se-body .se-file-download-option-button:before, .se-body .se-file-icon, .se-body .se-file-status-icon, .se-body .se-filed-download-list .se-file-download-button-cloud:before, .se-body .se-filed-download-list .se-file-download-button-local:before, .se-body .se-horizontal-line-default-toolbar-button .se-toolbar-icon, .se-body .se-horizontal-line-line1-toolbar-button .se-toolbar-icon, .se-body .se-horizontal-line-line2-toolbar-button .se-toolbar-icon, .se-body .se-horizontal-line-line3-toolbar-button .se-toolbar-icon, .se-body .se-horizontal-line-line4-toolbar-button .se-toolbar-icon, .se-body .se-horizontal-line-line5-toolbar-button .se-toolbar-icon, .se-body .se-horizontal-line-line6-toolbar-button .se-toolbar-icon, .se-body .se-horizontal-line-line7-toolbar-button .se-toolbar-icon, .se-body .se-image-detail-attached-button:before, .se-body .se-image-detail-pay-button:before, .se-body .se-image-detail-purchased-button:before, .se-body .se-image-detail-reference-link, .se-body .se-image-group-collage-toolbar-button .se-toolbar-icon, .se-body .se-image-group-slide-toolbar-button .se-toolbar-icon, .se-body .se-image-link-icon:after, .se-body .se-image-tag-area:before, .se-body .se-image-tag-detail-icon, .se-body .se-image-type-option-collage .se-image-type-label:before, .se-body .se-image-type-option-list .se-image-type-label:before, .se-body .se-image-type-option-slide .se-image-type-label:before, .se-body .se-imageGroup-navigation-button.se-imageGroup-navigation-button-next, .se-body .se-imageGroup-navigation-button.se-imageGroup-navigation-button-prev, .se-body .se-insert-menu-button.se-insert-menu-button-image:before, .se-body .se-insert-menu-button.se-insert-menu-button-quotation:before, .se-body .se-insert-menu-button.se-insert-menu-button-sticker:before, .se-body .se-l-anniversary_autumn .se-anniversary-date-info:after, .se-body .se-l-anniversary_spring .se-anniversary-date-info:after, .se-body .se-l-anniversary_summer .se-anniversary-date-info:after, .se-body .se-l-anniversary_winter .se-anniversary-date-info:after, .se-body .se-map-default-toolbar-button .se-toolbar-icon, .se-body .se-map-map_text-toolbar-button .se-toolbar-icon, .se-body .se-material-npay, .se-body .se-module-image .se-image-delete-button:before, .se-body .se-module-video .se-360vr-icon, .se-body .se-module-video.se-module-video-deleted .se-video-state-info:before, .se-body .se-module-video.se-module-video-no-thumbnail .se-video-state-info:after, .se-body .se-module-video.se-module-video-no-thumbnail .se-video-state-info:before, .se-body .se-object-arrangement-extend-toolbar-button .se-toolbar-icon, .se-body .se-object-arrangement-fit-toolbar-button .se-toolbar-icon, .se-body .se-object-arrangement-normal-toolbar-button .se-toolbar-icon, .se-body .se-object-arrangement-pagefull-toolbar-button .se-toolbar-icon, .se-body .se-oglink-thumbnail-moment-icon, .se-body .se-oglink-thumbnail-video-icon, .se-body .se-panel-more-retry-text:before, .se-body .se-panel-tab-sticker .se-tab-button.se-tab-button-gif.se-is-selected:before, .se-body .se-panel-tab-sticker .se-tab-button.se-tab-button-gif:active:before, .se-body .se-panel-tab-sticker .se-tab-button.se-tab-button-gif:before, .se-body .se-panel-tab-sticker .se-tab-button.se-tab-button-history:before, .se-body .se-panel-tab-sticker .se-tab-button.se-tab-button-market:before, .se-body .se-panel-tab-sticker .se-tab-button.se-tab-button-setting:before, .se-body .se-popup-close-button:before, .se-body .se-popup-cloud-sns-button.se-popup-cloud-sns-button-cloud:before, .se-body .se-popup-cloud-sns-button.se-popup-cloud-sns-button-facebook:before, .se-body .se-popup-cloud-sns-button.se-popup-cloud-sns-button-instagram:before, .se-body .se-popup-cloud-sns-button.se-popup-cloud-sns-button-pholar:before, .se-body .se-popup-file-source-button.se-popup-file-source-button-cloud:before, .se-body .se-popup-file-source-button.se-popup-file-source-button-local:before, .se-body .se-popup-image-group-order .se-popup-imageGroup-button-delete-image:before, .se-body .se-popup-image-group-order .se-popup-imageGroup-button-edit-image:before, .se-body .se-popup-image-group-order .se-popup-imageGroup-button-replace-image:before, .se-body .se-popup-image-group-order .se-popup-imageGroup-edit-button-group .se-popup-edit-button-imageGroup-collage .se-popup-edit-button-icon:before, .se-body .se-popup-image-group-order .se-popup-imageGroup-edit-button-group .se-popup-edit-button-imageGroup-individual .se-popup-edit-button-icon:before, .se-body .se-popup-image-group-order .se-popup-imageGroup-edit-button-group .se-popup-edit-button-imageGroup-slide .se-popup-edit-button-icon:before, .se-body .se-popup-oglink-button:before, .se-body .se-popup-placesMap .se-place-add-button:before, .se-body .se-popup-placesMap .se-place-attached-delete-button:before, .se-body .se-popup-placesMap .se-place-attached-item:before, .se-body .se-popup-placesMap .se-place-map-search-info-description.se-place-map-search-info-description-before-search:before, .se-body .se-popup-placesMap .se-place-point-marker.se-place-point-marker-pin-1:before, .se-body .se-popup-placesMap .se-place-point-marker.se-place-point-marker-pin-2:before, .se-body .se-popup-placesMap .se-place-point-marker.se-place-point-marker-pin-3:before, .se-body .se-popup-placesMap .se-place-point-marker.se-place-point-marker-pin-4:before, .se-body .se-popup-placesMap .se-place-point-marker.se-place-point-marker-pin-5:before, .se-body .se-popup-placesMap .se-place-point-marker.se-place-point-marker-pin-single:before, .se-body .se-popup-placesMap .se-place-point-marker:before, .se-body .se-popup-placesMap .se-place-search-button:before, .se-body .se-popup-placesMap .se-place-search-clear-button:before, .se-body .se-popup-placesMap .se-popup-button-drop-pin .se-popup-button-text:before, .se-body .se-popup-placesMap .se-popup-toast-placesMap:before, .se-body .se-popup-search .se-panel-search-button:before, .se-body .se-popup-talktalk .se-talktalk-defalut-text:before, .se-body .se-popup-talktalk .se-talktalk-defalut:after, .se-body .se-popup-talktalk .se-talktalk-defalut:before, .se-body .se-property-toolbar-group-toggle-button.se-align-center-toolbar-button .se-toolbar-icon, .se-body .se-property-toolbar-group-toggle-button.se-align-justify-toolbar-button .se-toolbar-icon, .se-body .se-property-toolbar-group-toggle-button.se-align-left-toolbar-button .se-toolbar-icon, .se-body .se-property-toolbar-group-toggle-button.se-align-right-toolbar-button .se-toolbar-icon, .se-body .se-quotation-default-toolbar-button .se-toolbar-icon, .se-body .se-quotation-quotation_bubble-toolbar-button .se-toolbar-icon, .se-body .se-quotation-quotation_corner-toolbar-button .se-toolbar-icon, .se-body .se-quotation-quotation_line-toolbar-button .se-toolbar-icon, .se-body .se-quotation-quotation_postit-toolbar-button .se-toolbar-icon, .se-body .se-quotation-quotation_underline-toolbar-button .se-toolbar-icon, .se-body .se-regular-schedule-tooltip, .se-body .se-resize-px-info-multiply, .se-body .se-schedule-detail-description .se-schedule-info:before, .se-body .se-schedule-detail-location .se-schedule-info:before, .se-body .se-schedule-detail-url .se-schedule-info:before, .se-body .se-schedule-info-map-delete-button:before, .se-body .se-section-horizontalLine.se-l-line3 .se-hr, .se-body .se-section-horizontalLine.se-l-line4 .se-hr, .se-body .se-section-horizontalLine.se-l-line5 .se-hr, .se-body .se-section-horizontalLine.se-l-line6 .se-hr, .se-body .se-section-image .se-360vr-icon:after, .se-body .se-section-image .se-360vr-icon:before, .se-body .se-section-image .se-360vr-toggle-container:before, .se-body .se-section-image .se-360vr-toggle-label, .se-body .se-section-oglink.se-l-shopping_affiliate_image.se-l-shopping_affiliate_text .se-oglink-npay, .se-body .se-section-oglink.se-l-shopping_affiliate_image .se-oglink-npay, .se-body .se-section-placesMap.se-l-map_text .se-map-marker:before, .se-body .se-section-placesMap.se-section-placesMap-multiple .se-module-map-text:before, .se-body .se-section-quotation.se-l-default .se-quotation-container:after, .se-body .se-section-quotation.se-l-default .se-quotation-container:before, .se-body .se-section-quotation.se-l-quotation_bubble .se-quotation-container:after, .se-body .se-section-quotation.se-l-quotation_postit .se-quotation-container:before, .se-body .se-section-quotation.se-l-quotation_underline .se-quotation-container:before, .se-body .se-set-schedule-icon, .se-body .se-sidebar-container-search .se-panel-search-button:before, .se-body .se-sidebar-element-delete-button:before, .se-body .se-sidebar-element-library.se-sidebar-element-library-audio:after, .se-body .se-sidebar-element-library.se-sidebar-element-library-map:after, .se-body .se-sidebar-element-library.se-sidebar-element-library-video:after, .se-body .se-sidebar-material-npay, .se-body .se-sidebar-material-reference-link:before, .se-body .se-sidebar-photo-reference-link, .se-body .se-sidebar .se-sidebar-close-button:before, .se-body .se-spellcheck-recheck-button:before, .se-body .se-table-align-center-toolbar-button .se-toolbar-icon, .se-body .se-table-align-left-toolbar-button .se-toolbar-icon, .se-body .se-table-align-right-toolbar-button .se-toolbar-icon, .se-body .se-tag-element-button.se-tag-element-delete-button:before, .se-body .se-tag-element-button.se-tag-element-edit-button:before, .se-body .se-tag-element-button.se-tag-element-link-button:before, .se-body .se-tag-element-npay, .se-body .se-tag-point:before, .se-body .se-tag-search-button:before, .se-body .se-talktalk.se-l-default .se-module-talktalk:after, .se-body .se-talktalk.se-l-default .se-module-talktalk:before, .se-body .se-talktalk .se-talktalk-banner-text:before, .se-body .se-template-delete-button:before, .se-body .se-text-arrangement-inner-big-left-toolbar-button .se-toolbar-icon, .se-body .se-text-arrangement-inner-big-right-toolbar-button .se-toolbar-icon, .se-body .se-text-arrangement-inner-left-toolbar-button .se-toolbar-icon, .se-body .se-text-arrangement-inner-right-toolbar-button .se-toolbar-icon, .se-body .se-toolbar-icon-background-color, .se-body .se-toolbar-icon-font-color, .se-body .se-util-button.se-util-button-device-desktop:before, .se-body .se-util-button.se-util-button-device-mobile:before, .se-body .se-util-button.se-util-button-device-tablet:before, .se-body .se-util-button.se-util-button-guide:before, .se-body .se-video-info-toggle-button:before, .se-body .se-video-play-info:before, .CafeEditor .se-body .se-toolbar-option-icon-button:before {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
-	.se-body .se-document-toolbar .se-select-option-button:active {
-		background-color: #3a3a3a;
+	.se-body .se-font-color-indicator {
+		background-color: #cacaca !important;
 	}
 	
-	.se-body .se-property-toolbar {
-		background-color: #242424;
-		border-top: 1px solid #404040;
-	}
-	
-	.se-body .se-property-toolbar .se-toolbar-label {
+	.CafeEditor .se-body .se-popup-file .se-popup-file-info-text {
 		color: #cacaca;
 	}
 	
-	.se-body .se-property-toolbar .se-label-select-button:hover .se-toolbar-label {
-		color: #fff;
-	}
-	
-	.se-body .se-property-toolbar .se-toolbar-select-option-item {
-		color: #cacaca;
-	}
-	
-	.se-body .se-property-toolbar .se-toolbar-item-separator-bar .se-toolbar-icon:before {
-		background-color: #404040;
-	}
-	
-	#font-color g path[fill='#000'] {
-		fill: #fff;
-	}
-	
-	#font-color g path[fill='#fff'] {
-		fill: #000;
-	}
-	
-	#background-color rect[fill='#fff'] {
-		fill: #000;
-	}
-	
-	#background-color rect[fill='#000'] {
-		fill: #fff;
-	}
-	
-	.se-body .se-property-toolbar .se-drop-down-button-container, .se-body .se-property-toolbar .se-custom-layer-button-container {
-		background-color: #3a3a3a;
-	}
-	
-	.se-body .se-spellcheck-article {
-		color: #cacaca;
+	.CafeEditor .se-body .se-popup-placesMap .se-place-search-keyword:before {
 		background-color: #242424;
 	}
 	
-	.se-body .se-spellcheck-article-header {
-		-webkit-box-shadow: 0 1px 7px 0 #000;;
-		box-shadow: 0 1px 7px 0 #000;
+	.CafeEditor .se-body .se-popup-label-select-button:after {
+		border-color: #cacaca;
 	}
 	
-	.se-body .se-spellcheck-recheck-button {
-		color: #cacaca;
+	.CafeEditor .se-body .se-popup-placesMap .se-popup-label-select-button:after {
+		border-color: #cacaca;
 	}
 	
-	.se-body .se-spellcheck-article-header-button {
-		border: 1px solid #404040;
-		color: #cacaca;
-	}
-	
-	.se-body .se-spellcheck-article-header-button.se-spellcheck-button-completion:hover {
-		color: #242424;
-	}
-	
-	.se-body .se-spellcheck-article-header-button.se-spellcheck-button-completion:hover:before {
-		-webkit-box-shadow: inset 1px -1px 0 0 #242424;
-		box-shadow: inset 1px -1px 0 0 #242424;
-	}
-	
-	.se-body .se-spellcheck-text-test-result {
-		color: #cacaca;
-	}
-	
-	.se-body .se-spellcheck-detail {
-		border: 1px solid #404040;
-		background-color: #242424;
-	}
-	
-	.se-body .se-spellcheck-detail-header {
+	.CafeEditor .se-body .se-popup-search .se-panel-search-input-area {
 		border-bottom: 1px solid #404040;
 	}
 	
-	.se-body .se-spellcheck-detail-info {
-		color: #cacaca;
+	.CafeEditor .se-body .se-popup-search .se-panel-search-input-area {
+		border-bottom-color: #404040;
 	}
 	
-	.se-body .se-spellcheck-detail-footer {
-		border-top: 1px solid #404040;
-	}
-	
-	.se-body .se-spellcheck-detail-button {
-		background-color: #242424;
-		border: 1px solid #404040;
-	}
-	
-	.se-body .se-spellcheck-detail-button-label {
-		color: #cacaca;
-	}
-	
-	.se-body .se-spellcheck-detail-button.se-spellcheck-detail-button-apply .se-spellcheck-detail-button-label {
-		color: #242424;
-	}
-	
-	.se-body .se-spellcheck-detail-controls-button {
-		border: 1px solid #404040;
-	}
-	
-	.se-body .se-documentTitle .se-component-content:after {
-		background-color: #404040;
-	}
-	
-	.se-body .se-grammar.se-grammar-error.se-is-selected, .se-body .se-grammar.se-grammar-error:hover {
-		color: #242424 !important;
-	}
-	
-	.se-body .se-container:before, .se-body .se-content {
-		background: #242424;
-	}
-	
-	.se-body .se-content-guide {
-		background-color: #242424;
-		border: solid #404040;
-	}
-	
-	.se-body .se-selection .se-caret rect {
-		fill: #fff;
-	}
-	
-	.se-body .se-property-toolbar .se-color-picker-option {
-		background-color: #242424;
-		border: 1px solid #404040;
-	}
-	
-	.se-body .se-property-toolbar .se-color-picker-more-button {
-		border-top: 1px solid #404040;
-	}
-	
-	.se-body .se-property-toolbar .se-color-picker-more-label {
-		color: #cacaca;
-	}
-	
-	.se-body .se-property-toolbar .se-color-apply-button {
-		border: 1px solid #404040;
-	}
-	
-	.se-body .se-property-toolbar .se-selected-color-hex {
-		border: 1px solid #404040;
-		border-left-width: 0;
-		background: #242424;
-		color: #cacaca;
-	}
-	
-	.se-body .se-property-toolbar .se-selected-color-palette {
-		border: 1px solid #404040;
-	}
-	
-	.se-body .se-property-toolbar .se-color-apply-label {
-		color: #cacaca;
-	}
-	
-	.se-body .se-property-toolbar .se-toolbar-drop-down-option {
-		background: #242424;
-		border: 1px solid #404040;
-	}
-	
-	.se-body .se-property-toolbar .se-drop-down-option-line-height .se-toolbar-drop-down-option-label-text {
-		color: #cacaca;
-	}
-	
-	.se-body .se-property-toolbar .se-toolbar-drop-down-option .se-toolbar-option-value {
-		border-top: 1px solid #404040;
-		background-color: #242424;
-	}
-	
-	.se-body .se-property-toolbar .se-toolbar-drop-down-option .se-toolbar-option-value-input {
-		color: #cacaca;
-	}
-	
-	.se-body .se-property-toolbar .se-toolbar-custom-layer-option {
-		background-color: #242424;
-		border: 1px solid #404040;
-	}
-	
-	.se-body .se-property-toolbar .se-toolbar-link-input {
-		background: #242424;
-		color: #cacaca;
-	}
-	
-	.se-body .se-help-panel {
-		border: 1px solid #404040;
-		background-color: #242424;
-	}
-	
-	.se-body .se-help-panel .se-help-header.se-help-header-dark .se-help-title {
+	.CafeEditor .se-body .se-popup-search .se-tab-button.se-is-selected .se-tab-button-title {
 		color: #fff;
 	}
 	
-	.se-body .se-help-panel .se-help-section .se-help-nav-item {
-		border-top: 1px solid #404040;
-		color: #cacaca;
-	}
-	
-	.se-body .se-help-panel .se-help-section .se-help-section-header {
-		color: #fff;
-	}
-	
-	.se-body .se-help-panel .se-help-carousel-container {
-		background-color: #2f2f2f;
-	}
-	
-	.se-body .se-help-panel .se-help-carousel-container .se-help-carousel-content .se-help-carousel-info-title {
-		color: #fff;
-	}
-	
-	.se-body .se-help-layer {
-		background: #242424;
-	}
-	
-	.se-body .se-help-layer .se-help-layer-header .se-help-layer-title {
-		color: #fff;
-	}
-	
-	.se-body .se-help-layer .se-help-layer-header {
-		border-bottom: 1px solid #404040;
-	}
-	
-	.se-body .se-help-layer .se-help-layer-section {
-		color: #cacaca;
-	}
-	
-	.se-body .se-help-layer .se-help-layer-section+.se-help-layer-section {
-		border-top: 1px solid #404040;
-	}
-	
-	.se-body .se-help-layer .se-help-layer-section .se-help-layer-section-ordered-list, .se-body .se-help-layer .se-help-layer-section .se-help-layer-section-quote {
-		border-left: 3px solid #404040;
-	}
-	
-	.nvu_wrap.nvu_mode_layer {
-		color: #fff;
-	}
-	
-	.nvu_wrap .nvu_header {
-		border-bottom: 1px solid #404040;
-		background-color: #242424;
-	}
-	
-	.nvu_section_append .nvu_header .nvu_tab[aria-selected=true] {
-		color: #fff;
-	}
-	
-	.nvu_section_append .nvu_form {
-		background-color: #242424;
-	}
-	
-	.nvu_section_append .nvu_header .nvu_tab[aria-selected=true]:after {
+	.CafeEditor .se-body .se-panel-tab .se-tab-button.se-is-selected:after {
 		background-color: #fff;
 	}
 	
-	.nvu_section_append .nvu_area_text .nvu_important {
-		color: #fff;
+	.CafeEditor .se-body .se-popup-search .se-panel-tab-list .se-tab-button-title, .CafeEditor .se-body .se-popup-search .se-panel-content-title {
+		color: #cacaca;
 	}
 	
-	.nvu_wrap .nvu_footer {
-		background-color: #2f2f2f;
-		border-top: 1px solid #404040;
+	.CafeEditor .se-body .se-sidebar-material-detail {
+		color: #cacaca;
 	}
 	
-	.nvu_section_append .nvu_area_button .nvu_btn_append {
+	.CafeEditor .se-body .se-cell.se-is-selected {
+		background-color: rgba(0, 204, 39, 0.1) !important;
+	}
+	
+	.CafeEditor .se-body .se-toolbar-option-text-button {
+		color: #cacaca;
+	}
+	
+	.CafeEditor .se-body .se-custom-layer-option {
 		border: 1px solid #404040;
 		background-color: #242424;
 	}
 	
-	.nvu_section_append .nvu_area_button .nvu_local:hover {
-		background-color: #019341;
-		color: #242424;
-	}
-	
-	.nvu_section_append .nvu_area_button .nvu_local:hover:before, .nvu_section_append .nvu_area_button .nvu_cloud:before {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.nvu_section_append .nvu_area_button .nvu_cloud {
+	.CafeEditor .se-body .se-custom-layer-link-input {
 		color: #cacaca;
 	}
 	
-	.nvu_section_upload .nvu_header .nvu_btn_append {
-		color: #cacaca;
+	.CafeEditor .se-body .se-line-height-option-value-container {
+		border-top: 1px solid #404040;
+		background-color: #2f2f2f;
 	}
 	
-	.nvu_section_upload .nvu_header .nvu_btn_local:before, .nvu_section_upload .nvu_header .nvu_btn_cloud:before {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.nvu_section_upload .nvu_form {
-		background-color: #242424;
-	}
-	
-	.nvu_section_upload .nvu_upload_select {
+	.CafeEditor.scroll_fixed .se-body .se-header {
+		border-left: 1px solid #404040;
 		border-right: 1px solid #404040;
 	}
 	
-	.nvu_section_upload .nvu_upload_select .nvu_link_select[aria-selected=true] {
-		background-color: #2f2f2f !important;
+	.CafeEditor .se-body .se-property-toolbar {
+		border-top: none !important;
 	}
 	
-	.nvu_section_upload .nvu_upload_select .nvu_item:not(.nvu_is_dragged):not(.nvu_is_dimmed):hover .nvu_link_select {
-		background-color: #3a3a3a;
-	}
-	
-	.nvu_section_upload .nvu_upload_select .nvu_name {
-		color: #fff;
-	}
-	
-	.nvu_section_upload .nvu_upload_select .nvu_btn_delete:before {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.nvu_section_upload .nvu_area_data {
-		border-top: 1px solid #404040;
-	}
-	
-	.nvu_section_upload .nvu_area_data .nvu_inp {
-		border: 1px solid #404040;
-		color: #cacaca;
-	}
-	
-	.nvu_section_upload .nvu_area_data .nvu_btn_add_tag {
-		background-color: #242424;
-		border: 1px solid #404040;
-	}
-	
-	.nvu_wrap .nvu_btn_type2 {
-		background-color: #242424;
-	}
-	
-	.nvu_wrap .nvu_btn_type2:hover {
-		border-color: #019341;
-		background-color: #019341;
-		color: #242424;
-	}
-	
-	.nvu_wrap .nvu_btn_type1, .nvu_wrap .nvu_btn_type2, .nvu_wrap .nvu_btn_type3, .nvu_wrap .nvu_btn_type4 {
-		border: 1px solid #404040;
-	}
-	
-	.nvu_wrap .nvu_btn_type2:not(.nvu_not_icon):hover:before {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.nvu_section_upload .nvu_rep_candidate .nvu_rep_link {
-		background-color: #404040;
-	}
-	
-	.nvu_section_upload .nvu_area_data .nvu_tag {
-		border: 1px solid #404040;
-		background-color: #2f2f2f;
-		color: #cacaca;
-	}
-	
-	.se-body .se-popup.se-popup-video-upload .nvu_tag_inp {
-		color: #cacaca;
-	}
-	
-	.se-body .se-video-title {
-		color: #fff;
-	}
-	
-	.se-body .se-canvas .se-module-video:before {
-		border: 1px solid #404040;
-	}
-	
-	.se-body .se-canvas .se-module-video:hover:before {
-		border-color: #4f4f4f;
-	}
-	
-	.se-body .se-canvas .se-video .se-section-video .se-module-video:before {
-		border: 1px solid #404040;
-	}
-	
-	.se-body .se-canvas .se-video .se-section-video .se-module-video:hover:before {
-		border-color: #4f4f4f;
-	}
-	
-	.se-body .se-module-video {
-		border: 1px solid #404040;
-		border-top: 0;
-	}
-	
-	.nvu_section_update_meta .nvu_heading {
-		color: #fff;
-	}
-	
-	.nvu_section_update_meta .nvu_inp_box .nvu_inp {
-		border: 1px solid #404040;
-		color: #cacaca;
-	}
-	
-	.nvu_section_update_meta .nvu_inp_box.nvu_tag_box .nvu_tag {
-		border: 1px solid #404040;
-		background-color: #2f2f2f;
-		color: #cacaca;
-	}
-	
-	.nvu_section_update_meta .nvu_inp_box.nvu_tag_box .nvu_btn_add_tag {
-		background-color: #242424;
-		border: 1px solid #404040;
-	}
-	
-	.nvu_wrap .nvu_btn_type1, .nvu_wrap .nvu_btn_type2, .nvu_wrap .nvu_btn_type3, .nvu_wrap .nvu_btn_type4 {
-		border: 1px solid #404040;
-	}
-	
-	.nvu_wrap .nvu_btn_type4 {
-		background-color: #242424;
-		color: #cacaca;
-	}
-	
-	.nvu_section_update_meta .nvu_btn_close_layer:before {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.se-body .se-video-tag {
-		color: #cacaca;
-	}
-	
-	.se-body .se-set-rep-image-button.se-is-selected .se-set-rep-image-button-text, .se-body .se-set-rep-image-button:hover .se-set-rep-image-button-text, .se-body .se-set-rep-image-button-text {
-		color: #242424;
-	}
-	
-	.se-body .se-set-rep-image-button-text:before, .se-body .se-set-rep-image-button.se-is-selected .se-set-rep-image-button-text:before, .se-body .se-set-rep-image-button:hover .se-set-rep-image-button-text:before {
-		border-color: #242424;
-	}
-	
-	.se-body .se-caption.se-is-focused {
-		background-color: #2f2f2f;
-	}
-	
-	.se-body .se-caption .se-text-paragraph {
-		color: #cacaca;
-	}
-	
-	.se-body .se-sidebar {
-		background-color: #242424;
-	}
-	
-	.se-body .se-sidebar-container {
-		background-color: #242424;
-		border-left: 1px solid #404040;
-	}
-	
-	.se-body .se-sidebar-container-sticker {
-		background-color: #2f2f2f;
-	}
-	
-	.se-body .se-sidebar:after {
-		border-left: 1px solid #404040;
-	}
-	
-	.se-body .se-sidebar-header {
-		border-bottom: 1px solid #404040;
-	}
-	
-	.se-body .se-sidebar-container-sticker .se-sidebar-header {
-		background-color: #242424;
-	}
-	
-	.se-body .se-sidebar-title {
-		color: #fff;
-	}
-	
-	.se-body .se-sticker-header {
-		background: #242424;
-		border-bottom: 1px solid #404040;
-	}
-	
-	.se-body .se-sidebar-next-button, .se-body .se-sidebar-prev-button {
-		border: 0 solid #404040;
-		background-color: #242424;
-	}
-	
-	.se-body .se-sidebar-next-button:disabled, .se-body .se-sidebar-prev-button:disabled {
-		border-color: #404040;
-		background-color: #242424;
-	}
-	
-	.se-body .se-sidebar-next-button:before {
-		-webkit-box-shadow: inset -1px -1px 0 0 #cacaca;
-		box-shadow: inset -1px -1px 0 0 #cacaca;
-	}
-	
-	.se-body .se-sidebar-prev-button:disabled:before {
-		-webkit-box-shadow: inset 1px 1px 0 0 #444;
-		box-shadow: inset 1px 1px 0 0 #444;
-	}
-	
-	.se-body .se-sticker-tab-button {
-		background-color: #2f2f2f;
-	}
-	
-	.se-body .se-sticker-tab-button:hover {
+	.CafeEditor .se-body .se-header {
 		border-color: #404040;
 	}
 	
-	.se-body .se-sticker-tab-button.se-is-selected, .se-body .se-sticker-tab-button:active {
-		background-color: #404040;
+	.WritingSide .setting_area .info_text {
+		color: #cacaca;
 	}
 	
-	.se-body .se-sidebar-content {
-		background: #242424;
-	}
-	
-	.se-body .se-sidebar-element-sticker:hover {
-		-webkit-box-shadow: 0 0 0 1px #404040;
-		box-shadow: 0 0 0 1px #404040;
-	}
-	
-	.se-body .se-popup-sticker-refresh .se-popup-title {
+	.ModalLayer, .ModalLayer .layer_temporary_content .temp_link, .ModalLayer .layer_temporary_content .temp_link .temp_item_title {
 		color: #fff;
 	}
 	
-	.se-body .se-popup-button-refresh:active, .se-body .se-popup-button-refresh:focus, .se-body .se-popup-button-refresh:hover {
-		color: #242424;
+	.ModalLayer .layer_wrap {
+		background-color: #242424;
 	}
 	
-	.se-body .se-sidebar-element-sticker:active {
-		background-color: #2f2f2f;
+	.ModalLayer .layer_body:before {
+		box-shadow: 0 0 10px #000;
 	}
 	
-	.se-body .se-component-edge-button:after {
-		background-color: #4f4f4f;
-	}
-	
-	.se-body .se-canvas .se-section-quotation:before {
-		border: 1px solid #404040;
-	}
-	
-	.se-body .se-canvas .se-section-quotation:hover:before {
-		border-color: #4f4f4f;
-	}
-	
-	.se-body .se-canvas-bottom-button:after {
-		background-color: #4f4f4f;
-	}
-	
-	.se-body .se-section-quotation.se-l-quotation_bubble .se-quotation-container {
-		border: 4px solid #404040;
-		background: #242424;
-	}
-	
-	.se-body .se-section-quotation.se-l-quotation_postit .se-quotation-container {
-		border: solid #404040;
-		border-width: 4px 4px 0;
-		background: #242424;
-	}
-	
-	.se-body .se-section-quotation.se-l-quotation_postit .se-quotation-container:after {
-		background: #242424;
-		border: solid #404040;
-		border-width: 0 0 4px 4px;
-	}
-	
-	.se-body .se-section-quotation.se-l-quotation_underline .se-quotation-container {
+	.ModalLayer .layer_temporary_content .temp_item {
 		border-bottom: 1px solid #404040;
 	}
 	
-	.se-body .se-canvas .se-section-horizontalLine:before {
-		border: 1px solid #404040;
-	}
-	
-	.se-body .se-canvas .se-section-horizontalLine:hover:before {
-		border-color: #4f4f4f;
-	}
-	
-	.se-body .se-section-horizontalLine.se-l-default .se-hr, .se-body .se-section-horizontalLine.se-l-line1 .se-hr {
-		background-color: #cacaca;
-	}
-	
-	.se-body .se-section-horizontalLine.se-l-line2 .se-hr {
-		background-color: #cacaca;
-	}
-	
-	.se-body .se-section-horizontalLine.se-l-line3 .se-hr {
-		filter: brightness(100%);
-	}
-	
-	.se-body .se-section-horizontalLine.se-l-line4 .se-hr {
-		filter: invert(50%) brightness(100%);
-	}
-	
-	.se-body .se-section-horizontalLine.se-l-line7 .se-hr {
-		background-color: #404040;
-	}
-	
-	.se-body .se-popup-placesMap .se-popup-container {
-		background: #242424;
-	}
-	
-	.se-body .se-popup-placesMap .se-place-search-container {
-		border-bottom: 1px solid #404040;
-	}
-	
-	.se-body .se-popup-placesMap .se-place-search-keyword {
-		border-left: 1px solid #404040;
-	}
-	
-	.se-body .se-popup-placesMap .se-popup-button-container {
-		border-top: 1px solid #404040;
-	}
-	
-	.se-body .se-popup-placesMap .se-popup-button-drop-pin .se-popup-button-text {
-		background-color: #242424;
-		border: 1px solid #404040;
+	.ModalLayer .layer_temporary_content .temp_notice, .ModalLayer .temp_previous_notice .temp_notice_text, .ModalLayer .temp_previous_notice .temp_previous_link {
 		color: #cacaca;
 	}
 	
-	.se-body .se-popup-placesMap .se-popup-button-drop-pin .se-popup-button-text:before {
-		filter: none;
-	}
-	
-	.se-body .se-popup-button-confirm:disabled:hover {
-		background-color: #242424;
-		border-color: #404040;
-	}
-	
-	.se-body .se-popup-placesMap .se-popup-button-confirm:disabled {
-		color: #666;
-		background-color: #242424;
-		border-color: #404040;
-	}
-	
-	.se-body .se-popup-button-confirm:disabled {
-		color: #666;
-	}
-	
-	.se-body .se-popup-placesMap .se-popup-button-map-place {
-		color: #fff;
-	}
-	
-	.se-body .se-popup-select-option {
-		border: 1px solid #404040;
-		background-color: #242424;
-	}
-	
-	.se-body .se-popup-placesMap .se-popup-select-option-map-place .se-popup-select-option-label:hover {
-		color: #cacaca;
-		background-color: #2f2f2f;
-	}
-	
-	.se-body .se-popup-select-option-label {
-		color: #cacaca;
-	}
-	
-	.se-body .se-popup-placesMap .react-autosuggest__input {
-		color: #fff;
-	}
-	
-	.se-body .se-popup-placesMap .se-place-map-container {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.se-body .se-popup-placesMap .se-place-map-search-result {
-		border-right: 1px solid #404040;
-	}
-	
-	.se-body .se-popup-placesMap .se-place-search-keyword:after {
-		background: #404040;
-	}
-	
-	.se-body .se-popup-placesMap .se-place-map-search-result-item {
-		border-bottom: 1px solid #404040;
-	}
-	
-	.se-body .se-popup-placesMap .se-place-map-search-result-item.se-is-highlight, .se-body .se-popup-placesMap .se-place-map-search-result-item:hover {
-		background-color: #2f2f2f;
-	}
-	
-	.se-body .se-popup-placesMap .se-place-map-search-result-title {
-		color: #fff;
-	}
-	
-	.se-body .se-popup-placesMap .se-place-add-button {
-		border: 1px solid #404040;
-		background-color: #242424;
-	}
-	
-	.se-body .se-popup-placesMap .se-place-search-pagination-button-prev:disabled {
-		border-color: #333;
-	}
-	
-	.se-body .se-popup-placesMap .se-place-search-pagination-button-prev, .se-body .se-popup-placesMap .se-place-search-pagination-button-next {
-		border: 1px solid #404040;
-	}
-	
-	.se-body .se-popup-placesMap .se-place-search-pagination-button-next:before, .se-body .se-popup-placesMap .se-place-search-pagination-button-prev:before {
-		box-shadow: 0 9px 0 0 #404040,-4px 5px 0 0 #404040,4px 5px 0 0 #404040,-3px 6px 0 0 #404040,3px 6px 0 0 #404040,-2px 7px 0 0 #404040,2px 7px 0 0 #404040,-1px 8px 0 0 #404040,1px 8px 0 0 #404040,0 9px 0 0 #404040,0 9px 0 0 #404040;
-	}
-	
-	.se-body .se-popup-placesMap .se-place-search-pagination-button-number {
-		color: #cacaca;
-	}
-	
-	.se-body .se-popup-placesMap .se-place-search-pagination-button-prev:disabled:before {
-		box-shadow: 0 9px 0 0 #333,-4px 5px 0 0 #333,4px 5px 0 0 #333,-3px 6px 0 0 #333,3px 6px 0 0 #333,-2px 7px 0 0 #333,2px 7px 0 0 #333,-1px 8px 0 0 #333,1px 8px 0 0 #333,0 9px 0 0 #333,0 9px 0 0 #333;
-	}
-	
-	.se-body .react-autosuggest__suggestions-container {
-		border: 1px solid #404040;
-		color: #cacaca;
-		background-color: #242424;
-	}
-	
-	.se-body .se-popup-placesMap .react-autosuggest__suggestions-container {
-		background: #242424;
-		border-top: 1px solid #404040;
-	}
-	
-	.se-body .se-popup-placesMap .react-autosuggest__suggestion{ 
-		color: #cacaca;
-	}
-	
-	.se-body .se-popup-placesMap .react-autosuggest__suggestion:hover {
-		background-color: #2f2f2f;
-	}
-	
-	.se-body .se-popup-placesMap .se-place-search-pagination-button-next:disabled {
-		border-color: #333;
-	}
-	
-	.se-body .se-popup-placesMap .se-place-search-pagination-button-next:disabled:before {
-		box-shadow: 0 9px 0 0 #333,-4px 5px 0 0 #333,4px 5px 0 0 #333,-3px 6px 0 0 #333,3px 6px 0 0 #333,-2px 7px 0 0 #333,2px 7px 0 0 #333,-1px 8px 0 0 #333,1px 8px 0 0 #333,0 9px 0 0 #333,0 9px 0 0 #333;
-	}
-	
-	.se-body .se-popup-placesMap .se-place-attached-name {
-		color: #000;
-	}
-	
-	.se-body .se-section-placesMap {
-		background-color: #242424;
-	}
-	
-	.se-body .se-section-placesMap {
-		border: 1px solid #404040;
-	}
-	
-	.se-body .se-canvas .se-section-placesMap.se-l-default:hover:before {
-		border-color: #404040;
-	}
-	
-	.se-body .se-section-placesMap .se-map-title {
-		color: #fff;
-	}
-	
-	.se-body .se-section-placesMap.se-l-default .se-module-map-image .se-map-image {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.se-body .se-dragging-ghost-single .se-section-placesMap.se-l-map_text .se-map-marker, .se-body .se-l-viewport-tablet .se-section-placesMap.se-l-map_text .se-map-marker {
-		border-right: 1px solid #404040;
-	}
-	
-	.se-body .se-popup-oglink-input-holder {
-		border: 1px solid #404040;
-	}
-	
-	.se-body .se-popup-oglink-input {
-		color: #cacaca;
-	}
-	
-	.se-body .se-popup-oglink-loading {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.se-body .se-module-oglink {
-		background-color: #2f2f2f;
-	}
-	
-	.se-body .se-oglink-title {
-		color: #fff;
-	}
-	
-	.se-body .se-popup-oglink-preview.se-is-scroll {
-		border: solid #404040;
-		border-width: 1px 0;
-		background-color: #242424;
-	}
-	
-	.se-body .se-canvas .se-section-oglink:before {
-		border: 1px solid #404040;
-	}
-	
-	.se-body .se-canvas .se-section-oglink:hover:before {
-		border-color: #404040;
-	}
-	
-	.rabbit_layer_popup .dimmed {
-		background-color: rgba(0, 0, 0, .5);
-	}
-	
-	.rabbit_layer_popup .popup_container {
-		border: 1px solid #404040;
-		background-color: #242424;
-	}
-	
-	.rabbit_layer_popup .popup_content .header .title {
-		color: #fff;
-	}
-	
-	.rabbit_layer_popup .popup_content .article {
-		border-top: 1px solid #404040;
-	}
-	
-	.rabbit_layer_popup .popup_content .article .title {
-		color: #fff;
-	}
-	
-	.rabbit_layer_popup .popup_content .article .item {
-		border-bottom: 1px solid #404040;
-	}
-	
-	.rabbit_layer_popup .popup_content .article .item:hover {
-		background-color: #2f2f2f;
-	}
-	
-	.rabbit_layer_popup .popup_content .article .delete_button_all {
-		border: 1px solid #404040;
-	}
-	
-	.se-body .se-popup-file-source-button:hover .se-popup-file-source-name {
-		color: #fff;
-	}
-	
-	.se-body .se-module-file {
-		border: 1px solid #404040;
-		background: #2f2f2f;
-	}
-	
-	.se-body .se-file-name {
-		color: #fff;
-	}
-	
-	.se-body .se-canvas .se-section-file:before {
-		border: 1px solid #404040;
-	}
-	
-	.se-body .se-canvas .se-section-file:hover:before {
-		border-color: #404040;
-	}
-	
-	.se-body .se-set-schedule-label {
-		color: #fff;
-	}
-	
-	.se-body .se-set-schedule-detail {
-		border-bottom: 1px solid #404040;
-	}
-	
-	.se-body .se-set-schedule-input {
-		background-color: #242424;
-		color: #cacaca;
-	}
-	
-	.se-body .se-input-schedule-radio:checked+.se-input-schedule-radio-label {
-		color: #fff;
-	}
-	
-	.se-body .se-input-schedule-radio-label {
-		color: #cacaca;
-	}
-	
-	.se-body .react-datepicker__input-container input[type=text], .se-body .se-set-time-option {
-		border: 1px solid #404040;
-		background-color: #242424;
-	}
-	
-	.se-body .se-input-schedule-checkbox-label {
-		color: #cacaca;
-	}
-	
-	.se-body .se-set-time-option:disabled {
-		background-color: #2f2f2f;
-		border-color: #404040;
-		color: #666;
-	}
-	
-	.se-body .se-input-schedule-end-date-checkbox-label {
-		color: #cacaca;
-	}
-	.se-body .se-input-schedule-end-date-checkbox-label:after, .se-body .se-input-schedule-end-date-checkbox-label:before {
-		background-color: #cacaca;
-	}
-	
-	.se-body .se-schedule-select-list-button {
-		border: 1px solid #404040;
-		color: #cacaca;
-	}
-	
-	.se-body .se-schedule-options-wrapper, .se-body .se-schedule-sub-options-wrapper {
-		border: 1px solid #404040;
-		background-color: #242424;
-	}
-	
-	.se-body .react-datepicker {
-		color: #fff;
-		background-color: #242424;
-		border: 1px solid #404040;
-	}
-	
-	.se-body .react-datepicker__current-month {
-		border-bottom: 1px solid #404040;
-		color: #fff;
-	}
-	
-	.se-body .react-datepicker__day-name {
-		color: #cacaca;
-	}
-	
-	.se-body .react-datepicker__day--selected {
-		color: #242424;
-	}
-	
-	.se-body .react-datepicker__day {
-		color: #cacaca;
-	}
-	
-	.se-body .se-module-schedule {
-		border: 1px solid #404040;
-		background-color: #2f2f2f;
-	}
-	
-	.se-body .se-schedule-title-text {
-		color: #fff;
-	}
-	
-	.se-body .se-schedule-duration, .se-body .se-section-schedule .se-map-title, .se-body .se-schedule-url, .se-body .se-schedule-info {
-		color: #cacaca;
-	}
-	
-	.se-body .se-schedule-content {
-		border-top: 1px solid #404040;
-	}
-	
-	.se-body .se-schedule-info-map .se-module-map-image {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.se-body .se-canvas .se-section-schedule .se-module-schedule:before, .se-body .se-canvas .se-section-code:before {
-		border: 1px solid #404040;
-	}
-	
-	.se-body .se-canvas .se-section-schedule .se-module-schedule:hover:before, .se-body .se-canvas .se-section-code:hover:before {
-		border-color: #404040;
-	}
-	
-	.se-body .se-module-code code[class*=language-], .se-body .se-module-code pre[class*=language-], .se-body .se-module-code .se-code-source-editor {
-		color: #fff;
-	}
-	
-	.se-body .se-section-code.se-l-default {
-		background-color: #2f2f2f;
-	}
-	
-	.se-body .se-section-code.se-l-code_stripe .se-module-code {
-		background-image: linear-gradient(#2f2f2f 25%,#353535 0,#353535 75%,#2f2f2f 0);
-	}
-	
-	.se-body .se-property-toolbar .se-range-slider-button-container {
-		background-color: #3a3a3a;
-	}
-	
-	.se-body .se-canvas .se-section-table:before {
-		border: 1px solid #404040;
-	}
-	
-	.se-body .se-canvas .se-section-table:hover:before {
-		border-color: #404040;
-	}
-	
-	.se-body .se-table-container {
-		background: #242424;
-	}
-	
-	.se-body .se-cell-select-all-button {
-		border: 1px solid #404040;
-		background-color: #242424;
-	}
-	
-	.se-body .se-cell-controlbar-item {
-		background-color: #2f2f2f;
-	}
-	
-	.se-body .se-cell-select-button {
-		border: solid #404040;
-	}
-	
-	.se-body .se-cell-select-button:hover {
-		background-color: #3a3a3a;
-	}
-	
-	.se-body .se-section-table.se-l-default .se-table-content {
-		border: solid #404040;
-		border-width: 1px 0 0 1px;
-	}
-	
-	.se-body .se-cell {
-		background-color: #242424;
-	}
-	
-	.se-body .se-section-table.se-l-default .se-table-content .se-cell {
-		border: solid #404040;
-		border-width: 0 1px 1px 0;
-	}
-	
-	.se-body .se-cell-select-button.se-is-selected {
-		border-color: #4f4f4f;
-		background-color: #3a3a3a;
-	}
-	
-	.se-body .se-cell.se-is-selected {
-		background-color: #2f2f2f !important;
-	}
-	
-	.se-body .se-canvas .se-section-formula:before {
-		border: 1px solid #404040;
-	}
-	
-	.se-body .se-canvas .se-section-formula:hover:before {
-		border-color: #404040;
-	}
-	
-	.se-body .se-tab-header-underline .se-tab-button.se-is-selected .se-tab-button-title {
-		color: #fff;
-	}
-	
-	.se-body .se-tab-header-underline:before {
-		border-bottom: 1px solid #404040;
-	}
-	
-	.se-body .se-sidebar-photo-ccl-notice {
-		background-color: #2f2f2f;
-		color: #cacaca;
-		border-top: 1px solid #404040;
-	}
-	
-	.se-body .se-sidebar-material-title {
-		color: #fff;
-	}
-	
-	.se-body .se-sidebar-material-detail-title {
-		color: #cacaca;
-	}
-	
-	.se-body .se-canvas .se-section-material:before {
-		border: 1px solid #404040;
-	}
-	
-	.se-body .se-canvas .se-section-material:hover:before {
-		border-color: #404040;
-	}
-	
-	.se-body .se-module-material {
-		background-color: #2f2f2f;
-	}
-	
-	.se-body .se-material-thumbnail {
-		background-color: #2f2f2f;
-	}
-	
-	.se-body .se-material-title {
-		color: #fff;
-	}
-	
-	.se-body .se-sidebar-content-state {
-		background-color: #242424;
-	}
-	
-	.se-body .se-state-error {
-		background: #2f2f2f;
-		border: 1px solid #404040;
-	}
-	
-	.se-body .se-canvas .se-module-image:before, .se-body .se-canvas .se-section-image .se-module-image:before {
-		border: 1px solid #404040;
-	}
-	
-	.se-body .se-canvas .se-section-image .se-module-image:hover:before {
-		border-color: #404040;
-	}
-	
-	.npe_wrap .npe_btn_submit .npe_btn_title {
-		color: #242424;
-	}
-	
-	.npe_wrap .npe_btn_cancel {
-		background-color: #242424;
-	}
-	
-	.npe_wrap .npe_btn_cancel:after {
-		border: 1px solid #404040;
-		opacity: 1;
-	}
-	
-	.npe_wrap .npe_btn_cancel .npe_btn_title {
-		color: #cacaca;
-		opacity: 1;
-	}
-	
-	.se-body .se-tab-header-noline .se-tab-button.se-is-selected .se-tab-button-title {
-		color: #fff;
-	}
-	
-	.se-body .se-tab-header-noline {
-		border-bottom: 1px solid #404040;
-	}
-	
-	.se-body .se-doc-template {
-		background-color: #2f2f2f;
-	}
-	
-	.se-body .se-doc-template-title {
-		color: #fff;
-	}
-	
-	#header .layer_publish {
-		background: #242424;
-		border: 1px solid #404040;
-	}
-	
-	#header .layer_publish .set_option .set_title, #header .layer_publish .set_theme .theme1, #header .rabbit_checkbox .checkbox_label, #header .rabbit_radio .radio_label {
-		color: #fff;
-	}
-	
-	#header .layer_publish .selectbox .selectbox_button {
-		border: 1px solid #404040;
-	}
-	
-	#header .layer_publish .selectbox .selectbox_button .text {
-		color: #cacaca;
-	}
-	
-	#header .layer_publish .set_detail .link, #header .layer_publish .set_theme .theme2 {
-		color: #cacaca;
-	}
-	
-	#header .layer_publish .layer_section+.layer_section+.layer_section {
-		border-top: 1px solid #404040;
-	}
-	
-	#header .layer_publish .option_tag .area_tag .textarea_tag {
-		border: 1px solid #404040;
-		color: #cacaca;
-	}
-	
-	#header .layer_publish .option_tag .area_tag .tag_input {
-		color: #cacaca;
-		background: #242424;
-	}
-	
-	#header .layer_publish .option_tag .area_tag .tag {
-		background-color: #2f2f2f;
-	}
-	
-	#header .layer_publish .option_tag .area_tag .tag:hover:before {
-		border: 1px solid #404040;
-	}
-	
-	#header .layer_publish .layer_area_btn {
-		border-top: 1px solid #404040;
-	}
-	
-	#header .layer_publish .layer_area_btn [class*=btn_] {
-		border: 1px solid #404040;
-	}
-	
-	#header .layer_publish .layer_area_btn [class*=btn_]:hover .text {
-		color: #242424;
-	}
-	
-	#header .layer_publish .layer_area_btn .btn_confirm:hover .sp_blog_rabbit {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	#header .layer_publish .set_detail .layer_tip {
-		background: #242424;
-		border: 1px solid #404040;
-		color: #cacaca;
-	}
-	
-	#header .layer_publish .option_publish .btn_publish_fold .sp_blog_rabbit {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	#header .layer_publish .selectbox .layer_list_option {
-		border: 1px solid #404040;
-		background-color: #242424;
-	}
-	
-	#header .layer_publish .selectbox .layer_list_option .radio_label .text {
-		color: #fff;
-	}
-	
-	#header .layer_publish .selectbox .layer_list_option .radio_label:hover {
-		background-color: #2f2f2f;
-	}
-	
-	#header .layer_publish .set_theme_title .title, #header .layer_publish .list_theme .title {
-		color: #fff;
-	}
-	
-	#header .layer_publish .layer_area_btn .btn_cancel:hover {
-		background: #242424;
-	}
-	
-	#header .layer_publish .layer_set_link {
-		border: 1px solid #404040;
-		background: #242424;
-	}
-	
-	#header .layer_publish .layer_set_link .radio_label:hover {
-		background-color: #2f2f2f;
-	}
-	
-	#header .layer_publish .time .date .input_date {
-		background: #242424;
-		border: 1px solid #404040;
-	}
-	
-	#header .layer_publish .time .hour_option, #header .layer_publish .time .minute_option {
-		background-color: #242424;
-	}
-	
-	#header .layer_publish .time .hour, #header .layer_publish .time .minute {
-		border: 1px solid #404040;
-	}
-	
-	.ui-widget-content {
-		border: 1px solid #404040;
-		background: #242424;
-		color: #cacaca;
-	}
-	
-	.ui-widget-header {
-		border-bottom: 1px solid #404040;
-		background: #242424;
-		color: #fff;
-	}
-	
-	.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
-		border: 1px solid #404040;
-		background: #242424;
-		color: #cacaca;
-	}
-	
-	.ui-state-hover .ui-icon, .ui-state-focus .ui-icon, .ui-state-active .ui-icon {
-		border-color: #cacaca;
-	}
-	
-	#header .layer_publish .layer_area_btn .btn_cancel:hover .text {
-		color: #cacaca;
-	}
-	
-	.pop_layer_wrap.pop_loading .dim {
-		background: #242424;
-	}
-	
-	.se-bootstrap-placeholder {
-		border-top: 1px solid #404040;
-		background-color: #242424;
-	}
-	
-	.pop_layer_wrap.pop_loading .pop_info_text {
-		color: #fff;
-	}
-	
-	.wrap_choice_rabbit_editor .dim {
-		background: #242424;
-	}
-	
-	.wrap_choice_rabbit_editor .choice_rabbit_editor {
-		background: #242424;
-		border: 1px solid #404040;
-	}
-	
-	.wrap_choice_rabbit_editor .wrap_text .title, .wrap_choice_rabbit_editor .choice_editor .editor .radio_choice_rabbit:checked+.label .txt, .wrap_choice_rabbit_editor .wrap_editorset .set_item .title, .wrap_choice_rabbit_editor .wrap_editorset .selectbox_button .text {
-		color: #fff;
-	}
-	
-	.wrap_choice_rabbit_editor .wrap_btn .btn_check {
-		border: 1px solid #404040;
-	}
-	
-	.wrap_choice_rabbit_editor .wrap_editorset .set_item {
-		border-bottom: 1px solid #404040;
-	}
-	
-	.wrap_choice_rabbit_editor .wrap_editorset .layer_list_option {
-		border: 1px solid #404040;
-		background: #242424;
-	}
-	
-	.wrap_choice_rabbit_editor .wrap_editorset .layer_list_option .option .radio_label .text {
-		color: #cacaca;
-	}
-	
-	.wrap_choice_rabbit_editor .wrap_editorset .layer_list_option .option_lineheight_input {
-		border-top: 1px solid #404040;
-		background: #2f2f2f;
-	}
-	
-	.wrap_choice_rabbit_editor .wrap_editorset .layer_list_option .option_lineheight_input .set_lineheight_input {
-		color: #cacaca;
-	}
-	
-	.wrap_choice_rabbit_editor .se-color-picker-option {
-		background-color: #242424;
-		border: 1px solid #404040;
-	}
-	
-	.wrap_choice_rabbit_editor .se-color-palette {
-		border: 1px solid #242424;
-		border-width: 1px 0 0 1px;
-	}
-	
-	.wrap_choice_rabbit_editor .se-color-picker-more-button {
-		border-top: 1px solid #404040;
-	}
-	
-	.wrap_choice_rabbit_editor .se-color-picker-more-label {
-		color: #cacaca;
-	}
-	
-	.wrap_choice_rabbit_editor .se-color-apply-button {
-		border: 1px solid #404040;
-	}
-	
-	.wrap_choice_rabbit_editor .se-color-apply-label {
-		color: #cacaca;
-	}
-	
-	.wrap_choice_rabbit_editor .se-color-apply-button:before {
-		border-color: #cacaca;
-	}
-	
-	.wrap_choice_rabbit_editor .se-selected-color-hex {
-		border: 1px solid #404040;
-		border-left-width: 0;
-		background: #242424;
-		color: #cacaca;
-	}
-	
-	.wrap_choice_rabbit_editor .se-selected-color-palette {
-		border: 1px solid #404040;
-	}
-	
-	.wrap_choice_rabbit_editor .wrap_editorset .list_option .icon_alignright, .wrap_choice_rabbit_editor .wrap_editorset .list_option .icon_alignjustify, .wrap_choice_rabbit_editor .wrap_editorset .list_option .icon_aligncenter, .wrap_choice_rabbit_editor .wrap_editorset .list_option .icon_alignleft {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.se-body .se-popup-special-letter .se-popup-label-select-button .se-popup-select-button-label {
-		color: #fff;
-	}
-	
-	.se-body .se-popup-special-letter .se-popup-label-select-button-container {
-		border-bottom: 1px solid #404040;
-	}
-	
-	.se-body .se-special-letter-content {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.se-body .se-component *[style*='border-bottom'] {
-		border-bottom: 1px solid #404040 !important;
-	}
-	
-	.se-body .se-component *[style*='background-color'] {
-		background-color: #242424 !important;
-	}
-	
-	.se-body .se-component *[style*='border-top'] {
-		border-top: 1px solid #404040 !important;
-	}
-	
-	.se-body .se-component *[style*=' color'], .se-body .se-component *[style*=';color'], .se-body .se-component *[style^='color'] {
-		color: #cacaca !important;
-	}
-	
-	.se-body .se-material-detail {
-		color: #cacaca;
+	:root {
+		--skinSpecialMenuBorder: #404040;
+		--skinSpecialMenuBg: transparent;
+		--skinSpecialMenuColor: #cacaca;
+		--skinSpecialMenuDot: #cacaca;
+		--skinTextColor: #fff;
+		--skinText323232: #cfcfcf;
+		--skinText676767: #cacaca;
+		--skinText979797: #999;
+		--skinTextb7b7b7: #666;
+		--skinListBorder: #404040;
+		--skinThumbBorder: #404040;
+		--skinBar: #404040;
+		--skinArticleLink: #7474e3;
+		--skinSourceBadge: #cacaca;
+		--skinTagLinkColor: #cacaca;
+		--skinToggleSwitchBg: #3a3a3a;
+		--skinCommentWriterBorder: #404040;
+		--skinCommentWriterBg: #242424;
+		--skinCommentWriterText: #cacaca;
+		--skinCommentWriterFocus: #999;
+		--skinBox: #2f2f2f;
+		--skinSvgIconPostBtnArrowUp: #cacaca;
+		--skinSvgIconPostTop: #cacaca;
+		--skinLayoutBorder: #404040;
+		--skinBaseButtonDefaultBg: #3a3a3a;
+		--skinBaseButtonDefaultColor: #fff;
+		--skinBaseButtonPointBg: #3a3a3a;
+		--skinColor: #242424 !important;
+		--skinCommentMineBg: #2f2f2f;
+		--skinListSelectedBg: #2f2f2f;
+		--skinNoticeBadgeMenuBg: #242424;
+		--skinTempSaveBorder: #404040;
+		--baseText: #cacaca;
+		--baseMenu: #fff;
+		--baseLink: #cfcfcf;
+		--baseBg: #242424;
+		--baseBorder: #404040;
+		--iconArrowBase: #999;
+		--iconArrowWrite: #cacaca;
+		--GnbLink: #cacaca;
+		--GnbLinkBar: #404040;
+		--GnbLinkArrow: #cacaca;
 	}
 }
 
@@ -49382,6 +49705,131 @@
 		border-right: 1px solid #404040 !important;
 	}
 	
+	
+	.se-viewer .se-section-quotation .se-cite .se-text-paragraph {
+		color: #cacaca;
+	}
+	
+	.se-viewer *[style*='background-color']:not([style*='background-color: transparent']):not([style*='background-color:transparent']) {
+		background-color: #2f2f2f !important;
+	}
+	
+	.se-viewer *[style*='border-bottom']:not([style*='border-bottom: none']):not([style*='border-bottom:none']) {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	.se-viewer *[style*='border-top']:not([style*='border-top: none']):not([style*='border-top:none']) {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	.se-viewer *[style*='border-left']:not([style*='border-left: none']):not([style*='border-left:none']) {
+		border-left: 1px solid #404040 !important;
+	}
+	
+	.se-viewer *[style*='border-right']:not([style*='border-right: none']):not([style*='border-right:none']) {
+		border-right: 1px solid #404040 !important;
+	}
+	
+	.se-viewer *[style*=' color'], .se-viewer *[style*=';color'], .se-viewer *[style^='color'] {
+		color: #cacaca !important;
+	}
+	
+	.se_paragraph *[style*='background-color']:not([style*='background-color: transparent']):not([style*='background-color:transparent']) {
+		background-color: #2f2f2f !important;
+	}
+	
+	.se_paragraph *[style*='border-bottom']:not([style*='border-bottom: none']):not([style*='border-bottom:none']) {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	.se_paragraph *[style*='border-top']:not([style*='border-top: none']):not([style*='border-top:none']) {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	.se_paragraph *[style*='border-left']:not([style*='border-left: none']):not([style*='border-left:none']) {
+		border-left: 1px solid #404040 !important;
+	}
+	
+	.se_paragraph *[style*='border-right']:not([style*='border-right: none']):not([style*='border-right:none']) {
+		border-right: 1px solid #404040 !important;
+	}
+	
+	.se_paragraph *[style*=' color'], .se_paragraph *[style*=';color'], .se_paragraph *[style^='color'] {
+		color: #cacaca !important;
+	}
+	
+	#post-area .post-view *[style*='background-color']:not([style*='background-color: transparent']):not([style*='background-color:transparent']) {
+		background-color: #2f2f2f !important;
+	}
+	
+	#post-area .post-view *[style*='background:']:not([style*='background: none']):not([style*='background:none']):not(td) {
+		background: #2f2f2f !important;
+	}
+	
+	#post-area .post-view td[style*='background:']:not([style*='background: none']):not([style*='background:none']) {
+		background: #242424 !important;
+	}
+	
+	#post-area .post-view *[style*='border-bottom']:not([style*='border-bottom: none']):not([style*='border-bottom:none']) {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	#post-area .post-view *[style*='border-top']:not([style*='border-top: none']):not([style*='border-top:none']) {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	#post-area .post-view *[style*='border-left']:not([style*='border-left: none']):not([style*='border-left:none']) {
+		border-left: 1px solid #404040 !important;
+	}
+	
+	#post-area .post-view *[style*='border-right']:not([style*='border-right: none']):not([style*='border-right:none']) {
+		border-right: 1px solid #404040 !important;
+	}
+	
+	#post-area .post-view table {
+		background: #242424;
+	}
+	
+	#post-area .post-view *[style*=' color'], #post-area .post-view *[style*=';color'], #post-area .post-view *[style^='color'] {
+		color: #cacaca !important;
+	}
+	
+	#post-area .post-view *[style*='BACKGROUND-COLOR']:not([style*='BACKGROUND-COLOR: TRANSPARENT']):not([style*='BACKGROUND-COLOR:TRANSPARENT']) {
+		background-color: #2f2f2f !important;
+	}
+	
+	#post-area .post-view *[style*='BACKGROUND:']:not([style*='BACKGROUND: NONE']):not([style*='BACKGROUND:NONE']):not(td) {
+		background: #2f2f2f !important;
+	}
+	
+	#post-area .post-view td[style*='BACKGROUND:']:not([style*='BACKGROUND: NONE']):not([style*='BACKGROUND:NONE']) {
+		background: #242424 !important;
+	}
+	
+	#post-area .post-view *[style*='BORDER-BOTTOM']:not([style*='BORDER-BOTTOM: NONE']):not([style*='BORDER-BOTTOM:NONE']) {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	#post-area .post-view *[style*='BORDER-TOP']:not([style*='BORDER-TOP: NONE']):not([style*='BORDER-TOP:NONE']) {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	#post-area .post-view *[style*='BORDER-LEFT']:not([style*='BORDER-LEFT: NONE']):not([style*='BORDER-LEFT:NONE']) {
+		border-left: 1px solid #404040 !important;
+	}
+	
+	#post-area .post-view *[style*='BORDER-RIGHT']:not([style*='BORDER-RIGHT: NONE']):not([style*='BORDER-RIGHT:NONE']) {
+		border-right: 1px solid #404040 !important;
+	}
+	
+	#post-area .post-view table {
+		background: #242424;
+	}
+	
+	#post-area .post-view *[style*=' COLOR'], #post-area .post-view *[style*=';COLOR'], #post-area .post-view *[style^='COLOR'], #post-area .post-view *[color] {
+		color: #cacaca !important;
+	}
+	
 	.ContentRenderer table {
 		color: #cacaca;
 	}
@@ -51514,6 +51962,10 @@
 	
 	#naver_common_editor .template {
 		background: #404040;
+	}
+	
+	#naver_common_editor ul.file_thumb {
+		background-color: #2f2f2f;
 	}
 }
 

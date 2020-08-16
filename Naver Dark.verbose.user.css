@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.162
+@version		1.48.172
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -2464,6 +2464,14 @@
 	
 	div.viewTitle dl dt .viewMoreOn {
 		filter: none;
+	}
+	
+	.setup_layer .modifyName th {
+		color: #fff;
+	}
+	
+	.setup_layer .modifyName td input {
+		border: 1px solid #404040;
 	}
 }
 
@@ -10239,6 +10247,137 @@
 	
 	.sp_kindic .group_kindic.type_attach {
 		border-top: 0 !important;
+	}
+	
+	.cs_weboriginal .top_wrap {
+		background-color: #3a3a3a !important;
+		border-top-color: #404040 !important;
+	}
+	
+	.cs_weboriginal .title_area .title a {
+		color: #fff;
+	}
+	
+	.cs_weboriginal .sub_tap_area .tab_list .tab[aria-selected="true"] a {
+		color: #242424;
+	}
+	
+	.cs_weboriginal .content_wrap {
+		border-bottom-color: #404040 !important;
+		background-image: none !important;
+		background: #3a3a3a !important;
+	}
+	
+	.cs_weboriginal .info_box {
+		background-color: #242424;
+	}
+	
+	.cs_weboriginal .info_box .detail_info .info dd, .cs_weboriginal .info_box .story_ellipsis .desc {
+		color: #cacaca;
+	}
+	
+	.cs_weboriginal .info_box .button_area .button_box a {
+		color: #cacaca;
+	}
+	
+	.cs_weboriginal .info_box .button_area .button_box ul {
+		background: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.cs_weboriginal .info_box .button_area .button_like {
+		border: 1px solid #404040;
+	}
+	
+	.cs_weboriginal .notice_link {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_weboriginal .info_box.basic_character li, .cs_weboriginal .info_box.basic_darma li {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_weboriginal .info_box.basic_character li .title_box .name, .cs_weboriginal .info_box.basic_darma li .title_box .title, .cs_weboriginal .info_box.basic_darma li .link {
+		color: #fff;
+	}
+	
+	.cs_weboriginal .info_box .intro_box .text, .cs_weboriginal .info_box .pro_info_box dd .text {
+		color: #cacaca;
+	}
+	
+	.cs_weboriginal .tab_info_box {
+		background-color: #242424;
+	}
+	
+	.cs_weboriginal .character_list .item {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_weboriginal .character_list .title_box .name a {
+		color: #fff;
+	}
+	
+	.cs_weboriginal .video_list ul .video_info .video_title {
+		color: #fff;
+	}
+	
+	.cs_weboriginal .more_wrap .more_multi {
+		border-top: 1px solid #404040;
+		color: #cacaca;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_weboriginal .more_wrap .more_multi .ico_arr {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_weboriginal .video_list ul .video_info .sub_info .info_text + .info_text::after {
+		background-color: #404040;
+	}
+	
+	.cs_weboriginal .video_list .link_area .more_link:after {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_weboriginal .drama_list .inner {
+		color: #fff;
+	}
+	
+	.cs_weboriginal .top_answer_area .title {
+		color: #fff;
+	}
+	
+	.cs_weboriginal .filter_tap_area .type_scroll .tab .menu {
+		background-color: #242424;
+	}
+	
+	.cs_weboriginal .paging_area .pgs .npgs {
+		color: #cacaca;
+	}
+	
+	.cs_weboriginal .sub_title {
+		color: #cacaca !important;
+	}
+	
+	.cs_weboriginal .title_area .title {
+		color: #fff !important;
+	}
+	
+	.cs_weboriginal .info_box .detail_info a:visited {
+		color: #e177e3;
+	}
+	
+	.cs_weboriginal .sub_tap_area .tab_list {
+		color: #cacaca !important;
+	}
+	
+	.cs_weboriginal .info_box .button_area .button_box a.button_view:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_weboriginal .title_area .title .state_end {
+		border: 1px solid #cacaca !important;
+		color: #cacaca !important;
 	}
 }
 

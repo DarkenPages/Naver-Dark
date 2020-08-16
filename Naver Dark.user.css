@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.177
+@version		1.48.178
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -647,9 +647,12 @@
     .api_atcmp_wrap,.api_atcmp_wrap .func a,.main_topic_wrap .main_topic_context,.sc_login .sub_area .link_join,.sc_login .sub_area .link_look,.sc_newscast .error_view .dsc_msg,.sc_newscast .group_issue .direct_area .link_direct,.sc_newscast .group_title .sort_area .btn_sort,.sc_newscast .list_view .list_option .option,.sc_themecast .btn_more_wrap .btn_more,.sc_themecast .chart_view .info_box .dsc_wrap,.sc_themecast .group_edit .edit_header .notice_msg,.sc_themecast .group_title .info_area .btn_set,.sc_themecast .list_theme .desc,.sc_themecast .poster_view .dsc_tit,.sc_themecast .theme_link .service_item .service,.sc_themecast .theme_title .title_sub_tab .tab,.sc_themecast .topstory_view .topstory_info .desc,.sc_timesquare .card_air .location,.sc_timesquare .card_weather .location,.sc_timesquare .card_air .state,.sc_timesquare .card_air,.sc_timesquare .card_news,.sc_timesquare .card_weather,.sc_timesquare .card_news .news,.sc_timesquare .card_stock .name,.sc_timesquare .card_weather .state,#footer .list_corp .corp_item,#footer .notice_area .link_all,#footer .partner_box .link_partner,#gnb .election_area .shortcut_a,#gnb .group_keyword .ico_error+.keyword,#gnb .group_keyword .keyword,#gnb .group_nav .btn_more,#gnb .list_nav:not(.type_fix) .nav,#gnb .list_realtime .rank,#gnb .ly_realtime .ly_help .help_message,#gnb .set_area .set_msg,html[data-dark=true] .sc_user .info_area .btn_logout { color: #cacaca }
     .banner_top .link_detail,.banner_top .link_detail:link,.banner_top .link_detail:visited,.return_area .btn_return,.sc_newscast .error_view .error_msg,.sc_newscast .group_issue .issue_area .link_media,.sc_newscast .group_title .link_newsstand,.sc_newscast .group_title .sort_area .btn_sort.sort_on,.sc_newscast .ly_popup .popup_msg,.sc_themecast .chart_view .chart_rank .rank,.sc_themecast .group_title .info_area .new,.sc_themecast .group_title .title_area .title,.sc_themecast .list_select_tab .tab,.sc_themecast .list_theme .source,.sc_themecast .media_view .source,.sc_themecast .poster_view .dsc_data,.sc_themecast .poster_view .title .rank,.sc_themecast .theme_title .title,.sc_themecast .topstory_view .topstory_info .source,.sc_timesquare .card_air .air_item,.sc_timesquare .card_stock .current,.sc_timesquare .card_stock .stock_title,.sc_timesquare .card_weather .current,#gnb .list_nav,#gnb .list_service .service_title,#gnb .ly_realtime .realtime_area .tab[aria-selected=true],#gnb .ly_realtime .title_area .title,#gnb .set_area .set_title,#header .service_area .link_set { color: #fff }
     .column_fix_wrap,.sc_themecast .main_category .list_category,.theme_head.is_fixed .theme_fix_wrap,#gnb .group_nav .ly_btn_area,#gnb .list_nav.type_empty .empty_box.type_point,#header,html[data-dark=true] #gnb .group_nav .ly_btn_area,html[data-dark=true] #header .search_area .input_text,html[data-dark=true] #header,html[data-dark=true] #header .special_bg { background-color: #242424 }
+    .da_expwide_inner,.da_expwide_inner.type_full,.sc_newscast .tile_view .popup_wrap,.sc_themecast .topstory_view.type_star,.sc_themecast .topstory_view.type_star .topstory_info,.sc_themecast.id_china .topstory_view .topstory_writer,.sc_themecast.id_china .topstory_view.type_ad .topstory_info,.sc_themecast.id_china .topstory_view.type_star .topstory_info,.sc_themecast.id_cargame .topstory_view .topstory_writer,.sc_themecast.id_cargame .topstory_view.type_star .topstory_info,.sc_themecast.id_movie .topstory_view .topstory_writer,.sc_themecast.id_movie .topstory_view.type_star .topstory_info,.sc_themecast.id_enter .topstory_view .topstory_writer,.sc_themecast.id_enter .topstory_view.type_ad .topstory_info,.sc_themecast.id_enter .topstory_view.type_star .topstory_info,.sc_themecast.id_enter .topstory_view.type_star,.sc_themecast.id_enter .topstory_writer,.sc_timesquare .card_nav .btn_nav:hover { background-color: #2f2f2f }
     .list_thumb .title_wrap .badge_represent { filter: invert(81.5%) hue-rotate(-180deg) }
     .main_topic_wrap { color: #cacaca;background-color: #242424 }
     .return_area { border-top: 1px solid #4f4f4f;background-color: #404040 }
+    .rollingboard_native_ad,.rollingboard_player::before,.sc_themecast .group_edit,.sc_themecast .list_edit .edit_item,.sc_themecast .main_category .list_category:before,.sc_timesquare { border: 1px solid #404040 }
+    .rollingboard_player::after { background: #242424 }
     .sc_login .ico_naver,.sc_newscast .list_view .list_option .option_item.option_on:before,.sc_newscast .list_view .news_area .media_box .btn_close,.sc_newscast .list_view .news_area .media_box .link_media,.sc_themecast .chart_view_wrap.type_music .chart_link .link_lyrics:before,.sc_themecast .group_edit .ico_close,.sc_themecast .group_edit .ico_set,.sc_themecast .list_edit .ico_chk,.sc_timesquare .card_nav .btn_next:hover:before,.sc_timesquare .card_nav .btn_prev:hover:before,#footer .notice_area .link_all:after,#gnb .list_service .ico_chk,#header .search_area .btn_submit .ico_search_submit,html:not([data-dark=true]) .sc_newscast .tile_view .thumb img,html:not([data-dark=true]) #gnb .ly_realtime .info_area .link_datalab { filter: invert(86%) hue-rotate(-180deg) }
     .sc_login .link_login,.sc_newscast .error_view .link_redirect,.sc_newscast .list_view .list_option .option_on .option,.sc_themecast .group_edit .btn_set,.sc_themecast .main_category .tab.id_movie[aria-selected=true]:hover,.sc_themecast .main_category .tab[aria-selected=true],.sc_themecast .theme_title .title_sub_tab .tab_item.tab_on .tab,#gnb .list_filter .name,html:not([data-dark=true]) #gnb .set_area .btn_set,html[data-darkt=true] #gnb .set_area .btn_set[aria-disabled=true] { color: #242424 }
     .sc_login,#gnb .list_age,#gnb .list_nav.type_empty .empty_box,#gnb .ly_realtime .ly_help { border: 1px solid #404040;background-color: #242424 }
@@ -663,11 +666,9 @@
     .sc_newscast .tile_view .frame_area .line,.sc_themecast .group_edit .btn_func+.btn_func:before,.sc_themecast .group_title .info_area .btn_set:after,.sc_timesquare .card_air .air_item+.air_item:before,.sc_timesquare .card_stock .stock_box:before,#footer .list_corp .corp_item+.corp_item:before,#footer .partner_box .link_partner+.link_partner:before,#gnb .list_filter .filter_item,#header .service_area .sa_bar { background-color: #404040 }
     .sc_newscast .tile_view .popup_wrap .btn_popup,#gnb .group_nav .ly_btn_area .btn { color: #cacaca;border: 1px solid #404040;background-color: #242424 }
     .sc_newscast .tile_view .popup_wrap .btn_popup:hover { border-color: #4f4f4f }
-    .sc_newscast .tile_view .popup_wrap,.sc_themecast .topstory_view.type_star,.sc_themecast .topstory_view.type_star .topstory_info,.sc_themecast.id_china .topstory_view .topstory_writer,.sc_themecast.id_china .topstory_view.type_ad .topstory_info,.sc_themecast.id_china .topstory_view.type_star .topstory_info,.sc_themecast.id_cargame .topstory_view .topstory_writer,.sc_themecast.id_cargame .topstory_view.type_star .topstory_info,.sc_themecast.id_movie .topstory_view .topstory_writer,.sc_themecast.id_movie .topstory_view.type_star .topstory_info,.sc_themecast.id_enter .topstory_view .topstory_writer,.sc_themecast.id_enter .topstory_view.type_ad .topstory_info,.sc_themecast.id_enter .topstory_view.type_star .topstory_info,.sc_themecast.id_enter .topstory_view.type_star,.sc_themecast.id_enter .topstory_writer,.sc_timesquare .card_nav .btn_nav:hover { background-color: #2f2f2f }
     .sc_newscast .tile_view,#gnb .group_service { border: 1px solid #404040;border-width: 0 1px }
     .sc_themecast .btn_more_wrap,.sc_themecast .group_topstory,#gnb .ly_realtime .title_area,html[data-dark=true] #header .special_bg { border-bottom: 1px solid #404040 }
     .sc_themecast .chart_view .chart_area+.chart_area,.sc_themecast .group_theme+.group_theme,#footer .aside_area,#footer .notice_area,#footer .corp_area,#gnb .list_age_wrap,#gnb .ly_realtime .info_area,#veta_time2 { border-top: 1px solid #404040 }
-    .sc_themecast .group_edit,.sc_themecast .list_edit .edit_item,.sc_themecast .main_category .list_category:before,.sc_timesquare { border: 1px solid #404040 }
     .sc_themecast .list_select_tab { border-bottom: 1px solid #404040;background-color: #2f2f2f }
     .sc_themecast .main_category .tab { color: #cacaca;border-right: 1px solid #404040 }
     .sc_themecast .main_category .tab.id_law[aria-selected=true] { border-color: #3c5ba7;background-color: #3c5ba7 }
@@ -691,6 +692,7 @@
     #gnb,#header.ani_fixed .special_bg { box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 1);background-color: #242424 }
     #header .search_area .input_text { color: #cacaca;border: none;background-color: #242424 }
     #header .special_bg { border-bottom: 1px solid #404040;background-color: #242424 }
+    #veta_branding span[class^=veta_bd_],#veta_top span[class^=veta_bd_] { background: none }
     #veta_top { margin-bottom: 12px }
     html:not([data-dark=true]) .logo_area .logo_special img { filter: invert(85.7%) hue-rotate(-180deg) }
     input { color: #cacaca;border: 1px solid #404040;background: #242424 }
@@ -3477,8 +3479,11 @@
     #header.h_myfeed,#header.h_noti { border-bottom: 2px solid #404040;background: #242424 }
 }
 @-moz-document url-prefix("https://nv.veta.naver.com") {
-    .main_public_desc,.main_public_desc2 { color: #cacaca }
-    .main_public_title { color: #fff }
+    .main_public_desc,.main_public_desc2,.rollingboard_native_ad .desc { color: #cacaca }
+    .main_public_title,.rollingboard_native_ad .title { color: #fff }
+    .rollingboard_native_ad { color: #cacaca;border: 1px solid #404040 }
+    .rollingboard_native_ad .icon_ad,.rollingboard_native_ad .landing::after { filter: invert(86%) hue-rotate(-180deg) }
+    .rollingboard_native_ad .title_area { border-bottom: 1px solid #404040 }
     body,head,html { background: transparent !important }
 }
 @-moz-document url-prefix("https://open.dict.naver.com") {

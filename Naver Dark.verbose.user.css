@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.177
+@version		1.48.178
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -33760,6 +33760,26 @@
 	.sc_themecast.id_enter .topstory_view .topstory_writer, .sc_themecast.id_enter .topstory_view.type_ad .topstory_info, .sc_themecast.id_enter .topstory_view.type_star .topstory_info {
 		background-color: #2f2f2f;
 	}
+	
+	.rollingboard_player::before {
+		border: 1px solid #404040;
+	}
+	
+	.rollingboard_player::after {
+		background: #242424;
+	}
+	
+	.da_expwide_inner, .da_expwide_inner.type_full {
+		background-color: #2f2f2f;
+	}
+	
+	#veta_branding span[class^=veta_bd_], #veta_top span[class^=veta_bd_] {
+		background: none;
+	}
+	
+	.rollingboard_native_ad {
+		border: 1px solid #404040;
+	}
 }
 
 @-moz-document url-prefix("https://castbox.shopping.naver.com")
@@ -34080,6 +34100,27 @@
 	
 	html, head, body {
 		background: transparent !important;
+	}
+	
+	.rollingboard_native_ad .icon_ad, .rollingboard_native_ad .landing::after {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.rollingboard_native_ad .title_area {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.rollingboard_native_ad .title {
+		color: #fff;
+	}
+	
+	.rollingboard_native_ad .desc {
+		color: #cacaca;
+	}
+	
+	.rollingboard_native_ad {
+		border: 1px solid #404040;
+		color: #cacaca;
 	}
 }
 

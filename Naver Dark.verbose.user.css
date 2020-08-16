@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.174
+@version		1.48.177
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -10391,6 +10391,56 @@
 	.cs_weboriginal .title_area .title .state_end {
 		border: 1px solid #cacaca !important;
 		color: #cacaca !important;
+	}
+	
+	.apply_connection dt {
+		color: #fff !important;
+	}
+	
+	.apply_connection, .cartoon_info .lst_outher {
+		border-top: 1px solid #404040;
+	}
+	
+	.cartoon_info .lst_outher li dl dt {
+		color: #cacaca !important;
+	}
+	
+	.cartoon_info .star_rating, .cartoon_info .cont .detail dd.btn_area img, .cartoon_info .cont h3 .ico, .cartoon_info .thumb_area .img_more {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cartoon_info .bar2 {
+		color: #404040;
+	}
+	
+	.cartoon_info .cont .detail dt .bar2 {
+		color: #404040 !important;
+	}
+	
+	.cartoon_info .notice_area .notice {
+		border-bottom: none;
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.sub_pack .sp_webtoon .lst_sympathy_rank .rank_top .info_area .tit {
+		color: #7474e3;
+	}
+	
+	.sub_pack .sp_webtoon .lst_sympathy_rank li .num {
+		color: #cacaca;
+		border: 1px solid #404040;
+	}
+	
+	.sub_pack .sp_webtoon .lst_sympathy_rank .info_area .tit {
+		color: #cacaca;
+	}
+	
+	.sub_pack .sp_webtoon .lst_sympathy_rank .info_area .tit .ico_adult, .sub_pack .sp_webtoon .lk_rts_help {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.sub_pack .sp_webtoon .lst_sympathy_rank .info_area .name {
+		color: #cacaca;
 	}
 }
 

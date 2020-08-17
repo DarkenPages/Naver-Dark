@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.178
+@version		1.48.179
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -38478,7 +38478,7 @@
 	}
 	
 	.se-body .se-grammar.se-grammar-error.se-is-selected, .se-body .se-grammar.se-grammar-error:hover {
-		color: #242424 !important !important;
+		color: #242424 !important;
 	}
 	
 	.se-body .se-container:before, .se-body .se-content {
@@ -38669,7 +38669,7 @@
 	}
 	
 	.nvu_section_upload .nvu_upload_select .nvu_link_select[aria-selected=true] {
-		background-color: #2f2f2f !important !important;
+		background-color: #2f2f2f !important;
 	}
 	
 	.nvu_section_upload .nvu_upload_select .nvu_item:not(.nvu_is_dragged):not(.nvu_is_dimmed):hover .nvu_link_select {
@@ -39385,7 +39385,7 @@
 	}
 	
 	.se-body .se-cell.se-is-selected {
-		background-color: #2f2f2f !important !important;
+		background-color: #2f2f2f !important;
 	}
 	
 	.se-body .se-canvas .se-section-formula:before {
@@ -39737,19 +39737,19 @@
 	}
 	
 	.se-body .se-component *[style*='border-bottom'] {
-		border-bottom: 1px solid #404040 !important !important;
+		border-bottom: 1px solid #404040 !important;
 	}
 	
 	.se-body .se-component *[style*='background-color'] {
-		background-color: #242424 !important !important;
+		background-color: #242424 !important;
 	}
 	
 	.se-body .se-component *[style*='border-top'] {
-		border-top: 1px solid #404040 !important !important;
+		border-top: 1px solid #404040 !important;
 	}
 	
 	.se-body .se-component *[style*=' color'], .se-body .se-component *[style*=' !important;color'], .se-body .se-component *[style^='color'] {
-		color: #cacaca !important !important;
+		color: #cacaca !important;
 	}
 	
 	.se-body .se-material-detail {

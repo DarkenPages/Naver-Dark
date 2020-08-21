@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.184
+@version		1.48.185
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -1489,7 +1489,7 @@
     .se-body .se-sidebar-next-button,.se-body .se-sidebar-prev-button { border: 0 solid #404040 !important;background-color: #242424 !important }
     .se-body .se-sidebar-next-button:before { box-shadow: inset -1px -1px 0 0 #cacaca !important;-webkit-box-shadow: inset -1px -1px 0 0 #cacaca !important }
     .se-body .se-sidebar-prev-button:disabled:before { box-shadow: inset 1px 1px 0 0 #444 !important;-webkit-box-shadow: inset 1px 1px 0 0 #444 !important }
-    .se-body .se-spellcheck-article-header { box-shadow: 0 1px 7px 0 #000 !important;-webkit-box-shadow: 0 1px 7px 0 #000 !important;!important }
+    .se-body .se-spellcheck-article-header { box-shadow: 0 1px 7px 0 #000 !important;-webkit-box-shadow: 0 1px 7px 0 #000 !important }
     .se-body .se-spellcheck-article-header-button.se-spellcheck-button-completion:hover:before { box-shadow: inset 1px -1px 0 0 #242424 !important;-webkit-box-shadow: inset 1px -1px 0 0 #242424 !important }
     .se-body .se-sticker-header { border-bottom: 1px solid #404040 !important;background: #242424 !important }
     .ui-state-active .ui-icon,.ui-state-focus .ui-icon,.ui-state-hover .ui-icon,.wrap_choice_rabbit_editor .se-color-apply-button:before { border-color: #cacaca !important }

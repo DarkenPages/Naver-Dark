@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.184
+@version		1.48.185
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -38562,7 +38562,7 @@
 	}
 	
 	.se-body .se-spellcheck-article-header {
-		-webkit-box-shadow: 0 1px 7px 0 #000 !important; !important;
+		-webkit-box-shadow: 0 1px 7px 0 #000 !important;
 		box-shadow: 0 1px 7px 0 #000 !important;
 	}
 	

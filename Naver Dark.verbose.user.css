@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.179
+@version		1.48.184
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -10440,6 +10440,155 @@
 	}
 	
 	.sub_pack .sp_webtoon .lst_sympathy_rank .info_area .name {
+		color: #cacaca;
+	}
+	
+	.cs_production_type .status_info, .cs_production_type .patients_info .sub_tab_area {
+		border-right: 1px solid #404040;
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_production_type .csp_tab_area {
+		border: 1px solid #404040;
+		border-top: 0;
+	}
+	
+	.cs_production_type .status_info ul li.info_04 .info_title, .cs_production_type .status_info ul li.info_04 .info_num {
+		color: #fff;
+	}
+	
+	.cs_production_type .status_info ul li.info_04 .info_variation {
+		color: #cacaca;
+	}
+	
+	.cs_production_type .status_info ul li + li {
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_production_type .status_info ul {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_production_type .patients_info .option_tab .tab[aria-selected="true"] .menu {
+		color: #fff;
+	}
+	
+	.cs_production_type .turnout {
+		background: #242424;
+	}
+	
+	.cs_production_type ._daily_chart, .cs_production_type .confirmed_graph, .cs_production_type .csp_table_area {
+		border-right: 1px solid #404040;
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_production_type .csp_infoCheck_area {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+		border-top: 0;
+	}
+	
+	.cs_production_type .turnout_graph {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_production_type .csp_subInfo_area .link_more {
+		color: #7474e3;
+	}
+	
+	.cs_production_type .csp_infoCheck_area .csp_ico_alert {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_production_type .graph .column.-point:after {
+		background: #2f2f2f;
+	}
+	
+	.cs_production_type .graph .grid div {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_production_type .graph .column.-point .x_axis_value {
+		color: #fff;
+	}
+	
+	.cs_production_type .graph .grid div:last-child {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_production_type .turnout_graph .legend_list {
+		border: 1px solid #404040;
+	}
+	
+	.cs_production_type .turnout_graph .legend_item {
+		color: #fff;
+	}
+	
+	.cs_production_type .csp_paging_area {
+		border-bottom: 1px solid #404040;
+		border-right: 1px solid #404040;
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_production_type .csp_table_area table th {
+		border: 1px solid #404040;
+		border-width: 1px 1px 0 0;
+		background-color: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.cs_production_type .csp_table_area table th:first-child, .cs_production_type .csp_table_area table td:first-child {
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_production_type .csp_table_area table td {
+		border: 1px solid #404040;
+		border-width: 0 1px 1px 0;
+	}
+	
+	.cs_production_type .csp_table_area table tr:first-child td {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_production_type .csp_table_area table td {
+		color: #fff;
+	}
+	
+	.cs_production_type .csp_paging_area .csp_pgs .csp_npgs {
+		color: #fff;
+	}
+	
+	.cs_production_type .patients_map {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_production_type .csp_info_area {
+		color: #cacaca;
+		border: 1px solid #404040;
+		border-top: 0;
+		border-bottom: 0;
+	}
+	
+	.cs_production_type .button_area, .cs_production_type .step_area {
+		border: 1px solid #404040;
+		border-top: 0;
+	}
+	
+	.cs_production_type .select_tab select {
+		color: #cacaca;
+	}
+	
+	.cs_production_type .step_area .title_area {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_production_type .csp_info_area .info_list .term {
+		color: #fff;
+	}
+	
+	.cs_production_type .csp_layer_info {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
 		color: #cacaca;
 	}
 }

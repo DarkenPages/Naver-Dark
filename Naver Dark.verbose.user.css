@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.185
+@version		1.48.188
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -33929,6 +33929,20 @@
 	.rollingboard_native_ad {
 		border: 1px solid #404040;
 	}
+	
+	.sc_themecast.id_cargame .topstory_view .topstory_writer, .sc_themecast.id_cargame .topstory_view.type_ad .topstory_info, .sc_themecast.id_cargame .topstory_view.type_star .topstory_info {
+		background-color: #2f2f2f;
+	}
+	
+	.sc_themecast .topstory_view.type_ad .topstory_info {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+		border-width: 0 1px 1px;
+	}
+	
+	.sc_themecast .topstory_view .ico_ad {
+		background-color: #242424;
+	}
 }
 
 @-moz-document url-prefix("https://castbox.shopping.naver.com")
@@ -34022,6 +34036,14 @@
 	
 	html[data-dark=true] .shop_wrap .shop_control .btn_prev:hover:before, .shop_wrap .shop_control .btn_next:hover:before, .shop_wrap .shop_page .btn_prev:hover:before, .shop_wrap .shop_page .btn_next:hover:before {
 		filter: invert(0) hue-rotate(0);
+	}
+	
+	.shop_wrap .group_price {
+		border-top: 1px solid #404040;
+	}
+	
+	.shop_wrap .group_event + .group_goods:before {
+		background-color: #404040;
 	}
 }
 

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.188
+@version		1.48.192
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -12975,6 +12975,14 @@
 	
 	.type2.layer_smartEditor .chk label {
 		color: #fff;
+	}
+	
+	.skin-1080 .restrict_area {
+		border-color: #404040;
+	}
+	
+	.skin-1080 .restrict_area .restrict_more {
+		border-top-color: #404040;
 	}
 }
 
@@ -50883,6 +50891,81 @@
 		background-color: #3a3a3a;
 		color: #cacaca;
 		box-shadow: 0 1px 12px 0 rgba(0,0,0,.5);
+	}
+	
+	.FormNoticeContent {
+		color: #fff;
+	}
+	
+	.se-viewer .se-caption span {
+		color: #cacaca;
+	}
+	
+	.se-viewer .se-section-quotation.se-l-quotation_bubble .se-quotation-container {
+		border: 4px solid #404040;
+		background: #242424;
+	}
+	
+	.se-viewer .se-section-quotation.se-l-quotation_bubble .se-quotation-container:after, .se-viewer .se-video .se-media-meta-toggle-button:after {
+		filter: invert(85.5%) hue-rotate(-180deg);
+	}
+	
+	.CafeViewer .se-viewer .se-video .se-media-meta {
+		background: #2f2f2f;
+	}
+	
+	.se-viewer .se-video .se-media-meta-info {
+		color: #fff;
+	}
+	
+	.se-viewer .se-section-horizontalLine.se-l-line1 .se-hr {
+		background-color: #cacaca;
+	}
+	
+	.CafeViewer .CafeCustomVote {
+		color: #fff;
+	}
+	
+	.CafeViewer .CafeCustomVote .cafe_vote_wrap {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.CafeViewer .CafeCustomVote .cafe_vote_view .cafe_vote_status {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.CafeViewer .CafeCustomVote .cafe_vote_view .cafe_vote_list .vote_list_item {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.CafeViewer .CafeCustomVote .cafe_vote_view .cafe_vote_list .vote_check .input_check+.label_text:before {
+		filter: invert(82.5%) hue-rotate(-180deg);
+	}
+	
+	.CafeViewer .CafeCustomVote .cafe_vote_view .vote_more {
+		border-top: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.ModalLayer .layer_wrap {
+		background-color: #2f2f2f;
+	}
+	
+	.ModalLayer {
+		color: #fff;
+	}
+	
+	.ModalLayer .layer_vote_member {
+		border: 1px solid #404040;
+	}
+	
+	.ModalLayer .layer_vote_member .user_list {
+		border-top: 1px solid #404040;
+	}
+	
+	.CafeViewer .CafeCustomVote .cafe_vote_view .cafe_vote_btn {
+		border-top: 1px solid #404040;
 	}
 }
 

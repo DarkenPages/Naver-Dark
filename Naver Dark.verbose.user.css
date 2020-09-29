@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.192
+@version		1.48.204
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -11668,6 +11668,10 @@
 	#footer ul li {
 		filter: none;
 	}
+	
+	.user_mycafe_info .name_area {
+		color: #fff;
+	}
 }
 
 @-moz-document url-prefix("https://talk.cafe.naver.com")
@@ -13596,6 +13600,40 @@
 	
 	.qr_img {
 		border: 1px solid #404040;
+	}
+	
+	.error_chatbot .chatbot_box {
+		border: 1px solid #404040;
+	}
+	
+	.chatbot_box .txt {
+		color: #cacaca;
+	}
+	
+	.naversign_cert_banner {
+		background-color: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.find_info a {
+		color: #cacaca;
+	}
+	
+	.btn_done {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.btn_done .txt {
+		color: #cacaca;
+	}
+	
+	.btn_done .picture::before, .btn_done .refresh::before, .btn_done .voice::before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.pc_check a {
+		color: #cacaca;
 	}
 }
 
@@ -33951,6 +33989,26 @@
 	.sc_themecast .topstory_view .ico_ad {
 		background-color: #242424;
 	}
+	
+	#NM_TOP_BANNER div p a span {
+		color: #cacaca;
+	}
+	
+	#NM_TOP_BANNER div p a strong {
+		color: #fff;
+	}
+	
+	#NM_whale_download_btn span {
+		color: #242424 !important;
+	}
+	
+	.sc_themecast .chart_view .info_box .title {
+		color: #fff;
+	}
+	
+	.sc_themecast .chart_view .info_box .dsc+.dsc, html[data-dark=true] .sc_themecast .chart_view .info_box .dsc+.dsc {
+		color: #cacaca;
+	}
 }
 
 @-moz-document url-prefix("https://castbox.shopping.naver.com")
@@ -50967,6 +51025,18 @@
 	.CafeViewer .CafeCustomVote .cafe_vote_view .cafe_vote_btn {
 		border-top: 1px solid #404040;
 	}
+	
+	.se-viewer .se-module-oglink {
+		background-color: #2f2f2f;
+	}
+	
+	.CafeViewer .se-viewer .se-module-oglink .se-oglink-title {
+		color: #fff;
+	}
+	
+	.CafeViewer .se-viewer .se-module-oglink .se-oglink-summary {
+		color: #cacaca;
+	}
 }
 
 @-moz-document url-prefix("https://hanja.dict.naver.com")
@@ -53463,5 +53533,119 @@
 	
 	.int.focus {
 		background-color: #2a2a2a;
+	}
+}
+
+@-moz-document url-prefix("https://whale.naver.com")
+{
+	body {
+		background: #242424 !important;
+		color: #cacaca !important;
+	}
+	
+	p, span {
+		color: #cacaca !important;
+	}
+	
+	strong, b {
+		color: #fff !important;
+	}
+	
+	h1, h2, h3 {
+		color: #fff !important;
+	}
+	
+	h4, h5, h6 {
+		color: #fff !important;
+	}
+	
+	a {
+		color: #7474e3;
+	}
+	
+	._2DXP9UNE {
+		background-color: #2f2f2f;
+	}
+	
+	._3fbvw2Dt {
+		background-color: #2f2f2f;
+	}
+	
+	._3pQ5zZUv a._1fcTvlFX {
+		color: #fff;
+	}
+	
+	._3fbvw2Dt nav a {
+		color: #fff;
+	}
+	
+	._3pQ5zZUv a._3wZQ3AVP {
+		color: #fff;
+	}
+	
+	._2LBPhRPq {
+		border-color: hsla(0,0%,100%,.7);
+		background-color: transparent;
+	}
+	
+	.main header a svg path {
+		fill: #fff;
+	}
+	
+	article.container {
+		background: #2f2f2f;
+		color: #cacaca;
+		border: 1px solid #404040;
+	}
+	
+	._1qDgLKXh._2QCQru7I, ._1RJUG1Vq, ._1XpDCuae {
+		background-color: #2f2f2f;
+	}
+	
+	._1XpDCuae a {
+		background-color: #242424;
+	}
+}
+
+@-moz-document url-prefix("https://cafe.naver.com/CafeTagArticleList.nhn")
+{
+	.skin-1080 .article-tag .list_tag li {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.skin-1080 .article-tag .list_tag .tit_area .link_tit {
+		color: #fff;
+	}
+	
+	.skin-1080 .article-tag .list_tag .desc_tag .tag {
+		color: #cacaca;
+	}
+	
+	.skin-1080 .article-tag .list_tag .desc_tag .ico_tag {
+		color: #000;
+	}
+}
+
+@-moz-document url-prefix("https://cafe.naver.com/ReservationGameCafeApplyView.nhn")
+{
+	.article-reserve .title_cell {
+		color: #fff;
+	}
+	
+	.article-reserve .row {
+		border-top: 1px solid #404040;
+	}
+	
+	.article-reserve .nick_setting .btn_type1 {
+		border-color: #404040;
+	}
+	
+	.join_noti_section {
+		background: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.join_noti_section .list_bold {
+		color: #fff;
 	}
 }

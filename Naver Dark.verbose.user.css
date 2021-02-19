@@ -2,9 +2,10 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.641
+@version		1.48.648
 @namespace		Avis Studio
 @license		CC BY-NC-SA
+@preprocessor	default
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://www.naver.com"), url-prefix("https://my.naver.com"), url-prefix("https://ui.nboard2.naver.com"), url-prefix("https://search.naver.com"), url-prefix("https://castbox.shopping.naver.com"), url-prefix("https://section.cafe.naver.com"), url-prefix("https://talk.cafe.naver.com"), url-prefix("https://cafe.upphoto.naver.com"), url-prefix("https://cafe.naver.com/CafeMemberInfo.nhn"), url-prefix("https://section.blog.naver.com"), url-prefix("https://uploader1.nmv.naver.com"), url-prefix("https://up.cafe.naver.com"), url-prefix("https://datalab.naver.com"), url-prefix("https://www.navercorp.com"), url-prefix("https://mail.naver.com"), url-prefix("https://note.naver.com"), url-prefix("https://mashup.map.naver.com"), url-prefix("https://nid.naver.com/nidlogin.login")
@@ -35339,13 +35340,13 @@
 	}
 	
 	.se-viewer .se-section-quotation.se-l-quotation_postit .se-quotation-container {
-		background: #242424;
+		background: #2f2f2f;
 		border: solid #404040;
 		border-width: 4px 4px 0;
 	}
 	
 	.se-viewer .se-section-quotation.se-l-quotation_postit .se-quotation-container:after {
-		background-color: #242424;
+		background-color: #2f2f2f;
 		border: solid #404040;
 		border-width: 0 0 4px 4px;
 	}
@@ -35895,12 +35896,12 @@
 	}
 	
 	.se-viewer .se-section-quotation.se-l-quotation_bubble .se-quotation-container {
-		border: 4px solid #404040;
-		background: #242424;
+		border: 5px solid #404040;
+		background: #2f2f2f;
 	}
 	
 	.se-viewer .se-section-quotation.se-l-quotation_bubble .se-quotation-container:after {
-		filter: invert(86%) hue-rotate(-180deg);
+		filter: invert(81.5%) hue-rotate(-180deg);
 	}
 	
 	.se-viewer .se-module-material {
@@ -36241,10 +36242,6 @@
 	
 	.se-viewer .se-section-placesMap.se-section-placesMap-multiple .se-module-map-text:not(:last-child):after {
 		background-color: #404040;
-	}
-	
-	.se-viewer .se-section-placesMap.se-l-default .se-dynamic-map {
-		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.cwg_master {
@@ -36885,6 +36882,13 @@
 		background-color: #2f2f2f;
 		box-shadow: 0 0 3px #000;
 		margin-bottom: 10px;
+	}
+	
+	.se-viewer .se-section-quotation.se-l-quotation_bubble .se-quotation-container:before {
+		background: -webkit-linear-gradient(left,#404040,#404040 30%,#2f2f2f 0,#2f2f2f 45%,#404040 0,#404040);
+		background: linear-gradient(90deg,#404040 0,#404040 30%,#2f2f2f 0,#2f2f2f 45%,#404040 0,#404040);
+		background: -webkit-linear-gradient(left,#404040,#404040 30%,#2f2f2f 0,#2f2f2f 180px,#404040 0,#404040);
+		background: linear-gradient(90deg,#404040 0,#404040 30%,#2f2f2f 0,#2f2f2f 180px,#404040 0,#404040);
 	}
 }
 
@@ -44472,6 +44476,11 @@
 	
 	.c3-axis-y path, .c3-axis-y line, .c3-axis-y2 path, .c3-axis-y2 line {
 		stroke: #4f4f4f;
+	}
+	
+	.u_ni_error_section .u_ni_desc {
+		color: #fff;
+		font-family: 'Helvetica';
 	}
 }
 
@@ -56431,6 +56440,18 @@
 	
 	.sp_nnews .news_wrap .news_tit:visited, .sp_nnews .news_wrap .news_tit:visited mark, .sp_nnews .api_title_sub .sub_link:visited, .sp_nnews .news_cluster .sub_tit:visited, .sp_nnews .news_cluster .sub_tit:visited mark, .sp_nnews .news_wrap:visited .news_tit .tit, .sp_nnews .news_wrap:visited .news_tit .tit mark, .sp_nreview .total_tit:visited, .sp_nreview .total_tit:visited mark, .sp_nreview .total_link_area .link:visited, .sp_nreview .total_link_area .link:visited mark, .sp_ntotal .total_tit .link_tit:visited, .sp_ntotal .total_tit .link_tit:visited mark, .sp_nvideo .video_default_list .video_bx .info_area .info_title:visited, .sp_nvideo .video_default_list .video_bx .info_area .info_title:visited mark, .sp_ntotal .group_item .list_item .item a:visited, .sp_ntotal .group_item .list_item .item a:visited mark, .sp_nvideo .video_scroll_list .info_area .info_title:visited, .sp_nvideo .video_scroll_list .info_area .info_title:visited mark, .sp_nkin .cluster_item:visited, .sp_nrealtime .info_desc .desc_link:visited, .sp_nrealtime .info_desc .desc_tit:visited, .sp_nrealtime .info_desc:visited .desc_tit, .sp_nrealtime .profile_link:visited .explain_tit, .sp_nblog .total_tit:visited, .sp_nblog .total_tit:visited mark, .sp_ncafe .total_tit:visited, .sp_ncafe .total_tit:visited mark, .sp_nsite .link_name:visited, .sp_nsite .link_name:visited mark, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark, .sp_nkin .kin_wrap .question_area .question_text:visited, .cs_produce .prcs_detail h4 a:visited, .cs_produce a:visited, .ad_section .lst_type .lst .lnk_tit: visited, .ad_section .lst_type .lst.type_subtitle .sub_tit:visited, .sp_company .company_more .more_info .api_ly_info .link:visited, .ad_section .lst_type .lst.ext_price .lst_price .txt_inner:visited, .ad_section .lst_type .lst.ext_link .lst_link .item .link:visited {
 		color: #cc90cd;
+	}
+	
+	.sp_naside .naside_wrap .entry_list .entry_area .tit_wrap .tit {
+		color: #cacaca;
+	}
+	
+	.sp_naside .naside_wrap .entry_list .entry_area .rank_wrap .rank {
+		color: #fff;
+	}
+	
+	.sp_naside .naside_wrap .entry_list .item_inner {
+		border-bottom: 1px solid #404040;
 	}
 }
 

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.648
+@version		1.48.654
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -55433,6 +55433,10 @@
 		background-color: #404040;
 	}
 	
+	.sp_nrealtime .nrealtime_list .nrealtime_item .item_info .info_source, .sp_nrealtime .nrealtime_list .nrealtime_item .item_info .source_site {
+		color: #cacaca;
+	}
+	
 	.sc_new .api_more_wrap .api_refresh {
 		border-left: 1px solid #404040;
 	}
@@ -55865,6 +55869,11 @@
 		color: #cacaca;
 	}
 	
+	.sp_nshop .partial_noti {
+		border-top: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
 	.sp_nshop .legal_noti {
 		border-top: 1px solid #404040;
 		color: #cacaca;
@@ -55942,7 +55951,7 @@
 		color: #fff;
 	}
 	
-	/* 절기 정보 */
+	 절기 정보 
 	
 	.cs_produce .prcs_detail dd span.inline {
 		color: #cacaca;
@@ -56434,11 +56443,15 @@
 		fill: #cacaca;
 	}
 	
-	.sp_nreview .total_tit, .sp_nreview .total_link_area .link, .sp_ntotal .total_tit .link_tit, .sp_nbook .book_info .title_area, .sp_nbook .list_info a.item_info, .sp_nvideo .video_default_list .video_bx .info_area .info_title, .go_relate a, .sp_ntotal .group_item .list_item .item a, .sp_nvideo .video_scroll_list .info_area .info_title, ._3tIZ6 ._2LKql ._3CKdL, .sp_nvideo .video_square_list .square_wrap .info_area .info_title, .sp_nrealtime .nrealtime_list .nrealtime_item .item_info .desc_tit, .sp_nblog .total_tit, .sp_ncafe .total_tit, .sp_nsite .link_name, .sp_nsite .sublink_wrap .sublink .item a, .cs_produce a, .cs_produce .prcs_detail h4 a, .ad_section .lst_type .lst .lnk_tit, .ad_section .lst_type .lst.type_subtitle .sub_tit, .api_ly_info .link, .ad_section .lst_type .lst.ext_price .lst_price .txt_inner, .ad_section .lst_type .lst.ext_link .lst_link .item .link, #place-app-root .sc_new .api_subject_bx .api_title_area+div>div+div[class]>ul li>div[class]>div[class]>a[href] {
+	.sp_nreview .total_tit, .sp_nreview .total_link_area .link, .sp_ntotal .total_tit .link_tit, .sp_nbook .book_info .title_area, .sp_nbook .list_info a.item_info, .sp_nvideo .video_default_list .video_bx .info_area .info_title, .go_relate a, .sp_ntotal .group_item .list_item .item a, .sp_nvideo .video_scroll_list .info_area .info_title, ._3tIZ6 ._2LKql ._3CKdL, .sp_nvideo .video_square_list .square_wrap .info_area .info_title, .sp_nrealtime .nrealtime_list .nrealtime_item .item_info .desc_tit, .sp_nblog .total_tit, .sp_ncafe .total_tit, .sp_nsite .link_name, .sp_nsite .sublink_wrap .sublink .item a, .cs_produce a, .cs_produce .prcs_detail h4 a, .ad_section .lst_type .lst .lnk_tit, .ad_section .lst_type .lst.type_subtitle .sub_tit, .api_ly_info .link, .ad_section .lst_type .lst.ext_price .lst_price .txt_inner, .ad_section .lst_type .lst.ext_link .lst_link .item .link, #place-app-root .sc_new .api_subject_bx .api_title_area+div>div+div[class]>ul li>div[class]>div[class]>a[href], .sp_ndicstudy .word_lst .word, .sp_nrealtime .api_title .btn_new {
 		color: #688cda;
 	}
 	
-	.sp_nnews .news_wrap .news_tit:visited, .sp_nnews .news_wrap .news_tit:visited mark, .sp_nnews .api_title_sub .sub_link:visited, .sp_nnews .news_cluster .sub_tit:visited, .sp_nnews .news_cluster .sub_tit:visited mark, .sp_nnews .news_wrap:visited .news_tit .tit, .sp_nnews .news_wrap:visited .news_tit .tit mark, .sp_nreview .total_tit:visited, .sp_nreview .total_tit:visited mark, .sp_nreview .total_link_area .link:visited, .sp_nreview .total_link_area .link:visited mark, .sp_ntotal .total_tit .link_tit:visited, .sp_ntotal .total_tit .link_tit:visited mark, .sp_nvideo .video_default_list .video_bx .info_area .info_title:visited, .sp_nvideo .video_default_list .video_bx .info_area .info_title:visited mark, .sp_ntotal .group_item .list_item .item a:visited, .sp_ntotal .group_item .list_item .item a:visited mark, .sp_nvideo .video_scroll_list .info_area .info_title:visited, .sp_nvideo .video_scroll_list .info_area .info_title:visited mark, .sp_nkin .cluster_item:visited, .sp_nrealtime .info_desc .desc_link:visited, .sp_nrealtime .info_desc .desc_tit:visited, .sp_nrealtime .info_desc:visited .desc_tit, .sp_nrealtime .profile_link:visited .explain_tit, .sp_nblog .total_tit:visited, .sp_nblog .total_tit:visited mark, .sp_ncafe .total_tit:visited, .sp_ncafe .total_tit:visited mark, .sp_nsite .link_name:visited, .sp_nsite .link_name:visited mark, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark, .sp_nkin .kin_wrap .question_area .question_text:visited, .cs_produce .prcs_detail h4 a:visited, .cs_produce a:visited, .ad_section .lst_type .lst .lnk_tit: visited, .ad_section .lst_type .lst.type_subtitle .sub_tit:visited, .sp_company .company_more .more_info .api_ly_info .link:visited, .ad_section .lst_type .lst.ext_price .lst_price .txt_inner:visited, .ad_section .lst_type .lst.ext_link .lst_link .item .link:visited {
+	.sp_nnews .news_wrap .news_tit:visited, .sp_nnews .news_wrap .news_tit:visited mark, .sp_nnews .api_title_sub .sub_link:visited, .sp_nnews .news_cluster .sub_tit:visited, .sp_nnews .news_cluster .sub_tit:visited mark, .sp_nnews .news_wrap:visited .news_tit .tit, .sp_nnews .news_wrap:visited .news_tit .tit mark, .sp_nreview .total_tit:visited, .sp_nreview .total_tit:visited mark, .sp_nreview .total_link_area .link:visited, .sp_nreview .total_link_area .link:visited mark, .sp_ntotal .total_tit .link_tit:visited, .sp_ntotal .total_tit .link_tit:visited mark, .sp_nvideo .video_default_list .video_bx .info_area .info_title:visited, .sp_nvideo .video_default_list .video_bx .info_area .info_title:visited mark, .sp_ntotal .group_item .list_item .item a:visited, .sp_ntotal .group_item .list_item .item a:visited mark, .sp_nvideo .video_scroll_list .info_area .info_title:visited, .sp_nvideo .video_scroll_list .info_area .info_title:visited mark, .sp_nkin .cluster_item:visited, .sp_nrealtime .info_desc .desc_link:visited, .sp_nrealtime .info_desc .desc_tit:visited, .sp_nrealtime .info_desc:visited .desc_tit, .sp_nrealtime .profile_link:visited .explain_tit, .sp_nblog .total_tit:visited, .sp_nblog .total_tit:visited mark, .sp_ncafe .total_tit:visited, .sp_ncafe .total_tit:visited mark, .sp_nsite .link_name:visited, .sp_nsite .link_name:visited mark, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark, .sp_nkin .kin_wrap .question_area .question_text:visited, .cs_produce .prcs_detail h4 a:visited, .cs_produce a:visited, .ad_section .lst_type .lst .lnk_tit: visited, .ad_section .lst_type .lst.type_subtitle .sub_tit:visited, .sp_company .company_more .more_info .api_ly_info .link:visited, .ad_section .lst_type .lst.ext_price .lst_price .txt_inner:visited, .ad_section .lst_type .lst.ext_link .lst_link .item .link:visited, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark {
+		color: #cc90cd;
+	}
+	
+	.sp_nsite .link_name:visited, .sp_nsite .link_name:visited mark, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark, .sp_ntotal .total_tit .link_tit:visited, .sp_ntotal .total_tit .link_tit:visited mark, .sp_ntotal .group_item .list_item .item a:visited, .sp_ntotal .group_item .list_item .item a:visited mark, .sp_ndicstudy .word_lst .word:visited, .api_subject_bx .api_title_area .api_title a:visited {
 		color: #cc90cd;
 	}
 	
@@ -56452,6 +56465,574 @@
 	
 	.sp_naside .naside_wrap .entry_list .item_inner {
 		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_communication_box .channel_box .ch_list {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_communication_box .channel_box span {
+		color: #cacaca;
+	}
+	
+	.cs_communication_box .com_list_area {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_communication_box .com_box_area {
+		border: 1px solid #404040;
+		border-top: 3px solid #21ca00;
+	}
+	
+	.cs_communication_box .com_list_area .img_box .img_txt .tit {
+		color: #fff;
+	}
+	
+	.cs_communication_box .com_list_area .list_bar {
+		background-color: #404040;
+	}
+	
+	.cs_communication_box .com_list_area .img_box .img_txt .txt {
+		color: #cacaca;
+	}
+	
+	.cs_communication_box .com_list_area .img_box .img_txt .txt_line .com_bar {
+		color: #404040;
+	}
+	
+	.sp_ndicstudy .dicstudy_date {
+		border: 1px solid #404040;
+		border-width: 1px 0;
+		background-color: #2f2f2f;
+	}
+	
+	.sp_ndicstudy .dicstudy_date .date_select_txt {
+		color: #cacaca;
+	}
+	
+	.sp_ndicstudy .dicstudy_date .date_select_item:after {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.sp_ndicstudy .word_lst .word_item .word_wrap {
+		color: #cacaca;
+	}
+	
+	.sp_ndicstudy .word_lst .word_item+.word_item {
+		border-top: 1px solid #404040;
+	}
+	
+	.api_atcmp_wrap .atcmp_correct.over {
+		background-color: #2f2f2f;
+	}
+	
+	.api_atcmp_wrap .atcmp_correct:before {
+		background-color: #404040;
+	}
+	
+	.api_atcmp_wrap .atcmp_correct .link_item {
+		color: #fff;
+	}
+	
+	.api_atcmp_wrap .atcmp_correct .link_item .etc_area {
+		color: #cacaca;
+	}
+	
+	.api_atcmp_wrap .atcmp_correct.type_weather .link_item .etc_area .etc {
+		color: #fff;
+	}
+	
+	.cs_production_type .csp_tab_area .list_tab a {
+		color: #fff;
+	}
+	
+	.cs_production_type .csp_tab_area .list_tab li[aria-selected="true"] .menu:before {
+		background-color: #5b80c8;
+	}
+	
+	.cs_production_type .csp_tab_area .list_tab li[aria-selected="true"] a {
+		color: #5b80c8;
+	}
+	
+	.cs_production_type .csp_tab_area {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_production_type .status_info ul li.info_04 .info_title, .cs_production_type .status_info ul li.info_04 .info_num {
+		color: #fff;
+	}
+	
+	.cs_production_type .status_info ul li.info_04 .info_variation {
+		color: #fff;
+	}
+	
+	.cs_production_type .status_info ul li.info_04 .info_variation::after {
+		filter: brightness(100);
+	}
+	
+	.cs_production_type .status_info ul li+li {
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_production_type .patients_info .option_tab .tab[aria-selected="true"] .menu {
+		color: #fff;
+	}
+	
+	.cs_production_type .patients_info .option_tab .tab .menu {
+		color: #cacaca;
+	}
+	
+	.cs_production_type .graph .grid div {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_production_type .csp_infoCheck_area {
+		background-color: #3a3a3a;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_production_type .csp_infoCheck_area .csp_ico_alert {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_production_type .csp_layer_info {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.cs_production_type .csp_infoCheck_area .info_text {
+		color: #cacaca;
+	}
+	
+	.cs_production_type .turnout_graph .legend_list {
+		border: 1px solid #404040;
+	}
+	
+	.cs_production_type .turnout_graph .legend_item {
+		color: #cacaca;
+	}
+	
+	.cs_production_type .graph .column.-point .x_axis_value {
+		color: #fff;
+	}
+	
+	.cs_production_type .graph .column .x_axis_value {
+		color: #cacaca;
+	}
+	
+	.cs_production_type .graph .grid div:last-child {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_production_type .graph .data_content.-bar_data .value::after {
+		background: #8c68aa;
+	}
+	
+	.cs_production_type .graph .data_content.-bar_data .value + .value::after {
+		background: #a65d5d;
+	}
+	
+	.cs_production_type .status_today ul {
+		background-color: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.cs_production_type .status_today ul li.info_01 {
+		color: #cacaca;
+	}
+	
+	.cs_production_type .patients_map {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_production_type .csp_table_area table td {
+		color: #cacaca;
+		border: 1px solid #404040;
+		border-width: 0 1px 1px 0;
+	}
+	
+	.cs_production_type .csp_table_area table td:first-child {
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_production_type .csp_table_area table td:nth-of-type(2) {
+		background-color: #3a3a3a;
+	}
+	
+	.cs_production_type .csp_paging_area {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_production_type .corona_notice .disaster_message .message_list li {
+		background-color: #242424;
+	}
+	
+	.cs_production_type .corona_notice .disaster_message .message_list .message_desc {
+		color: #cacaca;
+	}
+	
+	.cs_production_type .corona_notice .disaster_message .message_list .message_area {
+		color: #fff;
+	}
+	
+	.sp_nkindic .nkindic_another {
+		background-color: #2f2f2f;
+		border-top: 1px solid #404040;
+	}
+	
+	.sp_nkindic .nkindic_another .another_info {
+		border: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	.sp_nkindic .nkindic_another .info_tit {
+		color: #fff;
+	}
+	
+	.sp_nkindic .nkindic_another .info_list .item_tit {
+		color: #cacaca;
+	}
+	
+	.sp_nsite .nsite_name .ico_wrap .api_ico_nlogin {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_disaster .wrap_dzst5 .add_info {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_disaster .wrap_dzst5 .map_dzst {
+		border-right: 1px solid #404040;
+	}
+	
+	.cs_disaster .wrap_dzst .map_dzst img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_disaster .wrap_dzst5 .map_dzst .horizon_line {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_disaster span.bar {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_disaster .wrap_dzst5 .page_area .paging_bx a[class^=btn_page_] {
+		border: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	.cs_disaster .wrap_dzst5 .box_tbl .tbl_type th {
+		background: #3a3a3a;
+		border: 1px solid #404040;
+		border-width: 1px 0;
+	}
+	
+	.cs_disaster .wrap_dzst3 .tbl_type th {
+		color: #fff;
+	}
+	
+	.cs_disaster .wrap_dzst5 .box_tbl .tbl_type td p {
+		color: #cacaca !important;
+	}
+	
+	.cs_disaster .wrap_dzst3 p {
+		color: #cacaca;
+	}
+	
+	.cs_disaster .wrap_dzst5 .moreview {
+		background: #3a3a3a;
+		color: #cacaca;
+		border: 1px solid #404040;
+	}
+	
+	.cs_disaster .wrap_dzst5 .box_tbl .tbl_type td {
+		border-left: 0;
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_disaster .wrap_dzst3 .tbl_type td {
+		border-top: 1px solid #404040;
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_disaster .wrap_dzst + .box_info, .cs_disaster .top_line {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_disaster .prcs_guide .other_links dl dt {
+		color: #fff !important;
+	}
+	
+	.cs_disaster .prcs_guide .other_links dl dd li {
+		background: none;
+		position: relative;
+	}
+	
+	.cs_disaster .prcs_guide .other_links dl dd li:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/uio/img/bg_sep.gif) 0 4px no-repeat;
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		filter: invert(86%) hue-rotate(-180deg);
+		pointer-events: none;
+	}
+	
+	.cs_disaster .wrap_dzst5 .scr_dzst2 .location {
+		color: #fff !important;
+	}
+	
+	.cs_disaster .wrap_dzst .scr_dzst h4, .cs_disaster .wrap_dzst .scr_dzst p, .cs_disaster .wrap_dzst .scr_dzst dl {
+		color: #cacaca;
+	}
+	
+	.cs_disaster .wrap_dzst5 .scr_dzst2 .layer_info .link_popup .icon_alert {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_disaster .wrap_dzst5 .scr_dzst2 .detail_list {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_disaster .wrap_dzst5 .scr_dzst2 .detail_list dd, .cs_disaster .wrap_dzst5 .scr_dzst .ly_earthquake dl dd p {
+		color: #cacaca;
+	}
+	
+	.cs_disaster .wrap_dzst5 .scr_dzst2 .detail_list dd .cast_info {
+		color: #cacaca !important;
+	}
+	
+	.cs_disaster .wrap_dzst5 .scr_dzst .ly_earthquake {
+		border: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.cs_disaster .wrap_dzst5 .scr_dzst .ly_earthquake .title {
+		color: #fff;
+	}
+	
+	.cs_disaster .wrap_dzst5 .scr_dzst .ly_earthquake dl dt {
+		color: #fff !important;
+	}
+	
+	.cs_disaster .wrap_dzst5 .scr_dzst .ly_earthquake .btn_close {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_disaster .wrap_dzst .map_dzst .mask {
+		border: 4px solid #404040;
+	}
+	
+	.cs_disaster .wrap_dzst .map_dzst {
+		border-right: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_disaster .wrap_dzst .scr_dzst h4 {
+		border-top: 1px solid #404040;
+		color: #fff !important;
+	}
+	
+	.cs_disaster .wrap_dzst .dir_dzst {
+		border-top: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.cs_disaster .wrap_dzst .scr_dzst {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_disaster .wrap_dzst .dir_dzst .wind li img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_disaster .box_info .ico_alert {
+		position: relative;
+		background: none;
+		color: #cacaca;
+	}
+	
+	.cs_disaster .box_info .ico_alert:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/disaster/img/sp_dzst2.gif) 0 -238px no-repeat;
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_disaster .box_info .btn_more {
+		color: #cacaca;
+	}
+	
+	.cs_disaster .box_info .ico_alert, .cs_disaster .box_info .offer, .cs_disaster .box_info .offer a, .cs_disaster .box_info .color_org {
+		color: #cacaca;
+	}
+	
+	.cs_disaster .wrap_dzst2 .tit_dzst {
+		background: #2f2f2f;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_disaster .wrap_dzst2 .tit_dzst h4 {
+		color: #fff;
+	}
+	
+	.cs_disaster .wrap_dzst2 .tit_dzst select, .cs_disaster .wrap_dzst2 .scr_dzst .help {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_disaster .wrap_dzst2 .scr_dzst .ly_typhoon {
+		background: #2f2f2f;
+		border: 2px solid #404040;
+	}
+	
+	.cs_disaster .wrap_dzst2 .ly_typhoon ul li {
+		color: #cacaca;
+	}
+	
+	.cs_disaster .wrap_dzst2 .ly_typhoon .btn_close, .cs_disaster .wrap_dzst2 .ly_typhoon ul li img {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_disaster .wrap_dzst3 .status {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_disaster .wrap_dzst3 h4 {
+		color: #fff;
+	}
+	
+	.cs_disaster .wrap_dzst3 .tab_area {
+		border-top: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.cs_disaster .wrap_dzst3 .tab_area li a, .cs_disaster .wrap_dzst3 .tab_area li strong {
+		border-right: 1px solid #404040;
+		background-color: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.cs_disaster .wrap_dzst3 .tab_area li strong {
+		border: 1px solid #404040;
+		border-bottom: 0;
+		background: none;
+		position: relative;
+	}
+	
+	.cs_disaster .wrap_dzst3 .tab_area li a {
+		background: none;
+		background-color: #2f2f2f;
+		position: relative;
+	}
+	
+	.cs_disaster .wrap_dzst3 .tab_area li a:before {
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/disaster/img/sp_dzst2.gif) 100% -45px no-repeat;
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_disaster .wrap_dzst3 .tab_area li strong:before {
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/disaster/img/sp_dzst2.gif) 100% -78px no-repeat;
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_disaster .wrap_dzst3 .tbl_type {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_disaster .wrap_dzst3 .tbl_type .frst_row td {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_disaster .wrap_dzst3 .tbl_type td.mid_col {
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_disaster .wrap_dzst6 .wattage {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_disaster .wrap_dzst6 h4, .cs_disaster .wrap_dzst6 .watt li {
+		color: #fff;
+	}
+	
+	.cs_disaster .wrap_dzst6 .watt li span {
+		color: #cacaca;
+	}
+	
+	.cs_disaster .wrap_dzst6 .watt_lgd {
+		border-top: 1px solid #404040;
+		background: none;
+		position: relative;
+	}
+	
+	.cs_disaster .wrap_dzst6 .watt_lgd:before {
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/disaster/img/sp_ico.png) 56px -243px no-repeat;
+	}
+	
+	.cs_disaster .wrap_dzst6 .watt_lgd li span {
+		color: #fff;
+	}
+	
+	.cs_disaster .wrap_dzst6 .watt_lgd li {
+		color: #cacaca;
+	}
+	
+	.cs_disaster .wrap_dzst6 .tip {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_disaster .wrap_dzst6 .tip ul li {
+		background: none;
+		position: relative;
+		color: #fff;
+	}
+	
+	.cs_disaster .wrap_dzst6 .tip ul li:before {
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/disaster/img/sp_ico.png) no-repeat -589px -204px
+	}
+	
+	.cs_disaster .wrap_dzst6 .tip .ico, .cs_disaster .prcs_guide .other_links.v2 .offer a img, .cs_disaster .box_info .offer a img {
+		filter: invert(81.5%) hue-rotate(-180deg);
 	}
 }
 

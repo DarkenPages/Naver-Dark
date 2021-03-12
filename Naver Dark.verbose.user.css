@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.679
+@version		1.48.684
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -28944,7 +28944,7 @@
 	}
 }
 
-@-moz-document domain("dict.naver.com"), url-prefix("https://note.naver.com"), url-prefix("https://mail.naver.com"), url-prefix("https://search.naver.com"), url-prefix("https://nid.naver.com/user2/help/"), url-prefix("https://section.cafe.naver.com"), url-prefix("https://cafe.naver.com"), url-prefix("cafe.naver.com"), url-prefix("https://section.blog.naver.com"), url-prefix("http://section.blog.naver.com"), url-prefix("https://terms.naver.com"), url-prefix("https://www.naver.com/NOTICE"), url-prefix("https://www.naver.com/more.html"), url-prefix("https://people.search.naver.com"), url-prefix("https://sports.news.naver.com"), url-prefix("https://noti.naver.com"), url-prefix("https://myfeed.naver.com"), url-prefix("https://editor.post.naver.com"), url-prefix("https://post.stat.naver.com"), url-prefix("https://talk.naver.com"), url-prefix("https://news.naver.com"), url-prefix("https://blog.naver.com"), url-prefix("https://guestbook.blog.naver.com"), url-prefix("https://admin.blog.naver.com"), url-prefix("https://n.weather.naver.com"), regexp("https://calendar\\.naver\\.com/(?!promotion.nhn|subscribePage.nhn).*"), regexp("https://(.*)dic\\.naver\\.com/.*")
+@-moz-document domain("dict.naver.com"), url-prefix("https://note.naver.com"), url-prefix("https://mail.naver.com"), url-prefix("https://search.naver.com"), url-prefix("https://nid.naver.com/user2/help/"), url-prefix("https://section.cafe.naver.com"), url-prefix("https://cafe.naver.com"), url-prefix("cafe.naver.com"), url-prefix("https://section.blog.naver.com"), url-prefix("http://section.blog.naver.com"), url-prefix("https://terms.naver.com"), url-prefix("https://www.naver.com/NOTICE"), url-prefix("https://www.naver.com/more.html"), url-prefix("https://people.search.naver.com"), url-prefix("https://sports.news.naver.com"), url-prefix("https://noti.naver.com"), url-prefix("https://myfeed.naver.com"), url-prefix("https://editor.post.naver.com"), url-prefix("https://post.stat.naver.com"), url-prefix("https://talk.naver.com"), url-prefix("https://news.naver.com"), url-prefix("https://blog.naver.com"), url-prefix("https://guestbook.blog.naver.com"), url-prefix("https://admin.blog.naver.com"), url-prefix("https://weather.naver.com"), regexp("https://calendar\\.naver\\.com/(?!promotion.nhn|subscribePage.nhn).*"), regexp("https://(.*)dic\\.naver\\.com/.*")
 {
 	.gnb_notice_li .svc_panel, .gnb_notice_li .svc_scroll {
 		background: #2f2f2f;
@@ -53229,8 +53229,16 @@
 		
 	}
 	
-	.lnb_area:after {
-		border-bottom: 1px solid #404040;
+	.lnb_area {
+		border-top: 1px solid #404040;
+	}
+	
+	#header:after {
+		background-color: #404040;
+	}
+	
+	.lnb_area .item.on .menu {
+		color: #fff;
 	}
 	
 	.gnb_area .logo:after, .gnb_area .button_group .btn_search:after, .gnb_area .button_group .btn_forecast .btn:after {
@@ -53242,7 +53250,78 @@
 	}
 	
 	.lnb_area .menu {
+		color: #cacaca;
+	}
+	
+	.card_nation .title {
+		background: #2f2f2f;
+	}
+	
+	.card_nation .weekly_list {
+		border-top: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.card_nation .weekly_list .button {
+		color: #cacaca;
+	}
+	
+	.card_nation .map_wrap {
+		border: 1px solid #155e95;
+		background-color: rgb(64, 95, 124);
+	}
+	
+	.card_nation .time_area .button {
+		background-color: #242424;
+	}
+	
+	.card_nation .time_area .button+.button {
+		border-left: 1px solid #404040;
+	}
+	
+	.card_nation .time_area .button.on {
+		color: #242424;
+	}
+	
+	.card_nation .nation_map {
+		background-position: 0 0;
+	}
+	
+	.card_figure .offer_area {
+		border-top: 1px solid #404040;
+	}
+	
+	.card_forecast_today .forecast_tablist li.on button {
+		background-color: #242424;
 		color: #fff;
+	}
+	
+	.card_forecast_today .forecast_tablist button {
+		color: #cacaca;
+	}
+	
+	.card_forecast_today .forecast_tablist li:before {
+		border: 1px solid #404040;
+	}
+	
+	.card_forecast_today .forecast_tablist li+li:before {
+		border-left-color: #404040;
+	}
+	
+	.card_forecast_today .forecast_tablist li {
+		background-color: #2f2f2f;
+	}
+	
+	.card_forecast_today .forecast_tablist li.on button:before {
+		border: 1px solid #4f4f4f;
+	}
+	
+	.card_forecast_today .forecast_summary {
+		color: #cacaca;
+	}
+	
+	.card_forecast_today .offer_area {
+		border-top: 1px solid #404040;
 	}
 	
 	@media (min-width: 768px) {
@@ -53908,6 +53987,170 @@
 	
 	.card_today .item_today.level5_4.type_dsc .level_text:before {
 		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.card_today .today_weather .cp_area {
+		background: #2f2f2f;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.card_today .today_weather .list_cp .item .text {
+		color: #cacaca;
+	}
+	
+	.card_today .weather_area .summary_list .desc {
+		color: #cacaca;
+	}
+	
+	.card_today .weather_area .summary .temperature.down:after {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.climate_rain .row_graph .data_inner {
+		background: #2f2f2f;
+	}
+	
+	.card_climate .climate_table .data_inner {
+		border-left: 1px solid #404040;
+	}
+	
+	.climate_humidity .bar {
+		background-color: #2d6986;
+	}
+	
+	.card_week .box_color .color_inner {
+		border: 1px solid #404040;
+	}
+	
+	.card_week .box_color .ttl {
+		color: #fff;
+	}
+	
+	.card_week .box_color .ttl:after {
+		border-right: 1px solid #404040;
+	}
+	
+	.popup_cp .inner {
+		background: #242424;
+	}
+	
+	.popup_cp .popup_title {
+		color: #fff;
+	}
+	
+	.popup_cp .btn_close:after {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.popup_cp .cp_tablist .item.on .tab {
+		border-bottom-color: #fff;
+		color: #fff;
+	}
+	
+	.popup_cp .cp_tablist {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.popup_cp .list_setting [class^=item_] {
+		border-top: 1px solid #404040;
+		border-left: 1px solid #404040;
+	}
+	
+	.popup_cp .list_setting [class^=item_].on {
+		background: #2f2f2f;
+	}
+	
+	.popup_cp .korean, .popup_cp .english {
+		color: #fff;
+	}
+	
+	.popup_cp .notice {
+		border-top: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.popup_cp .time {
+		background: #2f2f2f;
+	}
+	
+	.popup_cp .time .text {
+		color: #cacaca;
+	}
+	
+	.popup_cp .time.day .text {
+		border-color: #404040;
+	}
+	
+	.popup_cp .time.dimmed .text {
+		color: #888;
+	}
+	
+	.popup_cp .list_comparison {
+		border-right: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.popup_cp .list_comparison .text {
+		color: #fff;
+	}
+	
+	.popup_cp .weather {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.popup_cp .weather .temperature {
+		color: #cacaca;
+	}
+	
+	.card_headline .ico_arr {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.card_headline .link_clst .num {
+		border: 1px solid #355eb7;
+	}
+	
+	.card_headline .link_clst .num, .card_headline .link_clst .num:before {
+		background-color: #2f2f2f;
+	}
+	
+	.is_news .wn_item .info_time:before {
+		background-color: #404040;
+	}
+	
+	.climate_rain .box_color .summary {
+		background-color: #2c374a;
+	}
+	
+	.climate_humidity .box_color .summary {
+		background: rgba(45, 71, 80, 0.6);
+	}
+	
+	.climate_wind .box_color .summary {
+		background: rgba(41, 84, 88, 0.4);
+	}
+	
+	.is_today.foreign .card_week .week_item.on .btn_more:after {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.is_today.foreign .card_week .week_item.on .day_data:before {
+		background-image: linear-gradient(to bottom,#2f2f2f,#242424 50%,#2f2f2f);
+	}
+	
+	.is_today.foreign .card_week .week_item .day_data {
+		background-color: #2f2f2f;
+	}
+	
+	@media (min-width: 768px) {
+		
+		.card_week .week_item+.week_item {
+			border-top: 0;
+		}
+	}
+	
+	.is_today.foreign .card_week .info_value {
+		color: #cacaca;
 	}
 }
 

@@ -2,10 +2,9 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.693
+@version		1.48.694
 @namespace		Avis Studio
 @license		CC BY-NC-SA
-@preprocessor	default
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://www.naver.com"), url-prefix("https://my.naver.com"), url-prefix("https://ui.nboard2.naver.com"), url-prefix("https://search.naver.com"), url-prefix("https://castbox.shopping.naver.com"), url-prefix("https://section.cafe.naver.com"), url-prefix("https://talk.cafe.naver.com"), url-prefix("https://cafe.upphoto.naver.com"), url-prefix("https://cafe.naver.com/CafeMemberInfo.nhn"), url-prefix("https://section.blog.naver.com"), url-prefix("https://uploader1.nmv.naver.com"), url-prefix("https://up.cafe.naver.com"), url-prefix("https://datalab.naver.com"), url-prefix("https://www.navercorp.com"), url-prefix("https://mail.naver.com"), url-prefix("https://note.naver.com"), url-prefix("https://mashup.map.naver.com"), url-prefix("https://nid.naver.com/nidlogin.login")
@@ -36917,6 +36916,22 @@
 		background: linear-gradient(90deg,#404040 0,#404040 30%,#2f2f2f 0,#2f2f2f 45%,#404040 0,#404040);
 		background: -webkit-linear-gradient(left,#404040,#404040 30%,#2f2f2f 0,#2f2f2f 180px,#404040 0,#404040);
 		background: linear-gradient(90deg,#404040 0,#404040 30%,#2f2f2f 0,#2f2f2f 180px,#404040 0,#404040);
+	}
+	
+	.moment_event_da-wrap {
+		background-color: #404040;
+	}
+	
+	.moment_event_da-text {
+		color: #fff;
+	}
+	
+	.moment_event_da-text strong {
+		color: #af71f0;
+	}
+	
+	.moment_event_da-btn {
+		color: #fff !important;
 	}
 }
 

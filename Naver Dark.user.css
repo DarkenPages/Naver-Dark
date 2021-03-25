@@ -2,9 +2,10 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.694
+@version		1.48.695
 @namespace		Avis Studio
 @license		CC BY-NC-SA
+@preprocessor	default
 ==/UserStyle== */
 @-moz-document domain("dict.naver.com") {
     .article .origin_source { color: #cacaca;border-top: 1px solid #404040;background: #242424 }
@@ -1597,7 +1598,7 @@
     .list-btn-nor .m-tcol-c,.ly_sbjt li a,.perid-layer li a,.perid-layer a,.skin-1080 .article-board .pers_nick_area .p-nick a,.skin-1080 .article-movie-sub .user_info .m-tcol-c,.skin-1080 .com .pocket_nav,.u_cbox.box-reply2 .m-tcol-c { color: #cacaca !important }
     .pcol3 { color: #7474e3 }
     .perid-layer { box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.5);border: 1px solid #404040;background-color: #242424 }
-    .perid-layer li a,.skin-1080 .article-intro .box_profile,.skin-1080 .prev-next,.skin-1080 .search_result .search_input,.skin-1080 #linked-member #lm-list,.skin-1080#main-area .bg-color { background-color: #2f2f2f }
+    .perid-layer li a,.skin-1080 .article-intro .box_profile,.skin-1080 .box_notice,.skin-1080 .prev-next,.skin-1080 .search_result .search_input,.skin-1080 #linked-member #lm-list,.skin-1080#main-area .bg-color { background-color: #2f2f2f }
     .perid-layer li.line,.skin-1080 .area_info_box,.skin-1080 .article-intro .article-board,.skin-1080 .article-intro .tbl_cafe_info,.skin-1080 .article-memo .memo_lst_section .tit-box,.skin-1080 .memo_lst_section .memo-box,.skin-1080 #cafe-menu .cafe-menu-space { border-top: 1px solid #404040 }
     .power_ad .border { border-color: #404040 !important }
     .reply-write-box tbody td input[type='image'] { filter: invert(86%) hue-rotate(-180deg);background: transparent }

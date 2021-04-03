@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.695
+@version		1.48.696
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -53242,15 +53242,15 @@
 	}
 	
 	@media (min-width: 1025px) {
-		
+	
 		.gnb_area {
 			border-bottom: 1px solid #404040;
 		}
-		
+	
 		.gnb_area .button_group .btn_forecast:before {
 			background-color: #404040;
 		}
-		
+	
 	}
 	
 	.lnb_area {
@@ -53352,7 +53352,7 @@
 		.header_forecast {
 			border-bottom: 1px solid #404040;
 		}
-		
+	
 		.header_forecast .card_item {
 			background-color: #2f2f2f;
 			border: 1px solid #2a2a2a;
@@ -53379,7 +53379,7 @@
 		.header_forecast .card_item:last-child {
 			border-bottom: 1px solid #2a2a2a;
 		}
-		
+	
 		.header_forecast .card_item.night {
 			border: 1px solid #232b34;
 		}
@@ -53500,7 +53500,7 @@
 		border: 5px solid #404040;
 	}
 	
-	.card_today .today_chart_list .chart svg g > circle:first-child {
+	.card_today .today_chart_list .chart svg g>circle:first-child {
 		fill: #242424;
 		stroke: #404040;
 	}
@@ -53526,7 +53526,7 @@
 		.is_today.foreign .card_week .time_dsc .time {
 			color: #fff;
 		}
-		
+	
 		.is_today.foreign .card_week .time_dsc {
 			color: #cacaca;
 		}
@@ -53601,7 +53601,7 @@
 		background-color: #404040;
 	}
 	
-	.card_weathermap #_idWeatherInfoFixed+div, .is_map#container .map_panel > div img {
+	.card_weathermap #_idWeatherInfoFixed+div, .is_map#container .map_panel>div img {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
@@ -53712,7 +53712,7 @@
 		border-top: 1px solid #404040;
 	}
 	
-	.chart_list .chart_area .chart >div svg g > circle:first-child {
+	.chart_list .chart_area .chart>div svg g>circle:first-child {
 		fill: #2f2f2f;
 		stroke: #404040;
 	}
@@ -53849,7 +53849,7 @@
 		background-color: #404040;
 	}
 	
-	.map_location_info .chart_area .chart > div svg g circle:first-child {
+	.map_location_info .chart_area .chart>div svg g circle:first-child {
 		fill: #2f2f2f;
 		stroke: #404040;
 	}
@@ -53862,7 +53862,7 @@
 		fill: #2f2f2f;
 	}
 	
-	.chart_area > svg > g .net-lines line, .chart_area > svg > g .net-axis line {
+	.chart_area>svg>g .net-lines line, .chart_area>svg>g .net-axis line {
 		stroke: #404040 !important;
 	}
 	
@@ -53883,12 +53883,12 @@
 		.is_image#container .tab_panel, .is_image#container .tab_panel.hide {
 			background-color: #2f2f2f;
 		}
-		
+	
 		.is_image#container .player_area {
 			border: 1px solid #2a2a2a;
 			border-top: 0;
 		}
-		
+	
 		.is_image#container .inner_player+.offer_area {
 			border-color: #404040;
 		}
@@ -53997,7 +53997,7 @@
 	@media (max-width: 1024px) {
 		.is_image#container {
 			background-color: #2f2f2f;
-			background-image: linear-gradient(rgba(64,64,64,.5) 1px,transparent 1px),linear-gradient(90deg,rgba(64,64,64.5) 1px,transparent 1px);
+			background-image: linear-gradient(rgba(64, 64, 64, .5) 1px, transparent 1px), linear-gradient(90deg, rgba(64, 64, 64.5) 1px, transparent 1px);
 		}
 	}
 	
@@ -54159,7 +54159,7 @@
 	}
 	
 	.is_today.foreign .card_week .week_item.on .day_data:before {
-		background-image: linear-gradient(to bottom,#2f2f2f,#242424 50%,#2f2f2f);
+		background-image: linear-gradient(to bottom, #2f2f2f, #242424 50%, #2f2f2f);
 	}
 	
 	.is_today.foreign .card_week .week_item .day_data {
@@ -54167,7 +54167,7 @@
 	}
 	
 	@media (min-width: 768px) {
-		
+	
 		.card_week .week_item+.week_item {
 			border-top: 0;
 		}
@@ -54175,6 +54175,22 @@
 	
 	.is_today.foreign .card_week .info_value {
 		color: #cacaca;
+	}
+	
+	.card_today .today_weather {
+		border: 0 solid #404040;
+	}
+	
+	.card_today .time_weather {
+		border: 1px solid #404040;
+	}
+	
+	#header:before {
+		background-color: #2f2f2f;
+	}
+	
+	.gnb_area .logo:before {
+		filter: invert(100%) hue-rotate(-180deg);
 	}
 }
 

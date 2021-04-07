@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.696
+@version		1.48.702
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -56847,30 +56847,30 @@
 		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
-	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+div[class]>ul li+li {
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+div>ul li+li {
 		border-top: 1px solid #404040;
 	}
 	
-	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+div[class]>ul li>div[class]>div[class]+div[class]>span {
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+div>ul li>div[class]>div[class]+div[class]>span {
 		color: #fff;
 	}
 	
-	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+div[class]>ul li>div[class]>div[class]+div[class]>span+a[role="button"]:before {
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+div>ul li>div[class]>div[class]+div[class]>span+a[role="button"]:before {
 		background: #404040;
 	}
 	
-	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+div[class]>ul li>div[class]>div[class]+div[class]>span+a[role="button"]+div[class] {
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+div>ul li>div[class]>div[class]+div[class]>span+a[role="button"]+div[class] {
 		background: #2f2f2f;
 		border: 1px solid #404040;
 		color: #cacaca;
 	}
 	
-	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+div[class]>ul li>div[class]>div[class]+div[class]>span+a[role="button"]+div[class]>div>span {
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+div>ul li>div[class]>div[class]+div[class]>span+a[role="button"]+div[class]>div>span {
 		border: 1px solid #404040;
 		color: #cacaca;
 	}
 	
-	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+div[class]>ul li>div[class]+div[class] a {
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+div>ul li>div[class]+div[class] a {
 		color: #cacaca;
 	}
 	
@@ -56886,6 +56886,22 @@
 	
 	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div>div>div+a[role="button"]>svg {
 		fill: #cacaca;
+	}
+	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+div>ul li>div[class]>div[class]>a[href] {
+		color: #788cda;
+	}
+	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+div+div[class] {
+		border-color: #404040;
+	}
+	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+div+div[class]>div {
+		background: #3a3a3a;
+	}
+	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+div+div[class]>div>a>em {
+		color: #788cda;
 	}
 	
 	.sp_naside .naside_wrap .entry_list .entry_area .tit_wrap .tit {
@@ -57572,7 +57588,7 @@
 		border-bottom: 1px solid #404040;
 	}
 	
-	.sp_nreview .total_tit, .sp_nreview .total_link_area .link, .sp_ntotal .total_tit .link_tit, .sp_nbook .book_info .title_area, .sp_nbook .list_info a.item_info, .sp_nvideo .video_default_list .video_bx .info_area .info_title, .go_relate a, .sp_ntotal .group_item .list_item .item a, .sp_nvideo .video_scroll_list .info_area .info_title, ._3tIZ6 ._2LKql ._3CKdL, .sp_nvideo .video_square_list .square_wrap .info_area .info_title, .sp_nrealtime .nrealtime_list .nrealtime_item .item_info .desc_tit, .sp_nblog .total_tit, .sp_ncafe .total_tit, .sp_nsite .link_name, .sp_nsite .sublink_wrap .sublink .item a, .cs_produce a, .cs_produce .prcs_detail h4 a, .ad_section .lst_type .lst .lnk_tit, .ad_section .lst_type .lst.type_subtitle .sub_tit, .api_ly_info .link, .ad_section .lst_type .lst.ext_price .lst_price .txt_inner, .ad_section .lst_type .lst.ext_link .lst_link .item .link, #place-app-root .sc_new .api_subject_bx .api_title_area+div>div+div[class]>ul li>div[class]>div[class]>a[href], .sp_ndicstudy .word_lst .word, .sp_nrealtime .api_title .btn_new, .sp_ndic .dic_more .dic_link, .sp_ndic .dic_more_link .count, .sp_ndic .other_list .other_list_link {
+	.sp_nreview .total_tit, .sp_nreview .total_link_area .link, .sp_ntotal .total_tit .link_tit, .sp_nbook .book_info .title_area, .sp_nbook .list_info a.item_info, .sp_nvideo .video_default_list .video_bx .info_area .info_title, .go_relate a, .sp_ntotal .group_item .list_item .item a, .sp_nvideo .video_scroll_list .info_area .info_title, ._3tIZ6 ._2LKql ._3CKdL, .sp_nvideo .video_square_list .square_wrap .info_area .info_title, .sp_nrealtime .nrealtime_list .nrealtime_item .item_info .desc_tit, .sp_nblog .total_tit, .sp_ncafe .total_tit, .sp_nsite .link_name, .sp_nsite .sublink_wrap .sublink .item a, .cs_produce a, .cs_produce .prcs_detail h4 a, .ad_section .lst_type .lst .lnk_tit, .ad_section .lst_type .lst.type_subtitle .sub_tit, .api_ly_info .link, .ad_section .lst_type .lst.ext_price .lst_price .txt_inner, .ad_section .lst_type .lst.ext_link .lst_link .item .link, .sp_ndicstudy .word_lst .word, .sp_nrealtime .api_title .btn_new, .sp_ndic .dic_more .dic_link, .sp_ndic .dic_more_link .count, .sp_ndic .other_list .other_list_link {
 		color: #688cda;
 	}
 	
@@ -57580,7 +57596,7 @@
 		color: #cc90cd;
 	}
 	
-	.sp_nsite .link_name:visited, .sp_nsite .link_name:visited mark, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark, .sp_ntotal .total_tit .link_tit:visited, .sp_ntotal .total_tit .link_tit:visited mark, .sp_ntotal .group_item .list_item .item a:visited, .sp_ntotal .group_item .list_item .item a:visited mark, .sp_ndicstudy .word_lst .word:visited, .api_subject_bx .api_title_area .api_title a:visited {
+	.sp_nsite .link_name:visited, .sp_nsite .link_name:visited mark, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark, .sp_ntotal .total_tit .link_tit:visited, .sp_ntotal .total_tit .link_tit:visited mark, .sp_ntotal .group_item .list_item .item a:visited, .sp_ntotal .group_item .list_item .item a:visited mark, .sp_ndicstudy .word_lst .word:visited, .api_subject_bx .api_title_area .api_title a:visited, .sp_nreview .total_tit:visited, .sp_nreview .total_tit:visited mark {
 		color: #cc90cd;
 	}
 	
@@ -58012,6 +58028,375 @@
 	
 	.cs_holiday .bar {
 		border-left: 1px solid #404040;
+	}
+	
+	.cs_election {
+		border: 1px solid #404040;
+		border-top: 0;
+	}
+	
+	.cs_election .election_content {
+		background: rgb(60, 61, 63);
+	}
+	
+	.cs_election .election_header:before {
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0, 0, 0, 0.75);
+		pointer-events: none;
+	}
+	
+	.cs_election .election_header .banner_area .banner .election_day {
+		color: #c2c3d4;
+	}
+	
+	.cs_election .election_header .banner_area .banner .banner_title {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_election .election_header .banner_area .banner .banner_info .info_main .rate_num {
+		text-shadow: none;
+	}
+	
+	.cs_election .tab_area ul li a {
+		color: #c2c3d4;
+	}
+	
+	.cs_election .tab_area ul li .menu {
+		color: #c2c3d4;
+	}
+	
+	.cs_election .tab_area ul li[aria-selected="true"] .menu {
+		color: #7079dd;
+	}
+	
+	.cs_election .inner_box {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_election .detail_info dt {
+		color: #fff;
+	}
+	
+	.cs_election .detail_info dd {
+		color: #cacaca;
+	}
+	
+	.cs_election .ele_btn_area .ele_info_btn {
+		border: 1px solid #404040;
+		color: #7e9fe4;
+	}
+	
+	.cs_election .ele_info_btn em:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_election .tab_summary {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_election .tab_summary .summary_main_tab .tab_list li a {
+		color: #cacaca;
+	}
+	
+	.cs_election .tab_summary .summary_main_tab .tab_list li[aria-selected="true"] a {
+		color: #fff;
+	}
+	
+	.cs_election .tab_summary .summary_main_tab {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_election .ele_inner .time_list p {
+		color: #cacaca;
+	}
+	
+	.cs_election .ele_timeline .ele_inner .inner.d_day {
+		background-color: #3f3f3f;
+	}
+	
+	.cs_election .ele_timeline .ele_inner .time_list:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_election .tab_summary .summary_sub_tab {
+		background-color: #3a3a3a;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_election .tab_summary .summary_sub_tab .tab_list li[aria-selected="true"] a {
+		color: #fff;
+	}
+	
+	.cs_election .tab_summary .summary_sub_tab .tab_list li .menu:before {
+		background-color: #cacaca;
+	}
+	
+	.cs_election .election_table_area table th {
+		color: #cacaca;
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+		border-width: 1px 1px 1px 0;
+	}
+	
+	.cs_election .election_table_area table td {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.contents03_sub td, .contents03_sub th {
+		color: #fff;
+	}
+	
+	.cs_election .election_table_area table td + td {
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_election .election_table_area .alert_popup .ly_info {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.cs_election .election_table_area .alert_popup .ly_info .text {
+		color: #cacaca;
+	}
+	
+	.cs_election .sub_tab_area .type_main .tab_list .tab > a, .cs_election .sub_tab_area .type_main .tab_list .tab > span {
+		border: 1px solid #404040;
+	}
+	
+	.cs_election .sub_tab_area {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_election .turnout_area .turnout_graph_area {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_election .turnout_info .graph_area .rate_count ul li {
+		color: #cacaca;
+	}
+	
+	.cs_election .turnout_info .graph_area .rate_count ul li:before {
+		background: #404040;
+	}
+	
+	.cs_election .rate_per .number_area, .cs_election .rate_per .per_area, .cs_election .turnout_info .title_box .info_title, .cs_election .turnout_area .turnout_graph_area .title_info em, .cs_election .turnout_graph_area .graph_index ul li[aria-selected="true"], .cs_election .turnout_graph_area .graph_index ul li[aria-selected="true"] a, .cs_election .turnout_graph_area .graph_table th.on {
+		color: #727bda;
+	}
+	
+	.cs_election .turnout_graph_area .graph_index ul li[aria-selected="true"]:before {
+		background-color: #727bda;
+	}
+	
+	.cs_election .turnout_graph_box .graph_list li.now_time .ico_rate_dot.v1:after {
+		background: #727bda;
+	}
+	
+	.cs_election .turnout_area .turnout_graph_area .title_info, .cs_election .turnout_area .turnout_graph_area .title_info .add_info {
+		color: #cacaca;
+	}
+	
+	.cs_election .turnout_graph_area .graph_index ul li a {
+		color: #fff;
+	}
+	
+	.cs_election .turnout_graph_box {
+		border-top: 1px solid #404040;
+		background: #242424;
+	}
+	
+	.cs_election .turnout_graph_box:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_election .turnout_graph_area .graph_table {
+		background: #2f2f2f;
+	}
+	
+	.cs_election .turnout_graph_area .graph_table thead th, .cs_election .turnout_graph_area .graph_table th {
+		color: #cacaca;
+	}
+	
+	.cs_election .turnout_graph_box .graph_list li.now_time .tlt_time {
+		color: #fff;
+	}
+	
+	.cs_election .turnout_graph_area .graph_table th.on:after {
+		background: #404040;
+	}
+	
+	.cs_election .turnout_graph_box .graph_list li .count_time {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_election .polls_tab_area {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_election .info_select {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_election .select_box {
+		background-color: #242424;
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.cs_election .select_box:after {
+		background-color: #727bda;
+	}
+	
+	.cs_election .btn_select {
+		color: #cacaca;
+	}
+	
+	.cs_election .btn_select .ico_select {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_election .notice_area .notice_txt em {
+		color: #cacaca;
+	}
+	
+	.cs_election .select_box .list_select {
+		background: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.cs_election .list_select ul li a {
+		color: #cacaca;
+	}
+	
+	.cs_election .list_select ul li a:hover {
+		background-color: #3a3a3a;
+		color: #727bda;
+	}
+	
+	.cs_election .turnout_area {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_election .turnout_info .graph_area .graph_doughnut svg path[fill="#030d78"] {
+		fill: #727bda;
+		stroke: #727bda;
+	}
+	
+	.cs_election .search_all .search_title {
+		color: #727bda;
+	}
+	
+	.cs_election .search_all .search_count {
+		color: #fff;
+	}
+	
+	.cs_election .candidate_search_area .search_result .search_all + .search_list_area {
+		background: #2f2f2f;
+	}
+	
+	.cs_election .search_list .list_item .item_box .party .party_txt {
+		color: #cacaca;
+	}
+	
+	.cs_election .item_info .num {
+		color: #727bda;
+	}
+	
+	.cs_election .item_info .order_txt {
+		color: #cacaca;
+	}
+	
+	.cs_election .select_box.off {
+		border-color: #404040;
+	}
+	
+	.cs_election .select_box.off:after {
+		background-color: #4f4f4f;
+	}
+	
+	.cs_election .view_district, .cs_election .view_source {
+		color: #cacaca;
+	}
+	
+	.cs_election .pop_ly_info {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.cs_election .pop_ly_info .notice_txt {
+		color: #cacaca;
+	}
+	
+	.cs_election .polls_search:before {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_election .polls_search .search_all .search_local {
+		color: #727bda;
+	}
+	
+	.cs_election .polls_search .search_all .search_count {
+		color: #fff;
+	}
+	
+	.cs_election .polls_search .search_table .table_list .list_item {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_election .polls_search .search_table .table_list .list_item .item_box .place .title_link {
+		color: #fff;
+	}
+	
+	.cs_election .polls_search .search_table .table_list .list_item .item_box {
+		color: #cacaca;
+	}
+	
+	.cs_election .polls_search .search_table .table_list .list_item .item_box .btn {
+		color: #727bda;
+	}
+	
+	.cs_election .polls_search .search_table .table_list .list_item .item_box .btn .ico {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_election .polls_search .search_table .table_list .list_item .item_box .btn:after {
+		border: 1px solid #404040;
+	}
+	
+	.cs_election .polls_search .search_all .sub_option li a {
+		color: #cacaca;
+	}
+	
+	.cs_election .voting_info .outline_info dt {
+		color: #fff !important;
+	}
+	
+	.cs_election .voting_info .outline_info dd {
+		color: #cacaca;
+	}
+	
+	.cs_election .voting_info {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_election .voting_process .process_top strong {
+		color: #fff;
+	}
+	
+	.cs_election .voting .voting_process .process_area .process_list ul li {
+		color: #cacaca;
+	}
+	
+	.cs_election .voting_process .process_list ul li .num {
+		color: #727bda;
+	}
+	
+	.cs_election .view_link:before {
+		border-top: 1px solid #404040;
 	}
 }
 

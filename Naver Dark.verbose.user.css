@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.703
+@version		1.48.707
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -55230,7 +55230,7 @@
 		position: absolute;
 		content: '';
 		left: -1px;
-		top: -1px;
+		top: 0px;
 		width: 100%;
 		height: 100%;
 		background: rgba(0, 0, 0, 0.75);
@@ -58391,7 +58391,97 @@
 		border-top: 1px solid #404040;
 	}
 	
-	.sp_nreview .total_tit, .sp_nreview .total_link_area .link, .sp_ntotal .total_tit .link_tit, .sp_nbook .book_info .title_area, .sp_nbook .list_info a.item_info, .sp_nvideo .video_default_list .video_bx .info_area .info_title, .go_relate a, .sp_ntotal .group_item .list_item .item a, .sp_nvideo .video_scroll_list .info_area .info_title, ._3tIZ6 ._2LKql ._3CKdL, .sp_nvideo .video_square_list .square_wrap .info_area .info_title, .sp_nrealtime .nrealtime_list .nrealtime_item .item_info .desc_tit, .sp_nblog .total_tit, .sp_ncafe .total_tit, .sp_nsite .link_name, .sp_nsite .sublink_wrap .sublink .item a, .cs_produce a, .cs_produce .prcs_detail h4 a, .ad_section .lst_type .lst .lnk_tit, .ad_section .lst_type .lst.type_subtitle .sub_tit, .api_ly_info .link, .ad_section .lst_type .lst.ext_price .lst_price .txt_inner, .ad_section .lst_type .lst.ext_link .lst_link .item .link, .sp_ndicstudy .word_lst .word, .sp_nrealtime .api_title .btn_new, .sp_ndic .dic_more .dic_link, .sp_ndic .dic_more_link .count, .sp_ndic .other_list .other_list_link {
+	.cs_name .bx_engname {
+		border: 1px solid #404040;
+	}
+	
+	.cs_name .box {
+		border: 1px solid #404040;
+		border-top: none;
+		background: none;
+	}
+	
+	.cs_name .bx_wrap dt {
+		color: #fff;
+	}
+	
+	.cs_name .bx_wrap dd .box_input {
+		border: 2px solid #404040;
+	}
+	
+	.cs_name .bx_wrap dd input[type=image] {
+		border-radius: 5px;
+	}
+	
+	.cs_name .ex_trans dt {
+		color: #fff !important;
+	}
+	
+	.cs_name .ex_trans dd ul li strong {
+		color: #fff;
+	}
+	
+	.cs_name .info {
+		background: none;
+		position: relative;
+		color: #cacaca;
+	}
+	
+	.cs_name .info:before {
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background: url(https://ssl.pstatic.net/sstatic/keypage/weather/ico_info.gif) no-repeat 0 2px;
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.sp_mobile .subinfo_area {
+		color: #cacaca;
+		border-top: 1px solid #404040;
+	}
+	
+	.sp_nshop_aside .group_related {
+		border-top: 1px solid #404040;
+	}
+	
+	.sp_nshop_aside .legal_noti {
+		border-top: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.sp_nshop_aside .list_rank .keyword_box .keyword {
+		color: #cacaca;
+	}
+	
+	.sp_nshop_aside .list_rank .keyword_box .num {
+		color: #fff;
+	}
+	
+	.sp_nshop .shop_product.type_ad {
+		border: 1px solid #404040;
+		background-color: #353b34;
+	}
+	
+	.sp_nshop .store_ad_wrap .store_ad {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.sp_ndic .mean {
+		color: #fff !important;
+	}
+	
+	.sp_ndic .example, .sp_ndic .example .text_mean {
+		color: #cacaca;
+	}
+	
+	.sp_ndic .dic_title {
+		color: #fff;
+	}
+	
+	.sp_nreview .total_tit, .sp_nreview .total_link_area .link, .sp_ntotal .total_tit .link_tit, .sp_nbook .book_info .title_area, .sp_nbook .list_info a.item_info, .sp_nvideo .video_default_list .video_bx .info_area .info_title, .go_relate a, .sp_ntotal .group_item .list_item .item a, .sp_nvideo .video_scroll_list .info_area .info_title, ._3tIZ6 ._2LKql ._3CKdL, .sp_nvideo .video_square_list .square_wrap .info_area .info_title, .sp_nrealtime .nrealtime_list .nrealtime_item .item_info .desc_tit, .sp_nblog .total_tit, .sp_ncafe .total_tit, .sp_nsite .link_name, .sp_nsite .sublink_wrap .sublink .item a, .cs_produce a, .cs_produce .prcs_detail h4 a, .ad_section .lst_type .lst .lnk_tit, .ad_section .lst_type .lst.type_subtitle .sub_tit, .api_ly_info .link, .ad_section .lst_type .lst.ext_price .lst_price .txt_inner, .ad_section .lst_type .lst.ext_link .lst_link .item .link, .sp_ndicstudy .word_lst .word, .sp_nrealtime .api_title .btn_new, .sp_ndic .dic_more .dic_link, .sp_ndic .dic_more_link .count, .sp_ndic .other_list .other_list_link, .sp_ndic .info_list a, .sp_ndic .dic_area .link_more, .sp_ndic .class_area .info_box .title {
 		color: #688cda;
 	}
 	
@@ -58401,6 +58491,77 @@
 	
 	.sp_nsite .link_name:visited, .sp_nsite .link_name:visited mark, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark, .sp_ntotal .total_tit .link_tit:visited, .sp_ntotal .total_tit .link_tit:visited mark, .sp_ntotal .group_item .list_item .item a:visited, .sp_ntotal .group_item .list_item .item a:visited mark, .sp_ndicstudy .word_lst .word:visited, .api_subject_bx .api_title_area .api_title a:visited, .sp_nreview .total_tit:visited, .sp_nreview .total_tit:visited mark, .sp_nnews .news_wrap .news_tit:visited, .sp_nnews .news_wrap .news_tit:visited mark {
 		color: #cc90cd;
+	}
+	
+	.sp_ndic .class_area .info_box .source {
+		color: #cacaca;
+	}
+	
+	.sp_ndic .class_area .sub_box .date:before {
+		background-color: #404040;
+	}
+	
+	.cs_common_simple .detail_info .info dd {
+		color: #cacaca;
+	}
+	
+	.cs_common_simple .cm_info_box .detail_info .info .cm_bar_info {
+		background-color: #404040;
+	}
+	
+	.cs_common_simple .cm_info_box .detail_info .info .cm_icon_star {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_same_collection .collection_list ul li .same_info {
+		border: 1px solid #404040;
+		border-left: 0;
+	}
+	
+	.cs_same_collection .collection_list ul li .same_bar {
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_jr_naver .jrn_box {
+		border: 1px solid #404040;
+		border-width: 0 1px 1px;
+	}
+	
+	.cs_jr_naver .qrcode {
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_jr_naver .other_box {
+		border: 1px solid #404040;
+		border-width: 0 1px 1px;
+	}
+	
+	.cs_jr_naver .thmb .mask {
+		background: none;
+	}
+	
+	.cs_jr_naver img {
+		background-color: #242424;
+	}
+	
+	.cs_jr_naver .detail_info .fr {
+		background: none;
+		position: relative;
+	}
+	
+	.cs_jr_naver .detail_info .fr:before {
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/scui/jr_naver/img/img_list5.png) 100% -326px;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_jr_naver .detail_info .btn_mov, .cs_jr_naver .qrcode a {
+		filter: invert(81.5%) hue-rotate(-180deg);
 	}
 }
 

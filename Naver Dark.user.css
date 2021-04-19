@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.714
+@version		1.48.715
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -3699,6 +3699,7 @@
     .my_expert_header_wrap.is_dark_type .my_expert_header .btn_wrap .btn .ico_board { filter: invert(0%) }
     .my_wrap .profile_account .account_area { color: #fff;border: 1px solid #404040;background: #2f2f2f }
     .my_wrap .profile_info,.my_wrap .profile_tit,.my_wrap .series_wrap .sorting_area.t5 .sorting_inner_wrap .txt,.subjectMatter_title,.t5 .sorting_inner_wrap .txt em,.no_comment_wrap .header h5,.pc .editor_card_section .sect_namecard_area .info .post_follower_status,.pc .sect_post_wrap .tit_recommend_post,.sect_post_wrap .tit_recommend_post .tit_post,.se_documentTitle,.se_sectionTitle .se_fs_H1,.se_sectionTitle .se_fs_H2,.se_sectionTitle .se_fs_H3,.se_oglink .se_og_tit,.se_paragraph .se_viewArea,.se_quotation .se_viewArea,.se_paragraph *[style],.sect_series_wrap .series_list .series_item .count { color: #fff !important }
+    .notice_post:after { border: 1px solid #404040;border-width: 1px 0;background-color: #242424 }
     .og .box,.sect_series_wrap,#cont.end_se3_spread .se_card_wrap ~ .editor_section .state_line { background: #2f2f2f !important }
     .pc .cont_header .btn_g1,.pc .cont_header .btn_g2,.pc .cont_header .btn_g3,.pc .cont_header .btn_g4,.pc .cont_header .btn_ok,.pc .cont_header .btn_t1 { color: #cacaca;border: 1px solid #404040;background-color: #242424 }
     .pc .lst_post_wrap li,.sect_infl_wrap .sect_inner,.se_paragraph *[style*='border-top'],.se-viewer *[style*='border-top'],.sect_namecard:after { border-top: 1px solid #404040 !important }
@@ -3737,6 +3738,9 @@
     .u_cbox .u_cbox_tool .u_cbox_btn_reply { color: #fff;border: 1px solid #404040;background-color: #242424 }
     @media only screen and (min-width: 768px) {
         #header .gnb .btn_flw span { color: #cacaca !important }
+    }
+    @media screen and (min-width: 640px) {
+        .notice_post { border: 1px solid #404040 }
     }
     #cont .se_documentTitle .se_publishDate,#cont .se_documentTitle .se_secret,#cont .se_documentTitle .se_view { opacity: 1;filter: none }
     #cont .u_cbox .u_cbox_reply_area .u_cbox_upload .u_cbox_btn_upload { border-top-color: #404040;border-left-color: #404040;background-color: #242424 }

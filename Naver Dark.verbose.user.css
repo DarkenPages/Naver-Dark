@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.714
+@version		1.48.715
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -24628,6 +24628,18 @@
 		border-top: 1px solid #404040;
 		border-bottom: 1px solid #404040;
 		background-color: #2f2f2f;
+	}
+	
+	@media screen and (min-width: 640px) {
+		.notice_post {
+			border: 1px solid #404040;
+		}
+	}
+	
+	.notice_post:after {
+		border: 1px solid #404040;
+		border-width: 1px 0;
+		background-color: #242424;
 	}
 }
 

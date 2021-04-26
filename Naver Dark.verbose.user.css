@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.716
+@version		1.48.718
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -54461,6 +54461,10 @@
 	.skin-1080 .article-tag .list_tag .desc_tag .ico_tag {
 		color: #000;
 	}
+	
+	.skin-1080 .article-tag .list_tag .txt {
+		color: #cacaca;
+	}
 }
 
 @-moz-document url-prefix("https://cafe.naver.com/ReservationGameCafeApplyView.nhn")
@@ -59291,5 +59295,56 @@
 	
 	.info_area .noti {
 		color: #cacaca;
+	}
+}
+
+@-moz-document url-prefix("https://cafe.naver.com/CafeTagCloudList.nhn")
+{
+	#tag {
+		color: #a8d0d9;
+	}
+	
+	#tag1 {
+		color: #37a2b9;
+	}
+	
+	a#tag2, a#tag2:visited, a#tag2:link {
+		padding: 5px;
+		padding-bottom: 3px;
+		vertical-align: middle;
+		position: relative;
+	}
+	
+	a#tag2:hover {
+		padding: 5px;
+		padding-bottom: 3px;
+		vertical-align: middle;
+		border-radius: 10px;
+	}
+	
+	a#tag3, a#tag3:visited, a#tag3:link {
+		color: #46c79c;
+		padding: 5px;
+		padding-bottom: 3px;
+		vertical-align: middle;
+	}
+	
+	a#tag3:hover {
+		padding: 5px;
+		padding-bottom: 3px;
+		vertical-align: middle;
+		border-radius: 10px;
+	}
+	
+	a#tag4, a#tag4:visited, a#tag4:link {
+		color: #242424;
+		padding: 5px;
+		padding-bottom: 3px;
+		vertical-align: middle;
+		border-radius: 10px;
+	}
+	
+	a#tag4:hover {
+		background-color: #2dc8db;
 	}
 }

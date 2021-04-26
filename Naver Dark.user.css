@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.716
+@version		1.48.718
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -1950,9 +1950,18 @@
 }
 @-moz-document url-prefix("https://cafe.naver.com/CafeTagArticleList.nhn") {
     .skin-1080 .article-tag .list_tag .desc_tag .ico_tag { color: #000 }
-    .skin-1080 .article-tag .list_tag .desc_tag .tag { color: #cacaca }
+    .skin-1080 .article-tag .list_tag .desc_tag .tag,.skin-1080 .article-tag .list_tag .txt { color: #cacaca }
     .skin-1080 .article-tag .list_tag .tit_area .link_tit { color: #fff }
     .skin-1080 .article-tag .list_tag li { border-bottom: 1px solid #404040 }
+}
+@-moz-document url-prefix("https://cafe.naver.com/CafeTagCloudList.nhn") {
+    #tag { color: #a8d0d9 }
+    #tag1 { color: #37a2b9 }
+    a#tag2,a#tag2:link,a#tag2:visited { vertical-align: middle;position: relative;padding: 5px;padding-bottom: 3px }
+    a#tag2:hover,a#tag3:hover { vertical-align: middle;padding: 5px;padding-bottom: 3px;border-radius: 10px }
+    a#tag3,a#tag3:link,a#tag3:visited { vertical-align: middle;padding: 5px;padding-bottom: 3px;color: #46c79c }
+    a#tag4,a#tag4:link,a#tag4:visited { vertical-align: middle;padding: 5px;padding-bottom: 3px;color: #242424;border-radius: 10px }
+    a#tag4:hover { background-color: #2dc8db }
 }
 @-moz-document url-prefix("https://cafe.naver.com/common/editor/default.html") {
     .NHN_Writeform_Main,body,html,tbody,tr { background: #242424 }

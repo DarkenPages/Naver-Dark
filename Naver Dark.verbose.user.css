@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.718
+@version		1.48.719
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -33976,10 +33976,11 @@
 	}
 	
 	.column_fix_wrap {
-		background-color: #242424;
+		background-color: #1c1c1c;
 	}
 	
 	.sc_timesquare {
+		background-color: #242424;
 		border: 1px solid #404040;
 	}
 	
@@ -34528,6 +34529,14 @@
 	.api_atcmp_wrap .mark {
 		color: #5f88df;
 	}
+	
+	.main_topic_wrap .main_topic_company .icon_ad {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	#NM_TOP_BANNER {
+		display: none;
+	}
 }
 
 @-moz-document url-prefix("https://castbox.shopping.naver.com")
@@ -34576,6 +34585,7 @@
 	
 	.shop_wrap .shop_content {
 		border: 1px solid #404040;
+		background-color: #242424;
 	}
 	
 	.shop_wrap .shop_page .num_box .current {
@@ -34616,11 +34626,7 @@
 	}
 	
 	.shop_wrap {
-		background-color: #242424;
-	}
-	
-	html[data-dark=true] .shop_wrap .shop_control .btn_prev:hover:before, .shop_wrap .shop_control .btn_next:hover:before, .shop_wrap .shop_page .btn_prev:hover:before, .shop_wrap .shop_page .btn_next:hover:before {
-		filter: invert(0) hue-rotate(0);
+		background-color: #1c1c1c;
 	}
 	
 	.shop_wrap .group_price {
@@ -34629,6 +34635,18 @@
 	
 	.shop_wrap .group_event + .group_goods:before {
 		background-color: #404040;
+	}
+	
+	.shop_wrap .group_plus {
+		border-top: 1px solid #404040;
+	}
+	
+	.shop_wrap .sale_area {
+		border: 1px solid #404040;
+	}
+	
+	.shop_wrap .group_shop {
+		border-top: 1px solid #404040;
 	}
 }
 
@@ -58998,6 +59016,27 @@
 	
 	.cs_stock .stock_info_guide>p {
 		color: #cacaca;
+	}
+	
+	.sp_pmusic .music_btn .tab_list .item .tab {
+		border: 1px solid #404040;
+	}
+	
+	.sp_pmusic .music_btn .tab_list .item .tab:hover {
+		border-color: #4f4f4f;
+		color: #fff;
+	}
+	
+	.sp_nimage .api_title_sub .btn_extend .btn_report {
+		color: #cacaca;
+	}
+	
+	.sp_nimage .grid_wrap:before {
+		background-color: #404040;
+	}
+	
+	.api_banner {
+		border: 1px solid #404040;
 	}
 }
 

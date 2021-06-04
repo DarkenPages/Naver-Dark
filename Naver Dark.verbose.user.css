@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.722
+@version		1.48.723
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -57240,7 +57240,7 @@
 		background: #8c68aa;
 	}
 	
-	.cs_production_type .graph .data_content.-bar_data .value + .value::after {
+	.cs_production_type .graph .data_content.-bar_data .value+.value::after {
 		background: #a65d5d;
 	}
 	
@@ -57368,7 +57368,7 @@
 		border-left: 1px solid #404040;
 	}
 	
-	.cs_disaster .wrap_dzst + .box_info, .cs_disaster .top_line {
+	.cs_disaster .wrap_dzst+.box_info, .cs_disaster .top_line {
 		border-top: 1px solid #404040;
 	}
 	
@@ -57696,13 +57696,13 @@
 	}
 	
 	.sub_pack .api_btn_page.type_tag .btn_next {
-		background: -webkit-gradient(linear,left top,right top,color-stop(-15%,rgba(47,47,47,0)),color-stop(27%,#2f2f2f));
-		background: linear-gradient(to right,rgba(47, 47, 47,0) -15%,#2f2f2f 27%);
+		background: -webkit-gradient(linear, left top, right top, color-stop(-15%, rgba(47, 47, 47, 0)), color-stop(27%, #2f2f2f));
+		background: linear-gradient(to right, rgba(47, 47, 47, 0) -15%, #2f2f2f 27%);
 	}
 	
 	.sub_pack .api_btn_page.type_tag .btn_prev {
-		background: -webkit-gradient(linear,right top,left top,color-stop(-15%,rgba(47,47,47,0)),color-stop(27%,#2f2f2f));
-		background: linear-gradient(to left,rgba(47, 47, 47, 0) -15%,#2f2f2f 27%);
+		background: -webkit-gradient(linear, right top, left top, color-stop(-15%, rgba(47, 47, 47, 0)), color-stop(27%, #2f2f2f));
+		background: linear-gradient(to left, rgba(47, 47, 47, 0) -15%, #2f2f2f 27%);
 	}
 	
 	.sp_tv .group_tv .tv_tab_scroll_wrap {
@@ -58142,7 +58142,7 @@
 		color: #cacaca;
 	}
 	
-	.cs_holiday .notice + .other_lk {
+	.cs_holiday .notice+.other_lk {
 		border-top: 1px solid #404040;
 	}
 	
@@ -58301,7 +58301,7 @@
 		color: #fff;
 	}
 	
-	.cs_election .election_table_area table td + td {
+	.cs_election .election_table_area table td+td {
 		border-left: 1px solid #404040;
 	}
 	
@@ -58314,7 +58314,7 @@
 		color: #cacaca;
 	}
 	
-	.cs_election .sub_tab_area .type_main .tab_list .tab > a, .cs_election .sub_tab_area .type_main .tab_list .tab > span {
+	.cs_election .sub_tab_area .type_main .tab_list .tab>a, .cs_election .sub_tab_area .type_main .tab_list .tab>span {
 		border: 1px solid #404040;
 	}
 	
@@ -58444,7 +58444,7 @@
 		color: #fff;
 	}
 	
-	.cs_election .candidate_search_area .search_result .search_all + .search_list_area {
+	.cs_election .candidate_search_area .search_result .search_all+.search_list_area {
 		background: #2f2f2f;
 	}
 	
@@ -58820,7 +58820,7 @@
 	
 	.cs_sign .tb_box .srch_tlt {
 		color: #cacaca;
-		font-family: -apple-system,BlinkMacSystemFont,'Malgun Gothic','맑은 고딕',helvetica,'Apple SD Gothic Neo',helvetica,'나눔바른고딕 옛한글','NanumBarunGothic YetHangul',sans-serif;
+		font-family: -apple-system, BlinkMacSystemFont, 'Malgun Gothic', '맑은 고딕', helvetica, 'Apple SD Gothic Neo', helvetica, '나눔바른고딕 옛한글', 'NanumBarunGothic YetHangul', sans-serif;
 	}
 	
 	.cs_sign .tb_box .srch_txt {
@@ -59116,6 +59116,34 @@
 	
 	.api_banner {
 		border: 1px solid #404040;
+	}
+	
+	.cs_holiday .holiday_box .holi_oth_lnk {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_holiday .holiday_box .holi_oth_lnk dd a {
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_holiday .holiday_box .holi_thmb {
+		position: relative;
+	}
+	
+	.cs_holiday .holiday_box .holi_thmb img {
+		mix-blend-mode: multiply;
+	}
+	
+	.cs_holiday .holiday_box .holi_thmb:before {
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 112px;
+		height: 112px;
+		margin-left: 19px;
+		border-radius: 50%;
+		background: #ffffff;
 	}
 }
 

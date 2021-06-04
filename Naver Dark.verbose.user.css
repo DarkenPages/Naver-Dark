@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.719
+@version		1.48.722
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -16535,7 +16535,7 @@
 	}
 }
 
-@-moz-document url-prefix("https://cafe.naver.com/Manage"), url-prefix("https://cafe.stat.naver.com/cafe")
+@-moz-document url-prefix("https://cafe.naver.com/Manage"), url-prefix("https://cafe.stat.naver.com/cafe"), url-prefix("https://cafe.naver.com/ca-fe/admin/cafes/")
 {
 	html, head, body {
 		background: #242424;
@@ -18511,12 +18511,12 @@
 		background: #019341;
 	}
 	
-	.add_group {
+	.admin_menu_management .add_group {
 		background: #2f2f2f;
 		border: 1px solid #404040;
 	}
 	
-	.add_lst {
+	.admin_menu_management .add_lst {
 		border-bottom: 1px solid #404040;
 	}
 	
@@ -18524,75 +18524,154 @@
 		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
-	.edit_set_group .edit_area .edit_lst_area {
+	.admin_menu_management .edit_set_group .edit_area .edit_lst_area {
 		border-right: 1px solid #404040;
 		border-left: 1px solid #404040;
 	}
 	
-	.add_lst .divide a span {
+	.admin_menu_management .add_lst .divide a span {
 		background: #404040;
 	}
 	
-	.edit_set_group .edit_area .edit_btn_area li a, .edit_set_group .edit_more {
+	.admin_menu_management .edit_set_group .edit_area .edit_btn_area li a, .admin_menu_management .edit_set_group .edit_more {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
-	.edit_set_group {
+	.admin_menu_management .edit_set_group {
 		border-right: 1px solid #404040;
 	}
 	
-	.edit_set_group .set_area {
+	.admin_menu_management .edit_set_group .set_area {
 		border-top: 1px solid #404040;
 		color: #cacaca;
 	}
 	
-	.set_box .set_tit {
+	.admin_menu_management .set_box .set_tit {
 		color: #fff;
 	}
 	
-	.add_lst li a {
+	.admin_menu_management .add_lst li a {
 		color: #cacaca;
 	}
 	
-	.add_lst li.on {
+	.admin_menu_management .add_lst li.on {
 		background: #404040;
 	}
 	
-	.detail_area th {
+	.admin_menu_management .detail_area th {
 		color: #fff;
 	}
 	
-	.detail_area .ipt_type, .detail_area .ipt_type2 {
+	.admin_menu_management .detail_area .ipt_type, .admin_menu_management .detail_area .ipt_type2 {
 		border: 1px solid #404040;
 		color: #cacaca;
 	}
 	
-	.detail_area .type_box p strong, .detail_area td {
+	.admin_menu_management .detail_area .type_box p strong, .admin_menu_management .detail_area td {
 		color: #cacaca;
 	}
 	
-	.detail_area .line {
+	.admin_menu_management .detail_area .line {
 		border-top: 1px solid #404040;
 	}
 	
-	.edit_set_group .edit_area .edit_lst_area .edit_lst_box {
+	.admin_menu_management .edit_set_group .edit_area .edit_lst_area .edit_lst_box {
 		border-top: 1px solid #404040;
 	}
 	
-	.add_lst li a span, .member_table_2.stat_cafe_app span {
+	.admin_menu_management .add_lst li a span, .member_table_2.stat_cafe_app span {
 		color: #cacaca;
 	}
 	
-	.noti_finish {
+	.admin_menu_management .noti_finish {
 		border-top: 1px solid #404040;
 		color: #cacaca;
 	}
 	
-	.noti_finish.solo .noti_tit {
+	.admin_menu_management .noti_finish.solo .noti_tit {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
-	.add_lst .h_menu_tit {
+	.admin_menu_management .add_lst .h_menu_tit {
+		color: #cacaca;
+	}
+	
+	.admin_menu_management .menu_top_set .btn_help {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.section_cont .btn_help, .section_cont .btn_help2, .section_top .btn_help {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.local_set .local_msg {
+		color: #cacaca;
+	}
+	
+	.local_set .local_box {
+		background-color: #3a3a3a;
+		color: #cacaca;
+	}
+	
+	.ModalLayer {
+		color: #fff;
+	}
+	
+	.ModalLayer .layer_header .sub_title {
+		color: #cacaca;
+	}
+	
+	.ModalLayer .layer_wrap {
+		background-color: #2f2f2f;
+	}
+	
+	.AdminLayer .layer_local_message .message_area {
+		background-color: #3a3a3a;
+	}
+	
+	.AdminLayer .layer_local_message .message_area .txt {
+		color: #cacaca;
+	}
+	
+	.AdminLayer .layer_local_select .local_select_area {
+		border: 1px solid #404040;
+	}
+	
+	.AdminLayer .layer_local_select .local_select_area li {
+		border-top: 1px solid #404040;
+	}
+	
+	.AdminLayer .layer_local_select .local_select_area strong {
+		color: #fff;
+	}
+	
+	.AdminLayer .layer_local_select .local_select_area p {
+		color: #cacaca;
+	}
+	
+	.SelectRegion .select_city_content .region_area {
+		border: 1px solid #404040;
+	}
+	
+	.SelectRegion .select_city_content .region_list li {
+		border-right: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.SelectRegion .select_city_content .region_list .btn {
+		color: #cacaca;
+	}
+	
+	.SelectRegion .select_city_content .region_list li:hover .btn {
+		background: #3a3a3a;
+	}
+	
+	.SelectRegion .select_city_header.two_tabs {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.SelectRegion .region_selected .region {
+		background-color: #3a3a3a;
 		color: #cacaca;
 	}
 	

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.724
+@version		1.48.725
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -35780,6 +35780,10 @@
 	
 	#post-area .post-view table {
 		background: #242424;
+	}
+	
+	#post-area .post-view table[style*='border-color'], #post-area .post-view table[style*='BORDER-COLOR'], #post-area .post-view table td[style*='border-color'], #post-area .post-view table td[style*='BORDER-COLOR'], #post-area .post-view table tr[style*='border-color'], #post-area .post-view table tr[style*='BORDER-COLOR'] {
+		border-color: #404040 !important;
 	}
 	
 	#post-area .post-view *[style*=' COLOR'], #post-area .post-view *[style*=';COLOR'], #post-area .post-view *[style^='COLOR'], #post-area .post-view *[color] {

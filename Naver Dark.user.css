@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.726
+@version		1.48.727
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -2289,7 +2289,7 @@
     .shop_wrap .group_event,.shop_wrap .group_plus,.shop_wrap .group_pnf,.shop_wrap .group_price,.shop_wrap .group_shop,.shop_wrap .group_shop+.group_shop { border-top: 1px solid #404040 }
     .shop_wrap .group_mall { border-bottom: 1px solid #404040;background-color: #2f2f2f }
     .shop_wrap .group_mall .link_mall strong,.shop_wrap .group_pnf .shop_title .title,.shop_wrap .group_shop .link_mall,.shop_wrap .list_event .title,.shop_wrap .shop_control .num_box .current,.shop_wrap .shop_header .link_shop,.shop_wrap .shop_header .link_shop a,.shop_wrap .shop_page .num_box .current { color: #fff }
-    .shop_wrap .group_mall .link_mall,.shop_wrap .list_event .event_area,.shop_wrap .sale_area .desc,.shop_wrap .shop_header .shop_tab .tab { color: #cacaca }
+    .shop_wrap .group_mall .link_mall,.shop_wrap .list_event .event_area,.shop_wrap .sale_area .desc,.shop_wrap .shop_header .shop_tab .tab,body,button,input,select,table,textarea { color: #cacaca }
     .shop_wrap .sale_area { border: 1px solid #404040;background-color: #2f2f2f }
     .shop_wrap .shop_content,.shop_wrap .shop_control .btn,.shop_wrap .shop_page .btn { border: 1px solid #404040;background-color: #242424 }
     .shop_wrap .shop_control .btn_next:hover:before,.shop_wrap .shop_control .btn_prev:hover:before,.shop_wrap .shop_page .btn_next:hover:before,.shop_wrap .shop_page .btn_prev:hover:before { filter: invert(86%) hue-rotate(-180deg) }
@@ -3488,7 +3488,7 @@
     .top_btn_area { border-bottom: 2px solid #404040 }
     #header.h_myfeed,#header.h_noti { border-bottom: 2px solid #404040;background: #242424 }
 }
-@-moz-document url-prefix("https://nv.veta.naver.com") {
+@-moz-document url-prefix("https://nv.veta.naver.com"), url-prefix("https://siape.veta.naver.com") {
     .main_public_desc,.main_public_desc2,.rollingboard_native_ad .desc { color: #cacaca }
     .main_public_title,.rollingboard_native_ad .title { color: #fff }
     .rollingboard_native_ad { color: #cacaca;border: 1px solid #404040 }

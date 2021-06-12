@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.727
+@version		1.48.728
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -34457,7 +34457,7 @@
 		background-color: #242424;
 	}
 	
-	html[data-dark=true] .sc_timesquare .card_nav .btn_next:hover:before, .sc_timesquare .card_nav .btn_prev:hover:before {
+	html[data-dark=true] .sc_timesquare .card_nav .btn_next:hover:before, html[data-dark=true] .sc_timesquare .card_nav .btn_prev:hover:before {
 		filter: invert(0%) hue-rotate(0);
 	}
 	
@@ -34615,6 +34615,18 @@
 	
 	#NM_TOP_BANNER {
 		display: none;
+	}
+	
+	.sc_timesquare .card_notice .notice {
+		color: #cacaca;
+	}
+	
+	.sc_timesquare .card_notice .notice:before {
+		background-color: #404040;
+	}
+	
+	.sc_timesquare .card_notice .ico_vaccine {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 }
 

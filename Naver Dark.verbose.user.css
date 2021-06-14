@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.728
+@version		1.48.730
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -59465,6 +59465,25 @@
 	.cs_calculator .result_section1 .history p {
 		color: #cacaca;
 	}
+	
+	.cs_common_module .info_check_area {
+		border-top: 1px solid #404040;
+	}
+	
+	.sp_nshop .shop_product.type_ad.v1 {
+		border: 1px solid #4f5360;
+		background-color: #323438;
+	}
+	
+	.sc_new .api_service_wrap .ly_service .ly_service_box {
+		border: 1px solid #404040;
+		color: #cacaca;
+		background-color: #3a3a3a;
+	}
+	
+	.sc_new .api_service_wrap .ly_service .ly_service_box:before {
+		filter: invert(77%) hue-rotate(-180deg);
+	}
 }
 
 @-moz-document url-prefix("https://cafe.naver.com/ca-fe/home/search")
@@ -59812,5 +59831,105 @@
 	
 	a#tag4:hover {
 		background-color: #2dc8db;
+	}
+}
+
+@-moz-document url-prefix("https://ssl.pstatic.net/sstatic/keypage/outside/timer/"), url-prefix("https://search.naver.com")
+{
+	
+	.cs_timer {
+		background: #2f2f2f;
+		border: 1px solid #404040;
+		border-width: 1px 1px 0 1px;
+	}
+	
+	.cs_timer .timer_area {
+		border: 1px solid #404040;
+		border-width: 1px 0 1px 0;
+	}
+	
+	.cs_timer .time_help {
+		border: 1px solid #404040;
+		background: #3a3a3a;
+	}
+	
+	.cs_timer .time_help .btn_popup {
+		filter: invert(77%) hue-rotate(-180deg);
+	}
+	
+	.cs_timer .time_help .slct {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_timer .time_help li {
+		background: none;
+	}
+	
+	.cs_timer .time_help li:not(:first-child):before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/timer/img2/bg_bar.png) no-repeat 0 12px;
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(77%) hue-rotate(-180deg);
+	}
+	
+	.cs_timer .time_set .txt {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_timer .time_set .roll_bg {
+		background: none;
+		position: relative;
+		z-index: 1;
+	}
+	
+	.cs_timer .time_set .roll_bg:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/timer/img2/sp_bglst.png) no-repeat 1px -286px;
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(86%) hue-rotate(-180deg);
+		z-index: -1;
+	}
+	
+	.cs_timer .time_set a {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_timer .time_set .roll_bg .num {
+		color: #fff;
+	}
+	
+	.cs_timer .pop_up {
+		border: 1px solid #404040;
+		color: #fff;
+		background: #2f2f2f;
+	}
+	
+	.cs_timer .pop_up a {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+}
+
+@-moz-document url-prefix("https://ssl.pstatic.net/sstatic/keypage/outside/timer")
+{
+	body {
+		background: #242424;
+	}
+	
+	div, ul, ol, dl, p, td, th, input, textarea, select {
+		color: #fff;
+	}
+	
+	.cs_timer_popup .popup_header h1 a, .cs_timer_popup .btn_time .btn_timeclose, .cs_timer_popup .btn_time .line2 {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 }

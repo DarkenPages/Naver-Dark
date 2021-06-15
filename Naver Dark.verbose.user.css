@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.730
+@version		1.48.731
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -40998,6 +40998,35 @@
 	
 	.se-body .se-color-picker-apply-label, .CafeEditor .se-body .se-color-picker-apply-label, .CafeEditor .se-body .se-selected-color-hex {
 		color: #cacaca;
+	}
+	
+	.WritingSide .open_select {
+		color: #cacaca;
+	}
+	
+	.CafeEditor .se-body .se-color-swathces-label, .se-body .se-color-swathces-label {
+		color: #cacaca;
+	}
+	
+	.se-body .se-contents-toolbar-wrap {
+		background-color: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.CafeEditor .se-body .se-contents-toolbar-wrap {
+		border: 1px solid #404040;
+	}
+	
+	.se-body .se-contents-toolbar .se-toolbar-label, .se-body .se-contents-toolbar .se-toolbar-label, .CafeEditor .se-body .se-contents-toolbar .se-toolbar-label {
+		color: #cacaca;
+	}
+	
+	.se-body .se-contents-toolbar-label-select-button:hover .se-toolbar-label {
+		color: #fff;
+	}
+	
+	.se-body .se-toolbar-icon {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 }
 

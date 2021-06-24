@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.738
+@version		1.48.739
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -59957,6 +59957,115 @@
 	.sp_ndic .word_title .tag {
 		border: 1px solid #404040;
 		color: #cacaca;
+	}
+	
+	.cs_school .school_info .item .tit {
+		color: #cacaca;
+	}
+	
+	.cs_school .school_info .item .txt {
+		color: #fff;
+	}
+	
+	.cs_school .school_info .item .txt .txt_info .txt2 {
+		color: #cacaca;
+	}
+	
+	.cs_school .school_info+.school_info {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_school .school_info .item .txt .link_map {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.cs_school .tab_area {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_school .tab_area {
+		color: #fff;
+	}
+	
+	.cs_school .tab_area .list_tab li a .menu {
+		color: #cacaca;
+	}
+	
+	.cs_school .tab_area .list_tab li.on a .menu {
+		color: #fff;
+	}
+	
+	.cs_school .chart {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_school .chart .chart_list_all .school_pie_chart .chart_name, .cs_school .chart .chart_list_all .school_chart .chart_name {
+		color: #cacaca;
+	}
+	
+	.cs_school .chart .chart_list_all .chart_list_name, .cs_school .chart .chart_list_all .school_pie_chart .gender_group span, .cs_school .rel_txt p, .cs_school .cs_applyinfo .cs_applyinfo_link, .cs_school .cs_applyinfo span {
+		color: #cacaca;
+	}
+	
+	.cs_school .rel_txt .ico_alert {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_school .bar {
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_school .school_map {
+		background: #242424;
+	}
+	
+	.cs_school .school_map img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_school .api_title .official {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_school .chart .chart_list_all .school_chart .chart_box_bar {
+		background-color: #404040;
+	}
+	
+	.cs_school .rel_txt .layer_info {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.cs_school .school_menu {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_school .school_menu ul .menu_info {
+		border: 1px solid #404040;
+	}
+	
+	.cs_school .school_area {
+		color: #cacaca;
+	}
+	
+	.cs_school .page_sec a {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_school .page_sec ._info, .cs_school .page_sec .info {
+		color: #fff;
+	}
+	
+	.cs_school .page_sec .slash {
+		color: #cacaca;
+	}
+	
+	.cs_school .page_sec {
+		color: #cacaca;
+		border-bottom: 1px solid #404040;
 	}
 }
 

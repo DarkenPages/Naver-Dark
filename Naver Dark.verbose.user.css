@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.744
+@version		1.48.745
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -61131,6 +61131,232 @@
 	}
 	
 	.cs_common_module [class*="cm_error"] .area_text_box .this_text_subtitle {
+		color: #cacaca;
+	}
+	
+	.cs_payculculator .calculator_connection dl dt {
+		color: #cacaca;
+	}
+	
+	.cs_payculculator .calculator_connection dl dd .noti_bar {
+		background-color: #404040;
+	}
+	
+	.cs_payculculator .notice_area {
+		color: #cacaca;
+	}
+	
+	.cs_payculculator .calculator_connection {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_payculculator .notice_area .ico_notice {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_payculculator .calculator_wrap {
+		border: 1px solid #404040;
+	}
+	
+	.cs_payculculator .calculator_wrap .info_box .main_tab {
+		border-bottom: 1px solid #404040;
+		background-color: #3a3a3a;
+	}
+	
+	.cs_payculculator .calculator_wrap .info_box .main_tab ul li a {
+		color: #fff;
+	}
+	
+	.cs_payculculator .calculator_wrap .calculator_area .calculator_cont.v2 .calculator_yearpay .yearpay_title {
+		color: #cacaca;
+	}
+	
+	.cs_payculculator .calculator_area .calculator_cont .yearpay_btn a {
+		color: #cacaca;
+		border: 1px solid #404040;
+		background-color: #242424
+	}
+	
+	.cs_payculculator .calculator_area .calculator_cont .yearpay_btn a.on {
+		background-color: #2f2f2f;
+		color: #93c7fa;
+	}
+	
+	.cs_payculculator .calculator_wrap .calculator_area .calculator_cont.years_pay .calculator_list .input_won .input_wrap {
+		border: 1px solid #404040;
+	}
+	
+	.cs_payculculator .calculator_wrap .calculator_area .calculator_cont.years_pay .calculator_list .input_won .input_wrap input, .cs_payculculator .calculator_wrap .calculator_area .calculator_cont.v2 .calculator_yearpay .calculator_list .input_won .input_wrap input {
+		background-color: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.cs_payculculator .calculator_wrap .calculator_area .calculator_cont.v2 .calculator_yearpay .calculator_list .input_won .input_wrap {
+		border: 1px solid #404040;
+	}
+	
+	.cs_payculculator .won_word {
+		color: #cacaca;
+	}
+	
+	.cs_payculculator .calculator_wrap .calculator_area .calculator_cont.v2 .calculator_yearpay .yearpay_title em {
+		color: #cacaca;
+	}
+	
+	.cs_payculculator .btn_calculator .btn_icon {
+		border: 1px solid #404040;
+		color: #cacaca;
+		background-color: #242424;
+	}
+	
+	.cs_payculculator .btn_calculator .btn_icon .ico_reset {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_payculculator .btn_calculator .btn_icon.calculator {
+		color: #242424;
+	}
+	
+	.cs_payculculator .calculator_result {
+		border: 1px solid #404040;
+		border-width: 1px 0;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_payculculator .calculator_result ul li dl dt {
+		color: #cacaca;
+	}
+	
+	.cs_payculculator .calculator_result ul li dl dd em {
+		color: #cacaca;
+	}
+	
+	.cs_payculculator .calculator_result .result_notice {
+		color: #cacaca;
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_payculculator .calculator_result.years_pay dl dd {
+		color: #cacaca;
+	}
+	
+	.cs_payculculator .calculator_result.years_pay .result dd {
+		color: #fc4c4e;
+	}
+	
+	.cs_payculculator .calculator_wrap .calculator_area .calculator_cont .pay_way .btn_select {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.cs_payculculator .calculator_wrap .calculator_area .calculator_cont .pay_way .btn_select em {
+		color: #cacaca;
+	}
+	
+	.cs_payculculator .calculator_wrap .calculator_area .calculator_cont .pay_way .select_lst {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_payculculator .calculator_wrap .calculator_area .calculator_cont .pay_way .btn_select.on + .select_lst {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_payculculator .calculator_wrap .calculator_area .calculator_cont ul .calculator_list a {
+		color: #cacaca;
+	}
+	
+	.cs_payculculator .etc_text, .cs_payculculator .calculator_wrap .calculator_area .calculator_cont ul li .input_won .input_wrap .won_txt {
+		color: #cacaca;
+	}
+	
+	.cs_payculculator .calculator_wrap .calculator_area .calculator_cont ul li .input_won .input_wrap {
+		border: 1px solid #404040;
+	}
+	
+	.cs_payculculator .calculator_wrap .calculator_area .calculator_cont ul li .input_won .input_wrap input {
+		background-color: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.cs_payculculator .calculator_area .calculator_cont.v2 {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_payculculator .calculator_time_select .check_area ul li .radio_check.on .radio_text {
+		color: #fff;
+	}
+	
+	.cs_payculculator .calculator_time_select .check_area ul li .radio_check .radio_text, .cs_payculculator .calculator_wrap .calculator_area .calculator_cont.v2 .calculator_time .calculator_list .input_won .input_wrap .won_txt {
+		color: #cacaca;
+	}
+	
+	.cs_payculculator .calculator_wrap .calculator_area .calculator_cont.v2 .calculator_time .time_text, .cs_payculculator .sub_text {
+		color: #cacaca;
+	}
+	
+	.cs_payculculator .calculator_wrap .calculator_area .calculator_cont.v2 .calculator_time .calculator_list .input_won .input_wrap {
+		border: 1px solid #404040;
+	}
+	
+	.cs_payculculator .calculator_wrap .calculator_area .calculator_cont.v2 .calculator_time .calculator_list .input_won .input_wrap input {
+		background-color: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.cs_payculculator .calculator_result ul li dl dd {
+		color: #cacaca;
+	}
+	
+	.cs_payculculator .calculator_cont.calendar {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_payculculator .calculator_wrap .calculator_area .calculator_cont.v2 .calculator_retire .retire_title {
+		color: #cacaca;
+	}
+	
+	.cs_payculculator .calculator_wrap .calculator_area .calculator_cont.v2 .calculator_retire .calculator_list .input_won .input_wrap {
+		border: 1px solid #404040;
+	}
+	
+	.cs_payculculator .calculator_wrap .calculator_area .calculator_cont.v2 .calculator_retire .calculator_list .input_won .input_wrap input {
+		background-color: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.cs_payculculator .ly_notice {
+		border: 1px solid #404040;
+		color: #cacaca;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_payculculator .calculator_wrap .calculator_area .calculator_cont .pay_way .select_date {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_payculculator .calculator_wrap .calculator_area .calculator_cont .pay_way .btn_select.on + .select_date {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_payculculator .calculator_cont.calendar .calendar_lst li strong {
+		color: #cacaca;
+	}
+	
+	.cs_payculculator .calculator_wrap .calculator_area .calculator_cont.calendar .pay_way .select_date .calendar_lst ul {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_payculculator .calculator_wrap .calculator_area .calculator_cont.calendar .pay_way .select_date .calendar_lst ul li {
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_payculculator .calculator_result ul li.result dt em, .cs_payculculator .calculator_result ul li.result dt em.num_text {
+		color: #fff;
+	}
+	
+	.cs_payculculator .calculator_wrap .calculator_area .calculator_cont .calculator_lost .lostpay_title {
 		color: #cacaca;
 	}
 }

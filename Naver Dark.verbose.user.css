@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.739
+@version		1.48.742
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -34628,6 +34628,18 @@
 	.sc_timesquare .card_notice .ico_vaccine {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
+	
+	.api_atcmp_wrap .atcmp_correct.over {
+		background-color: #1c1c1c;
+	}
+	
+	.api_atcmp_wrap .atcmp_correct:before {
+		background-color: #404040;
+	}
+	
+	.api_atcmp_wrap .atcmp_correct .link_item {
+		color: #cacaca;
+	}
 }
 
 @-moz-document url-prefix("https://castbox.shopping.naver.com")
@@ -57465,30 +57477,140 @@
 		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
-	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+div>ul li+li {
-		border-top: 1px solid #404040;
+	:root {
+		--place-color-border1: 44, 44, 47;
+	    --place-color-border2: 70, 70, 73;
+	    --place-color-border3: 79, 79, 79;
+	    --place-color-border4: 70, 70, 73;
+	    --place-color-border5: 70, 70, 73;
+	    --place-color-border6: 0, 0, 0, .02;
+	    --place-color-border7: 70, 70, 73;
+	    --place-color-border9: 254, 254, 253, .04;
+	    --place-color-border10: 79, 79, 79;
+	    --place-color-border11: 3, 201, 91;
+	    --place-color-border12: 70, 70, 73;
+	    --place-color-border13: 70, 70, 73;
+	    --place-color-border14: 66, 98, 123;
+	    --place-color-border15: 84, 84, 87;
+	    --place-color-border16: 84, 84, 87;
+	    --place-color-border17: 70, 70, 73;
+	    --place-color-border18: 70, 70, 73;
+	    --place-color-border19: 70, 70, 73;
+	    --place-color-border20: 70, 70, 73;
+	    --place-color-border21: 84, 84, 87;
+	    --place-color-border22: 84, 84, 87;
+	    --place-color-border23: 77, 77, 80;
+	    --place-color-border24: 77, 77, 80;
+	    --place-color-border25: 72, 72, 76;
+	    --place-color-bg1: 48, 48, 51;
+	    --place-color-bg2: 57, 57, 60;
+	    --place-color-bg3: 61, 61, 64;
+	    --place-color-bg4: 65, 65, 68;
+	    --place-color-bg5: 65, 65, 68;
+	    --place-color-bg6: 165, 165, 167;
+	    --place-color-bg7: 3, 201, 91;
+	    --place-color-bg8: 57, 57, 60;
+	    --place-color-bg9: 153, 153, 153, .1;
+	    --place-color-bg10: 45, 49, 56;
+	    --place-color-bg11: 65, 65, 68;
+	    --place-color-bg12: 165, 165, 167;
+	    --place-color-bg13: 65, 65, 68;
+	    --place-color-bg14: 98, 98, 98;
+	    --place-color-bg15: 98, 98, 98;
+	    --place-color-bg16: 63, 63, 67;
+	    --place-color-bg17: 72, 72, 75;
+	    --place-color-bg18: 65, 65, 68;
+	    --place-color-bg19: 66, 66, 43;
+	    --place-color-bg20: 72, 72, 75;
+	    --place-color-bg21: 72, 72, 75;
+	    --place-color-bg22: 56, 56, 59;
+	    --place-color-bg23: 65, 65, 68;
+	    --place-color-bg24: 53, 53, 56;
+	    --place-color-bg25: 63, 63, 66;
+	    --place-color-text1: 240, 240, 242;
+	    --place-color-text2: 240, 240, 242;
+	    --place-color-text3: 218, 221, 224;
+	    --place-color-text4: 165, 165, 167;
+	    --place-color-text5: 145, 145, 146;
+	    --place-color-text6: 218, 221, 224;
+	    --place-color-text8: 3, 199, 90;
+	    --place-color-text9: 3, 201, 91;
+	    --place-color-text10: 238, 83, 83;
+	    --place-color-text11: 41, 131, 225;
+	    --place-color-text12: 145, 145, 146;
+	    --place-color-text15: 145, 145, 146;
+	    --place-color-text16: 145, 145, 146;
+	    --place-color-text17: 165, 165, 167;
+	    --place-color-link: 95, 165, 248;
+	    --place-color-link-pc: 95, 165, 248;
+	    --place-color-link-visited: 151, 119, 185;
+	    --place-color-bg101: 0, 0, 0;
+	    --place-color-bg102: 56, 56, 59;
+	    --place-color-bg103: 125, 127, 133;
+	    --place-color-bg104: 32, 32, 35;
+	    --place-color-bg105: 233, 236, 239;
+	    --place-color-bg107: 112, 117, 129;
+	    --place-color-bg108: 101, 101, 101;
+	    --place-color-bg109: 84, 86, 92;
+	    --place-color-bg110: 164, 179, 196;
+	    --place-color-bg111: 255, 255, 255;
+	    --place-color-bg112: 48, 48, 51;
+	    --place-color-bg113: 77, 80, 87;
+	    --place-color-bg114: 56, 56, 59;
+	    --place-color-bg115: 60, 66, 65;
+	    --place-color-text101: 155, 178, 204;
+	    --place-color-label-bg: 77, 77, 81;
+	    --place-color-ad-text: 130, 196, 255;
+	    --place-color-ad-bg: 255, 255, 255;
+	    --place-color-ad-label-text: 218, 218, 219;
+	    --place-color-ad-label-border: 104, 104, 104;
+	    --place-color-zeropay: 255, 255, 255;
+	    --place-color-datalab: 255, 255, 255;
+	    --place-color-filter-bg: 53, 53, 56;
+	    --place-color-profile-bg: 65, 65, 68;
+	    --place-color-profile-icon:169, 175, 185, .24
 	}
 	
-	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+div>ul li>div[class]>div[class]+div[class]>span {
-		color: #fff;
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+ul li+li {
+		border-color: #404040;
 	}
 	
-	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+div>ul li>div[class]>div[class]+div[class]>span+a[role="button"]:before {
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+ul li:nth-child(2n+1):not(:first-child):before {
 		background: #404040;
 	}
 	
-	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+div>ul li>div[class]>div[class]+div[class]>span+a[role="button"]+div[class] {
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+ul li:nth-child(2n):before {
+		background: #404040;
+	}
+	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+ul li>div[class]+div[class]>div[class]>div[class] span[class] {
+		border-color: #404040;
+	}
+	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+ul li>div[class]+div[class]>div[class]>div[class] span[class]>a>span+svg {
+		fill: #cacaca;
+	}
+	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+ul li>div[class]>div[class]+div[class]>span {
+		color: #fff;
+	}
+	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+ul li>div[class]>div[class]+div[class]>span+a[role="button"]:before {
+		background: #404040;
+	}
+	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+ul li>div[class]>div[class]+div[class]>span+a[role="button"]+div[class] {
 		background: #2f2f2f;
 		border: 1px solid #404040;
 		color: #cacaca;
 	}
 	
-	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+div>ul li>div[class]>div[class]+div[class]>span+a[role="button"]+div[class]>div>span {
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+ul li>div[class]>div[class]+div[class]>span+a[role="button"]+div[class]>div>span {
 		border: 1px solid #404040;
 		color: #cacaca;
 	}
 	
-	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+div>ul li>div[class]+div[class] a {
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+ul li>div[class]+div[class] a {
 		color: #cacaca;
 	}
 	
@@ -57506,7 +57628,7 @@
 		fill: #cacaca;
 	}
 	
-	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+div>ul li>div[class]>div[class]>a[href] {
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div>ul li>div[class]>div[class]>a[href] {
 		color: #788cda;
 	}
 	
@@ -59897,18 +60019,6 @@
 		color: #cacaca;
 	}
 	
-	.sp_nreview .total_tit, .sp_nreview .total_link_area .link, .sp_ntotal .total_tit .link_tit, .sp_nbook .book_info .title_area, .sp_nbook .list_info a.item_info, .sp_nvideo .video_default_list .video_bx .info_area .info_title, .go_relate a, .sp_ntotal .group_item .list_item .item a, .sp_nvideo .video_scroll_list .info_area .info_title, ._3tIZ6 ._2LKql ._3CKdL, .sp_nvideo .video_square_list .square_wrap .info_area .info_title, .sp_nrealtime .nrealtime_list .nrealtime_item .item_info .desc_tit, .sp_nblog .total_tit, .sp_ncafe .total_tit, .sp_nsite .link_name, .sp_nsite .sublink_wrap .sublink .item a, .cs_produce a, .cs_produce .prcs_detail h4 a, .ad_section .lst_type .lst .lnk_tit, .ad_section .lst_type .lst.type_subtitle .sub_tit, .api_ly_info .link, .ad_section .lst_type .lst.ext_price .lst_price .txt_inner, .ad_section .lst_type .lst.ext_link .lst_link .item .link, .sp_ndicstudy .word_lst .word, .sp_nrealtime .api_title .btn_new, .sp_ndic .dic_more .dic_link, .sp_ndic .dic_more_link .count, .sp_ndic .other_list .other_list_link, .sp_ndic .info_list a, .sp_ndic .dic_area .link_more, .sp_ndic .class_area .info_box .title, .cs_sign .tx_info.line_type a, .sp_mobile .app_eachlist a.store_wrap, .cs_newest .sct_content li .scm_ellipsis_text a, .cs_seasonal_divisions .prcs_detail h4 a {
-		color: #688cda;
-	}
-	
-	.sp_nnews .news_wrap .news_tit:visited, .sp_nnews .news_wrap .news_tit:visited mark, .sp_nnews .api_title_sub .sub_link:visited, .sp_nnews .news_cluster .sub_tit:visited, .sp_nnews .news_cluster .sub_tit:visited mark, .sp_nnews .news_wrap:visited .news_tit .tit, .sp_nnews .news_wrap:visited .news_tit .tit mark, .sp_nreview .total_tit:visited, .sp_nreview .total_tit:visited mark, .sp_nreview .total_link_area .link:visited, .sp_nreview .total_link_area .link:visited mark, .sp_ntotal .total_tit .link_tit:visited, .sp_ntotal .total_tit .link_tit:visited mark, .sp_nvideo .video_default_list .video_bx .info_area .info_title:visited, .sp_nvideo .video_default_list .video_bx .info_area .info_title:visited mark, .sp_ntotal .group_item .list_item .item a:visited, .sp_ntotal .group_item .list_item .item a:visited mark, .sp_nvideo .video_scroll_list .info_area .info_title:visited, .sp_nvideo .video_scroll_list .info_area .info_title:visited mark, .sp_nkin .cluster_item:visited, .sp_nrealtime .info_desc .desc_link:visited, .sp_nrealtime .info_desc .desc_tit:visited, .sp_nrealtime .info_desc:visited .desc_tit, .sp_nrealtime .profile_link:visited .explain_tit, .sp_nblog .total_tit:visited, .sp_nblog .total_tit:visited mark, .sp_ncafe .total_tit:visited, .sp_ncafe .total_tit:visited mark, .sp_nsite .link_name:visited, .sp_nsite .link_name:visited mark, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark, .sp_nkin .kin_wrap .question_area .question_text:visited, .cs_produce .prcs_detail h4 a:visited, .cs_produce a:visited, .ad_section .lst_type .lst .lnk_tit: visited, .ad_section .lst_type .lst.type_subtitle .sub_tit:visited, .sp_company .company_more .more_info .api_ly_info .link:visited, .ad_section .lst_type .lst.ext_price .lst_price .txt_inner:visited, .ad_section .lst_type .lst.ext_link .lst_link .item .link:visited, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark {
-		color: #cc90cd;
-	}
-	
-	.sp_nsite .link_name:visited, .sp_nsite .link_name:visited mark, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark, .sp_ntotal .total_tit .link_tit:visited, .sp_ntotal .total_tit .link_tit:visited mark, .sp_ntotal .group_item .list_item .item a:visited, .sp_ntotal .group_item .list_item .item a:visited mark, .sp_ndicstudy .word_lst .word:visited, .api_subject_bx .api_title_area .api_title a:visited, .sp_nreview .total_tit:visited, .sp_nreview .total_tit:visited mark, .sp_nnews .news_wrap .news_tit:visited, .sp_nnews .news_wrap .news_tit:visited mark {
-		color: #cc90cd;
-	}
-	
 	.cs_seasonal_divisions .prcs_detail span, .cs_seasonal_divisions .prcs_detail .date, .cs_seasonal_divisions .prcs_detail label {
 		color: #cacaca;
 	}
@@ -60066,6 +60176,679 @@
 	.cs_school .page_sec {
 		color: #cacaca;
 		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_foreigninfo .exchange_banner .inner {
+		border: 1px solid #404040;
+	}
+	
+	.cs_foreigninfo .exchange_banner .link_area {
+		background: #3a3a3a;
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_foreigninfo .exchange_banner .link_area .link_txt:after {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_foreigninfo .info {
+		background: none;
+		position: relative;
+		color: #cacaca;
+	}
+	
+	.cs_foreigninfo .info:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/scui/foreigninfo/img/sp_pic5.gif) -586px -308px no-repeat;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_foreigninfo .c_rate {
+		border: 1px solid #404040;
+		border-top-width: 0;
+	}
+	
+	.cs_foreigninfo .c_rate .rate_spot .rate_tlt {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_foreigninfo .c_rate .rate_bx .rate_spot:after {
+		background-color: #404040;
+	}
+	
+	.cs_foreigninfo .c_rate .rate_compare {
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_foreigninfo .c_rate .rate_spot .rate_tlt h3 a .rate_nm {
+		color: #fff;
+	}
+	
+	.cs_foreigninfo .c_rate .rate_spot .rate_tlt h3 a .t_nm {
+		color: #cacaca;
+	}
+	
+	.cs_foreigninfo .c_rate .cont_grp .grp_nav li.on a {
+		color: #fff;
+	}
+	
+	.cs_foreigninfo .c_rate .cont_grp .grp_nav li a {
+		color: #cacaca;
+	}
+	
+	.cs_foreigninfo .c_rate .cont_grp .grp_img .img > div > div > canvas {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_foreigninfo .c_rate .cont_grp .grp_info a img {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_foreigninfo .c_rate .rate_compare .rate_select_bx {
+		background-color: #3a3a3a;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_foreigninfo .rate_compare .check_area ul li .radio_check.on .radio_text {
+		color: #fff;
+	}
+	
+	.cs_foreigninfo .rate_compare .check_area ul li .radio_check .radio_text {
+		color: #cacaca;
+	}
+	
+	.cs_foreigninfo .c_rate .rate_compare .rate_select_bx .rate_select > a {
+		color: #cacaca;
+		position: relative;
+		background: none;
+	}
+	
+	.cs_foreigninfo .c_rate .rate_compare .rate_select_bx .rate_select > a:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/scui/foreigninfo/img/sp_pic5.gif) 100% -184px no-repeat;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(79%) hue-rotate(-180deg);
+	}
+	
+	.cs_foreigninfo .ch_wrap_ly, .cs_foreigninfo .ch_wrap_ly2, .cs_foreigninfo .ch_wrap_ly3 {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_foreigninfo .ly_cont li a {
+		color: #cacaca;
+	}
+	
+	.cs_foreigninfo .ly_cont li a:hover {
+		background-color: #3a3a3a;
+	}
+	
+	.cs_foreigninfo .ly_cont li.on a:hover {
+		background-color: #3a3a3a;
+	}
+	
+	.cs_foreigninfo .ly_cont li.on a {
+		background-color: #404040;
+	}
+	
+	.cs_foreigninfo .c_rate .compare_area .sbox .selectbox_box {
+		border: 1px solid #404040;
+		border-width: 1px 1px 0;
+		background-color: #3a3a3a;
+		color: #fff;
+	}
+	
+	.cs_foreigninfo .c_rate .compare_area .input_box {
+		border: 1px solid #404040;
+	}
+	
+	.cs_foreigninfo .c_rate .compare_area .input .input_text {
+		color: #cacaca;
+		background: #2f2f2f;
+	}
+	
+	.cs_foreigninfo .c_rate .compare_area .sbox .selectbox_label em {
+		color: #cacaca;
+	}
+	
+	.cs_foreigninfo .c_rate .compare_area .ico_same {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_foreigninfo .lst_tab:before {
+		background: #3a3a3a;
+	}
+	
+	.cs_foreigninfo .lst_tab:after {
+		width: 1px;
+		background: #404040;
+	}
+	
+	.cs_foreigninfo .lst_tab {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_foreigninfo .lst_tab li a {
+		background: none;
+		position: relative;
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_foreigninfo .lst_tab li.on a {
+		background: #4f4f4f;
+	}
+	
+	.cs_foreigninfo .lst_tab li a:hover {
+		background: #404040;
+	}
+	
+	.cs_foreigninfo .lst_tab li.on a:hover {
+		background: #5a5a5a;
+	}
+	
+	.cs_foreigninfo .lst_tab li a:hover span.blind {
+		color: #fff;
+	}
+	
+	.cs_foreigninfo .lst_tab li a span.blind {
+		overflow: initial !important;
+		clip: initial !important;
+		width: initial !important;
+		height: initial !important;
+		margin: initial !important;
+		position: absolute;
+		color: #cacaca;
+		font-weight: bold;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+		white-space: nowrap;
+	}
+	
+	.cs_foreigninfo .c_nation {
+		border: 1px solid #404040;
+	}
+	
+	.cs_foreigninfo .c_nation .lst_nation li {
+		border-right: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_foreigninfo .c_nation .lst_nation li span a {
+		color: #cacaca;
+	}
+	
+	.cs_foreigninfo .c_nation .lst_nation li em {
+		color: #fff;
+	}
+	
+	.cs_foreigninfo .ch_wrap .lst_select, .cs_foreigninfo .ch_wrap .nation_srch, .cs_foreigninfo .ch_wrap .lst_rate, .cs_foreigninfo .ch_wrap .stock_info, .cs_foreigninfo .ch_wrap .lst_worldtime {
+		background: #3a3a3a;
+		border-left: 1px solid #404040;
+		border-right: 1px solid #404040;
+	}
+	
+	.cs_foreigninfo .ch_wrap .lst_select li a {
+		color: #fff;
+	}
+	
+	.cs_foreigninfo .ch_wrap .lst_select li .lst_lamp {
+		filter: invert(79%) hue-rotate(-180deg);
+	}
+	
+	.cs_foreigninfo .ch_wrap .lst_select li a.slct_cont, .cs_foreigninfo .ch_wrap .lst_select li a.slct_nation, .cs_foreigninfo .ch_wrap .lst_select li.off a.slct_cont, .cs_foreigninfo .ch_wrap .lst_select li.off a.slct_nation {
+		background: none;
+		position: relative;
+	}
+	
+	.cs_foreigninfo .ch_wrap .lst_select li a.slct_cont:before, .cs_foreigninfo .ch_wrap .lst_select li a.slct_nation:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage//outside/scui/foreigninfo/img/sp_pic3.gif) 100% -176px no-repeat;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(79%) hue-rotate(-180deg);
+	}
+	
+	.cs_foreigninfo .ch_wrap .btn_section li.on a, .cs_foreigninfo .ch_wrap .lst_worldtime li.on a {
+		background: #4f4f4f;
+	}
+	
+	.cs_foreigninfo .ch_wrap .btn_section li a, .cs_foreigninfo .ch_wrap .lst_worldtime li a {
+		position: relative;
+		background: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.cs_foreigninfo .ch_wrap .btn_section li+li a, .cs_foreigninfo .ch_wrap .lst_worldtime li+li a {
+		border-left: none;
+	}
+	
+	.cs_foreigninfo .ch_wrap .btn_section li a span, .cs_foreigninfo .ch_wrap .lst_worldtime li a span {
+		overflow: initial !important;
+		clip: initial !important;
+		width: initial !important;
+		height: initial !important;
+		margin: initial !important;
+		position: absolute;
+		color: #cacaca;
+		font-weight: bold;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+		white-space: nowrap;
+	}
+	
+	.cs_foreigninfo .ch_wrap .lst_select li.on a.slct_cont, .cs_foreigninfo .ch_wrap .lst_select li.on a.slct_nation {
+		background: none;
+	}
+	
+	.cs_foreigninfo .ch_wrap .lst_select li.on {
+		background-color: #363636;
+	}
+	
+	.cs_foreigninfo .ch_wrap .nation_srch .box_input {
+		border: 1px solid #404040;
+		color: #cacaca;
+		background: #2f2f2f;
+	}
+	
+	.cs_foreigninfo .ch_wrap .nation_srch input[type=image] {
+		filter: invert(81.5%) hue-rotate(-180deg);
+		width: 34px;
+		height: 22px;
+		object-fit: cover;
+		border-radius: 3px;
+	}
+	
+	.cs_foreigninfo .ch_wrap .nation_srch .atcmp {
+		border: 1px solid #404040;
+		border-top: none;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_foreigninfo .ch_wrap .nation_srch .auto_completion .btn a img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_foreigninfo .ch_wrap .nation_srch .atcmp .func {
+		border-top: 1px solid #404040;
+		background-color: #3a3a3a;
+		color: #cacaca;
+	}
+	
+	.cs_foreigninfo .ch_wrap .nation_srch .atcmp li.last {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_foreigninfo .ch_wrap .nation_srch .atcmp li.selected a {
+		background-color: #3a3a3a;
+		color: #fff;
+	}
+	
+	.cs_foreigninfo .ch_wrap .nation_srch .atcmp li a {
+		color: #cacaca;
+	}
+	
+	.cs_foreigninfo .c_nation .lst_country {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_foreigninfo .c_nation .nation_num {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_foreigninfo .c_nation .lst_country .lst_country_inner li.selected a {
+		background-color: #3a3a3a;
+		color: #fff;
+	}
+	
+	.cs_foreigninfo .c_nation .lst_country .lst_country_inner a.con_hover {
+		color: #cfcfcf;
+	}
+	
+	.cs_foreigninfo .c_nation .lst_country .lst_country_inner a {
+		color: #cacaca;
+	}
+	
+	.cs_foreigninfo .noti_area p {
+		background: none;
+		position: relative;
+		color: #cacaca;
+	}
+	
+	.cs_foreigninfo .noti_area p:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/lifesrch/weather/img/ico_info.gif) 1px 0 no-repeat;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_foreigninfo .c_rate .rate_bx + .rate_table_bx {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_foreigninfo .c_rate .rate_table_bx .rate_table_info th {
+		border-bottom: 1px solid #404040;
+		color: #fff;
+	}
+	
+	.cs_foreigninfo .c_rate .rate_table_bx .rate_table_info thead th {
+		border: 1px solid #404040;
+		border-width: 1px 0;
+	}
+	
+	.cs_foreigninfo .c_rate .rate_table_bx .rate_table_info thead tr {
+		background-color: #3a3a3a;
+	}
+	
+	.cs_foreigninfo .c_rate .rate_table_bx .rate_table_info thead span {
+		color: #cacaca;
+	}
+	
+	.cs_foreigninfo .c_rate .rate_table_bx .rate_table_info a em {
+		color: #fff;
+	}
+	
+	.cs_foreigninfo .c_rate .rate_table_bx .rate_table_info td {
+		color: #fff;
+	}
+	
+	.cs_foreigninfo .c_rate .rate_table_bx .rate_table_info td {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_foreigninfo .c_rate .rate_table_bx .rate_table_info .flu_pct>span {
+		color: #2f2f2f;
+	}
+	
+	.cs_foreigninfo .c_nation .lst_country .lst_country_inner li {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.sp_nkeyword .api_subject_bx .related_srch .api_ico_open {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.sp_nkeyword .api_subject_bx .related_srch .btn_area:after {
+		background-image: linear-gradient(to right,rgba(47, 47, 47, 0),#2f2f2f 38%);
+	}
+	
+	.cs_foreigninfo .c_worldtime .wordtime_map, .cs_foreigninfo .c_worldtime .worldtime_cont div, .cs_foreigninfo .c_worldtime .map {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_foreigninfo .noti_area p.info {
+		background: none;
+		position: relative;
+		color: #cacaca;
+	}
+	
+	.cs_foreigninfo .noti_area p.info:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/lifesrch/weather/img/ico_info.gif) 0 2px no-repeat;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_foreigninfo .ic_summer, .cs_foreigninfo .ico_sum {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_foreigninfo .c_worldtime .time_info {
+		border: 1px solid #404040;
+		border-top-width: 0;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_foreigninfo .c_worldtime .time_info li {
+		border-right: 1px solid #404040;
+	}
+	
+	.cs_foreigninfo .c_worldtime .time_info li ul li .nat span {
+		color: #fff;
+	}
+	
+	.cs_foreigninfo .c_worldtime .time_info li.lst_link .btn_other a {
+		background: none;
+		color: #cacaca;
+		position: absolute;
+	}
+	
+	.cs_foreigninfo .c_worldtime .time_info li.lst_link .btn_summ a {
+		color: #cacaca;
+	}
+	
+	.cs_foreigninfo .c_worldtime .time_info li.lst_link .btn_other a:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/scui/foreigninfo/img/sp_pic3.gif) 100% -853px no-repeat;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_foreigninfo .c_worldtime .lst_time .sp, .cs_foreigninfo .c_worldtime .ic_lam_s, .cs_foreigninfo .c_worldtime .ic_lpm_s {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_foreigninfo .c_worldtime._worldtime_calc .sp, .cs_foreigninfo .c_worldtime .ic, .cs_foreigninfo .c_worldtime .btn_area .btn_othertime.off .btn_edit2, .cs_foreigninfo .c_worldtime .city_name_info a img, .cs_foreigninfo .c_worldtime .ly_worldtime li.lst_world .h_nation, .cs_foreigninfo .c_worldtime .ly_worldtime .world_clse, .cs_foreigninfo .c_worldtime .btn_area .btn_othertime img, .cs_foreigninfo .c_worldtime a img, .cs_foreigninfo .c_worldtime .btn_up, .cs_foreigninfo .c_worldtime .btn_down {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_foreigninfo .c_worldtime .edit_mode_pm {
+		background-image: none;
+		position: relative;
+	}
+	
+	.cs_foreigninfo .c_worldtime .edit_mode_pm:before {
+		background-image: url(https://ssl.pstatic.net/sstatic/keypage/lifesrch/time/img/icon3.gif);
+		background-repeat: no-repeat;
+		background-position: 0 -154px;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_foreigninfo .c_worldtime .edit_mode_am {
+		background-image: none;
+	}
+	
+	.cs_foreigninfo .c_worldtime .ly_worldtime li.lst_world a {
+		color: #cacaca;
+	}
+	
+	.cs_foreigninfo .c_worldtime .ly_worldtime {
+		border-left: 1px solid #404040;
+		border-right: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_foreigninfo .ch_wrap .capital_mark {
+		color: #cacaca;
+		background: none;
+		position: absolute;
+	}
+	
+	.cs_foreigninfo .ch_wrap .capital_mark:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage//outside/scui/foreigninfo/img/sp_pic3.gif) -154px -865px no-repeat;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_foreigninfo .c_worldmap .loc_nation {
+		border: 1px solid #404040;
+		border-right-width: 0;
+	}
+	
+	.cs_foreigninfo .c_worldmap .loc_nation .l_header {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_foreigninfo .c_worldmap .loc_nation .l_header .lst_nat dt {
+		color: #cacaca;
+	}
+	
+	.cs_foreigninfo .c_worldmap .loc_nation .l_header .lst_nat dd {
+		color: #fff;
+	}
+	
+	.cs_foreigninfo .c_worldmap .map_detail img, .cs_foreigninfo .c_worldmap .map_detail .map_minimap, .cs_foreigninfo .api_cs_wrap>div:last-child.c_worldmap .map_area img, .cs_foreigninfo .c_worldmap .map_area a {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_foreigninfo .c_worldmap .loc_nation .lst_nation dd a {
+		color: #cacaca;
+	}
+	
+	.cs_foreigninfo .c_worldmap .loc_nation .lst_nation dd.on a, .cs_foreigninfo .c_worldmap .loc_nation .lst_nation dd.on a:hover {
+		background-color: #3a3a3a;
+		color: #fff !important;
+	}
+	
+	.cs_foreigninfo .c_worldmap .map_info {
+		background: rgba(47, 47, 47, 0.5);
+	}
+	
+	.cs_foreigninfo .c_worldmap .map_info p, .cs_foreigninfo .c_worldmap .map_info p .info_nat {
+		color: #cacaca;
+	}
+	
+	.cs_foreigninfo .c_worldmap .map_info p .bar {
+		color: #4f4f4f;
+	}
+	
+	.cs_foreigninfo .c_worldmap .map_info p strong {
+		color: #fff;
+	}
+	
+	.sp_ncafe_used .ico_badge {
+		color: #2f2f2f;
+	}
+	
+	.sp_ncafe_used .used_wrap {
+		border-top: 1px solid #404040;
+	}
+	
+	.api_group_tag .tag {
+		background-color: #3a3a3a;
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.api_group_tag .tag:hover {
+		border-color: #4f4f4f;
+		color: #fff;
+	}
+	
+	.api_group_tag.type_multi_select .tag.is_selected {
+		background-color: #2f2f2f;
+	}
+	
+	.sp_ncafe_used .location_select_area {
+		border-bottom: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.api_select_option .select_wrap {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.api_select_option.type_calendar .group_select strong.blind {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.api_select_option .group_select+.group_select .select_cont {
+		border-left: 3px solid #404040;
+	}
+	
+	.api_select_option .select_area .item .link {
+		border: 1px solid #404040;
+		border-width: 1px 0;
+		color: #cacaca;
+	}
+	
+	.api_select_option .select_area .item[aria-selected=true] .link {
+		background-color: #3a3a3a;
+	}
+	
+	.sp_ncafe_used .used_wrap .info_area .info_wrap .info .label {
+		color: #cacaca;
+	}
+	
+	.sp_ncafe_used .used_wrap .info_area .info_wrap .info {
+		color: #fff;
+	}
+	
+	.sp_ncafe_used .used_wrap .info_area .profile_area .dsc_wrap .name {
+		color: #cacaca;
+	}
+	
+	.sp_ncafe_used .used_wrap .info_area .profile_area .dsc_wrap .date:before {
+		background-color: #404040;
+	}
+	
+	.sp_ncafe_used .used_wrap .info_area .profile_area .dsc_wrap .date {
+		color: #cacaca;
+	}
+	
+	.api_ico_retry {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.sp_nreview .total_tit, .sp_nreview .total_link_area .link, .sp_ntotal .total_tit .link_tit, .sp_nbook .book_info .title_area, .sp_nbook .list_info a.item_info, .sp_nvideo .video_default_list .video_bx .info_area .info_title, .go_relate a, .sp_ntotal .group_item .list_item .item a, .sp_nvideo .video_scroll_list .info_area .info_title, ._3tIZ6 ._2LKql ._3CKdL, .sp_nvideo .video_square_list .square_wrap .info_area .info_title, .sp_nrealtime .nrealtime_list .nrealtime_item .item_info .desc_tit, .sp_nblog .total_tit, .sp_ncafe .total_tit, .sp_nsite .link_name, .sp_nsite .sublink_wrap .sublink .item a, .cs_produce a, .cs_produce .prcs_detail h4 a, .ad_section .lst_type .lst .lnk_tit, .ad_section .lst_type .lst.type_subtitle .sub_tit, .api_ly_info .link, .ad_section .lst_type .lst.ext_price .lst_price .txt_inner, .ad_section .lst_type .lst.ext_link .lst_link .item .link, .sp_ndicstudy .word_lst .word, .sp_nrealtime .api_title .btn_new, .sp_ndic .dic_more .dic_link, .sp_ndic .dic_more_link .count, .sp_ndic .other_list .other_list_link, .sp_ndic .info_list a, .sp_ndic .dic_area .link_more, .sp_ndic .class_area .info_box .title, .cs_sign .tx_info.line_type a, .sp_mobile .app_eachlist a.store_wrap, .cs_newest .sct_content li .scm_ellipsis_text a, .cs_seasonal_divisions .prcs_detail h4 a {
+		color: #688cda;
+	}
+	
+	.sp_nnews .news_wrap .news_tit:visited, .sp_nnews .news_wrap .news_tit:visited mark, .sp_nnews .api_title_sub .sub_link:visited, .sp_nnews .news_cluster .sub_tit:visited, .sp_nnews .news_cluster .sub_tit:visited mark, .sp_nnews .news_wrap:visited .news_tit .tit, .sp_nnews .news_wrap:visited .news_tit .tit mark, .sp_nreview .total_tit:visited, .sp_nreview .total_tit:visited mark, .sp_nreview .total_link_area .link:visited, .sp_nreview .total_link_area .link:visited mark, .sp_ntotal .total_tit .link_tit:visited, .sp_ntotal .total_tit .link_tit:visited mark, .sp_nvideo .video_default_list .video_bx .info_area .info_title:visited, .sp_nvideo .video_default_list .video_bx .info_area .info_title:visited mark, .sp_ntotal .group_item .list_item .item a:visited, .sp_ntotal .group_item .list_item .item a:visited mark, .sp_nvideo .video_scroll_list .info_area .info_title:visited, .sp_nvideo .video_scroll_list .info_area .info_title:visited mark, .sp_nkin .cluster_item:visited, .sp_nrealtime .info_desc .desc_link:visited, .sp_nrealtime .info_desc .desc_tit:visited, .sp_nrealtime .info_desc:visited .desc_tit, .sp_nrealtime .profile_link:visited .explain_tit, .sp_nblog .total_tit:visited, .sp_nblog .total_tit:visited mark, .sp_ncafe .total_tit:visited, .sp_ncafe .total_tit:visited mark, .sp_nsite .link_name:visited, .sp_nsite .link_name:visited mark, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark, .sp_nkin .kin_wrap .question_area .question_text:visited, .cs_produce .prcs_detail h4 a:visited, .cs_produce a:visited, .ad_section .lst_type .lst .lnk_tit: visited, .ad_section .lst_type .lst.type_subtitle .sub_tit:visited, .sp_company .company_more .more_info .api_ly_info .link:visited, .ad_section .lst_type .lst.ext_price .lst_price .txt_inner:visited, .ad_section .lst_type .lst.ext_link .lst_link .item .link:visited, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark {
+		color: #cc90cd;
+	}
+	
+	.sp_nsite .link_name:visited, .sp_nsite .link_name:visited mark, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark, .sp_ntotal .total_tit .link_tit:visited, .sp_ntotal .total_tit .link_tit:visited mark, .sp_ntotal .group_item .list_item .item a:visited, .sp_ntotal .group_item .list_item .item a:visited mark, .sp_ndicstudy .word_lst .word:visited, .api_subject_bx .api_title_area .api_title a:visited, .sp_nreview .total_tit:visited, .sp_nreview .total_tit:visited mark, .sp_nnews .news_wrap .news_tit:visited, .sp_nnews .news_wrap .news_tit:visited mark, .sp_ncafe_used .used_wrap .title:visited {
+		color: #cc90cd;
 	}
 }
 

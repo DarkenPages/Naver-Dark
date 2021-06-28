@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.750
+@version		1.48.753
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -58350,14 +58350,35 @@
 	
 	.ds_calendar .tab {
 		background: #2f2f2f;
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.ds_calendar .tab li {
+		padding-left: 0;
+		border-left: 1px solid #404040;
+	}
+	
+	.ds_calendar .tab li.frst a {
+		width: 125px;
+	}
+	
+	.ds_calendar .tab li.last {
+		width: 124px;
+		border-right: 1px solid #404040;
+	}
+	
+	.ds_calendar .tab li.last a {
+		width: 124px;
 	}
 	
 	.ds_calendar .tab .selected {
-		background: #242424;
+		margin-left: 0;
+		background: #3a3a3a;
 	}
 	
 	.ds_calendar .tab .selected a {
-		background: #242424;
+		background: #3a3a3a;
 	}
 	
 	.ds_calendar .tab li a {
@@ -58365,12 +58386,21 @@
 		color: #fff;
 	}
 	
+	.ds_calendar .tab li.last.selected {
+		border-right: 1px solid #404040;
+	}
+	
+	.ds_calendar .date_calculator, .ds_calendar .army_section, .ds_calendar .years_reckon {
+		border-top: 1px solid #404040;
+	}
+	
 	.ds_calendar .tab li a:hover {
 		text-decoration: underline;
 	}
 	
 	.ds_calendar .con_calendar {
-		border: none;
+		border: 1px solid #404040;
+		border-top: 0;
 	}
 	
 	.ds_calendar .calendar_detail dt {
@@ -58474,6 +58504,7 @@
 	
 	.ds_calendar .trans_sun_lunar {
 		background: #2f2f2f;
+		border-top: 1px solid #404040;
 	}
 	
 	.ds_calendar .trans_sun_lunar .set_date {
@@ -58651,10 +58682,6 @@
 	
 	.ds_calendar .years_reckon {
 		background: #2f2f2f;
-	}
-	
-	.ds_calendar .tab li.last.selected {
-		border-right: 1px solid #242424;
 	}
 	
 	.ds_calendar .years_reckon .set_date dt {
@@ -61895,6 +61922,147 @@
 	
 	.cs_tvcast .tv_thum_list.theme .lst_thum li .tv_tit a {
 		color: #cacaca;
+	}
+	
+	.cs_stock .ar_spotlst {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_stock .slct_bx .slct_tlt {
+		color: #cacaca;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_stock .slct_bx .slct_tlt .btn_open {
+		color: #cacaca;
+	}
+	
+	.cs_stock .ar_cont .cont_dtcon.cont_tb .graph_lst_bx .lst li dt span {
+		color: #fff !important;
+	}
+	
+	.cs_stock .ar_cont .cont_dtcon.cont_tb .graph_lst_bx .lst li dt em {
+		color: #cacaca;
+	}
+	
+	.cs_stock .ar_cont .cont_dtcon.cont_tb .graph_lst_bx .lst li .img_bx {
+		border: 1px solid #404040;
+	}
+	
+	.cs_stock .ar_cont .cont_dtcon.cont_tb .graph_lst_bx .lst {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_stock .ar_cont .cont_dtcon.cont_tb ul.lsttype_tb dd>strong {
+		color: #cacaca;
+	}
+	
+	.cs_stock .ar_cont .cont_dtcon.cont_tb .lsttype_tb a {
+		color: #fff;
+	}
+	
+	.cs_stock .slct_bx .slct_lst {
+		border: 1px solid #404040;
+		background: #3a3a3a;
+	}
+	
+	.cs_stock .slct_bx .slct_lst>ul>li:hover {
+		background-color: #404040;
+	}
+	
+	.cs_stock .slct_bx .slct_lst>ul>li>a {
+		color: #cacaca;
+	}
+	
+	.cs_stock .slct_bx .slct_lst>ul>li.on>a>span {
+		color: #fff;
+	}
+	
+	.cs_stock .ar_cont .cont_dtcon.cont_tb ul.lsttype_tb li {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_stock .slct_bx .slct_lst>ul>li {
+		font-family: 'Helvetica';
+	}
+	
+	.cs_stock .ar_cont .cont_err {
+		color: #cacaca;
+	}
+	.cs_stock .ar_spotlst .ch_stock_lst>ul>li.on {
+		border: 1px solid #404040;
+		background: #3a3a3a;
+	}
+	
+	.cs_stock .ar_spotlst .ch_stock_lst>ul>li.on>a {
+		color: #fff;
+	}
+	
+	.cs_stock .ar_spotlst .ch_stock_lst>ul>li {
+		border: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.cs_stock .ar_spotlst .ch_stock_lst>ul>li.on:first-child {
+		border-right: 1px solid #404040;
+	}
+	
+	.cs_stock .ar_cont .cont_dtcon.cont_tb .lsttype_tb thead tr, .cs_stock .cont_dtcon.cont_tb .ipo_tb thead tr {
+		background-color: #3a3a3a;
+	}
+	
+	.cs_stock .ar_cont .cont_dtcon.cont_tb .lsttype_tb thead span, .cs_stock .cont_dtcon.cont_tb .ipo_tb thead th, .cs_stock .cont_dtcon.cont_tb .ipo_tb tbody a {
+		color: #fff;
+	}
+	
+	.cs_stock .ar_cont .cont_dtcon.cont_tb .lsttype_tb td {
+		color: #cacaca;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_stock .ar_cont .cont_dtcon.cont_tb .lsttype_tb th, .cs_stock .cont_dtcon.cont_tb .ipo_tb th {
+		color: #cacaca;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_stock .ar_cont .cont_dtcon.cont_tb .lsttype_tb thead th, .cs_stock .cont_dtcon.cont_tb .ipo_tb td, .cs_stock .cont_dtcon.cont_tb .ipo_tb thead th {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_stock .ar_cont .cont_dtcon.cont_tb .lsttype_tb .flu_pct>span {
+		color: #242424;
+	}
+	
+	.cs_stock .ar_cont .cont_dtcon .dtcon_lst .lst li dd .spt_con.eq {
+		color: #cacaca;
+	}
+	
+	.cs_stock .ar_cont .cont_dtcon .dtcon_lst .lst2 li .ico {
+		filter: brightness(100%);
+	}
+	
+	.cs_stock .ar_spot .spt_tlt h3 a .t_nm_s:after {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	h2 {
+		color: #fff;
+	}
+	
+	.cs_stock_same .box_title_area {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_stock_same .scroll_box .list_info .box_list .list_item {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_stock_same .list_info .box_list .list_item .inner {
+		border: 1px solid #404040;
+	}
+	
+	.cs_stock_same .list_info .box_list .list_item .name, .cs_stock_same .list_info .box_list .list_item .price {
+		color: #fff;
 	}
 }
 

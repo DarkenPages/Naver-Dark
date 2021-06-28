@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.753
+@version		1.48.755
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -62063,6 +62063,401 @@
 	
 	.cs_stock_same .list_info .box_list .list_item .name, .cs_stock_same .list_info .box_list .list_item .price {
 		color: #fff;
+	}
+	
+	.cs_common_module .card_image_list .image_info .info_bottom {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_common_module .graph_wrap .rating_bx+.rating_bx:before {
+		background-color: #404040;
+	}
+	
+	.cs_common_module .offer_box {
+		border-top: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.cs_common_module .graph_wrap .graph_area {
+		background: none;
+	}
+	
+	.cs_common_module .graph_wrap .bb-axis-x tspan:first-child {
+		fill: #cacaca;
+	}
+	
+	.cs_common_module .tvtime_list .info_list .cm_date, .cs_common_module .tvtime_table .info_list .cm_date {
+		color: #cacaca;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_common_module .tvtime_list .number .number_text, .cs_common_module .tvtime_table .number .number_text {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .cm_tab_info_box .tvtime_list+.offer_box {
+		color: #cacaca;
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_common_module .box_card_image_list .info_box .rel_info dd {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .box_card_image_list .info_box .title {
+		color: #fff;
+	}
+	
+	.cs_newest .sct_top .top_content .bar {
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_newest .sct_content .ar_pgn .pgn a {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_tvtime .weekly .timeline_body .program_list {
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_tvtime .timeline_head .title_left {
+		border: 1px solid #404040;
+		border-width: 1px 0 1px 0;
+	}
+	
+	.cs_tvtime .weekly .timeline_head .title_left {
+		border-color: #404040;
+	}
+	
+	.cs_tvtime .timeline_head {
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_tvtime .timeline_head .title_left a.text {
+		color: #cacaca;
+	}
+	
+	.cs_tvtime .weekly .timeline_body .program_list .time_box {
+		color: #cacaca;
+	}
+	
+	.cs_tvtime .weekly .timeline_head .title_right {
+		background-color: #3a3a3a;
+	}
+	
+	.cs_tvtime .weekly .timeline_head .title_right .prev_btn, .cs_tvtime .weekly .timeline_head .title_right .next_btn {
+		border: 1px solid #404040;
+		background-color: #3a3a3a;
+	}
+	
+	.cs_tvtime .weekly .timeline_head .title_right .time_wrap > ul li {
+		border: 1px solid #404040;
+		border-width: 1px 0 1px 1px;
+	}
+	
+	.cs_tvtime .weekly .timeline_head .title_right .time_wrap > ul li > a {
+		color: #cacaca;
+	}
+	
+	.cs_tvtime .weekly .timeline_body .program_list .ind_program {
+		border: 1px solid #404040;
+		border-width: 0 0 0 1px;
+	}
+	
+	.cs_tvtime .weekly .timeline_body .program_list .item {
+		border: 1px solid #404040;
+		border-width: 1px 1px 0 1px;
+		border-right-color: transparent !important;
+		border-left: 0;
+	}
+	
+	.cs_tvtime .weekly .timeline_body {
+		border-right: 1px solid #404040;
+	}
+	
+	.cs_tvtime .tvtime_wrap {
+		border: 1px solid #404040;
+		border-width: 0 0 1px;
+	}
+	
+	.cs_tvtime .other_info {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_tvtime .other_info dl dt {
+		color: #cacaca;
+	}
+	
+	.cs_tvtime .notice_area {
+		color: #cacaca;
+	}
+	
+	.cs_tvtime .s_label, .cs_tvtime .age_icon {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_tvtime .desp_text {
+		color: #cacaca;
+	}
+	
+	.cs_tvtime .weekly .timeline_body .program_list .ind_program .inner .time_min {
+		color: #cacaca;
+	}
+	
+	.cs_tvtime .weekly .timeline_body .program_list .ind_program.today, .cs_tvtime .weekly .timeline_body .program_list .ind_program.on, .cs_tvtime .weekly .timeline_body .program_list .ind_program.today.on {
+		background-color: #3a3a3a;
+	}
+	
+	.cs_tvtime .weekly .timeline_body .program_list .ind_program .inner span.pr_title {
+		color: #cacaca;
+	}
+	
+	.cs_tvtime .channel_like .zzim_text {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .pro_info_box dd .text {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .table_fixed_wrap .cm_table:before {
+		background: #404040;
+	}
+	
+	.cs_common_module .cm_table tbody td:first-child {
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_common_module .cm_table tbody td:last-child {
+		border-right-color: #404040;
+	}
+	
+	.cs_common_module .table_scroll_wrap .table_body_area:before {
+		background: #242424;
+	}
+	
+	.cs_common_module .table_scroll_wrap .table_body_area:after {
+		background: #242424;
+		border: 1px solid #404040;
+		border-width: 0 1px 1px 0;
+	}
+	
+	.cs_common_module .table_scroll_wrap tbody, .cs_common_module .table_fixed_wrap tbody {
+		background: #242424;
+	}
+	
+	.cs_common_module .table_scroll_wrap tr th:last-child, .cs_common_module .table_scroll_wrap tr td:last-child {
+		border-right: 1px solid #404040;
+	}
+	
+	.cs_common_module .more_view_area {
+		background: #242424;
+	}
+	
+	.cs_common_module .more_view_area .more_view_link {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .more_view_area .more_view_link:after {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_common_module .list_image_half .info_box .title {
+		color: #fff;
+	}
+	
+	.cs_production_type .status_today ul li.info_03 {
+		color: #888;
+	}
+	
+	.cs_production_type .confirmed_status.new {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_production_type .confirmed_status.new .tooltip_area .date, .cs_production_type .confirmed_status.new .tooltip_area .total {
+		color: #fff;
+	}
+	
+	.cs_production_type .confirmed_status.new .tooltip_area .patient, .cs_production_type .confirmed_status.new .tooltip_area .cured, .cs_production_type .confirmed_status.new .tooltip_area .local, .cs_production_type .confirmed_status.new .tooltip_area .oversea, .cs_production_type .confirmed_status.new .tooltip_area .desc {
+		color: #cacaca;
+	}
+	
+	.cs_production_type .confirmed_status.new .graph .x_axis_value {
+		color: #cacaca;
+	}
+	
+	.cs_production_type .confirmed_status.new .graph .grid div {
+		border-color: #404040;
+	}
+	
+	.cs_production_type .confirmed_status.new .graph .data_content.-bar_data .column.-point .value .text span, .cs_production_type .confirmed_status.new .graph .column.-point .x_axis_value {
+		color: #fff;
+	}
+	
+	.cs_production_type .confirmed_status.new .graph .data_content.-bar_data .value .text {
+		color: #cacaca;
+	}
+	
+	.cs_production_type .patients_info {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_production_type .vaccination_area .vaccine_status {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_production_type .vaccination_area .vaccine_status_item:last-of-type:before {
+		background-color: #404040;
+	}
+	
+	.cs_production_type .vaccination_area .vaccine_status_item_inner .info, .cs_production_type .vaccination_area .vaccination_status_map .subnav .nav_item button {
+		color: #cacaca;
+	}
+	
+	.cs_production_type .vaccination_area .vaccination_status_map .subnav .nav_item button[aria-selected='true'] {
+		color: #fff;
+	}
+	
+	.cs_production_type .vaccination_area .vaccination_status_map .social_distancing_info, .cs_production_type .social_distancing_info {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_production_type .social_distancing_info .notice_text, .cs_production_type .csp_info_area {
+		color: #cacaca;
+	}
+	
+	.cs_production_type .button_list .button_more {
+		color: #cacaca;
+		border: 1px solid #404040;
+		border-width: 1px 1px 1px 0;
+		background-color: #3a3a3a;
+	}
+	
+	.cs_production_type .button_list .button_more:first-child {
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_production_type .button_area {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_production_type .csp_subInfo_area {
+		color: #cacaca;
+	}
+	
+	.cs_tvtime .channel_select .sel_lk {
+		color: #cacaca;
+	}
+	
+	.cs_tvtime .channel_select .ly_channel {
+		border: 1px solid #404040;
+		background-color: #3a3a3a;
+	}
+	
+	.cs_tvtime .channel_select .ly_channel .genre_list li .channel_name .lk {
+		color: #cacaca;
+	}
+	
+	.cs_tvtime .main_tab {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+		border-width: 1px 1px 0;
+	}
+	
+	.cs_tvtime .main_tab .btn_prev, .cs_tvtime .main_tab .btn_next {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_tvtime .main_tab:after, .cs_tvtime .main_tab:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_tvtime .main_tab ul li a {
+		color: #cacaca;
+	}
+	
+	.cs_tvtime .date_tab {
+		border: 1px solid #404040;
+		border-width: 0 1px;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_tvtime .main_tab + .date_tab, .cs_tvtime .main_tab + .timeline_wrap, .cs_tvtime .main_tab + ._contents_area {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_tvtime .date_tab li[aria-selected="true"] a, .cs_tvtime .date_tab li[aria-selected="true"].today span {
+		color: #fff;
+	}
+	
+	.cs_tvtime .date_tab li a {
+		color: #cacaca;
+	}
+	
+	.cs_tvtime .list_left {
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_tvtime .list_left .item > a {
+		color: #fff;
+	}
+	
+	.cs_tvtime .list_right .timeline_box .channel_list .item, .cs_tvtime .list_left .item {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_tvtime .list_right .timeline_box {
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_tvtime .list_right .timeline_box .channel_list .ind_program .time {
+		color: #cacaca;
+	}
+	
+	.cs_tvtime .list_right .timeline_box .channel_list .ind_program .inner {
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_tvtime .list_right .timeline_box .channel_list .ind_program.on {
+		background-color: #3a3a3a;
+	}
+	
+	.cs_tvtime .timeline_body {
+		border-right: 1px solid #404040;
+	}
+	
+	.cs_tvtime .timeline_head .title_right .time_wrap > ul > li {
+		border: 1px solid #404040;
+		border-width: 1px 0 1px;
+	}
+	
+	.cs_tvtime .timeline_head .title_right .prev_btn {
+		border: 1px solid #404040;
+		background-color: #3a3a3a;
+	}
+	
+	.cs_tvtime .timeline_head .title_right .time_wrap > ul > li:after {
+		background-color: #404040;
+	}
+	
+	.cs_tvtime .timeline_head .title_right {
+		background-color: #3a3a3a;
+	}
+	
+	.cs_tvtime .timeline_head .title_right .next_btn {
+		border: 1px solid #404040;
+		border-left: 1px solid #404040;
+		background-color: #3a3a3a;
+	}
+	
+	.cs_tvtime ._contents_area .timeline_wrap .error_area {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_tvtime .error_area {
+		border: 1px solid #404040;
+		border-width: 0 1px 0;
 	}
 }
 

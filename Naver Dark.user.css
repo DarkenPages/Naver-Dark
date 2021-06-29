@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.755
+@version		1.48.756
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -3224,7 +3224,7 @@
 @-moz-document url-prefix("https://nid.naver.com/nidlogin.login") {
     :root .lang::after { z-index: 99;filter: invert(87.5%) hue-rotate(-180deg) }
     .btn_done { border: 1px solid #404040;background-color: #2f2f2f }
-    .btn_done .picture::before,.btn_done .refresh::before,.btn_done .voice::before,.diaper_banner,.otp_step_banner,.login_check_box .ico_keep_check::before,.qr_once_area .icon_once,#header .lang .sel { filter: invert(86%) hue-rotate(-180deg) }
+    .btn_done .picture::before,.btn_done .refresh::before,.btn_done .voice::before,.diaper_banner,.otp_step_banner,.login_check_box .ico_keep_check::before,.qr_once_area .icon_once { filter: invert(86%) hue-rotate(-180deg) }
     .btn_done .txt,.chatbot_box .txt,.find_info a,.ip_check .ip_txt01,.ip_check .ip_txt02,.once_wrap .desc,.velid_inner .desc,.pc_check a,.social_header .social_title,.tab_m li a:hover,.tab_m li a:visited,.title p,#footer *,#footer a,#footer a:visited,#footer address a { color: #cacaca }
     .btn_global,.btn_login input,.btn_global:active,.btn_global:hover,.btn_global:link { color: #242424 }
     .btn_login { background: #019341 }

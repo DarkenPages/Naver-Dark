@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.756
+@version		1.48.757
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -62454,6 +62454,10 @@
 	.cs_tvtime .error_area {
 		border: 1px solid #404040;
 		border-width: 0 1px 0;
+	}
+	
+	.cs_foreigninfo .c_rate .rate_spot .spt_con.eq, .cs_foreigninfo .c_rate .rate_spot .spt_con.eq {
+		color: #fff;
 	}
 }
 

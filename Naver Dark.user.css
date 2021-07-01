@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.757
+@version		1.48.758
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -2826,7 +2826,7 @@
 @-moz-document url-prefix("https://m.blog.naver.com"), url-prefix("http://m.blog.naver.com") {
 }
 @-moz-document url-prefix("https://mail.naver.com") {
-    .bill_list .logo,.icon_tip,.view_sign img,.ly_tooltip_green.arr_center_bottom:after,.subtitle .stat_load,a.btn_print .spr { filter: invert(86%) hue-rotate(-180deg) }
+    .bill_list .logo,.icon_tip,.view_sign img,.ly_tooltip_green.arr_center_bottom:after,.ly_tooltip_green.arr_right_bottom:after,.subtitle .stat_load,a.btn_print .spr { filter: invert(86%) hue-rotate(-180deg) }
     .box_ext_reg table .slct_type span.type_daum label { width: 45px;position: relative;background: none }
     .box_ext_reg table .slct_type span.type_daum label:after { width: 45px;top: 2px;position: absolute;height: 19px;content: '';background: url(https://upload.wikimedia.org/wikipedia/commons/4/44/Daum_communication_logo.svg), none;background-size: 45px 19px;background-position: 0 0 }
     .box_ext_reg table .slct_type span.type_gmail label,.box_ext_reg table .slct_type span.type_nate label,.box_ext_reg table .slct_type span.type_yahoo label { width: 60px;position: relative;background: none }
@@ -2837,7 +2837,7 @@
     .box_ext_reg table .slct_type span.type_naver label { position: relative;background: none }
     .box_ext_reg table .slct_type span.type_naver label:after { width: 61px;top: 3px;position: absolute;height: 15px;content: '';background: url(https://ssl.pstatic.net/sstatic/search/pc/img/sp_svg_common_240dccc4.svg), none;background-size: 136px 104px;background-position: -4px 1px }
     .box_ext_reg table .slct_type span.type_yahoo label:after { width: 60px;top: 0px;position: absolute;height: 21px;filter: invert(86%) hue-rotate(-180deg);content: '';background: url(https://upload.wikimedia.org/wikipedia/commons/3/3a/Yahoo%21_%282019%29.svg), none;background-size: 60px 21px;background-position: 0 0 }
-    .box_notice input,.box_notice label,.cleanup_mail_new .cleanup_list_body li,.cleanup_mail_new .cleanup_list_new .cleanup_list_head li,.description,.setup_content .chk_all label,.slct_mailbox .chk_all label,.dh_layer .type_c .smart_mbox_ok .info2,.form_content .manage_sign p.desc,.form_ul1 .form_content .desc2,.info_mailbox td.box_btn button,.ly_tooltip .tip_extmail dd,.ly_tooltip .tip_extmail dt,.manage_sign button.posr,#footer .quick_tools a,#footer .quick_tools em,#nav_snb.show_faq_banner .faq_cover a,.info_wrap .tip a,.mailListHead .back_home,.note_message p,.subtitle span.desc,.tt_list li { color: #cacaca }
+    .box_notice input,.box_notice label,.cleanup_mail_new .cleanup_list_body li,.cleanup_mail_new .cleanup_list_new .cleanup_list_head li,.description,.setup_content .chk_all label,.slct_mailbox .chk_all label,.dh_layer .type_c .smart_mbox_ok .info2,.form_content .manage_sign p.desc,.form_ul1 .form_content .desc2,.info_mailbox td.box_btn button,.ly_tooltip .tip_extmail dd,.ly_tooltip .tip_extmail dt,.manage_sign button.posr,.smart_mail_cover .intro_smart_mail .text,.smart_mail_cover .set_smart_mail .btn_setting .text,#footer .quick_link a,#footer .quick_tools a,#footer address,.mailList ul.mInfo li,.mailListHead .noReadDel,.notify_area .notice a,#footer .quick_tools a,#footer .quick_tools em,#nav_snb.show_faq_banner .faq_cover a,.info_wrap .tip a,.mailListHead .back_home,.note_message p,.subtitle span.desc,.tt_list li { color: #cacaca }
     .clean_oldmail .oldmail_mbox .tit,.clean_oldmail h5,.dh_layer .info3,.form_ul1 .form_content .desc2 a,.ly_tooltip .ly_header .h_tit,.mail_ext tbody a,.mail_ext tbody th,.setup_layer .modifyName th,.tb_ext_list table tbody td a,.tt_list li strong { color: #fff }
     .clean_oldmail .oldmail_period,.cleanup_tab,.cont_flex_setup,.ly_tooltip .ly_header,.mail_ext,.mail_ext tbody td,.tb_ext_list table tbody td { border-bottom: 1px solid #404040 }
     .cleanup_list_body li,.cleanup_mail_new .cleanup_list_head { border: 1px solid #404040;border-bottom: 0 }
@@ -2852,11 +2852,15 @@
     .link:visited { color: #7474e3 }
     .ly_tooltip_green { background-color: #019341 }
     .ly_tooltip_green .msg,.toTop a { color: #000 !important }
+    .ly_tooltip_green.ly_tooltip_smart_mail .btn_close { filter: brightness(0) }
     .mailList .notRead .mTitle a { color: #6bacfc }
     .mailListHead strong,#sign_prview_layer table tr:not(:first-child) td a { color: #fff !important }
     .make_sign .sign_input { border-top: 1px solid #404040;border-right: 1px solid #404040;border-left: 1px solid #404040;border-bottom: 1px solid #404040 }
     .notify_area .alert { background-color: #242424 }
     .signiture_list li { border-top: 1px solid #404040 !important }
+    .smart_mail_cover { border-bottom: 1px solid #404040;background-color: #2f2f2f }
+    .smart_mail_cover .intro_smart_mail .btn_smart_mail { border-color: #404040 }
+    .smart_mail_cover .tab_smart_mail li a { color: #cacaca;border-bottom: 2px solid #404040 }
     .tb_ext_list table td,.tb_ext_list table th { color: #cacaca;border-top: 1px solid #404040 }
     .viewTitle dl dd.noImgs { color: #cacaca !important;border: 1px solid #404040 !important;background-color: #404040 !important }
     #sign_prview_layer table tr:first-child td[style] { border-top: 1px solid #404040;background: none !important }

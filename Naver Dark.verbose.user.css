@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.757
+@version		1.48.758
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -2476,6 +2476,36 @@
 	
 	#nav_snb.show_faq_banner .faq_cover {
 		border: 1px solid #404040;
+	}
+	
+	.smart_mail_cover {
+		background-color: #2f2f2f;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.smart_mail_cover .intro_smart_mail .text, .smart_mail_cover .set_smart_mail .btn_setting .text {
+		color: #cacaca;
+	}
+	
+	.smart_mail_cover .intro_smart_mail .btn_smart_mail {
+		border-color: #404040;
+	}
+	
+	.smart_mail_cover .tab_smart_mail li a {
+		border-bottom: 2px solid #404040;
+		color: #cacaca;
+	}
+	
+	.ly_tooltip_green.arr_right_bottom:after {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.ly_tooltip_green.ly_tooltip_smart_mail .btn_close {
+		filter: brightness(0);
+	}
+	
+	.mailList ul.mInfo li, .mailListHead .noReadDel, .notify_area .notice a, #footer address, #footer .quick_link a, #footer .quick_tools a {
+		color: #cacaca;
 	}
 }
 

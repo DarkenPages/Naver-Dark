@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.758
+@version		1.48.759
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -62488,6 +62488,79 @@
 	
 	.cs_foreigninfo .c_rate .rate_spot .spt_con.eq, .cs_foreigninfo .c_rate .rate_spot .spt_con.eq {
 		color: #fff;
+	}
+	
+	.tabsch_image #snb {
+		border: 1px solid #404040;
+		border-width: 1px 0;
+		background: #2f2f2f;
+	}
+	
+	.tabsch_image .api_group_tag .tag {
+		color: #cacaca;
+	}
+	
+	.cs_family_title .prcs_guide .other_links dl dt {
+		color: #cacaca !important;
+	}
+	
+	.cs_family_title .prcs_guide .other_links dl dd li {
+		background: none;
+		position: relative;
+	}
+	
+	.cs_family_title .prcs_guide .other_links dl dd li:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/uio/img/bg_sep.gif) 0 4px no-repeat;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_family_title .prcs_guide .pro_com em {
+		color: #cacaca;
+	}
+	
+	.cs_family_title .cs_tab ul li a {
+		border: 1px solid #404040;
+		border-bottom: 0;
+		background: #242424;
+		color: #cacaca;
+	}
+	
+	.cs_family_title .prcs_detail dt {
+		color: #fff;
+	}
+	
+	.cs_family_title .tb_box {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_family_title .tb_box .tb_list th {
+		border-color: #404040;
+		background: #3a3a3a;
+		color: #fff;
+	}
+	
+	.cs_family_title .prcs_hr {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_family_title .tb_box .tb_list td {
+		border-color: #404040;
+		color: #cacaca;
+	}
+	
+	.cs_family_title .cs_tab a.more {
+		color: #cacaca;
+	}
+	
+	.cs_family_title .prcs_detail dd select {
+		filter: invert(81.5%) hue-rotate(-180deg);
 	}
 }
 

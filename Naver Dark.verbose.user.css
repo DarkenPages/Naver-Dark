@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.760
+@version		1.48.761
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -62588,6 +62588,86 @@
 	}
 	
 	.cs_family_title .prcs_detail dd select {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_common_module .game_scroll_fixed[class*="list_horison"] .game_list_info .game_list li {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_common_module .game_scroll_fixed[class*="list_horison"] .game_list_info .game_list li .info_area .text_title {
+		color: #fff;
+	}
+	
+	.cs_common_module .game_scroll_fixed[class*="list_horison"] .game_list_info .game_list li .info_area .sub_info {
+		color: #cacaca;
+	}
+	
+	.cs_uio_carousel .crs_ct_sct .crs_ct_lst .desc_box {
+		border: 1px solid #404040;
+	}
+	
+	.cs_uio_carousel .crs_ct_sct .crs_ct_lst .desc_box .txt_area>p {
+		color: #cacaca;
+	}
+	
+	.cs_uio_carousel .crs_ct_sct .crs_ct_lst .sec_ofr {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_uio_carousel .crs_ct_sct .crs_ct_lst .cnt_area .u_cnt {
+		color: #cacaca;
+	}
+	
+	.cs_uio_carousel .crs_ct_sct .crs_ct_lst .cnt_area .cnt_likeit .u_ico {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_uio_carousel .sct_pgnv a {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_uio_carousel .sct_pgnv em strong {
+		color: #fff;
+	}
+	
+	.cs_uio_carousel .sct_pgnv em {
+		color: #cacaca;
+	}
+	
+	.sp_ntotal .channel_area {
+		border-top: 1px solid #404040;
+		background-color: #3a3a3a;
+		color: #fff;
+	}
+	
+	.sp_ntotal .channel_area .link_channel {
+		color: #cacaca;
+	}
+	
+	.sp_ntotal .total_addition {
+		color: #cacaca;
+	}
+	
+	.cs_common_simple .info_check_area {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_common_simple .info_check_area .info_text {
+		color: #cacaca !important;
+	}
+	
+	.cs_common_simple .cm_ico_alert .area_inner {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_common_simple .cm_ly_api_info {
+		border: 1px solid #404040;
+		background-color: #3a3a3a;
+		color: #cacaca;
+	}
+	
+	.cs_common_simple .cm_ly_api_info .area_btn_close .area_inner {
 		filter: invert(81.5%) hue-rotate(-180deg);
 	}
 }

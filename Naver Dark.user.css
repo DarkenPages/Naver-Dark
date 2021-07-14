@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.762
+@version		1.48.763
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -4219,7 +4219,7 @@
     .AreaTab .child_tab_area.is_open .child_tab_inner,.AreaTab .child_tab_inner,.ModalLayer .layer_wrap,.SectionCafesArea .bottom_inner,.SectionPagination .page_item.isActive { background-color: #3a3a3a }
     .article_crit,.aside .cafe_link,.aside .notice,.autocomplete_area .words li a:hover,.cc_layer_mynews .cc_mynews_list .cc_mynews_notice,.cc_layer_mynews .cc_mynews_option_layer .link:hover,.field_list_wrap .info,.mycafe_group .group,.represent_popup .special li { background-color: #2c2c2c }
     .ArticleList .article_item:nth-child(n+3) .item_inner,.AsideLink .more_cafe_link+.more_cafe_link,.CafeList .cafe_item:nth-child(n+3) .item_inner,.CArticleList .c_article_item:nth-child(n+3) .item_inner,.cc_layer_alert .cc_alert_footer,.common_search,.CreateCafe .srch_word_area .cafe_keyword_item,.edu_intro .info,.field_list_wrap .txt,.mycafe_btns,.mycafe_list tbody td,#content_srch .line,#content_srch .sp_cafemng li { border-top: 1px solid #404040 }
-    .aside .cafe_banner .banner a:after,.aside .smart_bot,.common_select .layer,.common_title .btn_title_more,.content_terms .tab_area .tab,.notice_btns a,.AsideBanner .banner:before,.AsideSmartBot,.edu_intro,.FilterListArea,.recommend_list .card,.star_best_list li,#content_srch .basic1 .thumb { border: 1px solid #404040 }
+    .aside .cafe_banner .banner a:after,.aside .smart_bot,.common_select .layer,.common_title .btn_title_more,.content_terms .tab_area .tab,.notice_btns a,.AsideBanner .banner:before,.edu_intro,.FilterListArea,.recommend_list .card,.star_best_list li,#content_srch .basic1 .thumb { border: 1px solid #404040 }
     .aside .cafe_link a,.aside .notice h3 { color: #cacaca;border-bottom: 1px solid #404040 }
     .aside .cafe_make .btn_cafe_make,.mycafe_list .btn_mail.on { color: #242424;background-color: #019341 }
     .aside .login .login_btn,.aside .user_info .btn_login,.common_btn_form .btn,.AsideSign .user_info .button_login,.cc_layer_mynews,.common_btn_form .btn2,.common_select .btn_select,.CreateCafe .common_btn_form .btn,.CreateCafe .common_btn_form .btn2,.CreateCafe .input_txt,.CreateCafe .input_txt2,.FlexableTextArea .textarea_input { color: #cacaca;border: 1px solid #404040;background: #242424 }
@@ -4227,6 +4227,7 @@
     .aside .login_area { border-bottom: 1px solid #404040;background-color: #2c2c2c }
     .AsideNotice h3 { color: #fff;border-bottom: 1px solid #404040 }
     .AsideSign { border-bottom: 1px solid #404040;background-color: #2f2f2f }
+    .AsideSmartBot,.SearchArea .btn_search:after { border: 1px solid #242424 }
     .Autocomplete .autocomplete_area { color: #cacaca;border: 1px solid #404040;border-top: none;background-color: #242424 }
     .Autocomplete .func a,.section_create .srch_word_area li em,.snb_search_box .btn_search_all { color: #000 }
     .autocomplete_area { border: 1px solid #404040;border-top: 0 }
@@ -4288,7 +4289,6 @@
     .represent_popup .tab_represent { border-bottom: 1px solid #404040;background-color: #242424 }
     .represent_popup .tit { border-top: 1px solid #404040;border-bottom: 1px solid #404040 }
     .represent_popup h1 { background: #019341 }
-    .SearchArea .btn_search:after { border: 1px solid #242424 }
     .section_create .cafe_input td .input_txt { border: 1px solid #cacaca }
     .section_create .cafe_input td .input_txt2 { color: #fff;border: 1px solid #404040;background-color: #242424 }
     .section_create .srch_word_area { filter: invert(80%) }

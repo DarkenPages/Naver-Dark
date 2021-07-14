@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.762
+@version		1.48.763
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -11751,7 +11751,7 @@
 	}
 	
 	.AsideSmartBot {
-		border: 1px solid #404040;
+		border: 1px solid #242424;
 	}
 	
 	.AsideSmartBot .smart_bot_link {

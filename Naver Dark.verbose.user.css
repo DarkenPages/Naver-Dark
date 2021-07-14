@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.761
+@version		1.48.762
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -11686,6 +11686,550 @@
 	.section_rep .sector li .btn:not(.on) .sp_rep {
 		filter: invert(0%) hue-rotate(-180deg);
 	}
+	
+	.SearchArea .snb_search_box .FormInputText .input_text {
+		color: #cacaca;
+		background-color: #242424;
+	}
+	
+	.SearchArea .search_option:before {
+		background-color: #404040;
+	}
+	
+	.SearchArea .search_option_button:hover {
+		background-color: #2f2f2f;
+	}
+	
+	.SearchArea .btn_search:after {
+		border: 1px solid #242424;
+	}
+	
+	.SearchArea .btn_search:before {
+		background-color: #242424;
+	}
+	
+	.MenuList {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.Autocomplete .autocomplete_area {
+		background-color: #242424;
+		color: #cacaca;
+		border: 1px solid #404040;
+		border-top: none;
+	}
+	
+	.Autocomplete .func a {
+		color: #000;
+	}
+	
+	.AsideBanner .banner img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.AsideSign {
+		border-bottom: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.AsideSign .user_info .button_login {
+		border: 1px solid #404040;
+		color: #cacaca;
+		background: #242424;
+	}
+	
+	.AsideLink {
+		background-color: #2f2f2f;
+	}
+	
+	.AsideLink .more_cafe_link {
+		color: #fff;
+	}
+	
+	.AsideLink .more_cafe_link+.more_cafe_link {
+		border-top: 1px solid #404040;
+	}
+	
+	.AsideSmartBot {
+		border: 1px solid #404040;
+	}
+	
+	.AsideSmartBot .smart_bot_link {
+		color: #fff;
+	}
+	
+	.AsideNotice {
+		background-color: #2f2f2f;
+	}
+	
+	.AsideNotice h3 {
+		border-bottom: 1px solid #404040;
+		color: #fff;
+	}
+	
+	.AsideNotice .notice_list li a {
+		color: #cacaca;
+	}
+	
+	.AsideMoreLink .aside_more_link {
+		color: #cacaca;
+	}
+	
+	.PrevNextButton .button_side_next:disabled .icon-side-next, .PrevNextButton .button_side_prev:disabled .icon_side_prev {
+		color: #666;
+	}
+	
+	.PrevNextButton .icon_side_next, .PrevNextButton .icon_side_prev {
+		color: #cacaca;
+	}
+	
+	.SectionPagination .page_item {
+		color: #cacaca;
+	}
+	
+	.SectionPagination .page_item.isActive {
+		background-color: #3a3a3a;
+	}
+	
+	body svg symbol#icon-side-prev g circle {
+		stroke: #404040;
+	}
+	
+	body svg symbol#icon-side-next g circle {
+		stroke: #404040;
+	}
+	
+	body svg symbol#icon-aside-login-storage path {
+		fill: #cacaca;
+		opacity: 1;
+	}
+	
+	body svg symbol#icon-aside-login-message g path[fill="#686867"] {
+		fill: #cacaca;
+	}
+	
+	body svg symbol#icon-aside-login-message g path[stroke='#FFF'] {
+		stroke: #2f2f2f;
+	}
+	
+	body svg symbol#icon-aside-cafe-make path {
+		fill: #242424;
+	}
+	
+	body svg symbol#icon-aside-link-gamecafe g g {
+		fill: #4f4f4f;
+	}
+	
+	body svg symbol#icon-aside-link-wiucafe g path:nth-child(2) {
+		fill: #2f2f2f;
+	}
+	
+	body svg symbol#icon-aside-link1 g path:first-child {
+		fill: #cacaca;
+	}
+	
+	body svg symbol#icon-aside-link1 g path:last-child {
+		stroke: #cacaca;
+	}
+	
+	body svg symbol#icon-aside-link3 g path {
+		stroke: #cacaca;
+	}
+	
+	.home_user_mycafe .btn_mycafe_edit {
+		color: #cacaca;
+	}
+	
+	.home_user_mycafe .btn_mycafe_edit:before {
+		filter: brightness(100%);
+	}
+	
+	.mycafe_list .cafe_name {
+		color: #cacaca;
+	}
+	
+	.SectionSearchContent .section_search_tab, .CafeItem .cafe_name, .ArticleItem .item_subject, .CafeItem .cafe_profile_link, .CArticleItem .item_subject {
+		color: #fff;
+	}
+	
+	.CafeList .cafe_item:nth-child(n+3) .item_inner {
+		border-top: 1px solid #404040;
+	}
+	
+	.CafeItem .thumbnail_area:after, .ArticleItemLayout .cafe_link:after {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.ArticleList .article_item:nth-child(n+3) .item_inner {
+		border-top: 1px solid #404040;
+	}
+	
+	.ArticleItem .item_content {
+		color: #cacaca;
+	}
+	
+	.ArticleItemLayout .cafe_link, .ArticleItemLayout .write_date_time {
+		color: #cacaca;
+	}
+	
+	.ListTitle strong {
+		color: #fff;
+	}
+	
+	.CArticleList .c_article_item:nth-child(n+3) .item_inner {
+		border-top: 1px solid #404040;
+	}
+	
+	.SortTab .sort_tab {
+		color: #fff;
+	}
+	
+	.FilterListArea {
+		border: 1px solid #404040;
+	}
+	
+	.FilterList+.FilterList {
+		border-left: 1px solid #404040;
+	}
+	
+	.FormInputRadio.FilterInputRadio .input_radio:checked+.label:before {
+		border-color: #4f4f4f;
+	}
+	
+	.NoResult .no_result_text {
+		color: #cacaca;
+	}
+	
+	body svg symbol#ico-post-page-arrow-darkgray-right use {
+		fill: #cacaca;
+	}
+	
+	body svg symbol#ico-post-page-arrow-darkgray-left path {
+		fill: #cacaca;
+	}
+	
+	.FilterInputText {
+		background-color: #2f2f2f;
+	}
+	
+	.FormInputText .input_text {
+		color: #cacaca;
+	}
+	
+	.SectionTitle .section_title_inner.title_type_new .title, .AreaTab .button_root_tab, .SectionCafeItem .item_title, .SectionCafesArea .type_tab, .AreaTab .button_child_tab {
+		color: #fff;
+	}
+	
+	.AreaTab .child_tab_inner {
+		background-color: #3a3a3a;
+	}
+	
+	.AreaTab .button_child_tab_open_close {
+		color: #cacaca;
+	}
+	
+	.AreaTab .button_child_tab_open_close:after {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.AreaTab .child_tab_area.is_open .child_tab_inner {
+		background-color: #3a3a3a;
+	}
+	
+	.AreaTab .child_tab_area.is_open .button_child_tab_open_close {
+		background-color: #2f2f2f;
+	}
+	
+	.SectionCafeItem .item_description, .SectionCafeItem .meta_list {
+		color: #cacaca;
+	}
+	
+	.SectionCafeItem .item_thumbnail:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.SectionCafesArea .bottom_inner {
+		background-color: #3a3a3a;
+	}
+	
+	.SectionCafesArea .search_input .FormInputText .input_text {
+		background: #2f2f2f;
+	}
+	
+	.FormSelectButton .button {
+		border: 1px solid #404040;
+		background: #3a3a3a;
+		color: #cacaca;
+	}
+	
+	.FormSelectBox .select_option {
+		background-color: #3a3a3a;
+		color: #cacaca;
+	}
+	
+	.FormSelectBox .select_option .option {
+		color: #cacaca;
+	}
+	
+	.FormSelectBox .select_option .option:hover {
+		background: #4f4f4f;
+	}
+	
+	.FormSelectBox .select_option.type_short .option {
+		color: #cacaca;
+	}
+	
+	.ranking_list .cafe_info .txt_area, .ranking_list .cell_grade {
+		color: #cacaca;
+	}
+	
+	.ranking_list .cafe_info .name {
+		color: #fff;
+	}
+	
+	.common_title .btn_title_more {
+		color: #cacaca;
+	}
+	
+	.section_rep .field_tab .sp_rep:not(:hover) {
+		filter: brightness(100%);
+	}
+	
+	.field_category button:first-child {
+		white-space: nowrap;
+	}
+	
+	.AsideBanner .banner:before {
+		border: 1px solid #404040;
+	}
+	
+	.user_feed_info .con_top .txt {
+		color: #cacaca;
+	}
+	
+	.user_feed_info .con_bottom {
+		color: #cacaca;
+	}
+	
+	.recommend_list .txt {
+		color: #cacaca;
+	}
+	
+	.CreateCafe .input_title {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.CreateCafe .input_txt, .CreateCafe .input_txt2 {
+		border: 1px solid #404040;
+		background: #242424;
+		color: #cacaca;
+	}
+	
+	.CreateCafe td {
+		color: #cacaca;
+	}
+	
+	.CreateCafe th, .CreateCafe td {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.CreateCafe .dirs select, .CreateCafe .btn_srch {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.CreateCafe .srch_word_area .cafe_keyword_item {
+		border-top: 1px solid #404040;
+	}
+	
+	.CreateCafe .srch_word_area {
+		border-bottom: 1px solid #404040;
+		background: none;
+		position: relative;
+	}
+	
+	.CreateCafe .srch_word_area:before {
+		background: url(https://cafe.pstatic.net/img/section/bu_line2.gif) repeat-y;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		filter: invert(86%) hue-rotate(-180deg);
+		pointer-events: none;
+	}
+	
+	.CreateCafe .srch_word_area .cafe_keyword_text {
+		color: #cacaca;
+	}
+	
+	.CreateCafe .txt.error, .CreateCafe .txt.info, .CreateCafe .note, .CreateCafe .txt.txt_commerce, .SelectRegion .select_city_header, .SelectRegion .select_city_header.two_tabs {
+		background: none;
+		position: relative;
+	}
+	
+	.CreateCafe .txt.info:before, .CreateCafe .txt.error:before, .CreateCafe .note:before, .CreateCafe .txt.txt_commerce:before, .SelectRegion .select_city_header:before {
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		filter: invert(86%) hue-rotate(-180deg);
+		pointer-events: none;
+	}
+	
+	.SelectRegion .select_city_header.two_tabs:before {
+		background: url(https://ca-fe.pstatic.net/web-pc/static/img/ico-trade-area-2-taps.svg?b5ee8c46011168280c432ab201dd6983=) no-repeat 50%;
+	}
+	
+	.SelectRegion .select_city_header:before {
+		background: url(https://ca-fe.pstatic.net/web-pc/static/img/ico-trade-area-tap.svg?9e89c179574173887c2318a0f45ab887=) no-repeat 50%;
+		mix-blend-mode: plus-lighter;
+	}
+	
+	.SelectRegion .select_city_header .city_button {
+		color: #cacaca;
+	}
+	
+	.CreateCafe .txt.txt_commerce:before {
+		background: url(https://ssl.pstatic.net/static/cafe/section/bg_sprite_3_160720.gif) no-repeat 0 -2839px;
+	}
+	
+	.CreateCafe .note:before {
+		background: url(https://ssl.pstatic.net/static/cafe/section/bg_sprite_3_160720.gif) no-repeat 0 -2244px;
+	}
+	
+	.CreateCafe .txt.info:before {
+		background: url(https://ssl.pstatic.net/static/cafe/section/bg_sprite_3_160720.gif) no-repeat 0 -2276px;
+	}
+	
+	.CreateCafe .txt.error:before {
+		background: url(https://ssl.pstatic.net/static/cafe/section/bg_sprite_3_160720.gif) no-repeat 0 -2306px;
+	}
+	
+	.CreateCafe .txt {
+		color: #cacaca;
+	}
+	
+	.FlexableTextArea .textarea_input {
+		border: 1px solid #404040;
+		color: #cacaca;
+		background: #242424;
+	}
+	
+	.CreateCafe .input_txt3 {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.CreateCafe .major_img .thmb img[src="https://ssl.pstatic.net/static/cafe/thumb/make_cafe_thumb_default.png"] {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.CreateCafe .layer_type {
+		border: 1px solid #404040;
+		background-color: #3a3a3a;
+	}
+	
+	.CreateCafe .cont_layer .txt, .CreateCafe .cont_layer .txt2 {
+		color: #fff;
+	}
+	
+	.CreateCafe .cont_layer .dsc {
+		color: #cacaca;
+	}
+	
+	.CreateCafe .layer_type .close img {
+		filter: invert(77.1%) hue-rotate(-180deg);
+	}
+	
+	.CreateCafe .layer_type .btn, .CreateCafe .layer_type .btn2 img, .CreateCafe .group_select_area .group_select {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.CreateCafe .captcha_area .link {
+		color: #cacaca;
+	}
+	
+	.CreateCafe .check_box label {
+		background-color: #242424;
+		color: #fff;
+	}
+	
+	.CreateCafe .common_btn_form .btn, .CreateCafe .common_btn_form .btn2 {
+		background: #242424;
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.CreateCafe .cafe_region .cafe_region {
+		background-color: #3a3a3a;
+		color: #cacaca;
+	}
+	
+	.ModalLayer {
+		color: #fff;
+	}
+	
+	.ModalLayer .layer_wrap {
+		background-color: #3a3a3a;
+	}
+	
+	.ModalLayer .layer_header .sub_title {
+		color: #cacaca;
+	}
+	
+	.AdminLayer .layer_local_select .local_select_area {
+		border: 1px solid #4f4f4f;
+	}
+	
+	.AdminLayer .layer_local_select .local_select_area strong {
+		color: #fff;
+	}
+	
+	.AdminLayer .layer_local_select .local_select_area p {
+		color: #cacaca;
+	}
+	
+	.AdminLayer .layer_local_select .local_select_area li {
+		border-top: 1px solid #4f4f4f;
+	}
+	
+	.SelectRegion .select_city_content .region_area {
+		border: 1px solid #4f4f4f;
+	}
+	
+	.SelectRegion .select_city_content .region_list li {
+		border-right: 1px solid #4f4f4f;
+		border-bottom: 1px solid #4f4f4f;
+	}
+	
+	.SelectRegion .select_city_content .region_list li:hover .btn {
+		background: #4f4f4f;
+	}
+	
+	.SelectRegion .select_city_content .region_list .btn {
+		color: #cacaca;
+	}
+	
+	.SelectRegion .select_city_header .city_button.complete {
+		color: #fff;
+	}
+	
+	.SelectRegion .region_selected .region {
+		color: #cacaca;
+		background-color: #2f2f2f;
+	}
+	
+	.SectionTitle .txt {
+		color: #cacaca;
+	}
+	
+	.CreateCafeHelpLayer .message_area {
+		background-color: #2f2f2f;
+		color: #cacaca;
+	}
 }
 
 @-moz-document url-prefix("https://talk.cafe.naver.com")
@@ -12055,6 +12599,10 @@
 	
 	.nmu_button_add .nmu_button_title {
 		color: #242424;
+	}
+	
+	.pop_content .desc2 {
+		color: #cacaca;
 	}
 }
 
@@ -62672,7 +63220,7 @@
 	}
 }
 
-@-moz-document url-prefix("https://cafe.naver.com/ca-fe/home/search")
+@-moz-document url-prefix("https://section.cafe.naver.com/ca-fe/home/search")
 {
 	.MenuList .lnb_link {
 		color: #fff;

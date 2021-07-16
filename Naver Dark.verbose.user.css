@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.765
+@version		1.48.766
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -62351,7 +62351,7 @@
 		color: #fff;
 	}
 	
-	.sp_nreview .total_tit, .sp_nreview .total_link_area .link, .sp_ntotal .total_tit .link_tit, .sp_nbook .book_info .title_area, .sp_nbook .list_info a.item_info, .sp_nvideo .video_default_list .video_bx .info_area .info_title, .go_relate a, .sp_ntotal .group_item .list_item .item a, .sp_nvideo .video_scroll_list .info_area .info_title, ._3tIZ6 ._2LKql ._3CKdL, .sp_nvideo .video_square_list .square_wrap .info_area .info_title, .sp_nrealtime .nrealtime_list .nrealtime_item .item_info .desc_tit, .sp_nblog .total_tit, .sp_ncafe .total_tit, .sp_nsite .link_name, .sp_nsite .sublink_wrap .sublink .item a, .cs_produce a, .cs_produce .prcs_detail h4 a, .ad_section .lst_type .lst .lnk_tit, .ad_section .lst_type .lst.type_subtitle .sub_tit, .api_ly_info .link, .ad_section .lst_type .lst.ext_price .lst_price .txt_inner, .ad_section .lst_type .lst.ext_link .lst_link .item .link, .sp_ndicstudy .word_lst .word, .sp_nrealtime .api_title .btn_new, .sp_ndic .dic_more .dic_link, .sp_ndic .dic_more_link .count, .sp_ndic .other_list .other_list_link, .sp_ndic .info_list a, .sp_ndic .dic_area .link_more, .sp_ndic .class_area .info_box .title, .cs_sign .tx_info.line_type a, .sp_mobile .app_eachlist a.store_wrap, .cs_newest .sct_content li .scm_ellipsis_text a, .cs_seasonal_divisions .prcs_detail h4 a, .cs_common_module a, .cs_common_module .expand_info .text_wrap a, .cs_common_module .notice_info_area a, .cs_common_module .cm_table_area .type_normal .cm_table tbody th a, .cs_sports_team a, .cs_sports_team .prcs_guide .nologo a, .cs_sports_team .prcs_guide .nologo2 a, .cs_sports_team .prcs_guide .nologo .txt, .cs_sports_team .prcs_guide .nologo2 .txt, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td .nation_name, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td.top3 p a, .cs_olympic_history .team_area .line li .player_detail dt a {
+	.sp_nreview .total_tit, .sp_nreview .total_link_area .link, .sp_ntotal .total_tit .link_tit, .sp_nbook .book_info .title_area, .sp_nbook .list_info a.item_info, .sp_nvideo .video_default_list .video_bx .info_area .info_title, .go_relate a, .sp_ntotal .group_item .list_item .item a, .sp_nvideo .video_scroll_list .info_area .info_title, ._3tIZ6 ._2LKql ._3CKdL, .sp_nvideo .video_square_list .square_wrap .info_area .info_title, .sp_nrealtime .nrealtime_list .nrealtime_item .item_info .desc_tit, .sp_nblog .total_tit, .sp_ncafe .total_tit, .sp_nsite .link_name, .sp_nsite .sublink_wrap .sublink .item a, .cs_produce a, .cs_produce .prcs_detail h4 a, .ad_section .lst_type .lst .lnk_tit, .ad_section .lst_type .lst.type_subtitle .sub_tit, .api_ly_info .link, .ad_section .lst_type .lst.ext_price .lst_price .txt_inner, .ad_section .lst_type .lst.ext_link .lst_link .item .link, .sp_ndicstudy .word_lst .word, .sp_nrealtime .api_title .btn_new, .sp_ndic .dic_more .dic_link, .sp_ndic .dic_more_link .count, .sp_ndic .other_list .other_list_link, .sp_ndic .info_list a, .sp_ndic .dic_area .link_more, .sp_ndic .class_area .info_box .title, .cs_sign .tx_info.line_type a, .sp_mobile .app_eachlist a.store_wrap, .cs_newest .sct_content li .scm_ellipsis_text a, .cs_seasonal_divisions .prcs_detail h4 a, .cs_common_module a, .cs_common_module .expand_info .text_wrap a, .cs_common_module .notice_info_area a, .cs_common_module .cm_table_area .type_normal .cm_table tbody th a, .cs_sports_team a, .cs_sports_team .prcs_guide .nologo a, .cs_sports_team .prcs_guide .nologo2 a, .cs_sports_team .prcs_guide .nologo .txt, .cs_sports_team .prcs_guide .nologo2 .txt, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td .nation_name, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td.top3 p a, .cs_olympic_history .team_area .line li .player_detail dt a, .sp_ntotal .dsc_alert .link_help {
 		color: #688cda;
 	}
 	
@@ -63385,6 +63385,313 @@
 	
 	.cs_common_module .olympics_info>.middle_title+.cm_tap_area {
 		border-top: 1px solid #404040;
+	}
+	
+	.cs_custom_list .list_bx {
+		border: 1px solid #404040;
+	}
+	
+	.cs_custom_list .info_select2 {
+		border-bottom: 1px solid #404040;
+		background-color: #3a3a3a;
+	}
+	
+	.cs_custom_list .info_select2 .btn_select {
+		color: #cacaca;
+	}
+	
+	.cs_custom_list .list_bx .info_box_v2 .v_list .info_text strong a {
+		color: #fff;
+	}
+	
+	.cs_custom_list .notice_info .error_md_btn .apply_modify {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_custom_list .list_bx .info_box_v2 .v_list .other_info {
+		background-color: #3a3a3a;
+	}
+	
+	.cs_custom_list .list_bx .info_box_v2 .v_list .other_info li .text {
+		color: #cacaca;
+	}
+	
+	.cs_custom_list .list_bx .info_box_v2 .v_list .other_info li .ico_bar {
+		background-color: #4f4f4f;
+	}
+	
+	.cs_custom_list .list_bx .info_box_v2:after {
+		background-color: #404040;
+	}
+	
+	.cs_custom_list .list_bx .info_box_v2 .v_list .info_text dd {
+		color: #cacaca;
+	}
+	
+	.cs_custom_list .select_box .list_select {
+		border: 1px solid #404040;
+		background: #3a3a3a;
+	}
+	
+	.cs_custom_list .list_select ul li a {
+		color: #cacaca;
+	}
+	
+	.cs_custom_list .notice_info {
+		color: #cacaca;
+	}
+	
+	.cs_custom_list .notice_info dl dt {
+		color: #cacaca !important;
+	}
+	
+	.sc_new .api_title_area .api_title_text .keyword {
+		color: #fff;
+	}
+	
+	.sc_new .api_title_area .api_title_text {
+		color: #cacaca;
+	}
+	
+	.flight .flight_box {
+		border: 4px solid #404040;
+	}
+	
+	.flight .flight_header a {
+		border-bottom: 3px solid #404040;
+		color: #cacaca;
+	}
+	
+	.flight .flight_info {
+		background: #2f2f2f;
+	}
+	
+	.flight .flight_header {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.flight .flight_partners {
+		border-top: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.flight .flight_refer .ico_info, .flight .flight_trip_route .flight_btn_region, .flight .flight_trip_route .btn_switch {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.flight .flight_refer {
+		color: #cacaca;
+	}
+	
+	.flight .flight_airport a {
+		color: #fff;
+	}
+	
+	.flight .flight_select .flight_btn_txt {
+		border: 1px solid #404040;
+		background: #242424;
+	}
+	
+	.flight .flight_partners_listitem {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.flight .flight_select .flight_btn {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.flight .flight_btn_unselect, .flight .flight_btn_direct {
+		border: 1px solid #404040;
+		color: #cacaca;
+		background-color: #242424;
+	}
+	
+	.flight .flight_btn_search {
+		border-radius: 5px;
+	}
+	
+	.flight .flight_input {
+		border: 1px solid #4f4f4f;
+	}
+	
+	.flight .flight_ly_rec {
+		border: 1px solid #404040;
+		background: #3a3a3a;
+	}
+	
+	.flight .flight_ly_rec .flight_ly_rec_title {
+		border-bottom: 1px solid #404040;
+		color: #fff;
+	}
+	
+	.flight .flight_ly_rec a {
+		color: #cacaca;
+	}
+	
+	.flight .flight_ly_rec th {
+		background-color: #404040;
+	}
+	
+	.flight .flight_ly_rec table {
+		border-bottom: 1px solid #4f4f4f;
+	}
+	
+	.flight .flight_calendar .layer_area {
+		border: 1px solid #404040;
+		background-color: #3a3a3a;
+	}
+	
+	.flight_calendar .layer_header {
+		border-bottom: 1px solid #404040;
+		background-color: #3f3f3f;
+	}
+	
+	.flight_calendar .calendar_info:before {
+		filter: invert(79%) hue-rotate(-180deg);
+	}
+	
+	.flight .flight_calendar .month > div {
+		color: #fff;
+	}
+	
+	.flight .flight_calendar .month:nth-child(2) {
+		border-left-color: #4f4f4f;
+	}
+	
+	.flight_calendar .layer_content .month > table tbody td {
+		color: #cacaca;
+	}
+	
+	.flight_calendar .layer_content .month > table tbody td.pastday, .flight_calendar .layer_content .month > table tbody td.invalid {
+		color: #666;
+	}
+	
+	.flight .flight_calendar .month > table thead th {
+		color: #fff;
+	}
+	
+	.flight_calendar .layer_content .month > table tbody td.sunday {
+		color: rgb(254, 93, 54);
+	}
+	
+	.flight_calendar .layer_content .month > table tbody td.holiday {
+		color: rgb(254, 93, 65);
+	}
+	
+	.flight .flight_calendar .sub_area {
+		border-top: 1px solid #404040;
+	}
+	
+	.flight .flight_calendar .day .inner.a_day, .flight .flight_calendar .day .inner.start_only, .flight .flight_calendar .day .inner.start_end, .flight .flight_calendar .day .inner.end_start {
+		border-radius: 3px;
+	}
+	
+	.flight .flight_calendar .day .inner.start {
+		border-radius: 3px 0 0 3px;
+	}
+	
+	.flight .flight_calendar .day .inner.end {
+		border-radius: 0 3px 3px 0;
+	}
+	
+	.flight .flight_calendar .day .inner.a_day, .flight .flight_calendar .day .inner.start_only, .flight .flight_calendar .day .inner.start, .flight .flight_calendar .day .inner.end, .flight .flight_calendar .day .inner.start_end, .flight .flight_calendar .day .inner.end_start, .flight .flight_calendar .day .inner.selected {
+		background-color: #414952;
+	}
+	
+	.flight .flight_ly_person {
+		border: 1px solid #404040;
+		background: #3a3a3a;
+	}
+	
+	.flight .flight_ly_person .flight_ly_row .flight_ly_btn_person {
+		background: #242424;
+	}
+	
+	.flight .flight_ly_person .flight_ly_row .flight_ly_btn_person .flight_ly_btn_plus, .flight .flight_ly_person .flight_ly_row .flight_ly_btn_person .flight_ly_btn_minus {
+		border: 1px solid #404040;
+	}
+	
+	.flight .flight_ly_person .flight_ly_row .flight_ly_btn_person .flight_ly_btn_minus:hover, .flight .flight_ly_person .flight_ly_row .flight_ly_btn_person .flight_ly_btn_plus:hover {
+		border-color: #4f4f4f;
+	}
+	
+	.flight .flight_ly_person .flight_ly_row .flight_ly_count {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.flight .flight_ly_seat {
+		border: 1px solid #404040;
+		background: #3a3a3a;
+	}
+	
+	.flight .flight_ly_seat .flight_ly_btn_seat {
+		border: 1px solid #404040;
+		background: #242424;
+		color: #cacaca;
+	}
+	
+	.flight .flight_ly_seat .flight_ly_btn_seat_on {
+		color: #fff;
+	}
+	
+	.flight .flight_ly_seat .flight_ly_btn_seat:hover {
+		border-color: #4f4f4f;
+	}
+	
+	.flight .flight_ly_seat .flight_ly_btn_seat .flight_ly_sel {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.flight .flight_ly_seat .flight_ly_desc {
+		border-top: 1px solid #4f4f4f;
+		color: #cacaca;
+	}
+	
+	.flight_ly_date {
+		border: 1px solid #404040;
+		background: #3a3a3a;
+	}
+	
+	.flight_ly_date a {
+		border-top: 1px solid #4f4f4f;
+		border-bottom: 1px solid #4f4f4f;
+		color: #cacaca;
+	}
+	
+	.flight_ly_date a:hover {
+		border-color: #5a5a5a;
+		background: #404040;
+	}
+	
+	.flight .flight_multi_trip .flight_trip_row {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.flight .flight_multi_trip .flight_trip_row .flight_trip_route:nth-child(2) {
+		background: none;
+		position: relative;
+	}
+	
+	.flight .flight_multi_trip .flight_trip_row .flight_trip_route:nth-child(2):before {
+		background: url(https://ssl.pstatic.net/sstatic/search/airpass/pc/img/sp_flight_20200226.png) 200% 0 no-repeat;
+		background-position: -60px -245px;
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.flight .flight_multi_trip .flight_btn_add {
+		color: #cacaca;
+	}
+	
+	.flight .flight_multi_trip .flight_btn_del {
+		filter: invert(81.5%) hue-rotate(-180deg);
 	}
 }
 

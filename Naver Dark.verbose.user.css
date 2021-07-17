@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.772
+@version		1.48.773
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -14237,6 +14237,14 @@
 	}
 	
 	.wrap_my_information .list_buddy .name_inner .text {
+		color: #cacaca;
+	}
+	
+	.wrap_my_information .area_guide .title {
+		color: #cacaca;
+	}
+	
+	.pagination {
 		color: #cacaca;
 	}
 }
@@ -38222,7 +38230,7 @@
 	}
 }
 
-@-moz-document url-prefix("https://blog.naver.com/connect/WidgetView.nhn"), url-prefix("http://blog.naver.com/connect/WidgetView.nhn"), url-prefix("https://admin.blog.naver.com/connect/WidgetView.nhn")
+@-moz-document url-prefix("https://blog.naver.com/connect/WidgetView.nhn"), url-prefix("http://blog.naver.com/connect/WidgetView.nhn"), url-prefix("https://admin.blog.naver.com/connect/WidgetView.nhn"), url-prefix("https://blog.naver.com/connect/WidgetView.naver")
 {
 	html, head, body {
 		background: transparent !important;
@@ -39558,6 +39566,26 @@
 	
 	.nc_admin .content_box .m_design .widget_design_area_v2 .field {
 		overflow: visible;
+	}
+	
+	.nc_admin .content_box .m_design .widget_design_area .color dt, .nc_admin .content_box .m_design .widget_design_area .menu dt {
+		color: #fff;
+	}
+	
+	.nc_admin .content_box .m_widget .used_area li label {
+		color: #fff;
+	}
+	
+	.nc_admin .content_box .m_widget .used_area li .btn_widget_on img, .nc_admin .content_box .m_widget .used_area li .btn_widget_off img {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.nc_admin .content_box .m_design .preview_sub a {
+		color: #fff;
+	}
+	
+	.nc_admin .content_box .m_design .preview_sub, .nc_admin .content_box .manage .submit .desc {
+		color: #cacaca;
 	}
 }
 
@@ -43616,7 +43644,7 @@
 	}
 	
 	#header {
-		border-bottom: 1pxs o;
+		border-bottom: 1px so;
 	}
 }
 
@@ -43724,7 +43752,7 @@
 	}
 }
 
-@-moz-document url-prefix("https://admin.blog.naver.com/LayoutSelect.nhn")
+@-moz-document url-prefix("https://admin.blog.naver.com/LayoutSelect.nhn"), url-prefix("https://admin.blog.naver.com/LayoutSelect.naver")
 {
 	#navi_btn_group img, .bottom_btn img {
 		filter: invert(86%) hue-rotate(-180deg);
@@ -43875,7 +43903,7 @@
 	}
 }
 
-@-moz-document url-prefix("https://admin.blog.naver.com/Remocon.nhn")
+@-moz-document url-prefix("https://admin.blog.naver.com/Remocon.nhn"), url-prefix("https://admin.blog.naver.com/Remocon.naver")
 {
 	.layer_remocon {
 		background: #242424;
@@ -44152,7 +44180,7 @@
 		white-space: pre;
 		font-size: 11px;
 		color: rgb(227, 101, 101);
-		height: 50;
+		height: 50px;
 		position: relative;
 	}
 	
@@ -44163,9 +44191,17 @@
 	.remocon_boxgroup .section_content .not_used .content_group .desc {
 		color: #cacaca;
 	}
+	
+	#blog-gnb .gnb_name {
+		color: #fff;
+	}
+	
+	.remocon_widget .widget_search {
+		background: #2f2f2f;
+	}
 }
 
-@-moz-document url-prefix("https://admin.blog.naver.com/Remocon.nhn")
+@-moz-document url-prefix("https://admin.blog.naver.com/Remocon.nhn"), url-prefix("https://admin.blog.naver.com/Remocon.naver")
 {
 	/**
 	 * Copied from 'Blog' section.
@@ -55563,7 +55599,7 @@
 	@media (max-width: 1024px) {
 		.is_image#container {
 			background-color: #2f2f2f;
-			background-image: linear-gradient(rgba(64, 64, 64, .5) 1px, transparent 1px), linear-gradient(90deg, rgba(64, 64, 64.5) 1px, transparent 1px);
+			background-image: linear-gradient(rgba(64, 64, 64, .5) 1px, transparent 1px), linear-gradient(90deg, rgba(64, 64, 64, .5) 1px, transparent 1px);
 		}
 	}
 	
@@ -62665,7 +62701,7 @@
 		color: #688cda;
 	}
 	
-	.sp_nnews .news_wrap .news_tit:visited, .sp_nnews .news_wrap .news_tit:visited mark, .sp_nnews .api_title_sub .sub_link:visited, .sp_nnews .news_cluster .sub_tit:visited, .sp_nnews .news_cluster .sub_tit:visited mark, .sp_nnews .news_wrap:visited .news_tit .tit, .sp_nnews .news_wrap:visited .news_tit .tit mark, .sp_nreview .total_tit:visited, .sp_nreview .total_tit:visited mark, .sp_nreview .total_link_area .link:visited, .sp_nreview .total_link_area .link:visited mark, .sp_ntotal .total_tit .link_tit:visited, .sp_ntotal .total_tit .link_tit:visited mark, .sp_nvideo .video_default_list .video_bx .info_area .info_title:visited, .sp_nvideo .video_default_list .video_bx .info_area .info_title:visited mark, .sp_ntotal .group_item .list_item .item a:visited, .sp_ntotal .group_item .list_item .item a:visited mark, .sp_nvideo .video_scroll_list .info_area .info_title:visited, .sp_nvideo .video_scroll_list .info_area .info_title:visited mark, .sp_nkin .cluster_item:visited, .sp_nrealtime .info_desc .desc_link:visited, .sp_nrealtime .info_desc .desc_tit:visited, .sp_nrealtime .info_desc:visited .desc_tit, .sp_nrealtime .profile_link:visited .explain_tit, .sp_nblog .total_tit:visited, .sp_nblog .total_tit:visited mark, .sp_ncafe .total_tit:visited, .sp_ncafe .total_tit:visited mark, .sp_nsite .link_name:visited, .sp_nsite .link_name:visited mark, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark, .sp_nkin .kin_wrap .question_area .question_text:visited, .cs_produce .prcs_detail h4 a:visited, .cs_produce a:visited, .ad_section .lst_type .lst .lnk_tit: visited, .ad_section .lst_type .lst.type_subtitle .sub_tit:visited, .sp_company .company_more .more_info .api_ly_info .link:visited, .ad_section .lst_type .lst.ext_price .lst_price .txt_inner:visited, .ad_section .lst_type .lst.ext_link .lst_link .item .link:visited, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark {
+	.sp_nnews .news_wrap .news_tit:visited, .sp_nnews .news_wrap .news_tit:visited mark, .sp_nnews .api_title_sub .sub_link:visited, .sp_nnews .news_cluster .sub_tit:visited, .sp_nnews .news_cluster .sub_tit:visited mark, .sp_nnews .news_wrap:visited .news_tit .tit, .sp_nnews .news_wrap:visited .news_tit .tit mark, .sp_nreview .total_tit:visited, .sp_nreview .total_tit:visited mark, .sp_nreview .total_link_area .link:visited, .sp_nreview .total_link_area .link:visited mark, .sp_ntotal .total_tit .link_tit:visited, .sp_ntotal .total_tit .link_tit:visited mark, .sp_nvideo .video_default_list .video_bx .info_area .info_title:visited, .sp_nvideo .video_default_list .video_bx .info_area .info_title:visited mark, .sp_ntotal .group_item .list_item .item a:visited, .sp_ntotal .group_item .list_item .item a:visited mark, .sp_nvideo .video_scroll_list .info_area .info_title:visited, .sp_nvideo .video_scroll_list .info_area .info_title:visited mark, .sp_nkin .cluster_item:visited, .sp_nrealtime .info_desc .desc_link:visited, .sp_nrealtime .info_desc .desc_tit:visited, .sp_nrealtime .info_desc:visited .desc_tit, .sp_nrealtime .profile_link:visited .explain_tit, .sp_nblog .total_tit:visited, .sp_nblog .total_tit:visited mark, .sp_ncafe .total_tit:visited, .sp_ncafe .total_tit:visited mark, .sp_nsite .link_name:visited, .sp_nsite .link_name:visited mark, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark, .sp_nkin .kin_wrap .question_area .question_text:visited, .cs_produce .prcs_detail h4 a:visited, .cs_produce a:visited, .ad_section .lst_type .lst .lnk_tit:visited, .ad_section .lst_type .lst.type_subtitle .sub_tit:visited, .sp_company .company_more .more_info .api_ly_info .link:visited, .ad_section .lst_type .lst.ext_price .lst_price .txt_inner:visited, .ad_section .lst_type .lst.ext_link .lst_link .item .link:visited, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark {
 		color: #cc90cd;
 	}
 	
@@ -64705,7 +64741,7 @@
 	
 	#footer {
 		border: none;
-		background-color: none;
+		background-color: initial;
 	}
 	
 	.find_info {
@@ -64791,5 +64827,28 @@
 	
 	.tbl_sns {
 		border-bottom: 1px solid #404040;
+	}
+}
+
+@-moz-document url-prefix("https://section.blog.naver.com/Notice.naver")
+{
+	.notice .heading .title {
+		color: #fff;
+	}
+	
+	.notice .heading .text {
+		color: #cacaca;
+	}
+	
+	.list_notice .article_list_notice .col[data-label="title"] {
+		color: #fff;
+	}
+	
+	.footer .address .text {
+		color: #cacaca;
+	}
+	
+	.detail_notice .heading_detail_notice .title {
+		color: #fff;
 	}
 }

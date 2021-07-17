@@ -9,7 +9,7 @@
 ### 다크 모드 사용하기
 네이버 다크 모드를 사용하려면 사용중인 브라우저에 맞는 [확장 앱](https://add0n.com/stylus.html)<sup id="a2">[2](#fn2)</sup>을 설치해야합니다.<br>
 - [Safari](https://itunes.apple.com/us/app/cascadea/id1432182561?ls=1&mt=12)
-- [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [Whale](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
+- [Google Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [Microsoft Edge](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [Naver Whale](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
 - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
 - [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/)
 

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.769
+@version		1.48.772
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -2505,6 +2505,10 @@
 	}
 	
 	.mailList ul.mInfo li, .mailListHead .noReadDel, .notify_area .notice a, #footer address, #footer .quick_link a, #footer .quick_tools a {
+		color: #cacaca;
+	}
+	
+	.noImgs a.normal_text, .spam_reason dd {
 		color: #cacaca;
 	}
 }
@@ -10602,7 +10606,15 @@
 	}
 	
 	.sh_lst dt, .spc_header h2 {
-		color: #c8c8c8;
+		color: #fff;
+	}
+	
+	.captcha_member .spc_row input[type=text] {
+		background: #242424;
+	}
+	
+	.captcha_member .captcha_txt, .spc_header .contxt {
+		color: #cacaca;
 	}
 	
 	.spc_content [class^=spc_row] input[type=password], .spc_row .txt_userid {
@@ -10643,7 +10655,19 @@
 		border-bottom: 1px solid #404040;
 	}
 	
-	.c_header h2, .btn_file label .btn2, .btn_model[href] .btn2, .section_home h2, .sh_lst3 dt, .sh_lst2 dt, .captcha_member .spc_row input[type=text], .tbl_model .contxt_tit, .tbl_model .contxt_webctrl .country_code, .tbl_model .contxt_tit2, .section_secretid>.contxt, .ssi_group h3, .ssi_group2>.contxt, .tbl_sns td a, .sns_title, .connect_info li {
+	.c_header h2, .section_home h2 {
+		color: #fff;
+	}
+	
+	.btn_file label .btn2, .btn_model[href] .btn2, .sh_lst3 dt, .sh_lst2 dt, .captcha_member .spc_row input[type=text], .tbl_model .contxt_webctrl .country_code, .tbl_model .contxt_tit2, .section_secretid>.contxt, .ssi_group h3, .ssi_group2>.contxt, .tbl_sns td a, .sns_title, .connect_info li {
+		color: #cacaca;
+	}
+	
+	.tbl_model .contxt_tit {
+		color: #fff;
+	}
+	
+	.tbl_model .contxt_desc, .tbl_model .contxt_desc3 {
 		color: #cacaca;
 	}
 	
@@ -10653,12 +10677,17 @@
 		background: #242424;
 	}
 	
-	.btn_model .btn2, .sh_group, .sh_group2, .sh_group3, .sh_group4, .section_pwconfirm, .btn_model .btn3 {
+	.sh_group, .sh_group2, .sh_group3, .sh_group4, .section_pwconfirm {
 		border: 1px solid #404040;
 		background: #242424;
 	}
 	
-	.profile_photo .mask, .spico, .tab_viewrecord {
+	.btn_model .btn2, .btn_model .btn3 {
+		border: 1px solid #404040;
+		background: #242424;
+	}
+	
+	.profile_photo .mask {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
@@ -10684,7 +10713,7 @@
 	}
 	
 	#content .content_header h2 img {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.content_header {
@@ -10716,10 +10745,6 @@
 	.country_code .sel_value+select {
 		background: #242424 !important;
 		color: #cacaca !important;
-	}
-	
-	.country_code {
-		border: 1px solid #404040 !important;
 	}
 	
 	.btn_findpw {
@@ -10755,7 +10780,7 @@
 	}
 	
 	.country_code .sel_value, .btn_checkid, .btn_confirm2, .btn_ct, .btn_login, .btn_next2, .btn_prev, .dash, .edge, .ico_arr, .ico_arr2, .ico_help2 {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.help_tooltip2 p {
@@ -10789,7 +10814,7 @@
 	}
 	
 	.input_box {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.box6 h3 {
@@ -10797,7 +10822,7 @@
 	}
 	
 	.btn_next_s, .nudge_close {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.gnb_notice_li a.gnb_notice .gnb_icon, .mail_li a.gnb_mail .gnb_icon, .gnb_service_li a.gnb_service .gnb_icon {
@@ -10807,9 +10832,166 @@
 	.sh_lst .pic_desc .img_frame {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
+	
+	.list_txt, .c_header .contxt {
+		color: #cacaca;
+	}
+	
+	.policy_lst li a {
+		color: #cacaca;
+	}
+	
+	.bar {
+		background: #404040;
+	}
+	
+	.sh_content>.contxt, .desc_sub {
+		color: #cacaca;
+	}
+	
+	.help .txt {
+		background: #2f2f2f;
+		color: #cacaca;
+		border: 1px solid #404040;
+	}
+	
+	.left .arrow {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.help .txt p {
+		color: #cacaca;
+	}
+	
+	.help .txt p>span:first-child, .help .txt p>span, .help .txt p>.ex {
+		color: #cacaca;
+	}
+	
+	.help .txt .ex+.ex2 {
+		color: #cacaca;
+		border-top: 1px solid #404040;
+	}
+	
+	.help .txt em {
+		color: #404040;
+	}
+	
+	.help .txt p img {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.captcha_box>a {
+		color: #cacaca;
+	}
+	
+	.captcha_img {
+		border-right: 1px solid #404040;
+	}
+	
+	.captcha_box {
+		border: 1px solid #404040;
+		background: #242424;
+	}
+	
+	.captcha_box>a.btn_img, .captcha_box>a.btn_sound {
+		border-top: 1px solid #404040;
+	}
+	
+	.captcha_member .sp {
+		background: none;
+		position: relative;
+	}
+	
+	.captcha_img .speaker {
+		background: none;
+		position: relative;
+	}
+	
+	.captcha_img .speaker:before, .captcha_box>a.btn_refresh span:before, .captcha_box>a.btn_sound span:before, .captcha_box>a.btn_img span:before {
+		background: url(https://static.nid.naver.com/images/web/user/sp_ico_captcha2.gif) no-repeat;
+		background-size: 56px auto;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.captcha_box>a.btn_refresh span:before {
+		background-position: -36px 0px;
+	}
+	
+	.captcha_box>a.btn_sound span:before {
+		background-position: -36px -26px;
+	}
+	
+	.captcha_box>a.btn_img span:before {
+		background-position: -36px -50px;
+	}
+	
+	.captcha_img .speaker:before {
+		background-position: -1px 9px;
+	}
+	
+	.tab_viewrecord a.on {
+		color: #fff;
+		border: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	.tab_viewrecord a {
+		color: #cacaca;
+		border: 1px solid #404040;
+		border-bottom-color: #404040;
+		background: #2f2f2f;
+	}
+	
+	.tab_viewrecord {
+		background: none;
+		position: relative;
+	}
+	
+	.tab_viewrecord:before {
+		background: url(https://nid.naver.com/images/help/dot_rect.gif) repeat-x 0 31px;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.tbl_sns td img {
+		border-radius: 22.5%;
+	}
+	
+	.ssi_group .contxt {
+		color: #cacaca;
+	}
+	
+	.spc_content .btn_area_btm button:first-child {
+		color: #242424;
+	}
+	
+	.ico_new {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.open+.contxt_guide_help, .tbl_model .contxt_guide {
+		color: #cacaca;
+	}
+	
+	.tbl_model .contxt_desc2 {
+		color: #cacaca;
+	}
 }
 
-@-moz-document url-prefix("https://nid.naver.com/user2/help/realNameCheck.nhn"), url-prefix("https://nid.naver.com/user2/rncheck")
+@-moz-document url-prefix("https://nid.naver.com/user2/help/realNameCheck"), url-prefix("https://nid.naver.com/user2/rncheck")
 {
 	html, head, body {
 		background: #242424;
@@ -11047,16 +11229,14 @@
 	}
 }
 
-@-moz-document url-prefix("https://nid.naver.com/user2/help/userLoginLog.nhn")
+@-moz-document url-prefix("https://nid.naver.com/user2/help/userLoginLog")
 {
 	html, head {
 		background: #242424;
 	}
 	
 	.table_info2 .sort {
-		color: #cacaca;
-		border: 1px solid #404040;
-		background-color: #242424;
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.table_info2 .payment_log_period input[type=text] {
@@ -11078,6 +11258,14 @@
 	}
 	
 	.paginate_date a[href] {
+		color: #cacaca;
+	}
+	
+	.list_txt {
+		color: #cacaca;
+	}
+	
+	.c_header .contxt {
 		color: #cacaca;
 	}
 }
@@ -14069,8 +14257,8 @@
 	}
 	
 	:root .lang::after {
-		z-index: 99;
-		filter: invert(87.5%) hue-rotate(-180deg);
+		background-image: none;
+		pointer-events: none;
 	}
 	
 	.input_row {
@@ -14284,6 +14472,49 @@
 		left: 50%;
 		top: 50%;
 		transform: translate(-50%, -50%);
+	}
+	
+	#header .lang .sel {
+		border: none;
+		color: #cacaca;
+	}
+	
+	#header .lang .sel {
+		background: none;
+	}
+	
+	#header .lang {
+		border: 1px solid #404040;
+	}
+	
+	#header .lang:before {
+		background: url(https://static.nid.naver.com/images/login/global/sns/desktop/sel_arr.gif) 100% 50% no-repeat;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.dis_di .btn_help {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.ly .ly_box {
+		color: #cacaca;
+		background: #2f2f2f;
+		border: 1px solid #5f5f5f;
+	}
+	
+	.ly .ly_point {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.bar {
+		background: #404040;
 	}
 }
 
@@ -22826,6 +23057,32 @@
 	.oauth_personal .tit {
 		color: #cacaca;
 	}
+	
+	body {
+		color: #cacaca;
+		background: #242424;
+	}
+	
+	#footer a, #footer a:visited {
+		color: #cacaca;
+	}
+	
+	#footer address a {
+		color: #fff;
+	}
+	
+	#footer ul li:before {
+		background-color: #404040;
+	}
+	
+	.btn_unit_off, .btn_unit_on {
+		color: #242424;
+	}
+	
+	.access_logo img {
+		background: #fff;
+		border-radius: 22.5%;
+	}
 }
 
 @-moz-document url-prefix("https://nid.naver.com/user2/campaign")
@@ -29674,6 +29931,10 @@
 		color: #cacaca;
 	}
 	
+	.gnb_my_li .gnb_my_content a.gnb_mail_address {
+		color: #cacaca !important;
+	}
+	
 	.gnb_notice_li .svc_head .task_right {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
@@ -29904,6 +30165,18 @@
 	}
 	
 	#gnb .gnb_my_li .gnb_my_community a:visited, .gnb_notice_li .gnb_notice_all:visited, a.gnb_service_all:visited, .gnb_svc_more .svc_btns:visited {
+		color: #cacaca;
+	}
+	
+	.gnb_notice_li .svc_blank .gnb_tit {
+		color: #cacaca;
+	}
+	
+	.gnb_notice_li .svc_blank .gnb_tit img {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.gnb_notice_li .svc_blank .gnb_desc {
 		color: #cacaca;
 	}
 }
@@ -64409,5 +64682,114 @@
 {
 	.component_mean .explanation .explanation_item {
 		color: #cacaca;
+	}
+}
+
+@-moz-document url-prefix("https://nid.naver.com/login/ext/deviceConfirm")
+{
+	body {
+		background: #242424;
+	}
+	
+	.title p {
+		color: #fff;
+	}
+	
+	#content {
+		filter: none;
+	}
+	
+	.title .sub_title {
+		color: #cacaca;
+	}
+	
+	#footer {
+		border: none;
+		background-color: none;
+	}
+	
+	.find_info {
+		border-top: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	#footer *, #footer a, #footer a:visited, .find_info a {
+		color: #cacaca;
+	}
+	
+	#footer address a {
+		color: #fff;
+	}
+	
+	.bar {
+		background: #404040;
+	}
+	
+	@media not all, not all, (-webkit-min-device-pixel-ratio: 1.5), not all, (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+		#footer ul li {
+			background: none;
+			position: relative;
+		}
+		
+		#footer ul li:not(:first-child):before {
+			background: url(https://static.nid.naver.com/images/ui/login/pc_sp_login_170424.png) no-repeat;
+			background-position: 0 -247px;
+			position: absolute;
+			content: '';
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			pointer-events: none;
+			filter: invert(86%) hue-rotate(-180deg);
+		}
+	}
+	
+	.btn_cancel, .btn_cancel2, .btn_cancel3 {
+		border: 1px solid #404040;
+		background: rgb(48, 49, 49);
+	}
+	
+	.btn_cancel a, .btn_upload a {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.btn_upload, .btn_maintain {
+		background: rgb(48, 148, 31);
+	}
+}
+
+@-moz-document url-prefix("https://nid.naver.com/user2/help/2StepVerif")
+{
+	
+	.otp_loginset .subtitle {
+		color: #cacaca;
+	}
+	
+	.app_install .subtitle, .subtitle {
+		color: #fff;
+	}
+	
+	.otp_loginset .guide_link_area {
+		color: #cacaca;
+	}
+	
+	.otp_loginset .flow_image img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.btn9_otp_guide, .btn_model .btn9 {
+		color: #242424;
+	}
+}
+
+@-moz-document url-prefix("https://nid.naver.com/user2/help/externalAuth")
+{
+	.sns_txt {
+		color: #cacaca;
+	}
+	
+	.tbl_sns {
+		border-bottom: 1px solid #404040;
 	}
 }

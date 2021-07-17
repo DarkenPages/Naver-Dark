@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.766
+@version		1.48.768
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -12233,6 +12233,11 @@
 	
 	.common_list .list_thumb:after {
 		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.AsideSign .user_info .icon_aside_login_storage, .AsideSign .user_info .icon_aside_login_messege {
+		vertical-align: middle;
+		padding-bottom: 3px;
 	}
 }
 
@@ -47529,6 +47534,33 @@
 	
 	.component_information .stroke .view img {
 		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.component_mean .explanation .explanation_item {
+		color: #fff;
+	}
+	
+	.view_all.on ul li .link:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	#content .info {
+		background: none;
+		position: relative;
+		color: #cacaca;
+	}
+	
+	#content .info:before {
+		background: url(https://ssl.pstatic.net/dicimg/dic-home-service/style/202101111136/img/sp_main.png) no-repeat;
+		background-position: -180px -50px;
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
 	}
 }
 

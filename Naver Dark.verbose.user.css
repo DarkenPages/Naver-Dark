@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.768
+@version		1.48.769
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -12238,6 +12238,11 @@
 	.AsideSign .user_info .icon_aside_login_storage, .AsideSign .user_info .icon_aside_login_messege {
 		vertical-align: middle;
 		padding-bottom: 3px;
+	}
+	
+	.home_user .btn_mycafe_more {
+		border: 1px solid #404040;
+		color: #fff;
 	}
 }
 

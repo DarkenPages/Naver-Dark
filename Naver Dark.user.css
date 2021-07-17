@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.768
+@version		1.48.769
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -4262,7 +4262,7 @@
     .board_notice tbody td.data { border-bottom-color: #404040 }
     .board_notice thead th { color: #fff;border-bottom-color: #404040 }
     .cc_layer_alert { border: 1px solid #404040;background: #2f2f2f }
-    .cc_layer_alert .cc_alert_btn { color: #fff;border: 1px solid #404040 }
+    .cc_layer_alert .cc_alert_btn,.home_user .btn_mycafe_more { color: #fff;border: 1px solid #404040 }
     .cc_layer_mynews .cc_mynews_header { border-bottom: 1px solid #404040;background: #242424 }
     .cc_layer_mynews .cc_mynews_list li.unread { background: #2c2c2c }
     .cc_layer_mynews .cc_mynews_option_layer { color: #fff !important;border: 1px solid #404040;background-color: #242424 }

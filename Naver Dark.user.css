@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.773
+@version		1.48.774
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -3232,8 +3232,8 @@
     .error_chatbot .chatbot_box,.qr_img,.tab_m,#header .lang,html[lang=en] .qr_once_area .item_btn,html[lang=zh-Hans] .qr_once_area .item_btn,html[lang=zh-Hant] .qr_once_area .item_btn { border: 1px solid #404040 }
     .find_info { color: #cacaca;border-top: 1px solid #404040 }
     .input_box { border: 0 !important }
-    .input_row { border: 1px solid #404040;background: #242424 }
-    .int { color: #cacaca;background: #242424 }
+    .input_row { padding: 0px 0px 17px 0px;border: 1px solid #404040;background: #242424 }
+    .int { width: calc(100% - 22px);padding: 15px 11px 15px 11px;height: 16px;color: #cacaca;background: #242424 }
     .ip_ch label { background-color: #242424 }
     .login_check_box label { color: #cacaca;background-color: #242424 }
     .ly .ly_box { color: #cacaca;border: 1px solid #5f5f5f;background: #2f2f2f }

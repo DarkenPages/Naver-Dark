@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.775
+@version		1.48.776
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -14850,6 +14850,27 @@
 	
 	.more, #pop_wrap #pop_footer input[type="image"], #pop_wrap #pop_footer a img, #pop_wrap #pop_content .list_report .list_type2 li {
 		filter: invert(86%);
+	}
+	
+	#pop_wrap #pop_content .list_report dd {
+		color: #cacaca;
+	}
+	
+	#pop_wrap #pop_content .desc5 span {
+		background: none;
+		position: absolute;
+	}
+	
+	#pop_wrap #pop_content .desc5 span:before {
+		background: url(https://ssl.pstatic.net/static/common/popup/bu_arr.gif) right 50% no-repeat;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 }
 
@@ -53166,6 +53187,15 @@
 	.CafeViewer .se-viewer .se-module-oglink .se-oglink-summary {
 		color: #cacaca;
 	}
+	
+	.CclLayer {
+		background-color: #3a3a3a;
+		color: #fff;
+	}
+	
+	.CclLayer .list {
+		color: #fff;
+	}
 }
 
 @-moz-document url-prefix("https://hanja.dict.naver.com")
@@ -64052,6 +64082,10 @@
 	
 	.flight .flight_multi_trip .flight_btn_del {
 		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	html[data-useragent*='mac'] .cs_common_module .rel_img {
+		margin-top: 0px;
 	}
 }
 

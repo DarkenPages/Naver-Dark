@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.775
+@version		1.48.776
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -1765,9 +1765,11 @@
     head,html { background: #242424 }
 }
 @-moz-document url-prefix("https://cafe.naver.com/BoardReport") {
+    #pop_wrap #pop_content .desc5 span { position: absolute;background: none }
+    #pop_wrap #pop_content .desc5 span:before { width: 100%;top: 0;position: absolute;pointer-events: none;left: 0;height: 100%;filter: invert(86%) hue-rotate(-180deg);content: '';background: url(https://ssl.pstatic.net/static/common/popup/bu_arr.gif) right 50% no-repeat }
     #pop_wrap #pop_content .list_report .list_type2 li,#pop_wrap #pop_footer a img,#pop_wrap #pop_footer input[type="image"],.more { filter: invert(86%) }
+    #pop_wrap #pop_content .list_report dd,#pop_wrap #pop_content .list_report dt { color: #cacaca }
     #pop_wrap #pop_content .list_report dd,#pop_wrap #pop_content .list_report dt,#pop_wrap #pop_footer { border-top: 1px solid #404040 }
-    #pop_wrap #pop_content .list_report dt { color: #cacaca }
     #pop_wrap #pop_header { border-bottom: 1px solid #404040;background: #242424 }
     #pop_wrap #pop_header h1 { color: #fff }
     head,html { background: #242424 }
@@ -1776,7 +1778,7 @@
     :root { --skinToggleSwitchBg: #3a3a3a;--skinThumbBorder: #404040;--skinTextb7b7b7: #666;--skinTextColor: #fff;--skinText979797: #999;--skinText676767: #cacaca;--skinText323232: #cfcfcf;--skinTagLinkColor: #cacaca;--skinSvgIconPostTop: #cacaca;--skinSvgIconPostBtnArrowUp: #cacaca;--skinSourceBadge: #cacaca;--skinNoticeBadgeMenuBg: #242424;--skinListSelectedBg: #2f2f2f;--skinListBorder: #404040;--skinLayoutBorder: #404040;--skinCommentWriterText: #cacaca;--skinCommentWriterFocus: #999;--skinCommentWriterBorder: #404040;--skinCommentWriterBg: #242424;--skinCommentMineBg: #2f2f2f;--skinColor: #cacaca;--skinBox: #2f2f2f;--skinBaseButtonPointBg: #3a3a3a;--skinBaseButtonDefaultColor: #fff;--skinBaseButtonDefaultBg: #3a3a3a;--skinBar: #404040;--skinArticleLink: #7474e3;--iconArrowWrite: #cacaca;--iconArrowBase: #999;--gnbLinkBar: #404040;--gnbLinkArrow: #cacaca;--baseText: #cacaca;--baseMenu: #fff;--baseLink: #cfcfcf;--baseBorder: #404040;--baseBg: #242424 }
     .AdminWrite .admin_form_button { color: #cacaca;border: 1px solid #404040 }
     .AdminWrite .admin_form,.CafeEditor .CafeCustomPoll,.CafeViewer .CafeCustomPoll,.comm_layer2 .box01,.comm_layer2 .inquiry_commerce .form_commerce,.comm_layer3,.comm_layer2 .inquiry_commerce,.spi_lst .spi_lst_release,.UILayerAdminWrite .preview .view_box { border: 1px solid #404040;background-color: #242424 }
-    .AdminWrite .admin_title,.AdminWrite .tab_button[aria-selected=true],.AdminWrite .admin_write_content,.article_layer,.comm_layer3 h3,.AttachFileListItem .file_download .file_menu,.CafeViewer .CafeCustomPoll .cafe_poll_status .txt,.CafeViewer .CafeCustomPoll .poll_more,.CafeViewer .CafeCustomVote,.CafeViewer .se-viewer .se-module-oglink .se-oglink-title,.comm_layer2 .box01 strong,.comm_layer2 .inquiry_commerce .commerce_fraud_title,.comm_layer2 .inquiry_commerce .keyup_commerce,.LayerPopup .layer_header .title,.LayerPopup .select_city_header .current.complete,.LayerPopup.Poll .poll_input .item_add,.LayerPopup.Poll .poll_input .item.enter .num:before,.LayoutSpecialMenu .menu_list .link_special,.ModalLayer,.og .tit,.PopularArticles .PopularCafeList .more,.se-viewer .se-video .se-media-meta-info,.UILayerAdminWrite .banner_upload_area .file_alert_text.file_text,.UILayerAdminWrite .preview .btn_view[aria-selected=true],.WritingCommerce .form_box .pay_check,.WritingCommerce .form_box .storefarm .product_info .title { color: #fff }
+    .AdminWrite .admin_title,.AdminWrite .tab_button[aria-selected=true],.AdminWrite .admin_write_content,.article_layer,.comm_layer3 h3,.AttachFileListItem .file_download .file_menu,.CafeViewer .CafeCustomPoll .cafe_poll_status .txt,.CafeViewer .CafeCustomPoll .poll_more,.CafeViewer .CafeCustomVote,.CafeViewer .se-viewer .se-module-oglink .se-oglink-title,.CclLayer .list,.comm_layer2 .box01 strong,.comm_layer2 .inquiry_commerce .commerce_fraud_title,.comm_layer2 .inquiry_commerce .keyup_commerce,.LayerPopup .layer_header .title,.LayerPopup .select_city_header .current.complete,.LayerPopup.Poll .poll_input .item_add,.LayerPopup.Poll .poll_input .item.enter .num:before,.LayoutSpecialMenu .menu_list .link_special,.ModalLayer,.og .tit,.PopularArticles .PopularCafeList .more,.se-viewer .se-video .se-media-meta-info,.UILayerAdminWrite .banner_upload_area .file_alert_text.file_text,.UILayerAdminWrite .preview .btn_view[aria-selected=true],.WritingCommerce .form_box .pay_check,.WritingCommerce .form_box .storefarm .product_info .title { color: #fff }
     .AdminWrite .admin_write_content .admin_write_table .admin_table_title,.LayerPopup .Joonggonara_agree,.LayerPopup .guide_list,.UILayerAdminWrite .banner_upload .file_upload_button { color: #cacaca;background-color: #2f2f2f }
     .AdminWrite .admin_write_content .admin_write_table td { color: #fff;border-left: 1px solid #404040;border-bottom: 1px solid #404040 }
     .AdminWrite .banner_area,.CafeViewer .CafeCustomVote .cafe_vote_wrap,.UILayerAdminWrite .preview .board_notice_view { border: 1px solid #404040;background-color: #2f2f2f }
@@ -1794,6 +1796,7 @@
     .CafeViewer .CafeCustomVote .cafe_vote_view .cafe_vote_btn,.comm_layer3.safety_deal .deal_area.v4 tbody td,.comm_layer3.safety_deal .deal_area.v4 tbody th,.LayerPopup.Poll .poll_select,.LayerPopup.Poll .poll_set,.ModalLayer .layer_vote_member .user_list,.WritingCommerce .writing_commerce_bottom,.WritingTag .tag_inner { border-top: 1px solid #404040 }
     .CafeViewer .CafeCustomVote .cafe_vote_view .cafe_vote_list .vote_check .input_check+.label_text:before { filter: invert(82.5%) hue-rotate(-180deg) }
     .CafeViewer .CafeCustomVote .cafe_vote_view .vote_more { border-top: 1px solid #404040;background-color: #2f2f2f }
+    .CclLayer { color: #fff;background-color: #3a3a3a }
     .comm_layer2 .box01 .dc_1 { color: #fff !important }
     .comm_layer2 .inquiry_commerce .harm_commerce,.ModalLayer .layer_wrap,.se-viewer .se-module-oglink,.UILayerAdminWrite .preview { background-color: #2f2f2f }
     .comm_layer2 .inquiry_commerce .submit_commerce,.PurchaseButton .npay_btn { color: #242424 }
@@ -4207,6 +4210,7 @@
     #place-app-root .sc_new .api_subject_bx .api_title_area+div>div+div+div[class]>div>a>em,#place-app-root .sc_new .api_subject_bx .api_title_area+div>div>ul li>div[class]>div[class]>a[href] { color: #788cda }
     #snb .option_menu .snb_itembox.ly_detailsch .sch_foot [class^=btn_]:hover { border-color: #404040;background-color: #404040 }
     #snb .option_menu .snb_itembox.ly_detailsch .sctitle_txt { border-bottom: 2px solid #4f4f4f }
+    html[data-useragent*='mac'] .cs_common_module .rel_img { margin-top: 0px }
 }
 @-moz-document url-prefix("https://section.blog.naver.com"), url-prefix("http://section.blog.naver.com") {
     .area_dropdown .area_input_date .button,.area_dropdown[data-set="blog_category"] .present_selected,.area_dropdown[data-set="buddy"] .dropdown_select,.area_dropdown[data-set="buddy"] .present_selected,.header_service .navigator_lnb_sub .item,.hot_topic .pagination_tab.pagination_arrow .item,.hot_topic .pagination_tab.pagination_number .item,.how_to_join .item:hover .link_widget,.navigator_spot .area_year_month .status,.notice .area_search .search,.order_select .list_button_control .button_del,.order_select .list_button_control .button_order_set,.pagination[data-page="main_pagination"] .item,.pagination[data-page="main_pagination"] .item[aria-current="page"],.wrap_thumbnail_post_list[data-post-type="buddy"] .area_dropdown_select[data-set="more_buddy"] .view_more_buddy { border: 1px solid #404040 }

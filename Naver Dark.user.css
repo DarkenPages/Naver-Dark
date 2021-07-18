@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.774
+@version		1.48.775
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -2988,20 +2988,12 @@
     .share_page_lst .sico { height: 15px;border-radius: 6px }
     .skin01 .scrollbox .scrollbar-v,.time_scroll .scrollbar-v { border-left: 1px solid #404040;background: #2f2f2f }
     .snb_related_service a { padding: 0 }
+    .snb_related_service a,.snb_related_service li a { color: #c8d8ff }
     .snb_related_service li a { height: 20px }
     .snb_related_service li a[href*='election'] { width: auto;position: relative;overflow: visible }
-    .snb_related_service li a[href*='election'] img,.snb_related_service li a[href*='entertain'] img,.snb_related_service li a[href*='newsstand'] img,.snb_related_service li a[href*='sports'] img,.snb_related_service li a[href*='weather'] img { display: none }
+    .snb_related_service li a[href*='election'] img { display: none }
     .snb_related_service li a[href*='election']:after { width: 56px;white-space: nowrap;transform: translate(0, -50%);top: 50%;text-align: right;position: absolute;left: 0;font-size: 18px;content: '총선';color: #fff;background: url(https://upload.wikimedia.org/wikipedia/commons/9/9e/Vote2.svg) no-repeat;background-size: 17px 17px;background-position: 0px 50% }
     .snb_related_service li a[href*='election']:before { width: 55px;white-space: nowrap;opacity: 0;height: 18px;font-size: 18px;display: inline-block;content: '총선';color: #cacaca }
-    .snb_related_service li a[href*='entertain'],.snb_related_service li a[href*='newsstand'],.snb_related_service li a[href*='sports'],.snb_related_service li a[href*='weather'] { width: auto;position: relative }
-    .snb_related_service li a[href*='entertain']:after { white-space: nowrap;transform: translate(-50%, -50%);top: 50%;position: absolute;left: 50%;font-size: 18px;content: 'TV연예';color: #fff }
-    .snb_related_service li a[href*='entertain']:before { white-space: nowrap;opacity: 0;font-size: 18px;content: 'TV연예';color: #cacaca }
-    .snb_related_service li a[href*='newsstand']:after { white-space: nowrap;transform: translate(-50%, -50%);top: 50%;position: absolute;left: 50%;font-size: 18px;content: '뉴스스탠드';color: #fff }
-    .snb_related_service li a[href*='newsstand']:before { white-space: nowrap;opacity: 0;font-size: 18px;content: '뉴스스탠드';color: #cacaca }
-    .snb_related_service li a[href*='sports']:after { white-space: nowrap;transform: translate(-50%, -50%);top: 50%;position: absolute;left: 50%;font-size: 18px;content: '스포츠';color: #fff }
-    .snb_related_service li a[href*='sports']:before { white-space: nowrap;opacity: 0;font-size: 18px;content: '스포츠';color: #cacaca }
-    .snb_related_service li a[href*='weather']:after { white-space: nowrap;transform: translate(-50%, -50%);top: 50%;position: absolute;left: 50%;font-size: 18px;content: '날씨';color: #fff }
-    .snb_related_service li a[href*='weather']:before { white-space: nowrap;opacity: 0;font-size: 18px;content: '날씨';color: #cacaca }
     .spi_btn_release .spi_lst_release a.spi_btn_copyurl,.spi_onebtn .spi_lst .spi_btn_release .spi_lst_release a.spi_btn_copyurl,.spi_sns_share .spi_lst .spi_btn_release .spi_lst_release a.spi_btn_copyurl { color: #cacaca !important;border: 1px solid #404040 }
     .subscribe.on:before { filter: invert(76%) hue-rotate(-180deg) }
     .topbox_type6 li a.on:before { background-color: #cacaca }

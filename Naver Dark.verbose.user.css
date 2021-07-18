@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.774
+@version		1.48.775
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -30543,116 +30543,120 @@
 		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
-	.snb_related_service li a[href*='entertain'] {
-		width: auto;
-		position: relative;
-	}
+	/*.snb_related_service li a[href*='entertain'] {*/
+	/*	width: auto;*/
+	/*	position: relative;*/
+	/*}*/
 	
-	.snb_related_service li a[href*='entertain'] img {
-		display: none;
-	}
+	/*.snb_related_service li a[href*='entertain'] img {*/
+	/*	display: none;*/
+	/*}*/
 	
-	.snb_related_service li a[href*='entertain']:before {
-	    content: 'TV연예';
-	    color: #cacaca;
-	    font-size: 18px;
-	    white-space: nowrap;
-	    opacity: 0;
-	}
+	/*.snb_related_service li a[href*='entertain']:before {*/
+	/*    content: 'TV연예';*/
+	/*    color: #cacaca;*/
+	/*    font-size: 18px;*/
+	/*    white-space: nowrap;*/
+	/*    opacity: 0;*/
+	/*}*/
 	
-	.snb_related_service li a[href*='entertain']:after {
-		position: absolute;
-	    left: 50%;
-	    top: 50%;
-	    transform: translate(-50%, -50%);
-		content: 'TV연예';
-		color: #fff;
-		font-size: 18px;
-		white-space: nowrap;
-	}
+	/*.snb_related_service li a[href*='entertain']:after {*/
+	/*	position: absolute;*/
+	/*    left: 50%;*/
+	/*    top: 50%;*/
+	/*    transform: translate(-50%, -50%);*/
+	/*	content: 'TV연예';*/
+	/*	color: #fff;*/
+	/*	font-size: 18px;*/
+	/*	white-space: nowrap;*/
+	/*}*/
 	
-	.snb_related_service li a[href*='sports'] {
-		width: auto;
-		position: relative;
-	}
+	/*.snb_related_service li a[href*='sports'] {*/
+	/*	width: auto;*/
+	/*	position: relative;*/
+	/*}*/
 	
-	.snb_related_service li a[href*='sports'] img {
-		display: none;
-	}
+	/*.snb_related_service li a[href*='sports'] img {*/
+	/*	display: none;*/
+	/*}*/
 	
-	.snb_related_service li a[href*='sports']:before {
-		content: '스포츠';
-		color: #cacaca;
-		font-size: 18px;
-		white-space: nowrap;
-	    opacity: 0;
-	}
+	/*.snb_related_service li a[href*='sports']:before {*/
+	/*	content: '스포츠';*/
+	/*	color: #cacaca;*/
+	/*	font-size: 18px;*/
+	/*	white-space: nowrap;*/
+	/*    opacity: 0;*/
+	/*}*/
 	
-	.snb_related_service li a[href*='sports']:after {
-		position: absolute;
-		left: 50%;
-	    top: 50%;
-	    transform: translate(-50%, -50%);
-		content: '스포츠';
-		color: #fff;
-		font-size: 18px;
-		white-space: nowrap;
-	}
+	/*.snb_related_service li a[href*='sports']:after {*/
+	/*	position: absolute;*/
+	/*	left: 50%;*/
+	/*    top: 50%;*/
+	/*    transform: translate(-50%, -50%);*/
+	/*	content: '스포츠';*/
+	/*	color: #fff;*/
+	/*	font-size: 18px;*/
+	/*	white-space: nowrap;*/
+	/*}*/
 	
-	.snb_related_service li a[href*='newsstand'] {
-		width: auto;
-		position: relative;
-	}
+	/*.snb_related_service li a[href*='newsstand'] {*/
+	/*	width: auto;*/
+	/*	position: relative;*/
+	/*}*/
 	
-	.snb_related_service li a[href*='newsstand'] img {
-		display: none;
-	}
+	/*.snb_related_service li a[href*='newsstand'] img {*/
+	/*	display: none;*/
+	/*}*/
 	
-	.snb_related_service li a[href*='newsstand']:before {
-		content: '뉴스스탠드';
-		color: #cacaca;
-		font-size: 18px;
-		white-space: nowrap;
-	    opacity: 0;
-	}
+	/*.snb_related_service li a[href*='newsstand']:before {*/
+	/*	content: '뉴스스탠드';*/
+	/*	color: #cacaca;*/
+	/*	font-size: 18px;*/
+	/*	white-space: nowrap;*/
+	/*    opacity: 0;*/
+	/*}*/
 	
-	.snb_related_service li a[href*='newsstand']:after {
-		position: absolute;
-		left: 50%;
-	    top: 50%;
-	    transform: translate(-50%, -50%);
-		content: '뉴스스탠드';
-		color: #fff;
-		font-size: 18px;
-		white-space: nowrap;
-	}
+	/*.snb_related_service li a[href*='newsstand']:after {*/
+	/*	position: absolute;*/
+	/*	left: 50%;*/
+	/*    top: 50%;*/
+	/*    transform: translate(-50%, -50%);*/
+	/*	content: '뉴스스탠드';*/
+	/*	color: #fff;*/
+	/*	font-size: 18px;*/
+	/*	white-space: nowrap;*/
+	/*}*/
 	
-	.snb_related_service li a[href*='weather'] {
-		width: auto;
-		position: relative;
-	}
+	/*.snb_related_service li a[href*='weather'] {*/
+	/*	width: auto;*/
+	/*	position: relative;*/
+	/*}*/
 	
-	.snb_related_service li a[href*='weather'] img {
-		display: none;
-	}
+	/*.snb_related_service li a[href*='weather'] img {*/
+	/*	display: none;*/
+	/*}*/
 	
-	.snb_related_service li a[href*='weather']:before {
-		content: '날씨';
-		color: #cacaca;
-		font-size: 18px;
-		white-space: nowrap;
-	    opacity: 0;
-	}
+	/*.snb_related_service li a[href*='weather']:before {*/
+	/*	content: '날씨';*/
+	/*	color: #cacaca;*/
+	/*	font-size: 18px;*/
+	/*	white-space: nowrap;*/
+	/*    opacity: 0;*/
+	/*}*/
 	
-	.snb_related_service li a[href*='weather']:after {
-		position: absolute;
-		left: 50%;
-	    top: 50%;
-	    transform: translate(-50%, -50%);
-		content: '날씨';
-		color: #fff;
-		font-size: 18px;
-		white-space: nowrap;
+	/*.snb_related_service li a[href*='weather']:after {*/
+	/*	position: absolute;*/
+	/*	left: 50%;*/
+	/*    top: 50%;*/
+	/*    transform: translate(-50%, -50%);*/
+	/*	content: '날씨';*/
+	/*	color: #fff;*/
+	/*	font-size: 18px;*/
+	/*	white-space: nowrap;*/
+	/*}*/
+	
+	.snb_related_service a, .snb_related_service li a {
+		color: #c8d8ff;
 	}
 	
 	.lnb_date, .lnb_today li a {

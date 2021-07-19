@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.776
+@version		1.48.777
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -32694,9 +32694,59 @@
 	.content_menu li a, .article_footer li a {
 		color: #cacaca !important;
 	}
+	
+	.end_btn .sns_share {
+		border: 1px solid #404040;
+	}
+	
+	.end_btn .sns_share_ico {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.snb_banner a img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.rankingnews_box_wrap .rankingnews_box_head:after {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.rankingnews_date li a {
+		color: #cacaca;
+	}
+	
+	.rankingnews_press_sort .button_toggle .button_toggle_img {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.consolidation_native_ad {
+		border: 1px solid #242424;
+		background-color: #242424;
+	}
+	
+	.consolidation_native_ad .title {
+		color: #fff;
+	}
+	
+	.consolidation_native_ad .desc {
+		color: #cacaca;
+	}
+	
+	.consolidation_native_ad .icon_ad, .consolidation_native_ad .landing.type_more::before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.consolidation_native_ad .landing {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.article_changecmt .changecmt_info_txt {
+		color: #cacaca;
+	}
 }
 
-@-moz-document url-prefix("https://news.naver.com/main/tool/print.nhn")
+@-moz-document url-prefix("https://news.naver.com/main/tool/print.nhn"), url-prefix("https://news.naver.com/main/tool/print.naver")
 {
 	.head img, .btn_pop_print:before {
 		filter: invert(86%) hue-rotate(-180deg);

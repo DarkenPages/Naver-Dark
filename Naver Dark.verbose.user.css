@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.778
+@version		1.48.779
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -62799,18 +62799,6 @@
 		color: #fff;
 	}
 	
-	.sp_nreview .total_tit, .sp_nreview .total_link_area .link, .sp_ntotal .total_tit .link_tit, .sp_nbook .book_info .title_area, .sp_nbook .list_info a.item_info, .sp_nvideo .video_default_list .video_bx .info_area .info_title, .go_relate a, .sp_ntotal .group_item .list_item .item a, .sp_nvideo .video_scroll_list .info_area .info_title, ._3tIZ6 ._2LKql ._3CKdL, .sp_nvideo .video_square_list .square_wrap .info_area .info_title, .sp_nrealtime .nrealtime_list .nrealtime_item .item_info .desc_tit, .sp_nblog .total_tit, .sp_ncafe .total_tit, .sp_nsite .link_name, .sp_nsite .sublink_wrap .sublink .item a, .cs_produce a, .cs_produce .prcs_detail h4 a, .ad_section .lst_type .lst .lnk_tit, .ad_section .lst_type .lst.type_subtitle .sub_tit, .api_ly_info .link, .ad_section .lst_type .lst.ext_price .lst_price .txt_inner, .ad_section .lst_type .lst.ext_link .lst_link .item .link, .sp_ndicstudy .word_lst .word, .sp_nrealtime .api_title .btn_new, .sp_ndic .dic_more .dic_link, .sp_ndic .dic_more_link .count, .sp_ndic .other_list .other_list_link, .sp_ndic .info_list a, .sp_ndic .dic_area .link_more, .sp_ndic .class_area .info_box .title, .cs_sign .tx_info.line_type a, .sp_mobile .app_eachlist a.store_wrap, .cs_newest .sct_content li .scm_ellipsis_text a, .cs_seasonal_divisions .prcs_detail h4 a, .cs_common_module a, .cs_common_module .expand_info .text_wrap a, .cs_common_module .notice_info_area a, .cs_common_module .cm_table_area .type_normal .cm_table tbody th a, .cs_sports_team a, .cs_sports_team .prcs_guide .nologo a, .cs_sports_team .prcs_guide .nologo2 a, .cs_sports_team .prcs_guide .nologo .txt, .cs_sports_team .prcs_guide .nologo2 .txt, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td .nation_name, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td.top3 p a, .cs_olympic_history .team_area .line li .player_detail dt a, .sp_ntotal .dsc_alert .link_help {
-		color: #688cda;
-	}
-	
-	.sp_nnews .news_wrap .news_tit:visited, .sp_nnews .news_wrap .news_tit:visited mark, .sp_nnews .api_title_sub .sub_link:visited, .sp_nnews .news_cluster .sub_tit:visited, .sp_nnews .news_cluster .sub_tit:visited mark, .sp_nnews .news_wrap:visited .news_tit .tit, .sp_nnews .news_wrap:visited .news_tit .tit mark, .sp_nreview .total_tit:visited, .sp_nreview .total_tit:visited mark, .sp_nreview .total_link_area .link:visited, .sp_nreview .total_link_area .link:visited mark, .sp_ntotal .total_tit .link_tit:visited, .sp_ntotal .total_tit .link_tit:visited mark, .sp_nvideo .video_default_list .video_bx .info_area .info_title:visited, .sp_nvideo .video_default_list .video_bx .info_area .info_title:visited mark, .sp_ntotal .group_item .list_item .item a:visited, .sp_ntotal .group_item .list_item .item a:visited mark, .sp_nvideo .video_scroll_list .info_area .info_title:visited, .sp_nvideo .video_scroll_list .info_area .info_title:visited mark, .sp_nkin .cluster_item:visited, .sp_nrealtime .info_desc .desc_link:visited, .sp_nrealtime .info_desc .desc_tit:visited, .sp_nrealtime .info_desc:visited .desc_tit, .sp_nrealtime .profile_link:visited .explain_tit, .sp_nblog .total_tit:visited, .sp_nblog .total_tit:visited mark, .sp_ncafe .total_tit:visited, .sp_ncafe .total_tit:visited mark, .sp_nsite .link_name:visited, .sp_nsite .link_name:visited mark, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark, .sp_nkin .kin_wrap .question_area .question_text:visited, .cs_produce .prcs_detail h4 a:visited, .cs_produce a:visited, .ad_section .lst_type .lst .lnk_tit:visited, .ad_section .lst_type .lst.type_subtitle .sub_tit:visited, .sp_company .company_more .more_info .api_ly_info .link:visited, .ad_section .lst_type .lst.ext_price .lst_price .txt_inner:visited, .ad_section .lst_type .lst.ext_link .lst_link .item .link:visited, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark {
-		color: #cc90cd;
-	}
-	
-	.sp_nsite .link_name:visited, .sp_nsite .link_name:visited mark, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark, .sp_ntotal .total_tit .link_tit:visited, .sp_ntotal .total_tit .link_tit:visited mark, .sp_ntotal .group_item .list_item .item a:visited, .sp_ntotal .group_item .list_item .item a:visited mark, .sp_ndicstudy .word_lst .word:visited, .api_subject_bx .api_title_area .api_title a:visited, .sp_nreview .total_tit:visited, .sp_nreview .total_tit:visited mark, .sp_nnews .news_wrap .news_tit:visited, .sp_nnews .news_wrap .news_tit:visited mark, .sp_ncafe_used .used_wrap .title:visited, .cs_common_module a:visited, .cs_common_module .expand_info .text_wrap a:visited, .cs_common_module .cm_table_area .type_normal .cm_table tbody th a:visited, .cs_sports_team a:visited, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td .nation_name:visited, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td.top3 p a:visited, .cs_olympic_history .team_area .line li .player_detail dt a:visited {
-		color: #cc90cd;
-	}
-	
 	.cs_olympic_history .team_area .medal_list:after {
 		background-color: #404040;
 	}
@@ -64144,6 +64132,402 @@
 	
 	html[data-useragent*='mac'] .cs_common_module .rel_img {
 		margin-top: 0px;
+	}
+	
+	.cs_recommendation .rcmd_lst.ty3 .rcmd_dsc.v4 {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_recommendation .rcmd_lst.ty3 .rcmd_dsc.v4 .rcmd_tit {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_recommendation .rcmd_dsc {
+		border: 1px solid #404040;
+		border-width: 0 1px 1px 1px;
+	}
+	
+	.cs_recommendation .rcmd_dsc p, .cs_recommendation .snf_name {
+		color: #cacaca;
+	}
+	
+	.cs_recommendation .rcmd_snf .rcmd_thumb .img_bd, .cs_recommendation .rcmd_snf .rcmd_thumb img {
+		border-radius: 50%;
+	}
+	
+	.go_site {
+		background: none;
+		position: relative;
+	}
+	
+	.go_site:before {
+		background: url(https://ssl.pstatic.net/sstatic/search/pc/img/sprite_bu_v1.gif) 100% -312px no-repeat;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		filter: invert(81.5%) hue-rotate(-180deg);
+		pointer-events: none;
+	}
+	
+	.pick_sub_txt .pick_bar {
+		border-left: 1px solid #404040;
+	}
+	
+	.pick_sub_txt {
+		color: #fff;
+	}
+	
+	.sc_new .cmm_pgs {
+		border-top: 1px solid #404040;
+	}
+	
+	.sc_new .cmm_pgs .cmm_npgs {
+		color: #fff;
+	}
+	
+	.sc_new .cmm_pgs .cmm_npgs .cmm_npgs_now:after, .sc_new .cmm_pgs a.cmm_pg_next:before, .sc_new .cmm_pgs a.cmm_pg_prev:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.sp_ntotal .kin_snippet .snippet_dsc .dsc_area .dsc_txt {
+		color: #cacaca;
+	}
+	
+	.sp_ntotal .kin_snippet+.total_wrap:before {
+		background-color: #404040;
+	}
+	
+	.sp_ntotal .kin_snippet_info {
+		border-top: 1px solid #404040;
+	}
+	
+	.sp_ntotal .kin_snippet_info .tit {
+		color: #fff;
+	}
+	
+	.sp_ntotal .kin_snippet_info .dsc, .sp_ntotal .kin_snippet_info .dsc .link {
+		color: #cacaca;
+	}
+	
+	.sp_ntotal .kin_snippet_info .tit+.dsc:before {
+		background-color: #404040;
+	}
+	
+	.cs_vaccine_info .csp_tab_area {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_vaccine_info .csp_tab_area .list_tab a {
+		color: #fff;
+	}
+	
+	.cs_vaccine_info .patients_info .option_tab .tab[aria-selected="true"] .menu {
+		color: #fff;
+	}
+	
+	.cs_vaccine_info .patients_info .option_tab .tab .menu {
+		color: #cacaca;
+	}
+	
+	.cs_vaccine_info .vaccination_area .vaccination_status_map {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_vaccine_info .patients_map {
+		background: #2f2f2f;
+	}
+	
+	.cs_vaccine_info .csp_infoCheck_area {
+		background-color: #3a3a3a;
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_vaccine_info .csp_subInfo_area {
+		color: #cacaca;
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_vaccine_info .csp_subInfo_area .origin {
+		color: #cacaca;
+	}
+	
+	.cs_vaccine_info .csp_infoCheck_area .csp_ico_alert {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_vaccine_info .csp_infoCheck_area .info_text {
+		color: #cacaca;
+	}
+	
+	.cs_vaccine_info .social_distancing_info .notice_text {
+		color: #cacaca;
+	}
+	
+	.cs_vaccine_info .patients_map .inner_box .local_info {
+		border: 1px solid #404040;
+		background-color: #3a3a3a;
+	}
+	
+	.cs_vaccine_info .patients_map .inner_box .local_info .local_name {
+		color: #fff;
+	}
+	
+	.cs_vaccine_info .city_info_box .city_title {
+		color: #fff;
+	}
+	
+	.cs_vaccine_info .city_info_box .city_stage::before {
+		background-color: #404040;
+	}
+	
+	.cs_vaccine_info .patients_map .inner_box .local_info.-selected {
+		background-color: #366EFF;
+		box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.5);
+	}
+	
+	.cs_vaccine_info .city_info_box .city_desc {
+		color: #cacaca;
+	}
+	
+	.cs_vaccine_info .csp_layer_info {
+		background-color: #3a3a3a;
+		color: #cacaca;
+		border: 1px solid #4f4f4f;
+	}
+	
+	.cs_vaccine_info .confirmed_graph, .cs_vaccine_info .confirmed_status {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_vaccine_info .turnout_graph .legend_list {
+		border: 1px solid #404040;
+	}
+	
+	.cs_vaccine_info .turnout_graph .legend_item {
+		color: #cacaca;
+	}
+	
+	.cs_vaccine_info .graph .column.-point .x_axis_value {
+		color: #fff;
+	}
+	
+	.cs_vaccine_info .graph .column .x_axis_value {
+		color: #cacaca;
+	}
+	
+	.cs_vaccine_info .graph .grid div {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_vaccine_info .graph .grid div:last-child {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_vaccine_info .graph .column.-point:after {
+		background: #5a5a5a;
+	}
+	
+	.cs_vaccine_info .turnout_cont .graph .tooltip_area ~ .data_content .column.-point:before {
+		background: #3a3a3a;
+		border-right: 1px solid #4f4f4f;
+		border-bottom: 1px solid #4f4f4f;
+	}
+	
+	.cs_vaccine_info .graph .tooltip_area .data_info {
+		background: #3a3a3a;
+		border: 1px solid #4f4f4f;
+	}
+	
+	.cs_vaccine_info .graph .tooltip_area .date {
+		color: #fff;
+	}
+	
+	.cs_vaccine_info .title_area + .vaccine_info_box .status_info {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_vaccine_info .status_info ul li + li {
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_vaccine_info .confirmed_status.new .patients_status .ps_title .ps_name {
+		color: #fff;
+	}
+	
+	.cs_vaccine_info .confirmed_status.new .graph .grid div {
+		border-color: #404040;
+	}
+	
+	.cs_vaccine_info .confirmed_status.new .graph .column.-point .x_axis_value {
+		color: #fff;
+	}
+	
+	.cs_vaccine_info .confirmed_status.new .graph .x_axis_value {
+		color: #cacaca;
+	}
+	
+	.cs_vaccine_info .confirmed_status.new .button_graph {
+		filter: invert(86%) hue-rotate(-180deg) brightness(400%);
+	}
+	
+	.cs_vaccine_info .confirmed_status.new .info_layer {
+		box-shadow: 0 2px 4px 0 rgba(159, 159, 159, 0.5);
+	}
+	
+	.cs_vaccine_info .confirmed_status.new .patients_status .ps_term {
+		color: #cacaca;
+	}
+	
+	.cs_vaccine_info .title_area .select_tab select {
+		color: #cacaca;
+		background: #3a3a3a;
+	}
+	
+	.cs_vaccine_info .nation_table table thead th {
+		border: 1px solid #404040;
+		border-width: 1px 0;
+		background-color: #3a3a3a;
+	}
+	
+	.cs_vaccine_info .nation_table table thead th:nth-of-type(2) {
+		background-color: #404040;
+	}
+	
+	.cs_vaccine_info .nation_table table tbody td {
+		color: #cacaca;
+	}
+	
+	.cs_vaccine_info .nation_table table tbody tr {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_vaccine_info .nation_table table tbody td:nth-of-type(2) {
+		background-color: #3a3a3a;
+	}
+	
+	.cs_vaccine_info .csp_paging_area .csp_pgs .csp_npgs {
+		color: #fff;
+	}
+	
+	.cs_vaccine_info .csp_paging_area .csp_pgs .csp_npgs_now:after {
+		color: #4f4f4f;
+	}
+	
+	.cs_vaccine_info .vaccination_area .table_area {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_vaccine_info .vaccination_area .table_area .pt_table tbody .vaccine_target {
+		color: #fff;
+	}
+	
+	.cs_vaccine_info .vaccination_area .table_area .pt_table tbody .vaccine_info .info_sub {
+		color: #cacaca;
+	}
+	
+	.cs_vaccine_info .vaccination_area .table_area .pt_table .text_wrap:before {
+		background-color: #404040;
+	}
+	
+	.cs_production_type .select_tab select {
+		color: #cacaca;
+	}
+	
+	.cs_production_type .status_info.abroad_info {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_production_type .status_info.abroad_info .info_04 .info_title, .cs_production_type .status_info.abroad_info .info_04 .info_num, .cs_production_type .status_info.abroad_info .info_04 .info_variation {
+		color: #999;
+	}
+	
+	.cs_production_type .status_info.abroad_info ul li + li {
+		border-color: #404040;
+	}
+	
+	.cs_production_type .csp_info_area .info_list .term {
+		color: #fff;
+	}
+	
+	.cs_production_type .confirmed_graph, .cs_production_type .confirmed_status {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_production_type .graph .column.-point:after {
+		background: #5a5a5a;
+	}
+	
+	.cs_production_type .turnout_cont .graph .tooltip_area ~ .data_content .column.-point:before {
+		background: #3a3a3a;
+		border-right: 1px solid #4f4f4f;
+		border-bottom: 1px solid #4f4f4f;
+	}
+	
+	.cs_production_type .graph .tooltip_area .data_info {
+		background: #3a3a3a;
+		border: 1px solid #4f4f4f;
+	}
+	
+	.cs_production_type .graph .tooltip_area .date {
+		color: #fff;
+	}
+	
+	.sp_nreview .total_tit, .sp_nreview .total_link_area .link, .sp_ntotal .total_tit .link_tit, .sp_nbook .book_info .title_area, .sp_nbook .list_info a.item_info, .sp_nvideo .video_default_list .video_bx .info_area .info_title, .go_relate a, .sp_ntotal .group_item .list_item .item a, .sp_nvideo .video_scroll_list .info_area .info_title, ._3tIZ6 ._2LKql ._3CKdL, .sp_nvideo .video_square_list .square_wrap .info_area .info_title, .sp_nrealtime .nrealtime_list .nrealtime_item .item_info .desc_tit, .sp_nblog .total_tit, .sp_ncafe .total_tit, .sp_nsite .link_name, .sp_nsite .sublink_wrap .sublink .item a, .cs_produce a, .cs_produce .prcs_detail h4 a, .ad_section .lst_type .lst .lnk_tit, .ad_section .lst_type .lst.type_subtitle .sub_tit, .api_ly_info .link, .ad_section .lst_type .lst.ext_price .lst_price .txt_inner, .ad_section .lst_type .lst.ext_link .lst_link .item .link, .sp_ndicstudy .word_lst .word, .sp_nrealtime .api_title .btn_new, .sp_ndic .dic_more .dic_link, .sp_ndic .dic_more_link .count, .sp_ndic .other_list .other_list_link, .sp_ndic .info_list a, .sp_ndic .dic_area .link_more, .sp_ndic .class_area .info_box .title, .cs_sign .tx_info.line_type a, .sp_mobile .app_eachlist a.store_wrap, .cs_newest .sct_content li .scm_ellipsis_text a, .cs_seasonal_divisions .prcs_detail h4 a, .cs_common_module a, .cs_common_module .expand_info .text_wrap a, .cs_common_module .notice_info_area a, .cs_common_module .cm_table_area .type_normal .cm_table tbody th a, .cs_sports_team a, .cs_sports_team .prcs_guide .nologo a, .cs_sports_team .prcs_guide .nologo2 a, .cs_sports_team .prcs_guide .nologo .txt, .cs_sports_team .prcs_guide .nologo2 .txt, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td .nation_name, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td.top3 p a, .cs_olympic_history .team_area .line li .player_detail dt a, .sp_ntotal .dsc_alert .link_help, .cs_production_type .csp_table_area table td a {
+		color: #688cda;
+	}
+	
+	.sp_nnews .news_wrap .news_tit:visited, .sp_nnews .news_wrap .news_tit:visited mark, .sp_nnews .api_title_sub .sub_link:visited, .sp_nnews .news_cluster .sub_tit:visited, .sp_nnews .news_cluster .sub_tit:visited mark, .sp_nnews .news_wrap:visited .news_tit .tit, .sp_nnews .news_wrap:visited .news_tit .tit mark, .sp_nreview .total_tit:visited, .sp_nreview .total_tit:visited mark, .sp_nreview .total_link_area .link:visited, .sp_nreview .total_link_area .link:visited mark, .sp_ntotal .total_tit .link_tit:visited, .sp_ntotal .total_tit .link_tit:visited mark, .sp_nvideo .video_default_list .video_bx .info_area .info_title:visited, .sp_nvideo .video_default_list .video_bx .info_area .info_title:visited mark, .sp_ntotal .group_item .list_item .item a:visited, .sp_ntotal .group_item .list_item .item a:visited mark, .sp_nvideo .video_scroll_list .info_area .info_title:visited, .sp_nvideo .video_scroll_list .info_area .info_title:visited mark, .sp_nkin .cluster_item:visited, .sp_nrealtime .info_desc .desc_link:visited, .sp_nrealtime .info_desc .desc_tit:visited, .sp_nrealtime .info_desc:visited .desc_tit, .sp_nrealtime .profile_link:visited .explain_tit, .sp_nblog .total_tit:visited, .sp_nblog .total_tit:visited mark, .sp_ncafe .total_tit:visited, .sp_ncafe .total_tit:visited mark, .sp_nsite .link_name:visited, .sp_nsite .link_name:visited mark, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark, .sp_nkin .kin_wrap .question_area .question_text:visited, .cs_produce .prcs_detail h4 a:visited, .cs_produce a:visited, .ad_section .lst_type .lst .lnk_tit:visited, .ad_section .lst_type .lst.type_subtitle .sub_tit:visited, .sp_company .company_more .more_info .api_ly_info .link:visited, .ad_section .lst_type .lst.ext_price .lst_price .txt_inner:visited, .ad_section .lst_type .lst.ext_link .lst_link .item .link:visited, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark {
+		color: #cc90cd;
+	}
+	
+	.sp_nsite .link_name:visited, .sp_nsite .link_name:visited mark, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark, .sp_ntotal .total_tit .link_tit:visited, .sp_ntotal .total_tit .link_tit:visited mark, .sp_ntotal .group_item .list_item .item a:visited, .sp_ntotal .group_item .list_item .item a:visited mark, .sp_ndicstudy .word_lst .word:visited, .api_subject_bx .api_title_area .api_title a:visited, .sp_nreview .total_tit:visited, .sp_nreview .total_tit:visited mark, .sp_nnews .news_wrap .news_tit:visited, .sp_nnews .news_wrap .news_tit:visited mark, .sp_ncafe_used .used_wrap .title:visited, .cs_common_module a:visited, .cs_common_module .expand_info .text_wrap a:visited, .cs_common_module .cm_table_area .type_normal .cm_table tbody th a:visited, .cs_sports_team a:visited, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td .nation_name:visited, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td.top3 p a:visited, .cs_olympic_history .team_area .line li .player_detail dt a:visited {
+		color: #cc90cd;
+	}
+	
+	.cs_vaccine_info .vaccination_status_map .inner_box path {
+		stroke: #404040 !important;
+	}
+	
+	.cs_vaccine_info .patients_map:after {
+		border-bottom: 1px solid #404040;
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_vaccine_info .vaccination_area .vaccine_tab {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_vaccine_info .vaccination_area .vaccine_tab .tab .menu {
+		border: 1px solid #404040;
+		background-color: #3a3a3a;
+		color: #cacaca;
+	}
+	
+	.cs_vaccine_info .vaccination_area .vaccine_item .vaccine_info_wrap {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_vaccine_info .vaccination_area .vaccine_item .inoculate_info, .cs_vaccine_info .vaccination_area .vaccine_item .store_info {
+		color: #fff;
+	}
+	
+	.cs_vaccine_info .vaccination_area .vaccine_item .normal_title {
+		color: #fff;
+	}
+	
+	.cs_vaccine_info .vaccination_area .vaccine_item .inoculate_title, .cs_vaccine_info .vaccination_area .vaccine_item .store_title {
+		color: #cacaca;
+	}
+	
+	.cs_vaccine_info .vaccination_area .vaccine_item .inoculate_title:before, .cs_vaccine_info .vaccination_area .vaccine_item .store_title:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_vaccine_info .vaccination_area .vaccine_item .vaccine_name_eng {
+		color: #cacaca;
 	}
 }
 

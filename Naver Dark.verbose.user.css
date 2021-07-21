@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.777
+@version		1.48.778
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -32744,6 +32744,14 @@
 	.article_changecmt .changecmt_info_txt {
 		color: #cacaca;
 	}
+	
+	#cbox_module .u_cbox_recomm_set .u_cbox_ico_recomm, #cbox_module .u_cbox_recomm_set .u_cbox_ico_unrecomm, .u_cbox .u_cbox_work_sub .u_cbox_ico_open {
+		filter: brightness(1000%);
+	}
+	
+	#cbox_module .u_cbox_recomm_set .u_cbox_cnt_recomm, #cbox_module .u_cbox_recomm_set .u_cbox_cnt_unrecomm {
+		color: #cacaca;
+	}
 }
 
 @-moz-document url-prefix("https://news.naver.com/main/tool/print.nhn"), url-prefix("https://news.naver.com/main/tool/print.naver")
@@ -64948,5 +64956,60 @@
 	
 	.detail_notice .heading_detail_notice .title {
 		color: #fff;
+	}
+}
+
+@-moz-document url-prefix("https://www.naver.com/notfound.html")
+{
+	body {
+		background: #242424;
+	}
+	
+	#wrap #header a img[src*='err'] {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	#header .menu a {
+		color: #cacaca;
+	}
+	
+	#header .menu {
+		color: #404040;
+	}
+	
+	#wrap {
+		background: none;
+		position: relative;
+	}
+	
+	#wrap:before {
+		background: url(https://s.pstatic.net/static/w8/err/bg_naver.gif) no-repeat 100% 109px;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		filter: invert(85.5%) hue-rotate(-180deg);
+		pointer-events: none;
+		z-index: -1;
+	}
+	
+	#container h2, #header .menu {
+		font-family: 'Helvetica', 'serif';
+	}
+	
+	#footer address img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.box_window {
+		background-color: #242424;
+	}
+	
+	.btn_window {
+		filter: invert(86%) hue-rotate(-180deg);
+		border: none;
+		background: none;
 	}
 }

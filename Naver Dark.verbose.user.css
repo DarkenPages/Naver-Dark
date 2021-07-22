@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.779
+@version		1.48.780
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -55896,6 +55896,116 @@
 	.gnb_area .logo:before {
 		filter: invert(100%) hue-rotate(-180deg);
 	}
+	
+	.notify_area .link_notify {
+		border: 1px solid #64879d;
+		background: #52585c;
+	}
+	
+	.notify_area .link_flash {
+		border: 1px solid #864e4a;
+		background: #463a38;
+	}
+	
+	.notify_area .text {
+		color: #cacaca;
+	}
+	
+	.card_dust .chart_tablist {
+		background: #3a3a3a;
+	}
+	
+	.card_dust .chart_tab {
+		color: #cacaca;
+	}
+	
+	.card_dust .forecast_time .time.now {
+		color: #fff;
+	}
+	
+	.card_dust .forecast_time .time.now::after {
+		background: #fff;
+	}
+	
+	.card_dust .forecast_time .time {
+		color: #cacaca;
+	}
+	
+	.card_dust .offer_area {
+		color: #cacaca;
+	}
+	
+	.card_dust .offer_area .text::after {
+		background: #4f4f4f;
+	}
+	
+	.card_dust .summary_group .ico_help, .card_dust .chart_value .ico_help {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.card_dust .dust_summary .ly_help .dust_level_item .ttl_level {
+		color: #fff;
+	}
+	
+	.card_dust .dust_summary .ly_help .ly_link_area {
+		border-top: 1px solid #404040;
+	}
+	
+	.card_dust .dust_summary .ly_help .summary_list+.figure_dsc {
+		border-top: 1px solid #404040;
+	}
+	
+	.card_dust .chart_update .time, .card_dust .chart_update .station {
+		color: #cacaca;
+	}
+	
+	.card_dust .chart_update .station_level1::before {
+		border: 1px solid #cacaca;
+		color: #cacaca;
+	}
+	
+	.ly_help .item_level .limit {
+		color: #fff;
+	}
+	
+	.card_dust .forecast_daily .date.today {
+		color: #fff;
+	}
+	
+	.card_dust .forecast_daily .date.today::after {
+		background: #fff;
+	}
+	
+	.card_dust .forecast_daily .date {
+		color: #cacaca;
+	}
+	
+	.card_dust .statistics_data {
+		background: linear-gradient(to bottom,rgba(0,0,0,.05) 1px,#242424 1px,#242424 25px);
+	}
+	
+	.chart_list .chart_ttl .ico_help {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.card_map .local_map > div > div, .card_map .nation_map {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	@media (min-width: 1025px) {
+		#container.is_image .offer_area_wrap {
+			border: 1px solid #404040;
+			border-top: 0;
+		}
+	}
+	
+	#container.is_image .offer_area_wrap {
+		background-color: #2f2f2f;
+	}
+	
+	.offer_area {
+		color: #cacaca;
+	}
 }
 
 @-moz-document url-prefix("https://cafe.poll.naver.com"), url-prefix("https://blog.poll.naver.com")
@@ -65396,4 +65506,45 @@
 		border: none;
 		background: none;
 	}
+}
+
+@-moz-document url-prefix("https://papago.naver.com"), url-prefix("https://papago.naver.net")
+{
+	/*[class*='global_login_mobile___'], [class*='global_login_wrap___'] {*/
+	/*	background: #242424;*/
+	/*}*/
+	
+	/*[class*='wrap___'] {*/
+	/*	background-color: #242424;*/
+	/*}*/
+	
+	/*[class*='header___'], [class*='header___'] [class*='header_inner___'] {*/
+	/*	background-color: #242424;*/
+	/*}*/
+	
+	/*[class*='gnb_menu___'] li a {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*[class*='gnb_menu___'] li:nth-child(2):after {*/
+	/*	background: #404040;*/
+	/*}*/
+	
+	/*[class~='tip___'] {*/
+	/*	background: #2f2f2f;*/
+	/*	border: 1px solid #404040;*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*[class*='btn_save_wrap___'] [class*='tip___']:after, [class*='btn_setting_wrap___'] [class*='tip___']:after, [class*='btn_window_wrap___'] [class*='tip___']:after {*/
+	/*	filter: invert(81.5%) hue-rotate(-180deg);*/
+	/*}*/
+	
+	/*button {*/
+	/*	background-color: #242424;*/
+	/*}*/
+	
+	/*[class*='btn_window___'] {*/
+	/*	filter: invert(86%) hue-rotate(-180deg);*/
+	/*}*/
 }

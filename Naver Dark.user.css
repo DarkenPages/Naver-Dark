@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.782
+@version		1.48.783
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -3524,7 +3524,7 @@
 }
 @-moz-document url-prefix("https://noti.naver.com"), url-prefix("https://myfeed.naver.com"), url-prefix("https://me.naver.com/tab/news.nhn"), url-prefix("https://me.naver.com") {
     .con_desc .frm_svc span { color: #cacaca;border-left: 1px solid #404040 }
-    .con_desc .lst_type1 .thumbs_tx a,.control_box.alarm .svc_symb em,.rgt_zone .result_list li a,.footer_contents p,.lft_zone .svc_name .subscribe_list ul > li a,.lft_zone .svc_name .svc_list ul > li a,.loading_tx p,.no_result .result_con { color: #cacaca }
+    .con_desc .lst_type1 .thumbs_tx a,.con_desc .lst_type2 .rgt_dsc .fd_cont a,.control_box.alarm .svc_symb em,.rgt_zone .result_list li a,.footer_contents p,.lft_zone .svc_name .subscribe_list ul > li a,.lft_zone .svc_name .svc_list ul > li a,.loading_tx p,.no_result .result_con { color: #cacaca }
     .control_box.alarm .lft_zone .svc_name span strong,.envmt_cont .control_box h4,.footer_contents p a,.lft_area h3 a,.no_result .h_no_result,.lft_zone .svc_name span.on strong,.rgt_zone .ctrl_delegate .lst_option label,.rgt_zone .ctrl_delegate .lst_option2 label,.lst_obj .con_desc h4 a,.snb > li a { color: #fff }
     .control_box.alarm .rgt_zone .result_list ul > li { border-top: 1px solid #404040 }
     .control_box.alarm .rgt_zone .result_list ul,.lft_area h3,.lft_zone .svc_name .subscribe_list ul > li,.lft_zone .svc_name .svc_list ul > li { border-bottom: 1px solid #404040 }

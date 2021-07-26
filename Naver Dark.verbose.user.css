@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.784
+@version		1.48.787
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -12436,6 +12436,10 @@
 
 @-moz-document url-prefix("https://talk.cafe.naver.com")
 {
+	body {
+		color: #fff;
+	}
+	
 	html, head {
 		background: #242424;
 	}
@@ -12500,10 +12504,6 @@
 		background-color: #242424;
 	}
 	
-	.channel_mycafe .mycafe_mychat {
-		border-top: 6px solid #404040;
-	}
-	
 	.list_chatting .box_empt:after {
 		background-color: #404040;
 	}
@@ -12525,11 +12525,6 @@
 	
 	.box_chat .frame_sticker, .box_chat .list_sticker {
 		background-color: #242424;
-		border-top: 1px solid #404040;
-	}
-	
-	.list_talk .more_set .link {
-		color: #cacaca;
 		border-top: 1px solid #404040;
 	}
 	
@@ -12607,11 +12602,11 @@
 		border: 1px solid #404040;
 	}
 	
-	.header .info_add .link+.link, .setting_layer .cafe_box .setting_list, .list_chatting .more_chatting .link, .dimmed_layer .list_set li {
+	.header .info_add .link+.link, .setting_layer .cafe_box .setting_list, .dimmed_layer .list_set li {
 		border-top: 1px solid #404040;
 	}
 	
-	.setting_layer .inner_layer, .cafe_layer .inner_layer, .set_member_layer .box_search.on .box_inp, .set_member_layer .box_search .btn_reset, .set_member_layer .box_member, .set_member_layer .box_fixed, .menu_chat .menu_right, .menu_chat .tit_member, .dimmed_layer .inner_layer, .box_chat .box_sticker .link_page, .talk_write .frame_msg .inner, .layer_more, .talk_write .frame_sticker, .talk_write .box_sticker .link_page, .set_member_layer .empty_member {
+	.setting_layer .inner_layer, .cafe_layer .inner_layer, .set_member_layer .box_search.on .box_inp, .set_member_layer .box_search .btn_reset, .set_member_layer .box_member, .set_member_layer .box_fixed, .menu_chat .menu_right, .menu_chat .tit_member, .dimmed_layer .inner_layer, .box_chat .box_sticker .link_page, .talk_write .frame_msg .inner, .talk_write .frame_sticker, .talk_write .box_sticker .link_page, .set_member_layer .empty_member {
 		background-color: #242424;
 	}
 	
@@ -12647,6 +12642,95 @@
 	
 	.talk_write .box_sticker .link_next, .menu_chat .menu_btns .link_menu+.link_menu {
 		border-left: 1px solid #404040;
+	}
+	
+	.channel_request .link_join {
+		color: #cacaca;
+	}
+	
+	.set_layer .gread_check {
+		color: #cacaca;
+	}
+	
+	.talk_header .link_prev .ico_chat {
+		filter: brightness(0);
+	}
+	
+	.layer_talk_notice .notice_box {
+		background: #2f2f2f;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.layer_talk_notice .notice_box .btn_area .btn {
+		color: #cacaca;
+	}
+	
+	.layer_talk_notice .notice_box .btn_area .btn+.btn {
+		border-left: 1px solid #404040;
+	}
+	
+	.layer_talk_notice .notice_box .btn_area {
+		background: #2f2f2f;
+		border-top: 1px solid #404040;
+	}
+	
+	.layer_talk_notice .notice_box .message_area .msg_info .txt {
+		color: #cacaca;
+	}
+	
+	.list_chatting .more_chatting .ico_more {
+		filter: none;
+	}
+	
+	.layer_alert .inner {
+		background-color: #2f2f2f;
+	}
+	
+	.layer_alert .txt {
+		background-color: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.cont_channel .filter_trade_text {
+		color: #fff;
+	}
+	
+	.cont_channel .filter_trade_input:not(:checked)+.filter_trade_input_label:before {
+		border: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	.cont_channel .filter_trade_input_label:before {
+		border: 1px solid transparent;
+		background-color: #242424;
+	}
+	
+	.list_chatting .chat_name .icon_trade {
+		background-color: #3a3a3a;
+	}
+	
+	.layer_more {
+		background-color: #2f2f2f;
+	}
+	
+	.list_chatting .info_etc .chat_new {
+		color: #242424;
+	}
+	
+	.list_chatting .info_etc .chat_time {
+		color: #cacaca;
+	}
+	
+	.list_talk .more_set .ico_more {
+		filter: none;
+	}
+	
+	.list_talk .etc .desc {
+		color: #cacaca;
+	}
+	
+	.LayerPopup {
+		background-color: #2f2f2f !important;
 	}
 }
 
@@ -13763,6 +13847,83 @@
 	
 	.skin-1080 .box_notice {
 		background-color: #2f2f2f;
+	}
+	
+	.cc_layer_mynews {
+		background: #2f2f2f;
+		color: #cacaca;
+		border: 1px solid #404040;
+	}
+	
+	.cc_layer_mynews .cc_mynews_header {
+		background: #2f2f2f;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cc_layer_mynews .cc_mynews_header .title {
+		color: #fff;
+	}
+	
+	.cc_layer_mynews .cc_mynews_list .cc_mynews_notice {
+		background-color: #3f424a;
+	}
+	
+	.cc_layer_mynews .cc_mynews_list .cc_mynews_notice .notice_txt {
+		color: #fff;
+	}
+	
+	.cc_layer_mynews .cc_mynews_list .cc_mynews_notice .icon_option {
+		filter: invert(86%) hue-rotate(-180deg) brightness(1000%);
+	}
+	
+	.cc_layer_mynews .cc_mynews_list li {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cc_layer_mynews .cc_mynews_list .info_top .box {
+		color: #fff;
+	}
+	
+	.cc_layer_mynews .cc_mynews_list .info_title {
+		color: #cacaca;
+	}
+	
+	.cc_layer_mynews .cc_mynews_option_layer {
+		border: 1px solid #404040;
+		background-color: #3a3a3a;
+	}
+	
+	.cc_layer_mynews .cc_mynews_option_layer .link {
+		color: #cacaca !important;
+	}
+	
+	.cc_layer_mynews .cc_mynews_option_layer .link {
+		border-top: 1px solid #4f4f4f;
+		color: #cacaca !important;
+	}
+	
+	#naver-gnb #gnb-menu .mynews-cafe.on:before {
+		border-bottom-color: #404040;
+	}
+	
+	#naver-gnb #gnb-menu .mynews-cafe.on:after {
+		border-bottom-color: #2f2f2f;
+	}
+	
+	.cc_layer_mynews .cc_mynews_list .cc_mynews_info {
+		color: #fff;
+	}
+	
+	.cc_layer_mynews .cc_mynews_list .info_txt {
+		color: #cacaca;
+	}
+	
+	.cc_layer_mynews .cc_mynews_list .info_top .count {
+		color: #fff;
+	}
+	
+	.cc_layer_mynews .cc_mynews_list li.unread {
+		background: #38403b;
 	}
 }
 
@@ -38245,6 +38406,27 @@
 	.post-btn .wrap_postcomment .area_comment.pcol3 .aline, .post-btn .wrap_postcomment .area_sympathy.pcol3 .aline {
 		opacity: 0.3;
 	}
+	
+	.addfile_layer .layer_contents {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.addfile_layer .addfile_opt a {
+		color: #cacaca;
+	}
+	
+	.addfile_layer .clse img {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.addfile_layer .addfile_opt em {
+		color: #4f4f4f;
+	}
+	
+	.addfile_layer li img {
+		border-radius: 2px;
+	}
 }
 
 @-moz-document url-prefix("https://blog.naver.com/SympathyHistoryList.nhn"), url-prefix("http://blog.naver.com/SympathyHistoryList.nhn")
@@ -45996,7 +46178,7 @@
 	}
 }
 
-@-moz-document url-prefix("https://blog.naver.com/PostView.nhn"), url-prefix("http://blog.naver.com/PostView.nhn")
+@-moz-document url-prefix("https://blog.naver.com/PostView.nhn"), url-prefix("http://blog.naver.com/PostView.nhn"), url-prefix("https://blog.naver.com/PostView.naver"), url-prefix("http://blog.naver.com/PostView.naver")
 {
 	.og {
 		box-shadow: none;

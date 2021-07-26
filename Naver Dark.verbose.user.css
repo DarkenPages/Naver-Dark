@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.790
+@version		1.48.791
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -17016,15 +17016,6 @@
 		filter: invert(0%) !important;
 	}
 	
-	.sp_naver, .sp_sv {
-		filter: invert(0%);
-		color: #242424 !important;
-	}
-	
-	.header {
-		background-color: #019341;
-	}
-	
 	#footer ul li {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
@@ -17043,6 +17034,50 @@
 	
 	#footer .info {
 		margin-top: 20px;
+	}
+	
+	body, .wrap {
+		background: #242424;
+	}
+	
+	a, a:link {
+		color: #cacaca;
+	}
+	
+	a:visited {
+		color: #fff;
+	}
+	
+	.svl {
+		border-left: 1px solid #404040;
+	}
+	
+	.sv_wrap {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.snb_wrap, .snb {
+		background-color: #2f2f2f;
+	}
+	
+	.snbsv_tit {
+		color: #fff;
+	}
+	
+	.snbsvl {
+		border-left: 1px solid #404040;
+	}
+	
+	.svlst_tit {
+		color: #fff;
+	}
+	
+	.sp_ico_arrow {
+		filter: invert(83.5%) hue-rotate(-180deg);
+	}
+	
+	address .spsv_naver2 {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 }
 

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.790
+@version		1.48.791
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -5082,13 +5082,16 @@
 }
 @-moz-document url-prefix("https://www.naver.com/more.html") {
     .gnb_notice_li a.gnb_notice .gnb_icon,.gnb_service_li a.gnb_service .gnb_icon,.mail_li a.gnb_mail .gnb_icon { filter: invert(0%) !important }
-    .header { background-color: #019341 }
-    .sp_naver,.sp_sv { filter: invert(0%);color: #242424 !important }
+    .snb,.snb_wrap { background-color: #2f2f2f }
+    .snbsv_tit,.svlst_tit,#footer address a,a:visited { color: #fff }
+    .snbsvl,.svl { border-left: 1px solid #404040 }
+    .sp_ico_arrow { filter: invert(83.5%) hue-rotate(-180deg) }
+    .sv_wrap { border-bottom: 1px solid #404040 }
+    .wrap,body { background: #242424 }
     #footer .info { margin-top: 20px }
     #footer * { color: #242424 }
-    #footer address { color: #cacaca }
-    #footer address a { color: #fff }
-    #footer ul li { filter: invert(86%) hue-rotate(-180deg) }
+    #footer address,a,a:link { color: #cacaca }
+    #footer ul li,address .spsv_naver2 { filter: invert(86%) hue-rotate(-180deg) }
 }
 @-moz-document url-prefix("https://www.naver.com/my.html") {
     .flex_list .item_flex+.item_flex:before,.list_thumb .dsc_wrap .dsc+.dsc:before,.list_memo .dsc_date:before,.service_header .title_area .title_tab+.title_tab:before,.list_timeline .dsc_time:before,.sc_user .info_area .user_info .link_my:before,.service_header .func_area .func+.func:before { background-color: #404040 }

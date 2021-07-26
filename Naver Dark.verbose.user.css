@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.780
+@version		1.48.781
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -22772,6 +22772,42 @@
 	
 	.error_page .btns .bt {
 		background: #3a3a3a;
+		color: #cacaca;
+	}
+	
+	.home_live_box .live_box_card .general_info .main_title, .home_live_box .live_box_card .general_info .sub_title {
+		color: #cacaca;
+	}
+	
+	.aside_creator .link_creator .text_area .title, .aside_creator .link_creator:visited {
+		color: #cacaca;
+	}
+	
+	.aside_creator .creator_item {
+		border-top: 1px solid #404040;
+	}
+	
+	.main_wrap .shopping_section .link_shopping {
+		color: #fff;
+	}
+	
+	.main_wrap .shopping_section .link_shopping .title {
+		color: #fff;
+	}
+	
+	.aside_creator .pagination .button_prev, .aside_creator .pagination .button_next {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.reporter_morenews .link_morenews, .promotion .link_promotion {
+		color: #cacaca;
+	}
+	
+	.aside_rank_player .list .rank_num {
+		color: #fff;
+	}
+	
+	.hmb_tab .inner a {
 		color: #cacaca;
 	}
 }

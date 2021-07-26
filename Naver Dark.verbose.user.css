@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.783
+@version		1.48.784
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -23429,6 +23429,10 @@
 	
 	.con_desc .lst_type2 .rgt_dsc .fd_cont a {
 		color: #cacaca;
+	}
+	
+	.nlst_checked dt, .nlst_checked strong, .nlst_checked a, .nlst_checked em, .tx_tooltip .bubble_content .from_obj dd a, .tx_tooltip .bubble_content .from_obj dd {
+		color: #fff !important;
 	}
 }
 

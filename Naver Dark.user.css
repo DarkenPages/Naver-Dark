@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.788
+@version		1.48.789
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -141,12 +141,12 @@
     .gnb_notice_li .svc_blank .gnb_desc,.gnb_notice_li .svc_blank .gnb_tit,#gnb,#gnb .gnb_my_li .gnb_my_community a:visited,.gnb_notice_li .gnb_notice_all:visited,.gnb_svc_more .svc_btns:visited,a.gnb_service_all:visited,#gnb a,#gnb a:hover,.gnb_my_li .gnb_my_content .gnb_name,#gnb a,#gnb a:visited,a.gnb_my .gnb_name { color: #cacaca }
     .gnb_notice_li .svc_blank .gnb_tit img { filter: invert(81.5%) hue-rotate(-180deg) }
     .gnb_notice_li .svc_list .gnb_new { background: #404040 }
-    .gnb_notice_li .svc_list .gnb_unread .gnb_subject,.gnb_notice_li .svc_list .gnb_unread .svc_name { color: #fff }
+    .gnb_notice_li .svc_list .gnb_unread .gnb_subject,.gnb_notice_li .svc_list .gnb_unread .svc_name,.mailList .mTitle a { color: #fff }
     .gnb_notice_li .svc_list li,a.gnb_service_all { border-top: 1px solid #404040 }
     .gnb_notice_li .svc_panel,.gnb_notice_li .svc_scroll { box-shadow: 0 1px 7px 0 black;background: #2f2f2f }
     .gnb_pop_input .gnb_pop_lst li a { color: #444 !important }
     .gnb_search_area { padding: 18px 0 17px;margin: 0 4px 0;background: #2f2f2f }
-    .gnb_search_box input { background: transparent }
+    .gnb_search_box input { background: transparent !important }
     .gnb_search_lstwrp { padding-left: 3px }
     .gnb_search_lstwrp .gnb_search_lst { border-left: 1px solid #404040 }
     .gnb_service_li .ico_arrow { z-index: 99;top: 28px }
@@ -2825,7 +2825,7 @@
     .box_ext_reg table .slct_type span.type_naver label:after { width: 61px;top: 3px;position: absolute;height: 15px;content: '';background: url(https://ssl.pstatic.net/sstatic/search/pc/img/sp_svg_common_240dccc4.svg), none;background-size: 136px 104px;background-position: -4px 1px }
     .box_ext_reg table .slct_type span.type_yahoo label:after { width: 60px;top: 0px;position: absolute;height: 21px;filter: invert(86%) hue-rotate(-180deg);content: '';background: url(https://upload.wikimedia.org/wikipedia/commons/3/3a/Yahoo%21_%282019%29.svg), none;background-size: 60px 21px;background-position: 0 0 }
     .box_notice input,.box_notice label,.cleanup_mail_new .cleanup_list_body li,.cleanup_mail_new .cleanup_list_new .cleanup_list_head li,.description,.setup_content .chk_all label,.slct_mailbox .chk_all label,.dh_layer .type_c .smart_mbox_ok .info2,.form_content .manage_sign p.desc,.form_ul1 .form_content .desc2,.info_mailbox td.box_btn button,.ly_tooltip .tip_extmail dd,.ly_tooltip .tip_extmail dt,.manage_sign button.posr,.noImgs a.normal_text,.spam_reason dd,.smart_mail_cover .intro_smart_mail .text,.smart_mail_cover .set_smart_mail .btn_setting .text,#footer .quick_link a,#footer .quick_tools a,#footer address,.mailList ul.mInfo li,.mailListHead .noReadDel,.notify_area .notice a,#footer .quick_tools a,#footer .quick_tools em,#nav_snb.show_faq_banner .faq_cover a,.info_wrap .tip a,.mailListHead .back_home,.note_message p,.subtitle span.desc,.tt_list li { color: #cacaca }
-    .clean_oldmail .oldmail_mbox .tit,.clean_oldmail h5,.dh_layer .info3,.form_ul1 .form_content .desc2 a,.ly_tooltip .ly_header .h_tit,.mail_ext tbody a,.mail_ext tbody th,.setup_layer .modifyName th,.tb_ext_list table tbody td a,.tt_list li strong { color: #fff }
+    .clean_oldmail .oldmail_mbox .tit,.clean_oldmail h5,.dh_layer .info3,.form_ul1 .form_content .desc2 a,.ly_tooltip .ly_header .h_tit,.mail_ext tbody a,.mail_ext tbody th,.searchLayer a,.setup_layer .modifyName th,.tb_ext_list table tbody td a,.tt_list li strong { color: #fff }
     .clean_oldmail .oldmail_period,.cleanup_tab,.cont_flex_setup,.ly_tooltip .ly_header,.mail_ext,.mail_ext tbody td,.tb_ext_list table tbody td { border-bottom: 1px solid #404040 }
     .cleanup_list_body li,.cleanup_mail_new .cleanup_list_head { border: 1px solid #404040;border-bottom: 0 }
     .cleanup_mail_new .cleanup_list_body,.edit_reply_cover,.missed_msg textarea,.mail_ext_wrap,.setup_layer .modifyName td input,#nav_snb.show_faq_banner .faq_cover { border: 1px solid #404040 }

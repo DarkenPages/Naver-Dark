@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.788
+@version		1.48.789
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -2510,6 +2510,10 @@
 	
 	.noImgs a.normal_text, .spam_reason dd {
 		color: #cacaca;
+	}
+	
+	.searchLayer a {
+		color: #fff;
 	}
 }
 
@@ -30403,7 +30407,7 @@
 	}
 	
 	.gnb_search_box input {
-		background: transparent;
+		background: transparent !important;
 	}
 	
 	#gnb.gnb_one .gnb_my_li .ico_arrow, #gnb.gnb_one .ico_arrow, .gnb_bg_top, .gnb_svc_more .gnb_svc_hd, .gnb_svc_more .gnb_svc_lstwrp, .gnb_svc_more .svc_btnwrp, .gnb_bg_btm {
@@ -30467,6 +30471,10 @@
 	
 	.gnb_notice_li .svc_blank .gnb_desc {
 		color: #cacaca;
+	}
+	
+	.mailList .mTitle a {
+		color: #fff;
 	}
 }
 

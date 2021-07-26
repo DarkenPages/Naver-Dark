@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.781
+@version		1.48.782
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -2909,6 +2909,15 @@
     .preview .content01 a { color: #cacaca }
     body { font-family: "Helvetica";background: #242424 }
 }
+@-moz-document url-prefix("https://myfeed.naver.com/main/notice"), url-prefix("https://ui.nboard2.naver.com/nboard2/list") {
+    #n2_nboard .form_search,#n2_skin_wrap .skin div,#n2_skin_wrap .skin div a { color: #fff }
+    #n2_nboard div,#n2_nboard input,#n2_nboard td,#n2_nboard textarea,#n2_nboard ul,#n2_skin_wrap li a,table.Nnavi a { color: #cacaca }
+    #n2_skin_wrap .skin { position: relative;background: none }
+    #n2_skin_wrap .skin:before { width: 100%;top: 0;position: absolute;pointer-events: none;left: 0;height: 100%;filter: invert(86%) hue-rotate(-180deg);content: '';background: url(https://download-nboard2.pstatic.net/design/nboard/ko/img/bg_skin01.gif) repeat-x }
+    #n2_skin_wrap ul.list li { color: #cacaca;border-bottom: 1px solid #404040 }
+    table.Nnavi a:hover { background-color: #2f2f2f }
+    table.Nnavi td { border-right: 1px solid #404040 }
+}
 @-moz-document url-prefix("https://news.naver.com") {
     :root .layer03,.opinion_sub .todaycolumn,.type06 li:nth-child(10n),.type06_headline li:nth-child(10n),.type06:last-child li:last-child,.type06_headline:last-child li:last-child,.type06:nth-child(2n) li:nth-child(5):last-child,.type06_headline:nth-child(2n) li:nth-child(5):last-child,.type06:nth-child(2n):last-child li:last-child,.type06_headline:nth-child(2n):last-child li:last-child { border-color: #404040 }
     .airs_info_icon_airs { filter: brightness(5000%) }
@@ -3514,11 +3523,12 @@
     head,html { background: #242424 }
 }
 @-moz-document url-prefix("https://noti.naver.com"), url-prefix("https://myfeed.naver.com"), url-prefix("https://me.naver.com/tab/news.nhn"), url-prefix("https://me.naver.com") {
-    .control_box.alarm .lft_zone .svc_name span strong,.envmt_cont .control_box h4,.lft_area h3 a,.no_result .h_no_result,.lft_zone .svc_name span.on strong,.rgt_zone .ctrl_delegate .lst_option label,.rgt_zone .ctrl_delegate .lst_option2 label,.snb > li a { color: #fff }
+    .con_desc .frm_svc span { color: #cacaca;border-left: 1px solid #404040 }
+    .con_desc .lst_type1 .thumbs_tx a,.control_box.alarm .svc_symb em,.rgt_zone .result_list li a,.footer_contents p,.lft_zone .svc_name .subscribe_list ul > li a,.lft_zone .svc_name .svc_list ul > li a,.loading_tx p,.no_result .result_con { color: #cacaca }
+    .control_box.alarm .lft_zone .svc_name span strong,.envmt_cont .control_box h4,.footer_contents p a,.lft_area h3 a,.no_result .h_no_result,.lft_zone .svc_name span.on strong,.rgt_zone .ctrl_delegate .lst_option label,.rgt_zone .ctrl_delegate .lst_option2 label,.lst_obj .con_desc h4 a,.snb > li a { color: #fff }
     .control_box.alarm .rgt_zone .result_list ul > li { border-top: 1px solid #404040 }
     .control_box.alarm .rgt_zone .result_list ul,.lft_area h3,.lft_zone .svc_name .subscribe_list ul > li,.lft_zone .svc_name .svc_list ul > li { border-bottom: 1px solid #404040 }
     .control_box.alarm .svc_name dt { background: #404040 }
-    .control_box.alarm .svc_symb em,.rgt_zone .result_list li a,.lft_zone .svc_name .subscribe_list ul > li a,.lft_zone .svc_name .svc_list ul > li a,.loading_tx p,.no_result .result_con { color: #cacaca }
     .end_tx span { color: #cacaca;background: #2f2f2f }
     .end_tx,.envmt_cont,.envmt_cont .control_box,.envmt_foot,.envmt_cont .envmt_foot .img_bg_bot span.sc_bg { background: #2f2f2f }
     .envmt_cont .control_box .box_area { border: 1px solid #404040 }
@@ -3532,8 +3542,10 @@
     .lft_zone .svc_name .subscribe_list ul > li a:hover,.lft_zone .svc_name .subscribe_list ul > li.on a,.lft_zone .svc_name .svc_list ul > li a:hover,.lft_zone .svc_name .svc_list ul > li.on a { background: #4f4f4f }
     .lft_zone .svc_name .subscribe_list ul > li button,.lft_zone .svc_name .svc_list ul > li button,.lft_zone .svc_name dt button,.rgt_zone .result_list .chk_btn,.no_result .btn_direct,.no_result .thumb,.scroll_top a,.time_line .daily_obj,.rgt_zone .ctrl_delegate .lst_option2 .btn_del_neighbor,.rgt_zone .ctrl_delegate .lst_option2 .reader_cncl,.top_btn_area button,#container .top_btn_area .loading_area { filter: invert(86%) hue-rotate(-180deg) }
     .lft_zone .svc_name dt,.rgt_zone .ctrl_delegate { border-bottom: 1px solid #404040;background: #404040 }
+    .lst_area > ul > li { color: #cacaca;border-top: 1px solid #404040 }
+    .lst_obj .thumb a .mask,.tx_tooltip .thumb .alarm .mask,.tx_tooltip .thumb a .mask,.lst_obj .thumb a img,.tx_tooltip .thumb .alarm img,.tx_tooltip .thumb a img { border-radius: 5px }
+    .lst_obj .thumb a,.tx_tooltip .thumb .alarm,.tx_tooltip .thumb a,.me_menu1 .contents,.rgt_zone .result_list .env_modal,body,head,html { background: #242424 }
     .ly_ic_loading { filter: invert(88%) hue-rotate(-180deg) }
-    .me_menu1 .contents,.rgt_zone .result_list .env_modal,body,head,html { background: #242424 }
     .nlst_checked .tx_tooltip .bubble_content .tx_width .alarm_tx { color: #000 }
     .nlst_checked a,.nlst_checked dt,.nlst_checked em,.nlst_checked strong,.tx_tooltip .bubble_content .from_obj dd,.tx_tooltip .bubble_content .from_obj dd a { color: #000 !important }
     .notice_ftr { background-color: #2f2f2f }
@@ -4802,6 +4814,19 @@
     #pop_footer a.btn_close2,#pop_footer a.btn_print2,#pop_header .section_btn .btn_close,#pop_header .section_btn .btn_print,#pop_header h1 a.logo,#pop_header h1 a.service { filter: invert(86%) hue-rotate(-180deg) }
     #pop_header { border-bottom: 1px solid #404040;background: #242424 }
     #pop_wrap,head,html { background: #242424 }
+}
+@-moz-document url-prefix("https://ui.nboard2.naver.com/nboard2/read") {
+    #n2_content *[style*='BACKGROUND-COLOR'],#n2_content p[style*='background-color'] { background-color: #2f2f2f !important }
+    #n2_content *[style*='COLOR'],#n2_content p[style*='color'] { color: #fff !important }
+    #n2_nboard .conts,#n2_nboard .list_paging li a,#n2_nboard .title_wrap .add_info { color: #cacaca }
+    #n2_nboard .list_paging { border-top: 1px solid #404040;border-bottom: 1px solid #404040 }
+    #n2_nboard .list_paging li { border-bottom: 1px solid #404040 }
+    #n2_nboard .list_paging li .status a,#n2_nboard .title_wrap .title { color: #fff }
+    #n2_nboard .list_paging li.bgcolor { background-color: #2f2f2f }
+    #n2_nboard .option .list_button img,#n2_nboard .view_btn img { filter: invert(86%) hue-rotate(-180deg) }
+    #n2_nboard .view { border: 1px solid #404040 }
+    #n2_nboard a { color: #c88cda }
+    #n2_nboard a:visited { color: #cc90cd }
 }
 @-moz-document url-prefix("https://up.cafe.naver.com") {
     .attachfile,.layer ul.list { border: 1px solid #404040;background-color: #242424 }

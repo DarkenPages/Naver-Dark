@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.781
+@version		1.48.782
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -23384,6 +23384,47 @@
 	
 	.nlst_checked dt, .nlst_checked strong, .nlst_checked a, .nlst_checked em, .tx_tooltip .bubble_content .from_obj dd a, .tx_tooltip .bubble_content .from_obj dd {
 		color: #000 !important;
+	}
+	
+	.lst_area > ul > li {
+		color: #cacaca;
+	}
+	
+	.lst_obj .con_desc h4 a {
+		color: #fff;
+	}
+	
+	.con_desc .lst_type1 .thumbs_tx a {
+		color: #cacaca;
+	}
+	
+	.lst_area > ul > li {
+		border-top: 1px solid #404040;
+	}
+	
+	.con_desc .frm_svc span {
+		border-left: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.footer_contents p {
+		color: #cacaca;
+	}
+	
+	.footer_contents p a {
+		color: #fff;
+	}
+	
+	.lst_obj .thumb a .mask, .tx_tooltip .thumb a .mask, .tx_tooltip .thumb .alarm .mask {
+		border-radius: 5px;
+	}
+	
+	.tx_tooltip .thumb .alarm, .tx_tooltip .thumb a, .lst_obj .thumb a {
+		background: #242424;
+	}
+	
+	.tx_tooltip .thumb .alarm img, .tx_tooltip .thumb a img, .lst_obj .thumb a img {
+		border-radius: 5px;
 	}
 }
 
@@ -65583,4 +65624,115 @@
 	/*[class*='btn_window___'] {*/
 	/*	filter: invert(86%) hue-rotate(-180deg);*/
 	/*}*/
+}
+
+@-moz-document url-prefix("https://myfeed.naver.com/main/notice"), url-prefix("https://ui.nboard2.naver.com/nboard2/list")
+{
+	
+	
+	#n2_skin_wrap .skin {
+		background: none;
+		position: relative;
+	}
+	
+	#n2_skin_wrap .skin:before {
+		background: url(https://download-nboard2.pstatic.net/design/nboard/ko/img/bg_skin01.gif) repeat-x;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	#n2_nboard .form_search, #n2_skin_wrap .skin div, #n2_skin_wrap .skin div a {
+		color: #fff;
+	}
+	
+	#n2_skin_wrap ul.list li {
+		border-bottom: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	#n2_skin_wrap li a {
+		color: #cacaca;
+	}
+	
+	table.Nnavi a {
+		color: #cacaca;
+	}
+	
+	table.Nnavi a:hover {
+		background-color: #2f2f2f;
+	}
+	
+	#n2_nboard div, #n2_nboard ul, #n2_nboard td, #n2_nboard input, #n2_nboard textarea {
+		color: #cacaca;
+	}
+	
+	table.Nnavi td {
+		border-right: 1px solid #404040;
+	}
+}
+
+@-moz-document url-prefix("https://ui.nboard2.naver.com/nboard2/read")
+{
+	#n2_nboard .view {
+		border: 1px solid #404040;
+	}
+	
+	#n2_nboard .option .list_button img, #n2_nboard .view_btn img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	#n2_nboard .title_wrap .title {
+		color: #fff;
+	}
+	
+	#n2_nboard .title_wrap .add_info {
+		color: #cacaca;
+	}
+	
+	#n2_nboard .list_paging li {
+		border-bottom: 1px solid #404040;
+	}
+	
+	#n2_nboard .list_paging li.bgcolor {
+		background-color: #2f2f2f;
+	}
+	
+	#n2_nboard .list_paging {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	#n2_nboard .list_paging li a {
+		color: #cacaca;
+	}
+	
+	#n2_nboard .list_paging li .status a {
+		color: #fff;
+	}
+	
+	#n2_nboard .conts {
+		color: #cacaca;
+	}
+	
+	#n2_content p[style*='color'], #n2_content *[style*='COLOR'] {
+		color: #fff !important;
+	}
+	
+	#n2_content p[style*='background-color'], #n2_content *[style*='BACKGROUND-COLOR'] {
+		background-color: #2f2f2f !important;
+	}
+	
+	#n2_nboard a {
+		color: #c88cda;
+	}
+	
+	#n2_nboard a:visited {
+		color: #cc90cd;
+	}
 }

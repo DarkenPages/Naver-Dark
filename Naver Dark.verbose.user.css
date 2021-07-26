@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.787
+@version		1.48.788
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -12431,6 +12431,10 @@
 	.home_user .btn_mycafe_more {
 		border: 1px solid #404040;
 		color: #fff;
+	}
+	
+	.NoResult.is_combinations {
+		background-color: #242424;
 	}
 }
 

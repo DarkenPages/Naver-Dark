@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.787
+@version		1.48.788
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -4343,7 +4343,7 @@
     .Autocomplete .autocomplete_area { color: #cacaca;border: 1px solid #404040;border-top: none;background-color: #242424 }
     .Autocomplete .func a,.section_create .srch_word_area li em,.snb_search_box .btn_search_all { color: #000 }
     .autocomplete_area { border: 1px solid #404040;border-top: 0 }
-    .autocomplete_area .words li a,.represent_popup .special,.section_rep .criteria_more,.snb_search_box .snb_search_bsub,.snb_search_box .snb_search_text,.SearchArea .btn_search:before { background-color: #242424 }
+    .autocomplete_area .words li a,.represent_popup .special,.section_rep .criteria_more,.snb_search_box .snb_search_bsub,.snb_search_box .snb_search_text,.NoResult.is_combinations,.SearchArea .btn_search:before { background-color: #242424 }
     .autocomplete_area,.pop_ranking .graph_list,.check_box label,.SearchArea .snb_search_box .FormInputText .input_text { color: #cacaca;background-color: #242424 }
     .board_notice { color: #cacaca;border-top: 1px solid #404040 }
     .board_notice tbody td,.cc_layer_mynews .cc_mynews_list li,.common_menu_tab,.home_user_tab,.menu,.mycafe_list tr:last-of-type td,.mycafe_manage .secede_cafe_title,.ranking_list li,.section_create .cafe_input td,.section_create .cafe_input th,.section_rep .field_tab,.theme_category,.theme_sort,.txt_represent,.user_mycafe_area,.CreateCafe td,.CreateCafe th,.edu_area .edu_tab,.MenuList,.srch_rel,.user_feed_area { border-bottom: 1px solid #404040 }

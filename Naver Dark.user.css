@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.789
+@version		1.48.790
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -141,7 +141,7 @@
     .gnb_notice_li .svc_blank .gnb_desc,.gnb_notice_li .svc_blank .gnb_tit,#gnb,#gnb .gnb_my_li .gnb_my_community a:visited,.gnb_notice_li .gnb_notice_all:visited,.gnb_svc_more .svc_btns:visited,a.gnb_service_all:visited,#gnb a,#gnb a:hover,.gnb_my_li .gnb_my_content .gnb_name,#gnb a,#gnb a:visited,a.gnb_my .gnb_name { color: #cacaca }
     .gnb_notice_li .svc_blank .gnb_tit img { filter: invert(81.5%) hue-rotate(-180deg) }
     .gnb_notice_li .svc_list .gnb_new { background: #404040 }
-    .gnb_notice_li .svc_list .gnb_unread .gnb_subject,.gnb_notice_li .svc_list .gnb_unread .svc_name,.mailList .mTitle a { color: #fff }
+    .gnb_notice_li .svc_list .gnb_unread .gnb_subject,.gnb_notice_li .svc_list .gnb_unread .svc_name,.mailList .mTitle a,.viewTitle h4,div.viewTitle h4 { color: #fff }
     .gnb_notice_li .svc_list li,a.gnb_service_all { border-top: 1px solid #404040 }
     .gnb_notice_li .svc_panel,.gnb_notice_li .svc_scroll { box-shadow: 0 1px 7px 0 black;background: #2f2f2f }
     .gnb_pop_input .gnb_pop_lst li a { color: #444 !important }

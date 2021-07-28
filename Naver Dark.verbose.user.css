@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.792
+@version		1.48.793
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -59251,7 +59251,11 @@
 	}
 	
 	.sp_naside .naside_wrap .entry_list .entry_area .tit_wrap .tit {
-		color: #cacaca;
+		color: #fff;
+	}
+	
+	.sp_naside .naside_wrap .entry_list .entry_area .tit_wrap .dsc {
+		color: #999;
 	}
 	
 	.sp_naside .naside_wrap .entry_list .entry_area .rank_wrap .rank {
@@ -65056,6 +65060,10 @@
 	
 	.cs_vaccine_info .vaccination_area .vaccine_item .vaccine_name_eng {
 		color: #cacaca;
+	}
+	
+	.api_random_banner.type_fixed .banner_inner {
+		background-color: #2f2f2f;
 	}
 }
 

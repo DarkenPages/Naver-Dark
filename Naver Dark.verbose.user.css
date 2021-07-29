@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.796
+@version		1.48.797
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -11909,10 +11909,6 @@
 		color: #cacaca;
 		border: 1px solid #404040;
 		border-top: none;
-	}
-	
-	.AsideBanner .banner img {
-		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.AsideSign {

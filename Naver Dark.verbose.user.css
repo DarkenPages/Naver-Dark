@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.794
+@version		1.48.796
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -12912,6 +12912,34 @@
 	.pop_content .desc2 {
 		color: #cacaca;
 	}
+	
+	.npe_alert .npe_alert_btn_hide .npe_btn_title {
+		color: #cacaca;
+	}
+	
+	.npu_image_upload_description {
+		color: #cacaca;
+	}
+	
+	.npu_image_upload_title {
+		color: #fff;
+	}
+	
+	.npe_btn_control {
+		color: #cacaca;
+	}
+	
+	.npe_btn_control:not(.on):not(.disable):hover {
+		color: #fff;
+	}
+	
+	.npe_wrap .npe_alert_btn_cancel .npe_btn_title, .npe_alert_wrap .npe_alert_btn_cancel .npe_btn_title {
+		color: #cacaca;
+	}
+	
+	.npe_wrap .npe_alert_btn_cancel:hover .npe_btn_title, .npe_alert_wrap .npe_alert_btn_cancel:hover .npe_btn_title {
+		color: #fff;
+	}
 }
 
 @-moz-document url-prefix("https://cafe.naver.com/CafeMemberInfo.nhn")
@@ -13946,6 +13974,51 @@
 	
 	.cc_layer_mynews .cc_mynews_list li.unread {
 		background: #38403b;
+	}
+	
+	.skin-1080 .gate-list .gate-box {
+		color: initial;
+	}
+	
+	.skin-1080 #widget-currency .bg-head {
+		border-bottom: 1px solid #404040;
+		background-color: #404040;
+	}
+	
+	.skin-1080 #widget-currency {
+		border: 1px solid #404040;
+		background-color: #404040;
+	}
+	
+	.skin-1080 #widget-currency .bg-head h3 {
+		color: #cacaca;
+	}
+	
+	.skin-1080 #widget-currency .bg-head h3.on {
+		color: #fff;
+	}
+	
+	.skin-1080 #widget-currency .bg-body tr:nth-child(even) th, .skin-1080 #widget-currency .bg-body tr:nth-child(even) td {
+		background-color: #4a4a4a;
+	}
+	
+	.skin-1080 #neighbor-cafe .comm-btn-top a {
+		border-color: #404040;
+		background-color: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.skin-1080 #cafe-pop-tag, .skin-1080 .com .box-w .group-noinfo {
+		color: #cacaca;
+	}
+	
+	.skin-1080 #widget-watch div canvas {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.skin-1080 .com .box-ww.white_box {
+		background-color: #404040;
+		border: 1px solid #404040;
 	}
 }
 
@@ -19215,10 +19288,6 @@
 		color: #505050 !important;
 	}
 	
-	.section_top .h_cont h2 {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
 	.tbl_frm_type th, .tbl_frm_type .cafe_url {
 		color: #fff;
 	}
@@ -20348,6 +20417,133 @@
 		pointer-events: none;
 		background: url(https://cafe.pstatic.net/img/manage/sp_bu.gif) no-repeat 0 -73px;
 		filter: invert(75%) hue-rotate(-180deg);
+	}
+	
+	.section_top .h_cont h2 {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	#wrap.wrap_bx {
+		background: none;
+	}
+	
+	#wrap.wrap_bx .section_top .h_cont .menu7_sub, #wrap.wrap_bx.wrap_bx_v1 .section_top .h_cont .menu7_sub2, #wrap.wrap_bx .section_top .h_cont .menu7_sub3, #wrap.wrap_bx.wrap_bx_v1 .section_top .h_cont .menu7_sub4 {
+		filter: none;
+	}
+	
+	#cafe_middle_sub {
+		border: 1px solid #404040;
+		background-color: #3a3a3a;
+	}
+	
+	
+	.btn_type_prev {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.btn_type_next {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.btn_type_wh2 {
+		background: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.btn_type_wh2 em, .btn_type_gn em {
+		background: none;
+	}
+	
+	.btn_type_wh2 strong, .btn_type_wh2 span {
+		color: #cacaca;
+	}
+	
+	.btn_type_gn {
+		background: #019341;
+		border: 1px solid #404040;
+	}
+	
+	body, div, th, td, li {
+		color: #cacaca;
+	}
+	
+	.logo_box {
+		border: 1px solid #404040;
+		background-color: #3a3a3a;
+	}
+	
+	.logo_box .info {
+		color: #fff;
+	}
+	
+	.logo_box .logo_img {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.btn_type_grey {
+		background: rgb(139, 139, 139);
+		border: 1px solid #404040;
+	}
+	
+	.btn_type_grey em {
+		background: none;
+	}
+	
+	.logo_box .lab_file {
+		color: #fff;
+	}
+	
+	.logo_box .logo_file {
+		border: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	.btn_type_grey strong, .btn_type_grey span {
+		color: #242424;
+	}
+	
+	.logo_box .modify {
+		color: #cacaca;
+	}
+	
+	.logo_box .btn_modify {
+		border: 1px solid #4f4f4f;
+		color: #fff;
+	}
+	
+	.section_top .tab_menu2 {
+		background: #2f2f2f;
+	}
+	
+	.section_top .tab_menu2 ul {
+		background: none;
+	}
+	
+	.section_top .tab_menu2 li.tab.on, .section_top .tab_menu2 li.tab2.on {
+		background: #3a3a3a !important;
+	}
+	
+	#content.cafe_edit_wide .logo_editor img {
+		display: none;
+	}
+	
+	#content.cafe_edit_wide .logo_editor {
+		height: 15px;
+		position: relative;
+	}
+	
+	#content.cafe_edit_wide .logo_editor:before {
+		content: 'SmartEditor';
+		text-align: right;
+		position: absolute;
+		right: 20px;
+		font-weight: bold;
+	}
+	
+	#content.cafe_edit_wide .cafe_write_box {
+		border: 1px solid #404040;
+		background: #404040;
 	}
 }
 
@@ -54486,7 +54682,7 @@
 	}
 }
 
-@-moz-document url-prefix("https://cafe.naver.com/ArticleWrite.nhn"), url-prefix("https://cafe.naver.com/StaffArticleWrite.nhn")
+@-moz-document url-prefix("https://cafe.naver.com/ArticleWrite.nhn"), url-prefix("https://cafe.naver.com/StaffArticleWrite.nhn"), url-prefix("https://cafe.naver.com/Gate.nhn")
 {
 	#editer_border {
 		border: 1px solid #404040;
@@ -55177,6 +55373,10 @@
 	.se-body .se-popup-banner-black-type .se-popup-banner-title {
 		color: #fff;
 	}
+	
+	.admin_editer_color {
+		background-color: #404040 !important;
+	}
 }
 
 @-moz-document url-prefix("https://cafe.naver.com/common/editor/default.html")
@@ -55199,6 +55399,10 @@
 	
 	table {
 		background-color: #404040;
+	}
+	
+	img[src="https://ssl.pstatic.net/static/cafe/manage/player.png"] {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 }
 
@@ -66087,5 +66291,353 @@
 	
 	#n2_nboard a:visited {
 		color: #cc90cd;
+	}
+}
+
+@-moz-document url-prefix("https://cafe.naver.com/Layout.nhn")
+{
+	#cafe_middle {
+		background: #3a3a3a;
+	}
+	
+	body, div, th, td, li {
+		color: #cacaca;
+	}
+	
+	#cafe_left .layout_select li {
+		background: none;
+		position: relative;
+	}
+	
+	#cafe_left .layout_select li:before {
+		background: url(https://cafe.pstatic.net/cafe4/bg_line3.gif) right 17px no-repeat;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	a:link, a:visited, a:active {
+		color: #cacaca;
+	}
+	
+	#cafe_left .layout_select ul li a img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	#cafe_left .layout_editer {
+		background: #2f2f2f;
+	}
+	
+	#cafe_left .layout_editer .txt_layout_editer {
+		background: none;
+	}
+	
+	#cafe_left .layout_editer .txt_layout_editer span {
+		display: block;
+		color: rgb(235, 235, 142);
+		font-style: italic;
+		font-size: 13;
+	}
+	
+	.box_style01, .box_style02, .box_style03, .box_style04, html>body .wbox_style01, .box_style05-w, .box_style06-w, .box_style05, .box_style06, html>body .ybox_style01, html>body .wbox_style02 {
+		background: #242424 !important;
+		border-radius: 10px;
+	}
+	
+	#cafe-body li {
+		margin-bottom: 2px;
+	}
+	
+	.box_style06-w-b, .box_style06-b {
+		background: #242424 !important;
+		border-radius: 0 0 10px 10px;
+	}
+	
+	.box_txt {
+		color: #cacaca;
+	}
+	
+	.box_style06 td, .box_style06-w td {
+		border: 1px dashed #404040;
+	}
+	
+	.box_style06 table, .box_style06-w table {
+		background-color: #242424;
+		border: 1px dashed #404040;
+	}
+	
+	.list_name .tit {
+		color: #cacaca;
+	}
+	
+	.box_style06 td .btn a img, .box_style06-w td .btn a img, .list_name .img img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.btn_component_close {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.layerpopup .border_type {
+		border: 1px solid #404040;
+		background-color: #3a3a3a;
+	}
+	
+	.layerpopup .header {
+		background: #3a3a3a;
+	}
+	
+	.layerpopup .closelayer img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.layerpopup .content .layer_line {
+		border-top: 1px dashed #4f4f4f;
+		background: none;
+	}
+	
+	.layerpopup .layer_btn {
+		border-top: 1px solid #4f4f4f;
+	}
+	
+	.layerpopup .layer_btn img, .layerpopup .content dd p img {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	#cafe_right h3 img {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	#cafe_right ul.r_list {
+		border: 1px solid #404040;
+	}
+	
+	#cafe_right li {
+		background: #242424;
+		border-bottom: 1px solid #404040;
+	}
+	
+	#cafe_right label {
+		color: #cacaca;
+	}
+	
+	#cafe_right li .btn_arrow {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	#cafe_right .sub_board .template_box {
+		border: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	#cafe_right .sub_board .template_box img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	#cafe_right .sub_board ul > li:first-child {
+		background: none;
+		border-bottom: 1px dashed #404040;
+	}
+	
+	.box_style06 td .txt, .box_style06-w td .txt {
+		background: none;
+	}
+	
+	.box_style06 td .txt span, .box_style06-w td .txt span {
+		display: block;
+		color: #cacaca;
+		font-style: italic;
+		font-size: 9px;
+	}
+	
+	#cafe_right .sub_special_menu p {
+		background: none;
+	}
+	
+	#cafe_right .sub_special_menu p span {
+		display: block;
+		color: #cacaca;
+	}
+	
+	#cafe_right .sub_content_pocket {
+		background: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.line02 {
+		background: #4f4f4f;
+	}
+	
+	.ly_help .cont {
+		border: 1px solid #5a5a5a;
+		background-color: #3a3a3a;
+	}
+	
+	.ly_help p {
+		color: #cacaca;
+	}
+	
+	.ly_help .arr {
+		filter: invert(79%) hue-rotate(-180deg);
+	}
+	
+	.ly_help .close button {
+		filter: invert(78%) hue-rotate(-180deg);
+	}
+	
+	#show_business_info_help img, #edit_business_info img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	#fundno+a img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	#edit_cafe_banner img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	#cafe_right .initialize a img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	a img.btn_reload {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cafe_middle_b {
+		background: #3a3a3a;
+	}
+	
+	input, select, textarea {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	#nhn {
+		background: #242424;
+	}
+	
+	/* Previous Button */
+	
+	
+	
+	.btn_type_prev {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.btn_type_next {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.btn_type_wh2 {
+		background: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.btn_type_wh2 em, .btn_type_gn em {
+		background: none;
+	}
+	
+	.btn_type_wh2 strong, .btn_type_wh2 span {
+		color: #cacaca;
+	}
+	
+	.btn_type_gn {
+		background: #019341;
+		border: 1px solid #404040;
+	}
+}
+
+@-moz-document url-prefix("https://cafe.naver.com/ca-fe/ext/video-upload")
+{
+	.PopupVideoUpload .popup_header {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	.PopupVideoUpload .popup_content .file_upload .btn_label {
+		color: #242424 !important;
+	}
+	
+	.PopupVideoUpload .popup_content .file_upload .btn_label:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.PopupVideoUpload .popup_content .file_upload .txt {
+		color: #cacaca !important;
+	}
+	
+	.PopupVideoUpload .popup_content .info {
+		background-color: #3a3a3a !important;
+	}
+	
+	.PopupVideoUpload .popup_content .info .txt {
+		color: #cacaca !important;
+	}
+	
+	.PopupVideoUpload .popup_content .info .go_help {
+		color: #fff !important;
+	}
+	
+	.PopupVideoUpload .popup_content .video_area .rep_video, .PopupVideoUpload .popup_content .video_area .uploaded_video .video {
+		background-color: #2f2f2f !important;
+	}
+	
+	.PopupVideoUpload .popup_content .video_area .file_name {
+		color: #cacaca !important;
+	}
+	
+	.BaseButton--gray {
+		background: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.PopupVideoUpload .popup_content .btn_area .BaseButton--gray {
+		color: #cacaca !important;
+	}
+	
+	.PopupVideoUpload .popup_content .video_area .rep_video .loading_message {
+		color: #cacaca !important;
+	}
+}
+
+@-moz-document url-prefix("https://cafe.naver.com/ca-fe/ext/video?")
+{
+	html, body {
+		background-color: initial;
+		color: inital;
+	}
+}
+
+@-moz-document url("https://www.cyber.go.kr/widget.html")
+{
+	html, body {
+		background: #404040;
+		color: #cacaca;
+		font-family: 'Helvetica', 'serif';
+	}
+	
+	.search_fraud_widget h1 a img {
+		filter: invert(75%) hue-rotate(-180deg);
+	}
+	
+	.search_fraud_widget p.input_box1 {
+		color: #cacaca;
+		font-family: 'Helvetica', 'serif';
+	}
+	
+	.search_fraud_widget p.fraud_box {
+		background-color: #2f2f2f;
+		color: #cacaca;
+		font-family: 'Helvetica', 'serif';
+	}
+	
+	.search_fraud_widget .number {
+		border: 3px solid #4f4f4f;
+		color: #cacaca;
 	}
 }

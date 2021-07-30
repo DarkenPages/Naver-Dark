@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.797
+@version		1.48.798
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -12450,6 +12450,20 @@
 		color: #fff;
 		font-family: 'Helvetica', 'serif';
 	}
+	
+	.AsideSign .login .user_find a {
+		color: #cacaca;
+	}
+	
+	.AsideSign .login .user_find .button_pw:before {
+		background-color: #4f4f4f;
+	}
+	
+	.AsideSign .login .login_button {
+		border: 1px solid #404040;
+		background: #242424;
+		color: #fff;
+	}
 }
 
 @-moz-document url-prefix("https://talk.cafe.naver.com")
@@ -20513,7 +20527,7 @@
 	}
 	
 	.section_top .tab_menu2 ul {
-		background: none;
+		background: none;]
 	}
 	
 	.section_top .tab_menu2 li.tab.on, .section_top .tab_menu2 li.tab2.on {
@@ -20530,7 +20544,7 @@
 	}
 	
 	#content.cafe_edit_wide .logo_editor:before {
-		content: 'SmartEditor';
+		content: 'SmartEditor™';
 		text-align: right;
 		position: absolute;
 		right: 20px;
@@ -55373,6 +55387,10 @@
 	.admin_editer_color {
 		background-color: #404040 !important;
 	}
+	
+	#naver_common_editor table.wrap textarea {
+		color: #cacaca;
+	}
 }
 
 @-moz-document url-prefix("https://cafe.naver.com/common/editor/default.html")
@@ -66518,10 +66536,6 @@
 		background: #242424;
 	}
 	
-	/* Previous Button */
-	
-	
-	
 	.btn_type_prev {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
@@ -66635,5 +66649,6 @@
 	.search_fraud_widget .number {
 		border: 3px solid #4f4f4f;
 		color: #cacaca;
+		background: #242424;
 	}
 }

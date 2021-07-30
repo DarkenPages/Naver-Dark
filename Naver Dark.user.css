@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.798
+@version		1.48.799
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -3038,7 +3038,6 @@
     .head_channel_layer_close,.spd_btn,.media_end_head_autosummary .media_end_head_autosummary_blur,.media_end_head_autosummary .media_end_head_autosummary_layer_close,.media_end_head_autosummary_feedback .u_likeit_list.like .u_likeit_list_button:before,.media_end_head_autosummary_feedback .u_likeit_list.normal .u_likeit_list_button:before,.media_end_head_autosummary_feedback .u_likeit_list.toobad .u_likeit_list_button:before,.media_end_head_autosummary_help,.rankingnews_press_sort .button_toggle .button_toggle_img,.section_info_layer_close > span { filter: invert(81.5%) hue-rotate(-180deg) }
     .home_move,.main_component,.main_content_new .com_header,.news_ally .ally_btn.as_sub,.options .options_layer .options_layer_inner,.photo_wrap .link_txt,.press_re .p_info .calendar_date .now,.subscribe { background: #242424 }
     .index { color: #cacaca;border-top: 1px solid #404040;border-bottom: 1px solid #404040 }
-    .is_fixed #snb_wrap .h_news:after { font-size: 17px }
     .journalistcard_summary_name::after,.sum_on:before { filter: invert(100%) hue-rotate(-180deg) }
     .list_body .type02,.myscrap_all_howto h3 { color: #fff;border-bottom: 1px solid #404040 }
     .list_body a.highlight,.list_body a.highlight,a.highlight { position: relative;color: #242424 !important;background: none !important }
@@ -3103,7 +3102,7 @@
     #cbox_module .u_cbox_recomm_set .u_cbox_ico_recomm,#cbox_module .u_cbox_recomm_set .u_cbox_ico_unrecomm,.u_cbox .u_cbox_work_sub .u_cbox_ico_open { filter: brightness(1000%) }
     #snb_wrap .h_logo { width: 56px;margin-top: 2px;height: 17px;background: linear-gradient(transparent,transparent),url(https://ssl.pstatic.net/static/sports/2019/pc/11/12/sp_gnb.svg);background-size: 103px 97px;background-position: -4px -29px }
     #snb_wrap .h_news { width: auto;position: relative;background: none }
-    #snb_wrap .h_news:after { white-space: nowrap;transform: translate(-50%, -50%);top: 50%;position: absolute;left: 50%;font-weight: bold;font-size: 25px;content: '뉴스';color: #fff }
+    #snb_wrap .h_news:after { width: 100%;white-space: nowrap;top: -1px;position: absolute;left: 0;height: 100%;font-weight: bold;font-size: 15px;font-family: 'Helvetica', 'serif';content: '뉴스';color: #fff }
     #snb_wrap .h_news:before { white-space: nowrap;opacity: 0;font-weight: bold;font-size: 25px;content: '뉴스';color: #cacaca }
     a.highlight:after { z-index: -1;width: 100%;top: 0px;position: absolute;padding: 3px;left: -3px;height: calc(100% - 6px);content: '';border-radius: 3px;background-color: #ffee00;animation-name: highlight-animation;animation-duration: 0.2s }
     a.highlight:before { z-index: -1;width: 100%;top: 0px;position: absolute;padding: 3px;left: -3px;height: calc(100% - 6px);content: '';border-radius: 3px;background-color: rgba(255, 238, 0, 1);animation-name: highlight-opacity-animation;animation-duration: 1s }

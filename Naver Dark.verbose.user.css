@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.801
+@version		1.48.802
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -11488,7 +11488,11 @@
 		background-color: #2f2f2f;
 	}
 	
-	.common_title .title, .common_option_list .link, .user_mycafe_recent .recent_title .tit, .common_menu_tab .link, .user_mycafe_info .user_mycafe_new, .aside .smart_bot a, .aside .notice .notice_list li a, .aside .link_more a, .home_user .notice .title, .home_theme_title, .menu .menu_inner .menu_link, .snb_search_box .search_option_layer a, .editors_pick_list .list_info .name_area, .editors_pick_list .list_info .title_area, .common_list .list_info .name_area, .ranking_list .cell_num, .ranking_list .cafe_info .name_area, .cc_layer_mynews .cc_mynews_list .cc_mynews_notice .notice_txt, .cc_layer_mynews .cc_mynews_list .info_title, .cc_layer_mynews .cc_mynews_list .cc_mynews_info, .common_alert_layer .msg, .content_terms .txt_area, .content_terms, .content_terms .lang_area .terms_option_layer a, .rule_wrap .list_rule .on, .content_terms .terms_area .tit2, .common_page button, .field_category .on, .field_list_wrap .count, .criteria li p, .criteria .score li, .represent_popup .special strong, .section_create .cafe_input td, .mycafe_group .group .btn_txt, .mycafe_manage .btn_all, .mycafe_list, .mycafe_manage .noti, .mycafe_bottom .check_box label, .mycafe_manage .secede_cafe_title .tit, .mycafe_manage .manage_article .tit, .mycafe_manage .manage_article a, .feed_alarm_list .list_info .name_area, .pop_ranking .pop_title .title, .pop_ranking .info_list .title {
+	.common_title .title {
+		color: #fff;
+	}
+	
+	.common_option_list .link, .user_mycafe_recent .recent_title .tit, .common_menu_tab .link, .user_mycafe_info .user_mycafe_new, .aside .smart_bot a, .aside .notice .notice_list li a, .aside .link_more a, .home_user .notice .title, .home_theme_title, .menu .menu_inner .menu_link, .snb_search_box .search_option_layer a, .editors_pick_list .list_info .name_area, .editors_pick_list .list_info .title_area, .common_list .list_info .name_area, .ranking_list .cell_num, .ranking_list .cafe_info .name_area, .cc_layer_mynews .cc_mynews_list .cc_mynews_notice .notice_txt, .cc_layer_mynews .cc_mynews_list .info_title, .cc_layer_mynews .cc_mynews_list .cc_mynews_info, .common_alert_layer .msg, .content_terms .txt_area, .content_terms, .content_terms .lang_area .terms_option_layer a, .rule_wrap .list_rule .on, .content_terms .terms_area .tit2, .common_page button, .field_category .on, .field_list_wrap .count, .criteria li p, .criteria .score li, .represent_popup .special strong, .section_create .cafe_input td, .mycafe_group .group .btn_txt, .mycafe_manage .btn_all, .mycafe_list, .mycafe_manage .noti, .mycafe_bottom .check_box label, .mycafe_manage .secede_cafe_title .tit, .mycafe_manage .manage_article .tit, .mycafe_manage .manage_article a, .feed_alarm_list .list_info .name_area, .pop_ranking .pop_title .title, .pop_ranking .info_list .title {
 		color: #cacaca;
 	}
 	
@@ -12463,6 +12467,22 @@
 		border: 1px solid #404040;
 		background: #242424;
 		color: #fff;
+	}
+	
+	.board_notice tbody td.tit a, .board_notice tbody td.date {
+		color: #cacaca;
+	}
+	
+	.common_title .txt {
+		color: #cacaca;
+	}
+	
+	.board_notice tbody td.data *[style*="color:"] {
+		color: #cacaca !important;
+	}
+	
+	.notice_btns a {
+		color: #cacaca;
 	}
 }
 

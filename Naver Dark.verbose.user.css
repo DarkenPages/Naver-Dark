@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.799
+@version		1.48.800
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -31103,17 +31103,23 @@
 	}
 	
 	#snb_wrap .h_news:after {
-		left: 0;
-		top: -1px;
-		width: 100%;
-		height: 100%;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
 		position: absolute;
 		content: '뉴스';
 		color: #fff;
 		font-weight: bold;
-		font-size: 15px;
+		font-size: 20px;
 		white-space: nowrap;
 		font-family: 'Helvetica', 'serif';
+	}
+	
+	.is_fixed #snb_wrap .h_news:after {
+		left: 0px;
+		top: -1px;
+		transform: initial;
+		font-size: 15px;
 	}
 	
 	.snb_related_service li a[href*='election'] {

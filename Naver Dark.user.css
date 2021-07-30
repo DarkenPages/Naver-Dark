@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.800
+@version		1.48.801
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -2052,7 +2052,7 @@
     .btn_type_edt,.btn_type_edt span,.btn_type_edt strong { color: #242424;background: #019341 }
     .btn_type_edt2,.btn_type_edt2 span,.btn_type_edt2 strong,.section_cont .chk_grd,.section_cont .chk_grd span { color: #cacaca;background: #404040 }
     .btn_type_gn { border: 1px solid #404040;background: #019341 }
-    .btn_type_gn em,.btn_type_wh2 em,.btn_type_grey em,.btn_type_ny3 span,.btn_type2 span,.btn_type2 strong,.btn_type2,.sub_info_box,.bx_srch_inner .srch_in .btn_type2,.bx_srch_inner .srch_in .btn_type2 span,.gnb .go_adm,.gnb .go_nvr,.lnb .lnb_menu li a.off,.lnb .lnb_sub2,.main_wrap .bx_type .bx_lb,.main_wrap .bx_type .bx_rb,.section_top .tab_menu li,.srch_info .date,#wrap.wrap_bx { background: none }
+    .btn_type_gn em,.btn_type_wh2 em,.btn_type_grey em,.btn_type_ny3 span,.btn_type2 span,.btn_type2 strong,.btn_type2,.sub_info_box,.bx_srch_inner .srch_in .btn_type2,.bx_srch_inner .srch_in .btn_type2 span,.gnb .go_adm,.gnb .go_nvr,.lnb .lnb_menu li a.off,.lnb .lnb_sub2,.main_wrap .bx_type .bx_lb,.main_wrap .bx_type .bx_rb,.section_top .tab_menu li,.section_top .tab_menu2 ul,.srch_info .date,#wrap.wrap_bx { background: none }
     .btn_type_grey { border: 1px solid #404040;background: rgb(139, 139, 139) }
     .btn_type_grey span,.btn_type_grey strong { color: #242424 }
     .btn_type_ny,.btn_type_ny span,.btn_type_ny strong,.btn_type_ny2,.btn_type_ny2 span,.btn_type_ny2 strong { color: #242424;border-radius: 3px;background: #019341 }
@@ -2177,7 +2177,6 @@
     .section_cont .bx_type .bx_cont .wrt textarea,.section_cont .bx_type.w680 .bx_cont .wrt textarea,.section_cont .editer .textarea_msg,.tbl_join td .text5,input { color: #cacaca;border: 1px solid #404040;background: #242424 }
     .section_top .tab_menu li.on { background: #505050 !important }
     .section_top .tab_menu2 li.tab.on,.section_top .tab_menu2 li.tab2.on { background: #3a3a3a !important }
-    .section_top .tab_menu2 ul { background: none;] }
     .SelectRegion .select_city_content .region_list li { border-right: 1px solid #404040;border-bottom: 1px solid #404040 }
     .SelectRegion .select_city_content .region_list li:hover .btn { background: #3a3a3a }
     .srch_info .date:before { width: 22px;position: absolute;left: 80px;height: 21px;filter: invert(100%) hue-rotate(-180deg);content: '';box-sizing: border-box;border: 1px solid #c0c0c0;background: url(https://glyphicons.com/img/glyphicons/basic/2x/glyphicons-basic-46-calendar@2x.png) no-repeat;background-size: 22px 21px;background-position: -1px -1px }

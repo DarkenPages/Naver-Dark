@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.800
+@version		1.48.801
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -20527,7 +20527,7 @@
 	}
 	
 	.section_top .tab_menu2 ul {
-		background: none;]
+		background: none;
 	}
 	
 	.section_top .tab_menu2 li.tab.on, .section_top .tab_menu2 li.tab2.on {

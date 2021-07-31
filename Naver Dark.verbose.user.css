@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.802
+@version		1.48.803
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -65310,6 +65310,36 @@
 	
 	.api_random_banner.type_fixed .banner_inner {
 		background-color: #2f2f2f;
+	}
+	
+	.api_select_option .set_calendar {
+		border: 1px solid #404040;
+	}
+	
+	.api_select_option .set_calendar .set .ico_calendar[aria-selected=true] {
+		color: #fff;
+	}
+	
+	.api_select_option .set_calendar .set .ico_calendar[aria-selected=true]:before {
+		filter: brightness(1000%);
+	}
+	
+	.api_select_option .btn_area .btn_apply {
+		border: 1px solid #404040;
+		background: #3a3a3a;
+		color: #cacaca;
+	}
+	
+	.api_message_partially:before {
+		background-color: #404040;
+	}
+	
+	.api_message_partially p {
+		background-color: #242424;
+	}
+	
+	.api_message_partially {
+		color: #cacaca;
 	}
 }
 

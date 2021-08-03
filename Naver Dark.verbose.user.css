@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.803
+@version		1.48.804
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -14608,6 +14608,29 @@
 	
 	.list_search_post .item.multi_pic .plus_thumbnail_list {
 		background-color: #404040;
+	}
+	
+	.ugc_login .login_common {
+		position: relative;
+		width: 55px;
+		margin-right: 40px;
+	}
+	
+	.ugc_login .login_common em {
+		position: absolute;
+		right: -41px;
+		/*right: -1px;*/
+		white-space: nowrap;
+		top: -2px;
+		font-size: 13.5px;
+		color: #fff;
+		font-weight: bold;
+		display: block;
+		line-height: initial;
+	}
+	
+	.ugc_login .top_text, .ugc_login .sign_in a, .ugc_login .info_find a {
+		color: #cacaca;
 	}
 }
 

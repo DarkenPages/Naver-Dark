@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.804
+@version		1.48.805
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -3295,7 +3295,7 @@
     .login { border-bottom: 1px solid #404040 }
     .login_wrap { border: 1px solid #404040;border-bottom: none;background: #2f2f2f }
 }
-@-moz-document url-prefix("https://nid.naver.com/nidlogin.login") {
+@-moz-document url-prefix("https://nid.naver.com/nidlogin.login"), url-prefix("https://nid.naver.com/oauth2.0/authorize") {
     :root .lang::after { pointer-events: none;background-image: none }
     .bar { background: #404040 }
     .btn_done { border: 1px solid #404040;background-color: #2f2f2f }
@@ -3307,7 +3307,7 @@
     .btn_login.btn_login_v2 { position: relative }
     .btn_login.btn_login_v2:before { transform: translate(-50%, -50%);top: 50%;position: absolute;pointer-events: none;left: 50%;font-weight: bold;font-size: 20px;content: '확인';color: #242424 }
     .btn_qronce_cancel { color: #cacaca;border: 1px solid #404040;background-color: #242424 }
-    .captcha .captcha_txt,.once_wrap .title,.once_wrap .title_once,.velid_inner .title,.qr_once_area .txt,.qr_once_inner .title,.rest_time .txt { color: #fff }
+    .captcha .captcha_txt,.once_wrap .title,.once_wrap .title_once,.velid_inner .title,.qr_once_area .txt,.qr_once_inner .title,.rest_time .txt,.title p .sevice { color: #fff }
     .country_code .sel_value { filter: invert(86%) }
     .error_chatbot .chatbot_box,.qr_img,.tab_m,#header .lang,html[lang=en] .qr_once_area .item_btn,html[lang=zh-Hans] .qr_once_area .item_btn,html[lang=zh-Hant] .qr_once_area .item_btn { border: 1px solid #404040 }
     .find_info { color: #cacaca;border-top: 1px solid #404040 }
@@ -3338,12 +3338,15 @@
 }
 @-moz-document url-prefix("https://nid.naver.com/oauth2.0/authorize") {
     .access_logo img { border-radius: 22.5%;background: #fff }
+    .agree_all+.agree_all,.inform_agree_inner { border-top: 1px solid #404040 }
+    .agree_check_box .all_txt,.inform_agree_inner .desc .txt_bold,.inform_agree_inner .desc .txt_bold2,.inform_agree_inner .desc strong,.txt_bold,#footer address a { color: #fff }
+    .bg_whole,.notify_area { background: #242424 }
     .btn_unit_off,.btn_unit_on { color: #242424 }
+    .inform_agree_area .item_basic,.inform_agree_area .item_com,.inform_agree_area .item_desc,.inform_agree_area .item_need,.inform_agree_inner .desc,.oauth_personal .tit,.u_cr,.u_cra,#footer a,#footer a:visited { color: #cacaca }
+    .notify_box { border: 1px solid #404040;background-color: #2f2f2f }
     .oauth_personal { color: #cacaca;border: 1px solid #404040;background-color: #2f2f2f }
-    .oauth_personal .tit,#footer a,#footer a:visited { color: #cacaca }
     .oauth_user_pop { filter: invert(86%) hue-rotate(-180deg) }
-    .txt_bold,#footer address a { color: #fff }
-    #footer ul li:before { background-color: #404040 }
+    .u_cri_v1::before,#footer ul li:before { background-color: #404040 }
     body { color: #cacaca;background: #242424 }
 }
 @-moz-document url-prefix("https://nid.naver.com/user2/campaign") {
@@ -3366,7 +3369,7 @@
     .box_inn .label_rd,.box_inn .label_txt { color: #cacaca !important }
     .box_inn+.box_inn { border-top: 1px solid #404040 !important }
     .box6 { border: 1px solid #404040 !important }
-    .box6 h3,.c_header h2,.section_home h2,.copyright a,.list_id .label_rd,.sh_lst .nic_desc,.sh_lst dt,.spc_header h2,.tbl_model .contxt_tit { color: #fff }
+    .box6 h3,.c_header h2,.section_home h2,.copyright a,.list_id .label_rd,.sh_lst .nic_desc,.sh_lst dt,.spc_header h2,.sh_lst2 .logoff_desc .contxt,.tbl_model .contxt_tit { color: #fff }
     .btn_checkid,.btn_confirm2,.btn_ct,.btn_login,.btn_next2,.btn_prev,.country_code .sel_value,.dash,.edge,.ico_arr,.ico_arr2,.ico_help2,.btn_next_s,.nudge_close,.find_id_list li,.ico_new,.input_box,.profile_photo .mask,.sh_lst .pic_desc .img_frame,#content .content_header h2 img { filter: invert(86%) hue-rotate(-180deg) }
     .btn_file label .btn2,.btn_model[href] .btn2,.captcha_member .spc_row input[type=text],.connect_info li,.section_secretid>.contxt,.sh_lst2 dt,.sh_lst3 dt,.sns_title,.ssi_group h3,.ssi_group2>.contxt,.tbl_model .contxt_tit2,.tbl_model .contxt_webctrl .country_code,.tbl_sns td a,.c_header .contxt,.list_txt,.captcha_box>a,.captcha_member .captcha_txt,.spc_header .contxt,.desc_sub,.sh_content>.contxt,.help .txt p,.help .txt p>.ex,.help .txt p>span,.help .txt p>span:first-child,.open+.contxt_guide_help,.tbl_model .contxt_guide,.policy_lst li a,.ssi_group .contxt,.tbl_model .contxt_desc,.tbl_model .contxt_desc3,.tbl_model .contxt_desc2,#footer address,#lnb_area .lnb ul li a,.list_id span { color: #cacaca }
     .btn_findpw { box-sizing: border-box;border: 1px solid #404040;border-radius: 2px;background: none;background-color: #242424 }
@@ -3395,6 +3398,7 @@
     .help .txt p img,.left .arrow { filter: invert(81.5%) hue-rotate(-180deg) }
     .link_wrap .btn_connect { border: 1px solid #404040;background-color: #242424 }
     .sh_lst2 .link_area,.spc_content [class^=spc_row],.tbl_model .contxt_webctrl .country_code_w { border: 1px solid #404040 }
+    .sh_lst2 .selbox { filter: invert(86%) hue-rotate(-180deg);color: initial;border-color: initial }
     .sh_lst2 dd,.sh_lst3 dd,.spc_content [class^=spc_row] input[type=password],.spc_row .txt_userid { color: #cacaca;background: #242424 }
     .tab_viewrecord a { color: #cacaca;border: 1px solid #404040;border-bottom-color: #404040;background: #2f2f2f }
     .tab_viewrecord a.on { color: #fff;border: 1px solid #404040;background-color: #242424 }
@@ -4374,7 +4378,7 @@
     .popup_buddy .area_layer .button_resend,.wrap_my_information .area_layer .button_resend { color: #cacaca;border-color: #404040 }
     .spot .button:hover { color: #c2c2c2;border: 1px solid #4c4c4c;background-color: #2c2c2c }
     .ugc_login .login_common { width: 55px;position: relative;margin-right: 40px }
-    .ugc_login .login_common em { white-space: nowrap;top: -2px;line-height: initial;font-weight: bold;font-size: 13.5px;display: block;color: #fff }
+    .ugc_login .login_common em { white-space: nowrap;top: -2px;right: -41px;position: absolute;line-height: initial;font-weight: bold;font-size: 13.5px;display: block;color: #fff }
     .wrap_my_information .area_guide,.wrap_my_information .area_link,.wrap_my_information .area_notice { border: solid #404040;border-width: 0 1px 1px }
     .wrap_my_information .area_keyword { border: 1px solid #404040;border-top-width: 0 }
     .wrap_my_information .area_keyword .text { color: #888 }

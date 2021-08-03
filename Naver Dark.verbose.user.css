@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.804
+@version		1.48.805
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -10993,6 +10993,16 @@
 	.tbl_model .contxt_desc2 {
 		color: #cacaca;
 	}
+	
+	.sh_lst2 .selbox {
+		color: initial;
+		border-color: initial;
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.sh_lst2 .logoff_desc .contxt {
+		color: #fff;
+	}
 }
 
 @-moz-document url-prefix("https://nid.naver.com/user2/help/realNameCheck"), url-prefix("https://nid.naver.com/user2/rncheck")
@@ -14619,7 +14629,6 @@
 	.ugc_login .login_common em {
 		position: absolute;
 		right: -41px;
-		/*right: -1px;*/
 		white-space: nowrap;
 		top: -2px;
 		font-size: 13.5px;
@@ -14634,7 +14643,7 @@
 	}
 }
 
-@-moz-document url-prefix("https://nid.naver.com/nidlogin.login")
+@-moz-document url-prefix("https://nid.naver.com/nidlogin.login"), url-prefix("https://nid.naver.com/oauth2.0/authorize")
 {
 	body {
 		background: #242424;
@@ -14918,6 +14927,10 @@
 		width: calc(100% - 22px);
 		height: 16px;
 		padding: 15px 11px 15px 11px;
+	}
+	
+	.title p .sevice {
+		color: #fff;
 	}
 }
 
@@ -23680,6 +23693,10 @@
 		color: #cacaca;
 	}
 	
+	.bg_whole {
+		background: #242424;
+	}
+	
 	body {
 		color: #cacaca;
 		background: #242424;
@@ -23704,6 +23721,47 @@
 	.access_logo img {
 		background: #fff;
 		border-radius: 22.5%;
+	}
+	
+	.notify_area {
+		background: #242424;
+	}
+	
+	.notify_box {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.agree_check_box .all_txt {
+		color: #fff;
+	}
+	
+	.agree_all+.agree_all {
+		border-top: 1px solid #404040;
+	}
+	
+	.inform_agree_inner {
+		border-top: 1px solid #404040;
+	}
+	
+	.inform_agree_inner .desc .txt_bold, .inform_agree_inner .desc strong, .inform_agree_inner .desc .txt_bold2 {
+		color: #fff;
+	}
+	
+	.inform_agree_inner .desc {
+		color: #cacaca;
+	}
+	
+	.u_cr, .u_cra {
+		color: #cacaca;
+	}
+	
+	.u_cri_v1::before {
+		background-color: #404040;
+	}
+	
+	.inform_agree_area .item_basic, .inform_agree_area .item_com, .inform_agree_area .item_desc, .inform_agree_area .item_need {
+		color: #cacaca;
 	}
 }
 

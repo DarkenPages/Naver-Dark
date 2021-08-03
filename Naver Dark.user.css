@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.805
+@version		1.48.806
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -3602,8 +3602,10 @@
 }
 @-moz-document url-prefix("https://noti.naver.com"), url-prefix("https://myfeed.naver.com"), url-prefix("https://me.naver.com/tab/news.nhn"), url-prefix("https://me.naver.com") {
     .con_desc .frm_svc span { color: #cacaca;border-left: 1px solid #404040 }
+    .con_desc .frm_svc span.h_title a,.con_desc .frm_svc span.h_title a:link,.nlst_checked a,.nlst_checked a:link,.nlst_checked dt,.nlst_checked em,.nlst_checked strong,.tx_tooltip .bubble_content .from_obj dd,.tx_tooltip .bubble_content .from_obj dd a,.tx_tooltip .bubble_content .from_obj dd a:link { color: #fff !important }
+    .con_desc .frm_svc span.h_title a:visited,.nlst_checked a:visited,.tx_tooltip .bubble_content .from_obj dd a:visited { color: #cacaca !important }
     .con_desc .lst_type1 .thumbs_tx a,.con_desc .lst_type2 .rgt_dsc .fd_cont a,.control_box.alarm .svc_symb em,.rgt_zone .result_list li a,.footer_contents p,.lft_zone .svc_name .subscribe_list ul > li a,.lft_zone .svc_name .svc_list ul > li a,.loading_tx p,.no_result .result_con { color: #cacaca }
-    .control_box.alarm .lft_zone .svc_name span strong,.envmt_cont .control_box h4,.footer_contents p a,.lft_area h3 a,.no_result .h_no_result,.lft_zone .svc_name span.on strong,.rgt_zone .ctrl_delegate .lst_option label,.rgt_zone .ctrl_delegate .lst_option2 label,.lst_obj .con_desc h4 a,.snb > li a { color: #fff }
+    .control_box.alarm .lft_zone .svc_name span strong,.envmt_cont .control_box h4,.footer_contents p a,.lft_area h3 a,.no_result .h_no_result,.lft_zone .svc_name span.on strong,.rgt_zone .ctrl_delegate .lst_option label,.rgt_zone .ctrl_delegate .lst_option2 label,.lst_obj .con_desc h4,.lst_obj .con_desc h4 a,.snb > li a { color: #fff }
     .control_box.alarm .rgt_zone .result_list ul > li { border-top: 1px solid #404040 }
     .control_box.alarm .rgt_zone .result_list ul,.lft_area h3,.lft_zone .svc_name .subscribe_list ul > li,.lft_zone .svc_name .svc_list ul > li { border-bottom: 1px solid #404040 }
     .control_box.alarm .svc_name dt { background: #404040 }
@@ -3625,7 +3627,7 @@
     .lst_obj .thumb a,.tx_tooltip .thumb .alarm,.tx_tooltip .thumb a,.me_menu1 .contents,.rgt_zone .result_list .env_modal,body,head,html { background: #242424 }
     .ly_ic_loading { filter: invert(88%) hue-rotate(-180deg) }
     .nlst_checked .tx_tooltip .bubble_content .tx_width .alarm_tx { color: #000 }
-    .nlst_checked a,.nlst_checked dt,.nlst_checked em,.nlst_checked strong,.tx_tooltip .bubble_content .from_obj dd,.tx_tooltip .bubble_content .from_obj dd a { color: #fff !important;color: #000 !important }
+    .nlst_checked a,.nlst_checked dt,.nlst_checked em,.nlst_checked strong,.tx_tooltip .bubble_content .from_obj dd,.tx_tooltip .bubble_content .from_obj dd a { color: #000 !important }
     .notice_ftr { background-color: #2f2f2f }
     .notice_ftr li a { color: #7c8ca2 }
     .rgt_zone .ctrl_delegate .lst_option span { color: #cacaca;border-left: 1px solid #4f4f4f }

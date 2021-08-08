@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.809
+@version		1.48.810
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -65582,6 +65582,65 @@
 		height: 100%;
 		pointer-events: none;
 		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_common_module .league_schedule .middle_title {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_common_module .league_schedule .match_content .match_list .team_score {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .league_schedule .match_wrap.type_olympics .match_content .match_list .team_score {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .league_schedule .match_content.end .match_btn {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .league_schedule .match_content .match_btn .state_icon {
+		filter: invert(79.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_common_module .league_schedule .match_content .match_list .team_score.on {
+		color: #fff !important;
+	}
+	
+	.cs_common_module .middle_title .more_link:hover:after {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_common_module .ranking_table table thead th {
+		color: #fff;
+		background-color: #3a3a3a;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_common_module .ranking_table table {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_common_module .ranking_table table tbody tr td {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .ranking_table table tbody tr+tr {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_common_module .ranking_table table tbody tr.hilight {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_common_module .ranking_table.type_olympics tbody tr.korea td {
+		color: #fff;
+	}
+	
+	.cs_common_module .box_card_image_list .info_box .main_info .info_txt {
+		color: #cacaca;
 	}
 }
 

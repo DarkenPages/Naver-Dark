@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.810
+@version		1.48.816
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -57519,11 +57519,6 @@
 		color: #cacaca;
 	}
 	
-	.api_group_option_filter {
-		border: 1px solid #404040;
-		background-color: #2f2f2f;
-	}
-	
 	.api_group_option_filter .option_area.type_sort .item[aria-selected=true] {
 		color: #fff;
 	}
@@ -61684,287 +61679,287 @@
 		background: #ffffff;
 	}
 	
-	.cs_calculator .tab {
-		border: 1px solid #404040;
-		border-bottom: none;
-	}
+	/*.cs_calculator .tab {*/
+	/*	border: 1px solid #404040;*/
+	/*	border-bottom: none;*/
+	/*}*/
 	
-	.cs_calculator .cs_box {
-		border: 1px solid #404040;
-	}
+	/*.cs_calculator .cs_box {*/
+	/*	border: 1px solid #404040;*/
+	/*}*/
 	
-	.cs_calculator .tab ul li a {
-		color: #cacaca;
-	}
+	/*.cs_calculator .tab ul li a {*/
+	/*	color: #cacaca;*/
+	/*}*/
 	
-	.cs_calculator .tab ul li {
-		background: none;
-	}
+	/*.cs_calculator .tab ul li {*/
+	/*	background: none;*/
+	/*}*/
 	
-	.cs_calculator .cs_box .cal {
-		background-color: #2f2f2f;
-		color: #cacaca;
-	}
+	/*.cs_calculator .cs_box .cal {*/
+	/*	background-color: #2f2f2f;*/
+	/*	color: #cacaca;*/
+	/*}*/
 	
-	.cs_calculator .cs_box .desc {
-		border-top: 1px solid #404040;
-	}
+	/*.cs_calculator .cs_box .desc {*/
+	/*	border-top: 1px solid #404040;*/
+	/*}*/
 	
-	.cs_calculator p.info {
-		background: none;
-		color: #cacaca;
-		position: relative;
-	}
+	/*.cs_calculator p.info {*/
+	/*	background: none;*/
+	/*	color: #cacaca;*/
+	/*	position: relative;*/
+	/*}*/
 	
-	.cs_calculator p.info:before {
-		background: url(https://ssl.pstatic.net/sstatic/keypage/lifesrch/weather/img/ico_info.gif) 0 10px no-repeat;
-		content: '';
-		position: absolute;
-		left: 0;
-		top: 0;
-		width: 100%;
-		height: 100%;
-		filter: invert(81.5%) hue-rotate(-180deg);
-		pointer-events: none;
-	}
+	/*.cs_calculator p.info:before {*/
+	/*	background: url(https://ssl.pstatic.net/sstatic/keypage/lifesrch/weather/img/ico_info.gif) 0 10px no-repeat;*/
+	/*	content: '';*/
+	/*	position: absolute;*/
+	/*	left: 0;*/
+	/*	top: 0;*/
+	/*	width: 100%;*/
+	/*	height: 100%;*/
+	/*	filter: invert(81.5%) hue-rotate(-180deg);*/
+	/*	pointer-events: none;*/
+	/*}*/
 	
-	.cs_calculator .cs_box .desc p {
-		color: #cacaca;
-	}
+	/*.cs_calculator .cs_box .desc p {*/
+	/*	color: #cacaca;*/
+	/*}*/
 	
-	.cs_calculator .section_more .go_site {
-		background: none;
-		position: relative;
-	}
+	/*.cs_calculator .section_more .go_site {*/
+	/*	background: none;*/
+	/*	position: relative;*/
+	/*}*/
 	
-	.cs_calculator .section_more .go_site:before {
-		background: url(https://ssl.pstatic.net/sstatic/search/img/sprite_bullet.gif) 100% -313px no-repeat;
-		content: '';
-		position: absolute;
-		left: 0;
-		top: 0;
-		width: 100%;
-		height: 100%;
-		filter: invert(81.5%) hue-rotate(-180deg);
-		pointer-events: none;
-	}
+	/*.cs_calculator .section_more .go_site:before {*/
+	/*	background: url(https://ssl.pstatic.net/sstatic/search/img/sprite_bullet.gif) 100% -313px no-repeat;*/
+	/*	content: '';*/
+	/*	position: absolute;*/
+	/*	left: 0;*/
+	/*	top: 0;*/
+	/*	width: 100%;*/
+	/*	height: 100%;*/
+	/*	filter: invert(81.5%) hue-rotate(-180deg);*/
+	/*	pointer-events: none;*/
+	/*}*/
 	
-	.cs_calculator .cs_box .cal .input_text, .cs_calculator .cs_box .cal .input_text2 {
-		border: 1px solid #404040;
-		color: #cacaca;
-		background: #242424;
-	}
+	/*.cs_calculator .cs_box .cal .input_text, .cs_calculator .cs_box .cal .input_text2 {*/
+	/*	border: 1px solid #404040;*/
+	/*	color: #cacaca;*/
+	/*	background: #242424;*/
+	/*}*/
 	
-	.cs_calculator .cs_box .cal .input_text.end, .cs_calculator .cs_box .cal .input_text2.end {
-		color: #cacaca !important;
-	}
+	/*.cs_calculator .cs_box .cal .input_text.end, .cs_calculator .cs_box .cal .input_text2.end {*/
+	/*	color: #cacaca !important;*/
+	/*}*/
 	
-	.cs_calculator .cs_box .cal .s4 .input_text {
-		background: #242424 url(https://ssl.pstatic.net/sstatic/keypage/lifesrch/calculator/img/sprite_cal_20110921.gif) -456px -430px no-repeat
-	}
+	/*.cs_calculator .cs_box .cal .s4 .input_text {*/
+	/*	background: #242424 url(https://ssl.pstatic.net/sstatic/keypage/lifesrch/calculator/img/sprite_cal_20110921.gif) -456px -430px no-repeat*/
+	/*}*/
 	
-	.cs_calculator .cs_box .cal .s5 .input_text {
-		background: #242424 url(https://ssl.pstatic.net/sstatic/keypage/lifesrch/calculator/img/sprite_cal_20110921.gif) -456px -470px no-repeat;
-	}
+	/*.cs_calculator .cs_box .cal .s5 .input_text {*/
+	/*	background: #242424 url(https://ssl.pstatic.net/sstatic/keypage/lifesrch/calculator/img/sprite_cal_20110921.gif) -456px -470px no-repeat;*/
+	/*}*/
 	
-	.cs_calculator .cs_box .cal .s7 .input_text {
-		background: #242424 url(https://ssl.pstatic.net/sstatic/keypage/lifesrch/calculator/img/sprite_cal_20110921.gif) -484px -553px no-repeat;
-	}
+	/*.cs_calculator .cs_box .cal .s7 .input_text {*/
+	/*	background: #242424 url(https://ssl.pstatic.net/sstatic/keypage/lifesrch/calculator/img/sprite_cal_20110921.gif) -484px -553px no-repeat;*/
+	/*}*/
 	
-	.cs_calculator .cs_box button, .cs_calculator .cs_box .cs_btn, .cs_calculator .cs_box .btn_to_date {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
+	/*.cs_calculator .cs_box button, .cs_calculator .cs_box .cs_btn, .cs_calculator .cs_box .btn_to_date {*/
+	/*	filter: invert(86%) hue-rotate(-180deg);*/
+	/*}*/
 	
-	.cs_calculator .tab ul li.selected a {
-		background: none;
-		position: relative;
-		color: #fff;
-	}
+	/*.cs_calculator .tab ul li.selected a {*/
+	/*	background: none;*/
+	/*	position: relative;*/
+	/*	color: #fff;*/
+	/*}*/
 	
-	.cs_calculator .tab ul li.selected a:before {
-		background: url(https://ssl.pstatic.net/sstatic/keypage/lifesrch/calculator/img/sprite_cal_20110921.gif) 9px -362px no-repeat;
-		content: '';
-		position: absolute;
-		left: 0;
-		top: 0;
-		width: 100%;
-		height: 100%;
-		filter: invert(81.5%) hue-rotate(-180deg);
-		pointer-events: none;
-	}
+	/*.cs_calculator .tab ul li.selected a:before {*/
+	/*	background: url(https://ssl.pstatic.net/sstatic/keypage/lifesrch/calculator/img/sprite_cal_20110921.gif) 9px -362px no-repeat;*/
+	/*	content: '';*/
+	/*	position: absolute;*/
+	/*	left: 0;*/
+	/*	top: 0;*/
+	/*	width: 100%;*/
+	/*	height: 100%;*/
+	/*	filter: invert(81.5%) hue-rotate(-180deg);*/
+	/*	pointer-events: none;*/
+	/*}*/
 	
-	.cs_calculator .cs_box .desc .obesity .obesity_box_inner {
-		border-bottom: 1px solid #404040;
-		border-right: 1px solid #404040;
-		background-color: #242424;
-	}
+	/*.cs_calculator .cs_box .desc .obesity .obesity_box_inner {*/
+	/*	border-bottom: 1px solid #404040;*/
+	/*	border-right: 1px solid #404040;*/
+	/*	background-color: #242424;*/
+	/*}*/
 	
-	.cs_calculator .cs_box .desc .obesity .obesity_box_inner .obesity_layer {
-		border-color: #404040;
-	}
+	/*.cs_calculator .cs_box .desc .obesity .obesity_box_inner .obesity_layer {*/
+	/*	border-color: #404040;*/
+	/*}*/
 	
-	.cs_calculator .cs_box .desc .obesity .obesity_box_inner .obesity_layer p {
-		color: #cacaca;
-	}
+	/*.cs_calculator .cs_box .desc .obesity .obesity_box_inner .obesity_layer p {*/
+	/*	color: #cacaca;*/
+	/*}*/
 	
-	.cs_calculator .cs_box .desc .obesity .obesity_box_inner .obesity_layer p em {
-		color: #fff;
-	}
+	/*.cs_calculator .cs_box .desc .obesity .obesity_box_inner .obesity_layer p em {*/
+	/*	color: #fff;*/
+	/*}*/
 	
-	.cs_calculator .cs_box .desc .obesity .obesity_box span {
-		filter: invert(81.5%) hue-rotate(-180deg);
-	}
+	/*.cs_calculator .cs_box .desc .obesity .obesity_box span {*/
+	/*	filter: invert(81.5%) hue-rotate(-180deg);*/
+	/*}*/
 	
-	.cs_calculator .cs_box .obesity_bar ul li em {
-		color: #cacaca;
-	}
+	/*.cs_calculator .cs_box .obesity_bar ul li em {*/
+	/*	color: #cacaca;*/
+	/*}*/
 	
-	.cs_calculator .cs_box .desc2 .lst_about li, .cs_calculator .cs_box .desc2 .lst_about li em {
-		color: #cacaca;
-	}
+	/*.cs_calculator .cs_box .desc2 .lst_about li, .cs_calculator .cs_box .desc2 .lst_about li em {*/
+	/*	color: #cacaca;*/
+	/*}*/
 	
-	.cs_calculator .cs_box select {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
+	/*.cs_calculator .cs_box select {*/
+	/*	filter: invert(86%) hue-rotate(-180deg);*/
+	/*}*/
 	
-	.cs_calculator .cs_box .cal_top label.label_f {
-		color: #cacaca;
-	}
+	/*.cs_calculator .cs_box .cal_top label.label_f {*/
+	/*	color: #cacaca;*/
+	/*}*/
 	
-	.cs_calculator .cs_box img {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
+	/*.cs_calculator .cs_box img {*/
+	/*	filter: invert(86%) hue-rotate(-180deg);*/
+	/*}*/
 	
-	.cs_calculator .cs_box .cal .cal_tb {
-		border: 1px solid #404040;
-		border-width: 0 1px 1px 0;
-	}
+	/*.cs_calculator .cs_box .cal .cal_tb {*/
+	/*	border: 1px solid #404040;*/
+	/*	border-width: 0 1px 1px 0;*/
+	/*}*/
 	
-	.cs_calculator .cs_box .cal .cal_tb table th {
-		border: 1px solid #404040;
-		border-width: 1px 0 1px 1px;
-		background-color: #3a3a3a;
-		color: #cacaca;
-	}
+	/*.cs_calculator .cs_box .cal .cal_tb table th {*/
+	/*	border: 1px solid #404040;*/
+	/*	border-width: 1px 0 1px 1px;*/
+	/*	background-color: #3a3a3a;*/
+	/*	color: #cacaca;*/
+	/*}*/
 	
-	.cs_calculator .cs_box .cal .cal_tb table td {
-		border: 1px solid #404040;
-		border-width: 0 0 1px 1px;
-		background-color: #2f2f2f;
-	}
+	/*.cs_calculator .cs_box .cal .cal_tb table td {*/
+	/*	border: 1px solid #404040;*/
+	/*	border-width: 0 0 1px 1px;*/
+	/*	background-color: #2f2f2f;*/
+	/*}*/
 	
-	.cs_calculator .cs_box .cal .cal_tb table .over td {
-		background-color: #3a3a3a;
-	}
+	/*.cs_calculator .cs_box .cal .cal_tb table .over td {*/
+	/*	background-color: #3a3a3a;*/
+	/*}*/
 	
-	.cs_calculator .cs_box .cal_result {
-		border-top: 1px solid #404040;
-		background-color: #3a3a3a;
-	}
+	/*.cs_calculator .cs_box .cal_result {*/
+	/*	border-top: 1px solid #404040;*/
+	/*	background-color: #3a3a3a;*/
+	/*}*/
 	
-	.cs_calculator .cs_box .cal_result .credit dt {
-		color: #fff !important;
-	}
+	/*.cs_calculator .cs_box .cal_result .credit dt {*/
+	/*	color: #fff !important;*/
+	/*}*/
 	
-	.cs_calculator .cs_box .cal_result .credit_chg dt {
-		color: #cacaca !important;
-		margin-left: 5px;
-	}
+	/*.cs_calculator .cs_box .cal_result .credit_chg dt {*/
+	/*	color: #cacaca !important;*/
+	/*	margin-left: 5px;*/
+	/*}*/
 	
-	.cs_calculator .cs_box .cal_result .credit_chg {
-		margin: 0 auto 0px;
-	}
+	/*.cs_calculator .cs_box .cal_result .credit_chg {*/
+	/*	margin: 0 auto 0px;*/
+	/*}*/
 	
-	.cs_calculator .cs_box .cal_result .credit_chg dd strong {
-		color: #fff;
-	}
+	/*.cs_calculator .cs_box .cal_result .credit_chg dd strong {*/
+	/*	color: #fff;*/
+	/*}*/
 	
-	.cs_calculator .cs_box .cal_result strong {
-		color: #fff;
-	}
+	/*.cs_calculator .cs_box .cal_result strong {*/
+	/*	color: #fff;*/
+	/*}*/
 	
-	.cs_calculator .cs_box ul li .ly_help {
-		border: 1px solid #404040;
-		background: #242424;
-		color: #cacaca;
-	}
+	/*.cs_calculator .cs_box ul li .ly_help {*/
+	/*	border: 1px solid #404040;*/
+	/*	background: #242424;*/
+	/*	color: #cacaca;*/
+	/*}*/
 	
-	.cs_calculator .calculator_area {
-		border-left: 1px solid #404040;
-	}
+	/*.cs_calculator .calculator_area {*/
+	/*	border-left: 1px solid #404040;*/
+	/*}*/
 	
-	.cs_calculator .calculator_area td {
-		border: 1px solid #404040;
-		border-width: 1px 0 0 1px;
-	}
+	/*.cs_calculator .calculator_area td {*/
+	/*	border: 1px solid #404040;*/
+	/*	border-width: 1px 0 0 1px;*/
+	/*}*/
 	
-	.cs_calculator .calculator_area td div {
-		background-color: #2f2f2f;
-	}
+	/*.cs_calculator .calculator_area td div {*/
+	/*	background-color: #2f2f2f;*/
+	/*}*/
 	
-	.cs_calculator .calculator_area td div.over {
-		border: 1px solid #4f4f4f;
-	}
+	/*.cs_calculator .calculator_area td div.over {*/
+	/*	border: 1px solid #4f4f4f;*/
+	/*}*/
 	
-	.cs_calculator .calculator_area td:not(.bt_run_td) div:not(.over) button {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
+	/*.cs_calculator .calculator_area td:not(.bt_run_td) div:not(.over) button {*/
+	/*	filter: invert(86%) hue-rotate(-180deg);*/
+	/*}*/
 	
-	.cs_calculator .calculator_area .mode {
-		border-top: 1px solid #242424;
-		border-right: 1px solid #404040;
-		border-left: 1px solid #242424;
-		background-color: #242424;
-	}
+	/*.cs_calculator .calculator_area .mode {*/
+	/*	border-top: 1px solid #242424;*/
+	/*	border-right: 1px solid #404040;*/
+	/*	border-left: 1px solid #242424;*/
+	/*	background-color: #242424;*/
+	/*}*/
 	
-	.cs_calculator .calculator_area table {
-		border-bottom: 1px solid #404040;
-		border-right: 1px solid #404040;
-	}
+	/*.cs_calculator .calculator_area table {*/
+	/*	border-bottom: 1px solid #404040;*/
+	/*	border-right: 1px solid #404040;*/
+	/*}*/
 	
-	.cs_calculator .calculator_area td.bt_run_td div {
-		border: 1px solid #404040;
-	}
+	/*.cs_calculator .calculator_area td.bt_run_td div {*/
+	/*	border: 1px solid #404040;*/
+	/*}*/
 	
-	.cs_calculator .result {
-		border: 1px solid #404040;
-		background-color: #242424;
-	}
+	/*.cs_calculator .result {*/
+	/*	border: 1px solid #404040;*/
+	/*	background-color: #242424;*/
+	/*}*/
 	
-	.cs_calculator .result_section2 {
-		border-top: 1px solid #404040;
-		border-left: 1px solid #242424;
-		background-color: #242424;
-	}
+	/*.cs_calculator .result_section2 {*/
+	/*	border-top: 1px solid #404040;*/
+	/*	border-left: 1px solid #242424;*/
+	/*	background-color: #242424;*/
+	/*}*/
 	
-	.cs_calculator .result_section1 textarea {
-		border: 0;
-		border-top: 1px solid #242424;
-		border-bottom: 1px solid #242424;
-		border-left: 1px solid #242424;
-		background-color: #242424;
-		color: #fff;
-	}
+	/*.cs_calculator .result_section1 textarea {*/
+	/*	border: 0;*/
+	/*	border-top: 1px solid #242424;*/
+	/*	border-bottom: 1px solid #242424;*/
+	/*	border-left: 1px solid #242424;*/
+	/*	background-color: #242424;*/
+	/*	color: #fff;*/
+	/*}*/
 	
-	.cs_calculator .result_section1 textarea.action {
-		border-top-color: #242424;
-		border-left-color: #242424;
-		background-color: #242424;
-	}
+	/*.cs_calculator .result_section1 textarea.action {*/
+	/*	border-top-color: #242424;*/
+	/*	border-left-color: #242424;*/
+	/*	background-color: #242424;*/
+	/*}*/
 	
-	.cs_calculator .result_section1 .history {
-		border-top: 1px solid #242424;
-		border-bottom: 1px solid #404040;
-		border-left: 1px solid #242424;
-	}
+	/*.cs_calculator .result_section1 .history {*/
+	/*	border-top: 1px solid #242424;*/
+	/*	border-bottom: 1px solid #404040;*/
+	/*	border-left: 1px solid #242424;*/
+	/*}*/
 	
-	.cs_calculator .result_section1 .history p.last {
-		color: #fff;
-	}
+	/*.cs_calculator .result_section1 .history p.last {*/
+	/*	color: #fff;*/
+	/*}*/
 	
-	.cs_calculator .result_section1 .history p {
-		color: #cacaca;
-	}
+	/*.cs_calculator .result_section1 .history p {*/
+	/*	color: #cacaca;*/
+	/*}*/
 	
 	.cs_common_module .info_check_area {
 		border-top: 1px solid #404040;
@@ -65342,18 +65337,6 @@
 		color: #fff;
 	}
 	
-	.sp_nreview .total_tit, .sp_nreview .total_link_area .link, .sp_ntotal .total_tit .link_tit, .sp_nbook .book_info .title_area, .sp_nbook .list_info a.item_info, .sp_nvideo .video_default_list .video_bx .info_area .info_title, .go_relate a, .sp_ntotal .group_item .list_item .item a, .sp_nvideo .video_scroll_list .info_area .info_title, ._3tIZ6 ._2LKql ._3CKdL, .sp_nvideo .video_square_list .square_wrap .info_area .info_title, .sp_nrealtime .nrealtime_list .nrealtime_item .item_info .desc_tit, .sp_nblog .total_tit, .sp_ncafe .total_tit, .sp_nsite .link_name, .sp_nsite .sublink_wrap .sublink .item a, .cs_produce a, .cs_produce .prcs_detail h4 a, .ad_section .lst_type .lst .lnk_tit, .ad_section .lst_type .lst.type_subtitle .sub_tit, .api_ly_info .link, .ad_section .lst_type .lst.ext_price .lst_price .txt_inner, .ad_section .lst_type .lst.ext_link .lst_link .item .link, .sp_ndicstudy .word_lst .word, .sp_nrealtime .api_title .btn_new, .sp_ndic .dic_more .dic_link, .sp_ndic .dic_more_link .count, .sp_ndic .other_list .other_list_link, .sp_ndic .info_list a, .sp_ndic .dic_area .link_more, .sp_ndic .class_area .info_box .title, .cs_sign .tx_info.line_type a, .sp_mobile .app_eachlist a.store_wrap, .cs_newest .sct_content li .scm_ellipsis_text a, .cs_seasonal_divisions .prcs_detail h4 a, .cs_common_module a, .cs_common_module .expand_info .text_wrap a, .cs_common_module .notice_info_area a, .cs_common_module .cm_table_area .type_normal .cm_table tbody th a, .cs_sports_team a, .cs_sports_team .prcs_guide .nologo a, .cs_sports_team .prcs_guide .nologo2 a, .cs_sports_team .prcs_guide .nologo .txt, .cs_sports_team .prcs_guide .nologo2 .txt, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td .nation_name, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td.top3 p a, .cs_olympic_history .team_area .line li .player_detail dt a, .sp_ntotal .dsc_alert .link_help, .cs_production_type .csp_table_area table td a, .sp_ndic .homonym_wrap .title {
-		color: #688cda;
-	}
-	
-	.sp_nnews .news_wrap .news_tit:visited, .sp_nnews .news_wrap .news_tit:visited mark, .sp_nnews .api_title_sub .sub_link:visited, .sp_nnews .news_cluster .sub_tit:visited, .sp_nnews .news_cluster .sub_tit:visited mark, .sp_nnews .news_wrap:visited .news_tit .tit, .sp_nnews .news_wrap:visited .news_tit .tit mark, .sp_nreview .total_tit:visited, .sp_nreview .total_tit:visited mark, .sp_nreview .total_link_area .link:visited, .sp_nreview .total_link_area .link:visited mark, .sp_ntotal .total_tit .link_tit:visited, .sp_ntotal .total_tit .link_tit:visited mark, .sp_nvideo .video_default_list .video_bx .info_area .info_title:visited, .sp_nvideo .video_default_list .video_bx .info_area .info_title:visited mark, .sp_ntotal .group_item .list_item .item a:visited, .sp_ntotal .group_item .list_item .item a:visited mark, .sp_nvideo .video_scroll_list .info_area .info_title:visited, .sp_nvideo .video_scroll_list .info_area .info_title:visited mark, .sp_nkin .cluster_item:visited, .sp_nrealtime .info_desc .desc_link:visited, .sp_nrealtime .info_desc .desc_tit:visited, .sp_nrealtime .info_desc:visited .desc_tit, .sp_nrealtime .profile_link:visited .explain_tit, .sp_nblog .total_tit:visited, .sp_nblog .total_tit:visited mark, .sp_ncafe .total_tit:visited, .sp_ncafe .total_tit:visited mark, .sp_nsite .link_name:visited, .sp_nsite .link_name:visited mark, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark, .sp_nkin .kin_wrap .question_area .question_text:visited, .cs_produce .prcs_detail h4 a:visited, .cs_produce a:visited, .ad_section .lst_type .lst .lnk_tit:visited, .ad_section .lst_type .lst.type_subtitle .sub_tit:visited, .sp_company .company_more .more_info .api_ly_info .link:visited, .ad_section .lst_type .lst.ext_price .lst_price .txt_inner:visited, .ad_section .lst_type .lst.ext_link .lst_link .item .link:visited, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark {
-		color: #cc90cd;
-	}
-	
-	.sp_nsite .link_name:visited, .sp_nsite .link_name:visited mark, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark, .sp_ntotal .total_tit .link_tit:visited, .sp_ntotal .total_tit .link_tit:visited mark, .sp_ntotal .group_item .list_item .item a:visited, .sp_ntotal .group_item .list_item .item a:visited mark, .sp_ndicstudy .word_lst .word:visited, .api_subject_bx .api_title_area .api_title a:visited, .sp_nreview .total_tit:visited, .sp_nreview .total_tit:visited mark, .sp_nnews .news_wrap .news_tit:visited, .sp_nnews .news_wrap .news_tit:visited mark, .sp_ncafe_used .used_wrap .title:visited, .cs_common_module a:visited, .cs_common_module .expand_info .text_wrap a:visited, .cs_common_module .cm_table_area .type_normal .cm_table tbody th a:visited, .cs_sports_team a:visited, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td .nation_name:visited, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td.top3 p a:visited, .cs_olympic_history .team_area .line li .player_detail dt a:visited {
-		color: #cc90cd;
-	}
-	
 	.cs_vaccine_info .vaccination_status_map .inner_box path {
 		stroke: #404040 !important;
 	}
@@ -65640,6 +65623,884 @@
 	}
 	
 	.cs_common_module .box_card_image_list .info_box .main_info .info_txt {
+		color: #cacaca;
+	}
+	
+	.cs_calculator .content_wrap .inner {
+		background: #2f2f2f;
+	}
+	
+	.cs_calculator .calculator_area {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_calculator .calculator_area .calculator_box {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_calculator .calculator_area .result .formula {
+		color: #cacaca;
+	}
+	
+	.cs_calculator .calculator_area .result .formula_result {
+		color: #fff;
+	}
+	
+	.cs_calculator .calculator_area .number_tab {
+		background-image: linear-gradient(to bottom, #3a3a3a 100%, #2f2f2f 0%);
+	}
+	
+	.cs_calculator .notice_info_area, .cs_calculator .relation_box {
+		border-top: 1px solid #4f4f4f;
+	}
+	
+	.cs_calculator .notice_info_area p, .cs_calculator .relation_box dl dt {
+		color: #cacaca;
+	}
+	
+	.cs_calculator .calculator_area .history_tab::before {
+		background-image: linear-gradient(to bottom, #2f2f2f, rgba(47, 47, 47, 0));
+	}
+	
+	.cs_calculator .calculator_area .history_tab::after {
+		background-color: #4f4f4f;
+	}
+	
+	.cs_calculator .calculator_area .history_tab button[type="button"].refresh::before {
+		filter: brightness(150%);
+	}
+	
+	.cs_calculator .calculator_area .number_box td[colspan="2"] > div .type_double {
+		-webkit-box-shadow: inset 1px 1px 1px 0 #4f4f4f, inset -1px -1px 1px 0 rgba(0, 0, 0, 0.42);
+		-moz-box-shadow: inset 1px 1px 1px 0 #4f4f4f, inset -1px -1px 1px 0 rgba(0, 0, 0, 0.42);
+		-ms-box-shadow: inset 1px 1px 1px 0 #4f4f4f, inset -1px -1px 1px 0 rgba(0, 0, 0, 0.42);
+		box-shadow: inset 1px 1px 1px 0 #4f4f4f, inset -1px -1px 1px 0 rgba(0, 0, 0, 0.42);
+		background-image: linear-gradient(124deg, #3a3a3a, #4f4f4f 97%);
+	}
+	
+	.cs_calculator .calculator_area .number_box td[colspan="2"] > div .type_double:active {
+		-webkit-box-shadow: inset 1px 1px 1px 0 rgba(0, 0, 0, 0.47), inset -1px -1px 1px 0 #4f4f4f;
+		-moz-box-shadow: inset 1px 1px 1px 0 rgba(0, 0, 0, 0.47), inset -1px -1px 1px 0 #4f4f4f;
+		-ms-box-shadow: inset 1px 1px 1px 0 rgba(0, 0, 0, 0.47), inset -1px -1px 1px 0 #4f4f4f;
+		box-shadow: inset 1px 1px 1px 0 rgba(0, 0, 0, 0.47), inset -1px -1px 1px 0 #4f4f4f;
+		background-image: linear-gradient(to bottom, #404040, #3a3a3a);
+	}
+	
+	.cs_calculator .calculator_area .number_box td button[type="button"] {
+		-webkit-box-shadow: inset 1px 1px 1px 0 #4f4f4f, inset -1px -1px 1px 0 rgba(0, 0, 0, 0.42);
+		-moz-box-shadow: inset 1px 1px 1px 0 #4f4f4f, inset -1px -1px 1px 0 rgba(0, 0, 0, 0.42);
+		-ms-box-shadow: inset 1px 1px 1px 0 #4f4f4f, inset -1px -1px 1px 0 rgba(0, 0, 0, 0.42);
+		box-shadow: inset 1px 1px 1px 0 #4f4f4f, inset -1px -1px 1px 0 rgba(0, 0, 0, 0.42);
+		background-image: linear-gradient(124deg, #3a3a3a, #4f4f4f 97%);
+	}
+	
+	.cs_calculator .calculator_area .number_box td button[type="button"].main {
+		background-image: linear-gradient(122deg, #2f2f2f, #404040 97%);
+	}
+	
+	.cs_calculator .calculator_area .number_box td button[type="button"]:active {
+		-webkit-box-shadow: inset 1px 1px 1px 0 rgba(0, 0, 0, 0.47), inset -1px -1px 1px 0 #4f4f4f;
+		-moz-box-shadow: inset 1px 1px 1px 0 rgba(0, 0, 0, 0.47), inset -1px -1px 1px 0 #4f4f4f;
+		-ms-box-shadow: inset 1px 1px 1px 0 rgba(0, 0, 0, 0.47), inset -1px -1px 1px 0 #4f4f4f;
+	    box-shadow: inset 1px 1px 1px 0 rgba(0, 0, 0, 0.47), inset -1px -1px 1px 0 #4f4f4f;
+	    color: rgba(201, 201, 201, 0.5);
+	    background-image: linear-gradient(to bottom, #404040, #3a3a3a);
+	}
+	
+	.cs_calculator .calculator_area .number_box td button[type="button"]:active.main {
+	    background-image: linear-gradient(to bottom, #353535, #2f2f2f);
+	}
+	
+	.cs_calculator .calculator_area .number_box td[colspan="2"] > div .type_double::after {
+		background: #242424;
+	}
+	
+	.cs_calculator .calculator_area .number_box td button[type="button"] {
+		color: #cacaca;
+	}
+	
+	.cs_calculator .calculator_area .number_box td[colspan="2"] > div .type_double button.active {
+		color: #fff;
+	}
+	
+	.cs_calculator .calculator_area .number_box td[colspan="2"] > div .type_double button {
+		color: #999;
+	}
+	
+	.cs_calculator .calculator_area .number_box td[colspan="2"] > div .type_double:active button {
+	    color: rgba(151, 151, 151, 0.5);
+	}
+	
+	.cs_calculator .calculator_area .number_box td[colspan="2"] > div .type_double:active button.active {
+	    color: rgba(255, 255, 255, 0.5);
+	}
+	
+	.cs_calculator .calculator_area .number_box td button[type="button"].calculations::before {
+		filter: brightness(1000%);
+	}
+	
+	.cs_calculator .calculator_area .number_box td button[type="button"].calculations.equals_sign::before {
+		filter: brightness(0%);
+	}
+	
+	.cs_calculator .calculator_area .history_list .history_box {
+		background-color: #242424;
+		border: 1px solid #4f4f4f;
+	}
+	
+	.sp_ntotal .total_addition .addition_dsc_group .tit {
+		color: #cacaca;
+	}
+	
+	.sp_ntotal .total_addition .addition_dsc_group .count {
+		color: #cacaca;
+	}
+	
+	.sp_ntotal .total_addition .addition_dsc_group .dsc {
+		color: #fff;
+	}
+	
+	.sp_nreview .total_tit, .sp_nreview .total_link_area .link, .sp_ntotal .total_tit .link_tit, .sp_nbook .book_info .title_area, .sp_nbook .list_info a.item_info, .sp_nvideo .video_default_list .video_bx .info_area .info_title, .go_relate a, .sp_ntotal .group_item .list_item .item a, .sp_nvideo .video_scroll_list .info_area .info_title, ._3tIZ6 ._2LKql ._3CKdL, .sp_nvideo .video_square_list .square_wrap .info_area .info_title, .sp_nrealtime .nrealtime_list .nrealtime_item .item_info .desc_tit, .sp_nblog .total_tit, .sp_ncafe .total_tit, .sp_nsite .link_name, .sp_nsite .sublink_wrap .sublink .item a, .cs_produce a, .cs_produce .prcs_detail h4 a, .ad_section .lst_type .lst .lnk_tit, .ad_section .lst_type .lst.type_subtitle .sub_tit, .api_ly_info .link, .ad_section .lst_type .lst.ext_price .lst_price .txt_inner, .ad_section .lst_type .lst.ext_link .lst_link .item .link, .sp_ndicstudy .word_lst .word, .sp_nrealtime .api_title .btn_new, .sp_ndic .dic_more .dic_link, .sp_ndic .dic_more_link .count, .sp_ndic .other_list .other_list_link, .sp_ndic .info_list a, .sp_ndic .dic_area .link_more, .sp_ndic .class_area .info_box .title, .cs_sign .tx_info.line_type a, .sp_mobile .app_eachlist a.store_wrap, .cs_newest .sct_content li .scm_ellipsis_text a, .cs_seasonal_divisions .prcs_detail h4 a, .cs_common_module a, .cs_common_module .expand_info .text_wrap a, .cs_common_module .notice_info_area a, .cs_common_module .cm_table_area .type_normal .cm_table tbody th a, .cs_sports_team a, .cs_sports_team .prcs_guide .nologo a, .cs_sports_team .prcs_guide .nologo2 a, .cs_sports_team .prcs_guide .nologo .txt, .cs_sports_team .prcs_guide .nologo2 .txt, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td .nation_name, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td.top3 p a, .cs_olympic_history .team_area .line li .player_detail dt a, .sp_ntotal .dsc_alert .link_help, .cs_production_type .csp_table_area table td a, .sp_ndic .homonym_wrap .title, .cs_calculator .relation_box dl dd a, .cs_suneung .sn_tb .knowhow_link, .cs_delivery .rsult_box .lodg span.inque a {
+		color: #688cda;
+	}
+	
+	.sp_nnews .news_wrap .news_tit:visited, .sp_nnews .news_wrap .news_tit:visited mark, .sp_nnews .api_title_sub .sub_link:visited, .sp_nnews .news_cluster .sub_tit:visited, .sp_nnews .news_cluster .sub_tit:visited mark, .sp_nnews .news_wrap:visited .news_tit .tit, .sp_nnews .news_wrap:visited .news_tit .tit mark, .sp_nreview .total_tit:visited, .sp_nreview .total_tit:visited mark, .sp_nreview .total_link_area .link:visited, .sp_nreview .total_link_area .link:visited mark, .sp_ntotal .total_tit .link_tit:visited, .sp_ntotal .total_tit .link_tit:visited mark, .sp_nvideo .video_default_list .video_bx .info_area .info_title:visited, .sp_nvideo .video_default_list .video_bx .info_area .info_title:visited mark, .sp_ntotal .group_item .list_item .item a:visited, .sp_ntotal .group_item .list_item .item a:visited mark, .sp_nvideo .video_scroll_list .info_area .info_title:visited, .sp_nvideo .video_scroll_list .info_area .info_title:visited mark, .sp_nkin .cluster_item:visited, .sp_nrealtime .info_desc .desc_link:visited, .sp_nrealtime .info_desc .desc_tit:visited, .sp_nrealtime .info_desc:visited .desc_tit, .sp_nrealtime .profile_link:visited .explain_tit, .sp_nblog .total_tit:visited, .sp_nblog .total_tit:visited mark, .sp_ncafe .total_tit:visited, .sp_ncafe .total_tit:visited mark, .sp_nsite .link_name:visited, .sp_nsite .link_name:visited mark, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark, .sp_nkin .kin_wrap .question_area .question_text:visited, .cs_produce .prcs_detail h4 a:visited, .cs_produce a:visited, .ad_section .lst_type .lst .lnk_tit:visited, .ad_section .lst_type .lst.type_subtitle .sub_tit:visited, .sp_company .company_more .more_info .api_ly_info .link:visited, .ad_section .lst_type .lst.ext_price .lst_price .txt_inner:visited, .ad_section .lst_type .lst.ext_link .lst_link .item .link:visited, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark {
+		color: #cc90cd;
+	}
+	
+	.sp_nsite .link_name:visited, .sp_nsite .link_name:visited mark, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark, .sp_ntotal .total_tit .link_tit:visited, .sp_ntotal .total_tit .link_tit:visited mark, .sp_ntotal .group_item .list_item .item a:visited, .sp_ntotal .group_item .list_item .item a:visited mark, .sp_ndicstudy .word_lst .word:visited, .api_subject_bx .api_title_area .api_title a:visited, .sp_nreview .total_tit:visited, .sp_nreview .total_tit:visited mark, .sp_nnews .news_wrap .news_tit:visited, .sp_nnews .news_wrap .news_tit:visited mark, .sp_ncafe_used .used_wrap .title:visited, .cs_common_module a:visited, .cs_common_module .expand_info .text_wrap a:visited, .cs_common_module .cm_table_area .type_normal .cm_table tbody th a:visited, .cs_sports_team a:visited, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td .nation_name:visited, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td.top3 p a:visited, .cs_olympic_history .team_area .line li .player_detail dt a:visited, .cs_suneung .sn_tb .knowhow_link:visited, .cs_delivery .rsult_box .lodg span.inque a:visited {
+		color: #cc90cd;
+	}
+	
+	.detail_profile dd.name span {
+		color: #fff;
+	}
+	
+	.people_info .political_work .btn .prev, .people_info .political_work .btn .next {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.people_info .political_work .bx .item {
+		border: 1px solid #4f4f4f;
+	}
+	
+	.people_info .political_work .scm_ellipsis {
+		color: #cacaca;
+	}
+	
+	.people_info .political_work .sub_info {
+		border-top: 1px solid #404040;
+	}
+	
+	.people_info .political_work .sub_info .sub_dsc .nickname {
+		color: #fff;
+	}
+	
+	.people_info .political_work .sub_info .sub_dsc .userid {
+		color: #cacaca;
+	}
+	
+	.people_type table th {
+		border-left: 1px solid #4f4f4f;
+		border-bottom: 1px solid #4f4f4f;
+	}
+	
+	.people_info .election_record table thead th, .people_info .election_record table tbody td {
+		border: 1px solid #4f4f4f;
+	}
+	
+	.people_info .election_record table thead th {
+		border-top: 0;
+		background-color: #3a3a3a;
+		color: #cacaca;
+	}
+	
+	.people_info .election_record table tbody .txt {
+		color: #cacaca;
+	}
+	
+	.people_info .election_record .table_wrap {
+		border-bottom: 1px solid #4f4f4f;
+	}
+	
+	.people_info .election_record .table_info p {
+		color: #cacaca;
+	}
+	
+	.people_info .election_record .table_info .link_info {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.people_info .political_work .sub_info .sub_time a, .people_type a.sh_people_link .subt {
+		color: #cacaca;
+	}
+	
+	.people_info .election_record table tbody td {
+		border-width: 1px 1px 0 0;
+	}
+	
+	.cs_custom_list .tab_area {
+		border-bottom: 1px solid #4f4f4f;
+	}
+	
+	.cs_custom_list .tab_area.tab_v2 {
+		background-color: #3a3a3a;
+	}
+	
+	.cs_custom_list .tab_area.tab_v2 .list_tab li .menu, .cs_custom_list .tab_area .list_tab li .menu {
+		color: #cacaca;
+	}
+	
+	.cs_custom_list .list_bx .info_box_v2 .v_list li {
+		border-top: 1px solid #4f4f4f;
+	}
+	
+	.cs_custom_list .page_area {
+		border-top: 1px solid #4f4f4f;
+		background-color: #3a3a3a;
+	}
+	
+	.cs_custom_list .page_area .paging_bx a[class^=btn_page_] {
+		border: 1px solid #4f4f4f;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_custom_list .page_area .paging_bx a[class^=btn_page_] .ico_spr {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_custom_list .page_area .paging_bx .page_number {
+		color: #4f4f4f;
+	}
+	
+	.cs_custom_list .page_area .paging_bx .page_number .total {
+		color: #fff;
+	}
+	
+	.cs_suneung h4 {
+		color: #fff;
+	}
+	
+	.cs_suneung h4 {
+		border-bottom: 1px solid #4f4f4f;
+	}
+	
+	.cs_suneung .sn_summary dd {
+		color: #fff;
+	}
+	
+	.cs_suneung .tab {
+		border: 1px solid #4f4f4f;
+		border-width: 1px 1px 0;
+		background: #3a3a3a;
+	}
+	
+	.cs_suneung .tab .list_tab li a {
+		color: #cacaca;
+	}
+	
+	.cs_suneung .tab::after {
+		background-color: #4f4f4f;
+	}
+	
+	.cs_suneung .sn_tb {
+		border: 1px solid #4f4f4f;
+		border-width: 0 1px 1px;
+	}
+	
+	.cs_suneung .sn_tb.caution li {
+		color: #cacaca;
+	}
+	
+	.cs_suneung .sn_tb .knowhow_area {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_suneung .tab .list_tab li[role="tab"][aria-selected="true"]>a {
+		color: #fff;
+	}
+	
+	.cs_suneung .sn_tb.prepare dt {
+		color: #fff;
+	}
+	
+	.cs_suneung .sn_tb dd {
+		color: #cacaca;
+	}
+	
+	.cs_suneung .sn_tb.prepare dl {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_findflower .go_relate span.bar {
+		background: #404040 !important;
+	}
+	
+	.cs_findflower .cs_tab2 > ul {
+		background: #2f2f2f;
+		border-right: 1px solid #404040;
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #242424;
+	}
+	
+	.cs_findflower .cs_tab2_v {
+		border-bottom: 1px solid #242424;
+	}
+	
+	.cs_findflower .cs_tab2 ul li a {
+		background: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.cs_findflower .cs_tab2 ul li.first {
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_findflower .cs_tab2 ul li {
+		border-right: 1px solid #404040;
+	}
+	
+	.cs_findflower .cs_tab2 ul .on a {
+		background: #3a3a3a;
+	}
+	
+	.cs_findflower .cs_tab2 ul .on {
+		background: none;
+	}
+	
+	.cs_findflower .cs_tab2 ul li ul {
+		border: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.cs_findflower .cs_tab2 ul li ul li.on a {
+		color: #fff !important;
+	}
+	
+	.cs_findflower .cs_tab2 ul li ul li.on {
+		background: none;
+		position: relative;
+	}
+	
+	.cs_findflower .cs_tab2 ul li ul li.on:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/build/120622/ico_selected.gif) no-repeat 0 14px !important;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_findflower .cs_tab2 ul li ul li a {
+		color: #cacaca !important;
+	}
+	
+	.cs_findflower .flw_info_v {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_findflower .info_con {
+		border: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.cs_findflower .flw_cont .lst_flw li .flw_bg {
+		border: 5px solid #4f4f4f;
+		background: none;
+		width: calc(98px - 10px);
+		height: calc(98px - 10px);
+		border-radius: 5px;
+	}
+	
+	.cs_findflower .flw_info {
+		background-color: #2f2f2f;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_findflower .flw_info dt {
+		color: #fff !important;
+	}
+	
+	.cs_findflower .flw_info .info_color li.on .color_bg {
+		filter: invert(87%) hue-rotate(-180deg);
+	}
+	
+	.cs_findflower .flw_info .info_color li.on {
+		padding: 0;
+		width: calc(21px - 9px);
+		height: calc(21px - 9px);
+		border: 4.5px solid #3a3a3a;
+	}
+	
+	.cs_findflower .flw_info .info_color li {
+		border: 4.5px solid #3a3a3a;
+		height: calc(21px - 9px);
+	}
+	
+	.cs_findflower .flw_info .info_color li a {
+		width: calc(20px - 9px);
+		height: calc(21px - 9px);
+	}
+	
+	.cs_findflower .flw_info .info_color li.on a {
+		width: calc(21px - 9px);
+		height: calc(21px - 9px);
+	}
+	
+	.cs_findflower .flw_info .info_color li.on .color_bg {
+		top: -4.5px;
+		left: -4.5px;
+	}
+	
+	.cs_findflower .flw_info .info_color li.on .color_check {
+		top: calc(6px - 4.5px);
+		left: calc(5px - 4.5px);
+	}
+	
+	.cs_findflower .flw_info .info_season {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.sp_nkindic .relate_list_wrap {
+		border-top: 1px solid #404040;
+	}
+	
+	.sp_nkindic .relate_list_wrap .relate_tit {
+		color: #fff;
+	}
+	
+	.tabsch_video #snb {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.sp_nvideo .video_grid_list .info_area .info .info_sub .desc_group_inner .channel {
+		color: #fff;
+	}
+	
+	.sp_nvideo .video_grid_list .info_area .info .info_sub .desc_group_inner .origin:before {
+		background-color: #404040;
+	}
+	
+	.sp_nvideo .video_grid_list .info_area .info .info_sub .desc_group_inner .origin {
+		color: #cacaca;
+	}
+	
+	.sp_nvideo .subject_bx .list_area+.list_area {
+		border-top: 1px solid #404040;
+	}
+	
+	.sp_nvideo .video_recommend_list .video_item {
+		background-color: #2f2f2f;
+	}
+	
+	.sp_nvideo .video_recommend_list .channel_area, .sp_nvideo .video_recommend_list .info_area .info_title {
+		color: #fff;
+	}
+	
+	.sp_nvideo .video_recommend_list .channel_area .info .desc_group {
+		color: #cacaca;
+	}
+	
+	.sp_nvideo .video_recommend_list .channel_area .info .desc+.desc:before {
+		background-color: #404040;
+	}
+	
+	#ladders {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	#ladders input {
+		background: initial;
+		color: initial;
+	}
+	
+	.cs_delivery .inp .sc_btn {
+		background: initial;
+	}
+	
+	.cs_delivery .inp::before {
+		background-color: #404040;
+	}
+	
+	.cs_delivery .sch_box {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_delivery .selc .select_item .select_txt {
+		color: #cacaca;
+	}
+	
+	.cs_delivery .inp .in_bx, .cs_delivery .ginfo {
+		color: #cacaca;
+	}
+	
+	.cs_delivery .rsult_box .lodg>span>img:first-child {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_delivery .rsult_box .lodg span span:nth-child(2) {
+		color: #fff;
+	}
+	
+	.cs_delivery .rsult_box .lodg span span:nth-child(3) {
+		color: #cacaca;
+	}
+	
+	.cs_delivery .lodg .rfsh_ico {
+		border: 1px solid #404040;
+	}
+	
+	.cs_delivery .rsult_box .lodg .rfsh_ico img {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_delivery .rsult_box .lodg .rfsh_ico a {
+		color: #cacaca;
+	}
+	
+	.cs_delivery .rsult_box {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_delivery .rsult_box .lodg span.inque {
+		color: #cacaca;
+	}
+	
+	.cs_delivery .list_state li.on span {
+		color: #fff;
+	}
+	
+	.cs_delivery .list_state li {
+		background: none;
+		position: relative;
+	}
+	
+	.cs_delivery .list_state .step1:before {
+		background-position: 0 0;
+	}
+	
+	.cs_delivery .list_state .step1.on:before {
+		background-position: 0 -52px;
+	}
+	
+	.cs_delivery .list_state .step2:before {
+		background-position: -67px 0;
+	}
+	
+	.cs_delivery .list_state .step2.on:before {
+		background-position: -67px -52px;
+	}
+	
+	.cs_delivery .list_state .step3:before {
+		background-position: -134px 0;
+	}
+	
+	.cs_delivery .list_state .step3.on:before {
+		background-position: -134px -52px;
+	}
+	
+	.cs_delivery .list_state .step4:before {
+		background-position: -202px 0;
+	}
+	
+	.cs_delivery .list_state .step4.on:before {
+		background-position: -202px -52px;
+	}
+	
+	.cs_delivery .list_state .step5:before {
+		background-position: -269px 0;
+	}
+	
+	.cs_delivery .list_state .step5.on:before {
+		background-position: -269px -52px;
+	}
+	
+	.cs_delivery .list_state li:not(.on):before {
+		filter: none;
+	}
+	
+	.cs_delivery .list_state li:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/scui/delivery/img/spr_ico_v2.png) 0 0 no-repeat;
+		background-size: 314px 98px;
+		-moz-background-size: 314px 98px;
+		-webkit-background-size: 314px 98px;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_delivery .ste::before {
+		background-color: #4f4f4f;
+	}
+	
+	.cs_delivery .ofer dd, .cs_delivery .ofer dt {
+		color: #cacaca;
+	}
+	
+	.cs_delivery .artb {
+		border: 1px solid #404040;
+		border-width: 1px 0px;
+	}
+	
+	.cs_delivery .list_state li span {
+		color: #cacaca;
+	}
+	
+	.cs_delivery .artb th {
+		background-color: #3a3a3a;
+		color: #fff;
+	}
+	
+	.cs_delivery .artb td {
+		border: 1px solid #404040;
+		border-width: 1px 0 0 0;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_delivery .artb td p {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .title_area .title {
+		color: #fff;
+	}
+	
+	.cards {
+		background-color: #242424;
+		color: #fff;
+		position: relative;
+	}
+	
+	.filters {
+		z-index: 99;
+	}
+	
+	.cards .top {
+		background-color: #2f2f2f;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cards .top .name {
+		color: #fff;
+	}
+	
+	.cs_common_module .cm_content_wrap:before {
+		display: initial;
+	}
+	
+	.cards {
+		margin: 0px 9px 0;
+	}
+	
+	.sc_new.cs_common_module .cm_content_wrap {
+		padding-top: 12px;
+	}
+	
+	.cards .orders .order[aria-selected=true] {
+		color: #fff;
+	}
+	
+	.cards .orders .order {
+		color: #cacaca;
+	}
+	
+	.filters .sub_category {
+		background-color: #2f2f2f;
+	}
+	
+	.filters .sub_category .item {
+		color: #cacaca;
+	}
+	
+	.filters .sub_category .info {
+		border-top: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.filters .sub_category .item[aria-selected=true] {
+		color: #fff;
+	}
+	
+	.filters .current {
+		border-top: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.filters .reset {
+		border-left: 1px solid #404040;
+	}
+	
+	.filters .selected {
+		background-color: #404040;
+	}
+	
+	.cards .notification {
+		border-top: 1px solid #404040;
+	}
+	
+	.cards .notification .title, .cards .notification .txt {
+		color: #cacaca;
+	}
+	
+	.cards .notification .txt strong {
+		color: #999;
+	}
+	
+	.cards .notification .txt a {
+		color: #cacaca;
+	}
+	
+	.cards .more {
+		border-top: 1px solid #404040;
+		background-color: #4f4f4f;
+		color: #cacaca;
+	}
+	
+	.cards .item {
+		background-color: #2f2f2f;
+	}
+	
+	.cards .annual_fee, .cards .desc {
+		color: #cacaca;
+	}
+	
+	.cards .events {
+		color: #fff;
+	}
+	
+	.cards .rewards .reward {
+		color: #cacaca;
+	}
+	
+	.cs_calorie_counter .subinfo_box .text {
+		color: #cacaca;
+	}
+	
+	.cs_calorie_counter .calorie_food {
+		border: 1px solid #404040;
+		border-width: 0 1px 1px;
+	}
+	
+	.cs_calorie_counter .calorie_cut_tab {
+		border: 1px solid #404040;
+		background-color: #3a3a3a;
+	}
+	
+	.cs_calorie_counter .calorie_cut_tab .navi_side a {
+		background-color: #3a3a3a;
+	}
+	
+	.cs_calorie_counter .calorie_cut_tab .gradation {
+		background: -webkit-gradient(linear,left top,right top,color-stop(0,rgba(47, 47, 47, 0)),color-stop(80%,#3a3a3a));
+	}
+	
+	.cs_calorie_counter .calorie_cut_tab .prev.on .gradation {
+		background: -webkit-gradient(linear,right top,left top,color-stop(0,rgba(47, 47, 47, 0)),color-stop(80%,#3a3a3a));
+	}
+	
+	.cs_calorie_counter .calorie_cut_tab .navi_side em {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_calorie_counter .calorie_cut_tab li a .tab_icon {
+		filter: invert(78.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_calorie_counter .calorie_cut_tab li.on a {
+		color: #fff;
+	}
+	
+	.cs_calorie_counter .calorie_cut_tab li a {
+		color: #cacaca;
+	}
+	
+	.cs_calorie_counter .calorie_cont {
+		border: 1px solid #404040;
+		border-width: 0 1px;
+	}
+	
+	.cs_calorie_counter .calorie_food .calorie_res {
+		color: #fff;
+	}
+	
+	.cs_calorie_counter .calorie_food p {
+		color: #cacaca;
+	}
+	
+	.cs_calorie_counter .calorie_food p .bar {
+		background: #404040;
+	}
+	
+	.cs_calorie_counter .calorie_input .input_box {
+		color: #cacaca;
+	}
+	
+	.cs_calorie_counter .notice_text {
+		color: #cacaca;
+	}
+	
+	.cs_calorie_counter .calorie_input input {
+		color: #cacaca;
+	}
+	
+	img[src='https://ssl.pstatic.net/sstatic/keypage/outside/scui/calorie_counter/im/sp_bg_stair2.png'] {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.searching_view.brand_new_ui .section_head {
+		background: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.searching_view.brand_new_ui .section_head .sub_title {
+		color: #fff;
+	}
+	
+	.searching_view.brand_new_ui .brand_wrap {
+		border: 1px solid #404040;
+		border-top: 0;
+		background: #2f2f2f;
+	}
+	
+	.rmcplayer {
+		background: #2f2f2f;
+	}
+	
+	.searching_view.brand_new_ui .brand_wrap .video_area {
+		background-image: linear-gradient(to right, #000, #000, #2f2f2f);
+	}
+	
+	.searching_view.brand_new_ui .brand_wrap .vod-player {
+		background: #2f2f2f;
+	}
+	
+	.rmc_player_container {
+		background-color: #2f2f2f !important;
+	}
+	
+	.rmc_layer_poster {
+		background-color: #2f2f2f !important;
+	}
+	
+	.brand_wrap .thumbnail_menu_area {
+		background-color: #2f2f2f;
+	}
+	
+	.searching_view.brand_new_ui .brand_wrap .thumbnail_menu_area .menu_link {
+		color: #fff;
+	}
+	
+	.sp_nkin .kin_wrap .answer_area .profile_group .btn_consult {
 		color: #cacaca;
 	}
 }

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.824
+@version		1.48.825
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -3320,7 +3320,7 @@
     .btn_qronce_cancel { color: #cacaca;border: 1px solid #404040;background-color: #242424 }
     .captcha .captcha_txt,.once_wrap .title,.once_wrap .title_once,.velid_inner .title,.qr_once_area .txt,.qr_once_inner .title,.rest_time .txt,.title p .sevice { color: #fff }
     .country_code .sel_value { filter: invert(86%) }
-    .error_chatbot .chatbot_box,.qr_img,.tab_m,#header .lang,html[lang=en] .qr_once_area .item_btn,html[lang=zh-Hans] .qr_once_area .item_btn,html[lang=zh-Hant] .qr_once_area .item_btn { border: 1px solid #404040 }
+    .error_chatbot .chatbot_box,.qr_img,.qrcheckin_banner,.tab_m,#header .lang,html[lang=en] .qr_once_area .item_btn,html[lang=zh-Hans] .qr_once_area .item_btn,html[lang=zh-Hant] .qr_once_area .item_btn { border: 1px solid #404040 }
     .find_info { color: #cacaca;border-top: 1px solid #404040 }
     .input_box { border: 0 !important }
     .input_row { padding: 0px 0px 17px 0px;border: 1px solid #404040;background: #242424 }

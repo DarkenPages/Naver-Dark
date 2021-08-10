@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.823
+@version		1.48.824
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -67177,7 +67177,7 @@
 	}
 	
 	.cs_nation .wms img {
-		border-radius: 10px;
+		filter: invert(81.5%) hue-rotate(-180deg);
 	}
 	
 	.cs_nation .con_box2 li .lst_data dd {
@@ -67186,6 +67186,14 @@
 	
 	.cs_nation .info_naflag dt {
 		color: #cacaca;
+	}
+	
+	.cs_nation .lst_overv dd a, .cs_nation .lst_overv dd .new_line {
+		width: 120px;
+	}
+	
+	.cs_nation .con_nadetail {
+		border-left: 1px solid #404040;
 	}
 }
 

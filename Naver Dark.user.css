@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.819
+@version		1.48.820
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -3560,7 +3560,7 @@
     .content_header .msearch input,.cutlistTable { color: #cacaca;border: 1px solid #404040 }
     .cutlistTable th { border-bottom: 1px solid #404040;background: #2f2f2f }
     .form_ul1 { border-top: 2px solid #404040;border-bottom: 1px solid #404040;background-color: #242424 }
-    .form_ul1 .form_title,.send_window .tf_cont a,.send_window .tf_cont span,.task_btn .buttonSet a,.note_read .info dd { color: #fff }
+    .form_ul1 .form_title,.send_window .tf_cont a,.send_window .tf_cont span,.task_btn .buttonSet a,.note_read .info dd,.notelist_item .read .from a,.notelist_item .read .title a { color: #fff }
     .gnb_notice_li a.gnb_notice .gnb_icon,.gnb_service_li a.gnb_service .gnb_icon,.mail_li a.gnb_mail .gnb_icon { filter: invert(0%) !important }
     .horizon_mode .divider,.vertical_mode .divider { border-color: #404040;background-color: #242424 }
     .input_keyword .input_text,.note_setup .setup_textfield,.paginate .pageSelector input,select { color: #cacaca;border: 1px solid #404040;background: #242424 }

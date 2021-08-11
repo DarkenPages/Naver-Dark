@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.825
+@version		1.48.826
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -14064,6 +14064,49 @@
 		background-color: #404040;
 		border: 1px solid #404040;
 	}
+	
+	.IntroductionHeader .tab_list_wrap {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.IntroductionHeader .tab_list_wrap li {
+		border: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	.IntroductionHeader .tab_list_wrap li.selected {
+		background-color: #2f2f2f;
+	}
+	
+	.IntroductionHeader .tab_list_wrap li a {
+		color: #cacaca;
+	}
+	
+	.CafeRankingChart canvas {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.CafeRanking .article-intro .group_rank .rank_graph .txt_graph .desc {
+		opacity: 1;
+		color: #fff;
+	}
+	
+	.CafeRanking .article-intro .group_rank .rank_graph .graph_warp {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.CafeRanking .article-intro .group_rank .graph_area:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.CafeRanking .article-intro .group_rank .graph_list {
+		background-color: #242424;
+		color: #cacaca;
+	}
+	
+	.CafeRanking .article-intro .group_rank .graph_list .link {
+		color: #fff;
+	}
 }
 
 @-moz-document url-prefix("https://section.blog.naver.com"), url-prefix("http://section.blog.naver.com")
@@ -15300,6 +15343,26 @@
 	
 	.bx_type ul li, .btn_type {
 		filter: invert(86%);
+	}
+	
+	.tbl_role td {
+		color: #fff;
+	}
+	
+	.tbl_role td .txt_cont ul li {
+		color: #cacaca;
+	}
+	
+	.tbl_role {
+		border-top: 1px solid #404040;
+	}
+	
+	.tbl_role tr.last th, .tbl_role tr.last td {
+		border-bottom-color: #404040;
+	}
+	
+	.pop_staff_role .bu_lst_desc li {
+		color: #cacaca;
 	}
 }
 

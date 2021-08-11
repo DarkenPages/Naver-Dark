@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.826
+@version		1.48.827
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -33541,6 +33541,62 @@
 	}
 	
 	.paging a:visited, .paging strong:visited {
+		color: #cacaca;
+	}
+	
+	.u_cbox .u_cbox_orgsource>a {
+		box-shadow: 0 1px 5px 0 rgba(255, 255, 255,.12),0 0 0 1px rgba(255, 255, 255,.05);
+	}
+	
+	.u_cbox .u_cbox_orgsource_header {
+		color: #fff;
+	}
+	
+	.u_cbox_user .u_cbox_tool .u_cbox_recomm_set .u_cbox_btn_recomm, .u_cbox_user .u_cbox_tool .u_cbox_recomm_set .u_cbox_btn_unrecomm, .u_cbox_user .u_cbox_tool .u_cbox_recomm_set .u_cbox_cnt_recomm, .u_cbox_user .u_cbox_tool .u_cbox_recomm_set .u_cbox_cnt_unrecomm {
+		color: #cacaca;
+	}
+	
+	.u_cbox_user .u_cbox_tool .u_cbox_recomm_set .u_cbox_ico_recomm, .u_cbox_user .u_cbox_tool .u_cbox_recomm_set .u_cbox_ico_unrecomm {
+		filter: brightness(1000%);
+	}
+	
+	.u_cbox_user .u_cbox_comment .u_cbox_text_wrap a {
+		color: #cacaca;
+	}
+	
+	.u_cbox .u_cbox_sort .u_cbox_sort_label {
+		color: #cacaca;
+	}
+	
+	.u_cbox .u_cbox_sort .u_cbox_sort_option_on .u_cbox_sort_label {
+		color: #fff !important;
+	}
+	
+	.u_cbox_user .u_cbox_comment_none .u_cbox_con_inform_linktxt {
+		color: #cacaca;
+	}
+	
+	.u_cbox_user .u_cbox_comment_none .u_cbox_con_inform_linkicon {
+		filter: brightness(150%);
+	}
+	
+	.u_cbox .u_cbox_layer_manageblock {
+		background-color: #242424;
+	}
+	
+	.u_cbox .u_cbox_manageblock_noneicon {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.u_cbox .u_cbox_manageblock_nonemsg {
+		color: #cacaca;
+	}
+	
+	.u_cbox_user .u_cbox_userinfo_laststats_helplayer_desc em {
+		color: #fff;
+	}
+	
+	.u_cbox_user .u_cbox_userinfo_laststats_dataitem {
 		color: #cacaca;
 	}
 }

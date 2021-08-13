@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.828
+@version		1.48.829
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -20682,6 +20682,14 @@
 		border: 1px solid #404040;
 		background: #404040;
 	}
+	
+	.section_all_menu .group_lst .menu_lst_area li a {
+		color: #cacaca;
+	}
+	
+	.section_all_menu .group_lst .menu_lst_area li.off a {
+		color: #888;
+	}
 }
 
 @-moz-document url-prefix("https://cafe.naver.com/ManageEventQuestionExample.nhn")
@@ -41038,7 +41046,7 @@
 	}
 }
 
-@-moz-document url-prefix("https://blog.naver.com/PostWriteForm.nhn"), url-prefix("https://blog.naver.com/PostUpdateForm.nhn"), url-prefix("https://blog.naver.com/PostWriteForm.naver"), url-prefix("https://blog.naver.com/PostUpdateForm.naver"), regexp("https://cafe\\.naver\\.com/ca-fe/cafes/(.*)/articles/write.*")
+@-moz-document url-prefix("https://blog.naver.com/PostWriteForm.nhn"), url-prefix("https://blog.naver.com/PostUpdateForm.nhn"), url-prefix("https://blog.naver.com/PostWriteForm.naver"), url-prefix("https://blog.naver.com/PostUpdateForm.naver"), regexp("https://cafe\\.naver\\.com/ca-fe/cafes/(.*)/articles/write.*"), regexp("https://cafe\\.naver\\.com/ca-fe/cafes/(.*)/articles/(.*)/reply.*"), regexp("https://cafe\\.naver\\.com/ca-fe/cafes/(.*)/articles/(.*)/modify.*")
 {
 	.se-body .se-popup-dim-white {
 		background-color: rgba(0, 0, 0, .8) !important;
@@ -43097,6 +43105,15 @@
 	}
 	
 	.se-body .se-document-toolbar .se-toolbar-label {
+		color: #cacaca;
+	}
+	
+	.WritingTag .tag_text {
+		background: #3a3a3a;
+		color: #cacaca;
+	}
+	
+	.CafeEditor .se-body .se-document-toolbar-basic-button .se-toolbar-label, .CafeEditor .se-body .se-document-toolbar .se-toolbar-label {
 		color: #cacaca;
 	}
 }
@@ -55814,6 +55831,14 @@
 	
 	img[src="https://ssl.pstatic.net/static/cafe/manage/player.png"] {
 		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	p[style*='background-color: rgb(255, 255, 255)'] {
+		background-color: #242424 !important;
+	}
+	
+	.NHN_Writeform_Main {
+		font-family: 'Helvetica', 'serif', 'dotum';
 	}
 }
 

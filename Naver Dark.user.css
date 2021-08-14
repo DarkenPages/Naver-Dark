@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.834
+@version		1.48.835
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -3394,6 +3394,9 @@
     .tab_menu li a { color: #cacaca;border: 1px solid #404040;background-color: #2f2f2f }
 }
 @-moz-document url-prefix("https://nid.naver.com/user2/help/") {
+    .ad_more .text,.ad_more_list .item,.ad_text em,.btn_file label .btn2,.btn_model[href] .btn2,.captcha_member .spc_row input[type=text],.connect_info li,.section_secretid>.contxt,.sh_lst2 dt,.sh_lst3 dt,.sns_title,.ssi_group h3,.ssi_group2>.contxt,.tbl_model .contxt_tit2,.tbl_model .contxt_webctrl .country_code,.tbl_sns td a,.c_header .contxt,.list_txt,.captcha_box>a,.captcha_member .captcha_txt,.spc_header .contxt,.desc_sub,.sh_content>.contxt,.help .txt p,.help .txt p>.ex,.help .txt p>span,.help .txt p>span:first-child,.open+.contxt_guide_help,.tbl_model .contxt_guide,.policy_lst li a,.sh_header .contxt,.ssi_group .contxt,.tbl_model .contxt_desc,.tbl_model .contxt_desc3,.tbl_model .contxt_desc2,.tbl_model .contxt_webctrl2,.tbl_model td,#footer address,#lnb_area .lnb ul li a,.list_id span { color: #cacaca }
+    .ad_more_list .item::before { background-color: #fff }
+    .ad_text,.box6 h3,.c_header h2,.section_home h2,.copyright a,.list_id .label_rd,.sh_lst .nic_desc,.sh_lst dt,.spc_header h2,.sh_lst2 .logoff_desc .contxt,.tbl_model .contxt_tit { color: #fff }
     .banner_area { border-right: 1px solid #404040;border-bottom: 1px solid #404040 }
     .banner_area .text,.yellow_point,.spc_content .btn_area_btm button:first-child { color: #242424 }
     .bar { background: #404040 }
@@ -3401,9 +3404,7 @@
     .box_inn .label_rd,.box_inn .label_txt { color: #cacaca !important }
     .box_inn+.box_inn { border-top: 1px solid #404040 !important }
     .box6 { border: 1px solid #404040 !important }
-    .box6 h3,.c_header h2,.section_home h2,.copyright a,.list_id .label_rd,.sh_lst .nic_desc,.sh_lst dt,.spc_header h2,.sh_lst2 .logoff_desc .contxt,.tbl_model .contxt_tit { color: #fff }
     .btn_checkid,.btn_confirm2,.btn_ct,.btn_login,.btn_next2,.btn_prev,.country_code .sel_value,.dash,.edge,.ico_arr,.ico_arr2,.ico_help2,.btn_next_s,.nudge_close,.find_id_list li,.ico_new,.input_box,.profile_photo .mask,.sh_lst .pic_desc .img_frame,#content .content_header h2 img { filter: invert(86%) hue-rotate(-180deg) }
-    .btn_file label .btn2,.btn_model[href] .btn2,.captcha_member .spc_row input[type=text],.connect_info li,.section_secretid>.contxt,.sh_lst2 dt,.sh_lst3 dt,.sns_title,.ssi_group h3,.ssi_group2>.contxt,.tbl_model .contxt_tit2,.tbl_model .contxt_webctrl .country_code,.tbl_sns td a,.c_header .contxt,.list_txt,.captcha_box>a,.captcha_member .captcha_txt,.spc_header .contxt,.desc_sub,.sh_content>.contxt,.help .txt p,.help .txt p>.ex,.help .txt p>span,.help .txt p>span:first-child,.open+.contxt_guide_help,.tbl_model .contxt_guide,.policy_lst li a,.ssi_group .contxt,.tbl_model .contxt_desc,.tbl_model .contxt_desc3,.tbl_model .contxt_desc2,#footer address,#lnb_area .lnb ul li a,.list_id span { color: #cacaca }
     .btn_findpw { box-sizing: border-box;border: 1px solid #404040;border-radius: 2px;background: none;background-color: #242424 }
     .btn_findpw:before { top: 8px;position: absolute;left: 18px;font-weight: bold;content: '비밀번호 찾기';color: #cacaca }
     .btn_login2 { border-radius: 2px;background: none;background-color: #019341 }

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.832
+@version		1.48.833
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -2522,6 +2522,31 @@
 	
 	#nav_snb div.btn_workset {
 		background: none;
+	}
+	
+	.dh_layer .hl_noti {
+		color: #fff;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.dh_layer .pText {
+		color: #cacaca;
+	}
+	
+	.dh_layer .ps1 button.button_s {
+		color: #cacaca;
+	}
+	
+	.classify_fn .btn_txt, .search_cont .result, .help_mailbox p, .help_mailbox .bullet, .form_ul1 .form_content .desc {
+		color: #cacaca;
+	}
+	
+	.help_mailbox a {
+		color: #fff;
+	}
+	
+	.link {
+		color: #fff;
 	}
 }
 

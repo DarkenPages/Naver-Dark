@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.835
+@version		1.48.836
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -11066,6 +11066,156 @@
 	}
 	
 	.sh_header .contxt {
+		color: #cacaca;
+	}
+	
+	.btn_model[href] .btn5 {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.localset_none {
+		background: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.localset_list {
+		border-top: 1px solid #404040;
+	}
+	
+	.localset_list tbody .tbtit {
+		color: #fff;
+		border-right: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.localset .desc_etc {
+		color: #cacaca;
+	}
+	
+	.localset_list tbody .tbtit .inp_txt {
+		border: 1px solid #404040;
+		color: #cacaca;
+		background: #2f2f2f;
+	}
+	
+	.localset_list tbody .tbtit .inp_txt:focus, .localset_list tbody .tbtit .on {
+		color: #cacaca;
+		border-color: #505050;
+	}
+	
+	.ly_localnotify_arrow {
+		border: 1px solid #4f4f4f;
+		background: #2f2f2f;
+	}
+	
+	.localset_list tbody td span {
+		color: #cacaca;
+	}
+	
+	.ly_localnotify_arrow .txt {
+		color: #cacaca !important;
+	}
+	
+	.ly_localnotify_arrow .arrow {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.localset_list tbody td {
+		border-bottom: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.localset_list tbody td .select {
+		color: #cacaca;
+		border: 1px solid #404040;
+		background: none;
+		position: relative;
+	}
+	
+	.localset_list tbody td .select:before {
+		background: url(https://static.nid.naver.com/images/web/user/ico_arrow5.gif) 100% 0 no-repeat;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.btn_model .btn5 {
+		color: #cacaca;
+		border: 1px solid #404040;
+	}
+	
+	.localset_list tbody td .area_layer {
+		border: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.localset_list tbody td .area_layer ul {
+		border-right: 1px solid #404040;
+	}
+	
+	.localset_list tbody td .area_layer ul li a {
+		color: #cacaca;
+	}
+	
+	.localset_list tbody td .area_layer ul li a:hover {
+		color: #fff;
+		background: #3a3a3a;
+	}
+	
+	.localset_list tbody td .area_layer ul .selected a {
+		color: #fff;
+	}
+	
+	.localset_list tbody td .area_layer ul.end a {
+		color: #cacaca;
+	}
+	
+	.localset_list tbody td .area_layer .close {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.localset .service_tit {
+		color: #fff;
+	}
+	
+	.localset .service_tbl {
+		border-top: 1px solid #404040;
+	}
+	
+	.localset .service_tbl tbody th {
+		color: #fff;
+		border-right: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.localset .service_tbl tbody td {
+		color: #cacaca;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.ly_model_body {
+		background: #2f2f2f;
+		color: #cacaca;
+		border: 1px solid #404040;
+	}
+	
+	.ly_model_body p strong {
+		color: #fff;
+	}
+	
+	.ly_model_body .line {
+		border-top: 1px solid #404040;
+	}
+	
+	.localset_list tbody .unable span, .localset_list tbody .unable td {
 		color: #cacaca;
 	}
 }

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.833
+@version		1.48.834
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -59967,7 +59967,7 @@
 		color: #cacaca;
 	}
 	
-	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div>div>div {
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div>div>div[style][tabindex] {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
@@ -59995,6 +59995,11 @@
 	
 	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+div+div[class]>div>a>em {
 		color: #788cda;
+	}
+	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div[style]+div>div>div {
+		filter: none;
+		color: #cacaca;
 	}
 	
 	.sp_naside .naside_wrap .entry_list .entry_area .tit_wrap .tit {

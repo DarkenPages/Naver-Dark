@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.831
+@version		1.48.832
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -49030,6 +49030,69 @@
 		height: 100%;
 		pointer-events: none;
 		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.btn_handwriting_area .btn_handwriting {
+		color: #cacaca;
+	}
+	
+	.btn_handwriting:before {
+		background-color: #404040;
+	}
+	
+	.seleted_ime li.lang_ime span {
+		color: #cacaca;
+	}
+	
+	.ime_content.cn table tr th {
+		border-left: 1px solid #404040;
+		background: #2f2f2f;
+		color: #fff;
+	}
+	
+	.ime_content.cn table tr .rb {
+		border-right: 1px solid #404040;
+	}
+	
+	.ime_content.cn table tr.tb td, .ime_content.cn table tr.tb th {
+		border-top: 1px solid #404040;
+	}
+	
+	.ime_content.cn table tr.bb td, .ime_content.cn table tr.bb th, .ime_content.cn table tr.bb td, .ime_content.cn table tr th.bb {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.ime_content.cn table tr td {
+		border: 1px solid #404040;
+	}
+	
+	.ime_content.cn table tr td a {
+		color: #cacaca;
+	}
+	
+	.seleted_device li.active a {
+		color: #cacaca;
+	}
+	
+	.seleted_device li a {
+		color: #cacaca;
+	}
+	
+	.ime_content.cn table tr td:hover a {
+		background: #3a3a3a;
+		color: #fff;
+	}
+	
+	.ime_content.cn table tr th {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.seleted_device li .ime_content .del_option a {
+		color: #cacaca;
+	}
+	
+	.seleted_device li .ime_content .del_option span {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 }
 

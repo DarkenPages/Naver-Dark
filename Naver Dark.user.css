@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.836
+@version		1.48.837
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -1242,7 +1242,7 @@
     #wrap { background: #242424 }
     body,head { color: #cacaca;background: #242424 }
 }
-@-moz-document url-prefix("https://blog.naver.com/BuddyAdd.nhn"), url-prefix("https://section.blog.naver.com/connect/PopConnectBuddyAddForm.nhn"), url-prefix("https://section.blog.naver.com/connect/PopConnectBuddyAdd.nhn"), url-prefix("http://blog.naver.com/BuddyAdd.nhn"), url-prefix("http://section.blog.naver.com/connect/PopConnectBuddyAddForm.nhn"), url-prefix("http://section.blog.naver.com/connect/PopConnectBuddyAdd.nhn") {
+@-moz-document url-prefix("https://blog.naver.com/BuddyAdd.nhn"), url-prefix("https://section.blog.naver.com/connect/PopConnectBuddyAddForm.nhn"), url-prefix("https://section.blog.naver.com/connect/PopConnectBuddyAdd.nhn"), url-prefix("http://blog.naver.com/BuddyAdd.nhn"), url-prefix("http://section.blog.naver.com/connect/PopConnectBuddyAddForm.nhn"), url-prefix("http://section.blog.naver.com/connect/PopConnectBuddyAdd.nhn"), url-prefix("https://blog.naver.com/BuddyAdd.naver"), url-prefix("https://section.blog.naver.com/connect/PopConnectBuddyAddForm.naver"), url-prefix("https://section.blog.naver.com/connect/PopConnectBuddyAdd.naver") {
     .area_dropdown { color: #cacaca;background-color: #242424 }
     .area_dropdown .dropdown_select { border: 1px solid #404040;border-top-color: #404040;background-color: #242424 }
     .area_dropdown .present_selected { border: 1px solid #404040 }
@@ -1256,7 +1256,7 @@
     .buddy_state .group_add .button_group_add { color: #cacaca;border: 1px solid #404040;background-color: #242424 }
     .buddy_state .message_each_buddy { color: #cacaca;background-color: #2f2f2f }
     .buddy_state .text_each_buddy { color: #cacaca;border-bottom: 1px solid #4f4f4f }
-    .buddy_state .text_each_buddy .my_name,.popup_buddy .popup_heading .title,.popup_buddy .wrap_radio label,.popup_item .popup_heading .title,.popup_post_setting .popup_heading .title { color: #fff }
+    .buddy_state .text_each_buddy .my_name,.popup_buddy .popup_heading .title,.popup_buddy .wrap_radio label,.popup_item .popup_heading .title,.popup_post_setting .popup_heading .title,a:link,a:visited { color: #fff }
     .desc_area strong { color: #fff;color: #fff }
     .desc_area.b_border { border-bottom: 1px solid #404040 }
     .install_area { color: #cacaca;border-top: 1px solid #404040;border-bottom: 1px solid #404040;background-color: #2f2f2f }
@@ -1264,7 +1264,7 @@
     .popup_buddy .buddy_state { border: 1px solid #404040;background-color: #2f2f2f }
     body { background: #242424 }
 }
-@-moz-document url-prefix("https://blog.naver.com/BuddyListLayer.nhn"), url-prefix("http://blog.naver.com/BuddyListLayer.nhn") {
+@-moz-document url-prefix("https://blog.naver.com/BuddyListLayer.nhn"), url-prefix("http://blog.naver.com/BuddyListLayer.nhn"), url-prefix("https://blog.naver.com/BuddyListLayer.naver"), url-prefix("http://blog.naver.com/BuddyListLayer.naver") {
     .neighbor_list { background-color: #242424 }
     .neighbor_list .bottom { border-top: 1px solid #404040;background: #2f2f2f }
     .neighbor_list .bottom .btn_sub { color: #cacaca;border: 1px solid #404040;background: #242424 }
@@ -1378,7 +1378,7 @@
     #pop_header h1 img { filter: invert(84%) }
     body,head,html { color: #cacaca;background: #242424 }
 }
-@-moz-document url-prefix("https://blog.naver.com/PostFileUploadPopup.nhn") {
+@-moz-document url-prefix("https://blog.naver.com/PostFileUploadPopup.nhn"), url-prefix("https://blog.naver.com/PostFileUploadPopup.naver") {
     .bx1 { border: 1px solid #404040 }
     .bx1 * { color: #cacaca }
     .bx1_shadow { border: 1px solid #404040;background: #2f2f2f }
@@ -1394,7 +1394,7 @@
     #uploadSource > table { background-color: #404040 !important }
     #wrap { background-color: #242424 }
 }
-@-moz-document url-prefix("https://blog.naver.com/PostPrint.nhn") {
+@-moz-document url-prefix("https://blog.naver.com/PostPrint.nhn"), url-prefix("https://blog.naver.com/PostPrint.naver") {
     .pop_view_tit { background: #242424 }
     .pop_view_tit .print,.pop_view_tit h1 a,[align=center] a img { filter: invert(86%) hue-rotate(-180deg) }
     .pop_view_tit a,.pop_view_tit a:link,.pop_view_tit a:visited { color: #fff !important }
@@ -1402,7 +1402,7 @@
     body,div,td { color: #cacaca }
     td[bgcolor] { background-color: #242424 }
 }
-@-moz-document url-prefix("https://blog.naver.com/PostUpdateForm.nhn") {
+@-moz-document url-prefix("https://blog.naver.com/PostUpdateForm.nhn"), url-prefix("https://blog.naver.com/PostUpdateForm.naver") {
     #btn_tempsave:after { opacity: 0 }
 }
 @-moz-document url-prefix("https://blog.naver.com/PostView.nhn"), url-prefix("http://blog.naver.com/PostView.nhn"), url-prefix("https://blog.naver.com/PostView.naver"), url-prefix("http://blog.naver.com/PostView.naver") {
@@ -1560,15 +1560,15 @@
 @-moz-document url-prefix("https://blog.naver.com/SkinPreview.nhn") {
     body div[style*='background-color'][style*='opacity'] { background-color: #242424 !important }
 }
-@-moz-document url-prefix("https://blog.naver.com/SympathyHistoryList.nhn"), url-prefix("http://blog.naver.com/SympathyHistoryList.nhn") {
+@-moz-document url-prefix("https://blog.naver.com/SympathyHistoryList.nhn"), url-prefix("http://blog.naver.com/SympathyHistoryList.nhn"), url-prefix("https://blog.naver.com/SympathyHistoryList.naver"), url-prefix("http://blog.naver.com/SympathyHistoryList.naver") {
     #post-area:before { background: none !important }
     body,head,html { background: #2f2f2f !important }
 }
-@-moz-document url-prefix("https://blog.naverblogwidget.com/ExternalWidgetRender.nhn") {
+@-moz-document url-prefix("https://blog.naverblogwidget.com/ExternalWidgetRender.nhn"), url-prefix("https://blog.naverblogwidget.com/ExternalWidgetRender.naver") {
     b,strong { color: #fff }
     li,p,span { color: #cacaca }
 }
-@-moz-document url-prefix("https://blog.poll.naver.com/preview.nhn") {
+@-moz-document url-prefix("https://blog.poll.naver.com/preview.nhn"), url-prefix("https://blog.poll.naver.com/preview.naver") {
     .ppt01_btn img,.tem1 .vote_bot img,#vote_pop:not(.tem1) { filter: invert(86%) hue-rotate(-180deg) }
     .tem1 .vote_bot { border-top: 1px solid #404040 }
     .tit_b_2 .tit_b_r li { color: #cacaca }
@@ -5240,7 +5240,7 @@
     body { color: #cacaca !important;background: #242424 !important }
     p,span { color: #cacaca !important }
 }
-@-moz-document url-prefix("https://widget.post.naver.com/blog2.nhn") {
+@-moz-document url-prefix("https://widget.post.naver.com/blog2.nhn"), url-prefix("https://widget.post.naver.com/blog2.naver") {
     .dimmed { opacity: 1;filter: none }
     .post_wrp { border: 1px solid #404040 }
     .post_wrp .cont { border-top: 1px solid #404040 }

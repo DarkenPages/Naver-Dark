@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.836
+@version		1.48.837
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -39265,7 +39265,7 @@
 	}
 }
 
-@-moz-document url-prefix("https://blog.naver.com/SympathyHistoryList.nhn"), url-prefix("http://blog.naver.com/SympathyHistoryList.nhn")
+@-moz-document url-prefix("https://blog.naver.com/SympathyHistoryList.nhn"), url-prefix("http://blog.naver.com/SympathyHistoryList.nhn"), url-prefix("https://blog.naver.com/SympathyHistoryList.naver"), url-prefix("http://blog.naver.com/SympathyHistoryList.naver")
 {
 	html, head, body {
 		background: #2f2f2f !important;
@@ -39276,7 +39276,7 @@
 	}
 }
 
-@-moz-document url-prefix("https://blog.naver.com/BuddyAdd.nhn"), url-prefix("https://section.blog.naver.com/connect/PopConnectBuddyAddForm.nhn"), url-prefix("https://section.blog.naver.com/connect/PopConnectBuddyAdd.nhn"), url-prefix("http://blog.naver.com/BuddyAdd.nhn"), url-prefix("http://section.blog.naver.com/connect/PopConnectBuddyAddForm.nhn"), url-prefix("http://section.blog.naver.com/connect/PopConnectBuddyAdd.nhn")
+@-moz-document url-prefix("https://blog.naver.com/BuddyAdd.nhn"), url-prefix("https://section.blog.naver.com/connect/PopConnectBuddyAddForm.nhn"), url-prefix("https://section.blog.naver.com/connect/PopConnectBuddyAdd.nhn"), url-prefix("http://blog.naver.com/BuddyAdd.nhn"), url-prefix("http://section.blog.naver.com/connect/PopConnectBuddyAddForm.nhn"), url-prefix("http://section.blog.naver.com/connect/PopConnectBuddyAdd.nhn"), url-prefix("https://blog.naver.com/BuddyAdd.naver"), url-prefix("https://section.blog.naver.com/connect/PopConnectBuddyAddForm.naver"), url-prefix("https://section.blog.naver.com/connect/PopConnectBuddyAdd.naver")
 {
 	.area_layer_popup {
 		background: #242424;
@@ -39284,6 +39284,10 @@
 	
 	body {
 		background: #242424;
+	}
+	
+	a:visited, a:link {
+		color: #fff;
 	}
 	
 	.popup_buddy .popup_heading .title, .popup_item .popup_heading .title, .popup_post_setting .popup_heading .title, .popup_buddy .wrap_radio label {
@@ -39791,7 +39795,7 @@
 	}
 }
 
-@-moz-document url-prefix("https://blog.naver.com/BuddyListLayer.nhn"), url-prefix("http://blog.naver.com/BuddyListLayer.nhn")
+@-moz-document url-prefix("https://blog.naver.com/BuddyListLayer.nhn"), url-prefix("http://blog.naver.com/BuddyListLayer.nhn"), url-prefix("https://blog.naver.com/BuddyListLayer.naver"), url-prefix("http://blog.naver.com/BuddyListLayer.naver")
 {
 	html, head, body {
 		background: #242424;
@@ -40785,7 +40789,7 @@
 	}
 }
 
-@-moz-document url-prefix("https://widget.post.naver.com/blog2.nhn")
+@-moz-document url-prefix("https://widget.post.naver.com/blog2.nhn"), url-prefix("https://widget.post.naver.com/blog2.naver")
 {
 	html, head, body {
 		background: #242424 !important;
@@ -40837,7 +40841,7 @@
 	}
 }
 
-@-moz-document url-prefix("https://blog.naver.com/PostPrint.nhn")
+@-moz-document url-prefix("https://blog.naver.com/PostPrint.nhn"), url-prefix("https://blog.naver.com/PostPrint.naver")
 {
 	.pop_view_tit {
 		background: #242424;
@@ -40869,7 +40873,7 @@
 	}
 }
 
-@-moz-document url-prefix("https://blog.naverblogwidget.com/ExternalWidgetRender.nhn")
+@-moz-document url-prefix("https://blog.naverblogwidget.com/ExternalWidgetRender.nhn"), url-prefix("https://blog.naverblogwidget.com/ExternalWidgetRender.naver")
 {
 	b, strong {
 		color: #fff;
@@ -41050,7 +41054,7 @@
 	}
 }
 
-@-moz-document url-prefix("https://blog.naver.com/PostFileUploadPopup.nhn")
+@-moz-document url-prefix("https://blog.naver.com/PostFileUploadPopup.nhn"), url-prefix("https://blog.naver.com/PostFileUploadPopup.naver")
 {
 	#wrap {
 		background-color: #242424;
@@ -41235,7 +41239,7 @@
 	}
 }
 
-@-moz-document url-prefix("https://blog.poll.naver.com/preview.nhn")
+@-moz-document url-prefix("https://blog.poll.naver.com/preview.nhn"), url-prefix("https://blog.poll.naver.com/preview.naver")
 {
 	#vote_pop.tem1 .main_list, #vote_pop.tem9 .main_top .wrap {
 		color: #fff;
@@ -41266,7 +41270,7 @@
 	}
 }
 
-@-moz-document url-prefix("https://blog.naver.com/PostUpdateForm.nhn")
+@-moz-document url-prefix("https://blog.naver.com/PostUpdateForm.nhn"), url-prefix("https://blog.naver.com/PostUpdateForm.naver")
 {
 	#btn_tempsave:after {
 		opacity: 0;

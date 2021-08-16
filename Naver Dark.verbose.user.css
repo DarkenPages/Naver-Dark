@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.838
+@version		1.48.839
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -36748,6 +36748,79 @@
 	.api_atcmp_wrap .atcmp_correct .link_item {
 		color: #cacaca;
 	}
+	
+	.ly_inputko {
+		background-color: #2f2f2f;
+	}
+	
+	.ly_inputko.ly_inputko_over {
+		border: 1px solid #404040;
+	}
+	
+	.ly_inputko .tab_inkey, .ly_inputko .tab_inms, .ly_inputko .btn_ly_cl {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.ly_inputko .inputko_keyboard {
+		background-color: #2f2f2f;
+	}
+	
+	.ly_inputko .keyboard {
+		background-color: #2f2f2f;
+	}
+	
+	.ly_inputko .inputko_keyboard .setkorhelp {
+		background-color: #2f2f2f;
+	}
+	
+	.ly_inputko .inputko_info {
+		background: #2f2f2f;
+		position: relative;
+	}
+	
+	.ly_inputko .inputko_info:before {
+		background: url(https://ssl.pstatic.net/sstatic/search/img3/bg_sp_x.gif) repeat-x;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.ly_inputko .inputko_info li {
+		color: #cacaca;
+	}
+	
+	.ly_inputko .inputko_info li span {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.ly_inputko .keyboard_img {
+		filter: invert(84%) hue-rotate(-180deg);
+	}
+	
+	.ly_inputko {
+		border: 1px solid #404040;
+	}
+	
+	.ly_inputko .btn_kor_on, .ly_inputko .btn_kor, .ly_inputko .btn_eng, .ly_inputko .btn_eng_on {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.ly_inputko .inputko_mouse .bar2 {
+		color: #404040;
+	}
+	
+	.ly_inputko .btn_space, .ly_inputko .btn_del, .ly_inputko .btn_reset {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.ly_inputko .number, .ly_inputko .alphabet, .ly_inputko .consonantal, .ly_inputko .vowel {
+		filter: invert(84%) hue-rotate(-180deg);
+	}
 }
 
 @-moz-document url-prefix("https://castbox.shopping.naver.com")
@@ -67684,18 +67757,6 @@
 		border-radius: 20px;
 	}
 	
-	.sp_nreview .total_tit, .sp_nreview .total_link_area .link, .sp_ntotal .total_tit .link_tit, .sp_nbook .book_info .title_area, .sp_nbook .list_info a.item_info, .sp_nvideo .video_default_list .video_bx .info_area .info_title, .go_relate a, .sp_ntotal .group_item .list_item .item a, .sp_nvideo .video_scroll_list .info_area .info_title, ._3tIZ6 ._2LKql ._3CKdL, .sp_nvideo .video_square_list .square_wrap .info_area .info_title, .sp_nrealtime .nrealtime_list .nrealtime_item .item_info .desc_tit, .sp_nblog .total_tit, .sp_ncafe .total_tit, .sp_nsite .link_name, .sp_nsite .sublink_wrap .sublink .item a, .cs_produce a, .cs_produce .prcs_detail h4 a, .ad_section .lst_type .lst .lnk_tit, .ad_section .lst_type .lst.type_subtitle .sub_tit, .api_ly_info .link, .ad_section .lst_type .lst.ext_price .lst_price .txt_inner, .ad_section .lst_type .lst.ext_link .lst_link .item .link, .sp_ndicstudy .word_lst .word, .sp_nrealtime .api_title .btn_new, .sp_ndic .dic_more .dic_link, .sp_ndic .dic_more_link .count, .sp_ndic .other_list .other_list_link, .sp_ndic .info_list a, .sp_ndic .dic_area .link_more, .sp_ndic .class_area .info_box .title, .cs_sign .tx_info.line_type a, .sp_mobile .app_eachlist a.store_wrap, .cs_newest .sct_content li .scm_ellipsis_text a, .cs_seasonal_divisions .prcs_detail h4 a, .cs_common_module a, .cs_common_module .expand_info .text_wrap a, .cs_common_module .notice_info_area a, .cs_common_module .cm_table_area .type_normal .cm_table tbody th a, .cs_sports_team a, .cs_sports_team .prcs_guide .nologo a, .cs_sports_team .prcs_guide .nologo2 a, .cs_sports_team .prcs_guide .nologo .txt, .cs_sports_team .prcs_guide .nologo2 .txt, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td .nation_name, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td.top3 p a, .cs_olympic_history .team_area .line li .player_detail dt a, .sp_ntotal .dsc_alert .link_help, .cs_production_type .csp_table_area table td a, .sp_ndic .homonym_wrap .title, .cs_calculator .relation_box dl dd a, .cs_suneung .sn_tb .knowhow_link, .cs_delivery .rsult_box .lodg span.inque a, .cs_rgb_plt a, .cs_prevention .advice .advice_lst li a, .cs_prevention .help_lk .lk_lst li a {
-		color: #688cda;
-	}
-	
-	.sp_nnews .news_wrap .news_tit:visited, .sp_nnews .news_wrap .news_tit:visited mark, .sp_nnews .api_title_sub .sub_link:visited, .sp_nnews .news_cluster .sub_tit:visited, .sp_nnews .news_cluster .sub_tit:visited mark, .sp_nnews .news_wrap:visited .news_tit .tit, .sp_nnews .news_wrap:visited .news_tit .tit mark, .sp_nreview .total_tit:visited, .sp_nreview .total_tit:visited mark, .sp_nreview .total_link_area .link:visited, .sp_nreview .total_link_area .link:visited mark, .sp_ntotal .total_tit .link_tit:visited, .sp_ntotal .total_tit .link_tit:visited mark, .sp_nvideo .video_default_list .video_bx .info_area .info_title:visited, .sp_nvideo .video_default_list .video_bx .info_area .info_title:visited mark, .sp_ntotal .group_item .list_item .item a:visited, .sp_ntotal .group_item .list_item .item a:visited mark, .sp_nvideo .video_scroll_list .info_area .info_title:visited, .sp_nvideo .video_scroll_list .info_area .info_title:visited mark, .sp_nkin .cluster_item:visited, .sp_nrealtime .info_desc .desc_link:visited, .sp_nrealtime .info_desc .desc_tit:visited, .sp_nrealtime .info_desc:visited .desc_tit, .sp_nrealtime .profile_link:visited .explain_tit, .sp_nblog .total_tit:visited, .sp_nblog .total_tit:visited mark, .sp_ncafe .total_tit:visited, .sp_ncafe .total_tit:visited mark, .sp_nsite .link_name:visited, .sp_nsite .link_name:visited mark, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark, .sp_nkin .kin_wrap .question_area .question_text:visited, .cs_produce .prcs_detail h4 a:visited, .cs_produce a:visited, .ad_section .lst_type .lst .lnk_tit:visited, .ad_section .lst_type .lst.type_subtitle .sub_tit:visited, .sp_company .company_more .more_info .api_ly_info .link:visited, .ad_section .lst_type .lst.ext_price .lst_price .txt_inner:visited, .ad_section .lst_type .lst.ext_link .lst_link .item .link:visited, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark {
-		color: #cc90cd;
-	}
-	
-	.sp_nsite .link_name:visited, .sp_nsite .link_name:visited mark, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark, .sp_ntotal .total_tit .link_tit:visited, .sp_ntotal .total_tit .link_tit:visited mark, .sp_ntotal .group_item .list_item .item a:visited, .sp_ntotal .group_item .list_item .item a:visited mark, .sp_ndicstudy .word_lst .word:visited, .api_subject_bx .api_title_area .api_title a:visited, .sp_nreview .total_tit:visited, .sp_nreview .total_tit:visited mark, .sp_nnews .news_wrap .news_tit:visited, .sp_nnews .news_wrap .news_tit:visited mark, .sp_ncafe_used .used_wrap .title:visited, .cs_common_module a:visited, .cs_common_module .expand_info .text_wrap a:visited, .cs_common_module .cm_table_area .type_normal .cm_table tbody th a:visited, .cs_sports_team a:visited, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td .nation_name:visited, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td.top3 p a:visited, .cs_olympic_history .team_area .line li .player_detail dt a:visited, .cs_suneung .sn_tb .knowhow_link:visited, .cs_delivery .rsult_box .lodg span.inque a:visited, .cs_rgb_plt a:visited, .cs_prevention .advice .advice_lst li a:visited, .cs_prevention .help_lk .lk_lst li a:visited {
-		color: #cc90cd;
-	}
-	
 	.cs_lotto .bnr_line a img {
 		filter: invert(81.5%) hue-rotate(-180deg);
 	}
@@ -67799,6 +67860,1124 @@
 	.cs_lotto .slc_ly li a:hover {
 		background-color: #404040;
 		color: #fff;
+	}
+	
+	.cs_calculator .tab_area {
+		border: 1px solid #404040;
+		border-bottom: 0;
+	}
+	
+	.cs_calculator .tab_area ul {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_calculator .tab_area li.on a span {
+		color: #fff;
+		border-bottom: 1px solid #4f4f4f;
+	}
+	
+	.cs_calculator .tab_area li a {
+		color: #cacaca;
+	}
+	
+	.cs_calculator .calculator_area {
+		border: 1px solid #404040;
+		border-top: 0;
+	}
+	
+	.cs_calculator .saving .month_title, .cs_calculator .saving .date_title, .cs_calculator .saving .tax, .cs_calculator .repay_how .tax {
+		color: #fff;
+	}
+	
+	.cs_calculator .saving .saving_area, .cs_calculator .saving .date_area {
+		border: 1px solid #404040;
+	}
+	
+	.cs_calculator .saving .saving_area .won, .cs_calculator .saving .date_area .year, .cs_calculator .last .date_area .rate, .cs_calculator .special_tax .rate {
+		color: #cacaca;
+	}
+	
+	.cs_calculator .saving input[type=text] {
+		color: #cacaca;
+		background: #2f2f2f;
+	}
+	
+	.cs_calculator .saving .btn_date a, .cs_calculator .last .btn_rate a {
+		color: #cacaca;
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.cs_calculator .saving .btn_date a.year.on, .cs_calculator .last .btn_rate a.rate_btn.on, .cs_calculator li .btn_tax a.on, .cs_calculator .saving .btn_date a.monthly.on, .cs_calculator .last .btn_rate a.rate_btn2.on {
+		color: #fff;
+		background-color: #3a3a3a;
+		border: 1px solid #4f4f4f;
+	}
+	
+	.cs_calculator li .btn_tax a:first-child {
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_calculator .btn_calculator a.reset {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.cs_calculator .btn_calculator a.reset .ico_reset {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.calculator_interest .calculator_info {
+		color: #cacaca;
+		position: relative;
+		background: none;
+	}
+	
+	.calculator_interest .calculator_info:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/lifesrch/weather/img/ico_info.gif) 0 10px no-repeat;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_calculator li .btn_tax a {
+		color: #cacaca;
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+		border-left: 0;
+	}
+	
+	.cs_calculator li.v2 .rate, .cs_calculator li.v2 .date_area .year, .cs_calculator li.v2 .last_input .year, .cs_calculator li.v2 .won {
+		color: #cacaca !important;
+	}
+	
+	.cs_calculator .calculator_area .saving li.on.v2 .saving_input .money, .cs_calculator .calculator_area .saving li.v2 .saving_input .money {
+		color: #fff;
+	}
+	
+	.cs_calculator .calculator_area .saving .special_tax .tax_title, .cs_calculator .separate .last.v2 .date_area .rate {
+		color: #cacaca;
+	}
+	
+	.cs_calculator .calculator_area .saving .special_tax {
+		border: 1px solid #404040;
+	}
+	
+	.cs_calculator .separate .s_date.v2 .date_area .year {
+		color: #cacaca;
+	}
+	
+	.cs_calculator .calculator_area .saving.on .calculator_sub {
+		border-top: 1px solid #404040;
+		background-color: #3a3a3a;
+	}
+	
+	.cs_calculator .calculator_area .saving.on .calculator_sub .pay .number, .cs_calculator .calculator_area .saving.on .calculator_sub .subject, .cs_calculator .calculator_area .saving.on .calculator_sub .pay .won {
+		color: #fff;
+	}
+	
+	.cs_calculator .calculator_area .saving.on .calculator_sub .btn_calculator_sub {
+		color: #cacaca;
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_calculator .calculator_area .saving.on .calculator_sub .btn_calculator_sub .ico_reset {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_calculator .separate .last.on.v2 .date_area .rate {
+		color: #cacaca;
+	}
+	
+	.cs_calculator .loan_calculator_area {
+		border: 1px solid #404040;
+		border-top: 0;
+	}
+	
+	.cs_calculator .loan .month_title, .cs_calculator .loan .date_title, .cs_calculator .loan .repay_how {
+		color: #fff;
+	}
+	
+	.cs_calculator .loan .loan_input_area, .cs_calculator .loan .date_area {
+		border: 1px solid #404040;
+	}
+	
+	.cs_calculator .loan input[type=text] {
+		color: #cacaca;
+		background: #2f2f2f;
+	}
+	
+	.cs_calculator .loan .loan_input_area .won, .cs_calculator .loan .date_area .year, .cs_calculator .last .date_area .rate, .cs_calculator .special_tax .rate {
+		color: #cacaca;
+	}
+	
+	.cs_calculator .loan .btn_date a {
+		color: #cacaca;
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.cs_calculator .loan .btn_date a.year.on, .cs_calculator .loan .btn_date a.monthly.on {
+		color: #fff;
+		background-color: #3a3a3a;
+		border: 1px solid #4f4f4f;
+	}
+	
+	.cs_calculator .loan .s_loan.on.v2 .date_area .year, .cs_calculator .loan .s_loan.v2 .date_area .year, .cs_calculator .loan .last.on.v2 .date_area .rate, .cs_calculator .loan .last.v2 .date_area .rate {
+		color: #cacaca;
+	}
+	
+	.cs_calculator .loan_calculator_area .loan.on .calculator_sub {
+		border-top: 1px solid #404040;
+		background-color: #3a3a3a;
+	}
+	
+	.cs_calculator .loan_calculator_area .loan.on .calculator_sub .subject, .cs_calculator .loan_calculator_area .loan.on .calculator_sub .pay .number, .cs_calculator .loan_calculator_area .loan.on .calculator_sub .pay .won {
+		color: #fff;
+	}
+	
+	.cs_calculator .loan_calculator_area .loan.on .calculator_sub .repay_area {
+		border: 1px solid #404040;
+	}
+	
+	.cs_calculator .loan_calculator_area .loan.on .calculator_sub .repay_area .repay {
+		border-bottom: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_calculator .loan_calculator_area .loan.on .calculator_sub .repay_area .repay strong {
+		color: #fff;
+	}
+	
+	.cs_calculator .loan_calculator_area .loan.on .calculator_sub .repay_area .repay_title {
+		color: #cacaca;
+	}
+	
+	.cs_calculator .loan_calculator_area .loan.on .calculator_sub .repay_area .repay_money .number, .cs_calculator .loan_calculator_area .loan.on .calculator_sub .repay_area .repay_money .won {
+		color: #fff;
+	}
+	
+	.cs_calculator .loan_calculator_area .loan.on .calculator_sub .repay_area a {
+		background-color: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.cs_calculator .loan_calculator_area .loan.on .calculator_sub .btn_calculator_sub {
+		color: #cacaca;
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_calculator .loan_calculator_area .loan.on .calculator_sub .btn_calculator_sub .ico_reset {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_calculator .middle_tax {
+		border: 1px solid #404040;
+		border-top: 0;
+	}
+	
+	.cs_calculator .tax_area .refund_date, .cs_calculator .tax_area .date_title {
+		color: #fff;
+	}
+	
+	.cs_calculator .tax_area .refund_input_area, .cs_calculator .tax_area .date_area {
+		border: 1px solid #404040;
+	}
+	
+	.cs_calculator .tax_area input[type=text] {
+		color: #cacaca;
+		background: #2f2f2f;
+	}
+	
+	.cs_calculator .tax_area .refund_input_area .won, .cs_calculator .tax_area .date_area .year, .cs_calculator .tax_area .last_input .year, .cs_calculator .tax_area .refund_input_area .rate {
+		color: #cacaca;
+	}
+	
+	.cs_calculator .middle_tax .tax_area.on li .refund_input .money, .cs_calculator .middle_tax .tax_area li.on.v2 .refund_input .money, .cs_calculator .middle_tax .tax_area li.v2 .refund_input .money, .cs_calculator .loan_calculator_area .loan li.on.v2 .loan_input .money, .cs_calculator .loan_calculator_area .loan li.v2 .loan_input .money {
+		color: #fff;
+	}
+	
+	.cs_calculator .tax_area .btn_date a {
+		color: #cacaca;
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.cs_calculator .tax_area .btn_date a.year.on, .cs_calculator .tax_area .btn_date a.monthly.on {
+		color: #fff;
+		background-color: #3a3a3a;
+		border: 1px solid #4f4f4f;
+	}
+	
+	.cs_calculator .tax_area .last_input {
+		border: 1px solid #404040;
+	}
+	
+	.cs_calculator .tax_area .last2.on.v2 .last_input .year, .cs_calculator .tax_area .last2.v2 .last_input .year, .cs_calculator .tax_area .refund_input.on.v2 .refund_input_area .rate, .cs_calculator .tax_area .refund_input.v2 .refund_input_area .rate {
+		color: #cacaca;
+	}
+	
+	.cs_calculator .middle_tax .tax_area .last2 .free_date_text, .cs_calculator .tax_area .s_loandate.on.v2 .date_area .year, .cs_calculator .tax_area .s_loandate.v2 .date_area .year, .cs_calculator .tax_area .last.on.v2 .date_area .year, .cs_calculator .tax_area .last.v2 .date_area .year {
+		color: #cacaca;
+	}
+	
+	.cs_calculator .middle_tax .tax_area.on .calculator_tax_sub {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_calculator .middle_tax .tax_area.on .calculator_tax_sub .pay .won {
+		color: #fff;
+	}
+	
+	.cs_calculator .middle_tax .tax_area.on .calculator_tax_sub .tax_calculator p {
+		color: #cacaca;
+	}
+	
+	.cs_calculator .middle_tax .tax_area.on .calculator_tax_sub .btn_calculator_sub {
+		color: #cacaca;
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_calculator .middle_tax .tax_area.on .calculator_tax_sub .btn_calculator_sub .ico_reset {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_sports_tpl .flat_box .flat_info dd {
+		color: #fff;
+	}
+	
+	.cs_sports_tpl .flat_box .flat_info dt {
+		color: #cacaca !important;
+	}
+	
+	.sp_nreview .total_tit, .sp_nreview .total_link_area .link, .sp_ntotal .total_tit .link_tit, .sp_nbook .book_info .title_area, .sp_nbook .list_info a.item_info, .sp_nvideo .video_default_list .video_bx .info_area .info_title, .go_relate a, .sp_ntotal .group_item .list_item .item a, .sp_nvideo .video_scroll_list .info_area .info_title, ._3tIZ6 ._2LKql ._3CKdL, .sp_nvideo .video_square_list .square_wrap .info_area .info_title, .sp_nrealtime .nrealtime_list .nrealtime_item .item_info .desc_tit, .sp_nblog .total_tit, .sp_ncafe .total_tit, .sp_nsite .link_name, .sp_nsite .sublink_wrap .sublink .item a, .cs_produce a, .cs_produce .prcs_detail h4 a, .ad_section .lst_type .lst .lnk_tit, .ad_section .lst_type .lst.type_subtitle .sub_tit, .api_ly_info .link, .ad_section .lst_type .lst.ext_price .lst_price .txt_inner, .ad_section .lst_type .lst.ext_link .lst_link .item .link, .sp_ndicstudy .word_lst .word, .sp_nrealtime .api_title .btn_new, .sp_ndic .dic_more .dic_link, .sp_ndic .dic_more_link .count, .sp_ndic .other_list .other_list_link, .sp_ndic .info_list a, .sp_ndic .dic_area .link_more, .sp_ndic .class_area .info_box .title, .cs_sign .tx_info.line_type a, .sp_mobile .app_eachlist a.store_wrap, .cs_newest .sct_content li .scm_ellipsis_text a, .cs_seasonal_divisions .prcs_detail h4 a, .cs_common_module a, .cs_common_module .expand_info .text_wrap a, .cs_common_module .notice_info_area a, .cs_common_module .cm_table_area .type_normal .cm_table tbody th a, .cs_sports_team a, .cs_sports_team .prcs_guide .nologo a, .cs_sports_team .prcs_guide .nologo2 a, .cs_sports_team .prcs_guide .nologo .txt, .cs_sports_team .prcs_guide .nologo2 .txt, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td .nation_name, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td.top3 p a, .cs_olympic_history .team_area .line li .player_detail dt a, .sp_ntotal .dsc_alert .link_help, .cs_production_type .csp_table_area table td a, .sp_ndic .homonym_wrap .title, .cs_calculator .relation_box dl dd a, .cs_suneung .sn_tb .knowhow_link, .cs_delivery .rsult_box .lodg span.inque a, .cs_rgb_plt a, .cs_prevention .advice .advice_lst li a, .cs_prevention .help_lk .lk_lst li a, .cs_sports_tpl .flat_box .flat_info a {
+		color: #688cda;
+	}
+	
+	.sp_nnews .news_wrap .news_tit:visited, .sp_nnews .news_wrap .news_tit:visited mark, .sp_nnews .api_title_sub .sub_link:visited, .sp_nnews .news_cluster .sub_tit:visited, .sp_nnews .news_cluster .sub_tit:visited mark, .sp_nnews .news_wrap:visited .news_tit .tit, .sp_nnews .news_wrap:visited .news_tit .tit mark, .sp_nreview .total_tit:visited, .sp_nreview .total_tit:visited mark, .sp_nreview .total_link_area .link:visited, .sp_nreview .total_link_area .link:visited mark, .sp_ntotal .total_tit .link_tit:visited, .sp_ntotal .total_tit .link_tit:visited mark, .sp_nvideo .video_default_list .video_bx .info_area .info_title:visited, .sp_nvideo .video_default_list .video_bx .info_area .info_title:visited mark, .sp_ntotal .group_item .list_item .item a:visited, .sp_ntotal .group_item .list_item .item a:visited mark, .sp_nvideo .video_scroll_list .info_area .info_title:visited, .sp_nvideo .video_scroll_list .info_area .info_title:visited mark, .sp_nkin .cluster_item:visited, .sp_nrealtime .info_desc .desc_link:visited, .sp_nrealtime .info_desc .desc_tit:visited, .sp_nrealtime .info_desc:visited .desc_tit, .sp_nrealtime .profile_link:visited .explain_tit, .sp_nblog .total_tit:visited, .sp_nblog .total_tit:visited mark, .sp_ncafe .total_tit:visited, .sp_ncafe .total_tit:visited mark, .sp_nsite .link_name:visited, .sp_nsite .link_name:visited mark, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark, .sp_nkin .kin_wrap .question_area .question_text:visited, .cs_produce .prcs_detail h4 a:visited, .cs_produce a:visited, .ad_section .lst_type .lst .lnk_tit:visited, .ad_section .lst_type .lst.type_subtitle .sub_tit:visited, .sp_company .company_more .more_info .api_ly_info .link:visited, .ad_section .lst_type .lst.ext_price .lst_price .txt_inner:visited, .ad_section .lst_type .lst.ext_link .lst_link .item .link:visited, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark {
+		color: #cc90cd;
+	}
+	
+	.sp_nsite .link_name:visited, .sp_nsite .link_name:visited mark, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark, .sp_ntotal .total_tit .link_tit:visited, .sp_ntotal .total_tit .link_tit:visited mark, .sp_ntotal .group_item .list_item .item a:visited, .sp_ntotal .group_item .list_item .item a:visited mark, .sp_ndicstudy .word_lst .word:visited, .api_subject_bx .api_title_area .api_title a:visited, .sp_nreview .total_tit:visited, .sp_nreview .total_tit:visited mark, .sp_nnews .news_wrap .news_tit:visited, .sp_nnews .news_wrap .news_tit:visited mark, .sp_ncafe_used .used_wrap .title:visited, .cs_common_module a:visited, .cs_common_module .expand_info .text_wrap a:visited, .cs_common_module .cm_table_area .type_normal .cm_table tbody th a:visited, .cs_sports_team a:visited, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td .nation_name:visited, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td.top3 p a:visited, .cs_olympic_history .team_area .line li .player_detail dt a:visited, .cs_suneung .sn_tb .knowhow_link:visited, .cs_delivery .rsult_box .lodg span.inque a:visited, .cs_rgb_plt a:visited, .cs_prevention .advice .advice_lst li a:visited, .cs_prevention .help_lk .lk_lst li a:visited, .cs_sports_tpl .flat_box .flat_info a:visited {
+		color: #cc90cd;
+	}
+	
+	.cs_sports_tpl .mtab li {
+		border: 1px solid #404040;
+		border-width: 1px 1px 0 0;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_sports_tpl .mtab .on {
+		border-color: #4f4f4f;
+		border-width: 1px;
+		background-color: #3a3a3a;
+	}
+	
+	.cs_sports_tpl .mtab li a {
+		color: #cacaca;
+		opacity: 1;
+		font-family: 'Helvetica', 'serif';
+	}
+	
+	.cs_sports_tpl .mtab .on a {
+		color: #fff;
+	}
+	
+	.cs_sports_tpl .sports_lst_box {
+		border: 1px solid #404040;
+	}
+	
+	.cs_sports_tpl .date_lst_box .ico_slc {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_sports_tpl .date_box .date {
+		color: #cacaca !important;
+	}
+	
+	.cs_sports_tpl .nav_box, .cs_sports_tpl .sports_lst th {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_sports_tpl .sports_lst .chn a {
+		color: #cacaca;
+	}
+	
+	.cs_sports_tpl .sports_lst .ico_slc {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_sports_tpl .sports_lst .btn.end {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.cs_sports_tpl .sports_lst td {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_sports_tpl .bx_guide.inside {
+		border-top: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.cs_sports_tpl .bx_guide p {
+		color: #cacaca;
+	}
+	
+	.cs_sports_tpl .bx_guide .ico_alert {
+		background: none;
+		position: relative;
+	}
+	
+	.cs_sports_tpl .bx_guide .ico_alert:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/scui/sports_tpl/img/ico_info.gif) 0 3px no-repeat;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_sports_tpl .bx_guide .other_links dl dt {
+		color: #fff !important;
+	}
+	
+	.sp_nkindic .lst_nkindic>.bx {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.sp_fstv .fstv_detail .related_info a {
+		background: none;
+		color: #cacaca;
+		position: relative;
+		z-index: 10;
+	}
+	
+	.sp_fstv .fstv_detail .related_info a:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/image/cs_broadcast/img/sp_bg.gif) no-repeat 100% 2px;
+		position: absolute;
+		content: '';
+		right: 0;
+		top: 0;
+		width: 14px;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+		z-index: 0;
+	}
+	
+	.sp_fstv .fstv_detail dl dd {
+		color: #fff;
+	}
+	
+	.sp_fstv .fstv_detail dl dt {
+		color: #cacaca;
+	}
+	
+	.sp_fstv .related_info .srch_option {
+		background: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.sp_fstv .related_info .srch_option li a:hover {
+		background: #3a3a3a;
+		color: #cacaca;
+	}
+	
+	.film_festival a.sp_thmb .bg_noimg {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.sp_fstv .fstv_tab .lst_tab {
+		border-right: 1px solid #404040;
+		border-top: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.sp_fstv .fstv_tab .more {
+		color: #cacaca;
+	}
+	
+	.sp_fstv .fstv_tab .lst_tab li a {
+		border: 1px solid #404040;
+		border-bottom: 0 !important;
+		color: #cacaca;
+	}
+	
+	.sp_fstv .fstv_tab .lst_tab li.on a {
+		border: 1px solid #4f4f4f;
+		background: #3a3a3a;
+		color: #fff !important;
+	}
+	
+	.sp_fstv .fstv_bx {
+		border-top: 1px solid #404040;
+	}
+	
+	.sp_fstv .scroll_tab {
+		border: 1px solid #404040;
+	}
+	
+	.sp_fstv .fstv_bx .top_bar .btn a {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.sp_fstv .fstv_bx .top_bar .highlight_tip a {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.sp_fstv .fstv_bx .winner_list .fblack {
+		color: #fff;
+	}
+	
+	.sp_fstv .fstv_bx .winner_list .fgray, .film_festival .subinfo_box .text {
+		color: #cacaca;
+	}
+	
+	.film_festival .subinfo_box {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.film_festival .relation_box dt {
+		color: #fff !important;
+	}
+	
+	.cs_car .profile dd {
+		color: #fff;
+	}
+	
+	.cs_car .profile dt {
+		color: #cacaca;
+	}
+	
+	.cs_car .profile dt.left_none {
+		background: none;
+		position: relative;
+	}
+	
+	.cs_car .profile dt.left_none:before {
+		background: url(https://ssl.pstatic.net/sstatic/search/tx/bar_series_2dd.gif) no-repeat 8px 3px;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_car .profile dd .info {
+		background: none;
+		position: relative;
+		color: #cacaca;
+	}
+	
+	.cs_car .profile dd .info:before {
+		background: url(https://ssl.pstatic.net/sstatic/search/img/sprite_bullet.gif) left -440px no-repeat;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.layerpopup.ex .border_type {
+		background-color: #2f2f2f;
+		border: 2px solid #404040;
+		color: #cacaca;
+	}
+	
+	.cs_car .profile_wrap .border_type p {
+		color: #fff;
+	}
+	
+	.cs_car .profile .btn_dti_add {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.u_likeit_list_module .u_likeit_list_btn {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.cs_car .profile .u_likeit_list_btn {
+		border-color: #404040;
+	}
+	
+	.cs_car .relation_media h3 {
+		color: #fff;
+	}
+	
+	.cs_common_module.case_empasis .cm_top_wrap .sub_tap_area .next_visual {
+		border-color: #fff !important;
+		position: absolute;
+	}
+	
+	.cs_common_module.case_empasis .cm_top_wrap .sub_tap_area .next_visual:after {
+		position: absolute;
+		content: '';
+		right: 0;
+		top: 0;
+		width: 65%;
+		height: 100%;
+		background: rgba(0, 0, 0, 0.75);
+		pointer-events: none;
+	}
+	
+	.cs_common_module.case_empasis .cm_top_wrap .sub_tap_area .pre_visual {
+		position: absolute;
+		border-color: #fff !important;
+	}
+	
+	.cs_common_module.case_empasis .cm_top_wrap .sub_tap_area .pre_visual:after {
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 65%;
+		height: 100%;
+		background: rgba(0, 0, 0, 0.75);
+		pointer-events: none;
+	}
+	
+	.cs_common_module .cm_info_box.scroll_tvtime .tvtime_box .cm_date {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .cm_info_box.scroll_tvtime .tvtime_box .cm_date:after {
+		background-color: #404040;
+	}
+	
+	.cs_common_module .cm_info_box.scroll_tvtime .tvtime_box .tvtime_list {
+		background-color: #242424;
+	}
+	
+	.cs_common_module .cm_info_box.scroll_tvtime .tvtime_box .tvtime_list:before {
+		background: #3a3a3a;
+	}
+	
+	.cs_common_module .tvtime_list .number, .cs_common_module .tvtime_table .number {
+		color:#fff;
+	}
+	
+	.cs_common_module .cm_info_box.scroll_tvtime .tvtime_box .tvtime_list .info .time {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .area_title_tab_bar li[aria-selected="true"] .play_tab {
+		color: #fff;
+	}
+	
+	.cs_common_module .area_title_tab_bar .play_tab {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .area_title_tab_bar li:before {
+		background-color: #404040;
+	}
+	
+	.cs_common_module .cm_pure_box .area_scroll_wrap .area_srcoll_ulist>li {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_common_module .lego_intro_rating .area_category li .this_text {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .lego_movie_pure_star .area_text_box {
+		color: #fff;
+	}
+	
+	.cs_common_module .lego_intro_rating .area_text_box_ell {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .lego_rating_box_change_age .area_subtitle {
+		color: #fff;
+	}
+	
+	.cs_common_module .lego_rating_box_change_sex .area_chart_doughnut_wrap .area_chart_doughnut .area_error_before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_common_module .lego_rating_box_change_age .area_graph_age li {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .lego_rating_box_change_age .area_graph_age .area_bar_outer {
+		background-color: #4f4f4f;
+	}
+	
+	.sub_pack .z_fashion .section_head {
+		border: 1px solid #404040;
+		border-bottom: 0;
+		background: #2f2f2f;
+	}
+	
+	.sub_pack .z_fashion .dsc_tit {
+		color: #fff;
+	}
+	
+	.sub_pack .z_fashion .section_body {
+		border: 1px solid #404040;
+		border-top: 0;
+		background: #2f2f2f;
+	}
+	
+	.sub_pack .z_fashion .tab_cate .tab_link {
+		color: #cacaca;
+	}
+	
+	.sub_pack .z_fashion .list {
+		border-top: 1px solid #404040;
+	}
+	
+	.sub_pack .z_fashion .list .nx_thumb .price {
+		text-shadow: #000 1px 0 5px;
+		overflow: initial;
+	}
+	
+	.sub_pack .z_fashion .nx_section_more .lnk_more {
+		color: #cacaca;
+	}
+	
+	.sub_pack .z_fashion .dsc_ncaution {
+		color: #cacaca;
+	}
+	
+	.sp_nshop_aside .tab_popular {
+		background-color: #2f2f2f;
+	}
+	
+	.sp_nshop_aside .tab_popular .tab_list>li .item, .sc_new .api_title_area .api_title_sub .api_sub_link .etc_txt {
+		color: #cacaca;
+	}
+	
+	.cs_translator .slc_txt {
+		color: #fff;
+	}
+	
+	.cs_translator .txt_box.rt {
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_translator .url_trans {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_translator .trans_txt {
+		color: #cacaca;
+		background: #2f2f2f;
+	}
+	
+	.cs_translator .trans_info a.btn_trans {
+		color: #2f2f2f;
+	}
+	
+	.cs_translator .url_trans a.btn_trans2 {
+		background-color: #4f4f4f;
+		color: #cacaca;
+	}
+	
+	.cs_translator .notice_info {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_translator .notice_info .txt {
+		color: #cacaca;
+	}
+	
+	.cs_translator .trans_info a.btn_lsn, .cs_translator .cls.on, .cs_translator .btn_chg {
+		filter: brightness(1000%);
+	}
+	
+	.cs_translator .slc_txt_lst.on, .cs_translator .txt_box.rt .slc_txt_lst.v2.on {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.cs_translator .slc_txt_lst ul, .cs_translator .slc_txt_lst li {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_translator .slc_txt_lst a {
+		color: #cacaca;
+	}
+	
+	.cs_translator .url_trans .input_url {
+		color: #cacaca;
+	}
+	
+	.cs_translator .url_trans a.btn_trans2.on {
+		color: #2f2f2f;
+	}
+	
+	.cs_contuntil .unit .box {
+		border: 6px solid #404040;
+	}
+	
+	.cs_contuntil .unit .tab_area .tabs li a {
+		color: #cacaca;
+	}
+	
+	.cs_contuntil .unit .tab_area .tabs li.selected a {
+		background: none;
+		position: relative;
+	}
+	
+	.cs_contuntil .unit .tab_area .tabs li.selected a:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/lifesrch/unit_change/img/sprite_bullet.gif) 0 -37px no-repeat;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_contuntil .unit .tab_area .tabs li {
+		background: none;
+		position: relative;
+	}
+	
+	.cs_contuntil .unit .tab_area .tabs li:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/lifesrch/unit_change/img/sprite_bullet.gif) 0 2px no-repeat;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_contuntil .unit .compare_area {
+		border: 1px solid #404040;
+		border-width: 1px 0;
+		background: #404040;
+	}
+	
+	.cs_contuntil .unit .compare_area .unit_slc {
+		border: 1px solid #404040;
+		background: #2f2f2f;
+		color: #fff;
+	}
+	
+	.cs_contuntil .unit .compare_area .unit_slc:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/unit/img/img_list.png) no-repeat 100% -104px;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_contuntil .unit .compare_area .unit_slc .img_arr, .cs_contuntil .unit .compare_area .btn_chg {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_contuntil .unit .compare_area .unit_chg .unit_bf {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_contuntil .unit .compare_area .unit_chg .unit_bf .input_box {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_contuntil .unit .compare_area .unit_chg .unit_af {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_contuntil .unit .compare_area .unit_slc.on {
+		background: #2f2f2f;
+		position: relative;
+	}
+	
+	.cs_contuntil .unit .compare_area .unit_slc.on:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/unit/img/img_list.png) no-repeat 100% -137px;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_contuntil .unit .compare_area .unit_lst ul {
+		border: 1px solid #404040;
+		border-width: 0 1px 1px;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_contuntil .unit .compare_area .unit_lst li a {
+		color: #cacaca;
+	}
+	
+	.cs_contuntil .unit .compare_area .unit_lst li a:hover {
+		background-color: #3a3a3a;
+	}
+	
+	.cs_contuntil .unit .compare_area .unit_lst li {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_contuntil .unit .compare_area .unit_lst li a.on {
+		color: #fff;
+	}
+	
+	.cs_contuntil .unit .cont_area td p em {
+		color: #fff;
+	}
+	
+	.cs_contuntil .unit .cont_area td p {
+		color: #cacaca;
+	}
+	
+	.cs_contuntil .unit .cont_area td p {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_contuntil .unit p.info {
+		background: none;
+		position: relative;
+		color: #cacaca;
+	}
+	
+	.cs_contuntil .unit p.info:before {
+		background: url(https://ssl.pstatic.net/sstatic/search/tx/ico_info.gif) 0 3px no-repeat;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_contuntil .unit .top_line {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_contuntil .unit .prcs_guide .other_links dl dt {
+		color: #fff !important;
+	}
+	
+	.cs_contuntil .unit .prcs_guide .other_links dl dd li {
+		background: none;
+		position: relative;
+	}
+	
+	.cs_contuntil .unit .prcs_guide .other_links dl dd li:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/uio/img/bg_sep.gif) 0 4px no-repeat;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_contuntil .unit .compare_area.time {
+		border: 1px solid #404040;
+		border-width: 1px 0;
+		background: #404040;
+	}
+	
+	.cs_contuntil .unit .compare_area.time .time_box span {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_contuntil .unit .compare_area.time .time_box .input_box {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_contuntil .unit .compare_area.time .time_box {
+		border: 1px solid #4f4f4f;
+	}
+	
+	.cs_contuntil .unit .compare_area.time .time_box {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_contuntil .unit .compare_area.time .time_clear {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.cs_grammar_check .check_box .text_box {
+		background-color: #2f2f2f;
+		border-right: 1px solid #404040;
+	}
+	
+	.cs_grammar_check .check_box .text_box.right {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_grammar_check .check_box .text_box .text_area .txt_gray {
+		color: #cacaca;
+		background: #2f2f2f;
+	}
+	
+	.cs_grammar_check .check_box .text_box .check_info .txt_limit {
+		color: #cacaca;
+	}
+	
+	.cs_grammar_check .grammar_info:before {
+		background-color: #404040;
+	}
+	
+	.cs_grammar_check .info_area {
+		color: #cacaca;
+	}
+	
+	.cs_grammar_check .check_box .text_box .check_info .btn_check {
+		color: #2f2f2f;
+	}
+	
+	.cs_grammar_check .check_box .text_box .text_area .stand_txt {
+		color: #cacaca;
+		background: #2f2f2f;
+	}
+	
+	.cs_grammar_check .check_box .text_box .check_info .check_area dl dd {
+		color: #cacaca;
+	}
+	
+	.cs_grammar_check .check_box .text_box .check_info .btn_area .colorless, .cs_grammar_check .check_box .text_box .check_info .btn_area .copy {
+		filter: brightness(1000%);
+	}
+	
+	.cs_grammar_check .copy_popup {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.cs_grammar_check .copy_popup .popup_text {
+		color: #cacaca;
+	}
+	
+	.cs_grammar_check .copy_popup .close_btn, .cs_grammar_check .check_box .text_box .check_info .check_area.colorless dl dd .ico {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_grammar_check .check_box .text_box .text_area p .grammar {
+		color: #fff;
+	}
+	
+	.cs_grammar_check .check_box .text_box .check_info .txt_limit em.on {
+		color: #fff;
+	}
+	
+	.cs_korean_quiz .quiz_sct .ct_bx .content_area {
+		border: 1px solid #404040;
+		border-top: 0;
+	}
+	
+	.cs_korean_quiz .cnt_area .u_ico {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_korean_quiz .cnt_area .u_cnt {
+		color: #cacaca;
+	}
+	
+	.cs_korean_quiz .quiz_sct .tab_bx ul>li {
+		border: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.cs_korean_quiz .quiz_sct .tab_bx ul>li.on {
+		border-color: #4f4f4f;
+		background: #3a3a3a;
+	}
+	
+	.cs_korean_quiz .quiz_sct .tab_bx ul>li.on+li {
+		border-left-color: #4f4f4f;
+	}
+	
+	.cs_korean_quiz .quiz_sct .tab_bx ul>li>a {
+		color: #cacaca;
+	}
+	
+	.cs_korean_quiz .quiz_sct .tab_bx ul>li.on>a {
+		color: #fff;
+	}
+	
+	.cs_korean_quiz .quiz_sct .ct_bx .tit_area h3 {
+		color: #cacaca;
+	}
+	
+	.cs_korean_quiz .quiz_sct .slt_area .answer_lst li>a {
+		border: 1px solid #404040;
+	}
+	
+	.cs_korean_quiz .quiz_sct .slt_area .answer_lst li>a>span {
+		color: #cacaca;
+	}
+	
+	.cs_korean_quiz .quiz_sct .slt_area .answer_lst li>a:after, .cs_korean_quiz .quiz_sct .ct_bx .tit_area>a {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_korean_quiz .quiz_sct .ct_bx .tit_area .quiz_txt>p {
+		color: #cacaca;
+	}
+	
+	.cs_korean_quiz .graph_area {
+		border: 1px solid #404040;
+		background: #3a3a3a;
+		color: #cacaca;
+	}
+	
+	.cs_korean_quiz .graph_area ul li>strong {
+		color: #cacaca;
+	}
+	
+	.cs_korean_quiz .graph_area ul li .percent {
+		color: #cacaca;
+	}
+	
+	.cs_korean_quiz .graph_area .grp_bx {
+		background: #4f4f4f;
+	}
+	
+	.cs_korean_quiz .graph_area .grp_bx .grp {
+		background: #cacaca;
 	}
 }
 

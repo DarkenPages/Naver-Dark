@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.837
+@version		1.48.838
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -14914,6 +14914,18 @@
 	
 	.ugc_login .top_text, .ugc_login .sign_in a, .ugc_login .info_find a {
 		color: #cacaca;
+	}
+	
+	.wrap_thumbnail_post_list[data-post-type="buddy"] .list_post_article.list_post_article_comments .comments .reply {
+		color: #fff;
+	}
+	
+	.wrap_thumbnail_post_list[data-post-type="buddy"] .list_post_article.list_post_article_comments .comments .reply .icon_comment2 {
+		filter: brightness(1000%);
+	}
+	
+	.list_post_article .comments {
+		color: #fff;
 	}
 }
 
@@ -39262,6 +39274,10 @@
 	
 	.addfile_layer li img {
 		border-radius: 2px;
+	}
+	
+	#blog-gnb .gnb_icon {
+		
 	}
 }
 

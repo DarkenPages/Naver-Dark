@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.841
+@version		1.48.842
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -14333,6 +14333,52 @@
 	
 	.skin-1080 #widget_company_info .list_company li {
 		color: #cacaca;
+	}
+	
+	.skin-1080 .su_prevention {
+		background-color: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.skin-1080 .su_prevention .advice .tit {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.skin-1080 .su_prevention .advice .advice_lst ul {
+		color: #fff;
+	}
+	
+	.skin-1080 .su_prevention .advice .advice_lst h5 {
+		color: #fff;
+	}
+	
+	.skin-1080 .su_prevention .help_lk .lk_lst h5 {
+		filter: brightness(1000%);
+	}
+	
+	.skin-1080 .su_prevention .help_lk .lk_lst li {
+		background: none;
+		position: relative;
+	}
+	
+	.skin-1080 .su_prevention .help_lk .lk_lst li:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/prevention/img/img_lst.png) no-repeat 0 -260px;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(86%) hue-rotate(-180deg) brightness(1000%);
+	}
+	
+	.skin-1080 .su_prevention .help_lk .lk_lst li a, .skin-1080 .su_prevention .advice .advice_lst li a {
+		color: #688cda;
+	}
+	
+	.skin-1080 .su_prevention .help_lk .lk_lst li a:visited, .skin-1080 .su_prevention .advice .advice_lst li a:visited {
+		color: #cc90cd;
 	}
 }
 

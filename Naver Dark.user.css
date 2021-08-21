@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.48.846
+@version		1.50.0
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -124,7 +124,7 @@
     #wrap.dichome { position: relative }
     #wrap.dichome:before { width: 100%;top: 95px;position: absolute;left: 0;height: 283px;content: '';background: #2f2f2f }
 }
-@-moz-document domain("dict.naver.com"), url-prefix("https://note.naver.com"), url-prefix("https://mail.naver.com"), url-prefix("https://search.naver.com"), url-prefix("https://nid.naver.com/user2/help/"), url-prefix("https://section.cafe.naver.com"), url-prefix("https://cafe.naver.com"), url-prefix("cafe.naver.com"), url-prefix("https://section.blog.naver.com"), url-prefix("http://section.blog.naver.com"), url-prefix("https://terms.naver.com"), url-prefix("https://www.naver.com/NOTICE"), url-prefix("https://www.naver.com/more.html"), url-prefix("https://people.search.naver.com"), url-prefix("https://sports.news.naver.com"), url-prefix("https://noti.naver.com"), url-prefix("https://myfeed.naver.com"), url-prefix("https://editor.post.naver.com"), url-prefix("https://post.stat.naver.com"), url-prefix("https://talk.naver.com"), url-prefix("https://news.naver.com"), url-prefix("https://blog.naver.com"), url-prefix("https://guestbook.blog.naver.com"), url-prefix("https://admin.blog.naver.com"), url-prefix("https://weather.naver.com"), regexp("https://calendar\\.naver\\.com/(?!promotion.nhn|subscribePage.nhn).*"), regexp("https://(.*)dic\\.naver\\.com/.*") {
+@-moz-document domain("dict.naver.com"), url-prefix("https://note.naver.com"), url-prefix("https://mail.naver.com"), url-prefix("https://search.naver.com"), url-prefix("https://nid.naver.com/user2/help/"), url-prefix("https://section.cafe.naver.com"), url-prefix("https://cafe.naver.com"), url-prefix("cafe.naver.com"), url-prefix("https://section.blog.naver.com"), url-prefix("http://section.blog.naver.com"), url-prefix("https://terms.naver.com"), url-prefix("https://www.naver.com/NOTICE"), url-prefix("https://www.naver.com/more.html"), url-prefix("https://people.search.naver.com"), url-prefix("https://sports.news.naver.com"), url-prefix("https://noti.naver.com"), url-prefix("https://myfeed.naver.com"), url-prefix("https://editor.post.naver.com"), url-prefix("https://post.stat.naver.com"), url-prefix("https://talk.naver.com"), url-prefix("https://news.naver.com"), url-prefix("https://blog.naver.com"), url-prefix("https://guestbook.blog.naver.com"), url-prefix("https://admin.blog.naver.com"), url-prefix("https://weather.naver.com"), url-prefix("https://policy.naver.com"), regexp("https://calendar\\.naver\\.com/(?!promotion.nhn|subscribePage.nhn).*"), regexp("https://(.*)dic\\.naver\\.com/.*") {
     :root #gnb .gnb_pad_lyr,.gnb_bg,.gnb_favorite_area,.gnb_search_area,.gnb_linkwrp,.gnb_my_li .gnb_my_content .gnb_mask,.gnb_my_lyr,.gnb_notice_li .gnb_notice_lyr { background: none }
     .gnb_banner { padding: 0;margin: 0 4px;background: none;background-color: #2f2f2f }
     .gnb_banner .gnb_service_event { width: 100%;filter: invert(81.5%) hue-rotate(-180deg) }
@@ -3493,6 +3493,17 @@
     #footer { background: #242424 }
     body,head,html { color: #cacaca;background: #242424 }
 }
+@-moz-document url-prefix("https://nid.naver.com/user2/help/privacyInfo") {
+    .area_text_etc,.location_agree,.parent_tit_txt,.tit_txt,#footer a,#footer a:visited { color: #cacaca }
+    .person_data_wrap .tab_box { color: #cacaca;border: 1px solid #404040;background-color: #2f2f2f }
+    .person_data_wrap .table_area { color: #cacaca;border: 1px solid #404040;background-color: #242424 }
+    .person_data_wrap li:first-child .tab_box { border-left: 1px solid #404040 }
+    .table_area td,.table_area th { border-top: 1px solid #404040;border-left: 1px solid #404040;border-bottom: 0 }
+    .table_area th { color: #fff;background-color: #2f2f2f }
+    #footer address a,#tab1 .table_area td:first-child,#tab3 .table_area td:first-child { color: #fff }
+    #footer ul li:before { background-color: #404040 }
+    #tab3 .table_area tbody tr:first-child td { border-top: 1px solid #404040 }
+}
 @-moz-document url-prefix("https://nid.naver.com/user2/help/realNameCheck"), url-prefix("https://nid.naver.com/user2/rncheck") {
     :root .input_check_big label,:root .input_chk_small label { filter: invert(89%) hue-rotate(-180deg) }
     :root .mobile_verify .btn { position: relative;background: #019341 }
@@ -3783,6 +3794,46 @@
     #scontent #search_form .g_window:after { top: 10px;right: 12px;position: absolute;pointer-events: none;font-weight: bold;font-size: 18px;display: inline;content: '검색';color: #242424 }
     a { color: #8383ff }
 }
+@-moz-document url-prefix("https://policy.naver.com") {
+    .arrow,#content .title .nav1 li,#footer ul li { position: relative;background: none }
+    .arrow:before { width: 100%;top: 0;position: absolute;pointer-events: none;left: 0;height: 100%;filter: invert(86%) hue-rotate(-180deg);content: '';background: url(https://s.pstatic.net/static/rules/r8/bu_arrow1.gif) no-repeat 0 2px }
+    .gnb_notice_li a.gnb_notice .gnb_icon,.gnb_service_li a.gnb_service .gnb_icon,.mail_li a.gnb_mail .gnb_icon { filter: none }
+    .gotop a { position: relative;color: #cacaca;background: none }
+    .gotop a:before { width: 100%;top: 0;position: absolute;pointer-events: none;left: 0;height: 100%;filter: invert(86%) hue-rotate(-180deg);content: '';background: url(https://s.pstatic.net/static/rules/r8/bu_arrow3.gif) no-repeat 6px 2px }
+    [lang=en] #content .title .nav1 li a,[lang=en] #header #lnb li,[lang=en] #header .sub_tit,#content .index .print img,#content .mark img,#content .result dd img,#content .result dt img,#content .mark_title h3 img,#content.iso p img,#content .section .data_download h5 img,#content .section .section_soc li h5 img,#content.soc .index h4 img,#content.soc .section h4 img,#content.soc p,#content .title .nav1 li a img,#content .title .p_h2 img,#content .title h2 a img,#content.privacy .index .i1 p,#content.privacy .index .i2 p,#content.privacy .index h3,#content.responsibility .btn a img,#content.spam .section .depth2 img,#footer address img,#header .sub_tit,#header #lnb li { filter: invert(86%) hue-rotate(-180deg) }
+    [lang=en] #content.privacy .section .btn_area a,#content .section .data_download_btn img { border-radius: 5px }
+    [lang=en] #content.privacy .section table.tbl2 tbody th,#content .section .contact,#content.privacy .section table thead th { background-color: #2f2f2f }
+    [lang=en] #header #lnb:after { background-color: #404040 }
+    #content .index,#content .mark_section0,#content .mark_section1,#content .mark_section2,#content .mark_section3,#content .mark_title,#content .title,#content .title .nav1 li.on a,#content.soc .section { border-bottom: 1px solid #404040 }
+    #content .sec_nav li a,#content.agreement .section.v1 h3,#content .section .contact th,#content .section .group_terms dl dt,#content.agreement .section.v2 h3,#content .title dt,#content.agreement .section h3 a,#content.privacy .section .shortcut ol li a,#content.privacy .section .tgl_more,#content.privacy .section h3,#content.privacy .section h4,#content.privacy .title h2,#content.responsibility .section h2,#content.responsibility .section h2 a,#content.robots .section .etc .first,#content.robots .section .etc .first *,#content.robots .section h3,#content.spam .section h3,#content.spam .section h4 a,#content.teenagers .section h3,#content.teenagers .section h4,#footer address a { color: #fff }
+    #content .section .contact .line,#content.privacy .index > div,#content.privacy .section .contact dl { border-left: 1px solid #404040 }
+    #content .section .data_download_wrap { border-top: 1px solid #404040;border-bottom: 1px solid #404040 }
+    #content .section .data_download:first-child { border-right: 1px solid #404040 }
+    #content .section .group_terms dl dd,#content .section .sec_ul > li,#content .section .service_info dd,#content .section.v1 p,#content .title dd,#content.privacy .title h2 .ver,#content.privacy .title p,#content.teenagers .section h4 *,#footer *,#footer a,#footer a:visited,#header .lang_wrap .lang_lst a,#header .lang_wrap .sel_lang { color: #cacaca }
+    #content .section .sec_nav li,#content.privacy .section table td,#content.privacy .section table th { border: 1px solid #404040 }
+    #content .section .service_h4 { color: #cacaca !important }
+    #content .section .service_info dt { color: #fff !important }
+    #content .section .table_box .thead_th { color: #fff;border: 1px solid #404040;background-color: #2f2f2f }
+    #content .section .table_box tbody td,#content .section .table_box tbody th { color: #cacaca;border: 1px solid #404040 }
+    #content .section p span[style*='background-color: #fff'] { background-color: #242424 !important }
+    #content .title .nav1 li:before { width: 100%;top: 0;position: absolute;pointer-events: none;left: 0;height: 100%;filter: invert(86%) hue-rotate(-180deg);content: '';background: url(https://s.pstatic.net/static/rules/r8/line_v_e5.gif) no-repeat 0 0 }
+    #content.privacy .section .contact,#content.privacy .section .tgl_cont { border: 1px solid #404040;background-color: #2f2f2f }
+    #content.privacy .section .shortcut { border: 3px solid #404040 }
+    #content.privacy .section,#content.privacy .section .sec > li,#content.privacy .section .shortcut ol,#footer { border-top: 1px solid #404040 }
+    #content.robots .section .etc { background: #2f2f2f }
+    #footer ul li:before { width: 100%;top: 0;position: absolute;pointer-events: none;left: 0;height: 100%;filter: invert(86%) hue-rotate(-180deg);content: '';background: url(https://s.pstatic.net/static/common/footer/bu_bar.gif) left 40% no-repeat }
+    #header .lang_wrap { border: 1px solid #404040;background-color: #242424 }
+    #header .lang_wrap .lang_lst a:hover { background-color: #3a3a3a }
+    #header .lang_wrap.opn .lang_lst { border-top: 1px solid #404040;background-color: #2f2f2f }
+    #header .tit_area { border-bottom: 2px solid #404040 }
+    body { color: #cacaca;background: #242424 }
+}
+@-moz-document url-prefix("https://policy.naver.com/rules/popup") {
+    .tbl_type td,th { color: #fff;border: 1px solid #404040 }
+    .tbl_type th { background: #2f2f2f }
+    #content { border-bottom: 1px solid #404040 }
+    #footer a img { filter: invert(86%) hue-rotate(-180deg) }
+}
 @-moz-document url-prefix("https://post.editor.naver.com/editor") {
     .btn_cell_importer { border: 1px solid #404040;background-color: #4f4f4f }
     .btn_cell_selector_all,.pop_publish,.pop_simple,.se_cell,.se_tablePop_context,.se_documentTitle.is-bg .se_documentTitle_btn_wrap,.se_schedule .se_schedule_box,.se_toolbar_group,.se_toolbarOption,.searchImage_ly_sorting,.toast_msg_pop { border: 1px solid #404040;background-color: #2f2f2f }
@@ -4012,6 +4063,49 @@
     .nme_toolbar_equation .nme_tool_toggle[aria-expanded=true] { border-color: #404040;background-color: #2f2f2f }
     .nme_toolbar_symbol .nme_tool,.nme_toolbar_text .nme_tool { border-right: 1px solid #404040 }
     .nme_toolbar_text { border-bottom: 1px solid #404040;background-color: #242424 }
+}
+@-moz-document url-prefix("https://privacy.naver.com") {
+    .banner .banner_img,.dl_etc_law .law_logo,.dn_banner .img_box,.fold_tab_box .btn_fold,.h_button_box .next,.h_button_box .prev,.ifg_img_box,.pa_img_box .bg_box.bg,.pa_img_box .bg_box.bg2,.pa_img_box .bg_box.bg2_en,.pa_img_box .bg_box.process_en,.pa_img_box .bg_box.secret,.pa_img_box .bg_box.secret_en,.pa_img_box .bg_box.business,.pa_img_box .bg_box.user_info,.pa_img_box .bg_box.committee,.pa_img_box .bg_box.in,.pa_img_box .bg_box.in2,.pa_img_box .bg_box.pbd,.pa_img_box .bg_box.per,.pa_img_box .bg_box.v2,.signature_box img { filter: invert(86%) hue-rotate(-180deg) }
+    .bk { color: #fff !important }
+    .border_box,.border_top_box,.circle_dot_box,.cont_info_box,.select_box,.tbl_info td,.tbl_info tr { border: 1px solid #404040 }
+    .border_top_box .h_b_box h3,.btn_tbl_more,.cont_box .h_b4,.cont_box .h_t2,.cont_box .h_t3,.cont_box .h_t4,.cont_box .p_dsc.type2 span,.cont_box strong.h_t4,.cont_info .dl_lst dd,.cont_info_box .tab_list li.on a,.data_list ul li .text,.dl_etc_law dt,.dl_horizon,.fold_tab_box .fold_tab,.gr,.h_button_box .title_txt,.highlight,.info_lst_box li a,.lk_policy,.login_detail .log_q_lst .q_lst .h_q,.lst_lnb li .tab > span,.n_privacy .list_box .card_title,.n_privacy .list_box dl .list_title,.news_blog .news_dsc h4,.news_lst .h_news,.pop_privacy #content .tableDesc dt,.pop_privacy #content .uSubTitle,.select_box select,.select_box.soc_certi select,.tbl_info,.tbl_info.statistics th,.time_line_list .time,.toggle_box .h_toggle,.update_bar .rolling_area .update_item .item_contents .text,#footer .btn_pg_top { color: #fff }
+    .border_top_box .h_b_box,.cont_info_box .tab_list li,.tab_box,.tab_box.lnb2 { border-bottom: 1px solid #404040;background: #2f2f2f }
+    .btn_tbl_more:after { filter: invert(86%) hue-rotate(-180deg) brightness(1000%) }
+    .business_operator_table table td,.lk_bo { color: #cacaca;border: 1px solid #404040;background-color: #2f2f2f }
+    .business_operator_table table th { color: #fff;border: 1px solid #404040;background-color: #3a3a3a }
+    .check_result li + li:after { background-color: #404040 }
+    .cont_box .p_dsc { color: #cacaca;color: #cacaca }
+    .cont_box .p_dsc.type2,.cont_info .dl_lst dt,.cont_info_box .tab_list li a,.img_txt,.lk_gray,.login_detail .log_q_lst .q_lst,.n_privacy .list_box .card_desc,.n_privacy .list_box dl .list_data,.news_blog .news_dsc p,.pop_privacy #content .table td,.pop_privacy #content .table th,.pop_privacy #content .tableDesc dd li,.pop_privacy #content .uDesc,.privacy_table table .table_title,.signature_box .sign_txt,.tbl_txt,.update_bar .rolling_area .update_item .item_contents .date { color: #cacaca }
+    .cont_box,.info_lst,.n_privacy .swiper-pagination,.news_lst,.security,.spot,.strapline_menu li,body { background: #242424 }
+    .cont_info .cont_info_left { border: 1px solid #404040;border-width: 0 1px 0 0 }
+    .cont_info_box .tab_list li:first-child.on { border-left: 1px solid #4f4f4f }
+    .cont_info_box .tab_list li.on { border: 1px solid #4f4f4f;border-width: 0 1px;background: #3a3a3a }
+    .fold_tab_box .fold_cont,.fold_tab_box .fold_tab.open,.pop_privacy #content .table tbody .even td,.pop_privacy #content .table tbody .even th,.tbl_info thead tr th:first-child,.tbl_info.statistics thead tr td,.tbl_info.statistics thead tr th { background: #2f2f2f }
+    .fold_tab_box > li { border-bottom: 1px solid #404040 }
+    .fold_tab_box > li:first-child,.pop_privacy #content .table tbody tr + tr td,.pop_privacy #content .table tbody tr + tr th { border-top: 1px solid #404040 }
+    .gr_2 { color: #cacaca !important }
+    .green { color: #08a600 !important }
+    .info_lst_box li { border-left: 1px solid #404040 }
+    .lk_pdf { color: #fff;border: 1px solid #404040 }
+    .lk_sq,.privacy_table table td { color: #cacaca;border: 1px solid #404040 }
+    .lk_sq.soc { color: #fff;border-color: #404040 }
+    .lnb2 .on .tab > span { color: #242424 !important }
+    .login_after .profile_info { color: #242424 }
+    .login_detail { border: 1px solid #404040;border-width: 0 1px 1px;background: #2f2f2f }
+    .n_privacy .swiper-wrapper { background-color: #2f2f2f }
+    .pa_img_box .bg_box.business2,.pa_img_box .bg_box.business3 { filter: invert(81.5%) hue-rotate(-180deg) }
+    .pa_img_box .bg_box.speaker,.pop_privacy #content .transparence,.update_bar .rolling_area .rolling_navigation,.update_bar .update_box { background-color: #242424 }
+    .pop_privacy #content .table thead th { color: #fff;border-bottom: 1px solid #404040;background: #3a3a3a }
+    .pop_privacy #content .transparence table { border: 1px solid #404040;border-width: 1px 0 }
+    .privacy_table table th,#footer .btn_t1 { color: #fff;border: 1px solid #404040;background: #2f2f2f }
+    .security .s_list_box .s_list_img img { border-radius: 11px }
+    .select_box:before { border-top: 5px solid #cacaca }
+    .strapline_menu li .tab_menu { color: #fff;border: 1px solid #404040;background: #242424 }
+    .tab_box.lnb2:after,.tab_box:after { background: linear-gradient(to right, rgba(47, 47, 47, 0), #2f2f2f 77%);background: -webkit-linear-gradient(left, rgba(47, 47, 47, 0), #2f2f2f 77%);background: -webkit-gradient(linear, left top, right top, from(rgba(47, 47, 47, 0)), color-stop(77%, #2f2f2f)) }
+    .tab_box.lnb2:before,.tab_box:before { background: linear-gradient(to left, rgba(47, 47, 47, 0), #2f2f2f 80%);background: -webkit-linear-gradient(right, rgba(47, 47, 47, 0), #2f2f2f 80%);background: -webkit-gradient(linear, right top, left top, from(rgba(47, 47, 47, 0)), color-stop(80%, #2f2f2f)) }
+    .tbl_info th { border-left: 1px solid #404040;background: #2f2f2f }
+    #footer { color: #cacaca;border-top: 1px solid #404040 }
+    #footer .btn_t2:before { background: #404040 }
 }
 @-moz-document url-prefix("https://search.naver.com") {
     :root { --place-color-zeropay: 255, 255, 255;--place-color-text9: 3, 201, 91;--place-color-text8: 3, 199, 90;--place-color-text6: 218, 221, 224;--place-color-text5: 145, 145, 146;--place-color-text4: 165, 165, 167;--place-color-text3: 218, 221, 224;--place-color-text2: 240, 240, 242;--place-color-text1: 240, 240, 242;--place-color-text17: 165, 165, 167;--place-color-text16: 145, 145, 146;--place-color-text15: 145, 145, 146;--place-color-text12: 145, 145, 146;--place-color-text11: 41, 131, 225;--place-color-text10: 238, 83, 83;--place-color-text101: 155, 178, 204;--place-color-profile-icon:169, 175, 185, .24;--place-color-profile-bg: 65, 65, 68;--place-color-link: 95, 165, 248;--place-color-link-visited: 151, 119, 185;--place-color-link-pc: 95, 165, 248;--place-color-label-bg: 77, 77, 81;--place-color-filter-bg: 53, 53, 56;--place-color-datalab: 255, 255, 255;--place-color-border9: 254, 254, 253, .04;--place-color-border7: 70, 70, 73;--place-color-border6: 0, 0, 0, .02;--place-color-border5: 70, 70, 73;--place-color-border4: 70, 70, 73;--place-color-border3: 79, 79, 79;--place-color-border2: 70, 70, 73;--place-color-border25: 72, 72, 76;--place-color-border24: 77, 77, 80;--place-color-border23: 77, 77, 80;--place-color-border22: 84, 84, 87;--place-color-border21: 84, 84, 87;--place-color-border20: 70, 70, 73;--place-color-border1: 44, 44, 47;--place-color-border19: 70, 70, 73;--place-color-border18: 70, 70, 73;--place-color-border17: 70, 70, 73;--place-color-border16: 84, 84, 87;--place-color-border15: 84, 84, 87;--place-color-border14: 66, 98, 123;--place-color-border13: 70, 70, 73;--place-color-border12: 70, 70, 73;--place-color-border11: 3, 201, 91;--place-color-border10: 79, 79, 79;--place-color-bg9: 153, 153, 153, .1;--place-color-bg8: 57, 57, 60;--place-color-bg7: 3, 201, 91;--place-color-bg6: 165, 165, 167;--place-color-bg5: 65, 65, 68;--place-color-bg4: 65, 65, 68;--place-color-bg3: 61, 61, 64;--place-color-bg2: 57, 57, 60;--place-color-bg25: 63, 63, 66;--place-color-bg24: 53, 53, 56;--place-color-bg23: 65, 65, 68;--place-color-bg22: 56, 56, 59;--place-color-bg21: 72, 72, 75;--place-color-bg20: 72, 72, 75;--place-color-bg1: 48, 48, 51;--place-color-bg19: 66, 66, 43;--place-color-bg18: 65, 65, 68;--place-color-bg17: 72, 72, 75;--place-color-bg16: 63, 63, 67;--place-color-bg15: 98, 98, 98;--place-color-bg14: 98, 98, 98;--place-color-bg13: 65, 65, 68;--place-color-bg12: 165, 165, 167;--place-color-bg11: 65, 65, 68;--place-color-bg115: 60, 66, 65;--place-color-bg114: 56, 56, 59;--place-color-bg113: 77, 80, 87;--place-color-bg112: 48, 48, 51;--place-color-bg111: 255, 255, 255;--place-color-bg110: 164, 179, 196;--place-color-bg10: 45, 49, 56;--place-color-bg109: 84, 86, 92;--place-color-bg108: 101, 101, 101;--place-color-bg107: 112, 117, 129;--place-color-bg105: 233, 236, 239;--place-color-bg104: 32, 32, 35;--place-color-bg103: 125, 127, 133;--place-color-bg102: 56, 56, 59;--place-color-bg101: 0, 0, 0;--place-color-ad-text: 130, 196, 255;--place-color-ad-label-text: 218, 218, 219;--place-color-ad-label-border: 104, 104, 104;--place-color-ad-bg: 255, 255, 255 }

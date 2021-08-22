@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.50.0
+@version		1.50.1
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -12709,6 +12709,31 @@
 	.notice_btns a {
 		color: #cacaca;
 	}
+	
+	.SectionFooter .footer_link:visited {
+		color: #cacaca;
+	}
+	
+	.SectionFooter .footer_link_item+.footer_link_item {
+		background: none;
+		position: relative;
+	}
+	
+	.SectionFooter .footer_link_item+.footer_link_item:before {
+		background: url(https://ssl.pstatic.net/static/common/footer/bu_bar.gif) 0 50% no-repeat;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.SectionFooter .naver_logo img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
 }
 
 @-moz-document url-prefix("https://talk.cafe.naver.com")
@@ -14335,33 +14360,33 @@
 		color: #cacaca;
 	}
 	
-	.skin-1080 .su_prevention {
+	.skin-1080 .su_prevention, .SuicideSaver .su_prevention {
 		background-color: #242424;
 		border: 1px solid #404040;
 	}
 	
-	.skin-1080 .su_prevention .advice .tit {
+	.skin-1080 .su_prevention .advice .tit, .SuicideSaver .su_prevention .advice .tit {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
-	.skin-1080 .su_prevention .advice .advice_lst ul {
+	.skin-1080 .su_prevention .advice .advice_lst ul, .SuicideSaver .su_prevention .advice .advice_lst ul {
 		color: #fff;
 	}
 	
-	.skin-1080 .su_prevention .advice .advice_lst h5 {
+	.skin-1080 .su_prevention .advice .advice_lst h5, .SuicideSaver .su_prevention .advice .advice_lst h5 {
 		color: #fff;
 	}
 	
-	.skin-1080 .su_prevention .help_lk .lk_lst h5 {
+	.skin-1080 .su_prevention .help_lk .lk_lst h5, .SuicideSaver .su_prevention .help_lk .lk_lst h5 {
 		filter: brightness(1000%);
 	}
 	
-	.skin-1080 .su_prevention .help_lk .lk_lst li {
+	.skin-1080 .su_prevention .help_lk .lk_lst li, .SuicideSaver .su_prevention .help_lk .lk_lst li {
 		background: none;
 		position: relative;
 	}
 	
-	.skin-1080 .su_prevention .help_lk .lk_lst li:before {
+	.skin-1080 .su_prevention .help_lk .lk_lst li:before, .SuicideSaver .su_prevention .help_lk .lk_lst li:before {
 		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/prevention/img/img_lst.png) no-repeat 0 -260px;
 		position: absolute;
 		content: '';
@@ -14373,12 +14398,29 @@
 		filter: invert(86%) hue-rotate(-180deg) brightness(1000%);
 	}
 	
-	.skin-1080 .su_prevention .help_lk .lk_lst li a, .skin-1080 .su_prevention .advice .advice_lst li a {
+	.skin-1080 .su_prevention .help_lk .lk_lst li a, .skin-1080 .su_prevention .advice .advice_lst li a, .SuicideSaver .su_prevention .help_lk .lk_lst li a, .SuicideSaver .su_prevention .advice .advice_lst li a {
 		color: #688cda;
 	}
 	
-	.skin-1080 .su_prevention .help_lk .lk_lst li a:visited, .skin-1080 .su_prevention .advice .advice_lst li a:visited {
+	.skin-1080 .su_prevention .help_lk .lk_lst li a:visited, .skin-1080 .su_prevention .advice .advice_lst li a:visited, .SuicideSaver .su_prevention .help_lk .lk_lst li a:visited, .SuicideSaver .su_prevention .advice .advice_lst li a:visited {
 		color: #cc90cd;
+	}
+	
+	.skin-1080 .su_prevention .advice .advice_lst, .SuicideSaver .su_prevention .advice .advice_lst {
+		background: none;
+		position: relative;
+	}
+	
+	.skin-1080 .su_prevention .advice .advice_lst:before, .SuicideSaver .su_prevention .advice .advice_lst:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/prevention/img/bg_main.png) no-repeat 0 0;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 168px;
+		height: calc(100% - 5px);
+		pointer-events: none;
+		border-radius: 20px;
 	}
 }
 
@@ -43668,6 +43710,14 @@
 	
 	.CafeEditor .se-body .se-document-toolbar-basic-button .se-toolbar-label, .CafeEditor .se-body .se-document-toolbar .se-toolbar-label {
 		color: #cacaca;
+	}
+	
+	.ArticleWritingTitle .column_category .option_box .link_category {
+		color: #cacaca;
+	}
+	
+	.ArticleWritingTitle .column_category .option_box .link_category:hover {
+		background: #2f2f2f;
 	}
 }
 

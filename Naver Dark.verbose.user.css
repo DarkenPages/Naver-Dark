@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.50.2
+@version		1.50.3
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -15141,6 +15141,14 @@
 	
 	.wrap_my_information .menu_my_article .item {
 		color: #cacaca;
+	}
+	
+	.area_button_more .button_more {
+		color: #cacaca;
+	}
+	
+	.area_button_more .button_more[aria-expanded="false"] .icon_arrow {
+		filter: brightness(1000%);
 	}
 }
 
@@ -72220,5 +72228,213 @@
 		border: 1px solid #404040;
 		color: #cacaca;
 		background-color: #2f2f2f;
+	}
+}
+
+@-moz-document url-prefix("https://section.blog.naver.com/ThisMonthDirectory.naver"), url-prefix("https://section.blog.naver.com/thisMonthDirectory.naver")
+{
+	div[class*='header_lnb__'] {
+		color: #fff !important;
+		border-bottom: 1px solid #404040;
+	}
+	
+	div[class*='header_common__'] {
+		background-color: #019341 !important;
+		border-bottom: 1px solid #019341 !important;
+	}
+	
+	div[class*='area_search__'] > div[class*='search__'] {
+		background-color: #242424 !important;
+		border: 1px solid #404040 !important;
+		border-right: 0 !important;
+	}
+	
+	div[class*='area_dropdown__'] {
+		background-color: #242424;
+		color: #cacaca;
+	}
+	
+	div[class*='area_dropdown__'] div[class*='dropdown_select__'] {
+		background-color: #242424;
+		border: 1px solid #404040;
+	}
+	
+	div[class*='area_dropdown__'][data-set=search] div[class*='dropdown_select__'] {
+		border-color: #404040;
+	}
+	
+	div[class*='area_dropdown__'][data-set=search] div[class*='dropdown_select__'] a[class*='item__'] {
+		color: #cacaca;
+	}
+	
+	div[class*='area_dropdown__'][data-set=search] div[class*='dropdown_select__'] a[class*='item__']:hover {
+		background-color: #4c4c4c;
+	}
+	
+	div[class*='area_search__'] input[class*='textbox__'] {
+		background: #242424;
+		color: #cacaca;
+	}
+	
+	div[class*='area_search__'] a[class*='selected_option__']:after {
+		background-color: #404040;
+	}
+	
+	div[class*='area_search__'] i[class*='icon_search__'] svg path {
+		stroke: #242424;
+	}
+	
+	div[class*='area_search__'] a[class*='button_naver__'] {
+		color: #242424;
+	}
+	
+	div[class*='header_lnb__'] div[class*='navigator_lnb_sub__'] > div[class*='item_with_tooltip__'] > button[class*='link__'] {
+		color: #242424;
+	}
+	
+	div[class*='header_lnb__'] div[class*='navigator_lnb_sub__'] > a[class*='item__'] {
+		border: 1px solid #404040;
+	}
+	
+	p[class*='desc__'] {
+		color: #fff;
+		text-shadow: #000 1px 0px 15px;
+	}
+	
+	i[class*='spot_icon__'] svg[class*='icon__'] {
+		opacity: 0.6;
+	}
+	
+	a[class*='item__'] {
+		color: #fff;
+	}
+	
+	div[class*='lyr__'] {
+		background: #2f2f2f;
+	}
+	
+	div[class*='lyr__'] > a[class*='btn__'] {
+		color: #fff;
+	}
+	
+	div[class*='lyr__'] > a[class*='btn__']:hover {
+		background: #3a3a3a;
+	}
+	
+	div[class*='lyr__'] > a[class*='btn__'] > i[class*='icon__'] svg path[fill] {
+		fill: #fff !important;
+	}
+	
+	div[class*='banner__'] {
+		background: #2f2f2f;
+		border-bottom: 1px solid #404040;
+	}
+	
+	div[class*='nav_wrap__'] {
+		border-bottom: 1px solid #404040;
+	}
+	
+	div[class*='banner__'] > p[class*='text__'] {
+		color: #fff;
+	}
+	
+	h4[class*='directory_title__'] {
+		color: #fff;
+	}
+	
+	div[class*='selectMonth_wrap_multiple__'] div[class*='lyr__'] {
+		background: #2f2f2f;
+		z-index: 99;
+	}
+	
+	div[class*='selectMonth_wrap_multiple__'] div[class*='lyr__'] a[class*='btn__'] {
+		color: #fff;
+	}
+	
+	div[class*='selectMonth_wrap_multiple__'] div[class*='lyr__'] a[class*='btn__']:hover {
+		background: #3a3a3a;
+	}
+	
+	div[class*='profile_text__'] > div[class*='text__'] span[class*='nickname__'] {
+		color: #fff;
+	}
+	
+	div[class*='popularPost__'] > a[class*='link__']:hover {
+		background: #2f2f2f;
+	}
+	
+	div[class*='popularPost__'] div[class*='text__'] strong[class*='title__'] {
+		color: #fff;
+	}
+	
+	div[class*='popularPost__'] div[class*='text__'] div[class*='desc__'] {
+		color: #cacaca;
+	}
+	
+	li[class*='item__']+li[class*='item__'] div[class*='item_inner__'] {
+		border-top: 1px solid #404040;
+	}
+	
+	div[class*='introduce__'] {
+		color: #fff;
+	}
+	
+	div[class*='profile_text__'] div[class*='btn__'] a[class*='btn_addbuddy__'] {
+		color: #242424;
+	}
+	
+	div[class*='nav_wrap__'][class*='isFixed__'] {
+		background: #242424;
+	}
+	
+	footer[class*='footer__'] {
+		background-color: #2f2f2f;
+	}
+	
+	footer[class*='footer__'] nav[class*='navigator_footer__'] a[class*='item__'] {
+		color: #cacaca;
+	}
+	
+	footer[class*='footer__'] nav[class*='navigator_footer__'] a[class*='item__']:before {
+		background-color: #404040;
+	}
+	
+	footer[class*='footer__'] address[class*='address__'] [class*='text__'] {
+		color: #cacaca;
+	}
+	
+	div[class*='popup_wrap__'] {
+		background: #2f2f2f;
+	}
+	
+	div[class*='popup_buddy__'] div[class*='popup_heading__'] h5[class*='title__'],
+	div[class*='popup_item__'] div[class*='popup_heading__'] h5[class*='title__'],
+	div[class*='popup_post_setting__'] div[class*='popup_heading__'] h5[class*='title__'] {
+		color: #fff;
+	}
+	
+	div[class*='popup_buddy__'] div[class*='buddy_state__'] {
+		border: 1px solid #404040;
+		background-color: #3a3a3a;
+	}
+	
+	div[class*='popup_buddy__'] div[class*='buddy_state__'] p[class*='text_buddy_add__'] {
+		color: #fff;
+	}
+	
+	div[class*='popup_buddy__'] div[class*='area_button__'] [class*='button_close__'],
+	div[class*='popup_buddy__'] div[class*='area_button__'] [class*='button_next__'],
+	div[class*='popup_buddy__'] div[class*='area_button__'] [class*='button_receive__'],
+	div[class*='popup_item__'] div[class*='area_button__'] [class*='button_close__'],
+	div[class*='popup_item__'] div[class*='area_button__'] [class*='button_next__'],
+	div[class*='popup_item__'] div[class*='area_button__'] [class*='button_receive__'],
+	div[class*='popup_post_setting__'] div[class*='area_button__'] [class*='button_close__'],
+	div[class*='popup_post_setting__'] div[class*='area_button__'] [class*='button_next__'],
+	div[class*='popup_post_setting__'] div[class*='area_button__'] [class*='button_receive__'] {
+		color: #242424;
+	}
+	
+	div[class*='thisMonthBlogPlaceholder__']:after {
+		background: #242424;
 	}
 }

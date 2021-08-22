@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.50.4
+@version		1.50.5
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -69805,6 +69805,14 @@
 	
 	.sc_new .api_channel_wrap .api_title_area .api_title_sub .api_sub_link {
 		color: #cacaca;
+	}
+	
+	.cs_production_type .csp_paging_area .csp_pgs .csp_npgs {
+		color: #fff;
+	}
+	
+	.cs_production_type .csp_paging_area .csp_pgs .csp_npgs_now:after {
+		color: #404040;
 	}
 }
 

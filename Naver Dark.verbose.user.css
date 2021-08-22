@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.50.3
+@version		1.50.4
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -45513,7 +45513,7 @@
 	}
 	
 	#header {
-		border-bottom: 1px so;
+		border-bottom: 1px solid #404040;
 	}
 }
 
@@ -70874,7 +70874,7 @@
 		display: block;
 		color: rgb(235, 235, 142);
 		font-style: italic;
-		font-size: 13;
+		font-size: 13px;
 	}
 	
 	.box_style01, .box_style02, .box_style03, .box_style04, html>body .wbox_style01, .box_style05-w, .box_style06-w, .box_style05, .box_style06, html>body .ybox_style01, html>body .wbox_style02 {
@@ -71138,7 +71138,7 @@
 {
 	html, body {
 		background-color: initial;
-		color: inital;
+		color: initial;
 	}
 }
 

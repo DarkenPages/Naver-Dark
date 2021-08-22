@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.50.3
+@version		1.50.4
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -734,7 +734,7 @@
     #blogApi .api_step h2 img { filter: invert(86%) hue-rotate(-180deg) }
 }
 @-moz-document url-prefix("https://admin.blog.naver.com/AdminUserMobileCertificationForm.nhn") {
-    #header { border-bottom: 1px so }
+    #header { border-bottom: 1px solid #404040 }
     body,html { color: #cacaca;background: #242424 }
 }
 @-moz-document url-prefix("https://admin.blog.naver.com/AdvertiseConfiguration.nhn") {
@@ -1897,7 +1897,7 @@
     .PopupVideoUpload .popup_header { border-bottom: 1px solid #404040 !important }
 }
 @-moz-document url-prefix("https://cafe.naver.com/ca-fe/ext/video?") {
-    body,html { color: inital;background-color: initial }
+    body,html { color: initial;background-color: initial }
 }
 @-moz-document url-prefix("https://cafe.naver.com/CafeApply") {
     .capcha_desc { color: #cacaca }
@@ -2051,7 +2051,7 @@
     .ly_help .close button { filter: invert(78%) hue-rotate(-180deg) }
     .ly_help .cont { border: 1px solid #5a5a5a;background-color: #3a3a3a }
     #cafe_left .layout_editer { background: #2f2f2f }
-    #cafe_left .layout_editer .txt_layout_editer span { font-style: italic;font-size: 13;display: block;color: rgb(235, 235, 142) }
+    #cafe_left .layout_editer .txt_layout_editer span { font-style: italic;font-size: 13px;display: block;color: rgb(235, 235, 142) }
     #cafe_left .layout_select li { position: relative;background: none }
     #cafe_left .layout_select li:before { width: 100%;top: 0;position: absolute;pointer-events: none;left: 0;height: 100%;filter: invert(86%) hue-rotate(-180deg);content: '';background: url(https://cafe.pstatic.net/cafe4/bg_line3.gif) right 17px no-repeat }
     #cafe_right .sub_board .template_box { border: 1px solid #404040;background-color: #242424 }

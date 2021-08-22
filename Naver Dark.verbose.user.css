@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.50.1
+@version		1.50.2
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -12734,6 +12734,59 @@
 	.SectionFooter .naver_logo img {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
+	
+	.represent_popup .criteria li strong {
+		color: #fff;
+	}
+	
+	.represent_popup .tab_represent a {
+		color: #fff;
+	}
+	
+	.represent_popup .tit p {
+		color: #cacaca;
+	}
+	
+	.represent_popup .criteria .score li, .represent_popup .criteria li p, .represent_popup .criteria .sub_list li, .represent_popup .special p {
+		color: #cacaca;
+	}
+	
+	.represent_popup .special strong {
+		color: #fff;
+	}
+	
+	.represent_popup .criteria .best_cafe li {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	#gameContainer .title_main {
+		filter: invert(100%) hue-rotate(-180deg) brightness(1000%);
+	}
+	
+	#gameContainer .intro_text_2 {
+		color: #cacaca;
+	}
+	
+	#gameContainer .intro_title_2 {
+		color: #fff;
+	}
+	
+	#gameContainer.container_game {
+		background: none;
+		position: relative;
+	}
+	
+	#gameContainer.container_game:before {
+		background: url(https://ssl.pstatic.net/static/cafe/game/bg_cafe_game.png) no-repeat center -19px;
+		opacity: 0.5;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+	}
 }
 
 @-moz-document url-prefix("https://talk.cafe.naver.com")
@@ -14503,7 +14556,7 @@
 	}
 	
 	.popup_blog .button_check {
-		color: #cacaca !important;
+		color: #242424 !important;
 		background-color: #019341;
 	}
 	
@@ -15018,6 +15071,76 @@
 	
 	.wrap_thumbnail_post_list[data-post-type="buddy"] .area_dropdown_select[data-set="more_buddy"] .dropdown_select .name_author {
 		color: #fff;
+	}
+	
+	.text_detail .list_notice .item {
+		color: #cacaca;
+	}
+	
+	.text_detail .list_notice .item .point {
+		color: #fff;
+	}
+	
+	.popup_blog .button_check:hover {
+		opacity: 1;
+	}
+	
+	.popup_check {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.popup_check .text_check {
+		color: #fff;
+	}
+	
+	.popup_check .button_no {
+		border: 1px solid #404040;
+		background-color: #242424;
+		color: #cacaca;
+	}
+	
+	.popup_check .button_yes {
+		color: #242424;
+	}
+	
+	.area_my_content .none .message_box {
+		color: #fff;
+	}
+	
+	.area_my_content .none .text_box {
+		border-top: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.area_my_content .none .from_blog {
+		color: #fff;
+	}
+	
+	.area_my_content .none .question {
+		color: #cacaca;
+	}
+	
+	.wrap_my_information .area_my_content .heading strong {
+		color: #fff;
+	}
+	
+	.wrap_my_information .menu_my_article .item[aria-selected="true"] {
+		color: #fff !important;
+		border-color: #fff;
+	}
+	
+	.wrap_my_information .menu_my_article .item:hover {
+		color: #cacaca;
+		border-color: #4f4f4f;
+	}
+	
+	.wrap_my_information .menu_my_article .item[aria-selected="true"]:hover {
+		border-color: #fff;
+	}
+	
+	.wrap_my_information .menu_my_article .item {
+		color: #cacaca;
 	}
 }
 

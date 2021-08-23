@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.0
+@version		1.51.2
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -17438,6 +17438,26 @@
 	.section_wrap .tb_style2 td[bgcolor], .tb_style2 th[bgcolor] {
 		background-color: #2f2f2f !important;
 	}
+	
+	.dsc_mdcn .item_mdcn a {
+		color: #cacaca;
+	}
+	
+	.medicine_link .desc {
+		color: #cacaca;
+	}
+	
+	.medicine_link .desc:before {
+		background: #404040;
+	}
+	
+	.medicine_link .title {
+		color: #fff;
+	}
+	
+	.sort_area .tab_item a {
+		color: #cacaca;
+	}
 }
 
 @-moz-document url-prefix("https://terms.naver.com/print.nhn")
@@ -31653,6 +31673,18 @@
 	
 	.viewTitle h4, div.viewTitle h4 {
 		color: #fff;
+	}
+	
+	.gnb_svc_more .svc_spc.gnb_first strong a {
+		color: #000 !important;
+	}
+	
+	.gnb_svc_more .svc_spc strong {
+		color: #000 !important;
+	}
+	
+	.gnb_svc_more .gnb_svc_lstwrp li {
+		color: #333;
 	}
 }
 
@@ -69813,6 +69845,83 @@
 	
 	.cs_production_type .csp_paging_area .csp_pgs .csp_npgs_now:after {
 		color: #404040;
+	}
+	
+	.cs_medicine .mi_srch2 {
+		border: 1px solid #404040;
+		border-top: 0;
+		background: #2f2f2f;
+	}
+	
+	.cs_medicine .tab {
+		background: #3a3a3a;
+		border-top: 1px solid #404040;
+		border-right: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+		box-sizing: border-box;
+	}
+	
+	.cs_medicine .tab ul li a {
+		background: none;
+	}
+	
+	.cs_medicine .tab ul .on a {
+		background: #2f2f2f;
+		border-left: 1px solid #404040;
+		border-right: 1px solid #404040;
+	}
+	
+	.cs_medicine .tab ul .on:first-child a {
+		border-left: none;
+	}
+	
+	.cs_medicine {
+		font-family: 'Helvetica', 'serif';
+	}
+	
+	.cs_medicine .tab ul li a {
+		color: #cacaca;
+	}
+	
+	.cs_medicine .tab ul li {
+		background: none;
+	}
+	
+	.cs_medicine .tab ul .on {
+		background: none;
+	}
+	
+	.cs_medicine .mi_srch {
+		border: 1px solid #404040;
+		border-top: 0;
+		background: #2f2f2f;
+	}
+	
+	.cs_medicine .mi_srch2 .mi_ep, .cs_medicine .mi_srch2 a {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_medicine .mi_srch2 .mi_img {
+		padding: 5px;
+		background: #fff;
+		border-radius: 10px;
+	}
+	
+	.cs_medicine .mi_srch2 a {
+		margin: 23px 0 0;
+	}
+	
+	.cs_medicine .mi_srch2 {
+		padding: 30px 8px 34px 27px;
+	}
+	
+	.cs_medicine .mi_srch .srch_bd {
+		border: 1px solid #404040;
+		background: #242424;
+	}
+	
+	.cs_medicine .mi_srch .srch_bd .srch_txt {
+		color: #cacaca;
 	}
 }
 

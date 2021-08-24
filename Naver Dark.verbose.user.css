@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.10
+@version		1.51.11
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -2119,6 +2119,10 @@
 		padding: 1px 20px 1px 5px;
 		border-radius: 5px;
 		filter: none;
+	}
+	
+	select:focus-visible {
+		outline: none;
 	}
 	
 	select:disabled {
@@ -11066,6 +11070,10 @@
 		padding: 1px 20px 1px 5px;
 		border-radius: 5px;
 		filter: none;
+	}
+	
+	.sh_lst2 .selbox:focus-visible {
+		outline: none;
 	}
 	
 	.sh_lst2 .selbox:disabled {
@@ -26120,6 +26128,10 @@
 		padding: 1px 20px 1px 5px;
 		border-radius: 5px;
 		filter: none;
+	}
+	
+	select:focus-visible {
+		outline: none;
 	}
 	
 	select:disabled {

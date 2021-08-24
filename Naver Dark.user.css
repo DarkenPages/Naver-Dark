@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.13
+@version		1.51.14
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -4856,6 +4856,7 @@
     .AsideSign .user_info .icon_aside_login_messege,.AsideSign .user_info .icon_aside_login_storage { vertical-align: middle;padding-bottom: 3px }
     .AsideSmartBot,.SearchArea .btn_search:after { border: 1px solid #242424 }
     .Autocomplete .autocomplete_area { color: #cacaca;border: 1px solid #404040;border-top: none;background-color: #242424 }
+    .Autocomplete .func { color: #cacaca;border-top: 1px solid #404040;background: #2f2f2f }
     .Autocomplete .func a { font-family: 'Helvetica', 'serif';color: #fff }
     .autocomplete_area { border: 1px solid #404040;border-top: 0 }
     .autocomplete_area .words li a,.represent_popup .special,.section_rep .criteria_more,.snb_search_box .snb_search_bsub,.snb_search_box .snb_search_text,.NoResult.is_combinations,.SearchArea .btn_search:before { background-color: #242424 }

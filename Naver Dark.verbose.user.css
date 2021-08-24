@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.12
+@version		1.51.13
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -24868,6 +24868,10 @@
 	}
 	
 	.tx_tooltip .bubble_content .from_obj dt {
+		color: #fff;
+	}
+	
+	.tx_tooltip .bubble_content .limit_alarm {
 		color: #fff;
 	}
 }

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.12
+@version		1.51.13
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -3763,7 +3763,7 @@
     .con_desc .frm_svc span.h_title a,.con_desc .frm_svc span.h_title a:link,.nlst_checked a,.nlst_checked a:link,.nlst_checked dt,.nlst_checked em,.nlst_checked strong,.tx_tooltip .bubble_content .from_obj dd,.tx_tooltip .bubble_content .from_obj dd a,.tx_tooltip .bubble_content .from_obj dd a:link,.nlst_checked a,.nlst_checked dt,.nlst_checked em,.nlst_checked strong,.tx_tooltip .bubble_content .from_obj dd,.tx_tooltip .bubble_content .from_obj dd a { color: #fff !important }
     .con_desc .frm_svc span.h_title a:visited,.nlst_checked a:visited,.tx_tooltip .bubble_content .from_obj dd a:visited { color: #cacaca !important }
     .con_desc .lst_type1 .thumbs_tx a,.con_desc .lst_type2 .rgt_dsc .fd_cont a,.control_box.alarm .svc_symb em,.rgt_zone .result_list li a,.footer_contents p,.lft_zone .svc_name .subscribe_list ul > li a,.lft_zone .svc_name .svc_list ul > li a,.loading_tx p,.no_result .result_con { color: #cacaca }
-    .control_box.alarm .lft_zone .svc_name span strong,.envmt_cont .control_box h4,.footer_contents p a,.lft_area h3 a,.no_result .h_no_result,.lft_zone .svc_name span.on strong,.rgt_zone .ctrl_delegate .lst_option label,.rgt_zone .ctrl_delegate .lst_option2 label,.lst_obj .con_desc h4,.lst_obj .con_desc h4 a,.nlst_checked .tx_tooltip .bubble_content .tx_width .alarm_tx,.snb > li a,.time_line .daily_obj li.nlst_checked .tx_tooltip .bubble_content .tx_width .ans_type,.tx_tooltip .bubble_content .from_obj dt,.tx_tooltip .bubble_content .tx_width .alarm_tx { color: #fff }
+    .control_box.alarm .lft_zone .svc_name span strong,.envmt_cont .control_box h4,.footer_contents p a,.lft_area h3 a,.no_result .h_no_result,.lft_zone .svc_name span.on strong,.rgt_zone .ctrl_delegate .lst_option label,.rgt_zone .ctrl_delegate .lst_option2 label,.lst_obj .con_desc h4,.lst_obj .con_desc h4 a,.nlst_checked .tx_tooltip .bubble_content .tx_width .alarm_tx,.snb > li a,.time_line .daily_obj li.nlst_checked .tx_tooltip .bubble_content .tx_width .ans_type,.tx_tooltip .bubble_content .from_obj dt,.tx_tooltip .bubble_content .limit_alarm,.tx_tooltip .bubble_content .tx_width .alarm_tx { color: #fff }
     .control_box.alarm .rgt_zone .result_list ul > li { border-top: 1px solid #404040 }
     .control_box.alarm .rgt_zone .result_list ul,.lft_area h3,.lft_zone .svc_name .subscribe_list ul > li,.lft_zone .svc_name .svc_list ul > li { border-bottom: 1px solid #404040 }
     .control_box.alarm .svc_name dt { background: #404040 }

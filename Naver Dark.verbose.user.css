@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.2
+@version		1.51.8
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -1917,7 +1917,7 @@
 		background: #242424 !important;
 	}
 	
-	a.btn_change_layout.view_split_hor .spr, a.btn_change_layout.view_split_ver .spr, a.btn_change_type.view_conversation .spr, #nav_snb .foldup .ico_fold, #nav_snb .ico_fold, .icoImportantOff, .attach_card_head .read .yes, .cv_card .read .yes, .cv_card.autoSpread .read .yes, .mailList .read .yes, .mailList .expand button.close, .mailList .expand button.open, .mailListBtn .buttonSet button.sendto .ic_send, .mailListBtn .buttonSet .disabled .buDel, .mailListBtn .buttonSet button[disabled=disabled] .buDel, .mailListBtn .buttonSet .buDel, a.btn_refresh, a.btn_change_type.view_timeline .spr, a.btn_change_layout.view_list .spr, .color-picker .cls_layer:hover, .dh_layer .hTitle .lClose:hover, .dh_layer .ly_alert .btn_layer_close:hover, .dh_layer .type_c .lClose:hover, .dh_layer button.btn_close:hover, .ly_classify .btn_layer_close:hover, .ly_tooltip .btn_layer_close:hover, .notice_layer .hTitle .lClose:hover, .setup_layer .btn_close:hover, .skin_set_wrap .btn_cls:hover, .tooltipLayer2 .t1Con .btn_close:hover, .tp_layer .tl_con .btn_close:hover, .type_alert .btn_close:hover, div.viewTitle .icoVipOff, div.mInput_holder .btn_recentaddr a img, div.mInput_holder .btn_recentaddr a:hover img, .mailWriteItem .private .btn_help, table.mailWriteItem .sClose, table.mailWriteItem .sOpen, div.mailListBtn .layoutSelectText .button_s2 .ico_arrow, div.mailListBtn .layoutSelectText .button_s2 .ico_win, div.mailListBtn .layoutSelectText .button_s2 .ico_setting_write, .icon_attach, #smart_editor2 .se2_conversion_mode, #smart_editor2 .se2_text_tool, #smart_editor2 .se2_reck, #smart_editor2 .se2_ckfin, .pop_reserve .input_area select, .cp_save_list li .imp, .cp_address_save .btn_c .ico, select, .list_mode_select .list_mode_normal, .list_mode_select .list_mode_hor, .list_mode_select .list_mode_ver, .icon_preview, .setup_layer .folder_preview, .setup_layer .list_preview, .setup_layer .newmail_preview1, .setup_layer .newmail_preview2, ul.form_ul1 .form_content #trash_period, #outbox_period, .ly_classify .filter_address .btn_toggle, .form_ul1 .form_content .icon_tip, .tooltip_cover .tooltip_arrow_bottom, a.btn_change_type.view_sender .spr, .attach_card_body .btn_savepc, .attfile_area .file_list .btn_savepc, .attfile_area .attfile_toggle, div.relMails .relBox .help, .attach_card_head .read .admin, .cv_card .read .admin, .cv_card.autoSpread .read .admin, .mailList .read .admin, div.nav_endless .ico_view_top, .attach_card_head .read .re, .cv_card .read .re, .cv_card.autoSpread .read .re, .mailList .read .re {
+	a.btn_change_layout.view_split_hor .spr, a.btn_change_layout.view_split_ver .spr, a.btn_change_type.view_conversation .spr, #nav_snb .foldup .ico_fold, #nav_snb .ico_fold, .icoImportantOff, .attach_card_head .read .yes, .cv_card .read .yes, .cv_card.autoSpread .read .yes, .mailList .read .yes, .mailList .expand button.close, .mailList .expand button.open, .mailListBtn .buttonSet button.sendto .ic_send, .mailListBtn .buttonSet .disabled .buDel, .mailListBtn .buttonSet button[disabled=disabled] .buDel, .mailListBtn .buttonSet .buDel, a.btn_refresh, a.btn_change_type.view_timeline .spr, a.btn_change_layout.view_list .spr, .color-picker .cls_layer:hover, .dh_layer .hTitle .lClose:hover, .dh_layer .ly_alert .btn_layer_close:hover, .dh_layer .type_c .lClose:hover, .dh_layer button.btn_close:hover, .ly_classify .btn_layer_close:hover, .ly_tooltip .btn_layer_close:hover, .notice_layer .hTitle .lClose:hover, .setup_layer .btn_close:hover, .skin_set_wrap .btn_cls:hover, .tooltipLayer2 .t1Con .btn_close:hover, .tp_layer .tl_con .btn_close:hover, .type_alert .btn_close:hover, div.viewTitle .icoVipOff, div.mInput_holder .btn_recentaddr a img, div.mInput_holder .btn_recentaddr a:hover img, .mailWriteItem .private .btn_help, table.mailWriteItem .sClose, table.mailWriteItem .sOpen, div.mailListBtn .layoutSelectText .button_s2 .ico_arrow, div.mailListBtn .layoutSelectText .button_s2 .ico_win, div.mailListBtn .layoutSelectText .button_s2 .ico_setting_write, .icon_attach, #smart_editor2 .se2_conversion_mode, #smart_editor2 .se2_text_tool, #smart_editor2 .se2_reck, #smart_editor2 .se2_ckfin, .pop_reserve .input_area select, .cp_save_list li .imp, .cp_address_save .btn_c .ico, .list_mode_select .list_mode_normal, .list_mode_select .list_mode_hor, .list_mode_select .list_mode_ver, .icon_preview, .setup_layer .folder_preview, .setup_layer .list_preview, .setup_layer .newmail_preview1, .setup_layer .newmail_preview2, .ly_classify .filter_address .btn_toggle, .form_ul1 .form_content .icon_tip, .tooltip_cover .tooltip_arrow_bottom, a.btn_change_type.view_sender .spr, .attach_card_body .btn_savepc, .attfile_area .file_list .btn_savepc, .attfile_area .attfile_toggle, div.relMails .relBox .help, .attach_card_head .read .admin, .cv_card .read .admin, .cv_card.autoSpread .read .admin, .mailList .read .admin, div.nav_endless .ico_view_top, .attach_card_head .read .re, .cv_card .read .re, .cv_card.autoSpread .read .re, .mailList .read .re {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
@@ -2103,6 +2103,27 @@
 	.safelist, .box_ext_reg table, .info_wrap {
 		border-top: 1px solid #404040;
 		border-bottom: 1px solid #404040;
+	}
+	
+	select {
+		appearance: none;
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		background: #242424;
+		color: #cacaca;
+		border: 1px solid #404040;
+		background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiNjYWNhY2EiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQuNDI3IDkuNDI3IDMuMzk2IDMuMzk2YS4yNTEuMjUxIDAgMCAwIC4zNTQgMGwzLjM5Ni0zLjM5NkEuMjUuMjUgMCAwIDAgMTEuMzk2IDlINC42MDRhLjI1LjI1IDAgMCAwLS4xNzcuNDI3ek00LjQyMyA2LjQ3IDcuODIgMy4wNzJhLjI1LjI1IDAgMCAxIC4zNTQgMEwxMS41NyA2LjQ3YS4yNS4yNSAwIDAgMS0uMTc3LjQyN0g0LjZhLjI1LjI1IDAgMCAxLS4xNzctLjQyN3oiLz48L3N2Zz4=");
+		background-position: right 2px center;
+		background-repeat: no-repeat;
+		background-size: 16px;
+		padding: 1px 20px 1px 5px;
+		border-radius: 5px;
+		filter: none;
+	}
+	
+	select:disabled {
+		color: #666;
+		background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiM2NjYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQuNDI3IDkuNDI3IDMuMzk2IDMuMzk2YS4yNTEuMjUxIDAgMCAwIC4zNTQgMGwzLjM5Ni0zLjM5NkEuMjUuMjUgMCAwIDAgMTEuMzk2IDlINC42MDRhLjI1LjI1IDAgMCAwLS4xNzcuNDI3ek00LjQyMyA2LjQ3IDcuODIgMy4wNzJhLjI1LjI1IDAgMCAxIC4zNTQgMEwxMS41NyA2LjQ3YS4yNS4yNSAwIDAgMS0uMTc3LjQyN0g0LjZhLjI1LjI1IDAgMCAxLS4xNzctLjQyN3oiLz48L3N2Zz4=");
 	}
 }
 
@@ -2547,6 +2568,10 @@
 	
 	.link {
 		color: #fff;
+	}
+	
+	.mailListHead .tip_receipt_box .icon {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 }
 
@@ -11028,9 +11053,24 @@
 	}
 	
 	.sh_lst2 .selbox {
-		color: initial;
-		border-color: initial;
-		filter: invert(86%) hue-rotate(-180deg);
+		appearance: none;
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		background: #242424;
+		color: #cacaca;
+		border: 1px solid #404040;
+		background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiNjYWNhY2EiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQuNDI3IDkuNDI3IDMuMzk2IDMuMzk2YS4yNTEuMjUxIDAgMCAwIC4zNTQgMGwzLjM5Ni0zLjM5NkEuMjUuMjUgMCAwIDAgMTEuMzk2IDlINC42MDRhLjI1LjI1IDAgMCAwLS4xNzcuNDI3ek00LjQyMyA2LjQ3IDcuODIgMy4wNzJhLjI1LjI1IDAgMCAxIC4zNTQgMEwxMS41NyA2LjQ3YS4yNS4yNSAwIDAgMS0uMTc3LjQyN0g0LjZhLjI1LjI1IDAgMCAxLS4xNzctLjQyN3oiLz48L3N2Zz4=");
+		background-position: right 2px center;
+		background-repeat: no-repeat;
+		background-size: 16px;
+		padding: 1px 20px 1px 5px;
+		border-radius: 5px;
+		filter: none;
+	}
+	
+	.sh_lst2 .selbox:disabled {
+		color: #666;
+		background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiM2NjYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQuNDI3IDkuNDI3IDMuMzk2IDMuMzk2YS4yNTEuMjUxIDAgMCAwIC4zNTQgMGwzLjM5Ni0zLjM5NkEuMjUuMjUgMCAwIDAgMTEuMzk2IDlINC42MDRhLjI1LjI1IDAgMCAwLS4xNzcuNDI3ek00LjQyMyA2LjQ3IDcuODIgMy4wNzJhLjI1LjI1IDAgMCAxIC4zNTQgMEwxMS41NyA2LjQ3YS4yNS4yNSAwIDAgMS0uMTc3LjQyN0g0LjZhLjI1LjI1IDAgMCAxLS4xNzctLjQyN3oiLz48L3N2Zz4=");
 	}
 	
 	.sh_lst2 .logoff_desc .contxt {
@@ -11465,7 +11505,24 @@
 	}
 	
 	.table_info2 .sort {
-		filter: invert(86%) hue-rotate(-180deg);
+		appearance: none;
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		background: #242424;
+		color: #cacaca;
+		border: 1px solid #404040;
+		background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiNjYWNhY2EiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQuNDI3IDkuNDI3IDMuMzk2IDMuMzk2YS4yNTEuMjUxIDAgMCAwIC4zNTQgMGwzLjM5Ni0zLjM5NkEuMjUuMjUgMCAwIDAgMTEuMzk2IDlINC42MDRhLjI1LjI1IDAgMCAwLS4xNzcuNDI3ek00LjQyMyA2LjQ3IDcuODIgMy4wNzJhLjI1LjI1IDAgMCAxIC4zNTQgMEwxMS41NyA2LjQ3YS4yNS4yNSAwIDAgMS0uMTc3LjQyN0g0LjZhLjI1LjI1IDAgMCAxLS4xNzctLjQyN3oiLz48L3N2Zz4=");
+		background-position: right 2px center;
+		background-repeat: no-repeat;
+		background-size: 16px;
+		padding: 1px 20px 1px 5px !important;
+		border-radius: 5px;
+		filter: none;
+	}
+	
+	.table_info2 .sort:disabled {
+		color: #666;
+		background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiM2NjYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQuNDI3IDkuNDI3IDMuMzk2IDMuMzk2YS4yNTEuMjUxIDAgMCAwIC4zNTQgMGwzLjM5Ni0zLjM5NkEuMjUuMjUgMCAwIDAgMTEuMzk2IDlINC42MDRhLjI1LjI1IDAgMCAwLS4xNzcuNDI3ek00LjQyMyA2LjQ3IDcuODIgMy4wNzJhLjI1LjI1IDAgMCAxIC4zNTQgMEwxMS41NyA2LjQ3YS4yNS4yNSAwIDAgMS0uMTc3LjQyN0g0LjZhLjI1LjI1IDAgMCAxLS4xNzctLjQyN3oiLz48L3N2Zz4=");
 	}
 	
 	.table_info2 .payment_log_period input[type=text] {
@@ -24526,8 +24583,50 @@
 		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
-	.time_line .daily_obj, .scroll_top a, .no_result .btn_direct, .no_result .thumb {
+	.no_result .btn_direct, .no_result .thumb {
 		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.time_line .daily_obj {
+		background: none;
+		position: relative;
+	}
+	
+	.time_line .daily_obj:before {
+		background: url(https://ssl.pstatic.net/static/me/new/timeLine_bg.gif) repeat-y 15px 0;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.time_line .daily_obj h4 {
+		background: none;
+		position: relative;
+		color: #fff;
+		font-family: 'Helvetica', 'serif';
+	}
+	
+	.time_line .daily_obj h4:before {
+		background: url(https://ssl.pstatic.net/static/me/new/ico_time.png) no-repeat;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.tx_tooltip {
+		border: 1px solid #404040;
+		background: #2f2f2f;
+		border-top-color: #4f4f4f;
 	}
 	
 	.footer_contents {
@@ -24539,11 +24638,37 @@
 	}
 	
 	.nlst_checked .tx_tooltip .bubble_content .tx_width .alarm_tx {
-		color: #000;
+		color: #fff;
+	}
+	
+	.tx_tooltip .bubble_content .from_obj .alarm_time {
+		border-left: 1px solid #404040 !important;
+		color: #cacaca;
+	}
+	
+	.tx_tooltip:hover .env_bubble, .tx_tooltip .del_bubble {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.notice_ftr li .ico_new {
+		border-radius: 2px;
+	}
+	
+	.notice_ftr li:before {
+		background-color: #404040;
+	}
+	
+	.err_load {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.loading_area p {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.time_line .daily_obj li.nlst_checked .tx_tooltip .bubble_content .tx_width .ans_type {
-		color: #000000 !important;
+		color: #fff;
 	}
 	
 	.rgt_zone .result_list .env_modal {
@@ -25947,6 +26072,55 @@
 	
 	.calendar_category .category_list li .cal_type {
 		color: #fff;
+	}
+	
+	.calendar_setting_layer .calendar_edit .btn_using {
+		background: #242424;
+	}
+	
+	.calendar_setting_layer .common_edit td .example2 {
+		color: #cacaca;
+	}
+	
+	.mini_calender table td a {
+		color: #cacaca;
+	}
+	
+	.mini_calender table .calendar-prev-mon a, .mini_calender table .calendar-next-mon a {
+		color: #888;
+	}
+	
+	.mini_calender table .day_week {
+		color: #fff;
+	}
+	
+	.mini_calender .btn_1year {
+		color: #cacaca;
+	}
+	
+	.mini_calender .btn_1year:hover {
+		border-bottom: 1px solid #cacaca;
+	}
+	
+	select {
+		appearance: none;
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		background: #242424;
+		color: #cacaca;
+		border: 1px solid #404040;
+		background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiNjYWNhY2EiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQuNDI3IDkuNDI3IDMuMzk2IDMuMzk2YS4yNTEuMjUxIDAgMCAwIC4zNTQgMGwzLjM5Ni0zLjM5NkEuMjUuMjUgMCAwIDAgMTEuMzk2IDlINC42MDRhLjI1LjI1IDAgMCAwLS4xNzcuNDI3ek00LjQyMyA2LjQ3IDcuODIgMy4wNzJhLjI1LjI1IDAgMCAxIC4zNTQgMEwxMS41NyA2LjQ3YS4yNS4yNSAwIDAgMS0uMTc3LjQyN0g0LjZhLjI1LjI1IDAgMCAxLS4xNzctLjQyN3oiLz48L3N2Zz4=");
+		background-position: right 2px center;
+		background-repeat: no-repeat;
+		background-size: 16px;
+		padding: 1px 20px 1px 5px;
+		border-radius: 5px;
+		filter: none;
+	}
+	
+	select:disabled {
+		color: #666;
+		background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiM2NjYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQuNDI3IDkuNDI3IDMuMzk2IDMuMzk2YS4yNTEuMjUxIDAgMCAwIC4zNTQgMGwzLjM5Ni0zLjM5NkEuMjUuMjUgMCAwIDAgMTEuMzk2IDlINC42MDRhLjI1LjI1IDAgMCAwLS4xNzcuNDI3ek00LjQyMyA2LjQ3IDcuODIgMy4wNzJhLjI1LjI1IDAgMCAxIC4zNTQgMEwxMS41NyA2LjQ3YS4yNS4yNSAwIDAgMS0uMTc3LjQyN0g0LjZhLjI1LjI1IDAgMCAxLS4xNzctLjQyN3oiLz48L3N2Zz4=");
 	}
 }
 
@@ -31110,6 +31284,27 @@
 	.talk_pc_user .chat_composite_option_area li {
 		background-color: #3a3a3a;
 		border: 1px solid #5e71b5;
+	}
+	
+	.talk_pc_user .chat_header_top .chat_menu_wrap .btn_setting_close .fn-close svg, .talk_pc_user .ly_box.layer_alert .btn_pop_close .fn-close svg {
+		fill: #cacaca !important;
+	}
+	
+	.talk_pc_user .chat_header_top .lst_setting_menu .btn_tooltip .ico_setting_info {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.talk_pc_user .common_tooltip_layer {
+		border: 1px solid #404040;
+		background-color: rgb(55, 51, 32);
+	}
+	
+	.talk_pc_user .common_tooltip_layer .tooltip_text {
+		color: #cacaca;
+	}
+	
+	.talk_pc_user .chat_header_top .lst_setting_menu .common_tooltip_layer:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
 	}
 }
 
@@ -69922,6 +70117,42 @@
 	
 	.cs_medicine .mi_srch .srch_bd .srch_txt {
 		color: #cacaca;
+	}
+	
+	.cs_covid_vaccine .covidvaccine_wrap .covidvaccine_content .content_top {
+		color: #fff;
+	}
+	
+	.cs_covid_vaccine .covidvaccine_wrap .covidvaccine_content p {
+		color: #cacaca;
+	}
+	
+	.cs_covid_vaccine .covidvaccine_wrap .vaccine_link_wrap .vaccine_link li.vaccine_alarm a {
+		color: #fff;
+	}
+	
+	.cs_covid_vaccine .covidvaccine_wrap .covidvaccine_top .kdca .kdca_text {
+		background: none;
+		position: relative;
+	}
+	
+	.cs_covid_vaccine .covidvaccine_wrap .covidvaccine_top .kdca .kdca_text:after {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/scui/covid_vaccine/img/sp_covid_vaccine.png) no-repeat;
+		-webkit-background-size: 100px 100px;
+		background-size: 100px 100px;
+		background-position: 18px -80px;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_covid_vaccine .covidvaccine_wrap .covidvaccine_top .vaccine .vaccine_text {
+		filter: invert(81.5%) hue-rotate(-180deg);
 	}
 }
 

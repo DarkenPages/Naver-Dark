@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.14
+@version		1.51.16
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -69949,18 +69949,6 @@
 		color: #fff !important;
 	}
 	
-	.sp_nreview .total_tit, .sp_nreview .total_link_area .link, .sp_ntotal .total_tit .link_tit, .sp_nbook .book_info .title_area, .sp_nbook .list_info a.item_info, .sp_nvideo .video_default_list .video_bx .info_area .info_title, .go_relate a, .sp_ntotal .group_item .list_item .item a, .sp_nvideo .video_scroll_list .info_area .info_title, ._3tIZ6 ._2LKql ._3CKdL, .sp_nvideo .video_square_list .square_wrap .info_area .info_title, .sp_nrealtime .nrealtime_list .nrealtime_item .item_info .desc_tit, .sp_nblog .total_tit, .sp_ncafe .total_tit, .sp_nsite .link_name, .sp_nsite .sublink_wrap .sublink .item a, .cs_produce a, .cs_produce .prcs_detail h4 a, .ad_section .lst_type .lst .lnk_tit, .ad_section .lst_type .lst.type_subtitle .sub_tit, .api_ly_info .link, .ad_section .lst_type .lst.ext_price .lst_price .txt_inner, .ad_section .lst_type .lst.ext_link .lst_link .item .link, .sp_ndicstudy .word_lst .word, .sp_nrealtime .api_title .btn_new, .sp_ndic .dic_more .dic_link, .sp_ndic .dic_more_link .count, .sp_ndic .other_list .other_list_link, .sp_ndic .info_list a, .sp_ndic .dic_area .link_more, .sp_ndic .class_area .info_box .title, .cs_sign .tx_info.line_type a, .sp_mobile .app_eachlist a.store_wrap, .cs_newest .sct_content li .scm_ellipsis_text a, .cs_seasonal_divisions .prcs_detail h4 a, .cs_common_module a, .cs_common_module .expand_info .text_wrap a, .cs_common_module .notice_info_area a, .cs_common_module .cm_table_area .type_normal .cm_table tbody th a, .cs_sports_team a, .cs_sports_team .prcs_guide .nologo a, .cs_sports_team .prcs_guide .nologo2 a, .cs_sports_team .prcs_guide .nologo .txt, .cs_sports_team .prcs_guide .nologo2 .txt, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td .nation_name, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td.top3 p a, .cs_olympic_history .team_area .line li .player_detail dt a, .sp_ntotal .dsc_alert .link_help, .cs_production_type .csp_table_area table td a, .sp_ndic .homonym_wrap .title, .cs_calculator .relation_box dl dd a, .cs_suneung .sn_tb .knowhow_link, .cs_delivery .rsult_box .lodg span.inque a, .cs_rgb_plt a, .cs_prevention .advice .advice_lst li a, .cs_prevention .help_lk .lk_lst li a, .cs_sports_tpl .flat_box .flat_info a, .cs_pubtrans_wrap .relation_keyword2 dd a {
-		color: #688cda;
-	}
-	
-	.sp_nnews .news_wrap .news_tit:visited, .sp_nnews .news_wrap .news_tit:visited mark, .sp_nnews .api_title_sub .sub_link:visited, .sp_nnews .news_cluster .sub_tit:visited, .sp_nnews .news_cluster .sub_tit:visited mark, .sp_nnews .news_wrap:visited .news_tit .tit, .sp_nnews .news_wrap:visited .news_tit .tit mark, .sp_nreview .total_tit:visited, .sp_nreview .total_tit:visited mark, .sp_nreview .total_link_area .link:visited, .sp_nreview .total_link_area .link:visited mark, .sp_ntotal .total_tit .link_tit:visited, .sp_ntotal .total_tit .link_tit:visited mark, .sp_nvideo .video_default_list .video_bx .info_area .info_title:visited, .sp_nvideo .video_default_list .video_bx .info_area .info_title:visited mark, .sp_ntotal .group_item .list_item .item a:visited, .sp_ntotal .group_item .list_item .item a:visited mark, .sp_nvideo .video_scroll_list .info_area .info_title:visited, .sp_nvideo .video_scroll_list .info_area .info_title:visited mark, .sp_nkin .cluster_item:visited, .sp_nrealtime .info_desc .desc_link:visited, .sp_nrealtime .info_desc .desc_tit:visited, .sp_nrealtime .info_desc:visited .desc_tit, .sp_nrealtime .profile_link:visited .explain_tit, .sp_nblog .total_tit:visited, .sp_nblog .total_tit:visited mark, .sp_ncafe .total_tit:visited, .sp_ncafe .total_tit:visited mark, .sp_nsite .link_name:visited, .sp_nsite .link_name:visited mark, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark, .sp_nkin .kin_wrap .question_area .question_text:visited, .cs_produce .prcs_detail h4 a:visited, .cs_produce a:visited, .ad_section .lst_type .lst .lnk_tit:visited, .ad_section .lst_type .lst.type_subtitle .sub_tit:visited, .sp_company .company_more .more_info .api_ly_info .link:visited, .ad_section .lst_type .lst.ext_price .lst_price .txt_inner:visited, .ad_section .lst_type .lst.ext_link .lst_link .item .link:visited, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark {
-		color: #cc90cd;
-	}
-	
-	.sp_nsite .link_name:visited, .sp_nsite .link_name:visited mark, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark, .sp_ntotal .total_tit .link_tit:visited, .sp_ntotal .total_tit .link_tit:visited mark, .sp_ntotal .group_item .list_item .item a:visited, .sp_ntotal .group_item .list_item .item a:visited mark, .sp_ndicstudy .word_lst .word:visited, .api_subject_bx .api_title_area .api_title a:visited, .sp_nreview .total_tit:visited, .sp_nreview .total_tit:visited mark, .sp_nnews .news_wrap .news_tit:visited, .sp_nnews .news_wrap .news_tit:visited mark, .sp_ncafe_used .used_wrap .title:visited, .cs_common_module a:visited, .cs_common_module .expand_info .text_wrap a:visited, .cs_common_module .cm_table_area .type_normal .cm_table tbody th a:visited, .cs_sports_team a:visited, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td .nation_name:visited, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td.top3 p a:visited, .cs_olympic_history .team_area .line li .player_detail dt a:visited, .cs_suneung .sn_tb .knowhow_link:visited, .cs_delivery .rsult_box .lodg span.inque a:visited, .cs_rgb_plt a:visited, .cs_prevention .advice .advice_lst li a:visited, .cs_prevention .help_lk .lk_lst li a:visited, .cs_sports_tpl .flat_box .flat_info a:visited, .cs_pubtrans_wrap .relation_keyword2 dd a:visited, .sp_nkindic .nkindic_area .nkindic_basic .nkindic_tit .lnk_tit:visited {
-		color: #cc90cd;
-	}
-	
 	.cs_pubtrans_wrap .relation_keyword2 dd {
 		color: #4f4f4f;
 	}
@@ -70199,6 +70187,579 @@
 	
 	.cs_covid_vaccine .covidvaccine_wrap .covidvaccine_top .vaccine .vaccine_text {
 		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_sportsdb .db_tab .m_tab {
+		border-bottom: 2px solid #404040;
+	}
+	
+	.cs_sportsdb .db_tab .m_tab li a {
+		border: 1px solid #404040;
+		border-bottom: 0;
+		background-color: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.cs_sportsdb .db_tab .m_tab li.selected a {
+		background: #3a3a3a;
+		color: #fff;
+	}
+	
+	.cs_sportsdb .db_tab .db_msg {
+		color: #cacaca;
+	}
+	
+	.cs_sportsdb .nv_date {
+		border: 1px solid #404040;
+		background-color: #3a3a3a;
+		color: #fff;
+	}
+	
+	.cs_sportsdb .db_list {
+		border-right: 1px solid #404040;
+		border-left: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_sportsdb .db_list .time span {
+		color: #fff;
+	}
+	
+	.cs_sportsdb .db_list td {
+		border-left: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_sportsdb .db_list .score {
+		color: #fff;
+	}
+	
+	.cs_sportsdb .db_list .l_team .txt_name p em, .cs_sportsdb .db_list .r_team .txt_name p em {
+		color: #fff;
+	}
+	
+	.cs_sportsdb .db_list .place {
+		color: #cacaca;
+	}
+	
+	.cs_sportsdb .db_list .btns a img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_sportsdb .b_btns {
+		border: 1px solid #404040;
+		border-top: 0;
+		background-color: #3a3a3a;
+	}
+	
+	.cs_sportsdb .sportsdb_wrap2 {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_sportsdb .sportsdb_wrap2 dt strong {
+		color: #fff;
+	}
+	
+	.cs_sportsdb .sportsdb_wrap2 span {
+		color: #404040;
+	}
+	
+	.cs_sportsdb .info {
+		background: none;
+		position: relative;
+		color: #cacaca;
+	}
+	
+	.cs_sportsdb .info:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/scui/sportsdb/img/ico_info.gif) no-repeat 0 3px;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_sportsdb .b_btns p {
+		color: #cacaca;
+	}
+	
+	.cs_sportsdb .ly_cal {
+		border: 2px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_sportsdb .ly_cal .h_cal strong {
+		color: #fff;
+	}
+	
+	.cs_sportsdb .ly_cal .h_cal .bt_nx, .cs_sportsdb .ly_cal .h_cal .bt_pv, .cs_sportsdb .bt_cal img {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_sportsdb .ly_cal .cal_date {
+		background: none;
+	}
+	
+	.cs_sportsdb .ly_cal .h_cal {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_sportsdb .ly_cal .cal_date td a {
+		color: #cacaca;
+	}
+	
+	.cs_sportsdb .ly_cal .cal_date td a:hover {
+		background-color: #404040;
+	}
+	
+	.cs_sportsdb .ly_cal .today {
+		border-top: 1px solid #404040;
+		background-color: #3a3a3a;
+		color: #cacaca;
+	}
+	
+	.cs_sportsdb .ly_cal .today span {
+		background: none;
+		position: relative;
+	}
+	
+	.cs_sportsdb .ly_cal .today span:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/scui/sportsdb/img/bg_bar3.gif) no-repeat 100% 4px;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_sportsdb .ly_cal .cal_date td.select a {
+		color: #2f2f2f !important;
+	}
+	
+	.sp_nreview .total_tit, .sp_nreview .total_link_area .link, .sp_ntotal .total_tit .link_tit, .sp_nbook .book_info .title_area, .sp_nbook .list_info a.item_info, .sp_nvideo .video_default_list .video_bx .info_area .info_title, .go_relate a, .sp_ntotal .group_item .list_item .item a, .sp_nvideo .video_scroll_list .info_area .info_title, ._3tIZ6 ._2LKql ._3CKdL, .sp_nvideo .video_square_list .square_wrap .info_area .info_title, .sp_nrealtime .nrealtime_list .nrealtime_item .item_info .desc_tit, .sp_nblog .total_tit, .sp_ncafe .total_tit, .sp_nsite .link_name, .sp_nsite .sublink_wrap .sublink .item a, .cs_produce a, .cs_produce .prcs_detail h4 a, .ad_section .lst_type .lst .lnk_tit, .ad_section .lst_type .lst.type_subtitle .sub_tit, .api_ly_info .link, .ad_section .lst_type .lst.ext_price .lst_price .txt_inner, .ad_section .lst_type .lst.ext_link .lst_link .item .link, .sp_ndicstudy .word_lst .word, .sp_nrealtime .api_title .btn_new, .sp_ndic .dic_more .dic_link, .sp_ndic .dic_more_link .count, .sp_ndic .other_list .other_list_link, .sp_ndic .info_list a, .sp_ndic .dic_area .link_more, .sp_ndic .class_area .info_box .title, .cs_sign .tx_info.line_type a, .sp_mobile .app_eachlist a.store_wrap, .cs_newest .sct_content li .scm_ellipsis_text a, .cs_seasonal_divisions .prcs_detail h4 a, .cs_common_module a, .cs_common_module .expand_info .text_wrap a, .cs_common_module .notice_info_area a, .cs_common_module .cm_table_area .type_normal .cm_table tbody th a, .cs_sports_team a, .cs_sports_team .prcs_guide .nologo a, .cs_sports_team .prcs_guide .nologo2 a, .cs_sports_team .prcs_guide .nologo .txt, .cs_sports_team .prcs_guide .nologo2 .txt, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td .nation_name, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td.top3 p a, .cs_olympic_history .team_area .line li .player_detail dt a, .sp_ntotal .dsc_alert .link_help, .cs_production_type .csp_table_area table td a, .sp_ndic .homonym_wrap .title, .cs_calculator .relation_box dl dd a, .cs_suneung .sn_tb .knowhow_link, .cs_delivery .rsult_box .lodg span.inque a, .cs_rgb_plt a, .cs_prevention .advice .advice_lst li a, .cs_prevention .help_lk .lk_lst li a, .cs_sports_tpl .flat_box .flat_info a, .cs_pubtrans_wrap .relation_keyword2 dd a, .cs_sportsdb .ly_cal .today a {
+		color: #688cda;
+	}
+	
+	.sp_nnews .news_wrap .news_tit:visited, .sp_nnews .news_wrap .news_tit:visited mark, .sp_nnews .api_title_sub .sub_link:visited, .sp_nnews .news_cluster .sub_tit:visited, .sp_nnews .news_cluster .sub_tit:visited mark, .sp_nnews .news_wrap:visited .news_tit .tit, .sp_nnews .news_wrap:visited .news_tit .tit mark, .sp_nreview .total_tit:visited, .sp_nreview .total_tit:visited mark, .sp_nreview .total_link_area .link:visited, .sp_nreview .total_link_area .link:visited mark, .sp_ntotal .total_tit .link_tit:visited, .sp_ntotal .total_tit .link_tit:visited mark, .sp_nvideo .video_default_list .video_bx .info_area .info_title:visited, .sp_nvideo .video_default_list .video_bx .info_area .info_title:visited mark, .sp_ntotal .group_item .list_item .item a:visited, .sp_ntotal .group_item .list_item .item a:visited mark, .sp_nvideo .video_scroll_list .info_area .info_title:visited, .sp_nvideo .video_scroll_list .info_area .info_title:visited mark, .sp_nkin .cluster_item:visited, .sp_nrealtime .info_desc .desc_link:visited, .sp_nrealtime .info_desc .desc_tit:visited, .sp_nrealtime .info_desc:visited .desc_tit, .sp_nrealtime .profile_link:visited .explain_tit, .sp_nblog .total_tit:visited, .sp_nblog .total_tit:visited mark, .sp_ncafe .total_tit:visited, .sp_ncafe .total_tit:visited mark, .sp_nsite .link_name:visited, .sp_nsite .link_name:visited mark, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark, .sp_nkin .kin_wrap .question_area .question_text:visited, .cs_produce .prcs_detail h4 a:visited, .cs_produce a:visited, .ad_section .lst_type .lst .lnk_tit:visited, .ad_section .lst_type .lst.type_subtitle .sub_tit:visited, .sp_company .company_more .more_info .api_ly_info .link:visited, .ad_section .lst_type .lst.ext_price .lst_price .txt_inner:visited, .ad_section .lst_type .lst.ext_link .lst_link .item .link:visited, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark {
+		color: #cc90cd;
+	}
+	
+	.sp_nsite .link_name:visited, .sp_nsite .link_name:visited mark, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark, .sp_ntotal .total_tit .link_tit:visited, .sp_ntotal .total_tit .link_tit:visited mark, .sp_ntotal .group_item .list_item .item a:visited, .sp_ntotal .group_item .list_item .item a:visited mark, .sp_ndicstudy .word_lst .word:visited, .api_subject_bx .api_title_area .api_title a:visited, .sp_nreview .total_tit:visited, .sp_nreview .total_tit:visited mark, .sp_nnews .news_wrap .news_tit:visited, .sp_nnews .news_wrap .news_tit:visited mark, .sp_ncafe_used .used_wrap .title:visited, .cs_common_module a:visited, .cs_common_module .expand_info .text_wrap a:visited, .cs_common_module .cm_table_area .type_normal .cm_table tbody th a:visited, .cs_sports_team a:visited, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td .nation_name:visited, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td.top3 p a:visited, .cs_olympic_history .team_area .line li .player_detail dt a:visited, .cs_suneung .sn_tb .knowhow_link:visited, .cs_delivery .rsult_box .lodg span.inque a:visited, .cs_rgb_plt a:visited, .cs_prevention .advice .advice_lst li a:visited, .cs_prevention .help_lk .lk_lst li a:visited, .cs_sports_tpl .flat_box .flat_info a:visited, .cs_pubtrans_wrap .relation_keyword2 dd a:visited, .sp_nkindic .nkindic_area .nkindic_basic .nkindic_tit .lnk_tit:visited, .cs_sportsdb .ly_cal .today a:visited {
+		color: #cc90cd;
+	}
+	
+	.cs_sportsdb .b_btns .rbtn {
+		color: #cacaca;
+	}
+	
+	.cs_sportsdb .db_tab .s_tab a {
+		color: #cacaca;
+	}
+	
+	.cs_sportsdb .db_tab .s_tab .selected a {
+		color: #fff;
+	}
+	
+	.cs_sportsdb .db_tab .s_tab li.fc a {
+		background: none;
+		position: relative;
+	}
+	
+	.cs_sportsdb .db_tab .s_tab li.fc a:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/scui/sportsdb/img/bg_bar3.gif) no-repeat 100% 4px;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_sportsdb .db_tab .s_tab .btn_ly, .cs_sportsdb .db_tab .s_tab .btn_ly_on {
+		background: none;
+		position: relative;
+	}
+	
+	.cs_sportsdb .db_tab .s_tab .btn_ly:before, .cs_sportsdb .db_tab .s_tab .btn_ly_on:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/scui/sportsdb/img/ico_arw.gif) no-repeat 2px 2px;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_sportsdb .db_tab .s_tab .btn_ly.btn_ly_expand:before {
+		background-position: right 0;
+	}
+	
+	.cs_sportsdb .db_tab .s_tab a.btn_ly:hover:before, .cs_sportsdb .db_tab .s_tab .btn_ly_on:before {
+		background-position: 2px -64px;
+	}
+	
+	.cs_sportsdb .db_tab .s_tab a.btn_ly.btn_ly_expand:hover:before {
+		background-position: right 0;
+	}
+	
+	.cs_sportsdb .ly_team {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_sportsdb .ly_team .ls_wrap {
+		border-right: 1px solid #404040;
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_sportsdb .ly_team a {
+		color: #cacaca !important;
+	}
+	
+	.cs_sportsdb .ly_team a:hover {
+		color: #fff !important;
+	}
+	
+	.cs_sportsdb .db_list .time div a {
+		color: #cacaca;
+	}
+	
+	.cs_sportsdb .db_area h4 {
+		border: 1px solid #404040;
+		border-bottom: 0;
+		background-color: #3a3a3a;
+		color: #fff;
+	}
+	
+	.cs_sportsdb .db_list tbody th {
+		border-bottom: 1px solid #404040 !important;
+		background-color: #3a3a3a;
+		color: #fff;
+	}
+	
+	.cs_sportsdb .no_db_list {
+		border-right: 1px solid #404040;
+		border-left: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+		color: #fff;
+	}
+	
+	.cs_sportsdb .no_db_list span {
+		color: #cacaca;
+	}
+	
+	.cs_sportsdb .db_tab .s_tab .btn_more {
+		background: none;
+		position: relative;
+	}
+	
+	.cs_sportsdb .db_tab .s_tab .btn_more:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/scui/sportsdb/img/ico_arw.gif) no-repeat 100% 0;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_sportsdb .ly_more {
+		background: #2f2f2f;
+	}
+	
+	.cs_sportsdb .ly_more ul {
+		border: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.cs_sportsdb .ly_more a {
+		color: #cacaca !important;
+	}
+	
+	.cs_sportsdb .ly_more a:hover {
+		color: #fff !important;
+	}
+	
+	.cs_sportsdb .ly_cal .cal_date td {
+		color: #999;
+	}
+	
+	.cs_sportsdb .nv_date .nx {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_naverlive.right .list_arrow .page_number .total {
+		color: #fff;
+	}
+	
+	.cs_naverlive.right .list_arrow .page_number {
+		color: #4f4f4f;
+	}
+	
+	.cs_naverlive.right .list_arrow a.btn_page_next, .cs_naverlive.right .list_arrow a.btn_page_prev {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_naverlive.right .v_celeb_live .v_info .scm_ellipsis a {
+		color: #fff;
+	}
+	
+	.cs_naverlive .naverlive_channel a {
+		color: #cacaca;
+	}
+	
+	.cs_naverlive .naverlive_channel .naverlive_bar {
+		background-color: #4f4f4f;
+	}
+	
+	.cs_naverlive .naverlive_channel {
+		color: #cacaca;
+	}
+	
+	.cs_naverlive .naverlive_wrap .info_box {
+		border: 1px solid #404040;
+	}
+	
+	.cs_naverlive .main_tab .list_tab li a {
+		color: #cacaca;
+	}
+	
+	.cs_naverlive .sub_tab {
+		background-color: #2f2f2f;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_naverlive .main_tab {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_naverlive .sub_tab .tab_rolling ul li[role="tab"][aria-selected="true"] a {
+		color: #fff;
+	}
+	
+	.cs_naverlive .sub_tab .tab_rolling ul li a {
+		color: #cacaca;
+	}
+	
+	.cs_naverlive .sub_tab .bg_grd {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_naverlive .list_area .list_cont ul li .list_wrap .list_text>a {
+		color: #fff;
+	}
+	
+	.cs_naverlive .naverlive_count .ico_count {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_naverlive .page_area {
+		background-color: #3a3a3a;
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_naverlive .naverlive_error .error_area {
+		color: #fff;
+	}
+	
+	.cs_naverlive .naverlive_error .error_area .error_txt+.error_txt {
+		color: #cacaca;
+	}
+	
+	.cs_naverlive .page_area .paging_bx a[class^=btn_page_] {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_naverlive .page_area .page_number {
+		color: #4f4f4f;
+	}
+	
+	.cs_naverlive .page_area .page_number .total {
+		color: #fff;
+	}
+	
+	.apply_connection dt {
+		color: #fff !important;
+	}
+	
+	.apply_connection dd {
+		color: #4f4f4f;
+	}
+	
+	.cs_naverlive .list_area .list_cont ul li .list_wrap .list_thumb a .thumb_mask {
+		border: 1px solid #404040;
+	}
+	
+	.bg_nimg3 {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_naverlive .calendar_tab {
+		border-bottom: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_naverlive .calendar_tab .date_info {
+		color: #fff;
+	}
+	
+	.cs_naverlive .naverlive_channel .live_time {
+		color: #cacaca;
+	}
+	
+	.cs_naverlive .calendar_tab>a.btn_today {
+		color: #cacaca;
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.cs_naverlive .calendar_tab>a.next, .cs_naverlive .calendar_tab>a.prev {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.sc_new .api_channel_wrap .channel_scroll_wrap .channel_item.type_twitter .twitter_wrap:after {
+		background-image: linear-gradient(to bottom,rgba(58,58,58,0),#3a3a3a);
+	}
+	
+	.sc_new .api_channel_wrap .channel_scroll_wrap .channel_item .info_area .info_dsc {
+		color: #cacaca;
+	}
+	
+	.cs_typhoon .content_wrap {
+		background-image: linear-gradient(#23262a, #2f2f2f);
+		border: 1px solid #404040;
+	}
+	
+	.cs_typhoon .typhoon_info .title_box .typhoon_name {
+		color: #fff;
+	}
+	
+	.cs_typhoon .ico_alert .btn_icon {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_typhoon .typhoon_info .title_box .update {
+		color: #cacaca;
+	}
+	
+	.cs_typhoon .history_info .history_btn:after {
+		filter: invert(86%) hue-rotate(-180deg) brightness(1000%);
+	}
+	
+	.cs_typhoon .content_area .info_box {
+		background-color: #242424;
+	}
+	
+	.cs_typhoon .rel_link dl {
+		color: #404040;
+	}
+	
+	.cs_typhoon .rel_link dl dt {
+		color: #fff;
+	}
+	
+	.cs_typhoon .content_area .map_info .inner>div>div[style] {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_typhoon .content_area .rel_info {
+		background-color: rgb(55, 83, 105);
+	}
+	
+	.cs_typhoon .content_area .map_info .inner:after {
+		background-image: linear-gradient(to bottom, rgba(55, 83, 105, 0), rgb(55, 83, 105));
+	}
+	
+	.cs_typhoon .content_area .timeline_info {
+		background-color: rgb(49, 65, 55);
+	}
+	
+	.cs_typhoon .content_area .map_info .inner:before {
+		background-image: linear-gradient(to bottom, rgb(49, 65, 55), rgba(49, 65, 55, 0));
+	}
+	
+	.cs_typhoon .content_area .timeline_info .scroll_box .list_info .list .date {
+		color: #fff;
+		opacity: 1;
+	}
+	
+	.cs_typhoon .content_area .timeline_info .scroll_box .list_info .list .time_info .time {
+		color: #fff;
+	}
+	
+	.cs_typhoon .content_area .timeline_info .scroll_box .list_info .list .time_info .step {
+		border: 2px solid #aaa;
+	}
+	
+	.cs_typhoon .content_area .timeline_info .scroll_box .list_info .list .time_info:after {
+		background-color: #aaa;
+	}
+	
+	.cs_typhoon .content_area .timeline_info .scroll_box .list_info .list .time_content {
+		border: 1px solid #404040;
+		background-color: #3a3a3a;
+	}
+	
+	.cs_typhoon .content_area .timeline_info .scroll_box .list_info .list .time_content .detail_info dd {
+		color: #fff;
+	}
+	
+	.cs_typhoon .content_area .timeline_info .scroll_box .list_info .list .time_content .detail_info dt {
+		color: #cacaca;
+	}
+	
+	.cs_typhoon .content_area .timeline_info .scroll_box .list_info .list .time_content .location_info {
+		border-top: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.cs_typhoon .content_area .timeline_info .scroll_box .list_info .list .time_content .location_info:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_typhoon .content_area .timeline_info .scroll_box .list_info .list .time_content.now:before {
+		border: 2px solid #738fbd;
+	}
+	
+	.cs_typhoon .content_area .guide_box {
+		color: #fff;
+	}
+	
+	.cs_typhoon .content_area .guide_box dd a {
+		color: #8fc2ee;
+	}
+	
+	.cs_typhoon .content_area .rel_info .legend_list .list li .bg {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_typhoon .content_area .rel_info .legend_list .title {
+		color: #fff;
+	}
+	
+	.cs_typhoon .content_area .rel_info .legend_list .list li .text {
+		color: #fff;
+	}
+	
+	.sc_new .ly_api_info .tit {
+		color: #fff;
+	}
+	
+	.cs_typhoon .content_area .timeline_info .scroll_box .list_info .list .time_content .detail_info dd span {
+		color: #b0c2e8;
 	}
 }
 
@@ -73719,5 +74280,53 @@
 	
 	#content *[style*=' COLOR'], #content *[style*=';COLOR'], #content *[style^='COLOR'], #content *[color] {
 		color: #cacaca !important;
+	}
+}
+
+@-moz-document url-prefix("https://calendar.naver.com/external_layer.nhn")
+{
+	.wrap_shd {
+		border-color: #404040;
+		background: #2f2f2f;
+	}
+	
+	.wrap_shd h1 {
+		border-bottom: 1px solid #404040;
+		color: #fff;
+	}
+	
+	.scrap_cont dd.tit {
+		color: #fff;
+	}
+	
+	.scrap_cont dt {
+		color: #cacaca;
+	}
+	
+	.selectbox-label {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.selectbox-label:after {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.scrap_cont .scrp_chk_area label {
+		color: #cacaca;
+	}
+	
+	.btm_btn_area button {
+		color: #cacaca;
+		background: #242424;
+		border-color: #404040;
+	}
+	
+	.selectbox-list {
+		border: 1px solid #404040;
+	}
+	
+	.selectbox-list li.selectbox-item-selectedm, .selectbox-list li.selectbox-item-hovered {
+		background-color: #3a3a3a;
 	}
 }

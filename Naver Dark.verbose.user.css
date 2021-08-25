@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.16
+@version		1.51.20
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -13391,6 +13391,45 @@
 
 @-moz-document url-prefix("https://cafe.naver.com"), url-prefix("cafe.naver.com")
 {
+	:root {
+		--skinTextColor: #fff;
+		--skinText323232: #cfcfcf;
+		--skinText676767: #cacaca;
+		--skinText979797: #999;
+		--skinTextb7b7b7: #666;
+		--skinListBorder: #404040;
+		--skinThumbBorder: #404040;
+		--skinBar: #404040;
+		--skinArticleLink: #7474e3;
+		--skinSourceBadge: #cacaca;
+		--skinTagLinkColor: #cacaca;
+		--skinToggleSwitchBg: #3a3a3a;
+		--skinCommentWriterBorder: #404040;
+		--skinCommentWriterBg: #242424;
+		--skinCommentWriterText: #cacaca;
+		--skinCommentWriterFocus: #999;
+		--skinBox: #2f2f2f;
+		--skinSvgIconPostBtnArrowUp: #cacaca;
+		--skinSvgIconPostTop: #cacaca;
+		--skinLayoutBorder: #404040;
+		--skinBaseButtonDefaultBg: #3a3a3a;
+		--skinBaseButtonDefaultColor: #fff;
+		--skinBaseButtonPointBg: #3a3a3a;
+		--skinColor: #cacaca;
+		--skinCommentMineBg: #2f2f2f;
+		--skinListSelectedBg: #2f2f2f;
+		--skinNoticeBadgeMenuBg: #242424;
+		--baseText: #cacaca;
+		--baseMenu: #fff;
+		--baseLink: #cfcfcf;
+		--baseBg: #242424;
+		--baseBorder: #404040;
+		--iconArrowBase: #999;
+		--iconArrowWrite: #cacaca;
+		--gnbLinkBar: #404040;
+		--gnbLinkArrow: #cacaca;
+	}
+	
 	input, textarea {
 		background: #242424;
 		color: #cacaca;
@@ -14550,6 +14589,31 @@
 	.skin-1080 .sub_tit_profile.leave_member .info_area .level {
 		color: #fff;
 	}
+	
+	.skin-1080 .sub_tit_profile .info_area .num {
+		color: #fff;
+	}
+	
+	.skin-1080 .article_profile .list-style .link_sort {
+		color: #fff;
+	}
+	
+	.skin-1080 .article_profile .sort_area .btn_subscript {
+		background-color: #404040;
+		color: #fff;
+	}
+	
+	.skin-1080 .article_profile .sort_area .btn_subscript:before {
+		filter: brightness(1000%);
+	}
+	
+	.skin-1080 .article_profile .td_writer button {
+		color: #fff;
+	}
+	
+	.skin-1080 .sub_tit_profile .info_area .level {
+		color: #cacaca;
+	}
 }
 
 @-moz-document url-prefix("https://section.blog.naver.com"), url-prefix("http://section.blog.naver.com")
@@ -15229,297 +15293,297 @@
 
 @-moz-document url-prefix("https://nid.naver.com/nidlogin.login"), url-prefix("https://nid.naver.com/oauth2.0/authorize")
 {
-	body {
-		background: #242424;
-	}
+	/*body {*/
+	/*	background: #242424;*/
+	/*}*/
 	
-	#footer *, #footer a:visited, #footer a, #footer address a {
-		color: #cacaca;
-	}
+	/*#footer *, #footer a:visited, #footer a, #footer address a {*/
+	/*	color: #cacaca;*/
+	/*}*/
 	
-	.sel {
-		color: #cacaca;
-		border: 1px solid #404040;
-	}
+	/*.sel {*/
+	/*	color: #cacaca;*/
+	/*	border: 1px solid #404040;*/
+	/*}*/
 	
-	:root .lang::after {
-		background-image: none;
-		pointer-events: none;
-	}
+	/*:root .lang::after {*/
+	/*	background-image: none;*/
+	/*	pointer-events: none;*/
+	/*}*/
 	
-	.input_row {
-		background: #242424;
-		border: 1px solid #404040;
-	}
+	/*.input_row {*/
+	/*	background: #242424;*/
+	/*	border: 1px solid #404040;*/
+	/*}*/
 	
-	.int {
-		color: #cacaca;
-		background: #242424;
-	}
+	/*.int {*/
+	/*	color: #cacaca;*/
+	/*	background: #242424;*/
+	/*}*/
 	
-	.btn_global:active, .btn_global:hover, .btn_global:link {
-		color: #242424;
-	}
+	/*.btn_global:active, .btn_global:hover, .btn_global:link {*/
+	/*	color: #242424;*/
+	/*}*/
 	
-	html, head {
-		background: #242424;
-	}
+	/*html, head {*/
+	/*	background: #242424;*/
+	/*}*/
 	
-	.title p {
-		color: #cacaca;
-	}
+	/*.title p {*/
+	/*	color: #cacaca;*/
+	/*}*/
 	
-	.social_header .social_title {
-		color: #cacaca;
-	}
+	/*.social_header .social_title {*/
+	/*	color: #cacaca;*/
+	/*}*/
 	
-	.tab_m {
-		border: 1px solid #404040;
-	}
+	/*.tab_m {*/
+	/*	border: 1px solid #404040;*/
+	/*}*/
 	
-	.tab_m li a {
-		background: #2f2f2f;
-		color: #cacaca;
-	}
+	/*.tab_m li a {*/
+	/*	background: #2f2f2f;*/
+	/*	color: #cacaca;*/
+	/*}*/
 	
-	.tab_m li a:hover, .tab_m li a:visited {
-		color: #cacaca;
-	}
+	/*.tab_m li a:hover, .tab_m li a:visited {*/
+	/*	color: #cacaca;*/
+	/*}*/
 	
-	.tab_m li a.on {
-		color: #242424;
-		border: 1px solid #404040;
-		background: #019341;
-	}
+	/*.tab_m li a.on {*/
+	/*	color: #242424;*/
+	/*	border: 1px solid #404040;*/
+	/*	background: #019341;*/
+	/*}*/
 	
-	.country_code .sel_value {
-		filter: invert(86%);
-	}
+	/*.country_code .sel_value {*/
+	/*	filter: invert(86%);*/
+	/*}*/
 	
-	.diaper_banner, .otp_step_banner {
-	    filter: invert(86%) hue-rotate(-180deg);
-	}
+	/*.diaper_banner, .otp_step_banner {*/
+	/*    filter: invert(86%) hue-rotate(-180deg);*/
+	/*}*/
 	
-	.theme_txt p {
-		border-radius: 10px;
-		margin: 10px;
+	/*.theme_txt p {*/
+	/*	border-radius: 10px;*/
+	/*	margin: 10px;*/
 		
-		background: #182030;
-		background-color: #182030;
+	/*	background: #182030;*/
+	/*	background-color: #182030;*/
 		
-		border: 1px solid #246;
-		color: #fff;
-	}
+	/*	border: 1px solid #246;*/
+	/*	color: #fff;*/
+	/*}*/
 	
-	.theme_txt + #wrap #header .h_logo {
-		margin-top: 25px;
-	}
+	/*.theme_txt + #wrap #header .h_logo {*/
+	/*	margin-top: 25px;*/
+	/*}*/
 	
-	.ly_v2 .ly_point {
-		filter: invert(88.7%) hue-rotate(-180deg) grayscale(1);
-	}
+	/*.ly_v2 .ly_point {*/
+	/*	filter: invert(88.7%) hue-rotate(-180deg) grayscale(1);*/
+	/*}*/
 	
-	.captcha .captcha_txt {
-		color: #fff;
-	}
+	/*.captcha .captcha_txt {*/
+	/*	color: #fff;*/
+	/*}*/
 	
-	.btn_qronce_cancel {
-		background-color: #242424;
-		border: 1px solid #404040;
-		color: #cacaca;
-	}
+	/*.btn_qronce_cancel {*/
+	/*	background-color: #242424;*/
+	/*	border: 1px solid #404040;*/
+	/*	color: #cacaca;*/
+	/*}*/
 	
-	.once_wrap {
-		background-color: #242424;
-		border: 1px solid #404040;
-	}
+	/*.once_wrap {*/
+	/*	background-color: #242424;*/
+	/*	border: 1px solid #404040;*/
+	/*}*/
 	
-	.once_wrap .title, .once_wrap .title_once, .velid_inner .title {
-		color: #fff;
-	}
+	/*.once_wrap .title, .once_wrap .title_once, .velid_inner .title {*/
+	/*	color: #fff;*/
+	/*}*/
 	
-	.btn_global, .btn_login input {
-		color: #242424;
-	}
+	/*.btn_global, .btn_login input {*/
+	/*	color: #242424;*/
+	/*}*/
 	
-	.input_box {
-		border: 0 !important;
-	}
+	/*.input_box {*/
+	/*	border: 0 !important;*/
+	/*}*/
 	
-	.login_check_box label {
-		background-color: #242424;
-		color: #cacaca;
-	}
+	/*.login_check_box label {*/
+	/*	background-color: #242424;*/
+	/*	color: #cacaca;*/
+	/*}*/
 	
-	.ip_check .ip_txt02, .ip_check .ip_txt01 {
-		color: #cacaca;
-	}
+	/*.ip_check .ip_txt02, .ip_check .ip_txt01 {*/
+	/*	color: #cacaca;*/
+	/*}*/
 	
-	.ip_ch label {
-		background-color: #242424;
-	}
+	/*.ip_ch label {*/
+	/*	background-color: #242424;*/
+	/*}*/
 	
-	.qr_once_wrap {
-		border-top: 1px solid #404040;
-	}
+	/*.qr_once_wrap {*/
+	/*	border-top: 1px solid #404040;*/
+	/*}*/
 	
-	.qr_once_inner .title {
-		color: #fff;
-	}
+	/*.qr_once_inner .title {*/
+	/*	color: #fff;*/
+	/*}*/
 	
-	.qr_once_area .item_btn {
-		background-color: #242424;
-		border: 1px solid #404040;
-	}
+	/*.qr_once_area .item_btn {*/
+	/*	background-color: #242424;*/
+	/*	border: 1px solid #404040;*/
+	/*}*/
 	
-	.qr_once_area .txt {
-		color: #fff;
-	}
+	/*.qr_once_area .txt {*/
+	/*	color: #fff;*/
+	/*}*/
 	
-	.qr_once_area .icon_once, .login_check_box .ico_keep_check::before {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
+	/*.qr_once_area .icon_once, .login_check_box .ico_keep_check::before {*/
+	/*	filter: invert(86%) hue-rotate(-180deg);*/
+	/*}*/
 	
-	.rest_time .txt {
-		color: #fff;
-	}
+	/*.rest_time .txt {*/
+	/*	color: #fff;*/
+	/*}*/
 	
-	.once_wrap .desc, .velid_inner .desc {
-		color: #cacaca;
-	}
+	/*.once_wrap .desc, .velid_inner .desc {*/
+	/*	color: #cacaca;*/
+	/*}*/
 	
-	html[lang=en] .qr_once_area .item_btn, html[lang=zh-Hant] .qr_once_area .item_btn, html[lang=zh-Hans] .qr_once_area .item_btn {
-		border: 1px solid #404040;
-	}
+	/*html[lang=en] .qr_once_area .item_btn, html[lang=zh-Hant] .qr_once_area .item_btn, html[lang=zh-Hans] .qr_once_area .item_btn {*/
+	/*	border: 1px solid #404040;*/
+	/*}*/
 	
-	.qr_img {
-		border: 1px solid #404040;
-	}
+	/*.qr_img {*/
+	/*	border: 1px solid #404040;*/
+	/*}*/
 	
-	.error_chatbot .chatbot_box {
-		border: 1px solid #404040;
-	}
+	/*.error_chatbot .chatbot_box {*/
+	/*	border: 1px solid #404040;*/
+	/*}*/
 	
-	.chatbot_box .txt {
-		color: #cacaca;
-	}
+	/*.chatbot_box .txt {*/
+	/*	color: #cacaca;*/
+	/*}*/
 	
-	.naversign_cert_banner {
-		background-color: #242424;
-		border: 1px solid #404040;
-	}
+	/*.naversign_cert_banner {*/
+	/*	background-color: #242424;*/
+	/*	border: 1px solid #404040;*/
+	/*}*/
 	
-	.find_info a {
-		color: #cacaca;
-	}
+	/*.find_info a {*/
+	/*	color: #cacaca;*/
+	/*}*/
 	
-	.btn_done {
-		background-color: #2f2f2f;
-		border: 1px solid #404040;
-	}
+	/*.btn_done {*/
+	/*	background-color: #2f2f2f;*/
+	/*	border: 1px solid #404040;*/
+	/*}*/
 	
-	.btn_done .txt {
-		color: #cacaca;
-	}
+	/*.btn_done .txt {*/
+	/*	color: #cacaca;*/
+	/*}*/
 	
-	.btn_done .picture::before, .btn_done .refresh::before, .btn_done .voice::before {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
+	/*.btn_done .picture::before, .btn_done .refresh::before, .btn_done .voice::before {*/
+	/*	filter: invert(86%) hue-rotate(-180deg);*/
+	/*}*/
 	
-	.pc_check a {
-		color: #cacaca;
-	}
+	/*.pc_check a {*/
+	/*	color: #cacaca;*/
+	/*}*/
 	
-	.find_info {
-		color: #cacaca;
-		border-top: 1px solid #404040;
-	}
+	/*.find_info {*/
+	/*	color: #cacaca;*/
+	/*	border-top: 1px solid #404040;*/
+	/*}*/
 	
-	.btn_login input {
-		border: 1px solid #019341;
-		background: none !important;
-	}
+	/*.btn_login input {*/
+	/*	border: 1px solid #019341;*/
+	/*	background: none !important;*/
+	/*}*/
 	
-	.btn_login {
-		background: #019341;
-	}
+	/*.btn_login {*/
+	/*	background: #019341;*/
+	/*}*/
 	
-	.btn_login.btn_login_v2 {
-		position: relative;
-	}
+	/*.btn_login.btn_login_v2 {*/
+	/*	position: relative;*/
+	/*}*/
 	
-	.btn_login.btn_login_v2:before {
-		pointer-events: none;
-		position: absolute;
-		content: '확인';
-		font-size: 20px;
-		font-weight: bold;
-		color: #242424;
-		left: 50%;
-		top: 50%;
-		transform: translate(-50%, -50%);
-	}
+	/*.btn_login.btn_login_v2:before {*/
+	/*	pointer-events: none;*/
+	/*	position: absolute;*/
+	/*	content: '확인';*/
+	/*	font-size: 20px;*/
+	/*	font-weight: bold;*/
+	/*	color: #242424;*/
+	/*	left: 50%;*/
+	/*	top: 50%;*/
+	/*	transform: translate(-50%, -50%);*/
+	/*}*/
 	
-	#header .lang .sel {
-		border: none;
-		color: #cacaca;
-	}
+	/*#header .lang .sel {*/
+	/*	border: none;*/
+	/*	color: #cacaca;*/
+	/*}*/
 	
-	#header .lang .sel {
-		background: none;
-	}
+	/*#header .lang .sel {*/
+	/*	background: none;*/
+	/*}*/
 	
-	#header .lang {
-		border: 1px solid #404040;
-	}
+	/*#header .lang {*/
+	/*	border: 1px solid #404040;*/
+	/*}*/
 	
-	#header .lang:before {
-		background: url(https://static.nid.naver.com/images/login/global/sns/desktop/sel_arr.gif) 100% 50% no-repeat;
-		position: absolute;
-		content: '';
-		left: 0;
-		top: 0;
-		width: 100%;
-		height: 100%;
-		pointer-events: none;
-		filter: invert(86%) hue-rotate(-180deg);
-	}
+	/*#header .lang:before {*/
+	/*	background: url(https://static.nid.naver.com/images/login/global/sns/desktop/sel_arr.gif) 100% 50% no-repeat;*/
+	/*	position: absolute;*/
+	/*	content: '';*/
+	/*	left: 0;*/
+	/*	top: 0;*/
+	/*	width: 100%;*/
+	/*	height: 100%;*/
+	/*	pointer-events: none;*/
+	/*	filter: invert(86%) hue-rotate(-180deg);*/
+	/*}*/
 	
-	.dis_di .btn_help {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
+	/*.dis_di .btn_help {*/
+	/*	filter: invert(86%) hue-rotate(-180deg);*/
+	/*}*/
 	
-	.ly .ly_box {
-		color: #cacaca;
-		background: #2f2f2f;
-		border: 1px solid #5f5f5f;
-	}
+	/*.ly .ly_box {*/
+	/*	color: #cacaca;*/
+	/*	background: #2f2f2f;*/
+	/*	border: 1px solid #5f5f5f;*/
+	/*}*/
 	
-	.ly .ly_point {
-		filter: invert(81.5%) hue-rotate(-180deg);
-	}
+	/*.ly .ly_point {*/
+	/*	filter: invert(81.5%) hue-rotate(-180deg);*/
+	/*}*/
 	
-	.bar {
-		background: #404040;
-	}
+	/*.bar {*/
+	/*	background: #404040;*/
+	/*}*/
 	
-	.input_row {
-		padding: 0px 0px 17px 0px;
-	}
+	/*.input_row {*/
+	/*	padding: 0px 0px 17px 0px;*/
+	/*}*/
 	
-	.int {
-		width: calc(100% - 22px);
-		height: 16px;
-		padding: 15px 11px 15px 11px;
-	}
+	/*.int {*/
+	/*	width: calc(100% - 22px);*/
+	/*	height: 16px;*/
+	/*	padding: 15px 11px 15px 11px;*/
+	/*}*/
 	
-	.title p .sevice {
-		color: #fff;
-	}
+	/*.title p .sevice {*/
+	/*	color: #fff;*/
+	/*}*/
 	
-	.qrcheckin_banner {
-		border: 1px solid #404040;
-	}
+	/*.qrcheckin_banner {*/
+	/*	border: 1px solid #404040;*/
+	/*}*/
 }
 
 @-moz-document url-prefix("https://nid.naver.com/login/ext/")
@@ -31342,7 +31406,7 @@
 	}
 }
 
-@-moz-document url-prefix("https://nid.naver.com/user2/V2Join.nhn")
+@-moz-document url-prefix("https://nid.naver.com/user2/V2Join")
 {
 	body {
 		background: #242424;
@@ -31423,6 +31487,39 @@
 	
 	label {
 		color: #fff;
+	}
+	
+	.event_message {
+		color: #cacaca;
+	}
+	
+	a.btn_group_join:hover, a.btn_group_join:visited {
+		color: #fff;
+	}
+	
+	a.btn_group_join {
+		color: #cacaca;
+	}
+	
+	#footer ul li {
+		background: none;
+		position: relative;
+	}
+	
+	#footer ul li:before {
+		background: url(https://static.nid.naver.com/images/join/pc/bu_bar_2x.gif) left 50% no-repeat;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	#footer ul li:first-child:before {
+		background: none;
 	}
 }
 
@@ -54638,45 +54735,6 @@
 		background-color: #242424;
 	}
 	
-	:root {
-		--skinTextColor: #fff;
-		--skinText323232: #cfcfcf;
-		--skinText676767: #cacaca;
-		--skinText979797: #999;
-		--skinTextb7b7b7: #666;
-		--skinListBorder: #404040;
-		--skinThumbBorder: #404040;
-		--skinBar: #404040;
-		--skinArticleLink: #7474e3;
-		--skinSourceBadge: #cacaca;
-		--skinTagLinkColor: #cacaca;
-		--skinToggleSwitchBg: #3a3a3a;
-		--skinCommentWriterBorder: #404040;
-		--skinCommentWriterBg: #242424;
-		--skinCommentWriterText: #cacaca;
-		--skinCommentWriterFocus: #999;
-		--skinBox: #2f2f2f;
-		--skinSvgIconPostBtnArrowUp: #cacaca;
-		--skinSvgIconPostTop: #cacaca;
-		--skinLayoutBorder: #404040;
-		--skinBaseButtonDefaultBg: #3a3a3a;
-		--skinBaseButtonDefaultColor: #fff;
-		--skinBaseButtonPointBg: #3a3a3a;
-		--skinColor: #cacaca;
-		--skinCommentMineBg: #2f2f2f;
-		--skinListSelectedBg: #2f2f2f;
-		--skinNoticeBadgeMenuBg: #242424;
-		--baseText: #cacaca;
-		--baseMenu: #fff;
-		--baseLink: #cfcfcf;
-		--baseBg: #242424;
-		--baseBorder: #404040;
-		--iconArrowBase: #999;
-		--iconArrowWrite: #cacaca;
-		--gnbLinkBar: #404040;
-		--gnbLinkArrow: #cacaca;
-	}
-	
 	.LayerMore {
 		background-color: #2f2f2f;
 		color: #fff;
@@ -55364,6 +55422,11 @@
 	}
 	
 	.CclLayer .list {
+		color: #fff;
+	}
+	
+	.WriterInfo .profile_info .link_talk {
+		background: #404040;
 		color: #fff;
 	}
 }
@@ -58218,56 +58281,56 @@
 
 @-moz-document url-prefix("https://nid.naver.com/nidlogin.login?mode=form")
 {
-	.desc_ipsecure em {
-		color: #cacaca;
-	}
+	/*.desc_ipsecure em {*/
+	/*	color: #cacaca;*/
+	/*}*/
 	
-	.login_wrap {
-		background: #2f2f2f;
-		border: 1px solid #404040;
-		border-bottom: none;
-	}
+	/*.login_wrap {*/
+	/*	background: #2f2f2f;*/
+	/*	border: 1px solid #404040;*/
+	/*	border-bottom: none;*/
+	/*}*/
 	
-	.login {
-		border-bottom: 1px solid #404040;
-	}
+	/*.login {*/
+	/*	border-bottom: 1px solid #404040;*/
+	/*}*/
 	
-	.input_box {
-		border: 1px solid #404040;
-		border-right: 0;
-	}
+	/*.input_box {*/
+	/*	border: 1px solid #404040;*/
+	/*	border-right: 0;*/
+	/*}*/
 	
-	.chk_id_login .lbl_long {
-		filter: invert(81.5%) hue-rotate(-180deg);
-	}
+	/*.chk_id_login .lbl_long {*/
+	/*	filter: invert(81.5%) hue-rotate(-180deg);*/
+	/*}*/
 	
-	.btn_login input {
-		background: #242424;
-		color: #fff;
-	}
+	/*.btn_login input {*/
+	/*	background: #242424;*/
+	/*	color: #fff;*/
+	/*}*/
 	
-	.btn_login {
-		border: 1px solid #404040;
-	}
+	/*.btn_login {*/
+	/*	border: 1px solid #404040;*/
+	/*}*/
 	
-	.login_help, .btn_dis {
-		border: 1px solid #404040;
-		background: #242424;
-		color: #cacaca;
-	}
+	/*.login_help, .btn_dis {*/
+	/*	border: 1px solid #404040;*/
+	/*	background: #242424;*/
+	/*	color: #cacaca;*/
+	/*}*/
 	
-	.ip_box .lbl_type {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
+	/*.ip_box .lbl_type {*/
+	/*	filter: invert(86%) hue-rotate(-180deg);*/
+	/*}*/
 	
-	.lbl_in {
-		background: #242424;
-		color: #cacaca;
-	}
+	/*.lbl_in {*/
+	/*	background: #242424;*/
+	/*	color: #cacaca;*/
+	/*}*/
 	
-	.int.focus {
-		background-color: #2a2a2a;
-	}
+	/*.int.focus {*/
+	/*	background-color: #2a2a2a;*/
+	/*}*/
 }
 
 @-moz-document url-prefix("https://whale.naver.com")
@@ -74328,5 +74391,357 @@
 	
 	.selectbox-list li.selectbox-item-selectedm, .selectbox-list li.selectbox-item-hovered {
 		background-color: #3a3a3a;
+	}
+}
+
+@-moz-document url-prefix("https://nid.naver.com/nidlogin.login"), url-prefix("https://nid.naver.com/oauth2.0/authorize")
+{
+	body {
+		color: #cacaca;
+		background: #242424;
+	}
+	
+	.sel {
+		color: #cacaca;
+		border: 1px solid #404040;
+	}
+	
+	.banner_inner {
+		background-color: #2f2f2f !important;
+		border: 1px solid #404040 !important;
+	}
+	
+	.banner_inner img {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.footer .footer_copy .corp {
+		color: #fff;
+	}
+	
+	.footer .corp, .footer .text {
+		color: #cacaca;
+	}
+	
+	.footer .footer_link li+li::before {
+		background-color: #404040;
+	}
+	
+	.find_wrap .en_find_text, .find_wrap .find_text, .relogin_find_wrap .en_find_text, .relogin_find_wrap .find_text {
+		color: #cacaca;
+	}
+	
+	.find_wrap li+li::before, .relogin_find_wrap li+li::before {
+		background-color: rgb(82, 82, 82);
+	}
+	
+	.panel_item {
+		border: 1px solid rgb(82, 82, 82);
+		background-color: #2f2f2f;
+	}
+	
+	.menu_id, .menu_ones, .menu_qr {
+		border: 1px solid rgb(82, 82, 82);
+		border-bottom: 0;
+		background-color: rgb(49, 50, 50);
+	}
+	
+	.menu_id {
+		border-right: 0;
+	}
+	
+	.menu_id.on, .menu_ones.on, .menu_qr.on {
+		border-color: rgb(82, 82, 82);
+		background-color: #2f2f2f;
+	}
+	
+	.menu_ones {
+		border-right: 0;
+	}
+	
+	.menu_id.on::after, .menu_ones.on::before, .menu_ones.on::after, .menu_qr.on::before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.menu_id.on .menu_text, .menu_ones.on .menu_text, .menu_qr.on .menu_text {
+		color: #fff;
+	}
+	
+	.menu_id .menu_text, .menu_ones .menu_text, .menu_qr .menu_text {
+		color: #cacaca;
+	}
+	
+	.menu_id .menu_text::before, .menu_ones .menu_text::before, .menu_qr .menu_text::before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.input_row {
+		border: 1px solid #404040;
+	}
+	
+	.btn_delete {
+		background-color: #2f2f2f;
+	}
+	
+	.id_pw_wrap .input_row .icon_cell .icon_id, .id_pw_wrap .input_row .icon_cell .icon_pw {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.keep_check .keep_text {
+		color: #cacaca;
+	}
+	
+	.keep_check .keep_text::before {
+		background-color: #2f2f2f;
+	}
+	
+	.ip_check .ip_text {
+		color: #cacaca;
+	}
+	
+	.img_lock, .pop_img_lock {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.ones_text, .pop_ones_text {
+		color: #fff;
+	}
+	
+	.top_desc {
+		color: #fff;
+	}
+	
+	.sub_desc {
+		color: #cacaca;
+	}
+	
+	.sub_desc .point {
+		color: #fff;
+	}
+	
+	.time_wrap .time_text {
+		color: #fff;
+	}
+	
+	.sns_wrap .sns_item {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.sns_wrap .sns_text {
+		color: #fff;
+	}
+	
+	.input_text {
+		color: #fff;
+	}
+}
+
+@-moz-document url-prefix("https://nid.naver.com/mobile/user/global/idInquiry"), url-prefix("https://nid.naver.com/mobile/user/authGlobalRegMobile.nhn"), url-prefix("https://nid.naver.com/mobile/user/global/pwInquiry")
+{
+	input {
+		background: #242424;
+		color: #cacaca;
+		border: 1px solid #404040;
+	}
+	
+	body {
+		background: #242424;
+		color: #fff;
+	}
+	
+	.global {
+		background: #242424;
+	}
+	
+	.global .u_ft, .global .u_ft .u_crt {
+		background: #242424;
+	}
+	
+	.global .g_ct {
+		border-top: 1px solid #404040;
+		background: #242424 !important;
+	}
+	
+	#ct {
+		background-color: #242424;
+	}
+	
+	.g_group .phone_auth p strong {
+		color: #fff;
+	}
+	
+	.g_group .phone_auth p {
+		color: #cacaca;
+	}
+	
+	.link_phone a {
+		color: #cacaca;
+	}
+	
+	.u_cri_v1 {
+		background: none;
+		position: relative;
+	}
+	
+	.u_cri_v1:before {
+		background: url(https://nid.naver.com/inc/mobile/images/u_cm.png) no-repeat 0 0;
+		background-position: 0 -82px;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.u_cra {
+		color: #cacaca;
+	}
+	
+	.g_group .input_wrap, .g_group .select_wrap {
+		border: 1px solid #404040;
+	}
+	
+	.g_group .input_wrap .inner {
+		background: #242424;
+	}
+	
+	.g_group .input_wrap input {
+		color: #cacaca;
+	}
+	
+	.g_group .select_wrap .inner {
+		background: none;
+		position: relative;
+		box-shadow: inset 1px 1px 0 rgba(45,45,45,.4),inset -1px -1px 0 rgba(45,45,45,.4);
+	}
+	
+	.g_group .select_wrap .inner:before {
+		background: url(https://nid.naver.com/inc/mobile/images/sp_global_ico.png) repeat-x;
+		background-position: 0 -96px;
+		background-size: 200px 195px;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(86%) hue-rotate(-180deg);
+		z-index: -1;
+	}
+	
+	.g_group .select_wrap select {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.g_group .tab a {
+		border: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+		background: #242424;
+		color: #cacaca;
+		box-shadow: inset 0 -1px 0 #242424;
+		text-shadow: 0 1px 0 rgba(45, 45, 45,.8);
+	}
+	
+	.g_group .tab a.on {
+		border: 1px solid #404040;
+		background: #2f2f2f;
+		color: #fff;
+	}
+	
+	.g_group .tab:last-child a:after {
+		background: #404040;
+	}
+	
+	.g_btn .btn {
+		background: #019341;
+		border-radius: 10px;
+		cursor: pointer;
+	}
+	
+	.g_btn .btn.w {
+		background: #404040;
+		border-radius: 10px;
+	}
+	
+	.g_btn .btn.w span {
+		color: #cacaca;
+		background: #404040;
+		border-radius: 0 10px 10px 0;
+	}
+	
+	.g_btn .btn span {
+		background: #019341;
+		border-radius: 0 10px 10px 0;
+	}
+	
+	.g_group .select_wrap .sel_value {
+		background: none;
+	}
+	
+	.g_group .select_wrap .sel_value:before {
+		background: url(https://nid.naver.com/inc/mobile/images/sp_global_ico.png) no-repeat 100% -128px;
+		background-size: 200px 195px;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.global.g_pattern, .global.g_pattern .g_pattern_dummy, .global.g_pattern .u_ft, .global.g_pattern .u_ft .u_crt {
+		background: #242424 !important;
+	}
+	
+	.g_table {
+		border-top: 1px solid #404040;
+		background: #242424;
+		box-shadow: 0 -1px 0 rgba(45,45,45,.4),inset 0 1px 0 rgba(0,0,0,.03);
+		-webkit-box-shadow: 0 -1px 0 rgba(45,45,45,.4),inset 0 1px 0 rgba(0,0,0,.03);
+	}
+	
+	.g_table_btm .forget {
+		border-bottom: 1px solid #cacaca;
+		color: #cacaca;
+	}
+	
+	.g_table .inner {
+		background: #2f2f2f;
+	}
+	
+	.g_table table th {
+		background: #3a3a3a;
+		color: #fff;
+	}
+	
+	.g_table table {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.g_table table td {
+		color: #cacaca;
+	}
+	
+	.g_table_v2 table td {
+		border-top: 1px solid #404040;
+	}
+	
+	#image_captcha_div button {
+		background: #404040;
+		border-radius: 5px;
+		color: #cacaca;
+		border: 1px solid #404040;
+		padding: 5px;
+		margin: 5px;
+		margin-top: 0;
+		margin-left: 0;
 	}
 }

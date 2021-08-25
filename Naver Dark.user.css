@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.16
+@version		1.51.20
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -1635,19 +1635,20 @@
     body,html { color: #cacaca;background: #242424 }
 }
 @-moz-document url-prefix("https://cafe.naver.com"), url-prefix("cafe.naver.com") {
+    :root { --skinToggleSwitchBg: #3a3a3a;--skinThumbBorder: #404040;--skinTextb7b7b7: #666;--skinTextColor: #fff;--skinText979797: #999;--skinText676767: #cacaca;--skinText323232: #cfcfcf;--skinTagLinkColor: #cacaca;--skinSvgIconPostTop: #cacaca;--skinSvgIconPostBtnArrowUp: #cacaca;--skinSourceBadge: #cacaca;--skinNoticeBadgeMenuBg: #242424;--skinListSelectedBg: #2f2f2f;--skinListBorder: #404040;--skinLayoutBorder: #404040;--skinCommentWriterText: #cacaca;--skinCommentWriterFocus: #999;--skinCommentWriterBorder: #404040;--skinCommentWriterBg: #242424;--skinCommentMineBg: #2f2f2f;--skinColor: #cacaca;--skinBox: #2f2f2f;--skinBaseButtonPointBg: #3a3a3a;--skinBaseButtonDefaultColor: #fff;--skinBaseButtonDefaultBg: #3a3a3a;--skinBar: #404040;--skinArticleLink: #7474e3;--iconArrowWrite: #cacaca;--iconArrowBase: #999;--gnbLinkBar: #404040;--gnbLinkArrow: #cacaca;--baseText: #cacaca;--baseMenu: #fff;--baseLink: #cfcfcf;--baseBorder: #404040;--baseBg: #242424 }
     .btn_type1,.se2_line_layer,.search_mini .search_input,.skin-1080 .article-intro .group_rank,.skin-1080 .article-intro .group_rank .rank_graph .flash_graph,.skin-1080 .article-memo .memo_lst_section,.skin-1080 .simple_lst_section .list-blog,.skin-1080 #widget-count,#special-menu { border: 1px solid #404040 }
     .btn_type2,.cafe-search .inp { color: #cacaca;border-color: #404040;background-color: #242424 }
     .cafe-search .btn,.input_search_area .btn-search-green { color: #242424;background-color: #019341 }
     .cafe-search,.layer,.skin-1080 .box_write .tf_write,.skin-1080 #cafe-info-action,.skin-1080 #cafe-menu,.tab_list_wrap li.selected { background-color: #242424 }
     .CafeRanking .article-intro .group_rank .graph_area:before,.CafeRanking .article-intro .group_rank .rank_graph .graph_warp,.CafeRankingChart canvas,.check_box input + label:before,.skin-1080 .article-movie-sub .commerce [class*="list-i"],.footer .naver_cafe,.search_mini .search_btn:after,.skin-1080 #cafe-banner,.icon-powercafe,.perid-layer .nm_load,.se2_line_sticker button.se2_next_off,.se2_line_sticker button.se2_next_on,.se2_line_sticker button.se2_prev_off,.se2_line_sticker button.se2_prev_on,.u_cbox .u_cbox_addition .u_cbox_ico_upload_photo,.u_cbox .u_cbox_addition .u_cbox_ico_upload_sticker,.u_cbox .u_cbox_image_section .u_cbox_image_icon_crop,.u_cbox .u_cbox_image_section .u_cbox_image_icon_gif,.u_cbox .u_cbox_upload_image_wrap .u_cbox_ico_delete_thumb,.u_cbox .u_cbox_upload_image_wrap .u_cbox_upload_thumb_add,.skin-1080 .article-album .album-box li.no_content,.skin-1080 .article-board .pers_nick_area .mem-level img,.skin-1080 .sub_tit_profile .info_area .level .levelico,.skin-1080 .article-board [class*="list-i"],.skin-1080 .article-intro .group_rank .img_rank,.skin-1080 .article-intro .tbl_history .img_powercafe,.skin-1080 .banner_chatbot img,.skin-1080 .prev-next .pgL:before,.skin-1080 .prev-next .pgR:after,.skin-1080 .simple_lst_section .act .url-btn img,.skin-1080 .simple_lst_section .pnick .nick a img,.skin-1080 #ia-info-data-emblem .logo,.skin-1080 .ia-info-data2 .mem-cnt-info .ico_lock2,.skin-1080 .ly_info_dsc .cont .tail2,.skin-1080 #linked-member .member-down,.skin-1080 #linked-member .member-reload,.skin-1080 #linked-member .member-up,.skin-1080 .ly_info_dsc .clse,.skin-1080 #widget-watch div canvas,.SuicideSaver .su_prevention .advice .tit,.skin-1080 .su_prevention .advice .tit,img[src='https://ssl.pstatic.net/static/blog/ico_nidlogin2.png'] { filter: invert(86%) hue-rotate(-180deg) }
-    .CafeRanking .article-intro .group_rank .graph_list .link,.cc_layer_mynews .cc_mynews_header .title,.cc_layer_mynews .cc_mynews_list .cc_mynews_info,.cc_layer_mynews .cc_mynews_list .cc_mynews_notice .notice_txt,.cc_layer_mynews .cc_mynews_list .info_top .box,.cc_layer_mynews .cc_mynews_list .info_top .count,.skin-1080 .article-album .album-box li .price,.skin-1080 .article-album-movie-sub .tit_area .inner .tit_txt,.skin-1080 .article-album-sub .price,.skin-1080 .article-album-sub .tit,.skin-1080 .article-album-sub dt .tit,.skin-1080 .article-attendance .list_attendance .link_text,.skin-1080 .article-board .article,.skin-1080 .article-movie-sub .con,.skin-1080 .board-notice.type_event .article,.skin-1080 .board-notice.type_up .article,.skin-1080 .box_write .set_option,.skin-1080 .com .box-w .group-mlist .tcol-c,.skin-1080 .com .box-w .group-tit,.skin-1080 .ia-info-data .gm-tcol-c .id .ellipsis,.skin-1080 .info-action-tab .gm-tcol-t,.skin-1080 .ia-info-data3 li,.skin-1080 .sub_tit_profile .pers_nick_area .ellipsis,.skin-1080 .sub_tit_profile.leave_member .info_area .level,.skin-1080 #cafe-menu .cafe-menu-tit .gm-tcol-t,.skin-1080 #ia-info-data-emblem .txt,.skin-1080 #member-action-data .grade,.skin-1080 #member-action-data .prfl_info,.skin-1080 #widget_company_info .tit_company,.skin-1080 #widget-currency .bg-head h3.on,.skin-1080#main-area .memo_lst_section .user_info .m-tcol-c,.skin-1080#main-area .sub-tit-color,.SuicideSaver .su_prevention .advice .advice_lst h5,.skin-1080 .su_prevention .advice .advice_lst h5,.SuicideSaver .su_prevention .advice .advice_lst ul,.skin-1080 .su_prevention .advice .advice_lst ul,.tab_sub_wrap li.selected a,.type2.layer_smartEditor .chk label,.type2.layer_smartEditor .title,#main-area .inbox .tbody table .m-tcol-c,#special-menu .special-menu .link_special,body > div#wrap > div#header + div#container > h2 + div.content > p > a[href='https://help.naver.com/'] { color: #fff }
+    .CafeRanking .article-intro .group_rank .graph_list .link,.cc_layer_mynews .cc_mynews_header .title,.cc_layer_mynews .cc_mynews_list .cc_mynews_info,.cc_layer_mynews .cc_mynews_list .cc_mynews_notice .notice_txt,.cc_layer_mynews .cc_mynews_list .info_top .box,.cc_layer_mynews .cc_mynews_list .info_top .count,.skin-1080 .article_profile .list-style .link_sort,.skin-1080 .article_profile .td_writer button,.skin-1080 .article-album .album-box li .price,.skin-1080 .article-album-movie-sub .tit_area .inner .tit_txt,.skin-1080 .article-album-sub .price,.skin-1080 .article-album-sub .tit,.skin-1080 .article-album-sub dt .tit,.skin-1080 .article-attendance .list_attendance .link_text,.skin-1080 .article-board .article,.skin-1080 .article-movie-sub .con,.skin-1080 .board-notice.type_event .article,.skin-1080 .board-notice.type_up .article,.skin-1080 .box_write .set_option,.skin-1080 .com .box-w .group-mlist .tcol-c,.skin-1080 .com .box-w .group-tit,.skin-1080 .ia-info-data .gm-tcol-c .id .ellipsis,.skin-1080 .info-action-tab .gm-tcol-t,.skin-1080 .ia-info-data3 li,.skin-1080 .sub_tit_profile .info_area .num,.skin-1080 .sub_tit_profile .pers_nick_area .ellipsis,.skin-1080 .sub_tit_profile.leave_member .info_area .level,.skin-1080 #cafe-menu .cafe-menu-tit .gm-tcol-t,.skin-1080 #ia-info-data-emblem .txt,.skin-1080 #member-action-data .grade,.skin-1080 #member-action-data .prfl_info,.skin-1080 #widget_company_info .tit_company,.skin-1080 #widget-currency .bg-head h3.on,.skin-1080#main-area .memo_lst_section .user_info .m-tcol-c,.skin-1080#main-area .sub-tit-color,.SuicideSaver .su_prevention .advice .advice_lst h5,.skin-1080 .su_prevention .advice .advice_lst h5,.SuicideSaver .su_prevention .advice .advice_lst ul,.skin-1080 .su_prevention .advice .advice_lst ul,.tab_sub_wrap li.selected a,.type2.layer_smartEditor .chk label,.type2.layer_smartEditor .title,#main-area .inbox .tbody table .m-tcol-c,#special-menu .special-menu .link_special,body > div#wrap > div#header + div#container > h2 + div.content > p > a[href='https://help.naver.com/'] { color: #fff }
     .CafeRanking .article-intro .group_rank .graph_list,.input_component input,body,html { color: #cacaca;background-color: #242424 }
     .CafeRanking .article-intro .group_rank .rank_graph .txt_graph .desc { opacity: 1;color: #fff }
     .cc_layer_mynews { color: #cacaca;border: 1px solid #404040;background: #2f2f2f }
     .cc_layer_mynews .cc_mynews_header { border-bottom: 1px solid #404040;background: #2f2f2f }
     .cc_layer_mynews .cc_mynews_list .cc_mynews_notice { background-color: #3f424a }
     .cc_layer_mynews .cc_mynews_list .cc_mynews_notice .icon_option { filter: invert(86%) hue-rotate(-180deg) brightness(1000%) }
-    .cc_layer_mynews .cc_mynews_list .info_title,.cc_layer_mynews .cc_mynews_list .info_txt,.check_box label,.IntroductionHeader .tab_list_wrap li a,.layer.type2 h3,.ln14,.pcol2,.select_component .date_enter .tit,.select_component .select_box,.select_component .select_list li a,.select_component2 .select_box,.select_component2 .select_list li a,.skin-1080 .article-attendance .list_attendance .cmt,.skin-1080 .article-board .td_date,.skin-1080 .article-board .td_view,.skin-1080 .article-board .td_likes,.skin-1080 .board-notice.type_event .cmt,.skin-1080 .board-notice.type_up .cmt,.skin-1080 .article-movie-sub .board_name,.skin-1080#main-area .article-album-sub dd a,.skin-1080 .article-movie-sub .txt,.skin-1080 .box_write .set_option .radio_box label,.skin-1080 .ia-info-data li.gm-tcol-c:last-child,.skin-1080 .ia-info-data2 .level_alert .txt,.skin-1080 .ia-info-data2 .mem-cnt-info .link_invite,.skin-1080 .ia-info-data3 em,.skin-1080 .ia-info-data3,.skin-1080 .ly_info_dsc .cont p,.skin-1080 .info-action-tab li,.skin-1080 .list_sub_tab .link,.skin-1080 .list-style .link_sort,.skin-1080 .list-style .total,.skin-1080 .prev-next a,.skin-1080 .search_result .alarm_switch,.skin-1080 .sub_tit_profile .info_area,.skin-1080 #cafe-menu .cafe-menu-list .bmk_noti,.skin-1080 #member-action-data,.skin-1080 #member-action-data .grade .txt,.skin-1080 .ia-info-data .gm-tcol-c,.skin-1080 #cafe-menu .cafe-menu-list li a,.skin-1080 #cafe-menu .cafe-menu-list li span.gm-tcol-c,.skin-1080 #cafe-pop-tag,.skin-1080 .com .box-w .group-noinfo,.skin-1080 #cafe-secede,.skin-1080 #neighbor-cafe .bca,.skin-1080 #neighbor-cafe .comment,.skin-1080 .com .box-w .group-list .tcol-c,.skin-1080 #linked-member #lm-list .tcol-c,.skin-1080 #widget_company_info .list_company li,.skin-1080 #widget-currency .bg-head h3,.skin-1080#main-area .article-album-movie-sub dd a,.skin-1080#main-area .m-tcol-c,.tab_list_wrap li a,.type2.layer_smartEditor .desc,.u_cbox .u_cbox_btn_upload a,#naver-gnb #gnb-menu #gnb,#naver-gnb #gnb-menu .chatting-cafe,#naver-gnb #gnb-menu .gnb_name,#naver-gnb #gnb-menu .join-cafe,#naver-gnb #gnb-menu .m-cafe,#naver-gnb #gnb-menu .naver-h { color: #cacaca }
+    .cc_layer_mynews .cc_mynews_list .info_title,.cc_layer_mynews .cc_mynews_list .info_txt,.check_box label,.IntroductionHeader .tab_list_wrap li a,.layer.type2 h3,.ln14,.pcol2,.select_component .date_enter .tit,.select_component .select_box,.select_component .select_list li a,.select_component2 .select_box,.select_component2 .select_list li a,.skin-1080 .article-attendance .list_attendance .cmt,.skin-1080 .article-board .td_date,.skin-1080 .article-board .td_view,.skin-1080 .article-board .td_likes,.skin-1080 .board-notice.type_event .cmt,.skin-1080 .board-notice.type_up .cmt,.skin-1080 .article-movie-sub .board_name,.skin-1080#main-area .article-album-sub dd a,.skin-1080 .article-movie-sub .txt,.skin-1080 .box_write .set_option .radio_box label,.skin-1080 .ia-info-data li.gm-tcol-c:last-child,.skin-1080 .ia-info-data2 .level_alert .txt,.skin-1080 .ia-info-data2 .mem-cnt-info .link_invite,.skin-1080 .ia-info-data3 em,.skin-1080 .ia-info-data3,.skin-1080 .ly_info_dsc .cont p,.skin-1080 .info-action-tab li,.skin-1080 .list_sub_tab .link,.skin-1080 .list-style .link_sort,.skin-1080 .list-style .total,.skin-1080 .prev-next a,.skin-1080 .search_result .alarm_switch,.skin-1080 .sub_tit_profile .info_area,.skin-1080 .sub_tit_profile .info_area .level,.skin-1080 #cafe-menu .cafe-menu-list .bmk_noti,.skin-1080 #member-action-data,.skin-1080 #member-action-data .grade .txt,.skin-1080 .ia-info-data .gm-tcol-c,.skin-1080 #cafe-menu .cafe-menu-list li a,.skin-1080 #cafe-menu .cafe-menu-list li span.gm-tcol-c,.skin-1080 #cafe-pop-tag,.skin-1080 .com .box-w .group-noinfo,.skin-1080 #cafe-secede,.skin-1080 #neighbor-cafe .bca,.skin-1080 #neighbor-cafe .comment,.skin-1080 .com .box-w .group-list .tcol-c,.skin-1080 #linked-member #lm-list .tcol-c,.skin-1080 #widget_company_info .list_company li,.skin-1080 #widget-currency .bg-head h3,.skin-1080#main-area .article-album-movie-sub dd a,.skin-1080#main-area .m-tcol-c,.tab_list_wrap li a,.type2.layer_smartEditor .desc,.u_cbox .u_cbox_btn_upload a,#naver-gnb #gnb-menu #gnb,#naver-gnb #gnb-menu .chatting-cafe,#naver-gnb #gnb-menu .gnb_name,#naver-gnb #gnb-menu .join-cafe,#naver-gnb #gnb-menu .m-cafe,#naver-gnb #gnb-menu .naver-h { color: #cacaca }
     .cc_layer_mynews .cc_mynews_list li,.IntroductionHeader .tab_list_wrap,.join_privacy_set li,.skin-1080 .article-attendance .list_attendance li,.skin-1080 .article-board tbody td,.skin-1080 .article-intro .article-board td,.skin-1080 .article-intro .tbl_cafe_info td,.skin-1080 .article-movie-sub li,.skin-1080 .list_sub_tab,.skin-1080#main-area .article-album-movie-sub,.skin-1080#main-area .article-album-sub,.skin-1080 .mem_list_wrap,.skin-1080 .mem_list_wrap ~ .prev-next,.tab_sub_wrap { border-bottom: 1px solid #404040 }
     .cc_layer_mynews .cc_mynews_list li.unread { background: #38403b }
     .cc_layer_mynews .cc_mynews_option_layer { border: 1px solid #404040;background-color: #3a3a3a }
@@ -1673,6 +1674,8 @@
     .select_component .date_enter input { color: #cacaca;border: 1px solid #404040 }
     .select_component .date_enter,.skin-1080 .article-attendance .box_write .set_attach { border-top: 1px solid #404040;background-color: #242424 }
     .select_component .select_list li a:hover,.select_component2 .select_list li a:hover { background-color: rgba(0, 204, 39, 0.1) }
+    .skin-1080 .article_profile .sort_area .btn_subscript { color: #fff;background-color: #404040 }
+    .skin-1080 .article_profile .sort_area .btn_subscript:before,.SuicideSaver .su_prevention .help_lk .lk_lst h5,.skin-1080 .su_prevention .help_lk .lk_lst h5 { filter: brightness(1000%) }
     .skin-1080 .article-album .album-box li .tit a.m-tcol-c,.u_cbox.box-reply2 .p-nick .m-tcol-c,font[color] { color: #fff !important }
     .skin-1080 .article-attendance .box_write .link_mission:before,.skin-1080 .article-attendance .list_attendance .del:before,.skin-1080 .com .box-w,.skin-1080 .com .box-ww,.skin-1080 .list-style .link_sort + .link_sort:before,.skin-1080 .prev-next .pgL:after,.skin-1080 .prev-next .pgR:before,.skin-1080 .simple_lst_section .act .act_btns .m-tcol-c:after,.tab_sub_wrap li ~ li:before,.toggle_switch .switch_slider,#naver-gnb #gnb-menu .tcol-c { background-color: #404040 }
     .skin-1080 .article-board tbody td,.skin-1080 .box-g-m,#naver-gnb #gnb-menu .join-cafe.on:before,#naver-gnb #gnb-menu .mynews-cafe.on:before { border-bottom-color: #404040 }
@@ -1709,7 +1712,6 @@
     .SuicideSaver .su_prevention .advice .advice_lst li a,.SuicideSaver .su_prevention .help_lk .lk_lst li a,.skin-1080 .su_prevention .advice .advice_lst li a,.skin-1080 .su_prevention .help_lk .lk_lst li a { color: #688cda }
     .SuicideSaver .su_prevention .advice .advice_lst li a:visited,.SuicideSaver .su_prevention .help_lk .lk_lst li a:visited,.skin-1080 .su_prevention .advice .advice_lst li a:visited,.skin-1080 .su_prevention .help_lk .lk_lst li a:visited { color: #cc90cd }
     .SuicideSaver .su_prevention .advice .advice_lst:before,.skin-1080 .su_prevention .advice .advice_lst:before { width: 168px;top: 0;position: absolute;pointer-events: none;left: 0;height: calc(100% - 5px);content: '';border-radius: 20px;background: url(https://ssl.pstatic.net/sstatic/keypage/outside/prevention/img/bg_main.png) no-repeat 0 0 }
-    .SuicideSaver .su_prevention .help_lk .lk_lst h5,.skin-1080 .su_prevention .help_lk .lk_lst h5 { filter: brightness(1000%) }
     .SuicideSaver .su_prevention .help_lk .lk_lst li:before,.skin-1080 .su_prevention .help_lk .lk_lst li:before { width: 100%;top: 0;position: absolute;pointer-events: none;left: 0;height: 100%;filter: invert(86%) hue-rotate(-180deg) brightness(1000%);content: '';background: url(https://ssl.pstatic.net/sstatic/keypage/outside/prevention/img/img_lst.png) no-repeat 0 -260px }
     .tab_list_wrap { border-bottom: 1px solid #404040;background-color: #242424 }
     .u_cbox.box-reply2 { background-color: #2f2f2f !important }
@@ -1828,7 +1830,6 @@
     head,html { background: #242424 }
 }
 @-moz-document url-prefix("https://cafe.naver.com/ca-fe/cafes"), url-prefix("https://cafe.naver.com/ca-fe/ArticleRead.nhn"), url-prefix("https://cafe.naver.com/ArticleRead.nhn"), url-prefix("https://cafe.naver.com/ca-fe/markup/") {
-    :root { --skinToggleSwitchBg: #3a3a3a;--skinThumbBorder: #404040;--skinTextb7b7b7: #666;--skinTextColor: #fff;--skinText979797: #999;--skinText676767: #cacaca;--skinText323232: #cfcfcf;--skinTagLinkColor: #cacaca;--skinSvgIconPostTop: #cacaca;--skinSvgIconPostBtnArrowUp: #cacaca;--skinSourceBadge: #cacaca;--skinNoticeBadgeMenuBg: #242424;--skinListSelectedBg: #2f2f2f;--skinListBorder: #404040;--skinLayoutBorder: #404040;--skinCommentWriterText: #cacaca;--skinCommentWriterFocus: #999;--skinCommentWriterBorder: #404040;--skinCommentWriterBg: #242424;--skinCommentMineBg: #2f2f2f;--skinColor: #cacaca;--skinBox: #2f2f2f;--skinBaseButtonPointBg: #3a3a3a;--skinBaseButtonDefaultColor: #fff;--skinBaseButtonDefaultBg: #3a3a3a;--skinBar: #404040;--skinArticleLink: #7474e3;--iconArrowWrite: #cacaca;--iconArrowBase: #999;--gnbLinkBar: #404040;--gnbLinkArrow: #cacaca;--baseText: #cacaca;--baseMenu: #fff;--baseLink: #cfcfcf;--baseBorder: #404040;--baseBg: #242424 }
     .AdminWrite .admin_form_button { color: #cacaca;border: 1px solid #404040 }
     .AdminWrite .admin_form,.CafeEditor .CafeCustomPoll,.CafeViewer .CafeCustomPoll,.comm_layer2 .box01,.comm_layer2 .inquiry_commerce .form_commerce,.comm_layer3,.comm_layer2 .inquiry_commerce,.spi_lst .spi_lst_release,.UILayerAdminWrite .preview .view_box { border: 1px solid #404040;background-color: #242424 }
     .AdminWrite .admin_title,.AdminWrite .tab_button[aria-selected=true],.AdminWrite .admin_write_content,.article_layer,.comm_layer3 h3,.AttachFileListItem .file_download .file_menu,.CafeViewer .CafeCustomPoll .cafe_poll_status .txt,.CafeViewer .CafeCustomPoll .poll_more,.CafeViewer .CafeCustomVote,.CafeViewer .se-viewer .se-module-oglink .se-oglink-title,.CclLayer .list,.comm_layer2 .box01 strong,.comm_layer2 .inquiry_commerce .commerce_fraud_title,.comm_layer2 .inquiry_commerce .keyup_commerce,.LayerPopup .layer_header .title,.LayerPopup .select_city_header .current.complete,.LayerPopup.Poll .poll_input .item_add,.LayerPopup.Poll .poll_input .item.enter .num:before,.LayoutSpecialMenu .menu_list .link_special,.ModalLayer,.og .tit,.PopularArticles .PopularCafeList .more,.se-viewer .se-video .se-media-meta-info,.UILayerAdminWrite .banner_upload_area .file_alert_text.file_text,.UILayerAdminWrite .preview .btn_view[aria-selected=true],.WritingCommerce .form_box .pay_check,.WritingCommerce .form_box .storefarm .product_info .title { color: #fff }
@@ -1881,6 +1882,7 @@
     .spi_btn_release .spi_lst_release a.spi_input_copyurl,.spi_onebtn .spi_lst .spi_btn_release .spi_lst_release a.spi_input_copyurl,.spi_sns_share .spi_lst .spi_btn_release .spi_lst_release a.spi_input_copyurl,.WritingTag .tooltip { color: #cacaca;border: 1px solid #404040;background-color: #242424 }
     .ToggleSwitchTooltip .tooltip { color: #cacaca;box-shadow: 0 1px 12px 0 rgba(0,0,0,.5);background-color: #3a3a3a }
     .UILayerAdminWrite .preview .btn_view[aria-selected=true]:after,table[bgcolor] { background-color: #404040 }
+    .WriterInfo .profile_info .link_talk { color: #fff;background: #404040 }
     .WritingCommerce .form_box .deal_button button.on { color: #fff;background-color: #242424 }
     .WritingSide .ccl_use_area,.WritingSide .check_area { border-top: 1px solid #5f5f5f }
     .WritingTag { border: 1px solid #404040;border-top: 0 }
@@ -3427,53 +3429,56 @@
     .vaccine_area .h_title { color: #fff }
     #wrap,body,html { background: #242424 }
 }
+@-moz-document url-prefix("https://nid.naver.com/mobile/user/global/idInquiry"), url-prefix("https://nid.naver.com/mobile/user/authGlobalRegMobile.nhn"), url-prefix("https://nid.naver.com/mobile/user/global/pwInquiry") {
+    .g_btn .btn { cursor: pointer;border-radius: 10px;background: #019341 }
+    .g_btn .btn span { border-radius: 0 10px 10px 0;background: #019341 }
+    .g_btn .btn.w { border-radius: 10px;background: #404040 }
+    .g_btn .btn.w span { color: #cacaca;border-radius: 0 10px 10px 0;background: #404040 }
+    .g_group .input_wrap .inner,.global,.global .u_ft,.global .u_ft .u_crt { background: #242424 }
+    .g_group .input_wrap input,.g_group .phone_auth p,.g_table table td,.link_phone a,.u_cra { color: #cacaca }
+    .g_group .input_wrap,.g_group .select_wrap { border: 1px solid #404040 }
+    .g_group .phone_auth p strong { color: #fff }
+    .g_group .select_wrap .inner { position: relative;box-shadow: inset 1px 1px 0 rgba(45,45,45,.4),inset -1px -1px 0 rgba(45,45,45,.4);background: none }
+    .g_group .select_wrap .inner:before { z-index: -1;width: 100%;top: 0;position: absolute;pointer-events: none;left: 0;height: 100%;filter: invert(86%) hue-rotate(-180deg);content: '';background: url(https://nid.naver.com/inc/mobile/images/sp_global_ico.png) repeat-x;background-size: 200px 195px;background-position: 0 -96px }
+    .g_group .select_wrap .sel_value { background: none }
+    .g_group .select_wrap .sel_value:before { width: 100%;top: 0;position: absolute;pointer-events: none;left: 0;height: 100%;filter: invert(86%) hue-rotate(-180deg);content: '';background: url(https://nid.naver.com/inc/mobile/images/sp_global_ico.png) no-repeat 100% -128px;background-size: 200px 195px }
+    .g_group .select_wrap select { filter: invert(86%) hue-rotate(-180deg) }
+    .g_group .tab a { text-shadow: 0 1px 0 rgba(45, 45, 45,.8);color: #cacaca;box-shadow: inset 0 -1px 0 #242424;border: 1px solid #404040;border-bottom: 1px solid #404040;background: #242424 }
+    .g_group .tab a.on { color: #fff;border: 1px solid #404040;background: #2f2f2f }
+    .g_group .tab:last-child a:after { background: #404040 }
+    .g_table { box-shadow: 0 -1px 0 rgba(45,45,45,.4),inset 0 1px 0 rgba(0,0,0,.03);border-top: 1px solid #404040;background: #242424;-webkit-box-shadow: 0 -1px 0 rgba(45,45,45,.4),inset 0 1px 0 rgba(0,0,0,.03) }
+    .g_table .inner { background: #2f2f2f }
+    .g_table table { border-top: 1px solid #404040;border-bottom: 1px solid #404040 }
+    .g_table table th { color: #fff;background: #3a3a3a }
+    .g_table_btm .forget { color: #cacaca;border-bottom: 1px solid #cacaca }
+    .g_table_v2 table td { border-top: 1px solid #404040 }
+    .global .g_ct { border-top: 1px solid #404040;background: #242424 !important }
+    .global.g_pattern,.global.g_pattern .g_pattern_dummy,.global.g_pattern .u_ft,.global.g_pattern .u_ft .u_crt { background: #242424 !important }
+    .u_cri_v1 { position: relative;background: none }
+    .u_cri_v1:before { width: 100%;top: 0;position: absolute;pointer-events: none;left: 0;height: 100%;filter: invert(86%) hue-rotate(-180deg);content: '';background: url(https://nid.naver.com/inc/mobile/images/u_cm.png) no-repeat 0 0;background-position: 0 -82px }
+    #ct { background-color: #242424 }
+    #image_captcha_div button { padding: 5px;margin: 5px;margin-top: 0;margin-left: 0;color: #cacaca;border: 1px solid #404040;border-radius: 5px;background: #404040 }
+    body { color: #fff;background: #242424 }
+    input { color: #cacaca;border: 1px solid #404040;background: #242424 }
+}
 @-moz-document url-prefix("https://nid.naver.com/nidlogin.login?mode=form") {
-    .btn_dis,.login_help { color: #cacaca;border: 1px solid #404040;background: #242424 }
-    .btn_login { border: 1px solid #404040 }
-    .btn_login input { color: #fff;background: #242424 }
-    .chk_id_login .lbl_long { filter: invert(81.5%) hue-rotate(-180deg) }
-    .desc_ipsecure em { color: #cacaca }
-    .input_box { border: 1px solid #404040;border-right: 0 }
-    .int.focus { background-color: #2a2a2a }
-    .ip_box .lbl_type { filter: invert(86%) hue-rotate(-180deg) }
-    .lbl_in { color: #cacaca;background: #242424 }
-    .login { border-bottom: 1px solid #404040 }
-    .login_wrap { border: 1px solid #404040;border-bottom: none;background: #2f2f2f }
 }
 @-moz-document url-prefix("https://nid.naver.com/nidlogin.login"), url-prefix("https://nid.naver.com/oauth2.0/authorize") {
-    :root .lang::after { pointer-events: none;background-image: none }
-    .bar { background: #404040 }
-    .btn_done { border: 1px solid #404040;background-color: #2f2f2f }
-    .btn_done .picture::before,.btn_done .refresh::before,.btn_done .voice::before,.diaper_banner,.otp_step_banner,.dis_di .btn_help,.login_check_box .ico_keep_check::before,.qr_once_area .icon_once { filter: invert(86%) hue-rotate(-180deg) }
-    .btn_done .txt,.chatbot_box .txt,.find_info a,.ip_check .ip_txt01,.ip_check .ip_txt02,.once_wrap .desc,.velid_inner .desc,.pc_check a,.social_header .social_title,.tab_m li a:hover,.tab_m li a:visited,.title p,#footer *,#footer a,#footer a:visited,#footer address a { color: #cacaca }
-    .btn_global,.btn_login input,.btn_global:active,.btn_global:hover,.btn_global:link { color: #242424 }
-    .btn_login { background: #019341 }
-    .btn_login input { border: 1px solid #019341;background: none !important }
-    .btn_login.btn_login_v2 { position: relative }
-    .btn_login.btn_login_v2:before { transform: translate(-50%, -50%);top: 50%;position: absolute;pointer-events: none;left: 50%;font-weight: bold;font-size: 20px;content: '확인';color: #242424 }
-    .btn_qronce_cancel { color: #cacaca;border: 1px solid #404040;background-color: #242424 }
-    .captcha .captcha_txt,.once_wrap .title,.once_wrap .title_once,.velid_inner .title,.qr_once_area .txt,.qr_once_inner .title,.rest_time .txt,.title p .sevice { color: #fff }
-    .country_code .sel_value { filter: invert(86%) }
-    .error_chatbot .chatbot_box,.qr_img,.qrcheckin_banner,.tab_m,#header .lang,html[lang=en] .qr_once_area .item_btn,html[lang=zh-Hans] .qr_once_area .item_btn,html[lang=zh-Hant] .qr_once_area .item_btn { border: 1px solid #404040 }
-    .find_info { color: #cacaca;border-top: 1px solid #404040 }
-    .input_box { border: 0 !important }
-    .input_row { padding: 0px 0px 17px 0px;border: 1px solid #404040;background: #242424 }
-    .int { width: calc(100% - 22px);padding: 15px 11px 15px 11px;height: 16px;color: #cacaca;background: #242424 }
-    .ip_ch label { background-color: #242424 }
-    .login_check_box label { color: #cacaca;background-color: #242424 }
-    .ly .ly_box { color: #cacaca;border: 1px solid #5f5f5f;background: #2f2f2f }
-    .ly .ly_point { filter: invert(81.5%) hue-rotate(-180deg) }
-    .ly_v2 .ly_point { filter: invert(88.7%) hue-rotate(-180deg) grayscale(1) }
-    .naversign_cert_banner,.once_wrap,.qr_once_area .item_btn { border: 1px solid #404040;background-color: #242424 }
-    .qr_once_wrap { border-top: 1px solid #404040 }
+    .banner_inner { border: 1px solid #404040 !important;background-color: #2f2f2f !important }
+    .banner_inner img,.id_pw_wrap .input_row .icon_cell .icon_id,.id_pw_wrap .input_row .icon_cell .icon_pw,.img_lock,.pop_img_lock,.menu_id .menu_text::before,.menu_ones .menu_text::before,.menu_qr .menu_text::before,.menu_id.on::after,.menu_ones.on::after,.menu_ones.on::before,.menu_qr.on::before { filter: invert(81.5%) hue-rotate(-180deg) }
+    .btn_delete,.keep_check .keep_text::before { background-color: #2f2f2f }
+    .find_wrap .en_find_text,.find_wrap .find_text,.relogin_find_wrap .en_find_text,.relogin_find_wrap .find_text,.footer .corp,.footer .text,.ip_check .ip_text,.keep_check .keep_text,.menu_id .menu_text,.menu_ones .menu_text,.menu_qr .menu_text,.sub_desc { color: #cacaca }
+    .find_wrap li+li::before,.relogin_find_wrap li+li::before { background-color: rgb(82, 82, 82) }
+    .footer .footer_copy .corp,.input_text,.menu_id.on .menu_text,.menu_ones.on .menu_text,.menu_qr.on .menu_text,.ones_text,.pop_ones_text,.sns_wrap .sns_text,.sub_desc .point,.time_wrap .time_text,.top_desc { color: #fff }
+    .footer .footer_link li+li::before { background-color: #404040 }
+    .input_row { border: 1px solid #404040 }
+    .menu_id,.menu_ones { border-right: 0 }
+    .menu_id,.menu_ones,.menu_qr { border: 1px solid rgb(82, 82, 82);border-bottom: 0;background-color: rgb(49, 50, 50) }
+    .menu_id.on,.menu_ones.on,.menu_qr.on { border-color: rgb(82, 82, 82);background-color: #2f2f2f }
+    .panel_item { border: 1px solid rgb(82, 82, 82);background-color: #2f2f2f }
     .sel { color: #cacaca;border: 1px solid #404040 }
-    .tab_m li a { color: #cacaca;background: #2f2f2f }
-    .tab_m li a.on { color: #242424;border: 1px solid #404040;background: #019341 }
-    .theme_txt + #wrap #header .h_logo { margin-top: 25px }
-    .theme_txt p { margin: 10px;color: #fff;border: 1px solid #246;border-radius: 10px;background: #182030;background-color: #182030 }
-    #header .lang .sel { color: #cacaca;border: none;background: none }
-    #header .lang:before { width: 100%;top: 0;position: absolute;pointer-events: none;left: 0;height: 100%;filter: invert(86%) hue-rotate(-180deg);content: '';background: url(https://static.nid.naver.com/images/login/global/sns/desktop/sel_arr.gif) 100% 50% no-repeat }
-    body,head,html { background: #242424 }
+    .sns_wrap .sns_item { border: 1px solid #404040;background-color: #2f2f2f }
+    body { color: #cacaca;background: #242424 }
 }
 @-moz-document url-prefix("https://nid.naver.com/oauth/") {
     .bx { border: 1px solid #404040;background: #242424 }
@@ -3691,10 +3696,10 @@
     input { color: #cacaca;background: #242424 }
     input:-ms-input-placeholder,input::-moz-placeholder,input::-webkit-input-placeholder { color: #aaaaaa }
 }
-@-moz-document url-prefix("https://nid.naver.com/user2/V2Join.nhn") {
+@-moz-document url-prefix("https://nid.naver.com/user2/V2Join") {
     :root .input_chk label:before { filter: invert(87%) hue-rotate(-180deg) }
     :root .sel { filter: invert(86%) hue-rotate(-180deg) }
-    .article,.policy_summary,.terms_box .article,.btn_area>span .btn_type,.input_chk label,#footer *,#footer a,#footer a:visited,#footer address a,.group_join { color: #cacaca }
+    .article,.policy_summary,.terms_box .article,.btn_area>span .btn_type,.event_message,.input_chk label,#footer *,#footer a,#footer a:visited,#footer address a,.group_join,a.btn_group_join { color: #cacaca }
     .btn_default { background-color: #2f2f2f }
     .btn_primary { color: #242424 !important;background: #019341 }
     .btn_primary,.join_mobile .int_mobile_area .btn_verify { color: #242424 }
@@ -3704,7 +3709,11 @@
     .join_mobile .ps_box_disable,.join_mobile .ps_box_disable input { background: #2f2f2f }
     .ps_box,.ps_box_disable,.terms_box { border: 1px solid #404040;background: #242424 }
     .ps_box.int_id,.ps_box.int_id input,body { background: #242424 }
-    a.btn_group_join:hover,a.btn_group_join:visited,label { color: #fff }
+    #footer ul li { position: relative;background: none }
+    #footer ul li:before { width: 100%;top: 0;position: absolute;pointer-events: none;left: 0;height: 100%;filter: invert(86%) hue-rotate(-180deg);content: '';background: url(https://static.nid.naver.com/images/join/pc/bu_bar_2x.gif) left 50% no-repeat }
+    #footer ul li:first-child:before { background: none }
+    a.btn_group_join:hover,a.btn_group_join:visited { color: #fff;color: #fff }
+    label { color: #fff }
 }
 @-moz-document url-prefix("https://note.naver.com") {
     .bn_nworks,.bn_nworks,.btn_fold,.btn_fold,.btn_workset,.btn_workset,.content_header,.content_header,.h_lft_menu,.h_lft_menu,.h_lft_menu .btn_add,.h_lft_menu .btn_add,.h_lft_menu .btn_setup,.h_lft_menu .btn_setup,.searchkey_result,.searchkey_result,.section_detail_srch,.section_detail_srch,.section_etcmail,.section_etcmail,.section_skinset,.section_skinset,.section_typemail,.section_typemail,.svc_menu_area,.svc_menu_area,.svc_menu_area .list_menu,.svc_menu_area .list_menu,.svc_menu_area .list_menu,.svc_menu_area .list_menu { border-color: #404040 !important }

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.34
+@version		1.51.35
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -64713,7 +64713,7 @@
 	}
 	
 	.cs_common_module .cm_paging_area .pgs .pg_prev:before, .cs_common_module .cm_paging_area .pgs .pg_next:before, .cs_common_module .cm_paging_area .pgs .npgs_now:after {
-		filter: invert(86%) hue-rotate(-180deg);
+		filter: invert(81.5%) hue-rotate(-180deg);
 	}
 	
 	.cs_common_module .notice_info_area .cm_bar {

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.25
+@version		1.51.34
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -37742,79 +37742,6 @@
 	.api_atcmp_wrap .atcmp_correct .link_item {
 		color: #cacaca;
 	}
-	
-	.ly_inputko {
-		background-color: #2f2f2f;
-	}
-	
-	.ly_inputko.ly_inputko_over {
-		border: 1px solid #404040;
-	}
-	
-	.ly_inputko .tab_inkey, .ly_inputko .tab_inms, .ly_inputko .btn_ly_cl {
-		filter: invert(81.5%) hue-rotate(-180deg);
-	}
-	
-	.ly_inputko .inputko_keyboard {
-		background-color: #2f2f2f;
-	}
-	
-	.ly_inputko .keyboard {
-		background-color: #2f2f2f;
-	}
-	
-	.ly_inputko .inputko_keyboard .setkorhelp {
-		background-color: #2f2f2f;
-	}
-	
-	.ly_inputko .inputko_info {
-		background: #2f2f2f;
-		position: relative;
-	}
-	
-	.ly_inputko .inputko_info:before {
-		background: url(https://ssl.pstatic.net/sstatic/search/img3/bg_sp_x.gif) repeat-x;
-		position: absolute;
-		content: '';
-		left: 0;
-		top: 0;
-		width: 100%;
-		height: 100%;
-		pointer-events: none;
-		filter: invert(81.5%) hue-rotate(-180deg);
-	}
-	
-	.ly_inputko .inputko_info li {
-		color: #cacaca;
-	}
-	
-	.ly_inputko .inputko_info li span {
-		filter: invert(81.5%) hue-rotate(-180deg);
-	}
-	
-	.ly_inputko .keyboard_img {
-		filter: invert(84%) hue-rotate(-180deg);
-	}
-	
-	.ly_inputko {
-		border: 1px solid #404040;
-	}
-	
-	.ly_inputko .btn_kor_on, .ly_inputko .btn_kor, .ly_inputko .btn_eng, .ly_inputko .btn_eng_on {
-		filter: invert(81.5%) hue-rotate(-180deg);
-	}
-	
-	.ly_inputko .inputko_mouse .bar2 {
-		color: #404040;
-	}
-	
-	.ly_inputko .btn_space, .ly_inputko .btn_del, .ly_inputko .btn_reset {
-		filter: invert(81.5%) hue-rotate(-180deg);
-	}
-	
-	.ly_inputko .number, .ly_inputko .alphabet, .ly_inputko .consonantal, .ly_inputko .vowel {
-		filter: invert(84%) hue-rotate(-180deg);
-	}
 }
 
 @-moz-document url-prefix("https://castbox.shopping.naver.com")
@@ -38182,6 +38109,18 @@
 
 @-moz-document url-prefix("https://blog.naver.com"), url-prefix("https://guestbook.blog.naver.com"), url-prefix("http://blog.naver.com"), url-prefix("http://guestbook.blog.naver.com")
 {
+	body {
+		background: #242424;
+	}
+	
+	.error_h1 {
+		color: #fff;
+	}
+	
+	.error_p {
+		color: #cacaca;
+	}
+	
 	* {
 		font-family: '굴림', gulim, helvetica, '나눔바른고딕 옛한글', 'NanumBarunGothic YetHangul', '새굴림', sans-serif !important;
 	}
@@ -57242,13 +57181,38 @@
 		border-top: 1px solid #404040;
 	}
 	
-	.pop_og_wrap .pop_og_cont .pop_og_option .select_category select, .pop_btn a img {
+	.pop_btn a img {
 		filter: invert(86%) hue-rotate(-180deg);
 		border: none;
 	}
 	
 	.pop_og_wrap .pop_og_cont .complete_dsc {
 		color: #cacaca;
+	}
+	
+	.pop_og_wrap .pop_og_cont .pop_og_option .select_category select {
+		appearance: none;
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		background: #242424;
+		color: #cacaca;
+		border: 1px solid #404040;
+		background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiNjYWNhY2EiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQuNDI3IDkuNDI3IDMuMzk2IDMuMzk2YS4yNTEuMjUxIDAgMCAwIC4zNTQgMGwzLjM5Ni0zLjM5NkEuMjUuMjUgMCAwIDAgMTEuMzk2IDlINC42MDRhLjI1LjI1IDAgMCAwLS4xNzcuNDI3ek00LjQyMyA2LjQ3IDcuODIgMy4wNzJhLjI1LjI1IDAgMCAxIC4zNTQgMEwxMS41NyA2LjQ3YS4yNS4yNSAwIDAgMS0uMTc3LjQyN0g0LjZhLjI1LjI1IDAgMCAxLS4xNzctLjQyN3oiLz48L3N2Zz4=");
+		background-position: right 2px center;
+		background-repeat: no-repeat;
+		background-size: 16px;
+		padding: 1px 20px 1px 5px;
+		border-radius: 5px;
+		filter: none;
+	}
+	
+	.pop_og_wrap .pop_og_cont .pop_og_option .select_category select:focus-visible {
+		outline: none;
+	}
+	
+	.pop_og_wrap .pop_og_cont .pop_og_option .select_category select:disabled {
+		color: #666;
+		background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiM2NjYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQuNDI3IDkuNDI3IDMuMzk2IDMuMzk2YS4yNTEuMjUxIDAgMCAwIC4zNTQgMGwzLjM5Ni0zLjM5NkEuMjUuMjUgMCAwIDAgMTEuMzk2IDlINC42MDRhLjI1LjI1IDAgMCAwLS4xNzcuNDI3ek00LjQyMyA2LjQ3IDcuODIgMy4wNzJhLjI1LjI1IDAgMCAxIC4zNTQgMEwxMS41NyA2LjQ3YS4yNS4yNSAwIDAgMS0uMTc3LjQyN0g0LjZhLjI1LjI1IDAgMCAxLS4xNzctLjQyN3oiLz48L3N2Zz4=");
 	}
 }
 
@@ -59535,7 +59499,7 @@
 		color: #cacaca !important;
 	}
 	
-	.cs_common_module.case_normal .cm_top_wrap .sub_tap_area .next_visual {
+	.cs_common_module.case_normal .cm_top_wrap .sub_tap_area .next_visual, .cs_common_module.case_normal.color_23 .sub_tap_area .tab_gra {
 		filter: invert(79.5%) hue-rotate(-180deg) !important;
 	}
 	
@@ -59689,7 +59653,7 @@
 	}
 	
 	.cs_common_module .cm_pure_box {
-		background-color: #242424;
+		background-color: #2f2f2f;
 	}
 	
 	.cs_common_module .cm_pure_box .intro_box .text {
@@ -59708,8 +59672,12 @@
 		background-color: #242424;
 	}
 	
-	.cs_common_module .list_image_info .title_box .name {
+	.cs_common_module .list_image_info .title_box .sub_text {
 		color: #cacaca;
+	}
+	
+	.cs_common_module .list_image_info .title_box .name {
+		color: #fff;
 	}
 	
 	.cs_common_module .list_image_info .item {
@@ -61270,6 +61238,19 @@
 		color: #cacaca;
 	}
 	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+div>div+div>div>strong+div {
+		color: #cacaca;
+	}
+	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+div>div+div>div>strong+div>span {
+		color: #cacaca;
+		border: 1px solid #404040;
+	}
+	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+div>div>div+div>a {
+		color: #cacaca;
+	}
+	
 	.sp_naside .naside_wrap .entry_list .entry_area .tit_wrap .tit {
 		color: #fff;
 	}
@@ -61866,7 +61847,7 @@
 		color: #cacaca;
 	}
 	
-	.sp_ntotal .total_tit .ico_wrap .api_ico_translate, .sp_ntotal .total_tit .ico_wrap .api_service_wrap, .sp_ntotal .total_tit .ico_wrap>[class*=api_ico], .sc_new .ly_api_info .btn_close:hover .ico_close {
+	.sp_ntotal .total_tit .ico_wrap .api_ico_translate, .sp_ntotal .total_tit .ico_wrap>[class*=api_ico], .sc_new .ly_api_info .btn_close:hover .ico_close {
 		filter: invert(81.5%) hue-rotate(-180deg);
 	}
 	
@@ -64760,7 +64741,7 @@
 	}
 	
 	.cs_common_module .cm_paging_area .pgs .npgs {
-		color: #cacaca;
+		color: #fff;
 	}
 	
 	.cs_common_module .lego_rating_box_see .area_intro_info .area_subtitle {
@@ -71044,15 +71025,15 @@
 		color: #b0c2e8;
 	}
 	
-	.sp_nreview .total_tit, .sp_nreview .total_link_area .link, .sp_ntotal .total_tit .link_tit, .sp_nbook .book_info .title_area, .sp_nbook .list_info a.item_info, .sp_nvideo .video_default_list .video_bx .info_area .info_title, .go_relate a, .sp_ntotal .group_item .list_item .item a, .sp_nvideo .video_scroll_list .info_area .info_title, ._3tIZ6 ._2LKql ._3CKdL, .sp_nvideo .video_square_list .square_wrap .info_area .info_title, .sp_nrealtime .nrealtime_list .nrealtime_item .item_info .desc_tit, .sp_nblog .total_tit, .sp_ncafe .total_tit, .sp_nsite .link_name, .sp_nsite .sublink_wrap .sublink .item a, .cs_produce a, .cs_produce .prcs_detail h4 a, .ad_section .lst_type .lst .lnk_tit, .ad_section .lst_type .lst.type_subtitle .sub_tit, .api_ly_info .link, .ad_section .lst_type .lst.ext_price .lst_price .txt_inner, .ad_section .lst_type .lst.ext_link .lst_link .item .link, .sp_ndicstudy .word_lst .word, .sp_nrealtime .api_title .btn_new, .sp_ndic .dic_more .dic_link, .sp_ndic .dic_more_link .count, .sp_ndic .other_list .other_list_link, .sp_ndic .info_list a, .sp_ndic .dic_area .link_more, .sp_ndic .class_area .info_box .title, .cs_sign .tx_info.line_type a, .sp_mobile .app_eachlist a.store_wrap, .cs_newest .sct_content li .scm_ellipsis_text a, .cs_seasonal_divisions .prcs_detail h4 a, .cs_common_module a, .cs_common_module .expand_info .text_wrap a, .cs_common_module .notice_info_area a, .cs_common_module .cm_table_area .type_normal .cm_table tbody th a, .cs_sports_team a, .cs_sports_team .prcs_guide .nologo a, .cs_sports_team .prcs_guide .nologo2 a, .cs_sports_team .prcs_guide .nologo .txt, .cs_sports_team .prcs_guide .nologo2 .txt, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td .nation_name, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td.top3 p a, .cs_olympic_history .team_area .line li .player_detail dt a, .sp_ntotal .dsc_alert .link_help, .cs_production_type .csp_table_area table td a, .sp_ndic .homonym_wrap .title, .cs_calculator .relation_box dl dd a, .cs_suneung .sn_tb .knowhow_link, .cs_delivery .rsult_box .lodg span.inque a, .cs_rgb_plt a, .cs_prevention .advice .advice_lst li a, .cs_prevention .help_lk .lk_lst li a, .cs_sports_tpl .flat_box .flat_info a, .cs_pubtrans_wrap .relation_keyword2 dd a, .cs_sportsdb .ly_cal .today a, .cs_common_simple .title_area .title a.area_text_title, .cs_common_simple a, .cs_common_module .pro_info_box .pro_info a, .cs_common_module .info_check_area a.other_info {
+	.sp_nreview .total_tit, .sp_nreview .total_link_area .link, .sp_ntotal .total_tit .link_tit, .sp_nbook .book_info .title_area, .sp_nbook .list_info a.item_info, .sp_nvideo .video_default_list .video_bx .info_area .info_title, .go_relate a, .sp_ntotal .group_item .list_item .item a, .sp_nvideo .video_scroll_list .info_area .info_title, ._3tIZ6 ._2LKql ._3CKdL, .sp_nvideo .video_square_list .square_wrap .info_area .info_title, .sp_nrealtime .nrealtime_list .nrealtime_item .item_info .desc_tit, .sp_nblog .total_tit, .sp_ncafe .total_tit, .sp_nsite .link_name, .sp_nsite .sublink_wrap .sublink .item a, .cs_produce a, .cs_produce .prcs_detail h4 a, .ad_section .lst_type .lst .lnk_tit, .ad_section .lst_type .lst.type_subtitle .sub_tit, .api_ly_info .link, .ad_section .lst_type .lst.ext_price .lst_price .txt_inner, .ad_section .lst_type .lst.ext_link .lst_link .item .link, .sp_ndicstudy .word_lst .word, .sp_nrealtime .api_title .btn_new, .sp_ndic .dic_more .dic_link, .sp_ndic .dic_more_link .count, .sp_ndic .other_list .other_list_link, .sp_ndic .info_list a, .sp_ndic .dic_area .link_more, .sp_ndic .class_area .info_box .title, .cs_sign .tx_info.line_type a, .sp_mobile .app_eachlist a.store_wrap, .cs_newest .sct_content li .scm_ellipsis_text a, .cs_seasonal_divisions .prcs_detail h4 a, .cs_common_module a, .cs_common_module .expand_info .text_wrap a, .cs_common_module .notice_info_area a, .cs_common_module .cm_table_area .type_normal .cm_table tbody th a, .cs_sports_team a, .cs_sports_team .prcs_guide .nologo a, .cs_sports_team .prcs_guide .nologo2 a, .cs_sports_team .prcs_guide .nologo .txt, .cs_sports_team .prcs_guide .nologo2 .txt, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td .nation_name, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td.top3 p a, .cs_olympic_history .team_area .line li .player_detail dt a, .sp_ntotal .dsc_alert .link_help, .cs_production_type .csp_table_area table td a, .sp_ndic .homonym_wrap .title, .cs_calculator .relation_box dl dd a, .cs_suneung .sn_tb .knowhow_link, .cs_delivery .rsult_box .lodg span.inque a, .cs_rgb_plt a, .cs_prevention .advice .advice_lst li a, .cs_prevention .help_lk .lk_lst li a, .cs_sports_tpl .flat_box .flat_info a, .cs_pubtrans_wrap .relation_keyword2 dd a, .cs_sportsdb .ly_cal .today a, .cs_common_simple .title_area .title a.area_text_title, .cs_common_simple a, .cs_common_module .pro_info_box .pro_info a, .cs_common_module .info_check_area a.other_info, .sc_new .ly_api_info .dsc .link, .cs_common_module .accordion_list .join_info .info_txt, .cs_common_module .info_check_area .check_txt a {
 		color: #688cda;
 	}
 	
-	.sp_nnews .news_wrap .news_tit:visited, .sp_nnews .news_wrap .news_tit:visited mark, .sp_nnews .api_title_sub .sub_link:visited, .sp_nnews .news_cluster .sub_tit:visited, .sp_nnews .news_cluster .sub_tit:visited mark, .sp_nnews .news_wrap:visited .news_tit .tit, .sp_nnews .news_wrap:visited .news_tit .tit mark, .sp_nreview .total_tit:visited, .sp_nreview .total_tit:visited mark, .sp_nreview .total_link_area .link:visited, .sp_nreview .total_link_area .link:visited mark, .sp_ntotal .total_tit .link_tit:visited, .sp_ntotal .total_tit .link_tit:visited mark, .sp_nvideo .video_default_list .video_bx .info_area .info_title:visited, .sp_nvideo .video_default_list .video_bx .info_area .info_title:visited mark, .sp_ntotal .group_item .list_item .item a:visited, .sp_ntotal .group_item .list_item .item a:visited mark, .sp_nvideo .video_scroll_list .info_area .info_title:visited, .sp_nvideo .video_scroll_list .info_area .info_title:visited mark, .sp_nkin .cluster_item:visited, .sp_nrealtime .info_desc .desc_link:visited, .sp_nrealtime .info_desc .desc_tit:visited, .sp_nrealtime .info_desc:visited .desc_tit, .sp_nrealtime .profile_link:visited .explain_tit, .sp_nblog .total_tit:visited, .sp_nblog .total_tit:visited mark, .sp_ncafe .total_tit:visited, .sp_ncafe .total_tit:visited mark, .sp_nsite .link_name:visited, .sp_nsite .link_name:visited mark, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark, .sp_nkin .kin_wrap .question_area .question_text:visited, .cs_produce .prcs_detail h4 a:visited, .cs_produce a:visited, .ad_section .lst_type .lst .lnk_tit:visited, .ad_section .lst_type .lst.type_subtitle .sub_tit:visited, .sp_company .company_more .more_info .api_ly_info .link:visited, .ad_section .lst_type .lst.ext_price .lst_price .txt_inner:visited, .ad_section .lst_type .lst.ext_link .lst_link .item .link:visited, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark {
+	.sp_nnews .news_wrap .news_tit:visited, .sp_nnews .news_wrap .news_tit:visited mark, .sp_nnews .api_title_sub .sub_link:visited, .sp_nnews .news_cluster .sub_tit:visited, .sp_nnews .news_cluster .sub_tit:visited mark, .sp_nnews .news_wrap:visited .news_tit .tit, .sp_nnews .news_wrap:visited .news_tit .tit mark, .sp_nreview .total_tit:visited, .sp_nreview .total_tit:visited mark, .sp_nreview .total_link_area .link:visited, .sp_nreview .total_link_area .link:visited mark, .sp_ntotal .total_tit .link_tit:visited, .sp_ntotal .total_tit .link_tit:visited mark, .sp_nvideo .video_default_list .video_bx .info_area .info_title:visited, .sp_nvideo .video_default_list .video_bx .info_area .info_title:visited mark, .sp_ntotal .group_item .list_item .item a:visited, .sp_ntotal .group_item .list_item .item a:visited mark, .sp_nvideo .video_scroll_list .info_area .info_title:visited, .sp_nvideo .video_scroll_list .info_area .info_title:visited mark, .sp_nkin .cluster_item:visited, .sp_nrealtime .info_desc .desc_link:visited, .sp_nrealtime .info_desc .desc_tit:visited, .sp_nrealtime .info_desc:visited .desc_tit, .sp_nrealtime .profile_link:visited .explain_tit, .sp_nblog .total_tit:visited, .sp_nblog .total_tit:visited mark, .sp_ncafe .total_tit:visited, .sp_ncafe .total_tit:visited mark, .sp_nsite .link_name:visited, .sp_nsite .link_name:visited mark, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark, .sp_nkin .kin_wrap .question_area .question_text:visited, .cs_produce .prcs_detail h4 a:visited, .cs_produce a:visited, .ad_section .lst_type .lst .lnk_tit:visited, .ad_section .lst_type .lst.type_subtitle .sub_tit:visited, .sp_company .company_more .more_info .api_ly_info .link:visited, .ad_section .lst_type .lst.ext_price .lst_price .txt_inner:visited, .ad_section .lst_type .lst.ext_link .lst_link .item .link:visited, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark, .sp_company .analysis_list .item_tit .link_tit:visited, .sc_new .ly_api_info .dsc .link:visited, .cs_common_module .accordion_list .join_info .info_txt:visited, .cs_common_module .info_check_area .check_txt a:visited {
 		color: #cc90cd;
 	}
 	
-	.sp_nsite .link_name:visited, .sp_nsite .link_name:visited mark, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark, .sp_ntotal .total_tit .link_tit:visited, .sp_ntotal .total_tit .link_tit:visited mark, .sp_ntotal .group_item .list_item .item a:visited, .sp_ntotal .group_item .list_item .item a:visited mark, .sp_ndicstudy .word_lst .word:visited, .api_subject_bx .api_title_area .api_title a:visited, .sp_nreview .total_tit:visited, .sp_nreview .total_tit:visited mark, .sp_nnews .news_wrap .news_tit:visited, .sp_nnews .news_wrap .news_tit:visited mark, .sp_ncafe_used .used_wrap .title:visited, .cs_common_module a:visited, .cs_common_module .expand_info .text_wrap a:visited, .cs_common_module .cm_table_area .type_normal .cm_table tbody th a:visited, .cs_sports_team a:visited, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td .nation_name:visited, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td.top3 p a:visited, .cs_olympic_history .team_area .line li .player_detail dt a:visited, .cs_suneung .sn_tb .knowhow_link:visited, .cs_delivery .rsult_box .lodg span.inque a:visited, .cs_rgb_plt a:visited, .cs_prevention .advice .advice_lst li a:visited, .cs_prevention .help_lk .lk_lst li a:visited, .cs_sports_tpl .flat_box .flat_info a:visited, .cs_pubtrans_wrap .relation_keyword2 dd a:visited, .sp_nkindic .nkindic_area .nkindic_basic .nkindic_tit .lnk_tit:visited, .cs_sportsdb .ly_cal .today a:visited, .cs_common_simple .title_area .title a.area_text_title:visited, .cs_common_simple a:visited, .cs_common_module .info_check_area a.other_info:visited {
+	.sp_nsite .link_name:visited, .sp_nsite .link_name:visited mark, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark, .sp_ntotal .total_tit .link_tit:visited, .sp_ntotal .total_tit .link_tit:visited mark, .sp_ntotal .group_item .list_item .item a:visited, .sp_ntotal .group_item .list_item .item a:visited mark, .sp_ndicstudy .word_lst .word:visited, .api_subject_bx .api_title_area .api_title a:visited, .sp_nreview .total_tit:visited, .sp_nreview .total_tit:visited mark, .sp_nnews .news_wrap .news_tit:visited, .sp_nnews .news_wrap .news_tit:visited mark, .sp_ncafe_used .used_wrap .title:visited, .cs_common_module a:visited, .cs_common_module .expand_info .text_wrap a:visited, .cs_common_module .cm_table_area .type_normal .cm_table tbody th a:visited, .cs_sports_team a:visited, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td .nation_name:visited, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td.top3 p a:visited, .cs_olympic_history .team_area .line li .player_detail dt a:visited, .cs_suneung .sn_tb .knowhow_link:visited, .cs_delivery .rsult_box .lodg span.inque a:visited, .cs_rgb_plt a:visited, .cs_prevention .advice .advice_lst li a:visited, .cs_prevention .help_lk .lk_lst li a:visited, .cs_sports_tpl .flat_box .flat_info a:visited, .cs_pubtrans_wrap .relation_keyword2 dd a:visited, .sp_nkindic .nkindic_area .nkindic_basic .nkindic_tit .lnk_tit:visited, .cs_sportsdb .ly_cal .today a:visited, .cs_common_simple .title_area .title a.area_text_title:visited, .cs_common_simple a:visited, .cs_common_module .info_check_area a.other_info:visited, .sub_pack .sp_company .company_card .card_info .info_tit .tit:visited {
 		color: #cc90cd;
 	}
 	
@@ -71158,6 +71139,970 @@
 	
 	.spi_default .spi_ly_pop .spi_close span {
 		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.sp_nkindic .nkindic_sub_info {
+		border-top: 1px solid #404040;
+	}
+	
+	.sp_nkindic .nkindic_sub_info .info_txt .tit {
+		color: #cacaca;
+	}
+	
+	.sp_nkindic .nkindic_another .info_list .info .btn_more {
+		color: #cacaca;
+	}
+	
+	.sp_nkindic .nkindic_another .info_list .info .btn_more:before {
+		background-color: #404040;
+	}
+	
+	.ad_section .sp_ad.ico_talktalk, .ad_section .sp_ad.ico_npay_plus {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.sp_nreview .total_source, .sp_nreview .total_source .link_ad {
+		color: #cacaca;
+	}
+	
+	.sp_nreview .total_source .link_ad:before {
+		background-color: #4f4f4f;
+	}
+	
+	.cs_common_module .list_type .top_answer_area {
+		position: relative;
+		z-index: 99999;
+	}
+	
+	.cs_common_module .list_type .top_answer_area .category {
+		z-index: 9999;
+		color: #cacaca !important;
+		border: 1px solid #4f4f4f !important;
+	}
+	
+	.cs_common_module .lego_scroll_middle .area_scroll_middle li[aria-selected="true"] .area_text_box {
+		color: #fff !important;
+	}
+	
+	.cs_common_module .lego_scroll_middle .area_scroll_middle .area_text_box {
+		z-index: 9999;
+		position: relative;
+		color: #cacaca !important;
+	}
+	
+	.cs_common_module .select_tab .btn_refresh, .cs_common_module .cm_tap_area .btn_refresh {
+		border-left: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.cs_common_module .select_tab .btn_refresh:before, .cs_common_module .cm_tap_area .btn_refresh:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_common_module.case_list .lego_scroll_middle .area_scroll_middle li:before {
+		background-color: #4f4f4f;
+		z-index: 9999;
+	}
+	
+	.api_random_banner.type_fixed {
+		background: linear-gradient(to bottom,rgba(38,38,38,0),#242424);
+	}
+	
+	.sp_nsite .search_bx .text_area .text {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.sp_nsite .search_bx .btn_search {
+		border: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.sp_nsite .search_bx .ico_search {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.spcm.api_ico_expand, .sprenew.api_ico_expand {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.sub_pack .sp_company .company_card .card_info {
+		border: 1px solid #404040;
+	}
+	
+	.sub_pack .sp_company .company_card .card_info .info_txt {
+		color: #cacaca;
+	}
+	
+	.sub_pack .sp_company .company_card .card_info .info_sub {
+		color: #fff;
+	}
+	
+	.sub_pack .sp_company .info_area .link_txt {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.sub_pack .sp_company .info_area {
+		color: #cacaca;
+	}
+	
+	.sub_pack .sp_company .info_area .info_box .api_ico_alert {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_common_simple .cm_info_box .button_area .button_box li+li, .cs_common_simple .cm_pure_box .button_area .button_box li+li, .cs_common_simple .cm_tab_info_box .button_area .button_box li+li, .cs_common_simple .rel_answer_wrap .button_area .button_box li+li {
+		border-left: 1px solid #4f4f4f;
+	}
+	
+	.cs_common_simple .cm_info_box .detail_info .info dt {
+		color: #cacaca;
+	}
+	
+	#explore_container {
+		background-color: #2f2f2f;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.sp_company .sc_head {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.sp_company .explore_list .item {
+		border: 1px solid #404040;
+	}
+	
+	.sp_company .explore_list .item[aria-selected=true] {
+		border-color: #4f4f4f;
+	}
+	
+	.sp_company .explore_list .item .item_box {
+		background: #3a3a3a;
+	}
+	
+	.sp_company .explore_list .item .item_txt {
+		color: #cacaca;
+	}
+	
+	.sp_company .explore_list .item .sub_tit {
+		color: #fff;
+	}
+	
+	.sp_company .select_area {
+		border-bottom: 1px solid #404040;
+		background: #3a3a3a;
+	}
+	
+	.sp_company .select_area .select_box .btn_select {
+		color: #fff;
+	}
+	
+	.sp_company .analysis_list {
+		color: #cacaca;
+	}
+	
+	.sp_company .analysis_list .item_detail {
+		color: #cacaca;
+	}
+	
+	.sp_company .analysis_list .item_detail .detail+.detail:before {
+		background-color: #404040;
+	}
+	
+	.sp_nshop .reactive_title_area .tit .foryou_dsc {
+		color: #fff;
+	}
+	
+	.sp_nshop .reactive_title_area .tit .ico_foryou_large {
+		filter: invert(81.5%) hue-rotate(-180deg) brightness(1000%);
+	}
+	
+	.sp_nshop .reactive_title_area .btn_alert .ico_aitems {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.sp_nshop .shop_foryou_wrap {
+		border-top: 1px solid #404040;
+	}
+	
+	.sp_nshop .reactive_title_area .thumb_area:before {
+		border: 1px solid rgba(255, 255, 255, 0.05);
+		background-color: rgba(255, 255, 255, 0.01);
+	}
+	
+	.cs_common_module .top_answer_area .category_tab .tab_list .tab[aria-selected="true"] .menu {
+		background: #404040;
+	}
+	
+	.cs_common_module .top_answer_area .category_tab {
+		color: #cacaca !important;
+	}
+	
+	.cs_common_module .list_type .top_answer_area .category_tab .tab_list .tab[aria-selected="true"] .menu {
+		color: #fff !important;
+	}
+	
+	.cs_common_module .card_wrap .card_content .data_box .area_text_box .this_text {
+		color: #fff;
+	}
+	
+	.cs_common_module .card_wrap .card_content .data_box .interest_info:before {
+		background: #404040;
+	}
+	
+	.cs_common_module .basic_txt {
+		color: #fff;
+	}
+	
+	.cs_common_module .card_wrap .card_content .data_box .info .rel_info dd, .cs_common_module .card_wrap .card_content .data_box .info dd {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .card_wrap .card_content .data_box .character_info .info_text {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+		color: rgba(207, 227, 251, 0.7);
+	}
+	
+	.cs_common_module .cm_input_area {
+		background: #2f2f2f;
+	}
+	
+	.cs_common_module .cm_input_area .label_title {
+		color: #fff;
+	}
+	
+	.cs_common_module .cm_input_area.on input, .cs_common_module .cm_input_area .unit {
+		color: #fff;
+	}
+	
+	.cs_common_module .cm_input_area .input_word {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .button_result button {
+		border: 1px solid #4f4f4f;
+		background: #3a3a3a;
+		color: #cacaca;
+	}
+	
+	.cs_common_module .cm_filter_area .guide_txt {
+		border-top: 1px solid #404040;
+		color: #cacaca;
+		background: #3a3a3a;
+	}
+	
+	.cs_common_module .card_wrap .card_content .data_box .info .rel_info .option_info {
+		background: #2f2f2f;
+	}
+	
+	.cs_common_module .card_wrap .card_content .data_box .info .rel_info .option_info:before {
+		background: #2f2f2f;
+	}
+	
+	.cs_common_module [class*="cm_error"] .area_button_box [class*="this_button"] {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_common_module [class*="cm_error"] .area_button_box .this_button_retry .this_text {
+		color: #cacaca;
+	}
+	
+	.cs_common_module [class*="cm_error"] .area_button_box [class*="this_button"]:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_common_module .cm_ly_api_info .ly_title, .cs_common_module .cm_ly_api_info .title {
+		color: #fff !important;
+	}
+	
+	.cs_common_module .cm_filter_area .filter_option {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_common_module .cm_info_box .button_area .button_add, .cs_common_module .cm_pure_box .button_area .button_add, .cs_common_module .cm_tab_info_box .button_area .button_add, .cs_common_module .rel_answer_wrap .button_area .button_add {
+		border: 1px solid #404040;
+		background: #3a3a3a;
+	}
+	
+	.cs_common_module .cm_info_box .button_area .button_add .btn_send:after, .cs_common_module .cm_pure_box .button_area .button_add .btn_send:after, .cs_common_module .cm_tab_info_box .button_area .button_add .btn_send:after, .cs_common_module .rel_answer_wrap .button_area .button_add .btn_send:after {
+		filter: brightness(1000%);
+	}
+	
+	.cs_common_module .cm_info_box .scroll_box .area_deposit_card {
+		background-color: #3a3a3a;
+	}
+	
+	.cs_common_module .cm_info_box .scroll_box .area_deposit_card .title_txt {
+		color: #fff;
+	}
+	
+	.cs_common_module .cm_info_box {
+		position: relative;
+	}
+	
+	.cs_common_module .accordion_list .list_title {
+		color: #fff;
+	}
+	
+	.cs_common_module .accordion_list .table_title {
+		color: #fff;
+	}
+	
+	.cs_common_module .deposit_table .table_fixed_wrap thead:before {
+		background: #404040;
+	}
+	
+	.cs_common_module .deposit_table .table_fixed_wrap tbody:before {
+		background: #404040;
+	}
+	
+	.cs_common_module .table_scroll_wrap thead th {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_common_module .deposit_table thead th:first-child, .cs_common_module .olympics_table thead th:first-child {
+		border-left: 0;
+	}
+	
+	.cs_common_module .table_scroll_wrap tbody tr:first-child td {
+		border-top: 0;
+	}
+	
+	.cs_common_module .deposit_table tbody td:first-child, .cs_common_module .olympics_table tbody td:first-child {
+		border-left: 0;
+	}
+	
+	.cs_common_module .table_scroll_wrap tr th:first-child, .cs_common_module .table_scroll_wrap tr td:first-child {
+		border-left: 0;
+	}
+	
+	.cs_common_module .cm_table tbody th {
+		color: #fff;
+	}
+	
+	.cs_common_module .accordion_list ul li+li {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_common_module .accordion_list .detail_info+.join_info {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_common_module .accordion_list .join_info .info_txt+.info_txt:before {
+		background-color: #404040;
+	}
+	
+	.cs_common_module .accordion_list .join_info span.info_txt {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .ico_tel {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_common_module .table_info_txt, .cs_common_module .info_check_area .check_txt {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .deposit_table .type_normal .cm_table tbody td, .cs_common_module .olympics_table .type_normal .cm_table tbody td {
+		border-right: 1px solid #404040;
+	}
+	
+	.cs_common_module .horizon_text_list .list_info ul li .title {
+		color: #fff;
+	}
+	
+	.cs_common_module .horizon_text_list .list_info ul li+li {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_common_module .horizon_text_list .list_info ul li .sub_info .info_txt .deposit_info .info_data {
+		color: #fff;
+	}
+	
+	.cs_common_module .horizon_text_list .list_info ul li .sub_info .info_txt .deposit_info .info_name {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .horizon_text_list .list_info ul li .sub_info .info_txt .cm_bar {
+		background-color: #404040;
+	}
+	
+	.cs_newest_post .articles_bx {
+		border: 1px solid #404040;
+	}
+	
+	.cs_newest_post .articles_bx .atc_txt .date_txt>a {
+		color: #cacaca;
+	}
+	
+	.cs_newest_post .bar_line {
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_newest_post .articles_bx .atc_txt .date_txt {
+		color: #cacaca;
+	}
+	
+	.cs_newest_post .tit_bx {
+		border: 1px solid #404040;
+		border-bottom: 0;
+		background: #3a3a3a;
+	}
+	
+	.cs_newest_post .tit_bx>h3 {
+		color: #fff;
+	}
+	
+	.cs_newest_post .tit_bx .btn_follow, .cs_newest_post .tit_bx>h3>em {
+		color: #cacaca;
+	}
+	
+	.cs_newest_post .tit_bx .img_bd, .cs_newest_post .tit_bx>h3>img {
+		border-radius: 5px;
+	}
+	
+	.cs_jr_naver .mov_list .mov_txt {
+		color: #fff;
+	}
+	
+	.cs_jr_naver .mov_list .mov_txt em {
+		color: #cacaca;
+	}
+	
+	.cs_jr_naver .mov_list li a {
+		color: #cacaca !important;
+	}
+	
+	.cs_jr_naver .svc_txt {
+		border-bottom: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_jr_naver .svc_txt em {
+		color: #cacaca;
+	}
+	
+	.cs_jr_naver .svc_txt .lk_jrnaver, .cs_jr_naver .btn_box .btn_lsn {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_jr_naver .btn_box {
+		color: #cacaca;
+	}
+	
+	.cs_jr_naver .mov_list .mask {
+		border-radius: 5px;
+	}
+	
+	.cs_jr_naver .mov_list li a img {
+		border-radius: 5px;
+	}
+	
+	.cs_jr_naver .lk_more {
+		background: none;
+		position: relative;
+	}
+	
+	.cs_jr_naver .lk_more:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/scui/jr_naver/img/img_list5.png) no-repeat 100% -175px;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_jr_naver .stab {
+		border: 1px solid #404040;
+		border-width: 0 1px 1px;
+		background-color: #3a3a3a;
+	}
+	
+	.cs_jr_naver .stab .on a {
+		color: #fff;
+	}
+	
+	.cs_jr_naver .stab li a {
+		color: #cacaca;
+	}
+	
+	.cs_jr_naver .tv_list .mask, .cs_jr_naver .tv_list a img {
+		border-radius: 50%;
+	}
+	
+	.cs_jr_naver .tv_list .tv_txt {
+		color: #fff;
+	}
+	
+	.cs_jr_naver .pg_box .prev, .cs_jr_naver .pg_box .next {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_jr_naver .pg_num a {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_common_module .cm_filter_tap .filter_tap_area .type_scroll .tab .menu {
+		background-color: #404040;
+		color: #cacaca;
+	}
+	
+	.cs_common_module .filter_tap_area .type_scroll .tab.open .add_menu .tab:first-child a:before {
+		background-color: #404040;
+	}
+	
+	.cs_common_module .cm_filter_tap .filter_tap_area .type_scroll .tab .menu a {
+		color: #cacaca !important;
+	}
+	
+	.cs_common_module .cm_filter_tap .filter_tap_area .type_scroll .tab .menu .add_menu .tab[aria-selected="true"] a {
+		color: #fff !important;
+	}
+	
+	.cs_common_module .cm_filter_tap .next_visual, .cs_common_module .cm_filter_tap .next_visual:hover, .cs_common_module .cm_filter_tap .next_visual.on, .cs_common_module .cm_filter_tap .next_visual.seletced, .cs_common_module .cm_top_taste_box .rel_taste_wrap .rel_answer_card .filter_tab_area .next_visual, .cs_common_module .cm_top_taste_box .rel_taste_wrap .rel_answer_card .filter_tab_area .next_visual:hover, .cs_common_module .cm_top_taste_box .rel_taste_wrap .rel_answer_card .filter_tab_area .next_visual.on, .cs_common_module .cm_top_taste_box .rel_taste_wrap .rel_answer_card .filter_tab_area .next_visual.seletced {
+		background-image: linear-gradient(to left, #2f2f2f 75%, rgba(47,47,47,0) 100%) !important;
+	}
+	
+	.cs_common_module .cm_top_wrap .sub_tap_area .next_visual:before, .cs_common_module .lego_scroll_middle .next_visual:before, .cs_common_module .lego_scroll_date .next_visual:before, .cs_common_module .filter_tap_area .next_visual:before, .cs_common_module .photo_filter_area .next_visual:before, .cs_common_module .performance_filter_area .next_visual:before, .cs_common_module .league_schedule .cm_tap_area .next_visual:before, .cs_common_module .cm_tab_info_box .cm_tap_area .next_visual:before, .cs_common_module .cm_select_month_ver2 .next_visual:before, .cs_common_module .lego_title_tab_outer.type_flow .next_visual:before, .cs_common_module .cm_top_taste_box .rel_taste_wrap .rel_answer_card .filter_tab_area .next_visual:before {
+		border-color: #fff;
+	}
+	
+	.cs_common_module .cm_filter_tap:before {
+		background-color: #404040;
+	}
+	
+	.cs_common_module .cm_filter_tap .pre_visual, .cs_common_module .cm_filter_tap .pre_visual:hover, .cs_common_module .cm_filter_tap .pre_visual.on, .cs_common_module .cm_filter_tap .pre_visual.seletced, .cs_common_module .cm_top_taste_box .rel_taste_wrap .rel_answer_card .filter_tab_area .pre_visual, .cs_common_module .cm_top_taste_box .rel_taste_wrap .rel_answer_card .filter_tab_area .pre_visual:hover, .cs_common_module .cm_top_taste_box .rel_taste_wrap .rel_answer_card .filter_tab_area .pre_visual.on, .cs_common_module .cm_top_taste_box .rel_taste_wrap .rel_answer_card .filter_tab_area .pre_visual.seletced {
+		background-image: linear-gradient(to right, #2f2f2f 75%, rgba(47,47,47,0) 100%) !important;
+	}
+	
+	.cs_common_module .cm_top_wrap .sub_tap_area .pre_visual:before, .cs_common_module .lego_scroll_middle .pre_visual:before, .cs_common_module .lego_scroll_date .pre_visual:before, .cs_common_module .filter_tap_area .pre_visual:before, .cs_common_module .photo_filter_area .pre_visual:before, .cs_common_module .performance_filter_area .pre_visual:before, .cs_common_module .league_schedule .cm_tap_area .pre_visual:before, .cs_common_module .cm_tab_info_box .cm_tap_area .pre_visual:before, .cs_common_module .cm_select_month_ver2 .pre_visual:before, .cs_common_module .lego_title_tab_outer.type_flow .pre_visual:before, .cs_common_module .cm_top_taste_box .rel_taste_wrap .rel_answer_card .filter_tab_area .pre_visual:before {
+		border-color: #fff;
+	}
+	
+	.cs_common_module .cm_filter_tap .filter_tap_area .type_scroll .tab[aria-selected="true"] .menu>a {
+		color: #fff !important;
+	}
+	
+	.cs_common_module .box_card_image_list .info_box .rel_info dd a+.sub_info:before {
+		background-color: #404040;
+	}
+	
+	.cs_common_module .lego_scroll_middle .pre_visual.on[style], .cs_common_module .lego_scroll_middle .next_visual.on[style] {
+		filter: invert(79%) hue-rotate(-180deg);
+	}
+	
+	.cs_common_module .box_card_image_list .info_box .rel_info dd [class*="cm_icon"] {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_common_module .horizon_box_image .list_info .info_box {
+		background: #3a3a3a;
+	}
+	
+	.cs_common_module .horizon_box_image .list_info .info_box .title {
+		color: #fff;
+	}
+	
+	.cs_common_module .horizon_box_image .list_info .info_box .sub_info .info_txt {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .cm_info_box[class*="scroll_img"] .list>li .title_box .divide_line, .cs_common_module .cm_tab_info_box[class*="scroll_img"] .list>li .title_box .divide_line {
+		background-color: #4f4f4f;
+	}
+	
+	.cs_common_module .cm_info_box[class*="scroll_img"] .list>li .title_box .sub_text.type_state, .cs_common_module .cm_tab_info_box[class*="scroll_img"] .list>li .title_box .sub_text.type_state {
+		color: #fff !important;
+	}
+	
+	.cs_common_module .cm_tap_area .type_title .tab_list li {
+		background: #242424 !important;
+	}
+	
+	.cs_same_collection .collection_list ul li dl dd {
+		color: #cacaca;
+	}
+	
+	.cs_same_collection .paging_bx a[class^=btn_page_] .ico_spr, .cs_same_collection .paging_bx .page_number .current:after {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_common_module .card_wrap .card_content .button_area {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_common_module .card_wrap .card_content .data_box .info .icon_star {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_common_module .card_wrap .card_content .data_box .info .info_group dd+dt:before, .cs_common_module .card_wrap .card_content .data_box .info dd+dd:before {
+		background-color: #404040;
+	}
+	
+	.cs_common_module .card_wrap .card_content .button_area a {
+		border-left: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.cs_common_module .card_wrap .card_content .button_area .btn_preview:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_common_module .lego_scroll_date .area_scroll_date .area_text_box {
+		color: #cacaca !important;
+	}
+	
+	.cs_common_module .lego_scroll_date .area_scroll_date .area_card>li[aria-selected="true"] .area_text_box .this_text:before, .cs_common_module .lego_scroll_date .area_scroll_date .area_card>li.state_focus .area_text_box .this_text:before {
+		background-color: #fff;
+	}
+	
+	.cs_common_module .lego_scroll_date .area_scroll_date .area_card>li[aria-selected="true"] .area_text_box, .cs_common_module .lego_scroll_date .area_scroll_date .area_card>li.state_focus .area_text_box {
+		color: #fff !important;
+	}
+	
+	.cs_common_module .lego_scroll_date .area_scroll_date .area_subtitle:before {
+		background-color: #404040;
+	}
+	
+	.cs_common_module .lego_scroll_date .area_design_left {
+		background: linear-gradient(to right, #2f2f2f 3%, rgba(47,47,47,0));
+	}
+	
+	.cs_common_module .lego_scroll_date .area_design_right {
+		background-image: linear-gradient(to left, #2f2f2f 3%, rgba(47,47,47,0));
+	}
+	
+	.cs_common_module .lego_scroll_date .area_scroll_date .area_subtitle {
+		color: #fff;
+	}
+	
+	.cs_common_module .card_wrap .card_content .data_box .area_text_box .icon_dday {
+		background-color: #242424;
+		border: 1px solid #9a3a3a;
+	}
+	
+	.cs_common_module .cm_sub_info {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_common_module .sec_screen_schedule .area_date_box {
+		background-color: #242424;
+	}
+	
+	.cs_common_module .sec_screen_schedule .area_date_box:before {
+		background-color: #242424;
+	}
+	
+	.cs_common_module .sec_screen_schedule .area_date_box .area_subtitle, .cs_common_module .sec_screen_schedule .area_date_box .play_btn_date .this_text_koean, .cs_common_module .sec_screen_schedule .area_date_box .play_btn_date .this_text_number {
+		color: #fff;
+	}
+	
+	.cs_common_module .sec_screen_schedule .area_date_box .area_ulist_date>li[aria-selected="true"] .play_btn_date {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_common_module .sec_screen_schedule .area_slide_box>li {
+		background-color: #3a3a3a;
+	}
+	
+	.cs_common_module .sec_screen_schedule .area_slide_box .area_dlist_in [class*="this_text"] {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .sec_screen_schedule .area_slide_box .area_dlist_in .this_point_big {
+		color: #fff;
+	}
+	
+	.cs_common_module .sec_screen_schedule .area_schedule_box .bg_gra_right {
+		background: #242424;
+		background: -moz-linear-gradient(to right, rgba(45,45,45,0), #242424 81%);
+		background: -webkit-linear-gradient(to right, rgba(45,45,45,0), #242424 81%);
+		background: linear-gradient(to right, rgba(45,45,45,0), #242424 81%);
+	}
+	
+	.cs_common_module .sec_screen_schedule .area_schedule_box .bg_gra_left {
+		background: #242424;
+		background: -moz-linear-gradient(to right, #242424 18%, rgba(45,45,45,0) 75%);
+		background: -webkit-linear-gradient(to right, #242424 18%, rgba(45,45,45,0) 75%);
+		background: linear-gradient(to right, #242424 18%, rgba(45,45,45,0) 75%);
+	}
+	
+	.cs_common_module .sec_screen_schedule .area_slide_box_outer:before {
+		background: #242424;
+		background: -moz-linear-gradient(to right, rgba(45,45,45,0.7), rgba(45,45,45,0) 75%);
+		background: -webkit-linear-gradient(to right, rgba(45,45,45,0.7), rgba(45,45,45,0) 75%);
+		background: linear-gradient(to right, rgba(45,45,45,0.7), rgba(45,45,45,0) 75%);
+	}
+	
+	.cs_common_module .sec_screen_schedule .area_slide_box_outer:after {
+		background: #242424;
+		background: -moz-linear-gradient(to right, rgba(45,45,45,0), rgba(45,45,45,0.7) 75%);
+		background: -webkit-linear-gradient(to right, rgba(45,45,45,0), rgba(45,45,45,0.7) 75%);
+		background: linear-gradient(to right, rgba(45,45,45,0), rgba(45,45,45,0.7) 75%);
+	}
+	
+	.cs_common_module .sec_screen_schedule .area_play_box .btn_pannel .this_text {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .sec_screen_schedule .area_play_box.type_sub .panel_ly_wrap .panel_box {
+		background: #404040 !important;
+	}
+	
+	.cs_common_module .panel_ly_wrap .sub_ly_info {
+		border-top: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.cs_common_module .cm_filter_area .filter_option .filter_wrap .filter_group .filter_cont .list_item .item [class^="list_"] .btn_custom {
+		background: #404040;
+	}
+	
+	.cs_common_module .sec_screen_schedule .notice_link .this_box_txt {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .sec_screen_schedule .area_no_result .text_wrap .text {
+		color: #fff;
+	}
+	
+	.cs_common_module .sec_screen_schedule .area_no_result .text_wrap .sub_info {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .lego_rating_box_age .area_subtitle, .cs_common_module .lego_rating_box_visit .area_subtitle {
+		color: #fff;
+	}
+	
+	.cs_common_module .lego_rating_box_age [class^="area_graph"] li, .cs_common_module .lego_rating_box_visit [class^="area_graph"] li {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .lego_rating_box_see .area_gender>[class*="area_card"]:before {
+		background-color: #404040;
+	}
+	
+	.cs_common_module .lego_rating_box_see .area_gender .area_star_number .this_text {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .lego_review_write {
+		border-bottom: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	.cs_common_module .lego_review_write .area_intro_text_box .this_text_title {
+		background-color: #242424;
+	}
+	
+	.cs_common_module .lego_review_write .area_intro_text_box .this_text_description {
+		color: #fff;
+	}
+	
+	.cs_common_module .lego_review_write .area_star_select .area_text_box {
+		color: #fff;
+	}
+	
+	.cs_common_module .lego_review_write .area_form_write_box .type_border_top:before {
+		background-color: #404040;
+	}
+	
+	.cs_common_module .lego_review_write .area_form_write_box .area_dlist_qa .area_q {
+		color: #fff;
+	}
+	
+	.cs_common_module .lego_review_write .area_form_write_box .area_dlist_qa .area_q .point_sub {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .lego_review_write .area_form_write_box .area_dlist_qa .area_a .area_ulist_in li .play_btn_answer {
+		background-color: #3a3a3a;
+		border-color: #4f4f4f;
+		color: #cacaca;
+	}
+	
+	.cs_common_module .lego_review_write .area_form_write_box .area_form_box .area_textarea_box {
+		border: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	.cs_common_module .lego_review_write .area_form_write_box .area_form_box .area_textarea_box .this_textarea {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .lego_critic_outer .area_ulist>li {
+		background-color: #3a3a3a;
+	}
+	
+	.cs_common_module .lego_critic_outer .area_subtitle .area_info_box .area_dlist_info .this_info_name, .cs_common_module .lego_critic_outer .area_subtitle .area_info_box .area_dlist_info .this_info_party, .cs_common_module .lego_critic_outer .area_subtitle .area_info_box .area_dlist_info .this_info_write {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .lego_critic_outer .area_subtitle .area_info_box .area_dlist_info [class*="this_info"].type_bar:before {
+		background-color: #4f4f4f;
+	}
+	
+	.cs_common_module .area_text_expand .desc {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .lego_critic_outer .area_p_title {
+		color: #fff;
+	}
+	
+	.cs_common_module .cm_form_intro_box .this_input_write {
+		border-color: #404040;
+		background-color: #242424;
+		color: #cacaca;
+	}
+	
+	.cs_common_module .lego_review_list .area_card_outer>.area_card {
+		background-color: #3a3a3a;
+	}
+	
+	.cs_common_module .area_text_expand [class*="lego_badge_movie"] {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_common_module .cm_upload_info .this_text_stress, .cs_common_module .cm_upload_info [class*="this_text"], .cs_common_module .cm_upload_info .this_play_btn {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .cm_upload_info [class*="this_text"]:before {
+		background: #4f4f4f;
+	}
+	
+	.cs_common_module .cm_sympathy_area [class*="area_button"] {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_common_module .cm_sympathy_area .this_text_number {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .cm_sympathy_area [class*="area_button"]:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_common_module .cm_sympathy_area .area_button_upvote.state_on .this_text_number, .cs_common_module .cm_sympathy_area .area_button_downvote.state_on .this_text_number {
+		color: #fff;
+	}
+	
+	.cs_common_module .lego_toggle_sort .txt {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .lego_review_write .area_form_write_box .area_form_box .area_textarea_box .this_numbering {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .cm_pure_box.lego_rating_slide_outer .scroll_box+.scroll_box:before {
+		background-color: #404040;
+	}
+	
+	.cs_common_module .lego_rating_box_age [class^="area_graph"] .area_bar_outer, .cs_common_module .lego_rating_box_visit [class^="area_graph"] .area_bar_outer {
+		background-color: #404040;
+	}
+	
+	.cs_common_module .lego_rating_box_age .area_graph_age li.state_point .area_text_star .this_text_num {
+		color: #fff;
+	}
+	
+	.cs_common_module .lego_review_list .area_title_box .area_name {
+		color: #fff;
+	}
+	
+	.cs_common_module .sec_cast_member>li:before {
+		background-color: #404040;
+	}
+	
+	.cs_common_module .cm_content_area .lego_rating_star .area_ulist li>a {
+		color: #fff !important;
+	}
+	
+	.cs_common_module .graph_wrap.type_hg27 .graph_area {
+		background: none;
+		position: relative;
+	}
+	
+	.cs_common_module .graph_wrap.type_hg27 .graph_area:before {
+		background-image: url(https://ssl.pstatic.net/sstatic/keypage/outside/scui/cs_common_module/img/bg_graph_27.png);
+		background-size: 1px 169px;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_common_module .bb-axis line {
+		stroke: #404040;
+	}
+	
+	.cs_common_module .graph_wrap .bb-axis-x tspan:only-child {
+		fill: #cacaca !important;
+	}
+	
+	.cs_common_module .api_common_like {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .cm_content_area .lego_rating_star.type_info_in .area_ulist:before {
+		background-color: #404040;
+	}
+	
+	.cs_common_module h3.title_numbering {
+		color: #fff;
+	}
+	
+	.cs_common_module .review_list li .review_movie dt.list_title .this_text {
+		color: #fff;
+	}
+	
+	.cs_common_module .review_list li .review_movie dd .review_info .info_text {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .review_list li .review_movie dd .review_date .bar {
+		background-color: #404040;
+	}
+	
+	.cs_common_module .sec_famous_line .area_intro {
+		background-color: #3a3a3a;
+	}
+	
+	.cs_common_module .sec_famous_line .area_intro .area_intro_text_box .this_text_title {
+		background-color: #3a3a3a;
+	}
+	
+	.cs_common_module .sec_famous_line .area_intro .area_intro_text_box .this_text_description {
+		color: #fff;
+	}
+	
+	.cs_common_module .cm_form_select_only .area_select {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .sec_famous_line .area_list {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_common_module .sec_famous_line .area_list .area_list_box .area_float_box .area_text_box .area_text_main {
+		color: #fff;
+	}
+	
+	.cs_common_module .sec_famous_line .area_list .area_list_box .area_float_box .area_dlist_name [class*="this_text"] {
+		color: #cacaca;
 	}
 }
 
@@ -75148,5 +76093,83 @@
 		margin: 5px;
 		margin-top: 0;
 		margin-left: 0;
+	}
+}
+
+@-moz-document url-prefix("https://search.naver.com"), regexp("https://www\\.naver\\.com/(?!NOTICE|more.html).*")
+{
+	
+	
+	.ly_inputko {
+		background-color: #2f2f2f;
+	}
+	
+	.ly_inputko.ly_inputko_over {
+		border: 1px solid #404040;
+	}
+	
+	.ly_inputko .tab_inkey, .ly_inputko .tab_inms, .ly_inputko .btn_ly_cl {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.ly_inputko .inputko_keyboard {
+		background-color: #2f2f2f;
+	}
+	
+	.ly_inputko .keyboard {
+		background-color: #2f2f2f;
+	}
+	
+	.ly_inputko .inputko_keyboard .setkorhelp {
+		background-color: #2f2f2f;
+	}
+	
+	.ly_inputko .inputko_info {
+		background: #2f2f2f;
+		position: relative;
+	}
+	
+	.ly_inputko .inputko_info:before {
+		background: url(https://ssl.pstatic.net/sstatic/search/img3/bg_sp_x.gif) repeat-x;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.ly_inputko .inputko_info li {
+		color: #cacaca;
+	}
+	
+	.ly_inputko .inputko_info li span {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.ly_inputko .keyboard_img {
+		filter: invert(84%) hue-rotate(-180deg);
+	}
+	
+	.ly_inputko {
+		border: 1px solid #404040;
+	}
+	
+	.ly_inputko .btn_kor_on, .ly_inputko .btn_kor, .ly_inputko .btn_eng, .ly_inputko .btn_eng_on {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.ly_inputko .inputko_mouse .bar2 {
+		color: #404040;
+	}
+	
+	.ly_inputko .btn_space, .ly_inputko .btn_del, .ly_inputko .btn_reset {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.ly_inputko .number, .ly_inputko .alphabet, .ly_inputko .consonantal, .ly_inputko .vowel {
+		filter: invert(84%) hue-rotate(-180deg);
 	}
 }

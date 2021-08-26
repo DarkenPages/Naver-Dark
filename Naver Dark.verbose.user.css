@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.24
+@version		1.51.25
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -71121,6 +71121,43 @@
 	
 	.cs_common_module .info_check_area .info_text {
 		color: #cacaca !important;
+	}
+	
+	#lnb .lnb_util .list_util [class*=bt_] {
+		color: #cacaca;
+	}
+	
+	.spi_lst .spi_lst_release {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.spi_default a {
+		color: #cacaca;
+	}
+	
+	.spi_btn_release .spi_lst_release a.spi_btn_copyurl, .spi_sns_share .spi_lst .spi_btn_release .spi_lst_release a.spi_btn_copyurl, .spi_onebtn .spi_lst .spi_btn_release .spi_lst_release a.spi_btn_copyurl {
+		color: #cacaca !important;
+		border: 1px solid #404040;
+	}
+	
+	.spi_btn_release .spi_lst_release a.spi_input_copyurl, .spi_sns_share .spi_lst .spi_btn_release .spi_lst_release a.spi_input_copyurl, .spi_onebtn .spi_lst .spi_btn_release .spi_lst_release a.spi_input_copyurl {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.spi_default .spi_ly_pop {
+		border: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.spi_onebtn .spi_dsc {
+		color: #cacaca !important;
+	}
+	
+	.spi_default .spi_ly_pop .spi_close span {
+		filter: invert(81.5%) hue-rotate(-180deg);
 	}
 }
 

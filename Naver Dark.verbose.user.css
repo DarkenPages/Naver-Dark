@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.20
+@version		1.51.22
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -11264,6 +11264,236 @@
 	}
 	
 	.localset_list tbody .unable span, .localset_list tbody .unable td {
+		color: #cacaca;
+	}
+	
+	.otp_loginset .otp_device_subtitle .tit {
+		color: #fff;
+	}
+	
+	.otp_device_reload {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.ico_reload {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.otp_loginset .otp_device_box {
+		border: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.otp_loginset .otp_device_txt .txt_radio {
+		color: #fff;
+	}
+	
+	.otp_loginset .otp_device_radio .txt_del, .otp_loginset .otp_device_txt .txt_accessday {
+		color: #cacaca;
+	}
+	
+	:root .otp_loginset .otp_device_txt .ico_radio, :root .radio_area .ico_radio:before {
+		background-color: #2f2f2f;
+	}
+	
+	.otp_loginset .otp_device_txt .txt_radio.not {
+		color: #cacaca;
+	}
+	
+	.not_device_pop {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.not_device_pop .title {
+		color: #fff;
+	}
+	
+	.desc {
+		color: #cacaca;
+	}
+	
+	.not_device_pop .subtitle {
+		color: #fff;
+	}
+	
+	.otp_loginset .title {
+		color: #fff;
+	}
+	
+	.progress_time .txt {
+		color: #fff;
+	}
+	
+	.otp_loginset .title .contxt, .otp_loginset .title .contxt2 {
+		color: #cacaca;
+	}
+	
+	.complete_set_tit {
+		background-color: #2f2f2f;
+	}
+	
+	.complete_set_tit .text {
+		color: #fff;
+	}
+	
+	.complete_set_guide .set_box {
+		background: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.complete_set_guide .desc {
+		color: #cacaca;
+	}
+	
+	.complete_set_guide .desc li:before {
+		background: #cacaca;
+	}
+	
+	.complete_set_guide .desc li a {
+		color: #cacaca;
+	}
+	
+	.img_verify_widthout {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.table_list table {
+		border-top: 1px solid #404040;
+	}
+	
+	.table_list table th {
+		border-right: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+		background: #2f2f2f;
+		color: #fff;
+	}
+	
+	.table_list table td {
+		border-bottom: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.pw_generate_area .tit {
+		color: #fff;
+	}
+	
+	.otp_loginset .pw_generate_box {
+		background: #2f2f2f;
+	}
+	
+	.table_list .pw_generate_box td {
+		color: #cacaca;
+	}
+	
+	.table_list .input_txt2, .pw_generate_box .input_txt2 {
+		border: 1px solid #404040;
+		background: #242424;
+		color: #cacaca;
+	}
+	
+	.pw_generate_box .text_desc {
+		color: #cacaca;
+	}
+	
+	.pw_generate_box .text_desc:before {
+		color: #cacaca;
+	}
+	
+	.table_list table td>strong {
+		color: #fff;
+	}
+	
+	.table_list .table_list2 th {
+		border-bottom: 1px solid #404040;
+		background: #2f2f2f;
+		color: #fff;
+	}
+	
+	.table_list .table_list2 td {
+		border-bottom: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.complain.line_show .list_area:first-child {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.complain .list_area {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.complain .list_area:first-child, .complain.line_show .list_area.on:first-child {
+		border-top: 1px solid #404040;
+	}
+	
+	.complain li.on {
+		background-color: #2f2f2f;
+	}
+	
+	.complain li.on .quest {
+		color: #fff;
+	}
+	
+	.complain li.on .arrow_open {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.complain li.on .list_cont {
+		background-color: #242424;
+		color: #cacaca;
+	}
+	
+	.complain li.on .list_cont .sum_text {
+		color: #fff;
+	}
+	
+	.recall_list li {
+		color: #cacaca;
+	}
+	
+	.table_list .btn_ctf {
+		border: 1px solid #404040;
+		color: #cacaca;
+		background: #2f2f2f;
+	}
+	
+	:root .leave_way_list .radio_area .ico_radio:before {
+		background-color: #242424;
+	}
+	
+	.radio_area label {
+		color: #cacaca;
+	}
+	
+	.otp_loginset .table_list_tit {
+		color: #fff;
+	}
+	
+	.table_list .ctf_rom {
+		color: #cacaca;
+	}
+	
+	.otp_leave .success {
+		color: #fff;
+	}
+	
+	.otp_leave .success+p {
+		color: #cacaca;
+	}
+	
+	.complete_set_guide .call_tit {
+		color: #fff;
+	}
+	
+	.complain .quest {
+		color: #fff;
+	}
+	
+	.otp_loginset .link_send {
 		color: #cacaca;
 	}
 }
@@ -74533,6 +74763,76 @@
 	}
 	
 	.input_text {
+		color: #fff;
+	}
+	
+	.cont_otp {
+		color: #fff;
+	}
+	
+	.info_title {
+		color: #cacaca;
+	}
+	
+	html[lang=ko] .progress_area {
+		background: none;
+		position: relative;
+	}
+	
+	html[lang=ko] .progress_area:after {
+		background-image: linear-gradient(to bottom, rgba(36, 36, 36, 0) 60%, rgba(36, 36, 36, 1) 70%);
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		z-index: -1;
+	}
+	
+	html[lang=ko] .progress_area:before {
+		background: url(https://static.nid.naver.com/images/ui/login/pc_loading_ko_180912.png) no-repeat 0 0;
+		-webkit-background-size: 224px 224px;
+		background-size: 224px 224px;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		z-index: -1;
+	}
+	
+	.progress_box .txt {
+		color: #fff;
+	}
+	
+	#footer a, #footer a:visited {
+		color: #cacaca;
+	}
+	
+	#footer * {
+		color: #cacaca;
+	}
+	
+	#footer address a {
+		color: #fff;
+	}
+	
+	#direct_call .input_row {
+		background: #242424;
+		color: #cacaca;
+		border: 1px solid #404040;
+	}
+	
+	#direct_call .int {
+		color: #cacaca;
+		background: #242424;
+	}
+	
+	.cont_otp .resend_way {
 		color: #fff;
 	}
 }

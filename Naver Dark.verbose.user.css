@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.41
+@version		1.51.42
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -57694,7 +57694,11 @@
 		background-color: #404040;
 	}
 	
-	.card_weathermap #_idWeatherInfoFixed+div, .is_map#container .map_panel>div img {
+	.is_map#container .map_panel>div img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.card_weathermap #_idWeatherInfoFixed+div>div>div>div:nth-child(2) {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
@@ -58406,6 +58410,43 @@
 	
 	.card_news .info_media {
 		color: #cacaca;
+	}
+	
+	.card_climateinfo .title:after {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.card_climateinfo .box_color .color_inner {
+		border: 1px solid #404040;
+		background-color: #3a3a3a;
+	}
+	
+	.card_climateinfo .box_color .ttl {
+		color: #fff;
+	}
+	
+	.card_climateinfo .climate_summary {
+		color: #cacaca;
+	}
+	
+	.card_climateinfo .climate_summary+.climate_summary {
+		border-top: 1px solid #404040;
+	}
+	
+	.card_today .time_weather .title_dsc {
+		color: #cacaca;
+	}
+	
+	.card_today .time_weather .title_dsc:after {
+		background: #404040;
+	}
+	
+	.card_today .time_weather text.bb-text {
+		fill: #cacaca;
+	}
+	
+	.card_week .week_item.on .date, .card_week .week_item.today .date {
+		color: #fff;
 	}
 }
 

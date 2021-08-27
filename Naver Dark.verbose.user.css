@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.43
+@version		1.51.44
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -59408,7 +59408,7 @@
 	}
 	
 	.cs_common_simple .api_common_like .api_like_ico {
-		filter: invert(81.5%) hue-rotate(-180deg);
+		filter: invert(78%) hue-rotate(-180deg);
 	}
 	
 	.cs_common_simple .cm_info_box .button_area .button_box a.play_button_type:after, .cs_common_simple .cm_tab_info_box .button_area .button_box a.play_button_type:after, .cs_common_simple .rel_answer_wrap .button_area .button_box a.play_button_type:after {
@@ -65871,7 +65871,7 @@
 	}
 	
 	.cs_common_module .more_view_area {
-		background: #242424;
+		background: #2f2f2f;
 	}
 	
 	.cs_common_module .more_view_area .more_view_link {
@@ -69420,31 +69420,42 @@
 		position: absolute;
 	}
 	
-	.cs_common_module.case_empasis .cm_top_wrap .sub_tap_area .next_visual:after {
-		position: absolute;
-		content: '';
-		right: 0;
-		top: 0;
-		width: 65%;
-		height: 100%;
-		background: rgba(0, 0, 0, 0.75);
-		pointer-events: none;
+	.cs_common_module.case_empasis .cm_top_wrap .sub_tap_area .next_visual:before, .cs_common_module.case_empasis .cm_top_wrap .sub_tap_area .pre_visual:before {
+		z-index: 999;
 	}
 	
-	.cs_common_module.case_empasis .cm_top_wrap .sub_tap_area .pre_visual {
-		position: absolute;
-		border-color: #fff !important;
-	}
-	
-	.cs_common_module.case_empasis .cm_top_wrap .sub_tap_area .pre_visual:after {
+	.cs_common_module.case_empasis .cm_top_wrap .sub_tap_area .next_visual:after, .cs_common_module.case_empasis .cm_top_wrap .sub_tap_area .pre_visual:after {
 		position: absolute;
 		content: '';
 		left: 0;
 		top: 0;
-		width: 65%;
+		width: 100%;
 		height: 100%;
-		background: rgba(0, 0, 0, 0.75);
 		pointer-events: none;
+		background: rgba(0, 0, 0, 0.75);
+	}
+	
+	.cs_common_module.case_empasis .cm_top_wrap .sub_tap_area .next_visual {
+		object-fit: cover;
+		clip-path: inset(0 0 0 30px);
+	}
+	
+	.cs_common_module.case_empasis .cm_top_wrap .sub_tap_area .pre_visual {
+		object-fit: cover;
+		clip-path: inset(0 30px 0 0);
+	}
+	
+	.cs_common_module .cm_top_wrap {
+		border-left-color: #000 !important;
+		border-right-color: #000 !important;
+	}
+	
+	.cs_common_module .detail_info .info .cm_bar_info {
+		background-color: #404040;
+	}
+	
+	.cs_common_module .detail_info .info [class*="cm_icon"] {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.cs_common_module .cm_info_box.scroll_tvtime .tvtime_box .cm_date {
@@ -72566,11 +72577,6 @@
 		filter: invert(81.5%) hue-rotate(-180deg);
 	}
 	
-	.brand_wrap {
-		border: 1px solid #404040;
-		background-color: #2f2f2f;
-	}
-	
 	.brand_wrap .bottom_notice_area:before, .brand_wrap .icon_ad:before {
 		filter: invert(81.5%) hue-rotate(-180deg);
 	}
@@ -72605,6 +72611,465 @@
 	
 	.sp_nshop .shop_product .product_info .store_area .store .ico_area .ico_official {
 		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_common_module .cm_info_box .button_area_more .button_box ul {
+		background: #3a3a3a;
+		border: 1px solid #4f4f4f;
+	}
+	
+	.cs_common_module .cm_info_box .button_area_more .button_box li+li {
+		border-left: 1px solid #4f4f4f;
+	}
+	
+	.cs_common_module .cm_info_box .button_area_more .button_box li a {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .cm_info_box .button_area_more .button_box li:first-child:nth-last-child(3)+li a:before {
+		filter: invert(78%) hue-rotate(-180deg);
+	}
+	
+	.cs_common_module .cm_info_box .button_area_more .button_box li:first-child:nth-last-child(3) a:before {
+		filter: invert(78%) hue-rotate(-180deg);
+	}
+	
+	.cs_common_module .game_scroll_fixed[class*="list_horison"] .game_list_info .game_list li .info_area.only_text_area .sub_info span {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_common_module .game_scroll_fixed[class*="list_horison"] .game_list_info .game_list li .info_area.only_text_area .text_title .sub_content {
+		color: #cacaca;
+	}
+	
+	.cs_common_simple .play_list_wrap .music_play_list {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_common_simple .play_list_wrap .music_play_list .title_wrap a {
+		color: #cacaca;
+	}
+	
+	.cs_common_simple .play_list_wrap .music_play_list li .badge {
+		color: #fff;
+		opacity: 1;
+	}
+	
+	.cs_common_module .detail_info .info dd.type_system .system_tab li>a {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .detail_info .info dd.type_system .system_more {
+		background-color: #3a3a3a;
+	}
+	
+	.cs_common_module .detail_info .info dt {
+		color: #999;
+	}
+	
+	.cs_common_module .cm_tab_info_box .now_list .list_col ul li {
+		background-color: #3a3a3a;
+	}
+	
+	.cs_common_module .cm_tab_info_box .now_list .list_col ul li .now_box .info_area .text_title .sub_title {
+		color: #fff;
+	}
+	
+	.cs_common_module .cm_tab_info_box .now_list .list_col ul li .now_box .info_area .sub_info {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .cm_tab_info_box .now_list .list_col ul li .now_box .info_area .sub_info .info_wrap .sub_info_content:nth-of-type(n+2)::before {
+		background-color: #4f4f4f;
+	}
+	
+	.cs_common_module .cm_tab_info_box .now_list .list_col ul li .now_box .info_area .comment_area {
+		border-top: 1px solid #4f4f4f;
+	}
+	
+	.cs_common_module .cm_tab_info_box .now_list .list_col ul li .now_box .info_area .text_title .state_cat {
+		border: 1px solid #4f4f4f;
+		color: #cacaca;
+	}
+	
+	.cs_common_module .cm_tab_info_box .now_list .list_col ul li .now_box .info_area .comment_area .btn_r div.cm_bar {
+		background-color: #4f4f4f;
+	}
+	
+	.cs_common_module .cm_tab_info_box .now_list .list_col ul li .now_box .info_area .comment_area div[class*="btn_"] a span[class*="this_text"] {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .cm_tab_info_box .now_list .list_col ul li .now_box .info_area .comment_area .btn_r .btn_nerf .ico_nerf, .cs_common_module .cm_tab_info_box .now_list .list_col ul li .now_box .info_area .comment_area .btn_r .btn_buff .ico_buff, .cs_common_module .cm_tab_info_box .now_list .list_col ul li .now_box .info_area .comment_area .btn_comment .comment .ico_comment {
+		filter: invert(78%) hue-rotate(-180deg);
+	}
+	
+	.cs_common_module .game_scroll_fixed[class*="list_horison"] .game_list_info .game_list li .info_area .sub_info .sub_txt+.sub_txt::before {
+		background-color: #4f4f4f;
+	}
+	
+	.cs_common_module .top_answer_area {
+		position: relative;
+		z-index: 9999;
+	}
+	
+	.cs_common_module .top_answer_area .category {
+		color: #cacaca !important;
+	}
+	
+	.cs_common_module .top_answer_area .text {
+		color: #fff;
+	}
+	
+	.cs_common_module .answer_more a:hover .link_box .link_text {
+		color: #fff;
+	}
+	
+	.cs_common_module .answer_more .link_box .link_text {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .answer_more {
+		background-color: #4f4f4f !important;
+	}
+	
+	.cs_common_module .answer_more .link_box:after {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_common_module .cafe_box .cafe_spot {
+		border-top: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_common_module .cafe_box .cafe_spot .cx .detail .txt_group {
+		color: #fff;
+	}
+	
+	.cs_common_module .cafe_box .btn_join {
+		border: 1px solid #404040;
+		background-color: #3a3a3a;
+	}
+	
+	.cs_common_module .cafe_box .btn_join .join_txt {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .cafe_box .cafe_spot .cx .detail .txt_count {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .cafe_box .cafe_spot .cx .detail .txt_count .num {
+		color: #fff;
+	}
+	
+	.cs_common_module .cafe_box .cafe_list, .cs_common_module .cafe_box .cafe_list li {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_common_module .cafe_box .cafe_list li .news_title a {
+		color: #fff;
+	}
+	
+	.cs_common_module .cm_info_box .button_area_more .button_box li a.google_app:before {
+		filter: invert(78%) hue-rotate(-180deg);
+	}
+	
+	.brand_wrap .direct_link_area {
+		background: #2f2f2f;
+		border: none;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.brand_wrap .direct_link_area~.brand_content .brand_area:first-child {
+		border-top: 1px solid #404040;
+	}
+	
+	.brand_wrap .brand_content {
+		border: 1px solid #404040;
+	}
+	
+	.cs_common_module .cm_api_list_more .this_text {
+		color: #cacaca;
+	}
+	
+	.brand_wrap {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.ad_section .sp_ad.ico_nreserve {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.nx_hotel .hotel_single > .desc {
+		color: #cacaca;
+	}
+	
+	.nx_hotel .sp_hotel_bf::before, .nx_hotel .sp_hotel_af::after, .nx_hotel .sp_hotel {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.nx_hotel .hotel_normal {
+		border: 4px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.nx_hotel .hotel_normal .hot_place {
+		border-top: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.nx_hotel .hotel_normal .ota_logo_area {
+		border-top: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.nx_hotel .hotel_normal .ota_logo_area .sp_ota {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.nx_hotel .hotel_normal .hot_place .tit {
+		color: #fff;
+	}
+	
+	.nx_hotel .hotel_normal .hot_place .lst_place .bar_area {
+		background: #404040;
+	}
+	
+	.nx_hotel .hotel_normal .input_box {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.nx_hotel .hotel_normal .input_box input {
+		background-color: #2f2f2f;
+		color: #fff;
+	}
+	
+	.nx_hotel .hotel_normal .input_box .dsc {
+		color: #fff;
+	}
+	
+	.nx_hotel .hotel_normal .calendar_content a[class^=btn_check] {
+		border: 1px solid #404040;
+		color: #cacaca;
+		background-color: #2f2f2f;
+	}
+	
+	.nx_hotel .hotel_normal .option_area .ico_area {
+		border-right: 1px solid #404040;
+	}
+	
+	.nx_hotel .hotel_normal .guest_content .option_area a[class^=btn_] {
+		border: 1px solid #404040;
+		color: #cacaca;
+		background-color: #2f2f2f;
+	}
+	
+	.nx_hotel .hotel_normal .option_area a[class^=btn_].active {
+		color: #fff;
+	}
+	
+	.nx_hotel .hotel_normal .layer_guest .layer_area {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.nx_hotel .hotel_normal .layer_guest .guest_select .tit {
+		color: #fff;
+	}
+	
+	.nx_hotel .hotel_normal .layer_guest .guest_table .btn_minus, .nx_hotel .hotel_normal .layer_guest .guest_table .btn_plus {
+		border: 1px solid #404040;
+	}
+	
+	.nx_hotel .hotel_normal .layer_guest .guest_table .btn_minus:hover, .nx_hotel .hotel_normal .layer_guest .guest_table .btn_plus:hover {
+		border-color: #4f4f4f;
+	}
+	
+	.nx_hotel .hotel_normal .layer_guest .guest_table .txt_info {
+		border: 1px solid #404040;
+		border-width: 1px 0;
+	}
+	
+	.nx_hotel .hotel_normal .layer_guest .btn_apply_guest {
+		border-top: 1px solid #404040;
+		color: #fff;
+		background-color: #3a3a3a;
+	}
+	
+	.nx_hotel .hotel_normal .layer_guest .guest_table .txt_info .txt_sub {
+		color: #cacaca;
+	}
+	
+	.nx_hotel .hotel_normal .layer_guest .guest_table .txt_info .txt_label {
+		color: #fff;
+	}
+	
+	.nx_hotel .layer_calendar .layer_area {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.nx_hotel .layer_calendar .layer_header {
+		border-bottom: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.nx_hotel .layer_calendar .calendar_info:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.nx_hotel .layer_calendar .header_btn {
+		color: #2f2f2f;
+	}
+	
+	.nx_hotel .layer_calendar .layer_area .bar_area {
+		background-color: #404040;
+	}
+	
+	.nx_hotel .layer_calendar .calendar_body th {
+		color: #fff;
+	}
+	
+	.nx_hotel .layer_calendar .calendar_body td a {
+		color: #cacaca;
+	}
+	
+	.nx_hotel .layer_calendar .calendar_body td.calendar-prev-mon a, .nx_hotel .layer_calendar .calendar_body td.calendar-next-mon a, .nx_hotel .layer_calendar .calendar_body td.calendar-unselectable a {
+		color: #666;
+	}
+	
+	.nx_hotel .layer_calendar .calendar_body td.calendar-prev-mon a:hover, .nx_hotel .layer_calendar .calendar_body td.calendar-next-mon a:hover, .nx_hotel .layer_calendar .calendar_body td.calendar-unselectable a:hover {
+		background-color: #3a3a3a;
+	}
+	
+	.nx_hotel .layer_calendar .calendar_body td.calendar-dim a {
+		color: #2f2f2f;
+	}
+	
+	.nx_hotel .layer_calendar .sub_area {
+		border-top: 1px solid #404040;
+		background-color: #3a3a3a;
+	}
+	
+	.nx_hotel .layer_calendar .sub_area .btn_reset {
+		color: #fff;
+	}
+	
+	.nx_hotel .layer_calendar .sub_area .btn_reset::after {
+		filter: invert(81.5%) hue-rotate(-180deg) brightness(1000%);
+	}
+	
+	.nx_hotel .hotel_normal .search_select_box .btn_search_hotel {
+		color: #2f2f2f;
+	}
+	
+	.nx_hotel .hotel_normal .input_box.focus {
+		background-color: #2f2f2f;
+	}
+	
+	.nx_hotel .hotel_normal .input_box.focus input {
+		background-color: #2f2f2f;
+	}
+	
+	.nx_hotel .hotel_normal .layer_direct {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.nx_hotel .hotel_normal .layer_direct > .tit {
+		color: #fff;
+	}
+	
+	.nx_hotel .hotel_normal .layer_direct .direct_content {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.nx_hotel .hotel_normal .direct_content .tit {
+		background-color: #3a3a3a;
+		color: #fff;
+	}
+	
+	.nx_hotel .hotel_normal .direct_content .lst_direct li .lnk_direct {
+		color: #cacaca;
+	}
+	
+	.nx_hotel .hotel_normal .layer_direct .content_area {
+		border-top: 1px solid #404040;
+	}
+	
+	.nx_hotel .hotel_normal .txt_warn {
+		background-color: #32312d;
+		color: #cacaca;
+	}
+	
+	.nx_hotel .hotel_normal .layer_direct .txt_warn {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.nx_hotel .hotel_normal .txt_warn .ico_warn {
+		filter: none;
+	}
+	
+	.cs_common_simple .cm_info_box .button_area .button_like, .cs_common_simple .cm_tab_info_box .button_area .button_like, .cs_common_simple .rel_answer_wrap .button_area .button_like {
+		background: #3a3a3a;
+	}
+	
+	.cs_common_simple .api_common_like {
+		color: #cacaca;
+	}
+	
+	.cs_rank_chart .info_box .scroll_box .list>li {
+		background-color: #3a3a3a;
+		border: 1px solid #404040;
+	}
+	
+	.cs_rank_chart .info_box .scroll_box .list>li .title_box .name {
+		color: #fff;
+	}
+	
+	.cs_rank_chart .info_box .scroll_box .list>li .title_box .sub_text {
+		color: #cacaca;
+	}
+	
+	.sp_nvideo .default_title_area {
+		border-top: 1px solid #404040;
+	}
+	
+	.sp_nvideo .default_title_area .title {
+		color: #fff;
+	}
+	
+	.people_info .political_work .one_box {
+		border-top: 1px solid #404040;
+	}
+	
+	.people_info .political_work .bar {
+		border-left-color: #404040;
+	}
+	
+	.people_info .election_record table thead th {
+		border-width: 0 1px 1px 0;
+	}
+	
+	.profile_wrap .detail_profile dt {
+		color: #999;
+	}
+	
+	.people_info .people_type .texttab_type .select .inner {
+		background-color: #3a3a3a;
+		color: #fff;
+	}
+	
+	.people_info .same_name .more, .people_info .same_name .same_list li .same_con span {
+		color: #cacaca;
+	}
+	
+	.people_info .lst_cont li .big_thumb img {
+		border: 1px solid #404040;
 	}
 }
 

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.44
+@version		1.51.52
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -61292,6 +61292,23 @@
 		color: #cacaca;
 	}
 	
+	#place-app-root .sc_new .api_subject_bx .place_section_content>div:nth-child(2)>div>div:first-child>div[class] {
+		color: #fff;
+	}
+	
+	#place-app-root .sc_new .api_subject_bx .place_section_content>div:nth-child(2)>div>div:first-child>div[class]+div>div>span>span {
+		color: #cacaca;
+	}
+	
+	#place-app-root .sc_new .api_subject_bx .place_section_content>div:nth-child(2)>div>div:first-child>div[class]+div>div>span {
+		color: #fff;
+	}
+	
+	#place-app-root .sc_new .api_subject_bx .place_section_content>div:nth-child(2)>div>div:first-child>div[class]+div>div>span>span>span:first-child {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
 	.sp_naside .naside_wrap .entry_list .entry_area .tit_wrap .tit {
 		color: #fff;
 	}
@@ -71843,31 +71860,31 @@
 	}
 	
 	.cs_common_module .sec_screen_schedule .area_schedule_box .bg_gra_right {
-		background: #242424;
-		background: -moz-linear-gradient(to right, rgba(45,45,45,0), #242424 81%);
-		background: -webkit-linear-gradient(to right, rgba(45,45,45,0), #242424 81%);
-		background: linear-gradient(to right, rgba(45,45,45,0), #242424 81%);
+		background: #2f2f2f;
+		background: -moz-linear-gradient(to right, rgba(47,47,47,0), #2f2f2f 81%);
+		background: -webkit-linear-gradient(to right, rgba(47,47,47,0), #2f2f2f 81%);
+		background: linear-gradient(to right, rgba(47,47,47,0), #2f2f2f 81%);
 	}
 	
 	.cs_common_module .sec_screen_schedule .area_schedule_box .bg_gra_left {
-		background: #242424;
-		background: -moz-linear-gradient(to right, #242424 18%, rgba(45,45,45,0) 75%);
-		background: -webkit-linear-gradient(to right, #242424 18%, rgba(45,45,45,0) 75%);
-		background: linear-gradient(to right, #242424 18%, rgba(45,45,45,0) 75%);
+		background: #2f2f2f;
+		background: -moz-linear-gradient(to right, #2f2f2f 18%, rgba(47,47,47,0) 75%);
+		background: -webkit-linear-gradient(to right, #2f2f2f 18%, rgba(47,47,47,0) 75%);
+		background: linear-gradient(to right, #2f2f2f 18%, rgba(47,47,47,0) 75%);
 	}
 	
 	.cs_common_module .sec_screen_schedule .area_slide_box_outer:before {
-		background: #242424;
-		background: -moz-linear-gradient(to right, rgba(45,45,45,0.7), rgba(45,45,45,0) 75%);
-		background: -webkit-linear-gradient(to right, rgba(45,45,45,0.7), rgba(45,45,45,0) 75%);
-		background: linear-gradient(to right, rgba(45,45,45,0.7), rgba(45,45,45,0) 75%);
+		background: #2f2f2f;
+		background: -moz-linear-gradient(to right, rgba(47,47,47,0.7), rgba(47,47,47,0) 75%);
+		background: -webkit-linear-gradient(to right, rgba(47,47,47,0.7), rgba(47,47,47,0) 75%);
+		background: linear-gradient(to right, rgba(47,47,47,0.7), rgba(47,47,47,0) 75%);
 	}
 	
 	.cs_common_module .sec_screen_schedule .area_slide_box_outer:after {
-		background: #242424;
-		background: -moz-linear-gradient(to right, rgba(45,45,45,0), rgba(45,45,45,0.7) 75%);
-		background: -webkit-linear-gradient(to right, rgba(45,45,45,0), rgba(45,45,45,0.7) 75%);
-		background: linear-gradient(to right, rgba(45,45,45,0), rgba(45,45,45,0.7) 75%);
+		background: #2f2f2f;
+		background: -moz-linear-gradient(to right, rgba(47,47,47,0), rgba(47,47,47,0.7) 75%);
+		background: -webkit-linear-gradient(to right, rgba(47,47,47,0), rgba(47,47,47,0.7) 75%);
+		background: linear-gradient(to right, rgba(47,47,47,0), rgba(47,47,47,0.7) 75%);
 	}
 	
 	.cs_common_module .sec_screen_schedule .area_play_box .btn_pannel .this_text {
@@ -73070,6 +73087,557 @@
 	
 	.people_info .lst_cont li .big_thumb img {
 		border: 1px solid #404040;
+	}
+	
+	html[data-useragent*='firefox'] .people_info .political_work .main_info .title .graident, html[data-useragent*='firefox'] .people_info .political_work .one_box .scm_ellipsis > span .graident, html[data-useragent*='firefox'] .people_info .political_work .one_box .scm_ellipsis > a .graident {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_statistics .top_info_wrap .title_area .title {
+		color: #cacaca;
+	}
+	
+	.cs_statistics .top_info_wrap .title_area .data_info .text {
+		color: #cacaca;
+	}
+	
+	.cs_statistics .top_info_wrap .title_area .data_info .text em {
+		color: #fff;
+	}
+	
+	.cs_statistics .top_info_wrap .title_area .data_info .text .date {
+		color: #cacaca;
+	}
+	
+	.cs_statistics .content_wrap {
+		background: #2f2f2f;
+	}
+	
+	.cs_statistics .content_wrap .inner {
+		background-color: #242424;
+	}
+	
+	.cs_statistics .content_wrap .graph_area {
+		background-color: #242424;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_statistics .content_wrap .graph_area .chart_legend ul .item {
+		color: #cacaca;
+	}
+	
+	.cs_statistics .content_wrap .graph_area .chart_legend {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_statistics .content_wrap .guide_text {
+		color: #cacaca;
+	}
+	
+	.cs_statistics .content_wrap .chart_wrap svg g.bb-main rect.bb-background {
+		fill: #242424;
+	}
+	
+	.cs_statistics .tick text tspan {
+		fill: #cacaca;
+	}
+	
+	.cs_statistics .bb-axis-y2-label, .cs_statistics .bb-axis-y-label {
+		fill: #fff;
+	}
+	
+	.cs_statistics .bb .bb-axis path {
+		stroke: #404040;
+	}
+	
+	.cs_statistics .bb-ygrid:last-child, .cs_statistics .bb-ygrid:first-child {
+		stroke: #404040;
+	}
+	
+	.cs_statistics .bb-grid line {
+		stroke: #404040
+	}
+	
+	.cs_statistics .bb-tooltip-container {
+		border: 1px solid #404040;
+	}
+	
+	.cs_statistics .bb-tooltip-container {
+		background: #2f2f2f;
+	}
+	
+	.cs_statistics .bb-tooltip-container th {
+		color: #fff;
+	}
+	
+	.cs_statistics .bb-tooltip-container td {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_statistics .bb-tooltip-container .name {
+		color: #cacaca;
+	}
+	
+	.cs_statistics .bb-tooltip-container .value {
+		color: #cacaca;
+	}
+	
+	.cs_statistics .more_multi {
+		border-top: 1px solid #404040;
+		background-color: #404040;
+		color: #cacaca;
+	}
+	
+	.cs_statistics .content_wrap .middle_title {
+		color: #fff;
+	}
+	
+	.cs_statistics .scroll_box .list_info .list li .info_box a {
+		color: #fff;
+	}
+	
+	.cs_statistics .scroll_box .list_info .list li .info_box {
+		background-color: #3a3a3a;
+	}
+	
+	.cs_statistics .scroll_box .list_info .list li .info_box dl dt {
+		color: #fff;
+	}
+	
+	.cs_statistics .scroll_box .list_info .list li .info_box dl dd {
+		color: #cacaca;
+	}
+	
+	.cs_statistics .content_wrap .tab_area {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_statistics .content_wrap .tab_area .tab_list .tab a {
+		color: #cacaca;
+	}
+	
+	.cs_statistics .content_wrap .tab_area .tab_list .tab[aria-selected="true"] a {
+		color: #fff;
+	}
+	
+	.cs_statistics .content_wrap .tab_area .tab_list .tab[aria-selected="true"] .menu:after {
+		background: #fff;
+	}
+	
+	.cs_statistics .chart_loading .img_loading {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_statistics .chart_loading p {
+		color: #cacaca;
+	}
+	
+	.contents03 #header em {
+		background: none;
+		position: relative;
+		color: #fff;
+	}
+	
+	.contents03 #header em:before {
+		background: url(https://ssl.pstatic.net/sstatic/search/pc/img/ico_plus.gif) no-repeat 0 0;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_produce .cs_tab ul li.on a {
+		border: 1px solid #4f4f4f;
+		border-bottom: none;
+		background: #3a3a3a;
+		color: #fff;
+	}
+	
+	.cs_produce .cs_tab {
+		border-bottom: 2px solid #404040;
+	}
+	
+	.cs_produce .scroll {
+		border: 1px solid #404040;
+		border-top: 0;
+	}
+	
+	.cs_produce .no_dot li:nth-child(4n+1):before {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_produce .no_dot li a p {
+		color: #fff !important;
+	}
+	
+	.cs_produce .cs_tab ul li ul {
+		border-bottom: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.cs_produce .cs_tab ul li ul li.on a {
+		color: #fff !important;
+	}
+	
+	.cs_produce .cs_tab ul li ul li.on {
+		background: none;
+		position: relative;
+	}
+	
+	.cs_produce .cs_tab ul li ul li.on:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/uio/img/ico_selected.gif) no-repeat 0 14px !important;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_produce .cs_tab ul li ul li a {
+		color: #cacaca !important;
+	}
+	
+	.cs_produce a.btn_txt, .cs_produce a.btn_txt_orge {
+		background: #3a3a3a;
+	}
+	
+	.cs_produce a.btn_txt span, .cs_produce a.btn_txt_orge span {
+		background: #3a3a3a;
+	}
+	
+	.cs_produce a.btn_txt span {
+		color: #cacaca;
+	}
+	
+	.cs_produce .prcs_mid_tit h4 {
+		color: #fff;
+	}
+	
+	.cs_produce .prcs_mid_tit a.more {
+		color: #cacaca;
+	}
+	
+	.cs_produce .tb_box .tb_list th {
+		border-color: #404040;
+		color: #fff;
+		background: #2f2f2f;
+	}
+	
+	.cs_produce .tb_box .tb_list td {
+		border-color: #404040;
+		border-width: 1px 0 0 1px;
+		color: #cacaca;
+	}
+	
+	.cs_produce .tb_box {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_produce .prcs_guide p {
+		color: #cacaca;
+	}
+	
+	.cs_produce .prcs_guide .other_links dl dt {
+		color: #fff !important;
+	}
+	
+	.cs_flight_info .hearder_top {
+		border: 1px solid #404040;
+		border-width: 1px 1px 0 1px;
+	}
+	
+	.cs_flight_info .tab_info li.on a {
+		color: #fff;
+	}
+	
+	.cs_flight_info .tab_info li a {
+		color: #cacaca;
+	}
+	
+	.cs_flight_info .tab_line li a {
+		color: #cacaca;
+	}
+	
+	.cs_flight_info .tab_line li.on a {
+		color: #fff;
+	}
+	
+	.cs_flight_info .tab_line li .dot {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_flight_info .sort_data {
+		border: 1px solid #404040;
+		background-color: #3a3a3a;
+	}
+	
+	.cs_flight_info .sort_data a {
+		color: #cacaca;
+	}
+	
+	.cs_flight_info .content_area:after {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_flight_info .content_area {
+		border: 1px solid #404040;
+		border-width: 0 1px 1px;
+	}
+	
+	.cs_flight_info .content_area .flight_list:after {
+		background: #404040;
+	}
+	
+	.cs_flight_info .content_area .item .item_box {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_flight_info .content_area .item .airline_info {
+		color: #cacaca;
+	}
+	
+	.cs_flight_info .content_area .item .flight_name {
+		color: #cacaca;
+	}
+	
+	.cs_flight_info .content_area .item .airline_name {
+		color: #fff;
+	}
+	
+	.cs_flight_info .content_area .item .departure {
+		color: #cacaca;
+	}
+	
+	.cs_flight_info .content_area .item .land {
+		color: #cacaca;
+	}
+	
+	.cs_flight_info .page_btn {
+		border: 1px solid #404040;
+		border-width: 0 1px 1px;
+		background-color: #3a3a3a;
+	}
+	
+	.cs_flight_info .page_btn .page_nav {
+		color: #fff;
+	}
+	
+	.cs_flight_info .page_btn .page_nav .slash {
+		color: #404040;
+	}
+	
+	.cs_flight_info .notice_info {
+		color: #cacaca;
+	}
+	
+	.cs_flight_info .page_btn a {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_flight_info .sort_data .open .ly_pop {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_flight_info .sort_data .ly_pop dt {
+		border-bottom: 1px solid #404040;
+		color: #fff;
+	}
+	
+	.cs_flight_info .sort_data .ly_pop dd {
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_flight_info .sort_data .ly_pop dd {
+		color: #cacaca;
+	}
+	
+	.cs_flight_info .empty_error .tit {
+		color: #fff;
+	}
+	
+	.cs_flight_info .empty_error .txt {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .market_info {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_common_module .market_info .price_list>li .item_title {
+		color: #fff;
+	}
+	
+	.cs_common_module .market_info .price_list>li .item_info del {
+		color: #999;
+	}
+	
+	.cs_common_module .market_info .price_list>li .item_sub {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .market_info .price_list>li .item_sub .num {
+		color: #93a8d5;
+	}
+	
+	.cs_common_module .market_info+.audio_player:before {
+		background-color: #404040;
+	}
+	
+	.cs_common_module .audio_player .audio_cont .time {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .audio_player .audio_title .this_txt {
+		color: #fff;
+	}
+	
+	.cs_common_module .cm_info_box .activity_info .scroll_box .innner, .cs_common_module .cm_info_box.scroll_activity .scroll_box .innner {
+		background-color: #3a3a3a;
+	}
+	
+	.cs_common_module .cm_info_box .activity_info .scroll_box .tilte, .cs_common_module .cm_info_box.scroll_activity .scroll_box .tilte {
+		color: #fff;
+	}
+	
+	.cs_common_module .cm_info_box .activity_info .scroll_box .info_box .desc, .cs_common_module .cm_info_box.scroll_activity .scroll_box .info_box .desc {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .cm_info_box .activity_info .scroll_box .sub_info .date, .cs_common_module .cm_info_box.scroll_activity .scroll_box .sub_info .date {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .cm_info_box .activity_info .scroll_box .sub_info:after, .cs_common_module .cm_info_box.scroll_activity .scroll_box .sub_info:after {
+		background-color: #4f4f4f;
+	}
+	
+	.cs_common_module .audio_player .audio_cont .range_area .progress_box {
+		background-color: #4f4f4f;
+	}
+	
+	.cs_common_module .cm_pure_box .intro_box .intro_head .info_area .title_txt, .cs_common_module .cm_tab_info_box .intro_box .intro_head .info_area .title_txt {
+		color: #fff;
+	}
+	
+	.cs_common_module .cm_pure_box .intro_box .intro_head .info_area .sub_txt, .cs_common_module .cm_tab_info_box .intro_box .intro_head .info_area .sub_txt {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .cm_pure_box .intro_box .sub_info dt, .cs_common_module .cm_tab_info_box .intro_box .sub_info dt {
+		color: #999;
+	}
+	
+	.cs_common_module .cm_pure_box .intro_box .sub_info dd, .cs_common_module .cm_tab_info_box .intro_box .sub_info dd {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .box_normal_list .info_box .inner .title_box .title .this_text {
+		color: #fff;
+	}
+	
+	.cs_common_module .box_normal_list .info_box .inner .title_box .title .ico_npay, .cs_common_module .box_normal_list .info_box .inner .info .sub_text .ico_delivery {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_common_module .box_normal_list .info_box .inner .title_box .desc_txt {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .box_normal_list .info_box .inner .info .sub_text {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .box_normal_list .info_box+.info_box {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_common_module .cm_paging_area.type_border:before {
+		background: #404040;
+	}
+	
+	.cs_common_module .review_list li .reviewer .review_date .review_link {
+		color: #fff;
+	}
+	
+	.cs_common_module .cm_pure_box .intro_box .text, .cs_common_module .cm_tab_info_box .intro_box .text {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .cm_info_box .button_area .button_box a.place:before, .cs_common_module .cm_pure_box .button_area .button_box a.place:before, .cs_common_module .cm_tab_info_box .button_area .button_box a.place:before, .cs_common_module .rel_answer_wrap .button_area .button_box a.place:before {
+		filter: invert(78%) hue-rotate(-180deg);
+	}
+	
+	.sp_nbook .list_info .item_title {
+		color: #999;
+	}
+	
+	.cs_custom_list .list_bx .spot_box {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_custom_list .list_bx .spot_box .scm_ellipsis strong, .cs_custom_list .list_bx .spot_box .info_text strong a {
+		color: #fff;
+	}
+	
+	.cs_custom_list .list_bx .spot_box .layer_warp .btn_layer {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_custom_list .list_bx .spot_box .info_text dd {
+		color: #cacaca;
+	}
+	
+	.cs_custom_list .list_bx .spot_box .other_info {
+		background-color: #3a3a3a;
+	}
+	
+	.cs_custom_list .list_bx .spot_box .other_info li .text {
+		color: #cacaca;
+	}
+	
+	.cs_custom_list .list_bx .spot_box .other_info li .ico_bar {
+		background-color: #4f4f4f;
+	}
+	
+	.cs_custom_list .list_bx .spot_box .layer_warp .layer {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_custom_list .list_bx .spot_box .layer_warp .layer .layer_tit {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_custom_list .list_bx .spot_box .layer_warp .layer .layer_tit a {
+		color: #cacaca;
+	}
+	
+	.cs_custom_list .list_bx .spot_box .layer_warp .layer .layer_content .content_list li strong {
+		color: #fff;
+	}
+	
+	.cs_custom_list .list_bx .spot_box .layer_warp .layer .layer_content .content_list li p {
+		color: #cacaca;
+	}
+	
+	.cs_custom_list .list_bx .spot_box .layer_warp .layer .etc_link {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_custom_list .list_bx .spot_box .layer_warp .layer .etc_link ul li {
+		background-color: #404040;
+	}
+	
+	.cs_custom_list .list_bx .spot_box .layer_warp .layer .etc_link ul li a {
+		color: #cacaca;
 	}
 }
 

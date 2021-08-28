@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.52
+@version		1.51.57
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -66387,11 +66387,9 @@
 		background-color: #3a3a3a;
 	}
 	
-	.cs_common_module .league_schedule .match_content .match_list .team_thumb img {
+	.cs_common_module .league_schedule .match_content .match_list .team_thumb img:not([alt*="TBD"]) {
 		clip: rect(7px, calc(45px - 7px), calc(34px - 7px), 7px);
 		position: absolute;
-		width: 100%;
-		height: 100%;
 		left: 0;
 		top: 0;
 	}
@@ -71762,7 +71760,7 @@
 	}
 	
 	.cs_common_module .cm_tap_area .type_title .tab_list li {
-		background: #242424 !important;
+		background: #2f2f2f !important;
 	}
 	
 	.cs_same_collection .collection_list ul li dl dd {
@@ -73638,6 +73636,171 @@
 	
 	.cs_custom_list .list_bx .spot_box .layer_warp .layer .etc_link ul li a {
 		color: #cacaca;
+	}
+	
+	.cs_common_module .league_schedule .cm_tap_area.no_tab_border {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_common_module .cm_tap_area.no_tab_border .type_main .tab_list .tab .menu {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .league_schedule .lego_scroll_date.type_no_border {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_common_module .lego_scroll_date {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_common_module .league_schedule .match_content.end .match_title .state_mark {
+		background-color: #404040;
+		color: #cacaca;
+	}
+	
+	.cs_common_module .league_schedule .league_timeline .timeline_box .cm_bar {
+		background-color: #4f4f4f;
+	}
+	
+	.cs_common_module .league_schedule .league_timeline .timeline_box .cm_date {
+		color: #fff;
+	}
+	
+	.cs_common_module .league_schedule .match_content .match_title .match_time .text {
+		color: #cacaca;
+	}
+	
+	.sp_recruit .recruit_wrap .title_area .sub_title {
+		color: #fff;
+	}
+	
+	.sp_recruit .recruit_wrap {
+		border-top: 1px solid #404040;
+	}
+	
+	.sp_recruit .recruit_wrap .info_area .info .item {
+		color: #cacaca;
+	}
+	
+	.sp_recruit .recruit_wrap .info_area .info .item+.item:before {
+		background-color: #404040;
+	}
+	
+	.sp_recruit .dsc_alert {
+		border-top: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.cs_activity .detail h4 img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_activity .cont_area {
+		background: #242424;
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_activity .cont_area .lst li h5 {
+		color: #fff;
+	}
+	
+	.cs_activity .btm_line {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_activity .ac_box {
+		background: none;
+		position: relative;
+	}
+	
+	.cs_activity .ac_box:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/campaign/img/2012/bg_box.gif) no-repeat;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_activity .top_pic {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_activity .cont_area .lst li.last {
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_activity .cont_area .lst li .lst_set li {
+		color: #cacaca !important;
+	}
+	
+	.cs_activity .line_bar, .cs_activity .line_bar2 {
+		color: #404040 !important;
+	}
+	
+	.sp_nsite .nsite_name .ico_wrap .api_ico_translate, .sp_nsite .nsite_name .ico_wrap .api_service_wrap, .sp_nsite .nsite_name .ico_wrap>[class*=api_ico] {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_infant .main_tab {
+		background-color: #3a3a3a;
+		border: 1px solid #404040;
+		border-width: 1px 1px 0;
+	}
+	
+	.cs_infant .main_tab ul li a {
+		color: #fff;
+	}
+	
+	.cs_infant .video_wrap {
+		border: 1px solid #404040;
+	}
+	
+	.cs_infant .page_area {
+		border: 1px solid #404040;
+		border-top: 1px solid #404040;
+		background-color: #3a3a3a;
+	}
+	
+	.cs_infant .page_area .btn_page {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_infant .page_area .page_number {
+		color: #4f4f4f;
+	}
+	
+	.cs_infant .page_area .page_number .total {
+		color: #fff;
+	}
+	
+	.cs_infant .video_list .video_desc a {
+		color: #fff;
+	}
+	
+	.cs_infant .video_list .update_info .channel_name, .cs_infant .sub_info a {
+		color: #cacaca;
+	}
+	
+	.cs_infant .info_bottom>span {
+		color: #fff;
+	}
+	
+	.cs_infant .main_tab .btn_next.on .arrow {
+		filter: brightness(1000%);
+	}
+	
+	.cs_infant .page_area .btn_page span {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_common_module .cm_pure_box.lego_rating_slide_outer .fixed_box {
+		border-top: 1px solid #404040;
 	}
 }
 

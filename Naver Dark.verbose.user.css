@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.57
+@version		1.51.58
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -73801,6 +73801,76 @@
 	
 	.cs_common_module .cm_pure_box.lego_rating_slide_outer .fixed_box {
 		border-top: 1px solid #404040;
+	}
+	
+	.cs_navertime .time_bx {
+		border-bottom: 1px solid #404040;
+		border: 1px solid #404040;
+	}
+	
+	.cs_navertime .sp_img {
+		filter: invert(100%) hue-rotate(-180deg);
+	}
+	
+	.cs_navertime .bx_alrt_txt {
+		border: 1px solid #404040;
+		border-width: 0 1px 1px;
+	}
+	
+	.cs_navertime .bx_alrt_txt .inp_chkbx+label {
+		background: none;
+		position: relative;
+		color: #fff;
+	}
+	
+	.cs_navertime .bx_alrt_txt .inp_chkbx.checked+label {
+		background: none;
+	}
+	
+	.cs_navertime .bx_alrt_txt .inp_chkbx.checked+label:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/scui/navertime/img/sp_navertime.png) -658px -127px no-repeat;
+	}
+	
+	.cs_navertime .bx_alrt_txt .inp_chkbx+label:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/scui/navertime/img/sp_navertime.png) -658px -76px no-repeat;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_navertime .noti_area p {
+		color: #cacaca;
+		background: none;
+		position: relative;
+	}
+	
+	.cs_navertime .noti_area p:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/lifesrch/weather/img/ico_info.gif) 1px 0 no-repeat;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_navertime .bx_alrt_txt .ly_alrtbx .alrt_msg {
+		color: #cacaca;
+	}
+	
+	.cs_navertime .bx_alrt_txt .ly_alrtbx>ul>li>a {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.api_error .tit_message {
+		color: #fff;
 	}
 }
 

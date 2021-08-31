@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.69
+@version		1.51.70
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -2576,6 +2576,162 @@
 	
 	.mailListHead .tip_receipt_box .icon {
 		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.dh_layer .info1 {
+		color: #fff;
+	}
+	
+	.dh_layer .bx_spam {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.dh_layer .under_chkbox {
+		color: #cacaca;
+	}
+	
+	.dh_layer .type_b .p2 {
+		color: #cacaca;
+	}
+	
+	.dh_layer.add_address .tbl_address th {
+		background-color: #2f2f2f;
+		border-top-color: #404040;
+		border-bottom-color: #404040;
+	}
+	
+	.dh_layer.add_address .address_scrl_area {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.dh_layer .p7, .dh_layer .btn_autoindex {
+		color: #cacaca;
+	}
+	
+	.cleanup_check label {
+		color: #cacaca;
+	}
+	
+	.shortcut_layer h3 {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.type_alert .layer_content {
+		border-color: #404040;
+		background: #2f2f2f;
+	}
+	
+	.type_alert h4 {
+		color: #fff;
+	}
+	
+	.type_alert .btn_area button.b {
+		background-color: #3a3a3a;
+	}
+	
+	.type_alert .btn_area button {
+		border: 1px solid #404040;
+		color: #fff;
+	}
+	
+	.type_alert .desc {
+		color: #cacaca;
+	}
+	
+	.block_list .block_list_head .reason {
+		border-left: 1px solid #404040;
+	}
+	
+	.block_list .block_list_head .file_name, .block_list .block_list_head .reason {
+		color: #cacaca;
+	}
+	
+	.block_list .block_list_head {
+		border: 1px solid #404040;
+		background-color: #3a3a3a;
+	}
+	
+	.block_list .block_list_cover {
+		border: 1px solid #404040;
+	}
+	
+	.type_alert .about_link {
+		color: #cacaca;
+	}
+	
+	.type_alert .about_link .bu_right {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.faq_exam_list li a {
+		color: #cacaca;
+	}
+	
+	.dh_layer .tab_receipt {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.dh_layer .tab_receipt li a {
+		border-top: 1px solid #404040;
+		border-right: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.dh_layer .tab_receipt li {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.dh_layer .tab_receipt li a.selected {
+		background-color: #3a3a3a;
+		border-bottom: 1px solid #404040;
+		color: #fff;
+	}
+	
+	.dh_layer .receipt_tip li {
+		color: #cacaca;
+	}
+	
+	.dh_layer .noti_text {
+		color: #cacaca;
+	}
+	
+	.lst_info li {
+		color: #cacaca;
+	}
+	
+	.lst_info {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.box_listup ul {
+		border: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.box_listup h5 {
+		color: #fff;
+		background: none;
+		position: relative;
+	}
+	
+	.box_listup h5:before {
+		background-image: url(https://ssl.pstatic.net/static/pwe/nm/ico_mail1_160510.png);
+		background-repeat: no-repeat;
+		background-position: -11px -1985px;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.dh_layer .p1 {
+		color: #cacaca;
 	}
 }
 

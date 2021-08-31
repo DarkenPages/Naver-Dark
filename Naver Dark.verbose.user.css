@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.71
+@version		1.51.72
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -73920,7 +73920,7 @@
 		color: #404040 !important;
 	}
 	
-	.sp_nsite .nsite_name .ico_wrap .api_ico_translate, .sp_nsite .nsite_name .ico_wrap .api_service_wrap, .sp_nsite .nsite_name .ico_wrap>[class*=api_ico] {
+	.sp_nsite .nsite_name .ico_wrap .api_ico_translate, .sp_nsite .nsite_name .ico_wrap>[class*=api_ico] {
 		filter: invert(81.5%) hue-rotate(-180deg);
 	}
 	
@@ -74441,6 +74441,70 @@
 	
 	.ad_section .lst_type .lst .ad_dsc.law_num .point {
 		color: #999;
+	}
+	
+	.cs_disaster_prepare .disaster_prepare {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.cs_disaster_prepare .tab_area {
+		border-bottom: 1px solid #404040;
+		background-color: #3a3a3a;
+	}
+	
+	.cs_disaster_prepare .tab_area .list_tab li a .menu {
+		color: #fff;
+	}
+	
+	.cs_disaster_prepare .tab_area.sub {
+		background-color: #3a3a3a;
+	}
+	
+	.cs_disaster_prepare .tab_area.sub .list_tab li.on a .menu {
+		color: #fff;
+	}
+	
+	.cs_disaster_prepare .tab_area.sub .list_tab li a .menu {
+		color: #cacaca;
+	}
+	
+	.cs_disaster_prepare .disaster_content .disaster_table {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_disaster_prepare .disaster_content .disaster_table th {
+		color: #fff;
+		border: 1px solid #404040;
+		border-width: 1px 0;
+		background-color: #3a3a3a;
+	}
+	
+	.cs_disaster_prepare .disaster_content .disaster_table td {
+		color: #cacaca;
+		border: 1px solid #404040;
+		border-width: 1px 1px 0;
+	}
+	
+	.cs_disaster_prepare .page_area .paging_bx a[class^=btn_page_] {
+		border: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	.cs_disaster_prepare .page_area .page_number .total {
+		color: #fff;
+	}
+	
+	.cs_disaster_prepare .page_area .page_number {
+		color: #404040;
+	}
+	
+	.cs_disaster_prepare .disaster_info {
+		color: #cacaca;
+	}
+	
+	.cs_disaster_prepare .page_area .paging_bx a[class^=btn_page_] .ico_spr {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 }
 

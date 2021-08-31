@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.70
+@version		1.51.71
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -1546,6 +1546,10 @@
 		color: #fff;
 	}
 	
+	.notelist_item .from a, .notelist_item .title a {
+		color: #688cda;
+	}
+	
 	/* Customized GNB Profile */
 	
 	.gnb_notice_li a.gnb_notice .gnb_icon, .mail_li a.gnb_mail .gnb_icon, .gnb_service_li a.gnb_service .gnb_icon {
@@ -2156,7 +2160,7 @@
 	}
 	
 	.mailList .notRead .mTitle a {
-		color: #6bacfc;
+		color: #688cda;
 	}
 	
 	.gnb_notice_li a.gnb_notice .gnb_icon, .mail_li a.gnb_mail .gnb_icon, .gnb_service_li a.gnb_service .gnb_icon {

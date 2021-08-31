@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.70
+@version		1.51.71
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -3051,7 +3051,7 @@
     .ly_tooltip_green { background-color: #019341 }
     .ly_tooltip_green .msg,.toTop a { color: #000 !important }
     .ly_tooltip_green.ly_tooltip_smart_mail .btn_close { filter: brightness(0) }
-    .mailList .notRead .mTitle a { color: #6bacfc }
+    .mailList .notRead .mTitle a { color: #688cda }
     .mailListHead strong,#sign_prview_layer table tr:not(:first-child) td a { color: #fff !important }
     .make_sign .sign_input { border-top: 1px solid #404040;border-right: 1px solid #404040;border-left: 1px solid #404040;border-bottom: 1px solid #404040 }
     .notify_area .alert { background-color: #242424 }
@@ -3764,6 +3764,7 @@
     .note_setup .setup_items { border-top: 2px solid #404040;border-bottom: 1px solid #404040;background: #2f2f2f }
     .notelist_head { border-bottom: 1px solid #404040;background-color: #242424 }
     .notelist_head .note_cont .from,.notelist_head .note_cont .title,.notelist_head .note_info .date,.notelist_head .note_info .date_send,.notelist_head .note_info .refuse { border-left: 1px solid #404040 }
+    .notelist_item .from a,.notelist_item .title a { color: #688cda }
     .notelist_item li.ovr,.notelist_item li.selected { background-color: #2f2f2f }
     .send_window .tf_cont .tx input { color: #cacaca !important;background: #242424 }
     .setup_menu_area li { border: 1px solid #404040;border-bottom: 0;background-color: #242424 }

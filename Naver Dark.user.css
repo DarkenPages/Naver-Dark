@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.74
+@version		1.51.75
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -1091,7 +1091,7 @@
     .blog2_list .wrap_td .cline,.blog2_list thead th .wrap_td .cline,.blog2_list thead th .pcol2,.fil1,.fil2,.fil3,.fil3,.se_documentTitle .se_sectionArea .blog2_container .txt,.wrap_rabbit .se-documentTitle .blog2_container .txt,.se_documentTitle .se_sectionArea .blog2_post_function .url,.wrap_rabbit .se-documentTitle .blog2_post_function .url,.se_documentTitle .se_sectionArea .blog2_series .pcol2,.wrap_rabbit .se-documentTitle .blog2_series .pcol2,#prologue .line img,#prologue .yline img { opacity: 1;filter: none }
     .buddy_state .buddy_box,.buddy_state .setting_buddy_box,.cwg_wrap .cwg_btm,.floating_header .list_autocomplete,.layer_pop .pbtn,.ly_app_set .ly_app_btn,.nc_light .nc_info,.nc_light .nc_info4,.postsend_layer .postsend_paging,.se-viewer .se-file-save-option .se-file-save-option-item,.se-viewer .se-schedule-content,#edit_module .write_atheroma .sub_select,#edit_module ul.post .chk_user_default,#gnb-direct1.ly_gnb .last:before,#gnb-direct1.mblog .last:before,#profile ul.profile_etc { border-top: 1px solid #404040 }
     .ccl_layer .content,.wrap_blog2_sympathy .list_sympathy .area_more .layer_more { border: 1px solid #404040;background-color: #242424 }
-    .ccl_layer p strong,.cwg_wrap .cwg_lst h2 a,.error_h1,.ex_sns .tit,.floating_category .link_user_blog .user_name,.ly_app_set .set_tt,.moment_event_da-text,.nc_skin9 .profile_name,.nc_skin9 .profile_name a,.pop_buddy_add_lyr .bloger .txt,.se_docSourceTitle,.se_infoDocSource strong,.se_oglink .se_og_tit,.se-viewer .se-file-name-container,.se-viewer .se-material-title,.se-viewer .se-schedule-title-text,.se-viewer .se-section-placesMap .se-map-title,.se-viewer .se-video .se-media-meta-info-tag,.search_form .select a,.search_list_option li.on a,.temporary_write .txt_03,.u_trans_module .u_trans_wrap .u_lang_set .u_slt .u_btn_slt:hover,.wrap_blog2_list .wrap_ctrl .area_btn2 .area_select .dropdown_select .option,#blog-calendar .col2,#blog-menu .on,#blog-profile .col,#blog-profile .lyr_official_blog strong,#blogTitleName,#edit_module .bi2 .temp_save span,#edit_module .write_atheroma div .theme_search .result,#edit_module ul.post .setting .link,#edit_module ul.post .setting .send_post_set dt,#edit_module ul.post .tag strong,#edit_module ul.post label,#post-area .pcol1,.pcol1,#post-area .pcol3,.pcol3,#widget-weather .today-temperature,#widget-weather .tomorrow-temperature,#wrapper .cm-icol { color: #fff }
+    .ccl_layer p strong,.cwg_wrap .cwg_lst h2 a,.error_h1,.ex_sns .tit,.floating_category .link_user_blog .user_name,.ly_app_set .set_tt,.moment_event_da-text,.nc_skin9 .profile_name,.nc_skin9 .profile_name a,.pop_buddy_add_lyr .bloger .txt,.se_docSourceTitle,.se_infoDocSource strong,.se_oglink .se_og_tit,.se-viewer .se-file-name-container,.se-viewer .se-material-title,.se-viewer .se-schedule-title-text,.se-viewer .se-section-placesMap .se-map-title,.se-viewer .se-video .se-media-meta-info-tag,.search_form .select a,.search_list_option li.on a,.temporary_write .txt_03,.u_trans_module .u_trans_wrap .u_lang_set .u_slt .u_btn_slt:hover,.wrap_blog2_list .wrap_ctrl .area_btn2 .area_select .dropdown_select .option,#blog-calendar .col2,#blog-counter .cnt2,#blog-menu .on,#blog-profile .col,#blog-profile .lyr_official_blog strong,#blogTitleName,#edit_module .bi2 .temp_save span,#edit_module .write_atheroma div .theme_search .result,#edit_module ul.post .setting .link,#edit_module ul.post .setting .send_post_set dt,#edit_module ul.post .tag strong,#edit_module ul.post label,#post-area .pcol1,.pcol1,#post-area .pcol3,.pcol3,#widget-weather .today-temperature,#widget-weather .tomorrow-temperature,#wrapper .cm-icol { color: #fff }
     .cmp_wrap .cmp_tt,.floating_category .list_category .item:first-child,.floating_header .search_box:focus,.floating_header .search_box:hover,.se_documentTitle .se_sectionArea .blog2_post_function .btn_buddy .aline,.wrap_rabbit .se-documentTitle .blog2_post_function .btn_buddy .aline,#blog-menu .border,#gnb-direct1.mblog:before,#post-area .post,#post-area .se_documentTitle.is-bg .se_sectionArea .blog2_post_function .btn_stat .aline,#post-area .wrap_rabbit .se-documentTitle.se-documentTitle-cover-image .blog2_post_function .btn_stat .aline,#wrapper .cm-border { border-color: #404040 }
     .cnt_guest { z-index: initial }
     .cwg_master,.libr_wrp { border-radius: 10px;background: rgba(0, 0, 0, .25) }
@@ -1171,8 +1171,8 @@
     #blog-calendar .border { border-color: transparent;background: transparent }
     #blog-category ul li.dilind input { color: #404040 !important }
     #blog-counter { height: auto;border: 0;border-radius: 10px;background: rgba(0, 0, 0, .25);background: rgba(0, 0, 0, .25) }
-    #blog-counter .cnt1,#blog-counter .cnt2 { text-align: right !important;font-size: 13px !important }
-    #blog-counter .cnt2 { margin-top: 0px;margin-bottom: 10px;color: #fff }
+    #blog-counter .cnt1,#blog-counter .cnt2 { width: 100%;top: 0;text-align: right !important;text-align: right;right: 0;position: absolute;margin: 0;height: 100%;font-weight: bold;font-size: 13px !important;display: block }
+    #blog-counter .today { margin-top: 10px }
     #blog-counter .today,#blog-counter .total { width: 165px !important;position: relative;height: 24px }
     #blog-counter p span.txt { transform: translate(0, -50%);top: 50%;text-transform: uppercase;text-align: left;position: absolute;left: 10px;height: 100%;font-weight: bold;display: block;color: #cacaca }
     #blog-gnb { position: relative;height: 35px;box-shadow: 0 0 3px black;background: #2f2f2f }

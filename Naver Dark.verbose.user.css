@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.75
+@version		1.51.77
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -26722,7 +26722,7 @@
 	}
 }
 
-@-moz-document url-prefix("https://post.naver.com/viewer"), url-prefix("https://m.post.naver.com/viewer"), url-prefix("https://post.naver.com/my.nhn"), url-prefix("https://m.post.naver.com/my.nhn"), url-prefix("https://post.naver.com/my/series"), url-prefix("https://m.post.naver.com/my/series"), url-prefix("https://post.naver.com/author"), url-prefix("https://m.post.naver.com/author")
+@-moz-document url-prefix("https://post.naver.com/viewer"), url-prefix("https://m.post.naver.com/viewer"), url-prefix("https://post.naver.com/my.nhn"), url-prefix("https://m.post.naver.com/my.nhn"), url-prefix("https://post.naver.com/my/series"), url-prefix("https://m.post.naver.com/my/series"), url-prefix("https://post.naver.com/author"), url-prefix("https://m.post.naver.com/author"), url-prefix("https://post.naver.com/my.naver")
 {
 	html, head, body {
 		background: #242424 !important;
@@ -27392,7 +27392,7 @@
 		color: #cacaca;
 	}
 	
-	#ct *[style] {
+	#ct *[style]:not(.u_cbox_ico_best):not(.ell) {
 		background: #242424 !important;
 		color: #cacaca !important;
 	}
@@ -27665,6 +27665,132 @@
 		border: 1px solid #404040;
 		border-width: 1px 0;
 		background-color: #242424;
+	}
+	
+	.cap strong {
+		color: #fff;
+	}
+	
+	.t_lv_tit h4 {
+		background: #242424;
+		color: #fff;
+	}
+	
+	.t_lv_tit p {
+		color: #cacaca;
+	}
+	
+	.t_lv_tit {
+		border-color: #404040;
+	}
+	
+	.na_summary_info li>span {
+		color: #cacaca;
+	}
+	
+	.na_summary_info li {
+		position: relative;
+		background: none;
+	}
+	
+	.na_summary_info li:before {
+		background: url(http://static.naver.net/ncc/image/naml/p/na_bg_separator.gif) no-repeat;
+		background-position: 0 5px;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.t_txt {
+		color: #cacaca;
+	}
+	
+	.sect_post_detail_area .read_cnt {
+		color: #cacaca;
+	}
+	
+	.t_pdate span {
+		color: #cacaca;
+	}
+	
+	.t_pdate strong {
+		color: #fff;
+	}
+	
+	.end .like .btn_area .btn_comment {
+		border-left: 0;
+	}
+	
+	.u_cbox .u_cbox_paginate .u_cbox_cnt_page {
+		color: #cacaca;
+	}
+	
+	.sect_title .post_date, .sect_title .post_view {
+		color: #cacaca;
+	}
+	
+	.sect_title .divide_line {
+		background-color: #404040;
+	}
+	
+	.sect_post_detail_area .read_cnt .bar {
+		background: #404040;
+	}
+	
+	@media only screen and (min-width: 768px) {
+		
+		.pc .sect_namecard .desc {
+			color: #cacaca;
+		}
+	}
+	
+	.og.post_add.post_add_product .txt_align {
+		background-color: #2f2f2f;
+	}
+	
+	.og.post_add {
+		background: #404040;
+	}
+	
+	.og.post_add .tit, .og.post_add .tit2 {
+		color: #fff;
+	}
+	
+	.og.post_add dt {
+		color: #cacaca;
+	}
+	
+	.og.post_add_product dd {
+		color: #cacaca;
+	}
+	
+	.og.post_add dd {
+		color: #cacaca;
+	}
+	
+	.og.post_add_product a.price_comparison {
+		color: #cacaca;
+	}
+	
+	.editor_card_section .sect_series_wrap .sect_inner {
+		border-top: 1px solid #404040;
+	}
+	
+	.editor_card_section .sect_series_wrap .series_title .title {
+		color: #fff;
+	}
+	
+	.best_post .best_post_inner .desc {
+		color: #cacaca;
+	}
+	
+	.quotation_underline .se_editView {
+		border-bottom: 1px solid #404040;
 	}
 }
 
@@ -74533,6 +74659,188 @@
 	
 	.cs_activity .thumb img {
 		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_season_cooking .tabview {
+		border: 1px solid #404040;
+		border-width: 1px 1px 0;
+	}
+	
+	.cs_season_cooking .tab-cont {
+		background: #3a3a3a;
+	}
+	
+	.cs_season_cooking .tab-cont .tab {
+		position: relative;
+		background: none;
+	}
+	
+	.cs_season_cooking .tab-cont .tab:first-child:before {
+		background: none;
+	}
+	
+	.cs_season_cooking .tab-cont .tab:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/season_cooking/img/bg_bar.png) no-repeat 0 13px;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_season_cooking .pr_tab_a {
+		color: #cacaca;
+	}
+	
+	.cs_season_cooking .on .pr_tab_a {
+		background: #3f3f3f;
+		color: #fff;
+		border: 1px solid #404040;
+		border-width: 1px 1px 0;
+	}
+	
+	.cs_season_cooking .food_tab {
+		border-left: 1px solid #404040;
+		border-right: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_season_cooking .stab li a {
+		background: none;
+		position: relative;
+		color: #cacaca;
+	}
+	
+	.cs_season_cooking .stab li a:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/season_cooking/img/bg_bar.png) no-repeat 0 15px;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_season_cooking .stab .on a {
+		color: #fff;
+	}
+	
+	.cs_season_cooking .lst_other2 {
+		border: 1px solid #404040;
+		border-width: 0 1px 1px;
+	}
+	
+	.cs_season_cooking .lst_detail .lst_data .tit span {
+		color: #fff !important;
+	}
+	
+	.cs_season_cooking .lst_detail .lst_data dd span {
+		color: #999;
+	}
+	
+	.cs_season_cooking .lst_detail p {
+		color: #cacaca;
+	}
+	
+	.cs_season_cooking .lst_detail .lst_data .tit {
+		background: none;
+		color: #fff !important;
+		position: relative;
+	}
+	
+	.cs_season_cooking .lst_detail .lst_data .tit:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/sign/img/20140305/ico_bar.gif) no-repeat 100% 3px;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_season_cooking .other_cook {
+		background-color: #3a3a3a;
+	}
+	
+	.cs_season_cooking .lst_detail.v2 {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_season_cooking .lst_other {
+		border: 1px solid #404040;
+		border-width: 0 1px 1px;
+	}
+	
+	.cs_season_cooking .page_navi {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_season_cooking .page_navi.no_line {
+		border-top: 0;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_season_cooking .page_navi .pre, .cs_season_cooking .page_navi .next {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_season_cooking .guide_info .txt_guide {
+		background: none;
+		position: relative;
+		background: none;
+		color: #cacaca;
+	}
+	
+	.cs_season_cooking .guide_info .txt_guide:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/season_cooking/img/sp_season_cooking.png) no-repeat 0 -79px;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_season_cooking .other_cook .flex {
+		border: 1px solid #404040;
+		border-top: 0;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_season_cooking .other_cook .flex .flex_s {
+		color: #cacaca;
+	}
+	
+	.cs_season_cooking .lst_other ul {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_season_cooking .lst_other .cont_area .txt_mon {
+		color: #cacaca;
+	}
+	
+	.cs_season_cooking .txt_noti {
+		border: 1px solid #404040;
+		border-width: 0 1px;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_season_cooking .txt_noti p {
+		color: #cacaca;
+	}
+	
+	.cs_season_cooking .tab:first-child.on .pr_tab_a {
+		background: #404040;
+		border-left: 0;
 	}
 }
 

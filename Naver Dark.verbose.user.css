@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.78
+@version		1.51.79
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -71533,11 +71533,11 @@
 	
 	.cs_common_module .list_type .top_answer_area {
 		position: relative;
-		z-index: 99999;
+		z-index: 999;
 	}
 	
 	.cs_common_module .list_type .top_answer_area .category {
-		z-index: 9999;
+		z-index: 1;
 		color: #cacaca !important;
 		border: 1px solid #4f4f4f !important;
 	}
@@ -71547,7 +71547,7 @@
 	}
 	
 	.cs_common_module .lego_scroll_middle .area_scroll_middle .area_text_box {
-		z-index: 9999;
+		z-index: 1;
 		position: relative;
 		color: #cacaca !important;
 	}
@@ -71563,7 +71563,7 @@
 	
 	.cs_common_module.case_list .lego_scroll_middle .area_scroll_middle li:before {
 		background-color: #4f4f4f;
-		z-index: 9999;
+		z-index: 1;
 	}
 	
 	.api_random_banner.type_fixed {

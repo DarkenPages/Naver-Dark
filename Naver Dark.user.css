@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.78
+@version		1.51.79
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -4453,11 +4453,11 @@
     .cs_common_module .lego_scroll_date .area_design_left { background: linear-gradient(to right, #2f2f2f 3%, rgba(47,47,47,0)) }
     .cs_common_module .lego_scroll_date .area_design_right { background-image: linear-gradient(to left, #2f2f2f 3%, rgba(47,47,47,0)) }
     .cs_common_module .lego_scroll_date .area_scroll_date .area_card>li.state_focus .area_text_box .this_text:before,.cs_common_module .lego_scroll_date .area_scroll_date .area_card>li[aria-selected="true"] .area_text_box .this_text:before { background-color: #fff }
-    .cs_common_module .lego_scroll_middle .area_scroll_middle .area_text_box { z-index: 9999;position: relative;color: #cacaca !important }
+    .cs_common_module .lego_scroll_middle .area_scroll_middle .area_text_box { z-index: 1;position: relative;color: #cacaca !important }
     .cs_common_module .lego_scroll_middle .next_visual.on[style],.cs_common_module .lego_scroll_middle .pre_visual.on[style],.cs_foreigninfo .ch_wrap .lst_select li .lst_lamp,.flight_calendar .calendar_info:before { filter: invert(79%) hue-rotate(-180deg) }
     .cs_common_module .list_image_info .item { box-shadow: 0 2px 3px 0 rgba(255, 255, 255, 0.04), 0 0 2px 0 rgba(255, 255, 255, 0.15);-webkit-box-shadow: 0 2px 3px 0 rgba(255, 255, 255, 0.04), 0 0 2px 0 rgba(255, 255, 255, 0.15);-moz-box-shadow: 0 2px 3px 0 rgba(255, 255, 255, 0.04), 0 0 2px 0 rgba(255, 255, 255, 0.15) }
-    .cs_common_module .list_type .top_answer_area { z-index: 99999;position: relative }
-    .cs_common_module .list_type .top_answer_area .category { z-index: 9999;color: #cacaca !important;border: 1px solid #4f4f4f !important }
+    .cs_common_module .list_type .top_answer_area { z-index: 999;position: relative }
+    .cs_common_module .list_type .top_answer_area .category { z-index: 1;color: #cacaca !important;border: 1px solid #4f4f4f !important }
     .cs_common_module .market_info .price_list>li .item_sub .num { color: #93a8d5 }
     .cs_common_module .ranking_table table thead th { color: #fff;border-bottom: 1px solid #404040;background-color: #3a3a3a }
     .cs_common_module .ranking_table table,.cs_disaster .wrap_dzst6 .tip,.cs_foreigninfo .lst_tab,.cs_olympic_history .olympic_ranking .ranking_table .table_box,.cs_olympic_history .olympic_wrap,.cs_olympic_list .olympic_wrap,.cs_production_type .confirmed_status.new,.cs_school .chart,.cs_sign .tab_wrap2,.cs_vaccine_info .patients_map:after,.flight .flight_ly_person .flight_ly_row .flight_ly_count,.nx_hotel .hotel_normal .layer_direct .direct_content { border-top: 1px solid #404040;border-bottom: 1px solid #404040 }
@@ -4474,7 +4474,7 @@
     .cs_common_module.case_empasis .cm_top_wrap .sub_tap_area .next_visual:after,.cs_common_module.case_empasis .cm_top_wrap .sub_tap_area .pre_visual:after,.cs_election .election_header:before { width: 100%;top: 0;position: absolute;pointer-events: none;left: 0;height: 100%;content: '';background: rgba(0, 0, 0, 0.75) }
     .cs_common_module.case_empasis .cm_top_wrap .sub_tap_area .next_visual:before,.cs_common_module.case_empasis .cm_top_wrap .sub_tap_area .pre_visual:before { z-index: 999 }
     .cs_common_module.case_empasis .cm_top_wrap .sub_tap_area .pre_visual { object-fit: cover;clip-path: inset(0 30px 0 0) }
-    .cs_common_module.case_list .lego_scroll_middle .area_scroll_middle li:before { z-index: 9999;background-color: #4f4f4f }
+    .cs_common_module.case_list .lego_scroll_middle .area_scroll_middle li:before { z-index: 1;background-color: #4f4f4f }
     .cs_common_module.case_normal .cm_top_wrap .sub_tap_area .next_visual,.cs_common_module.case_normal.color_23 .sub_tap_area .tab_gra,.cs_common_module.case_normal .cm_top_wrap .sub_tap_area .pre_visual { filter: invert(79.5%) hue-rotate(-180deg) !important }
     .cs_common_simple .answer_more { background: #3a3a3a !important }
     .cs_common_simple .cm_content_wrap { border: 1px solid #404040 !important;border-width: 0 1px 1px !important;background: #2f2f2f }

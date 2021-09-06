@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.79
+@version		1.51.80
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -74853,6 +74853,34 @@
 	
 	.sub_pack .ad_section .lst_type .lst .info_area .sp_tabview.npay, .sub_pack .ad_section .lst_type .lst .info_area .sp_tabview.nlogin, .sub_pack .ad_section .lst_type .lst .info_area .sp_tabview.npay_plus {
 		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.sp_keep .api_subject_bx>.title_area {
+		color: #fff;
+	}
+	
+	.sp_keep .api_subject_bx>.title_area .name:before {
+		background-color: #404040;
+	}
+	
+	.sp_keep .api_subject_bx>.title_area .name {
+		color: #cacaca;
+	}
+	
+	.sp_keep .group_timeline_wrap {
+		border-top: 1px solid #404040;
+	}
+	
+	.sp_keep .list_timeline .item_info .info_area .title_box {
+		color: #fff;
+	}
+	
+	.sp_keep .list_timeline .item_info .info_box {
+		color: #cacaca;
+	}
+	
+	.sp_keep .list_timeline .item+.item {
+		border-top: 1px solid #404040;
 	}
 }
 

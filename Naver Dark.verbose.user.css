@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.82
+@version		1.51.83
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -35837,7 +35837,7 @@
 	}
 }
 
-@-moz-document url-prefix("https://news.naver.com/main/scrap/folderList.nhn"), url-prefix("https://news.naver.com/main/scrap/folderAdmin.nhn"), url-prefix("https://news.naver.com/main/scrap/saveItem.nhn")
+@-moz-document url-prefix("https://news.naver.com/main/scrap/folderList.naver"), url-prefix("https://news.naver.com/main/scrap/folderAdmin.naver"), url-prefix("https://news.naver.com/main/scrap/saveItem.naver")
 {
 	.content h3 {
 		color: #fff;
@@ -35864,6 +35864,10 @@
 		border: 1px solid #404040;
 		color: #cacaca;
 		background: #242424;
+	}
+	
+	.content p, .content em {
+		color: #cacaca;
 	}
 }
 

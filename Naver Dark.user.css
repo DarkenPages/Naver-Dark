@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.82
+@version		1.51.83
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -3373,11 +3373,12 @@
     body.withaside #container:before { background: #404040;background: #404040 }
     html[data-useragent*='Windows'] .candi_sns_txt_wrap:after { filter: invert(85.5%) hue-rotate(-180deg) }
 }
-@-moz-document url-prefix("https://news.naver.com/main/scrap/folderList.nhn"), url-prefix("https://news.naver.com/main/scrap/folderAdmin.nhn"), url-prefix("https://news.naver.com/main/scrap/saveItem.nhn") {
+@-moz-document url-prefix("https://news.naver.com/main/scrap/folderList.naver"), url-prefix("https://news.naver.com/main/scrap/folderAdmin.naver"), url-prefix("https://news.naver.com/main/scrap/saveItem.naver") {
     .content .folder_layer { border-top: 1px dashed #404040;background: none }
     .content .folder_layer .textfield { color: #cacaca;border: 1px solid #404040;background: #242424 }
     .content .folder_list ul li.selected { background-color: #2f2f2f }
     .content .folder_list,.folder_btn a,.folder_layer a { border: 1px solid #404040 }
+    .content em,.content p { color: #cacaca }
     .content h3 { color: #fff }
 }
 @-moz-document url-prefix("https://news.naver.com/main/tool/print.nhn"), url-prefix("https://news.naver.com/main/tool/print.naver") {

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.81
+@version		1.51.82
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -38035,6 +38035,14 @@
 	
 	.api_atcmp_wrap .atcmp_fixer .atcmp_container .kwd_info .kwd_dsc .kwd_help {
 		color: #688cda;
+	}
+	
+	.api_atcmp_wrap .atcmp_fixer .atcmp_footer .opt_item a {
+		color: #cacaca;
+	}
+	
+	.api_atcmp_wrap .atcmp_fixer .atcmp_footer .side_opt_area .opt_item+.opt_item:before {
+		background-color: #404040;
 	}
 }
 

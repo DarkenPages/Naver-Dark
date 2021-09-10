@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.85
+@version		1.51.86
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -56269,6 +56269,15 @@
 	.WriterInfo .profile_info .link_talk {
 		background: #404040;
 		color: #fff;
+	}
+	
+	.se-viewer .se-state-error {
+		background: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.se-viewer .se-state-error .se-state-error-detail .se-state-error-text {
+		color: #cacaca;
 	}
 }
 

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.86
+@version		1.51.87
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -35367,6 +35367,11 @@
 	.u_cbox_user .u_cbox_userinfo_laststats_dataitem {
 		color: #cacaca;
 	}
+	
+	#cbox_module .u_cbox_btn_upload, #cbox_module .u_cbox_reply_area .u_cbox_upload .u_cbox_btn_upload {
+		background: #4978f4 !important;
+		color: #242424;
+	}
 }
 
 @-moz-document url-prefix("https://news.naver.com/main/tool/print.nhn"), url-prefix("https://news.naver.com/main/tool/print.naver")
@@ -35658,11 +35663,6 @@
 	
 	#cbox_module .u_cbox_write_count .u_cbox_count_num {
 		color: #fff;
-	}
-	
-	#cbox_module .u_cbox_btn_upload, #cbox_module .u_cbox_reply_area .u_cbox_upload .u_cbox_btn_upload {
-		background: #019341;
-		color: #242424;
 	}
 	
 	.u_cbox_user .u_cbox_user_cont {

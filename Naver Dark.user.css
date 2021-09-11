@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.86
+@version		1.51.87
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -3277,6 +3277,7 @@
         100% { width: calc(100% + 28px);top: -14px;left: -17px;height: calc(100% + 22px);background-color: rgba(255, 238, 0, 0) }
     }
     #article_image[src*='noimage'] { filter: invert(90%) hue-rotate(-180deg) }
+    #cbox_module .u_cbox_btn_upload,#cbox_module .u_cbox_reply_area .u_cbox_upload .u_cbox_btn_upload { color: #242424;background: #4978f4 !important }
     #snb_wrap .h_logo { width: 56px;margin-top: 2px;height: 17px;background: linear-gradient(transparent,transparent),url(https://ssl.pstatic.net/static/sports/2019/pc/11/12/sp_gnb.svg);background-size: 103px 97px;background-position: -4px -29px }
     #snb_wrap .h_news { width: auto;position: relative;background: none }
     #snb_wrap .h_news:after { white-space: nowrap;transform: translate(-50%, -50%);top: 50%;position: absolute;left: 50%;font-weight: bold;font-size: 20px;font-family: 'Helvetica', 'serif';content: '뉴스';color: #fff }
@@ -3320,7 +3321,6 @@
     .u_cbox_user .u_cbox_userinfo_wrap:after { background: none;background-color: #2f2f2f }
     #cbox_module .u_cbox_btn_fold,#cbox_module .u_cbox_reply_area .u_cbox_paginate .u_cbox_btn_more { color: #cacaca;color: #cacaca;border-bottom-color: #404040 }
     #cbox_module .u_cbox_btn_totalcomment .u_cbox_ico_arrow,#cbox_module .u_cbox_ico_fold,#cbox_module .u_cbox_paginate .u_cbox_btn_more_pre .u_cbox_more_wrap .u_cbox_ico_more,.u_cbox .u_cbox_layer_report .u_cbox_ico_close_hide,.u_cbox .u_cbox_layer_report_radio_label:before { filter: invert(81.5%) hue-rotate(-180deg) }
-    #cbox_module .u_cbox_btn_upload,#cbox_module .u_cbox_reply_area .u_cbox_upload .u_cbox_btn_upload { color: #242424;background: #019341 }
     #cbox_module .u_cbox_chart_open.u_cbox_chart_wrap { border-top: 1px solid #404040;border-bottom: 1px solid #404040 }
     #cbox_module .u_cbox_cleanbot { border-color: #404040;background: #242424 }
     #cbox_module .u_cbox_notice .u_cbox_ico_notice,.u_cbox .u_cbox_layer_help .u_cbox_ico_help { filter: invert(81%) hue-rotate(-180deg) }

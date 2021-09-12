@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.87
+@version		1.51.88
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -79412,5 +79412,37 @@
 	
 	.ly_inputko .number, .ly_inputko .alphabet, .ly_inputko .consonantal, .ly_inputko .vowel {
 		filter: invert(84%) hue-rotate(-180deg);
+	}
+}
+
+@-moz-document url-prefix("https://cafe.naver.com/CafeSecede.nhn")
+{
+	.bx1_shadow {
+		border: 1px solid #404040;
+		background: #242424;
+	}
+	
+	.bx1 {
+		border: 1px solid #404040;
+	}
+	
+	.bx1 * {
+		color: #cacaca;
+	}
+	
+	#content {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.desc1 strong {
+		color: #cacaca;
+	}
+	
+	#footer {
+		border-top: 3px solid #404040;
+	}
+	
+	#footer a img {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 }

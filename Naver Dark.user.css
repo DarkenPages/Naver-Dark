@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.88
+@version		1.51.89
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -461,7 +461,6 @@
     .dh_layer .type_b .hTitle,.dh_layer .type_b h4,.setup_layer .hTitle { color: #fff;border-bottom: 1px solid #404040 }
     .dh_layer .type_c .layer_content .hTitle,.upld_header { border-bottom: 1px solid #404040;background-color: #242424 }
     .divContent .xBar { border-color: #404040;background-color: #404040 }
-    .divList .listWrap { top: 20px !important }
     .divList.grp_sender .mailList li.selected,.mailList li.selected,.mailList li.selected .mTitle,.searchLayer a.onfocus,.searchLayer a:focus,.searchLayer a:hover { background: #2f2f2f }
     .file_list { border: 1px solid #404040;border-bottom: 0 }
     .form_ul1 { border-top: 1px solid #404040;border-bottom: 1px solid #404040;background-color: #2c2c2c }

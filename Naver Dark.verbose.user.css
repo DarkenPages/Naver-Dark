@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.88
+@version		1.51.89
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -1600,10 +1600,6 @@
 		border-bottom: 1px solid #404040;
 		border-radius: 10px;
 		margin: 10px;
-	}
-	
-	.divList .listWrap {
-		top: 20px !important;
 	}
 	
 	.btn_workset, .h_lft_menu, .h_lft_menu .btn_add, .h_lft_menu .btn_setup, .section_etcmail, .section_typemail, div.faq_cover a, h3.h_lft_menu {

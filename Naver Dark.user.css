@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.89
+@version		1.51.90
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -3158,11 +3158,12 @@
     head,html { background: #242424 }
 }
 @-moz-document url-prefix("https://mashup.map.naver.com"), url-prefix("https://blog.naver.com/mapview/ForeignMapSelectForm.nhn") {
-    .border_type .ly_btn_area a img,.preview .content01 .box01,.preview .content01 h4,#btn_area,#list_area,#map_area,.nmap_api_zoom,embed[name="NMapEditor"] { filter: invert(86%) hue-rotate(-180deg) }
+    .border_type .ly_btn_area a img,.preview .content01 .box01,.preview .content01 h4,.preview .content04 h4,#btn_area,#list_area,#map_area,.nmap_api_zoom,embed[name="NMapEditor"] { filter: invert(86%) hue-rotate(-180deg) }
     .border_type .ly_btn_area,#tit_area,head,html { background: #242424 }
     .layerpop_container .border_type { border: 2px solid #404040;background-color: #242424 }
     .preview { border: 1px solid #404040;background-color: #242424 }
-    .preview .content01 a { color: #cacaca }
+    .preview .content01 a,.preview .content04 .url_link a,.preview .content04 a { color: #cacaca }
+    .preview .content04 p #url_link1 { color: #404040 }
     body { font-family: "Helvetica";background: #242424 }
 }
 @-moz-document url-prefix("https://myfeed.naver.com/main/notice"), url-prefix("https://ui.nboard2.naver.com/nboard2/list") {

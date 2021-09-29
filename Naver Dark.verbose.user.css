@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.92
+@version		1.51.93
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -15204,6 +15204,10 @@
 	
 	.skin-1080 .article-level .article-board .box_tf {
 		border: 1px solid #404040;
+	}
+	
+	.skin-1080 .article-level .article-board .del {
+		color: #fff;
 	}
 }
 

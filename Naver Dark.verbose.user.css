@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.94
+@version		1.51.96
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -58839,7 +58839,7 @@
 	}
 	
 	.card_today .weather_area .summary_list .desc {
-		color: #cacaca;
+		color: #fff;
 	}
 	
 	.card_today .weather_area .summary .temperature.down:after {
@@ -59166,6 +59166,14 @@
 	
 	.card_week .week_item.on .date, .card_week .week_item.today .date {
 		color: #fff;
+	}
+	
+	.card_today .weather_area .summary .temperature.up:after {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.card_today .weather_area .summary_list .term {
+		color: #cacaca;
 	}
 }
 
@@ -75603,6 +75611,300 @@
 	
 	.cs_common_simple .bg_nimg_people {
 		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_weather_new .top_wrap {
+		border: 1px solid rgb(48, 50, 53);
+		border-width: 0 1px 0;
+		border-top-color: rgb(57, 66, 83);
+		background-color: rgb(40, 42, 47);
+	}
+	
+	.cs_weather_new .top_wrap::before {
+		border-top: 1px solid rgb(48, 50, 53);
+	}
+	
+	.cs_weather_new .content_wrap {
+		border: 1px solid rgb(48, 50, 53);
+		border-width: 0 1px 1px;
+		background-color: rgb(40, 42, 47);
+	}
+	
+	.cs_weather_new .title_area .title {
+		color: #fff;
+	}
+	
+	.cs_weather_new .content_area > .inner {
+		background-color: #242424;
+	}
+	
+	.cs_weather_new .more_wrap .more_multi {
+		border: 1px solid #404040;
+		background-color: #3a3a3a;
+		color: #cacaca;
+	}
+	
+	.cs_weather_new .more_wrap .ico_more {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_weather_new .multi_cp_area .provider {
+		color: #fff;
+	}
+	
+	.cs_weather_new .multi_cp_area .provider_setting {
+		border: 1px solid #404040;
+	}
+	
+	.cs_weather_new .weather_graphic .temperature_text strong {
+		color: #fff;
+	}
+	
+	.cs_weather_new .temperature_info .summary_list .term {
+		color: #cacaca;
+	}
+	
+	.cs_weather_new .temperature_info .summary_list .desc {
+		color: #fff;
+	}
+	
+	.cs_weather_new .report_card_wrap .item_today.level0 {
+		border: 1px solid rgb(47, 47, 47);
+		background-color: rgb(40, 40, 40);
+	}
+	
+	.cs_weather_new .report_card_wrap .item_today.level1 {
+		border: 1px solid rgb(41, 58, 36);
+		background-color: rgb(35, 46, 33);
+	}
+	
+	.cs_weather_new .report_card_wrap .item_today.level2 {
+		border: 1px solid rgb(48, 50, 53);
+		background-color: rgb(40, 42, 47);
+	}
+	
+	.cs_weather_new .report_card_wrap .item_today.level3 {
+		border: 1px solid rgb(50, 46, 31);
+		background-color: rgb(40, 39, 30);
+	}
+	
+	.cs_weather_new .report_card_wrap .item_today.level4 {
+		border: 1px solid rgb(52, 47, 35);
+		background-color: rgb(44, 42, 35);
+	}
+	
+	.cs_weather_new .report_card_wrap .item_today.level5 {
+		border: 1px solid rgb(56, 49, 49);
+		background-color: rgb(44, 40, 39);
+	}
+	
+	.cs_weather_new .report_card_wrap .item_today .title {
+		color: #cacaca;
+	}
+	
+	.cs_weather_new .report_card_wrap .item_today.type_sun {
+		border: 1px solid rgb(50, 48, 21);
+		background-color: rgb(41, 40, 16);
+	}
+	
+	.cs_weather_new .forecast_wrap .sub_tab .tab[aria-selected="true"] a {
+		color: #fff;
+	}
+	
+	.cs_weather_new .forecast_wrap .sub_tab .tab a {
+		color: #cacaca;
+	}
+	
+	.cs_weather_new .forecast_wrap .sub_tab::before {
+		background-color: #404040;
+	}
+	
+	.cs_weather_new .forecast_wrap .sub_tab .tab[aria-selected="true"] .menu::before {
+		background-color: #fff;
+	}
+	
+	.cs_weather_new .weather_graph_box .graph_content .degree_point .num {
+		color: #fff;
+	}
+	
+	.cs_weather_new .forecast_wrap .scroll_box::after {
+		background-image: linear-gradient(to left, #242424, rgba(36, 36, 36, 0));
+	}
+	
+	.cs_weather_new .weather_graph_box .graph_content .time {
+		color: #cacaca;
+	}
+	
+	.cs_weather_new .weekly_forecast_area .title {
+		color: #fff;
+	}
+	
+	.cs_weather_new .weekly_forecast_area .weather_refer .refer_icon {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_weather_new .weekly_forecast_area .week_item.today .day_data {
+		border: 1px solid #404040;
+	}
+	
+	.cs_weather_new .weekly_forecast_area .week_item .cell_date .day {
+		color: #fff;
+	}
+	
+	.cs_weather_new .weekly_forecast_area .week_item .cell_date .date {
+		color: #fff;
+	}
+	
+	.cs_weather_new .weekly_forecast_area .week_item + .week_item .cell_date .date {
+		color: #cacaca;
+	}
+	
+	.cs_weather_new .weekly_forecast_area .week_item.today .date_inner {
+		border-right: 1px solid #404040;
+	}
+	
+	.cs_weather_new .weekly_forecast_area .week_item + .week_item {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_weather_new .weekly_forecast_area .week_item:nth-of-type(2) {
+		border: 0;
+	}
+	
+	.cs_weather_new .weekly_forecast_area .week_item .cell_temperature .bar {
+		color: #404040;
+	}
+	
+	.cs_weather_new .weekly_forecast_area .notice_info p {
+		color: #cacaca;
+	}
+	
+	.cs_weather_new .relate_info .info {
+		color: #fff;
+	}
+	
+	.cs_weather_new .weekly_forecast_area .weather_layer_pop {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.cs_weather_new .weekly_forecast_area .weather_layer_pop .pop_title {
+		color: #fff;
+	}
+	
+	.cs_weather_new .weekly_forecast_area .weather_layer_pop .refer_list li .weather_text {
+		color: #cacaca;
+	}
+	
+	.cs_weather_new .precipitation_graph_box .graph_wrap .data_inner {
+		background-color: rgb(40, 42, 46);
+		color: rgb(76, 108, 177);
+	}
+	
+	.cs_weather_new .precipitation_graph_box .graph_wrap .data_inner::after {
+		background-color: rgb(76, 108, 177);
+	}
+	
+	.cs_weather_new .forecast_wrap .climate_box .graph_wrap .data_inner {
+		border-left: 1px solid #242424;
+	}
+	
+	.cs_weather_new .precipitation_graph_box .time_wrap .time.tomorrow .text::after {
+		
+	}
+	
+	.cs_weather_new .forecast_wrap .float_title .title {
+		color: #fff;
+	}
+	
+	.cs_weather_new .forecast_wrap .climate_box .time .text {
+		color: #cacaca;
+	}
+	
+	.cs_weather_new .precipitation_graph_box .time_wrap {
+		margin-left: -10px;
+	}
+	
+	.cs_weather_new .precipitation_graph_box .icon_wrap .ico_rainfall {
+		left: -1px;
+		overflow: visible;
+		background-size: 19px 26px;
+	}
+	
+	.cs_weather_new .precipitation_graph_box .icon_wrap .icon_area {
+		overflow: visible;
+	}
+	
+	.cs_weather_new .wind_graph_box .graph_wrap .base_bar {
+		background-color: rgb(29, 66, 70);
+	}
+	
+	.cs_weather_new .wind_graph_box .graph_wrap .base_bar::before {
+		background-color: rgb(25, 123, 133);
+	}
+	
+	.cs_weather_new .forecast_wrap .climate_box .graph_wrap .num {
+		color: #fff;
+	}
+	
+	.cs_weather_new .humidity_graph_box .graph_wrap .base_bar {
+		background-color: rgb(27, 58, 69);
+	}
+	
+	.cs_weather_new .humidity_graph_box .graph_wrap .base_bar::before {
+		background-color: rgb(14, 108, 143);
+	}
+	
+	.cs_weather_new .weekly_forecast_area .week_item .cell_weather .weather_left .time {
+		color: #cacaca;
+	}
+	
+	.cs_weather_new .weather_info.type_tomorrow .weather_info_list > li + li::before {
+		background-color: #404040;
+	}
+	
+	.cs_weather_new .weather_info.type_tomorrow .weather_graphic .time_text span {
+		color: #cacaca;
+	}
+	
+	.cs_weather_new .weather_info.type_monthly .selectbox .select_wrap .select_tab > a {
+		border: 1px solid #404040;
+	}
+	
+	.cs_weather_new .weather_info.type_monthly .selectbox .select_wrap .select_tab {
+		background-color: #242424;
+	}
+	
+	.cs_weather_new .weather_info.type_monthly .selectbox .select_wrap .select_tab > a .menu {
+		color: #cacaca;
+	}
+	
+	.cs_weather_new .weather_info.type_monthly .monthly_info {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_weather_new .weather_info.type_monthly .monthly_info .info_desc dt {
+		color: #999;
+	}
+	
+	.cs_weather_new .weather_info.type_monthly .monthly_info .info_desc dd {
+		color: #cacaca;
+	}
+	
+	.cs_weather_new .weather_info.type_monthly .monthly_info .explanation {
+		color: #cacaca;
+	}
+	
+	.cs_weather_new .filter_area .filter_wrap {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_weather_new .filter_area .list_item .item[aria-selected="true"] .item_link {
+		background-color: #3a3a3a;
+	}
+	
+	.cs_weather_new .filter_area .list_item .item .item_link {
+		color: #cacaca;
 	}
 }
 

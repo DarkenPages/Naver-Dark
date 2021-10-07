@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.96
+@version		1.51.97
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -71781,15 +71781,12 @@
 	
 	.cs_typhoon .content_area .timeline_info .scroll_box .list_info .list .time_content .detail_info dt {
 		color: #cacaca;
+		opacity: 1;
 	}
 	
 	.cs_typhoon .content_area .timeline_info .scroll_box .list_info .list .time_content .location_info {
 		border-top: 1px solid #404040;
 		color: #cacaca;
-	}
-	
-	.cs_typhoon .content_area .timeline_info .scroll_box .list_info .list .time_content .location_info:before {
-		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.cs_typhoon .content_area .timeline_info .scroll_box .list_info .list .time_content.now:before {
@@ -75905,6 +75902,53 @@
 	
 	.cs_weather_new .filter_area .list_item .item .item_link {
 		color: #cacaca;
+	}
+	
+	.cs_typhoon .content_area .timeline_info .scroll_box .list_info .list .date.on {
+		color: #fff;
+	}
+	
+	.cs_typhoon .content_area .timeline_info .scroll_box .list_info .list .date {
+		color: #cacaca;
+	}
+	
+	.cs_typhoon .history_ly .list {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_typhoon .history_ly li {
+		color: #cacaca;
+	}
+	
+	.cs_typhoon .history_ly li.on {
+		background-color: rgba(115, 129, 166, 0.16);
+	}
+	
+	@keyframes fadeout {
+		0% {
+			color: #fff;
+		}
+		100% {
+			color: #cacaca;
+		}
+	}
+	
+	@keyframes fadein {
+		0% {
+			color: #cacaca;
+		}
+		100% {
+			color: #fff;
+		}
+	}
+	
+	.cs_typhoon .content_area .map_info .zoom_box {
+		background-color: #4f4f4f;
+	}
+	
+	.cs_typhoon .content_area .map_info .zoom_box .zoomout_link .zoomout_icon, .cs_typhoon .content_area .map_info .zoom_box .zoomin_link .zoomin_icon {
+		filter: invert(100%) hue-rotate(-180deg);
 	}
 }
 

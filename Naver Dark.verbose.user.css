@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.97
+@version		1.51.100
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -61213,7 +61213,7 @@
 	}
 	
 	.sp_academic .academic_list .detail_wrap .detail_area .item {
-		color: #888;
+		color: #cacaca;
 	}
 	
 	.sp_academic .academic_list .detail_wrap .detail_area .item .ico_download {
@@ -75949,6 +75949,95 @@
 	
 	.cs_typhoon .content_area .map_info .zoom_box .zoomout_link .zoomout_icon, .cs_typhoon .content_area .map_info .zoom_box .zoomin_link .zoomin_icon {
 		filter: invert(100%) hue-rotate(-180deg);
+	}
+	
+	.cs_air_environment .forecast_box strong {
+		color: #fff;
+	}
+	
+	.cs_air_environment .forecast_box {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_air_environment .forecast_box .src {
+		color: #cacaca;
+	}
+	
+	.cs_air_environment .air_standard strong span {
+		color: #cacaca;
+	}
+	
+	.cs_air_environment .forecast_box .src a {
+		color: #fff;
+	}
+	
+	.sp_mobile .app_wrap.type_half > li {
+		margin-left: 20px;
+		width: calc(50% - 30px);
+	}
+	
+	.sp_mobile .store_layer {
+		background-color: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.sp_mobile .store_layer .store_wrap {
+		border: 1px solid #404040;
+	}
+	
+	.sp_mobile .store_layer .store_wrap li:hover {
+		color: #fff;
+		background-color: #3a3a3a;
+	}
+	
+	.sp_mobile .store_layer .store_wrap li {
+		color: #cacaca;
+	}
+	
+	.sp_mobile .store_layer .store_wrap li+li {
+		border-top: 1px solid #404040;
+	}
+	
+	.sp_nvideo .video_default_list .video_bx .info_area .origin {
+		color: #cacaca;
+	}
+	
+	.sp_influencer .keyword_challenge_wrap .keyword_box_wrap .detail_box .dsc_area .date {
+		color: #cacaca;
+	}
+	
+	.sp_influencer .ly_popup {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.sp_influencer .popup_alarm {
+		color: #fff;
+	}
+	
+	.sp_influencer .popup_alarm .toggle_area {
+		border: 1px solid #404040;
+		background-color: #3a3a3a;
+	}
+	
+	.sp_influencer .popup_alarm .toggle_area .dsc .tit_sub {
+		color: #fff;
+	}
+	
+	.sp_influencer .popup_alarm .toggle_area .dsc .detail {
+		color: #cacaca;
+	}
+	
+	.sp_influencer .popup_alarm.type_on .toggle_area {
+		border-color: #404040;
+	}
+	
+	.sp_influencer .popup_alarm .toggle_area .btn_cancel {
+		color: #fff;
+	}
+	
+	.sp_influencer .mod_ly_notice {
+		color: #242424;
 	}
 }
 

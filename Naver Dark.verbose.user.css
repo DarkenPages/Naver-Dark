@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.101
+@version		1.51.102
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -13268,6 +13268,14 @@
 		background: #2f2f2f;
 		color: #cacaca;
 		border-top: 1px solid #404040;
+	}
+	
+	.BadgeIconBox .icon_manager svg, .BadgeIconBox .icon_official svg, .BadgeIconBox .icon_powercafe svg, .BadgeIconBox .icon_star svg, .BadgeIconBox .icon_wiu svg {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.mycafe_list.type2 tbody td a {
+		color: #cacaca;
 	}
 }
 
@@ -80280,5 +80288,12 @@
 	
 	.header.cert, .header.terms {
 		background-color: #242424;
+	}
+}
+
+@-moz-document url-prefix("https://cafe.naver.com/ca-fe/popup-views/SECEDE_CAFE_ARTICLE")
+{
+	.Article {
+		background-color: initial;
 	}
 }

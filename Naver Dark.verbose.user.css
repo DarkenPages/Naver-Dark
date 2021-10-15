@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.106
+@version		1.51.107
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -13847,6 +13847,7 @@
 		--iconArrowWrite: #cacaca;
 		--gnbLinkBar: #404040;
 		--gnbLinkArrow: #cacaca;
+		--skinTextb7b7b7: #cacaca;
 	}
 	
 	input, textarea {

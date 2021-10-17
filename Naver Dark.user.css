@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.107
+@version		1.51.108
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -1667,7 +1667,7 @@
     .FormInputCheck .label:before,.ly_begin.type_join .layer_content:before { filter: invert(81.5%) hue-rotate(-180deg) }
     .input_component,.select_component,.select_component2,.skin-1080 .prev-next a.on,.u_cbox .cminput .comm_write_wrap { border-color: #404040;background-color: #242424 }
     .IntroductionHeader .tab_list_wrap li,.list-btn-nor .btn,.select_component .select_list,.select_component2 .select_list,.SuicideSaver .su_prevention,.skin-1080 .su_prevention { border: 1px solid #404040;background-color: #242424 }
-    .IntroductionHeader .tab_list_wrap li.selected,.ly_begin.type_join,.perid-layer li a,.skin-1080 .article-intro .box_profile,.skin-1080 .box_notice,.skin-1080 .prev-next,.skin-1080 .search_result .search_input,.skin-1080 #linked-member #lm-list,.skin-1080#main-area .bg-color { background-color: #2f2f2f }
+    .IntroductionHeader .tab_list_wrap li.selected,.ly_begin.type_join,.perid-layer li a,.skin-1080 .article-intro .box_profile,.skin-1080 .box_notice,.skin-1080 .ia-info-data2 .level_alert.alert_msg,.skin-1080 .prev-next,.skin-1080 .search_result .search_input,.skin-1080 #linked-member #lm-list,.skin-1080#main-area .bg-color { background-color: #2f2f2f }
     .list-btn-nor .m-tcol-c,.ly_sbjt li a,.perid-layer li a,.perid-layer a,.skin-1080 .article-board .pers_nick_area .p-nick a,.skin-1080 .article-movie-sub .user_info .m-tcol-c,.skin-1080 .com .pocket_nav,.u_cbox.box-reply2 .m-tcol-c { color: #cacaca !important }
     .ModalLayer .layer_commerce_content .cate_box li:hover,.SelectRegion .select_city_content .region_list li:hover .btn { background: #3a3a3a }
     .ModalLayer.layer_commerce_guide .fee_guide .fee_guide_table:after,.ModalLayer.layer_commerce_guide .fee_guide .fee_guide_table:before { background-color: #3a3a3a }

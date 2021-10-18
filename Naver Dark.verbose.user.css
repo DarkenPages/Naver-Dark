@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.108
+@version		1.51.109
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -28713,6 +28713,78 @@
 	
 	#footer .btn_area .btn_t2:first-child span {
 		border-right: 1px solid #404040;
+	}
+	
+	.se_theme_bluebubble ~ .editor_section .state_line, .se_theme_bluebubble ~ .editor_section .sect_tag_area, .se_theme_bluebubble ~ .editor_section .sect_post_detail_area {
+		background-color: rgb(43, 52, 50);
+	}
+	
+	.se_theme_bluebubble ~ .editor_section .sect_post_detail_area .like .btn_area .btn.btn_comment .cnt {
+		color: #fff;
+	}
+	
+	.pc .se_theme_bluebubble ~ .editor_section .sect_post_detail_area .like .btn_area .btn_like .u_likeit_list_module .u_likeit_list_btn .u_ico, .pc .se_theme_bluebubble ~ .editor_section .sect_post_detail_area .like .btn_area .btn.btn_comment .ico {
+		filter: brightness(1000%);
+	}
+	
+	.se_theme_bluebubble ~ .editor_section .sect_post_detail_area .like .btn_area .btn_more:after {
+		filter: invert(100%) hue-rotate(-180deg) brightness(1000%);
+	}
+	
+	.se_theme_bluebubble ~ .editor_section .sect_post_detail_area .like .btn_area .btn_like .u_likeit_list_module .u_likeit_list_btn .u_cnt {
+		color: #fff !important;
+	}
+	
+	.lst_rankup {
+		background: #242424;
+	}
+	
+	.spi_card {
+		background-color: #2f2f2f !important;
+	}
+	
+	.spi_card .h_spi_card {
+		color: #fff !important;
+	}
+	
+	.btn-share-repost {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.btn-share-repost:before {
+		filter: invert(81.5%) hue-rotate(-180deg) !important;
+	}
+	
+	.spi_card .spi_area a {
+		color: #cacaca !important;
+	}
+	
+	.spi_copyurl_url {
+		border: 1px solid #404040 !important;
+		background: #242424 !important;
+	}
+	
+	.spi_copyurl_inapp .spi_copyurl_url {
+		background-color: #242424 !important;
+	}
+	
+	.spi_copyurl_inappbtn {
+		border: 1px solid #404040 !important;
+		background: #2f2f2f !important;
+		color: #cacaca !important;
+	}
+	
+	.spi_cp_msg {
+		color: #fff !important;
+	}
+	
+	.spi_btm_btns {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	.spi_btm_link {
+		color: #cacaca !important;
 	}
 }
 

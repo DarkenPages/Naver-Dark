@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.108
+@version		1.51.109
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -520,16 +520,17 @@
     select:focus-visible { outline: none }
 }
 @-moz-document regexp("https://post\\.naver\\.com/(?!viewer/my.nhn).*"), regexp("https://m\\.post\\.naver\\.com/(?!viewer/my.nhn).*") {
-    .blank_wrap .blank_area .btn,.sorting_select_wrap .btn_sorting,.nav .btn_support,.news_list_wrap .opt_func .btn_stats,.news_list_wrap .opt_func .btn_support,.news_list_wrap .opt_func .left_area .other_btn .reply_refresh,.news_list_wrap .opt_func .reply_del_btn,#footer .btn_area .btn_t1,#header .gnb .btn_t1 { color: #cacaca;border: 1px solid #404040 }
+    .blank_wrap .blank_area .btn,.sorting_select_wrap .btn_sorting,.btn-share-repost,.nav .btn_support,.news_list_wrap .opt_func .btn_stats,.news_list_wrap .opt_func .btn_support,.news_list_wrap .opt_func .left_area .other_btn .reply_refresh,.news_list_wrap .opt_func .reply_del_btn,#footer .btn_area .btn_t1,#header .gnb .btn_t1 { color: #cacaca;border: 1px solid #404040 }
     .blank_wrap .blank_area .desc,.sorting_number,.hd_prev .ly_opt a,.lst_feed_wrap .feed_footer .btn_reply em,.u_likeit_list_module .u_likeit_list_btn .u_cnt,.u_likeit_list_module .u_likeit_list_btn .u_txt,.ly_fnt_guide .guide_txt,.ly_more li a,.ly_more li button,.ly_push_alarm button,.my_expert_content .radio_area .radio,.my_expert_content .radio_area .radio.is_selected,.my_expert_wrap .cont_area .typing em,.my_expert_header .cont_area .input::placeholder,.og .dsc,.pc .cont_header .btn_g1 .sp,.pc .cont_header .btn_g2 .sp,.pc .cont_header .btn_g3 .sp,.pc .cont_header .btn_g4 .sp,.pc .cont_header .btn_ok .sp,.pc .cont_header .btn_t1 .sp,.write_wrap .more_editor_list,#footer .btn_pg_top,.btn_lst_more,.category_wrap .cate_item .cate_type { color: #cacaca }
     .blank_wrap,.entrance_wrap .entrance_lst .entrance_cont,.loading_t1,.nav,.pc .discover_ct,.cont_header,.cont_header .cont_header_inner,.lst_feed_wrap .inner_feed_box,.lst_inner_w .sorting_area,.search_result_wrap,#header.sub,#header.sub .gnb:after { background-color: #242424 }
     .btn_flw { color: #242424;border: 1px solid #019341;background-color: #019341 }
     .btn_flw.on { color: #fff;border-color: #404040 }
     .btn_paging_area.prev .btn_lst_more { border-top: 1px solid #404040;border-bottom: 1px solid #404040 }
     .btn_stats { color: #fff;border: 1px solid #404040 }
-    .btn_stats,.lst_feed_rcmd,.tab_menu1,.lst_search_all_w,.srch_box_wrap,.myinfo_modify,.sorting_area.t2 { background: #242424 }
+    .btn_stats,.lst_feed_rcmd,.tab_menu1,.lst_rankup,.lst_search_all_w,.srch_box_wrap,.myinfo_modify,.sorting_area.t2 { background: #242424 }
+    .btn-share-repost:before { filter: invert(81.5%) hue-rotate(-180deg) !important }
     .category_wrap .cate_item { border-top: 1px solid #404040 !important;border-left: 1px solid #404040 !important }
-    .category_wrap .cate_item.is_active .cate_type,.entrance_wrap .entrance_lst .entrance_cont .writer strong,.entrance_wrap .tit_area,.nav ul li a,.rank_wrap .rank_cont .tit,.sort_wrap .sort_tab .sort_item.is_active .sort_btn,.sorting_wrap .sorting_item.is_active,a,.editor_sorting .following_count em,.lst_srch_tag .tag,.my_expert_header .cont_area .typing em,.my_expert_header h3,.my_expert_header_wrap .my_expert_header .expert_num_info .info_wrap a,.my_expert_header_wrap .my_expert_header .nick_name,.se_theme_card_default .se_card_attach .se_card_info_link dl .se_card_info_title,.my_expert_wrap h3,.og .tit,.search_option_box .option_area .option.is_selected,.search_option_box .option_tit,.sorting_inner_wrap .txt em,.sorting_select_wrap .btn_sorting.on,.srch_box_wrap .srch_box .srch_inp input.on,.t5 .sorting_inner_wrap .txt,.t5 .sorting_inner_wrap .txt em,.u_cbox .u_cbox_type_blind .u_cbox_text_wrap,.u_cbox .u_cbox_type_delete .u_cbox_text_wrap,.write_wrap .title_editor_list { color: #fff }
+    .category_wrap .cate_item.is_active .cate_type,.entrance_wrap .entrance_lst .entrance_cont .writer strong,.entrance_wrap .tit_area,.nav ul li a,.rank_wrap .rank_cont .tit,.sort_wrap .sort_tab .sort_item.is_active .sort_btn,.sorting_wrap .sorting_item.is_active,a,.editor_sorting .following_count em,.lst_srch_tag .tag,.my_expert_header .cont_area .typing em,.my_expert_header h3,.my_expert_header_wrap .my_expert_header .expert_num_info .info_wrap a,.my_expert_header_wrap .my_expert_header .nick_name,.se_theme_card_default .se_card_attach .se_card_info_link dl .se_card_info_title,.my_expert_wrap h3,.og .tit,.se_theme_bluebubble ~ .editor_section .sect_post_detail_area .like .btn_area .btn.btn_comment .cnt,.search_option_box .option_area .option.is_selected,.search_option_box .option_tit,.sorting_inner_wrap .txt em,.sorting_select_wrap .btn_sorting.on,.srch_box_wrap .srch_box .srch_inp input.on,.t5 .sorting_inner_wrap .txt,.t5 .sorting_inner_wrap .txt em,.u_cbox .u_cbox_type_blind .u_cbox_text_wrap,.u_cbox .u_cbox_type_delete .u_cbox_text_wrap,.write_wrap .title_editor_list { color: #fff }
     .category_wrap .category_area:before { background: #404040 }
     .category_wrap,.news_list_wrap .opt_func,.srch_box_wrap .srch_box { border-bottom: 1px solid #404040;background: #2f2f2f }
     .cont_header .logo2:before,.lst_feed_wrap .feed_head .feed_info_area .ico_secret,.spot_post_area .ico_card_platform2 { filter: invert(86%) }
@@ -540,8 +541,8 @@
     .hd_prev .ly_opt { border: 1px solid #404040;background: #242424 }
     .loading_rank img,.loading_t1 img,.my_expert_header_wrap .my_expert_header .btn_wrap .btn .ico_board,.my_expert_header_wrap .my_expert_header .btn_wrap .btn .ico_set,.my_expert_header_wrap .my_expert_header .btn_wrap .btn .ico_stats,.nav ul li.discover a:before,.nav ul li.feed a:before,.nav ul li.my a:before,.nav ul li.notice a:before,.lst_feed_wrap .feed_footer .btn_reply .ico_reply,.pc .btn_paging_view_pc,.lst_feed_wrap span > img[src*='loader'],.og.map2 .map_sr img,.srch_box_wrap .srch_box .btn_search .ico_search,#footer .btn_pg_top:before,#header .gnb .btn_back .sp,#header .gnb .btn_flw:before,#header .gnb .btn_gnb_prev:before,#header .gnb .btn_gnb_search .ico_search,#header .gnb .btn_gnb_share:before,#header .gnb .btn_gnb_write .ico_write,#header .gnb .btn_more .sp,#header .gnb .btn_overflow_menu .sp,#header .gnb .logo1 .ico_post_logo,#header .gnb .logo2 .ico_post_logo_sub,.btn-share-repost:before,.btn_flw .ico_follow,.btn_stats:before,.cont_header .btn_back .sp,.cont_header .btn_close .sp,.cont_header .btn_gnb_share:before,.cont_header .btn_more .sp,.cont_header .btn_ok .sp,.cont_header .logo1 .ico_post_logo,.cont_header .logo1:before,.cont_header .logo2 .ico_post_logo_sub,.cont_header .logo2:before,.ico_back_livesearch,.ico_card_post,.ico_card_post_b,.ico_follow_event,.ico_follow_event_complete,.ico_gif_post,.ico_gif_post_b,.ico_movie_post,.ico_movie_post_b,.ico_official,.ico_official_big,.ico_official_large,.layer_official .cont_area .cont:before,.layer_post_next .thumb:before,.lst_item.check_box .chk_label.checked:after,.ly_share .btn_repost:before,.nav ul li.discover a:before,.nav ul li.feed a:before,.nav ul li.my a:before,.nav ul li.notice a:before,.pop_collabo .popup .btn_close:after,.pop_collabo2 .ico_confirm,.popup .btn_area .btn_close:after,.popup .btn_area .btn_confirm:after,.popup .btn_area .btn_create:after,.popup_layer .btn_close:after,.popup_layer .layer_close,.popup_w .btn_close:after,.post_follower_status .ico_follower,.post_follower_status .ico_post,.support_post_wrap .support_post_more:after,#header .gnb .naver_logo .ico_naver_logo,.cont_header .naver_logo .ico_naver_logo { filter: invert(86%) hue-rotate(-180deg) }
     .lst_feed_wrap .feed_body .og .box,#cont.end_se3_spread .se_card_wrap ~ .editor_section .sect_tag_area { background: #2f2f2f !important }
-    .lst_feed_wrap .feed_body .og .dsc,.lst_feed_wrap .feed_body .text_feed { color: #cacaca !important }
-    .lst_feed_wrap .feed_body .og .tit,.my_expert_header .cont_area .input { color: #fff !important }
+    .lst_feed_wrap .feed_body .og .dsc,.lst_feed_wrap .feed_body .text_feed,.spi_btm_link,.spi_card .spi_area a { color: #cacaca !important }
+    .lst_feed_wrap .feed_body .og .tit,.my_expert_header .cont_area .input,.se_theme_bluebubble ~ .editor_section .sect_post_detail_area .like .btn_area .btn_like .u_likeit_list_module .u_likeit_list_btn .u_cnt,.spi_card .h_spi_card,.spi_cp_msg { color: #fff !important }
     .lst_feed_wrap .feed_head .feed_info_area .view_post:before { background-color: #404040 }
     .lst_feed_wrap .lst_feed>li { border-bottom: 1px solid #404040 !important;background-color: #2f2f2f !important }
     .lst_feed_wrap .lst_feed>li:first-child { border-color: #404040 !important }
@@ -561,13 +562,20 @@
     .nav:after,.pc .cont_header:after { background-color: #404040 !important }
     .og.b_size .txt:after { border: 1px solid #404040;border-width: 0 1px 1px 1px }
     .pc .cont_header .btn_g1,.pc .cont_header .btn_g2,.pc .cont_header .btn_g3,.pc .cont_header .btn_g4,.pc .cont_header .btn_ok,.pc .cont_header .btn_t1 { color: #cacaca;border: 1px solid #404040;background-color: #242424 }
+    .pc .se_theme_bluebubble ~ .editor_section .sect_post_detail_area .like .btn_area .btn.btn_comment .ico,.pc .se_theme_bluebubble ~ .editor_section .sect_post_detail_area .like .btn_area .btn_like .u_likeit_list_module .u_likeit_list_btn .u_ico { filter: brightness(1000%) }
     .rank_wrap .rank_cont.no1,.rank_wrap .rank_cont.no2,.rank_wrap .rank_cont.no3,.se_theme_card_default .se_card,.se_theme_card_default .se_card_document_bg,#blocker { background-color: #2f2f2f }
     .recommend_card_wrap { background-color: rgba(51, 51, 51, 0.85) }
     .result_page .srch_box { border-color: #404040 }
+    .se_theme_bluebubble ~ .editor_section .sect_post_detail_area .like .btn_area .btn_more:after { filter: invert(100%) hue-rotate(-180deg) brightness(1000%) }
+    .se_theme_bluebubble ~ .editor_section .sect_post_detail_area,.se_theme_bluebubble ~ .editor_section .sect_tag_area,.se_theme_bluebubble ~ .editor_section .state_line { background-color: rgb(43, 52, 50) }
     .select1 { color: #cacaca;border: 1px solid #404040;background: #242424 }
     .sort_wrap .sort_tab .sort_item.is_active .dot:after { background: #fff }
-    .sorting_area.t4 .btn_sorting { background-color: #2f2f2f !important }
+    .sorting_area.t4 .btn_sorting,.spi_card { background-color: #2f2f2f !important }
     .sorting_select_wrap .btn_sorting:first-child:after { background-color: transparent }
+    .spi_btm_btns { border-top: 1px solid #404040 !important }
+    .spi_copyurl_inapp .spi_copyurl_url { background-color: #242424 !important }
+    .spi_copyurl_inappbtn { color: #cacaca !important;border: 1px solid #404040 !important;background: #2f2f2f !important }
+    .spi_copyurl_url { border: 1px solid #404040 !important;background: #242424 !important }
     .t5 .sorting_inner_wrap { border-bottom: 1px solid #404040;background: #242424 }
     .tab_menu1 li a.on,.tab_menu1 li a.on span { color: #fff;border-bottom: 1px solid #404040 }
     .tag_feed_wrap .tag_area .tag { color: #cacaca;background-color: #2f2f2f }

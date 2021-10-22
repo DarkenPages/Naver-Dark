@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.111
+@version		1.51.112
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -5184,7 +5184,7 @@
     .board_notice tbody td.data *[style*="color:"] { color: #cacaca !important }
     .board_notice thead th { color: #fff;border-bottom-color: #404040 }
     .cc_layer_alert { border: 1px solid #404040;background: #2f2f2f }
-    .cc_layer_alert .cc_alert_btn,.home_user .btn_mycafe_more { color: #fff;border: 1px solid #404040 }
+    .cc_layer_alert .cc_alert_btn { color: #fff;border: 1px solid #404040 }
     .cc_layer_mynews .cc_mynews_header { border-bottom: 1px solid #404040;background: #242424 }
     .cc_layer_mynews .cc_mynews_list li.unread { background: #2c2c2c }
     .cc_layer_mynews .cc_mynews_option_layer { color: #fff !important;border: 1px solid #404040;background-color: #242424 }
@@ -5230,6 +5230,7 @@
     .FormSelectBox .select_option .option:hover,.SelectRegion .select_city_content .region_list li:hover .btn { background: #4f4f4f }
     .FormSelectButton .button { color: #cacaca;border: 1px solid #404040;background: #3a3a3a }
     .gnb_notice_li a.gnb_notice .gnb_icon,.gnb_service_li a.gnb_service .gnb_icon,.mail_li a.gnb_mail .gnb_icon { filter: invert(0%) !important }
+    .home_user .btn_mycafe_more { color: #fff;border: 1px solid #404040;background-color: #2f2f2f }
     .home_user_mycafe .btn_mycafe_edit:before,.section_rep .field_tab .sp_rep:not(:hover) { filter: brightness(100%) }
     .mycafe_tab a { color: #cacaca;border: 1px solid #404040;border-left: 0 }
     .mycafe_tab a.on:after { background-color: #019341 }

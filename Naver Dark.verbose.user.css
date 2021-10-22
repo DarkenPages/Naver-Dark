@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.109
+@version		1.51.110
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -40976,8 +40976,64 @@
 		border-radius: 2px;
 	}
 	
-	#blog-gnb .gnb_icon {
-		
+	.su_campaign .su_campaign_iner {
+		border: 1px solid #404040;
+	}
+	
+	.su_campaign .suite_stop {
+		border-bottom: 1px solid #404040;
+		background: none;
+		position: relative;
+	}
+	
+	.su_campaign .suite_stop:before {
+		background: url(https://ssl.pstatic.net/static/blog/suite_stop_tit.png) no-repeat;
+		background-size: 404px 54px;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.su_campaign {
+		background: #242424;
+	}
+	
+	.su_campaign .tit {
+		color: #fff;
+	}
+	
+	.su_campaign .camp_sec li {
+		background: none;
+		position: relative;
+	}
+	
+	.su_campaign .camp_sec li:before {
+		background: url(https://blogimgs.pstatic.net/campaign/bg_suite_dot.gif) repeat-y;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.su_campaign .camp_sec .help_lst li, .su_campaign .camp_sec .help_lst li a {
+		color: #cacaca;
+	}
+	
+	.su_campaign .camp_sec .help_lst li:before {
+		background: url(https://blogimgs.pstatic.net/campaign/bg_suite_bar.gif) no-repeat 0 3px;
+	}
+	
+	.su_campaign .camp_sec .help_lst li em {
+		color: #fff;
 	}
 }
 

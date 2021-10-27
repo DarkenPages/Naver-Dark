@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.112
+@version		1.51.113
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -80178,6 +80178,10 @@
 	}
 	
 	.cont_otp .resend_way {
+		color: #fff;
+	}
+	
+	.message_text {
 		color: #fff;
 	}
 }

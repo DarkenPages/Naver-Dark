@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.116
+@version		1.51.117
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -59543,77 +59543,6 @@
 	/*.int.focus {*/
 	/*	background-color: #2a2a2a;*/
 	/*}*/
-}
-
-@-moz-document url-prefix("https://whale.naver.com")
-{
-	body {
-		background: #242424 !important;
-		color: #cacaca !important;
-	}
-	
-	p, span {
-		color: #cacaca !important;
-	}
-	
-	strong, b {
-		color: #fff !important;
-	}
-	
-	h1, h2, h3 {
-		color: #fff !important;
-	}
-	
-	h4, h5, h6 {
-		color: #fff !important;
-	}
-	
-	a {
-		color: #7474e3;
-	}
-	
-	._2DXP9UNE {
-		background-color: #2f2f2f;
-	}
-	
-	._3fbvw2Dt {
-		background-color: #2f2f2f;
-	}
-	
-	._3pQ5zZUv a._1fcTvlFX {
-		color: #fff;
-	}
-	
-	._3fbvw2Dt nav a {
-		color: #fff;
-	}
-	
-	._3pQ5zZUv a._3wZQ3AVP {
-		color: #fff;
-	}
-	
-	._2LBPhRPq {
-		border-color: hsla(0,0%,100%,.7);
-		background-color: transparent;
-	}
-	
-	.main header a svg path {
-		fill: #fff;
-	}
-	
-	article.container {
-		background: #2f2f2f;
-		color: #cacaca;
-		border: 1px solid #404040;
-	}
-	
-	._1qDgLKXh._2QCQru7I, ._1RJUG1Vq, ._1XpDCuae {
-		background-color: #2f2f2f;
-	}
-	
-	._1XpDCuae a {
-		background-color: #242424;
-	}
 }
 
 @-moz-document url-prefix("https://cafe.naver.com/CafeTagArticleList.nhn")

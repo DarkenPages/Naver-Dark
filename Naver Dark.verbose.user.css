@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.114
+@version		1.51.115
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -2731,6 +2731,62 @@
 	}
 	
 	.dh_layer .p1 {
+		color: #cacaca;
+	}
+	
+	.cv_task_btn {
+		border-bottom: 1px solid #404040;
+	}
+	
+	div.cv_task_btn {
+		border-color: #404040;
+		background-color: #242424;
+	}
+	
+	div.cv_task_btn button {
+		color: #cacaca;
+	}
+	
+	.cv_task_btn .bar {
+		color: #404040;
+	}
+	
+	div.conversation_cover {
+		background-color: #242424;
+	}
+	
+	div.conversation_cover .toTop {
+		background-color: #242424;
+	}
+	
+	div.conversation_cover .toTop a {
+		color: #fff !important;
+	}
+	
+	.conversation_cover .cv_card {
+		border: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	.cv_card .viewTitle .name a {
+		color: #fff;
+	}
+	
+	.cv_card #readFrame, .cv_card .readFrame, .cv_card.fold .cv_preview, .cv_card.fold .viewTitle .name {
+		background-color: #fff;
+		color: #000;
+	}
+	
+	.conversation_cover div.cv_card .toggle_oldermail {
+		background-color: initial;
+		border: initial;
+	}
+	
+	.cv_card .cv_preview {
+		padding-top: 22px;
+	}
+	
+	div.viewTitle .date_cover .remind_date, div.viewTitle .date_cover .send_date {
 		color: #cacaca;
 	}
 }
@@ -25655,7 +25711,7 @@
 
 @-moz-document regexp("https://calendar\\.naver\\.com/(?!promotion.nhn|subscribePage.nhn).*")
 {
-	html, body, head {
+	html, head {
 		background: #242424;
 		color: #cacaca;
 	}

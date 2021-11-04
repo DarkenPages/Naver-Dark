@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.115
+@version		1.51.116
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -2135,6 +2135,10 @@
 {
 	html, head {
 		background: #242424;
+	}
+	
+	body {
+		background: #2c2c2c !important;
 	}
 	
 	.gnb_list_box li:not(.mail) a {
@@ -25716,6 +25720,10 @@
 		color: #cacaca;
 	}
 	
+	body {
+		background: #2c2c2c !important;
+	}
+	
 	#header.h_calendar {
 		background: #2f2f2f;
 	}
@@ -38612,6 +38620,10 @@
 
 @-moz-document url-prefix("https://www.naver.com/my.html")
 {
+	body {
+		background: #1c1c1c;
+	}
+	
 	.my_cont {
 		border: 1px solid #404040;
 	}

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.115
+@version		1.51.116
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -381,6 +381,7 @@
     #footer { color: #cacaca;border-top: 1px solid #404040;background: #242424 }
     #footer .bar { color: #404040 }
     #nav_snb { border-right: 1px solid #404040;border-color: #404040 !important;background: #242424 !important }
+    body { background: #2c2c2c !important }
     head,html { color: #cacaca;background: #242424 }
     select { padding: 1px 20px 1px 5px;filter: none;color: #cacaca;border: 1px solid #404040;border-radius: 5px;background: #242424;background-size: 16px;background-repeat: no-repeat;background-position: right 2px center;background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiNjYWNhY2EiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQuNDI3IDkuNDI3IDMuMzk2IDMuMzk2YS4yNTEuMjUxIDAgMCAwIC4zNTQgMGwzLjM5Ni0zLjM5NkEuMjUuMjUgMCAwIDAgMTEuMzk2IDlINC42MDRhLjI1LjI1IDAgMCAwLS4xNzcuNDI3ek00LjQyMyA2LjQ3IDcuODIgMy4wNzJhLjI1LjI1IDAgMCAxIC4zNTQgMEwxMS41NyA2LjQ3YS4yNS4yNSAwIDAgMS0uMTc3LjQyN0g0LjZhLjI1LjI1IDAgMCAxLS4xNzctLjQyN3oiLz48L3N2Zz4=");appearance: none;-webkit-appearance: none;-moz-appearance: none }
     select:disabled { color: #666;background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiM2NjYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQuNDI3IDkuNDI3IDMuMzk2IDMuMzk2YS4yNTEuMjUxIDAgMCAwIC4zNTQgMGwzLjM5Ni0zLjM5NkEuMjUuMjUgMCAwIDAgMTEuMzk2IDlINC42MDRhLjI1LjI1IDAgMCAwLS4xNzcuNDI3ek00LjQyMyA2LjQ3IDcuODIgMy4wNzJhLjI1LjI1IDAgMCAxIC4zNTQgMEwxMS41NyA2LjQ3YS4yNS4yNSAwIDAgMS0uMTc3LjQyN0g0LjZhLjI1LjI1IDAgMCAxLS4xNzctLjQyN3oiLz48L3N2Zz4=") }
@@ -3117,6 +3118,7 @@
     .viewTitle dl dd.noImgs { color: #cacaca !important;border: 1px solid #404040 !important;background-color: #404040 !important }
     #nav_snb div.btn_workset { background: none }
     #sign_prview_layer table tr:first-child td[style] { border-top: 1px solid #404040;background: none !important }
+    body { background: #2c2c2c !important }
     div.cv_task_btn { border-color: #404040;background-color: #242424 }
     div.dh_layer .type_c .phising_help .sTipTxt3 { background-color: #404040 !important }
     div.img_preview_area { background: #fff }
@@ -5978,6 +5980,7 @@
     .service_body .ban_pointplus .ico_point { filter: invert(1) hue-rotate(-180deg) }
     .service_footer { border-top: 1px solid #4f4f4f;background-color: #404040 }
     .service_footer .set_area .btn_set+.btn_set:before,.service_footer .sub_area:before,.timeline_wrap:before { background-color: #4f4f4f }
+    body { background: #1c1c1c }
     html[data-dark="false"] .sc_user .tab_area .tab+.tab { border-left: 1px solid #404040 }
     html[data-dark="true"] .sc_user .tab_area .tab_box.type_under5 .tab { border-right: 1px solid #404040;border-left: none }
 }

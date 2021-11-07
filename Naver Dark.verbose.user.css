@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.121
+@version		1.51.122
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -79886,8 +79886,12 @@
 		color: #cacaca;
 	}
 	
-	a, .rsult_section .kin_area .title, .svs_end_area .svs_end_cont a {
+	a, .rsult_section .kin_area .title, .svs_end_area .svs_end_cont a, .svs_end_area .eval_noti a {
 		color: #688cda;
+	}
+	
+	#content .svs_end_area .eval_noti a span {
+		color: #688cda !important;
 	}
 	
 	a:visited, .rsult_section .kin_area .title:visited, .svs_end_area .svs_end_cont a:visited {
@@ -79896,6 +79900,32 @@
 	
 	.svs_end_area .qa_confrm .write_frm_header p {
 		color: #fff;
+	}
+	
+	.svs_end_area .eval_sheet {
+		background-color: #2f2f2f;
+	}
+	
+	.svs_end_area .eval_noti, .svs_end_area .interactive .eval_sheet label {
+		color: #cacaca;
+	}
+	
+	.green_section .bnr1 {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.kin_secion .kin_section_frm .input_text {
+		border: 1px solid #404040;
+		color: #cacaca;
+		background: #242424;
+	}
+	
+	.kwd_typ_section img.thumb {
+		padding: 10px;
+		background: #fff;
+		width: calc(130px - 20px);
+		height: calc(92px - 20px);
+		border-radius: 12px;
 	}
 }
 

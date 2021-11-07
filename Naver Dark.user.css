@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.121
+@version		1.51.122
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -2809,9 +2809,9 @@
     .cmn_table .title,.ctg_section .pnt_ctg_area li a,.ctg_section .pnt_ctg_area li strong,.info,.info address a,.info_v2 .tel .ars_detail,.kwd_typ_section .lst_kwd dt,.lst_rep_servs a,.m_section .tab_qa .on a,.notice_area .area_title,.notice_area .cmn_table .title,.notice_area .cmn_table th a,.notice_end .top_area .add_info .num,.notice_end .top_area .title,.rsult_section .paginate a.next:hover,.rsult_section .paginate a.prev:hover,.rsult_section .srch_kin,.rsult_section .tab .ctg a,.snb .nav .back_prv a,.snb .nav li a,.snb h2 a,.spot_area .spot a,.svs_end_area .cont td .atcl,.svs_end_area .end_typ h3,.svs_end_area .end_typ label,.svs_end_area .localreg_desc h3,.svs_end_area .qa_confrm .write_frm_header p,.svs_end_area .write_frm dt,.svs_end_area .write_frm h4.urlentry,.svs_end_area .write_frm label { color: #fff }
     .cmn_table td,.notice_end .cmn_table td,.notice_end .list_table .cmn_table tbody tr:last-child td,.notice_end .top_area .title_wrap,.snb .nav .back_prv { border-bottom: 1px solid #404040 }
     .cmn_table th { border-top: 1px solid #404040;border-bottom: 1px solid #404040;background: #2f2f2f }
-    .cmn_table,.ctg_section .nav_area li a,.explain_v2 .q_noti,.info_v2 .v_map,.kwd_typ_section .lst_kwd dd a,.lst_all_area .lst_all a,.lst_policy a,.lst_policy a:visited,.lst_typ_section li a,.m_section .tab_qa a,.noti_section .lst_noti li a,.notice_area .area_title_sub,.notice_area .cmn_table .date,.notice_area .cmn_table .hit,.notice_area .cmn_table .num,.notice_area .cmn_table .notice_pos,.notice_area .form_search input[type=text],.notice_area .paginate a,.notice_area .paginate strong,.notice_area .preview_content .text_box,.notice_end .private_wrap .clipboard,.notice_end .top_area .add_info,.notice_end .top_area .add_info .info_date,.notice_end .view_content .conts,.Nsearch .srch_area .ipt_box .srch_kwd:focus,.nt_more:visited,.rsult_section .kin_area .txt,.svs_end_area .write_frm .q_noti,.svs_end_area .write_frm .q_noti3,#content .se-section-quotation .se-cite .se-text-paragraph { color: #cacaca }
+    .cmn_table,.ctg_section .nav_area li a,.explain_v2 .q_noti,.info_v2 .v_map,.kwd_typ_section .lst_kwd dd a,.lst_all_area .lst_all a,.lst_policy a,.lst_policy a:visited,.lst_typ_section li a,.m_section .tab_qa a,.noti_section .lst_noti li a,.notice_area .area_title_sub,.notice_area .cmn_table .date,.notice_area .cmn_table .hit,.notice_area .cmn_table .num,.notice_area .cmn_table .notice_pos,.notice_area .form_search input[type=text],.notice_area .paginate a,.notice_area .paginate strong,.notice_area .preview_content .text_box,.notice_end .private_wrap .clipboard,.notice_end .top_area .add_info,.notice_end .top_area .add_info .info_date,.notice_end .view_content .conts,.Nsearch .srch_area .ipt_box .srch_kwd:focus,.nt_more:visited,.rsult_section .kin_area .txt,.svs_end_area .eval_noti,.svs_end_area .interactive .eval_sheet label,.svs_end_area .write_frm .q_noti,.svs_end_area .write_frm .q_noti3,#content .se-section-quotation .se-cite .se-text-paragraph { color: #cacaca }
     .ctg_section .nav_area,.help_search_box,.notice_end .list_table,.qa_advice,.svs_end_area,.svs_end_area .btn_frm,#footer { border-top: 1px solid #404040 }
-    .etc_section .lst_etc,.green_section .bnr,.md_area .lst_md,.info .f_logo_naver img,.layer_loading img,.lst_typ_section h3,.notice_area .form_search .btn:after,.rsult_section .ask_kin,.rsult_section .sort .exact,.rsult_section .sort .new,.svs_end_area .write_frm select { filter: invert(86%) hue-rotate(-180deg) }
+    .etc_section .lst_etc,.green_section .bnr,.md_area .lst_md,.green_section .bnr1,.info .f_logo_naver img,.layer_loading img,.lst_typ_section h3,.notice_area .form_search .btn:after,.rsult_section .ask_kin,.rsult_section .sort .exact,.rsult_section .sort .new,.svs_end_area .write_frm select { filter: invert(86%) hue-rotate(-180deg) }
     .explain_v2 .btn_area label { border: 1px solid #404040;background-color: #242424 }
     .explain_v2 .btn_eval { background-color: #242424 }
     .explain_v2 .eval_more textarea { color: #cacaca !important;border: 1px solid #404040;background-color: #242424 }
@@ -2821,6 +2821,8 @@
     .help_search_box .ipt_box input,.sta .ipt_box input,body { color: #cacaca;background: #242424 }
     .info_v2 .tel,.nt_more { color: #cacaca;background: none }
     .info_v2 .tel:before,.lst_policy li:before { width: 100%;top: 0;position: absolute;pointer-events: none;left: 0;height: 100%;filter: invert(86%) hue-rotate(-180deg);content: '';background: url(https://ssl.pstatic.net/static/common/footer/bu_bar.gif) 0 50% no-repeat }
+    .kin_secion .kin_section_frm .input_text { color: #cacaca;border: 1px solid #404040;background: #242424 }
+    .kwd_typ_section img.thumb { width: calc(130px - 20px);padding: 10px;height: calc(92px - 20px);border-radius: 12px;background: #fff }
     .l_line { background-color: #404040 }
     .layer_loading .layer_content { border: 2px solid #404040;background: #2f2f2f }
     .lst_all_area .lst_all:first-child h4 { color: #fff !important }
@@ -2837,7 +2839,7 @@
     .notice_area .btn_white { color: #cacaca;border: 1px solid #404040;background: #2f2f2f }
     .notice_area .cmn_table .ic_sort_arr { border-top: 6px solid #fff }
     .notice_area .cmn_table .notice_icon,.snb .nav .on a { color: #242424 }
-    .notice_area .cmn_table .on,.svs_end_area .agree_frm dd,.svs_end_area .guide_frm dd,.svs_end_area .write_frm .attac_lst .even { background-color: #2f2f2f }
+    .notice_area .cmn_table .on,.svs_end_area .agree_frm dd,.svs_end_area .eval_sheet,.svs_end_area .guide_frm dd,.svs_end_area .write_frm .attac_lst .even { background-color: #2f2f2f }
     .notice_area .cmn_table .sorting .ic_sort_arr { border-bottom: 6px solid #fff }
     .notice_area .cmn_table th { color: #fff;border-top: 1px solid #404040;border-bottom: 1px solid #404040;background-color: #2f2f2f }
     .notice_area .form_search,.svs_end_area .write_frm .attac_lst span.attach,.svs_end_area .write_frm .attac_lst ul { border: 1px solid #404040 }
@@ -2849,7 +2851,7 @@
     .rel_area .lst_info { filter: invert(82.5%) hue-rotate(-180deg) }
     .rel_area,.spot_area { border-bottom: 1px solid #404040;background-color: #2f2f2f }
     .rsult_section .help_area h2,.rsult_section .kin_area h2 { line-height: initial;font-size: 15px;color: #fff;background: none }
-    .rsult_section .kin_area .title,.svs_end_area .svs_end_cont a,a { color: #688cda }
+    .rsult_section .kin_area .title,.svs_end_area .eval_noti a,.svs_end_area .svs_end_cont a,a { color: #688cda }
     .rsult_section .kin_area .title:visited,.svs_end_area .svs_end_cont a:visited,a:visited { color: #cc90cd }
     .rsult_section .paginate a,.rsult_section .paginate strong { color: #cacaca;border-right: 1px solid #404040 }
     .rsult_section .tab .ctg li:before { width: 100%;top: 0;position: absolute;pointer-events: none;left: 0;height: 100%;filter: invert(86%) hue-rotate(-180deg);content: '';background: url(https://ssl.pstatic.net/static/help/support/sp_bul3.png) no-repeat;background-position: -9px -136px }
@@ -2866,6 +2868,7 @@
     .svs_end_area .write_frm .input_txt,.svs_end_area .write_frm .input_url,.svs_end_area .write_frm .writer_id,.svs_end_area .write_frm textarea { color: #cacaca !important;border: 1px solid #404040;border-top: 1px solid #404040;border-left: 1px solid #404040;background: #242424 }
     .svs_end_area .write_frm dd { color: #cacaca;color: #cacaca }
     .svs:before { width: 100%;top: 0;position: absolute;pointer-events: none;left: 0;height: 100%;filter: invert(86%) hue-rotate(-180deg);content: '';background: url(https://ssl.pstatic.net/static/help/support/bg_line2.gif) 180px 0 repeat-y }
+    #content .svs_end_area .eval_noti a span,span[style*='color: rgb(58, 50, 195)'] { color: #688cda !important }
     #content *[style*=' color'],#content *[style*=';color'],#content *[style^='color'] { color: #cacaca !important;color: #cacaca !important }
     #content *[style*='background-color']:not([style*='background-color: transparent']):not([style*='background-color:transparent']) { background-color: #242424 !important;background-color: #242424 !important }
     #content *[style*='background:']:not([style*='background: none']):not([style*='background:none']):not(td),#content *[style*='BACKGROUND:']:not([style*='BACKGROUND: NONE']):not([style*='BACKGROUND:NONE']):not(td),#content td[style*='background:']:not([style*='background: none']):not([style*='background:none']),#content td[style*='BACKGROUND:']:not([style*='BACKGROUND: NONE']):not([style*='BACKGROUND:NONE']) { background: #242424 !important }
@@ -2875,7 +2878,6 @@
     #content *[style*='border-top']:not([style*='border-top: none']):not([style*='border-top:none']) { border-top: 1px solid #404040 !important;border-top: 1px solid #404040 !important }
     #content table { background: #242424;background: #242424 }
     #content table td[style*='BORDER-COLOR'],#content table td[style*='border-color'],#content table tr[style*='BORDER-COLOR'],#content table tr[style*='border-color'],#content table[style*='BORDER-COLOR'],#content table[style*='border-color'] { border-color: #404040 !important }
-    span[style*='color: rgb(58, 50, 195)'] { color: #688cda !important }
 }
 @-moz-document url-prefix("https://help.naver.com/support/fileInfo/file.help") {
     .gbox { border: 1px solid #404040 }

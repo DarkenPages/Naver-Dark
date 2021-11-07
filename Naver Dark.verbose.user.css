@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.118
+@version		1.51.119
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -2792,6 +2792,79 @@
 	
 	div.viewTitle .date_cover .remind_date, div.viewTitle .date_cover .send_date {
 		color: #cacaca;
+	}
+	
+	.upld_box {
+		border: 1px solid #404040;
+	}
+	
+	.progress_bar .tit {
+		color: #fff;
+	}
+	
+	.upload_status .status {
+		border-top: 1px solid #404040;
+	}
+	
+	.upld_box .upload_status p.progress_bar {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.upload_status .status table, .upload_status .status td, .upload_status .status th {
+		color: #cacaca;
+	}
+	
+	.upld_file_head, .upld_file_list li {
+		border: 1px solid #404040;
+		border-width: 1px 0;
+		background-color: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.upld_file .file_progress {
+		border: 1px solid #404040;
+		border-width: 0 1px;
+	}
+	
+	.upld_file_list {
+		background: #242424;
+	}
+	
+	.p_bar {
+		background: #2f2f2f;
+	}
+	
+	div.divWrite .utx_btn_b:hover {
+		border-color: #4f4f4f;
+	}
+	
+	.uploader5 .attach_type, .uploader5 .down_period, .uploader5 .file_name, .uploader5 .file_select, .uploader5 .file_size, .uploader5 .status {
+		color: #fff;
+	}
+	
+	.uploader5 .chg_type[disabled=disabled] {
+		border-color: #666;
+		color: #666;
+	}
+	
+	table.mailWriteItem .indicator {
+		color: #cacaca;
+	}
+	
+	.mailWriteItem .indicator em {
+		color: #404040;
+	}
+	
+	.mailWriteItem #AttachInfoNoti {
+		color: #cacaca;
+	}
+	
+	div.divWrite .mailWriteItem .utx_btn .utx_inrbtn {
+		color: #cacaca;
+	}
+	
+	div.divWrite .mailWriteItem .utx_btn:hover {
+		border-color: #4f4f4f;
 	}
 }
 

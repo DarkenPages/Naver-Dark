@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.124
+@version		1.51.125
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -1564,8 +1564,32 @@
 		color: #cacaca;
 	}
 	
-	.writing_option label {
+	.writing_option label, .send_window .tf_tit label {
 		color: #fff;
+	}
+	
+	.writing_option p {
+		color: #cacaca;
+	}
+	
+	.note_read .refuse a {
+		color: #cacaca;
+	}
+	
+	.note_read .refuse {
+		color: #404040;
+	}
+	
+	.note_read .msg_delete p, #footer a {
+		color: #cacaca;
+	}
+	
+	#footer address {
+		color: #cacaca;
+	}
+	
+	#footer .bar, #footer .quick_link .bar {
+		color: #404040;
 	}
 }
 

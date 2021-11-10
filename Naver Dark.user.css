@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.123
+@version		1.51.124
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -3832,12 +3832,12 @@
     .btn_fold,.cutlistTable .line { border-right: 1px solid #404040 }
     .btn_workset a.btn_import span,.btn_workset a.btn_quickwrite span { z-index: 50;text-align: center;overflow: visible;line-height: normal;font-weight: bold;font-size: 13px;color: #000;background: transparent }
     .button,.button_s,.content_header .msearch .search,.content_header .msearch select,.list_keyword,.send_window .tf_cont .tx,.task_btn .subSet select { border: 1px solid #404040 }
-    .button,.button_s,.content_header .notice,.cutlistTable td label,.list_head,.list_head .default,.list_head .default strong,.list_head a,.list_head span,.list_menu ul li a,.note_read .info dt,.note_read .note_none li,.note_read .note_none li a,.note_setup .btns .button,.searchkey_result .keyword,.searchkey_result .keyword a,.setup_menu_area li a,.task_btn .buttonSet,.content_header .msearch select,.notelist .note_info .date,.notelist .note_info .date_send,.notelist .note_info .refuse,.notelist_head li,.task_btn .subSet select { color: #cacaca }
+    .button,.button_s,.content_header .notice,.cutlistTable td label,.list_head,.list_head .default,.list_head .default strong,.list_head a,.list_head span,.list_menu ul li a,.note_read .info dt,.note_read .note_none li,.note_read .note_none li a,.note_setup .btns .button,.searchkey_result .keyword,.searchkey_result .keyword a,.setup_menu_area li a,.task_btn .buttonSet,.content_header .msearch select,.notelist .note_info .date,.notelist .note_info .date_send,.notelist .note_info .refuse,.notelist_head li,.task_btn .subSet select,.writing_option .character { color: #cacaca }
     .cont_list .note_none,.cutlistTable td { color: #cacaca;border-bottom: 1px solid #404040 }
     .content_header .msearch input,.cutlistTable { color: #cacaca;border: 1px solid #404040 }
     .cutlistTable th { border-bottom: 1px solid #404040;background: #2f2f2f }
     .form_ul1 { border-top: 2px solid #404040;border-bottom: 1px solid #404040;background-color: #242424 }
-    .form_ul1 .form_title,.send_window .tf_cont a,.send_window .tf_cont span,.task_btn .buttonSet a,.note_read .info dd,.notelist_item .read .from a,.notelist_item .read .title a { color: #fff }
+    .form_ul1 .form_title,.send_window .tf_cont a,.send_window .tf_cont span,.task_btn .buttonSet a,.note_read .info dd,.notelist_item .read .from a,.notelist_item .read .title a,.send_window .tf_tit .recipient,.writing_option label { color: #fff }
     .gnb_notice_li a.gnb_notice .gnb_icon,.gnb_service_li a.gnb_service .gnb_icon,.mail_li a.gnb_mail .gnb_icon { filter: invert(0%) !important }
     .horizon_mode .divider,.vertical_mode .divider { border-color: #404040;background-color: #242424 }
     .input_keyword .input_text,.note_setup .setup_textfield,.paginate .pageSelector input,select { color: #cacaca;border: 1px solid #404040;background: #242424 }

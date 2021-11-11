@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.125
+@version		1.51.126
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -38949,6 +38949,10 @@
 	.list_thumb .title_wrap .badge_manage {
 		filter: invert(81.5%) hue-rotate(-180deg);
 	}
+	
+	.sc_user .info_area .user_info .nplus_wrap:after {
+		background-color: #404040;
+	}
 }
 
 @-moz-document url-prefix("https://nv.veta.naver.com"), url-prefix("https://siape.veta.naver.com")
@@ -58226,7 +58230,7 @@
 	}
 }
 
-@-moz-document url-prefix("https://blog.naver.com/ScrapForm.nhn"), url-prefix("https://blog.naver.com/ScrapSuccess.nhn")
+@-moz-document url-prefix("https://blog.naver.com/ScrapForm.nhn"), url-prefix("https://blog.naver.com/ScrapSuccess.nhn"), url-prefix("https://blog.naver.com/ScrapForm.naver"), url-prefix("https://blog.naver.com/ScrapSuccess.naver")
 {
 	html, body {
 		background: #242424;
@@ -58298,7 +58302,7 @@
 	}
 }
 
-@-moz-document url-prefix("https://cafe.naver.com/CafeScrapView.nhn")
+@-moz-document url-prefix("https://cafe.naver.com/CafeScrapView.nhn"), url-prefix("https://cafe.naver.com/CafeScrapView.naver")
 {
 	.textbox {
 		background-color: #242424;
@@ -80949,5 +80953,178 @@
 {
 	.Article {
 		background-color: initial;
+	}
+}
+
+@-moz-document url-prefix("https://nid.naver.com/membership/join")
+{
+	body {
+		background-color: #242424;
+		color: #cacaca;
+	}
+	
+	.intro_area .menu_box {
+		background-color: #2f2f2f;
+	}
+	
+	.intro_area .menu_box .inner:before, .intro_area .menu_box .inner:after, .intro_area .save_box .desc_box .point:after {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.intro_area .menu_list .menu[aria-current=true]:after {
+		background-color: #fff;
+	}
+	
+	.intro_area .menu_list .menu[aria-current=true].membership:before, .intro_area .menu_list .menu[aria-current=true].save:before, .intro_area .menu_list .menu[aria-current=true].family:before, .intro_area .menu_list .menu[aria-current=true].digital:before, .intro_area .menu_list .menu[aria-current=true].shopping:before, .intro_area .menu_list .menu[aria-current=true].subscribe:before, .intro_area .menu_list .menu[aria-current=true].card:before, .intro_area .menu_list .menu[aria-current=true].reaction:before {
+		filter: invert(86.5%) hue-rotate(-180deg) brightness(1000%);
+	}
+	
+	.intro_area .membership_box .h_title, .intro_area .save_box .h_title, .intro_area .family_box .h_title, .intro_area .digital_box .h_title, .intro_area .shopping_box .h_title, .intro_area .subscribe_box .h_title, .intro_area .card_box .h_title, .intro_area .reaction_box .h_title, .intro_area .reaction_item .desc_box .desc:after, .intro_area .reaction_item .desc_box .desc:before {
+		filter: invert(86.5%) hue-rotate(-180deg) brightness(1000%);
+	}
+	
+	.intro_area .membership_box .h_desc, .intro_area .save_box .h_desc, .intro_area .save_box .desc_box .value:before, .intro_area .save_box .desc_box .point:before, .intro_area .user_box .desc_box .desc:first-child:after, .intro_area .user_box .desc_box .desc:first-child+.desc:after, .intro_area .save_box .notice_box .s_title:after, .intro_area .family_box .h_desc, .intro_area .digital_box .h_desc, .intro_area .shopping_box .h_desc, .intro_area .subscribe_box .h_desc, .intro_area .card_box .h_desc, .intro_area .reaction_box .h_desc {
+		filter: invert(100%) hue-rotate(-180deg);
+	}
+	
+	.intro_area .digital_box .notice, .intro_area .shopping_box .notice, .intro_area .subscribe_box .notice, .intro_area .reaction_box .notice {
+		color: #cacaca;
+	}
+	
+	.intro_area .family_box, .intro_area .shopping_item .title {
+		color: #fff;
+	}
+	
+	.intro_area .digital_box {
+		background-color: #2f2f2f;
+	}
+	
+	.intro_area .save_box .notice_box .desc {
+		color: #cacaca;
+	}
+	
+	.intro_area .membership_list .membership_item .title {
+		color: #fff;
+	}
+	
+	.intro_area .save_box {
+		background-color: #2f2f2f;
+	}
+	
+	.intro_area .save_box .table_area {
+		border: 1px solid #404040;
+		background-color: #3a3a3a;
+	}
+	
+	.intro_area .save_box .table_area:before {
+		background-color: #404040;
+	}
+	
+	.intro_area .save_box .title_box .title {
+		color: #fff;
+	}
+	
+	.intro_area .user_box .user {
+		color: #cacaca;
+	}
+	
+	.intro_area .save_box .notice_box {
+		background-color: rgba(40, 40, 40, 0.9);
+	}
+	
+	.intro_area .subscribe_box {
+		background-color: #2f2f2f;
+	}
+	
+	.intro_area .reaction_box {
+		background-color: #2f2f2f;
+	}
+	
+	.intro_area .reaction_item {
+		background-color: #3a3a3a;
+		border :1px solid #404040;
+	}
+	
+	@media (min-width: 750px) {
+		.intro_area .reaction_item {
+			border: 1.5px solid #404040;
+		}
+	}
+	
+	.intro_area .reaction_item .profile_box .user {
+		color: #fff;
+	}
+	
+	.intro_area .reaction_item .desc_box .desc {
+		color: #cacaca;
+	}
+	
+	.intro_area .reaction_item .desc_box .point {
+		color: #fff;
+	}
+	
+	.intro_area .reaction_item .desc_box .img_box {
+		border-top: 1px dotted #404040;
+	}
+	
+	.intro_area .reaction_item .desc_box .img_box img {
+		filter: invert(77%) hue-rotate(-180deg);
+	}
+	
+	.intro_area .banner_box img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.wrap.intro .footer {
+		background-color: #2f2f2f;
+	}
+	
+	.wrap.intro .footer_service .service .txt, .wrap.intro .footer_info .info .txt, .wrap.intro .footer_service .info_corp .txt {
+		color: #cacaca;
+	}
+	
+	.footer_service .service+.service::before, .footer_info .info+.info::before {
+		background-color: #404040;
+	}
+	
+	.intro_area .banner_box .lnk_banner {
+		background-color: #2f2f2f !important;
+	}
+	
+	.spi_lst .spi_lst_release {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.spi_default a:hover, .spi_default a:active, .spi_default a:focus, .spi_default a:visited {
+		color: #fff;
+	}
+	
+	.spi_default a {
+		color: #cacaca;
+	}
+	
+	.spi_btn_release .spi_lst_release a.spi_btn_copyurl, .spi_sns_share .spi_lst .spi_btn_release .spi_lst_release a.spi_btn_copyurl, .spi_onebtn .spi_lst .spi_btn_release .spi_lst_release a.spi_btn_copyurl {
+		color: #cacaca !important;
+		border: 1px solid #404040;
+	}
+	
+	.spi_btn_release .spi_lst_release a.spi_input_copyurl, .spi_sns_share .spi_lst .spi_btn_release .spi_lst_release a.spi_input_copyurl, .spi_onebtn .spi_lst .spi_btn_release .spi_lst_release a.spi_input_copyurl {
+		border: 1px solid #404040;
+		background-color: #242424;
+		color: #cacaca;
+	}
+	
+	.spi_default .spi_ly_pop {
+		border: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.spi_onebtn .spi_dsc {
+		color: #cacaca !important;
+	}
+	
+	.spi_default .spi_ly_pop .spi_close span {
+		filter: invert(81.5%) hue-rotate(-180deg);
 	}
 }

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.125
+@version		1.51.126
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -1581,7 +1581,7 @@
     span[class*='set_detail__'] i[class*='icon_help__'] { filter: invert(81.5%) hue-rotate(-180deg) }
     span[class*='set_detail__'] span[class*='layer_tip__'] { color: #cacaca;border: 1px solid #404040;background: #2f2f2f }
 }
-@-moz-document url-prefix("https://blog.naver.com/ScrapForm.nhn"), url-prefix("https://blog.naver.com/ScrapSuccess.nhn") {
+@-moz-document url-prefix("https://blog.naver.com/ScrapForm.nhn"), url-prefix("https://blog.naver.com/ScrapSuccess.nhn"), url-prefix("https://blog.naver.com/ScrapForm.naver"), url-prefix("https://blog.naver.com/ScrapSuccess.naver") {
     .og { box-shadow: none }
     .og .box,body,html { background: #242424 }
     .og .dsc,.pop_og_wrap .pop_og_cont .pop_og_option .setting dd,.pop_og_wrap .pop_og_cont .complete_dsc { color: #cacaca }
@@ -2013,7 +2013,7 @@
     .status label,th { color: #cacaca }
     body,div,td { color: #cacaca !important }
 }
-@-moz-document url-prefix("https://cafe.naver.com/CafeScrapView.nhn") {
+@-moz-document url-prefix("https://cafe.naver.com/CafeScrapView.nhn"), url-prefix("https://cafe.naver.com/CafeScrapView.naver") {
     .btn.btn_switch { color: #cacaca;border: 1px solid #404040;background-color: #242424 }
     .og .tit,.share .btns_group dt { color: #fff }
     .og .txt { border: 1px solid #404040 }
@@ -3507,6 +3507,32 @@
     .vaccine_area .h_desc { color: #cacaca }
     .vaccine_area .h_title { color: #fff }
     #wrap,body,html { background: #242424 }
+}
+@-moz-document url-prefix("https://nid.naver.com/membership/join") {
+    .footer_info .info+.info::before,.footer_service .service+.service::before,.intro_area .save_box .table_area:before { background-color: #404040 }
+    .intro_area .banner_box .lnk_banner { background-color: #2f2f2f !important }
+    .intro_area .banner_box img { filter: invert(86%) hue-rotate(-180deg) }
+    .intro_area .card_box .h_desc,.intro_area .digital_box .h_desc,.intro_area .family_box .h_desc,.intro_area .membership_box .h_desc,.intro_area .reaction_box .h_desc,.intro_area .save_box .desc_box .point:before,.intro_area .save_box .desc_box .value:before,.intro_area .save_box .h_desc,.intro_area .save_box .notice_box .s_title:after,.intro_area .shopping_box .h_desc,.intro_area .subscribe_box .h_desc,.intro_area .user_box .desc_box .desc:first-child+.desc:after,.intro_area .user_box .desc_box .desc:first-child:after { filter: invert(100%) hue-rotate(-180deg) }
+    .intro_area .card_box .h_title,.intro_area .digital_box .h_title,.intro_area .family_box .h_title,.intro_area .membership_box .h_title,.intro_area .reaction_box .h_title,.intro_area .reaction_item .desc_box .desc:after,.intro_area .reaction_item .desc_box .desc:before,.intro_area .save_box .h_title,.intro_area .shopping_box .h_title,.intro_area .subscribe_box .h_title,.intro_area .menu_list .menu[aria-current=true].card:before,.intro_area .menu_list .menu[aria-current=true].digital:before,.intro_area .menu_list .menu[aria-current=true].family:before,.intro_area .menu_list .menu[aria-current=true].membership:before,.intro_area .menu_list .menu[aria-current=true].reaction:before,.intro_area .menu_list .menu[aria-current=true].save:before,.intro_area .menu_list .menu[aria-current=true].shopping:before,.intro_area .menu_list .menu[aria-current=true].subscribe:before { filter: invert(86.5%) hue-rotate(-180deg) brightness(1000%) }
+    .intro_area .digital_box .notice,.intro_area .reaction_box .notice,.intro_area .shopping_box .notice,.intro_area .subscribe_box .notice,.intro_area .reaction_item .desc_box .desc,.intro_area .save_box .notice_box .desc,.intro_area .user_box .user,.spi_default a,.wrap.intro .footer_info .info .txt,.wrap.intro .footer_service .info_corp .txt,.wrap.intro .footer_service .service .txt { color: #cacaca }
+    .intro_area .digital_box,.intro_area .menu_box,.intro_area .reaction_box,.intro_area .save_box,.intro_area .subscribe_box,.wrap.intro .footer { background-color: #2f2f2f }
+    .intro_area .family_box,.intro_area .shopping_item .title,.intro_area .membership_list .membership_item .title,.intro_area .reaction_item .desc_box .point,.intro_area .reaction_item .profile_box .user,.intro_area .save_box .title_box .title,.spi_default a:active,.spi_default a:focus,.spi_default a:hover,.spi_default a:visited { color: #fff }
+    .intro_area .menu_box .inner:after,.intro_area .menu_box .inner:before,.intro_area .save_box .desc_box .point:after,.spi_default .spi_ly_pop .spi_close span { filter: invert(81.5%) hue-rotate(-180deg) }
+    .intro_area .menu_list .menu[aria-current=true]:after { background-color: #fff }
+    .intro_area .reaction_item { border :1px solid #404040;background-color: #3a3a3a }
+    .intro_area .reaction_item .desc_box .img_box { border-top: 1px dotted #404040 }
+    .intro_area .reaction_item .desc_box .img_box img { filter: invert(77%) hue-rotate(-180deg) }
+    .intro_area .save_box .notice_box { background-color: rgba(40, 40, 40, 0.9) }
+    .intro_area .save_box .table_area { border: 1px solid #404040;background-color: #3a3a3a }
+    .spi_btn_release .spi_lst_release a.spi_btn_copyurl,.spi_onebtn .spi_lst .spi_btn_release .spi_lst_release a.spi_btn_copyurl,.spi_sns_share .spi_lst .spi_btn_release .spi_lst_release a.spi_btn_copyurl { color: #cacaca !important;border: 1px solid #404040 }
+    .spi_btn_release .spi_lst_release a.spi_input_copyurl,.spi_onebtn .spi_lst .spi_btn_release .spi_lst_release a.spi_input_copyurl,.spi_sns_share .spi_lst .spi_btn_release .spi_lst_release a.spi_input_copyurl { color: #cacaca;border: 1px solid #404040;background-color: #242424 }
+    .spi_default .spi_ly_pop { border: 1px solid #404040;background: #2f2f2f }
+    .spi_lst .spi_lst_release { border: 1px solid #404040;background-color: #2f2f2f }
+    .spi_onebtn .spi_dsc { color: #cacaca !important }
+    @media (min-width: 750px) {
+        .intro_area .reaction_item { border: 1.5px solid #404040 }
+    }
+    body { color: #cacaca;background-color: #242424 }
 }
 @-moz-document url-prefix("https://nid.naver.com/mobile/user/global/idInquiry"), url-prefix("https://nid.naver.com/mobile/user/authGlobalRegMobile.nhn"), url-prefix("https://nid.naver.com/mobile/user/global/pwInquiry") {
     .g_btn .btn { cursor: pointer;border-radius: 10px;background: #019341 }
@@ -5962,7 +5988,7 @@
     #footer ul li,address .spsv_naver2 { filter: invert(86%) hue-rotate(-180deg) }
 }
 @-moz-document url-prefix("https://www.naver.com/my.html") {
-    .flex_list .item_flex+.item_flex:before,.list_thumb .dsc_wrap .dsc+.dsc:before,.list_memo .dsc_date:before,.service_header .title_area .title_tab+.title_tab:before,.list_timeline .dsc_time:before,.sc_user .info_area .user_info .link_my:before,.service_header .func_area .func+.func:before { background-color: #404040 }
+    .flex_list .item_flex+.item_flex:before,.list_thumb .dsc_wrap .dsc+.dsc:before,.list_memo .dsc_date:before,.service_header .title_area .title_tab+.title_tab:before,.list_timeline .dsc_time:before,.sc_user .info_area .user_info .link_my:before,.sc_user .info_area .user_info .nplus_wrap:after,.service_header .func_area .func+.func:before { background-color: #404040 }
     .flex_list .title,.flex_list .title:link,.flex_list .title:visited,.list_thumb .dsc_wrap .dsc,.list_thumb .dsc_wrap .dsc:link,.list_thumb .dsc_wrap .dsc:visited,.sc_user .set_area .link_set,.sc_user .set_area .link_set:link,.sc_user .set_area .link_set:visited,.sc_user .tab_area .tab,.sc_user .tab_area .tab:link,.sc_user .tab_area .tab:visited,.service_footer .btn_reset,.service_footer .btn_reset:link,.service_footer .btn_reset:visited,.service_footer .link_service,.service_footer .link_service:link,.service_footer .link_service:visited,.service_footer a.sub_info,.service_footer a.sub_info:link,.service_footer a.sub_info:visited,.service_header .func_area a,.service_header .func_area a:link,.service_header .func_area a:visited,.list_grid .info_box .title,.sc_user .info_area .user_info .link_my,.sc_user .info_area .user_info .new_box,.sc_user .info_area .user_info .new_box a:visited,.service_footer .set_area .btn_set,.service_header .title_area .title_tab.tab_on { color: #cacaca }
     .flex_list .title:hover,.list_thumb .dsc_wrap .dsc:hover,.list_thumb .item_thumb_inner:hover .notice,.list_thumb .item_thumb_inner:hover .title,.sc_user .set_area .link_set:hover,.sc_user .tab_area .tab:hover,.service_footer .btn_reset:hover,.service_footer .link_service:hover,.service_footer a.sub_info:hover,.service_header .func_area a:hover,.list_thumb .item_thumb_inner .notice,.list_thumb .item_thumb_inner .title,.list_thumb .item_thumb_inner:link .notice,.list_thumb .item_thumb_inner:link .title,.list_thumb .item_thumb_inner:visited .notice,.list_thumb .item_thumb_inner:visited .title,.sc_user .info_area .user_info .link_set { color: #fff }
     .flex_list,.list_grid .file_box:after,.list_memo .item_memo,.my_cont,.sc_set .list_set .label_set,.service_body .date_area { border: 1px solid #404040 }

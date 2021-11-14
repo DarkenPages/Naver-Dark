@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.126
+@version		1.51.127
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -2446,16 +2446,16 @@
     .wrap_shd { border-color: #404040;background: #2f2f2f }
     .wrap_shd h1 { color: #fff;border-bottom: 1px solid #404040 }
 }
-@-moz-document url-prefix("https://castbox.shopping.naver.com") {
+@-moz-document url-prefix("https://castbox.shopping.naver.com"), url-prefix("https://www.naver.com/shoppingbox/shoppingboxnew/main.nhn") {
     .shop_wrap { background-color: #1c1c1c }
     .shop_wrap .group_event + .group_goods:before { background-color: #404040 }
     .shop_wrap .group_event,.shop_wrap .group_plus,.shop_wrap .group_pnf,.shop_wrap .group_price,.shop_wrap .group_shop,.shop_wrap .group_shop+.group_shop { border-top: 1px solid #404040 }
     .shop_wrap .group_mall { border-bottom: 1px solid #404040;background-color: #2f2f2f }
     .shop_wrap .group_mall .link_mall strong,.shop_wrap .group_pnf .shop_title .title,.shop_wrap .group_shop .link_mall,.shop_wrap .list_event .title,.shop_wrap .shop_control .num_box .current,.shop_wrap .shop_header .link_shop,.shop_wrap .shop_header .link_shop a,.shop_wrap .shop_page .num_box .current { color: #fff }
     .shop_wrap .group_mall .link_mall,.shop_wrap .list_event .event_area,.shop_wrap .sale_area .desc,.shop_wrap .shop_header .shop_tab .tab,body,button,input,select,table,textarea { color: #cacaca }
+    .shop_wrap .group_trend .link_mall_logo>img,.shop_wrap .shop_control .btn_next:hover:before,.shop_wrap .shop_control .btn_prev:hover:before,.shop_wrap .shop_page .btn_next:hover:before,.shop_wrap .shop_page .btn_prev:hover:before { filter: invert(86%) hue-rotate(-180deg) }
     .shop_wrap .sale_area { border: 1px solid #404040;background-color: #2f2f2f }
     .shop_wrap .shop_content,.shop_wrap .shop_control .btn,.shop_wrap .shop_page .btn { border: 1px solid #404040;background-color: #242424 }
-    .shop_wrap .shop_control .btn_next:hover:before,.shop_wrap .shop_control .btn_prev:hover:before,.shop_wrap .shop_page .btn_next:hover:before,.shop_wrap .shop_page .btn_prev:hover:before { filter: invert(86%) hue-rotate(-180deg) }
     .shop_wrap .shop_control .btn:hover,.shop_wrap .shop_page .btn:hover { background-color: #2f2f2f }
 }
 @-moz-document url-prefix("https://comments.sports.naver.com"), url-prefix("https://sports.news.naver.com") {

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.128
+@version		1.51.129
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -13759,6 +13759,19 @@
 	.LayerPopup {
 		background-color: #2f2f2f !important;
 	}
+	
+	.goods_status .goods_info .title .name {
+		color: #fff;
+	}
+	
+	.pc .goods_status .inner {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.goods_status .goods_btn .btn_go {
+		background-color: #3a3a3a;
+		color: #cacaca;
+	}
 }
 
 @-moz-document url-prefix("https://cafe.upphoto.naver.com"), url-prefix("https://ecommerce.upphoto.naver.com"), url-prefix("https://blog.upphoto.naver.com")
@@ -14034,6 +14047,10 @@
 	
 	body > svg > symbol[id='ico-post-arrow-323232'] > path {
 		fill: #fff !important;
+	}
+	
+	body > svg > symbol[id='icon-saleinfo-warning'] > g {
+		stroke: rgb(239, 129, 126);
 	}
 	
 	.SaleInfo .CommercialDetail .seller_phone:before {
@@ -15442,6 +15459,53 @@
 	}
 	
 	.ModalLayer .layer_seller_contact .contact_tool .btn_fraud {
+		color: #fff;
+	}
+	
+	.FishingAlert {
+		background-color: rgb(49, 39, 39);
+	}
+	
+	.FishingAlert .alert_text {
+		color: rgb(239, 129, 126);
+	}
+	
+	.FishingAlert .alert_text .highlight {
+		background-color: rgb(45, 45, 8);
+	}
+	
+	.skin-1080 #widget_company_info .link_company {
+		border-color: #4f4f4f;
+		background-color: #2f2f2f;
+		color: #fff;
+	}
+	
+	.skin-1080 .board-notice.type_required .board-tag-txt, .skin-1080 .board-notice.type_main .board-tag-txt {
+		background-color: rgb(63, 47, 46);
+		border: 1px solid rgb(94, 60, 61);
+		color: rgb(220, 115, 118);
+	}
+	
+	.skin-1080 #widget-bean {
+		border-color: #404040;
+	}
+	
+	.skin-1080 #widget-bean .bean-btns {
+		border-top: 1px solid #4f4f4f;
+		color: #fff;
+		background-color: #404040;
+	}
+	
+	.skin-1080 #widget-bean .bean-btns .btn-saving {
+		border-right: 1px solid #4f4f4f;
+	}
+	
+	.skin-1080 #widget-bean .sub-widget-bean {
+		background: transparent;
+		position: relative;
+	}
+	
+	.skin-1080 #widget_company_info .list_company .tit {
 		color: #fff;
 	}
 }

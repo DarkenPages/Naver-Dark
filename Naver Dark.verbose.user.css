@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.127
+@version		1.51.128
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -14032,6 +14032,14 @@
 		--skinTextb7b7b7: #cacaca;
 	}
 	
+	body > svg > symbol[id='ico-post-arrow-323232'] > path {
+		fill: #fff !important;
+	}
+	
+	.SaleInfo .CommercialDetail .seller_phone:before {
+		color: #404040;
+	}
+	
 	input, textarea {
 		background: #242424;
 		color: #cacaca;
@@ -15415,6 +15423,26 @@
 	
 	.skin-1080 .ia-info-data2 .level_alert.alert_msg {
 		background-color: #2f2f2f;
+	}
+	
+	.ModalLayer .layer_seller_contact .contact_box {
+		background-color: #3a3a3a;
+	}
+	
+	.ModalLayer .layer_seller_contact .contact_info {
+		color: #cacaca;
+	}
+	
+	.ModalLayer .layer_seller_contact .contact_box .mail {
+		color: #fff;
+	}
+	
+	.ModalLayer .layer_seller_contact .contact_box .limit {
+		color: #cacaca;
+	}
+	
+	.ModalLayer .layer_seller_contact .contact_tool .btn_fraud {
+		color: #fff;
 	}
 }
 

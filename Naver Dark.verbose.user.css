@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.133
+@version		1.51.134
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -32574,6 +32574,14 @@
 	.talk_pc_user .chat_header_top .lst_setting_menu .common_tooltip_layer:before {
 		filter: invert(81.5%) hue-rotate(-180deg);
 	}
+	
+	.talk_pc_partner .new_message_balloon, .talk_pc_user .new_message_balloon {
+		background-color: #3a3a3a;
+	}
+	
+	.talk_pc_partner .new_message_balloon .desc_black, .talk_pc_user .new_message_balloon .desc_black {
+		color: #fff;
+	}
 }
 
 @-moz-document url-prefix("https://nid.naver.com/user2/V2Join")
@@ -38235,7 +38243,7 @@
 	}
 	
 	.sc_newscast .list_view .list_option .option_on .option {
-		color: #242424;
+		color: #fff;
 	}
 	
 	.sc_newscast .list_view .news_area .media_box .link_media {
@@ -38252,10 +38260,6 @@
 	
 	#footer .list_corp .corp_item+.corp_item:before {
 		background-color: #404040;
-	}
-	
-	.sc_newscast .list_view .list_option .option_item.option_on:before {
-		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.sc_newscast .ly_popup {

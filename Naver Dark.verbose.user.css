@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.130
+@version		1.51.131
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -76810,6 +76810,270 @@
 	
 	.cs_common_simple .more_wrap .more_multi .ico_more {
 		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_movie_house .sub_tab_sec {
+		border: 1px solid #404040;
+		border-top: 0;
+	}
+	
+	.cs_movie_house .tab_sec li.on {
+		border: 1px solid #404040;
+		background-color: #3a3a3a;
+		color: #fff;
+	}
+	
+	.cs_movie_house .tab_sec li a {
+		color: #cacaca;
+	}
+	
+	.cs_movie_house .tab_sec li.on a {
+		color: #fff;
+	}
+	
+	.cs_movie_house .tab_sec li.last {
+		border-right: 1px solid #404040;
+	}
+	
+	.cs_movie_house .tab_sec li {
+		border: 1px solid #404040;
+		border-width: 1px 0 1px 1px;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_movie_house .sub_tab_sec li a {
+		color: #cacaca;
+	}
+	
+	.cs_movie_house .sub_tab_sec > ul >li {
+		background: none;
+		position: relative;
+	}
+	
+	.cs_movie_house .sub_tab_sec > ul > li:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/scui/movie_house/img/bg_tab.gif) 100% 16px no-repeat;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_movie_house .sub_tab_sec li.on .pst_list {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_movie_house .sub_tab_sec .pst_list li:hover {
+		background-color: #3a3a3a;
+	}
+	
+	.cs_movie_house .mvhu_spot .dti_box dd {
+		color: #cacaca;
+	}
+	
+	.cs_movie_house .mvhu_spot .dti_box dt {
+		color: #999;
+	}
+	
+	.cs_movie_house .map_box .map_control_box {
+		border-top: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_movie_house .map_box {
+		border: 1px solid #404040;
+		border-top: 0;
+	}
+	
+	.cs_movie_house .map_box .map_control_box .btn_r a img {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_movie_house .map_box .api_map > div > div {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_movie_house .mvhu_spot .map_thumb {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_movie_house .mvhu_spot .dti_box .btn_area a {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_movie_house .scrn_list {
+		border: 1px solid #404040;
+		border-bottom: 0;
+	}
+	
+	.cs_movie_house .scrn_list .scrn_slt dt {
+		color: #fff !important;
+	}
+	
+	.cs_movie_house .scrn_list .scrn_slt dd a {
+		color: #cacaca;
+	}
+	
+	.cs_movie_house .scrn_list .scrn_slt dd {
+		position: relative;
+		background: none;
+	}
+	
+	.cs_movie_house .scrn_list .scrn_slt dd:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/scui/movie_house/img/bg_tab.gif) 100% 5px no-repeat;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_movie_house .scrn_list dd.on .date_list {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_movie_house .scrn_list .date_list li:hover {
+		background-color: #3a3a3a;
+	}
+	
+	.cs_movie_house .scrn_list .scrn_slt dl {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_movie_house .scrn_list .list_tbl tbody th {
+		border-right: 1px solid #404040;
+	}
+	
+	.cs_movie_house .scrn_list .list_tbl tbody th, .cs_movie_house .scrn_list .list_tbl tbody td {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_movie_house .scrn_list .list_tbl tbody td div + div {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_movie_house .scrn_list .list_tbl tbody td .time_info {
+		color: #999;
+	}
+	
+	.cs_movie_house .scrn_list .list_tbl tbody td.time a {
+		color: #fff;
+	}
+	
+	.cs_movie_house .scrn_list .age_box {
+		border: 1px solid #404040;
+		border-width: 1px 0;
+		color: #cacaca;
+	}
+	
+	.cs_movie_house .info_txt {
+		border-bottom: 1px solid #404040;
+		color: #cacaca;
+		background: none;
+		position: relative;
+	}
+	
+	.cs_movie_house .info_txt:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/scui/movie_house/img/bg_info.gif) 0 3px no-repeat;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_movie_house .rlt_sec dt {
+		color: #fff !important;
+	}
+	
+	.cs_movie_house .tab_sec .last.on {
+		border-right: 1px solid #404040;
+	}
+	
+	.cs_movie_house .area_tab_sec ul {
+		border: 1px solid #404040;
+		border-top: 0;
+	}
+	
+	.cs_movie_house .area_tab_sec li {
+		background: none;
+		position: relative;
+	}
+	
+	.cs_movie_house .area_tab_sec li:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/scui/movie_house/img/sp_ico2.png) -99px -134px no-repeat;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_movie_house .area_tab_sec li a {
+		color: #cacaca;
+	}
+	
+	.cs_movie_house .car_mv_list li {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_movie_house .car_mv_list li:first-child {
+		border-top: 0;
+	}
+	
+	.cs_movie_house .car_mv_list li > span {
+		color: #cacaca;
+	}
+	
+	.cs_movie_house .car_mv_list .sum_txt .use_info + em {
+		background: none;
+		position: relative;
+	}
+	
+	.cs_movie_house .car_mv_list .sum_txt .use_info + em:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/scui/movie_house/img/sp_ico2.png) -91px -145px no-repeat;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_movie_house .car_mv_list .btn_area a {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_movie_house .car_mv_list ul {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_movie_house .sct_pgnv a {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_movie_house .sct_pgnv em strong {
+		color: #fff;
+	}
+	
+	.cs_movie_house .sct_pgnv em {
+		color: #cacaca;
 	}
 }
 

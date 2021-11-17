@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.135
+@version		1.51.136
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -77202,6 +77202,74 @@
 	.cs_suneung .thumb .dday_txt {
 		color: #fff !important;
 		z-index: 99;
+	}
+	
+	.cs_backgrund .backgrund_box {
+		border: 1px solid #404040;
+	}
+	
+	.cs_backgrund .tab_area .list_tab li .menu {
+		color: #cacaca;
+	}
+	
+	.cs_backgrund .tag_area {
+		border-bottom: 1px solid #404040;
+		background-color: #3a3a3a;
+	}
+	
+	.cs_backgrund .tab_area .list_tab li {
+		color: #cacaca;
+	}
+	
+	.cs_backgrund .tab_area {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_backgrund .tag_area .tag_wrap .tag a {
+		color: #cacaca;
+	}
+	
+	.cs_backgrund .tag_area .tag_wrap .tag[aria-selected="true"] a {
+		color: #2f2f2f;
+	}
+	
+	.cs_backgrund .sort_area {
+		background-color: #3a3a3a;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_backgrund .sort_area .sort_option[aria-selected="true"] {
+		color: #fff;
+	}
+	
+	.cs_backgrund .sort_area .sort_option {
+		color: #cacaca;
+	}
+	
+	.cs_backgrund .loading_bx .txt {
+		color: #cacaca;
+	}
+	
+	.cs_backgrund .error_inner .error_txt {
+		color: #fff;
+	}
+	
+	.cs_backgrund .error_inner .error_txt+.error_txt {
+		color: #cacaca;
+	}
+	
+	.cs_backgrund .error_inner a {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.cs_backgrund .error_inner a .ico_reset, .cs_backgrund .list_error_bx .error_inner .ico_err {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_backgrund .color_tag_area {
+		background-color: #3a3a3a;
+		border-bottom: 1px solid #404040;
 	}
 }
 

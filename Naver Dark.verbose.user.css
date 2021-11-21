@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.138
+@version		1.51.139
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -77554,6 +77554,118 @@
 	
 	.sp_nshop_aside .shop_btn_reply .link_more .pg .max:before {
 		color: #4f4f4f;
+	}
+	
+	.sp_influencer .keyword_challenge_wrap .group_filter {
+		border: 1px solid #404040;
+		border-width: 1px 0;
+		background-color: #2f2f2f;
+	}
+	
+	.sp_influencer .keyword_challenge_wrap .group_filter .my_filter .option[aria-selected=true] {
+		color: #2f2f2f;
+	}
+	
+	.sp_influencer .keyword_challenge_wrap .group_filter .my_filter .option:hover {
+		border-color: #4f4f4f;
+	}
+	
+	.sp_influencer .keyword_challenge_wrap .group_filter .my_filter .option {
+		color: #cacaca;
+		background-color: #3a3a3a;
+	}
+	
+	.sp_influencer .keyword_challenge_wrap .group_filter .my_filter .option:before {
+		border: 1px solid #404040;
+	}
+	
+	.sp_influencer .keyword_challenge_wrap .group_filter .my_filter .option[aria-selected=true] .name_area {
+		color: #2f2f2f;
+	}
+	
+	.sp_influencer .keyword_challenge_wrap .my_type_filter_wrap .my_filter .option {
+		background-color: rgba(0, 0, 0, .1);
+	}
+	
+	.sp_influencer .keyword_challenge_wrap .my_type_filter_wrap .my_filter .option:before {
+		border: 1px solid rgba(0, 0, 0, .02);
+	}
+	
+	.sp_influencer .keyword_challenge_wrap .creator_wrap .title_area .title, .sp_influencer .keyword_challenge_wrap .my_type_filter_wrap .lst_option .tit {
+		color: #2f2f2f;
+	}
+	
+	.sp_influencer .keyword_challenge_wrap .my_type_filter_wrap .lst_option .primary_tablist .btn, .sp_influencer .keyword_challenge_wrap .my_type_filter_wrap .lst_option .txt[aria-selected=true] {
+		color: #2f2f2f;
+	}
+	
+	.sp_influencer .keyword_challenge_wrap .my_type_filter_wrap .lst_option .txt[aria-selected=true]:before {
+		background-color: #2f2f2f;
+	}
+	
+	.sp_influencer .keyword_challenge_wrap .my_type_filter_wrap .lst_option .txt, .sp_influencer .keyword_challenge_wrap .my_type_filter_wrap .add_list_area .add_list .add_item {
+		color: #2f2f2f;
+	}
+	
+	.sp_influencer .keyword_challenge_wrap .my_type_filter_wrap .add_list_area .add_list .add_item .btn_delete .ico_delete_s, .sp_influencer .keyword_challenge_wrap .my_type_filter_wrap .add_list_area .btn_refresh .ico_refresh_s {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.sp_influencer .keyword_challenge_wrap .my_type_filter_wrap .my_filter .option[aria-selected=true]:hover {
+		background-color: #3a3a3a;
+	}
+	
+	.sp_influencer .keyword_challenge_wrap .my_type_filter_wrap .my_filter .option[aria-selected=true], .sp_influencer .keyword_challenge_wrap .my_type_filter_wrap .lst_option .primary_tablist .btn[aria-selected=true] {
+		background-color: #2f2f2f;
+	}
+	
+	.sp_influencer .keyword_challenge_wrap .my_type_filter_wrap .my_filter .option .name_area {
+		color: #2f2f2f;
+	}
+	
+	.sp_influencer .keyword_challenge_wrap .recommend_influencer_wrap {
+		background-color: #2f2f2f;
+	}
+	
+	.sp_influencer .keyword_challenge_wrap .recommend_influencer_wrap .title_area {
+		color: #fff;
+	}
+	
+	.sp_influencer .keyword_challenge_wrap .recommend_influencer_wrap .creator_info {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.sp_influencer .keyword_challenge_wrap .recommend_influencer_wrap .creator_info .user_box_inner .user_area .name {
+		color: #fff;
+	}
+	
+	.sp_influencer .keyword_challenge_wrap .recommend_influencer_wrap .creator_info .standard_box {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.sp_influencer .keyword_challenge_wrap .recommend_influencer_wrap .creator_info .user_box_inner .etc_area .etc+.etc:before {
+		background-color: #404040;
+	}
+	
+	.sp_influencer .keyword_challenge_wrap .recommend_influencer_wrap .creator_info .user_box_inner .etc_area, .sp_influencer .keyword_challenge_wrap .recommend_influencer_wrap .creator_info .detail_box .dsc_area .dsc_link, .sp_influencer .keyword_challenge_wrap .recommend_influencer_wrap .creator_info .detail_box .dsc_area .date {
+		color: #cacaca;
+	}
+	
+	.sc_new .api_more_wrap .api_more_theme .more_icon_inner {
+		color: #2f2f2f;
+	}
+	
+	.sp_influencer .keyword_challenge_wrap .creator_wrap .title_area .filter_btn_area .btn_filter .ico_filter_close {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.sp_influencer .keyword_challenge_wrap .more_box .more_link .name {
+		color: #fff;
+	}
+	
+	.sp_influencer .keyword_challenge_wrap .more_box .more_link {
+		color: #cacaca;
 	}
 }
 

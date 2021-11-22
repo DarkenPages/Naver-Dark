@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.144
+@version		1.51.145
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -13458,6 +13458,11 @@
 	
 	.mycafe_list.type2 tbody td a {
 		color: #cacaca;
+	}
+	
+	.home_recent .recent_list .btn_area .BaseButton {
+		background-color: #3a3a3a;
+		color: #fff;
 	}
 }
 

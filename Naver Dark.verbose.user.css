@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.143
+@version		1.51.144
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -33778,7 +33778,7 @@
 	}
 	
 	.paging a:hover, .paging strong {
-		border: 1px solid #404040;
+		border: 1px solid #404040 !important;
 	}
 	
 	.paging .pre:hover, .paging .next:hover {

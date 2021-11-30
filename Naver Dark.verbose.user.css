@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.148
+@version		1.51.149
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -13463,6 +13463,10 @@
 	.home_recent .recent_list .btn_area .BaseButton {
 		background-color: #3a3a3a;
 		color: #fff;
+	}
+	
+	.SectionHeader .snb_town .logo_town {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 }
 
@@ -62379,6 +62383,14 @@
 	    --place-color-profile-icon:169, 175, 185, .24
 	}
 	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+ul li[data-laim-exp-id*='*e'] {
+		background: rgb(48, 49, 51);
+	}
+	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+ul li[data-laim-exp-id*='*e'] > a > span + svg {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
 	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+ul li+li {
 		border-color: #404040;
 	}
@@ -77813,6 +77825,10 @@
 	
 	.cs_common_module .analysis_list .area_list .list .item .sub_info .text+.text:before {
 		background-color: #404040;
+	}
+	
+	.sp_influencer .keyword_challenge_wrap .group_filter .my_filter .option:hover {
+		color: #fff;
 	}
 }
 

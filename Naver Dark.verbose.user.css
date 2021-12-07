@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.150
+@version		1.51.151
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -35854,6 +35854,48 @@
 	.today h5 {
 		color: #fff;
 	}
+	
+	.media_end_head_fontsize_setlayer_section .media_end_head_fontsize_setlayer_section_tit {
+		color: #fff;
+	}
+	
+	.media_end_head_fontsize_setlayer_section .media_end_head_fontstyle_option_text {
+		color: #cacaca;
+	}
+	
+	.media_end_head_fontsize_linklayer {
+		background: #242424;
+		color: #cacaca;
+	}
+	
+	.media_end_head_fontsize_linklayer_btn {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.media_end_head_fontsize_linklayer_close {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.media_end_head_fontsize_close {
+		background: none;
+		position: absolute;
+	}
+	
+	.media_end_head_fontsize_close:after {
+		background-image: url(https://ssl.pstatic.net/static.news/image/news/2021/07/14/sp_news.png);
+		background-size: 682px 667px;
+		background-repeat: no-repeat;
+		background-position: -573px -461px;
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
 }
 
 @-moz-document url-prefix("https://news.naver.com/main/tool/print.nhn"), url-prefix("https://news.naver.com/main/tool/print.naver")
@@ -37770,6 +37812,11 @@
 	
 	.ntc_view .lst dd *[style*=' color'], .ntc_view .lst dd *[style*=';color'], .ntc_view .lst dd *[style^='color'] {
 		color: #cacaca !important;
+	}
+	
+	.article_body blockquote[style] {
+		border: 1px solid #404040 !important;
+		background: #2f2f2f !important;
 	}
 }
 

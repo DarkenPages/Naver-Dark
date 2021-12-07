@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.149
+@version		1.51.150
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -3093,7 +3093,7 @@
     .box_listup h5 { position: relative;color: #fff;background: none }
     .box_listup h5:before { width: 100%;top: 0;position: absolute;pointer-events: none;left: 0;height: 100%;filter: invert(81.5%) hue-rotate(-180deg);content: '';background-repeat: no-repeat;background-position: -11px -1985px;background-image: url(https://ssl.pstatic.net/static/pwe/nm/ico_mail1_160510.png) }
     .box_listup ul { border: 1px solid #404040;background: #2f2f2f }
-    .clean_oldmail .oldmail_mbox .tit,.clean_oldmail h5,.cv_card .viewTitle .name a,.dh_layer .info1,.dh_layer .info3,.form_ul1 .form_content .desc2 a,.help_mailbox a,.link,.ly_tooltip .ly_header .h_tit,.mail_ext tbody a,.mail_ext tbody th,.progress_bar .tit,.searchLayer a,.setup_layer .modifyName th,.tb_ext_list table tbody td a,.tt_list li strong,.type_alert h4,.uploader5 .attach_type,.uploader5 .down_period,.uploader5 .file_name,.uploader5 .file_select,.uploader5 .file_size,.uploader5 .status { color: #fff }
+    .clean_oldmail .oldmail_mbox .tit,.clean_oldmail h5,.cv_card .viewTitle .name a,.dh_layer .info1,.dh_layer .info3,.form_ul1 .form_content .desc2 a,.help_mailbox a,.link,.ly_tooltip .ly_header .h_tit,.mail_ext tbody a,.mail_ext tbody th,.progress_bar .tit,.searchLayer a,.setup_layer .modifyName th,.tb_ext_list table tbody td a,.tt_list li strong,.type_alert h4,.uploader5 .attach_type,.uploader5 .down_period,.uploader5 .file_name,.uploader5 .file_select,.uploader5 .file_size,.uploader5 .status,#u_skip.u_skip + .wrap .header .nav a { color: #fff }
     .clean_oldmail .oldmail_period,.cleanup_tab,.cont_flex_setup,.cv_task_btn,.dh_layer .tab_receipt,.dh_layer.add_address .address_scrl_area,.lst_info,.ly_tooltip .ly_header,.mail_ext,.mail_ext tbody td,.shortcut_layer h3,.tb_ext_list table tbody td,.upld_box .upload_status p.progress_bar { border-bottom: 1px solid #404040 }
     .cleanup_list_body li,.cleanup_mail_new .cleanup_list_head { border: 1px solid #404040;border-bottom: 0 }
     .cleanup_mail_new .cleanup_list_new,.has_scrl,.upld_file_list,head,html { background: #242424 }
@@ -3127,17 +3127,20 @@
     .smart_mail_cover .intro_smart_mail .btn_smart_mail { border-color: #404040 }
     .smart_mail_cover .tab_smart_mail li a { color: #cacaca;border-bottom: 2px solid #404040 }
     .tb_ext_list table td,.tb_ext_list table th { color: #cacaca;border-top: 1px solid #404040 }
-    .type_alert .about_link .bu_right { filter: invert(81.5%) hue-rotate(-180deg) }
+    .type_alert .about_link .bu_right,#u_skip.u_skip + .wrap .header h1.logo a.logo_link img { filter: invert(81.5%) hue-rotate(-180deg) }
     .type_alert .btn_area button { color: #fff;border: 1px solid #404040 }
     .type_alert .btn_area button.b { background-color: #3a3a3a }
     .type_alert .layer_content { border-color: #404040;background: #2f2f2f }
     .upld_file .file_progress { border: 1px solid #404040;border-width: 0 1px }
     .upld_file_head,.upld_file_list li { color: #cacaca;border: 1px solid #404040;border-width: 1px 0;background-color: #2f2f2f }
-    .upload_status .status { border-top: 1px solid #404040 }
+    .upload_status .status,#u_skip.u_skip + .wrap .footer[role=contentinfo] { border-top: 1px solid #404040 }
     .uploader5 .chg_type[disabled=disabled] { color: #666;border-color: #666 }
     .viewTitle dl dd.noImgs { color: #cacaca !important;border: 1px solid #404040 !important;background-color: #404040 !important }
     #nav_snb div.btn_workset { background: none }
     #sign_prview_layer table tr:first-child td[style] { border-top: 1px solid #404040;background: none !important }
+    #u_skip.u_skip + .wrap .container[role=main] .info_area .info_link [class^="link_"] { color: #cacaca;border: 1px solid #404040;background-color: #3a3a3a }
+    #u_skip.u_skip + .wrap .container[role=main] #content.content { background: #2c2c2c }
+    #u_skip.u_skip + .wrap .header .nav .nav_link+.nav_link:before { background-color: #404040 }
     body { background: #2c2c2c !important }
     div.cv_task_btn { border-color: #404040;background-color: #242424 }
     div.dh_layer .type_c .phising_help .sTipTxt3 { background-color: #404040 !important }

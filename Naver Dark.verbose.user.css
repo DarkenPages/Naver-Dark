@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.153
+@version		1.51.154
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -16902,46 +16902,46 @@
 	}
 }
 
-@-moz-document url-prefix("https://cafe.naver.com/MemberLevelView.nhn")
+@-moz-document url-prefix("https://cafe.naver.com/MemberLevelView.nhn"), regexp("https://cafe\\.naver\\.com/ca-fe/cafes/(.*)/member-level.*")
 {
 	html, head {
 		background: #242424;
 	}
 	
 	.bx_type {
-		border: 1px solid #404040;
+		border: 1px solid #404040 !important;
 	}
 	
 	.tbl_role th, .tbl_role td {
-		border-bottom: 1px solid #404040;
+		border-bottom: 1px solid #404040 !important;
 	}
 	
 	.bx_type strong, .txt_top {
-		color: #cacaca;
+		color: #cacaca !important;
 	}
 	
 	.bx_type ul li, .btn_type {
-		filter: invert(86%);
+		filter: invert(86%) !important;
 	}
 	
 	.tbl_role td {
-		color: #fff;
+		color: #fff !important;
 	}
 	
 	.tbl_role td .txt_cont ul li {
-		color: #cacaca;
+		color: #cacaca !important;
 	}
 	
 	.tbl_role {
-		border-top: 1px solid #404040;
+		border-top: 1px solid #404040 !important;
 	}
 	
 	.tbl_role tr.last th, .tbl_role tr.last td {
-		border-bottom-color: #404040;
+		border-bottom-color: #404040 !important;
 	}
 	
 	.pop_staff_role .bu_lst_desc li {
-		color: #cacaca;
+		color: #cacaca !important;
 	}
 }
 

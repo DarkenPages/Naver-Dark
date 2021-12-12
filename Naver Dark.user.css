@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.153
+@version		1.51.154
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -2357,14 +2357,14 @@
     .desc3 input,#footer img { filter: invert(86%) }
     #header,h1 { background: none;background-color: #404040 }
 }
-@-moz-document url-prefix("https://cafe.naver.com/MemberLevelView.nhn") {
-    .btn_type,.bx_type ul li { filter: invert(86%) }
-    .bx_type { border: 1px solid #404040 }
-    .bx_type strong,.txt_top,.pop_staff_role .bu_lst_desc li,.tbl_role td .txt_cont ul li { color: #cacaca }
-    .tbl_role { border-top: 1px solid #404040 }
-    .tbl_role td { color: #fff }
-    .tbl_role td,.tbl_role th { border-bottom: 1px solid #404040 }
-    .tbl_role tr.last td,.tbl_role tr.last th { border-bottom-color: #404040 }
+@-moz-document url-prefix("https://cafe.naver.com/MemberLevelView.nhn"), regexp("https://cafe\\.naver\\.com/ca-fe/cafes/(.*)/member-level.*") {
+    .btn_type,.bx_type ul li { filter: invert(86%) !important }
+    .bx_type { border: 1px solid #404040 !important }
+    .bx_type strong,.txt_top,.pop_staff_role .bu_lst_desc li,.tbl_role td .txt_cont ul li { color: #cacaca !important }
+    .tbl_role { border-top: 1px solid #404040 !important }
+    .tbl_role td { color: #fff !important }
+    .tbl_role td,.tbl_role th { border-bottom: 1px solid #404040 !important }
+    .tbl_role tr.last td,.tbl_role tr.last th { border-bottom-color: #404040 !important }
     head,html { background: #242424 }
 }
 @-moz-document url-prefix("https://cafe.naver.com/MyCafeGroupSetupView.nhn") {

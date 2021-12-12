@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.152
+@version		1.51.153
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -15564,6 +15564,33 @@
 		border: 1px solid rgb(94, 60, 61);
 		color: rgb(220, 115, 118);
 		background-color: #242424;
+	}
+	
+	.ModalLayer .layer_commerce_safe .text_safe {
+		color: #cacaca;
+	}
+	
+	.ModalLayer .layer_content_fraud .fraud_bottom {
+		background: #3a3a3a;
+		color: #cacaca;
+	}
+	
+	.ModalLayer .layer_content_fraud .input_commerce {
+		border: 1px solid #404040;
+	}
+	
+	.ModalLayer .layer_content_fraud .input_commerce .input_text {
+		background: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.ModalLayer .layer_content_fraud .input_commerce .btn {
+		border-left: 1px solid #404040;
+		color: #fff;
+	}
+	
+	.ModalLayer .layer_content_fraud .fraud_text_area .link {
+		color: #cacaca;
 	}
 }
 

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.160
+@version		1.51.161
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -78507,6 +78507,39 @@
 	.sp_intent_block .user_box .info_group .info {
 		color: #cacaca;
 	}
+	
+	.sp_ntotal .bx_snippet {
+		border: 1px solid #404040;
+	}
+	
+	.sp_ntotal .kin_snippet_info .tit .ico_kin_snippet {
+		filter: invert(100%) hue-rotate(-180deg);
+	}
+	
+	.sp_ntotal .kin_snippet_info .dsc+.tit:before {
+		background-color: #404040;
+	}
+	
+	.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .rgb_code, .cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .rgb_code2, .cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .rgb_code3 {
+		margin: 0 0 0 5px;
+	}
+	
+	.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .hsb_code_frst {
+		margin: 0 0 0 5px;
+	}
+	
+	.cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .hsb_code2, .cs_rgb_plt .rgb_wrap .rgb_section2 .color_code .hsb_code3 {
+		margin: 0 0 0 6px;
+	}
+	
+	.cs_rgb_plt .rgb_wrap .rgb_section2 .rgb_txt {
+		font-family: 'Helvetica', 'serif';
+		color: #cacaca;
+	}
+	
+	.cs_rgb_plt .rgb_wrap .rgb_section2 .rgb_txt a img {
+		border-radius: 5px;
+	}
 }
 
 @-moz-document url-prefix("https://section.cafe.naver.com/ca-fe/home/search")
@@ -81896,6 +81929,12 @@
 		width: calc(130px - 20px);
 		height: calc(92px - 20px);
 		border-radius: 12px;
+	}
+	
+	.svs_end_area .view_qa_frm {
+		border: 1px solid #404040;
+		border-width: 1px 0 1px 0;
+		background-color: #2f2f2f;
 	}
 }
 

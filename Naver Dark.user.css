@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.161
+@version		1.51.162
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -6119,9 +6119,9 @@
 }
 @-moz-document url-prefix("https://www.naver.com/NOTICE"), url-prefix("https://ui.nboard2.naver.com/nboard2") {
     .footer { border-top: 1px solid #404040 }
-    .footer .fl_cr .f_logo,.logo_naver,.logo_notice,.notice_header .nh_l .nh_item .nh_diary,.notice_header .nh_l .nh_item .nh_service,.notice_header .nh_title,#n2_nboard .form_search .btn,#n2_nboard .form_search img,#n2_nboard .paging span a img { filter: invert(86%) hue-rotate(-180deg) }
+    .footer .fl_cr .f_logo,.logo_naver,.logo_notice,.notice_header .nh_l .nh_item .nh_diary,.notice_header .nh_l .nh_item .nh_service,.notice_header .nh_title,#n2_nboard .form_search .btn,#n2_nboard .form_search img,#n2_nboard .paging span a img,#n2_nboard .private_wrap .clipboard img { filter: invert(86%) hue-rotate(-180deg) }
     .footer .fl_cr .fc_a,.sb_style_2 .selectbox .list li.item-selected { color: #fff }
-    .footer .fl_cr,.footer .fl_item .fl_a,.footer .fl_item .fl_a strong,#n2_nboard .form_search,#n2_skin_wrap .skin div,#n2_skin_wrap .skin div a,#n2_nboard div,#n2_nboard input,#n2_nboard td,#n2_nboard textarea,#n2_nboard ul { color: #cacaca }
+    .footer .fl_cr,.footer .fl_item .fl_a,.footer .fl_item .fl_a strong,#n2_nboard .form_search,#n2_skin_wrap .skin div,#n2_skin_wrap .skin div a,#n2_nboard .private_wrap .clipboard,#n2_nboard .private_wrap .clipboard .time,#n2_nboard div,#n2_nboard input,#n2_nboard td,#n2_nboard textarea,#n2_nboard ul { color: #cacaca }
     .footer .fl_item .fl_bar { background: #404040 }
     .gnb_notice_li a.gnb_notice .gnb_icon,.gnb_service_li a.gnb_service .gnb_icon,.mail_li a.gnb_mail .gnb_icon { filter: invert(0%) !important }
     .notice_header { border-bottom: 2px solid #404040 }
@@ -6131,6 +6131,8 @@
     #n2_nboard .form_search .input { color: #cacaca;border: 1px solid #404040;border-right: 1px solid #404040;border-bottom: 1px solid #404040;background: #242424 }
     #n2_nboard .preview { background-color: #2f2f2f }
     #n2_nboard .preview dl { color: #cacaca;border: 1px solid #404040;background-color: #2f2f2f }
+    #n2_nboard #n2_content *[style*='background: white'],#n2_nboard #n2_content *[style*='background:white'] { background: #242424 !important }
+    #n2_nboard #n2_content *[style*='color: rgb(38'],#n2_nboard #n2_content *[style*='color: rgb(85'],#n2_nboard #n2_content *[style*='color: rgb(51'] { color: #cacaca !important }
     #n2_skin_wrap .skin { position: relative;background: none }
     #n2_skin_wrap .skin:before { width: 100%;top: 0;position: absolute;pointer-events: none;left: 0;height: 100%;filter: invert(86%) hue-rotate(-180deg);content: '';background: url(https://download-nboard2.pstatic.net/design/nboard/ko/img/bg_skin01.gif) repeat-x }
     body { background: #242424 }

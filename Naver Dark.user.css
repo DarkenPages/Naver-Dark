@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.159
+@version		1.51.160
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -1288,6 +1288,7 @@
     .install_area { color: #cacaca;border-top: 1px solid #404040;border-bottom: 1px solid #404040;background-color: #2f2f2f }
     .popup_buddy .area_button .button_close,.popup_buddy .area_button .button_next,.popup_buddy .area_button .button_receive,.popup_item .area_button .button_close,.popup_item .area_button .button_next,.popup_item .area_button .button_receive,.popup_post_setting .area_button .button_close,.popup_post_setting .area_button .button_next,.popup_post_setting .area_button .button_receive { color: #242424;background-color: #019341 }
     .popup_buddy .buddy_state { border: 1px solid #404040;background-color: #2f2f2f }
+    .popup_buddy .wrap_radio label { font-size: 13px }
     body { background: #242424 }
 }
 @-moz-document url-prefix("https://blog.naver.com/BuddyListLayer.nhn"), url-prefix("http://blog.naver.com/BuddyListLayer.nhn"), url-prefix("https://blog.naver.com/BuddyListLayer.naver"), url-prefix("http://blog.naver.com/BuddyListLayer.naver") {

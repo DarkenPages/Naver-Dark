@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.159
+@version		1.51.160
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -42183,6 +42183,10 @@
 	
 	.buddy_state .text_each_buddy .my_name {
 		color: #fff;
+	}
+	
+	.popup_buddy .wrap_radio label {
+		font-size: 13px;
 	}
 }
 

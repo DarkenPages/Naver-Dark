@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.164
+@version		1.51.165
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -78726,6 +78726,11 @@
 	
 	.cs_crossword .main_box .quiz_area .qtn li.on .qtn_chk a {
 		color: #cacaca;
+	}
+	
+	.api_sub_banner {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
 	}
 }
 

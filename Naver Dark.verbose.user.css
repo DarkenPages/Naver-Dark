@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.163
+@version		1.51.164
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -78577,6 +78577,155 @@
 	.sp_intent_block .intent_popular_wrap .popular_block_wrap .user_wrap .thumb_area .user_thumb .user {
 		background-color: #2f2f2f;
 		border: 2px solid #2f2f2f;
+	}
+	
+	.cs_crossword .main_box {
+		border: 1px solid #404040;
+	}
+	
+	.cs_crossword .main_box .tab_lang {
+		border-bottom: 1px solid #404040;
+		background-color: #3a3a3a;
+	}
+	
+	.cs_crossword .main_box .tab_lang li a {
+		color: #fff;
+	}
+	
+	.cs_crossword .main_box .tab_mode a {
+		color: #cacaca;
+	}
+	
+	.cs_crossword .main_box .tab_mode .tab_sub a {
+		color: #cacaca;
+	}
+	
+	.cs_crossword .main_box .tab_sub .ico_new, .cs_crossword .main_box .tab_sub .ico_replay {
+		filter: brightness(200%);
+	}
+	
+	.cs_crossword .main_box .tab_sub a:hover em {
+		color: #fff;
+	}
+	
+	.cs_crossword .main_box .quiz_area {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_crossword .main_box .tab_mode ul {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_crossword .main_box .tab_mode li a {
+		color: #cacaca;
+	}
+	
+	.cs_crossword .main_box .quiz_area .qtn .qtn_hrz li {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_crossword .main_box .quiz_area .qtn li {
+		color: #cacaca;
+	}
+	
+	.cs_crossword .main_box .quiz_area .qtn strong {
+		color: #fff;
+	}
+	
+	.cs_crossword .main_box .quiz_area .qtn .qtn_vrt li + li {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_crossword .puz_info {
+		color: #cacaca;
+		background: none;
+		position: relative;
+	}
+	
+	.cs_crossword .puz_info:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/scui/crossword_puzzle/img/sp_cross_v2.png) no-repeat 0 -648px;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_crossword .main_box .quiz_area .puz {
+		border-right: 1px solid #404040;
+	}
+	
+	.cs_crossword .main_box .quiz_area .like_area .puz_btn a {
+		color: #cacaca;
+	}
+	
+	.cs_crossword .main_box .quiz_area .like_area .puz_btn a.btn_snd {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_crossword .main_box .quiz_area .puz.q_5x5, .cs_crossword .main_box .quiz_area .puz.q_7x7, .cs_crossword .main_box .quiz_area .puz.q_10x10 {
+		background: none;
+		position: relative;
+	}
+	
+	.cs_crossword .main_box .quiz_area .puz.q_5x5:before, .cs_crossword .main_box .quiz_area .puz.q_7x7:before, .cs_crossword .main_box .quiz_area .puz.q_10x10:before {
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_crossword .main_box .quiz_area .puz.q_5x5:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/scui/crossword_puzzle/img/sp_cross_v2.png) no-repeat 0px 0px;
+	}
+	
+	.cs_crossword .main_box .quiz_area .puz.q_7x7:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/scui/crossword_puzzle/img/sp_cross_v2.png) no-repeat -379px 0px;
+	}
+	
+	.cs_crossword .main_box .quiz_area .puz.q_10x10:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/scui/crossword_puzzle/img/sp_cross_v2.png) no-repeat -758px 0px;
+	}
+	
+	.cs_crossword .main_box .quiz_area .puz .cell {
+		border: 1px solid #4f4f4f;
+		background-color: #3a3a3a;
+	}
+	
+	.cs_crossword .main_box .quiz_area .like_area {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_crossword .main_box .quiz_area .like_area .mark {
+		color: #cacaca;
+	}
+	
+	.cs_crossword .main_box .quiz_area .puz.mark .frd {
+		color: #fff;
+	}
+	
+	.cs_crossword .main_box .quiz_area .puz.mark .time em {
+		color: #fff;
+	}
+	
+	.cs_crossword .main_box .quiz_area .puz.mark .time {
+		color: #cacaca;
+	}
+	
+	.cs_crossword .main_box .quiz_area .puz.mark .btn a {
+		color: #2f2f2f;
+	}
+	
+	.cs_crossword .main_box .quiz_area .qtn li.on .qtn_chk a {
+		color: #cacaca;
 	}
 }
 

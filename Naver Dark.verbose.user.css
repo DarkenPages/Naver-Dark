@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.168
+@version		1.51.169
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -78779,6 +78779,25 @@
 	
 	.cs_tax_adjustment .cp_more {
 		color: #cacaca;
+	}
+	
+	.sp_pmusic .music_btn .tab_list .item .tab[aria-selected=true] {
+		background-color: #3a3a3a;
+		color: #fff;
+		border-color: transparent;
+	}
+	
+	.sp_pmusic .music_btn .lyrics_area {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.sp_pmusic .music_btn .lyrics_area .btn_box .btn {
+		color: #cacaca;
+	}
+	
+	.sp_pmusic .music_btn .lyrics_area .btn_box {
+		border-top: 1px solid #404040;
 	}
 }
 

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.155
+@version		1.51.156
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -33383,9 +33383,9 @@
 		filter: invert(86%);
 	}
 	
-	.main_aside {
-		border-left: 1px solid #404040;
-	}
+	/*.main_aside {*/
+	/*	border-left: 1px solid #404040;*/
+	/*}*/
 	
 	.flick_btn_prev, .flick_btn_next {
 		border: 1px solid #404040;
@@ -33553,14 +33553,14 @@
 		filter: invert(0%) !important;
 	}
 	
-	#snb_wrap .h_logo {
-		background: linear-gradient(transparent,transparent),url(https://ssl.pstatic.net/static/sports/2019/pc/11/12/sp_gnb.svg);
-		background-size: 103px 97px;
-		background-position: -4px -29px;
-		width: 56px;
-		height: 17px;
-		margin-top: 2px;
-	}
+	/*#snb_wrap .h_logo {*/
+	/*	background: linear-gradient(transparent,transparent),url(https://ssl.pstatic.net/static/sports/2019/pc/11/12/sp_gnb.svg);*/
+	/*	background-size: 103px 97px;*/
+	/*	background-position: -4px -29px;*/
+	/*	width: 56px;*/
+	/*	height: 17px;*/
+	/*	margin-top: 2px;*/
+	/*}*/
 	
 	#snb_wrap .h_news {
 		background: none;
@@ -35944,6 +35944,274 @@
 		height: 100%;
 		pointer-events: none;
 		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.Nlnb {
+		background: #242424;
+	}
+	
+	.Nlist_item a.Nitem_link {
+		color: #fff;
+	}
+	
+	.Nlnb::before {
+		background-color: #404040;
+	}
+	
+	.Nlnb_inner::before {
+		background: #242424;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.main_sublnb_date {
+		color: #fff;
+	}
+	
+	.main_sublnb_link, .main_sublnb_link:visited {
+		color: #fff;
+	}
+	
+	.main_sublnb_item {
+		color: #cacaca;
+	}
+	
+	.main_sublnb_item::before {
+		background-color: #404040;
+	}
+	
+	.main_sublnb {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.comp_journal_subscribe {
+		background-color: #2f2f2f;
+	}
+	
+	.comp_journal_subscribe .cjs_title_wrap .cjs_edit_title {
+		color: #fff;
+	}
+	
+	.comp_journal_subscribe .cjs_news_flash_wrap {
+		background-color: #242424;
+		border-top: 1px solid #404040;
+	}
+	
+	.comp_journal_subscribe .cjs_nf_list {
+		background-color: #2f2f2f;
+	}
+	
+	.comp_journal_subscribe .cn_title_area .cn_title {
+		color: #fff;
+	}
+	
+	.comp_journal_subscribe .cjs_nf_btn_open::before {
+		border-left: 1px solid #404040;
+	}
+	
+	.comp_journal_subscribe .cjs_nf_btn_open::after {
+		border-top: 1px solid #cacaca;
+		border-left: 1px solid #cacaca;
+	}
+	
+	.comp_journal_subscribe .cn_title_area .cn_snippet .cn_state {
+		color: #cacaca;
+	}
+	
+	.comp_journal_subscribe .cn_title_area .cn_journal_wrap .cn_name {
+		color: #fff;
+	}
+	
+	.comp_journal_subscribe .cjs_title_wrap .cjs_subscribe_a {
+		color: #fff;
+	}
+	
+	.comp_journal_subscribe .cjs_more_link {
+		color: #cacaca;
+	}
+	
+	.comp_journal_subscribe .cjs_more_link .ico_more {
+		border-color: #cacaca;
+	}
+	
+	.comp_journal_subscribe .cjs_title {
+		color: #fff;
+	}
+	
+	.comp_journal_subscribe .cjs_ly_help {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.main_wrap .brick-house {
+		color: #cacaca;
+	}
+	
+	.comp_journal_subscribe .cjs_btn_help::after {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+		border-width: 1px 0 0 1px;
+	}
+	
+	.comp_journal_subscribe .cjs_headline_a {
+		background-color: #3a3a3a;
+		border: 1px solid #404040;
+	}
+	
+	.comp_journal_subscribe .cjs_headline_a::before {
+		background-image: linear-gradient(-40deg, #4f4f4f 3px, transparent 0), linear-gradient(40deg, #4f4f4f 3px, transparent 0);
+		background-image: -webkit-linear-gradient(130deg, #4f4f4f 3px, transparent 0), -webkit-linear-gradient(50deg, #4f4f4f 3px, transparent 0);
+	}
+	
+	.comp_journal_subscribe .cjs_headline_a::after {
+		background-image: -webkit-linear-gradient(130deg, #3a3a3a 3px, transparent 0), -webkit-linear-gradient(50deg, #3a3a3a 3px, transparent 0);
+		background-image: linear-gradient(-40deg, #3a3a3a 3px, transparent 0), linear-gradient(40deg, #3a3a3a 3px, transparent 0);
+	}
+	
+	.comp_journal_subscribe .cjs_logo_wrap img {
+		filter: invert(77%) hue-rotate(-180deg);
+	}
+	
+	.comp_journal_subscribe .cjs_headline_t {
+		color: #cacaca;
+		border-top: 1px solid #404040;
+	}
+	
+	.comp_journal_subscribe .cjs_btn_broadcast {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.comp_journal_subscribe .cjs_ctw .channel {
+		color: #fff;
+	}
+	
+	.comp_journal_subscribe .cjs_ctw .info {
+		color: #cacaca;
+	}
+	
+	.comp_journal_subscribe .cjs_tab[aria-selected='true'] {
+		color: #fff;
+		border-bottom-color: #5a5a5a;
+	}
+	
+	.comp_journal_subscribe .cjs_tab {
+		color: #cacaca;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.comp_common .cc_text_item {
+		border-top: 1px solid #404040;
+	}
+	
+	.comp_journal_subscribe .cjs_journal_info {
+		border-top: 1px solid #404040;
+	}
+	
+	.comp_journal_subscribe .cjs_journal_link .cjs_st {
+		color: #fff;
+	}
+	
+	.comp_journal_subscribe .cjs_journal_link {
+		color: #cacaca;
+	}
+	
+	.comp_journal_subscribe .cjs_function .cjs_function_link {
+		color: #fff;
+	}
+	
+	.comp_journal_subscribe .cjs_function .cjs_function_link+.cjs_function_link::before {
+		background-color: #404040;
+	}
+	
+	.comp_journal_subscribe .cjs_live_banner .cjs_live_a {
+		background-color: #3a3a3a;
+		color: #fff;
+	}
+	
+	.comp_journal_subscribe .cjs_journal_link::after {
+		border-color: #cacaca;
+	}
+	
+	.comp_series_subscribe {
+		background-color: #2f2f2f;
+	}
+	
+	.comp_series_subscribe .css_title {
+		color: #fff;
+	}
+	
+	.comp_series_subscribe .css_more_link {
+		color: #cacaca;
+	}
+	
+	.comp_series_subscribe .css_btn_refresh {
+		color: #cacaca;
+		border: 1px solid #404040;
+	}
+	
+	.comp_series_subscribe .css_btn_refresh::before {
+		filter: invert(81.5%) hue-rotate(-180deg) brightness(1000%);
+	}
+	
+	.comp_series_subscribe .paging .total {
+		color: #cacaca;
+	}
+	
+	.comp_series_subscribe .paging {
+		color: #fff;
+	}
+	
+	.mp_footer .f_maininfo {
+		border-top: 1px solid #404040;
+	}
+	
+	@media (min-width: 1110px) {
+	
+		.main_wrap ~ .mp_footer .f_maininfoinner::before, .press_wrap ~ .mp_footer .f_maininfoinner::before {
+			background-color: #404040;
+		}
+		
+	}
+	
+	.mp_footer .u_ftlkw .u_ftlk {
+		color: #fff;
+	}
+	
+	.mp_footer .u_cri_v1, .mp_footer a.u_cra, .mp_footer .u_cri {
+		color: #cacaca;
+	}
+	
+	.Nlnb_menu::before {
+		background-image: -webkit-gradient(linear,right top,left top,color-stop(32%,rgba(36,36,36,0)),color-stop(80%,#242424));
+		background-image: -webkit-linear-gradient(right,rgba(36,36,36,0) 32%,#242424 80%);
+		background-image: linear-gradient(to left,rgba(36,36,36,0) 32%,#242424 80%);
+	}
+	
+	.Nlnb_menu::after {
+		background-image: -webkit-gradient(linear,left top,right top,from(rgba(36,36,36,0)),color-stop(63%,#242424));
+		background-image: -webkit-linear-gradient(left,rgba(36,36,36,0) 0,#242424 63%);
+		background-image: linear-gradient(to right,rgba(36,36,36,0) 0,#242424 63%);
+	}
+	
+	.comp_common .cc_item+.cc_item .cc_whole_a::before {
+		background-color: #404040;
+	}
+	
+	.comp_common .cc_info_box .cc_s {
+		color: #cacaca;
+	}
+	
+	.comp_common .cc_info_box .cc_t {
+		color: #fff;
+	}
+	
+	.comp_journal_subscribe .cjs_ly_function {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.comp_journal_subscribe .cjs_btn_unsubscribe ~ [class^='cjs_btn'] {
+		border-top: 1px solid #404040;
 	}
 }
 

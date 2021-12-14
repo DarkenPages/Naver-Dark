@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.167
+@version		1.51.168
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -5433,7 +5433,7 @@
     body svg symbol#icon-aside-login-storage path { opacity: 1;fill: #cacaca }
     body svg symbol#icon-side-next g circle,body svg symbol#icon-side-prev g circle { stroke: #404040 }
 }
-@-moz-document url-prefix("https://section.cafe.naver.com/ca-fe/home/search") {
+@-moz-document url-prefix("https://section.cafe.naver.com/ca-fe/home/search"), url-prefix("https://cafe.naver.com/ca-fe/home/search/") {
     .ArticleItem .item_content,.Autocomplete .msg,.CafeItem .cafe_introduction,.LayerCategorySelect .button_category_item,.SelectRegion .select_city_content .region_list .btn,.TagFilterList .tag_filter_text { color: #cacaca }
     .ArticleItem .item_subject,.ArticleItemLayout .cafe_link,.CafeItem .cafe_name,.CafeItem .cafe_profile_link,.CArticleItem .item_info,.CArticleItem .item_subject,.FilterCategoryList .button_more,.SectionSearchCArticles .filter_region_price .button_region,.MenuList .lnb_link,.ModalLayer,.Pagination .page_item,.SectionSearchContent .section_search_tab,.SelectRegion .select_city_header .city_button.complete,.SortTab .sort_tab { color: #fff }
     .ArticleItemLayout .cafe_link:after,.CafeItem .thumbnail_area:after,.BadgeIconBox .icon_powercafe svg,.BadgeIconBox .icon_star svg,.SectionFooter .naver_logo img,.FilterInputText .icon_wave,.Pagination .page_item.next,.Pagination .page_item.prev,.TagFilterList .filter_reset .svg-icon { filter: invert(86%) hue-rotate(-180deg) }

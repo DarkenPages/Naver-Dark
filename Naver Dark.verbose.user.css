@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.167
+@version		1.51.168
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -78782,7 +78782,7 @@
 	}
 }
 
-@-moz-document url-prefix("https://section.cafe.naver.com/ca-fe/home/search")
+@-moz-document url-prefix("https://section.cafe.naver.com/ca-fe/home/search"), url-prefix("https://cafe.naver.com/ca-fe/home/search/")
 {
 	.MenuList .lnb_link {
 		color: #fff;

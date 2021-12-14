@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.156
+@version		1.51.157
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -36212,6 +36212,240 @@
 	
 	.comp_journal_subscribe .cjs_btn_unsubscribe ~ [class^='cjs_btn'] {
 		border-top: 1px solid #404040;
+	}
+	
+	/* Newspaper */
+	
+	.sc_offc_home {
+		background-color: #242424;
+	}
+	
+	.press_wrap .tv_cal .nv_cal, .sc_offc_lst .nv_cal, .offc_head .nv_cal {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.offc_head {
+		background-color: #2f2f2f;
+	}
+	
+	.offc_press_else, .press_wrap .tv_cal span.today, .sc_offc_lst span.today, .offc_head span.today {
+		color: #fff;
+	}
+	
+	.offc_head span.today {
+		border: none;
+	}
+	
+	.offc_head .cal_prev_btn span, .offc_head .cal_next_btn span {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.offc_lst .offc_ct {
+		background-color: #2f2f2f;
+	}
+	
+	.offc_heading_box .offc_logo_text {
+		color: #fff;
+	}
+	
+	.offc_content_box {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.offc_content_txt .title {
+		color: #fff;
+	}
+	
+	.offc_content_txt p {
+		color: #cacaca;
+	}
+	
+	.sc_offc_home .subscribe {
+		background: none;
+	}
+	
+	.sc_offc_home .subscribe.on .subscribe_ico {
+		color: #cacaca;
+	}
+	
+	.subscribe_layer {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.subscribe_layer:visited {
+		color: #cacaca;
+	}
+	
+	.offc_head .cal .bt_mm {
+		color: #fff;
+	}
+	
+	.cal .clse {
+		filter: invert(81.5%) hue-rotate(-180deg) brightness(1000%);
+	}
+	
+	.press_wrap .tv_cal .bt_td, .sc_offc_lst .bt_td, .offc_head .bt_td {
+		border-color: #404040;
+		color: #cacaca;
+	}
+	
+	.press_wrap .tv_cal .cal_b, .sc_offc_lst .cal_b, .offc_head .cal_b {
+		border: 1px solid #404040;
+	}
+	
+	.cal_b {
+		border-top: 1px solid #404040;
+	}
+	
+	.press_wrap .tv_cal .cal_b th, .sc_offc_lst .cal_b th, .offc_head .cal_b th {
+		border-bottom-color: #404040;
+		color: #fff;
+	}
+	
+	.cal_b th {
+		background: #2f2f2f;
+	}
+	
+	.cal_b td {
+		border-top: 1px solid #404040;
+		border-left: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.press_wrap .tv_cal .cal_b td, .sc_offc_lst .cal_b td, .offc_head .cal_b td {
+		color: #cacaca;
+	}
+	
+	.press_wrap .tv_cal .cal_b a, .sc_offc_lst .cal_b a, .offc_head .cal_b a {
+		color: #cacaca;
+	}
+	
+	.press_wrap .tv_cal .cal_b .calendar-prev-mon a, .sc_offc_lst .cal_b .calendar-prev-mon a, .offc_head .cal_b .calendar-prev-mon a, .press_wrap .tv_cal .cal_b .calendar-next-mon a, .sc_offc_lst .cal_b .calendar-next-mon a, .offc_head .cal_b .calendar-next-mon a {
+		color: #888;
+	}
+	
+	.cal_b .calendar-prev-mon a, .cal_b .calendar-next-mon a {
+		opacity: 1;
+	}
+	
+	.offc_head .cal_b td.inactive a {
+		color: #999;
+	}
+	
+	.offc_heading_box .info_wrap {
+		color: #fff;
+	}
+	
+	.additional_offc::before {
+		background-color: #404040;
+	}
+	
+	.notice_office_info {
+		background-color: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.subscriptionlist {
+		background-color: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.subscriptionlist .s_title {
+		color: #fff;
+	}
+	
+	.subscriptionlist .s_item_text {
+		color: #cacaca;
+	}
+	
+	.subscriptionlist .s_refreshbutton {
+		color: #cacaca;
+	}
+	
+	.subscriptionlist .s_wrap+.s_wrap::before {
+		background-color: #404040;
+	}
+	
+	.subscriptionlist .s_settingbutton {
+		border-top: 1px solid #404040;
+		border-width: 1px 0 0;
+	}
+	
+	.subscriptionlist .s_settingbutton {
+		color: #fff;
+	}
+	
+	.qrcodelist, .qrcodelist .q_item_text {
+		color: #cacaca;
+	}
+	
+	.press_layer_scroll {
+		background-color: #2f2f2f;
+	}
+	
+	.press_layer {
+		background-color: #404040;
+	}
+	
+	@media (min-width: 1025px) {
+		.press_layer_hd_title {
+			color: #fff;
+		}
+		
+		.press_layer_hd_title::before {
+			filter: invert(86%) hue-rotate(-180deg) brightness(1000%);
+		}
+		
+		.press_layer .press_list_banner {
+			border-top-color: #404040;
+		}
+	}
+	
+	.press_layer_hd_title {
+		color: #fff;
+	}
+	
+	.press_layer_hd {
+		border-color: #404040;
+	}
+	
+	.press_list_logo_item .press_list_logo_text {
+		color: #cacaca;
+	}
+	
+	.press_list_desc {
+		border-top: 1px solid #404040;
+		color: #cacaca;
+		border-color: #404040;
+	}
+	
+	.press_list_banner {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.press_list_banner::after {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.press_list_banner_p {
+		color: #fff;
+	}
+	
+	.subscriptionlist .s_desc_button {
+		color: #cacaca;
+	}
+	
+	.subscriptionlist .s_desc_layer {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.subscriptionlist .s_desc_p {
+		color: #cacaca;
 	}
 }
 

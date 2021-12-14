@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.166
+@version		1.51.167
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -1731,6 +1731,7 @@
     .skin-1080 .article-memo .set_attach .layer_staff { color: #cacaca;border: 1px solid #404040;background-color: #242424 }
     .skin-1080 .board-notice.type_main .board-tag-txt,.skin-1080 .board-notice.type_required .board-tag-txt { color: rgb(220, 115, 118);border: 1px solid rgb(94, 60, 61);background-color: rgb(63, 47, 46) }
     .skin-1080 .board-notice.type_menu .board-tag-txt { color: rgb(220, 115, 118);border: 1px solid rgb(94, 60, 61);background-color: #242424 }
+    .skin-1080 .box_notice .link_more { color: #cacaca;border: 1px solid #404040;border-color: #404040;background-color: #3a3a3a }
     .skin-1080 .box_write .set_attach { border-top: 1px solid #404040;border-bottom: 1px solid #404040;background-color: #2f2f2f }
     .skin-1080 .box_write,.skin-1080 .ia-info-data2 .level_alert,.tab_list_wrap li { border: 1px solid #404040;background-color: #2f2f2f }
     .skin-1080 .com .box-w .group-mlist { border-bottom-color: #5f5f5f }

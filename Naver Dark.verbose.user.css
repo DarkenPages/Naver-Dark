@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.170
+@version		1.52.0
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -47905,6 +47905,10 @@
 	.nacon_keep .nacon_bt .bar {
 		color: #404040;
 	}
+	
+	.table1 .blog_address {
+		color: #fff;
+	}
 }
 
 @-moz-document url-prefix("https://blog.naver.com/post/add_profile_image.jsp")
@@ -78804,6 +78808,126 @@
 		color: #cacaca;
 		opacity: 1;
 	}
+	
+	.cs_quick_path_pc {
+		background: #2f2f2f !important;
+	}
+	
+	/*
+	.cs_quick_path_pc > div[data-light='true'] > div {
+		background: -webkit-linear-gradient(top, #2f2f2f, #2f2f2f 248px, #3a3a3a 648px, #3a3a3a);
+		background: linear-gradient(to bottom, #2f2f2f, #2f2f2f 248px, #3a3a3a 648px, #3a3a3a);
+	}
+	
+	.cs_quick_path_pc > div[data-light='true'] > div > div[class] + div > div[class] > h2[class] {
+		color: #fff;
+	}
+	
+	.cs_quick_path_pc > div[data-light='true'] > div > div[class] + div > div[class] + div[class] {
+		background: #3a3a3a;
+	}
+	
+	.cs_quick_path_pc > div[data-light='true'] > div > div[class] + div > div[class] + div[class] > div[class]:first-child > div[class]:first-child > button[type='button'] {
+		border: 1px solid #4f4f4f;
+	}
+	
+	.cs_quick_path_pc > div[data-light='true'] > div > div[class] + div > div[class] + div[class] > div[class]:first-child > div[class]:first-child > input[type='text'][name='search'] {
+		color: #cacaca;
+	}
+	
+	.cs_quick_path_pc > div[data-light='true'] > div > div[class] + div > div[class] + div[class] > div[class]:first-child > div[class]:first-child > button[type='button']:last-child {
+		border: none;
+	}
+	
+	.cs_quick_path_pc > div[data-light='true'] > div > div[class] + div > div[class] + div[class] > div[class]:first-child > div[class]:nth-child(2) > button[type='button'] {
+		border: 1px solid #4f4f4f;
+	}
+	
+	.cs_quick_path_pc > div[data-light='true'] > div > div[class] + div > div[class] + div[class] > div[class]:first-child > div[class]:nth-child(2) > input[type='text'][name='search'] {
+		color: #cacaca;
+	}
+	
+	.cs_quick_path_pc > div[data-light='true'] > div > div[class] + div > div[class] + div[class] > div[class]:first-child > div[class]:nth-child(2) > button[type='button']:last-child {
+		border: none;
+	}
+	
+	.cs_quick_path_pc > div[data-light='true'] > div > div[class] + div > div[class] + div[class] > div[class]:first-child > button[type='button'] > span > span + svg > path:first-child {
+		stroke: #4f4f4f;
+	}
+	
+	.cs_quick_path_pc > div[data-light='true'] > div > div[class] + div > div[class] + div[class] > div[class] + div:not([class]) > div[class] > div[class] {
+		background: #2f2f2f;
+	}
+	
+	.cs_quick_path_pc > div[data-light='true'] > div > div[class] + div > div[class] + div[class] > div[class] + div:not([class]) > div[class] > div[class] > div[class]:first-child {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_quick_path_pc > div[data-light='true'] > div > div[class] + div > div[class] + div[class] > div[class] + div:not([class]) > div[class] > div[class] > div[class]:first-child > h3 {
+		color: #fff;
+	}
+	
+	.cs_quick_path_pc > div[data-light='true'] > div > div[class] + div > div[class] + div[class] > div[class] + div:not([class]) > div[class] > div[class] > div[class]:first-child > button[type='button'][class] > span {
+		fill: #cacaca;
+		stroke: #cacaca;
+	}
+	
+	.cs_quick_path_pc > div[data-light='true'] > div > div[class] + div > div[class] + div[class] > div[class] + div:not([class]) > div[class] > div[class] > div[class]:last-child > div[class] > div[class] {
+		background: #2f2f2f;
+	}
+	
+	.cs_quick_path_pc > div[data-light='true'] > div > div[class] + div > div[class] + div[class] > div[class] + div:not([class]) > div[class] > div[class] > div[class]:last-child > div[class] > div[class] > div[class]:first-child {
+		background: #3a3a3a;
+	}
+	
+	.cs_quick_path_pc > div[data-light='true'] > div > div[class] + div > div[class] + div[class] > div[class] + div:not([class]) > div[class] > div[class] > div[class]:last-child > div[class] > div[class] > div[class]:last-child {
+		background: #3a3a3a;
+	}
+	
+	.cs_quick_path_pc > div[data-light='true'] > div > div[class] + div > div[class] + div[class] > div[class] + div:not([class]) > div[class] > div[class] > div[class]:last-child > div[class] > div[class] > div[class]:first-child em[class] {
+		color: #cacaca;
+	}
+	
+	.cs_quick_path_pc > div[data-light='true'] > div > div[class] + div > div[class] + div[class] > div[class] + div:not([class]) > div[class] > div[class] > div[class]:last-child > div[class] > div[class] > div[class]:first-child button {
+		color: #688cda;
+	}
+	
+	.cs_quick_path_pc > div[data-light='true'] > div > div[class] + div > div[class] + div[class] > div[class] + div:not([class]) > div[class] > div[class] > div[class]:last-child > div[class] > div[class] > div[class]:last-child > strong {
+		color: #fff;
+	}
+	
+	.cs_quick_path_pc > div[data-light='true'] > div > div[class] + div > div[class] + div[class] > div[class] + div:not([class]) > div[class] > div[class] > div[class]:last-child > div[class] > div[class] > div[class]:last-child > ul[class] {
+		border-top: 1px solid #4f4f4f;
+	}
+	
+	.cs_quick_path_pc > div[data-light='true'] > div > div[class] + div > div[class] + div[class] > div[class] + div:not([class]) > div[class] > div[class] > div[class]:last-child > div[class] > div[class] > div[class]:last-child> ul[class] > li[class] {
+		border-bottom: 1px solid #4f4f4f;
+	}
+	
+	.cs_quick_path_pc > div[data-light='true'] > div > div[class] + div > div[class] + div[class] > div[class] + div:not([class]) > div[class] > div[class] > div[class]:last-child > div[class] > div[class] > div[class]:last-child> ul[class] > li[class] > button[type='button']:first-child {
+		color: #cacaca;
+	}
+	
+	.cs_quick_path_pc > div[data-light='true'] > div > div[class] + div > div[class] + div[class] > div[class]:last-child > div > strong {
+		color: #fff;
+	}
+	
+	.cs_quick_path_pc > div[data-light='true'] > div > div[class] + div > div[class] + div[class] > div[class]:last-child > div > strong + ul[class] > li[class] button[type='button'][role='link'] {
+		color: #688cda;
+	}
+	
+	.cs_quick_path_pc > div[data-light='true'] > div > div[class] + div > div[class] + div[class] > div[class] + div:not([class]) + div[class] > ul[class] {
+		border: 1px solid #4f4f4f;
+	}
+	
+	.cs_quick_path_pc > div[data-light='true'] > div > div[class] + div > div[class] + div[class] > div[class] + div:not([class]) + div[class] > ul[class] > li[class] {
+		background: #2f2f2f;
+	}
+	
+	.cs_quick_path_pc > div[data-light='true'] > div > div[class] + div > div[class] + div[class] > div[class] + div:not([class]) + div[class] > ul[class] > li[class]+li[class]:before {
+		border-left: 1px solid #4f4f4f;
+	}
+	*/
 }
 
 @-moz-document url-prefix("https://section.cafe.naver.com/ca-fe/home/search"), url-prefix("https://cafe.naver.com/ca-fe/home/search/")
@@ -83271,5 +83395,49 @@
 	.mod_header_wrap {
 		color: #fff;
 		border-bottom: 1px solid #404040;
+	}
+}
+
+@-moz-document url-prefix("https://m.naver.com/services.html")
+{
+	body {
+		background-color: #242424;
+		color: #cacaca;
+	}
+	
+	.header {
+		background-color: #242424;
+	}
+	
+	.header .search_area::before {
+		background-color: #242424;
+	}
+	
+	.header .sa_input, .header .sa_input:focus {
+		color: #fff;
+	}
+	
+	.section_service .ss_app_title, .section_service .ss_title {
+		color: #fff;
+	}
+	
+	.section_service .ss_service_list .ss_service_item::after {
+		background-color: #404040;
+	}
+	
+	.section_service .ss_service_list .ss_name {
+		color: #fff;
+	}
+	
+	.section_service .ss_service_list .ss_desc {
+		color: #cacaca;
+	}
+	
+	.section_error .se_desc {
+		color: #cacaca;
+	}
+	
+	.section_error .se_title {
+		color: #fff;
 	}
 }

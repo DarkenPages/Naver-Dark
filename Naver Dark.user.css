@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.51.170
+@version		1.52.0
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -1010,7 +1010,7 @@
     .admin_buddymanage_wrap .attention2,.buddy_bloggo_wrap .move_btn dt,.buddylist_option *,.buddylist_option .info2,.layer_popup .layer_content *,.layer_popup .layer_desc *,.layer_popup .layer_header,.layer_popup2 .layer_header,.tbl_buddymanage *,.tbl_buddymanage td,.tbl_buddymanage th { font-family: "돋움",Dotum,Helvetica,Sans-serif !important }
     .admin_buddymanage_wrap .btn_bar { border: 1px solid #404040;border-top: 0 }
     .admin_set_buddy .set_input,.app_txt p,.li2 li,.blog_initialize .desc2,.blog_initialize .notice3 p,.buddylist_option .info2,.category_add dd.category_name .info,.chl_ly5 .chl_ly_cont p,.cmn_slt .selectbox-applied .selectbox-list li,.tbl_buddymanage .select_input .selectbox-list li,.coin_list .category,.coin_list .date,.coin_list .date2,.coin_list .none td,.coin_list .none th,.coin_txt1_l,.footer__address,.footer__menu-item,.groupselectlayer ul li .newgroup_input,.groupselectlayer ul li a,.header__my-menu>a,.info_music,.layer_popup .layer_content *,.layer_popup .layer_desc *,.layer_popup .list1 li,.layer_popup2 *,.layer_popup2 .pr_8,.layer-all-menu__item,.li1 li,.tip1 a,.lnb__item,.movelayer .txt,.music_tb td dd h3,.music_tb td dd h3 span a,.music_tb td dd p,.music_tb td.date,.music_tb td.no_music,.nacon_keep .nacon_bt a,.pagination a,.pagination span,.pagination strong,.select__label,.tab1_skin li a,.table3 tbody .link,.top_desc_2,.table3 tbody .none td,.table4 .none,.tbl_buddymanage .none td,.top_desc_1,.tpl_txt .app_set a,.usedskin_l .submenu a,.wrap_editorset .layer_list_option .option .radio_label .text,.wrap_editorset .layer_list_option .option_lineheight_input .label,.wrap_editorset .se-color-apply-label,.wrap_editorset .se-color-picker-more-label,.wrap_layer_skin_preview .layer_skin_preview .text,.wrap_myvideo_list .list_head .result_num,.wrap_myvideo_list .list_head .wrap_sorting label,a,body,table,td,textarea,tr { color: #cacaca }
-    .admin_set_buddy .tit,.blog_initialize .info dt,.buddy_bloggo_wrap .move_btn dt,.buddy_bloggo_wrap .tree li div.ellipsis2 .nickname,.category_list_area .category_list li em,.tree li.tree-node.tree-selected .tree-div-selected label span,.chl_ly5 h4,.content-title,.lnb__title,.gnb__button-menu-all,.gnb__menu>a,.layer-all-menu__subtitle,.layer-all-menu__title,.li1 li a,.ly_alert strong,.myvideo_table .tbody .video .link,.nacon_dl1 dt,.nacon_h2,.select_skin .none .go,.setting-editor__label,.spam_set .sset,.spam_title,.tbl_buddymanage td.buddy div .nickname,.usedskin_l h2,.wrap_editorset .selectbox_button .text,.wrap_editorset .wrap_txt .title,.wrap_layer_skin_preview .layer_skin_preview .title { color: #fff }
+    .admin_set_buddy .tit,.blog_initialize .info dt,.buddy_bloggo_wrap .move_btn dt,.buddy_bloggo_wrap .tree li div.ellipsis2 .nickname,.category_list_area .category_list li em,.tree li.tree-node.tree-selected .tree-div-selected label span,.chl_ly5 h4,.content-title,.lnb__title,.gnb__button-menu-all,.gnb__menu>a,.layer-all-menu__subtitle,.layer-all-menu__title,.li1 li a,.ly_alert strong,.myvideo_table .tbody .video .link,.nacon_dl1 dt,.nacon_h2,.select_skin .none .go,.setting-editor__label,.spam_set .sset,.spam_title,.table1 .blog_address,.tbl_buddymanage td.buddy div .nickname,.usedskin_l h2,.wrap_editorset .selectbox_button .text,.wrap_editorset .wrap_txt .title,.wrap_layer_skin_preview .layer_skin_preview .title { color: #fff }
     .admin_set_buddy dl,.blog_admin_desc,.category_add dd.layerbox,.category_add dd.view_notice,.music_dl1,.nacon_dl1,.nacon_keep li,.setting-editor,.spam_set,.table1 td,.table1 th,.table2,.tag,#content,table.prologue .s1,table.prologue .s2 { border-bottom: 1px solid #404040 }
     .bar1 { color: #4f4f4f }
     .blog_initialize .info,.bx1,.category_list_area .category_list li div,.category_list_area .category_list,.category_list_area .category_list .tree,.input_text,.textarea1,.music_box,.music_tb td dt img,.nacon_dl1 dd .img,.nacon_keep li dt span.img,.nacon_li1 li span,.pagination strong,.profile_img .tpl,.request_msg textarea,.select_skin li .border,.wrap_editorset .se-selected-color-palette,.wrap_editorset>.list { border: 1px solid #404040 }
@@ -3081,6 +3081,13 @@
 }
 @-moz-document url-prefix("https://m.blog.naver.com"), url-prefix("http://m.blog.naver.com") {
 }
+@-moz-document url-prefix("https://m.naver.com/services.html") {
+    .header .sa_input,.header .sa_input:focus,.section_error .se_title,.section_service .ss_app_title,.section_service .ss_title,.section_service .ss_service_list .ss_name { color: #fff }
+    .header,.header .search_area::before { background-color: #242424 }
+    .section_error .se_desc,.section_service .ss_service_list .ss_desc { color: #cacaca }
+    .section_service .ss_service_list .ss_service_item::after { background-color: #404040 }
+    body { color: #cacaca;background-color: #242424 }
+}
 @-moz-document url-prefix("https://mail.naver.com") {
     .bill_list .logo,.icon_tip,.view_sign img,.ly_tooltip_green.arr_center_bottom:after,.ly_tooltip_green.arr_right_bottom:after,.mailListHead .tip_receipt_box .icon,.subtitle .stat_load,a.btn_print .spr { filter: invert(86%) hue-rotate(-180deg) }
     .block_list .block_list_cover,.cleanup_mail_new .cleanup_list_body,.edit_reply_cover,.missed_msg textarea,.mail_ext_wrap,.setup_layer .modifyName td input,.upld_box,#nav_snb.show_faq_banner .faq_cover { border: 1px solid #404040 }
@@ -4641,7 +4648,7 @@
     .cs_common_module .cm_table thead th { color: #cacaca;border: 1px solid #404040;border-width: 1px 1px 0 0;background-color: #2f2f2f }
     .cs_common_module .cm_tap_area .btn_refresh,.cs_common_module .select_tab .btn_refresh { border-left: 1px solid #404040;background: #2f2f2f }
     .cs_common_module .cm_tap_area .type_main .tab_list .tab.state_focus .menu,.cs_common_module .cm_tap_area .type_main .tab_list .tab[aria-selected="true"] .menu,.cs_flight_info .sort_data .ly_pop dt,.cs_foreigninfo .c_rate .rate_table_bx .rate_table_info td,.cs_foreigninfo .c_rate .rate_table_bx .rate_table_info th,.cs_uefa .tb_football2 th,.cs_weather .guide_bx,.flight .flight_ly_rec .flight_ly_rec_title,.sp_nkin .banner_title,.sp_nreview .timeline_list .timeline_date { color: #fff;border-bottom: 1px solid #404040 }
-    .cs_common_module .cm_tap_area .type_title .tab_list li { background: #2f2f2f !important }
+    .cs_common_module .cm_tap_area .type_title .tab_list li,.cs_quick_path_pc { background: #2f2f2f !important }
     .cs_common_module .cm_tap_area.scroll:after { background: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(47,47,47,0)), color-stop(80%, #2f2f2f)) }
     .cs_common_module .cm_top_wrap { border-right-color: #000 !important;border-left-color: #000 !important }
     .cs_common_module .cm_top_wrap:before { width: 100%;top: 0px;position: absolute;pointer-events: none;left: -1px;height: 100%;content: '';border: 1px solid rgba(0, 0, 0, 0.75);border-width: 0 1px 0;border-radius: 6px 6px 0 0;background: rgba(0, 0, 0, 0.75) }

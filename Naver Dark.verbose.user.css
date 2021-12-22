@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.4
+@version		1.57.5
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -83482,7 +83482,7 @@
 		--color_point_news: #4978f4 !important;
 		--color_line_lv3: #595959 !important;
 		--color_line_lv2: #545457 !important;
-		--color_line_lv1: #464649 !important;
+		--color_line_lv1: #404040 !important;
 		--color_line_ad: #303030 !important;
 		--color_likeit_title: #f0f0f2 !important;
 		--color_likeit_sub_info: #a5a5a7 !important;
@@ -83503,7 +83503,7 @@
 		--color_body_background: #242424 !important;
 		--color_body: #dadde0 !important;
 		--color_background_inverse: #fff !important;
-		--color_background_footer: #303033 !important;
+		--color_background_footer: #2f2f2f !important;
 		--color_background: #242424 !important;
 	}
 	

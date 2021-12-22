@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.5
+@version		1.57.6
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -129,7 +129,7 @@
     .gnb_banner { padding: 0;margin: 0 4px;background: none;background-color: #2f2f2f }
     .gnb_banner .gnb_service_event { width: 100%;filter: invert(81.5%) hue-rotate(-180deg) }
     .gnb_favorite_area { height: 93px }
-    .gnb_favorite_lst .gnb_add a span.ic_add,.gnb_search_box,.gnb_notice_li .svc_head .task_right,#gnb.gnb_one .gnb_my_li .ico_arrow,#gnb.gnb_one .ico_arrow,.gnb_bg_btm,.gnb_bg_top,.gnb_svc_more .gnb_svc_hd,.gnb_svc_more .gnb_svc_lstwrp,.gnb_svc_more .svc_btnwrp { filter: invert(86%) hue-rotate(-180deg) }
+    .gnb_favorite_lst .gnb_add a span.ic_add,.gnb_search_box,.gnb_notice_li .svc_head .task_right,.gnb_notice_li a.gnb_notice .gnb_icon,.gnb_service_li a.gnb_service .gnb_icon,.mail_li a.gnb_mail .gnb_icon,#gnb.gnb_one .gnb_my_li .ico_arrow,#gnb.gnb_one .ico_arrow,.gnb_bg_btm,.gnb_bg_top,.gnb_svc_more .gnb_svc_hd,.gnb_svc_more .gnb_svc_lstwrp,.gnb_svc_more .svc_btnwrp { filter: invert(86%) hue-rotate(-180deg) }
     .gnb_favorite_lstwr { z-index: 1000;position: relative }
     .gnb_favorite_lstwrp,.gnb_notice_li .svc_head { border-bottom: 1px solid #404040;background: #2f2f2f }
     .gnb_favorite_lstwrp:before { z-index: -1;width: 293px;top: 0;position: absolute;left: 0;height: 383px;content: '';box-shadow: 0 1px 7px 0 black;background: #2f2f2f }

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.10
+@version		1.57.11
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -6502,7 +6502,7 @@
     .cs_common_simple .answer_more { background: #3a3a3a !important }
     .cs_common_simple .cm_content_wrap { border: 1px solid #404040 !important;border-width: 0 1px 1px !important;background: #2f2f2f }
     .cs_common_simple .cm_top_wrap { border: 1px solid #404040;border-width: 0 1px 0;border-right-color: #404040 !important;border-left-color: #404040 !important;background: #2f2f2f }
-    .cs_common_simple .more_wrap .more_multi,.cs_foreigninfo .ch_wrap .nation_srch .atcmp .func,.cs_sportsdb .ly_cal .today { color: #cacaca;border-top: 1px solid #404040;background-color: #3a3a3a }
+    .cs_common_simple .more_wrap .more_multi,.cs_foreigninfo .ch_wrap .nation_srch .atcmp .func,.cs_sportsdb .ly_cal .today,.sp_nshop .deep_noti { color: #cacaca;border-top: 1px solid #404040;background-color: #3a3a3a }
     .cs_common_simple .play_list_wrap .music_play_list li .badge { opacity: 1;color: #fff }
     .cs_communication_box .com_box_area { border: 1px solid #404040;border-top: 3px solid #21ca00 }
     .cs_communication_box .com_list_area .img_box .img_txt .txt_line .com_bar,.cs_disaster_prepare .page_area .page_number,.cs_flight_info .page_btn .page_nav .slash,.cs_nation .lst_overv .bar,.cs_president_list .page_area .paging_bx .page_number,.cs_price .cs_bar2,.cs_production_type .csp_paging_area .csp_pgs .csp_npgs_now:after,.cs_rgb_plt .other_info .cs_bar,.cs_sportsdb .sportsdb_wrap2 span,.cs_sunrise .other_link .relation dd .noti_bar,.cs_typhoon .rel_link dl,.cs_uefa .section_play .play_intro .vline,.cs_weather_new .weekly_forecast_area .week_item .cell_temperature .bar,.ds_calendar .calendar_detail .cs_bar,.ds_calendar .lunar_area span { color: #404040 }

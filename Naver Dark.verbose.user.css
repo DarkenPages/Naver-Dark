@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.10
+@version		1.57.11
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -79007,6 +79007,15 @@
 		border-left: 1px solid #4f4f4f;
 	}
 	*/
+	
+	.sp_nshop .deep_noti {
+		border-top: 1px solid #404040;
+		background-color: #3a3a3a;
+	}
+	
+	.sp_nshop .deep_noti {
+		color: #cacaca;
+	}
 }
 
 @-moz-document url-prefix("https://section.cafe.naver.com/ca-fe/home/search"), url-prefix("https://cafe.naver.com/ca-fe/home/search/")

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.8
+@version		1.57.9
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -1249,7 +1249,7 @@
     .se_paragraph *[style*='border-left']:not([style*='border-left: none']):not([style*='border-left:none']),.se-viewer *[style*='border-left']:not([style*='border-left: none']):not([style*='border-left:none']),#post-area .post-view *[style*='border-left']:not([style*='border-left: none']):not([style*='border-left:none']),#post-area .post-view *[style*='BORDER-LEFT']:not([style*='BORDER-LEFT: NONE']):not([style*='BORDER-LEFT:NONE']) { border-left: 1px solid #404040 !important }
     .se_paragraph *[style*='border-right']:not([style*='border-right: none']):not([style*='border-right:none']),.se-viewer *[style*='border-right']:not([style*='border-right: none']):not([style*='border-right:none']),#post-area .post-view *[style*='border-right']:not([style*='border-right: none']):not([style*='border-right:none']),#post-area .post-view *[style*='BORDER-RIGHT']:not([style*='BORDER-RIGHT: NONE']):not([style*='BORDER-RIGHT:NONE']) { border-right: 1px solid #404040 !important }
     .se_paragraph *[style*='border-top']:not([style*='border-top: none']):not([style*='border-top:none']),.se-viewer *[style*='border-top']:not([style*='border-top: none']):not([style*='border-top:none']),#post-area .post-view *[style*='border-top']:not([style*='border-top: none']):not([style*='border-top:none']),#post-area .post-view *[style*='BORDER-TOP']:not([style*='BORDER-TOP: NONE']):not([style*='BORDER-TOP:NONE']) { border-top: 1px solid #404040 !important }
-    .se_theme_transparent .se_audio .se_audio_wrap,.se_theme_transparent .se_map.default .se_map_article,.se_theme_transparent .se_map.map_text .ico_map_text,.se_theme_transparent .se_map.map_text .se_map_article,.se_theme_transparent .se_oglink .se_og_wrap,.se_theme_transparent .se_subjectMatter .se_viewArea,.se-viewer .se-module-material,.se-viewer .se-module-schedule,.se-viewer .se-section-placesMap,.temporary_write .time_box,#blog-search .blog_search,body[class*='contw'] { background-color: #242424 }
+    .se_theme_transparent .se_audio .se_audio_wrap,.se_theme_transparent .se_map.default .se_map_article,.se_theme_transparent .se_map.map_text .ico_map_text,.se_theme_transparent .se_map.map_text .se_map_article,.se_theme_transparent .se_oglink .se_og_wrap,.se_theme_transparent .se_subjectMatter .se_viewArea,.se-viewer .se-module-material,.se-viewer .se-module-schedule,.se-viewer .se-section-code.se-l-default,.se-viewer .se-section-placesMap,.temporary_write .time_box,#blog-search .blog_search,body[class*='contw'] { background-color: #242424 }
     .se_theme_transparent .se_horizontalLine.default .se_hr,.se_theme_transparent .se_horizontalLine.line1 .se_hr { background-color: #404040 !important }
     .se-viewer .se-caption span { color: #c0c0c0 }
     .se-viewer .se-file-save-option-button:active,.se-viewer .se-file-save-option-button:focus,.se-viewer .se-file-save-option-button:hover,.wrap_blog2_sympathy .list_sympathy .area_more .layer_more .layer_item:hover,table.Nnavi .pgL a:hover,table.Nnavi .pgLL a:hover,table.Nnavi .pgR a:hover,table.Nnavi .pgRR a:hover,table.Nnavi a:hover { background-color: #2f2f2f }
@@ -2602,7 +2602,7 @@
     .business_info_title.is_active .business_info_button::after,.footer_naver_info_button::after { border-color: var(--color_button_line) }
     .business_info,.footer { border-top: 1px solid #404040;background-color: #242424 }
     .category_link_text,.content_tab_text { border: 1px solid #404040 }
-    .container,.content_group_wrap,.flat_header_wrap.as_my_home,.my_setting,.se_viewer_content,.se-viewer.se-theme-default .se-webtoon-slider-wrap,.type_pc .viewer_related_category_scroll::before,.viewer_related_category { background-color: #242424 }
+    .container,.content_group_wrap,.flat_header_wrap.as_my_home,.my_setting,.se_viewer_content,.se-viewer .se-section-code.se-l-default,.se-viewer.se-theme-default .se-webtoon-slider-wrap,.type_pc .viewer_related_category_scroll::before,.viewer_related_category { background-color: #242424 }
     .content_more_link,.recommend_more_link { color: #cacaca;border: 1px solid #404040 }
     .content_more_link::after,.my_user .my_user_link::before,.premiumhome_search .psp_head .back_button::before,.premiumhome_search .psp_head .search_button::before,.recommend_more_link::before { filter: invert(86%) hue-rotate(-180deg) }
     .content_tab_link,.main_content_desc,.my_tab_link,.notice_headline_text,.recommend_content_desc,.recommend_item .recommend_item_link:visited .recommend_content_title,.se_viewer_content .se-viewer .se-documentTitle .comment_count,.viewer_count .u_likeit_list_module .u_likeit_list_btn .u_cnt,.se-viewer .se-caption span,.subscription_desc,.viewer_bottom_count .comment_count_wrap .comment_count,.viewer_bottom_count .u_likeit_list_module .u_likeit_list_btn .u_cnt,#cbox_module .u_cbox_view_comment .u_cbox_count_view_comment,#cbox_module .u_cbox_view_comment .u_cbox_in_view_comment { color: #cacaca }
@@ -3127,7 +3127,6 @@
     .se-viewer .se-section-code.se-l-code_stripe .token.se-code-important,.se-viewer .se-section-code.se-l-code_stripe .token.se-code-regex,.se-viewer .se-section-code.se-l-code_stripe .token.se-code-variable,.se-viewer .se-section-code.se-l-default .se-code-important,.se-viewer .se-section-code.se-l-default .se-code-regex,.se-viewer .se-section-code.se-l-default .se-code-variable { color: #b834a1 }
     .se-viewer .se-section-code.se-l-code_stripe .token.se-code-important,.se-viewer .se-text-list.se-text-list-type-decimal .se-text-paragraph { font-weight: 400 }
     .se-viewer .se-section-code.se-l-code_stripe .token.se-code-punctuation,.se-viewer .se-section-code.se-l-default .se-code-punctuation { color: #666 }
-    .se-viewer .se-section-code.se-l-default { background-color: #fdfdfd }
     .se-viewer .se-section-code.se-l-default .se-code-entity { cursor: help }
     .se-viewer .se-section-custom,.se-viewer .se-section-formula,.se-viewer .se-section-sticker { display: table }
     .se-viewer .se-section-file { vertical-align: top;position: relative;max-width: 450px }

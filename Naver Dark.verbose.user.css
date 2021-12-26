@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.8
+@version		1.57.9
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -42089,6 +42089,10 @@
 	
 	.su_campaign .camp_sec .help_lst li em {
 		color: #fff;
+	}
+	
+	.se-viewer .se-section-code.se-l-default {
+		background-color: #242424;
 	}
 }
 
@@ -91189,7 +91193,7 @@
 	}
 	
 	.se-viewer .se-section-code.se-l-default {
-	    background-color: #fdfdfd
+	    background-color: #242424
 	}
 	
 	.se-viewer .se-section-code.se-l-default .se-code-cdata, .se-viewer .se-section-code.se-l-default .se-code-comment, .se-viewer .se-section-code.se-l-default .se-code-doctype, .se-viewer .se-section-code.se-l-default .se-code-prolog {

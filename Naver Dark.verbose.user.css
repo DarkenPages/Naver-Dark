@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.9
+@version		1.57.10
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -36504,6 +36504,40 @@
 	
 	.fact_cont .talk_area .sns_share_ico {
 		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.comp_journal_subscribe .cjs_news_tw .cjs_d {
+		color: #cacaca;
+	}
+	
+	.comp_journal_subscribe .cjs_news_a {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.comp_journal_subscribe .cjs_ctw .channel .datetime {
+		color: #cacaca;
+	}
+	
+	.comp_journal_subscribe .cjs_journal_wrap+.cjs_info {
+		background-color: #2f2f2f;
+	}
+	
+	.comp_journal_subscribe .cjs_btn_refresh {
+		color: #cacaca;
+		border: 1px solid #404040;
+	}
+	
+	.comp_journal_subscribe .cjs_btn_refresh::before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.comp_journal_subscribe .cjs_channel_mw::before {
+		border: 1px solid #404040;
+		background-color: #3a3a3a;
+	}
+	
+	.comp_journal_subscribe .cjs_btn_select {
+		color: #cacaca;
 	}
 }
 
@@ -84301,7 +84335,7 @@
 @-moz-document regexp("https://media\\.naver\\.com/(?!press|tv).*")
 {
 	.gnb_notice_li a.gnb_notice .gnb_icon, .mail_li a.gnb_mail .gnb_icon, .gnb_service_li a.gnb_service .gnb_icon {
-		filter: invert(86%) hue-rotate(-180deg);
+		filter: none;
 	}
 	
 	html .as_col .press_news_notice_inner::before {
@@ -85094,7 +85128,7 @@
 	}
 	
 	html .article_nav3 a span, html .comp_common .cc_rank, html .comp_common .cc_recommend_title .cr_title, html .comp_common .cc_title, html .comp_journal_subscribe .cjs_ctw .channel, html .comp_journal_subscribe .cjs_journal_link .cjs_st, html .comp_journal_subscribe .cjs_title, html .comp_journal_subscribe .cjs_title_wrap .cjs_edit_title, html .comp_journal_subscribe .noimage_text, html .comp_series_subscribe .css_title, html .factcheck_source_press_text, html .factcheck_source_text_more, html .factcheck_subject_summary, html .factcheck_subject_summary a, html .guide_section .err_ct .ti, html .guide_section .noti_lst .ti, html .home .opinion_title, html .like_ch_banner_txt, html .lnb2 li a, html .main_sublnb_date, html .media_end_channel_banner_event:visited, html .news_guide .subject, html .news_guide~.u_ft .u_it, html .news_header.as_white_type .u_it, html .newspaper_wrp h3, html .offc_head .cal .bt_mm, html .offc_head span.today, html .press_wrap .tv_cal span.today, html .sc_offc_lst span.today, html .offc_press_else, html .ofra_head_title, html .ofra_list_cate, html .ofra_list_num, html .opinion_title em, html .press_carousel_headline:visited, html .press_channel_title_h, html .press_edit_news_h_inner, html .press_float_subscribe_layer:visited, html .press_hd_subscribe_layer .phsl_item, html .press_hd_subscribe_layer_title, html .press_hd_subscribe_layer_wrap.as_tooltip .press_hd_subscribe_layer_title, html .press_layer_hd_title, html .press_main_news_title_h, html .press_maintitle_h, html .press_premium_title .p_h, html .press_profile .pp_award_h, html .press_profile .pp_datalab_h, html .press_profile .pp_datalab_title, html .press_ranking_date strong, html .press_ranking_home .press_ranking_tit, html .press_ranking_list .list_ranking_num, html .press_special_title_h, html .press_title, html .press_wrap .tv_cal .cal .bt_mm, html .sc_offc_lst .cal .bt_mm, html .rankingnews_box .rankingnews_name, html .rankingnews_date strong, html .rankingnews_head .button_press_list, html .rankingnews_list .list_ranking_num, html .section_headline_error_h, html .sh_info_icon_link, html .sh_info_icon_link:visited, html .sh_info_layer_p strong, html .subscribe_alert_btn, html .subscribe_alert_btn:visited, html .subscribe_layer:visited, html .timelineview_card .tica_link_area, html .timelineview_graph .tigr_box.is_today dt, html .today_info .today_title em, html .tv_broad_nav .nav_ti_name, html .u_atcp_a, html .u_sggt_wrap2 .kwd_lst .kwd, html span.today, html ul.stock li a {
-		color: #f0f0f2
+		color: #f0f0f2 !important;
 	}
 	
 	html .news_guide~.u_ft .u_it:-ms-input-placeholder, html .news_guide~.u_ft .u_it:-moz-placeholder, html .news_guide~.u_ft .u_it:-ms-input-placeholder, html .news_guide~.u_ft .u_it:-webkit-input-placeholder, html .news_guide~.u_ft .u_it:placeholder, html .news_header.as_white_type .u_it:-ms-input-placeholder, html .news_header.as_white_type .u_it:-moz-placeholder, html .news_header.as_white_type .u_it:-ms-input-placeholder, html .news_header.as_white_type .u_it:-webkit-input-placeholder, html .news_header.as_white_type .u_it:placeholder {
@@ -85102,7 +85136,7 @@
 	}
 	
 	html .press_news_list.as_list .press_news_link, html .press_news_list.as_one .press_news_link, html .press_news_list.as_top .press_news_link, html .press_newsflash_tx, html .press_newslist_link, html .press_premium_list .p_link, html .press_profile .pp_award_name, html .press_profile .pp_rel_item, html .press_profile .pp_rel_text, html .press_profile .pp_rel_text:visited, html .press_ranking_list li a, html .press_ranking_news_tab_link, html .press_special_col .p_link, html .press_special_flat .p_link, html .press_special_full .p_link, html .press_special_row .p_link, html .press_todaycolumn_headline, html .prli_playerinner, html .rankingnews_list .list_content .list_title, html .rankingnews_press_list li a, html .section_headline_error_p, html .section_list+.section_list li>a, html .sh_more_inner, html .sh_more_inner:visited, html .sh_noti_area strong, html .sh_text a, html .subscribe_alert_p_dsc, html .timelineview_card .tica_title_link, html .timelineview_header .tihe_layer p, html .tit_main, html .today_info .today_date, html .today_info .today_date .date, html .today_info .today_date .whatday, html .tv_bn2_name, html .tv_special_title a, html .u_pg_btn, html a.u_pg_btn, html a.r_news_drw, html .newsct_article b, html .newsct_article dd, html .newsct_article dl, html .newsct_article dt, html .newsct_article font, html .newsct_article h1, html .newsct_article h2, html .newsct_article h3, html .newsct_article h4, html .newsct_article h5, html .newsct_article h6, html .newsct_article li, html .newsct_article ol, html .newsct_article p, html .newsct_article span, html .newsct_article strong, html .newsct_article table, html .newsct_article td, html .newsct_article th, html .newsct_article ul, html .newsct_body, html .Nlist_item a.Nitem_link, html .Nlnb_menu_sublist .Nsublist_item a.Nitem_link, html .offc_content_txt .title, html .offc_head .cal_b .calendar-next-mon a, html .offc_head .cal_b .calendar-prev-mon a, html .press_wrap .tv_cal .cal_b .calendar-next-mon a, html .press_wrap .tv_cal .cal_b .calendar-prev-mon a, html .sc_offc_lst .cal_b .calendar-next-mon a, html .sc_offc_lst .cal_b .calendar-prev-mon a, html .offc_head .cal_b a, html .press_wrap .tv_cal .cal_b a, html .sc_offc_lst .cal_b a, html .offc_head .cal_b td, html .press_wrap .tv_cal .cal_b td, html .sc_offc_lst .cal_b td, html .offc_heading_box .offc_logo_text, html .office_subscribe_link:visited, html .office_subscribe_txt, html .ofra_list_item_link, html .opinion_sort .opinion_sort_btn.opinion_sort_btn_on, html .photo_wall .photo_thmb a, html .press_alert_layer .layer_message em, html .press_banner .pb_text, html .press_bulletin .pb_a, html .press_column_ct .subscribe_guide_p>em, html .press_journalist_text .subscribe_guide_p>em, html .press_todaycolumn_tx .subscribe_guide_p>em, html .r_hotissue .subscribe_guide_p>em, html .press_column_tx>a, html .press_edit_news_link, html .press_journalist_inside>a, html .press_list_banner_p, html .press_list_nav li>a, html .press_main_livebanner .prmali_t, html .press_navertv_link, html .press_news_headline, html .press_news_list.as_bottom .press_news_link, html .press_news_list.as_double .press_news_link, html .press_news_list.as_emphasis .press_news_link, html .mp_footer, html .mp_footer .f_notice_link, html .newsct_article a, html .newspaper_article_lst li>a, html .quick_select_page a, html .article_nav3 a, html .cal_b .calendar-next-mon a, html .cal_b .calendar-prev-mon a, html .cal_b a, html .cartoon_cartoon .cartoon_thumb, html .column_columnist .columnist_info .columnist_name, html .column_columnist .columnist_title, html .column_topic .topic_title .topic_headline, html .comp_common .cc_chart_expand .cc_chart_item:nth-child(n + 4) .cc_chart_num, html .comp_common .cc_chart_reduce .cc_rolling_item:nth-child(n + 4) .cc_chart_num, html .comp_common .cc_triple_list .cc_tt, html .comp_journal_subscribe .cjs_nf_a .cn_title, html .editorial_press .press_article .article_press, html .editorial_press .press_topic .topic_headline, html .error_h, html .error_msg h1, html .factcheck_more>a, html .factcheck_press_list li, html .factcheck_press_list li>a, html .factcheck_press_title_factcheck, html .factcheck_source_text_inner, html .factcheck_subject_info_name, html .guide_section .err_ct li, html .guide_section .info_area dt, html .home .column_columnist .columnist_headline, html .lnb_extra_inner, html .lst_tv_press_name, html .main_sublnb_item, html .main_sublnb_link, html .main_sublnb_link:visited, html .main_wrap .brick-house, html .media_end_channel_banner_link, html .media_end_channel_banner_link:visited {
-		color: #dadde0;
+		color: #dadde0 !important;
 	}
 	
 	html .article_nav3, html .article_nav3 li+li, html .bigger_size, html .smaller_size, html .column_columnist .columnist_item, html .comp_common .cc_chart_expand .cc_chart_item, html .comp_common .cc_chart_expand .cc_chart_keyword_wrap, html .comp_common .cc_column_list+.cc_text_list .cc_text_item:first-child, html .comp_common .cc_list_wrap:first-child+.cc_recommend_title, html .comp_common .cc_recommend_title, html .comp_common .cc_text_item, html .comp_common .cc_tw, html .comp_common.comp_nodivider .cc_text_list .cc_text_item:last-child, html .comp_journal_subscribe .btn_refresh~[class^='btn'], html .comp_journal_subscribe .cjs_btn_unsubscribe~[class^='cjs_btn'], html .comp_journal_subscribe .cjs_channel_info, html .comp_journal_subscribe .cjs_death_a::after, html .comp_journal_subscribe .cjs_journal_info, html .comp_journal_subscribe .cjs_news_a, html .comp_journal_subscribe .cjs_title_wrap+.cjs_newsflash_list, html .crosslight_item_bunch+.r_more_load, html .editorial_press .opinion_more, html .editorial_press .press_article, html .editorial_press .press_topic, html .editorial_today .today_item, html .factcheck_source_news, html .factcheck_source_text_inner table td, html .factcheck_source_text_inner table th, html .guide_section .noti_lst li, html .home .column_columnist, html .home .column_today, html .home .column_today .today_column:last-of-type, html .home .column_topic, html .home .column_topic .topic_item:last-of-type, html .home .editorial_today, html .lst_tv_press .inner, html .main_sublnb_item::before, html .newspaper_article_lst li a, html .offc_head .cal_b, html .press_wrap .tv_cal .cal_b, html .sc_offc_lst .cal_b, html .press_hd_subscribe_layer .phsl_list, html .press_item_bunch+.r_more_load, html .press_layer_hd, html .press_list_logo_item, html .press_list_only_logo_item, html .press_ranking_list .list_content::before, html .press_ranking_list .rankingnews_error::after, html .press_special_col .p_linkinner::after, html .press_special_flat .p_item, html .press_special_row .p_noticeinner::before, html .rankingnews_list .list_content::after, html .rankingnews_list .list_content::before, html .rankingnews_press_list li, html .section_list li::after, html .sh_item+.sh_item, html .subscribe_guide_footer, html .tv_bn2 .tv_bn2_li::after, html .tv_broad_nav a.nav_ti, html .u_atcp_l, html .u_sggt_wrap2 .kwd_lst li {
@@ -86641,6 +86675,10 @@
 	
 	.info_multilike .info_like .u_likeit_list_count::before {
 		filter: invert(100%) hue-rotate(-180deg) brightness(1000%);
+	}
+	
+	.gnb_notice_li a.gnb_notice .gnb_icon, .mail_li a.gnb_mail .gnb_icon, .gnb_service_li a.gnb_service .gnb_icon {
+		filter: none;
 	}
 }
 

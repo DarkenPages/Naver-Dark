@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.11
+@version		1.57.12
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -79015,6 +79015,27 @@
 	
 	.sp_nshop .deep_noti {
 		color: #cacaca;
+	}
+	
+	.cs_produce .tb_box .tb_list .stress_line {
+		border-left: 1px solid #404040;
+	}
+	
+	.ds_calendar .m_calendar .this_cld table tbody .cld_today {
+		position: relative;
+		border: none;
+	}
+	
+	.ds_calendar .m_calendar .this_cld table tbody .cld_today:before {
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		border: 1px solid #e0e0bf;
+		pointer-events: none;
+		box-sizing: border-box;
 	}
 }
 

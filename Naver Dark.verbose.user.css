@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.13
+@version		1.57.14
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -42127,6 +42127,10 @@
 	
 	.se-viewer .se-section-code.se-l-default {
 		background-color: #242424;
+	}
+	
+	.new_blog a img[alt='글쓰기'] {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 }
 

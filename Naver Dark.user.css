@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.16
+@version		1.57.17
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -5100,7 +5100,7 @@
     .comp_journal_subscribe .cjs_nf_btn_open::before,.op_container .aside,.rankingnews_box:before,.share_page_lst li a,#footer ul li,table.container .snb + td.content,table.container td.aside { border-left: 1px solid #404040 }
     .comp_journal_subscribe .cjs_tab,.type13 { color: #cacaca;border-bottom: 1px solid #404040 }
     .comp_journal_subscribe .cjs_tab[aria-selected='true'] { color: #fff;border-bottom-color: #5a5a5a }
-    .comp_journal_subscribe,.comp_journal_subscribe .cjs_journal_wrap+.cjs_info,.comp_journal_subscribe .cjs_nf_list,.comp_series_subscribe,.guide_categorization_item,.header.is_fixed .lnb_area,.myscrap_select-list ul li.myscrap_select-item-over,.myscrap_select-list ul li.myscrap_select-item-selected,.offc_head,.offc_lst .offc_ct,.photo_choice_wrap .btn_next,.photo_choice_wrap .btn_prev,.press_layer_scroll,.tts_spd_bar,#footer { background-color: #2f2f2f }
+    .comp_journal_subscribe,.comp_journal_subscribe .cjs_journal_wrap+.cjs_info,.comp_journal_subscribe .cjs_nf_list,.comp_news_ad,.comp_series_subscribe,.guide_categorization_item,.header.is_fixed .lnb_area,.myscrap_select-list ul li.myscrap_select-item-over,.myscrap_select-list ul li.myscrap_select-item-selected,.offc_head,.offc_lst .offc_ct,.photo_choice_wrap .btn_next,.photo_choice_wrap .btn_prev,.press_layer_scroll,.tts_spd_bar,#footer { background-color: #2f2f2f }
     .consolidation_native_ad { border: 1px solid #242424;background-color: #242424 }
     .fact_cont .pop_cont .txt,.om_info_area .om_top li { color: #cacaca;border-left: 1px solid #404040 }
     .factcheck_keyword_tab .item.on a,.ntc_area .btn,.ntc_view .btn.list { color: #242424 }

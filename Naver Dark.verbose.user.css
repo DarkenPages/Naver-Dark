@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.14
+@version		1.57.16
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -11007,7 +11007,7 @@
 	
 }
 
-@-moz-document url-prefix("https://nid.naver.com/user2/help/")
+@-moz-document url-prefix("https://nid.naver.com/user2/help/"), url-prefix("https://nid.naver.com/user2/private/")
 {
 	html, head, body {
 		background: #242424;
@@ -96184,5 +96184,249 @@
 	.u_cbox .u_cbox_mine .u_cbox_area {
 		border: 1px solid #888;
 		background-color: #4f4f4f;
+	}
+}
+
+@-moz-document url-prefix("https://nid.naver.com/nidlogin.login")
+{
+	.title p {
+		color: #cacaca;
+	}
+	
+	.tab_m {
+		border: 1px solid #404040;
+	}
+	
+	.tab_m li {
+		border-right: 1px solid #404040;
+	}
+	
+	.tab_m li a {
+		color: #cacaca;
+		background: #2f2f2f;
+	}
+	
+	.tab_m li a.on {
+		color: #fff;
+		border: 1px solid #4f4f4f;
+		background: #3a3a3a;
+	}
+	
+	.tab_m li a:hover, .tab_m li a:visited {
+		color: #fff;
+	}
+	
+	.input_row {
+		background: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.country_code .sel_value {
+		color: #fff;
+		background: none;
+		position: relative;
+	}
+	
+	.country_code .sel_value:before {
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background: url(https://static.nid.naver.com/images/login/global/sns/desktop/sel_arr_2x.gif) 100% 50% no-repeat;
+		-webkit-background-size: 20px 8px;
+		background-size: 20px 8px;
+		filter: invert(81.5%) hue-rotate(-180deg);
+		pointer-events: none;
+	}
+	
+	.int {
+		background: #2f2f2f;
+		color: #fff;
+	}
+	
+	.find_info {
+		border-top: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.find_info a {
+		color: #cacaca;
+	}
+	
+	.bar {
+		background: #404040;
+	}
+	
+	#header .lang .sel {
+		color: #cacaca;
+		border: 1px solid #404040;
+		background: none;
+		position: relative;
+	}
+	
+	#header .lang:before {
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background: url(https://static.nid.naver.com/images/login/global/sns/desktop/sel_arr.gif) 100% 50% no-repeat;
+		filter: invert(86%) hue-rotate(-180deg);
+		pointer-events: none;
+	}
+}
+
+@-moz-document url-prefix("https://nid.naver.com/user2/private/")
+{
+	.private_box {
+		border-top: 1px solid #404040;
+	}
+	
+	.private_box h3 {
+		color: #fff;
+	}
+	
+	.private_area.default .private_list .private_btn {
+		border-color: #404040;
+	}
+	
+	.private_area.default .private_list .private_btn .text {
+		color: #fff;
+	}
+	
+	.private_box .tip_box {
+		background-color: rgb(35, 41, 36);
+	}
+	
+	.private_box .lnk_list .lnk_more .text {
+		color: #fff;
+	}
+	
+	.private_box .lnk_list .lnk_more:after {
+		filter: invert(100%) brightness(1000%);
+	}
+	
+	.private_item_list {
+		border: 1px solid #404040;
+	}
+	
+	.private_item_list.disabled:after {
+		background-color: rgba(0, 0, 0, .1);
+	}
+	
+	.private_item_list.disabled .lnk_private:before {
+		background: none;
+	}
+	
+	.private_item_list.disabled .private_cell .lnk_private .title {
+		color: #999;
+	}
+	
+	.private_cell .lnk_private .title {
+		color: #fff;
+	}
+	
+	.private_item_list.disabled .switch_btn::before {
+		background-color: #999;
+	}
+	
+	.switch_btn {
+		background-color: #71737a;
+	}
+	
+	.private_item_list.disabled .private_cell .ico.address {
+		filter: brightness(0.7);
+	}
+	
+	.private_area .btn_box {
+		border-top: 1px solid #404040;
+	}
+	
+	.private_box .h_desc, .private_area .c_header .lnk_more .text {
+		color: #cacaca;
+	}
+	
+	.private_list .private_btn {
+		border: 1px solid #404040;
+	}
+}
+
+@-moz-document url-prefix("https://ekyc.naver.com/sign")
+{
+	body {
+		color: #cacaca;
+		background-color: #242424;
+	}
+	
+	.header.cert, .header.terms {
+		background-color: #242424;
+	}
+	
+	.top_title {
+		color: #fff;
+	}
+	
+	.top_desc {
+		color: #cacaca;
+	}
+	
+	.header_cert .cert_logo::before, .btn_exit::after, .help_desc_item .title .icon_q, .help_title_area::after {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.header_cert .cert_logo .title {
+		color: rgb(162, 169, 185);
+	}
+	
+	.request_help_box {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+		color: #fff;
+	}
+	
+	.help_title {
+		color: #fff;
+	}
+	
+	.help_title_area+.device_none_list, .help_title_area+.help_desc_list {
+		border-top: 1px solid #404040;
+	}
+	
+	.help_desc_item .title {
+		color: #fff;
+	}
+	
+	.help_desc_item .substance {
+		border-top: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.step_copy {
+		color: #cacaca;
+	}
+	
+	.step_desc {
+		color: #fff;
+		border-top: 1px solid #404040;
+	}
+	
+	.help_desc_item+.help_desc_item {
+		border-top: 1px solid #404040;
+	}
+	
+	.substance .text {
+		color: #cacaca;
+	}
+	
+	.substance .btn_resend .txt {
+		background-color: #3a3a3a;
+		color: #fff;
+	}
+	
+	.btn_next_terms {
+		background-color: #383a41;
 	}
 }

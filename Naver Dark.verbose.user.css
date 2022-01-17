@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.18
+@version		1.57.19
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -83788,7 +83788,7 @@
 	}
 	
 	html .media_end_head_autosummary .media_end_head_autosummary_button::before {
-		background-position: -140px -292px
+		background-position: -329px -190px
 	}
 	
 	html .media_end_head_autosummary .media_end_head_autosummary_layer_head_tit::before {
@@ -83800,7 +83800,7 @@
 	}
 	
 	html .media_end_head_channel_layer_link::after, html .media_end_head_journalist .media_end_head_journalist_box::after, html .media_end_head_journalist .media_end_head_journalist_layer_name::after, html .media_end_head_top_channel_layer_link::after, html .ofhd_float_subscribe_layer_link::after {
-		background-position: -387px -40px
+		background-position: -357px -178px
 	}
 	
 	html .media_end_head_channel_layer, html .media_end_head_top_channel_layer, html .n_news_sports .u_likeit_button+.u_likeit_layer, html .office_headline .ofhe_info_layer, html .ofhd_float_subscribe_layer, html .u_likeit_button+.u_likeit_layer {
@@ -83810,7 +83810,7 @@
 	}
 	
 	html .media_end_head_cmtcount_button::before {
-		background-position: -299px -200px
+		background-position: -367px -50px
 	}
 	
 	html .media_end_head_fontsize_is_on .media_end_head_fontsize_set::after, html .media_end_head_fontsize_setlayer, html .media_end_head_journalist .media_end_head_journalist_layer, html .media_end_head_journalist .media_end_head_journalist_layer::before, html .media_end_head_lang_is_on .media_end_head_lang_set::after, html .media_end_head_lang_setlayer, html .media_end_head_tts_run.is_active::after, html .media_end_head_tts_setlayer, html .n_news_sports .u_likeit_button+.u_likeit_layer::before, html .u_likeit_button+.u_likeit_layer:before {
@@ -83828,7 +83828,7 @@
 	}
 	
 	html .media_end_head_fontsize_set::before {
-		background-position: -196px -292px
+		background-position: -329px -246px
 	}
 	
 	html .media_end_head_fontsize_setlayer_select::before {
@@ -83862,23 +83862,23 @@
 	}
 	
 	html .media_end_head_print .media_end_print_link::before {
-		background-position: -367px -159px
+		background-position: -73px -390px
 	}
 	
 	html .media_end_head_share .send_caption {
-		background-position: -322px 0px
+		background-position: -56px -324px
 	}
 	
 	html .media_end_head_tts_run::before {
-		background-position: -322px -56px
+		background-position: -112px -324px
 	}
 	
 	html .media_end_head_tts_setlayer .media_end_head_tts_option::before {
-		background-position: -91px -320px
+		background-position: -367px -311px
 	}
 	
 	html .media_end_issuetimeline_go .meig_link::after, html .media_end_linked_more_link::after {
-		background-position: -233px -344px
+		background-position: -391px -189px
 	}
 	
 	html .media_flick .mf_thumb {
@@ -83998,6 +83998,10 @@
 	
 	html:not(.DARK_THEME) .dark_type {
 		display: block !important;
+	}
+	
+	.pg_num_area.pg_num_area_v2 .pg_num {
+		color: #fff;
 	}
 }
 

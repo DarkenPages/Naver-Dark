@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.20
+@version		1.57.21
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -84382,7 +84382,7 @@
 	}
 	
 	html #cbox_module .u_cbox_cleanbot_content::before {
-		background-position: -71px -77px
+		background-position: 0 -100px
 	}
 	
 	html #cbox_module .u_cbox_cleanbot_setbutton.is_highlight:before {

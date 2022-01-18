@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.20
+@version		1.57.21
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -5039,7 +5039,7 @@
     html #cbox_module .u_cbox_chart_foot,html #cbox_module .u_cbox_chart_wrap { border-color: #404040;background: rgb(50, 49, 48) }
     html #cbox_module .u_cbox_chart_title,html .u_cbox .u_cbox_layer_goodcomment_extra .u_cbox_layer_goodcomment_primarybtn,html .u_cbox .u_cbox_layer_goodcomment_extra .u_cbox_layer_goodcomment_standardbtn { color: #dadde0;border-color: #464649 }
     html #cbox_module .u_cbox_cleanbot { border-color: #595959;border-color: #464649;background: #39393C;background: #39393C }
-    html #cbox_module .u_cbox_cleanbot_content::before { background-position: -71px -77px }
+    html #cbox_module .u_cbox_cleanbot_content::before { background-position: 0 -100px }
     html #cbox_module .u_cbox_cleanbot_setbutton:before,html #cbox_module .u_cbox_comment .u_cbox_ico_exclamation,html #cbox_module .u_cbox_con_inform .u_cbox_ico_comment_none,html #cbox_module .u_cbox_help_info .u_cbox_ico_help,html #cbox_module .u_cbox_work_sub .u_cbox_ico_open,html .u_cbox .u_cbox_layer_cleanbot2_closeicon,html .u_cbox .u_cbox_layer_cleanbot_closeicon,html .u_cbox .u_cbox_layer_help .u_cbox_btn_info_close:after,html .u_cbox .u_cbox_layer_report .u_cbox_ico_close_hide,html .u_cbox .u_cbox_manageblock_noneicon,html .u_cbox .u_cbox_work_sub .u_cbox_ico_open,html .u_cbox_user .u_cbox_comment .u_cbox_text_wrap .u_cbox_ico_exclamation,html .u_cbox_user .u_cbox_comment_none .u_cbox_con_inform .u_cbox_ico_comment_none,html .u_cbox_user .u_cbox_userblockmsg_icon { opacity: .46;filter: invert(100%);-webkit-filter: invert(100%) }
     html #cbox_module .u_cbox_cleanbot_setbutton.is_highlight:before { opacity: .5;filter: invert(0);-webkit-filter: invert(0) }
     html #cbox_module .u_cbox_comment_count .u_cbox_info_title,html #cbox_module .u_cbox_delete_contents,html #cbox_module .u_cbox_loading_fail .u_cbox_btn_refresh .u_cbox_txt_refresh,html #cbox_module .u_cbox_notice .u_cbox_con_notice,html #cbox_module .u_cbox_recomm_set .u_cbox_btn_recomm,html #cbox_module .u_cbox_recomm_set .u_cbox_btn_unrecomm,html #cbox_module .u_cbox_sort .u_cbox_sort_label,html #cbox_module .u_cbox_write .u_cbox_inbox .u_cbox_guide,html #cbox_module .u_cbox_write_count,html .u_cbox .u_cbox_btn_more,html .u_cbox .u_cbox_btn_report,html .u_cbox .u_cbox_btn_unhide,html .u_cbox .u_cbox_chart_cnt,html .u_cbox .u_cbox_cleanbot_setbutton,html .u_cbox .u_cbox_date,html .u_cbox .u_cbox_delete_contents,html .u_cbox .u_cbox_good_section .u_cbox_msg_point,html .u_cbox .u_cbox_layer_help .u_cbox_info_txt,html .u_cbox .u_cbox_layer_userblock_titlemark,html .u_cbox .u_cbox_manageblock_date,html .u_cbox .u_cbox_manageblock_totaldesc,html .u_cbox .u_cbox_refresh_wrap .u_cbox_txt_refresh,html .u_cbox .u_cbox_user .u_cbox_sort .u_cbox_sort_label,html .u_cbox .u_cbox_user .u_cbox_userblockmsg_content,html .u_cbox .u_cbox_user .u_cbox_userinfo_laststats_dataitem,html .u_cbox .u_cbox_user .u_cbox_userinfo_laststats_helplayer_desc em,html .u_cbox .u_cbox_user .u_cbox_userinfo_meta_date,html .u_cbox .u_cbox_user .u_cbox_userinfo_meta_id,html .u_cbox .u_cbox_user .u_cbox_write_count,html .u_cbox_layer_report_btn_more,html .u_cbox_layer_report_reason_list,html .u_cbox_user .u_cbox_tool .u_cbox_recomm_set .u_cbox_btn_recomm,html .u_cbox_user .u_cbox_tool .u_cbox_recomm_set .u_cbox_btn_unrecomm { color: #919192 }

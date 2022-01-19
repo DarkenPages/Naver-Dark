@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.21
+@version		1.57.22
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -87505,6 +87505,10 @@
 
 @-moz-document url-prefix("https://contents.premium.naver.com")
 {
+	.se-viewer {
+		color: #cacaca;
+	}
+	
 	.se-viewer .se-360vr-fullscreen-button:before, .se-viewer .se-360vr-gyro-loading, .se-viewer .se-360vr-loading, .se-viewer .se-360vr-state-info:before, .se-viewer .se-audio-play-button:before, .se-viewer .se-chat .se-message-box:before, .se-viewer .se-chat .se-module-message.se-module-message-owner .se-message-box:before, .se-viewer .se-file-icon, .se-viewer .se-file-save-button:before, .se-viewer .se-file-save-option-button.se-file-save-option-button-cloud:before, .se-viewer .se-file-save-option-button.se-file-save-option-button-local:before, .se-viewer .se-gyro-disabled, .se-viewer .se-image-tag-area:before, .se-viewer .se-image-tag-detail-icon, .se-viewer .se-image-tag-pin, .se-viewer .se-l-anniversary_autumn .se-anniversary-date-info:after, .se-viewer .se-l-anniversary_spring .se-anniversary-date-info:after, .se-viewer .se-l-anniversary_summer .se-anniversary-date-info:after, .se-viewer .se-l-anniversary_winter .se-anniversary-date-info:after, .se-viewer .se-material-npay, .se-viewer .se-module-image-link-use:after, .se-viewer .se-schedule-detail-description .se-schedule-info:before, .se-viewer .se-schedule-detail-location .se-schedule-info:before, .se-viewer .se-schedule-detail-url .se-schedule-info:before, .se-viewer .se-section-horizontalLine.se-l-line3 .se-hr, .se-viewer .se-section-horizontalLine.se-l-line4 .se-hr, .se-viewer .se-section-horizontalLine.se-l-line5 .se-hr, .se-viewer .se-section-horizontalLine.se-l-line6 .se-hr, .se-viewer .se-section-imageGroup .se-imageGroup-navigation-button.se-imageGroup-navigation-button-next:before, .se-viewer .se-section-imageGroup .se-imageGroup-navigation-button.se-imageGroup-navigation-button-prev:before, .se-viewer .se-section-oglink.se-l-shopping_affiliate_image .se-oglink-npay, .se-viewer .se-section-oglink.se-l-shopping_affiliate_text .se-oglink-npay, .se-viewer .se-section-oglink .se-oglink-thumbnail-moment-icon, .se-viewer .se-section-oglink .se-oglink-thumbnail-video-icon, .se-viewer .se-section-placesMap.se-l-map_text .se-map-marker:before, .se-viewer .se-section-placesMap .se-placesMap-button-bookmark.se-placesMap-button-bookmark-saved:before, .se-viewer .se-section-placesMap .se-placesMap-button-bookmark:before, .se-viewer .se-section-placesMap .se-placesMap-button-call:before, .se-viewer .se-section-placesMap .se-placesMap-button-reservation:before, .se-viewer .se-section-placesMap.se-section-placesMap-multiple .se-module-map-text:before, .se-viewer .se-section-quotation.se-l-default .se-quotation-container:after, .se-viewer .se-section-quotation.se-l-default .se-quotation-container:before, .se-viewer .se-section-quotation.se-l-quotation_bubble .se-quotation-container:after, .se-viewer .se-section-quotation.se-l-quotation_postit .se-quotation-container:before, .se-viewer .se-section-quotation.se-l-quotation_underline .se-quotation-container:before, .se-viewer .se-talktalk.se-l-default .se-module-talktalk:after, .se-viewer .se-talktalk.se-l-default .se-module-talktalk:before, .se-viewer .se-talktalk .se-talktalk-banner-text:before, .se-viewer .se-video .se-media-meta-toggle-button:after {
 	    background-image: url(//editor-static.pstatic.net/v/basic/1.32.1/img/se-sp-viewer.304e239c.png);
 	    background-repeat: no-repeat;

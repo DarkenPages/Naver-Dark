@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.21
+@version		1.57.22
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -2619,7 +2619,7 @@
     .notice_headline_badge { color: #fff;border: 1px solid #404040 }
     .premiumhome_channel_dropdown .pcd_link { color: #baa77e;border-color: #595959;background-color: #39393c }
     .se_viewer_content .se-viewer .se-documentTitle .viewer_category_link { color: #fff;border-top: 1px solid #fff;border-bottom: 1px solid #fff }
-    .se-viewer { line-height: 1;font-family: se-nanumgothic, \\B098\B214\ACE0\B515, nanumgothic, sans-serif;-webkit-font-smoothing: antialiased }
+    .se-viewer { line-height: 1;font-family: se-nanumgothic, \\B098\B214\ACE0\B515, nanumgothic, sans-serif;color: #cacaca;-webkit-font-smoothing: antialiased }
     .se-viewer .lama-editor,.se-viewer .lama-viewer,.se-viewer .mq-math-mode .mq-fraction,.se-viewer .mq-math-mode .mq-large-operator,.se-viewer .mq-math-mode x:-moz-any-link,.se-viewer .mq-math-mode x:default,.se-viewer .mq-math-mode .mq-textcolor,.se-viewer .mq-mu,.se-viewer .se-talktalk .se-module-talktalk { display: inline-block }
     .se-viewer .lama-viewer { vertical-align: middle;overflow: hidden }
     .se-viewer .mq-align-equal { white-space: nowrap;position: relative }

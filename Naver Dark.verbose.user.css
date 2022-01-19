@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.22
+@version		1.57.23
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -82499,6 +82499,95 @@
 		border-width: 1px 0 1px 0;
 		background-color: #2f2f2f;
 	}
+	
+	.ly_popup {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+		border-bottom: 0;
+	}
+	
+	.ly_popup.v2 {
+		border: 2px solid #404040;
+	}
+	
+	.ly_popup_content_v2 + .pop_footer {
+		background-color: #2f2f2f;
+	}
+	
+	.ly_popup_content_v2 + .pop_footer .pop_footer_content .close2 {
+		color: #cacaca;
+	}
+	
+	.ly_popup_content_v2 + .pop_footer .pop_footer_content .close2:after {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.ly_popup_content_v2 .pop_spot {
+		color: #fff;
+	}
+	
+	.ly_popup_content_v2 .pop_spot .spot_content {
+		color: #cacaca;
+	}
+	
+	.pop_content_area {
+		border-bottom: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	.ly_popup_content_v2 .pop_content_area {
+		background: #242424;
+		border: 0;
+	}
+	
+	.ly_popup_content_v2 .pop_content_area .content_tit {
+		color: #fff;
+	}
+	
+	.ly_popup_content_v2 .pop_content {
+		color: #cacaca;
+	}
+	
+	.pop_content {
+		color: #cacaca;
+	}
+	
+	.ly_popup_content_v2 .chk_wrap label {
+		color: #fff;
+	}
+	
+	.ly_popup_content_v2 .chk_wrap label:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.ly_popup_content_v2 form input[type=text] {
+		border-color: #404040;
+		background: #2f2f2f;
+	}
+	
+	.ly_popup form input[type=text] {
+		border: 1px solid #404040;
+		color: #cacaca;
+		background: #2f2f2f;
+	}
+	
+	.ly_popup_content_v2 .btn_alaram:disabled {
+		background-color: #2f2f2f;
+		color: #999;
+	}
+	
+	.ly_popup_content_v2 .btn_alaram {
+		background-color: #3a3a3a;
+		color: #fff;
+	}
+	
+	.ly_popup_content_v2 .pop_content_area.complete .pop_content {
+		color: #cacaca;
+	}
+	
+	.ly_popup_content_v2 .pop_content .number {
+		color: #fff;
+	}
 }
 
 @-moz-document url-prefix("https://help.naver.com/support/fileInfo/file.help")
@@ -96488,5 +96577,45 @@
 	
 	.btn_next_terms {
 		background-color: #383a41;
+	}
+}
+
+@-moz-document url-prefix("https://help.naver.com/support/reportCenter")
+{
+	.banner {
+		border-left: 1px solid #404040;
+	}
+	
+	.banner div {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.content_wrap {
+		background-color: #2f2f2f;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.r_section h2 {
+		filter: invert(83.5%) hue-rotate(-180deg);
+	}
+	
+	.r_section p {
+		color: #cacaca;
+	}
+	
+	.r_section a {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.lst_policy li {
+		color: #fff;
+	}
+	
+	address a {
+		color: #fff;
+	}
+	
+	.f_logo_naver img {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 }

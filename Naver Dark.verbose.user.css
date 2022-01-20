@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.23
+@version		1.57.26
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -15624,6 +15624,18 @@
 	.skin-1080 .box_notice .link_more {
 		border-color: #404040;
 	}
+	
+	.skin-1080 .article-guide {
+		border: 1px solid #404040;
+	}
+	
+	.skin-1080 .article-guide .tit_guide {
+		color: #fff;
+	}
+	
+	.skin-1080 .article-guide .txt_guide {
+		color: #cacaca;
+	}
 }
 
 @-moz-document url-prefix("https://section.blog.naver.com"), url-prefix("http://section.blog.naver.com")
@@ -19827,6 +19839,10 @@
 		height: 67px;
 	}
 	
+	.lnb .lnb_menu .menu > a.off {
+		opacity: 0.5;
+	}
+	
 	.lnb .lnb_menu .menu a.on:before {
 		content: '관리 홈';
 		position: absolute;
@@ -19938,6 +19954,10 @@
 		background: #019341;
 	}
 	
+	.lnb .lnb_menu .menu2 > a.off {
+		opacity: 0.5;
+	}
+	
 	.lnb .lnb_menu .menu2 > a.on:before {
 		content: '카페 운영';
 		position: absolute;
@@ -20016,6 +20036,10 @@
 	
 	.lnb .lnb_menu li.menu3 a.on {
 		height: 67px;
+	}
+	
+	.lnb .lnb_menu .menu3 > a.off {
+		opacity: 0.5;
 	}
 	
 	.lnb .lnb_menu .menu3 > a.on2:before {
@@ -20129,6 +20153,10 @@
 		height: 67px;
 	}
 	
+	.lnb .lnb_menu .menu4 > a.off {
+		opacity: 0.5;
+	}
+	
 	.lnb .lnb_menu .menu4 > a.on2:before {
 		content: '가입•등급';
 		position: absolute;
@@ -20238,6 +20266,10 @@
 	
 	.lnb .lnb_menu li.menu5 a.on {
 		height: 67px;
+	}
+	
+	.lnb .lnb_menu .menu5 > a.off {
+		opacity: 0.5;
 	}
 	
 	.lnb .lnb_menu .menu5 > a.on2:before {
@@ -20351,6 +20383,10 @@
 		height: 67px;
 	}
 	
+	.lnb .lnb_menu .menu6 > a.off {
+		opacity: 0.5;
+	}
+	
 	.lnb .lnb_menu .menu6 > a.on2:before {
 		content: '글•글양식';
 		position: absolute;
@@ -20460,6 +20496,10 @@
 	
 	.lnb .lnb_menu li.menu7 a.on {
 		height: 67px;
+	}
+	
+	.lnb .lnb_menu .menu7 > a.off {
+		opacity: 0.5;
 	}
 	
 	.lnb .lnb_menu .menu7 > a.on2:before {
@@ -20573,6 +20613,10 @@
 		height: 67px;
 	}
 	
+	.lnb .lnb_menu .menu8 > a.off {
+		opacity: 0.5;
+	}
+	
 	.lnb .lnb_menu .menu8 > a.on2:before {
 		content: '꾸미기';
 		position: absolute;
@@ -20684,6 +20728,10 @@
 		height: 67px;
 	}
 	
+	.lnb .lnb_menu .menu9 > a.off {
+		opacity: 0.5;
+	}
+	
 	.lnb .lnb_menu .menu9 > a.on2:before {
 		content: '통계';
 		position: absolute;
@@ -20793,6 +20841,10 @@
 	
 	.lnb .lnb_menu li.menu10 a.on {
 		height: 67px;
+	}
+	
+	.lnb .lnb_menu .menu10 > a.off {
+		opacity: 0.5;
 	}
 	
 	.lnb .lnb_menu .menu10 > a.on2:before {
@@ -20908,6 +20960,10 @@
 	
 	.lnb .lnb_menu li.menu11 a.on {
 		height: 67px;
+	}
+	
+	.lnb .lnb_menu .menu11 > a.off {
+		opacity: 0.5;
 	}
 	
 	.lnb .lnb_menu .menu11 > a.on2:before {
@@ -22495,6 +22551,49 @@
 	.main_wrap .cafe_info_area .info_lst li .bar {
 		background-color: #404040;
 	}
+	
+	.group_noti {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.group_noti li {
+		color: #cacaca;
+	}
+	
+	.group_noti li .btn_del, .lst_type2 li .pers_nick_area .btn_del {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.tbl_lst_type .view_area {
+		border-top: 1px solid #404040;
+	}
+	
+	.permit {
+		background: none;
+	}
+	
+	.permit a {
+		background: #2f2f2f;
+		color: #cacaca !important;
+	}
+	
+	.permit a.on {
+		color: #fff;
+		background: #404040;
+	}
+	
+	.c_gy5 {
+		color: #fff !important;
+	}
+	
+	.section_cont .bx_dsc_area p {
+		color: #cacaca;
+	}
+	
+	.tbl_lst_type td .crg {
+		color: #cacaca;
+	}
 }
 
 @-moz-document url-prefix("https://cafe.naver.com/ManageEventQuestionExample.nhn")
@@ -22623,7 +22722,7 @@
 	}
 }
 
-@-moz-document url-prefix("https://cafe.naver.com/ManageSecedePopupView.nhn"), url-prefix("https://cafe.naver.com/ManageCafeOptionalBoardStaffPopup.nhn"), url-prefix("https://cafe.naver.com/ManageJoinRefusalAddPopup.nhn"), url-prefix("https://cafe.naver.com/ManageCafeJoinNoticePreview.nhn"), url-prefix("https://cafe.naver.com/ManageProhibitWordView.nhn")
+@-moz-document url-prefix("https://cafe.naver.com/ManageSecedePopupView.nhn"), url-prefix("https://cafe.naver.com/ManageCafeOptionalBoardStaffPopup.nhn"), url-prefix("https://cafe.naver.com/ManageJoinRefusalAddPopup.nhn"), url-prefix("https://cafe.naver.com/ManageCafeJoinNoticePreview.nhn"), url-prefix("https://cafe.naver.com/ManageProhibitWordView.nhn"), url-prefix("https://cafe.naver.com/ManageCafeOptionalBoardStaffPopup.nhn"), url-prefix("https://cafe.naver.com/ManageAssignOptionalBoardStaff.nhn")
 {
 	.lst_type dt {
 		color: #fff;
@@ -22656,7 +22755,7 @@
 	}
 	
 	.staf_lst_tit, .staf_lst_tit2 {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.staf_lst_con {
@@ -22695,7 +22794,7 @@
 	}
 	
 	#pop_container .layer .top_area img {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.cafe_thumb_70 .border.mask_white, .cafe_thumb_70 .border {
@@ -22732,7 +22831,7 @@
 	}
 	
 	.tip_area p strong .tip {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.tip_area p strong {
@@ -22745,7 +22844,7 @@
 	}
 	
 	.tbl_lst th, .tbl_spam th {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.tbl_spam td {
@@ -22758,6 +22857,45 @@
 	
 	.tbl_spam td .tit {
 		color: #cacaca;
+	}
+	
+	.tbl_lst td {
+		border-bottom: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.tbl_lst td .nick {
+		color: #fff;
+	}
+	
+	.txt_top {
+		color: #fff;
+	}
+	
+	.staf_lst_con {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.tbl_lst tbody tr:hover {
+		background: #2f2f2f;
+	}
+	
+	.tbl_lst td {
+		border-bottom: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.tbl_lst td .txt2 {
+		color: #cacaca;
+	}
+	
+	.tbl_lst td .num2 {
+		color: #cacaca;
+	}
+	
+	.tbl_lst tbody tr.selected td {
+		background: #3a3a3a;
 	}
 }
 
@@ -96617,5 +96755,61 @@
 	
 	.f_logo_naver img {
 		filter: invert(86%) hue-rotate(-180deg);
+	}
+}
+
+@-moz-document url-prefix("https://cafe.naver.com/CafeMemberView.nhn"), url-prefix("https://cafe.naver.com/CafeMemberView.naver")
+{
+	.mem_info {
+		background: none;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.mem_info .cont_area {
+		background: #2f2f2f;
+	}
+	
+	.mem_info .cont_area span {
+		color: #fff;
+	}
+	
+	.pop_content h2 {
+		color: #cacaca;
+	}
+	
+	#pop_footer {
+		border-top: 1px solid #404040;
+	}
+	
+	.act_info li strong {
+		color: #9fbdde;
+	}
+	
+	.btn_type {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.mem_info .cont_area a {
+		color: #cacaca;
+	}
+}
+
+@-moz-document regexp("https://cafe\\.naver\\.com/ca-fe/cafes/(.*)/introduction/history.*")
+{
+	.CafeHistory .history_wrap {
+		border: 1px solid #404040;
+	}
+	
+	.CafeHistory {
+		background: #2f2f2f;
+		color: #fff;
+	}
+	
+	.CafeHistory .history_wrap .list .txt {
+		color: #cacaca;
+	}
+	
+	.CafeHistory .history_wrap .list .go_to {
+		color: #859cc3;
 	}
 }

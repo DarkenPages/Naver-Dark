@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.26
+@version		1.57.27
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -22593,6 +22593,18 @@
 	
 	.tbl_lst_type td .crg {
 		color: #cacaca;
+	}
+	
+	.pop_refuse .j_chk label {
+		color: #cacaca;
+	}
+	
+	.board_action .lst_set li label {
+		color: #cacaca;
+	}
+	
+	.action_arr .btn_board_set {
+		border-radius: 5px;
 	}
 }
 

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.27
+@version		1.57.28
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -2441,7 +2441,7 @@
     #header .lnb { height: 67px;background: #505050 }
     #imageurlview { border-radius: 20px }
     #LockHelpOpener { filter: invert(0%) hue-rotate(-180deg) !important }
-    #wrap.wrap_bx .section_top .h_cont .menu7_sub,#wrap.wrap_bx .section_top .h_cont .menu7_sub3,#wrap.wrap_bx.wrap_bx_v1 .section_top .h_cont .menu7_sub2,#wrap.wrap_bx.wrap_bx_v1 .section_top .h_cont .menu7_sub4 { filter: none }
+    #spamOption + .board_area .tbl_lst_type select,#wrap.wrap_bx .section_top .h_cont .menu7_sub,#wrap.wrap_bx .section_top .h_cont .menu7_sub3,#wrap.wrap_bx.wrap_bx_v1 .section_top .h_cont .menu7_sub2,#wrap.wrap_bx.wrap_bx_v1 .section_top .h_cont .menu7_sub4 { filter: none }
     input.text { color: #cacaca;border-color: #404040;background: #242424 }
 }
 @-moz-document url-prefix("https://cafe.naver.com/ManageEventQuestionExample.nhn") {

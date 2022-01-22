@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.29
+@version		1.57.30
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -70432,6 +70432,14 @@
 	.rgb_plt .lst_picker li {
 		border: 1px solid #2f2f2f;
 		border-width: 1px 0 0 1px;
+	}
+	
+	.rgb_plt .picker_type2 li {
+		border: 0;
+	}
+	
+	.rgb_plt .lst_picker a {
+		background-color: #fff;
 	}
 	
 	.cs_rgb_plt .rgb_wrap .rgb_section .rgb_exposure .rgb_color {

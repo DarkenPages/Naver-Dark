@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.34
+@version		1.57.35
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -13656,7 +13656,7 @@
 	}
 	
 	.radio_box.type_green input[type="radio"]:checked+label:before, .wrap_chat .link_join .ico_join, .wrap_chat .link_join .ico_request, .wrap_chat .link_join .ico_arr, .wrap_chat .link_list_more .ico_more, .setting_request .btn_close:before, .list_chatting .chat_name .ico_alert, .list_chatting .more_chatting .ico_more, .list_chatting input:checked+.label_chatting .icon_checkbox, .check_all input:checked+.label_all .icon_checkbox, .menu_chat .menu_btns .ico_setting, .menu_chat .menu_btns .ico_exit, .menu_chat .link_close .ico_close, .list_talk .etc .ico_send, .list_talk .etc .btn_cancel .ico_cancel, .list_talk .etc .ico_error, .list_talk .more_set .ico_more, .list_talk .video .attach_type .ico_attach, .list_talk .loading .ico_loading, .list_talk .bubble_snippet .video:after, .list_talk .bubble_snippet .error:after, .list_talk .message_sticker[lazy=loading], .list_talk .message_sticker[lazy=error], .recent_talk .link_recent .ico_msg, .box_chat .box_sticker .link_prev .ico_chat, .box_chat .box_sticker .link_next .ico_chat, .box_chat .frame_attach .ico_emo, .box_chat .frame_attach .ico_img, .box_chat .frame_attach .ico_video, .sticker_open .frame_attach .ico_emo, .dimmed_layer .link_prev .ico_prev, .dimmed_layer .list_set .desc .ico_more, .dimmed_layer .link_close .ico_close, .dimmed_layer .box_fixed .tip_wrap .public_room_tip::before, .member_layer .link_setting, .set_layer .inner_keep .list_set .inp_keep:checked+.lab_keep .ico_chk, .public_layer .upload .ico_profile, .public_layer .info_room.link_arr:after, .public_layer .room_member_grade .label_sel .ico_sel_mem, .public_layer .room_member_grade .inp_sel:checked+.label_sel .ico_sel_mem, .public_layer .room_member_grade .checked+.label_sel .ico_sel_mem, .cafe_layer .list_cafe .ico_cafe, .set_member_layer .list_sel_member .btn_delete .ico_chat, .set_member_layer .box_search .ico_search, .set_member_layer .box_search .btn_reset .ico_chat, .set_member_layer .list_member .label_sel .ico_sel_mem, .set_member_layer .list_member .inp_sel:checked+.label_sel .ico_sel_mem, .set_member_layer .list_member .checked+.label_sel .ico_sel_mem, .setting_layer .cafe_box .name_area .thumb:before, .talk_header_btn .link_setting .ico_chat, .talk_header_btn .link_more .ico_chat, .talk_header .link_home .ico_chat, .talk_write .frame_attach .btn_attach.btn_more:before, .talk_write .frame_attach .btn_attach.btn_sticker:before, .talk_write .shop_area .btn_shop:before {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.box_empt .txt, .header .info_add .link, .setting_layer .cafe_box .name_area .link, .setting_layer .cafe_box .setting_list .title, .set_member_layer .box_search .inp_search, .list_chatting .chat_txt, .public_layer .info_room .total .bytes, .member_layer .nick, .list_talk .save, .list_talk .talk_info .txt.hide, .set_member_layer .empty_member .txt {
@@ -13814,6 +13814,31 @@
 	
 	.setting_layer .town_permit .town_permit_list {
 		color: #fff;
+	}
+	
+	.dimmed_layer .layer {
+		background-color: #242424;
+	}
+	
+	.dimmed_layer .layer_content {
+		background: #242424;
+	}
+	
+	.ly_check_area .list .txt {
+		color: #fff;
+	}
+	
+	.ly_check_area .list .info {
+		color: #cacaca;
+	}
+	
+	.dimmed_layer .layer_btn .btn {
+		color: #cacaca;
+		border: 1px solid #404040;
+	}
+	
+	.dimmed_layer .layer_btn .btn.point {
+		color: #242424;
 	}
 }
 

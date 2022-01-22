@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.28
+@version		1.57.29
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -1794,7 +1794,7 @@
     .FishingAlert { background-color: rgb(49, 39, 39) }
     .FishingAlert .alert_text { color: rgb(239, 129, 126) }
     .FishingAlert .alert_text .highlight { background-color: rgb(45, 45, 8) }
-    .FormInputCheck .label:before,.ly_begin.type_join .layer_content:before { filter: invert(81.5%) hue-rotate(-180deg) }
+    .FormInputCheck .label:before,.ly_begin.type_join .layer_content:before,.power_list .title_area img { filter: invert(81.5%) hue-rotate(-180deg) }
     .input_component,.select_component,.select_component2,.skin-1080 .prev-next a.on,.u_cbox .cminput .comm_write_wrap { border-color: #404040;background-color: #242424 }
     .IntroductionHeader .tab_list_wrap li,.list-btn-nor .btn,.select_component .select_list,.select_component2 .select_list,.SuicideSaver .su_prevention,.skin-1080 .su_prevention { border: 1px solid #404040;background-color: #242424 }
     .IntroductionHeader .tab_list_wrap li.selected,.ly_begin.type_join,.perid-layer li a,.skin-1080 .article-intro .box_profile,.skin-1080 .box_notice,.skin-1080 .ia-info-data2 .level_alert.alert_msg,.skin-1080 .prev-next,.skin-1080 .search_result .search_input,.skin-1080 #linked-member #lm-list,.skin-1080#main-area .bg-color { background-color: #2f2f2f }

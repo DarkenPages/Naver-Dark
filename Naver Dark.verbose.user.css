@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.33
+@version		1.57.34
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -13810,6 +13810,10 @@
 	.goods_status .goods_btn .btn_go {
 		background-color: #3a3a3a;
 		color: #cacaca;
+	}
+	
+	.setting_layer .town_permit .town_permit_list {
+		color: #fff;
 	}
 }
 

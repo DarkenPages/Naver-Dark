@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.33
+@version		1.57.34
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -7540,7 +7540,7 @@
     .cafe_layer .txt_cafe,.setting_request { color: #cacaca;border-bottom: 1px solid #404040;background-color: #2c2c2c }
     .cont_channel .filter_trade_input_label:before { border: 1px solid transparent;background-color: #242424 }
     .cont_channel .filter_trade_input:not(:checked)+.filter_trade_input_label:before,.dimmed_layer .list_set,.header .info_add .box_add,.list_talk .layer_more,.list_chatting .more_chatting .layer_more,.public_layer .info_room,.public_layer .room_member_grade ul { border: 1px solid #404040;background-color: #242424 }
-    .cont_channel .filter_trade_text,.goods_status .goods_info .title .name,.list_chatting .chat_name .inner_name,.menu_chat .link_member .name,body { color: #fff }
+    .cont_channel .filter_trade_text,.goods_status .goods_info .title .name,.list_chatting .chat_name .inner_name,.menu_chat .link_member .name,.setting_layer .town_permit .town_permit_list,body { color: #fff }
     .cont_channel,.talk_write .list_sticker,head,html { background: #242424 }
     .dimmed_layer .box_fixed .btn_type2.on { border-color: #019341;background-color: #019341 }
     .dimmed_layer .btn_type1 { border: 1px solid #019341;background-color: #019341 }

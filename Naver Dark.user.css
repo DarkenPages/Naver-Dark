@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.37
+@version		1.57.39
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -4388,6 +4388,9 @@
     .upload_status .status,#u_skip.u_skip + .wrap .footer[role=contentinfo] { border-top: 1px solid #404040 }
     .uploader5 .chg_type[disabled=disabled] { color: #666;border-color: #666 }
     .viewTitle dl dd.noImgs { color: #cacaca !important;border: 1px solid #404040 !important;background-color: #404040 !important }
+    #container .spam_cause .spam_cause_1 { border: 1px solid #505050 }
+    #container .spam_cause .spam_cause_1,#container .spam_cause .spam_cause_2 { margin-top: 1px;height: 15px }
+    #container .spam_cause .spam_cause_2 { border: 1px solid #934438 }
     #nav_snb div.btn_workset { background: none }
     #sign_prview_layer table tr:first-child td[style] { border-top: 1px solid #404040;background: none !important }
     #u_skip.u_skip + .wrap .container[role=main] .info_area .info_link [class^="link_"] { color: #cacaca;border: 1px solid #404040;background-color: #3a3a3a }

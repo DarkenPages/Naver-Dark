@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.37
+@version		1.57.39
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -2927,6 +2927,19 @@
 	
 	div.divWrite .mailWriteItem .utx_btn:hover {
 		border-color: #4f4f4f;
+	}
+	
+	#container .spam_cause .spam_cause_1, #container .spam_cause .spam_cause_2 {
+		height: 15px;
+		margin-top: 1px;
+	}
+	
+	#container .spam_cause .spam_cause_2 {
+		border: 1px solid #934438;
+	}
+	
+	#container .spam_cause .spam_cause_1 {
+		border: 1px solid #505050;
 	}
 }
 

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.39
+@version		1.57.40
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -32928,6 +32928,14 @@
 	
 	.talk_pc_partner .new_message_balloon .desc_black, .talk_pc_user .new_message_balloon .desc_black {
 		color: #fff;
+	}
+	
+	.talk_pc_partner .group_message_balloon .message_balloon, .talk_pc_user .group_message_balloon .message_balloon {
+		border: 1px solid #404040;
+	}
+	
+	.talk_pc_partner .group_message_balloon .message_balloon.card_message:after, .talk_pc_partner .group_message_balloon .message_balloon.card_og:after, .talk_pc_user .group_message_balloon .message_balloon.card_message:after, .talk_pc_user .group_message_balloon .message_balloon.card_og:after {
+		filter: invert(77%) hue-rotate(-180deg);
 	}
 }
 

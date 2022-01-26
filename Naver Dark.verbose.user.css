@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.43
+@version		1.57.44
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -17181,7 +17181,7 @@
 	}
 	
 	.invite-to-into img {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.article-invite [class*="invite_type_list_"] a {
@@ -17223,7 +17223,53 @@
 	}
 	
 	.btn_input_add:before {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.skin-1080 [class*="layer_invite_"] {
+		background-color: #2f2f2f;
+	}
+	
+	.skin-1080 [class*="layer_invite_"]:before {
+		border: 1px solid #404040;
+	}
+	
+	.skin-1080 .layer_invite_link .layer_title {
+		color: #fff;
+	}
+	
+	.skin-1080 [class*="layer_invite_"] .btn_invite_close {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.skin-1080 .layer_title {
+		color: #fff;
+	}
+	
+	.skin-1080 .layer_guide_text {
+		color: #cacaca;
+	}
+	
+	.skin-1080 .scroll_wrap {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.skin-1080 .scroll_wrap .layer_guide_text {
+		background-color: #2f2f2f;
+	}
+	
+	.skin-1080 .scroll_container.output .input_list {
+		background-color: #242424;
+	}
+	
+	.skin-1080 .layer_input {
+		background-color: #242424;
+		color: #cacaca;
+	}
+	
+	.skin-1080 .btn_input_add {
+		color: #cacaca;
 	}
 }
 

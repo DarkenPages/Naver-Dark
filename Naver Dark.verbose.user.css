@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.40
+@version		1.57.41
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -14110,7 +14110,12 @@
 		--skinBaseButtonDefaultBg: #3a3a3a;
 		--skinBaseButtonDefaultColor: #fff;
 		--skinBaseButtonPointBg: #3a3a3a;
-		--skinColor: #cacaca;
+		--skinColor: #242424;
+		--skinTextColor: #cacaca;
+		--skinFormText: #2f2f2f;
+		--skinJoinBtnBorder: #404040;
+		--skinJoinBtnBg: #2f2f2f;
+		--skinJoinBtnColor: #cacaca;
 		--skinCommentMineBg: #2f2f2f;
 		--skinListSelectedBg: #2f2f2f;
 		--skinNoticeBadgeMenuBg: #242424;
@@ -15685,6 +15690,10 @@
 	
 	.power_list .title_area img {
 		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.FormInputRadio .label:before {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 }
 

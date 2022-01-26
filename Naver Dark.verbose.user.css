@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.41
+@version		1.57.42
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -14129,6 +14129,15 @@
 		--gnbLinkBar: #404040;
 		--gnbLinkArrow: #cacaca;
 		--skinTextb7b7b7: #cacaca;
+		--profileHeadNickName: #fff;
+		--profileHeadLevel: #cacaca;
+		--profileHeadLevelNum: #fff;
+		--profileListTab: #cacaca;
+		--articleBoardBorderTop: #404040;
+		--articleBoardBorderBottom: #404040;
+		--articleBoardTh: #fff;
+		--articleBoardListTitle: #cacaca;
+		--articleBoardText: #cacaca;
 	}
 	
 	body > svg > symbol[id='ico-post-arrow-323232'] > path {
@@ -15694,6 +15703,46 @@
 	
 	.FormInputRadio .label:before {
 		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.m-tcol-c {
+		color: #cacaca;
+	}
+	
+	.list-style .link_sort {
+		color: #cacaca;
+	}
+	
+	:root .check_box label {
+		color: #cacaca;
+	}
+	
+	.alert_message, .message_without_title {
+		color: #cacaca !important;
+	}
+	
+	.like_paginate_area .page_prev, .like_paginate_area .page_prev:disabled, .like_paginate_area .page_next, .like_paginate_area .page_next:disabled {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.like_paginate_area .current_page {
+		color: #fff;
+	}
+	
+	.like_paginate_area .page_num {
+		color: #cacaca;
+	}
+	
+	.article_profile .sort_area .btn_subscript {
+		background-color: #2f2f2f;
+	}
+	
+	.article_profile .sort_area .btn_subscript:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.article_profile .sort_area .btn_subscript {
+		color: #cacaca;
 	}
 }
 

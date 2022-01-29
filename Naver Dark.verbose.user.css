@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.44
+@version		1.57.45
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -36897,6 +36897,25 @@
 	
 	.comp_journal_subscribe .cjs_channel_name {
 		color: #fff;
+	}
+	
+	@media (min-width: 1025px) {
+		.notice_office_desc {
+			background-color: #2f2f2f;
+			border-top-color: #404040;
+		}
+	}
+	
+	.notice_office_desc {
+		color: #cacaca;
+	}
+	
+	.offc_drag_ctrl::before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.offc_empty_alert {
+		border-bottom: 1px solid #404040;
 	}
 }
 
@@ -86395,7 +86414,7 @@
 	
 	
 	html .news_header.as_white_type .Ngnb_logo .Nlogo_link .Nicon_logo {
-		background-position: -361px -490px !important
+		background-position: -340px -490px !important
 	}
 	
 	html .news_header.as_white_type .Ngnb_service .Nicon_family.Nicon_entertain {
@@ -86407,11 +86426,15 @@
 	}
 	
 	html .news_header.as_white_type .Ngnb_service .Nicon_family.Nicon_sports {
-		background-position: -144px -396px !important
+		background-position: -232px -396px !important
 	}
 	
 	html .news_header.as_white_type .Ngnb_service .Nicon_family.Nicon_weather {
 		background-position: -213px -440px !important
+	}
+	
+	html .news_header.as_white_type .Ngnb_service .Nicon_family.Nicon_olympic {
+		background-position: -325px -396px !important
 	}
 	
 	html .news_header.as_white_type .Ngnb_service .Nservice_item .Nicon_service {
@@ -86427,7 +86450,7 @@
 	}
 	
 	html .news_header.as_white_type .Ngnb_tool .Ntool_button .Nicon_search {
-		background-position: -91px -464px !important
+		background-position: -68px -464px !important
 	}
 	
 	html .news_header.as_white_type .u_hssbt_close::after, html .news_header.as_white_type .u_hssbt_close::before, html .pg_num::before, html .press_banner .pb_icon_x::after, html .press_banner .pb_icon_x::before, html .press_newslist_info_cate+.press_newslist_info_date::before {

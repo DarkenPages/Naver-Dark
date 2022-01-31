@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.47
+@version		1.57.48
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -32678,7 +32678,7 @@
 	}
 	
 	.talk_pc_user .group_message_balloon .new_message_balloon_area .notice_item {
-		background: #404040;
+		background: #3a3a3a;
 	}
 	
 	.talk_pc_user .group_message_balloon .new_message_balloon_area .name_item {
@@ -33054,6 +33054,35 @@
 	
 	.talk_pc_partner .group_message_balloon .message_balloon.card_message:after, .talk_pc_partner .group_message_balloon .message_balloon.card_og:after, .talk_pc_user .group_message_balloon .message_balloon.card_message:after, .talk_pc_user .group_message_balloon .message_balloon.card_og:after {
 		filter: invert(77%) hue-rotate(-180deg);
+	}
+	
+	.talk_pc_partner .group_message_balloon .message_balloon.rgt.card_message, .talk_pc_user .group_message_balloon .message_balloon.rgt.card_message {
+		background: rgb(59, 70, 77);
+		border-color: rgb(62, 77, 88);
+	}
+	
+	.talk_pc_partner .group_message_balloon .message_balloon .widgetcard_wrap.common .name_item, .talk_pc_user .group_message_balloon .message_balloon .widgetcard_wrap.common .name_item {
+		color: #fff;
+	}
+	
+	.talk_pc_partner .group_message_balloon .message_balloon .widgetcard_wrap.common .txt_detail_info, .talk_pc_user .group_message_balloon .message_balloon .widgetcard_wrap.common .txt_detail_info {
+		color: #cacaca;
+	}
+	
+	.talk_pc_partner .group_message_balloon .message_balloon.rgt.card_og, .talk_pc_user .group_message_balloon .message_balloon.rgt.card_og {
+		background: #3a3a3a !important;
+	}
+	
+	.talk_pc_partner .group_message_balloon .message_balloon .widgetcard_wrap.type_og .notice_item:before, .talk_pc_user .group_message_balloon .message_balloon .widgetcard_wrap.type_og .notice_item:before {
+		background-color: #fff;
+	}
+	
+	.talk_pc_partner .group_message_balloon .message_balloon .widgetcard_wrap.type_og .txt_item_copy, .talk_pc_user .group_message_balloon .message_balloon .widgetcard_wrap.type_og .txt_item_copy {
+		color: #cacaca;
+	}
+	
+	.talk_pc_partner .group_message_balloon .message_balloon .widgetcard_wrap.type_og .link_url, .talk_pc_user .group_message_balloon .message_balloon .widgetcard_wrap.type_og .link_url {
+		color: #aabcfe;
 	}
 }
 

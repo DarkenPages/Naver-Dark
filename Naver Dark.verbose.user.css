@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.45
+@version		1.57.46
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -79554,6 +79554,332 @@
 	
 	.sp_nsite .link_name:visited, .sp_nsite .link_name:visited mark, .sp_nsite .sublink_wrap .sublink .item a:visited, .sp_nsite .sublink_wrap .sublink .item a:visited mark, .sp_ntotal .total_tit .link_tit:visited, .sp_ntotal .total_tit .link_tit:visited mark, .sp_ntotal .group_item .list_item .item a:visited, .sp_ntotal .group_item .list_item .item a:visited mark, .sp_ndicstudy .word_lst .word:visited, .api_subject_bx .api_title_area .api_title a:visited, .sp_nreview .total_tit:visited, .sp_nreview .total_tit:visited mark, .sp_nnews .news_wrap .news_tit:visited, .sp_nnews .news_wrap .news_tit:visited mark, .sp_ncafe_used .used_wrap .title:visited, .cs_common_module a:visited, .cs_common_module .expand_info .text_wrap a:visited, .cs_common_module .cm_table_area .type_normal .cm_table tbody th a:visited, .cs_sports_team a:visited, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td .nation_name:visited, .cs_olympic_history .olympic_ranking .ranking_table .ranking_list td.top3 p a:visited, .cs_olympic_history .team_area .line li .player_detail dt a:visited, .cs_suneung .sn_tb .knowhow_link:visited, .cs_delivery .rsult_box .lodg span.inque a:visited, .cs_rgb_plt a:visited, .cs_prevention .advice .advice_lst li a:visited, .cs_prevention .help_lk .lk_lst li a:visited, .cs_sports_tpl .flat_box .flat_info a:visited, .cs_pubtrans_wrap .relation_keyword2 dd a:visited, .sp_nkindic .nkindic_area .nkindic_basic .nkindic_tit .lnk_tit:visited, .cs_sportsdb .ly_cal .today a:visited, .cs_common_simple .title_area .title a.area_text_title:visited, .cs_common_simple a:visited, .cs_common_module .info_check_area a.other_info:visited, .sub_pack .sp_company .company_card .card_info .info_tit .tit:visited, .brand_wrap .info_area .tit:visited, .brand_wrap .menu_area .link:visited, .section_more a:visited, .ad_section .lst_type_v2 .lst .ly_map .tit_area .tit .txt:visited, .cs_president_list .info_wrap a:visited, .cs_common_simple .cm_content_wrap.simple_list_type .cm_info_box .scroll_box .list li .title_box .name>a:visited, .cs_common_module .table_wrap table .text a:visited, .cs_same_different .horizon_box_image .list_info a.info_box:visited .title, .sp_influencer .keyword_challenge_wrap .keyword_box_wrap .detail_box .dsc_area .name_link:visited, .sp_influencer .keyword_challenge_wrap .keyword_box_wrap .detail_box .dsc_area .name_link:visited mark {
 		color: #cc90cd;
+	}
+	
+	.cs_textbook_music .textbook_music_box {
+		border: 1px solid #404040;
+	}
+	
+	.cs_textbook_music .contain_list .item .source {
+		color: #fff;
+	}
+	
+	.cs_textbook_music .contain_list .item .item_detail, .cs_textbook_music .play_box .music_info .detail_info {
+		color: #cacaca;
+	}
+	
+	.cs_textbook_music .main_tab {
+		border: 1px solid #404040;
+		border-width: 1px 0;
+		background: #3a3a3a;
+	}
+	
+	.cs_textbook_music .main_tab .list_tab li[role="tab"][aria-selected="true"] a {
+		color: #fff;
+	}
+	
+	.cs_textbook_music .main_tab .list_tab li a {
+		color: #cacaca;
+	}
+	
+	.cs_textbook_music .more_view .more_icon {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_textbook_music .lyrics .item p {
+		color: #cacaca;
+	}
+	
+	.cs_chuseok .main_area {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+		border-top: 0;
+	}
+	
+	.cs_chuseok .main_area .tv_info_sct {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_chuseok .main_area .tb_intro th {
+		color: #cacaca;
+	}
+	
+	.cs_chuseok .main_area .tv_info_sct .movie_info_bx {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_chuseok .main_area .tv_info_sct .desc_bx dl dd {
+		color: #cacaca;
+	}
+	
+	.cs_chuseok .main_area .tv_info_sct .desc_bx dl dd.time, .cs_chuseok .main_area .tv_info_sct h4>em {
+		background: none;
+		position: relative;
+	}
+	
+	.cs_chuseok .main_area .tv_info_sct .desc_bx dl dd.time:before, .cs_chuseok .main_area .tv_info_sct h4>em:before {
+		position: absolute;
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/scui/chuseok_2021/img/ico_bar.gif) 0 3px no-repeat;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_chuseok .main_area .tv_info_sct h4>em {
+		color: #cacaca;
+	}
+	
+	.cs_chuseok .lnk_more .other_lk dt {
+		color: #fff;
+	}
+	
+	.cs_chuseok .main_area .tv_info_sct .more_btn {
+		color: #cacaca;
+	}
+	
+	.cs_chuseok .ms_traffic .traffic_reserve dl dt {
+		color: #fff !important;
+	}
+	
+	.cs_chuseok .ms_call {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_chuseok .ms_call ul li {
+		color: #fff;
+	}
+	
+	.cs_chuseok .main_area .tv_info_sct h4>span, .cs_chuseok .ms_traffic h4, .cs_chuseok .ms_traffic div h5, .cs_chuseok .ms_call h4 {
+		color: #d2ae9b;
+	}
+	
+	.cs_chuseok .item_list .v_tit a {
+		color: #fff;
+	}
+	
+	.cs_chuseok .item_list .upload_time {
+		color: #cacaca;
+	}
+	
+	.cs_chuseok .item_list .upload_time:after {
+		background-color: #404040;
+	}
+	
+	.cs_chuseok .newyear_tab .ny_tb li a {
+		color: #2f2f2f;
+	}
+	
+	.cs_chuseok .newyear_tab .ny_tb li.on a {
+		color: #242424;
+	}
+	
+	.cs_chuseok .lnk_more .btn_more {
+		color: #cacaca;
+	}
+	
+	.cs_chuseok .newyear_tab .ny_tb li .s_tab {
+		border: 1px solid #404040;
+		border-width: 0 1px 1px;
+		background: #2f2f2f;
+	}
+	
+	.cs_chuseok .newyear_tab .ny_tb li .s_tab li a {
+		color: #cacaca;
+	}
+	
+	.cs_chuseok .main_area .table_set_bx .setout dd {
+		color: #cacaca;
+	}
+	
+	.cs_chuseok .main_area .table_set_bx .setout dt {
+		color: #fff;
+	}
+	
+	.cs_chuseok .main_area .table_set_bx .attention dt {
+		color: #fff;
+	}
+	
+	.cs_chuseok .main_area .table_set_bx .attention dd {
+		color: #cacaca;
+	}
+	
+	.cs_chuseok .guide {
+		color: #cacaca;
+	}
+	
+	.cs_chuseok .main_area .prcs_detail dd {
+		color: #cacaca;
+	}
+	
+	.cs_chuseok .main_area .prcs_detail dt {
+		color: #999;
+	}
+	
+	.cs_chuseok .main_area .prcs_detail dd span.inline {
+		color: #cacaca;
+	}
+	
+	.cs_chuseok .main_area .write_local {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_chuseok .main_area .write_local .local_navi a, .cs_chuseok .main_area .write_local .local_navi span {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_chuseok .main_area .write_local ul li img {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_chuseok .main_area .ms_order dl dt {
+		color: #fff !important;
+	}
+	
+	.cs_chuseok .main_area .ms_order dl dd {
+		color: #cacaca;
+	}
+	
+	.cs_chuseok .main_area .ms_order {
+		border-right: 1px solid #404040;
+	}
+	
+	.cs_newyears_movie .tab_sct .nyear_tab li {
+		border: 1px solid #404040;
+		border-width: 1px 1px 1px 0;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_newyears_movie .tab_sct .nyear_tab li[role="tab"][aria-selected="true"] {
+		border: 1px solid #4f4f4f;
+		background-color: #3a3a3a;
+	}
+	
+	.cs_newyears_movie .tab_sct .nyear_tab li[role="tab"][aria-selected="true"] a {
+		color: #fff;
+	}
+	
+	.cs_newyears_movie .tab_sct .nyear_tab li[role="tab"][aria-selected="true"]:first-child {
+		border-left: 1px solid #4f4f4f;
+	}
+	
+	.cs_newyears_movie .tab_subtab {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_newyears_movie .tab_subtab[style] {
+		border-left: 1px solid #404040 !important;
+		border-right: 1px solid #404040 !important;
+	}
+	
+	.cs_newyears_movie .tab_subtab .nyear_sbtab li a {
+		color: #cacaca;
+	}
+	
+	.cs_newyears_movie .tab_sct .nyear_tab li a {
+		color: #cacaca;
+	}
+	
+	.cs_newyears_movie .sct_cont {
+		background-color: #2f2f2f;
+		border-left: 1px solid #404040;
+		border-right: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_newyears_movie .pfmc_con .txt {
+		color: #fff;
+	}
+	
+	.cs_newyears_movie .pfmc_con .txt2 {
+		color: #cacaca;
+	}
+	
+	.cs_newyears_movie .pfmc_con span.bar {
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_newyears_movie .pfmc_con .txt span {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_newyears_movie .noti_area .notice dd {
+		color: #cacaca;
+	}
+	
+	.cs_newyears_movie .noti_area .notice .guide+dt+.other_link {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_newyears_movie .noti_area .notice .other_link {
+		color: #fff;
+	}
+	
+	.cs_newyears_movie .noti_area .notice dt {
+		color: #fff !important;
+	}
+	
+	.cs_newyears_movie .tvpro .tvpro_name {
+		color: #fff;
+	}
+	
+	.cs_newyears_movie .tab_sct .nyear_tab li:first-child {
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_newyears_movie .tvpro .tvpro_cn a {
+		color: #cacaca;
+	}
+	
+	.cs_newyears_movie .tvpro .tvpro_time {
+		color: #cacaca;
+		background: none;
+		position: relative;
+	}
+	
+	.cs_newyears_movie .tvpro .tvpro_time:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/scui/holidaymovie/img/sp_newyear_movie_3.png) no-repeat 0px -150px;
+		background-position: 75px -150px;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_newyears_movie .tvpro ul {
+		background: none;
+		position: relative;
+	}
+	
+	.cs_newyears_movie .tvpro ul:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/scui/holidaymovie/img//bg_repeat.png) 88px 0 repeat-y;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_newyears_movie .tvpro .one_day:before {
+		background-position: 78px 0 !important;
+	}
+	
+	.cs_newyears_movie .pfmc_con .theater .th_info dd {
+		color: #cacaca;
+	}
+	
+	.cs_newyears_movie .pfmc_con .theater .th_info dt {
+		color: #fff !important;
 	}
 }
 

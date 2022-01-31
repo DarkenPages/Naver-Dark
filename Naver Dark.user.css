@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.48
+@version		1.57.49
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -7609,7 +7609,8 @@
     .talk_pc_partner .group_message_balloon .message_balloon.rgt,.talk_pc_user .group_message_balloon .message_balloon.rgt { background: #78b344 }
     .talk_pc_partner .group_message_balloon .message_balloon.rgt.card_message,.talk_pc_user .group_message_balloon .message_balloon.rgt.card_message { border-color: rgb(62, 77, 88);background: rgb(59, 70, 77) }
     .talk_pc_partner .group_message_balloon .message_balloon.rgt.card_og,.talk_pc_user .group_message_balloon .message_balloon.rgt.card_og { background: #3a3a3a !important }
-    .talk_pc_partner .group_message_balloon .message_balloon.type_notice,.talk_pc_user .group_message_balloon .message_balloon.type_notice,.talk_pc_user .chat_info:after,.talk_pc_user .group_message_balloon .new_message_balloon_area .notice_item { background: #3a3a3a }
+    .talk_pc_partner .group_message_balloon .message_balloon.type_notice,.talk_pc_user .group_message_balloon .message_balloon.type_notice,.talk_pc_partner .group_message_balloon .new_message_balloon_area .chat_thumbnail,.talk_pc_user .group_message_balloon .new_message_balloon_area .chat_thumbnail,.talk_pc_user .chat_info:after,.talk_pc_user .group_message_balloon .new_message_balloon_area .notice_item { background: #3a3a3a }
+    .talk_pc_partner .group_message_balloon .new_message_balloon_area .chat_thumbnail img,.talk_pc_user .group_message_balloon .new_message_balloon_area .chat_thumbnail img { right: 0 }
     .talk_pc_partner .group_message_balloon .new_message_balloon_area .thumbnail_profile>a .thumbnail_mask,.talk_pc_user .group_message_balloon .new_message_balloon_area .thumbnail_profile>a .thumbnail_mask,.talk_pc_user .group_message_balloon .message_balloon .balloon_tail { background-image: none }
     .talk_pc_partner .group_message_balloon .new_message_balloon_area .thumbnail_profile>a img,.talk_pc_user .group_message_balloon .new_message_balloon_area .thumbnail_profile>a img { border-radius: 50% }
     .talk_pc_partner .group_message_balloon .new_message_balloon_area .thumbnail_profile>a,.talk_pc_user .group_message_balloon .new_message_balloon_area .thumbnail_profile>a,.talk_pc_user .friend_store_list,.talk_pc_user .friend_store_list>div,.talk_pc_user .layer_friend_info,.talk_pc_user .layer_info_area .wrap_info,.talk_pc_user .section_friends .more_friends_list_area,.talk_pc_user .section_friends.open .friends_border,.talk_pc_user .user_friend_store .user_store_list li,.talk_pc_user .user_friend_store .user_store_list li:nth-child(odd),.talk_pc_user #aside,.talk_pc_user #content,.talk_pc_user #snb { background-color: #2f2f2f }

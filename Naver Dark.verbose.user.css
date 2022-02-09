@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.50
+@version		1.57.51
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -39917,6 +39917,10 @@
 	
 	.sc_themecast .theme_tab .tab_item.type_custom_init:before {
 		background-color: #404040;
+	}
+	
+	#header .birthday_area {
+		color: #fff;
 	}
 }
 

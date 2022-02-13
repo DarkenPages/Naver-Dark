@@ -62,3 +62,9 @@
 <sub><b id="fn1">1</b> 일부 웹페이지는 다크 모드를 지원하고 있지 않습니다. 추후 업데이트 됩니다. <sup>[⏎](#a1)</sup></sub><br>
 <sub><b id="fn2">2</b> 이외에 usercss, userscript 를 적용 가능한 앱이면 모두 호환됩니다. <sup>[⏎](#a2)</sup></sub><br>
 <sub><b id="fn3">3</b> 블로그 글, 카페 게시물 등 세부 사용자화가 용이한 페이지. <sup>[⏎](#a3)</sup></sub><br>
+
+<hr>
+
+[<img width="300px" alt="JetBrains" src="https://i.ibb.co/0mGK8Yp/jetbrains-variant-4-grayscale.png">](https://www.jetbrains.com/?from=Naver-Dark)
+
+This project is supported by **[JetBrain Open Source License Program](https://www.jetbrains.com/community/opensource/#support)**.

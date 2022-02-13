@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.51
+@version		1.57.53
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -15757,6 +15757,28 @@
 	
 	.skin-1080 .article-invite .caution_text .link_detail:after {
 		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.CafeViewer .se-viewer .BaseButton--gray {
+		background: #4f4f4f;
+		color: #cacaca;
+	}
+	
+	.CafeViewer .CafeCustomVote .cafe_vote_view .cafe_vote_btn .BaseButton--gray {
+		color: #cacaca;
+	}
+	
+	.old_se_wrap {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.old_se_wrap .old_se_vote .se_vote .tit, .old_se_wrap .old_se_vote .se_vote .txt {
+		color: #fff;
+	}
+	
+	.old_se_wrap .old_se_vote .se_vote {
+		border-left: 1px solid #404040;
 	}
 }
 
@@ -46785,6 +46807,52 @@
 	
 	.CafeEditor .se-body .se-module-oglink .se-oglink-summary {
 		color: #cacaca;
+	}
+	
+	.ModalLayer .layer_vote_content .vote_title .FlexableTextArea .textarea_input {
+		border: 1px solid #404040;
+	}
+	
+	.ModalLayer .layer_vote_content .vote_input .item {
+		border: 1px solid #404040;
+		background: #242424;
+	}
+	
+	.ModalLayer .layer_vote_content .vote_input .item_add {
+		color: #fff;
+	}
+	
+	.ModalLayer .layer_vote_content .vote_input .item_add .ico-vote-add {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.ModalLayer .layer_vote_content .vote_select {
+		border-top: 1px solid #404040;
+	}
+	
+	.ModalLayer .layer_vote_content .vote_set {
+		border-top: 1px solid #404040;
+	}
+	
+	.ModalLayer .layer_vote_content .vote_input .item.enter .num:before {
+		color: #fff;
+	}
+	
+	.CafeEditor .CafeCustomVote {
+		color: #fff;
+	}
+	
+	.CafeEditor .CafeCustomVote .cafe_vote_wrap {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.CafeEditor .CafeCustomVote .cafe_vote_simple:before {
+		border-right: 1px solid #404040;
+	}
+	
+	.se-body .se-canvas .se-section-custom:after {
+		border: 1px solid #4f4f4f;
 	}
 }
 

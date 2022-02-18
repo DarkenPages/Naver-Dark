@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.56
+@version		1.57.57
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -46861,6 +46861,70 @@
 	
 	.se-body .se-canvas .se-section-custom:after {
 		border: 1px solid #4f4f4f;
+	}
+	
+	.se-body .se-panel-content {
+		background-color: #242424;
+	}
+	
+	.se-body .se-panel-header.se-sidebar-panel-header .se-panel-title {
+		color: #fff;
+	}
+	
+	.se-body .se-panel-header.se-sidebar-panel-header {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.se-body .se-panel-tab .se-tab-button.se-is-selected .se-tab-button-title {
+		color: #fff;
+	}
+	
+	.se-body .se-panel-tab:before {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.se-body .se-panel-tab .se-tab-button.se-is-selected:after {
+		background-color: #fff;
+	}
+	
+	.se-body .se-sidebar-container-search .se-panel-search-input-area {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.se-body .se-panel-tab-next-button:disabled, .se-body .se-panel-tab-prev-button:disabled {
+		border-color: #404040;
+		border-bottom-color: #404040;
+		background-color: #242424;
+	}
+	
+	.se-body .se-panel-tab-next-button, .se-body .se-panel-tab-prev-button {
+		border: 0 solid #404040;
+		border-bottom-width: 1px;
+		background-color: #242424;
+	}
+	
+	.se-body .se-panel-tab-prev-button:before {
+		-webkit-box-shadow: 1px 1px 0 0 #cacaca inset;
+		box-shadow: inset 1px 1px 0 0 #cacaca;
+	}
+	
+	.se-body .se-panel-tab-next-button:before {
+		-webkit-box-shadow: -1px -1px 0 0 #cacaca inset;
+		box-shadow: inset -1px -1px 0 0 #cacaca;
+	}
+	
+	.se-body .se-panel-tab-prev-button:disabled:before {
+		-webkit-box-shadow: 1px 1px 0 0 #888 inset;
+		box-shadow: inset 1px 1px 0 0 #888;
+	}
+	
+	.se-body .se-panel-tab-next-button:disabled:before {
+		-webkit-box-shadow: -1px -1px 0 0 #888 inset;
+		box-shadow: inset -1px -1px 0 0 #888;
+	}
+	
+	div[class*='layer_popup__'][class*='isShow__'] > div[class*='loadingtext_layerpopup__'] > div[class*='wrap_text__'] > span[class*='text__'] {
+		color: #fff;
 	}
 }
 

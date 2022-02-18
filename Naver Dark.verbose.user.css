@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.55
+@version		1.57.56
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -58095,6 +58095,15 @@
 	
 	.ArticleTitle .title_area .title_text.is_blocked {
 		color: #cacaca;
+	}
+	
+	.se-viewer .se-module-file {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.CafeViewer .se-viewer .se-section-file .se-file-name {
+		color: #fff;
 	}
 }
 

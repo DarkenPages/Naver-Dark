@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.57
+@version		1.57.58
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -80218,6 +80218,38 @@
 	}
 	
 	.sp_nshop_correct .correct .api_tab_wrap .item[aria-selected=true] .ico_datalab {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.sp_trend .trend_keyword_list .keyword_item:before {
+		border: 1px solid #404040;
+	}
+	
+	.sp_trend .trend_keyword_list .keyword_item .txt {
+		color: #cacaca;
+	}
+	
+	.sp_trend .trend_keyword_list .api_btn_page.type_tag .btn_next {
+		background: -webkit-gradient(linear,left top,right top,color-stop(15%,rgba(47,47,47,0)),color-stop(46%,#2f2f2f));
+		background: linear-gradient(to right,rgba(47,47,47,0) 15%,#2f2f2f 46%);
+	}
+	
+	.sp_trend .trend_keyword_list .api_btn_page.type_tag .btn_prev {
+		background: -webkit-gradient(linear,right top,left top,color-stop(15%,rgba(47,47,47,0)),color-stop(46%,#2f2f2f));
+		background: linear-gradient(to left,rgba(47,47,47,0) 15%,#2f2f2f 46%);
+	}
+	
+	.sp_trend .keyword_result_list .item_card {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.sp_trend .btn_group .btn_refresh {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.cs_common_module .cm_info_box.scroll_img_only .list>li .thumb img, .cs_common_module .cm_tab_info_box.scroll_img_only .list>li .thumb img {
 		filter: invert(81.5%) hue-rotate(-180deg);
 	}
 }

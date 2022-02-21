@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.58
+@version		1.57.59
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -57286,6 +57286,10 @@
 	
 	#app .Article .ContentRenderer *[style*='background-color'] {
 		background-color: #242424 !important;
+	}
+	
+	#app .Article .ContentRenderer *[style*='background-color: rgb(0, 0, 0)'], #app .Article .ContentRenderer *[style*='background-color:rgb(0, 0, 0)'] {
+		background-color: rgb(0, 0, 0) !important;
 	}
 	
 	#app .Article .ContentRenderer *[style*='background-color: transparent'], #app .Article .ContentRenderer *[style*='background-color:transparent'] {

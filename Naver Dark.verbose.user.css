@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.59
+@version		1.57.60
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -14144,6 +14144,10 @@
 		--articleBoardText: #cacaca;
 		--skinNoticeBadgeRequiredBg: rgb(63, 47, 46);
 		--skinNoticeBadgeColor: rgb(239, 129, 126);
+		--boardArticleListBorderBottom: #404040;
+		--boardArticleListTh: #fff;
+		--boardArticleListTitle: #fff;
+		--boardArticleListText: #cacaca;
 	}
 	
 	body > svg > symbol[id='ico-post-arrow-323232'] > path {
@@ -15787,6 +15791,10 @@
 	
 	.skin-1080 .ia-info-data2 .level_alert .ico_top_arr {
 		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.article_profile .board-number .inner_number {
+		color: #cacaca;
 	}
 }
 

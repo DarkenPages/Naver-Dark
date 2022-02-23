@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.62
+@version		1.57.63
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -80556,6 +80556,14 @@
 	
 	.cs_same_different .basic_scroll_list .scroll_box .inner .desc {
 		color: #fff;
+	}
+	
+	.sp_ntotal .dsc_alert, .sp_ntotal .dsc_alert .link_alert {
+		color: #cacaca;
+	}
+	
+	.sp_ntotal .channel_area .link_channel+.link_channel:before {
+		background-color: #cacaca;
 	}
 }
 

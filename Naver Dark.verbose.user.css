@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.67
+@version		1.57.68
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -57341,7 +57341,7 @@
 		color: #cacaca;
 	}
 	
-	.se-viewer *[style*='background-color']:not([style*='background-color: transparent']):not([style*='background-color:transparent']) {
+	.se-viewer *[style*='background-color']:not([style*='background-color: transparent']):not([style*='background-color:transparent']):not([style*='background-color: rgb(0, 0, 0)']):not([style*='background-color:rgb(0, 0, 0)']) {
 		background-color: #2f2f2f !important;
 	}
 	

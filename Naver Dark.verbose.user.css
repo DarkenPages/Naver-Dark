@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.66
+@version		1.57.67
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -85393,7 +85393,7 @@
 	}
 	
 	html .media_end_head_cmtcount_button::before {
-		background-position: -367px -50px
+		background-position: -369px -92px
 	}
 	
 	html .media_end_head_fontsize_is_on .media_end_head_fontsize_set::after, html .media_end_head_fontsize_setlayer, html .media_end_head_journalist .media_end_head_journalist_layer, html .media_end_head_journalist .media_end_head_journalist_layer::before, html .media_end_head_lang_is_on .media_end_head_lang_set::after, html .media_end_head_lang_setlayer, html .media_end_head_tts_run.is_active::after, html .media_end_head_tts_setlayer, html .n_news_sports .u_likeit_button+.u_likeit_layer::before, html .u_likeit_button+.u_likeit_layer:before {
@@ -85461,7 +85461,7 @@
 	}
 	
 	html .media_end_issuetimeline_go .meig_link::after, html .media_end_linked_more_link::after {
-		background-position: -391px -189px
+		background-position: -403px -189px
 	}
 	
 	html .media_flick .mf_thumb {
@@ -85585,6 +85585,12 @@
 	
 	.pg_num_area.pg_num_area_v2 .pg_num {
 		color: #fff;
+	}
+	
+	.changecmt {
+		background-color: #2f2f2f;
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
 	}
 }
 

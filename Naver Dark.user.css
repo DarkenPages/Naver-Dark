@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.65
+@version		1.57.66
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -8048,7 +8048,7 @@
 @-moz-document url-prefix("https://www.naver.com/my.html") {
     .flex_list .item_flex+.item_flex:before,.list_thumb .dsc_wrap .dsc+.dsc:before,.list_memo .dsc_date:before,.service_header .title_area .title_tab+.title_tab:before,.list_timeline .dsc_time:before,.sc_user .info_area .user_info .link_my:before,.sc_user .info_area .user_info .nplus_wrap:after,.service_header .func_area .func+.func:before { background-color: #404040 }
     .flex_list .title,.flex_list .title:link,.flex_list .title:visited,.list_thumb .dsc_wrap .dsc,.list_thumb .dsc_wrap .dsc:link,.list_thumb .dsc_wrap .dsc:visited,.sc_user .set_area .link_set,.sc_user .set_area .link_set:link,.sc_user .set_area .link_set:visited,.sc_user .tab_area .tab,.sc_user .tab_area .tab:link,.sc_user .tab_area .tab:visited,.service_footer .btn_reset,.service_footer .btn_reset:link,.service_footer .btn_reset:visited,.service_footer .link_service,.service_footer .link_service:link,.service_footer .link_service:visited,.service_footer a.sub_info,.service_footer a.sub_info:link,.service_footer a.sub_info:visited,.service_header .func_area a,.service_header .func_area a:link,.service_header .func_area a:visited,.list_grid .info_box .title,.sc_user .info_area .user_info .link_my,.sc_user .info_area .user_info .new_box,.sc_user .info_area .user_info .new_box a:visited,.service_footer .set_area .btn_set,.service_header .title_area .title_tab.tab_on { color: #cacaca }
-    .flex_list .title:hover,.list_thumb .dsc_wrap .dsc:hover,.list_thumb .item_thumb_inner:hover .notice,.list_thumb .item_thumb_inner:hover .title,.sc_user .set_area .link_set:hover,.sc_user .tab_area .tab:hover,.service_footer .btn_reset:hover,.service_footer .link_service:hover,.service_footer a.sub_info:hover,.service_header .func_area a:hover,.list_thumb .item_thumb_inner .notice,.list_thumb .item_thumb_inner .title,.list_thumb .item_thumb_inner:link .notice,.list_thumb .item_thumb_inner:link .title,.list_thumb .item_thumb_inner:visited .notice,.list_thumb .item_thumb_inner:visited .title,.sc_user .info_area .user_info .link_set { color: #fff }
+    .flex_list .title:hover,.list_thumb .dsc_wrap .dsc:hover,.list_thumb .item_thumb_inner:hover .notice,.list_thumb .item_thumb_inner:hover .title,.sc_user .set_area .link_set:hover,.sc_user .tab_area .tab:hover,.service_footer .btn_reset:hover,.service_footer .link_service:hover,.service_footer a.sub_info:hover,.service_header .func_area a:hover,.list_thumb .item_thumb_inner .notice,.list_thumb .item_thumb_inner .title,.list_thumb .item_thumb_inner:link .notice,.list_thumb .item_thumb_inner:link .title,.list_thumb .item_thumb_inner:visited .notice,.list_thumb .item_thumb_inner:visited .title,.sc_user .info_area .user_info .link_set,.service_footer .sub_area { color: #fff }
     .flex_list,.list_grid .file_box:after,.list_memo .item_memo,.my_cont,.sc_set .list_set .label_set,.service_body .date_area { border: 1px solid #404040 }
     .list_thumb .item_thumb+.item_thumb,.list_timeline .item_timeline+.item_timeline,.service_body .more_area { border-top: 1px solid #404040 }
     .list_thumb .title_wrap .badge_manage,.list_thumb .title_wrap .badge_official { filter: invert(81.5%) hue-rotate(-180deg) }

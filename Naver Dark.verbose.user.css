@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.65
+@version		1.57.66
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -40302,6 +40302,10 @@
 	
 	.sc_user .info_area .user_info .nplus_wrap:after {
 		background-color: #404040;
+	}
+	
+	.service_footer .sub_area {
+		color: #fff;
 	}
 }
 

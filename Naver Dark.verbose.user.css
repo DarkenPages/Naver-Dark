@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.68
+@version		1.57.69
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -61062,6 +61062,38 @@
 	
 	.gnb_area .btn_location:before {
 		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.card_today .weather_area .weather_now .current {
+		color: #fff;
+	}
+	
+	.card_today .weather_area .weather_now .summary {
+		color: #fff;
+	}
+	
+	.card_today .weather_area .weather_quick_area .weather_table dl dd {
+		color: #fff;
+	}
+	
+	.card_today .weather_area .weather_quick_area .weather_table dl dt {
+		color: #cacaca;
+	}
+	
+	.card_today .weather_area .weather_quick_area .weather_table .term {
+		color: #fff;
+	}
+	
+	.card_today .weather_area .weather_quick_area .weather_table .term:after {
+		background-color: #fff;
+	}
+	
+	.card_today .weather_area .weather_quick_area .tab_list .tab_link {
+		background-color: #404040;
+	}
+	
+	.card_today .weather_area .weather_quick_area .tab_list .tab_link.on {
+		background-color: #cacaca;
 	}
 }
 

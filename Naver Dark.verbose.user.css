@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.69
+@version		1.57.70
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -18837,6 +18837,10 @@
 	.sort_area .tab_item a {
 		color: #cacaca;
 	}
+	
+	.content_list .related .info .count, .content_list .related .info .data {
+		color: #999;
+	}
 }
 
 @-moz-document url-prefix("https://terms.naver.com/print.nhn")
@@ -19161,6 +19165,14 @@
 	
 	.se_oglink .se_og_tit {
 		color: #fff;
+	}
+	
+	.section_wrap .btn_play .sound_dsc {
+		color: #cacaca;
+	}
+	
+	.content_list .related .info .count, .content_list .related .info .data, .tlist_list_item .dsc {
+		color: #999;
 	}
 }
 

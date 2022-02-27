@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.69
+@version		1.57.70
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -7715,6 +7715,7 @@
     .cont_util_area .font_area .btn.big,.cont_util_area .font_area .btn.sm,.cont_util_area .util_list li a.btn_add:after,.ly_auto .func a+a:before,.recent_list_wrap .btn_area .btn_item { border-left: 1px solid #404040 }
     .cont_util_area .font_area .ly_font_list a:hover,.layer_content .list_add ul li label:hover { background-color: #2f2f2f }
     .cont_util_area .font_area .ly_font_list,.ly_category,.main_list_item,.search_box { border: 1px solid #404040;background: #242424 }
+    .content_list .related .info .count,.content_list .related .info .data { color: #999 }
     .contents_list a,.section_area .text a { color: #559bfa }
     .gnb_area { border-bottom: 1px solid #404040;border-bottom: 1px solid #007131 }
     .gnb_notice_li a.gnb_notice .gnb_icon,.gnb_service_li a.gnb_service .gnb_icon,.mail_li a.gnb_mail .gnb_icon { filter: invert(0%) !important }
@@ -7767,9 +7768,10 @@
 }
 @-moz-document url-prefix("https://terms.naver.com/list.nhn"), url-prefix("https://terms.naver.com/tag"), url-prefix("https://terms.naver.com/entry") {
     .chart_age .list_vertical_bar .vertical_bar { border: 1px solid #404040;background: #404040 }
-    .cont_util_area .font_area a,.cont_util_area .util_list li a,.content_list .photo_more,.image_area .state,.na_reference dt,.section_wrap,.section_list .info_area dd.desc,a.gnb_my .gnb_name,.summary_area,.t_txt,.wide_end .cont_area .detail_area .breakable-block,.wide_end .cont_area .detail_area .tmp_profile_tb td,.wide_end .section_area .section_head .link_more,.wide_end .section_area .section_cont .title_area .desc,.wide_end .section_area .slider_list.story .desc_area .site,.wide_main .section_spot_area .section_head .txt_btn,.wide_main .theme_section .cont_title { color: #cacaca }
+    .cont_util_area .font_area a,.cont_util_area .util_list li a,.content_list .photo_more,.image_area .state,.na_reference dt,.section_wrap,.section_list .info_area dd.desc,a.gnb_my .gnb_name,.section_wrap .btn_play .sound_dsc,.summary_area,.t_txt,.wide_end .cont_area .detail_area .breakable-block,.wide_end .cont_area .detail_area .tmp_profile_tb td,.wide_end .section_area .section_head .link_more,.wide_end .section_area .section_cont .title_area .desc,.wide_end .section_area .slider_list.story .desc_area .site,.wide_main .section_spot_area .section_head .txt_btn,.wide_main .theme_section .cont_title { color: #cacaca }
     .content_head .h_title,.section_list .info_area dt a,.se_oglink .se_og_tit,.se_theme_default .se_documentTitle,.se_theme_default .se_sectionTitle .se_fs_H1,.se_theme_default .se_sectionTitle .se_fs_H2,.se_theme_default .se_sectionTitle .se_fs_H3,.u_helpdict_module .u_definition .u_mean_word,.wide_end .section_area .section_head .h_title,.wide_end .section_area .slider_list.story .desc_area .cont,.wide_end .spi_area .layer_area .title,.wide_main .section_head .h_title { color: #fff }
     .content_list .photo_more,.image_area,.image_area .state { border: 1px solid #404040;background: #242424 }
+    .content_list .related .info .count,.content_list .related .info .data,.tlist_list_item .dsc { color: #999 }
     .naml_area .t_lv_tit { border-bottom: 1px solid #404040;background: none }
     .se_oglink .se_og_box:after,.se_oglink .se_og_box:before,.se_oglink .se_viewArea:after,.se_oglink .se_viewArea:before,.sort_area .btn_area .cont_view,.wide_end .section_area .slider_list.story .desc_area { border: 1px solid #404040 }
     .se_theme_default .se_oglink .se_og_wrap,.se_theme_default .se_subjectMatter .se_viewArea { background: none }

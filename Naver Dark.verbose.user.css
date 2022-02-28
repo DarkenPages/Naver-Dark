@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.76
+@version		1.57.77
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -80914,6 +80914,208 @@
 	
 	.cs_voting_rate .info_wrap .relation_link dt {
 		color: #fff !important;
+	}
+	
+	.cs_common_module .rel_normal_wrap:before {
+		background-color: #404040;
+	}
+	
+	.cs_common_module .rel_answer_list .area_subtitle {
+		color: #fff;
+	}
+	
+	.cs_common_module .rel_answer_card .sub_info .text {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .rel_answer_card .sub_info .text+.text:before {
+		background-color: #404040;
+	}
+	
+	.cs_common_module .rel_normal_wrap .rel_answer_card>.cm_table_area .type_normal:before {
+		background-color: #404040;
+	}
+	
+	.cs_common_module .cm_table_area .type_normal .cm_table tbody th {
+		color: #cacaca;
+		border-color: #404040;
+	}
+	
+	.cs_common_module .cm_table tbody tr:last-child td, .cs_common_module .cm_table tbody tr:last-child th {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	.cs_common_module .cm_table .type_bg5 {
+		background-color: #3a3a3a !important;
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	.cs_common_module .cm_table tbody tr:first-child th, .cs_common_module .cm_table tbody tr:first-child td {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	.cs_common_module .middle_title .title {
+		color: #fff;
+	}
+	
+	.cs_common_module .cm_tap_area .type_scroll .tab_list .tab[aria-selected="true"] .menu, .cs_common_module .cm_tap_area .type_scroll .tab_list .tab.state_focus .menu {
+		border-bottom: 1px solid #fff;
+	}
+	
+	.cs_common_module .cm_tap_area .type_scroll .tab_list .tab[aria-selected="true"] a, .cs_common_module .cm_tap_area .type_scroll .tab_list .tab.state_focus a {
+		color: #fff;
+	}
+	
+	.cs_common_module .cm_tap_area .type_scroll .tab_list .tab[aria-selected="true"] .menu:after, .cs_common_module .cm_tap_area .type_scroll .tab_list .tab.state_focus .menu:after {
+		background: #fff;
+	}
+	
+	.cs_common_module .cm_table .color_desc {
+		color: #cacaca !important;
+	}
+	
+	.cs_common_module .cm_tap_area .type_img_scroll .list_info>.tab_list .tab[aria-selected="true"] a {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_common_module .cm_tap_area .type_img_scroll .list_info>.tab_list>.tab a .text {
+		color: #fff;
+	}
+	
+	.cs_common_module .panel_ly_wrap .panel_box:only-child {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.cs_common_module .panel_ly_wrap .title_box {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_common_module .compare_info .search_wrap .search_box {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_common_module .compare_info .search_wrap .serch_input {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .compare_info .search_wrap .auto_complete .list .item .info .text_wrap .text {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .compare_info .search_wrap .auto_complete .list .item .info .text_wrap .text .match, .cs_common_module .compare_info .search_wrap .auto_complete .list .item .info .text_wrap .text .point {
+		color: #6680b9;
+	}
+	
+	.cs_common_module .compare_info .search_wrap .auto_complete {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_common_module .panel_ly_wrap .panel_box .close_btn>a:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_common_module .compare_info .target_wrap .list>.item .lego_api_select_area .select_item .select_txt {
+		color: #fff;
+	}
+	
+	.cs_common_module .compare_info .graph_wrap {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_common_module .compare_info .graph_wrap .list .info dt {
+		color: #fff;
+	}
+	
+	.cs_common_module .compare_info .graph_wrap .list .info dd .text {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .compare_info .graph_wrap .list .info dd .bar {
+		background-color: #404040;
+	}
+	
+	.cs_common_module .compare_info .graph_wrap .list .info dd .bar:before {
+		border: 1px solid #404040;
+	}
+	
+	.cs_common_module .compare_info .rel_normal_wrap:before {
+		background-color: #404040;
+	}
+	
+	.cs_rank_chart .info_box .notice_link .this_box_info {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .cm_table tbody td .btn_badge {
+		border: 1px solid #404040;
+	}
+	
+	.cs_common_module .cm_table tbody td a.btn_badge {
+		color: #fff;
+	}
+	
+	.cs_common_module .lego_rating_sales .area_subtitle {
+		color: #fff;
+	}
+	
+	.cs_rank_chart .top_info_box .title_box .title {
+		color: #fff;
+	}
+	
+	.cs_rank_chart .top_info_box .scroll_box .list .area_card {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_rank_chart .top_info_box .scroll_box .list .area_card:before {
+		border: 1px solid #404040;
+	}
+	
+	.cs_rank_chart .top_info_box .scroll_box .list .title_box .name {
+		color: #fff;
+	}
+	
+	.cs_rank_chart .top_info_box .bg_gra_prev {
+		background: -webkit-gradient(linear, right top, left top, from(rgba(47,47,47,0)), to(#2f2f2f));
+		background: linear-gradient(to left, rgba(47,47,47,0), #2f2f2f);
+	}
+	
+	.cs_rank_chart .top_info_box .bg_gra_next {
+		background: -webkit-gradient(linear, left top, right top, from(rgba(47,47,47,0)), to(#2f2f2f));
+		background: linear-gradient(to right, rgba(47,47,47,0), #2f2f2f);
+	}
+	
+	.cs_rank_chart .top_info_box .scroll_box .list .title_box .sub_text {
+		color: #cacaca;
+	}
+	
+	.cs_rank_chart .top_info_box .scroll_box .list>li[aria-selected="true"] .area_card:before {
+		border-color: #6c85ba;
+	}
+	
+	.cs_rank_chart .top_info_box .scroll_box .list>li[aria-selected="true"] .title_box .name {
+		color: #6c85ba;
+	}
+	
+	.cs_common_module .bb-axis path {
+		stroke: #404040;
+	}
+	
+	.cs_common_module .lego_rating_sales .graph_wrap .graph_area {
+		background-image: none;
+		position: relative;
+	}
+	
+	.cs_common_module .lego_rating_sales .graph_wrap .graph_area:before {
+		background-image: url(https://ssl.pstatic.net/sstatic/keypage/outside/scui/cs_common_module/img/bg_graph_27.png);
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
 	}
 }
 

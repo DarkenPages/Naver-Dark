@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.73
+@version		1.57.74
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -4972,22 +4972,22 @@
     html .gnb_flat .gf_close,html .n_news_entertain .Ntool_button .Nicon_search,html .related_book .rb_btn_next::after,html .related_book .rb_btn_prev::after { filter: invert(100%);-webkit-filter: invert(100%) }
     html .media_end_categorize_ct,html .n_news .gnb_flat .gf_inner,html .n_news_mnews .gnb_flat .gf_inner,html .tomain_info_layer { border-color: rgba(255, 255, 255, 0.05) }
     html .media_end_categorize_item { background-color: rgba(91, 134, 253, 0.1) }
-    html .media_end_categorize_link::before { background-position: -367px -249px }
+    html .media_end_categorize_link::before { background-position: -382px -190px }
     html .media_end_channel_banner_add.is_disabled,html .media_journalistcard_item .subscribe.on .subscribe_ico,html .media_journalistcard_recommend .subscribe.on .subscribe_ico,html .media_journalistcard_recommend_channel_add.is_disabled { color: #a5a5a7;border-color: #595959;background: transparent }
     html .media_end_channel_banner_link { border-color: #535353;background-color: #434344 }
     html .media_end_factcheck_ct { border-top-color: var(--color_line_lv2) }
     html .media_end_factcheck_inner { border-color: #39393b;background: var(--color_layer_background_lv3) }
     html .media_end_factcheck_owner_photo { background-position: -47px -320px }
-    html .media_end_head_autosummary .media_end_head_autosummary_button::before { background-position: -329px -190px }
+    html .media_end_head_autosummary .media_end_head_autosummary_button::before { background-position: -322px -190px }
     html .media_end_head_autosummary .media_end_head_autosummary_layer_head_tit::before { background-position: -84px -292px }
     html .media_end_head_autosummary .media_end_head_autosummary_layer_head::after { border-color: var(--color_line_lv2) }
     html .media_end_head_channel_layer_link::after,html .media_end_head_journalist .media_end_head_journalist_box::after,html .media_end_head_journalist .media_end_head_journalist_layer_name::after,html .media_end_head_top_channel_layer_link::after,html .ofhd_float_subscribe_layer_link::after { background-position: -357px -178px }
     html .media_end_head_channel_layer,html .media_end_head_top_channel_layer,html .n_news_sports .u_likeit_button+.u_likeit_layer,html .office_headline .ofhe_info_layer,html .ofhd_float_subscribe_layer,html .u_likeit_button+.u_likeit_layer { box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16);border-color: rgba(255, 255, 255, 0.03);-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16) }
-    html .media_end_head_cmtcount_button::before { background-position: -369px -92px }
+    html .media_end_head_cmtcount_button::before { background-position: -360px 0px }
     html .media_end_head_fontsize_is_on .media_end_head_fontsize_set::after,html .media_end_head_fontsize_setlayer,html .media_end_head_journalist .media_end_head_journalist_layer,html .media_end_head_journalist .media_end_head_journalist_layer::before,html .media_end_head_lang_is_on .media_end_head_lang_set::after,html .media_end_head_lang_setlayer,html .media_end_head_tts_run.is_active::after,html .media_end_head_tts_setlayer,html .n_news_sports .u_likeit_button+.u_likeit_layer::before,html .u_likeit_button+.u_likeit_layer:before { border-color: rgba(255, 255, 255, 0.03) }
     html .media_end_head_fontsize_option1,html .media_end_head_fontsize_option2,html .media_end_head_fontsize_option3,html .media_end_head_fontsize_option4,html .media_end_head_fontsize_option5 { border: solid 1px #58585a;background-color: #545458 }
     html .media_end_head_fontsize_option1.media_end_head_fontsize_option_is_on,html .media_end_head_fontsize_option2.media_end_head_fontsize_option_is_on,html .media_end_head_fontsize_option3.media_end_head_fontsize_option_is_on,html .media_end_head_fontsize_option4.media_end_head_fontsize_option_is_on,html .media_end_head_fontsize_option5.media_end_head_fontsize_option_is_on { border: solid 1px rgba(0, 0, 0, 0.03);background-color: #4978f4 }
-    html .media_end_head_fontsize_set::before { background-position: -329px -246px }
+    html .media_end_head_fontsize_set::before { background-position: -322px -246px }
     html .media_end_head_fontsize_setlayer_select::before { background-color: #303038 }
     html .media_end_head_info_origin_inner { border-color: #595959 }
     html .media_end_head_journalist .media_end_head_journalist_layer_thumb { background: #262628 }
@@ -4996,8 +4996,8 @@
     html .media_end_head_lang_set::before { background-position: -252px -292px }
     html .media_end_head_lang_setlayer_select .media_end_head_lang_option_text { color: var(--color_sub_info);border: solid 1px #58585a;background-color: #545458 }
     html .media_end_head_print .media_end_print_link::before { background-position: -73px -390px }
-    html .media_end_head_share .send_caption { background-position: -56px -324px }
-    html .media_end_head_tts_run::before { background-position: -112px -324px }
+    html .media_end_head_share .send_caption { background-position: -56px -302px }
+    html .media_end_head_tts_run::before { background-position: -112px -302px }
     html .media_end_head_tts_setlayer .media_end_head_tts_option::before { background-position: -367px -311px }
     html .media_end_issuetimeline_go .meig_link::after,html .media_end_linked_more_link::after { background-position: -403px -189px }
     html .media_flick .mf_thumb { background: url("https://ssl.pstatic.net/static.news/image/news/m/noimage/dark/noimage_288x176_dark.png");background-size: 144px }

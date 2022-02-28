@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.73
+@version		1.57.74
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -85436,7 +85436,7 @@
 	}
 	
 	html .media_end_categorize_link::before {
-		background-position: -367px -249px
+		background-position: -382px -190px
 	}
 	
 	html .media_end_channel_banner_add.is_disabled, html .media_journalistcard_item .subscribe.on .subscribe_ico, html .media_journalistcard_recommend .subscribe.on .subscribe_ico, html .media_journalistcard_recommend_channel_add.is_disabled {
@@ -85464,7 +85464,7 @@
 	}
 	
 	html .media_end_head_autosummary .media_end_head_autosummary_button::before {
-		background-position: -329px -190px
+		background-position: -322px -190px
 	}
 	
 	html .media_end_head_autosummary .media_end_head_autosummary_layer_head_tit::before {
@@ -85486,7 +85486,7 @@
 	}
 	
 	html .media_end_head_cmtcount_button::before {
-		background-position: -369px -92px
+		background-position: -360px 0px
 	}
 	
 	html .media_end_head_fontsize_is_on .media_end_head_fontsize_set::after, html .media_end_head_fontsize_setlayer, html .media_end_head_journalist .media_end_head_journalist_layer, html .media_end_head_journalist .media_end_head_journalist_layer::before, html .media_end_head_lang_is_on .media_end_head_lang_set::after, html .media_end_head_lang_setlayer, html .media_end_head_tts_run.is_active::after, html .media_end_head_tts_setlayer, html .n_news_sports .u_likeit_button+.u_likeit_layer::before, html .u_likeit_button+.u_likeit_layer:before {
@@ -85504,7 +85504,7 @@
 	}
 	
 	html .media_end_head_fontsize_set::before {
-		background-position: -329px -246px
+		background-position: -322px -246px
 	}
 	
 	html .media_end_head_fontsize_setlayer_select::before {
@@ -85542,11 +85542,11 @@
 	}
 	
 	html .media_end_head_share .send_caption {
-		background-position: -56px -324px
+		background-position: -56px -302px
 	}
 	
 	html .media_end_head_tts_run::before {
-		background-position: -112px -324px
+		background-position: -112px -302px
 	}
 	
 	html .media_end_head_tts_setlayer .media_end_head_tts_option::before {

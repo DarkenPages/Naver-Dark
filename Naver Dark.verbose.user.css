@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.77
+@version		1.57.78
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -63986,22 +63986,22 @@
 	}
 	
 	/* Tab */
-	#place-app-root #place-main-section-root .sc_new[class*='sc_new ']>div[class]>div:first-child>div:last-child>ul[role=tablist]>li[aria-selected=true]>a>span {
+	#place-app-root #place-main-section-root .sc_new.cs_election[class*='sc_new ']>div[class]>div:first-child>div:last-child>ul[role=tablist]>li[aria-selected=true]>a>span {
 		color: #5d6de9;
 	}
 	
-	#place-app-root #place-main-section-root .sc_new[class*='sc_new ']>div[class]>div:first-child>div:first-child>div:first-child>div>strong {
+	#place-app-root #place-main-section-root .sc_new.cs_election[class*='sc_new ']>div[class]>div:first-child>div:first-child>div:first-child>div>strong {
 		filter: invert(81.5%) hue-rotate(-180deg);
 	}
 	
-	#place-app-root #place-main-section-root .sc_new[class*='sc_new '] {
+	#place-app-root #place-main-section-root .sc_new.cs_election[class*='sc_new '] {
 		border: 1px solid #404040;
 		border-top: 0;
 		border-radius: 8px;
 		background: none;
 	}
 	
-	#place-app-root #place-main-section-root .sc_new[class*='sc_new ']:before {
+	#place-app-root #place-main-section-root .sc_new.cs_election[class*='sc_new ']:before {
 		position: absolute;
 		content: '';
 		left: 0;

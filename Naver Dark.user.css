@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.78
+@version		1.57.79
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -4939,6 +4939,9 @@
 }
 @-moz-document url-prefix("https://n.news.naver.com") {
     .changecmt { border-top: 1px solid #404040;border-bottom: 1px solid #404040;background-color: #2f2f2f }
+    .election_banner_imgtext { filter: invert(81.5%) hue-rotate(-180deg) }
+    .election_banner_link { position: relative;background: none }
+    .election_banner_link:before { width: 100%;top: 0;position: absolute;pointer-events: none;left: 0;height: 100%;filter: invert(86%) hue-rotate(-180deg);content: '';background: url("https://ssl.pstatic.net/static.news/image/news/m/2021/12/20/bg_election_banner.png") no-repeat 100% 0;background-size: contain }
     .light_type,html .light_type { display: none !important }
     .pg_num_area.pg_num_area_v2 .pg_num { color: #fff }
     @media (min-width: 1025px) {

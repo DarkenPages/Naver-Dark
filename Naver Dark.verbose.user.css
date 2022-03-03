@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.79
+@version		1.57.80
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -15795,6 +15795,29 @@
 	
 	.article_profile .board-number .inner_number {
 		color: #cacaca;
+	}
+	
+	.layer {
+		border: 2px solid #404040;
+	}
+	
+	#cafeJoinNoticeLayer .layer_in .tit img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.layer .cont_area .desc .inner {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.layer .btn_type_wh {
+		background-color: #2f2f2f;
+		color: #cacaca;
+		border: 1px solid #404040;
+	}
+	
+	.layer .btn_lyr_clse img {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 }
 

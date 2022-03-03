@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.80
+@version		1.57.82
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -64017,14 +64017,15 @@
 		filter: invert(81.5%) hue-rotate(-180deg);
 	}
 	
-	#place-app-root #place-main-section-root .sc_new.cs_election[class*='sc_new '] {
+	/* randomized class for a while */
+	#place-app-root #place-main-section-root .sc_new.cs_election[class*='sc_new '], .Sy6No {
 		border: 1px solid #404040;
 		border-top: 0;
 		border-radius: 8px;
 		background: none;
 	}
 	
-	#place-app-root #place-main-section-root .sc_new.cs_election[class*='sc_new ']:before {
+	#place-app-root #place-main-section-root .sc_new.cs_election[class*='sc_new ']:before, .Sy6No:before {
 		position: absolute;
 		content: '';
 		left: 0;
@@ -64036,6 +64037,18 @@
 		background: #eff3fb url("https://ssl.pstatic.net/sstatic/keypage/outside/scui/president_election_2022/img/banner_bg_v4.png") right 0 no-repeat;
 		background-size: 525px 200px;
 		border-radius: 5px;
+	}
+	
+	.Sy6No > div:first-child > div:first-child > div:first-child > div:first-child > div:first-child > strong {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.Sy6No > div:first-child > div:first-child > div:last-child > ul > li a span {
+		color: #c2c3d4;
+	}
+	
+	.Sy6No > div:first-child > div:first-child > div:last-child > ul > li[aria-selected=true] a span {
+		color: #abb3e9;
 	}
 	
 	:root #place-app-root:not(.place_on_pcmap):not(.place_on_nmap) {

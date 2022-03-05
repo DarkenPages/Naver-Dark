@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.82
+@version		1.57.83
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -65527,10 +65527,6 @@
 		color: #727bda;
 	}
 	
-	.cs_election .turnout_area {
-		border-bottom: 1px solid #404040;
-	}
-	
 	.cs_election .turnout_info .graph_area .graph_doughnut svg path[fill="#030d78"] {
 		fill: #727bda;
 		stroke: #727bda;
@@ -81152,6 +81148,157 @@
 		height: 100%;
 		pointer-events: none;
 		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_election .turnout_info .rate_per .number_area, .cs_election .turnout_info .rate_per .per_area {
+		color: #a5ade7;
+	}
+	
+	.cs_election .turnout_info .graph_area .rate_count ul li .count_num {
+		color: #fff;
+	}
+	
+	.cs_election .turnout_info .graph_area .rate_count ul li .count_name {
+		color: #cacaca;
+	}
+	
+	.cs_election .turnout_graph_area .graph_index ul li {
+		color: #cacaca;
+	}
+	
+	.cs_election .turnout_area .turnout_graph_area .title_step {
+		color: #fff;
+	}
+	
+	.cs_election .turnout_info {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_election .turnout_graph_area .graph_index ul li.dot1:before {
+		background: #a5ade7;
+	}
+	
+	.cs_election .turnout_graph_box .graph_list li.now .tlt_time {
+		color: #a5ade7;
+	}
+	
+	.cs_election .turnout_graph_box .graph_list .ico_rate_dot.v1 .num {
+		color: #a5ade7;
+		text-shadow: 0 1px 0 #2f2f2f, 0 -1px 0 #2f2f2f, 1px 0 0 #2f2f2f, -1px 0 0 #2f2f2f;
+	}
+	
+	.cs_election .turnout_graph_box .graph_list li.now .ico_rate_dot.v1 .rate_num {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_election .turnout_graph_box .graph_list li .tlt_time, .cs_election .turnout_graph_box .text_time {
+		color: #cacaca;
+	}
+	
+	.cs_election .turnout_graph_area .graph_table thead th {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_election .turnout_graph_area .graph_table thead {
+		background-color: #3a3a3a;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_election .turnout_graph_area .graph_table tbody td {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_election .turnout_graph_area .graph_table tbody .current th, .cs_election .turnout_graph_area .graph_table tbody .current td {
+		color: #a5ade7;
+	}
+	
+	.cs_election .turnout_graph_area .graph_table.v2 td:first-of-type ~ td, .cs_election .turnout_graph_area .graph_table.v2 th:first-of-type ~ th {
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_election .turnout_graph_area .graph_table td {
+		color: #cacaca;
+	}
+	
+	.cs_election .turnout_graph_area .graph_table.v2 {
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_election .turnout_graph_area .graph_table tbody th {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_election .turnout_graph_area .graph_table td.on {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_election .turnout_area.local .graph_view {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_election .turnout_area.local .graph_view li .num .num_data2 {
+		color: #cacaca;
+	}
+	
+	.cs_election .turnout_area.local .graph_view li .num_standard {
+		color: #cacaca;
+	}
+	
+	.cs_election .turnout_area.local .graph_view li::after {
+		background: #a5ade7;
+	}
+	
+	.cs_election .turnout_area.local .average_rate .avergae_rate_info:after {
+		border-top: 1px dashed #4f4f4f;
+	}
+	
+	.cs_election .turnout_area.local .graph_y_text span {
+		color: #cacaca;
+	}
+	
+	.cs_election .turnout_area.local .graph_y_text span:nth-of-type(2):after {
+		background-color: #404040;
+	}
+	
+	.cs_election .turnout_area.local .bar_graph_area:before {
+		background: #a5ade7;
+	}
+	
+	.cs_election .turnout_area.local .graph_view li.highlight .num .num_data2 {
+		color: rgb(165, 176, 249);
+	}
+	
+	.cs_election .turnout_area.local .graph_view li.highlight .graph_detail .bar_data {
+		background-color: rgb(165, 176, 249);
+	}
+	
+	.cs_election .turnout_area.local .graph_view li .graph_detail .bar_data {
+		background: #8994e6;
+	}
+	
+	.cs_election .turnout_area.local .graph_view li.highlight .balloon {
+		background-color: rgb(165, 176, 249);
+		color: #2f2f2f;
+	}
+	
+	.cs_election .turnout_area.local .graph_view li.highlight .balloon:after {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_election .turnout_area.local .graph_view li .graph_detail .bar_data .bar_mask {
+		background: none;
+		background: rgb(0, 0, 0, 0.3);
+	}
+	
+	.cs_election .view_link.v2 a {
+		color: #cacaca;
+	}
+	
+	.cs_election .view_link.v2 {
+		background: #3a3a3a;
+		border-top: 1px solid #404040;
 	}
 }
 

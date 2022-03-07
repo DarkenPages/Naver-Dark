@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.85
+@version		1.57.86
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -14988,9 +14988,14 @@
 		color: #cacaca;
 	}
 	
-	#main-area select, #main-area textarea, #main-area .list-search input {
+	#main-area select, #main-area textarea {
 		background-color: #242424;
 		border: 1px solid #404040 !important;
+		color: #cacaca;
+	}
+	
+	#main-area .list-search input {
+		background-color: #242424;
 		color: #cacaca;
 	}
 	

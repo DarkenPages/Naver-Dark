@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.58.2
+@version		1.58.3
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -2065,7 +2065,7 @@
     #app .Article .ContentRenderer *[style*='background '],#app .Article .ContentRenderer *[style*='background:'],#post-area .post-view td[style*='background:']:not([style*='background: none']):not([style*='background:none']),#post-area .post-view td[style*='BACKGROUND:']:not([style*='BACKGROUND: NONE']):not([style*='BACKGROUND:NONE']) { background: #242424 !important }
     #app .Article .ContentRenderer *[style*='background-color: rgb(0, 0, 0)'],#app .Article .ContentRenderer *[style*='background-color:rgb(0, 0, 0)'] { background-color: rgb(0, 0, 0) !important }
     #app .Article .ContentRenderer *[style*='background-color: transparent'],#app .Article .ContentRenderer *[style*='background-color:transparent'] { background-color: transparent !important }
-    #app .Article .ContentRenderer *[style*='background-color']:not([style*='background-color: transparent']),#app .Article .ContentRenderer *[style*='background-color']:not([style*='background-color:transparent']) { background-color: #242424 !important }
+    #app .Article .ContentRenderer *[style*='background-color']:not([style*='background-color: transparent']):not([style*='background-color:transparent']) { background-color: #242424 !important }
     #app .Article .ContentRenderer *[style*='background: transparent'],#app .Article .ContentRenderer *[style*='background:transparent'] { background: transparent !important }
     #app .Article .ContentRenderer *[style*='border-bottom-color'] { border-bottom-color: #404040 !important }
     #app .Article .ContentRenderer *[style*='border-color'] { border-color: #404040 !important }

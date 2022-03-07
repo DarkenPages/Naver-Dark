@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.84
+@version		1.57.85
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -4342,9 +4342,9 @@
 }
 @-moz-document url-prefix("https://mail.naver.com") {
     .bill_list .logo,.icon_tip,.view_sign img,.ly_tooltip_green.arr_center_bottom:after,.ly_tooltip_green.arr_right_bottom:after,.mailListHead .tip_receipt_box .icon,.subtitle .stat_load,a.btn_print .spr { filter: invert(86%) hue-rotate(-180deg) }
-    .block_list .block_list_cover,.cleanup_mail_new .cleanup_list_body,.edit_reply_cover,.missed_msg textarea,.mail_ext_wrap,.setup_layer .modifyName td input,.upld_box,#nav_snb.show_faq_banner .faq_cover { border: 1px solid #404040 }
+    .block_list .block_list_cover,.cleanup_mail_new .cleanup_list_body,.edit_reply_cover,.missed_msg textarea,.ly_banner_smart_mail .btn_guide,.mail_ext_wrap,.setup_layer .modifyName td input,.upld_box,#nav_snb.show_faq_banner .faq_cover { border: 1px solid #404040 }
     .block_list .block_list_head { border: 1px solid #404040;background-color: #3a3a3a }
-    .block_list .block_list_head .file_name,.block_list .block_list_head .reason,.box_notice input,.box_notice label,.classify_fn .btn_txt,.form_ul1 .form_content .desc,.help_mailbox .bullet,.help_mailbox p,.search_cont .result,.cleanup_check label,.cleanup_mail_new .cleanup_list_body li,.cleanup_mail_new .cleanup_list_new .cleanup_list_head li,.description,.setup_content .chk_all label,.slct_mailbox .chk_all label,.dh_layer .btn_autoindex,.dh_layer .p7,.dh_layer .noti_text,.dh_layer .p1,.dh_layer .ps1 button.button_s,.dh_layer .pText,.dh_layer .receipt_tip li,.dh_layer .type_b .p2,.dh_layer .type_c .smart_mbox_ok .info2,.dh_layer .under_chkbox,.faq_exam_list li a,.form_content .manage_sign p.desc,.form_ul1 .form_content .desc2,.info_mailbox td.box_btn button,.lst_info li,.ly_tooltip .tip_extmail dd,.ly_tooltip .tip_extmail dt,.mailWriteItem #AttachInfoNoti,.manage_sign button.posr,.noImgs a.normal_text,.spam_reason dd,.smart_mail_cover .intro_smart_mail .text,.smart_mail_cover .set_smart_mail .btn_setting .text,.type_alert .about_link,.type_alert .desc,.upload_status .status table,.upload_status .status td,.upload_status .status th,#footer .quick_link a,#footer .quick_tools a,#footer address,.mailList ul.mInfo li,.mailListHead .noReadDel,.notify_area .notice a,#footer .quick_tools a,#footer .quick_tools em,#nav_snb.show_faq_banner .faq_cover a,.info_wrap .tip a,.mailListHead .back_home,.note_message p,.subtitle span.desc,.tt_list li,div.cv_task_btn button,div.divWrite .mailWriteItem .utx_btn .utx_inrbtn,div.viewTitle .date_cover .remind_date,div.viewTitle .date_cover .send_date,table.mailWriteItem .indicator { color: #cacaca }
+    .block_list .block_list_head .file_name,.block_list .block_list_head .reason,.box_notice input,.box_notice label,.classify_fn .btn_txt,.form_ul1 .form_content .desc,.help_mailbox .bullet,.help_mailbox p,.search_cont .result,.cleanup_check label,.cleanup_mail_new .cleanup_list_body li,.cleanup_mail_new .cleanup_list_new .cleanup_list_head li,.description,.setup_content .chk_all label,.slct_mailbox .chk_all label,.dh_layer .btn_autoindex,.dh_layer .p7,.dh_layer .noti_text,.dh_layer .p1,.dh_layer .ps1 button.button_s,.dh_layer .pText,.dh_layer .receipt_tip li,.dh_layer .type_b .p2,.dh_layer .type_c .smart_mbox_ok .info2,.dh_layer .under_chkbox,.faq_exam_list li a,.form_content .manage_sign p.desc,.form_ul1 .form_content .desc2,.info_mailbox td.box_btn button,.lst_info li,.ly_banner_smart_mail .banner_description,.ly_banner_smart_mail .checkbox_cover input[type=checkbox]+label,.ly_tooltip .tip_extmail dd,.ly_tooltip .tip_extmail dt,.mailWriteItem #AttachInfoNoti,.manage_sign button.posr,.noImgs a.normal_text,.spam_reason dd,.smart_mail_cover .intro_smart_mail .text,.smart_mail_cover .set_smart_mail .btn_setting .text,.type_alert .about_link,.type_alert .desc,.upload_status .status table,.upload_status .status td,.upload_status .status th,#footer .quick_link a,#footer .quick_tools a,#footer address,.mailList ul.mInfo li,.mailListHead .noReadDel,.notify_area .notice a,#footer .quick_tools a,#footer .quick_tools em,#nav_snb.show_faq_banner .faq_cover a,.info_wrap .tip a,.mailListHead .back_home,.note_message p,.subtitle span.desc,.tt_list li,div.cv_task_btn button,div.divWrite .mailWriteItem .utx_btn .utx_inrbtn,div.viewTitle .date_cover .remind_date,div.viewTitle .date_cover .send_date,table.mailWriteItem .indicator { color: #cacaca }
     .block_list .block_list_head .reason { border-left: 1px solid #404040 }
     .box_ext_reg table .slct_type span.type_daum label { width: 45px;position: relative;background: none }
     .box_ext_reg table .slct_type span.type_daum label:after { width: 45px;top: 2px;position: absolute;height: 19px;content: '';background: url(https://upload.wikimedia.org/wikipedia/commons/4/44/Daum_communication_logo.svg), none;background-size: 45px 19px;background-position: 0 0 }
@@ -4359,7 +4359,7 @@
     .box_listup h5 { position: relative;color: #fff;background: none }
     .box_listup h5:before { width: 100%;top: 0;position: absolute;pointer-events: none;left: 0;height: 100%;filter: invert(81.5%) hue-rotate(-180deg);content: '';background-repeat: no-repeat;background-position: -11px -1985px;background-image: url(https://ssl.pstatic.net/static/pwe/nm/ico_mail1_160510.png) }
     .box_listup ul { border: 1px solid #404040;background: #2f2f2f }
-    .clean_oldmail .oldmail_mbox .tit,.clean_oldmail h5,.cv_card .viewTitle .name a,.dh_layer .info1,.dh_layer .info3,.form_ul1 .form_content .desc2 a,.help_mailbox a,.link,.ly_tooltip .ly_header .h_tit,.mail_ext tbody a,.mail_ext tbody th,.progress_bar .tit,.searchLayer a,.setup_layer .modifyName th,.tb_ext_list table tbody td a,.tt_list li strong,.type_alert h4,.uploader5 .attach_type,.uploader5 .down_period,.uploader5 .file_name,.uploader5 .file_select,.uploader5 .file_size,.uploader5 .status,#u_skip.u_skip + .wrap .header .nav a { color: #fff }
+    .clean_oldmail .oldmail_mbox .tit,.clean_oldmail h5,.cv_card .viewTitle .name a,.dh_layer .info1,.dh_layer .info3,.form_ul1 .form_content .desc2 a,.help_mailbox a,.link,.ly_banner_smart_mail .banner_title,.ly_tooltip .ly_header .h_tit,.mail_ext tbody a,.mail_ext tbody th,.progress_bar .tit,.searchLayer a,.setup_layer .modifyName th,.tb_ext_list table tbody td a,.tt_list li strong,.type_alert h4,.uploader5 .attach_type,.uploader5 .down_period,.uploader5 .file_name,.uploader5 .file_select,.uploader5 .file_size,.uploader5 .status,#u_skip.u_skip + .wrap .header .nav a { color: #fff }
     .clean_oldmail .oldmail_period,.cleanup_tab,.cont_flex_setup,.cv_task_btn,.dh_layer .tab_receipt,.dh_layer.add_address .address_scrl_area,.lst_info,.ly_tooltip .ly_header,.mail_ext,.mail_ext tbody td,.shortcut_layer h3,.tb_ext_list table tbody td,.upld_box .upload_status p.progress_bar { border-bottom: 1px solid #404040 }
     .cleanup_list_body li,.cleanup_mail_new .cleanup_list_head { border: 1px solid #404040;border-bottom: 0 }
     .cleanup_mail_new .cleanup_list_new,.has_scrl,.upld_file_list,head,html { background: #242424 }
@@ -4380,6 +4380,9 @@
     .gnb_list_box .mail a,.gnb_list_box .mail a { background-position: -198px -140px }
     .gnb_notice_li a.gnb_notice .gnb_icon,.gnb_service_li a.gnb_service .gnb_icon,.mail_li a.gnb_mail .gnb_icon { filter: invert(0%) !important }
     .link:visited { color: #7474e3 }
+    .ly_banner_smart_mail { background-color: #2f2f2f }
+    .ly_banner_smart_mail .banner_sub_description:after,.ly_banner_smart_mail .btn_close:before,.type_alert .about_link .bu_right,#u_skip.u_skip + .wrap .header h1.logo a.logo_link img { filter: invert(81.5%) hue-rotate(-180deg) }
+    .ly_banner_smart_mail .btn_use { color: #2f2f2f }
     .ly_tooltip_green { background-color: #019341 }
     .ly_tooltip_green .msg,.toTop a { color: #000 !important }
     .ly_tooltip_green.ly_tooltip_smart_mail .btn_close { filter: brightness(0) }
@@ -4393,7 +4396,6 @@
     .smart_mail_cover .intro_smart_mail .btn_smart_mail { border-color: #404040 }
     .smart_mail_cover .tab_smart_mail li a { color: #cacaca;border-bottom: 2px solid #404040 }
     .tb_ext_list table td,.tb_ext_list table th { color: #cacaca;border-top: 1px solid #404040 }
-    .type_alert .about_link .bu_right,#u_skip.u_skip + .wrap .header h1.logo a.logo_link img { filter: invert(81.5%) hue-rotate(-180deg) }
     .type_alert .btn_area button { color: #fff;border: 1px solid #404040 }
     .type_alert .btn_area button.b { background-color: #3a3a3a }
     .type_alert .layer_content { border-color: #404040;background: #2f2f2f }

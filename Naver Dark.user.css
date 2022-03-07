@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.86
+@version		1.58.0
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -3713,6 +3713,13 @@
     html .premiumhome_subscribe_area .subscribe_content_no_data::before { background-position: -258px -328px }
     html .premiumhome_subscribe_area .u_likeit_list_module .u_likeit_list_btn .u_ico { background-position: -367px -382px }
     html #cbox_module .u_cbox_cleanbot_content::before { filter: invert(100%) hue-rotate(-180deg);background-position: -203px -122px !important }
+}
+@-moz-document url-prefix("https://cr.naver.com/redirect-notification"), url-prefix("http://cr.naver.com/redirect-notification") {
+    * { font-family: 'Helvetica', 'serif' }
+    a { color: #688cda }
+    a:visited { color: #cc90cd }
+    body { font-family: 'Helvetica', 'serif';color: #cacaca;background: #242424 }
+    h1,h2,h3,h4,h5,h6 { color: #fff }
 }
 @-moz-document url-prefix("https://datalab.naver.com") {
     .bb-axis-x .tick tspan:nth-child(1) { fill: #fff }

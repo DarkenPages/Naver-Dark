@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.57.86
+@version		1.58.0
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -98953,5 +98953,30 @@
 	
 	.CafeHistory .history_wrap .list .go_to {
 		color: #859cc3;
+	}
+}
+
+@-moz-document url-prefix("https://cr.naver.com/redirect-notification"), url-prefix("http://cr.naver.com/redirect-notification")
+{
+	body {
+		background: #242424;
+		color: #cacaca;
+		font-family: 'Helvetica', 'serif';
+	}
+	
+	* {
+		font-family: 'Helvetica', 'serif';
+	}
+	
+	h1, h2, h3, h4, h5, h6 {
+		color: #fff;
+	}
+	
+	a {
+		color: #688cda;
+	}
+	
+	a:visited {
+		color: #cc90cd;
 	}
 }

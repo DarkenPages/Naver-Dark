@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.59.2
+@version		1.59.3
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -81389,6 +81389,66 @@
 		background-color: #2f2f2f;
 		color: #cacaca;
 		border: 1px solid #404040;
+	}
+	
+	.cs_election .turnout_area.local_top .graph_title {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_election .turnout_area.local_top .local_top_info .info_list .list_item {
+		background-color: #3a3a3a;
+	}
+	
+	.cs_election .turnout_area.local_top .local_top_info .info_list .list_item .count_box {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_election .turnout_area.local_top .local_top_info .info_list .list_item .graph_box .title_info .title_txt, .cs_election .turnout_area.local_top .local_top_info .info_list .list_item .graph_box .title_info .rate_info, .cs_election .voterturnout_map .map_box_wrap .local_info .turnout_number, .cs_election .turnout_tab_area ul li[aria-expanded="true"] a {
+		color: #727bda;
+	}
+	
+	.cs_election .turnout_area.local_top .local_top_info .info_list .list_item .count_box .count_num {
+		color: #fff;
+	}
+	
+	.cs_election .turnout_area.local_top .local_top_info .info_list .list_item .count_box .count_title {
+		color: #cacaca;
+	}
+	
+	.cs_election .select_tab .select_local .local_link {
+		color: #cacaca;
+	}
+	
+	.cs_election .local_filter_area .filter_option .filter_wrap, .cs_election .local_filter_area .filter_option {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_election .local_filter_area {
+		border: 1px solid #404040;
+	}
+	
+	.cs_election .local_filter_area .filter_option .filter_wrap .list_item .item .item_link {
+		color: #fff;
+	}
+	
+	.cs_election .voterturnout_map .map_box_wrap .local_info {
+		background-color: #3a3a3a;
+	}
+	
+	.cs_election .voterturnout_map .map_box_wrap .local_info .local_name {
+		color: #fff;
+	}
+	
+	.cs_election .turnout_tab_area ul li[aria-expanded="true"] {
+		background-color: #404040;
+	}
+	
+	.cs_election .turnout_tab_area ul li a {
+		color: #cacaca;
+	}
+	
+	.cs_election .voterturnout_map .map_box_wrap .local_info.high .turnout_number, .cs_election .voterturnout_map .map_box_wrap .local_info.low .turnout_number {
+		color: #b779ff;
 	}
 }
 

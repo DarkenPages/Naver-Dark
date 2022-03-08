@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.59.3
+@version		1.59.4
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -81432,7 +81432,7 @@
 	}
 	
 	.cs_election .voterturnout_map .map_box_wrap .local_info {
-		background-color: #3a3a3a;
+		background-color: rgba(58, 58, 58, 0.95);
 	}
 	
 	.cs_election .voterturnout_map .map_box_wrap .local_info .local_name {
@@ -81449,6 +81449,10 @@
 	
 	.cs_election .voterturnout_map .map_box_wrap .local_info.high .turnout_number, .cs_election .voterturnout_map .map_box_wrap .local_info.low .turnout_number {
 		color: #b779ff;
+	}
+	
+	.cs_election .voterturnout_map .map_box_wrap .map_box {
+		filter: invert(81.5%) hue-rotate(-180deg);
 	}
 }
 

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.58.6
+@version		1.59.0
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -99022,5 +99022,324 @@
 	
 	a:visited {
 		color: #cc90cd;
+	}
+}
+
+@-moz-document url-prefix("https://news.naver.com/election/president")
+{
+	body {
+		background: rgb(41, 44, 49) !important;
+	}
+	
+	.header_inner::before, .header .title_election .link, .header .title_news .logo_naver, .header .title_news .logo_news, .Nlnb_menu_list .Nlist_item.-home .Nitem_link_menu::before, .Nlnb_menu_list .Nlist_item.-news .Nitem_link_menu::before, .Nlnb_menu_list .Nlist_item.-survey .Nitem_link_menu::before, .Nlnb_menu_list .Nlist_item.-debate .Nitem_link_menu::before, .Nlnb_menu_list .Nlist_item.-guide .Nitem_link_menu::before, .home_content.-headline .title_text::before, .article_item .r_cmt::before, .news_content_pick .title_text::before, .news_article_item .r_cmt::before, .news_article_item .thumbnail::before, .survey_title_area .title_text::before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.Nlnb {
+		background: transparent !important;
+	}
+	
+	.content_main_title .link_more::after {
+		border: 1px solid #cacaca;
+		border-width: 1px 1px 0 0;
+	}
+	
+	.content_main_title .title_text {
+		color: #fff;
+	}
+	
+	.info_layer {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.info_layer .description {
+		color: #cacaca;
+	}
+	
+	.article_item .article_title, .article_item .sub_info, .article_row_list .title {
+		color: #cacaca;
+	}
+	
+	.article_item .article_title:visited, .article_row_list .link:visited .title {
+		color: #c4c4c4;
+	}
+	
+	@media (min-width: 1080px) {
+		.article_headline+.article_headline {
+			border-left: 1px solid #404040;
+		}
+		
+		.scroll_button_area::after {
+			background-image: -webkit-gradient(linear,left top,right top,from(rgba(47,47,47,0)),to(#2f2f2f));
+			background-image: -webkit-linear-gradient(left,rgba(47,47,47,0),#2f2f2f);
+			background-image: linear-gradient(to right,rgba(47,47,47,0),#2f2f2f);
+		}
+		
+		.scroll_button_area::before {
+			background-image: -webkit-gradient(linear,right top,left top,from(rgba(47,47,47,0)),to(#2f2f2f));
+			background-image: -webkit-linear-gradient(right,rgba(47,47,47,0),#2f2f2f);
+			background-image: linear-gradient(to left,rgba(47,47,47,0),#2f2f2f);
+		}
+		
+		.-election_result .home_component_area {
+			border-top: 1px solid #4f4f4f;
+		}
+		
+		.election_result_list .item+.item {
+			border-left: 1px solid #4f4f4f;
+		}
+		
+		.news_content, .news_article_section {
+			background-color: #2f2f2f;
+		}
+		
+		.-press .survey_content::before {
+			background-color: #404040;
+		}
+		
+		.-press .survey_content::after {
+			background-color: #404040;
+		}
+		
+		.survey_content .news_article_item {
+			border-bottom: 1px solid #404040;
+		}
+	}
+	
+	.article_list {
+		border-top: none !important;
+	}
+	
+	.home_content {
+		background-color: #2f2f2f;
+	}
+	
+	.factcheck_news {
+		border-color: #404040;
+	}
+	
+	.factcheck_news .factcheck_news_info .info_topic, .factcheck_news .factcheck_news_link:visited .info_topic {
+		color: #fff;
+	}
+	
+	.factcheck_news .factcheck_news_info .info_source {
+		color: #cacaca;
+	}
+	
+	.factcheck_news .factcheck_news_info {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.factcheck_news .factcheck_news_link .title, .factcheck_news .factcheck_news_link:visited .title {
+		color: #fff;
+	}
+	
+	.factcheck_news .sub_info_source {
+		color: #cacaca;
+	}
+	
+	.factcheck_news .sub_info_press .link {
+		color: #fff;
+	}
+	
+	.factcheck_news .sub_info_press .link::after {
+		border: 1px solid #fff;
+		border-width: 1px 1px 0 0;
+	}
+	
+	.guide_flick .guide_content_box {
+		background-color: #2f2f2f;
+	}
+	
+	.guide_flick .title_area {
+		border: 1px solid #4f4f4f;
+		border-top: 0;
+	}
+	
+	.guide_flick .thumbnail::after {
+		border: 1px solid #4f4f4f;
+	}
+	
+	.guide_flick .title, .guide_flick .link:visited .title {
+		color: #fff;
+	}
+	
+	.election_schedule_list .schedule_box {
+		background-color: #2f2f2f;
+		color: #fff;
+	}
+	
+	.election_schedule_list .schedule_box::after {
+		background-color: #2f2f2f;
+	}
+	
+	.election_result_list .order {
+		color: #fff;
+	}
+	
+	.election_result_list .sub_info {
+		color: #cacaca;
+	}
+	
+	.election_result_list .candidate_wrap:first-child .name {
+		color: #fff;
+	}
+	
+	.election_result_list .candidate_wrap:last-child .result_vote {
+		background-color: #676a71;
+	}
+	
+	.election_result_list .candidate_wrap:first-child .party {
+		color: #cacaca;
+	}
+	
+	.election_result_list .candidate_wrap:last-child .name {
+		color: #cacaca;
+	}
+	
+	.ft_elec {
+		color: #cacaca;
+	}
+	
+	.ft_elec .logo_kbs {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.u_ftlkw .u_ftlk {
+		color: #fff;
+	}
+	
+	.u_cra:visited, .u_cra:active, .u_cra, .cr_rulea, .u_copyright, .u_cra_v1:visited, .u_cra_v1:active, .u_cri, .u_cra_v1 {
+		color: #cacaca;
+	}
+	
+	.news_article_item .link_article_title:visited {
+		color: #fff;
+	}
+	
+	.news_article_item .link_article_title {
+		color: #fff;
+	}
+	
+	.news_article_item .sub_info {
+		color: #cacaca;
+	}
+	
+	.news_article_item::before {
+		background-color: #4f4f4f;
+	}
+	
+	.news_article_item .r_cmt {
+		color: #cacaca;
+	}
+	
+	.news_article_item .thumbnail {
+		background-color: #404040;
+	}
+	
+	.button_press_select_layer {
+		color: #fff;
+	}
+	
+	.button_press_select_layer::after {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.press_select_layer_wrap .item {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.press_select_layer_wrap {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.press_select_layer_wrap .link_press {
+		color: #cacaca;
+	}
+	
+	.press_select_layer_wrap::before, .press_select_layer_wrap::after {
+		background-color: #404040;
+	}
+	
+	.article_card_item .article_area {
+		background-color: #2f2f2f;
+	}
+	
+	.link_press_info .press, .press_info .press {
+		color: #fff;
+	}
+	
+	.article_card_item .link_article_title, .article_card_item .time, .article_card_item .r_cmt {
+		color: #cacaca;
+	}
+	
+	.article_card_item .link_article_title:visited {
+		color: #c4c4c4;
+	}
+	
+	.-press .survey_content {
+		background-color: #2f2f2f;
+	}
+	
+	.debate_article_content .article_card_item .article_title_wrap {
+		color: #cacaca;
+	}
+	
+	.debate_article_content .article_card_item .article_content:visited .article_title_wrap {
+		color: #c4c4c4;
+	}
+	
+	.article_card_item .thumbnail {
+		background-color: #404040;
+	}
+	
+	.election_guide_wrap {
+		background-color: rgb(57, 57, 60);
+	}
+	
+	@media (min-width: 1080px) {
+		.election_guide_wrap .content_title {
+			border-bottom: 1px solid #404040;
+		}
+		
+		.election_guide_wrap .content_area::before {
+			background-color: #404040;
+		}
+		
+		.number_section_grid::before {
+			background-color: #404040;
+		}
+		
+		.number_section_area>.number_section:first-child img:last-child {
+			display: none;
+		}
+	}
+	
+	.election_number_content .title, .election_qna_content .title {
+		filter: invert(86%) hue-rotate(-180deg) brightness(1000%);
+	}
+	
+	.number_section {
+		border-color: #404040;
+	}
+	
+	.election_guide_wrap img {
+		display: none;
+	}
+	
+	.election_guide_wrap img.dark_type {
+		display: initial !important;
+	}
+	
+	.election_qna_list .answer {
+		border: 1px solid #404040;
+		border-top: 0;
+		color: #cacaca;
+	}
+	
+	.various_sides_wrap .section_title::after {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 }

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.58.6
+@version		1.59.0
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -5326,6 +5326,43 @@
     #post-area .commentbox_header .commentbox_pagination .num strong,#post-area .post-btn .postre .u_likeit_list_module .u_likeit_list_btn.on,#post-area .u_cbox .u_cbox_ico_editor .u_cbox_txt_editor,#post-area .u_cbox .u_cbox_mine .u_cbox_name_area,#post-area .u_cbox .u_cbox_paginate strong.u_cbox_page .u_cbox_num_page,#post-area .u_cbox .u_cbox_recomm_set .u_cbox_btn_recomm_on .u_cbox_cnt_recomm,#post-area .u_cbox .u_cbox_recomm_set .u_cbox_btn_recomm_on .u_cbox_ico_recomm:before { color: #fff !important }
     #post-area .commentbox_header,#post-area .u_cbox { background: #242424 !important }
     #post-area .u_cbox .u_cbox_btn_upload,#post-area .u_cbox .u_cbox_upload,#post-area .u_cbox .u_cbox_write .u_cbox_write_inner { border-color: #404040 }
+}
+@-moz-document url-prefix("https://news.naver.com/election/president") {
+    .-press .survey_content,.article_card_item .article_area,.election_schedule_list .schedule_box::after,.guide_flick .guide_content_box,.home_content { background-color: #2f2f2f }
+    .article_card_item .link_article_title,.article_card_item .r_cmt,.article_card_item .time,.article_item .article_title,.article_item .sub_info,.article_row_list .title,.cr_rulea,.u_copyright,.u_cra,.u_cra:active,.u_cra:visited,.u_cra_v1,.u_cra_v1:active,.u_cra_v1:visited,.u_cri,.debate_article_content .article_card_item .article_title_wrap,.election_result_list .candidate_wrap:first-child .party,.election_result_list .candidate_wrap:last-child .name,.election_result_list .sub_info,.factcheck_news .factcheck_news_info .info_source,.factcheck_news .sub_info_source,.ft_elec,.info_layer .description,.news_article_item .r_cmt,.news_article_item .sub_info,.press_select_layer_wrap .link_press { color: #cacaca }
+    .article_card_item .link_article_title:visited,.article_item .article_title:visited,.article_row_list .link:visited .title,.debate_article_content .article_card_item .article_content:visited .article_title_wrap { color: #c4c4c4 }
+    .article_card_item .thumbnail,.news_article_item .thumbnail,.press_select_layer_wrap::after,.press_select_layer_wrap::before { background-color: #404040 }
+    .article_list { border-top: none !important }
+    .button_press_select_layer,.content_main_title .title_text,.election_result_list .candidate_wrap:first-child .name,.election_result_list .order,.factcheck_news .factcheck_news_info .info_topic,.factcheck_news .factcheck_news_link:visited .info_topic,.factcheck_news .factcheck_news_link .title,.factcheck_news .factcheck_news_link:visited .title,.factcheck_news .sub_info_press .link,.guide_flick .link:visited .title,.guide_flick .title,.link_press_info .press,.press_info .press,.news_article_item .link_article_title,.news_article_item .link_article_title:visited,.u_ftlkw .u_ftlk { color: #fff }
+    .button_press_select_layer::after,.ft_elec .logo_kbs,.Nlnb_menu_list .Nlist_item.-debate .Nitem_link_menu::before,.Nlnb_menu_list .Nlist_item.-guide .Nitem_link_menu::before,.Nlnb_menu_list .Nlist_item.-home .Nitem_link_menu::before,.Nlnb_menu_list .Nlist_item.-news .Nitem_link_menu::before,.Nlnb_menu_list .Nlist_item.-survey .Nitem_link_menu::before,.article_item .r_cmt::before,.header .title_election .link,.header .title_news .logo_naver,.header .title_news .logo_news,.header_inner::before,.home_content.-headline .title_text::before,.news_article_item .r_cmt::before,.news_article_item .thumbnail::before,.news_content_pick .title_text::before,.survey_title_area .title_text::before,.various_sides_wrap .section_title::after { filter: invert(86%) hue-rotate(-180deg) }
+    .content_main_title .link_more::after { border: 1px solid #cacaca;border-width: 1px 1px 0 0 }
+    .election_guide_wrap { background-color: rgb(57, 57, 60) }
+    .election_guide_wrap img { display: none }
+    .election_guide_wrap img.dark_type { display: initial !important }
+    .election_number_content .title,.election_qna_content .title { filter: invert(86%) hue-rotate(-180deg) brightness(1000%) }
+    .election_qna_list .answer { color: #cacaca;border: 1px solid #404040;border-top: 0 }
+    .election_result_list .candidate_wrap:last-child .result_vote { background-color: #676a71 }
+    .election_schedule_list .schedule_box { color: #fff;background-color: #2f2f2f }
+    .factcheck_news .factcheck_news_info,.press_select_layer_wrap .item { border-bottom: 1px solid #404040 }
+    .factcheck_news .sub_info_press .link::after { border: 1px solid #fff;border-width: 1px 1px 0 0 }
+    .factcheck_news,.number_section { border-color: #404040 }
+    .guide_flick .thumbnail::after { border: 1px solid #4f4f4f }
+    .guide_flick .title_area { border: 1px solid #4f4f4f;border-top: 0 }
+    .info_layer,.press_select_layer_wrap { border: 1px solid #404040;background-color: #2f2f2f }
+    .news_article_item::before { background-color: #4f4f4f }
+    .Nlnb { background: transparent !important }
+    @media (min-width: 1080px) {
+        .-election_result .home_component_area { border-top: 1px solid #4f4f4f }
+        .-press .survey_content::after,.-press .survey_content::before,.election_guide_wrap .content_area::before,.number_section_grid::before { background-color: #404040 }
+        .article_headline+.article_headline { border-left: 1px solid #404040 }
+        .election_guide_wrap .content_title,.survey_content .news_article_item { border-bottom: 1px solid #404040 }
+        .election_result_list .item+.item { border-left: 1px solid #4f4f4f }
+        .news_article_section,.news_content { background-color: #2f2f2f }
+        .number_section_area>.number_section:first-child img:last-child { display: none }
+        .scroll_button_area::after { background-image: linear-gradient(to right,rgba(47,47,47,0),#2f2f2f);background-image: -webkit-linear-gradient(left,rgba(47,47,47,0),#2f2f2f);background-image: -webkit-gradient(linear,left top,right top,from(rgba(47,47,47,0)),to(#2f2f2f)) }
+        .scroll_button_area::before { background-image: linear-gradient(to left,rgba(47,47,47,0),#2f2f2f);background-image: -webkit-linear-gradient(right,rgba(47,47,47,0),#2f2f2f);background-image: -webkit-gradient(linear,right top,left top,from(rgba(47,47,47,0)),to(#2f2f2f)) }
+    }
+    body { background: rgb(41, 44, 49) !important }
 }
 @-moz-document url-prefix("https://news.naver.com/main/election") {
     .candi_body h4,.candi_box .candi_precinct_info,.candi_sns_info .sub_time,.candi_lst_wrap table.candi_lst .status_resign .candi_name span,.candi_stats .candi_etc_lst li,.candi_stats .candi_stats_result p,.cont_box .btn_cont_more,.cont_box h3 a,.elect_candi_list .candi_party,.election_schedule li,.factcheck .factcheck_news_press,.factcheck .factcheck_news_txt,.ft_info p,.gnb_lnk,.grid_cont .candi_party,.grid_head .head_state,.history_result .history_info dd,.home_headline .headline_info,.press_cont .tmp .c,.section .keyword_txt,.status_board .select_district .layer_district li button,.survey_lst .legend_lst li,.total_party_info,.total_party_list .party_item_body .party_seat_detail dt,.turnout_data .data_info .noti,.turnout_data .data_type1,.turnout_data .data_type2 tbody td,.turnout_data .data_type2 tbody th,.turnout_graph .legend_lst li,.vote_count .vote_state_body .status_info .info_text,.vote_rate_area .guide_info .guide_text,.vote_rate_area .party_detail_layer .party,.vote_state .info_text,a.link_comment { color: #cacaca }

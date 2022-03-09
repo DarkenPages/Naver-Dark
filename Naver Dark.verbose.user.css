@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.59.10
+@version		1.59.11
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -81546,6 +81546,123 @@
 	
 	.cs_election .broadcasting_area .exit_poll_info p em {
 		color: rgb(167, 179, 243);
+	}
+	
+	.cs_election .sub_tab_area {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_election .sub_tab_area .type_main .tab_list .tab > a, .cs_election .sub_tab_area .type_main .tab_list .tab > span {
+		color: #cacaca;
+	}
+	
+	.cs_election .sub_tab_area .type_main .tab_list .tab[aria-selected="true"] > a, .cs_election .sub_tab_area .type_main .tab_list .tab[aria-selected="true"] > span {
+		background-color: #6b76c7;
+	}
+	
+	.cs_election .sub_tab_area .btn_scroll_v2 {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_election .sub_tab_area .btn_scroll_v2.left:before {
+		background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 47, 47, 0)), to(#2f2f2f));
+		background-image: -webkit-linear-gradient(left, rgba(47, 47, 47, 0), #2f2f2f);
+		background-image: linear-gradient(to right, rgba(47, 47, 47, 0), #2f2f2f);
+	}
+	
+	.cs_election .sub_tab_area .btn_scroll_v2.right:before {
+		background-image: -webkit-gradient(linear, right top, left top, from(rgba(47, 47, 47, 0)), to(#2f2f2f));
+		background-image: -webkit-linear-gradient(right, rgba(47, 47, 47, 0), #2f2f2f);
+		background-image: linear-gradient(to left, rgba(47, 47, 47, 0), #2f2f2f);
+	}
+	
+	.cs_election .turnout_info .final_vote_rate {
+		color: #fff;
+	}
+	
+	.cs_election .top_ranker .gap_area .vs {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_election .top_ranker .gap_area .gap {
+		color: #fff;
+	}
+	
+	.cs_election .top_ranker {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_election .ballot_tally_area .count_list li .item_info .party .party_txt {
+		color: #cacaca;
+	}
+	
+	.cs_election .top_ranker .count_list .candidate_info .order_txt .num, .cs_election .ballot_tally_area .count_list li .item_info .name .order_txt .num, .cs_election .ballot_tally_area .count_list.reporting .candidate_info .rate_count, .cs_election .ballot_tally_area .count_list.reporting .candidate_info .rate_count .score {
+		color: #6b76c7;
+	}
+	
+	.cs_election .top_ranker .count_list .candidate_info .order_txt {
+		color: #cacaca;
+	}
+	
+	.cs_election .top_ranker .gap_area, .cs_election .ballot_tally_area .rate_bar.v2 {
+		background-color: #4f4f4f;
+	}
+	
+	.cs_election .ballot_tally_area .count_list li .item_info .name .order_txt {
+		color: #cacaca;
+	}
+	
+	.cs_election .icon_rank {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_election .ballot_tally_area .count_list.reporting .candidate_info .number_area .candidate_bar {
+		background-color: #6b76c7;
+	}
+	
+	.cs_election .sct_map_rate .rate_map .candidate_index, .cs_election .sct_map_rate .rate_map, .cs_election .sct_map_rate .rate_map.v2, .cs_election .sct_map_rate .rate_map.v2 .candidate_index, .cs_election .sct_map_rate .rate_map.v2 .candidate_index.selected {
+		background-color: rgb(36, 41, 45);
+	}
+	
+	.cs_election .sct_map_rate .map_area svg {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_election .sct_map_rate .rate_map .area_candidate {
+		background-color: rgba(47, 47, 47, 0.8);
+	}
+	
+	.cs_election .sct_map_rate .rate_map .area_candidate .condidate_name {
+		color: #cacaca;
+	}
+	
+	.cs_election .sct_map_rate .rate_map .area_candidate li:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_election .sct_map_rate .map_area .label_container .label:after {
+		border-left: 9px solid #404040;
+	}
+	
+	.cs_election .sct_map_rate .map_area .label_container .label.v2:after {
+		border-right: 9px solid #404040;
+	}
+	
+	.cs_election .sct_map_rate .map_area .label_container .label, .cs_election .sct_map_rate .rate_map.v2 .btn_all {
+		color: #fff;
+		background-color: #404040;
+	}
+	
+	.cs_election .btn_select ._text {
+		color: #fff;
+	}
+	
+	.cs_election .btn_select ._text em {
+		color: #6b76c7;
+	}
+	
+	.cs_election .list_select ._list_root.v2 {
+		border-right: 1px solid #404040;
 	}
 }
 

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.59.7
+@version		1.59.8
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -81490,6 +81490,38 @@
 	
 	.cs_vaccine_info .graph .grid div:last-child {
 		border-bottom: 1px solid #4f4f4f !important;
+	}
+	
+	.cs_election .broadcasting_area .exit_poll_info strong {
+		color: #fff;
+	}
+	
+	.cs_election .broadcasting_area .exit_poll_info p, .cs_election .broadcasting_area .broadcasting_guide p {
+		color: #cacaca;
+	}
+	
+	.cs_election .broadcasting_area .bd_list_area .bd_list li .bd_link {
+		color: #cacaca;
+	}
+	
+	.cs_election .broadcasting_area .bd_list_area .bd_list li .bd_link:after, .cs_election .broadcasting_area .bd_list_area .bd_list li:first-child .logo_box .bd_logo {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_election .broadcasting_area .bd_list_area .bd_list li a {
+		color: #fff;
+	}
+	
+	.cs_election .broadcasting_area .bd_list_area .bd_list li:first-child .bd_link {
+		color: rgb(180, 187, 223);
+	}
+	
+	.cs_election .broadcasting_area .bd_list_area .bd_list li {
+		box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 0 2px 0 rgba(0, 0, 0, 0.3);
+	}
+	
+	.cs_election .broadcasting_area .exit_poll_info p em {
+		color: rgb(167, 179, 243);
 	}
 }
 

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.59.5
+@version		1.59.6
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -81453,6 +81453,43 @@
 	
 	.cs_election .voterturnout_map .map_box_wrap .map_box {
 		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_production_type .production_table {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_production_type .production_table thead th:first-child {
+		color: #fff;
+	}
+	
+	.cs_production_type .production_table thead th {
+		color: #cacaca;
+	}
+	
+	.cs_production_type .production_table tbody {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_production_type .production_table tbody tr {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_production_type .production_table tbody td {
+		color: #cacaca;
+	}
+	
+	.cs_production_type .production_table tbody th {
+		color: #fff;
+	}
+	
+	.cs_vaccine_info .vaccine_info_box .status_info ul li + li {
+		border-color: #404040;
+	}
+	
+	.cs_vaccine_info .graph .grid div:last-child {
+		border-bottom: 1px solid #4f4f4f !important;
 	}
 }
 

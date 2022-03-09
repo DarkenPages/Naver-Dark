@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.59.14
+@version		1.59.15
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -61270,6 +61270,126 @@
 	
 	.card_today .weather_area .weather_quick_area .tab_list .tab_link.on {
 		background-color: #cacaca;
+	}
+	
+	.is_warning .section_right.weather .card_now .location, .is_warning .section_right.weather .card_now .info {
+		color: #fff;
+	}
+	
+	.is_warning .section_right.weather .card_now .dust_item .ttl {
+		color: #cacaca;
+	}
+	
+	@media (min-width: 1025px) {
+		.is_warning .warning .tit {
+			color: #fff;
+			background-color: #2f2f2f;
+		}
+		
+		.is_warning .disaster_letter .letter_title {
+			color: #fff;
+		}
+		
+		.is_warning .weather_report .title {
+			color: #fff;
+		}
+	}
+	
+	.is_warning .warning .content_area {
+		background-color: #404040;
+	}
+	
+	.is_warning .disaster_letter {
+		background-color: #2f2f2f;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.is_warning .disaster_letter .letter {
+		border-top: 1px solid #404040;
+	}
+	
+	.is_warning .disaster_letter .letter_list {
+		background-color: #2f2f2f;
+	}
+	
+	.is_warning .disaster_letter .location {
+		color: #fff;
+	}
+	
+	.is_warning .disaster_letter .summary {
+		color: #cacaca;
+	}
+	
+	.is_warning .disaster_letter .btn_action {
+		background-color: #3a3a3a;
+		border: 1px solid #4f4f4f;
+	}
+	
+	.is_warning .weather_report {
+		background-color: #2f2f2f;
+	}
+	
+	.is_warning .warning .warning_info {
+		background-color: #2f2f2f;
+	}
+	
+	.is_warning .warning .warning_info strong, .is_warning .warning .another_info_top {
+		color: #Fff;
+	}
+	
+	.is_warning .warning .warning_info .btn_alert {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.is_warning .warning .warning_info .ly_help {
+		color: #cacaca;
+	}
+	
+	.is_warning .warning .map_wrap:after {
+		background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(52,77,99,0)),to(rgb(52, 77, 99)));
+		background-image: -webkit-linear-gradient(top,rgba(52,77,99,0),rgb(52, 77, 99));
+		background-image: linear-gradient(to bottom,rgba(52,77,99,0),rgb(52, 77, 99));
+	}
+	
+	.is_warning .warning .list_area {
+		background-color: rgb(52, 77, 99);
+	}
+	
+	.is_warning .warning .warning_card.on .warning_card_border {
+		border: 2px solid #404040;
+	}
+	
+	.is_warning .warning #_idMap.inner > div {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.is_warning .warning .btn_tab_wrap {
+		border-top: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.is_warning .warning .btn_tab {
+		color: #cacaca;
+	}
+	
+	.is_warning .warning .btn_wrap {
+		background-color: #3a3a3a;
+	}
+	
+	.is_warning .warning .btn_zoom_in, .is_warning .warning .btn_zoom_out {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.is_warning .warning .ly_help {
+		color: #cacaca;
+	}
+	
+	.is_warning .warning .warning_card.summary_list, .is_warning .warning .warning_card.summary_list .card_title {
+		background-color: #2f2f2f;
+	}
+	
+	.is_warning .warning .warning_card.summary_list .card_content_inner p, .is_warning .warning .card_content_inner p {
+		color: #cacaca;
 	}
 }
 

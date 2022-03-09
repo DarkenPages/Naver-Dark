@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.59.6
+@version		1.59.7
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -99477,5 +99477,13 @@
 	
 	.election_guide_wrap .tab_item:first-child .tab::before, .election_guide_wrap .tab_item:last-child .tab::before {
 		filter: invert(86%) hue-rotate(-180deg) brightness(1000%);
+	}
+	
+	.home_content.-live .election_live_wrap, .election_live_list {
+		background-color: #2f2f2f;
+	}
+	
+	.home_content.-live .title_election_live {
+		color: #fff;
 	}
 }

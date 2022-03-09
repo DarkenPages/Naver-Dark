@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.59.12
+@version		1.59.13
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -6749,7 +6749,7 @@
     .cs_disaster_prepare .disaster_content .disaster_table td { color: #cacaca;border: 1px solid #404040;border-width: 1px 1px 0 }
     .cs_disaster_prepare .disaster_content .disaster_table th { color: #fff;border: 1px solid #404040;border-width: 1px 0;background-color: #3a3a3a }
     .cs_election { border: 1px solid #404040;border-top: 0;background: none }
-    .cs_election .ballot_tally_area .count_list li .item_info .name .order_txt .num,.cs_election .ballot_tally_area .count_list.reporting .candidate_info .rate_count,.cs_election .ballot_tally_area .count_list.reporting .candidate_info .rate_count .score,.cs_election .top_ranker .count_list .candidate_info .order_txt .num,.cs_election .btn_select ._text em { color: #6b76c7 }
+    .cs_election .ballot_tally_area .count_list li .item_info .name .order_txt .num,.cs_election .ballot_tally_area .count_list.reporting .candidate_info .rate_count,.cs_election .ballot_tally_area .count_list.reporting .candidate_info .rate_count .score,.cs_election .top_ranker .count_list .candidate_info .order_txt .num,.cs_election .btn_select ._text em,.cs_election .profile_info .poll_banner .forecast,.cs_election .profile_info .poll_banner .poll_info .count { color: #6b76c7 }
     .cs_election .ballot_tally_area .count_list.reporting .candidate_info .number_area .candidate_bar,.cs_election .sub_tab_area .type_main .tab_list .tab[aria-selected="true"] > a,.cs_election .sub_tab_area .type_main .tab_list .tab[aria-selected="true"] > span { background-color: #6b76c7 }
     .cs_election .bottom_banner .banner_link,.ly_dimmed { background-color: transparent }
     .cs_election .broadcasting_area .bd_list_area .bd_list li { box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 0 2px 0 rgba(0, 0, 0, 0.3) }

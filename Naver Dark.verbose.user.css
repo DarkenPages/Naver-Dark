@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.59.12
+@version		1.59.13
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -81668,6 +81668,10 @@
 	.sp_ntotal .total_tit .badge_wrap .badge_kindic {
 		color: #cacaca;
 		border: 1px solid #404040;
+	}
+	
+	.cs_election .profile_info .poll_banner .forecast, .cs_election .profile_info .poll_banner .poll_info .count {
+		color: #6b76c7;
 	}
 }
 

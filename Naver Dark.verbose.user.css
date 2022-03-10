@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.59.18
+@version		1.59.19
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -82413,6 +82413,10 @@
 	
 	.cs_stock .ar_spot .spt_con.eq, .cs_stock .ar_spot .spt_con.eq {
 		color: #888;
+	}
+	
+	.cs_election .ballot_tally_area .count_list li .candidate_info .icon_rank.win {
+		filter: none;
 	}
 }
 

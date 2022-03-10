@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.59.18
+@version		1.59.19
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -6729,7 +6729,7 @@
     .cs_delivery .list_state .step5:before { background-position: -269px 0 }
     .cs_delivery .list_state .step5.on:before { background-position: -269px -52px }
     .cs_delivery .list_state li:before { width: 100%;top: 0;position: absolute;pointer-events: none;left: 0;height: 100%;filter: invert(86%) hue-rotate(-180deg);content: '';background: url(https://ssl.pstatic.net/sstatic/keypage/outside/scui/delivery/img/spr_ico_v2.png) 0 0 no-repeat;background-size: 314px 98px;-webkit-background-size: 314px 98px;-moz-background-size: 314px 98px }
-    .cs_delivery .list_state li:not(.on):before,.cs_election .top_ranker .count_list .thumb_box .icon_rank.win,.nx_hotel .hotel_normal .txt_warn .ico_warn { filter: none }
+    .cs_delivery .list_state li:not(.on):before,.cs_election .ballot_tally_area .count_list li .candidate_info .icon_rank.win,.cs_election .top_ranker .count_list .thumb_box .icon_rank.win,.nx_hotel .hotel_normal .txt_warn .ico_warn { filter: none }
     .cs_disaster .box_info .ico_alert:before { width: 100%;top: 0;position: absolute;pointer-events: none;left: 0;height: 100%;filter: invert(81.5%) hue-rotate(-180deg);content: '';background: url(https://ssl.pstatic.net/sstatic/keypage/outside/disaster/img/sp_dzst2.gif) 0 -238px no-repeat }
     .cs_disaster .prcs_guide .other_links dl dd li:before,.cs_produce .prcs_guide .other_links dl dd li:before { width: 100%;top: 0;position: absolute;pointer-events: none;left: 0;height: 100%;filter: invert(86%) hue-rotate(-180deg);content: '';background: url(https://ssl.pstatic.net/sstatic/keypage/outside/uio/img/bg_sep.gif) 0 4px no-repeat }
     .cs_disaster .wrap_dzst .dir_dzst,.cs_disaster .wrap_dzst3 .tab_area,.cs_lettercounter .sct_lc .desc_key_bx,.cs_sports_tpl .bx_guide.inside,.ds_calendar .trans_sun_lunar,.flight .flight_partners,.nx_hotel .hotel_normal .hot_place { border-top: 1px solid #404040;background: #2f2f2f }

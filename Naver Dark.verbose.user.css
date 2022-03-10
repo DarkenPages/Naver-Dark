@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.59.15
+@version		1.59.16
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -81817,6 +81817,75 @@
 	
 	.cs_election .profile_info .poll_banner .forecast, .cs_election .profile_info .poll_banner .poll_info .count {
 		color: #6b76c7;
+	}
+	
+	.cs_election .top_ranker .count_list .thumb_box .icon_rank.win {
+		filter: none;
+	}
+	
+	.cs_election .candidate_winner {
+		background: none;
+		position: absolute;
+	}
+	
+	.cs_election .candidate_winner:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/scui/president_election_2022/img/bg_winner.png) no-repeat 0 0;
+		-webkit-background-size: 652px 91px;
+		background-size: 652px 91px;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_election .candidate_winner .president_desc {
+		background-image: none;
+		position: relative;
+	}
+	
+	.cs_election .candidate_winner .president_desc:before {
+		background-image: url(https://ssl.pstatic.net/sstatic/keypage/outside/scui/president_election_2022/img/sp_election_2022_v8.png);
+		-webkit-background-size: 494px 476px;
+		background-size: 494px 476px;
+		background-repeat: no-repeat;
+		background-position: -247px -192px;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_election .candidate_winner .winner_name.party2 {
+		background-image: none;
+		position: relative;
+	}
+	
+	.cs_election .candidate_winner .winner_name.party2:before {
+		background-image: url(https://ssl.pstatic.net/sstatic/keypage/outside/scui/president_election_2022/img/sp_election_2022_v8.png);
+		-webkit-background-size: 494px 476px;
+		background-size: 494px 476px;
+		background-repeat: no-repeat;
+		background-position: 0px -184px;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_election .profile_info .poll_banner .update_time {
+		color: #cacaca;
 	}
 }
 

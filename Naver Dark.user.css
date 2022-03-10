@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.59.17
+@version		1.59.18
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -6608,7 +6608,7 @@
     .cs_common_module .cm_content_wrap { position: relative;border: 1px solid #000 !important;border-width: 0 1px 1px !important }
     .cs_common_module .cm_content_wrap:before { width: 100%;top: 0;position: absolute;pointer-events: none;left: 0;height: 100%;display: initial;content: '';background: rgba(0, 0, 0, 0.75) }
     .cs_common_module .cm_filter_area .guide_txt { color: #cacaca;border-top: 1px solid #404040;background: #3a3a3a }
-    .cs_common_module .cm_filter_area.type_calendar .filter_option .filter_wrap .filter_group .filter_cont .select_calendar .ui-datepicker-calendar tr td.type_opacity,.cs_production_type .status_today ul li.info_03,.ds_calendar .calendar tbody td,.sp_naside .naside_wrap .dsc_area .link_etc { color: #888 }
+    .cs_common_module .cm_filter_area.type_calendar .filter_option .filter_wrap .filter_group .filter_cont .select_calendar .ui-datepicker-calendar tr td.type_opacity,.cs_production_type .status_today ul li.info_03,.cs_stock .ar_spot .spt_con.eq,.cs_stock .ar_spot .spt_con.eq,.ds_calendar .calendar tbody td,.sp_naside .naside_wrap .dsc_area .link_etc { color: #888 }
     .cs_common_module .cm_filter_tap .filter_tap_area .type_scroll .tab .menu,.cs_common_module .league_schedule .match_content.end .match_title .state_mark,.cs_weather .table_info .info_list.rainfall .list_area .item_condition .rain_rate.level1,.people_info .people_type .texttab_type .select a,.sp_nkin .total_tag_area .tag,.sp_nreview .total_tag_area .tag { color: #cacaca;background-color: #404040 }
     .cs_common_module .cm_filter_tap .next_visual,.cs_common_module .cm_filter_tap .next_visual.on,.cs_common_module .cm_filter_tap .next_visual.seletced,.cs_common_module .cm_filter_tap .next_visual:hover,.cs_common_module .cm_top_taste_box .rel_taste_wrap .rel_answer_card .filter_tab_area .next_visual,.cs_common_module .cm_top_taste_box .rel_taste_wrap .rel_answer_card .filter_tab_area .next_visual.on,.cs_common_module .cm_top_taste_box .rel_taste_wrap .rel_answer_card .filter_tab_area .next_visual.seletced,.cs_common_module .cm_top_taste_box .rel_taste_wrap .rel_answer_card .filter_tab_area .next_visual:hover { background-image: linear-gradient(to left, #2f2f2f 75%, rgba(47,47,47,0) 100%) !important }
     .cs_common_module .cm_filter_tap .pre_visual,.cs_common_module .cm_filter_tap .pre_visual.on,.cs_common_module .cm_filter_tap .pre_visual.seletced,.cs_common_module .cm_filter_tap .pre_visual:hover,.cs_common_module .cm_top_taste_box .rel_taste_wrap .rel_answer_card .filter_tab_area .pre_visual,.cs_common_module .cm_top_taste_box .rel_taste_wrap .rel_answer_card .filter_tab_area .pre_visual.on,.cs_common_module .cm_top_taste_box .rel_taste_wrap .rel_answer_card .filter_tab_area .pre_visual.seletced,.cs_common_module .cm_top_taste_box .rel_taste_wrap .rel_answer_card .filter_tab_area .pre_visual:hover { background-image: linear-gradient(to right, #2f2f2f 75%, rgba(47,47,47,0) 100%) !important }

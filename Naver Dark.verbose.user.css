@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.59.17
+@version		1.59.18
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -82409,6 +82409,10 @@
 	
 	.sc_new .api_channel_wrap .channel_scroll_wrap .channel_item.type_twitter .info_area .info_func_bx {
 		border-top: 1px solid #404040;
+	}
+	
+	.cs_stock .ar_spot .spt_con.eq, .cs_stock .ar_spot .spt_con.eq {
+		color: #888;
 	}
 }
 

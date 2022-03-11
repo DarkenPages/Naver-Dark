@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.59.20
+@version		1.59.21
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -4372,7 +4372,7 @@
     .box_listup h5 { position: relative;color: #fff;background: none }
     .box_listup h5:before { width: 100%;top: 0;position: absolute;pointer-events: none;left: 0;height: 100%;filter: invert(81.5%) hue-rotate(-180deg);content: '';background-repeat: no-repeat;background-position: -11px -1985px;background-image: url(https://ssl.pstatic.net/static/pwe/nm/ico_mail1_160510.png) }
     .box_listup ul { border: 1px solid #404040;background: #2f2f2f }
-    .clean_oldmail .oldmail_mbox .tit,.clean_oldmail h5,.cv_card .viewTitle .name a,.dh_layer .info1,.dh_layer .info3,.form_ul1 .form_content .desc2 a,.help_mailbox a,.link,.ly_banner_smart_mail .banner_title,.ly_tooltip .ly_header .h_tit,.mail_ext tbody a,.mail_ext tbody th,.progress_bar .tit,.searchLayer a,.setup_layer .modifyName th,.tb_ext_list table tbody td a,.tt_list li strong,.type_alert h4,.uploader5 .attach_type,.uploader5 .down_period,.uploader5 .file_name,.uploader5 .file_select,.uploader5 .file_size,.uploader5 .status,#u_skip.u_skip + .wrap .header .nav a { color: #fff }
+    .clean_oldmail .oldmail_mbox .tit,.clean_oldmail h5,.cv_card .viewTitle .name a,.dh_layer .info1,.dh_layer .info3,.form_ul1 .form_content .desc2 a,.help_mailbox a,.link,.ly_banner_smart_mail .banner_title,.ly_tooltip .ly_header .h_tit,.mail_ext tbody a,.mail_ext tbody th,.progress_bar .tit,.searchLayer a,.setup_layer .modifyName th,.tb_ext_list table tbody td a,.tt_list li strong,.type_alert h4,.uploader5 .attach_type,.uploader5 .down_period,.uploader5 .file_name,.uploader5 .file_select,.uploader5 .file_size,.uploader5 .status,#footer .quick_tools,#u_skip.u_skip + .wrap .header .nav a { color: #fff }
     .clean_oldmail .oldmail_period,.cleanup_tab,.cont_flex_setup,.cv_task_btn,.dh_layer .tab_receipt,.dh_layer.add_address .address_scrl_area,.lst_info,.ly_tooltip .ly_header,.mail_ext,.mail_ext tbody td,.shortcut_layer h3,.tb_ext_list table tbody td,.upld_box .upload_status p.progress_bar { border-bottom: 1px solid #404040 }
     .cleanup_list_body li,.cleanup_mail_new .cleanup_list_head { border: 1px solid #404040;border-bottom: 0 }
     .cleanup_mail_new .cleanup_list_new,.has_scrl,.upld_file_list,head,html { background: #242424 }
@@ -4381,7 +4381,7 @@
     .conversation_cover div.cv_card .toggle_oldermail { border: initial;background-color: initial }
     .cv_card .cv_preview { padding-top: 22px }
     .cv_card #readFrame,.cv_card .readFrame,.cv_card.fold .cv_preview,.cv_card.fold .viewTitle .name { color: #000;background-color: #fff }
-    .cv_task_btn .bar,.mailWriteItem .indicator em { color: #404040 }
+    .cv_task_btn .bar,.mailListHead .vbar,.mailWriteItem .indicator em { color: #404040 }
     .dh_layer .bx_spam,.dh_layer .tab_receipt li { border: 1px solid #404040;background-color: #2f2f2f }
     .dh_layer .hl_noti { color: #fff;border-bottom: 1px solid #404040 }
     .dh_layer .nobg .layer_content { background: #242424 !important }

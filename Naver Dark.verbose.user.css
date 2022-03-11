@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.59.20
+@version		1.59.21
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -2972,6 +2972,14 @@
 	
 	.ly_banner_smart_mail .banner_sub_description:after {
 		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	#footer .quick_tools {
+		color: #fff;
+	}
+	
+	.mailListHead .vbar {
+		color: #404040;
 	}
 }
 

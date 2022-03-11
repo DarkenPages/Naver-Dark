@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.59.22
+@version		1.59.23
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -14188,6 +14188,7 @@
 		--boardArticleListTh: #fff;
 		--boardArticleListTitle: #fff;
 		--boardArticleListText: #cacaca;
+		--profileHeadLeaveMember: #fff;
 	}
 	
 	body > svg > symbol[id='ico-post-arrow-323232'] > path {

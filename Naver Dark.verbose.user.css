@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.59.26
+@version		1.59.27
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -22916,6 +22916,34 @@
 	#spamOption + .board_area .tbl_lst_type select {
 		filter: none;
 	}
+	
+	.tbl_lst_type2 th {
+		color: #fff !important;
+	}
+	
+	.input_information {
+		border: 1px solid #404040 !important;
+	}
+	
+	.date .button_date {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.tbl_lst_type2 td, .tbl_lst_type2 th {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	.section_cont .group_txt h3, .section_cont .group_txt2 h3 {
+		color: #fff;
+	}
+	
+	.section_cont .group_txt {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.section_cont .group_txt p {
+		color: #cacaca;
+	}
 }
 
 @-moz-document url-prefix("https://cafe.naver.com/ManageEventQuestionExample.nhn")
@@ -23044,7 +23072,7 @@
 	}
 }
 
-@-moz-document url-prefix("https://cafe.naver.com/ManageSecedePopupView.nhn"), url-prefix("https://cafe.naver.com/ManageCafeOptionalBoardStaffPopup.nhn"), url-prefix("https://cafe.naver.com/ManageJoinRefusalAddPopup.nhn"), url-prefix("https://cafe.naver.com/ManageCafeJoinNoticePreview.nhn"), url-prefix("https://cafe.naver.com/ManageProhibitWordView.nhn"), url-prefix("https://cafe.naver.com/ManageCafeOptionalBoardStaffPopup.nhn"), url-prefix("https://cafe.naver.com/ManageAssignOptionalBoardStaff.nhn")
+@-moz-document url-prefix("https://cafe.naver.com/ManageSecedePopupView.nhn"), url-prefix("https://cafe.naver.com/ManageCafeOptionalBoardStaffPopup.nhn"), url-prefix("https://cafe.naver.com/ManageJoinRefusalAddPopup.nhn"), url-prefix("https://cafe.naver.com/ManageCafeJoinNoticePreview.nhn"), url-prefix("https://cafe.naver.com/ManageProhibitWordView.nhn"), url-prefix("https://cafe.naver.com/ManageCafeOptionalBoardStaffPopup.nhn"), url-prefix("https://cafe.naver.com/ManageAssignOptionalBoardStaff.nhn"), url-prefix("https://cafe.naver.com/ManageLevelUp.nhn")
 {
 	.lst_type dt {
 		color: #fff;
@@ -23218,6 +23246,14 @@
 	
 	.tbl_lst tbody tr.selected td {
 		background: #3a3a3a;
+	}
+	
+	.lst_type dd.hr2 {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.pop_refuse .dsc {
+		color: #cacaca;
 	}
 }
 
@@ -100457,5 +100493,41 @@
 	
 	.article_item .thumbnail::before {
 		filter: invert(86%) hue-rotate(-180deg);
+	}
+}
+
+@-moz-document url-prefix("https://cafe.naver.com/MemberLevelView.nhn")
+{
+	.bx1_shadow {
+		border: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.bx1 {
+		border: 1px solid #404040;
+	}
+	
+	.bx1 * {
+		color: #fff;
+	}
+	
+	#footer {
+		border-top: 3px solid #404040;
+	}
+	
+	#content {
+		border-bottom: 1px solid #404040;
+	}
+	
+	#footer a img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	h1 {
+		font-family: 'Helvetica', 'serif';
+	}
+	
+	* {
+		font-family: 'Helvetica', 'serif';
 	}
 }

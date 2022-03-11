@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.59.23
+@version		1.59.24
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -40140,6 +40140,10 @@
 	
 	.section_election .profile_desc .desc_number .number {
 		color: #7690cf;
+	}
+	
+	html[data-dark=true] .sc_themecast .chart_view .info_box .dsc_wrap {
+		color: #cacaca;
 	}
 }
 

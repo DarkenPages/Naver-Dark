@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.59.21
+@version		1.59.22
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -39835,11 +39835,7 @@
 		border-bottom: 1px solid #404040;
 	}
 	
-	html[data-dark=true] #header, html[data-dark=true] #header .special_bg {
-		background-color: #242424;
-	}
-	
-	html[data-dark=true] #header .search_area .input_text {
+	html[data-dark=true] #header {
 		background-color: #242424;
 	}
 	

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.59.21
+@version		1.59.22
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -826,7 +826,7 @@
     .sc_themecast .main_category .tab.id_law[aria-selected=true] { border-color: #3c5ba7;background-color: #3c5ba7 }
     .sc_themecast .main_category .tab.id_movie:hover { color: #2650b9 }
     .sc_themecast .main_category .tab.id_movie[aria-selected=true] { border: 1px solid #2650b9;background-color: #2650b9 }
-    .sc_themecast .main_category,.sc_themecast .main_category .list_category,.sc_themecast .topstory_view .ico_ad,.theme_head.is_fixed .theme_fix_wrap,#gnb .group_nav .ly_btn_area,#gnb .list_nav.type_empty .empty_box.type_point,#header,html[data-dark=true] #gnb .group_nav .ly_btn_area,html[data-dark=true] #header .search_area .input_text,html[data-dark=true] #header,html[data-dark=true] #header .special_bg { background-color: #242424 }
+    .sc_themecast .main_category,.sc_themecast .main_category .list_category,.sc_themecast .topstory_view .ico_ad,.theme_head.is_fixed .theme_fix_wrap,#gnb .group_nav .ly_btn_area,#gnb .list_nav.type_empty .empty_box.type_point,#header,html[data-dark=true] #gnb .group_nav .ly_btn_area,html[data-dark=true] #header { background-color: #242424 }
     .sc_themecast .main_category:before { z-index: 1;pointer-events: none;border: 1px solid #404040 }
     .sc_themecast .topstory_view.type_ad .topstory_info { border: 1px solid #404040;border-width: 0 1px 1px;background-color: #2f2f2f }
     .sc_themecast .topstory_view.type_star .badge_vlive { filter: invert(100%) hue-rotate(-180deg) }

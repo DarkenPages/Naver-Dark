@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.59.30
+@version		1.59.31
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -23643,11 +23643,11 @@
 	}
 	
 	.news_lnb .sort .toggle a:after, .news_lnb .option .button.selected span {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.news_lnb .option .check a:not(.selected) .view1, .news_lnb .option .check a:not(.selected) .view2 {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.news_list .text .title {
@@ -23677,7 +23677,7 @@
 	}
 	
 	.paginate_day .prev, .paginate_day .next {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.mainpage .page_wrap .aside, .news_wrap .aside, .video_wrap .aside {
@@ -23742,7 +23742,7 @@
 	}
 	
 	.aside_vod_list2 .text .play .ico, .u_likeit_list_module .u_likeit_list_btn .u_ico, .video_summary .service .comment .ico, .video_summary .info .play span {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.u_likeit_list_module .u_type_video .u_cnt {
@@ -23819,7 +23819,7 @@
 	}
 	
 	.tab_type2 .prev span, .tab_type2 .next span, .schedule_nav .link_today, .schedule_nav .week, .schedule_nav .link_cal .ico, .u_cbox .u_cbox_btn_refresh .u_cbox_ico_refresh {
-		filter: invert(86%);
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.u_cbox .u_cbox_write .u_cbox_write_inner {
@@ -25753,6 +25753,156 @@
 	}
 	
 	.hmb_tab .inner a {
+		color: #cacaca;
+	}
+	
+	.home_side_ad {
+		background-color: #2f2f2f;
+	}
+	
+	.hmb_list .hmb_list_items .state .time {
+		color: #cacaca;
+	}
+	
+	.schedule_vs .vs_btn span.btn {
+		border-color: #4f4f4f;
+	}
+	
+	.schedule_week li a, .schedule_week li .disabled {
+		color: #cacaca;
+	}
+	
+	.tab_event .list .menu:before {
+		background: #404040;
+	}
+	
+	.tab_event .list a {
+		color: #cacaca;
+	}
+	
+	.schedule_vs .vs_info .state {
+		background-color: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.schedule_month .list a:before {
+		background-color: #404040;
+	}
+	
+	.schedule_normal {
+		border-right: 1px solid #404040;
+		border-left: 1px solid #404040;
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.schedule_normal .list a {
+		color: #cacaca;
+	}
+	
+	.schedule_month_table .broadcast span.btn {
+		border-color: #4f4f4f;
+	}
+	
+	.schedule_normal .list a:before {
+		background-color: #404040;
+	}
+	
+	.news_wrap .news_list .source .bar {
+		background: #404040;
+	}
+	
+	.news_lnb .option .button {
+		color: #cacaca;
+	}
+	
+	.headline .special_item + .headline_item:before {
+		border-top: 1px solid #404040;
+	}
+	
+	.videocenter .video_side_ad {
+		background-color: #404040;
+	}
+	
+	.videocenter .video_summary .info .origin {
+		color: #cacaca;
+	}
+	
+	.videocenter .video_summary .info .date:before, .videocenter .video_summary .info .play:before, .videocenter .video_summary .info .origin:before {
+		background-color: #404040;
+	}
+	
+	.videocenter .video_summary .info {
+		color: #cacaca;
+	}
+	
+	.videocenter .video_summary .title {
+		color: #fff;
+	}
+	
+	.end_btn .u_likeit {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.videocenter .video_tools .end_btn .u_likeit {
+		border-bottom: 0;
+	}
+	
+	.videocenter .video_list .text .info {
+		color: #cacaca;
+	}
+	
+	.videocenter .video_list .text .play + span:before {
+		background: #404040;
+	}
+	
+	.videocenter .type_text li a {
+		color: #cacaca;
+	}
+	
+	.videocenter .type_text li a:before {
+		background: #404040;
+	}
+	
+	.videocenter .type_match {
+		background-color: #242424;
+	}
+	
+	.videocenter .type_match .bx {
+		border: 1px solid #404040;
+	}
+	
+	.videocenter .type_match .no_game {
+		background: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.videocenter .type_match .team .name {
+		color: #fff;
+	}
+	
+	.videocenter .video_head .link_record, .aside_head .service .repeat_list {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.sports_menu .side_menu_list .link_main_menu {
+		color: #cacaca;
+	}
+	
+	.news_no {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.paginate_day .inner a {
+		color: #cacaca;
+	}
+	
+	.paginate_day .inner a span:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.new_news_lnb .sort a, .schedule_nav .link_cal {
 		color: #cacaca;
 	}
 }

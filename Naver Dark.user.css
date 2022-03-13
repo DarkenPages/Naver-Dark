@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.59.29
+@version		1.59.30
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -1882,6 +1882,7 @@
     .skin-1080 #widget_company_info .list_company { border-top-color: #4f4f4f }
     .skin-1080 #widget-bean .bean-btns { color: #fff;border-top: 1px solid #4f4f4f;background-color: #404040 }
     .skin-1080 #widget-bean .bean-btns .btn-saving { border-right: 1px solid #4f4f4f }
+    .skin-1080 #widget-bean .layer_popup .layer_content { border: 1px solid #4f4f4f;background-color: #2f2f2f }
     .skin-1080 #widget-bean .sub-widget-bean { position: relative;background: transparent }
     .skin-1080 #widget-currency .bg-body tr:nth-child(even) td,.skin-1080 #widget-currency .bg-body tr:nth-child(even) th { background-color: #4a4a4a }
     .skin-1080 #widget-currency .bg-head { border-bottom: 1px solid #404040;background-color: #404040 }

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.59.31
+@version		1.60.0
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -15868,6 +15868,56 @@
 	
 	.skin-1080 #widget-bean .layer_popup .layer_content {
 		border: 1px solid #4f4f4f;
+		background-color: #2f2f2f;
+	}
+	
+	#main-area.post-layout .m-tcol-c {
+		color: #cacaca;
+	}
+	
+	#main-area #searchBy {
+		color: #cacaca;
+	}
+	
+	#main-area.post-layout .search.list-search .input_search {
+		border: 1px solid #404040;
+		border-right: 0 none;
+	}
+	
+	#content-area .cminput .comm_write_wrap {
+		border-color: #404040;
+		background-color: #242424;
+	}
+	
+	#content-area .cminput .u_cbox_btn_upload a {
+		color: #cacaca;
+	}
+	
+	#content-area .cminput .u_cbox_btn_upload {
+		border-color: #404040;
+	}
+	
+	#content-area .cminput .comm_write_wrap .textarea {
+		background-color: #242424;
+	}
+	
+	.spi_lst em {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.article_prenet .prev_btn .m-tcol-c, .article_prenet .next_btn .m-tcol-c, .article_prenet .aaa .m-tcol-c {
+		color: #cacaca !important;
+	}
+	
+	.article_prenet .wordbreak {
+		color: #cacaca;
+	}
+	
+	.adress img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.sub_aside .cafebook_tree, .sub_aside .cafebook_tree_menu {
 		background-color: #2f2f2f;
 	}
 }
@@ -100709,5 +100759,49 @@
 	
 	* {
 		font-family: 'Helvetica', 'serif';
+	}
+}
+
+@-moz-document url-prefix("https://cafe.naver.com/PageRead.nhn"), url-prefix("https://cafe.naver.com/PageHistory.nhn"), url-prefix("https://cafe.naver.com/PageEdit.nhn")
+{
+	.filter-50 {
+		opacity: 0.9;
+	}
+	
+	.list-tab li a, .list-tab li span {
+		opacity: 0.9;
+	}
+	
+	select {
+		appearance: none;
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		background: #242424;
+		color: #cacaca;
+		border: 1px solid #404040;
+		background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiNjYWNhY2EiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQuNDI3IDkuNDI3IDMuMzk2IDMuMzk2YS4yNTEuMjUxIDAgMCAwIC4zNTQgMGwzLjM5Ni0zLjM5NkEuMjUuMjUgMCAwIDAgMTEuMzk2IDlINC42MDRhLjI1LjI1IDAgMCAwLS4xNzcuNDI3ek00LjQyMyA2LjQ3IDcuODIgMy4wNzJhLjI1LjI1IDAgMCAxIC4zNTQgMEwxMS41NyA2LjQ3YS4yNS4yNSAwIDAgMS0uMTc3LjQyN0g0LjZhLjI1LjI1IDAgMCAxLS4xNzctLjQyN3oiLz48L3N2Zz4=");
+		background-position: right 2px center;
+		background-repeat: no-repeat;
+		background-size: 16px;
+		padding: 0px 20px 0px 5px;
+		border-radius: 5px;
+		filter: none;
+	}
+	
+	select:focus-visible {
+		outline: none;
+	}
+	
+	select:disabled {
+		color: #666;
+		background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiM2NjYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQuNDI3IDkuNDI3IDMuMzk2IDMuMzk2YS4yNTEuMjUxIDAgMCAwIC4zNTQgMGwzLjM5Ni0zLjM5NkEuMjUuMjUgMCAwIDAgMTEuMzk2IDlINC42MDRhLjI1LjI1IDAgMCAwLS4xNzcuNDI3ek00LjQyMyA2LjQ3IDcuODIgMy4wNzJhLjI1LjI1IDAgMCAxIC4zNTQgMEwxMS41NyA2LjQ3YS4yNS4yNSAwIDAgMS0uMTc3LjQyN0g0LjZhLjI1LjI1IDAgMCAxLS4xNzctLjQyN3oiLz48L3N2Zz4=");
+	}
+	
+	.list-tab li.selected a {
+		color: #fff !important;
+	}
+	
+	.list-tab li {
+		border-bottom-color: #404040;
 	}
 }

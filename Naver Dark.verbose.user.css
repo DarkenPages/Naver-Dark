@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.60.3
+@version		1.60.4
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -82731,6 +82731,374 @@
 	
 	.sp_ntotal .snippet_rel_wrap .link_item {
 		border: 1px solid #404040;
+	}
+	
+	.cs_traffic .t_tab {
+		background: #3a3a3a;
+	}
+	
+	.cs_traffic .t_tab .t_ms img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_traffic .t_tab li a {
+		color: #cacaca;
+	}
+	
+	.cs_traffic .t_tab li {
+		background: #3a3a3a;
+	}
+	
+	.cs_traffic .t_tab li:first-child {
+		border-left: 1px solid #4f4f4f;
+	}
+	
+	.cs_traffic .t_tab li+li a {
+		border-right: 1px solid #4f4f4f;
+	}
+	
+	.cs_traffic .t_tab li.selected a {
+		background: #2f2f2f;
+		color: #fff;
+	}
+	
+	.cs_traffic .t_tab li.selected {
+		background: #4f4f4f;
+	}
+	
+	.cs_traffic .t_tab ul {
+		border-top: 1px solid #4f4f4f;
+	}
+	
+	.cs_traffic .t_sub li.selected a {
+		color: #fff;
+	}
+	
+	.cs_traffic .t_sub li a {
+		color: #cacaca;
+	}
+	
+	.cs_traffic .t_dep {
+		border: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.cs_traffic .t_dep li.on a {
+		color: #fff !important;
+	}
+	
+	.cs_traffic .t_dep ul {
+		border-right: 1px solid #404040;
+	}
+	
+	.cs_traffic .t_dep li a:hover {
+		color: #fff !important;
+	}
+	
+	.cs_traffic .t_dep li a {
+		color: #cacaca !important;
+	}
+	
+	.cs_traffic .t_dep.r1 li img {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_traffic .ly_title {
+		border-bottom: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.cs_traffic .ly_title h4 {
+		color: #fff;
+	}
+	
+	.cs_traffic .t_dep a.b_cls {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_traffic .t_area .t_map {
+		border: 1px solid #404040;
+		border-bottom: none;
+	}
+	
+	.cs_traffic .t_top {
+		background: #3a3a3a;
+	}
+	
+	.cs_traffic .t_rt {
+		border-top: 1px solid #404040;
+		border-right: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_traffic .t_top h5 {
+		font-family: 'Helvetica', 'serif';
+	}
+	
+	.cs_traffic .t_btn li a img {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_traffic .t_lst {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_traffic .t_lst dd span {
+		color: #fff;
+	}
+	
+	.cs_traffic .t_lst dt img {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_traffic .t_lst li {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_traffic .t_lst dd {
+		color: #cacaca;
+	}
+	
+	.cs_traffic .t_noti .t_txt {
+		background: none;
+		position: relative;
+	}
+	
+	.cs_traffic .t_noti .t_txt:before {
+		background: url(https://ssl.pstatic.net/sstatic/search/tx/ico_info.gif) no-repeat 0 3px;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_traffic .t_noti p {
+		color: #cacaca;
+	}
+	
+	.cs_traffic .t_rel {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_traffic .t_rel span {
+		color: #404040;
+	}
+	
+	.cs_traffic .t_rel dt strong {
+		color: #fff;
+	}
+	
+	.cs_traffic .t_rel dd {
+		color: #cacaca;
+	}
+	
+	.cs_traffic .t_area .t_map > div {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_traffic .t_way {
+		border: 1px solid #404040;
+		background: #3a3a3a;
+	}
+	
+	.t_hw {
+		border-bottom: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.t_hw dt {
+		color: #fff !important;
+	}
+	
+	.t_hw dd, .t_hw dd em {
+		color: #cacaca !important;
+	}
+	
+	.cs_traffic .t_sort li.on a {
+		color: #fff;
+	}
+	
+	.cs_traffic .t_sort li a {
+		color: #cacaca;
+	}
+	
+	.cs_traffic .t_sort li {
+		background: none;
+		position: relative;
+	}
+	
+	.cs_traffic .t_sort li:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/trafficrealtime/img/bu_bar.gif) no-repeat 0 0;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_traffic .t_lst2 {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_traffic .t_lst2 li {
+		border-bottom: 1px solid #404040;
+		background: none;
+		position: relative;
+	}
+	
+	.cs_traffic .t_lst2 li:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/trafficrealtime/img/bg_dot.gif) repeat-y 175px 0;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_traffic .t_lst2 dd {
+		font-family: 'Helvetica', 'serif';
+		color: #cacaca;
+	}
+	
+	.cs_traffic .t_lst2 dt img {
+		border-radius: 2px;
+	}
+	
+	.cs_traffic .t_lst2 .t_info {
+		background: none;
+		position: relative;
+	}
+	
+	.cs_traffic .t_lst2 .t_info:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/trafficrealtime/img/sprite_traffic.gif) no-repeat 0 0;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_traffic .t_lst2 .t_info span {
+		color: #cacaca;
+	}
+	
+	.cs_traffic .t_lst2 .t_info.i_t4:before {
+		background-position: -75px 23px;
+	}
+	
+	.cs_traffic .t_lst2 .t_info.i_t:before {
+	    background-position: 15px 23px
+	}
+	
+	.cs_traffic .t_lst2 .t_info.i_t2:before {
+	    background-position: -15px 23px
+	}
+	
+	.cs_traffic .t_lst2 .t_info.i_t3:before {
+	    background-position: -45px 23px
+	}
+	
+	.cs_traffic .t_lst2 .t_info.i_t5:before {
+	    background-position: -105px 15px
+	}
+	
+	.cs_traffic .t_lst2 table td {
+		color: #cacaca;
+	}
+	
+	.cs_traffic .t_acct .ta_lst {
+		border: 1px solid #404040;
+	}
+	
+	.cs_traffic .t_acct .ta_lst dl .road {
+		background: none;
+		position: relative;
+		color: #fff !important;
+	}
+	
+	.cs_traffic .t_acct .ta_lst dl .road:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/trafficrealtime/img/bu_bar.gif) no-repeat 100% 4px;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_traffic .t_acct .ta_lst li {
+		color: #cacaca;
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_traffic .t_acct .ta_lst li .type {
+		background: none;
+		position: relative;
+		color: #d75858;
+	}
+	
+	.cs_traffic .t_acct .ta_lst li .type:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/build/sign_traffic/pc/0119/bg_acct_type.gif) 50% 0 no-repeat;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_traffic .t_acct .ta_lst dl dt {
+		color: #999;
+	}
+	
+	.cs_traffic .subinfo_box .text {
+		color: #cacaca;
+	}
+	
+	.cs_traffic .subinfo_box .add:before {
+		background-color: #404040;
+	}
+	
+	.cs_traffic .t_sub.t_sub_v1 li {
+		background: none;
+		position: relative;
+	}
+	
+	.cs_traffic .t_sub.t_sub_v1 li:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/build/sign_traffic/pc/0119/bu_acct.gif) no-repeat 0 7px;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_traffic .t_sub.t_sub_v1 li.selected:before {
+		background-position: 0 -8px;
+	}
+	
+	.cs_traffic .t_sub.t_sub_v1 li .num {
+		color: #d75858;
 	}
 }
 

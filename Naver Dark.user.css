@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.61.0
+@version		1.61.1
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -5713,20 +5713,22 @@
 }
 @-moz-document url-prefix("https://nid.naver.com/user2/help/myInfoV2") {
     :root { --text-strong: #fff;--text-normal: #cacaca;--text-invert: #242424;--invert-normal: invert(86%) hue-rotate(-180deg);--invert-level2: invert(81.5%) hue-rotate(-180deg);--border-normal: #404040;--border-level2: #4f4f4f;--bg-normal: #242424;--bg-level3: #3a3a3a;--bg-level2: #2f2f2f }
+    .account_box .title_text,.btn_contact,.btn_duo_popup .btn_item .btn_text,.switch_btn .switch_on { color: var(--text-invert) }
+    .account_box .title::after,.close_popup,.popup_row.select::after,.header_left .left_footer .footer_logo { filter: var(--invert-normal) }
+    .account_row li+li,.myprofile+.subindex_row,.subindex_row li+li { border-top: 1px solid var(--border-level2) }
+    .account_row,.info_tooltip,.service_item,.subindex_alarm,.subindex_box,.subindex_onebox { border: 1px solid var(--border-normal);background-color: var(--bg-level2) }
+    .alarm_login { border-bottom: 1px solid var(--border-level2) }
+    .alarm_login .alarm_title,.contact_edit_title,.gnb_area .gnb_title .text,.header,.myinfo_area .myaccount .myname .name_text,.subindex_title,.service_area .ahead,.service_item .service_name,.subindex_alarm .alarm_title { color: var(--text-strong) }
     .bgother,.naverid .container { background-color: var(--bg-normal) }
     .btn_accent .text,.btn_edit .text,.btn_logout .text,.btn_link .text,.info_tooltip .info_head,.location_select .sel,.myinfo_area .myaccount .myaddress,.popup_input,.row_item .item_text { color: var(--text-normal) }
     .btn_accent,.btn_edit,.btn_logout { border: 1px solid var(--border-level2);background-color: var(--bg-level2) }
-    .btn_contact,.btn_duo_popup .btn_item .btn_text,.switch_btn .switch_on { color: var(--text-invert) }
-    .close_popup,.popup_row.select::after,.header_left .left_footer .footer_logo { filter: var(--invert-normal) }
     .contact_2step_popup,.contact_edit_popup,.header_subindex,.subindex_greenbox { background-color: var(--bg-level2) }
-    .contact_edit_title,.gnb_area .gnb_title .text,.header,.myinfo_area .myaccount .myname .name_text,.subindex_title,.service_area .ahead,.service_item .service_name,.subindex_alarm .alarm_title { color: var(--text-strong) }
-    .info_tooltip,.service_item,.subindex_alarm,.subindex_box,.subindex_onebox { border: 1px solid var(--border-normal);background-color: var(--bg-level2) }
     .location_select { border: 1px solid var(--border-level2) }
-    .myprofile+.subindex_row,.subindex_row li+li { border-top: 1px solid var(--border-level2) }
     .row_item .manage::before,.row_item .middle_data::before,.row_item .middle_text::before,.switch_btn::before,.switch_checkbox:checked+.switch_btn::before { background-color: var(--border-level2) }
     .row_item.abroad::before,.row_item.connect::before,.row_item.history::before,.row_item.list::before,.row_item.lock::before,.row_item.loginalarm::before,.row_item.mail::before,.row_item.name::before,.row_item.only::before,.row_item.other::before,.row_item.phone::before,.row_item.privacy::before,.row_item.step::before { filter: var(--invert-level2) }
     .switch_btn { background-color: var(--bg-level3) }
     @media (min-width: 1024px) {
+        .header_home { background: var(--bg-level2) }
         .header_left .left_menu .menu_text { color: var(--text-normal) }
         .header_left .left_menu .menu_text.on { color: var(--text-strong) }
         .header_left .left_menu .menu_text.on::after { background-color: var(--text-strong) }

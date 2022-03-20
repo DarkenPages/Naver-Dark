@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.60.4
+@version		1.61.0
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -11060,7 +11060,7 @@
 	
 }
 
-@-moz-document url-prefix("https://nid.naver.com/user2/help/"), url-prefix("https://nid.naver.com/user2/private/")
+@-moz-document url-prefix("https://nid.naver.com/user2/private/"), regexp("https://nid\\.naver\\.com/user2/help/(?!myInfoV2).*")
 {
 	html, head, body {
 		background: #242424;
@@ -11911,6 +11911,10 @@
 	
 	.otp_loginset .link_send {
 		color: #cacaca;
+	}
+	
+	.private_item_list li+li {
+		border-top: 1px solid #404040;
 	}
 }
 
@@ -101198,5 +101202,191 @@
 	
 	.list-tab li {
 		border-bottom-color: #404040;
+	}
+}
+
+@-moz-document url-prefix("https://nid.naver.com/user2/help/myInfoV2")
+{
+	:root {
+		--bg-normal: #242424;
+		--bg-level2: #2f2f2f;
+		--bg-level3: #3a3a3a;
+		--text-strong: #fff;
+		--text-normal: #cacaca;
+		--text-invert: #242424;
+		--invert-normal: invert(86%) hue-rotate(-180deg);
+		--invert-level2: invert(81.5%) hue-rotate(-180deg);
+		--border-normal: #404040;
+		--border-level2: #4f4f4f;
+	}
+	
+	.bgother {
+		background-color: var(--bg-normal);
+	}
+	
+	@media (min-width: 1024px) {
+		
+		.naverid::after {
+			background-color: var(--bg-normal);
+		}
+		
+		.naverid .header, .header_subindex .profile_area {
+			background-color: var(--bg-level2);
+		}
+		
+		.header_left .left_menu .menu_text.on {
+			color: var(--text-strong);
+		}
+		
+		.header_left .left_menu .menu_text.on::after {
+			background-color: var(--text-strong);
+		}
+		
+		.header_left .left_menu .menu_text {
+			color: var(--text-normal);
+		}
+		
+	}
+	
+	.naverid .container {
+		background-color: var(--bg-normal);
+	}
+	
+	.header, .gnb_area .gnb_title .text {
+		color: var(--text-strong);
+	}
+	
+	.header_subindex {
+		background-color: var(--bg-level2);
+	}
+	
+	.header_left .left_footer .footer_logo {
+		filter: var(--invert-normal);
+	}
+	
+	.subindex_greenbox {
+		background-color: var(--bg-level2);
+	}
+	
+	.subindex_box, .subindex_onebox {
+		background-color: var(--bg-level2);
+		border: 1px solid var(--border-normal);
+	}
+	
+	.myinfo_area .myaccount .myname .name_text, .subindex_title {
+		color: var(--text-strong);
+	}
+	
+	.myprofile+.subindex_row, .subindex_row li+li {
+		border-top: 1px solid var(--border-level2);
+	}
+	
+	.row_item .item_text {
+		color: var(--text-normal);
+	}
+	
+	.row_item.abroad::before, .row_item.connect::before, .row_item.history::before, .row_item.list::before, .row_item.lock::before, .row_item.loginalarm::before, .row_item.mail::before, .row_item.name::before, .row_item.only::before, .row_item.other::before, .row_item.phone::before, .row_item.privacy::before, .row_item.step::before {
+		filter: var(--invert-level2);
+	}
+	
+	.service_item {
+		border: 1px solid var(--border-normal);
+		background-color: var(--bg-level2);
+	}
+	
+	.service_item .service_name {
+		color: var(--text-strong);
+	}
+	
+	.btn_link .text {
+		color: var(--text-normal);
+	}
+	
+	.btn_accent .text, .btn_edit .text, .btn_logout .text {
+		color: var(--text-normal);
+	}
+	
+	
+	.btn_accent, .btn_edit, .btn_logout {
+		background-color: var(--bg-level2);
+		border: 1px solid var(--border-level2);
+	}
+	
+	.info_tooltip {
+		border: 1px solid var(--border-normal);
+		background-color: var(--bg-level2);
+	}
+	
+	.info_tooltip .info_head {
+		color: var(--text-normal);
+	}
+	
+	.switch_btn {
+		background-color: var(--bg-level3);
+	}
+	
+	.switch_btn::before {
+		background-color: var(--border-level2);
+	}
+	
+	.switch_btn .switch_on {
+		color: var(--text-invert);
+	}
+	
+	.switch_checkbox:checked+.switch_btn::before {
+		background-color: var(--border-level2);
+	}
+	
+	.myinfo_area .myaccount .myaddress {
+		color: var(--text-normal);
+	}
+	
+	.location_select {
+		border: 1px solid var(--border-level2);
+	}
+	
+	.location_select .sel {
+		color: var(--text-normal);
+	}
+	
+	.subindex_alarm {
+		background-color: var(--bg-level2);
+		border: 1px solid var(--border-normal);
+	}
+	
+	.subindex_alarm .alarm_title {
+		color: var(--text-strong);
+	}
+	
+	.service_area .ahead {
+		color: var(--text-strong);
+	}
+	
+	.row_item .manage::before, .row_item .middle_data::before, .row_item .middle_text::before {
+		background-color: var(--border-level2);
+	}
+	
+	.contact_2step_popup, .contact_edit_popup {
+		background-color: var(--bg-level2);
+	}
+	
+	.contact_edit_title {
+		color: var(--text-strong);
+	}
+	
+	.popup_input {
+		color: var(--text-normal);
+	}
+	
+	.btn_contact {
+		color: var(--text-invert);
+	}
+	
+	.close_popup, .popup_row.select::after {
+		filter: var(--invert-normal);
+	}
+	
+	.btn_duo_popup .btn_item .btn_text {
+		color: var(--text-invert);
 	}
 }

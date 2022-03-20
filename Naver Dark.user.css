@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.60.4
+@version		1.61.0
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -5681,77 +5681,6 @@
     .header.cert,.header.terms { background-color: #242424 }
     body { color: #cacaca;background: #242424 }
 }
-@-moz-document url-prefix("https://nid.naver.com/user2/help/"), url-prefix("https://nid.naver.com/user2/private/") {
-    :root .leave_way_list .radio_area .ico_radio:before,#header { background-color: #242424 }
-    :root .otp_loginset .otp_device_txt .ico_radio,:root .radio_area .ico_radio:before,.complain li.on,.complete_set_tit { background-color: #2f2f2f }
-    .ad_more .text,.ad_more_list .item,.ad_text em,.btn_file label .btn2,.btn_model[href] .btn2,.captcha_member .spc_row input[type=text],.connect_info li,.section_secretid>.contxt,.sh_lst2 dt,.sh_lst3 dt,.sns_title,.ssi_group h3,.ssi_group2>.contxt,.tbl_model .contxt_tit2,.tbl_model .contxt_webctrl .country_code,.tbl_sns td a,.c_header .contxt,.list_txt,.captcha_box>a,.captcha_member .captcha_txt,.spc_header .contxt,.complete_set_guide .desc,.complete_set_guide .desc li a,.desc,.desc_sub,.sh_content>.contxt,.help .txt p,.help .txt p>.ex,.help .txt p>span,.help .txt p>span:first-child,.localset .desc_etc,.localset_list tbody .unable span,.localset_list tbody .unable td,.localset_list tbody td .area_layer ul li a,.localset_list tbody td .area_layer ul.end a,.localset_list tbody td span,.open+.contxt_guide_help,.tbl_model .contxt_guide,.otp_leave .success+p,.otp_loginset .link_send,.otp_loginset .otp_device_radio .txt_del,.otp_loginset .otp_device_txt .txt_accessday,.otp_loginset .otp_device_txt .txt_radio.not,.otp_loginset .title .contxt,.otp_loginset .title .contxt2,.policy_lst li a,.pw_generate_box .text_desc,.pw_generate_box .text_desc:before,.radio_area label,.recall_list li,.sh_header .contxt,.ssi_group .contxt,.table_list .ctf_rom,.table_list .pw_generate_box td,.tbl_model .contxt_desc,.tbl_model .contxt_desc3,.tbl_model .contxt_desc2,.tbl_model .contxt_webctrl2,.tbl_model td,#footer address,#lnb_area .lnb ul li a,.list_id span { color: #cacaca }
-    .ad_more_list .item::before { background-color: #fff }
-    .ad_text,.box6 h3,.c_header h2,.section_home h2,.complain .quest,.complain li.on .list_cont .sum_text,.complain li.on .quest,.complete_set_guide .call_tit,.complete_set_tit .text,.copyright a,.list_id .label_rd,.localset .service_tit,.localset_list tbody td .area_layer ul .selected a,.ly_model_body p strong,.not_device_pop .subtitle,.not_device_pop .title,.otp_leave .success,.otp_loginset .otp_device_subtitle .tit,.otp_loginset .otp_device_txt .txt_radio,.otp_loginset .table_list_tit,.otp_loginset .title,.progress_time .txt,.pw_generate_area .tit,.sh_lst .nic_desc,.sh_lst dt,.spc_header h2,.sh_lst2 .logoff_desc .contxt,.table_list table td>strong,.tbl_model .contxt_tit { color: #fff }
-    .banner_area { border-right: 1px solid #404040;border-bottom: 1px solid #404040 }
-    .banner_area .text,.yellow_point,.spc_content .btn_area_btm button:first-child { color: #242424 }
-    .bar { background: #404040 }
-    .box_inn .input_txt { color: #fff !important;border: 1px solid #404040 !important;background: #242424 !important }
-    .box_inn .label_rd,.box_inn .label_txt,.ly_localnotify_arrow .txt { color: #cacaca !important }
-    .box_inn+.box_inn { border-top: 1px solid #404040 !important }
-    .box6 { border: 1px solid #404040 !important }
-    .btn_checkid,.btn_confirm2,.btn_ct,.btn_login,.btn_next2,.btn_prev,.country_code .sel_value,.dash,.edge,.ico_arr,.ico_arr2,.ico_help2,.btn_next_s,.nudge_close,.find_id_list li,.ico_new,.ico_reload,.input_box,.profile_photo .mask,.sh_lst .pic_desc .img_frame,#content .content_header h2 img { filter: invert(86%) hue-rotate(-180deg) }
-    .btn_findpw { box-sizing: border-box;border: 1px solid #404040;border-radius: 2px;background: none;background-color: #242424 }
-    .btn_findpw:before { top: 8px;position: absolute;left: 18px;font-weight: bold;content: '비밀번호 찾기';color: #cacaca }
-    .btn_login2 { border-radius: 2px;background: none;background-color: #019341 }
-    .btn_login2:before { top: 10px;position: absolute;left: 32px;font-weight: bold;content: '로그인하기';color: #242424 }
-    .btn_model .btn2,.btn_model .btn3,.captcha_box,.section_pwconfirm,.sh_group,.sh_group2,.sh_group3,.sh_group4 { border: 1px solid #404040;background: #242424 }
-    .btn_model .btn4,.btn_model[href] .btn6,.spc_content .btn_area_btm button,.tbl_model input[type=text],.tbl_model select,.help_tooltip2 p,.pw_generate_box .input_txt2,.table_list .input_txt2 { color: #cacaca;border: 1px solid #404040;background: #242424 }
-    .btn_model .btn5,.btn_model[href] .btn5 { color: #cacaca;border: 1px solid #404040 }
-    .captcha_box>a.btn_img span:before { background-position: -36px -50px }
-    .captcha_box>a.btn_img span:before,.captcha_box>a.btn_refresh span:before,.captcha_box>a.btn_sound span:before,.captcha_img .speaker:before { width: 100%;top: 0;position: absolute;pointer-events: none;left: 0;height: 100%;filter: invert(86%) hue-rotate(-180deg);content: '';background: url(https://static.nid.naver.com/images/web/user/sp_ico_captcha2.gif) no-repeat;background-size: 56px auto }
-    .captcha_box>a.btn_img,.captcha_box>a.btn_sound,.complain .list_area:first-child,.complain.line_show .list_area.on:first-child,.connect_list,.tbl_model td,.tbl_model th,.localset .service_tbl,.localset_list,.ly_model_body .line,.table_list table { border-top: 1px solid #404040 }
-    .captcha_box>a.btn_refresh span:before { background-position: -36px 0px }
-    .captcha_box>a.btn_sound span:before { background-position: -36px -26px }
-    .captcha_img .speaker,.captcha_member .sp,.tab_viewrecord { position: relative;background: none }
-    .captcha_img .speaker:before { background-position: -1px 9px }
-    .captcha_img,.localset_list tbody td .area_layer ul { border-right: 1px solid #404040 }
-    .captcha_member .spc_row input[type=text],.skin_main,.tbl_row th,.tbl_sns th,body,head,html { background: #242424 }
-    .complain .list_area,.connect_list>li,.tbl_model { border-bottom: 1px solid #404040 }
-    .complain li.on .arrow_open,.help .txt p img,.img_verify_widthout,.left .arrow,.localset_list tbody td .area_layer .close,.ly_localnotify_arrow .arrow { filter: invert(81.5%) hue-rotate(-180deg) }
-    .complain li.on .list_cont { color: #cacaca;background-color: #242424 }
-    .complain.line_show .list_area:first-child { border-top: 1px solid #404040;border-bottom: 1px solid #404040 }
-    .complete_set_guide .desc li:before { background: #cacaca }
-    .complete_set_guide .set_box,.localset_list tbody td .area_layer,.otp_loginset .otp_device_box { border: 1px solid #404040;background: #2f2f2f }
-    .connect_list li:hover,.tbl_sns tbody tr:hover { background-color: #2c2c2c }
-    .content_header { border-bottom: 2px solid #4f4f4f !important }
-    .country_code .sel_value+select { color: #cacaca !important;background: #242424 !important }
-    .gnb_notice_li a.gnb_notice .gnb_icon,.gnb_service_li a.gnb_service .gnb_icon,.mail_li a.gnb_mail .gnb_icon { filter: invert(0%) !important }
-    .help .txt .ex+.ex2,.tbl_sns td,.tbl_sns th { color: #cacaca;border-top: 1px solid #404040 }
-    .help .txt em { color: #404040 }
-    .help .txt,.localset_list tbody .tbtit .inp_txt,.ly_model_body,.table_list .btn_ctf { color: #cacaca;border: 1px solid #404040;background: #2f2f2f }
-    .link_wrap .btn_connect { border: 1px solid #404040;background-color: #242424 }
-    .localset .service_tbl tbody td,.localset_list tbody td,.table_list .table_list2 td,.table_list table td,.tbl_row td,.tbl_row th { color: #cacaca;border-bottom: 1px solid #404040 }
-    .localset .service_tbl tbody th,.localset_list tbody .tbtit,.table_list table th { color: #fff;border-right: 1px solid #404040;border-bottom: 1px solid #404040;background: #2f2f2f }
-    .localset_list tbody .tbtit .inp_txt:focus,.localset_list tbody .tbtit .on { color: #cacaca;border-color: #505050 }
-    .localset_list tbody td .area_layer ul li a:hover { color: #fff;background: #3a3a3a }
-    .localset_list tbody td .select { position: relative;color: #cacaca;border: 1px solid #404040;background: none }
-    .localset_list tbody td .select:before { width: 100%;top: 0;position: absolute;pointer-events: none;left: 0;height: 100%;filter: invert(86%) hue-rotate(-180deg);content: '';background: url(https://static.nid.naver.com/images/web/user/ico_arrow5.gif) 100% 0 no-repeat }
-    .localset_none { color: #cacaca;background: #2f2f2f }
-    .ly_localnotify_arrow { border: 1px solid #4f4f4f;background: #2f2f2f }
-    .not_device_pop { border: 1px solid #404040;background-color: #2f2f2f }
-    .otp_device_reload { color: #cacaca;border: 1px solid #404040;background-color: #2f2f2f }
-    .otp_loginset .pw_generate_box { background: #2f2f2f }
-    .sh_lst2 .link_area,.spc_content [class^=spc_row],.tbl_model .contxt_webctrl .country_code_w { border: 1px solid #404040 }
-    .sh_lst2 .selbox { padding: 1px 20px 1px 5px;filter: none;color: #cacaca;border: 1px solid #404040;border-radius: 5px;background: #242424;background-size: 16px;background-repeat: no-repeat;background-position: right 2px center;background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiNjYWNhY2EiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQuNDI3IDkuNDI3IDMuMzk2IDMuMzk2YS4yNTEuMjUxIDAgMCAwIC4zNTQgMGwzLjM5Ni0zLjM5NkEuMjUuMjUgMCAwIDAgMTEuMzk2IDlINC42MDRhLjI1LjI1IDAgMCAwLS4xNzcuNDI3ek00LjQyMyA2LjQ3IDcuODIgMy4wNzJhLjI1LjI1IDAgMCAxIC4zNTQgMEwxMS41NyA2LjQ3YS4yNS4yNSAwIDAgMS0uMTc3LjQyN0g0LjZhLjI1LjI1IDAgMCAxLS4xNzctLjQyN3oiLz48L3N2Zz4=");appearance: none;-webkit-appearance: none;-moz-appearance: none }
-    .sh_lst2 .selbox:disabled { color: #666;background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiM2NjYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQuNDI3IDkuNDI3IDMuMzk2IDMuMzk2YS4yNTEuMjUxIDAgMCAwIC4zNTQgMGwzLjM5Ni0zLjM5NkEuMjUuMjUgMCAwIDAgMTEuMzk2IDlINC42MDRhLjI1LjI1IDAgMCAwLS4xNzcuNDI3ek00LjQyMyA2LjQ3IDcuODIgMy4wNzJhLjI1LjI1IDAgMCAxIC4zNTQgMEwxMS41NyA2LjQ3YS4yNS4yNSAwIDAgMS0uMTc3LjQyN0g0LjZhLjI1LjI1IDAgMCAxLS4xNzctLjQyN3oiLz48L3N2Zz4=") }
-    .sh_lst2 .selbox:focus-visible { outline: none }
-    .sh_lst2 dd,.sh_lst3 dd,.spc_content [class^=spc_row] input[type=password],.spc_row .txt_userid { color: #cacaca;background: #242424 }
-    .tab_viewrecord a { color: #cacaca;border: 1px solid #404040;border-bottom-color: #404040;background: #2f2f2f }
-    .tab_viewrecord a.on { color: #fff;border: 1px solid #404040;background-color: #242424 }
-    .tab_viewrecord:before { width: 100%;top: 0;position: absolute;pointer-events: none;left: 0;height: 100%;filter: invert(86%) hue-rotate(-180deg);content: '';background: url(https://nid.naver.com/images/help/dot_rect.gif) repeat-x 0 31px }
-    .table_list .table_list2 th { color: #fff;border-bottom: 1px solid #404040;background: #2f2f2f }
-    .tbl_model th { color: #cacaca;border-right: 1px solid #404040;background: #242424 }
-    .tbl_row { border: 1px solid #404040;border-right: none;border-left: none }
-    .tbl_row .none_device a { color: #6c96a4 }
-    .tbl_sns td img { border-radius: 22.5% }
-    #content { background-color: #242424 !important }
-    #lnb_area { border-top: 1px solid #404040;border-bottom: 1px solid #404040;background-color: #242424 }
-}
 @-moz-document url-prefix("https://nid.naver.com/user2/help/2StepVerif") {
     .app_install .subtitle,.subtitle { color: #fff }
     .btn9_otp_guide,.btn_model .btn9 { color: #242424 }
@@ -5781,6 +5710,29 @@
     .u_cri+.u_cri::before { color: #404040 }
     #footer { background: #242424 }
     body,head,html { color: #cacaca;background: #242424 }
+}
+@-moz-document url-prefix("https://nid.naver.com/user2/help/myInfoV2") {
+    :root { --text-strong: #fff;--text-normal: #cacaca;--text-invert: #242424;--invert-normal: invert(86%) hue-rotate(-180deg);--invert-level2: invert(81.5%) hue-rotate(-180deg);--border-normal: #404040;--border-level2: #4f4f4f;--bg-normal: #242424;--bg-level3: #3a3a3a;--bg-level2: #2f2f2f }
+    .bgother,.naverid .container { background-color: var(--bg-normal) }
+    .btn_accent .text,.btn_edit .text,.btn_logout .text,.btn_link .text,.info_tooltip .info_head,.location_select .sel,.myinfo_area .myaccount .myaddress,.popup_input,.row_item .item_text { color: var(--text-normal) }
+    .btn_accent,.btn_edit,.btn_logout { border: 1px solid var(--border-level2);background-color: var(--bg-level2) }
+    .btn_contact,.btn_duo_popup .btn_item .btn_text,.switch_btn .switch_on { color: var(--text-invert) }
+    .close_popup,.popup_row.select::after,.header_left .left_footer .footer_logo { filter: var(--invert-normal) }
+    .contact_2step_popup,.contact_edit_popup,.header_subindex,.subindex_greenbox { background-color: var(--bg-level2) }
+    .contact_edit_title,.gnb_area .gnb_title .text,.header,.myinfo_area .myaccount .myname .name_text,.subindex_title,.service_area .ahead,.service_item .service_name,.subindex_alarm .alarm_title { color: var(--text-strong) }
+    .info_tooltip,.service_item,.subindex_alarm,.subindex_box,.subindex_onebox { border: 1px solid var(--border-normal);background-color: var(--bg-level2) }
+    .location_select { border: 1px solid var(--border-level2) }
+    .myprofile+.subindex_row,.subindex_row li+li { border-top: 1px solid var(--border-level2) }
+    .row_item .manage::before,.row_item .middle_data::before,.row_item .middle_text::before,.switch_btn::before,.switch_checkbox:checked+.switch_btn::before { background-color: var(--border-level2) }
+    .row_item.abroad::before,.row_item.connect::before,.row_item.history::before,.row_item.list::before,.row_item.lock::before,.row_item.loginalarm::before,.row_item.mail::before,.row_item.name::before,.row_item.only::before,.row_item.other::before,.row_item.phone::before,.row_item.privacy::before,.row_item.step::before { filter: var(--invert-level2) }
+    .switch_btn { background-color: var(--bg-level3) }
+    @media (min-width: 1024px) {
+        .header_left .left_menu .menu_text { color: var(--text-normal) }
+        .header_left .left_menu .menu_text.on { color: var(--text-strong) }
+        .header_left .left_menu .menu_text.on::after { background-color: var(--text-strong) }
+        .header_subindex .profile_area,.naverid .header { background-color: var(--bg-level2) }
+        .naverid::after { background-color: var(--bg-normal) }
+    }
 }
 @-moz-document url-prefix("https://nid.naver.com/user2/help/privacyInfo") {
     .area_text_etc,.location_agree,.parent_tit_txt,.tit_txt,#footer a,#footer a:visited { color: #cacaca }
@@ -5888,6 +5840,77 @@
     .private_item_list.disabled .switch_btn::before { background-color: #999 }
     .private_item_list.disabled:after { background-color: rgba(0, 0, 0, .1) }
     .switch_btn { background-color: #71737a }
+}
+@-moz-document url-prefix("https://nid.naver.com/user2/private/"), regexp("https://nid\\.naver\\.com/user2/help/(?!myInfoV2).*") {
+    :root .leave_way_list .radio_area .ico_radio:before,#header { background-color: #242424 }
+    :root .otp_loginset .otp_device_txt .ico_radio,:root .radio_area .ico_radio:before,.complain li.on,.complete_set_tit { background-color: #2f2f2f }
+    .ad_more .text,.ad_more_list .item,.ad_text em,.btn_file label .btn2,.btn_model[href] .btn2,.captcha_member .spc_row input[type=text],.connect_info li,.section_secretid>.contxt,.sh_lst2 dt,.sh_lst3 dt,.sns_title,.ssi_group h3,.ssi_group2>.contxt,.tbl_model .contxt_tit2,.tbl_model .contxt_webctrl .country_code,.tbl_sns td a,.c_header .contxt,.list_txt,.captcha_box>a,.captcha_member .captcha_txt,.spc_header .contxt,.complete_set_guide .desc,.complete_set_guide .desc li a,.desc,.desc_sub,.sh_content>.contxt,.help .txt p,.help .txt p>.ex,.help .txt p>span,.help .txt p>span:first-child,.localset .desc_etc,.localset_list tbody .unable span,.localset_list tbody .unable td,.localset_list tbody td .area_layer ul li a,.localset_list tbody td .area_layer ul.end a,.localset_list tbody td span,.open+.contxt_guide_help,.tbl_model .contxt_guide,.otp_leave .success+p,.otp_loginset .link_send,.otp_loginset .otp_device_radio .txt_del,.otp_loginset .otp_device_txt .txt_accessday,.otp_loginset .otp_device_txt .txt_radio.not,.otp_loginset .title .contxt,.otp_loginset .title .contxt2,.policy_lst li a,.pw_generate_box .text_desc,.pw_generate_box .text_desc:before,.radio_area label,.recall_list li,.sh_header .contxt,.ssi_group .contxt,.table_list .ctf_rom,.table_list .pw_generate_box td,.tbl_model .contxt_desc,.tbl_model .contxt_desc3,.tbl_model .contxt_desc2,.tbl_model .contxt_webctrl2,.tbl_model td,#footer address,#lnb_area .lnb ul li a,.list_id span { color: #cacaca }
+    .ad_more_list .item::before { background-color: #fff }
+    .ad_text,.box6 h3,.c_header h2,.section_home h2,.complain .quest,.complain li.on .list_cont .sum_text,.complain li.on .quest,.complete_set_guide .call_tit,.complete_set_tit .text,.copyright a,.list_id .label_rd,.localset .service_tit,.localset_list tbody td .area_layer ul .selected a,.ly_model_body p strong,.not_device_pop .subtitle,.not_device_pop .title,.otp_leave .success,.otp_loginset .otp_device_subtitle .tit,.otp_loginset .otp_device_txt .txt_radio,.otp_loginset .table_list_tit,.otp_loginset .title,.progress_time .txt,.pw_generate_area .tit,.sh_lst .nic_desc,.sh_lst dt,.spc_header h2,.sh_lst2 .logoff_desc .contxt,.table_list table td>strong,.tbl_model .contxt_tit { color: #fff }
+    .banner_area { border-right: 1px solid #404040;border-bottom: 1px solid #404040 }
+    .banner_area .text,.yellow_point,.spc_content .btn_area_btm button:first-child { color: #242424 }
+    .bar { background: #404040 }
+    .box_inn .input_txt { color: #fff !important;border: 1px solid #404040 !important;background: #242424 !important }
+    .box_inn .label_rd,.box_inn .label_txt,.ly_localnotify_arrow .txt { color: #cacaca !important }
+    .box_inn+.box_inn { border-top: 1px solid #404040 !important }
+    .box6 { border: 1px solid #404040 !important }
+    .btn_checkid,.btn_confirm2,.btn_ct,.btn_login,.btn_next2,.btn_prev,.country_code .sel_value,.dash,.edge,.ico_arr,.ico_arr2,.ico_help2,.btn_next_s,.nudge_close,.find_id_list li,.ico_new,.ico_reload,.input_box,.profile_photo .mask,.sh_lst .pic_desc .img_frame,#content .content_header h2 img { filter: invert(86%) hue-rotate(-180deg) }
+    .btn_findpw { box-sizing: border-box;border: 1px solid #404040;border-radius: 2px;background: none;background-color: #242424 }
+    .btn_findpw:before { top: 8px;position: absolute;left: 18px;font-weight: bold;content: '비밀번호 찾기';color: #cacaca }
+    .btn_login2 { border-radius: 2px;background: none;background-color: #019341 }
+    .btn_login2:before { top: 10px;position: absolute;left: 32px;font-weight: bold;content: '로그인하기';color: #242424 }
+    .btn_model .btn2,.btn_model .btn3,.captcha_box,.section_pwconfirm,.sh_group,.sh_group2,.sh_group3,.sh_group4 { border: 1px solid #404040;background: #242424 }
+    .btn_model .btn4,.btn_model[href] .btn6,.spc_content .btn_area_btm button,.tbl_model input[type=text],.tbl_model select,.help_tooltip2 p,.pw_generate_box .input_txt2,.table_list .input_txt2 { color: #cacaca;border: 1px solid #404040;background: #242424 }
+    .btn_model .btn5,.btn_model[href] .btn5 { color: #cacaca;border: 1px solid #404040 }
+    .captcha_box>a.btn_img span:before { background-position: -36px -50px }
+    .captcha_box>a.btn_img span:before,.captcha_box>a.btn_refresh span:before,.captcha_box>a.btn_sound span:before,.captcha_img .speaker:before { width: 100%;top: 0;position: absolute;pointer-events: none;left: 0;height: 100%;filter: invert(86%) hue-rotate(-180deg);content: '';background: url(https://static.nid.naver.com/images/web/user/sp_ico_captcha2.gif) no-repeat;background-size: 56px auto }
+    .captcha_box>a.btn_img,.captcha_box>a.btn_sound,.complain .list_area:first-child,.complain.line_show .list_area.on:first-child,.connect_list,.tbl_model td,.tbl_model th,.localset .service_tbl,.localset_list,.ly_model_body .line,.private_item_list li+li,.table_list table { border-top: 1px solid #404040 }
+    .captcha_box>a.btn_refresh span:before { background-position: -36px 0px }
+    .captcha_box>a.btn_sound span:before { background-position: -36px -26px }
+    .captcha_img .speaker,.captcha_member .sp,.tab_viewrecord { position: relative;background: none }
+    .captcha_img .speaker:before { background-position: -1px 9px }
+    .captcha_img,.localset_list tbody td .area_layer ul { border-right: 1px solid #404040 }
+    .captcha_member .spc_row input[type=text],.skin_main,.tbl_row th,.tbl_sns th,body,head,html { background: #242424 }
+    .complain .list_area,.connect_list>li,.tbl_model { border-bottom: 1px solid #404040 }
+    .complain li.on .arrow_open,.help .txt p img,.img_verify_widthout,.left .arrow,.localset_list tbody td .area_layer .close,.ly_localnotify_arrow .arrow { filter: invert(81.5%) hue-rotate(-180deg) }
+    .complain li.on .list_cont { color: #cacaca;background-color: #242424 }
+    .complain.line_show .list_area:first-child { border-top: 1px solid #404040;border-bottom: 1px solid #404040 }
+    .complete_set_guide .desc li:before { background: #cacaca }
+    .complete_set_guide .set_box,.localset_list tbody td .area_layer,.otp_loginset .otp_device_box { border: 1px solid #404040;background: #2f2f2f }
+    .connect_list li:hover,.tbl_sns tbody tr:hover { background-color: #2c2c2c }
+    .content_header { border-bottom: 2px solid #4f4f4f !important }
+    .country_code .sel_value+select { color: #cacaca !important;background: #242424 !important }
+    .gnb_notice_li a.gnb_notice .gnb_icon,.gnb_service_li a.gnb_service .gnb_icon,.mail_li a.gnb_mail .gnb_icon { filter: invert(0%) !important }
+    .help .txt .ex+.ex2,.tbl_sns td,.tbl_sns th { color: #cacaca;border-top: 1px solid #404040 }
+    .help .txt em { color: #404040 }
+    .help .txt,.localset_list tbody .tbtit .inp_txt,.ly_model_body,.table_list .btn_ctf { color: #cacaca;border: 1px solid #404040;background: #2f2f2f }
+    .link_wrap .btn_connect { border: 1px solid #404040;background-color: #242424 }
+    .localset .service_tbl tbody td,.localset_list tbody td,.table_list .table_list2 td,.table_list table td,.tbl_row td,.tbl_row th { color: #cacaca;border-bottom: 1px solid #404040 }
+    .localset .service_tbl tbody th,.localset_list tbody .tbtit,.table_list table th { color: #fff;border-right: 1px solid #404040;border-bottom: 1px solid #404040;background: #2f2f2f }
+    .localset_list tbody .tbtit .inp_txt:focus,.localset_list tbody .tbtit .on { color: #cacaca;border-color: #505050 }
+    .localset_list tbody td .area_layer ul li a:hover { color: #fff;background: #3a3a3a }
+    .localset_list tbody td .select { position: relative;color: #cacaca;border: 1px solid #404040;background: none }
+    .localset_list tbody td .select:before { width: 100%;top: 0;position: absolute;pointer-events: none;left: 0;height: 100%;filter: invert(86%) hue-rotate(-180deg);content: '';background: url(https://static.nid.naver.com/images/web/user/ico_arrow5.gif) 100% 0 no-repeat }
+    .localset_none { color: #cacaca;background: #2f2f2f }
+    .ly_localnotify_arrow { border: 1px solid #4f4f4f;background: #2f2f2f }
+    .not_device_pop { border: 1px solid #404040;background-color: #2f2f2f }
+    .otp_device_reload { color: #cacaca;border: 1px solid #404040;background-color: #2f2f2f }
+    .otp_loginset .pw_generate_box { background: #2f2f2f }
+    .sh_lst2 .link_area,.spc_content [class^=spc_row],.tbl_model .contxt_webctrl .country_code_w { border: 1px solid #404040 }
+    .sh_lst2 .selbox { padding: 1px 20px 1px 5px;filter: none;color: #cacaca;border: 1px solid #404040;border-radius: 5px;background: #242424;background-size: 16px;background-repeat: no-repeat;background-position: right 2px center;background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiNjYWNhY2EiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQuNDI3IDkuNDI3IDMuMzk2IDMuMzk2YS4yNTEuMjUxIDAgMCAwIC4zNTQgMGwzLjM5Ni0zLjM5NkEuMjUuMjUgMCAwIDAgMTEuMzk2IDlINC42MDRhLjI1LjI1IDAgMCAwLS4xNzcuNDI3ek00LjQyMyA2LjQ3IDcuODIgMy4wNzJhLjI1LjI1IDAgMCAxIC4zNTQgMEwxMS41NyA2LjQ3YS4yNS4yNSAwIDAgMS0uMTc3LjQyN0g0LjZhLjI1LjI1IDAgMCAxLS4xNzctLjQyN3oiLz48L3N2Zz4=");appearance: none;-webkit-appearance: none;-moz-appearance: none }
+    .sh_lst2 .selbox:disabled { color: #666;background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiM2NjYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQuNDI3IDkuNDI3IDMuMzk2IDMuMzk2YS4yNTEuMjUxIDAgMCAwIC4zNTQgMGwzLjM5Ni0zLjM5NkEuMjUuMjUgMCAwIDAgMTEuMzk2IDlINC42MDRhLjI1LjI1IDAgMCAwLS4xNzcuNDI3ek00LjQyMyA2LjQ3IDcuODIgMy4wNzJhLjI1LjI1IDAgMCAxIC4zNTQgMEwxMS41NyA2LjQ3YS4yNS4yNSAwIDAgMS0uMTc3LjQyN0g0LjZhLjI1LjI1IDAgMCAxLS4xNzctLjQyN3oiLz48L3N2Zz4=") }
+    .sh_lst2 .selbox:focus-visible { outline: none }
+    .sh_lst2 dd,.sh_lst3 dd,.spc_content [class^=spc_row] input[type=password],.spc_row .txt_userid { color: #cacaca;background: #242424 }
+    .tab_viewrecord a { color: #cacaca;border: 1px solid #404040;border-bottom-color: #404040;background: #2f2f2f }
+    .tab_viewrecord a.on { color: #fff;border: 1px solid #404040;background-color: #242424 }
+    .tab_viewrecord:before { width: 100%;top: 0;position: absolute;pointer-events: none;left: 0;height: 100%;filter: invert(86%) hue-rotate(-180deg);content: '';background: url(https://nid.naver.com/images/help/dot_rect.gif) repeat-x 0 31px }
+    .table_list .table_list2 th { color: #fff;border-bottom: 1px solid #404040;background: #2f2f2f }
+    .tbl_model th { color: #cacaca;border-right: 1px solid #404040;background: #242424 }
+    .tbl_row { border: 1px solid #404040;border-right: none;border-left: none }
+    .tbl_row .none_device a { color: #6c96a4 }
+    .tbl_sns td img { border-radius: 22.5% }
+    #content { background-color: #242424 !important }
+    #lnb_area { border-top: 1px solid #404040;border-bottom: 1px solid #404040;background-color: #242424 }
 }
 @-moz-document url-prefix("https://nid.naver.com/user2/V2Join") {
     :root .input_chk label:before { filter: invert(87%) hue-rotate(-180deg) }

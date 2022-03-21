@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.61.1
+@version		1.61.2
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -83103,6 +83103,121 @@
 	
 	.cs_traffic .t_sub.t_sub_v1 li .num {
 		color: #d75858;
+	}
+	
+	.cs_rating .tab_bx ul {
+		border: 1px solid #404040;
+		border-width: 1px 1px 0;
+	}
+	
+	.cs_rating .tab_bx ul li > a, .cs_rating .tab_bx ul li > span {
+		border: 1px solid #404040;
+		border-width: 0 1px 1px 0;
+		background-color: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.cs_rating .tab_bx ul li.on > a, .cs_rating .tab_bx ul li.on > span {
+		border-bottom: 1px solid #4f4f4f;
+		background-color: #3a3a3a;
+		color: #fff;
+	}
+	
+	.cs_rating .sort_pop select {
+		color: #cacaca;
+	}
+	
+	.cs_rating .sort_pop .btn {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.cs_rating .sort_pop .btn .arrow,  .cs_rating .date_setting .prev, .cs_rating .date_setting .prevoff, .cs_rating .date_setting .nextoff, .cs_rating .date_setting .next {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_rating .date_setting {
+		color: #fff;
+		font-family: 'Helvetica', 'serif';
+	}
+	
+	.btn_tab li {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.btn_tab li.on {
+		background-color: #3a3a3a;
+	}
+	
+	.btn_tab li.on a, .btn_tab li.on span {
+		border: 1px solid #4f4f4f;
+		color: #fff;
+	}
+	
+	.cs_rating .scroll_bx {
+		border: 1px solid #404040;
+		scrollbar-shadow-color: #404040;
+		scrollbar-highlight-color: #404040;
+		scrollbar-face-color: #242424;
+		scrollbar-3dlight-color: #2f2f2f;
+		scrollbar-darkshadow-color: #2f2f2f;
+		scrollbar-track-color: #2f2f2f;
+		scrollbar-arrow-color: #cacaca;
+	}
+	
+	.cs_rating .rating_cnt .tb_list th {
+		border-color: #404040;
+		background: #2f2f2f;
+		color: #fff;
+	}
+	
+	.cs_rating .rating_cnt .tb_list td {
+		border: 1px solid #404040;
+		border-width: 1px 0 0 1px;
+	}
+	
+	.cs_rating .rating_cnt td .rate {
+		color: #fff;
+	}
+	
+	.cs_rating .info {
+		background: none;
+		position: relative;
+		color: #cacaca;
+	}
+	
+	.cs_rating .info:before {
+		background: url(https://ssl.pstatic.net/sstatic/search/images11/icon_warning.gif) 0 0 no-repeat;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		filter: invert(86%) hue-rotate(-180deg);
+		pointer-events: none;
+	}
+	
+	.cs_rating .info .line_bar {
+		color: #404040;
+	}
+	
+	.cs_rating .info .go_total_standard {
+		color: #cacaca;
+	}
+	
+	.cs_rating .relation_keywords {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_rating .relation_keywords h5 {
+		font-family: 'Helvetica', 'serif';
+		color: #fff;
+	}
+	
+	.cs_rating .rating_cnt table tbody .num {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 }
 

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.61.2
+@version		1.61.3
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -83218,6 +83218,49 @@
 	
 	.cs_rating .rating_cnt table tbody .num {
 		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_radio_frequency {
+		color: #cacaca;
+	}
+	
+	.cs_radio_frequency .cs_tab {
+		border-bottom: 2px solid #4f4f4f;
+	}
+	
+	.cs_radio_frequency .cs_tab ul li a {
+		border: 1px solid #404040;
+		border-bottom: 0;
+		background: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.cs_radio_frequency .cs_tab ul li.on a {
+		border: 1px solid #4f4f4f;
+		border-bottom: none;
+		background: #3a3a3a;
+	}
+	
+	.cs_radio_frequency .tb_box .tb_list th {
+		border-color: #404040;
+		background: #3a3a3a;
+		color: #cacaca;
+	}
+	
+	.cs_radio_frequency .tb_box .tb_list .stress_line {
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_radio_frequency .tb_box .tb_list td {
+		border-color: #404040;
+	}
+	
+	.cs_radio_frequency .tb_box {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_radio_frequency .prcs_guide .more2 {
+		color: #cacaca;
 	}
 }
 

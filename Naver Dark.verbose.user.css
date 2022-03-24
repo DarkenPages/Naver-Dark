@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.61.3
+@version		1.61.4
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -13558,6 +13558,37 @@
 	
 	.user_mycafe_thumb .link:after {
 		background-size: calc(100% + 1px);
+	}
+	
+	.Autocomplete .link.selected, .Autocomplete .link:hover {
+		background-color: #2f2f2f;
+	}
+	
+	.RelationSearchList .relation_search_item {
+		background-color: #3a3a3a;
+		color: #cacaca;
+	}
+	
+	.RelationSearchList .button_list_open_close {
+		background-color: #3a3a3a;
+	}
+	
+	.RelationSearchList .button_list_open_close:after {
+		border: 1px solid #cacaca;
+		border-width: 0 1px 1px 0;
+	}
+	
+	.CombinationsMore .more_button {
+		background-color: #3a3a3a;
+		color: #cacaca;
+	}
+	
+	.user_feed_area.type_commerce .user_feed_info .con_top .commerce .price {
+		color: #fff;
+	}
+	
+	.user_feed_area.type_commerce .commerce_addition_info, .user_feed_area.type_commerce .con_bottom .date, .user_feed_area.type_commerce .con_bottom .count, .user_feed_area.type_commerce .con_bottom .info {
+		color: #cacaca;
 	}
 }
 
@@ -75045,7 +75076,7 @@
 		background-image: linear-gradient(to left, #2f2f2f 75%, rgba(47,47,47,0) 100%) !important;
 	}
 	
-	.cs_common_module .cm_top_wrap .sub_tap_area .next_visual:before, .cs_common_module .lego_scroll_middle .next_visual:before, .cs_common_module .lego_scroll_date .next_visual:before, .cs_common_module .filter_tap_area .next_visual:before, .cs_common_module .photo_filter_area .next_visual:before, .cs_common_module .performance_filter_area .next_visual:before, .cs_common_module .league_schedule .cm_tap_area .next_visual:before, .cs_common_module .cm_tab_info_box .cm_tap_area .next_visual:before, .cs_common_module .cm_select_month_ver2 .next_visual:before, .cs_common_module .lego_title_tab_outer.type_flow .next_visual:before, .cs_common_module .cm_top_taste_box .rel_taste_wrap .rel_answer_card .filter_tab_area .next_visual:before {
+	.cs_common_module .cm_top_wrap .sub_tap_area .next_visual:before, .cs_common_module .lego_scroll_date .next_visual:before, .cs_common_module .filter_tap_area .next_visual:before, .cs_common_module .photo_filter_area .next_visual:before, .cs_common_module .performance_filter_area .next_visual:before, .cs_common_module .league_schedule .cm_tap_area .next_visual:before, .cs_common_module .cm_tab_info_box .cm_tap_area .next_visual:before, .cs_common_module .cm_select_month_ver2 .next_visual:before, .cs_common_module .lego_title_tab_outer.type_flow .next_visual:before, .cs_common_module .cm_top_taste_box .rel_taste_wrap .rel_answer_card .filter_tab_area .next_visual:before {
 		border-color: #fff;
 	}
 	
@@ -75057,7 +75088,7 @@
 		background-image: linear-gradient(to right, #2f2f2f 75%, rgba(47,47,47,0) 100%) !important;
 	}
 	
-	.cs_common_module .cm_top_wrap .sub_tap_area .pre_visual:before, .cs_common_module .lego_scroll_middle .pre_visual:before, .cs_common_module .lego_scroll_date .pre_visual:before, .cs_common_module .filter_tap_area .pre_visual:before, .cs_common_module .photo_filter_area .pre_visual:before, .cs_common_module .performance_filter_area .pre_visual:before, .cs_common_module .league_schedule .cm_tap_area .pre_visual:before, .cs_common_module .cm_tab_info_box .cm_tap_area .pre_visual:before, .cs_common_module .cm_select_month_ver2 .pre_visual:before, .cs_common_module .lego_title_tab_outer.type_flow .pre_visual:before, .cs_common_module .cm_top_taste_box .rel_taste_wrap .rel_answer_card .filter_tab_area .pre_visual:before {
+	.cs_common_module .cm_top_wrap .sub_tap_area .pre_visual:before, .cs_common_module .lego_scroll_date .pre_visual:before, .cs_common_module .filter_tap_area .pre_visual:before, .cs_common_module .photo_filter_area .pre_visual:before, .cs_common_module .performance_filter_area .pre_visual:before, .cs_common_module .league_schedule .cm_tap_area .pre_visual:before, .cs_common_module .cm_tab_info_box .cm_tap_area .pre_visual:before, .cs_common_module .cm_select_month_ver2 .pre_visual:before, .cs_common_module .lego_title_tab_outer.type_flow .pre_visual:before, .cs_common_module .cm_top_taste_box .rel_taste_wrap .rel_answer_card .filter_tab_area .pre_visual:before {
 		border-color: #fff;
 	}
 	
@@ -83261,6 +83292,10 @@
 	
 	.cs_radio_frequency .prcs_guide .more2 {
 		color: #cacaca;
+	}
+	
+	.cs_common_module .list_type ~ .cm_content_wrap {
+		background-image: linear-gradient(to bottom, #e2ebf1 119px, #f1f5f7 272px);
 	}
 }
 

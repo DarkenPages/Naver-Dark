@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.61.4
+@version		1.61.5
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -15954,6 +15954,10 @@
 	
 	.sub_aside .cafebook_tree, .sub_aside .cafebook_tree_menu {
 		background-color: #2f2f2f;
+	}
+	
+	.list-i-selling-safe, .list-i-sellout, .list-i-selling {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 }
 

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.61.7
+@version		1.61.8
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -5950,7 +5950,7 @@
     .form_ul1 .form_title,.send_window .tf_cont a,.send_window .tf_cont span,.task_btn .buttonSet a,.note_read .info dd,.notelist_item .read .from a,.notelist_item .read .title a,.send_window .tf_tit .recipient,.send_window .tf_tit label,.writing_option label { color: #fff }
     .gnb_notice_li a.gnb_notice .gnb_icon,.gnb_service_li a.gnb_service .gnb_icon,.mail_li a.gnb_mail .gnb_icon { filter: invert(0%) !important }
     .horizon_mode .divider,.vertical_mode .divider { border-color: #404040;background-color: #242424 }
-    .input_keyword .input_text,.note_setup .setup_textfield,.paginate .pageSelector input,select { color: #cacaca;border: 1px solid #404040;background: #242424 }
+    .input_keyword .input_text,.note_setup .setup_textfield,.paginate .pageSelector input { color: #cacaca;border: 1px solid #404040;background: #242424 }
     .input_keyword button,head,html { background: #242424 }
     .list_keyword li.selected,div.list_menu .click,div.list_menu .ovr { background: #2f2f2f }
     .note_read .msg_contents a { color: #7474e3 }
@@ -5976,6 +5976,9 @@
     #header,.content_header,.msg_header,.setup_menu_area ul,.skin_set_wrap .skin_title { border-bottom: 1px solid #404040 }
     #nav_snb div.section_typemail,div.btn_workset,div.svc_menu_area { border-right: 1px solid #404040 !important }
     #nav_snb,div.ly_folder_drag { background-color: #242424 !important }
+    select { padding: 3px 20px 1px 5px !important;font-family: 'Helvetica', 'serif' !important;filter: none !important;color: #cacaca;color: #cacaca;border: 1px solid #404040;border: 1px solid #404040;border-radius: 5px !important;background: #242424;background: #242424;background-size: 16px !important;background-repeat: no-repeat !important;background-position: right 2px center !important;background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiNjYWNhY2EiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQuNDI3IDkuNDI3IDMuMzk2IDMuMzk2YS4yNTEuMjUxIDAgMCAwIC4zNTQgMGwzLjM5Ni0zLjM5NkEuMjUuMjUgMCAwIDAgMTEuMzk2IDlINC42MDRhLjI1LjI1IDAgMCAwLS4xNzcuNDI3ek00LjQyMyA2LjQ3IDcuODIgMy4wNzJhLjI1LjI1IDAgMCAxIC4zNTQgMEwxMS41NyA2LjQ3YS4yNS4yNSAwIDAgMS0uMTc3LjQyN0g0LjZhLjI1LjI1IDAgMCAxLS4xNzctLjQyN3oiLz48L3N2Zz4=") !important;appearance: none;-webkit-appearance: none;-moz-appearance: none }
+    select:disabled { color: #666 !important;background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiM2NjYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQuNDI3IDkuNDI3IDMuMzk2IDMuMzk2YS4yNTEuMjUxIDAgMCAwIC4zNTQgMGwzLjM5Ni0zLjM5NkEuMjUuMjUgMCAwIDAgMTEuMzk2IDlINC42MDRhLjI1LjI1IDAgMCAwLS4xNzcuNDI3ek00LjQyMyA2LjQ3IDcuODIgMy4wNzJhLjI1LjI1IDAgMCAxIC4zNTQgMEwxMS41NyA2LjQ3YS4yNS4yNSAwIDAgMS0uMTc3LjQyN0g0LjZhLjI1LjI1IDAgMCAxLS4xNzctLjQyN3oiLz48L3N2Zz4=") !important }
+    select:focus-visible { outline: none !important }
 }
 @-moz-document url-prefix("https://note.naver.com/note/sendForm.nhn") {
     .pop_content .writing_area { border-top: 1px solid #404040 }

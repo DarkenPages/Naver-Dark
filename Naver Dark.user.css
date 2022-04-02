@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.61.8
+@version		1.61.9
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -5941,8 +5941,8 @@
     .btn_fold .ico,.ico_mail,.ico_send,.ico_window,.note_setup .ico_list1,.note_setup .ico_list2,.note_setup .ico_list3,.paginate a.next,.paginate a.next_end,.paginate a.next_end_n,.paginate a.next_n,.paginate a.pre,.paginate a.pre_end,.paginate a.pre_end_n,.paginate a.pre_n,.skin_set_wrap .btn_cls,.skin_set_wrap .sk_list_area li,.skin_set_wrap .sk_list_area li .sk_view,.skin_set_wrap .sk_list_area li .white,.task_btn .mode_hor,.task_btn .mode_list,.task_btn .mode_ver,.task_btn .subSet .refresh,null,.gnb_list_box li:not(.note) a,.ico_report,.note_read .info .t_ico,.notelist .note_type span { filter: invert(86%) hue-rotate(-180deg) }
     .btn_fold,.cutlistTable .line { border-right: 1px solid #404040 }
     .btn_workset a.btn_import span,.btn_workset a.btn_quickwrite span { z-index: 50;text-align: center;overflow: visible;line-height: normal;font-weight: bold;font-size: 13px;color: #000;background: transparent }
-    .button,.button_s,.content_header .msearch .search,.content_header .msearch select,.list_keyword,.send_window .tf_cont .tx,.task_btn .subSet select { border: 1px solid #404040 }
-    .button,.button_s,.content_header .notice,.cutlistTable td label,.list_head,.list_head .default,.list_head .default strong,.list_head a,.list_head span,.list_menu ul li a,.note_read .info dt,.note_read .note_none li,.note_read .note_none li a,.note_setup .btns .button,.searchkey_result .keyword,.searchkey_result .keyword a,.setup_menu_area li a,.task_btn .buttonSet,.content_header .msearch select,.notelist .note_info .date,.notelist .note_info .date_send,.notelist .note_info .refuse,.notelist_head li,.task_btn .subSet select,.note_read .refuse a,.writing_option .character,.writing_option p,#footer a,.note_read .msg_delete p,#footer address { color: #cacaca }
+    .button,.button_s,.content_header .msearch .search,.content_header .msearch select,.list_keyword,.send_window .tf_cont .tx,.task_btn .subSet select,.note_setup .cafe_allow_list select,.note_setup .cafe_deny_list select { border: 1px solid #404040 }
+    .button,.button_s,.content_header .notice,.cutlistTable td label,.list_head,.list_head .default,.list_head .default strong,.list_head a,.list_head span,.list_menu ul li a,.note_read .info dt,.note_read .note_none li,.note_read .note_none li a,.note_setup .btns .button,.searchkey_result .keyword,.searchkey_result .keyword a,.setup_menu_area li a,.task_btn .buttonSet,.content_header .msearch select,.notelist .note_info .date,.notelist .note_info .date_send,.notelist .note_info .refuse,.notelist_head li,.task_btn .subSet select,.note_read .refuse a,.note_setup .description,.subtitle .status,.writing_option .character,.writing_option p,#footer a,.note_read .msg_delete p,#footer address { color: #cacaca }
     .cont_list .note_none,.cutlistTable td { color: #cacaca;border-bottom: 1px solid #404040 }
     .content_header .msearch input,.cutlistTable { color: #cacaca;border: 1px solid #404040 }
     .cutlistTable th { border-bottom: 1px solid #404040;background: #2f2f2f }
@@ -5951,7 +5951,8 @@
     .gnb_notice_li a.gnb_notice .gnb_icon,.gnb_service_li a.gnb_service .gnb_icon,.mail_li a.gnb_mail .gnb_icon { filter: invert(0%) !important }
     .horizon_mode .divider,.vertical_mode .divider { border-color: #404040;background-color: #242424 }
     .input_keyword .input_text,.note_setup .setup_textfield,.paginate .pageSelector input { color: #cacaca;border: 1px solid #404040;background: #242424 }
-    .input_keyword button,head,html { background: #242424 }
+    .input_keyword button { background: #242424 }
+    .list_head .icon_back { background-color: #404040 }
     .list_keyword li.selected,div.list_menu .click,div.list_menu .ovr { background: #2f2f2f }
     .note_read .msg_contents a { color: #7474e3 }
     .note_read .msg_contents a:visited { color: #e177e3 }
@@ -5976,6 +5977,7 @@
     #header,.content_header,.msg_header,.setup_menu_area ul,.skin_set_wrap .skin_title { border-bottom: 1px solid #404040 }
     #nav_snb div.section_typemail,div.btn_workset,div.svc_menu_area { border-right: 1px solid #404040 !important }
     #nav_snb,div.ly_folder_drag { background-color: #242424 !important }
+    head,html { color: #fff;background: #242424 }
     select { padding: 3px 20px 1px 5px !important;font-family: 'Helvetica', 'serif' !important;filter: none !important;color: #cacaca;color: #cacaca;border: 1px solid #404040;border: 1px solid #404040;border-radius: 5px !important;background: #242424;background: #242424;background-size: 16px !important;background-repeat: no-repeat !important;background-position: right 2px center !important;background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiNjYWNhY2EiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQuNDI3IDkuNDI3IDMuMzk2IDMuMzk2YS4yNTEuMjUxIDAgMCAwIC4zNTQgMGwzLjM5Ni0zLjM5NkEuMjUuMjUgMCAwIDAgMTEuMzk2IDlINC42MDRhLjI1LjI1IDAgMCAwLS4xNzcuNDI3ek00LjQyMyA2LjQ3IDcuODIgMy4wNzJhLjI1LjI1IDAgMCAxIC4zNTQgMEwxMS41NyA2LjQ3YS4yNS4yNSAwIDAgMS0uMTc3LjQyN0g0LjZhLjI1LjI1IDAgMCAxLS4xNzctLjQyN3oiLz48L3N2Zz4=") !important;appearance: none;-webkit-appearance: none;-moz-appearance: none }
     select:disabled { color: #666 !important;background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiM2NjYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQuNDI3IDkuNDI3IDMuMzk2IDMuMzk2YS4yNTEuMjUxIDAgMCAwIC4zNTQgMGwzLjM5Ni0zLjM5NkEuMjUuMjUgMCAwIDAgMTEuMzk2IDlINC42MDRhLjI1LjI1IDAgMCAwLS4xNzcuNDI3ek00LjQyMyA2LjQ3IDcuODIgMy4wNzJhLjI1LjI1IDAgMCAxIC4zNTQgMEwxMS41NyA2LjQ3YS4yNS4yNSAwIDAgMS0uMTc3LjQyN0g0LjZhLjI1LjI1IDAgMCAxLS4xNzctLjQyN3oiLz48L3N2Zz4=") !important }
     select:focus-visible { outline: none !important }

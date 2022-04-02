@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.61.8
+@version		1.61.9
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -1323,6 +1323,7 @@
 {
 	html, head {
 		background: #242424;
+		color: #fff;
 	}
 	
 	div.btn_workset, div.svc_menu_area, #nav_snb div.section_typemail {
@@ -1616,6 +1617,22 @@
 	select:disabled {
 		color: #666 !important;
 		background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiM2NjYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQuNDI3IDkuNDI3IDMuMzk2IDMuMzk2YS4yNTEuMjUxIDAgMCAwIC4zNTQgMGwzLjM5Ni0zLjM5NkEuMjUuMjUgMCAwIDAgMTEuMzk2IDlINC42MDRhLjI1LjI1IDAgMCAwLS4xNzcuNDI3ek00LjQyMyA2LjQ3IDcuODIgMy4wNzJhLjI1LjI1IDAgMCAxIC4zNTQgMEwxMS41NyA2LjQ3YS4yNS4yNSAwIDAgMS0uMTc3LjQyN0g0LjZhLjI1LjI1IDAgMCAxLS4xNzctLjQyN3oiLz48L3N2Zz4=") !important;
+	}
+	
+	.note_setup .description {
+		color: #cacaca;
+	}
+	
+	.note_setup .cafe_allow_list select, .note_setup .cafe_deny_list select {
+		border: 1px solid #404040;
+	}
+	
+	.subtitle .status {
+		color: #cacaca;
+	}
+	
+	.list_head .icon_back {
+		background-color: #404040;
 	}
 }
 

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.61.9
+@version		1.61.10
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -5938,11 +5938,11 @@
 @-moz-document url-prefix("https://note.naver.com") {
     .bn_nworks,.bn_nworks,.btn_fold,.btn_fold,.btn_workset,.btn_workset,.content_header,.content_header,.h_lft_menu,.h_lft_menu,.h_lft_menu .btn_add,.h_lft_menu .btn_add,.h_lft_menu .btn_setup,.h_lft_menu .btn_setup,.searchkey_result,.searchkey_result,.section_detail_srch,.section_detail_srch,.section_etcmail,.section_etcmail,.section_skinset,.section_skinset,.section_typemail,.section_typemail,.svc_menu_area,.svc_menu_area,.svc_menu_area .list_menu,.svc_menu_area .list_menu,.svc_menu_area .list_menu,.svc_menu_area .list_menu { border-color: #404040 !important }
     .bn_nworks,.h_lft_menu,.h_lft_menu .btn_add,.h_lft_menu .btn_setup,.paginate strong,.section_etcmail,.section_skinset,.section_typemail,.svc_menu_area .list_menu { border-color: #404040 }
-    .btn_fold .ico,.ico_mail,.ico_send,.ico_window,.note_setup .ico_list1,.note_setup .ico_list2,.note_setup .ico_list3,.paginate a.next,.paginate a.next_end,.paginate a.next_end_n,.paginate a.next_n,.paginate a.pre,.paginate a.pre_end,.paginate a.pre_end_n,.paginate a.pre_n,.skin_set_wrap .btn_cls,.skin_set_wrap .sk_list_area li,.skin_set_wrap .sk_list_area li .sk_view,.skin_set_wrap .sk_list_area li .white,.task_btn .mode_hor,.task_btn .mode_list,.task_btn .mode_ver,.task_btn .subSet .refresh,null,.gnb_list_box li:not(.note) a,.ico_report,.note_read .info .t_ico,.notelist .note_type span { filter: invert(86%) hue-rotate(-180deg) }
+    .btn_fold .ico,.ico_mail,.ico_send,.ico_window,.note_setup .ico_list1,.note_setup .ico_list2,.note_setup .ico_list3,.paginate a.next,.paginate a.next_end,.paginate a.next_end_n,.paginate a.next_n,.paginate a.pre,.paginate a.pre_end,.paginate a.pre_end_n,.paginate a.pre_n,.skin_set_wrap .btn_cls,.skin_set_wrap .sk_list_area li,.skin_set_wrap .sk_list_area li .sk_view,.skin_set_wrap .sk_list_area li .white,.task_btn .mode_hor,.task_btn .mode_list,.task_btn .mode_ver,.task_btn .subSet .refresh,null,.gnb_list_box li:not(.note) a,.ico_report,.note_read .info .t_ico,.notelist .note_type span,.icon_tip { filter: invert(86%) hue-rotate(-180deg) }
     .btn_fold,.cutlistTable .line { border-right: 1px solid #404040 }
     .btn_workset a.btn_import span,.btn_workset a.btn_quickwrite span { z-index: 50;text-align: center;overflow: visible;line-height: normal;font-weight: bold;font-size: 13px;color: #000;background: transparent }
     .button,.button_s,.content_header .msearch .search,.content_header .msearch select,.list_keyword,.send_window .tf_cont .tx,.task_btn .subSet select,.note_setup .cafe_allow_list select,.note_setup .cafe_deny_list select { border: 1px solid #404040 }
-    .button,.button_s,.content_header .notice,.cutlistTable td label,.list_head,.list_head .default,.list_head .default strong,.list_head a,.list_head span,.list_menu ul li a,.note_read .info dt,.note_read .note_none li,.note_read .note_none li a,.note_setup .btns .button,.searchkey_result .keyword,.searchkey_result .keyword a,.setup_menu_area li a,.task_btn .buttonSet,.content_header .msearch select,.notelist .note_info .date,.notelist .note_info .date_send,.notelist .note_info .refuse,.notelist_head li,.task_btn .subSet select,.note_read .refuse a,.note_setup .description,.subtitle .status,.writing_option .character,.writing_option p,#footer a,.note_read .msg_delete p,#footer address { color: #cacaca }
+    .button,.button_s,.content_header .notice,.cutlistTable td label,.list_head,.list_head .default,.list_head .default strong,.list_head a,.list_head span,.list_menu ul li a,.note_read .info dt,.note_read .note_none li,.note_read .note_none li a,.note_setup .btns .button,.searchkey_result .keyword,.searchkey_result .keyword a,.setup_menu_area li a,.task_btn .buttonSet,.content_header .msearch select,.notelist .note_info .date,.notelist .note_info .date_send,.notelist .note_info .refuse,.notelist_head li,.task_btn .subSet select,.note_read .refuse a,.note_setup .cafe_allow_list .select_all,.note_setup .cafe_deny_list .select_all,.note_setup .description,.setup_layer .tt_list li,.subtitle .status,.writing_option .character,.writing_option p,#footer a,.note_read .msg_delete p,#footer address { color: #cacaca }
     .cont_list .note_none,.cutlistTable td { color: #cacaca;border-bottom: 1px solid #404040 }
     .content_header .msearch input,.cutlistTable { color: #cacaca;border: 1px solid #404040 }
     .cutlistTable th { border-bottom: 1px solid #404040;background: #2f2f2f }
@@ -5964,6 +5964,8 @@
     .notelist_item .from a,.notelist_item .title a { color: #688cda }
     .notelist_item li.ovr,.notelist_item li.selected { background-color: #2f2f2f }
     .send_window .tf_cont .tx input { color: #cacaca !important;background: #242424 }
+    .setup_layer { border: 1px solid #404040;background: #2f2f2f }
+    .setup_layer .hTitle { color: #fff;border-bottom: 1px solid #404040 }
     .setup_menu_area li { border: 1px solid #404040;border-bottom: 0;background-color: #242424 }
     .setup_menu_area li.on { border-bottom: 1px solid #242424;background: #242424 }
     .skin_set_wrap,.skin_set_wrap .skin_foot button { color: #cacaca;border: 1px solid #404040;background-color: #242424 }

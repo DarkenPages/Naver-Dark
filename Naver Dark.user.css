@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.61.10
+@version		1.62.0
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -4193,6 +4193,18 @@
     .lst_policy li,address a { color: #fff }
     .r_section h2 { filter: invert(83.5%) hue-rotate(-180deg) }
     .r_section p { color: #cacaca }
+}
+@-moz-document url-prefix("https://idcard.nid.naver.com") {
+    [class*='Footer_footer__'],[class*='Layout_layout__'][class*='Layout_whole__'] { background-color: #2f2f2f !important }
+    [class*='Footer_footer_item__'] [class*='Footer_txt__'] { color: #cacaca }
+    [class*='Footer_guide_item___'] [class*='Footer_txt__'],[class*='Header_sub_menu__'] [class*='Header_txt__'],[class*='HomePC_s_desc__'] { color: #cacaca !important }
+    [class*='Footer_guide_list__'] { border: 1px solid #404040 !important;background-color: #3a3a3a !important }
+    [class*='Header_header__'][class*='Header_pc__'] { border-bottom: 1px solid #404040 !important }
+    [class*='Header_ico_logo__'] { filter: invert(86%) hue-rotate(-180deg) brightness(1000%) }
+    [class*='Header_site__'] [class*='Header_txt__'],[class*='HomePC_s_title__'] { color: #fff !important }
+    [class*='Header_sub_menu__'] li+li:before { border-left: 1px solid #404040 !important }
+    [class*='Layout_wrap__'] { background-color: #242424 !important }
+    body { background-color: #242424 }
 }
 @-moz-document url-prefix("https://learn.dict.naver.com") {
     .Ndrawer_menu { border: 1px solid #404040;background: #242424 }

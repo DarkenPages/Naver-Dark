@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.62.0
+@version		1.62.1
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -16702,6 +16702,18 @@
 	
 	.area_button_more .button_more[aria-expanded="false"] .icon_arrow {
 		filter: brightness(1000%);
+	}
+	
+	.wrap_search_list .area_result .none .title {
+		color: #fff;
+	}
+	
+	.wrap_search_list .area_result .none .check_list {
+		color: #cacaca;
+	}
+	
+	.wrap_search_list .area_result .more_help {
+		color: #cacaca;
 	}
 }
 

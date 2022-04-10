@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.62.1
+@version		1.62.2
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -88438,7 +88438,7 @@
 	}
 	
 	html .media_end_head_autosummary .media_end_head_autosummary_button::before {
-		background-position: -322px -190px
+		background-position: -301px -228px
 	}
 	
 	html .media_end_head_autosummary .media_end_head_autosummary_layer_head_tit::before {
@@ -88460,7 +88460,7 @@
 	}
 	
 	html .media_end_head_cmtcount_button::before {
-		background-position: -360px 0px
+		background-position: -359px -26px
 	}
 	
 	html .media_end_head_fontsize_is_on .media_end_head_fontsize_set::after, html .media_end_head_fontsize_setlayer, html .media_end_head_journalist .media_end_head_journalist_layer, html .media_end_head_journalist .media_end_head_journalist_layer::before, html .media_end_head_lang_is_on .media_end_head_lang_set::after, html .media_end_head_lang_setlayer, html .media_end_head_tts_run.is_active::after, html .media_end_head_tts_setlayer, html .n_news_sports .u_likeit_button+.u_likeit_layer::before, html .u_likeit_button+.u_likeit_layer:before {
@@ -88478,7 +88478,7 @@
 	}
 	
 	html .media_end_head_fontsize_set::before {
-		background-position: -322px -246px
+		background-position: -331px -28px
 	}
 	
 	html .media_end_head_fontsize_setlayer_select::before {
@@ -88512,15 +88512,15 @@
 	}
 	
 	html .media_end_head_print .media_end_print_link::before {
-		background-position: -73px -390px
+		background-position: -381px -117px
 	}
 	
 	html .media_end_head_share .send_caption {
-		background-position: -56px -302px
+		background-position: -331px -140px
 	}
 	
 	html .media_end_head_tts_run::before {
-		background-position: -112px -302px
+		background-position: -331px -196px
 	}
 	
 	html .media_end_head_tts_setlayer .media_end_head_tts_option::before {
@@ -89018,7 +89018,7 @@
 	}
 	
 	html #cbox_module .u_cbox_btn_totalcomment .u_cbox_ico_arrow, html #cbox_module .u_cbox_chart_fold_ico, html #cbox_module .u_cbox_ico_usercomment {
-		background-position: -127px -53px
+		background-position: -15px -124px
 	}
 	
 	html #cbox_module .u_cbox_chart_cont {
@@ -89044,7 +89044,7 @@
 	}
 	
 	html #cbox_module .u_cbox_cleanbot_content::before {
-		background-position: 0 -100px
+		background-position: -71px -79px
 	}
 	
 	html #cbox_module .u_cbox_cleanbot_setbutton.is_highlight:before {
@@ -89059,7 +89059,7 @@
 	}
 	
 	html #cbox_module .u_cbox_head .u_cbox_btn_refresh .u_cbox_ico_refresh {
-		background-position: -100px -75px
+		background-position: -48px -100px
 	}
 	
 	html #cbox_module .u_cbox_ico_loading_fail {
@@ -89088,9 +89088,159 @@
 	}
 	
 	@media (min-width: 1025px) {
-		 .as_mp_layout .u_cbox .u_cbox_layer_report {
+		.as_mp_layout .u_cbox .u_cbox_layer_report {
 			background: #39393C
 		}
+	}
+	
+	#cbox_module .u_cbox_notice .u_cbox_ico_notice {
+		filter: none !important;
+		-webkit-filter: none !important;
+		background-position: -129px 0;
+	}
+	
+	.u_cbox .u_cbox_sort::after, .u_cbox .u_cbox_sort::before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.u_cbox .u_cbox_layer_follow {
+		background-color: #2f2f2f;
+	}
+	
+	.u_cbox .u_cbox_layer_follow_title {
+		color: #fff;
+	}
+	
+	.u_cbox .u_cbox_layer_follow_content, .u_cbox .u_cbox_layer_follow_standardbtn {
+		color: #cacaca;
+	}
+	
+	.u_cbox .u_cbox_layer_follow_primarybtn {
+		color: #2f2f2f;
+	}
+	
+	.u_cbox .u_cbox_userpage_title {
+		color: #fff;
+	}
+	
+	.u_cbox {
+		color: #fff;
+	}
+	
+	.u_cbox_userpage .u_cbox_overallstats_number {
+		color: #fff;
+	}
+	
+	.u_cbox_userpage .u_cbox_overallstats::after {
+		border-bottom: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.u_cbox_userpage .u_cbox_commentset_button[aria-pressed=true] .u_cbox_commentset_label {
+		color: #fff;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.u_cbox button {
+		color: #cacaca;
+	}
+	
+	.u_cbox_userpage .u_cbox_commentset {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.u_cbox_userpage .u_cbox_commentset_label, .u_cbox_userpage .u_cbox_currentstats_item {
+		color: #cacaca;
+	}
+	
+	.u_cbox_userpage .u_cbox_lateststats {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.u_cbox_userpage .u_cbox_lateststats_title {
+		color: #fff;
+	}
+	
+	.u_cbox_userpage .u_cbox_lateststats_progresstitle {
+		color: #cacaca;
+	}
+	
+	.u_cbox_userpage .u_cbox_lateststats_dataitem {
+		color: #cacaca;
+	}
+	
+	.u_cbox_userpage .u_cbox_sort {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.u_cbox_userpage .u_cbox_sort .u_cbox_sort_option_on .u_cbox_sort_label {
+		color: #fff;
+	}
+	
+	.u_cbox .u_cbox_comment_none {
+		color: #cacaca;
+	}
+	
+	.u_cbox_userpage .u_cbox_lateststats_progressbar[aria-valuenow="0"] .u_cbox_lateststats_progressvalue {
+		color: #cacaca;
+	}
+	
+	.u_cbox_userpage .u_cbox_comment_none .u_cbox_con_inform_link {
+		border: 1px solid #4f4f4f;
+	}
+	
+	.u_cbox_userpage .u_cbox_overallstats_item+.u_cbox_overallstats_item::before {
+		background-color: #404040;
+	}
+	
+	.u_cbox_userpage .u_cbox_userinfo_meta_date::before {
+		background-color: #404040;
+	}
+	
+	.u_cbox .u_cbox_userpage_helplayer {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.u_cbox .u_cbox_userpage_helptitle {
+		color: #fff;
+	}
+	
+	.u_cbox .u_cbox_userpage_helplist, .u_cbox .u_cbox_userpage_helpdesc {
+		color: #cacaca;
+	}
+	
+	.u_cbox_userpage .u_cbox_followset {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.u_cbox_userpage .u_cbox_followset {
+		background-color: #2f2f2f;
+	}
+	
+	.u_cbox_userpage .u_cbox_orgsource>a {
+		border: 1px solid #404040;
+	}
+	
+	.u_cbox_userpage .u_cbox_btn_more_pre, .u_cbox_userpage .u_cbox_comment_box {
+		border-bottom-color: #404040;
+	}
+	
+	.u_cbox .u_cbox_comment_box {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.u_cbox_userpage .u_cbox_btn_totalcomment .u_cbox_ico_arrow {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.u_cbox_userpage .u_cbox_tool .u_cbox_btn_reply .u_cbox_reply_txt {
+		color: #fff;
+	}
+	
+	.u_cbox_userpage .u_cbox_orgsource_image {
+		border-right: 1px solid #404040;
 	}
 }
 

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.62.3
+@version		1.62.4
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -89254,6 +89254,66 @@
 	
 	.u_cbox_userpage .u_cbox_orgsource_image {
 		border-right: 1px solid #404040;
+	}
+	
+	.u_cbox_userpage .u_cbox_overallstats_label, .u_cbox_userpage .u_cbox_followmsg_content {
+		color: #cacaca;
+	}
+	
+	.u_cbox .u_cbox_manageusers {
+		background-color: #2f2f2f;
+	}
+	
+	.u_cbox .u_cbox_manageusers_title {
+		color: #fff;
+	}
+	
+	.u_cbox .u_cbox_manageusers_tab[aria-selected=true] .u_cbox_manageusers_tablabel {
+		border-bottom: 2px solid #fff;
+		color: #fff;
+	}
+	
+	.u_cbox .u_cbox_manageusers_tablabel {
+		color: #cacaca;
+	}
+	
+	.u_cbox .u_cbox_manageusers_header {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.u_cbox .u_cbox_manageusers_none_content {
+		color: #cacaca;
+	}
+	
+	.u_cbox .u_cbox_manageusers_helplayer {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.u_cbox .u_cbox_manageusers_helplayer_content {
+		color: #cacaca;
+	}
+	
+	.u_cbox .u_cbox_manageusers_listitem {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.u_cbox .u_cbox_manageusers_date, .u_cbox .u_cbox_manageusers_id {
+		color: #cacaca;
+	}
+	
+	.u_cbox .u_cbox_manageusers_id~.u_cbox_manageusers_date::before {
+		background-color: #404040;
+	}
+	
+	.u_cbox .u_cbox_manageusers_totalcomment_icon {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.u_cbox .u_cbox_manageusers_standardbtn {
+		border: 1px solid #404040;
+		background-color: #3a3a3a;
+		color: #cacaca;
 	}
 }
 

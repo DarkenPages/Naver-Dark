@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.62.3
+@version		1.62.4
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -5082,12 +5082,15 @@
     html:not(.DARK_THEME) .dark_type { display: block !important }
 }
 @-moz-document url-prefix("https://n.news.naver.com"), url-prefix("https://contents.premium.naver.com") {
-    .u_cbox .u_cbox_comment_box,.u_cbox_userpage .u_cbox_commentset,.u_cbox_userpage .u_cbox_sort { border-bottom: 1px solid #404040 }
-    .u_cbox .u_cbox_comment_none,.u_cbox .u_cbox_layer_follow_content,.u_cbox .u_cbox_layer_follow_standardbtn,.u_cbox .u_cbox_userpage_helpdesc,.u_cbox .u_cbox_userpage_helplist,.u_cbox button,.u_cbox_userpage .u_cbox_commentset_label,.u_cbox_userpage .u_cbox_currentstats_item,.u_cbox_userpage .u_cbox_lateststats_dataitem,.u_cbox_userpage .u_cbox_lateststats_progressbar[aria-valuenow="0"] .u_cbox_lateststats_progressvalue,.u_cbox_userpage .u_cbox_lateststats_progresstitle { color: #cacaca }
-    .u_cbox .u_cbox_layer_follow { background-color: #2f2f2f }
+    .u_cbox .u_cbox_comment_box,.u_cbox .u_cbox_manageusers_header,.u_cbox .u_cbox_manageusers_listitem,.u_cbox_userpage .u_cbox_commentset,.u_cbox_userpage .u_cbox_sort { border-bottom: 1px solid #404040 }
+    .u_cbox .u_cbox_comment_none,.u_cbox .u_cbox_layer_follow_content,.u_cbox .u_cbox_layer_follow_standardbtn,.u_cbox .u_cbox_manageusers_date,.u_cbox .u_cbox_manageusers_id,.u_cbox .u_cbox_manageusers_helplayer_content,.u_cbox .u_cbox_manageusers_none_content,.u_cbox .u_cbox_manageusers_tablabel,.u_cbox .u_cbox_userpage_helpdesc,.u_cbox .u_cbox_userpage_helplist,.u_cbox button,.u_cbox_userpage .u_cbox_commentset_label,.u_cbox_userpage .u_cbox_currentstats_item,.u_cbox_userpage .u_cbox_followmsg_content,.u_cbox_userpage .u_cbox_overallstats_label,.u_cbox_userpage .u_cbox_lateststats_dataitem,.u_cbox_userpage .u_cbox_lateststats_progressbar[aria-valuenow="0"] .u_cbox_lateststats_progressvalue,.u_cbox_userpage .u_cbox_lateststats_progresstitle { color: #cacaca }
     .u_cbox .u_cbox_layer_follow_primarybtn { color: #2f2f2f }
-    .u_cbox .u_cbox_sort::after,.u_cbox .u_cbox_sort::before { filter: invert(86%) hue-rotate(-180deg) }
-    .u_cbox .u_cbox_userpage_helplayer,.u_cbox_userpage .u_cbox_lateststats { border: 1px solid #404040;background-color: #2f2f2f }
+    .u_cbox .u_cbox_layer_follow,.u_cbox .u_cbox_manageusers { background-color: #2f2f2f }
+    .u_cbox .u_cbox_manageusers_helplayer,.u_cbox .u_cbox_userpage_helplayer,.u_cbox_userpage .u_cbox_lateststats { border: 1px solid #404040;background-color: #2f2f2f }
+    .u_cbox .u_cbox_manageusers_id~.u_cbox_manageusers_date::before,.u_cbox_userpage .u_cbox_overallstats_item+.u_cbox_overallstats_item::before,.u_cbox_userpage .u_cbox_userinfo_meta_date::before { background-color: #404040 }
+    .u_cbox .u_cbox_manageusers_standardbtn { color: #cacaca;border: 1px solid #404040;background-color: #3a3a3a }
+    .u_cbox .u_cbox_manageusers_tab[aria-selected=true] .u_cbox_manageusers_tablabel { color: #fff;border-bottom: 2px solid #fff }
+    .u_cbox .u_cbox_manageusers_totalcomment_icon,.u_cbox .u_cbox_sort::after,.u_cbox .u_cbox_sort::before { filter: invert(86%) hue-rotate(-180deg) }
     .u_cbox_userpage .u_cbox_btn_more_pre,.u_cbox_userpage .u_cbox_comment_box { border-bottom-color: #404040 }
     .u_cbox_userpage .u_cbox_btn_totalcomment .u_cbox_ico_arrow { filter: invert(81.5%) hue-rotate(-180deg) }
     .u_cbox_userpage .u_cbox_comment_none .u_cbox_con_inform_link { border: 1px solid #4f4f4f }
@@ -5095,8 +5098,7 @@
     .u_cbox_userpage .u_cbox_followset,.u_cbox_userpage .u_cbox_overallstats::after { border-bottom: 1px solid #404040;background-color: #2f2f2f }
     .u_cbox_userpage .u_cbox_orgsource_image { border-right: 1px solid #404040 }
     .u_cbox_userpage .u_cbox_orgsource>a { border: 1px solid #404040 }
-    .u_cbox_userpage .u_cbox_overallstats_item+.u_cbox_overallstats_item::before,.u_cbox_userpage .u_cbox_userinfo_meta_date::before { background-color: #404040 }
-    .u_cbox,.u_cbox .u_cbox_layer_follow_title,.u_cbox .u_cbox_userpage_helptitle,.u_cbox .u_cbox_userpage_title,.u_cbox_userpage .u_cbox_lateststats_title,.u_cbox_userpage .u_cbox_overallstats_number,.u_cbox_userpage .u_cbox_sort .u_cbox_sort_option_on .u_cbox_sort_label,.u_cbox_userpage .u_cbox_tool .u_cbox_btn_reply .u_cbox_reply_txt { color: #fff }
+    .u_cbox,.u_cbox .u_cbox_layer_follow_title,.u_cbox .u_cbox_manageusers_title,.u_cbox .u_cbox_userpage_helptitle,.u_cbox .u_cbox_userpage_title,.u_cbox_userpage .u_cbox_lateststats_title,.u_cbox_userpage .u_cbox_overallstats_number,.u_cbox_userpage .u_cbox_sort .u_cbox_sort_option_on .u_cbox_sort_label,.u_cbox_userpage .u_cbox_tool .u_cbox_btn_reply .u_cbox_reply_txt { color: #fff }
     @media (min-width: 1025px) {
         .as_mp_layout .u_cbox .u_cbox_layer_report { background: #39393C }
     }

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.62.4
+@version		1.62.5
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -83642,6 +83642,14 @@
 	
 	.sp_nland .func_message_area {
 		border-top: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.cs_vaccine_info .vaccination_area .vaccine_item .btn_vaccine_open {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_vaccine_info .vaccination_area .vaccine_item .normal_info {
 		color: #cacaca;
 	}
 }

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.62.5
+@version		1.62.6
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -83651,6 +83651,18 @@
 	
 	.cs_vaccine_info .vaccination_area .vaccine_item .normal_info {
 		color: #cacaca;
+	}
+	
+	.cs_anniversary .thumb_box a:after {
+		border: 1px solid #404040;
+	}
+	
+	.cs_anniversary .detail_bx dd {
+		color: #cacaca;
+	}
+	
+	.cs_anniversary .detail_bx dt {
+		color: #999;
 	}
 }
 

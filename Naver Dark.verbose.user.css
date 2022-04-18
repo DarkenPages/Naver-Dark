@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.62.7
+@version		1.62.8
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -30020,6 +30020,20 @@
 	
 	.spi_btm_link {
 		color: #cacaca !important;
+	}
+	
+	.best_post h3, .best_post .best_post_inner .tit {
+		color: #fff;
+	}
+	
+	.best_post .best_post_inner .desc {
+		color: #cacaca;
+	}
+	
+	@media only screen and (min-width: 1024px) {
+		.best_post .best_post_inner .desc {
+			color: #cacaca;
+		}
 	}
 }
 

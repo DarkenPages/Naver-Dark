@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.62.10
+@version		1.62.11
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -88551,7 +88551,7 @@
 	}
 	
 	html .media_end_head_fontsize_set::before {
-		background-position: -331px -28px
+		background-position: -331px 0px
 	}
 	
 	html .media_end_head_fontsize_setlayer_select::before {
@@ -88589,11 +88589,11 @@
 	}
 	
 	html .media_end_head_share .send_caption {
-		background-position: -331px -140px
+		background-position: -331px -112px
 	}
 	
 	html .media_end_head_tts_run::before {
-		background-position: -331px -196px
+		background-position: -331px -168px
 	}
 	
 	html .media_end_head_tts_setlayer .media_end_head_tts_option::before {
@@ -88772,6 +88772,16 @@
 	.media_end_head_origin_link {
 		border: 1px solid #404040;
 		color: #cacaca;
+	}
+	
+	.u_ft::before {
+		background: #2f2f2f;
+	}
+	
+	@media (min-width: 1025px) {
+		.as_mp_layout .u_ft footer::before {
+			background-color: #2f2f2f;
+		}
 	}
 }
 

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.62.10
+@version		1.62.11
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -4999,8 +4999,9 @@
     .light_type,html .light_type { display: none !important }
     .media_end_head_origin_link { color: #cacaca;border: 1px solid #404040 }
     .pg_num_area.pg_num_area_v2 .pg_num { color: #fff }
+    .u_ft::before { background: #2f2f2f }
     @media (min-width: 1025px) {
-        .as_mp_layout .ct_scroll_wrapper::before,.as_mp_layout .ct_wrap::before { background-color: #2f2f2f }
+        .as_mp_layout .ct_scroll_wrapper::before,.as_mp_layout .ct_wrap::before,.as_mp_layout .u_ft footer::before { background-color: #2f2f2f }
         html .as_mp_layout .info_multilike .info_like .u_likeit_list_count { color: #f0f0f2 !important }
         html body.as_mp_layout.n_news { background: #242424 !important }
     }
@@ -5046,7 +5047,7 @@
     html .media_end_head_fontsize_is_on .media_end_head_fontsize_set::after,html .media_end_head_fontsize_setlayer,html .media_end_head_journalist .media_end_head_journalist_layer,html .media_end_head_journalist .media_end_head_journalist_layer::before,html .media_end_head_lang_is_on .media_end_head_lang_set::after,html .media_end_head_lang_setlayer,html .media_end_head_tts_run.is_active::after,html .media_end_head_tts_setlayer,html .n_news_sports .u_likeit_button+.u_likeit_layer::before,html .u_likeit_button+.u_likeit_layer:before { border-color: rgba(255, 255, 255, 0.03) }
     html .media_end_head_fontsize_option1,html .media_end_head_fontsize_option2,html .media_end_head_fontsize_option3,html .media_end_head_fontsize_option4,html .media_end_head_fontsize_option5 { border: solid 1px #58585a;background-color: #545458 }
     html .media_end_head_fontsize_option1.media_end_head_fontsize_option_is_on,html .media_end_head_fontsize_option2.media_end_head_fontsize_option_is_on,html .media_end_head_fontsize_option3.media_end_head_fontsize_option_is_on,html .media_end_head_fontsize_option4.media_end_head_fontsize_option_is_on,html .media_end_head_fontsize_option5.media_end_head_fontsize_option_is_on { border: solid 1px rgba(0, 0, 0, 0.03);background-color: #4978f4 }
-    html .media_end_head_fontsize_set::before { background-position: -331px -28px }
+    html .media_end_head_fontsize_set::before { background-position: -331px 0px }
     html .media_end_head_fontsize_setlayer_select::before { background-color: #303038 }
     html .media_end_head_info_origin_inner { border-color: #595959 }
     html .media_end_head_journalist .media_end_head_journalist_layer_thumb { background: #262628 }
@@ -5055,8 +5056,8 @@
     html .media_end_head_lang_set::before { background-position: -252px -292px }
     html .media_end_head_lang_setlayer_select .media_end_head_lang_option_text { color: var(--color_sub_info);border: solid 1px #58585a;background-color: #545458 }
     html .media_end_head_print .media_end_print_link::before { background-position: -381px -117px }
-    html .media_end_head_share .send_caption { background-position: -331px -140px }
-    html .media_end_head_tts_run::before { background-position: -331px -196px }
+    html .media_end_head_share .send_caption { background-position: -331px -112px }
+    html .media_end_head_tts_run::before { background-position: -331px -168px }
     html .media_end_head_tts_setlayer .media_end_head_tts_option::before { background-position: -367px -311px }
     html .media_end_issuetimeline_go .meig_link::after,html .media_end_linked_more_link::after { background-position: -403px -189px }
     html .media_flick .mf_thumb { background: url("https://ssl.pstatic.net/static.news/image/news/m/noimage/dark/noimage_288x176_dark.png");background-size: 144px }

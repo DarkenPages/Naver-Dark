@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.62.9
+@version		1.62.10
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -5568,9 +5568,12 @@
     body { background: #242424 }
 }
 @-moz-document url-prefix("https://nid.naver.com/login/ext/notadult") {
-    .logo img,.notice_adult dd a img,.notice_adult dt img,.notice_adult h4 img { filter: invert(86%) hue-rotate(-180deg) }
+    .adt_login .notice_adult div a img,.notice_adult dd a img,.notice_adult dt img,.notice_adult h4 img,.notice_adult p img,.logo img { filter: invert(86%) hue-rotate(-180deg) }
+    .adt_login #footer { border-top: 1px solid #404040 }
+    .adt_login #footer ul :not(.first):before { width: 100%;top: 0;position: absolute;pointer-events: none;left: 0;height: 100%;filter: invert(86%) hue-rotate(-180deg);content: '';background: url(https://nid.naver.com/inc/user/images/help/line_v_footer10.gif) no-repeat 0 0 }
+    .adt_login #footer ul li { position: relative;background: none }
     .logo span { color: #404040 }
-    .logo span .trc,.notice_adult dd,* { color: #cacaca }
+    .logo span .trc,.notice_adult dd,*,#footer a { color: #cacaca }
     .notice_adult dd a { color: #66a64d }
     #footer a:visited,#footer address a { color: #fff }
 }

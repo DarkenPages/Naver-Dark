@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.62.13
+@version		1.62.14
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -92268,6 +92268,64 @@
 	.footer_sub_wrap {
 		border-top: 1px solid #404040;
 	}
+	
+	.se_viewer_content .se-viewer .se-documentTitle .viewer_author_wrap .viewer_author {
+		color: #fff;
+	}
+	
+	.se_viewer_content .se-viewer .se-documentTitle .viewer_author_wrap .viewer_author_by {
+		filter: invert(100%) hue-rotate(-180deg);
+	}
+	
+	.se_viewer_content .se-viewer .se-documentTitle .u_likeit_list_module + .comment_count_wrap::before, .se_viewer_content .se-viewer .se-documentTitle .share_wrap::before, .se_viewer_content .se-viewer .se-documentTitle .font_resize_wrap::before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.product_head, .product_detail_card, .product_info_detail {
+		background-color: #242424;
+	}
+	
+	.product_head .product_detail_head_name {
+		color: #fff;
+	}
+	
+	.product_npay::before, .business_info_button::after {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.product_detail_benefit_list .product_detail_benefit {
+		color: #cacaca;
+	}
+	
+	.product_info_detail .button_product_info {
+		color: #fff;
+		border-top: 1px solid #404040;
+	}
+	
+	.product_info_detail .product_info_item dd {
+		color: #cacaca;
+	}
+	
+	.product_info_detail .button_product_info::after {
+		border: 1px solid #cacaca;
+		border-width: 0 1px 1px 0;
+	}
+	
+	.product_info_detail .product_info_item dd a {
+		color: #fff;
+	}
+	
+	.product_info_detail .product_refund_item dt {
+		color: #fff;
+	}
+	
+	.product_info_detail::after {
+		border-top: 1px solid #404040;
+	}
+	
+	.header_origin {
+		color: #cacaca;
+	}
 }
 
 @-moz-document url-prefix("https://media.naver.com/channel")
@@ -94978,7 +95036,7 @@
 	.se-viewer .se-video .se-media-meta-info, .se-viewer .se-video .se-media-meta-info-title {
 	    font-size: 14px;
 	    font-weight: 400;
-	    color: #333;
+	    color: #cacaca;
 	    word-wrap: normal
 	}
 	
@@ -95042,7 +95100,7 @@
 	    margin: 5px 10px 0 0;
 	    font-size: 14px;
 	    line-height: 22px;
-	    color: rgba(0, 0, 0, .4);
+	    color: #cacaca;
 	    word-wrap: break-word;
 	    word-break: break-all;
 	    text-decoration: none
@@ -95069,7 +95127,8 @@
 	    display: inline-block;
 	    width: 12px;
 	    height: 12px;
-	    background-position: -230px -219px
+	    background-position: -230px -219px;
+	    filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.se-viewer .se-video .se-service-data-wrap {
@@ -101196,6 +101255,27 @@
 	    .se-viewer .se-section-table.se-l-table_layout6 .se-cell[rowspan] {
 	        border-width: 1.01px
 	    }
+	}
+	
+	.se-viewer .se-text-paragraph *[style*='background-color:#ffffff'] {
+		background-color: #242424 !important;
+	}
+	
+	.se-viewer .se-text-paragraph *[style*='color:#'] {
+		color: #cacaca !important;
+	}
+	
+	.viewer_paywall_none:not(.is_hidden) + .viewer_paywall:not(.is_hidden) {
+		border-bottom-color: #404040;
+		background-color: #242424;
+	}
+	
+	.u_cbox .u_cbox_cleanbot_setbutton::before, #cbox_module .u_cbox_con_inform .u_cbox_ico_comment_none {
+		filter: invert(86%) hue-rotate(-180deg) brightness(150) !important;
+	}
+	
+	.flat_header_wrap.as_white_background {
+		background-color: #242424;
 	}
 }
 

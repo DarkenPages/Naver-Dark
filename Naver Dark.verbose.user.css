@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.62.14
+@version		1.62.15
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -40576,6 +40576,10 @@
 	}
 	
 	.sc_themecast .chart_view_wrap.type_webnobel .chart_rank .state, .sc_themecast .chart_view_wrap.type_webtoon .chart_rank .state {
+		color: #cacaca;
+	}
+	
+	.sc_themecast .theme_tab {
 		color: #cacaca;
 	}
 }

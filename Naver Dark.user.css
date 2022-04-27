@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.62.14
+@version		1.62.15
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -811,7 +811,7 @@
     .sc_login,.sc_timesquare,#gnb .list_age,#gnb .list_nav.type_empty .empty_box,#gnb .ly_realtime .ly_help { border: 1px solid #404040;background-color: #242424 }
     .sc_newscast { margin-top: 0px }
     .sc_newscast .group_issue .direct_area .ico_vote { margin: 5px 4px 0 0 }
-    .sc_newscast .group_issue,.sc_newscast .ly_popup,.sc_themecast .theme_link,.sc_themecast .theme_tab,#gnb .election_area .election_shortcut { border: 1px solid #404040;background-color: #2f2f2f }
+    .sc_newscast .group_issue,.sc_newscast .ly_popup,.sc_themecast .theme_link,#gnb .election_area .election_shortcut { border: 1px solid #404040;background-color: #2f2f2f }
     .sc_newscast .group_news { border: 1px solid #404040;border-width: 1px 0 }
     .sc_newscast .list_view .option_area { border: solid #404040;border-width: 0 1px;background-color: #2f2f2f }
     .sc_newscast .ly_popup .btn_confirm+.btn_confirm,.sc_themecast .list_select_tab .tab_item+.tab_item .tab,.sc_themecast .theme_link .list_service,#gnb .election_area .shortcut_a+.shortcut_a,#gnb .list_service+.list_service { border-left: 1px solid #404040 }
@@ -819,7 +819,7 @@
     .sc_newscast .tile_view,#gnb .group_service { border: 1px solid #404040;border-width: 0 1px }
     .sc_themecast .btn_more_wrap,.sc_themecast .group_topstory,#footer .aside_area,#footer .banner_area,#footer .notice_area,#gnb .ly_realtime .title_area,html[data-dark=true] #header .special_bg { border-bottom: 1px solid #404040 }
     .sc_themecast .group_notice .badge_notice { color: #fff;border: 1px solid #404040 }
-    .sc_themecast .group_notice .notice_area { color: #cacaca;border: 1px solid #404040;background-color: #2f2f2f }
+    .sc_themecast .group_notice .notice_area,.sc_themecast .theme_tab { color: #cacaca;border: 1px solid #404040;background-color: #2f2f2f }
     .sc_themecast .list_select_tab { border-bottom: 1px solid #404040;background-color: #2f2f2f }
     .sc_themecast .main_category .tab { color: #cacaca;border-right: 1px solid #404040 }
     .sc_themecast .main_category .tab.id_law[aria-selected=true] { border-color: #3c5ba7;background-color: #3c5ba7 }

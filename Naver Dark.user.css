@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.62.12
+@version		1.62.13
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -480,9 +480,6 @@
     .mailListBtn .buttonSet .check_mail:hover,.mailListBtn .buttonSet button:hover { color: #c8c8c8;border-color: #4c4c4c;background-color: #2c2c2c }
     .mailListBtn .buttonSet button[disabled=disabled],div.list_menu ul li .btn_status,div.list_menu ul li .btn_use,div.list_menu ul li .btn_wr2me,div.list_menu ul li.write_tome.ovr .btn_add_folder { border-color: #404040;background-color: #242424 }
     .mailWriteItem .sguide .mInput,.tab_ext_reg li span,div.dh_layer .quickMenu { color: #cacaca;background-color: #242424 }
-    .mInput_holder .list_addrobj li .addr_input,.mInput_holder .list_addrobj li .addr_obj { color: #cacaca;border: 1px solid #467197;background: #4d6c86 }
-    .mInput_holder .list_addrobj li.invalid .addr_input,.mInput_holder .list_addrobj li.invalid .addr_obj { color: #cacaca;border-color: #8c7874;background: #887c77 }
-    .mInput_holder .list_addrobj li.invalid .btn_edit img { mix-blend-mode: multiply }
     .notify_area .alert p,.template_mail_save .template_name .ipt_cover input,table.mailWriteItem .mInput_holder .mSendName,#smart_editor2 .se2_input_syntax,#smart_editor2 .se2_input_wysiwyg,.classify th,.mInput_holder .list_addrobj li.new_addr .addr_input,.mInput_holder .list_addrobj li.new_addr .addr_obj,.pop_reserve .input_area .input_text,body,input[type=image],input[type=text],textarea { color: #cacaca;background: #242424 }
     .relativeView td { color: #fff;background-color: #404040 }
     .safelist .title { color: #cacaca;border-bottom: 1px solid #404040;background-color: #2c2c2c }
@@ -514,7 +511,6 @@
     div.btn_workset,div.faq_cover,div.section_typemail,div.svc_menu_area { border-right-color: #404040 !important }
     div.dh_layer .quickMenu a.selected,div.dh_layer .quickMenu a:hover { color: #c8c8c8 }
     div.list_menu ul li .btn_status:hover,div.list_menu ul li .btn_use:hover,div.list_menu ul li .btn_wr2me:hover,div.list_menu ul li.write_tome.ovr .btn_add_folder:hover { border-color: #4c4c4c }
-    div.mInput_holder.mInput_over { border-color: #019341 }
     div.paginate strong { border-color: #404040 !important }
     div.pop_reserve .tab_reserve li a.selected { color: #c8c8c8;border-bottom-color: #4c4c4c;background-color: #2c2c2c }
     div.relMails .relativeList .mailList { border-top-color: #404040 }
@@ -4439,6 +4435,12 @@
     .mailList .notRead .mTitle a { color: #688cda }
     .mailListHead strong,#sign_prview_layer table tr:not(:first-child) td a,div.conversation_cover .toTop a { color: #fff !important }
     .make_sign .sign_input { border-top: 1px solid #404040;border-right: 1px solid #404040;border-left: 1px solid #404040;border-bottom: 1px solid #404040 }
+    .mInput_holder .list_addrobj li .addr_input,.mInput_holder .list_addrobj li .addr_obj { color: #cacaca;border: 1px solid #467197;background: #4d6c86 }
+    .mInput_holder .list_addrobj li .selected .addr_input,.mInput_holder .list_addrobj li .selected .addr_obj { border-color: #3c556c;background: #283f55 }
+    .mInput_holder .list_addrobj li.caution .addr_input,.mInput_holder .list_addrobj li.caution .addr_obj { color: #edd8cd;border-color: #b89f60;background: #a18b54 }
+    .mInput_holder .list_addrobj li.caution .selected .addr_input,.mInput_holder .list_addrobj li.caution .selected .addr_obj { border-color: #877546;background: #71623f }
+    .mInput_holder .list_addrobj li.invalid .addr_input,.mInput_holder .list_addrobj li.invalid .addr_obj { color: #cacaca;border-color: #8c7874;background: #79645b }
+    .mInput_holder .list_addrobj li.invalid .selected .addr_input,.mInput_holder .list_addrobj li.invalid .selected .addr_obj { border-color: #825148;background: #6a4843 }
     .notify_area .alert,div.conversation_cover,div.conversation_cover .toTop { background-color: #242424 }
     .p_bar { background: #2f2f2f }
     .signiture_list li { border-top: 1px solid #404040 !important }
@@ -4468,6 +4470,7 @@
     div.divWrite .mailWriteItem .utx_btn:hover,div.divWrite .utx_btn_b:hover { border-color: #4f4f4f }
     div.img_preview_area { background: #fff }
     div.list_menu ul li .btn_status,div.list_menu ul li .btn_use,div.list_menu ul li .btn_wr2me { color: #cacaca !important }
+    div.mInput_holder.mInput_over { border-color: #019341 }
     div.viewTitle dl dt .viewMoreOn { filter: none }
 }
 @-moz-document url-prefix("https://mail.naver.com/address/popup") {

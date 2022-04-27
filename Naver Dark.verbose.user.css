@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.62.12
+@version		1.62.13
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -1798,26 +1798,6 @@
 		border-color: #404040;
 	}
 	
-	.mInput_holder .list_addrobj li.invalid .addr_input, .mInput_holder .list_addrobj li.invalid .addr_obj {
-		background: #887c77;
-		color: #cacaca;
-		border-color: #8c7874;
-	}
-	
-	.mInput_holder .list_addrobj li .addr_input, .mInput_holder .list_addrobj li .addr_obj {
-		border: 1px solid #467197;
-		background: #4d6c86;
-		color: #cacaca;
-	}
-	
-	.mInput_holder .list_addrobj li.invalid .btn_edit img {
-		mix-blend-mode: multiply;
-	}
-	
-	div.mInput_holder.mInput_over {
-		border-color: #019341;
-	}
-	
 	.upld_header {
 		background-color: #242424;
 		border-bottom: 1px solid #404040;
@@ -3045,6 +3025,46 @@
 	
 	.mailListHead .vbar {
 		color: #404040;
+	}
+	
+	.mInput_holder .list_addrobj li .selected .addr_input, .mInput_holder .list_addrobj li .selected .addr_obj {
+		border-color: #3c556c;
+		background: #283f55;
+	}
+	
+	.mInput_holder .list_addrobj li.caution .selected .addr_input, .mInput_holder .list_addrobj li.caution .selected .addr_obj {
+		border-color: #877546;
+		background: #71623f;
+	}
+	
+	.mInput_holder .list_addrobj li.caution .addr_input, .mInput_holder .list_addrobj li.caution .addr_obj {
+		color: #edd8cd;
+	}
+	
+	.mInput_holder .list_addrobj li.caution .addr_input, .mInput_holder .list_addrobj li.caution .addr_obj {
+		border-color: #b89f60;
+		background: #a18b54;
+	}
+	
+	.mInput_holder .list_addrobj li.invalid .selected .addr_input, .mInput_holder .list_addrobj li.invalid .selected .addr_obj {
+		border-color: #825148;
+		background: #6a4843;
+	}
+	
+	.mInput_holder .list_addrobj li.invalid .addr_input, .mInput_holder .list_addrobj li.invalid .addr_obj {
+		background: #79645b;
+		color: #cacaca;
+		border-color: #8c7874;
+	}
+	
+	.mInput_holder .list_addrobj li .addr_input, .mInput_holder .list_addrobj li .addr_obj {
+		border: 1px solid #467197;
+		background: #4d6c86;
+		color: #cacaca;
+	}
+	
+	div.mInput_holder.mInput_over {
+		border-color: #019341;
 	}
 }
 

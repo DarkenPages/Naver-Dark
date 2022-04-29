@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.62.16
+@version		1.62.18
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -26528,6 +26528,66 @@
 	
 	.inform_agree_area .item_basic, .inform_agree_area .item_com, .inform_agree_area .item_desc, .inform_agree_area .item_need {
 		color: #cacaca;
+	}
+	
+	.header_oauth .main_title {
+		color: #fff;
+	}
+	
+	.header_oauth .logo .link::before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.header_oauth .nickname {
+		color: #cacaca;
+	}
+	
+	.header_oauth .tooltip {
+		border: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.header_oauth .tooltip::before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.header_oauth .btn_tooltip {
+		color: #cacaca;
+	}
+	
+	.oauth_wrap .top_area {
+		background: #2f2f2f;
+	}
+	
+	body.oauth_full .oauth_wrap .top_area {
+		border: 1px solid #404040;
+		border-bottom: 0;
+	}
+	
+	.oauth_wrap .name {
+		color: #fff;
+	}
+	
+	.oauth_wrap .scroll_area {
+		background: #2f2f2f;
+	}
+	
+	body.oauth_full .oauth_wrap .scroll_area {
+		border: 1px solid #404040;
+		border-width: 0 1px;
+	}
+	
+	.oauth_wrap .check_list label span {
+		color: #fff;
+	}
+	
+	.oauth_wrap .notice {
+		color: #cacaca;
+		border-top: 1px solid #4f4f4f;
+	}
+	
+	.oauth_wrap .btn_area .btn {
+		color: #242424;
 	}
 }
 
@@ -64546,68 +64606,76 @@
 	    --place-color-profile-icon:169, 175, 185, .24
 	}
 	
-	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+ul li[data-laim-exp-id*='*e'] {
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div+ul li[data-laim-exp-id*='*e'] {
 		background: rgb(48, 49, 51);
 	}
 	
-	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+ul li[data-laim-exp-id*='*e'] > a > span + svg {
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div+ul li[data-laim-exp-id*='*e'] > a > span + svg {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
-	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+ul li+li {
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div+ul li+li {
 		border-color: #404040;
 	}
 	
-	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+ul li:nth-child(2n+1):not(:first-child):before {
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div+ul li:nth-child(2n+1):not(:first-child):before {
 		background: #404040;
 	}
 	
-	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+ul li:nth-child(2n):before {
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div+ul li:nth-child(2n):not(:nth-child(2))::before {
 		background: #404040;
 	}
 	
-	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+ul li>div[class]+div[class]>div[class]>div[class] span[class] {
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div+ul li>div[class]+div[class]>div[class]>div[class] span[class] {
 		border-color: #404040;
 	}
 	
-	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+ul li>div[class]+div[class]>div[class]>div[class] span[class]>a>span+svg {
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div+ul li>div[class]+div[class]>div[class]>div[class] span[class]>a>span+svg {
 		fill: #cacaca;
 	}
 	
-	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+ul li>div[class]>div[class]+div[class]>span {
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div+ul li>div[class]>div[class]+div[class]>span {
 		color: #fff;
 	}
 	
-	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+ul li>div[class]>div[class]+div[class]>span+a[role="button"]:before {
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div+ul li>div[class]>div[class]+div[class]>span+a[role="button"]:before {
 		background: #404040;
 	}
 	
-	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+ul li>div[class]>div[class]+div[class]>span+a[role="button"]+div[class] {
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div+ul li>div[class]>div[class]+div[class]>span+a[role="button"]+div[class] {
 		background: #2f2f2f;
 		border: 1px solid #404040;
 		color: #cacaca;
 	}
 	
-	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+ul li>div[class]>div[class]+div[class]>span+a[role="button"]+div[class]>div>span {
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div+ul li>div[class]>div[class]+div[class]>span+a[role="button"]+div[class]>div>span {
 		border: 1px solid #404040;
 		color: #cacaca;
 	}
 	
-	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+ul li>div[class]+div[class] a {
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div+ul li>div[class]+div[class] a {
 		color: #cacaca;
 	}
 	
-	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div>div>div[style][tabindex] {
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div+ul+div {
+		border-top: 1px solid #404040;
+	}
+	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div[style]>div[class] {
+		background: #2f2f2f;
+	}
+	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div>div[style][tabindex] {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
-	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div>div>div+a[role="button"] {
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div>div+a[role="button"] {
 		background: #242424;
 		border: 1px solid #404040;
 		color: #cacaca;
 	}
 	
-	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div>div>div+a[role="button"]>svg {
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div>div+a[role="button"]>svg {
 		fill: #cacaca;
 	}
 	

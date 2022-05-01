@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.62.18
+@version		1.62.19
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -64606,109 +64606,139 @@
 	    --place-color-profile-icon:169, 175, 185, .24
 	}
 	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div+div+ul li[data-laim-exp-id*='*e'],
 	#place-app-root .sc_new .api_subject_bx .api_title_area+div+ul li[data-laim-exp-id*='*e'] {
 		background: rgb(48, 49, 51);
 	}
 	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div+div+ul li[data-laim-exp-id*='*e'] > a > span + svg,
 	#place-app-root .sc_new .api_subject_bx .api_title_area+div+ul li[data-laim-exp-id*='*e'] > a > span + svg {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div+div+ul li+li,
 	#place-app-root .sc_new .api_subject_bx .api_title_area+div+ul li+li {
 		border-color: #404040;
 	}
 	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div+div+ul li:nth-child(2n+1):not(:first-child):before,
 	#place-app-root .sc_new .api_subject_bx .api_title_area+div+ul li:nth-child(2n+1):not(:first-child):before {
 		background: #404040;
 	}
 	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div+div+ul li:nth-child(2n):not(:nth-child(2))::before,
 	#place-app-root .sc_new .api_subject_bx .api_title_area+div+ul li:nth-child(2n):not(:nth-child(2))::before {
 		background: #404040;
 	}
 	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div+div+ul li>div[class]+div[class]>div[class]>div[class] span[class]
 	#place-app-root .sc_new .api_subject_bx .api_title_area+div+ul li>div[class]+div[class]>div[class]>div[class] span[class] {
 		border-color: #404040;
 	}
 	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div+div+ul li>div[class]+div[class]>div[class]>div[class] span[class]>a>span+svg,
 	#place-app-root .sc_new .api_subject_bx .api_title_area+div+ul li>div[class]+div[class]>div[class]>div[class] span[class]>a>span+svg {
 		fill: #cacaca;
 	}
 	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div+div+ul li>div[class]>div[class]+div[class]>span,
 	#place-app-root .sc_new .api_subject_bx .api_title_area+div+ul li>div[class]>div[class]+div[class]>span {
 		color: #fff;
 	}
 	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div+div+ul li>div[class]>div[class]+div[class]>span+a[role="button"]:before,
 	#place-app-root .sc_new .api_subject_bx .api_title_area+div+ul li>div[class]>div[class]+div[class]>span+a[role="button"]:before {
 		background: #404040;
 	}
 	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div+div+ul li>div[class]>div[class]+div[class]>span+a[role="button"]+div[class],
 	#place-app-root .sc_new .api_subject_bx .api_title_area+div+ul li>div[class]>div[class]+div[class]>span+a[role="button"]+div[class] {
 		background: #2f2f2f;
 		border: 1px solid #404040;
 		color: #cacaca;
 	}
 	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div+div+ul li>div[class]>div[class]+div[class]>span+a[role="button"]+div[class]>div>span,
 	#place-app-root .sc_new .api_subject_bx .api_title_area+div+ul li>div[class]>div[class]+div[class]>span+a[role="button"]+div[class]>div>span {
 		border: 1px solid #404040;
 		color: #cacaca;
 	}
 	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div+div+ul li>div[class]+div[class] a,
 	#place-app-root .sc_new .api_subject_bx .api_title_area+div+ul li>div[class]+div[class] a {
 		color: #cacaca;
 	}
 	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div+div+ul li>div[class]+div[class]>div[class]>div[class]>span[class],
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div+ul li>div[class]+div[class]>div[class]>div[class]>span[class] {
+		border-color: #404040;
+	}
+	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div+div+ul+div,
 	#place-app-root .sc_new .api_subject_bx .api_title_area+div+ul+div {
 		border-top: 1px solid #404040;
 	}
 	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div+div[style]>div[class],
 	#place-app-root .sc_new .api_subject_bx .api_title_area+div[style]>div[class] {
 		background: #2f2f2f;
 	}
 	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div+div>div>div[style][tabindex],
 	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div>div[style][tabindex] {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div+div>div>div+a[role="button"],
 	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div>div+a[role="button"] {
 		background: #242424;
 		border: 1px solid #404040;
 		color: #cacaca;
 	}
 	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div+div>div>div+a[role="button"]>svg,
 	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div>div+a[role="button"]>svg {
 		fill: #cacaca;
 	}
 	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div+div>div>ul li>div[class]>div[class]>a[href],
 	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div>ul li>div[class]>div[class]>a[href] {
 		color: #788cda;
 	}
 	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div+div>div+div+div[class],
 	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+div+div[class] {
 		border-color: #404040;
 	}
 	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div+div>div+div+div[class]>div,
 	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+div+div[class]>div {
 		background: #3a3a3a;
 	}
 	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div+div>div+div+div[class]>div>a>em,
 	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+div+div[class]>div>a>em {
 		color: #788cda;
 	}
 	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div+div>div[style]+div>div>div,
 	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div[style]+div>div>div {
 		filter: none;
 		color: #cacaca;
 	}
 	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div+div>div+div>div+div>div>strong+div,
 	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+div>div+div>div>strong+div {
 		color: #cacaca;
 	}
 	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div+div>div+div>div+div>div>strong+div>span,
 	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+div>div+div>div>strong+div>span {
 		color: #cacaca;
 		border: 1px solid #404040;
 	}
 	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div+div>div+div>div>div+div>a,
 	#place-app-root .sc_new .api_subject_bx .api_title_area+div>div+div>div>div+div>a {
 		color: #cacaca;
 	}

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.62.19
+@version		1.62.20
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -13228,10 +13228,6 @@
 		color: #cacaca;
 	}
 	
-	.CreateCafe .input_title {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
 	.CreateCafe .input_txt, .CreateCafe .input_txt2 {
 		border: 1px solid #404040;
 		background: #242424;
@@ -13244,10 +13240,6 @@
 	
 	.CreateCafe th, .CreateCafe td {
 		border-bottom: 1px solid #404040;
-	}
-	
-	.CreateCafe .btn_srch {
-		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.CreateCafe .dirs select {
@@ -13279,71 +13271,8 @@
 		border-top: 1px solid #404040;
 	}
 	
-	.CreateCafe .srch_word_area {
-		border-bottom: 1px solid #404040;
-		background: none;
-		position: relative;
-	}
-	
-	.CreateCafe .srch_word_area:before {
-		background: url(https://cafe.pstatic.net/img/section/bu_line2.gif) repeat-y;
-		position: absolute;
-		content: '';
-		left: 0;
-		top: 0;
-		width: 100%;
-		height: 100%;
-		filter: invert(86%) hue-rotate(-180deg);
-		pointer-events: none;
-	}
-	
 	.CreateCafe .srch_word_area .cafe_keyword_text {
 		color: #cacaca;
-	}
-	
-	.CreateCafe .txt.error, .CreateCafe .txt.info, .CreateCafe .note, .CreateCafe .txt.txt_commerce, .SelectRegion .select_city_header, .SelectRegion .select_city_header.two_tabs {
-		background: none;
-		position: relative;
-	}
-	
-	.CreateCafe .txt.info:before, .CreateCafe .txt.error:before, .CreateCafe .note:before, .CreateCafe .txt.txt_commerce:before, .SelectRegion .select_city_header:before {
-		position: absolute;
-		content: '';
-		left: 0;
-		top: 0;
-		width: 100%;
-		height: 100%;
-		filter: invert(86%) hue-rotate(-180deg);
-		pointer-events: none;
-	}
-	
-	.SelectRegion .select_city_header.two_tabs:before {
-		background: url(https://ca-fe.pstatic.net/web-pc/static/img/ico-trade-area-2-taps.svg?b5ee8c46011168280c432ab201dd6983=) no-repeat 50%;
-	}
-	
-	.SelectRegion .select_city_header:before {
-		background: url(https://ca-fe.pstatic.net/web-pc/static/img/ico-trade-area-tap.svg?9e89c179574173887c2318a0f45ab887=) no-repeat 50%;
-		mix-blend-mode: plus-lighter;
-	}
-	
-	.SelectRegion .select_city_header .city_button {
-		color: #cacaca;
-	}
-	
-	.CreateCafe .txt.txt_commerce:before {
-		background: url(https://ssl.pstatic.net/static/cafe/section/bg_sprite_3_160720.gif) no-repeat 0 -2839px;
-	}
-	
-	.CreateCafe .note:before {
-		background: url(https://ssl.pstatic.net/static/cafe/section/bg_sprite_3_160720.gif) no-repeat 0 -2244px;
-	}
-	
-	.CreateCafe .txt.info:before {
-		background: url(https://ssl.pstatic.net/static/cafe/section/bg_sprite_3_160720.gif) no-repeat 0 -2276px;
-	}
-	
-	.CreateCafe .txt.error:before {
-		background: url(https://ssl.pstatic.net/static/cafe/section/bg_sprite_3_160720.gif) no-repeat 0 -2306px;
 	}
 	
 	.CreateCafe .txt {
@@ -13449,10 +13378,6 @@
 	
 	.SelectRegion .select_city_content .region_list .btn {
 		color: #cacaca;
-	}
-	
-	.SelectRegion .select_city_header .city_button.complete {
-		color: #fff;
 	}
 	
 	.SelectRegion .region_selected .region {
@@ -13674,6 +13599,91 @@
 	
 	.user_feed_area.type_commerce .commerce_addition_info, .user_feed_area.type_commerce .con_bottom .date, .user_feed_area.type_commerce .con_bottom .count, .user_feed_area.type_commerce .con_bottom .info {
 		color: #cacaca;
+	}
+	
+	:root {
+	    --themeColorTC1: #fff;
+	    --themeColorTC2: #cacaca;
+	    --themeColorTC3: #cacaca;
+	    --themeColorTC4: #878787;
+	    --themeColorTC5: #949494;
+	    --themeColorTC6: #03c75a;
+	    --themeColorTC7: #009f47;
+	    --themeColorTC8: #fb6400;
+	    --themeColorTC9: #f53535;
+	    --themeColorTC10: #0076ff;
+	    --themeColorTC11: #0076ff;
+	    --themeColorTC12: #009f47;
+	    --themeColorTC13: #f53535;
+	    --themeColorTC14: #fff;
+	    --themeColorTC15: #676767;
+	    --themeColorTC16: #a6a6a6;
+	    --themeColorTC17: #ff7921;
+	    --themeColorTC18: #222;
+	    --themeColorTC19: #a6a6a6;
+	    --themeColorTC20: #2761c2;
+	    --themeColorLN1: #404040;
+	    --themeColorLN2: #404040;
+	    --themeColorLN3: rgba(0, 0, 0, 0.06);
+	    --themeColorLN4: #e6e6e6;
+	    --themeColorLN5: #eee;
+	    --themeColorLN6: #eee;
+	    --themeColorBG1: #fff;
+	    --themeColorBG2: #fff;
+	    --themeColorBG3: #fff;
+	    --themeColorBG4: #f5fdf5;
+	    --themeColorBG5: #f5f6f8;
+	    --themeColorBG6: #fff;
+	    --themeColorBG7: #fbfefb;
+	    --themeColorBT1: rgba(3, 199, 90, 0.12);
+	    --themeColorBT2: #009f47;
+	    --themeColorBT3: rgba(0, 118, 255, 0.1);
+	    --themeColorBT4: #2f2f2f;
+	    --themeColorBT5: #ebecef;
+	    --themeColorBT6: #e5e7ea;
+	    --themeColorBT7: #f5f6f8;
+	    --themeColorBT8: rgba(245, 53, 53, 0.06);
+	    --themeColorBT9: #a6a6a6;
+	    --themeColorBT10: rgba(0, 159, 71, 0.4);
+	    --themeColorBT11: #323232;
+	    --themeColorHC1:#ffff9f
+	}
+	
+	.CreateCafe .cafe_input th {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.CreateCafe .cafe_input .input_title .button_help:after {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.CreateCafe .cafe_input .input_txt {
+		color: #cacaca;
+	}
+	
+	.CreateCafe .cafe_input .cafe_url .btn_box .btn_auto, .CreateCafe .cafe_input .cafe_keyword .btn_srch {
+		background-color: #2f2f2f;
+	}
+	
+	.CreateCafe .cafe_input .cafe_region .cafe_region.region_select_button:before, .SelectRegion .select_city_header {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.SelectRegion .select_city_header .city_button {
+		color: #000;
+	}
+	
+	.SelectRegion .select_city_content .region_list.half_style li:nth-of-type(2n-1) {
+		border-right: 1px solid #4f4f4f;
+	}
+	
+	.BaseButton--gray {
+		background: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.CreateCafe .cafe_input .captcha_area img {
+		border: 1px solid #4f4f4f;
 	}
 }
 

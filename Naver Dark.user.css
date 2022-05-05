@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.5
+@version		1.63.6
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -5430,7 +5430,7 @@
     #post-area .commentbox_header,#post-area .u_cbox { background: #242424 !important }
     #post-area .u_cbox .u_cbox_btn_upload,#post-area .u_cbox .u_cbox_upload,#post-area .u_cbox .u_cbox_write .u_cbox_write_inner { border-color: #404040 }
 }
-@-moz-document url-prefix("https://news.naver.com/election/president") {
+@-moz-document url-prefix("https://news.naver.com/election/president"), url-prefix("https://news.naver.com/election/region") {
     .-exit_poll .home_title_area .add_info,.article_card_item .link_article_title,.article_card_item .r_cmt,.article_card_item .time,.article_item .article_title,.article_item .sub_info,.article_row_list .title,.cr_rulea,.u_copyright,.u_cra,.u_cra:active,.u_cra:visited,.u_cra_v1,.u_cra_v1:active,.u_cra_v1:visited,.u_cri,.debate_article_content .article_card_item .article_title_wrap,.election_result_list .candidate_wrap:first-child .party,.election_result_list .candidate_wrap:last-child .name,.election_result_list .sub_info,.exit_poll_list .candidate_info .party,.factcheck_news .factcheck_news_info .info_source,.factcheck_news .sub_info_source,.ft_elec,.info_layer .description,.news_article_item .r_cmt,.news_article_item .sub_info,.press_select_layer_wrap .link_press { color: #cacaca }
     .-press .survey_content,.article_card_item .article_area,.election_live_list,.home_content.-live .election_live_wrap,.election_schedule_list .schedule_box::after,.guide_flick .guide_content_box,.home_content,.news_article_section { background-color: #2f2f2f }
     .article_card_item .link_article_title:visited,.article_item .article_title:visited,.article_row_list .link:visited .title,.debate_article_content .article_card_item .article_content:visited .article_title_wrap { color: #c4c4c4 }
@@ -5456,7 +5456,9 @@
     .factcheck_news,.number_section { border-color: #404040 }
     .guide_flick .thumbnail::after { border: 1px solid #4f4f4f }
     .guide_flick .title_area { border: 1px solid #4f4f4f;border-top: 0 }
+    .header_banner .link { border: 1px solid #63579d;background: #2f2f2f }
     .info_layer,.press_select_layer_wrap { border: 1px solid #404040;background-color: #2f2f2f }
+    .light_type { display: none !important }
     .news_article_item::before { background-color: #4f4f4f }
     .Nlnb { background: transparent !important }
     @media (min-width: 1080px) {
@@ -5470,7 +5472,8 @@
         .scroll_button_area::after { background-image: linear-gradient(to right,rgba(47,47,47,0),#2f2f2f);background-image: -webkit-linear-gradient(left,rgba(47,47,47,0),#2f2f2f);background-image: -webkit-gradient(linear,left top,right top,from(rgba(47,47,47,0)),to(#2f2f2f)) }
         .scroll_button_area::before { background-image: linear-gradient(to left,rgba(47,47,47,0),#2f2f2f);background-image: -webkit-linear-gradient(right,rgba(47,47,47,0),#2f2f2f);background-image: -webkit-gradient(linear,right top,left top,from(rgba(47,47,47,0)),to(#2f2f2f)) }
     }
-    body { background: rgb(41, 44, 49) !important }
+    body { background: rgb(39, 39, 39) !important }
+    html:not(.DARK_THEME) .dark_type { display: block !important }
 }
 @-moz-document url-prefix("https://news.naver.com/main/election") {
     .candi_body h4,.candi_box .candi_precinct_info,.candi_sns_info .sub_time,.candi_lst_wrap table.candi_lst .status_resign .candi_name span,.candi_stats .candi_etc_lst li,.candi_stats .candi_stats_result p,.cont_box .btn_cont_more,.cont_box h3 a,.elect_candi_list .candi_party,.election_schedule li,.factcheck .factcheck_news_press,.factcheck .factcheck_news_txt,.ft_info p,.gnb_lnk,.grid_cont .candi_party,.grid_head .head_state,.history_result .history_info dd,.home_headline .headline_info,.press_cont .tmp .c,.section .keyword_txt,.status_board .select_district .layer_district li button,.survey_lst .legend_lst li,.total_party_info,.total_party_list .party_item_body .party_seat_detail dt,.turnout_data .data_info .noti,.turnout_data .data_type1,.turnout_data .data_type2 tbody td,.turnout_data .data_type2 tbody th,.turnout_graph .legend_lst li,.vote_count .vote_state_body .status_info .info_text,.vote_rate_area .guide_info .guide_text,.vote_rate_area .party_detail_layer .party,.vote_state .info_text,a.link_comment { color: #cacaca }

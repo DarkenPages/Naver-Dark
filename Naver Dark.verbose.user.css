@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.5
+@version		1.63.6
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -101986,10 +101986,10 @@
 	}
 }
 
-@-moz-document url-prefix("https://news.naver.com/election/president")
+@-moz-document url-prefix("https://news.naver.com/election/president"), url-prefix("https://news.naver.com/election/region")
 {
 	body {
-		background: rgb(41, 44, 49) !important;
+		background: rgb(39, 39, 39) !important;
 	}
 	
 	.header_inner::before, .header .title_election .link, .header .title_news .logo_naver, .header .title_news .logo_news, .Nlnb_menu_list .Nlist_item.-home .Nitem_link_menu::before, .Nlnb_menu_list .Nlist_item.-news .Nitem_link_menu::before, .Nlnb_menu_list .Nlist_item.-survey .Nitem_link_menu::before, .Nlnb_menu_list .Nlist_item.-debate .Nitem_link_menu::before, .Nlnb_menu_list .Nlist_item.-guide .Nitem_link_menu::before, .home_content.-headline .title_text::before, .article_item .r_cmt::before, .news_content_pick .title_text::before, .news_article_item .r_cmt::before, .news_article_item .thumbnail::before, .survey_title_area .title_text::before {
@@ -102361,6 +102361,19 @@
 	
 	.article_item .thumbnail::before {
 		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.light_type {
+		display: none !important;
+	}
+	
+	html:not(.DARK_THEME) .dark_type {
+		display: block !important;
+	}
+	
+	.header_banner .link {
+		border: 1px solid #63579d;
+		background: #2f2f2f;
 	}
 }
 

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.62.20
+@version		1.63.0
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -8142,124 +8142,73 @@
     body,head,html { font-family: 'Helvetica';color: #cacaca;background: #242424 }
 }
 @-moz-document url-prefix("https://weather.naver.com") {
-    .card { border-color: #2a2a2a;background-color: #2f2f2f }
-    .card .title_tab,.card_climate .climate_table .ttl_row,.card_climate .row_graph .num,.card_climateinfo .climate_summary,.card_dust .chart_tab,.card_dust .chart_update .station,.card_dust .chart_update .time,.card_dust .forecast_daily .date,.card_dust .forecast_time .time,.card_dust .offer_area,.card_forecast .forecast_summary,.is_today .forecast_average .average_value,.card_forecast .forecast_tablist button,.card_forecast .statistics_graph .level_point,.card_forecast_today .forecast_summary,.card_forecast_today .forecast_tablist button,.card_nation .weekly_list .button,.card_news .info_media,.card_now .dust_item .ttl,.card_past .calendar_day,.card_past .calendar_table th,.card_past .calendar_temperature,.card_pollution .pollution_item .item_ttl,.card_today .time_weather .title_dsc,.card_today .today_chart_list .ttl_area,.card_today .today_weather .list_cp .item .text,.card_today .weather_area .degree_group,.card_today .weather_area .summary_list .term,.card_today .weather_area .weather_quick_area .weather_table dl dt,.card_typhoon .typhoon_data .table_value,.card_week .cell_temperature .temperature,.chart_list .chart_dsc,.header_forecast .dust_item .ttl,.header_forecast .info,.layer_search .dust_item .ttl,.is_news .more_area .btn_more,.is_today .help_icon+.ly_help .weather_list .item,.is_today.foreign .card_week .info_value,.is_warning .disaster_letter .summary,.is_warning .section_right.weather .card_now .dust_item .ttl,.is_warning .warning .btn_tab,.is_warning .warning .card_content_inner p,.is_warning .warning .warning_card.summary_list .card_content_inner p,.is_warning .warning .ly_help,.is_warning .warning .warning_info .ly_help,.keyword_list .text_area .main,.layer_popup .message_area,.lnb_area .menu,.ly_help .figure_dsc,.ly_help .item_level .text,.map_location_info .dsc_info,.map_location_info .value_list,.notify_area .text,.offer_area,.pin_weather .value_pin,.player_area .timer_progress,.popup_cp .time .text,.popup_cp .weather .temperature,.renewal_link .link_go,.weather_list_area .title,.weather_list_area .weather_area .weather { color: #cacaca }
-    .card .title_tab+.title_tab:before,.card_dust .summary_group+.summary_group::before,.card_news .info_time:before,.card_today .weather_area .weather_quick_area .tab_list .tab_link,.is_news .info_time:before,.is_news .wn_item .info_time:before,.is_warning .warning .content_area,.line_wn_wrap:before,.map_location_info .value_list+.value_list:before,.renewal_link .link_go+.link_go:before,#footer .link_group .link:before,#header:after { background-color: #404040 }
-    .card .title,.card .title_tab.on,.card_climate .climate_table .time.day,.card_climate .ttl_row,.card_climateinfo .box_color .ttl,.card_dust .btn_area .station,.card_dust .chart_value .ttl,.card_dust .item_summary .dsc_area .ttl_dsc,.card_dust .summary_group .ttl_summary,.card_dust .dust_summary .ly_help .dust_level_item .ttl_level,.card_dust .forecast_daily .date.today,.card_dust .forecast_time .time.now,.card_dust .info_tit,.card_forecast .statistics_data .data.now .number,.card_nation_dust .zone .name,.card_nation:not(.night) .zone .text,.card_news .info_ttl,.card_now .info,.card_now .location,.is_news .wn_item .tit_news,.card_past .calendar_select .select_value,.card_today .time_weather .sub_title,.card_today .weather_area .summary,.card_today .weather_area .summary_list .desc,.card_today .weather_area .weather_now .current,.card_today .weather_area .weather_now .summary,.card_today .weather_area .weather_quick_area .weather_table .term,.card_today .weather_area .weather_quick_area .weather_table dl dd,.card_week .box_color .ttl,.card_week .date_inner .day,.card_week .week_item.on .date,.card_week .week_item.today .date,.chart_list .chart_ttl,.gnb_area .location_name,.is_warning .disaster_letter .location,.is_warning .section_right.weather .card_now .info,.is_warning .section_right.weather .card_now .location,.layer_popup .popup_title,.line_wn_wrap .tit_news,.lnb_area .item.on .menu,.ly_help .item_level .limit,.ly_help .ly_ttl,.map_location_info .ttl_info,.pin_map .area_name,.popup_cp .english,.popup_cp .korean,.popup_cp .list_comparison .text,.popup_cp .popup_title,.weather_list_area .weather_area .temperature,.weather_newsflash .title,strong { color: #fff }
-    .card_climate .climate_table .data { border: 2px solid #404040;border-width: 0 2px }
-    .card_climate .climate_table .data_inner,.card_dust .summary_group+.summary_group,.card_nation .time_area .button+.button { border-left: 1px solid #404040 }
-    .card_climate .float_ttl,.card_forecast .forecast_tablist li,.card_forecast_today .forecast_tablist li,.card_headline .link_clst .num,.card_headline .link_clst .num:before,.card_past .calendar_select li,.header_forecast .card_item,.is_image#container .player_area,.is_today.foreign .card_week .week_item .day_data,.is_warning .disaster_letter .letter_list,.is_warning .warning .warning_card.summary_list,.is_warning .warning .warning_card.summary_list .card_title,.is_warning .warning .warning_info,.is_warning .weather_report,#container.is_image .offer_area_wrap,#header,#header:before { background-color: #2f2f2f }
-    .card_climateinfo .box_color .color_inner { border: 1px solid #404040;background-color: #3a3a3a }
-    .card_climateinfo .climate_summary+.climate_summary,.card_dust .dust_summary,.card_dust .dust_summary .ly_help .ly_link_area,.card_dust .dust_summary .ly_help .summary_list+.figure_dsc,.card_figure .offer_area,.card_forecast .offer_area,.map_location_info .value_area,.card_forecast_today .offer_area,.card_headline .notice,.card_typhoon .typhoon_data,.line_wn_wrap,.card_video .offer_area,.card_week .offer_area,.card_week .week_item+.week_item,.chart_list .item+.item,.is_image#container .inner_player+.offer_area,.is_news .more_area,.is_news .wn_item,.is_warning .disaster_letter .letter,.lnb_area,.player_area .offer_area { border-top: 1px solid #404040 }
-    .card_climateinfo .title:after,.card_headline .ico_arr,.card_nation:not(.night):before,.card_past .calendar_select .select_value:after,.card_past .help_icon:after,.card_today .weather_area .summary .temperature.down:after,.card_typhoon .title:after,.pin_map.on:after,.card_typhoon .typhoon_route .icon_toggle,.card_typhoon .typhoon_route .route_list.on+.toggle_button .icon_toggle,.is_news .more_area .btn_more:after,.card_week .button_more:after,.is_map#container .map_location_info:after,.is_today.foreign .card_week .week_item.on .btn_more:after { filter: invert(81.5%) hue-rotate(-180deg) }
-    .card_dust .btn_area .station::after { filter: invert(81.5%) hue-rotate(-180deg) brightness(1000%) }
-    .card_dust .chart_tablist { background: #3a3a3a }
-    .card_dust .chart_update .station_level1::before { color: #cacaca;border: 1px solid #cacaca }
-    .card_dust .chart_value .ico_help,.card_dust .summary_group .ico_help,.card_map .local_map > div > div,.card_map .nation_map,.card_map #_idWeatherInfoFixed+div,.card_nation_dust .nation_map:after,.card_today .item_today.level4_2.type_dsc .level_text:before,.card_today .item_today.level5_2.type_dsc .level_text:before,.card_today .item_today.level5_4.type_dsc .level_text:before,.card_today .weather_area .summary .temperature.up:after,.card_weathermap #_idWeatherInfoFixed+div>div>div>div:nth-child(2),.chart_list .chart_ttl .ico_help,.gnb_area .btn_location:before,.gnb_area .button_group .btn_forecast .btn:after,.gnb_area .button_group .btn_search:after,.gnb_area .logo:after,.gnb_area .button_group .btn_search.on .icon_animation:before,.gnb_area .button_group .btn_search.on .icon_search,.keyword_list .ico_autocomplete,.layer_search .form_wrap .btn_cancle:after,.weather_list_area .button_delete:before,.is_map#container .map_panel>div img,.is_warning .warning .btn_zoom_in,.is_warning .warning .btn_zoom_out,.is_warning .warning .warning_info .btn_alert,.is_warning .warning #_idMap.inner > div,.offer_area .offer_airvisual,.player_area .btn_pause:before,.player_area .btn_play:before,.popup_cp .btn_close:after { filter: invert(86%) hue-rotate(-180deg) }
-    .card_dust .forecast_daily .date.today::after,.card_dust .forecast_time .time.now::after { background: #fff }
-    .card_dust .offer_area .text::after { background: #4f4f4f }
-    .card_dust .statistics_data { background: linear-gradient(to bottom,rgba(0,0,0,.05) 1px,#242424 1px,#242424 25px) }
-    .card_forecast .forecast_tablist li:before,.card_forecast .forecast_tablist li.on button:before,.card_forecast_today .forecast_tablist li:before,.card_past .calendar_select li:before,.card_week .box_color .color_inner { border: 1px solid #404040 }
-    .card_forecast .forecast_tablist li.on button,.card_forecast_today .forecast_tablist li.on button { color: #fff;background-color: #242424 }
-    .card_forecast .forecast_tablist li+li:before,.card_forecast_today .forecast_tablist li+li:before { border-left-color: #404040 }
-    .card_forecast .statistics_data .data,.card_nation .time_area .button,.header_forecast,.layer_popup .popup_content,.layer_search .form_wrap,.layer_search .layer_content,.weather_newsflash { background-color: #242424 }
-    .card_forecast .statistics_summary { color: #cacaca;background-color: #242424 }
-    .card_forecast_today .forecast_tablist li.on button:before { border: 1px solid #4f4f4f }
-    .card_headline .link_clst .num { border: 1px solid #355eb7 }
-    .card_nation .map_wrap { border: 1px solid #155e95;background-color: rgb(64, 95, 124) }
+    .calendar_day,.is_today .card_past .calendar_temperature,.calendar_select .select_value,.card .title_tab,.card_headline .notice .txt,.card_nation .weekly_list .button,.card_now .dust_item .ttl,.is_warning .section_right.weather .card_now .dust_item .ttl,.is_dust .card_dust .btn_area .station,.is_dust .card_dust .chart_update .time,.is_dust .card_dust .chart_tab,.is_dust .card_dust .forecast_time .time,.is_dust .card_dust .info_forecast,.is_dust .card_dust .info_offer,.is_dust .card_pollution .tit,.is_news .wn_item .dsc_news,.is_today .card_forecast_today .forecast_summary,.is_today .card_forecast_today .forecast_tablist button,.is_today .card_news .info_dsc,.is_today .card_today_weather .weather_area .weather_quick_area .weather_table .term,.is_today .card_today_weather .weather_area .weather_quick_area .weather_table dl dt,.is_today .card_weather_graph .offer_update,.is_today .forecast_average .average_ttl,.is_warning .warning .btn_tab,.is_warning .warning .btn_zoom_in,.is_warning .warning .error_box.loading em,.is_warning .warning .error_box.reloading em,.is_warning .warning .ly_help,.is_warning .warning .warning_card.summary_list .card_content_inner p,.is_warning .warning .warning_info .ly_help,.lnb_area .menu,.ly_help .desc,.ly_help .figure_dsc,.ly_help .help_dsc,.ly_help .item_level .limit,.ly_help .item_level .text,.offer_area span,#container.is_map .btn_tab,#footer,#header .notify_area .text { color: #cacaca }
+    .calendar_select .select_value:after { filter: invert(81.5%) hue-rotate(-180deg) }
+    .calendar_select li,.card_headline .link_clst .num:before,.is_today .card_forecast_today .forecast_tablist li,.is_warning .warning .btn_wrap,.is_warning .warning .warning_card.summary_list,.is_warning .warning .warning_card.summary_list .card_title,#container.is_map .btn_wrap { background-color: #2f2f2f }
+    .calendar_select li:before,.is_today .card_forecast_today .forecast_tablist li:before,#container.is_map .map_btn { border: 1px solid #404040 }
+    .calendar_select li+li:before { border-color: #4f4f4f }
+    .calendar_table th,.card .title,.card .title_tab.on,.card_nation .zone .text,.card_now .info,.is_warning .section_right.weather .card_now .info,.is_dust .button_area .tab.on .text,.is_dust .card_dust .chart_value .ttl,.is_dust .card_dust .dust_summary .ly_help .dust_level_item .ttl_level,.is_dust .card_dust .forecast_time .time.now,.is_dust .card_dust .info_tit,.is_dust .card_dust .item_summary .dsc_area .ttl_dsc,.is_dust .card_dust .statistics_data .name,.is_dust .card_dust .summary_group .ttl_summary,.is_dust .card_pollution .ly_help strong,.is_news .more_area .btn_more,.is_news .wn_item .tit_news,.is_today .card_figure .tit,.is_today .card_news .info_ttl,.is_today .card_today_weather .location_name,.is_today .card_today_weather .weather_area .weather_now .current,.is_today .card_today_weather .weather_area .weather_now .summary,.is_today .card_today_weather .weather_area .weather_quick_area .weather_table dl dd,.is_today .card_weather_graph .offer,.is_today .card_weather_graph .weather_graph .tit,.is_today .card_week .date_inner .day,.is_today .forecast_average .average_value,.is_today .help_icon+.ly_help .weather_list .item,.is_warning .section_right.weather .card_now .location,.is_warning .warning .error_box.reloading strong,.is_warning .warning .warning_info strong,.line_wn_wrap .tit_news,.lnb_area .item.on .menu,.lnb_area .page_name,.ly_help .ly_ttl { color: #fff }
+    .calendar_table tr,.is_today .card_figure .title,.is_today .card_news .headline_area:after,.is_today .card_weather_graph .weather_graph tr,.section_wrap { border-bottom: 1px solid #404040 }
+    .card .title_tab+.title_tab:before,.is_dust .card_dust .forecast_link:before,.is_dust .card_dust .info_offer em:before,.is_dust .card_dust .summary_group+.summary_group:before,.is_today .card_today_weather .weather_area .weather_quick_area .weather_quick_inner:before,#footer .link_group .link:before,#header:after { background-color: #404040 }
+    .card_headline .ico_arr,.chart_list .chart_area .chart > div > svg,.ico_help:after,.is_dust .card_map .local_map,.is_dust .card_map .nation_map,.is_news .more_area .btn_more:after,.is_today .card_past .help_icon:after,.is_today .card_today_weather .btn_location:before,.is_today .card_today_weather .today_weather .btn_area .btn_compare:before,.is_warning .disaster_letter .letter_none:before,.is_warning .warning .btn_zoom_in,.is_warning .warning .btn_zoom_out,.is_warning .warning .inner > div> div[style],.lnb_area .button_group>.btn_search:after,#container.is_map .btn_zoom_in,#container.is_map .btn_zoom_out,#container.is_map .map_panel { filter: invert(86%) hue-rotate(-180deg) }
+    .card_headline .link_clst .num { border: 1px solid #454a57;background-color: #242424 }
+    .card_headline .notice,.line_wn_wrap,.is_dust .card_dust .dust_summary .ly_help .ly_link_area,.is_dust .card_dust .dust_summary .ly_help .summary_list+.figure_dsc,.is_dust .card_pollution,.is_dust .card_pollution .inner_card,.is_news .card,.is_news .more_area,.is_news .wn_item,.is_today .card_forecast_today .offer_area,.is_warning .section_right.weather .card_now .dust_area { border-top: 1px solid #404040 }
+    .card_nation .map_wrap { border: 1px solid #404040;background-color: rgb(55, 90, 124) }
     .card_nation .nation_map { background-position: 0 0 }
-    .card_nation .time_area .button.on,.layer_popup .go_naverform { color: #242424 }
-    .card_nation .title,.climate_rain .row_graph .data_inner,.popup_cp .list_setting [class^=item_].on,.popup_cp .time { background: #2f2f2f }
-    .card_nation .weekly_list { border-top: 1px solid #404040;background: #2f2f2f }
-    .card_news .headline_area,.card_past .calendar_table tr,.popup_cp .cp_tablist,.popup_cp .weather { border-bottom: 1px solid #404040 }
-    .card_past .calendar_select li+li:before { border-left-color: #404040;border-color: #404040 }
-    .card_today .item_time .time { color: #cacaca;border: 1px solid #404040 }
-    .card_today .item_time .time.day { border-color: #4f4f4f }
-    .card_today .item_today { border-color: #404040 !important;background-color: #242424 !important }
-    .card_today .time_weather { border: 1px solid #404040;border-top: 1px solid #404040 }
-    .card_today .time_weather .title_dsc:after { background: #404040 }
-    .card_today .time_weather text.bb-text { fill: #cacaca }
-    .card_today .today_chart_list .chart svg g>circle:first-child { stroke: #404040;fill: #242424 }
-    .card_today .today_chart_list .clock { border: 5px solid #404040;background-color: #242424 }
-    .card_today .today_weather { border: 0 solid #404040 }
-    .card_today .today_weather .cp_area { border-bottom: 1px solid #404040;background: #2f2f2f }
-    .card_today .weather_area .current { text-shadow: 0px 0px 10px black;color: #fff }
-    .card_today .weather_area .weather_quick_area .tab_list .tab_link.on { background-color: #cacaca }
-    .card_today .weather_area .weather_quick_area .weather_table .term:after,.lnb_area .item.on .menu:after { background-color: #fff }
-    .card_typhoon .typhoon_data .data_area:before,.is_today .forecast_average .average_ttl { border-left: 3px solid #404040 }
-    .card_typhoon .typhoon_route,.card_week .button_more,.popup_cp .notice { color: #cacaca;border-top: 1px solid #404040 }
-    .card_weathermap .map_area,.is_map#container .map_panel { background-image: none !important }
-    .card_week .box_color .ttl:after { border-right: 1px solid #404040 }
-    .chart_area>svg>g .net-axis line,.chart_area>svg>g .net-lines line { stroke: #404040 !important }
-    .chart_list .chart_area .chart>div svg g>circle:first-child,.map_location_info .chart_area .chart>div svg g circle:first-child { stroke: #404040;fill: #2f2f2f }
-    .climate_humidity .bar { background-color: #2d6986 }
-    .climate_humidity .box_color .summary { background: rgba(45, 71, 80, 0.6) }
-    .climate_rain .box_color .summary { background-color: #2c374a }
-    .climate_rain .icon_area { filter: invert(80%) hue-rotate(-180deg) }
-    .climate_rain .row_graph .data { background-color: rgb(56, 57, 61) }
-    .climate_wind .box_color .summary { background: rgba(41, 84, 88, 0.4) }
-    .gnb_area .logo:before { filter: invert(100%) hue-rotate(-180deg) }
-    .header_forecast .card_item+.card_item { border-top: 1px solid #2a2a2a }
-    .is_today .help_icon+.ly_help,.popup_cp .time.day .text { border-color: #404040 }
-    .is_today.foreign .card_week .day_info,.ly_help,.player_area .inner_player { border: 1px solid #404040;background-color: #242424 }
-    .is_today.foreign .card_week .week_item.on .day_data:before { background-image: linear-gradient(to bottom, #2f2f2f, #242424 50%, #2f2f2f) }
-    .is_warning .disaster_letter { border-bottom: 1px solid #404040;background-color: #2f2f2f }
-    .is_warning .disaster_letter .btn_action { border: 1px solid #4f4f4f;background-color: #3a3a3a }
-    .is_warning .warning .another_info_top,.is_warning .warning .warning_info strong { color: #Fff }
-    .is_warning .warning .btn_tab_wrap { border-top: 1px solid #404040;background-color: #2f2f2f }
-    .is_warning .warning .btn_wrap { background-color: #3a3a3a }
-    .is_warning .warning .list_area { background-color: rgb(52, 77, 99) }
-    .is_warning .warning .map_wrap:after { background-image: linear-gradient(to bottom,rgba(52,77,99,0),rgb(52, 77, 99));background-image: -webkit-linear-gradient(top,rgba(52,77,99,0),rgb(52, 77, 99));background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(52,77,99,0)),to(rgb(52, 77, 99))) }
+    .card_nation .time_area .button { color: #cacaca;background-color: #2f2f2f }
+    .card_nation .time_area .button.on,#header .notify_area .badge { color: #2f2f2f }
+    .card_nation .time_area .button+.button { border-left: 1px solid #404040 }
+    .card_nation .title { background: #242424 }
+    .card_nation .weekly_list { border-top: 1px solid #404040;background: #242424 }
+    .card,.is_dust .button_area,.is_dust .card_dust .level_point .point,.is_dust .card_map .content_area .offer_area,.is_today .card_weather_graph .weather_graph .no_border+tr .data:before,.is_warning .warning .video_area_wrap,.is_warning .warning .warning_info,#container,#container.is_image .offer_area_wrap,#header:before,body { background-color: #242424 }
+    .is_dust .card_dust .btn_area .station:after,.is_today .card_today_weather .weather_area .weather_now .summary .temperature:after,.is_today .card_weather_graph .help_icon .ico_help:after,.is_warning .warning .warning_info .btn_alert,.lnb_area .logo:before { filter: invert(100%) hue-rotate(-180deg) }
+    .is_dust .card_dust .chart_tab.on { background: #3a3a3a }
+    .is_dust .card_dust .chart_tablist,.is_dust .card_dust .statistics_data .info,#container.is_map .btn_current,#header .notify_area .notify_inner { background: #2f2f2f }
+    .is_dust .card_dust .forecast_time .time.now:after { background: #fff }
+    .is_dust .card_dust .statistics_data { border-bottom: 1px solid #404040;background: linear-gradient(to bottom,#2f2f2f 1px,#242424 1px,#242424 25px);background: -webkit-linear-gradient(top,#2f2f2f 1px,#242424 1px,#242424 25px);background-size: 100% 26px;-webkit-background-size: 100% 26px }
+    .is_dust .card_map .btn_dust { color: #fff;background-color: #2f2f2f }
+    .is_today .card_forecast_today .forecast_tablist li.on button { color: #fff;background-color: #3a3a3a }
+    .is_today .card_forecast_today .forecast_tablist li.on button:before { border: 1px solid #4f4f4f }
+    .is_today .card_forecast_today .forecast_tablist li+li:before { border-left-color: #404040 }
+    .is_today .card_today_weather .today_weather .btn_area .btn_compare { color: #cacaca;border: 1px solid #404040 }
+    .is_today .card_today_weather .today_weather .list_cp .item .button,.ly_help { border: 1px solid #404040;background-color: #2f2f2f }
+    .is_today .card_weather_graph .weather_graph .bar { border-top: 2px solid rgb(54, 67, 82);background-image: linear-gradient(to bottom,rgba(43,51,58,1),rgba(36,40,43,1));background-image: -webkit-linear-gradient(top,rgba(43,51,58,1),rgba(36,40,43,1));background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(43,51,58,1)),to(rgba(36,40,43,1))) }
+    .is_today .card_weather_graph .weather_graph .bb text { fill: #fff;color: #fff }
+    .is_today .card_week .bar { color: #4f4f4f }
+    .is_today .card_week .offer_area span { color: #cacaca;border-top: 1px solid #404040 }
+    .is_today .help_icon+.ly_help { border-color: #404040 }
+    .is_warning .disaster_letter { border-bottom: 1px solid #404040;background-color: #242424 }
+    .is_warning .warning .btn_tab_wrap,#container.is_map .btn_tab_wrap { border-top: 1px solid #404040;background-color: #2f2f2f }
+    .is_warning .warning .btn_tab_wrap.on,.is_warning .warning .skeleton,#container.is_map .btn_tab_wrap.on { background-color: #3a3a3a }
+    .is_warning .warning .list_area,.is_warning .warning .map_wrap { background-color: rgb(52, 77, 99) }
+    .is_warning .warning .list_title { color: #ddf0ff }
+    .is_warning .warning .loading_card { box-shadow: none;background-color: #2f2f2f }
+    .is_warning .warning .map_wrap:after { background-image: linear-gradient(to bottom,rgba(52,77,99,0),#344d63);background-image: -webkit-linear-gradient(top,rgba(52,77,99,0),#344d63);background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(52,77,99,0)),to(#344d63)) }
     .is_warning .warning .warning_card.on .warning_card_border { border: 2px solid #404040 }
-    .layer_search .search_input { color: #fff;border-bottom: 2px solid #404040;background: #242424 }
-    .map_location_info { box-shadow: 0 0 15px 7px rgba(0, 0, 0, .25);background-color: #2f2f2f }
-    .notify_area .link_flash { border: 1px solid #864e4a;background: #463a38 }
-    .notify_area .link_notify { border: 1px solid #64879d;background: #52585c }
-    .pin_map { box-shadow: 0 0 5px 0 rgba(0, 0, 0, 1);background-color: #2f2f2f }
-    .popup_cp .cp_tablist .item.on .tab { color: #fff;border-bottom-color: #fff }
-    .popup_cp .inner { background: #242424 }
-    .popup_cp .list_comparison { border-right: 1px solid #404040;background: #2f2f2f }
-    .popup_cp .list_setting [class^=item_] { border-top: 1px solid #404040;border-left: 1px solid #404040 }
-    .popup_cp .time.dimmed .text { color: #888 }
-    .renewal_link { border: 1px solid #404040;background-color: #2f2f2f }
-    .scroll_control.end_left:after { background-image: linear-gradient(to left, #2f2f2f, rgba(47, 47, 47, 0)) }
-    .scroll_control.end_right:before { background-image: linear-gradient(to left, rgba(47, 47, 47, 0), #2f2f2f) }
-    .weather_list_area .card_item,.weather_list_area .card_item { border-color: #2a2a2a !important;background-color: #2f2f2f !important }
-    .weather_newsflash .newsflash_area:after { filter: invert(86%) hue-rotate(-180deg) grayscale(1) }
-    @media (max-width: 1024px) {
-        .is_image#container { background-image: linear-gradient(rgba(64, 64, 64, .5) 1px, transparent 1px), linear-gradient(90deg, rgba(64, 64, 64, .5) 1px, transparent 1px);background-color: #2f2f2f }
-    }
+    .pin_map .area_name,.pin_weather .value_pin { color: #000 }
+    .scroll_control.end_left:after { background-image: linear-gradient(to left,#242424,rgba(36,36,36,0));background-image: -webkit-linear-gradient(right,#242424,rgba(36,36,36,0));background-image: -webkit-gradient(linear,right top,left top,from(#242424),to(rgba(36,36,36,0))) }
+    .scroll_control.end_right:before { background-image: linear-gradient(to left,rgba(36,36,36,0),#242424);background-image: -webkit-linear-gradient(right,rgba(36,36,36,0),#242424);background-image: -webkit-gradient(linear,right top,left top,from(rgba(36,36,36,0)),to(#242424)) }
     @media (min-width: 1025px) {
-        .card_climate { background-color: transparent }
-        .card_climate .inner_card,.card_figure .inner_card { border-color: #2a2a2a;background-color: #2f2f2f }
-        .card_pollution .chart_list .item+.item { border-top: 1px solid #404040 }
-        .gnb_area { border-bottom: 1px solid #404040 }
-        .gnb_area .button_group .btn_forecast:before { background-color: #404040 }
-        .is_image#container .inner_player+.offer_area { border-color: #404040 }
-        .is_image#container .player_area { border: 1px solid #2a2a2a;border-top: 0 }
-        .is_image#container .tab_panel,.is_image#container .tab_panel.hide { background-color: #2f2f2f }
-        .is_warning .disaster_letter .letter_title,.is_warning .weather_report .title { color: #fff }
-        .is_warning .warning .tit { color: #fff;background-color: #2f2f2f }
-        .weather_newsflash .content_inner { background-color: #242424 }
-        #container.is_image .offer_area_wrap { border: 1px solid #404040;border-top: 0 }
-    }
-    @media (min-width: 748px) {
-        .card_pollution .chart_list .item:nth-child(n+3) .item_inner { border-top: 1px solid #404040 }
+        .is_dust .button_area .tab .text,.is_today .card_today_weather .today_weather .list_cp .item .cp_text { color: #cacaca }
+        .is_dust .button_area .tab+.tab:before { background-color: #404040 }
+        .is_dust .card_dust .btn_area { border-top: 1px solid #404040;border-bottom: 1px solid #404040 }
+        .is_today .card_halve+.card_halve,.is_warning .card_nation,.lnb_area { border-top: 1px solid #404040 }
+        .is_today .card_nation { border-top: 0 }
+        .is_warning .card_nation .weekly_list,#container.is_image .tab_panel,#container.is_image .tab_panel.hide { background-color: #242424 }
+        .is_warning .disaster_letter { border: none;border-bottom: 1px solid #404040 }
+        .is_warning .disaster_letter .letter_title,#container.is_image .title { color: #fff }
+        .is_warning .warning .content_area_wrap,.is_warning .warning .content_area.map,#container.is_image #content { border-bottom: 1px solid #404040 }
+        .is_warning .warning .tit { color: #fff;background-color: #242424 }
+        .section_center { border-right: 1px solid #404040 }
     }
     @media (min-width: 768px) {
-        .card_week .offer_area { border-top: 1px solid #404040 }
-        .card_week .week_item .day_data { border-left: 1px solid #404040 }
-        .card_week .week_item+.week_item { border-top: 0 }
-        .header_forecast { border-bottom: 1px solid #404040 }
-        .header_forecast .card_item { border: 1px solid #2a2a2a;background-color: #2f2f2f }
-        .header_forecast .card_item:last-child { border-bottom: 1px solid #2a2a2a }
-        .header_forecast .card_item.night { border: 1px solid #232b34 }
-        .is_today.foreign .card_week .time_dsc { color: #cacaca }
-        .is_today.foreign .card_week .time_dsc .time { color: #fff }
+        .is_dust .card_map .content_area .offer_area span,.is_today .card_week .box_color .date,.is_today .card_week .box_color .day,.is_today .card_week .box_color .temperature,.is_today .card_week .box_color .timeslot,.is_today .card_week .box_color .weather_inner .rainfall.none { color: #cacaca }
+        .is_news .card_nation .weekly_list,.is_today .card_nation .weekly_list,#footer .content_inner,body { background-color: #242424 }
+        .is_today .card_weather_graph { border: none }
+        .is_today .card_week .box_color .day_data { border: 1px solid #404040 }
+        .is_today .card_week .week_item { border-right: 1px solid #404040 }
+        .is_today .card,.is_today .card_halve .card_forecast_today,.is_today .halve_area { border-top: 1px solid #404040 }
     }
-    #_idMap { background: #2f2f2f !important;background-image: none !important }
-    body,html { color: #cacaca;background: #242424 }
-    polygon.net-line-bg { fill: #2f2f2f }
 }
 @-moz-document url-prefix("https://widget.post.naver.com/blog2.nhn"), url-prefix("https://widget.post.naver.com/blog2.naver") {
     .dimmed { opacity: 1;filter: none }

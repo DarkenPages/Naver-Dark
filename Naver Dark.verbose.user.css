@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.62.20
+@version		1.63.0
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -60617,1313 +60617,1313 @@
 
 @-moz-document url-prefix("https://weather.naver.com")
 {
-	html, body {
-		background: #242424;
-		color: #cacaca;
-	}
+	/*html, body {*/
+	/*	background: #242424;*/
+	/*	color: #cacaca;*/
+	/*}*/
 	
-	strong {
-		color: #fff;
-	}
+	/*strong {*/
+	/*	color: #fff;*/
+	/*}*/
 	
-	#header {
-		background-color: #2f2f2f;
-	}
+	/*#header {*/
+	/*	background-color: #2f2f2f;*/
+	/*}*/
 	
-	@media (min-width: 1025px) {
-	
-		.gnb_area {
-			border-bottom: 1px solid #404040;
-		}
-	
-		.gnb_area .button_group .btn_forecast:before {
-			background-color: #404040;
-		}
-	
-	}
-	
-	.lnb_area {
-		border-top: 1px solid #404040;
-	}
-	
-	#header:after {
-		background-color: #404040;
-	}
-	
-	.lnb_area .item.on .menu {
-		color: #fff;
-	}
-	
-	.gnb_area .logo:after, .gnb_area .button_group .btn_search:after, .gnb_area .button_group .btn_forecast .btn:after {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.lnb_area .item.on .menu:after {
-		background-color: #fff;
-	}
-	
-	.lnb_area .menu {
-		color: #cacaca;
-	}
-	
-	.card_nation .title {
-		background: #2f2f2f;
-	}
-	
-	.card_nation .weekly_list {
-		border-top: 1px solid #404040;
-		background: #2f2f2f;
-	}
-	
-	.card_nation .weekly_list .button {
-		color: #cacaca;
-	}
-	
-	.card_nation .map_wrap {
-		border: 1px solid #155e95;
-		background-color: rgb(64, 95, 124);
-	}
-	
-	.card_nation .time_area .button {
-		background-color: #242424;
-	}
-	
-	.card_nation .time_area .button+.button {
-		border-left: 1px solid #404040;
-	}
-	
-	.card_nation .time_area .button.on {
-		color: #242424;
-	}
-	
-	.card_nation .nation_map {
-		background-position: 0 0;
-	}
-	
-	.card_figure .offer_area {
-		border-top: 1px solid #404040;
-	}
-	
-	.card_forecast_today .forecast_tablist li.on button {
-		background-color: #242424;
-		color: #fff;
-	}
-	
-	.card_forecast_today .forecast_tablist button {
-		color: #cacaca;
-	}
-	
-	.card_forecast_today .forecast_tablist li:before {
-		border: 1px solid #404040;
-	}
-	
-	.card_forecast_today .forecast_tablist li+li:before {
-		border-left-color: #404040;
-	}
-	
-	.card_forecast_today .forecast_tablist li {
-		background-color: #2f2f2f;
-	}
-	
-	.card_forecast_today .forecast_tablist li.on button:before {
-		border: 1px solid #4f4f4f;
-	}
-	
-	.card_forecast_today .forecast_summary {
-		color: #cacaca;
-	}
-	
-	.card_forecast_today .offer_area {
-		border-top: 1px solid #404040;
-	}
-	
-	@media (min-width: 768px) {
-		.header_forecast {
-			border-bottom: 1px solid #404040;
-		}
-	
-		.header_forecast .card_item {
-			background-color: #2f2f2f;
-			border: 1px solid #2a2a2a;
-		}
-	}
-	
-	.header_forecast .card_item {
-		background-color: #2f2f2f;
-	}
-	
-	.header_forecast .card_item+.card_item {
-		border-top: 1px solid #2a2a2a;
-	}
-	
-	.header_forecast {
-		background-color: #242424;
-	}
-	
-	.header_forecast .info, .header_forecast .dust_item .ttl, .layer_search .dust_item .ttl {
-		color: #cacaca;
-	}
-	
-	@media (min-width: 768px) {
-		.header_forecast .card_item:last-child {
-			border-bottom: 1px solid #2a2a2a;
-		}
-	
-		.header_forecast .card_item.night {
-			border: 1px solid #232b34;
-		}
-	}
-	
-	.gnb_area .location_name {
-		color: #fff;
-	}
-	
-	.gnb_area .button_group .btn_search.on .icon_animation:before, .gnb_area .button_group .btn_search.on .icon_search, .layer_search .form_wrap .btn_cancle:after, .weather_list_area .button_delete:before, .keyword_list .ico_autocomplete {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.layer_search .layer_content, .layer_search .form_wrap {
-		background-color: #242424;
-	}
-	
-	.layer_search .search_input {
-		color: #fff;
-		border-bottom: 2px solid #404040;
-		background: #242424;
-	}
-	
-	.weather_list_area .card_item, .weather_list_area .card_item {
-		border-color: #2a2a2a !important;
-		background-color: #2f2f2f !important;
-	}
-	
-	.weather_list_area .weather_area .temperature {
-		color: #fff;
-	}
-	
-	.weather_list_area .weather_area .weather, .weather_list_area .title {
-		color: #cacaca;
-	}
-	
-	.keyword_list .text_area .main {
-		color: #cacaca;
-	}
-	
-	.weather_newsflash {
-		background-color: #242424;
-	}
-	
-	@media (min-width: 1025px) {
-		.weather_newsflash .content_inner {
-			background-color: #242424;
-		}
-	}
-	
-	.weather_newsflash .title {
-		color: #fff;
-	}
-	
-	.weather_newsflash .newsflash_area:after {
-		filter: invert(86%) hue-rotate(-180deg) grayscale(1);
-	}
-	
-	.card {
-		border-color: #2a2a2a;
-		background-color: #2f2f2f;
-	}
-	
-	.card_today .weather_area .current {
-		color: #fff;
-		text-shadow: 0px 0px 10px black;
-	}
-	
-	.card_today .weather_area .degree_group {
-		color: #cacaca;
-	}
-	
-	.card_today .weather_area .summary, .card_today .time_weather .sub_title {
-		color: #fff;
-	}
-	
-	.card_today .time_weather {
-		border-top: 1px solid #404040;
-	}
-	
-	.scroll_control.end_left:after {
-		background-image: linear-gradient(to left, #2f2f2f, rgba(47, 47, 47, 0));
-	}
-	
-	.scroll_control.end_right:before {
-		background-image: linear-gradient(to left, rgba(47, 47, 47, 0), #2f2f2f);
-	}
-	
-	.card_today .item_time .time {
-		border: 1px solid #404040;
-		color: #cacaca;
-	}
-	
-	.is_today .help_icon+.ly_help {
-		border-color: #404040;
-	}
-	
-	.ly_help {
-		border: 1px solid #404040;
-		background-color: #242424;
-	}
-	
-	.ly_help .ly_ttl {
-		color: #fff;
-	}
-	
-	.is_today .help_icon+.ly_help .weather_list .item {
-		color: #cacaca;
-	}
-	
-	.card_today .item_today {
-		border-color: #404040 !important;
-		background-color: #242424 !important;
-	}
-	
-	.card_today .today_chart_list .clock {
-		background-color: #242424;
-		border: 5px solid #404040;
-	}
-	
-	.card_today .today_chart_list .chart svg g>circle:first-child {
-		fill: #242424;
-		stroke: #404040;
-	}
-	
-	.card .title {
-		color: #fff;
-	}
-	
-	.card_week .cell_temperature .temperature {
-		color: #cacaca;
-	}
-	
-	.card_week .date_inner .day {
-		color: #fff;
-	}
-	
-	.is_today.foreign .card_week .day_info {
-		border: 1px solid #404040;
-		background-color: #242424;
-	}
-	
-	@media (min-width: 768px) {
-		.is_today.foreign .card_week .time_dsc .time {
-			color: #fff;
-		}
-	
-		.is_today.foreign .card_week .time_dsc {
-			color: #cacaca;
-		}
-	}
-	
-	.card_week .offer_area {
-		border-top: 1px solid #404040;
-	}
-	
-	@media (min-width: 768px) {
-		.card_week .offer_area {
-			border-top: 1px solid #404040;
-		}
-	}
-	
-	@media (min-width: 1025px) {
-		.card_climate .inner_card {
-			border-color: #2a2a2a;
-			background-color: #2f2f2f;
-		}
-	}
-	
-	.card_climate .float_ttl {
-		background-color: #2f2f2f;
-	}
-	
-	.card_climate .ttl_row {
-		color: #fff;
-	}
-	
-	.card_climate .climate_table .ttl_row {
-		color: #cacaca;
-	}
-	
-	.card_climate .climate_table .time.day {
-		color: #fff;
-	}
-	
-	.card_climate .climate_table .data {
-		border: 2px solid #404040;
-		border-width: 0 2px;
-	}
-	
-	@media (min-width: 1025px) {
-		.card_climate {
-			background-color: transparent;
-		}
-	}
-	
-	.card_climate .row_graph .num {
-		color: #cacaca;
-	}
-	
-	.climate_rain .icon_area {
-		filter: invert(80%) hue-rotate(-180deg);
-	}
-	
-	.climate_rain .row_graph .data {
-		background-color: rgb(56, 57, 61);
-	}
-	
-	.renewal_link {
-		border: 1px solid #404040;
-		background-color: #2f2f2f;
-	}
-	
-	.renewal_link .link_go {
-		color: #cacaca;
-	}
-	
-	.renewal_link .link_go+.link_go:before {
-		background-color: #404040;
-	}
-	
-	.is_map#container .map_panel>div img {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.card_weathermap #_idWeatherInfoFixed+div>div>div>div:nth-child(2) {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.map_location_info {
-		background-color: #2f2f2f;
-		box-shadow: 0 0 15px 7px rgba(0, 0, 0, .25);
-	}
-	
-	.map_location_info .ttl_info {
-		color: #fff;
-	}
-	
-	.map_location_info .dsc_info {
-		color: #cacaca;
-	}
-	
-	.is_map#container .map_panel, .card_weathermap .map_area {
-		background-image: none !important;
-	}
-	
-	.is_map#container .map_location_info:after {
-		filter: invert(81.5%) hue-rotate(-180deg);
-	}
-	
-	#footer .link_group .link:before {
-		background-color: #404040;
-	}
-	
-	@media (min-width: 768px) {
-		.card_week .week_item .day_data {
-			border-left: 1px solid #404040;
-		}
-	}
-	
-	.card_today .item_time .time.day {
-		border-color: #4f4f4f;
-	}
-	
-	.pin_map {
-		background-color: #2f2f2f;
-	}
-	
-	.pin_map .area_name {
-		color: #fff;
-	}
-	
-	.pin_weather .value_pin {
-		color: #cacaca;
-	}
-	
-	.card .title_tab.on {
-		color: #fff;
-	}
-	
-	.card .title_tab {
-		color: #cacaca;
-	}
-	
-	.card .title_tab+.title_tab:before {
-		background-color: #404040;
-	}
-	
-	.card_video .offer_area {
-		border-top: 1px solid #404040;
-	}
-	
-	.card_news .info_ttl {
-		color: #fff;
-	}
-	
-	.player_area .inner_player {
-		background-color: #242424;
-		border: 1px solid #404040;
-	}
-	
-	.player_area .btn_play:before, .player_area .btn_pause:before {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.player_area .timer_progress {
-		color: #cacaca;
-	}
-	
-	.card_news .headline_area {
-		border-bottom: 1px solid #404040;
-	}
-	
-	.card_news .info_time:before {
-		background-color: #404040;
-	}
-	
-	@media (min-width: 1025px) {
-		.card_figure .inner_card {
-			border-color: #2a2a2a;
-			background-color: #2f2f2f;
-		}
-	}
-	
-	.chart_list .chart_ttl {
-		color: #fff;
-	}
-	
-	.chart_list .chart_dsc {
-		color: #cacaca;
-	}
-	
-	.chart_list .item+.item {
-		border-top: 1px solid #404040;
-	}
-	
-	.chart_list .chart_area .chart>div svg g>circle:first-child {
-		fill: #2f2f2f;
-		stroke: #404040;
-	}
-	
-	.card_today .item_today.level4_2.type_dsc .level_text:before, .card_today .item_today.level5_2.type_dsc .level_text:before {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.card_today .today_chart_list .ttl_area {
-		color: #cacaca;
-	}
-	
-	.ly_help .figure_dsc, .ly_help .item_level .text {
-		color: #cacaca;
-	}
-	
-	.card_forecast .forecast_tablist li {
-		background-color: #2f2f2f;
-	}
-	
-	.card_forecast .forecast_tablist li:before {
-		border: 1px solid #404040;
-	}
-	
-	.card_forecast .forecast_tablist button {
-		color: #cacaca;
-	}
-	
-	.card_forecast .forecast_tablist li+li:before {
-		border-left-color: #404040;
-	}
-	
-	.card_forecast .forecast_tablist li.on button {
-		background-color: #242424;
-		color: #fff;
-	}
-	
-	.card_forecast .forecast_tablist li.on button:before {
-		border: 1px solid #404040;
-	}
-	
-	.card_forecast .forecast_summary, .is_today .forecast_average .average_value {
-		color: #cacaca;
-	}
-	
-	.card_past .calendar_select li {
-		background-color: #2f2f2f;
-	}
-	
-	.card_past .calendar_select li:before {
-		border: 1px solid #404040;
-	}
-	
-	.card_past .calendar_select li+li:before {
-		border-color: #404040;
-	}
-	
-	.card_past .calendar_select li+li:before {
-		border-left-color: #404040;
-	}
-	
-	.card_past .calendar_select .select_value {
-		color: #fff;
-	}
-	
-	.card_past .calendar_select .select_value:after {
-		filter: invert(81.5%) hue-rotate(-180deg);
-	}
-	
-	.card_past .calendar_table tr {
-		border-bottom: 1px solid #404040;
-	}
-	
-	.card_past .calendar_table th, .card_past .calendar_day {
-		color: #cacaca;
-	}
-	
-	.card_nation:not(.night) .zone .text {
-		color: #fff;
-	}
-	
-	.card_nation:not(.night):before {
-		filter: invert(81.5%) hue-rotate(-180deg);
-	}
-	
-	.card_dust .chart_value .ttl, .card_dust .summary_group .ttl_summary, .card_dust .item_summary .dsc_area .ttl_dsc {
-		color: #fff;
-	}
-	
-	.card_dust .dust_summary {
-		border-top: 1px solid #404040;
-	}
-	
-	.card_dust .summary_group+.summary_group {
-		border-left: 1px solid #404040;
-	}
-	
-	.card_forecast .statistics_graph .level_point {
-		color: #cacaca;
-	}
-	
-	.card_nation_dust .zone .name {
-		color: #fff;
-	}
-	
-	.map_location_info .value_area, .card_forecast .offer_area {
-		border-top: 1px solid #404040;
-	}
-	
-	.card_pollution .pollution_item .item_ttl {
-		color: #cacaca;
-	}
-	
-	@media (min-width: 1025px) {
-		.card_pollution .chart_list .item+.item {
-			border-top: 1px solid #404040;
-		}
-	}
-	
-	.offer_area .offer_airvisual {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.card_forecast .statistics_summary {
-		background-color: #242424;
-		color: #cacaca;
-	}
-	
-	.map_location_info .value_list {
-		color: #cacaca;
-	}
-	
-	.map_location_info .value_list+.value_list:before {
-		background-color: #404040;
-	}
-	
-	.map_location_info .chart_area .chart>div svg g circle:first-child {
-		fill: #2f2f2f;
-		stroke: #404040;
-	}
-	
-	.card_map #_idWeatherInfoFixed+div, .card_nation_dust .nation_map:after {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	polygon.net-line-bg {
-		fill: #2f2f2f;
-	}
-	
-	.chart_area>svg>g .net-lines line, .chart_area>svg>g .net-axis line {
-		stroke: #404040 !important;
-	}
-	
-	.card_forecast .statistics_data .data {
-		background-color: #242424;
-	}
-	
-	.card_forecast .statistics_data .data.now .number {
-		color: #fff;
-	}
-	
-	#_idMap {
-		background-image: none !important;
-		background: #2f2f2f !important;
-	}
-	
-	@media (min-width: 1025px) {
-		.is_image#container .tab_panel, .is_image#container .tab_panel.hide {
-			background-color: #2f2f2f;
-		}
-	
-		.is_image#container .player_area {
-			border: 1px solid #2a2a2a;
-			border-top: 0;
-		}
-	
-		.is_image#container .inner_player+.offer_area {
-			border-color: #404040;
-		}
-	}
-	
-	.is_image#container .player_area {
-		background-color: #2f2f2f;
-	}
-	
-	.is_image#container .inner_player+.offer_area {
-		border-top: 1px solid #404040;
-	}
-	
-	.player_area .offer_area {
-		border-top: 1px solid #404040;
-	}
-	
-	.card_now .info, .card_now .location, .is_news .wn_item .tit_news {
-		color: #fff;
-	}
-	
-	.card_now .dust_item .ttl {
-		color: #cacaca;
-	}
-	
-	.is_news .wn_item {
-		border-top: 1px solid #404040;
-	}
-	
-	.line_wn_wrap, .card_headline .notice, .card_typhoon .typhoon_data {
-		border-top: 1px solid #404040;
-	}
-	
-	.line_wn_wrap .tit_news {
-		color: #fff;
-	}
-	
-	.card_typhoon .typhoon_data .table_value {
-		color: #cacaca;
-	}
-	
-	.card_typhoon .typhoon_route {
-		border-top: 1px solid #404040;
-		color: #cacaca;
-	}
-	
-	.card_typhoon .typhoon_route .route_list.on+.toggle_button .icon_toggle, .card_typhoon .typhoon_route .icon_toggle, .is_news .more_area .btn_more:after {
-		filter: invert(81.5%) hue-rotate(-180deg);
-	}
-	
-	.is_news .more_area .btn_more {
-		color: #cacaca;
-	}
-	
-	.is_news .more_area {
-		border-top: 1px solid #404040;
-	}
-	
-	.is_news .info_time:before {
-		background-color: #404040;
-	}
-	
-	.card_typhoon .typhoon_data .data_area:before, .is_today .forecast_average .average_ttl {
-		border-left: 3px solid #404040;
-	}
-	
-	.line_wn_wrap:before {
-		background-color: #404040;
-	}
-	
-	.layer_popup .popup_content {
-		background-color: #242424;
-	}
-	
-	.layer_popup .popup_title {
-		color: #fff;
-	}
-	
-	.layer_popup .message_area {
-		color: #cacaca;
-	}
-	
-	.layer_popup .go_naverform {
-		color: #242424;
-	}
-	
-	@media (min-width: 748px) {
-		.card_pollution .chart_list .item:nth-child(n+3) .item_inner {
-			border-top: 1px solid #404040;
-		}
-	}
-	
-	.card_week .button_more {
-		border-top: 1px solid #404040;
-		color: #cacaca;
-	}
-	
-	.card_week .button_more:after {
-		filter: invert(81.5%) hue-rotate(-180deg);
-	}
-	
-	.card_week .week_item+.week_item {
-		border-top: 1px solid #404040;
-	}
-	
-	@media (max-width: 1024px) {
-		.is_image#container {
-			background-color: #2f2f2f;
-			background-image: linear-gradient(rgba(64, 64, 64, .5) 1px, transparent 1px), linear-gradient(90deg, rgba(64, 64, 64, .5) 1px, transparent 1px);
-		}
-	}
-	
-	.pin_map {
-		box-shadow: 0 0 5px 0 rgba(0, 0, 0, 1);
-	}
-	
-	.pin_map.on:after, .card_typhoon .title:after {
-		filter: invert(81.5%) hue-rotate(-180deg);
-	}
-	
-	.card_today .item_today.level5_4.type_dsc .level_text:before {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.card_today .today_weather .cp_area {
-		background: #2f2f2f;
-		border-bottom: 1px solid #404040;
-	}
-	
-	.card_today .today_weather .list_cp .item .text {
-		color: #cacaca;
-	}
-	
-	.card_today .weather_area .summary_list .desc {
-		color: #fff;
-	}
-	
-	.card_today .weather_area .summary .temperature.down:after {
-		filter: invert(81.5%) hue-rotate(-180deg);
-	}
-	
-	.climate_rain .row_graph .data_inner {
-		background: #2f2f2f;
-	}
-	
-	.card_climate .climate_table .data_inner {
-		border-left: 1px solid #404040;
-	}
-	
-	.climate_humidity .bar {
-		background-color: #2d6986;
-	}
-	
-	.card_week .box_color .color_inner {
-		border: 1px solid #404040;
-	}
-	
-	.card_week .box_color .ttl {
-		color: #fff;
-	}
-	
-	.card_week .box_color .ttl:after {
-		border-right: 1px solid #404040;
-	}
-	
-	.popup_cp .inner {
-		background: #242424;
-	}
-	
-	.popup_cp .popup_title {
-		color: #fff;
-	}
-	
-	.popup_cp .btn_close:after {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.popup_cp .cp_tablist .item.on .tab {
-		border-bottom-color: #fff;
-		color: #fff;
-	}
-	
-	.popup_cp .cp_tablist {
-		border-bottom: 1px solid #404040;
-	}
-	
-	.popup_cp .list_setting [class^=item_] {
-		border-top: 1px solid #404040;
-		border-left: 1px solid #404040;
-	}
-	
-	.popup_cp .list_setting [class^=item_].on {
-		background: #2f2f2f;
-	}
-	
-	.popup_cp .korean, .popup_cp .english {
-		color: #fff;
-	}
-	
-	.popup_cp .notice {
-		border-top: 1px solid #404040;
-		color: #cacaca;
-	}
-	
-	.popup_cp .time {
-		background: #2f2f2f;
-	}
-	
-	.popup_cp .time .text {
-		color: #cacaca;
-	}
-	
-	.popup_cp .time.day .text {
-		border-color: #404040;
-	}
-	
-	.popup_cp .time.dimmed .text {
-		color: #888;
-	}
-	
-	.popup_cp .list_comparison {
-		border-right: 1px solid #404040;
-		background: #2f2f2f;
-	}
-	
-	.popup_cp .list_comparison .text {
-		color: #fff;
-	}
-	
-	.popup_cp .weather {
-		border-bottom: 1px solid #404040;
-	}
-	
-	.popup_cp .weather .temperature {
-		color: #cacaca;
-	}
-	
-	.card_headline .ico_arr {
-		filter: invert(81.5%) hue-rotate(-180deg);
-	}
-	
-	.card_headline .link_clst .num {
-		border: 1px solid #355eb7;
-	}
-	
-	.card_headline .link_clst .num, .card_headline .link_clst .num:before {
-		background-color: #2f2f2f;
-	}
-	
-	.is_news .wn_item .info_time:before {
-		background-color: #404040;
-	}
-	
-	.climate_rain .box_color .summary {
-		background-color: #2c374a;
-	}
-	
-	.climate_humidity .box_color .summary {
-		background: rgba(45, 71, 80, 0.6);
-	}
-	
-	.climate_wind .box_color .summary {
-		background: rgba(41, 84, 88, 0.4);
-	}
-	
-	.is_today.foreign .card_week .week_item.on .btn_more:after {
-		filter: invert(81.5%) hue-rotate(-180deg);
-	}
-	
-	.is_today.foreign .card_week .week_item.on .day_data:before {
-		background-image: linear-gradient(to bottom, #2f2f2f, #242424 50%, #2f2f2f);
-	}
-	
-	.is_today.foreign .card_week .week_item .day_data {
-		background-color: #2f2f2f;
-	}
-	
-	@media (min-width: 768px) {
-	
-		.card_week .week_item+.week_item {
-			border-top: 0;
-		}
-	}
-	
-	.is_today.foreign .card_week .info_value {
-		color: #cacaca;
-	}
-	
-	.card_today .today_weather {
-		border: 0 solid #404040;
-	}
-	
-	.card_today .time_weather {
-		border: 1px solid #404040;
-	}
-	
-	#header:before {
-		background-color: #2f2f2f;
-	}
-	
-	.gnb_area .logo:before {
-		filter: invert(100%) hue-rotate(-180deg);
-	}
-	
-	.notify_area .link_notify {
-		border: 1px solid #64879d;
-		background: #52585c;
-	}
-	
-	.notify_area .link_flash {
-		border: 1px solid #864e4a;
-		background: #463a38;
-	}
-	
-	.notify_area .text {
-		color: #cacaca;
-	}
-	
-	.card_dust .chart_tablist {
-		background: #3a3a3a;
-	}
-	
-	.card_dust .chart_tab {
-		color: #cacaca;
-	}
-	
-	.card_dust .forecast_time .time.now {
-		color: #fff;
-	}
-	
-	.card_dust .forecast_time .time.now::after {
-		background: #fff;
-	}
-	
-	.card_dust .forecast_time .time {
-		color: #cacaca;
-	}
-	
-	.card_dust .offer_area {
-		color: #cacaca;
-	}
-	
-	.card_dust .offer_area .text::after {
-		background: #4f4f4f;
-	}
-	
-	.card_dust .summary_group .ico_help, .card_dust .chart_value .ico_help {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.card_dust .dust_summary .ly_help .dust_level_item .ttl_level {
-		color: #fff;
-	}
-	
-	.card_dust .dust_summary .ly_help .ly_link_area {
-		border-top: 1px solid #404040;
-	}
-	
-	.card_dust .dust_summary .ly_help .summary_list+.figure_dsc {
-		border-top: 1px solid #404040;
-	}
-	
-	.card_dust .chart_update .time, .card_dust .chart_update .station {
-		color: #cacaca;
-	}
-	
-	.card_dust .chart_update .station_level1::before {
-		border: 1px solid #cacaca;
-		color: #cacaca;
-	}
-	
-	.ly_help .item_level .limit {
-		color: #fff;
-	}
-	
-	.card_dust .forecast_daily .date.today {
-		color: #fff;
-	}
-	
-	.card_dust .forecast_daily .date.today::after {
-		background: #fff;
-	}
-	
-	.card_dust .forecast_daily .date {
-		color: #cacaca;
-	}
-	
-	.card_dust .statistics_data {
-		background: linear-gradient(to bottom,rgba(0,0,0,.05) 1px,#242424 1px,#242424 25px);
-	}
-	
-	.chart_list .chart_ttl .ico_help {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.card_map .local_map > div > div, .card_map .nation_map {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	@media (min-width: 1025px) {
-		#container.is_image .offer_area_wrap {
-			border: 1px solid #404040;
-			border-top: 0;
-		}
-	}
-	
-	#container.is_image .offer_area_wrap {
-		background-color: #2f2f2f;
-	}
-	
-	.offer_area {
-		color: #cacaca;
-	}
-	
-	.card_past .help_icon:after {
-		filter: invert(81.5%) hue-rotate(-180deg);
-	}
-	
-	.card_past .calendar_temperature {
-		color: #cacaca;
-	}
-	
-	.card_news .info_media {
-		color: #cacaca;
-	}
-	
-	.card_climateinfo .title:after {
-		filter: invert(81.5%) hue-rotate(-180deg);
-	}
-	
-	.card_climateinfo .box_color .color_inner {
-		border: 1px solid #404040;
-		background-color: #3a3a3a;
-	}
-	
-	.card_climateinfo .box_color .ttl {
-		color: #fff;
-	}
-	
-	.card_climateinfo .climate_summary {
-		color: #cacaca;
-	}
-	
-	.card_climateinfo .climate_summary+.climate_summary {
-		border-top: 1px solid #404040;
-	}
-	
-	.card_today .time_weather .title_dsc {
-		color: #cacaca;
-	}
-	
-	.card_today .time_weather .title_dsc:after {
-		background: #404040;
-	}
-	
-	.card_today .time_weather text.bb-text {
-		fill: #cacaca;
-	}
-	
-	.card_week .week_item.on .date, .card_week .week_item.today .date {
-		color: #fff;
-	}
-	
-	.card_today .weather_area .summary .temperature.up:after {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.card_today .weather_area .summary_list .term {
-		color: #cacaca;
-	}
-	
-	.card_dust .btn_area .station {
-		color: #fff;
-	}
-	
-	.card_dust .btn_area .station::after {
-		filter: invert(81.5%) hue-rotate(-180deg) brightness(1000%);
-	}
-	
-	.card_dust .summary_group+.summary_group::before {
-		background-color: #404040;
-	}
-	
-	.card_dust .info_tit {
-		color: #fff;
-	}
-	
-	.gnb_area .btn_location:before {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.card_today .weather_area .weather_now .current {
-		color: #fff;
-	}
-	
-	.card_today .weather_area .weather_now .summary {
-		color: #fff;
-	}
-	
-	.card_today .weather_area .weather_quick_area .weather_table dl dd {
-		color: #fff;
-	}
-	
-	.card_today .weather_area .weather_quick_area .weather_table dl dt {
-		color: #cacaca;
-	}
-	
-	.card_today .weather_area .weather_quick_area .weather_table .term {
-		color: #fff;
-	}
-	
-	.card_today .weather_area .weather_quick_area .weather_table .term:after {
-		background-color: #fff;
-	}
-	
-	.card_today .weather_area .weather_quick_area .tab_list .tab_link {
-		background-color: #404040;
-	}
-	
-	.card_today .weather_area .weather_quick_area .tab_list .tab_link.on {
-		background-color: #cacaca;
-	}
-	
-	.is_warning .section_right.weather .card_now .location, .is_warning .section_right.weather .card_now .info {
-		color: #fff;
-	}
-	
-	.is_warning .section_right.weather .card_now .dust_item .ttl {
-		color: #cacaca;
-	}
-	
-	@media (min-width: 1025px) {
-		.is_warning .warning .tit {
-			color: #fff;
-			background-color: #2f2f2f;
-		}
+	/*@media (min-width: 1025px) {*/
+	
+	/*	.gnb_area {*/
+	/*		border-bottom: 1px solid #404040;*/
+	/*	}*/
+	
+	/*	.gnb_area .button_group .btn_forecast:before {*/
+	/*		background-color: #404040;*/
+	/*	}*/
+	
+	/*}*/
+	
+	/*.lnb_area {*/
+	/*	border-top: 1px solid #404040;*/
+	/*}*/
+	
+	/*#header:after {*/
+	/*	background-color: #404040;*/
+	/*}*/
+	
+	/*.lnb_area .item.on .menu {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.gnb_area .logo:after, .gnb_area .button_group .btn_search:after, .gnb_area .button_group .btn_forecast .btn:after {*/
+	/*	filter: invert(86%) hue-rotate(-180deg);*/
+	/*}*/
+	
+	/*.lnb_area .item.on .menu:after {*/
+	/*	background-color: #fff;*/
+	/*}*/
+	
+	/*.lnb_area .menu {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.card_nation .title {*/
+	/*	background: #2f2f2f;*/
+	/*}*/
+	
+	/*.card_nation .weekly_list {*/
+	/*	border-top: 1px solid #404040;*/
+	/*	background: #2f2f2f;*/
+	/*}*/
+	
+	/*.card_nation .weekly_list .button {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.card_nation .map_wrap {*/
+	/*	border: 1px solid #155e95;*/
+	/*	background-color: rgb(64, 95, 124);*/
+	/*}*/
+	
+	/*.card_nation .time_area .button {*/
+	/*	background-color: #242424;*/
+	/*}*/
+	
+	/*.card_nation .time_area .button+.button {*/
+	/*	border-left: 1px solid #404040;*/
+	/*}*/
+	
+	/*.card_nation .time_area .button.on {*/
+	/*	color: #242424;*/
+	/*}*/
+	
+	/*.card_nation .nation_map {*/
+	/*	background-position: 0 0;*/
+	/*}*/
+	
+	/*.card_figure .offer_area {*/
+	/*	border-top: 1px solid #404040;*/
+	/*}*/
+	
+	/*.card_forecast_today .forecast_tablist li.on button {*/
+	/*	background-color: #242424;*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.card_forecast_today .forecast_tablist button {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.card_forecast_today .forecast_tablist li:before {*/
+	/*	border: 1px solid #404040;*/
+	/*}*/
+	
+	/*.card_forecast_today .forecast_tablist li+li:before {*/
+	/*	border-left-color: #404040;*/
+	/*}*/
+	
+	/*.card_forecast_today .forecast_tablist li {*/
+	/*	background-color: #2f2f2f;*/
+	/*}*/
+	
+	/*.card_forecast_today .forecast_tablist li.on button:before {*/
+	/*	border: 1px solid #4f4f4f;*/
+	/*}*/
+	
+	/*.card_forecast_today .forecast_summary {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.card_forecast_today .offer_area {*/
+	/*	border-top: 1px solid #404040;*/
+	/*}*/
+	
+	/*@media (min-width: 768px) {*/
+	/*	.header_forecast {*/
+	/*		border-bottom: 1px solid #404040;*/
+	/*	}*/
+	
+	/*	.header_forecast .card_item {*/
+	/*		background-color: #2f2f2f;*/
+	/*		border: 1px solid #2a2a2a;*/
+	/*	}*/
+	/*}*/
+	
+	/*.header_forecast .card_item {*/
+	/*	background-color: #2f2f2f;*/
+	/*}*/
+	
+	/*.header_forecast .card_item+.card_item {*/
+	/*	border-top: 1px solid #2a2a2a;*/
+	/*}*/
+	
+	/*.header_forecast {*/
+	/*	background-color: #242424;*/
+	/*}*/
+	
+	/*.header_forecast .info, .header_forecast .dust_item .ttl, .layer_search .dust_item .ttl {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*@media (min-width: 768px) {*/
+	/*	.header_forecast .card_item:last-child {*/
+	/*		border-bottom: 1px solid #2a2a2a;*/
+	/*	}*/
+	
+	/*	.header_forecast .card_item.night {*/
+	/*		border: 1px solid #232b34;*/
+	/*	}*/
+	/*}*/
+	
+	/*.gnb_area .location_name {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.gnb_area .button_group .btn_search.on .icon_animation:before, .gnb_area .button_group .btn_search.on .icon_search, .layer_search .form_wrap .btn_cancle:after, .weather_list_area .button_delete:before, .keyword_list .ico_autocomplete {*/
+	/*	filter: invert(86%) hue-rotate(-180deg);*/
+	/*}*/
+	
+	/*.layer_search .layer_content, .layer_search .form_wrap {*/
+	/*	background-color: #242424;*/
+	/*}*/
+	
+	/*.layer_search .search_input {*/
+	/*	color: #fff;*/
+	/*	border-bottom: 2px solid #404040;*/
+	/*	background: #242424;*/
+	/*}*/
+	
+	/*.weather_list_area .card_item, .weather_list_area .card_item {*/
+	/*	border-color: #2a2a2a !important;*/
+	/*	background-color: #2f2f2f !important;*/
+	/*}*/
+	
+	/*.weather_list_area .weather_area .temperature {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.weather_list_area .weather_area .weather, .weather_list_area .title {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.keyword_list .text_area .main {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.weather_newsflash {*/
+	/*	background-color: #242424;*/
+	/*}*/
+	
+	/*@media (min-width: 1025px) {*/
+	/*	.weather_newsflash .content_inner {*/
+	/*		background-color: #242424;*/
+	/*	}*/
+	/*}*/
+	
+	/*.weather_newsflash .title {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.weather_newsflash .newsflash_area:after {*/
+	/*	filter: invert(86%) hue-rotate(-180deg) grayscale(1);*/
+	/*}*/
+	
+	/*.card {*/
+	/*	border-color: #2a2a2a;*/
+	/*	background-color: #2f2f2f;*/
+	/*}*/
+	
+	/*.card_today .weather_area .current {*/
+	/*	color: #fff;*/
+	/*	text-shadow: 0px 0px 10px black;*/
+	/*}*/
+	
+	/*.card_today .weather_area .degree_group {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.card_today .weather_area .summary, .card_today .time_weather .sub_title {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.card_today .time_weather {*/
+	/*	border-top: 1px solid #404040;*/
+	/*}*/
+	
+	/*.scroll_control.end_left:after {*/
+	/*	background-image: linear-gradient(to left, #2f2f2f, rgba(47, 47, 47, 0));*/
+	/*}*/
+	
+	/*.scroll_control.end_right:before {*/
+	/*	background-image: linear-gradient(to left, rgba(47, 47, 47, 0), #2f2f2f);*/
+	/*}*/
+	
+	/*.card_today .item_time .time {*/
+	/*	border: 1px solid #404040;*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.is_today .help_icon+.ly_help {*/
+	/*	border-color: #404040;*/
+	/*}*/
+	
+	/*.ly_help {*/
+	/*	border: 1px solid #404040;*/
+	/*	background-color: #242424;*/
+	/*}*/
+	
+	/*.ly_help .ly_ttl {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.is_today .help_icon+.ly_help .weather_list .item {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.card_today .item_today {*/
+	/*	border-color: #404040 !important;*/
+	/*	background-color: #242424 !important;*/
+	/*}*/
+	
+	/*.card_today .today_chart_list .clock {*/
+	/*	background-color: #242424;*/
+	/*	border: 5px solid #404040;*/
+	/*}*/
+	
+	/*.card_today .today_chart_list .chart svg g>circle:first-child {*/
+	/*	fill: #242424;*/
+	/*	stroke: #404040;*/
+	/*}*/
+	
+	/*.card .title {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.card_week .cell_temperature .temperature {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.card_week .date_inner .day {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.is_today.foreign .card_week .day_info {*/
+	/*	border: 1px solid #404040;*/
+	/*	background-color: #242424;*/
+	/*}*/
+	
+	/*@media (min-width: 768px) {*/
+	/*	.is_today.foreign .card_week .time_dsc .time {*/
+	/*		color: #fff;*/
+	/*	}*/
+	
+	/*	.is_today.foreign .card_week .time_dsc {*/
+	/*		color: #cacaca;*/
+	/*	}*/
+	/*}*/
+	
+	/*.card_week .offer_area {*/
+	/*	border-top: 1px solid #404040;*/
+	/*}*/
+	
+	/*@media (min-width: 768px) {*/
+	/*	.card_week .offer_area {*/
+	/*		border-top: 1px solid #404040;*/
+	/*	}*/
+	/*}*/
+	
+	/*@media (min-width: 1025px) {*/
+	/*	.card_climate .inner_card {*/
+	/*		border-color: #2a2a2a;*/
+	/*		background-color: #2f2f2f;*/
+	/*	}*/
+	/*}*/
+	
+	/*.card_climate .float_ttl {*/
+	/*	background-color: #2f2f2f;*/
+	/*}*/
+	
+	/*.card_climate .ttl_row {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.card_climate .climate_table .ttl_row {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.card_climate .climate_table .time.day {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.card_climate .climate_table .data {*/
+	/*	border: 2px solid #404040;*/
+	/*	border-width: 0 2px;*/
+	/*}*/
+	
+	/*@media (min-width: 1025px) {*/
+	/*	.card_climate {*/
+	/*		background-color: transparent;*/
+	/*	}*/
+	/*}*/
+	
+	/*.card_climate .row_graph .num {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.climate_rain .icon_area {*/
+	/*	filter: invert(80%) hue-rotate(-180deg);*/
+	/*}*/
+	
+	/*.climate_rain .row_graph .data {*/
+	/*	background-color: rgb(56, 57, 61);*/
+	/*}*/
+	
+	/*.renewal_link {*/
+	/*	border: 1px solid #404040;*/
+	/*	background-color: #2f2f2f;*/
+	/*}*/
+	
+	/*.renewal_link .link_go {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.renewal_link .link_go+.link_go:before {*/
+	/*	background-color: #404040;*/
+	/*}*/
+	
+	/*.is_map#container .map_panel>div img {*/
+	/*	filter: invert(86%) hue-rotate(-180deg);*/
+	/*}*/
+	
+	/*.card_weathermap #_idWeatherInfoFixed+div>div>div>div:nth-child(2) {*/
+	/*	filter: invert(86%) hue-rotate(-180deg);*/
+	/*}*/
+	
+	/*.map_location_info {*/
+	/*	background-color: #2f2f2f;*/
+	/*	box-shadow: 0 0 15px 7px rgba(0, 0, 0, .25);*/
+	/*}*/
+	
+	/*.map_location_info .ttl_info {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.map_location_info .dsc_info {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.is_map#container .map_panel, .card_weathermap .map_area {*/
+	/*	background-image: none !important;*/
+	/*}*/
+	
+	/*.is_map#container .map_location_info:after {*/
+	/*	filter: invert(81.5%) hue-rotate(-180deg);*/
+	/*}*/
+	
+	/*#footer .link_group .link:before {*/
+	/*	background-color: #404040;*/
+	/*}*/
+	
+	/*@media (min-width: 768px) {*/
+	/*	.card_week .week_item .day_data {*/
+	/*		border-left: 1px solid #404040;*/
+	/*	}*/
+	/*}*/
+	
+	/*.card_today .item_time .time.day {*/
+	/*	border-color: #4f4f4f;*/
+	/*}*/
+	
+	/*.pin_map {*/
+	/*	background-color: #2f2f2f;*/
+	/*}*/
+	
+	/*.pin_map .area_name {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.pin_weather .value_pin {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.card .title_tab.on {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.card .title_tab {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.card .title_tab+.title_tab:before {*/
+	/*	background-color: #404040;*/
+	/*}*/
+	
+	/*.card_video .offer_area {*/
+	/*	border-top: 1px solid #404040;*/
+	/*}*/
+	
+	/*.card_news .info_ttl {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.player_area .inner_player {*/
+	/*	background-color: #242424;*/
+	/*	border: 1px solid #404040;*/
+	/*}*/
+	
+	/*.player_area .btn_play:before, .player_area .btn_pause:before {*/
+	/*	filter: invert(86%) hue-rotate(-180deg);*/
+	/*}*/
+	
+	/*.player_area .timer_progress {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.card_news .headline_area {*/
+	/*	border-bottom: 1px solid #404040;*/
+	/*}*/
+	
+	/*.card_news .info_time:before {*/
+	/*	background-color: #404040;*/
+	/*}*/
+	
+	/*@media (min-width: 1025px) {*/
+	/*	.card_figure .inner_card {*/
+	/*		border-color: #2a2a2a;*/
+	/*		background-color: #2f2f2f;*/
+	/*	}*/
+	/*}*/
+	
+	/*.chart_list .chart_ttl {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.chart_list .chart_dsc {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.chart_list .item+.item {*/
+	/*	border-top: 1px solid #404040;*/
+	/*}*/
+	
+	/*.chart_list .chart_area .chart>div svg g>circle:first-child {*/
+	/*	fill: #2f2f2f;*/
+	/*	stroke: #404040;*/
+	/*}*/
+	
+	/*.card_today .item_today.level4_2.type_dsc .level_text:before, .card_today .item_today.level5_2.type_dsc .level_text:before {*/
+	/*	filter: invert(86%) hue-rotate(-180deg);*/
+	/*}*/
+	
+	/*.card_today .today_chart_list .ttl_area {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.ly_help .figure_dsc, .ly_help .item_level .text {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.card_forecast .forecast_tablist li {*/
+	/*	background-color: #2f2f2f;*/
+	/*}*/
+	
+	/*.card_forecast .forecast_tablist li:before {*/
+	/*	border: 1px solid #404040;*/
+	/*}*/
+	
+	/*.card_forecast .forecast_tablist button {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.card_forecast .forecast_tablist li+li:before {*/
+	/*	border-left-color: #404040;*/
+	/*}*/
+	
+	/*.card_forecast .forecast_tablist li.on button {*/
+	/*	background-color: #242424;*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.card_forecast .forecast_tablist li.on button:before {*/
+	/*	border: 1px solid #404040;*/
+	/*}*/
+	
+	/*.card_forecast .forecast_summary, .is_today .forecast_average .average_value {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.card_past .calendar_select li {*/
+	/*	background-color: #2f2f2f;*/
+	/*}*/
+	
+	/*.card_past .calendar_select li:before {*/
+	/*	border: 1px solid #404040;*/
+	/*}*/
+	
+	/*.card_past .calendar_select li+li:before {*/
+	/*	border-color: #404040;*/
+	/*}*/
+	
+	/*.card_past .calendar_select li+li:before {*/
+	/*	border-left-color: #404040;*/
+	/*}*/
+	
+	/*.card_past .calendar_select .select_value {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.card_past .calendar_select .select_value:after {*/
+	/*	filter: invert(81.5%) hue-rotate(-180deg);*/
+	/*}*/
+	
+	/*.card_past .calendar_table tr {*/
+	/*	border-bottom: 1px solid #404040;*/
+	/*}*/
+	
+	/*.card_past .calendar_table th, .card_past .calendar_day {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.card_nation:not(.night) .zone .text {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.card_nation:not(.night):before {*/
+	/*	filter: invert(81.5%) hue-rotate(-180deg);*/
+	/*}*/
+	
+	/*.card_dust .chart_value .ttl, .card_dust .summary_group .ttl_summary, .card_dust .item_summary .dsc_area .ttl_dsc {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.card_dust .dust_summary {*/
+	/*	border-top: 1px solid #404040;*/
+	/*}*/
+	
+	/*.card_dust .summary_group+.summary_group {*/
+	/*	border-left: 1px solid #404040;*/
+	/*}*/
+	
+	/*.card_forecast .statistics_graph .level_point {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.card_nation_dust .zone .name {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.map_location_info .value_area, .card_forecast .offer_area {*/
+	/*	border-top: 1px solid #404040;*/
+	/*}*/
+	
+	/*.card_pollution .pollution_item .item_ttl {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*@media (min-width: 1025px) {*/
+	/*	.card_pollution .chart_list .item+.item {*/
+	/*		border-top: 1px solid #404040;*/
+	/*	}*/
+	/*}*/
+	
+	/*.offer_area .offer_airvisual {*/
+	/*	filter: invert(86%) hue-rotate(-180deg);*/
+	/*}*/
+	
+	/*.card_forecast .statistics_summary {*/
+	/*	background-color: #242424;*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.map_location_info .value_list {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.map_location_info .value_list+.value_list:before {*/
+	/*	background-color: #404040;*/
+	/*}*/
+	
+	/*.map_location_info .chart_area .chart>div svg g circle:first-child {*/
+	/*	fill: #2f2f2f;*/
+	/*	stroke: #404040;*/
+	/*}*/
+	
+	/*.card_map #_idWeatherInfoFixed+div, .card_nation_dust .nation_map:after {*/
+	/*	filter: invert(86%) hue-rotate(-180deg);*/
+	/*}*/
+	
+	/*polygon.net-line-bg {*/
+	/*	fill: #2f2f2f;*/
+	/*}*/
+	
+	/*.chart_area>svg>g .net-lines line, .chart_area>svg>g .net-axis line {*/
+	/*	stroke: #404040 !important;*/
+	/*}*/
+	
+	/*.card_forecast .statistics_data .data {*/
+	/*	background-color: #242424;*/
+	/*}*/
+	
+	/*.card_forecast .statistics_data .data.now .number {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*#_idMap {*/
+	/*	background-image: none !important;*/
+	/*	background: #2f2f2f !important;*/
+	/*}*/
+	
+	/*@media (min-width: 1025px) {*/
+	/*	.is_image#container .tab_panel, .is_image#container .tab_panel.hide {*/
+	/*		background-color: #2f2f2f;*/
+	/*	}*/
+	
+	/*	.is_image#container .player_area {*/
+	/*		border: 1px solid #2a2a2a;*/
+	/*		border-top: 0;*/
+	/*	}*/
+	
+	/*	.is_image#container .inner_player+.offer_area {*/
+	/*		border-color: #404040;*/
+	/*	}*/
+	/*}*/
+	
+	/*.is_image#container .player_area {*/
+	/*	background-color: #2f2f2f;*/
+	/*}*/
+	
+	/*.is_image#container .inner_player+.offer_area {*/
+	/*	border-top: 1px solid #404040;*/
+	/*}*/
+	
+	/*.player_area .offer_area {*/
+	/*	border-top: 1px solid #404040;*/
+	/*}*/
+	
+	/*.card_now .info, .card_now .location, .is_news .wn_item .tit_news {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.card_now .dust_item .ttl {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.is_news .wn_item {*/
+	/*	border-top: 1px solid #404040;*/
+	/*}*/
+	
+	/*.line_wn_wrap, .card_headline .notice, .card_typhoon .typhoon_data {*/
+	/*	border-top: 1px solid #404040;*/
+	/*}*/
+	
+	/*.line_wn_wrap .tit_news {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.card_typhoon .typhoon_data .table_value {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.card_typhoon .typhoon_route {*/
+	/*	border-top: 1px solid #404040;*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.card_typhoon .typhoon_route .route_list.on+.toggle_button .icon_toggle, .card_typhoon .typhoon_route .icon_toggle, .is_news .more_area .btn_more:after {*/
+	/*	filter: invert(81.5%) hue-rotate(-180deg);*/
+	/*}*/
+	
+	/*.is_news .more_area .btn_more {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.is_news .more_area {*/
+	/*	border-top: 1px solid #404040;*/
+	/*}*/
+	
+	/*.is_news .info_time:before {*/
+	/*	background-color: #404040;*/
+	/*}*/
+	
+	/*.card_typhoon .typhoon_data .data_area:before, .is_today .forecast_average .average_ttl {*/
+	/*	border-left: 3px solid #404040;*/
+	/*}*/
+	
+	/*.line_wn_wrap:before {*/
+	/*	background-color: #404040;*/
+	/*}*/
+	
+	/*.layer_popup .popup_content {*/
+	/*	background-color: #242424;*/
+	/*}*/
+	
+	/*.layer_popup .popup_title {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.layer_popup .message_area {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.layer_popup .go_naverform {*/
+	/*	color: #242424;*/
+	/*}*/
+	
+	/*@media (min-width: 748px) {*/
+	/*	.card_pollution .chart_list .item:nth-child(n+3) .item_inner {*/
+	/*		border-top: 1px solid #404040;*/
+	/*	}*/
+	/*}*/
+	
+	/*.card_week .button_more {*/
+	/*	border-top: 1px solid #404040;*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.card_week .button_more:after {*/
+	/*	filter: invert(81.5%) hue-rotate(-180deg);*/
+	/*}*/
+	
+	/*.card_week .week_item+.week_item {*/
+	/*	border-top: 1px solid #404040;*/
+	/*}*/
+	
+	/*@media (max-width: 1024px) {*/
+	/*	.is_image#container {*/
+	/*		background-color: #2f2f2f;*/
+	/*		background-image: linear-gradient(rgba(64, 64, 64, .5) 1px, transparent 1px), linear-gradient(90deg, rgba(64, 64, 64, .5) 1px, transparent 1px);*/
+	/*	}*/
+	/*}*/
+	
+	/*.pin_map {*/
+	/*	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 1);*/
+	/*}*/
+	
+	/*.pin_map.on:after, .card_typhoon .title:after {*/
+	/*	filter: invert(81.5%) hue-rotate(-180deg);*/
+	/*}*/
+	
+	/*.card_today .item_today.level5_4.type_dsc .level_text:before {*/
+	/*	filter: invert(86%) hue-rotate(-180deg);*/
+	/*}*/
+	
+	/*.card_today .today_weather .cp_area {*/
+	/*	background: #2f2f2f;*/
+	/*	border-bottom: 1px solid #404040;*/
+	/*}*/
+	
+	/*.card_today .today_weather .list_cp .item .text {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.card_today .weather_area .summary_list .desc {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.card_today .weather_area .summary .temperature.down:after {*/
+	/*	filter: invert(81.5%) hue-rotate(-180deg);*/
+	/*}*/
+	
+	/*.climate_rain .row_graph .data_inner {*/
+	/*	background: #2f2f2f;*/
+	/*}*/
+	
+	/*.card_climate .climate_table .data_inner {*/
+	/*	border-left: 1px solid #404040;*/
+	/*}*/
+	
+	/*.climate_humidity .bar {*/
+	/*	background-color: #2d6986;*/
+	/*}*/
+	
+	/*.card_week .box_color .color_inner {*/
+	/*	border: 1px solid #404040;*/
+	/*}*/
+	
+	/*.card_week .box_color .ttl {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.card_week .box_color .ttl:after {*/
+	/*	border-right: 1px solid #404040;*/
+	/*}*/
+	
+	/*.popup_cp .inner {*/
+	/*	background: #242424;*/
+	/*}*/
+	
+	/*.popup_cp .popup_title {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.popup_cp .btn_close:after {*/
+	/*	filter: invert(86%) hue-rotate(-180deg);*/
+	/*}*/
+	
+	/*.popup_cp .cp_tablist .item.on .tab {*/
+	/*	border-bottom-color: #fff;*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.popup_cp .cp_tablist {*/
+	/*	border-bottom: 1px solid #404040;*/
+	/*}*/
+	
+	/*.popup_cp .list_setting [class^=item_] {*/
+	/*	border-top: 1px solid #404040;*/
+	/*	border-left: 1px solid #404040;*/
+	/*}*/
+	
+	/*.popup_cp .list_setting [class^=item_].on {*/
+	/*	background: #2f2f2f;*/
+	/*}*/
+	
+	/*.popup_cp .korean, .popup_cp .english {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.popup_cp .notice {*/
+	/*	border-top: 1px solid #404040;*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.popup_cp .time {*/
+	/*	background: #2f2f2f;*/
+	/*}*/
+	
+	/*.popup_cp .time .text {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.popup_cp .time.day .text {*/
+	/*	border-color: #404040;*/
+	/*}*/
+	
+	/*.popup_cp .time.dimmed .text {*/
+	/*	color: #888;*/
+	/*}*/
+	
+	/*.popup_cp .list_comparison {*/
+	/*	border-right: 1px solid #404040;*/
+	/*	background: #2f2f2f;*/
+	/*}*/
+	
+	/*.popup_cp .list_comparison .text {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.popup_cp .weather {*/
+	/*	border-bottom: 1px solid #404040;*/
+	/*}*/
+	
+	/*.popup_cp .weather .temperature {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.card_headline .ico_arr {*/
+	/*	filter: invert(81.5%) hue-rotate(-180deg);*/
+	/*}*/
+	
+	/*.card_headline .link_clst .num {*/
+	/*	border: 1px solid #355eb7;*/
+	/*}*/
+	
+	/*.card_headline .link_clst .num, .card_headline .link_clst .num:before {*/
+	/*	background-color: #2f2f2f;*/
+	/*}*/
+	
+	/*.is_news .wn_item .info_time:before {*/
+	/*	background-color: #404040;*/
+	/*}*/
+	
+	/*.climate_rain .box_color .summary {*/
+	/*	background-color: #2c374a;*/
+	/*}*/
+	
+	/*.climate_humidity .box_color .summary {*/
+	/*	background: rgba(45, 71, 80, 0.6);*/
+	/*}*/
+	
+	/*.climate_wind .box_color .summary {*/
+	/*	background: rgba(41, 84, 88, 0.4);*/
+	/*}*/
+	
+	/*.is_today.foreign .card_week .week_item.on .btn_more:after {*/
+	/*	filter: invert(81.5%) hue-rotate(-180deg);*/
+	/*}*/
+	
+	/*.is_today.foreign .card_week .week_item.on .day_data:before {*/
+	/*	background-image: linear-gradient(to bottom, #2f2f2f, #242424 50%, #2f2f2f);*/
+	/*}*/
+	
+	/*.is_today.foreign .card_week .week_item .day_data {*/
+	/*	background-color: #2f2f2f;*/
+	/*}*/
+	
+	/*@media (min-width: 768px) {*/
+	
+	/*	.card_week .week_item+.week_item {*/
+	/*		border-top: 0;*/
+	/*	}*/
+	/*}*/
+	
+	/*.is_today.foreign .card_week .info_value {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.card_today .today_weather {*/
+	/*	border: 0 solid #404040;*/
+	/*}*/
+	
+	/*.card_today .time_weather {*/
+	/*	border: 1px solid #404040;*/
+	/*}*/
+	
+	/*#header:before {*/
+	/*	background-color: #2f2f2f;*/
+	/*}*/
+	
+	/*.gnb_area .logo:before {*/
+	/*	filter: invert(100%) hue-rotate(-180deg);*/
+	/*}*/
+	
+	/*.notify_area .link_notify {*/
+	/*	border: 1px solid #64879d;*/
+	/*	background: #52585c;*/
+	/*}*/
+	
+	/*.notify_area .link_flash {*/
+	/*	border: 1px solid #864e4a;*/
+	/*	background: #463a38;*/
+	/*}*/
+	
+	/*.notify_area .text {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.card_dust .chart_tablist {*/
+	/*	background: #3a3a3a;*/
+	/*}*/
+	
+	/*.card_dust .chart_tab {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.card_dust .forecast_time .time.now {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.card_dust .forecast_time .time.now::after {*/
+	/*	background: #fff;*/
+	/*}*/
+	
+	/*.card_dust .forecast_time .time {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.card_dust .offer_area {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.card_dust .offer_area .text::after {*/
+	/*	background: #4f4f4f;*/
+	/*}*/
+	
+	/*.card_dust .summary_group .ico_help, .card_dust .chart_value .ico_help {*/
+	/*	filter: invert(86%) hue-rotate(-180deg);*/
+	/*}*/
+	
+	/*.card_dust .dust_summary .ly_help .dust_level_item .ttl_level {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.card_dust .dust_summary .ly_help .ly_link_area {*/
+	/*	border-top: 1px solid #404040;*/
+	/*}*/
+	
+	/*.card_dust .dust_summary .ly_help .summary_list+.figure_dsc {*/
+	/*	border-top: 1px solid #404040;*/
+	/*}*/
+	
+	/*.card_dust .chart_update .time, .card_dust .chart_update .station {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.card_dust .chart_update .station_level1::before {*/
+	/*	border: 1px solid #cacaca;*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.ly_help .item_level .limit {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.card_dust .forecast_daily .date.today {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.card_dust .forecast_daily .date.today::after {*/
+	/*	background: #fff;*/
+	/*}*/
+	
+	/*.card_dust .forecast_daily .date {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.card_dust .statistics_data {*/
+	/*	background: linear-gradient(to bottom,rgba(0,0,0,.05) 1px,#242424 1px,#242424 25px);*/
+	/*}*/
+	
+	/*.chart_list .chart_ttl .ico_help {*/
+	/*	filter: invert(86%) hue-rotate(-180deg);*/
+	/*}*/
+	
+	/*.card_map .local_map > div > div, .card_map .nation_map {*/
+	/*	filter: invert(86%) hue-rotate(-180deg);*/
+	/*}*/
+	
+	/*@media (min-width: 1025px) {*/
+	/*	#container.is_image .offer_area_wrap {*/
+	/*		border: 1px solid #404040;*/
+	/*		border-top: 0;*/
+	/*	}*/
+	/*}*/
+	
+	/*#container.is_image .offer_area_wrap {*/
+	/*	background-color: #2f2f2f;*/
+	/*}*/
+	
+	/*.offer_area {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.card_past .help_icon:after {*/
+	/*	filter: invert(81.5%) hue-rotate(-180deg);*/
+	/*}*/
+	
+	/*.card_past .calendar_temperature {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.card_news .info_media {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.card_climateinfo .title:after {*/
+	/*	filter: invert(81.5%) hue-rotate(-180deg);*/
+	/*}*/
+	
+	/*.card_climateinfo .box_color .color_inner {*/
+	/*	border: 1px solid #404040;*/
+	/*	background-color: #3a3a3a;*/
+	/*}*/
+	
+	/*.card_climateinfo .box_color .ttl {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.card_climateinfo .climate_summary {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.card_climateinfo .climate_summary+.climate_summary {*/
+	/*	border-top: 1px solid #404040;*/
+	/*}*/
+	
+	/*.card_today .time_weather .title_dsc {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.card_today .time_weather .title_dsc:after {*/
+	/*	background: #404040;*/
+	/*}*/
+	
+	/*.card_today .time_weather text.bb-text {*/
+	/*	fill: #cacaca;*/
+	/*}*/
+	
+	/*.card_week .week_item.on .date, .card_week .week_item.today .date {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.card_today .weather_area .summary .temperature.up:after {*/
+	/*	filter: invert(86%) hue-rotate(-180deg);*/
+	/*}*/
+	
+	/*.card_today .weather_area .summary_list .term {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.card_dust .btn_area .station {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.card_dust .btn_area .station::after {*/
+	/*	filter: invert(81.5%) hue-rotate(-180deg) brightness(1000%);*/
+	/*}*/
+	
+	/*.card_dust .summary_group+.summary_group::before {*/
+	/*	background-color: #404040;*/
+	/*}*/
+	
+	/*.card_dust .info_tit {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.gnb_area .btn_location:before {*/
+	/*	filter: invert(86%) hue-rotate(-180deg);*/
+	/*}*/
+	
+	/*.card_today .weather_area .weather_now .current {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.card_today .weather_area .weather_now .summary {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.card_today .weather_area .weather_quick_area .weather_table dl dd {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.card_today .weather_area .weather_quick_area .weather_table dl dt {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.card_today .weather_area .weather_quick_area .weather_table .term {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.card_today .weather_area .weather_quick_area .weather_table .term:after {*/
+	/*	background-color: #fff;*/
+	/*}*/
+	
+	/*.card_today .weather_area .weather_quick_area .tab_list .tab_link {*/
+	/*	background-color: #404040;*/
+	/*}*/
+	
+	/*.card_today .weather_area .weather_quick_area .tab_list .tab_link.on {*/
+	/*	background-color: #cacaca;*/
+	/*}*/
+	
+	/*.is_warning .section_right.weather .card_now .location, .is_warning .section_right.weather .card_now .info {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.is_warning .section_right.weather .card_now .dust_item .ttl {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*@media (min-width: 1025px) {*/
+	/*	.is_warning .warning .tit {*/
+	/*		color: #fff;*/
+	/*		background-color: #2f2f2f;*/
+	/*	}*/
 		
-		.is_warning .disaster_letter .letter_title {
-			color: #fff;
-		}
+	/*	.is_warning .disaster_letter .letter_title {*/
+	/*		color: #fff;*/
+	/*	}*/
 		
-		.is_warning .weather_report .title {
-			color: #fff;
-		}
-	}
+	/*	.is_warning .weather_report .title {*/
+	/*		color: #fff;*/
+	/*	}*/
+	/*}*/
 	
-	.is_warning .warning .content_area {
-		background-color: #404040;
-	}
+	/*.is_warning .warning .content_area {*/
+	/*	background-color: #404040;*/
+	/*}*/
 	
-	.is_warning .disaster_letter {
-		background-color: #2f2f2f;
-		border-bottom: 1px solid #404040;
-	}
+	/*.is_warning .disaster_letter {*/
+	/*	background-color: #2f2f2f;*/
+	/*	border-bottom: 1px solid #404040;*/
+	/*}*/
 	
-	.is_warning .disaster_letter .letter {
-		border-top: 1px solid #404040;
-	}
+	/*.is_warning .disaster_letter .letter {*/
+	/*	border-top: 1px solid #404040;*/
+	/*}*/
 	
-	.is_warning .disaster_letter .letter_list {
-		background-color: #2f2f2f;
-	}
+	/*.is_warning .disaster_letter .letter_list {*/
+	/*	background-color: #2f2f2f;*/
+	/*}*/
 	
-	.is_warning .disaster_letter .location {
-		color: #fff;
-	}
+	/*.is_warning .disaster_letter .location {*/
+	/*	color: #fff;*/
+	/*}*/
 	
-	.is_warning .disaster_letter .summary {
-		color: #cacaca;
-	}
+	/*.is_warning .disaster_letter .summary {*/
+	/*	color: #cacaca;*/
+	/*}*/
 	
-	.is_warning .disaster_letter .btn_action {
-		background-color: #3a3a3a;
-		border: 1px solid #4f4f4f;
-	}
+	/*.is_warning .disaster_letter .btn_action {*/
+	/*	background-color: #3a3a3a;*/
+	/*	border: 1px solid #4f4f4f;*/
+	/*}*/
 	
-	.is_warning .weather_report {
-		background-color: #2f2f2f;
-	}
+	/*.is_warning .weather_report {*/
+	/*	background-color: #2f2f2f;*/
+	/*}*/
 	
-	.is_warning .warning .warning_info {
-		background-color: #2f2f2f;
-	}
+	/*.is_warning .warning .warning_info {*/
+	/*	background-color: #2f2f2f;*/
+	/*}*/
 	
-	.is_warning .warning .warning_info strong, .is_warning .warning .another_info_top {
-		color: #Fff;
-	}
+	/*.is_warning .warning .warning_info strong, .is_warning .warning .another_info_top {*/
+	/*	color: #Fff;*/
+	/*}*/
 	
-	.is_warning .warning .warning_info .btn_alert {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
+	/*.is_warning .warning .warning_info .btn_alert {*/
+	/*	filter: invert(86%) hue-rotate(-180deg);*/
+	/*}*/
 	
-	.is_warning .warning .warning_info .ly_help {
-		color: #cacaca;
-	}
+	/*.is_warning .warning .warning_info .ly_help {*/
+	/*	color: #cacaca;*/
+	/*}*/
 	
-	.is_warning .warning .map_wrap:after {
-		background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(52,77,99,0)),to(rgb(52, 77, 99)));
-		background-image: -webkit-linear-gradient(top,rgba(52,77,99,0),rgb(52, 77, 99));
-		background-image: linear-gradient(to bottom,rgba(52,77,99,0),rgb(52, 77, 99));
-	}
+	/*.is_warning .warning .map_wrap:after {*/
+	/*	background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(52,77,99,0)),to(rgb(52, 77, 99)));*/
+	/*	background-image: -webkit-linear-gradient(top,rgba(52,77,99,0),rgb(52, 77, 99));*/
+	/*	background-image: linear-gradient(to bottom,rgba(52,77,99,0),rgb(52, 77, 99));*/
+	/*}*/
 	
-	.is_warning .warning .list_area {
-		background-color: rgb(52, 77, 99);
-	}
+	/*.is_warning .warning .list_area {*/
+	/*	background-color: rgb(52, 77, 99);*/
+	/*}*/
 	
-	.is_warning .warning .warning_card.on .warning_card_border {
-		border: 2px solid #404040;
-	}
+	/*.is_warning .warning .warning_card.on .warning_card_border {*/
+	/*	border: 2px solid #404040;*/
+	/*}*/
 	
-	.is_warning .warning #_idMap.inner > div {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
+	/*.is_warning .warning #_idMap.inner > div {*/
+	/*	filter: invert(86%) hue-rotate(-180deg);*/
+	/*}*/
 	
-	.is_warning .warning .btn_tab_wrap {
-		border-top: 1px solid #404040;
-		background-color: #2f2f2f;
-	}
+	/*.is_warning .warning .btn_tab_wrap {*/
+	/*	border-top: 1px solid #404040;*/
+	/*	background-color: #2f2f2f;*/
+	/*}*/
 	
-	.is_warning .warning .btn_tab {
-		color: #cacaca;
-	}
+	/*.is_warning .warning .btn_tab {*/
+	/*	color: #cacaca;*/
+	/*}*/
 	
-	.is_warning .warning .btn_wrap {
-		background-color: #3a3a3a;
-	}
+	/*.is_warning .warning .btn_wrap {*/
+	/*	background-color: #3a3a3a;*/
+	/*}*/
 	
-	.is_warning .warning .btn_zoom_in, .is_warning .warning .btn_zoom_out {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
+	/*.is_warning .warning .btn_zoom_in, .is_warning .warning .btn_zoom_out {*/
+	/*	filter: invert(86%) hue-rotate(-180deg);*/
+	/*}*/
 	
-	.is_warning .warning .ly_help {
-		color: #cacaca;
-	}
+	/*.is_warning .warning .ly_help {*/
+	/*	color: #cacaca;*/
+	/*}*/
 	
-	.is_warning .warning .warning_card.summary_list, .is_warning .warning .warning_card.summary_list .card_title {
-		background-color: #2f2f2f;
-	}
+	/*.is_warning .warning .warning_card.summary_list, .is_warning .warning .warning_card.summary_list .card_title {*/
+	/*	background-color: #2f2f2f;*/
+	/*}*/
 	
-	.is_warning .warning .warning_card.summary_list .card_content_inner p, .is_warning .warning .card_content_inner p {
-		color: #cacaca;
-	}
+	/*.is_warning .warning .warning_card.summary_list .card_content_inner p, .is_warning .warning .card_content_inner p {*/
+	/*	color: #cacaca;*/
+	/*}*/
 }
 
 @-moz-document url-prefix("https://cafe.poll.naver.com"), url-prefix("https://blog.poll.naver.com")
@@ -102613,5 +102613,893 @@
 	
 	#footer a {
 		color: #cacaca;
+	}
+}
+
+@-moz-document url-prefix("https://weather.naver.com")
+{
+	/* Weather Warning */
+	
+	body {
+		background-color: #242424;
+	}
+	
+	@media (min-width: 768px) {
+		body {
+			background-color: #242424;
+		}
+	}
+	
+	#header:before {
+		background-color: #242424;
+	}
+	
+	@media (min-width: 1025px) {
+		.lnb_area {
+			border-top: 1px solid #404040;
+		}
+	}
+	
+	.lnb_area .page_name {
+		color: #fff;
+	}
+	
+	.lnb_area .logo:before {
+		filter: invert(100%) hue-rotate(-180deg);
+	}
+	
+	.lnb_area .item.on .menu {
+		color: #fff;
+	}
+	
+	.lnb_area .menu {
+		color: #cacaca;
+	}
+	
+	.lnb_area .button_group>.btn_search:after {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	#container {
+		background-color: #242424;
+	}
+	
+	#header:after {
+		background-color: #404040;
+	}
+	
+	.is_warning .warning .warning_info {
+		background-color: #242424;
+	}
+	
+	.is_warning .warning .warning_info strong {
+		color: #fff;
+	}
+	
+	.is_warning .warning .warning_info .btn_alert {
+		filter: invert(100%) hue-rotate(-180deg);
+	}
+	
+	.is_warning .warning .warning_info .ly_help {
+		color: #cacaca;
+	}
+	
+	.ly_help {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.is_warning .warning .inner > div> div[style] {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.is_warning .warning .map_wrap {
+		background-color: rgb(52, 77, 99);
+	}
+	
+	.is_warning .warning .error_box.loading em, .is_warning .warning .error_box.reloading em {
+		color: #cacaca;
+	}
+	
+	.is_warning .warning .error_box.reloading strong {
+		color: #fff;
+	}
+	
+	.is_warning .warning .list_area {
+		background-color: rgb(52, 77, 99);
+	}
+	
+	.is_warning .warning .map_wrap:after {
+		background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(52,77,99,0)),to(#344d63));
+		background-image: -webkit-linear-gradient(top,rgba(52,77,99,0),#344d63);
+		background-image: linear-gradient(to bottom,rgba(52,77,99,0),#344d63);
+	}
+	
+	.is_warning .warning .list_title {
+		color: #ddf0ff;
+	}
+	
+	.is_warning .warning .warning_card.on .warning_card_border {
+		border: 2px solid #404040;
+	}
+	
+	.is_warning .warning .ly_help {
+		color: #cacaca;
+	}
+	
+	.offer_area span {
+		color: #cacaca;
+	}
+	
+	.is_warning .warning .warning_card.summary_list {
+		background-color: #2f2f2f;
+	}
+	
+	.is_warning .warning .warning_card.summary_list .card_title {
+		background-color: #2f2f2f;
+	}
+	
+	.is_warning .warning .warning_card.summary_list .card_content_inner p {
+		color: #cacaca;
+	}
+	
+	@media (min-width: 1025px) {
+		.is_warning .warning .content_area.map {
+			border-bottom: 1px solid #404040;
+		}
+		
+		.is_warning .warning .tit {
+			color: #fff;
+			background-color: #242424;
+		}
+	}
+	
+	.is_warning .warning .video_area_wrap {
+		background-color: #242424;
+	}
+	
+	.is_warning .disaster_letter {
+		background-color: #242424;
+		border-bottom: 1px solid #404040;
+	}
+	
+	@media (min-width: 1025px) {
+		.is_warning .disaster_letter {
+			border: none;
+			border-bottom: 1px solid #404040;
+		}
+		
+		.is_warning .disaster_letter .letter_title {
+			color: #fff;
+		}
+		
+		.is_warning .warning .content_area_wrap {
+			border-bottom: 1px solid #404040;
+		}
+		
+		.section_center {
+			border-right: 1px solid #404040;
+		}
+		
+		.is_warning .card_nation {
+			border-top: 1px solid #404040;
+		}
+	}
+	
+	.is_warning .disaster_letter .letter_none:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.card {
+		background-color: #242424;
+	}
+	
+	.is_warning .section_right.weather .card_now .location {
+		color: #fff;
+	}
+	
+	.is_warning .section_right.weather .card_now .info, .card_now .info {
+		color: #fff;
+	}
+	
+	.is_warning .section_right.weather .card_now .dust_item .ttl, .card_now .dust_item .ttl {
+		color: #cacaca;
+	}
+	
+	.is_warning .section_right.weather .card_now .dust_area {
+		border-top: 1px solid #404040;
+	}
+	
+	.card_nation .title {
+		background: #242424;
+	}
+	
+	.card .title {
+		color: #fff;
+	}
+	
+	.card_nation .weekly_list {
+		border-top: 1px solid #404040;
+		background: #242424;
+	}
+	
+	@media (min-width: 1025px) {
+		.is_warning .card_nation .weekly_list {
+			background-color: #242424;
+		}
+	}
+	
+	.card_nation .weekly_list .button {
+		color: #cacaca;
+	}
+	
+	.card_nation .map_wrap {
+		border: 1px solid #404040;
+		background-color: rgb(55, 90, 124);
+	}
+	
+	.card_nation .zone .text {
+		color: #fff;
+	}
+	
+	.card_nation .nation_map {
+		background-position: 0 0;
+	}
+	
+	.card_nation .time_area .button {
+		background-color: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.card_nation .time_area .button+.button {
+		border-left: 1px solid #404040;
+	}
+	
+	.card_nation .time_area .button.on {
+		color: #2f2f2f;
+	}
+	
+	.is_warning .warning .btn_tab_wrap {
+		border-top: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.is_warning .warning .btn_tab {
+		color: #cacaca;
+	}
+	
+	.is_warning .warning .btn_tab_wrap.on {
+		background-color: #3a3a3a;
+	}
+	
+	.is_warning .warning .btn_wrap {
+		background-color: #2f2f2f;
+	}
+	
+	.is_warning .warning .btn_zoom_in, .is_warning .warning .btn_zoom_out {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.is_warning .warning .btn_zoom_in {
+		color: #cacaca;
+	}
+	
+	@media (min-width: 768px) {
+		#footer .content_inner {
+			background-color: #242424;
+		}
+	}
+	
+	.section_wrap {
+		border-bottom: 1px solid #404040;
+	}
+	
+	#footer {
+		color: #cacaca;
+	}
+	
+	#footer .link_group .link:before {
+		background-color: #404040;
+	}
+	
+	/* Weather Today */
+	
+	#header .notify_area .notify_inner {
+		background: #2f2f2f;
+	}
+	
+	#header .notify_area .text {
+		color: #cacaca;
+	}
+	
+	#header .notify_area .badge {
+		color: #2f2f2f;
+	}
+	
+	.is_today .card_today_weather .today_weather .list_cp .item .button {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	@media (min-width: 1025px) {
+		.is_today .card_today_weather .today_weather .list_cp .item .cp_text {
+			color: #cacaca;
+		}
+	}
+	
+	.is_today .card_today_weather .today_weather .btn_area .btn_compare {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.is_today .card_today_weather .today_weather .btn_area .btn_compare:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.is_today .card_today_weather .location_name {
+		color: #fff;
+	}
+	
+	.is_today .card_today_weather .weather_area .weather_now .current {
+		color: #fff;
+	}
+	
+	.is_today .card_today_weather .weather_area .weather_quick_area .weather_table dl dd {
+		color: #fff;
+	}
+	
+	.is_today .card_today_weather .weather_area .weather_quick_area .weather_table dl dt {
+		color: #cacaca;
+	}
+	
+	.is_today .card_today_weather .weather_area .weather_quick_area .weather_quick_inner:before {
+		background-color: #404040;
+	}
+	
+	.is_today .card_today_weather .btn_location:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.scroll_control.end_right:before {
+		background-image: -webkit-gradient(linear,right top,left top,from(rgba(36,36,36,0)),to(#242424));
+		background-image: -webkit-linear-gradient(right,rgba(36,36,36,0),#242424);
+		background-image: linear-gradient(to left,rgba(36,36,36,0),#242424);
+	}
+	
+	.scroll_control.end_left:after {
+		background-image: -webkit-gradient(linear,right top,left top,from(#242424),to(rgba(36,36,36,0)));
+		background-image: -webkit-linear-gradient(right,#242424,rgba(36,36,36,0));
+		background-image: linear-gradient(to left,#242424,rgba(36,36,36,0));
+	}
+	
+	.is_today .card_weather_graph .weather_graph .bb text {
+		color: #fff;
+		fill: #fff;
+	}
+	
+	.is_today .card_weather_graph .weather_graph .tit {
+		color: #fff;
+	}
+	
+	.is_today .card_weather_graph .weather_graph .no_border+tr .data:before {
+		background-color: #242424;
+	}
+	
+	.is_today .card_weather_graph .weather_graph tr {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.is_today .card_weather_graph .weather_graph .bar {
+		border-top: 2px solid rgb(54, 67, 82);
+		background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(43,51,58,1)),to(rgba(36,40,43,1)));
+		background-image: -webkit-linear-gradient(top,rgba(43,51,58,1),rgba(36,40,43,1));
+		background-image: linear-gradient(to bottom,rgba(43,51,58,1),rgba(36,40,43,1));
+	}
+	
+	.is_today .card_weather_graph .offer {
+		color: #fff;
+	}
+	
+	.is_today .card_weather_graph .help_icon .ico_help:after {
+		filter: invert(100%) hue-rotate(-180deg);
+	}
+	
+	.is_today .card_weather_graph .offer_update {
+		color: #cacaca;
+	}
+	
+	@media (min-width: 768px) {
+		.is_today .card {
+			border-top: 1px solid #404040;
+		}
+		
+		.is_today .card_weather_graph {
+			border: none;
+		}
+	}
+	
+	@media (min-width: 1025px) {
+		.is_today .card_nation {
+			border-top: 0;
+		}
+	}
+	
+	.is_today .card_today_weather .weather_area .weather_now .summary {
+		color: #fff;
+	}
+	
+	.is_today .card_today_weather .weather_area .weather_quick_area .weather_table .term {
+		color: #cacaca;
+	}
+	
+	.is_today .card_today_weather .weather_area .weather_now .summary .temperature:after {
+		filter: invert(100%) hue-rotate(-180deg);
+	}
+	
+	.ico_help:after {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	@media (min-width: 768px) {
+		.is_today .card_week .box_color .day_data {
+			border: 1px solid #404040;
+		}
+		
+		.is_today .card_week .box_color .date, .is_today .card_week .box_color .day, .is_today .card_week .box_color .temperature {
+			color: #cacaca;
+		}
+		
+		.is_today .card_week .box_color .timeslot {
+			color: #cacaca;
+		}
+		
+		.is_today .card_week .box_color .weather_inner .rainfall.none {
+			color: #cacaca;
+		}
+		
+		.is_today .card_week .week_item {
+			border-right: 1px solid #404040;
+		}
+	}
+	
+	.is_today .card_week .date_inner .day {
+		color: #fff;
+	}
+	
+	.is_today .card_week .offer_area span {
+		border-top: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.is_today .help_icon+.ly_help {
+		border-color: #404040;
+	}
+	
+	.ly_help .ly_ttl {
+		color: #fff;
+	}
+	
+	.ly_help .desc {
+		color: #cacaca;
+	}
+	
+	.is_today .help_icon+.ly_help .weather_list .item {
+		color: #fff;
+	}
+	
+	.is_today .card_week .bar {
+		color: #4f4f4f;
+	}
+	
+	.is_today .card_figure .title {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.is_today .card_figure .tit {
+		color: #fff;
+	}
+	
+	.chart_list .chart_area .chart > div > svg {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.is_today .card_news .info_ttl {
+		color: #fff;
+	}
+	
+	.is_today .card_news .info_dsc {
+		color: #cacaca;
+	}
+	
+	.is_today .card_news .headline_area:after {
+		border-bottom: 1px solid #404040;
+	}
+	
+	@media (min-width: 768px) {
+		.is_today .card_nation .weekly_list {
+			background-color: #242424;
+		}
+		
+		.is_today .halve_area, .is_today .card_halve .card_forecast_today {
+			border-top: 1px solid #404040;
+		}
+	}
+	
+	.card .title_tab.on {
+		color: #fff;
+	}
+	
+	.card .title_tab {
+		color: #cacaca;
+	}
+	
+	.card .title_tab+.title_tab:before {
+		background-color: #404040;
+	}
+	
+	.is_today .card_forecast_today .forecast_tablist li {
+		background-color: #2f2f2f;
+	}
+	
+	.is_today .card_forecast_today .forecast_tablist li:before {
+		border: 1px solid #404040;
+	}
+	
+	.is_today .card_forecast_today .forecast_tablist button {
+		color: #cacaca;
+	}
+	
+	.is_today .card_forecast_today .forecast_tablist li.on button {
+		background-color: #3a3a3a;
+		color: #fff;
+	}
+	
+	.is_today .card_forecast_today .forecast_tablist li+li:before {
+		border-left-color: #404040;
+	}
+	
+	.is_today .card_forecast_today .forecast_tablist li.on button:before {
+		border: 1px solid #4f4f4f;
+	}
+	
+	.is_today .forecast_average .average_ttl {
+		color: #cacaca;
+	}
+	
+	.is_today .forecast_average .average_value {
+		color: #fff;
+	}
+	
+	.is_today .card_forecast_today .forecast_summary {
+		color: #cacaca;
+	}
+	
+	.is_today .card_forecast_today .offer_area {
+		border-top: 1px solid #404040;
+	}
+	
+	@media (min-width: 1025px) {
+		.is_today .card_halve+.card_halve {
+			border-top: 1px solid #404040;
+		}
+	}
+	
+	.is_today .card_past .help_icon:after {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.calendar_select li {
+		background-color: #2f2f2f;
+	}
+	
+	.calendar_select li:before {
+		border: 1px solid #404040;
+	}
+	
+	.calendar_select .select_value {
+		color: #cacaca;
+	}
+	
+	.calendar_select .select_value:after {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.calendar_select li+li:before {
+		border-color: #4f4f4f;
+	}
+	
+	.calendar_table th {
+		color: #fff;
+	}
+	
+	.is_today .card_past .calendar_temperature, .calendar_day {
+		color: #cacaca;
+	}
+	
+	.calendar_table tr {
+		border-bottom: 1px solid #404040;
+	}
+	
+	/* Air Quality */
+	
+	.is_dust .button_area {
+		background-color: #242424;
+	}
+	
+	@media (min-width: 1025px) {
+		.is_dust .button_area .tab .text {
+			color: #cacaca;
+		}
+		
+		.is_dust .button_area .tab+.tab:before {
+			background-color: #404040;
+		}
+	}
+	
+	.is_dust .button_area .tab.on .text {
+		color: #fff;
+	}
+	
+	.is_dust .card_map .btn_dust {
+		background-color: #2f2f2f;
+		color: #fff;
+	}
+	
+	.is_dust .card_map .local_map, .is_dust .card_map .nation_map {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.is_dust .card_map .content_area .offer_area {
+		background-color: #242424;
+	}
+	
+	@media (min-width: 768px) {
+		.is_dust .card_map .content_area .offer_area span {
+			color: #cacaca;
+		}
+	}
+	
+	.is_dust .card_dust .chart_value .ttl {
+		color: #fff;
+	}
+	
+	.is_dust .card_dust .chart_update .time, .is_dust .card_dust .btn_area .station {
+		color: #cacaca;
+	}
+	
+	@media (min-width: 1025px) {
+		.is_dust .card_dust .btn_area {
+			border-top: 1px solid #404040;
+			border-bottom: 1px solid #404040;
+		}
+	}
+	
+	.is_dust .card_dust .btn_area .station:after {
+		filter: invert(100%) hue-rotate(-180deg);
+	}
+	
+	.ly_help .figure_dsc, .ly_help .help_dsc {
+		color: #cacaca;
+	}
+	
+	.is_dust .card_dust .chart_tab.on {
+		background: #3a3a3a;
+	}
+	
+	.is_dust .card_dust .chart_tab {
+		color: #cacaca;
+	}
+	
+	.is_dust .card_dust .chart_tablist {
+		background: #2f2f2f;
+	}
+	
+	.is_dust .card_dust .forecast_time .time {
+		color: #cacaca;
+	}
+	
+	.is_dust .card_dust .forecast_time .time.now {
+		color: #fff;
+	}
+	
+	.is_dust .card_dust .forecast_time .time.now:after {
+		background: #fff;
+	}
+	
+	.is_dust .card_dust .statistics_data {
+		background: -webkit-linear-gradient(top,#2f2f2f 1px,#242424 1px,#242424 25px);
+		background: linear-gradient(to bottom,#2f2f2f 1px,#242424 1px,#242424 25px);
+		-webkit-background-size: 100% 26px;
+		background-size: 100% 26px;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.is_dust .card_dust .statistics_data .info {
+		background: #2f2f2f;
+	}
+	
+	.is_dust .card_dust .statistics_data .name {
+		color: #fff;
+	}
+	
+	.is_dust .card_dust .level_point .point {
+		background-color: #242424;
+	}
+	
+	.is_dust .card_dust .summary_group .ttl_summary {
+		color: #fff;
+	}
+	
+	.is_dust .card_dust .item_summary .dsc_area .ttl_dsc {
+		color: #fff;
+	}
+	
+	.is_dust .card_dust .dust_summary .ly_help .dust_level_item .ttl_level {
+		color: #fff;
+	}
+	
+	.is_dust .card_dust .dust_summary .ly_help .ly_link_area, .is_dust .card_dust .dust_summary .ly_help .summary_list+.figure_dsc {
+		border-top: 1px solid #404040;
+	}
+	
+	.is_dust .card_dust .summary_group+.summary_group:before {
+		background-color: #404040;
+	}
+	
+	.is_dust .card_dust .info_tit {
+		color: #fff;
+	}
+	
+	.is_dust .card_dust .info_offer, .is_dust .card_dust .info_forecast {
+		color: #cacaca;
+	}
+	
+	.is_dust .card_dust .info_offer em:before, .is_dust .card_dust .forecast_link:before {
+		background-color: #404040;
+	}
+	
+	.is_dust .card_pollution, .is_dust .card_pollution .inner_card {
+		border-top: 1px solid #404040;
+	}
+	
+	.is_dust .card_pollution .ly_help strong {
+		color: #fff;
+	}
+	
+	.ly_help .item_level .limit, .ly_help .item_level .text {
+		color: #cacaca;
+	}
+	
+	.is_dust .card_pollution .tit {
+		color: #cacaca;
+	}
+	
+	/* Weather Videos */
+	
+	@media (min-width: 1025px) {
+		#container.is_image .tab_panel, #container.is_image .tab_panel.hide {
+			background-color: #242424;
+		}
+		
+		#container.is_image .title {
+			color: #fff;
+		}
+		
+		#container.is_image #content {
+			border-bottom: 1px solid #404040;
+		}
+	}
+	
+	#container.is_image .offer_area_wrap {
+		background-color: #242424;
+	}
+	
+	/* Weather Map */
+	
+	#container.is_map .map_panel {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.pin_weather .value_pin, .pin_map .area_name {
+		color: #000;
+	}
+	
+	#container.is_map .btn_current {
+		background: #2f2f2f;
+	}
+	
+	#container.is_map .btn_wrap {
+		background-color: #2f2f2f;
+	}
+	
+	#container.is_map .btn_zoom_in, #container.is_map .btn_zoom_out {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	#container.is_map .map_btn {
+		border: 1px solid #404040;
+	}
+	
+	#container.is_map .btn_tab_wrap {
+		border-top: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	#container.is_map .btn_tab_wrap.on {
+		background-color: #3a3a3a;
+	}
+	
+	#container.is_map .btn_tab {
+		color: #cacaca;
+	}
+	
+	/* Weather News */
+	
+	.card_headline .link_clst .num {
+		background-color: #242424;
+		border: 1px solid #454a57;
+	}
+	
+	.card_headline .link_clst .num:before {
+		background-color: #2f2f2f;
+	}
+	
+	.card_headline .ico_arr {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.is_news .wn_item {
+		border-top: 1px solid #404040;
+	}
+	
+	.is_news .wn_item .tit_news {
+		color: #fff;
+	}
+	
+	.is_news .wn_item .dsc_news {
+		color: #cacaca;
+	}
+	
+	.line_wn_wrap, .card_headline .notice {
+		border-top: 1px solid #404040;
+	}
+	
+	.line_wn_wrap .tit_news {
+		color: #fff;
+	}
+	
+	.card_headline .notice .txt {
+		color: #cacaca;
+	}
+	
+	.is_news .card {
+		border-top: 1px solid #404040;
+	}
+	
+	.is_news .more_area {
+		border-top: 1px solid #404040;
+	}
+	
+	.is_news .more_area .btn_more {
+		color: #fff;
+	}
+	
+	.is_news .more_area .btn_more:after {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	@media (min-width: 768px) {
+		.is_news .card_nation .weekly_list {
+			background-color: #242424;
+		}
+	}
+	
+	.is_warning .warning .loading_card {
+		background-color: #2f2f2f;
+		box-shadow: none;
+	}
+	
+	.is_warning .warning .skeleton {
+		background-color: #3a3a3a;
 	}
 }

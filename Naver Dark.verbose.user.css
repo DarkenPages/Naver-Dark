@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.1
+@version		1.63.2
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -103493,6 +103493,22 @@
 	
 	.is_dust .card_pollution .tit {
 		color: #cacaca;
+	}
+	
+	.chart_list .chart_area .level {
+		z-index: 9999;
+	}
+	
+	.is_dust .card_dust .forecast_daily .date {
+		color: #cacaca;
+	}
+	
+	.is_dust .card_dust .forecast_daily .date.today {
+		color: #fff;
+	}
+	
+	.is_dust .card_dust .forecast_daily .date.today:after {
+		background: #fff;
 	}
 	
 	/* Weather Videos */

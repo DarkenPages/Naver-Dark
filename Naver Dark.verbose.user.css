@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.8
+@version		1.63.9
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -34601,42 +34601,42 @@
 		font-size: 15px;
 	}
 	
-	.snb_related_service li a[href*='election'] {
-		position: relative;
-		overflow: visible;
-		width: auto;
-	}
+	/*.snb_related_service li a[href*='election'] {*/
+	/*	position: relative;*/
+	/*	overflow: visible;*/
+	/*	width: auto;*/
+	/*}*/
 	
-	.snb_related_service li a[href*='election'] img {
-		display: none;
-	}
+	/*.snb_related_service li a[href*='election'] img {*/
+	/*	display: none;*/
+	/*}*/
 	
-	.snb_related_service li a[href*='election']:before {
-		content: '총선';
-		height: 18px;
-		display: inline-block;
-		font-size: 18px;
-		white-space: nowrap;
-		color: #cacaca;
-		width: 55px;
-		opacity: 0;
-	}
+	/*.snb_related_service li a[href*='election']:before {*/
+	/*	content: '총선';*/
+	/*	height: 18px;*/
+	/*	display: inline-block;*/
+	/*	font-size: 18px;*/
+	/*	white-space: nowrap;*/
+	/*	color: #cacaca;*/
+	/*	width: 55px;*/
+	/*	opacity: 0;*/
+	/*}*/
 	
-	.snb_related_service li a[href*='election']:after {
-		position: absolute;
-		left: 0;
-		top: 50%;
-		transform: translate(0, -50%);
-		content: '총선';
-		color: #fff;
-		font-size: 18px;
-		white-space: nowrap;
-		width: 56px;
-		text-align: right;
-		background: url(https://upload.wikimedia.org/wikipedia/commons/9/9e/Vote2.svg) no-repeat;
-		background-size: 17px 17px;
-		background-position: 0px 50%;
-	}
+	/*.snb_related_service li a[href*='election']:after {*/
+	/*	position: absolute;*/
+	/*	left: 0;*/
+	/*	top: 50%;*/
+	/*	transform: translate(0, -50%);*/
+	/*	content: '총선';*/
+	/*	color: #fff;*/
+	/*	font-size: 18px;*/
+	/*	white-space: nowrap;*/
+	/*	width: 56px;*/
+	/*	text-align: right;*/
+	/*	background: url(https://upload.wikimedia.org/wikipedia/commons/9/9e/Vote2.svg) no-repeat;*/
+	/*	background-size: 17px 17px;*/
+	/*	background-position: 0px 50%;*/
+	/*}*/
 	
 	.snb_related_service a {
 	    padding: 0;

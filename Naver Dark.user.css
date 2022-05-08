@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.8
+@version		1.63.9
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -5343,10 +5343,6 @@
     .snb_related_service a { padding: 0 }
     .snb_related_service a,.snb_related_service li a { color: #c8d8ff }
     .snb_related_service li a { height: 20px }
-    .snb_related_service li a[href*='election'] { width: auto;position: relative;overflow: visible }
-    .snb_related_service li a[href*='election'] img { display: none }
-    .snb_related_service li a[href*='election']:after { width: 56px;white-space: nowrap;transform: translate(0, -50%);top: 50%;text-align: right;position: absolute;left: 0;font-size: 18px;content: '총선';color: #fff;background: url(https://upload.wikimedia.org/wikipedia/commons/9/9e/Vote2.svg) no-repeat;background-size: 17px 17px;background-position: 0px 50% }
-    .snb_related_service li a[href*='election']:before { width: 55px;white-space: nowrap;opacity: 0;height: 18px;font-size: 18px;display: inline-block;content: '총선';color: #cacaca }
     .spi_btn_release .spi_lst_release a.spi_btn_copyurl,.spi_onebtn .spi_lst .spi_btn_release .spi_lst_release a.spi_btn_copyurl,.spi_sns_share .spi_lst .spi_btn_release .spi_lst_release a.spi_btn_copyurl { color: #cacaca !important;border: 1px solid #404040 }
     .subscribe.on:before { filter: invert(76%) hue-rotate(-180deg) }
     .subscriptionlist .s_settingbutton { color: #fff;border-width: 1px 0 0;border-top: 1px solid #404040 }

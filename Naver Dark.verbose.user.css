@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.10
+@version		1.63.11
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -64853,6 +64853,11 @@
 	}
 	
 	/* Tab */
+	#place-app-root #place-main-section-root .sc_new .api_subject_bx .api_title_area+div[style]+div[class]>div[class]+div[class][style]>div[class]>ul[role='listbox']>li[role='presentation']>a[aria-selected=true]::before {
+		background: #35423b;
+		border: 1px solid #375845;
+	}
+	
 	#place-app-root #place-main-section-root .sc_new.cs_election[class*='sc_new ']>div[class]>div:first-child>div:last-child>ul[role=tablist]>li[aria-selected=true]>a>span {
 		color: #5d6de9;
 	}

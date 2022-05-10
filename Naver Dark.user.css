@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.10
+@version		1.63.11
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -7448,6 +7448,7 @@
     #place-app-root .sc_new .place_cs_section>div:not([style]):not([class])>div[class]>div>div[class]+div[class]+div[class]>div[class]>div[class]>ul[class]>li[class]>a[aria-selected=true]:before { border: 1px solid #4f4f4f;background: rgb(var(--place-color-bg9)) }
     #place-app-root .sc_new .place_cs_section>ul+div { border-top-color: rgba(var(--place-color-border2), 1) }
     #place-app-root .sc_new .place_cs_section>ul>li[data-laim-exp-id]+li[data-laim-exp-id] { border-color: rgba(var(--place-color-border2), 1) }
+    #place-app-root #place-main-section-root .sc_new .api_subject_bx .api_title_area+div[style]+div[class]>div[class]+div[class][style]>div[class]>ul[role='listbox']>li[role='presentation']>a[aria-selected=true]::before { border: 1px solid #375845;background: #35423b }
     #place-app-root #place-main-section-root .sc_new.cs_election[class*='sc_new '],.Sy6No { border: 1px solid #404040;border-top: 0;border-radius: 8px;background: none }
     #snb .option_menu .snb_itembox.ly_detailsch .sch_foot [class^=btn_]:hover { border-color: #404040;background-color: #404040 }
     html[data-useragent*='mac'] .cs_common_module .rel_img { margin-top: 0px }

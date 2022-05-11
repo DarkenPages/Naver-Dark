@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.11
+@version		1.63.12
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -47653,6 +47653,10 @@
 	
 	div[class*='layer_popup__'][class*='isShow__'] > div[class*='loadingtext_layerpopup__'] > div[class*='wrap_text__'] > span[class*='text__'] {
 		color: #fff;
+	}
+	
+	.FormInputCheck .input_check:disabled+.label {
+		color: #cacaca;
 	}
 }
 

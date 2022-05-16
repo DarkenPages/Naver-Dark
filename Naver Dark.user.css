@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.13
+@version		1.63.14
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -5701,7 +5701,7 @@
     .btn_delete,.keep_check .keep_text::before,.nudge_banner { background-color: #2f2f2f }
     .captcha_form .image,.captcha_form .reload,.captcha_form .voice,.reconfirm_sub .captcha_form .image,.reconfirm_sub .captcha_form .voice,.captcha_wrap,.sns_wrap .sns_item { border: 1px solid #404040;background-color: #2f2f2f }
     .captcha_form .image::after,.captcha_form .reload::after,.captcha_form .voice::after,.reconfirm_sub .captcha_form .image::after,.reconfirm_sub .captcha_form .voice::after { filter: brightness(150%) }
-    .cont_otp,.cont_otp .resend_way,.footer .footer_copy .corp,.input_text,.menu_id.on .menu_text,.menu_ones.on .menu_text,.menu_qr.on .menu_text,.message_text,.ones_text,.pop_ones_text,.progress_box .txt,.sns_wrap .sns_text,.sub_desc .point,.time_wrap .time_text,.top_desc,#footer address a { color: #fff }
+    .cont_otp,.cont_otp .resend_way,.footer .footer_copy .corp,.input_text,.menu_id.on .menu_text,.menu_ones.on .menu_text,.menu_qr.on .menu_text,.message_text,.ones_text,.pop_ones_text,.progress_box .txt,.sns_wrap .sns_text,.sub_desc .point,.time_wrap .time_text,.top_desc,.top_message_wrap .message_text,#footer address a { color: #fff }
     .find_wrap .en_find_text,.find_wrap .find_text,.relogin_find_wrap .en_find_text,.relogin_find_wrap .find_text,.footer .corp,.footer .text,.info_title,.ip_check .ip_text,.keep_check .keep_text,.menu_id .menu_text,.menu_ones .menu_text,.menu_qr .menu_text,.sub_desc,#footer *,#footer a,#footer a:visited { color: #cacaca }
     .find_wrap li+li::before,.relogin_find_wrap li+li::before { background-color: rgb(82, 82, 82) }
     .footer .footer_link li+li::before { background-color: #404040 }
@@ -5726,15 +5726,16 @@
 @-moz-document url-prefix("https://nid.naver.com/oauth2.0/authorize") {
     .access_logo img { border-radius: 22.5%;background: #fff }
     .agree_all+.agree_all,.inform_agree_inner { border-top: 1px solid #404040 }
-    .agree_check_box .all_txt,.header_oauth .main_title,.inform_agree_inner .desc .txt_bold,.inform_agree_inner .desc .txt_bold2,.inform_agree_inner .desc strong,.oauth_wrap .check_list label span,.oauth_wrap .name,.txt_bold,#footer address a { color: #fff }
+    .agree_check_box .all_txt,.header_oauth .main_title,.inform_agree_inner .desc .txt_bold,.inform_agree_inner .desc .txt_bold2,.inform_agree_inner .desc strong,.oauth_wrap .check_all strong,.oauth_wrap .check_list label span,.oauth_wrap .name,.txt_bold,#footer address a { color: #fff }
     .bg_whole,.notify_area { background: #242424 }
     .btn_unit_off,.btn_unit_on,.oauth_wrap .btn_area .btn { color: #242424 }
-    .header_oauth .btn_tooltip,.header_oauth .nickname,.inform_agree_area .item_basic,.inform_agree_area .item_com,.inform_agree_area .item_desc,.inform_agree_area .item_need,.inform_agree_inner .desc,.oauth_personal .tit,.u_cr,.u_cra,#footer a,#footer a:visited { color: #cacaca }
+    .header_oauth .btn_tooltip,.header_oauth .nickname,.inform_agree_area .item_basic,.inform_agree_area .item_com,.inform_agree_area .item_desc,.inform_agree_area .item_need,.inform_agree_inner .desc,.oauth_personal .tit,.oauth_wrap .check_all em,.oauth_wrap .sub_list .sub_item span,.u_cr,.u_cra,#footer a,#footer a:visited { color: #cacaca }
     .header_oauth .logo .link::before,.oauth_user_pop { filter: invert(86%) hue-rotate(-180deg) }
     .header_oauth .tooltip { border: 1px solid #404040;background: #2f2f2f }
     .header_oauth .tooltip::before { filter: invert(81.5%) hue-rotate(-180deg) }
     .notify_box { border: 1px solid #404040;background-color: #2f2f2f }
     .oauth_personal { color: #cacaca;border: 1px solid #404040;background-color: #2f2f2f }
+    .oauth_wrap .check_all { border-bottom: 1px solid #4f4f4f }
     .oauth_wrap .notice { color: #cacaca;border-top: 1px solid #4f4f4f }
     .oauth_wrap .scroll_area,.oauth_wrap .top_area { background: #2f2f2f }
     .u_cri_v1::before,#footer ul li:before { background-color: #404040 }

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.14
+@version		1.63.15
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -41087,10 +41087,6 @@
 		color: #cacaca;
 	}
 	
-	* {
-		font-family: '굴림', gulim, helvetica, '나눔바른고딕 옛한글', 'NanumBarunGothic YetHangul', '새굴림', sans-serif !important;
-	}
-	
 	#post-area .post {
 		border-color: #404040;
 	}
@@ -43195,10 +43191,10 @@
 	}
 	
 	.se-viewer .se-section-quotation.se-l-quotation_bubble .se-quotation-container:before {
-		background: -webkit-linear-gradient(left,#404040,#404040 30%,#2f2f2f 0,#2f2f2f 45%,#404040 0,#404040);
-		background: linear-gradient(90deg,#404040 0,#404040 30%,#2f2f2f 0,#2f2f2f 45%,#404040 0,#404040);
-		background: -webkit-linear-gradient(left,#404040,#404040 30%,#2f2f2f 0,#2f2f2f 180px,#404040 0,#404040);
-		background: linear-gradient(90deg,#404040 0,#404040 30%,#2f2f2f 0,#2f2f2f 180px,#404040 0,#404040);
+		background: -webkit-linear-gradient(left, #404040, #404040 30%, #2f2f2f 0, #2f2f2f 45%, #404040 0, #404040);
+		background: linear-gradient(90deg, #404040 0, #404040 30%, #2f2f2f 0, #2f2f2f 45%, #404040 0, #404040);
+		background: -webkit-linear-gradient(left, #404040, #404040 30%, #2f2f2f 0, #2f2f2f 180px, #404040 0, #404040);
+		background: linear-gradient(90deg, #404040 0, #404040 30%, #2f2f2f 0, #2f2f2f 180px, #404040 0, #404040);
 	}
 	
 	.moment_event_da-wrap {

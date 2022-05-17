@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.14
+@version		1.63.15
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -1269,7 +1269,7 @@
     .se-viewer .se-section-horizontalLine.se-l-default .se-hr,.se-viewer .se-section-horizontalLine.se-l-line1 .se-hr,.se-viewer .se-section-horizontalLine.se-l-line2 .se-hr { background-color: #cacaca }
     .se-viewer .se-section-placesMap.se-l-map_text .se-map-marker,#profile table.edit_area .set1,#profile table.edit_area .set3,table.Nnavi td { border-right: 1px solid #404040 }
     .se-viewer .se-section-quotation.se-l-quotation_bubble .se-quotation-container { border: 5px solid #404040;background: #2f2f2f }
-    .se-viewer .se-section-quotation.se-l-quotation_bubble .se-quotation-container:before { background: linear-gradient(90deg,#404040 0,#404040 30%,#2f2f2f 0,#2f2f2f 45%,#404040 0,#404040);background: linear-gradient(90deg,#404040 0,#404040 30%,#2f2f2f 0,#2f2f2f 180px,#404040 0,#404040);background: -webkit-linear-gradient(left,#404040,#404040 30%,#2f2f2f 0,#2f2f2f 45%,#404040 0,#404040);background: -webkit-linear-gradient(left,#404040,#404040 30%,#2f2f2f 0,#2f2f2f 180px,#404040 0,#404040) }
+    .se-viewer .se-section-quotation.se-l-quotation_bubble .se-quotation-container:before { background: linear-gradient(90deg, #404040 0, #404040 30%, #2f2f2f 0, #2f2f2f 45%, #404040 0, #404040);background: linear-gradient(90deg, #404040 0, #404040 30%, #2f2f2f 0, #2f2f2f 180px, #404040 0, #404040);background: -webkit-linear-gradient(left, #404040, #404040 30%, #2f2f2f 0, #2f2f2f 45%, #404040 0, #404040);background: -webkit-linear-gradient(left, #404040, #404040 30%, #2f2f2f 0, #2f2f2f 180px, #404040 0, #404040) }
     .se-viewer .se-section-quotation.se-l-quotation_postit .se-quotation-container { border: solid #404040;border-width: 4px 4px 0;background: #2f2f2f }
     .se-viewer .se-section-quotation.se-l-quotation_postit .se-quotation-container:after { border: solid #404040;border-width: 0 0 4px 4px;background-color: #2f2f2f }
     .se-viewer .se-section-table.se-l-default .se-table-content { border: solid #404040;border-width: 1px 0 0 1px }
@@ -1295,7 +1295,6 @@
     .u_trans_module .u_trans_wrap .u_lang_set .u_slt { border: 1px solid #404040;border-top: none;background: #242424 }
     .u_trans_module .u_trans_wrap .u_tit,#blog-profile .lyr_official_blog .btn_ok { color: #242424;background: #019341 }
     .wrap_ico_ccl .layer_ccl .arr { border-color: #404040;background: #242424 }
-    * { font-family: '굴림', gulim, helvetica, '나눔바른고딕 옛한글', 'NanumBarunGothic YetHangul', '새굴림', sans-serif !important }
     #blog_buddyconnect,#blog_buddyconnect iframe,#wrapper .side-body,#wrapper .side-footer,#wrapper .side-head { background: transparent }
     #blog_new .memo_write { filter: invert(82%) hue-rotate(-180deg) }
     #blog-calendar .bg-footer { height: 10px;border-radius: 0 0 10px 10px }

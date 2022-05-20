@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.17
+@version		1.63.18
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -84232,6 +84232,14 @@
 	
 	.cs_lotto .win_card_box .paging_area .npgs_now::after {
 		filter: invert(60%) hue-rotate(-180deg);
+	}
+	
+	.tabsch_video .sp_nvideo {
+		background-color: #242424;
+	}
+	
+	.sp_nvideo .video_grid_list .info_area .info .info_title {
+		color: #fff;
 	}
 }
 

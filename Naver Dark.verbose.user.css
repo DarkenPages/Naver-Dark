@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.16
+@version		1.63.17
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -13684,6 +13684,10 @@
 	
 	.CreateCafe .cafe_input .captcha_area img {
 		border: 1px solid #4f4f4f;
+	}
+	
+	.ModalLayer .layer_content_text {
+		color: #cacaca;
 	}
 }
 

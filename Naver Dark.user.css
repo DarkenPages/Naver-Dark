@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.20
+@version		1.63.21
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -1867,6 +1867,7 @@
     .skin-1080 .com .pocket_nav .filter-25 { color: #5f5f5f !important }
     .skin-1080 .com .pocket_nav .filter-50 { color: #666 !important }
     .skin-1080 .gate-list .gate-box { color: initial }
+    .skin-1080 .gate-list .gate-box #editorMainContent * { color: initial !important }
     .skin-1080 .gate-list.border-sub { border-color: #404040;background: #fff }
     .skin-1080 .ia-info-btn .link_chat,.skin-1080 #neighbor-cafe .comm-btn-top a { color: #cacaca;border-color: #404040;background-color: #2f2f2f }
     .skin-1080 .ia-info-data .ico-manager { color: #fff;border-color: #4f4f4f;background-color: #404040 }

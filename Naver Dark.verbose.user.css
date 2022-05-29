@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.20
+@version		1.63.21
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -16067,6 +16067,10 @@
 	
 	iframe[id*='powerAd-div_'], iframe[id*='cafe_sdk_'] {
 	    display: none !important;
+	}
+	
+	.skin-1080 .gate-list .gate-box #editorMainContent * {
+		color: initial !important;
 	}
 }
 

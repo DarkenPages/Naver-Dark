@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.22
+@version		1.63.23
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -84246,6 +84246,46 @@
 	
 	.sp_nvideo .video_grid_list .info_area .info .info_title {
 		color: #fff;
+	}
+	
+	.sp_intent_expert .expert_list_wrap .info_area .name .txt {
+		color: #fff;
+	}
+	
+	.sp_intent_expert .expert_list_wrap .info_area .name .badge_category {
+		border: 1px solid rgb(61, 64, 80);
+	}
+	
+	.sp_intent_expert .expert_list_wrap .info_area .desc {
+		color: #cacaca;
+	}
+	
+	.sp_intent_expert .expert_list_wrap .info_area .info .item.type_star {
+		color: #fff;
+	}
+	
+	.sp_intent_expert .expert_list_wrap .info_area .info .item+.item:before {
+		background-color: #4f4f4f;
+	}
+	
+	.sp_intent_expert .expert_list_wrap .info_area .info {
+		color: #cacaca;
+	}
+	
+	.sp_intent_expert .expert_list_wrap .expert_list+.expert_list .expert_item {
+		border-top: 1px solid #404040;
+	}
+	
+	.sp_intent_expert .expert_list_wrap .thumb_area .ico_counsel {
+		border: 2px solid #4f4f4f;
+	}
+	
+	.api_filter .option[aria-selected=true] {
+		color: #fff;
+	}
+	
+	.api_filter .option {
+		color: #cacaca;
 	}
 }
 

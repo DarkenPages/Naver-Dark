@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.23
+@version		1.63.24
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -3065,6 +3065,10 @@
 	
 	div.mInput_holder.mInput_over {
 		border-color: #019341;
+	}
+	
+	div.dh_layer .type_c .phising_help .desc {
+		color: #cacaca;
 	}
 }
 

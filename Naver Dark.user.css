@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.24
+@version		1.63.25
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -5925,11 +5925,12 @@
 }
 @-moz-document url-prefix("https://nid.naver.com/user2/private/") {
     .private_area .btn_box,.private_box { border-top: 1px solid #404040 }
-    .private_area .c_header .lnk_more .text,.private_box .h_desc { color: #cacaca }
+    .private_area .c_header .lnk_more .text,.private_box .h_desc,.private_cert .private_check .ico_check,.private_cert .tip .tip_text { color: #cacaca }
     .private_area.default .private_list .private_btn { border-color: #404040 }
-    .private_area.default .private_list .private_btn .text,.private_box .lnk_list .lnk_more .text,.private_box h3,.private_cell .lnk_private .title { color: #fff }
+    .private_area.default .private_list .private_btn .text,.private_box .lnk_list .lnk_more .text,.private_box h3,.private_cell .lnk_private .title,.private_cert .top_copy { color: #fff }
     .private_box .lnk_list .lnk_more:after { filter: invert(100%) brightness(1000%) }
     .private_box .tip_box { background-color: rgb(35, 41, 36) }
+    .private_cert .img_cert img { filter: invert(86%) hue-rotate(-180deg) }
     .private_item_list,.private_list .private_btn { border: 1px solid #404040 }
     .private_item_list.disabled .lnk_private:before { background: none }
     .private_item_list.disabled .private_cell .ico.address { filter: brightness(0.7) }

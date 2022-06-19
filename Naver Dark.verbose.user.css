@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.26
+@version		1.63.27
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -103792,6 +103792,126 @@
 		border-bottom: 1px solid #404040;
 	}
 	
+	@media (min-width: 1025px) {
+		.is_today .card_video .title strong {
+			color: #fff;
+		}
+		
+		.is_today .card_video .ly_help {
+			color: #cacaca;
+		}
+	}
+	
+	.is_today .card_video .btn_alert {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.popup_cp .inner {
+		background: #2f2f2f;
+	}
+	
+	.popup_cp .popup_title {
+		color: #fff;
+	}
+	
+	.popup_cp .btn_close:after {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.popup_cp .cp_tablist .item.on .tab {
+		border-bottom-color: #fff;
+		color: #fff;
+	}
+	
+	.popup_cp .cp_tablist .tab {
+		color: #cacaca;
+	}
+	
+	.popup_cp .list_comparison {
+		border-right: 1px solid #4f4f4f;
+		background: #2f2f2f;
+	}
+	
+	.popup_cp .list_comparison .text {
+		color: #fff;
+	}
+	
+	.popup_cp .weather {
+		border-right: 1px solid #404040;
+		border-bottom: 1px solid #4f4f4f;
+	}
+	
+	.popup_cp .list_comparison [class^=item_]+[class^=item_] {
+		border-top: 1px solid #4f4f4f;
+	}
+	
+	.popup_cp .comparison_table .align_left .weather {
+		border-right-width: 0;
+		border-left: 1px solid #404040;
+	}
+	
+	.popup_cp .weather .temperature {
+		color: #cacaca;
+	}
+	
+	.popup_cp .time {
+		background: #2f2f2f;
+	}
+	
+	.popup_cp .time .text {
+		color: #cacaca;
+	}
+	
+	.popup_cp .time.dimmed .text {
+		color: rgba(255, 255, 255, .2);
+	}
+	
+	.popup_cp .cp_tablist {
+		border-bottom: 1px solid #4f4f4f;
+	}
+	
+	.popup_cp .cp_tablist .item.on:after {
+		background: #fff;
+	}
+	
+	.popup_cp .notice {
+		border-top: 1px solid #4f4f4f;
+		color: #cacaca;
+	}
+	
+	.popup_cp .time.day .text {
+		border-color: #4f4f4f;
+	}
+	
+	.popup_cp .list_setting [class^=item_]:nth-child(2n) {
+		border-top: 1px solid #4f4f4f;
+		border-left: 1px solid #4f4f4f;
+	}
+	
+	.popup_cp .list_setting [class^=item_]:nth-child(2n+1) {
+		border-left: none;
+	}
+	
+	.popup_cp .list_setting [class^=item_]:nth-child(1), .popup_cp .list_setting [class^=item_]:nth-child(2) {
+		border-top-width: 0;
+	}
+	
+	.popup_cp .list_setting [class^=item_] {
+		border-top: 1px solid #4f4f4f;
+	}
+	
+	.popup_cp .korean, .popup_cp .english {
+		color: #fff;
+	}
+	
+	.popup_cp .desc {
+		color: #cacaca;
+	}
+	
+	.popup_cp .list_setting [class^=item_].on {
+		background: #3a3a3a;
+	}
+	
 	/* Air Quality */
 	
 	.is_dust .button_area {
@@ -104029,6 +104149,20 @@
 		color: #cacaca;
 	}
 	
+	@media (min-width: 1025px) {
+		#container.is_image .title strong {
+			color: #fff;
+		}
+		
+		#container.is_image .ly_help {
+			color: #cacaca;
+		}
+	}
+	
+	#container.is_image .btn_alert {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
 	/* Weather News */
 	
 	.card_headline .link_clst .num {
@@ -104118,5 +104252,9 @@
 	.is_warning .disaster_letter .btn_action {
 		border: 1px solid #404040;
 		background-color: #3a3a3a;
+	}
+	
+	.is_news .wn_item .info_time:before {
+		background-color: #404040;
 	}
 }

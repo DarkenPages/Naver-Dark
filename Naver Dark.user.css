@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.29
+@version		1.63.30
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -1512,12 +1512,13 @@
     #db_data table.Nnavi td { border-right: 1px solid #404040 }
     body,head,html { color: #cacaca;background: #242424 }
 }
-@-moz-document url-prefix("https://blog.naver.com/post/add_profile_image.jsp") {
+@-moz-document url-prefix("https://blog.naver.com/post/add_profile_image.jsp"), url-prefix("https://blog.naver.com/upload/SimplePhotoUploadForm.naver") {
+    .btn_area > a > img,.btn_area > img,#pop_content+div[style] a img,.file_section img { filter: invert(86%) hue-rotate(-180deg) }
     .file_section input.text { color: #cacaca;border: 1px solid #404040;background: #242424 }
     #pop_content { border-bottom: 1px solid #404040 }
-    #pop_content+div[style] a img,.file_section img { filter: invert(86%) }
+    #pop_content p,#pop_content p span { color: #cacaca }
     #pop_header { background: #2f2f2f }
-    #pop_header h1 img { filter: invert(84%) }
+    #pop_header h1 img { filter: invert(84%) hue-rotate(-180deg) }
     body,head,html { color: #cacaca;background: #242424 }
 }
 @-moz-document url-prefix("https://blog.naver.com/PostFileUploadPopup.nhn"), url-prefix("https://blog.naver.com/PostFileUploadPopup.naver") {

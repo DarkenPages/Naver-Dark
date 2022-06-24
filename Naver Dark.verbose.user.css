@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.30
+@version		1.63.31
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -84340,6 +84340,210 @@
 	
 	.api_filter .option {
 		color: #cacaca;
+	}
+	
+	.cs_weather .c_header .period li.on a {
+		color: #fff;
+	}
+	
+	.cs_weather .c_header .period li a {
+		color: #cacaca;
+	}
+	
+	.cs_weather .c_box .c_body .news_area dt {
+		color: #fff !important;
+	}
+	
+	.cs_weather .c_box .c_body .news_area .b_news {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_weather .c_box .c_body .news_area .w_news .src {
+		color: #cacaca;
+	}
+	
+	.cs_weather .c_box .c_body .news_area .w_news .src .sep {
+		color: #4f4f4f;
+	}
+	
+	.cs_weather .c_box .c_body .news_area .b_news .dat {
+		color: #cacaca;
+	}
+	
+	.cs_weather .c_box .c_body .news_area .b_news .sep {
+		color: #4f4f4f;
+	}
+	
+	.cs_weather .c_box .c_body .news_area .d_news {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_weather .c_box .c_body .news_area .d_news {
+		color: #cacaca;
+	}
+	
+	.cs_weather .c_box .c_body .news_area .l_news {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_weather .c_box .c_body .news_area .l_news .thmb img {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_weather .noti_area {
+		border-top: 1px solid #4f4f4f;
+	}
+	
+	.cs_weather .c_box .c_body .map_area .t_line li.on a {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_weather .c_box .c_body .map_area .t_line .on .dat {
+		color: #fff;
+	}
+	
+	.cs_weather .c_box .c_body .map_area .t_line li a:after {
+		background-color: #4f4f4f;
+	}
+	
+	.cs_weather .c_box .c_body .map_area .t_line li .tit {
+		color: #cacaca;
+	}
+	
+	.cs_weather .c_box .c_body .map_area .t_line .on .tit {
+		color: #fff;
+	}
+	
+	.cs_weather .c_box .c_body .map_area .t_line li .dat {
+		color: #cacaca;
+	}
+	
+	.cs_weather .c_box .c_body .map_area .t_line {
+		border-right: 1px solid #4f4f4f;
+	}
+	
+	.cs_weather .c_box .c_body .map_area .t_day {
+		background-color: #2f2f2f;
+		border-bottom: 1px solid #4f4f4f;
+	}
+	
+	.cs_weather .c_box .c_body .map_area .map {
+		border-right: 1px solid #4f4f4f;
+	}
+	
+	.cs_weather .c_box .c_body .map_area .map:not(.map_sete) {
+		background: none;
+		position: relative;
+	}
+	
+	.cs_weather .c_box .c_body .map_area .map:not(.map_sete):before {
+		position: absolute;
+		content: '';
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/build/121105/w/pc_bg_map2.png) no-repeat 0 0;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_weather .c_box .c_body .map_area .map .w_box .state {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_weather .c_box .c_body .map_area .map .w_box .dsc {
+		background: #242424;
+	}
+	
+	.cs_weather .c_box .c_body .map_area .ext {
+		background: #3a3a3a;
+		border-right: 1px solid #4f4f4f;
+	}
+	
+	.cs_weather .c_box .c_body .map_area .ext .type a {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_weather .c_box .c_body .map_area .ext .time {
+		background: none;
+		position: relative;
+	}
+	
+	.cs_weather .c_box .c_body .map_area .ext .time:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/lifesrch/weather/img/ico_clock.gif) no-repeat 0 0;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(79%) hue-rotate(-180deg);
+	}
+	
+	.cs_weather .noti_area p.noti_nobg span {
+		color: #fff;
+	}
+	
+	.cs_weather .noti_area p.noti_nobg {
+		color: #cacaca;
+	}
+	
+	.cs_weather .relation_area {
+		border-top: 1px solid #4f4f4f;
+	}
+	
+	.cs_weather .noti_area p.noti_nobg a {
+		color: #fff;
+	}
+	
+	.cs_weather .relation_area dt {
+		color: #fff !important;
+	}
+	
+	.cs_weather .relation_area dd li {
+		background: none;
+		position: relative;
+	}
+	
+	.cs_weather .relation_area dd li:before {
+		background: url(https://ssl.pstatic.net/sstatic/keypage/lifesrch/weather/img/bg_bar2.gif) no-repeat 0 3px;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_weather .relation_area .go_site {
+		background: none;
+		position: absolute;
+	}
+	
+	.cs_weather .relation_area .go_site:before {
+		background: url(https://ssl.pstatic.net/sstatic/search/pc/img/sprite_bu_v1.gif) 100% -312px no-repeat;
+		background-position: 99% -312px;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_weather .c_box .c_body .news_area .w_news_s .dsc {
+		color: #cacaca;
+	}
+	
+	.cs_weather .c_box .c_body .map_area .t_week {
+		background-color: #2f2f2f;
+		border-bottom: 1px solid #4f4f4f;
 	}
 }
 

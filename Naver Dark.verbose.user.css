@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.34
+@version		1.63.35
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -104113,13 +104113,6 @@
 	
 	.is_today .card_weather_graph .weather_graph {
 		border-bottom: 1px solid #404040;
-	}
-	
-	.is_today .card_weather_graph .weather_graph .bar {
-		border-top: 2px solid rgb(54, 67, 82);
-		background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(43,51,58,1)),to(rgba(36,40,43,1)));
-		background-image: -webkit-linear-gradient(top,rgba(43,51,58,1),rgba(36,40,43,1));
-		background-image: linear-gradient(to bottom,rgba(43,51,58,1),rgba(36,40,43,1));
 	}
 	
 	.is_today .card_weather_graph .offer {

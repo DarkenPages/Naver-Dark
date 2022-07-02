@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.33
+@version		1.63.34
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -103726,20 +103726,24 @@
 		color: #fff;
 	}
 	
-	.level4_1, .level5_1, .level6_1 {
+	.card_list .level4_1, .card_list .level5_1, .card_list .level6_1 {
 		color: #32a1ff !important;
 	}
 	
-	.level4_2, .level5_2, .level6_2 {
+	.card_list .level4_2, .card_list .level5_2, .card_list .level6_2 {
 		color: #00c73c !important;
 	}
 	
-	.level4_3, .level5_3, .level6_4 {
+	.card_list .level4_3, .card_list .level5_3, .card_list .level6_4 {
 		color: #fda60e !important;
 	}
 	
-	.level4_4, .level5_5, .level6_6 {
+	.card_list .level4_4, .card_list .level5_5, .card_list .level6_6 {
 		color: #e64746 !important;
+	}
+	
+	.is_dust .chart_list .chart_area .level {
+		z-index: 999;
 	}
 	
 	.card_list .dust_area {

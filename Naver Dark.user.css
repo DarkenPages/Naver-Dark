@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.33
+@version		1.63.34
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -8209,6 +8209,10 @@
     .card_list .card_item.level4_2,.card_list .card_item.level5_2 { border-color: rgb(44, 51, 43);background-color: rgb(38, 44, 36) }
     .card_list .card_item.level4_3,.card_list .card_item.level5_3 { border-color: rgb(48, 46, 33);background-color: rgb(40, 39, 31) }
     .card_list .card_item.level4_4,.card_list .card_item.level5_5 { border-color: rgb(55, 49, 49);background-color: rgb(43, 40, 39) }
+    .card_list .level4_1,.card_list .level5_1,.card_list .level6_1 { color: #32a1ff !important }
+    .card_list .level4_2,.card_list .level5_2,.card_list .level6_2 { color: #00c73c !important }
+    .card_list .level4_3,.card_list .level5_3,.card_list .level6_4 { color: #fda60e !important }
+    .card_list .level4_4,.card_list .level5_5,.card_list .level6_6 { color: #e64746 !important }
     .card_nation .map_wrap { border: 1px solid #404040;background-color: rgb(55, 90, 124) }
     .card_nation .nation_map { background-position: 0 0 }
     .card_nation .time_area .button { color: #cacaca;background-color: #2f2f2f }
@@ -8227,6 +8231,7 @@
     .is_dust .card_dust .location_area .btn_location:before { filter: brightness(150%) }
     .is_dust .card_dust .statistics_data { border-bottom: 1px solid #404040;background: linear-gradient(to bottom,#2f2f2f 1px,#242424 1px,#242424 25px);background: -webkit-linear-gradient(top,#2f2f2f 1px,#242424 1px,#242424 25px);background-size: 100% 26px;-webkit-background-size: 100% 26px }
     .is_dust .card_map .btn_dust { color: #fff;background-color: #2f2f2f }
+    .is_dust .chart_list .chart_area .level { z-index: 999 }
     .is_today .card_forecast_today .forecast_tablist li.on button { color: #fff;background-color: #3a3a3a }
     .is_today .card_forecast_today .forecast_tablist li.on button:before { border: 1px solid #4f4f4f }
     .is_today .card_forecast_today .forecast_tablist li+li:before { border-left-color: #404040 }
@@ -8249,10 +8254,6 @@
     .is_warning .warning .warning_card.on .warning_card_border { border: 2px solid #404040 }
     .is_warning .warning .warning_card.summary_list:after { background-image: linear-gradient(to bottom,rgba(47,47,47,0),#2f2f2f);background-image: -webkit-linear-gradient(top,rgba(47,47,47,0),#2f2f2f);background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(47,47,47,0)),to(#2f2f2f)) }
     .is_warning .warning .warning_card.summary_list:before { background-image: linear-gradient(to top,rgba(47,47,47,0),#2f2f2f);background-image: -webkit-linear-gradient(bottom,rgba(47,47,47,0),#2f2f2f);background-image: -webkit-gradient(linear,left bottom,left top,from(rgba(47,47,47,0)),to(#2f2f2f)) }
-    .level4_1,.level5_1,.level6_1 { color: #32a1ff !important }
-    .level4_2,.level5_2,.level6_2 { color: #00c73c !important }
-    .level4_3,.level5_3,.level6_4 { color: #fda60e !important }
-    .level4_4,.level5_5,.level6_6 { color: #e64746 !important }
     .pin_map .area_name,.pin_weather .value_pin { color: #000 }
     .popup_cp .comparison_table .align_left .weather { border-right-width: 0;border-left: 1px solid #404040 }
     .popup_cp .cp_tablist { border-bottom: 1px solid #4f4f4f }

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.35
+@version		1.63.36
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -64617,9 +64617,9 @@
 	.ad_section .sp_ad.ico_npay {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
-	
+	/*
 	:root {
-		--place-color-border1: 44, 44, 47;
+		--place-color-border1: 64, 64, 64;
 	    --place-color-border2: 70, 70, 73;
 	    --place-color-border3: 79, 79, 79;
 	    --place-color-border4: 70, 70, 73;
@@ -64710,7 +64710,7 @@
 	    --place-color-filter-bg: 53, 53, 56;
 	    --place-color-profile-bg: 65, 65, 68;
 	    --place-color-profile-icon:169, 175, 185, .24
-	}
+	}*/
 	
 	#place-app-root .sc_new .api_subject_bx .api_title_area+div+div+ul li[data-laim-exp-id*='*e'],
 	#place-app-root .sc_new .api_subject_bx .api_title_area+div+ul li[data-laim-exp-id*='*e'] {
@@ -64934,12 +64934,39 @@
 		border: 1px solid #375845;
 	}
 	
+	#place-app-root #place-main-section-root .sc_new .api_subject_bx .place_additional_info_area_wrapper .flicking-camera > li > div::after {
+		background: linear-gradient(180deg, rgba(47, 47, 47, 0) 0%, #2f2f2f 100%);
+	}
+	
+	#sub_pack #place_sub_ct.place-app-root .sc_new .api_subject_bx>div:first-child:not(.api_title_area)>div+div>h3+div {
+		border-top: 1px solid #4f4f4f;
+	}
+	
+	#place-app-root #loc-main-section-root .sc_new .api_subject_bx .api_title_area+div[style]+div[class]>div>a[role=button]+div[class]>a[role=button] {
+		color: #cacaca;
+	}
+	
+	#place-app-root #loc-main-section-root .sc_new .api_subject_bx .api_title_area+div[style]+div[class]>div>div[class]>strong[class]+div,
+	#place-app-root #loc-main-section-root .sc_new .api_subject_bx .api_title_area+div[style]+div[class]>div>div[class]>strong[class]+div>span {
+		color: #cacaca;
+	}
+	
+	#place-app-root #place-main-section-root .sc_new .api_subject_bx .place_section >div+div>div>span[class]+span[class]::before {
+		background: #4f4f4f;
+	}
+	
 	#place-app-root #place-main-section-root .sc_new.cs_election[class*='sc_new ']>div[class]>div:first-child>div:last-child>ul[role=tablist]>li[aria-selected=true]>a>span {
 		color: #5d6de9;
 	}
 	
 	#place-app-root #place-main-section-root .sc_new.cs_election[class*='sc_new ']>div[class]>div:first-child>div:first-child>div:first-child>div>strong {
 		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	span.place_bluelink+span[class]>span.place_blind+svg[class]>path[fill='#fff'],
+	span.place_bluelink+span[class]+span[class]>span.place_blind+svg[class]>path[fill='#fff'],
+	span.place_bluelink+span[class]+span[class]+span[class]>span.place_blind+svg[class]>path[fill='#fff'] {
+		fill: #2f2f2f;
 	}
 	
 	/* randomized class for a while */
@@ -64976,8 +65003,8 @@
 		color: #abb3e9;
 	}
 	
-	:root #place-app-root:not(.place_on_pcmap):not(.place_on_nmap) {
-		--place-color-border1: 44, 44, 47;
+	:root, :root #place-app-root:not(.place_on_pcmap):not(.place_on_nmap) {
+		--place-color-border1: 70, 70, 70;
 		--place-color-border2: 70, 70, 73;
 		--place-color-border3: 79, 79, 79;
 		--place-color-border4: 70, 70, 73;
@@ -65002,7 +65029,7 @@
 		--place-color-border24: 77, 77, 80;
 		--place-color-border25: 72, 72, 76;
 		--place-color-bg1: 48, 48, 51;
-		--place-color-bg2: 57, 57, 60;
+		--place-color-bg2: 47, 47, 47;
 		--place-color-bg3: 61, 61, 64;
 		--place-color-bg4: 65, 65, 68;
 		--place-color-bg5: 65, 65, 68;
@@ -84710,6 +84737,26 @@
 	
 	.cs_interest_rate .error_box, .loading_box {
 		border-top: 1px solid #404040;
+	}
+	
+	.sp_intent_place .recommend_list_wrap .item {
+		border: 1px solid #404040;
+	}
+	
+	.sp_intent_place .recommend_list_wrap .info_area .title {
+		color: #fff;
+	}
+	
+	.sp_intent_place .recommend_list_wrap .info_area .place_info .category {
+		color: #cacaca;
+	}
+	
+	.sp_intent_place .recommend_list_wrap .info_area .place_info .category:before {
+		background-color: #4f4f4f;
+	}
+	
+	.sp_intent_place .recommend_list_wrap .info_area .place_info .distance {
+		color: #cacaca;
 	}
 }
 

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.36
+@version		1.63.37
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -13691,6 +13691,15 @@
 	}
 	
 	.ModalLayer .layer_content_text {
+		color: #cacaca;
+	}
+	
+	.alert_message {
+		color: #fff !important;
+	}
+	
+	.ModalLayer .layer_footer .BaseButton--gray {
+		background: #2f2f2f;
 		color: #cacaca;
 	}
 }

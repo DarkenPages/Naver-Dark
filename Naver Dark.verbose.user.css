@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.37
+@version		1.63.38
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -89408,28 +89408,11 @@
 	}
 	
 	@media (min-width: 1025px) {
-	
-		html .as_gnb_mnews .Ngnb_inner::before {
-			background-color: #4978f4
-		}
-	
-		html .as_mp_layout .as_gnb_mnews .Nlnb_menu::after {
-			border-bottom-color: #464649;
-			background-color: #39393c
-		}
-	
-		html .as_mp_layout .ct_scroll_wrapper::before, html .as_mp_layout .ct_wrap::before {
-			background-color: #303033
-		}
-	
-		html .as_mp_layout .Ngnb_search {
-			border-color: #464649
-		}
-	
-		html .n_news_mnews.as_mp_layout, html .n_news.as_mp_layout {
-			background-color: #39393c
-		}
-	
+	    html .as_gnb_mnews .Ngnb_inner::before { background-color: #4978f4 }
+	    html .as_mp_layout .as_gnb_mnews .Nlnb_menu::after { border-bottom-color: #464649;background-color: #39393c }
+	    html .as_mp_layout .ct_scroll_wrapper::before,html .as_mp_layout .ct_wrap::before { background-color: #303033 }
+	    html .as_mp_layout .Ngnb_search { border-color: #464649 }
+	    html .n_news_mnews.as_mp_layout,html .n_news.as_mp_layout { background-color: #39393c }
 	}
 	
 	
@@ -89470,471 +89453,109 @@
 		--color_background: #242424
 	}
 	
-	html .as_gnb .Nitem_link_menu::before {
-		background-color: #f0f0f2
-	}
-	
-	html .as_gnb .Nitem_link, html .as_gnb_mnews .Nlnb.is_fixed .Nlist_item.is_active .Nitem_link, html .media_end_head_fontsize_option_is_on a.media_end_head_fontsize_option_text, html .media_end_head_lang_setlayer_select .media_end_head_lang_option_is_on .media_end_head_lang_option_text {
-		color: #fff
-	}
-	
-	html .as_gnb .Nlnb_menu_list::before {
-		background-color: rgba(0, 0, 0, 0.11)
-	}
-	
-	html .as_gnb_entertain .Nitem_link_menu, html .as_gnb_sports .Nitem_sub_link_menu {
-		color: rgba(240, 240, 242, 0.7)
-	}
-	
-	html .as_gnb_mnews .Ngnb, html .as_gnb_mnews .Nlnb, html .as_gnb_mnews .Nlnb.is_fixed .Nlnb_menu {
-		background-color: #4978f4
-	}
-	
-	html .as_gnb_mnews .Nlist_item a.Nitem_link, html .as_gnb_mnews .u_it::placeholder, html .subscribe_cta_layer .cta_btn:not(.as_subscribe) .cta_text {
-		color: #dadde0
-	}
-	
-	html .as_gnb_mnews .Nlist_item.is_active .Nitem_link {
-		color: #5b87fd
-	}
-	
-	html .as_gnb_mnews .Nlist_item.is_active .Nitem_link_menu::before {
-		background-color: #5b87fd
-	}
-	
-	html .as_gnb_mnews .Nlnb_menu {
-		border-bottom-color: #464649
-	}
-	
-	html .as_gnb_mnews .Nlnb_menu::after {
-		background-image: linear-gradient(to right, rgba(57, 57, 60, 0) 0%, #39393c 63%);
-		background-image: -webkit-linear-gradient(left, rgba(57, 57, 60, 0) 0%, #39393c 63%);
-		background-image: -webkit-gradient(linear, left top, right top, from(rgba(57, 57, 60, 0)), color-stop(63%, #39393c))
-	}
-	
-	html .as_gnb_mnews .Nlnb_menu::before {
-		background-image: linear-gradient(to left, rgba(57, 57, 60, 0) 32%, #39393c 80%);
-		background-image: -webkit-linear-gradient(right, rgba(57, 57, 60, 0) 32%, #39393c 80%);
-		background-image: -webkit-gradient(linear, right top, left top, color-stop(32%, rgba(57, 57, 60, 0)), color-stop(80%, #39393c))
-	}
-	
-	html .as_gnb_mnews .Nlnb::before {
-		border-bottom-color: #464649;
-		background-color: #39393c
-	}
-	
-	html .as_gnb_mnews .Nlnb.is_fixed::after {
-		border-bottom-color: #464649;
-		background-color: #4978f4
-	}
-	
-	html .as_gnb_mnews .Nlnb.is_fixed::before {
-		border-bottom-color: #4978f4;
-		background-color: #4978f4
-	}
-	
-	html .as_gnb_mnews .u_clrt {
-		background-color: rgba(255, 255, 255, 0.13)
-	}
-	
-	html .as_gnb_mnews .u_hs, html .media_journalistcard_recommend, html .media_journalistcard_recommend_inner::before, html .ofpr_recommend, html .ofpr_recommend .ofpr_recommend_inner::before {
-		background-color: #48484b
-	}
-	
-	html .as_gnb_mnews .u_hssbt_close::after, html .as_gnb_mnews .u_hssbt_close::before {
-		background-color: findColor("SUB_INFO", "dark")
-	}
-	
-	html .as_gnb_mnews .u_hssbt_ss::after, html .gnb_flat .gf_close, html .n_news_entertain .Ntool_button .Nicon_search, html .related_book .rb_btn_next::after, html .related_book .rb_btn_prev::after {
-		filter: invert(100%);
-		-webkit-filter: invert(100%)
-	}
-	
-	html .as_gnb_mnews .u_hssbt_us, html .copyright, html .ends_btn_head .ends_help_layer .ends_help_desc, html .media_end_linked_title_desc {
-		color: #919192
-	}
-	
-	html .as_gnb_mnews .u_it:-ms-input-placeholder, html .as_gnb_mnews .u_it::-moz-placeholder, html .as_gnb_mnews .u_it::-ms-input-placeholder, html .as_gnb_mnews .u_it::-webkit-input-placeholder {
-		color: #dadde0
-	}
-	
-	html .as_gnb.as_type_a .Nitem_link {
-		color: rgba(255, 255, 255, 0.7)
-	}
-	
-	html .as_mp_layout .ofhe_flick_btn_next, html .as_mp_layout .ofhe_flick_btn_prev, html .ofpr_scroller_btn_next, html .ofpr_scroller_btn_prev {
-		background: #3f4145
-	}
-	
-	html .as_mp_layout .ofhe_flick_btn_next::before, html .as_mp_layout .ofhe_flick_btn_prev::before, html .ofpr_scroller_btn_next::before, html .ofpr_scroller_btn_prev::before {
-		border-color: rgba(255, 255, 255, 0.7)
-	}
-	
-	html .as_mp_layout .ofhe_flick_btn_next:hover::before, html .as_mp_layout .ofhe_flick_btn_prev:hover::before, html .ofpr_scroller_btn_next:hover::before, html .ofpr_scroller_btn_prev:hover::before {
-		border-color: #fff
-	}
-	
-	html .banner_image {
-		background: transparent
-	}
-	
-	html .banner_image[style *='background'i][style *='#ffffff'i], html .newsct_article a[bgcolor], html .newsct_article a[style *='background'i], html .newsct_article b[bgcolor], html .newsct_article b[style *='background'i], html .newsct_article blockquote[bgcolor], html .newsct_article blockquote[style *='background'i], html .newsct_article dd[bgcolor], html .newsct_article dd[style *='background'i], html .newsct_article div[bgcolor], html .newsct_article div[style *='background'i], html .newsct_article dl[bgcolor], html .newsct_article dl[style *='background'i], html .newsct_article dt[bgcolor], html .newsct_article dt[style *='background'i], html .newsct_article figcaption[bgcolor], html .newsct_article figcaption[style *='background'i], html .newsct_article figure[bgcolor], html .newsct_article figure[style *='background'i], html .newsct_article font[bgcolor], html .newsct_article font[style *='background'i], html .newsct_article h1[bgcolor], html .newsct_article h1[style *='background'i], html .newsct_article h2[bgcolor], html .newsct_article h2[style *='background'i], html .newsct_article h3[bgcolor], html .newsct_article h3[style *='background'i], html .newsct_article h4[bgcolor], html .newsct_article h4[style *='background'i], html .newsct_article h5[bgcolor], html .newsct_article h5[style *='background'i], html .newsct_article h6[bgcolor], html .newsct_article h6[style *='background'i], html .newsct_article li[bgcolor], html .newsct_article li[style *='background'i], html .newsct_article ol[bgcolor], html .newsct_article ol[style *='background'i], html .newsct_article p[bgcolor], html .newsct_article p[style *='background'i], html .newsct_article span[bgcolor], html .newsct_article span[style *='background'i], html .newsct_article strong[bgcolor], html .newsct_article strong[style *='background'i], html .newsct_article table[bgcolor], html .newsct_article table[style *='background'i], html .newsct_article td[bgcolor], html .newsct_article td[style *='background'i], html .newsct_article th[bgcolor], html .newsct_article th[style *='background'i], html .newsct_article tr[bgcolor], html .newsct_article tr[style *='background'i], html .newsct_article ul[bgcolor], html .newsct_article ul[style *='background'i] {
-		background: transparent !important
-	}
-	
-	html .changecmt_info .changecmt_btn_info_close, html .help_button::before, html .ofhe_info_button::before, html .help_layer_close::before, html .ofhe_info_layer_close::before, html .media_end_categorize_ct_close::before, html .media_end_factcheck_info_close::after, html .media_end_factcheck_infoicon, html .media_end_head_autosummary .media_end_head_autosummary_help, html .media_end_head_channel_layer_close::before, html .media_flick .mf_error .mf_desc::before, html .media_journalistcard_recommend_close, html .nocmt_p::before, html .office_headline .ofhe_notice_text::before, html .ofpr_m_empty::before, html .ofpr_recommend .ofpr_recommend_close::before, html .pg_num_area.pg_num_area_v1 .pg_num::before, html .ranking_list .rl_error .rl_error_desc::before, html .rankingnews .ra_error .ra_error_desc::before, html .subscribe_guide_close::before, html .tomain_info_close::before, html .tomain.as_addinfo button.to_infobutton_b::before, html .u_sggt_wrap2 .kwd_info.imsc_bf::before {
-		opacity: 0.46;
-		filter: invert(100%);
-		-webkit-filter: invert(100%)
-	}
-	
-	html .changecmt_info .changecmt_info_icon::before {
-		background-position: -235px -179px
-	}
-	
-	html .changecmt_layer, html .media_end_factcheck_info, html .subscribe_guide {
-		border: solid 1px rgba(255, 255, 255, 0.05)
-	}
-	
-	html .changecmt, html .media_end_channel_banner_link {
-		border-color: #535353;
-		background-color: #434344
-	}
-	
-	html .ends_addition .spi_wrap .spi .sns_share::after, html .media_end_head_autosummary .media_end_head_autosummary_layer_close::before, html .media_end_head_top_channel_add.is_disabled::before, html .media_end_head_tts_setlayer_close::before, html .ofpr_btn_confirm.disabled::before, html .ranking_list .rl_comment::before, html .ranking_list .rl_player::before, html .ranking_list .rl_time::before, html .ranking_list .rl_visit::before, html .simplecmt_link.is_officecomment::after, html .u_atcp_addb, html .u_sggt_wrap2 .kwd_lst .bt_del .imsc {
-		opacity: 0.68;
-		filter: invert(100%);
-		-webkit-filter: invert(100%)
-	}
-	
-	html .ends_btn_head .ends_head_title, html .ends_btn.as_likeit_improve~.ends_addition .spi_wrap .spi .sns_share::before {
-		color: #efeff0
-	}
-	
-	html .ends_btn_head .ends_help_layer {
-		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16);
-		border-color: rgba(255, 255, 255, 0.03);
-		background: #48484b;
-		-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16)
-	}
-	
-	html .ends_btn_head .ends_help_layer .ends_help_close {
-		width: 8px;
-		position: absolute;
-		line-height: initial;
-		height: 8px;
-		font-size: 1px;
-		color: rgba(1, 0, 0, 0);
-		box-sizing: content-box;
-		-webkit-box-sizing: content-box
-	}
-	
-	html .ends_btn_head .ends_help_layer .ends_help_close::after {
-		width: 1px;
-		transform: rotate(-45deg);
-		top: 50%;
-		position: absolute;
-		margin-top: -5.656px;
-		margin-left: -0.5px;
-		left: 50%;
-		height: 11.312px;
-		display: block;
-		content: '';
-		content: '';
-		background-color: rgba(206, 208, 214, 0.6);
-		-webkit-transform: rotate(-45deg)
-	}
-	
-	html .ends_btn_head .ends_help_layer .ends_help_close::before {
-		width: 1px;
-		transform: rotate(45deg);
-		top: 50%;
-		position: absolute;
-		margin-top: -5.656px;
-		margin-left: -0.5px;
-		left: 50%;
-		height: 11.312px;
-		display: block;
-		content: '';
-		content: '';
-		background-color: rgba(206, 208, 214, 0.6);
-		-webkit-transform: rotate(45deg)
-	}
-	
-	html .ends_btn_head .u_btn_sns_share, html .ends_btn.as_likeit_improve~.ends_addition .spi_wrap .spi .sns_share::after, html .media_end_head_share .send_caption {
-		background-position: -28px -290px
-	}
-	
-	html .help_layer, html .ofhe_info_layer, html .media_end_head_channel_layer, html .media_end_head_top_channel_layer, html .n_news_sports .u_likeit_button+.u_likeit_layer, html .ofhd_float_subscribe_layer {
-		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16);
-		border-color: rgba(255, 255, 255, 0.03);
-		-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16)
-	}
-	
-	html .light_type {
-		display: none !important
-	}
-	
-	html .media_end_categorize_ct, html .n_news .gnb_flat .gf_inner, html .n_news_mnews .gnb_flat .gf_inner, html .tomain_info_layer {
-		border-color: rgba(255, 255, 255, 0.05)
-	}
-	
-	html .media_end_categorize_item {
-		background-color: rgba(91, 134, 253, 0.1)
-	}
-	
-	html .media_end_categorize_link::before {
-		background-position: -269px -268px
-	}
-	
-	html .media_end_channel_banner_add.is_disabled, html .media_journalistcard_item .subscribe.on .subscribe_ico, html .media_journalistcard_recommend .subscribe.on .subscribe_ico, html .media_journalistcard_recommend_channel_add.is_disabled {
-		color: #a5a5a7;
-		border-color: #595959;
-		background: transparent
-	}
-	
-	html .media_end_factcheck_ct {
-		border-top-color: var(--color_line_lv2)
-	}
-	
-	html .media_end_factcheck_inner {
-		border-color: #39393b;
-		background: var(--color_layer_background_lv3)
-	}
-	
-	html .media_end_factcheck_owner_photo {
-		background-position: -329px -198px
-	}
-	
-	html .media_end_head_autosummary .media_end_head_autosummary_button::before {
-		background-position: -301px -140px
-	}
-	
-	html .media_end_head_autosummary .media_end_head_autosummary_layer_head_tit::before {
-		background-position: -301px -84px
-	}
-	
-	html .media_end_head_autosummary .media_end_head_autosummary_layer_head::after {
-		border-color: var(--color_line_lv2)
-	}
-	
-	html .media_end_head_channel_layer_link::after, html .media_end_head_journalist .media_end_head_journalist_box::after, html .media_end_head_journalist .media_end_head_journalist_layer_name::after, html .media_end_head_top_channel_layer_link::after, html .ofhd_float_subscribe_layer_link::after {
-		background-position: -373px -294px
-	}
-	
-	html .media_end_head_cmtcount_button::before {
-		background-position: -329px -26px
-	}
-	
-	html .media_end_head_fontsize_is_on .media_end_head_fontsize_set::after, html .media_end_head_fontsize_setlayer, html .media_end_head_journalist .media_end_head_journalist_layer, html .media_end_head_journalist .media_end_head_journalist_layer::before, html .media_end_head_lang_is_on .media_end_head_lang_set::after, html .media_end_head_lang_setlayer, html .media_end_head_tts_run.is_active::after, html .media_end_head_tts_setlayer, html .n_news_sports .u_likeit_button+.u_likeit_layer::before {
-		border-color: rgba(255, 255, 255, 0.03)
-	}
-	
-	html .media_end_head_fontsize_option1, html .media_end_head_fontsize_option2, html .media_end_head_fontsize_option3, html .media_end_head_fontsize_option4, html .media_end_head_fontsize_option5 {
-		border: solid 1px #58585a;
-		background-color: #545458
-	}
-	
-	html .media_end_head_fontsize_option1.media_end_head_fontsize_option_is_on, html .media_end_head_fontsize_option2.media_end_head_fontsize_option_is_on, html .media_end_head_fontsize_option3.media_end_head_fontsize_option_is_on, html .media_end_head_fontsize_option4.media_end_head_fontsize_option_is_on, html .media_end_head_fontsize_option5.media_end_head_fontsize_option_is_on {
-		border: solid 1px rgba(0, 0, 0, 0.03);
-		background-color: #4978f4
-	}
-	
-	html .media_end_head_fontsize_set::before {
-		background-position: -301px -196px
-	}
-	
-	html .media_end_head_fontsize_setlayer_select::before {
-		background-color: #303038
-	}
-	
-	html .media_end_head_info_origin_inner {
-		border-color: #595959
-	}
-	
-	html .media_end_head_journalist .media_end_head_journalist_layer_thumb {
-		background: #262628
-	}
-	
-	html .media_end_head_journalist .media_end_head_journalist_layer_thumb::before {
-		background-position: -120px -198px
-	}
-	
-	html .media_end_head_journalist .media_end_head_journalist_name+.media_end_head_journalist_name::before {
-		background-color: #595959
-	}
-	
-	html .media_end_head_lang_set::before {
-		background-position: -301px -252px
-	}
-	
-	html .media_end_head_lang_setlayer_select .media_end_head_lang_option_text {
-		color: var(--color_sub_info);
-		border: solid 1px #58585a;
-		background-color: #545458
-	}
-	
-	html .media_end_head_print .media_end_print_link::before {
-		background-position: -199px -268px
-	}
-	
-	html .media_end_head_tts_run::before {
-		background-position: -84px -290px
-	}
-	
-	html .media_end_head_tts_setlayer .media_end_head_tts_option::before {
-		background-position: -329px -242px
-	}
-	
-	html .media_end_issuetimeline_go .meig_link::after, html .media_end_linked_more_link::after {
-		background-position: -112px -318px
-	}
-	
-	html .media_flick .mf_thumb {
-		background: url("https://ssl.pstatic.net/static.news/image/news/m/noimage/dark/noimage_288x176_dark.png");
-		background-size: 144px
-	}
-	
-	html .media_journalistcard_recommend_img_wrap {
-		background-position: 0px 0px
-	}
-	
-	html .media_journalistcard_recommend_img_wrap::after {
-		border: 1px solid rgba(255, 255, 255, 0.06);
-		border-radius: 44px
-	}
-	
-	html .modal .m_notification .mn_noti.is_off {
-		background-position: -217px -91px
-	}
-	
-	html .modal .m_notification .mn_ok {
-		background-position: -76px 0px
-	}
-	
-	html .n_news .gnb_flat .gf_naverlogo, html .n_news_mnews .gnb_flat .gf_naverlogo {
-		background-position: -276px -290px
-	}
-	
-	html .n_news_entertain .media_end_head_fontsize_option1.media_end_head_fontsize_option_is_on, html .n_news_entertain .media_end_head_fontsize_option2.media_end_head_fontsize_option_is_on, html .n_news_entertain .media_end_head_fontsize_option3.media_end_head_fontsize_option_is_on, html .n_news_entertain .media_end_head_fontsize_option4.media_end_head_fontsize_option_is_on, html .n_news_entertain .media_end_head_fontsize_option5.media_end_head_fontsize_option_is_on {
-		background-color: #e2458f
-	}
-	
-	html .n_news_entertain .Nicon_family::before {
-		background-color: #464649
-	}
-	
-	html .n_news_error {
-		background-color: #1a1a1c
-	}
-	
-	html .n_news_sports .media_end_head_fontsize_option1.media_end_head_fontsize_option_is_on, html .n_news_sports .media_end_head_fontsize_option2.media_end_head_fontsize_option_is_on, html .n_news_sports .media_end_head_fontsize_option3.media_end_head_fontsize_option_is_on, html .n_news_sports .media_end_head_fontsize_option4.media_end_head_fontsize_option_is_on, html .n_news_sports .media_end_head_fontsize_option5.media_end_head_fontsize_option_is_on {
-		background-color: #3680f7
-	}
-	
-	html .n_news, html .n_news_entertain, html .n_news_sports, html .n_news_mnews, html .noimage {
-		background: #303033
-	}
-	
-	html .newsct_article a[style *='color'i], html .newsct_article b[style *='color'i], html .newsct_article blockquote[style *='color'i], html .newsct_article dd[style *='color'i], html .newsct_article div[style *='color'i], html .newsct_article dl[style *='color'i], html .newsct_article dt[style *='color'i], html .newsct_article figcaption[style *='color'i], html .newsct_article figure[style *='color'i], html .newsct_article font[style *='color'i], html .newsct_article h1[style *='color'i], html .newsct_article h2[style *='color'i], html .newsct_article h3[style *='color'i], html .newsct_article h4[style *='color'i], html .newsct_article h5[style *='color'i], html .newsct_article h6[style *='color'i], html .newsct_article li[style *='color'i], html .newsct_article ol[style *='color'i], html .newsct_article p[style *='color'i], html .newsct_article span[style *='color'i], html .newsct_article strong[style *='color'i], html .newsct_article table[style *='color'i], html .newsct_article td[style *='color'i], html .newsct_article th[style *='color'i], html .newsct_article tr[style *='color'i], html .newsct_article ul[style *='color'i] {
-		color: var(--color_body) !important
-	}
-	
-	html .newsct_body .ad_box {
-		background: none
-	}
-	
-	html .newsct_journalist_button {
-		border: solid 1px rgba(255, 255, 255, 0.03);
-		background-color: #48484b
-	}
-	
-	html .newsct_journalist_button::before {
-		background-position: 0px -198px
-	}
-	
-	html .ofcl_banner, html .ofpr_btn_wrap button+button {
-		border-color: #464649
-	}
-	
-	html .offc_end_heading_navi .next_btn span {
-		background-position: -373px -54px
-	}
-	
-	html .offc_end_heading_navi .prev_btn span {
-		background-position: -373px -18px
-	}
-	
-	html .office_headline .ofhe_thumb {
-		background: url("https://ssl.pstatic.net/static.news/image/news/m/noimage/dark/noimage_336x206_dark.png");
-		background-size: 100%
-	}
-	
-	html .ofpr_item::before, html .ofpr_scroller .ofpr_item::before, html .rankingnews .ra_tab_list {
-		background-color: #303033
-	}
-	
-	html .pac_cmt, html .tomain_info_phrase {
-		background-color: #2b2b2e
-	}
-	
-	html .r_pg_top {
-		background-position: -48px -131px
-	}
-	
-	html .ranking_list .rl_author_name {
-		color: #a5a5a7
-	}
-	
-	html .ranking_list .rl_border {
-		background: url("https://ssl.pstatic.net/static.news/image/news/m/noimage/dark/noimage_190x130_dark.png");
-		background-size: 95px
-	}
-	
-	html .ranking_list .rl_content_tag.paid {
-		color: #f0f0f2;
-		background: #4b4b4e
-	}
-	
-	html .rankingnews .noimage::after {
-		opacity: 0.7;
-		filter: invert(100%);
-		-webkit-filter: invert(100%)
-	}
-	
-	html .related_book .rb_btn_next.dimmed::after, html .related_book .rb_btn_prev.dimmed::after {
-		opacity: 0.35;
-		filter: invert(0);
-		-webkit-filter: invert(0)
-	}
-	
-	html .subscribe_cta_layer .cta_btn:not(.as_subscribe) {
-		background: #464649
-	}
-	
-	html .subscribe_cta_layer .cta_btn:not(.as_subscribe) .cta_arrow {
-		background: rgba(255, 255, 255, 0.1)
-	}
-	
-	html .tomain .to_infobutton::before {
-		background: var(--color_line_lv1)
-	}
-	
-	html .u_atcp_fc, html .u_atcp_lsc, html .u_sggt_wrap2 .sggt_footer {
-		background-color: transparent
-	}
-	
-	html .u_ft {
-		color: #303033
-	}
-	
-	html .u_sggt_wrap2 .sggt_header .tit .ico_help {
-		background-position: -68px -341px
-	}
-	
-	html a.media_end_head_fontsize_option_text {
-		color: var(--color_title)
-	}
+	html .as_gnb .Nitem_link_menu::before { background-color: #f0f0f2 }
+	html .as_gnb .Nitem_link,html .as_gnb_mnews .Nlnb.is_fixed .Nlist_item.is_active .Nitem_link,html .media_end_head_fontsize_option_is_on a.media_end_head_fontsize_option_text,html .media_end_head_lang_setlayer_select .media_end_head_lang_option_is_on .media_end_head_lang_option_text { color: #fff }
+	html .as_gnb .Nlnb_menu_list::before { background-color: rgba(0, 0, 0, 0.11) }
+	html .as_gnb_entertain .Nitem_link_menu,html .as_gnb_sports .Nitem_sub_link_menu { color: rgba(240, 240, 242, 0.7) }
+	html .as_gnb_mnews .Ngnb,html .as_gnb_mnews .Nlnb,html .as_gnb_mnews .Nlnb.is_fixed .Nlnb_menu { background-color: #4978f4 }
+	html .as_gnb_mnews .Nlist_item a.Nitem_link,html .as_gnb_mnews .u_it::placeholder,html .subscribe_cta_layer .cta_btn:not(.as_subscribe) .cta_text { color: #dadde0 }
+	html .as_gnb_mnews .Nlist_item.is_active .Nitem_link { color: #5b87fd }
+	html .as_gnb_mnews .Nlist_item.is_active .Nitem_link_menu::before { background-color: #5b87fd }
+	html .as_gnb_mnews .Nlnb_menu { border-bottom-color: #464649 }
+	html .as_gnb_mnews .Nlnb_menu::after { background-image: linear-gradient(to right, rgba(57, 57, 60, 0) 0%, #39393c 63%);background-image: -webkit-linear-gradient(left, rgba(57, 57, 60, 0) 0%, #39393c 63%);background-image: -webkit-gradient(linear, left top, right top, from(rgba(57, 57, 60, 0)), color-stop(63%, #39393c)) }
+	html .as_gnb_mnews .Nlnb_menu::before { background-image: linear-gradient(to left, rgba(57, 57, 60, 0) 32%, #39393c 80%);background-image: -webkit-linear-gradient(right, rgba(57, 57, 60, 0) 32%, #39393c 80%);background-image: -webkit-gradient(linear, right top, left top, color-stop(32%, rgba(57, 57, 60, 0)), color-stop(80%, #39393c)) }
+	html .as_gnb_mnews .Nlnb::before { border-bottom-color: #464649;background-color: #39393c }
+	html .as_gnb_mnews .Nlnb.is_fixed::after { border-bottom-color: #464649;background-color: #4978f4 }
+	html .as_gnb_mnews .Nlnb.is_fixed::before { border-bottom-color: #4978f4;background-color: #4978f4 }
+	html .as_gnb_mnews .u_clrt { background-color: rgba(255, 255, 255, 0.13) }
+	html .as_gnb_mnews .u_hs,html .media_journalistcard_recommend,html .media_journalistcard_recommend_inner::before,html .ofpr_recommend,html .ofpr_recommend .ofpr_recommend_inner::before { background-color: #48484b }
+	html .as_gnb_mnews .u_hssbt_close::after,html .as_gnb_mnews .u_hssbt_close::before { background-color: findColor("SUB_INFO", "dark") }
+	html .as_gnb_mnews .u_hssbt_ss::after,html .gnb_flat .gf_close,html .n_news_entertain .Ntool_button .Nicon_search,html .related_book .rb_btn_next::after,html .related_book .rb_btn_prev::after { filter: invert(100%);-webkit-filter: invert(100%) }
+	html .as_gnb_mnews .u_hssbt_us,html .copyright,html .ends_btn_head .ends_help_layer .ends_help_desc,html .media_end_linked_title_desc { color: #919192 }
+	html .as_gnb_mnews .u_it:-ms-input-placeholder,html .as_gnb_mnews .u_it::-moz-placeholder,html .as_gnb_mnews .u_it::-ms-input-placeholder,html .as_gnb_mnews .u_it::-webkit-input-placeholder { color:#dadde0 }
+	html .as_gnb_sports .Nitem_sub_link_menu.as_kbo40 { color: transparent }
+	html .as_gnb_sports .Nitem_sub_link_menu.as_kbo40::after { background-position: -76px -32px }
+	html .as_gnb.as_type_a .Nitem_link { color: rgba(255, 255, 255, 0.7) }
+	html .as_mp_layout .ofhe_flick_btn_next,html .as_mp_layout .ofhe_flick_btn_prev,html .ofpr_scroller_btn_next,html .ofpr_scroller_btn_prev { background: #3f4145 }
+	html .as_mp_layout .ofhe_flick_btn_next::before,html .as_mp_layout .ofhe_flick_btn_prev::before,html .ofpr_scroller_btn_next::before,html .ofpr_scroller_btn_prev::before { border-color: rgba(255, 255, 255, 0.7) }
+	html .as_mp_layout .ofhe_flick_btn_next:hover::before,html .as_mp_layout .ofhe_flick_btn_prev:hover::before,html .ofpr_scroller_btn_next:hover::before,html .ofpr_scroller_btn_prev:hover::before { border-color: #fff }
+	html .banner_image { background: transparent }
+	html .banner_image[style * ='background' i][style * ='#ffffff' i],html .newsct_article a[bgcolor],html .newsct_article a[style * ='background' i],html .newsct_article b[bgcolor],html .newsct_article b[style * ='background' i],html .newsct_article blockquote[bgcolor],html .newsct_article blockquote[style * ='background' i],html .newsct_article dd[bgcolor],html .newsct_article dd[style * ='background' i],html .newsct_article div[bgcolor],html .newsct_article div[style * ='background' i],html .newsct_article dl[bgcolor],html .newsct_article dl[style * ='background' i],html .newsct_article dt[bgcolor],html .newsct_article dt[style * ='background' i],html .newsct_article figcaption[bgcolor],html .newsct_article figcaption[style * ='background' i],html .newsct_article figure[bgcolor],html .newsct_article figure[style * ='background' i],html .newsct_article font[bgcolor],html .newsct_article font[style * ='background' i],html .newsct_article h1[bgcolor],html .newsct_article h1[style * ='background' i],html .newsct_article h2[bgcolor],html .newsct_article h2[style * ='background' i],html .newsct_article h3[bgcolor],html .newsct_article h3[style * ='background' i],html .newsct_article h4[bgcolor],html .newsct_article h4[style * ='background' i],html .newsct_article h5[bgcolor],html .newsct_article h5[style * ='background' i],html .newsct_article h6[bgcolor],html .newsct_article h6[style * ='background' i],html .newsct_article li[bgcolor],html .newsct_article li[style * ='background' i],html .newsct_article ol[bgcolor],html .newsct_article ol[style * ='background' i],html .newsct_article p[bgcolor],html .newsct_article p[style * ='background' i],html .newsct_article span[bgcolor],html .newsct_article span[style * ='background' i],html .newsct_article strong[bgcolor],html .newsct_article strong[style * ='background' i],html .newsct_article table[bgcolor],html .newsct_article table[style * ='background' i],html .newsct_article td[bgcolor],html .newsct_article td[style * ='background' i],html .newsct_article th[bgcolor],html .newsct_article th[style * ='background' i],html .newsct_article tr[bgcolor],html .newsct_article tr[style * ='background' i],html .newsct_article ul[bgcolor],html .newsct_article ul[style * ='background' i] { background: transparent !important }
+	html .changecmt_info .changecmt_btn_info_close,html .help_button::before,html .ofhe_info_button::before,html .help_layer_close::before,html .ofhe_info_layer_close::before,html .media_end_categorize_ct_close::before,html .media_end_factcheck_info_close::after,html .media_end_factcheck_infoicon,html .media_end_head_autosummary .media_end_head_autosummary_help,html .media_end_head_channel_layer_close::before,html .media_flick .mf_error .mf_desc::before,html .media_journalistcard_recommend_close,html .nocmt_p::before,html .office_headline .ofhe_notice_text::before,html .ofpr_m_empty::before,html .ofpr_recommend .ofpr_recommend_close::before,html .pg_num_area.pg_num_area_v1 .pg_num::before,html .ranking_list .rl_error .rl_error_desc::before,html .rankingnews .ra_error .ra_error_desc::before,html .subscribe_guide_close::before,html .tomain_info_close::before,html .tomain.as_addinfo button.to_infobutton_b::before,html .u_sggt_wrap2 .kwd_info.imsc_bf::before { opacity: 0.46;filter: invert(100%);-webkit-filter: invert(100%) }
+	html .changecmt_info .changecmt_info_icon::before { background-position: -160px -238px }
+	html .changecmt_layer,html .media_end_factcheck_info,html .subscribe_guide { border: solid 1px rgba(255, 255, 255, 0.05) }
+	html .changecmt,html .media_end_channel_banner_link { border-color: #535353;background-color: #434344 }
+	html .ends_addition .spi_wrap .spi .sns_share::after,html .media_end_head_autosummary .media_end_head_autosummary_layer_close::before,html .media_end_head_top_channel_add.is_disabled::before,html .media_end_head_tts_setlayer_close::before,html .ofpr_btn_confirm.disabled::before,html .ranking_list .rl_comment::before,html .ranking_list .rl_player::before,html .ranking_list .rl_time::before,html .ranking_list .rl_visit::before,html .simplecmt_link.is_officecomment::after,html .u_atcp_addb,html .u_sggt_wrap2 .kwd_lst .bt_del .imsc { opacity: 0.68;filter: invert(100%);-webkit-filter: invert(100%) }
+	html .ends_btn_head .ends_head_title,html .ends_btn.as_likeit_improve ~ .ends_addition .spi_wrap .spi .sns_share::before { color: #efeff0 }
+	html .ends_btn_head .ends_help_layer { box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16);border-color: rgba(255, 255, 255, 0.03);background: #48484b;-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16) }
+	html .ends_btn_head .ends_help_layer .ends_help_close { width: 8px;position: absolute;line-height: initial;height: 8px;font-size: 1px;color: rgba(1, 0, 0, 0);box-sizing: content-box;-webkit-box-sizing: content-box }
+	html .ends_btn_head .ends_help_layer .ends_help_close::after { width: 1px;transform: rotate(-45deg);top: 50%;position: absolute;margin-top: -5.656px;margin-left: -0.5px;left: 50%;height: 11.312px;display: block;content: '';content: '';background-color: rgba(206, 208, 214, 0.6);-webkit-transform: rotate(-45deg) }
+	html .ends_btn_head .ends_help_layer .ends_help_close::before { width: 1px;transform: rotate(45deg);top: 50%;position: absolute;margin-top: -5.656px;margin-left: -0.5px;left: 50%;height: 11.312px;display: block;content: '';content: '';background-color: rgba(206, 208, 214, 0.6);-webkit-transform: rotate(45deg) }
+	html .ends_btn_head .u_btn_sns_share,html .ends_btn.as_likeit_improve ~ .ends_addition .spi_wrap .spi .sns_share::after,html .media_end_head_share .send_caption { background-position: -56px -287px }
+	html .help_layer,html .ofhe_info_layer,html .media_end_head_channel_layer,html .media_end_head_top_channel_layer,html .n_news_sports .u_likeit_button + .u_likeit_layer,html .ofhd_float_subscribe_layer { box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16);border-color: rgba(255, 255, 255, 0.03);-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16) }
+	html .light_type { display: none !important }
+	html .media_end_categorize_ct,html .n_news .gnb_flat .gf_inner,html .n_news_mnews .gnb_flat .gf_inner,html .tomain_info_layer { border-color: rgba(255, 255, 255, 0.05) }
+	html .media_end_categorize_item { background-color: rgba(91, 134, 253, 0.1) }
+	html .media_end_categorize_link::before { background-position: -148px -315px }
+	html .media_end_channel_banner_add.is_disabled,html .media_journalistcard_item .subscribe.on .subscribe_ico,html .media_journalistcard_recommend .subscribe.on .subscribe_ico,html .media_journalistcard_recommend_channel_add.is_disabled { color: #a5a5a7;border-color: #595959;background: transparent }
+	html .media_end_factcheck_ct { border-top-color: var(--color_line_lv2) }
+	html .media_end_factcheck_inner { border-color: #39393b;background: var(--color_layer_background_lv3) }
+	html .media_end_factcheck_owner_photo { background-position: -17px -334px }
+	html .media_end_head_autosummary .media_end_head_autosummary_button::before { background-position: -301px -190px }
+	html .media_end_head_autosummary .media_end_head_autosummary_layer_head_tit::before { background-position: -301px -134px }
+	html .media_end_head_autosummary .media_end_head_autosummary_layer_head::after { border-color: var(--color_line_lv2) }
+	html .media_end_head_channel_layer_link::after,html .media_end_head_journalist .media_end_head_journalist_box::after,html .media_end_head_journalist .media_end_head_journalist_layer_name::after,html .media_end_head_top_channel_layer_link::after,html .ofhd_float_subscribe_layer_link::after { background-position: -356px -241px }
+	html .media_end_head_cmtcount_button::before { background-position: -339px -124px }
+	html .media_end_head_fontsize_is_on .media_end_head_fontsize_set::after,html .media_end_head_fontsize_setlayer,html .media_end_head_journalist .media_end_head_journalist_layer,html .media_end_head_journalist .media_end_head_journalist_layer::before,html .media_end_head_lang_is_on .media_end_head_lang_set::after,html .media_end_head_lang_setlayer,html .media_end_head_tts_run.is_active::after,html .media_end_head_tts_setlayer,html .n_news_sports .u_likeit_button + .u_likeit_layer::before { border-color: rgba(255, 255, 255, 0.03) }
+	html .media_end_head_fontsize_option1,html .media_end_head_fontsize_option2,html .media_end_head_fontsize_option3,html .media_end_head_fontsize_option4,html .media_end_head_fontsize_option5 { border: solid 1px #58585a;background-color: #545458 }
+	html .media_end_head_fontsize_option1.media_end_head_fontsize_option_is_on,html .media_end_head_fontsize_option2.media_end_head_fontsize_option_is_on,html .media_end_head_fontsize_option3.media_end_head_fontsize_option_is_on,html .media_end_head_fontsize_option4.media_end_head_fontsize_option_is_on,html .media_end_head_fontsize_option5.media_end_head_fontsize_option_is_on { border: solid 1px rgba(0, 0, 0, 0.03);background-color: #4978f4 }
+	html .media_end_head_fontsize_set::before { background-position: -301px -246px }
+	html .media_end_head_fontsize_setlayer_select::before { background-color: #303038 }
+	html .media_end_head_info_origin_inner { border-color: #595959 }
+	html .media_end_head_journalist .media_end_head_journalist_layer_thumb { background: #262628 }
+	html .media_end_head_journalist .media_end_head_journalist_layer_thumb::before { background-position: -120px -198px }
+	html .media_end_head_journalist .media_end_head_journalist_name + .media_end_head_journalist_name::before { background-color: #595959 }
+	html .media_end_head_lang_set::before { background-position: 0px -287px }
+	html .media_end_head_lang_setlayer_select .media_end_head_lang_option_text { color: var(--color_sub_info);border: solid 1px #58585a;background-color: #545458 }
+	html .media_end_head_print .media_end_print_link::before { background-position: -78px -315px }
+	html .media_end_head_tts_run::before { background-position: -112px -287px }
+	html .media_end_head_tts_setlayer .media_end_head_tts_option::before { background-position: -61px -334px }
+	html .media_end_issuetimeline_go .meig_link::after,html .media_end_linked_more_link::after { background-position: -365px -168px }
+	html .media_flick .mf_thumb { background: url("https://ssl.pstatic.net/static.news/image/news/m/noimage/dark/noimage_288x176_dark.png");background-size: 144px }
+	html .media_journalistcard_recommend_img_wrap { background-position: 0px 0px }
+	html .media_journalistcard_recommend_img_wrap::after { border: 1px solid rgba(255, 255, 255, 0.06);border-radius: 44px }
+	html .modal .m_notification .mn_noti.is_off { background-position: -217px -91px }
+	html .modal .m_notification .mn_ok { background-position: -76px 0px }
+	html .n_news .gnb_flat .gf_naverlogo,html .n_news_mnews .gnb_flat .gf_naverlogo { background-position: -339px -50px }
+	html .n_news_entertain .media_end_head_fontsize_option1.media_end_head_fontsize_option_is_on,html .n_news_entertain .media_end_head_fontsize_option2.media_end_head_fontsize_option_is_on,html .n_news_entertain .media_end_head_fontsize_option3.media_end_head_fontsize_option_is_on,html .n_news_entertain .media_end_head_fontsize_option4.media_end_head_fontsize_option_is_on,html .n_news_entertain .media_end_head_fontsize_option5.media_end_head_fontsize_option_is_on { background-color: #e2458f }
+	html .n_news_entertain .Nicon_family::before { background-color: #464649 }
+	html .n_news_error { background-color: #1a1a1c }
+	html .n_news_sports .media_end_head_fontsize_option1.media_end_head_fontsize_option_is_on,html .n_news_sports .media_end_head_fontsize_option2.media_end_head_fontsize_option_is_on,html .n_news_sports .media_end_head_fontsize_option3.media_end_head_fontsize_option_is_on,html .n_news_sports .media_end_head_fontsize_option4.media_end_head_fontsize_option_is_on,html .n_news_sports .media_end_head_fontsize_option5.media_end_head_fontsize_option_is_on { background-color: #3680f7 }
+	html .n_news,html .n_news_entertain,html .n_news_sports,html .n_news_mnews,html .noimage { background: #303033 }
+	html .newsct_article a[style * ='color' i],html .newsct_article b[style * ='color' i],html .newsct_article blockquote[style * ='color' i],html .newsct_article dd[style * ='color' i],html .newsct_article div[style * ='color' i],html .newsct_article dl[style * ='color' i],html .newsct_article dt[style * ='color' i],html .newsct_article figcaption[style * ='color' i],html .newsct_article figure[style * ='color' i],html .newsct_article font[style * ='color' i],html .newsct_article h1[style * ='color' i],html .newsct_article h2[style * ='color' i],html .newsct_article h3[style * ='color' i],html .newsct_article h4[style * ='color' i],html .newsct_article h5[style * ='color' i],html .newsct_article h6[style * ='color' i],html .newsct_article li[style * ='color' i],html .newsct_article ol[style * ='color' i],html .newsct_article p[style * ='color' i],html .newsct_article span[style * ='color' i],html .newsct_article strong[style * ='color' i],html .newsct_article table[style * ='color' i],html .newsct_article td[style * ='color' i],html .newsct_article th[style * ='color' i],html .newsct_article tr[style * ='color' i],html .newsct_article ul[style * ='color' i] { color: var(--color_body) !important }
+	html .newsct_body .ad_box { background: none }
+	html .newsct_journalist_button { border: solid 1px rgba(255, 255, 255, 0.03);background-color: #48484b }
+	html .newsct_journalist_button::before { background-position: 0px -198px }
+	html .ofcl_banner,html .ofpr_btn_wrap button + button { border-color: #464649 }
+	html .offc_end_heading_navi .next_btn span { background-position: -329px -78px }
+	html .offc_end_heading_navi .prev_btn span { background-position: -329px -22px }
+	html .office_headline .ofhe_thumb { background: url("https://ssl.pstatic.net/static.news/image/news/m/noimage/dark/noimage_336x206_dark.png");background-size: 100% }
+	html .ofpr_item::before,html .ofpr_scroller .ofpr_item::before,html .rankingnews .ra_tab_list { background-color: #303033 }
+	html .pac_cmt,html .tomain_info_phrase { background-color: #2b2b2e }
+	html .r_pg_top { background-position: -48px -131px }
+	html .ranking_list .rl_author_name { color: #a5a5a7 }
+	html .ranking_list .rl_border { background: url("https://ssl.pstatic.net/static.news/image/news/m/noimage/dark/noimage_190x130_dark.png");background-size: 95px }
+	html .ranking_list .rl_content_tag.paid { color: #f0f0f2;background: #4b4b4e }
+	html .rankingnews .noimage::after { opacity: 0.7;filter: invert(100%);-webkit-filter: invert(100%) }
+	html .related_book .rb_btn_next.dimmed::after,html .related_book .rb_btn_prev.dimmed::after { opacity: 0.35;filter: invert(0);-webkit-filter: invert(0) }
+	html .subscribe_cta_layer .cta_btn:not(.as_subscribe) { background: #464649 }
+	html .subscribe_cta_layer .cta_btn:not(.as_subscribe) .cta_arrow { background: rgba(255, 255, 255, 0.1) }
+	html .tomain .to_infobutton::before { background: var(--color_line_lv1) }
+	html .u_atcp_fc,html .u_atcp_lsc,html .u_sggt_wrap2 .sggt_footer { background-color: transparent }
+	html .u_ft { color: #303033 }
+	html .u_sggt_wrap2 .sggt_header .tit .ico_help { background-position: -208px -238px }
+	html a.media_end_head_fontsize_option_text { color: var(--color_title) }
+	html body { background: #1a1a1c }
 	
 	@media not all {
 		.dark_type {
@@ -89948,6 +89569,10 @@
 	
 	.media_end_head_origin_link {
 		border: 1px solid #404040;
+	}
+	
+	.pg_num_area.pg_num_area_v2 .pg_num {
+		color: #fff;
 	}
 }
 

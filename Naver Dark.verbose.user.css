@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.42
+@version		1.63.43
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -103798,9 +103798,6 @@
 	}
 	
 	@media (min-width: 1025px) {
-		.is_warning .warning .content_area.map {
-			border-bottom: 1px solid #404040;
-		}
 		
 		.is_warning .warning .tit {
 			color: #fff;
@@ -103812,17 +103809,7 @@
 		background-color: #242424;
 	}
 	
-	.is_warning .disaster_letter {
-		background-color: #242424;
-		border-bottom: 1px solid #404040;
-	}
-	
 	@media (min-width: 1025px) {
-		.is_warning .disaster_letter {
-			border: none;
-			border-bottom: 1px solid #404040;
-		}
-		
 		.is_warning .disaster_letter .letter_title {
 			color: #fff;
 		}
@@ -103954,6 +103941,105 @@
 	
 	#footer .link_group .link:before {
 		background-color: #404040;
+	}
+	
+	.is_warning .section_center .tab_list .tab_link.is_on {
+		color: #fff;
+	}
+	
+	.is_warning .section_center .tab_list .tab_link {
+		color: #cacaca;
+	}
+	
+	@media (min-width: 1025px) {
+		
+		.is_warning .section_center .content_area_wrap {
+			border-top: none;
+			border-bottom: 1px solid #404040;
+		}
+		
+		.is_warning .section_center .tab_list li+li .tab_link:before {
+			background-color: #404040;
+		}
+	}
+	
+	@media (min-width: 1025px) {
+		.is_warning .section_center .disaster_letter .letter_title {
+			color: #fff;
+		}
+		
+		.is_warning .section_center .disaster_letter {
+			border: none !important;
+		}
+	}
+	
+	.is_warning .section_center .disaster_letter {
+		border-top: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	.is_warning .section_center .disaster_letter .letter_list {
+		background-color: #242424;
+	}
+	
+	.is_warning .section_center .disaster_letter .location {
+		color: #fff;
+	}
+	
+	.is_warning .section_center .disaster_letter .summary {
+		color: #cacaca;
+	}
+	
+	@media (min-width: 1025px) {
+		.is_warning .section_center .disaster_letter .letter:first-of-type {
+			border-bottom: 1px solid #404040;
+		}
+	}
+	
+	.is_warning .section_center .disaster_letter .btn_action {
+		border: 1px solid #3a3a3a;
+		background-color: #404040;
+	}
+	
+	.is_warning .section_center .weather_report {
+		border-top: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	@media (min-width: 1025px) {
+		.is_warning .section_center .weather_report {
+			border: none !important;
+		}
+	}
+	
+	.is_warning .section_center .weather_report .title {
+		color: #fff;
+	}
+	
+	@media (min-width: 1025px) {
+		.is_warning .section_center .weather_report .title {
+			color: #fff;
+		}
+	}
+	
+	.is_warning .section_center .weather_report .report {
+		background-color: #242424;
+	}
+	
+	.is_warning .section_center .weather_report .report_title {
+		color: #fff;
+	}
+	
+	.is_warning .section_center .weather_report .summary {
+		color: #cacaca;
+	}
+	
+	.is_warning .section_center .offer_area .btn_alert {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.is_warning .section_center .ly_help, .is_warning .section_center .offer_area .ly_summary {
+		color: #cacaca;
 	}
 	
 	/* Weather Today */

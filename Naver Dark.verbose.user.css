@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.43
+@version		1.63.44
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -20287,6 +20287,10 @@
 		border: 1px solid #404040;
 	}
 	
+	.main_wrap #header {
+		height: 98px;
+	}
+	
 	#header {
 		background: #505050;
 	}
@@ -20302,6 +20306,7 @@
 	
 	.gnb .go_adm {
 		background: none;
+		/*position: absolute;*/
 	}
 	
 	.gnb .go_adm:after {
@@ -23216,6 +23221,19 @@
 	}
 	
 	.section_cont .group_txt p {
+		color: #cacaca;
+	}
+	
+	#layer-go {
+		border: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	#layer-go .inbox-b ul li.myblog {
+		border-top: 1px solid #404040;
+	}
+	
+	#layer-go .inbox-b a {
 		color: #cacaca;
 	}
 }

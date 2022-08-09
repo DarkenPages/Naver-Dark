@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.46
+@version		1.63.47
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -105156,5 +105156,34 @@
 	
 	.is_rain .section_center .region_info .standard {
 		color: #cacaca;
+	}
+	
+	@media (min-width: 1025px) {
+		.is_warning .section_center .disaster_letter .letter {
+			border-bottom: 1px solid #404040;
+		}
+		
+		.is_warning .section_center .disaster_letter.more .letter_list_wrap:after {
+			border-bottom: 1px solid #242424;
+			background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(36,36,36,0)),to(#242424));
+			background-image: -webkit-linear-gradient(top,rgba(36,36,36,0),#242424);
+			background-image: linear-gradient(to bottom,rgba(36,36,36,0),#242424);
+		}
+		
+		.is_warning .section_center .disaster_letter.more .btn_more_wrap {
+			border-top: 1px solid #404040;
+		}
+	}
+	
+	.is_warning .section_center .disaster_letter .btn_more {
+		color: #cacaca;
+	}
+	
+	.is_warning .section_center .disaster_letter .btn_more_wrap {
+		background-color: #242424;
+	}
+	
+	.is_warning .section_center .disaster_letter .btn_more:after {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 }

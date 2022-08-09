@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.45
+@version		1.63.46
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -104379,10 +104379,6 @@
 		color: #4f4f4f;
 	}
 	
-	.is_today .card_figure .title {
-		border-bottom: 1px solid #404040;
-	}
-	
 	.is_today .card_figure .tit {
 		color: #fff;
 	}
@@ -105090,6 +105086,75 @@
 	}
 	
 	.is_warning .weather_report .report_title, .is_warning .weather_report .summary {
+		color: #cacaca;
+	}
+	
+	/* Weather Raining */
+	
+	.is_rain .section_center .btn_act {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.is_warning .section_center .standard span {
+		color: #cacaca;
+	}
+	
+	.is_warning .section_center .offer_area .standard:before {
+		background-color: #404040;
+	}
+	
+	.is_rain .section_center .map_panel {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.is_warning .section_center .btn_wrap {
+		background-color: #2f2f2f;
+	}
+	
+	.is_warning .section_center .btn_zoom_out, .is_warning .section_center .btn_zoom_in {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.is_rain .section_center .color_guide {
+		border: 1px solid #404040;
+		background-color: #404040;
+	}
+	
+	.is_rain .section_center .color_guide li:after, .is_rain .section_center .content_inner .copyright {
+		color: #fff;
+	}
+	
+	.is_warning .section_center .btn_tab_wrap {
+		border-top: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.is_warning .section_center .btn_tab_wrap.on {
+		background-color: #3a3a3a;
+	}
+	
+	.is_warning .section_center .btn_tab {
+		color: #cacaca;
+	}
+	
+	.is_rain .section_center .btn_current {
+		background: #2f2f2f;
+	}
+	
+	.is_rain .section_center .btn_current:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.is_rain .section_center .region_info {
+		background-color: #2f2f2f;
+	}
+	
+	.is_rain .section_center .region_info .title, .is_rain .section_center .region_info .summary_list .summary_text {
+		color: #fff;
+	}
+	
+	.is_rain .section_center .region_info .standard {
 		color: #cacaca;
 	}
 }

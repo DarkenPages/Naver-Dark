@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.47
+@version		1.63.48
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -8256,6 +8256,7 @@
     .card_list .card_item.level4_2,.card_list .card_item.level5_2 { border-color: rgb(44, 51, 43);background-color: rgb(38, 44, 36) }
     .card_list .card_item.level4_3,.card_list .card_item.level5_3 { border-color: rgb(48, 46, 33);background-color: rgb(40, 39, 31) }
     .card_list .card_item.level4_4,.card_list .card_item.level5_5 { border-color: rgb(55, 49, 49);background-color: rgb(43, 40, 39) }
+    .card_list .card_item.type_foreign { border-color: rgb(46, 48, 53);background-color: rgb(39, 40, 43) }
     .card_list .level4_1,.card_list .level5_1,.card_list .level6_1 { color: #32a1ff !important }
     .card_list .level4_2,.card_list .level5_2,.card_list .level6_2 { color: #00c73c !important }
     .card_list .level4_3,.card_list .level5_3,.card_list .level6_4 { color: #fda60e !important }

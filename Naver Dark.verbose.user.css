@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.48
+@version		1.63.49
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -84941,6 +84941,151 @@
 	
 	.cs_weather_warning .info_box .newsbreak_info .item_area .item_list .type_detail [class*="type_"] .item_info:after {
 		background-image: linear-gradient(to bottom, rgba(47, 47, 47, 0), #2f2f2f);
+	}
+	
+	.cs_free_insurance .top_wrap {
+		border: 1px solid #404040;
+		border-width: 0 1px;
+		border-radius: 6px 6px 0 0;
+		border-top-color: #4f4f4f;
+		background: #2f2f2f;
+	}
+	
+	.cs_free_insurance .top_wrap::before {
+		border-top: 1px solid #4f4f4f;
+		border-radius: 6px 6px 0 0;
+	}
+	
+	.cs_free_insurance .top_info .title, .cs_free_insurance .top_info .lego_scroll_middle .area_scroll_middle .area_text_box {
+		color: #cacaca;
+	}
+	
+	.cs_free_insurance .top_info .lego_scroll_middle .area_scroll_middle li[aria-selected="true"] .area_text_box {
+		color: #fff;
+	}
+	
+	.cs_free_insurance .content_wrap {
+		border: 1px solid #404040;
+		border-top: 0;
+		border-radius: 0 0 6px 6px;
+		background-image: none;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_free_insurance .content_box {
+		background-color: #242424;
+	}
+	
+	.cs_free_insurance .cm_tap_area .select_tab {
+		background: #3a3a3a;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_free_insurance .cm_tap_area .tab_list .tab .menu {
+		color: #cacaca;
+	}
+	
+	.cs_free_insurance .cm_tap_area .btn_refresh {
+		border-left: 1px solid #4f4f4f;
+		background: #3a3a3a;
+	}
+	
+	.cs_free_insurance .cm_tap_area .btn_refresh::before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_free_insurance .insurance_desc .desc {
+		color: #cacaca;
+	}
+	
+	.cs_free_insurance .cm_ico_alert .area_inner {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_free_insurance .insurance_desc {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_free_insurance .insurance_list .list_info {
+		border-bottom: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.cs_free_insurance .insurance_list .title {
+		color: #fff;
+	}
+	
+	.cs_free_insurance .insurance_list .detail_info dd {
+		color: #cacaca;
+	}
+	
+	.cs_free_insurance .insurance_list .detail_info dt {
+		color: #999;
+	}
+	
+	.cs_free_insurance .insurance_list .desc {
+		color: #cacaca;
+	}
+	
+	.cs_free_insurance .cm_paging_area {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_free_insurance .offer_box {
+		border-top: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.cs_free_insurance .cm_paging_area .npgs_now::after {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_free_insurance .cm_paging_area .npgs {
+		color: #fff;
+	}
+	
+	.cs_free_insurance .cm_paging_area .pg_prev::before, .cs_free_insurance .cm_paging_area .pg_next::before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_free_insurance .more_wrap .more_multi {
+		border-top: 1px solid #404040;
+		background-color: #3a3a3a;
+		color: #cacaca;
+	}
+	
+	.cs_free_insurance .more_wrap .more_multi .ico_arr {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_free_insurance .cm_filter_area .filter_option, .cs_free_insurance .cm_filter_area .filter_wrap {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_free_insurance .cm_filter_area .list_item .item_link {
+		color: #fff;
+	}
+	
+	.cs_free_insurance .cm_filter_area .filter_group + .filter_group {
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_free_insurance .cm_filter_area .list_item .item[aria-selected="true"] .item_link {
+		background: #3a3a3a;
+	}
+	
+	.cs_free_insurance .cm_tap_area .tab_list .tab[aria-expanded="true"] .menu {
+		color: #fff;
+	}
+	
+	.cs_free_insurance .cm_tap_area .tab_list .tab[aria-expanded="true"] .ico_check_wrap .this_design_left, .cs_free_insurance .cm_tap_area .tab_list .tab[aria-expanded="true"] .ico_check_wrap .this_design_right {
+		background-color: #fff;
+	}
+	
+	.cs_free_insurance .cm_ly_api_info {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+		color: #cacaca;
 	}
 }
 

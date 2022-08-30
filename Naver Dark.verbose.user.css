@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.51
+@version		1.63.52
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -105433,6 +105433,115 @@
 	}
 	
 	.is_warning .section_center .disaster_letter .btn_more:after {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+}
+
+@-moz-document url-prefix("https://form.office.naver.com")
+{
+	body {
+		background: #242424;
+	}
+	
+	#officeGNB.form {
+		background: url(/form/images/layout.png);
+		background-repeat: repeat-x;
+		background-position: 0 0;
+	}
+	
+	.defaultTheme .loginPh #userName, .inquiryTheme .loginPh #userName {
+		color: #fff;
+	}
+	
+	.form #login, .form #logout {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	#message_area {
+		background-color: #2f2f2f;
+	}
+	
+	#formContainerHolder {
+		background-color: #242424;
+	}
+	
+	#formBody {
+		border: 2px solid #404040;
+	}
+	
+	.formItem.formInfo .description, .formItem.formInfo .itemOptionPh .description, #form_response #formInfo .description {
+		color: #cacaca !important;
+	}
+	
+	.formSubInfo {
+		color: #cacaca;
+	}
+	
+	:not(.pageBreak) > .formItem:not(.formInfo):not(.pageBreak):not(.sectionHeader):not(.quiz-score-wrap):not(.pageBreak) > div:not(.previewItemLayer) .title span:not(.quiz-score-wrap), .formItem .displayModeOption .optionLabel, .formItem .etcOption span, .multipleAnswers_title {
+		color: #fff !important;
+	}
+	
+	.formItem:not(.formInfo):not(.pageBreak):not(.sectionHeader) > div:not(.previewItemLayer) .description {
+		color: #cacaca !important;
+	}
+	
+	.formItem.sectionHeader .description {
+		color: #cacaca !important;
+	}
+	
+	.formItem.sectionHeader .title span:not(.quiz-score-wrap) {
+		color: #fff !important;
+	}
+	
+	.ui_inputbox {
+		border: 1px solid #404040;
+		color: #cacaca;
+		background: #242424;
+	}
+	
+	.ui_inputbox {
+		border: 1px solid #404040;
+	}
+	
+	#copyright {
+		background-color: #2f2f2f;
+	}
+	
+	.ui_dialog {
+		border: 1px solid #404040;
+	}
+	
+	#alert_dialog .dialog_body.light_bg, .dialog_body {
+		background: #2f2f2f;
+	}
+	
+	.dialog_footer {
+		background: #2f2f2f;
+	}
+	
+	#alert_dialog .contents {
+		color: #cacaca;
+	}
+	
+	a.tab_order {
+		color: #fff;
+	}
+	
+	.ui_dialog .confirm_button, .ui_dialog .cancel_button {
+		background: #404040;
+		border-radius: 5px;
+	}
+	
+	.noResponse {
+		background-color: rgb(57, 44, 39);
+		border: 1px solid rgb(123, 74, 57);
+	}
+	
+	.formInfo .title span, .defaultTheme .finishMessage {
+		color: #fff;
+	}
+	
+	.promotionPh .promotionLayout {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
 }

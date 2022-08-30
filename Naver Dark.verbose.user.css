@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.52
+@version		1.63.53
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -15580,15 +15580,7 @@
 		color: #cacaca;
 	}
 	
-	.ModalLayer .layer_commerce_content .cate_box .category_list {
-		border: 1px solid #404040;
-	}
-	
 	.ModalLayer .layer_header .sub_title {
-		color: #cacaca;
-	}
-	
-	.ModalLayer .layer_commerce_content .cate_box li .btn {
 		color: #cacaca;
 	}
 	
@@ -16126,6 +16118,60 @@
 	select:disabled {
 		color: #666;
 		background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiM2NjYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQuNDI3IDkuNDI3IDMuMzk2IDMuMzk2YS4yNTEuMjUxIDAgMCAwIC4zNTQgMGwzLjM5Ni0zLjM5NkEuMjUuMjUgMCAwIDAgMTEuMzk2IDlINC42MDRhLjI1LjI1IDAgMCAwLS4xNzcuNDI3ek00LjQyMyA2LjQ3IDcuODIgMy4wNzJhLjI1LjI1IDAgMCAxIC4zNTQgMEwxMS41NyA2LjQ3YS4yNS4yNSAwIDAgMS0uMTc3LjQyN0g0LjZhLjI1LjI1IDAgMCAxLS4xNzctLjQyN3oiLz48L3N2Zz4=");
+	}
+	
+	.ModalLayer.layer_commerce_guide .commerce_agree {
+		background-color: #242424;
+		color: #cacaca;
+	}
+	
+	.ModalLayer.layer_commerce_guide .commerce_agree .highlight {
+		color: #fff;
+	}
+	
+	.WritingCommerce .form_box .check_area .FormInputCheck.type_radio_button .label, .WritingCommerce .form_box .check_area .FormInputRadio.type_radio_button .label {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.ModalLayer .layer_commerce_content .cate_box .category_list ul {
+		border: 1px solid #404040;
+	}
+	
+	.ModalLayer .layer_commerce_content .cate_box .category_list li .btn {
+		color: #cacaca;
+	}
+	
+	.ModalLayer .layer_commerce_content .cate_box .category_list li:hover {
+		background: #3a3a3a;
+	}
+	
+	.WritingCommerce .form_box .check_area .FormInputCheck.type_radio_button .input_check:checked+.label, .WritingCommerce .form_box .check_area .FormInputRadio.type_radio_button .input_check:checked+.label {
+		color: #242424;
+	}
+	
+	.ModalLayer, .ModalLayer .layer_temporary_content .temp_link, .ModalLayer .layer_temporary_content .temp_link .temp_item_title {
+		color: #fff;
+	}
+	
+	.ModalLayer .layer_wrap {
+		background-color: #242424;
+	}
+	
+	.ModalLayer .layer_body:before {
+		box-shadow: 0 0 10px rgb(0, 0, 0, 0.25);
+	}
+	
+	.ModalLayer .layer_temporary_content .temp_item {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.ModalLayer .layer_temporary_content .temp_notice, .ModalLayer .temp_previous_notice .temp_notice_text, .ModalLayer .temp_previous_notice .temp_previous_link {
+		color: #cacaca;
+	}
+	
+	.ModalLayer.header_border .layer_header {
+		border-bottom: 1px solid #404040;
 	}
 }
 
@@ -47353,26 +47399,6 @@
 	}
 	
 	.WritingSide .setting_area .info_text {
-		color: #cacaca;
-	}
-	
-	.ModalLayer, .ModalLayer .layer_temporary_content .temp_link, .ModalLayer .layer_temporary_content .temp_link .temp_item_title {
-		color: #fff;
-	}
-	
-	.ModalLayer .layer_wrap {
-		background-color: #242424;
-	}
-	
-	.ModalLayer .layer_body:before {
-		box-shadow: 0 0 10px #000;
-	}
-	
-	.ModalLayer .layer_temporary_content .temp_item {
-		border-bottom: 1px solid #404040;
-	}
-	
-	.ModalLayer .layer_temporary_content .temp_notice, .ModalLayer .temp_previous_notice .temp_notice_text, .ModalLayer .temp_previous_notice .temp_previous_link {
 		color: #cacaca;
 	}
 	

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.53
+@version		1.63.54
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -90018,6 +90018,10 @@
 	
 	.pg_num_area.pg_num_area_v2 .pg_num {
 		color: #fff;
+	}
+	
+	.newsct_article *[style*='border-left: 2px solid #141414'] {
+		border-left: 2px solid #cacaca !important;
 	}
 }
 

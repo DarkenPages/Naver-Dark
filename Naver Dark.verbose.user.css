@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.57
+@version		1.63.58
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -37137,7 +37137,7 @@
 	}
 	
 	.comp_journal_subscribe .cjs_news_flash_wrap {
-		background-color: #242424;
+		background-color: transparent;
 		border-top: 1px solid #404040;
 	}
 	

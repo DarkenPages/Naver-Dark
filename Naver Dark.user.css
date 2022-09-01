@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.57
+@version		1.63.58
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -5333,7 +5333,7 @@
     .comp_journal_subscribe .cjs_journal_link::after,.comp_journal_subscribe .cjs_more_link .ico_more { border-color: #cacaca }
     .comp_journal_subscribe .cjs_live_banner .cjs_live_a { color: #fff;background-color: #3a3a3a }
     .comp_journal_subscribe .cjs_logo_wrap img { filter: invert(77%) hue-rotate(-180deg) }
-    .comp_journal_subscribe .cjs_news_flash_wrap { border-top: 1px solid #404040;background-color: #242424 }
+    .comp_journal_subscribe .cjs_news_flash_wrap { border-top: 1px solid #404040;background-color: transparent }
     .comp_journal_subscribe .cjs_nf_btn_open::after { border-top: 1px solid #cacaca;border-left: 1px solid #cacaca }
     .comp_journal_subscribe .cjs_nf_btn_open::before,.op_container .aside,.rankingnews_box:before,.share_page_lst li a,#footer ul li,table.container .snb + td.content,table.container td.aside { border-left: 1px solid #404040 }
     .comp_journal_subscribe .cjs_tab,.type13 { color: #cacaca;border-bottom: 1px solid #404040 }

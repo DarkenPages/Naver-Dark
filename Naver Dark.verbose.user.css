@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.55
+@version		1.63.56
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -53664,25 +53664,6 @@
 		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
-	#content .info {
-		background: none;
-		position: relative;
-		color: #cacaca;
-	}
-	
-	#content .info:before {
-		background: url(https://ssl.pstatic.net/dicimg/dic-home-service/style/202101111136/img/sp_main.png) no-repeat;
-		background-position: -180px -50px;
-		content: '';
-		position: absolute;
-		left: 0;
-		top: 0;
-		width: 100%;
-		height: 100%;
-		pointer-events: none;
-		filter: invert(81.5%) hue-rotate(-180deg);
-	}
-	
 	.btn_handwriting_area .btn_handwriting {
 		color: #cacaca;
 	}
@@ -56913,7 +56894,64 @@
 
 @-moz-document url-prefix("https://open.dict.naver.com")
 {
-	.userentry .usen_btnarea, .header_inner, .usen_btnarea .selec_lang {
+	.usen_btnarea .selec_lang {
+		appearance: none;
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		background: #242424;
+		color: #cacaca;
+		border: 1px solid #404040;
+		background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiNjYWNhY2EiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQuNDI3IDkuNDI3IDMuMzk2IDMuMzk2YS4yNTEuMjUxIDAgMCAwIC4zNTQgMGwzLjM5Ni0zLjM5NkEuMjUuMjUgMCAwIDAgMTEuMzk2IDlINC42MDRhLjI1LjI1IDAgMCAwLS4xNzcuNDI3ek00LjQyMyA2LjQ3IDcuODIgMy4wNzJhLjI1LjI1IDAgMCAxIC4zNTQgMEwxMS41NyA2LjQ3YS4yNS4yNSAwIDAgMS0uMTc3LjQyN0g0LjZhLjI1LjI1IDAgMCAxLS4xNzctLjQyN3oiLz48L3N2Zz4=");
+		background-position: right 2px center;
+		background-repeat: no-repeat;
+		background-size: 16px;
+		padding: 1px 20px 1px 5px;
+		border-radius: 5px;
+		filter: none;
+		height: 25px;
+		margin-top: 10px;
+	}
+	
+	.userentry .usen_btnarea .selec_lang_wrap {
+		height: 49px;
+		border-right: none;
+	}
+	
+	.usen_btnarea .selec_lang:focus-visible {
+		outline: none;
+	}
+	
+	.usen_btnarea .selec_lang:disabled {
+		color: #666;
+		background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiM2NjYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQuNDI3IDkuNDI3IDMuMzk2IDMuMzk2YS4yNTEuMjUxIDAgMCAwIC4zNTQgMGwzLjM5Ni0zLjM5NkEuMjUuMjUgMCAwIDAgMTEuMzk2IDlINC42MDRhLjI1LjI1IDAgMCAwLS4xNzcuNDI3ek00LjQyMyA2LjQ3IDcuODIgMy4wNzJhLjI1LjI1IDAgMCAxIC4zNTQgMEwxMS41NyA2LjQ3YS4yNS4yNSAwIDAgMS0uMTc3LjQyN0g0LjZhLjI1LjI1IDAgMCAxLS4xNzctLjQyN3oiLz48L3N2Zz4=");
+	}
+	
+	#footer .set_lang select {
+		appearance: none;
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		background: #242424;
+		color: #cacaca;
+		border: 1px solid #404040;
+		background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiNjYWNhY2EiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQuNDI3IDkuNDI3IDMuMzk2IDMuMzk2YS4yNTEuMjUxIDAgMCAwIC4zNTQgMGwzLjM5Ni0zLjM5NkEuMjUuMjUgMCAwIDAgMTEuMzk2IDlINC42MDRhLjI1LjI1IDAgMCAwLS4xNzcuNDI3ek00LjQyMyA2LjQ3IDcuODIgMy4wNzJhLjI1LjI1IDAgMCAxIC4zNTQgMEwxMS41NyA2LjQ3YS4yNS4yNSAwIDAgMS0uMTc3LjQyN0g0LjZhLjI1LjI1IDAgMCAxLS4xNzctLjQyN3oiLz48L3N2Zz4=");
+		background-position: right 2px center;
+		background-repeat: no-repeat;
+		background-size: 16px;
+		padding: 1px 20px 1px 5px;
+		border-radius: 5px;
+		filter: none;
+	}
+	
+	#footer .set_lang select:focus-visible {
+		outline: none;
+	}
+	
+	#footer .set_lang select:disabled {
+		color: #666;
+		background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiM2NjYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQuNDI3IDkuNDI3IDMuMzk2IDMuMzk2YS4yNTEuMjUxIDAgMCAwIC4zNTQgMGwzLjM5Ni0zLjM5NkEuMjUuMjUgMCAwIDAgMTEuMzk2IDlINC42MDRhLjI1LjI1IDAgMCAwLS4xNzcuNDI3ek00LjQyMyA2LjQ3IDcuODIgMy4wNzJhLjI1LjI1IDAgMCAxIC4zNTQgMEwxMS41NyA2LjQ3YS4yNS4yNSAwIDAgMS0uMTc3LjQyN0g0LjZhLjI1LjI1IDAgMCAxLS4xNzctLjQyN3oiLz48L3N2Zz4=");
+	}
+	
+	.userentry .usen_btnarea, .header_inner {
 		background-color: #019341;
 	}
 	
@@ -57359,6 +57397,18 @@
 	
 	#footer .set_lang select {
 		filter: none;
+	}
+	
+	.Nlnb:after {
+		background: #2f2f2f;
+	}
+	
+	.userentry .notice .cont, .userentry .notice .title {
+		color: #fff;
+	}
+	
+	#footer .link_inner:before {
+		border-left: 1px solid #404040;
 	}
 }
 
@@ -58101,9 +58151,17 @@
 		color: #7474e3 !important;
 	}
 	
-	.lst_krdic a, .lst_krdic a:hover, .search_result dl dd a {
-		border-bottom: 1px solid #7474e3 !important;
-		color: #7474e3 !important;
+	.lst_krdic a, .lst_krdic a:hover {
+		border-bottom: 1px solid #7474e3;
+		color: #7474e3;
+	}
+	
+	.lst_krdic p a:hover {
+		border-bottom: 0px solid #000;
+	}
+	
+	.kr_dic_section.dic_kr_entry .lst_krdic a {
+		border-bottom: 0;
 	}
 	
 	.word_class2, .srch_wrap #content .lst_krdic a.direct, .srch_wrap #content .lst_krdic a.syno, .search_result p.more a, .dic_jp_entry dt .word_class2, .search_result .dic_search_result dd p {
@@ -58120,6 +58178,96 @@
 	
 	.aside h3 {
 		border-bottom: 1px solid #404040;
+	}
+	
+	.en_dic_section.search_result.dic_en_exam .term_result dt {
+		color: #fff;
+	}
+	
+	.term_result dt span.source {
+		color: #cacaca;
+	}
+	
+	.jp_dic_section.search_result.dic_jp_entry dl dt {
+		color: #cacaca;
+	}
+	
+	.search_result .term_result dd {
+		color: #cacaca;
+	}
+	
+	.word_class {
+		color: #fff !important;
+	}
+	
+	.lst_krdic .ex {
+		color: #fff;
+	}
+	
+	/* inverted */
+	
+	.word_popup li a {
+		color: #000 !important;
+	}
+	
+	.word_popup li {
+		background: none;
+		position: relative;
+	}
+	
+	.word_popup li:before {
+		background: url(https://ssl.pstatic.net/dicimg/dic-home-service/style/202204281811/img/sp_wp.png) no-repeat 0px -34px;
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.fnt_e25 {
+		color: #fff;
+	}
+	
+	.ask .que_con, .que_con {
+		background: #242424;
+		border: 1px solid #4f4f4f;
+	}
+	
+	.ask .arr_top {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.jp_dic_section.search_result.dic_jp_mean dl dt {
+		color: #fff;
+	}
+	
+	.search_result dl dt img.entry_grade {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	#footer .policy dd {
+		background: none;
+		position: relative;
+		color: #cacaca;
+	}
+	
+	#footer .policy dd:before {
+		position: absolute;
+		content: '';
+		background: url(https://ssl.pstatic.net/dicimg/dic-home-service/style/202204281811/img/bu_bar_n.gif) no-repeat 4px 50%;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	#footer .warning {
+		color: #cacaca;
 	}
 }
 

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.67
+@version		1.63.68
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -106424,5 +106424,9 @@
 	
 	.UITownTalkMyProfileSetting .profile_nickname_setting {
 		border-bottom: 1px solid #404040;
+	}
+	
+	.content .se-viewer .se-module-oglink:before {
+		border: 1px solid #404040;
 	}
 }

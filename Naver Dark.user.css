@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.67
+@version		1.63.68
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -2109,7 +2109,7 @@
     .CommonComment .comment_textarea_wrap,.CommonComment .talk_comment_wrap,.local_search .local_search_list,.SectionNeighborhood,.SectionNeighborhood .loading_icon,.SectionNeighborhood .neighborhood_menu,.SectionNeighborhood .NeighborhoodList,.SectionNeighborhood .NeighborhoodList div.commerce_list .commerce_item_area { background-color: #242424 }
     .CommonComment .comment_textarea,.CommonComment .talk_comment_list .comment_list .LayerPopup li,.HeaderGnbRight .HeaderGnbRight__talk .talk__layer_more,.LayerPopup,.SectionNeighborhood .NeighborhoodList .theme_list { background-color: #2f2f2f }
     .CommonComment .comment_textarea.type__write .textarea_header .text_num em,.CommonComment .LayerPopup .layer_content .cleanbot_setting .tit,.CommonComment .sort_area .btn_sort.on,.Gnb .gnb_menu .gnb_link,.LayerPopup .paymode_area li label,.LayerPopup .radio_select_area li label,.local_search .local_search_list .local__list .option,.SectionNeighborhood .neighborhood_menu .local_name .btn_local,.SectionNeighborhood .NeighborhoodList .theme_list .tab,.SectionNeighborhood .NeighborhoodList div.cafe_list .cafe_name .title,.SectionNeighborhood .NeighborhoodList div.hot_list .article_box .title,.UITownTalkMyProfile .profile_nickname,.UITownTalkMyProfileSetting .profile_nickname { color: #fff }
-    .CommonComment .LayerPopup .layer_content .cleanbot_setting { border: 1px solid #404040 }
+    .CommonComment .LayerPopup .layer_content .cleanbot_setting,.content .se-viewer .se-module-oglink:before { border: 1px solid #404040 }
     .CommonComment .LayerPopup.cleanbot_setting.on .layer_header .title:before,.LayerPopup .layer_header .btn_close { filter: invert(81.5%) hue-rotate(-180deg) }
     .CommonComment .sort_area .btn_sort,.HeaderIcon,.local_search .local_search_list .tit,.SectionNeighborhood .NeighborhoodList div.cafe_list .cafe_info,.SectionNeighborhood .NeighborhoodList div.cafe_list .cafe_summary,.SectionNeighborhood .NeighborhoodList div.cafe_list .local_cafe_message .more,.SectionNeighborhood .NeighborhoodList div.cafe_list .local_cafe_message .txt,.TownTalkFeedItem .article_link_area .summary,.TownTalkFeedItem .item_info .count,.TownTalkFeedItem .item_info .link_comment .count,.TownTalkFeedItem .user_profile .date,.TownTalkFeedItem .user_profile .local,.UITownTalkMyProfile .select .sort_list,.UITownTalkMyProfile .town_profile_info .ButtonBase,.UITownTalkRegionAdmin .setting_text,.UITownTalkRegionAdmin .town_region_notice,a,button,select { color: #cacaca }
     .Gnb { border-bottom: 1px solid #404040;background: #242424 }

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.60
+@version		1.63.63
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -12303,7 +12303,7 @@
 	}
 }
 
-@-moz-document url-prefix("https://section.cafe.naver.com")
+@-moz-document url-prefix("https://section.cafe.naver.com"), url-prefix("https://cafe.naver.com/ca-fe/home/feed"), url-prefix("https://cafe.naver.com/ca-fe/?open=mynews")
 {
 	html, head {
 		background: #242424;
@@ -16172,6 +16172,23 @@
 	
 	.ModalLayer.header_border .layer_header {
 		border-bottom: 1px solid #404040;
+	}
+	
+	.skin-1080 .cafe-write-btn .cafe-join-info {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.skin-1080 .cafe-write-btn .cafe-join-info .txt {
+		color: #cacaca;
+	}
+	
+	.skin-1080 .cafe-write-btn .cafe-join-info .txt:before {
+		border-top-color: #404040;
+	}
+	
+	.skin-1080 .cafe-write-btn .cafe-join-info .txt:after {
+		border-top-color: #2f2f2f;
 	}
 }
 
@@ -105894,5 +105911,361 @@
 	
 	.promotionPh .promotionLayout {
 		filter: invert(86%) hue-rotate(-180deg);
+	}
+}
+
+@-moz-document url-prefix("https://cafe.naver.com/ca-fe/home/town"), url-prefix("https://cafe.naver.com/ca-fe/town-talks")
+{
+	:root {
+	    --themeColorTC1: #fff;
+	    --themeColorTC2: #cacaca;
+	    --themeColorTC3: #cacaca;
+	    --themeColorTC4: #cacaca;
+	    --themeColorTC5: #949494;
+	    --themeColorTC6: #03c75a;
+	    --themeColorTC7: #009f47;
+	    --themeColorTC8: #fb6400;
+	    --themeColorTC9: #f53535;
+	    --themeColorTC10: #0076ff;
+	    --themeColorTC11: #0076ff;
+	    --themeColorTC12: #009f47;
+	    --themeColorTC13: #f53535;
+	    --themeColorTC14: #fff;
+	    --themeColorTC15: #676767;
+	    --themeColorTC16: #a6a6a6;
+	    --themeColorTC17: #ff7921;
+	    --themeColorTC18: #222;
+	    --themeColorTC19: #a6a6a6;
+	    --themeColorTC20: #2761c2;
+	    --themeColorLN1: #404040;
+	    --themeColorLN2: #404040;
+	    --themeColorLN3: rgba(0, 0, 0, 0.06);
+	    --themeColorLN4: #e6e6e6;
+	    --themeColorLN5: #202020;
+	    --themeColorLN6: #202020;
+	    --themeColorBG1: #242424;
+	    --themeColorBG2: #242424;
+	    --themeColorBG3: #242424;
+	    --themeColorBG4: #f5fdf5;
+	    --themeColorBG5: #f5f6f8;
+	    --themeColorBG6: #242424;
+	    --themeColorBG7: #fbfefb;
+	    --themeColorBT1: rgba(3, 199, 90, 0.12);
+	    --themeColorBT2: #009f47;
+	    --themeColorBT3: rgba(0, 118, 255, 0.1);
+	    --themeColorBT4: #2f2f2f;
+	    --themeColorBT5: #2f2f2f;
+	    --themeColorBT6: #e5e7ea;
+	    --themeColorBT7: #2f2f2f;
+	    --themeColorBT8: rgba(245, 53, 53, 0.06);
+	    --themeColorBT9: #a6a6a6;
+	    --themeColorBT10: rgba(0, 159, 71, 0.4);
+	    --themeColorBT11: #323232;
+	    --themeColorHC1:#ffff9f
+	}
+	
+	a {
+		color: #cacaca;
+	}
+	
+	button, select {
+		color: #cacaca;
+	}
+	
+	.SectionNeighborhood {
+		background-color: #242424;
+	}
+	
+	.SectionNeighborhood .neighborhood_menu {
+		background-color: #242424;
+	}
+	
+	.Gnb {
+		background: #242424;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.Gnb .gnb_logo_area .town_logo_naver, .Gnb .gnb_logo_area .town_logo_cafe, .Gnb .gnb_logo_area .town_logo_town {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.Gnb .gnb_menu .gnb_link {
+		color: #fff;
+	}
+	
+	.SectionNeighborhood .neighborhood_menu .local_name .btn_local {
+		color: #fff;
+	}
+	
+	.SectionNeighborhood .neighborhood_menu .local_name .btn_local_set, .SectionNeighborhood .neighborhood_menu .local_name .btn_local:after {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.SectionNeighborhood .neighborhood_menu .menu_list .tab {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.HeaderGnb, .HeaderGnbCenter .single_title, .SectionLocalSearch {
+		background: #242424;
+	}
+	
+	.HeaderGnb.HeaderGnb--shadow {
+		box-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
+	}
+	
+	.local_search .local_search_input input {
+		background-color: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.local_search .local_search_list {
+		background-color: #242424;
+	}
+	
+	.SectionNeighborhood .NeighborhoodList {
+		background-color: #242424;
+	}
+	
+	.TownTalkFeedItem {
+		border-bottom: 10px solid var(--themeColorLN6);
+	}
+	
+	.TownTalkFeedItem .user_profile .date, .TownTalkFeedItem .user_profile .local {
+		color: #cacaca;
+	}
+	
+	.LayerPopup {
+		background-color: #2f2f2f;
+	}
+	
+	.TownTalkFeedItem .article_link_area .summary {
+		color: #cacaca;
+	}
+	
+	.SectionNeighborhood .NeighborhoodList div.hot_list .article_box .title {
+		color: #fff;
+	}
+	
+	.TownTalkFeedItem .item_info .button_like > button + svg, .TownTalkFeedItem .item_info .button_dislike > button + svg, .TownTalkFeedItem .item_info .link_comment .svg-icon {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.TownTalkFeedItem .item_info .link_comment .count {
+		color: #cacaca;
+	}
+	
+	.TownTalkFeedItem .item_info .count {
+		color: #cacaca;
+	}
+	
+	.SectionNeighborhood .NeighborhoodList div.talk_list .guide_check {
+		border-bottom: 10px solid var(--themeColorLN6);
+	}
+	
+	.TownTalkFeedItem .button_article_more, .local_search .local_search_input .btn_search {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.SectionNeighborhood .loading_icon {
+		background-color: #242424;
+	}
+	
+	.local_search .local_search_list .local__list .option {
+		color: #fff;
+	}
+	
+	.local_search .local_search_list .tit {
+		color: #cacaca;
+	}
+	
+	.HeaderIcon {
+		color: #cacaca;
+	}
+	
+	.HeaderGnbRight .HeaderGnbRight__talk .talk__layer_more {
+		background-color: #2f2f2f;
+	}
+	
+	.HeaderGnbRight .HeaderGnbRight__talk .talk__layer_more .link {
+		color: #cacaca !important;
+	}
+	
+	.UITownTalkArticle .town_article_writer .chat {
+		background: none;
+		position: absolute;
+	}
+	
+	.UITownTalkArticle .town_article_writer .chat:before {
+		position: absolute;
+		content: '';
+		background: url(https://ca-fe.pstatic.net/web-pc/static/img/chat_tc02_14x14.svg?4fbc8ae693d1ecbd4835e14d845ddb15=) no-repeat 10px 50%;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.UITownTalkArticle .recommend_item .Lottie > button + svg {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.CommonComment .comment_textarea_wrap, .CommonComment .talk_comment_wrap {
+		background-color: #242424;
+	}
+	
+	.CommonComment .sort_area .btn_sort {
+		color: #cacaca;
+	}
+	
+	.CommonComment .sort_area .btn_sort.on {
+		color: #fff;
+	}
+	
+	.CommonComment .LayerPopup .layer_content .cleanbot_setting {
+		border: 1px solid #404040;
+	}
+	
+	.CommonComment .LayerPopup .layer_content .cleanbot_setting .tit {
+		color: #fff;
+	}
+	
+	.CommonComment .LayerPopup.cleanbot_setting.on .layer_header .title:before, .LayerPopup .layer_header .btn_close {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.CommonComment .comment_textarea {
+		background-color: #2f2f2f;
+	}
+	
+	.CommonComment .comment_textarea.type__write .textarea_header .text_num em {
+		color: #fff;
+	}
+	
+	.CommonComment .comment_textarea .textarea_footer {
+		border-top: .5px solid #404040;
+	}
+	
+	.CommonComment .comment_textarea .textarea_footer .btn_area .btn_cencel {
+		background-color: #3a3a3a;
+		color: #cacaca;
+	}
+	
+	.CommonComment .talk_comment_list .comment_list .LayerPopup li {
+		background-color: #2f2f2f;
+	}
+	
+	.SectionNeighborhood .NeighborhoodList .theme_list {
+		background-color: #2f2f2f;
+	}
+	
+	.SectionNeighborhood .NeighborhoodList .theme_list .tab {
+		color: #fff;
+	}
+	
+	.ToggleButton .checkbox:not(:checked) +.label .bg_track {
+		background-color: #3a3a3a !important;
+	}
+	
+	.SectionNeighborhood .NeighborhoodList .toggle_btn .area_keyword_setting .button_keyword_setting .svg-icon {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.SectionNeighborhood .NeighborhoodList div.commerce_list .commerce_item_area {
+		background-color: #242424;
+	}
+	
+	.article_box .product_info .show {
+		color: #cacaca !important;
+	}
+	
+	.thumb picture source + img {
+		background: #2f2f2f;
+	}
+	
+	.SectionNeighborhood .NeighborhoodList div.cafe_list .local_cafe_message .txt, .SectionNeighborhood .NeighborhoodList div.cafe_list .local_cafe_message .more {
+		color: #cacaca;
+	}
+	
+	.SectionNeighborhood .NeighborhoodList div.cafe_list .cafe_name .title {
+		color: #fff;
+	}
+	
+	.SectionNeighborhood .NeighborhoodList div.cafe_list .cafe_summary, .SectionNeighborhood .NeighborhoodList div.cafe_list .cafe_info {
+		color: #cacaca;
+	}
+	
+	.SectionNeighborhood .NeighborhoodList div.cafe_list div.list_item {
+		border-bottom: .5px solid #404040;
+	}
+	
+	.SectionNeighborhood .NeighborhoodList div.cafe_list .cafe_thumb:after {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.UITownTalkMyProfile .profile_nickname {
+		color: #fff;
+	}
+	
+	.UITownTalkMyProfile .town_profile_info .ButtonBase {
+		color: #cacaca;
+	}
+	
+	.HeaderTab {
+		background: #242424;
+	}
+	
+	.UITownTalkMyProfile .inner_tabs .HeaderTabList .tab_link {
+		background-color: #242424;
+		color: #cacaca;
+		border: 1px solid #404040;
+	}
+	
+	.UITownTalkMyProfile .article_list {
+		background-color: #242424;
+		border: none;
+	}
+	
+	.UITownTalkMyProfile .select .sort_list {
+		color: #cacaca;
+	}
+	
+	.UITownTalkMyProfile .select .sort_list:after {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.LayerPopup .paymode_area li label, .LayerPopup .radio_select_area li label {
+		color: #fff;
+	}
+	
+	.UITownTalkMyProfile .count_notice {
+		background-color: #242424;
+		color: #cacaca;
+	}
+	
+	.UITownTalkRegionAdmin .town_region_notice {
+		color: #cacaca;
+	}
+	
+	.UITownTalkRegionAdmin .btn_region_set, .UITownTalkRegionAdmin .town_set_item {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.UITownTalkRegionAdmin .btn_region_set:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.UITownTalkRegionAdmin .setting_text {
+		color: #cacaca;
+	}
+	
+	.UITownTalkMyProfileSetting .profile_nickname {
+		color: #fff;
+	}
+	
+	.UITownTalkMyProfileSetting .profile_nickname_setting {
+		border-bottom: 1px solid #404040;
 	}
 }

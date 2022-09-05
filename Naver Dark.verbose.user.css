@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.68
+@version		1.63.69
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -13735,6 +13735,55 @@
 	.ModalLayer .local_search .region_area .region {
 		background-color: #3a3a3a;
 		color: #cacaca;
+	}
+	
+	.section_storage .desc_spot ul {
+		border: 1px solid #404040;
+	}
+	
+	.section_storage .desc_spot em {
+		color: #fff;
+	}
+	
+	.section_storage .desc_spot li {
+		color: #cacaca;
+	}
+	
+	.storage_selectbox .select_option a {
+		background-color: #242424;
+		color: #cacaca;
+	}
+	
+	.storage_selectbox .select_option {
+		border: 1px solid #404040;
+	}
+	
+	.storage_selectbox .select_option_layer {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.storage_selectbox .select_option .ico_down {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.storage_selectbox .select_option_layer a {
+		color: #cacaca;
+	}
+	
+	.table_storage_list th {
+		border-bottom: 1px solid #404040;
+		background-color: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.table_storage_list {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.table_storage_list td {
+		border-bottom: 1px solid #404040;
 	}
 }
 
@@ -60990,6 +61039,18 @@
 		background-color: #242424;
 		color: #cacaca;
 		border: 1px solid #404040;
+	}
+	
+	.checkbox label {
+		color: #cacaca;
+	}
+	
+	.checkbox label em {
+		color: #fff;
+	}
+	
+	.icn_like {
+		filter: invert(100%) hue-rotate(-180deg);
 	}
 }
 

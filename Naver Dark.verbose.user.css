@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.66
+@version		1.63.67
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -14370,8 +14370,66 @@
 		--boardArticleListTitle: #fff;
 		--boardArticleListText: #cacaca;
 		--profileHeadLeaveMember: #fff;
-		--themeColorTC1: #fff;
-		--themeColorBT6: #2f2f2f;
+	}
+	
+	:root {
+	    --themeColorTC1: #fff;
+	    --themeColorTC2: #cacaca;
+	    --themeColorTC3: #cacaca;
+	    --themeColorTC4: #cacaca;
+	    --themeColorTC5: #949494;
+	    --themeColorTC6: #03c75a;
+	    --themeColorTC7: #009f47;
+	    --themeColorTC8: #fb6400;
+	    --themeColorTC9: #f53535;
+	    --themeColorTC10: #0076ff;
+	    --themeColorTC11: #0076ff;
+	    --themeColorTC12: #009f47;
+	    --themeColorTC13: #f53535;
+	    --themeColorTC14: #fff;
+	    --themeColorTC15: #fff;
+	    --themeColorTC16: #a6a6a6;
+	    --themeColorTC17: #ff7921;
+	    --themeColorTC18: #222;
+	    --themeColorTC19: #a6a6a6;
+	    --themeColorTC20: #2761c2;
+	    --themeColorLN1: #404040;
+	    --themeColorLN2: #404040;
+	    --themeColorLN3: rgba(0, 0, 0, 0.06);
+	    --themeColorLN4: #e6e6e6;
+	    --themeColorLN5: #202020;
+	    --themeColorLN6: #202020;
+	    --themeColorBG1: #242424;
+	    --themeColorBG2: #242424;
+	    --themeColorBG3: #242424;
+	    --themeColorBG4: rgb(47, 51, 46);
+	    --themeColorBG5: #f5f6f8;
+	    --themeColorBG6: #242424;
+	    --themeColorBG7: #fbfefb;
+	    --themeColorBT1: rgba(3, 199, 90, 0.12);
+	    --themeColorBT2: #009f47;
+	    --themeColorBT3: rgba(0, 118, 255, 0.1);
+	    --themeColorBT4: #2f2f2f;
+	    --themeColorBT5: #2f2f2f;
+	    --themeColorBT6: #2f2f2f;
+	    --themeColorBT7: #2f2f2f;
+	    --themeColorBT8: rgba(245, 53, 53, 0.06);
+	    --themeColorBT9: #a6a6a6;
+	    --themeColorBT10: rgba(0, 159, 71, 0.4);
+	    --themeColorBT11: #323232;
+	    --themeColorHC1:#ffff9f
+	}
+	
+	.HeaderTab {
+		background: #242424;
+	}
+	
+	.UISaleReviewProfile .sale_review_board .HeaderTabList .tab_link {
+		opacity: 1;
+	}
+	
+	.UISaleReviewProfile .sale_review_board .HeaderTabList .tab_link[aria-selected=true] {
+		color: #fff;
 	}
 	
 	body > svg > symbol[id='ico-post-arrow-323232'] > path {
@@ -16223,6 +16281,14 @@
 	
 	.skin-1080 .cafe-write-btn .cafe-join-info .txt:after {
 		border-top-color: #2f2f2f;
+	}
+	
+	.article-board .board-list .inner_list svg.list_i_escrow, .article-board .board-list .inner_list svg.list_i_soldout, .article-board .board-list .inner_list svg.list_i_sale {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.LayerPopup {
+		background-color: #2f2f2f;
 	}
 }
 
@@ -106055,54 +106121,6 @@
 
 @-moz-document url-prefix("https://cafe.naver.com/ca-fe/home/town"), url-prefix("https://cafe.naver.com/ca-fe/town-talks")
 {
-	:root {
-	    --themeColorTC1: #fff;
-	    --themeColorTC2: #cacaca;
-	    --themeColorTC3: #cacaca;
-	    --themeColorTC4: #cacaca;
-	    --themeColorTC5: #949494;
-	    --themeColorTC6: #03c75a;
-	    --themeColorTC7: #009f47;
-	    --themeColorTC8: #fb6400;
-	    --themeColorTC9: #f53535;
-	    --themeColorTC10: #0076ff;
-	    --themeColorTC11: #0076ff;
-	    --themeColorTC12: #009f47;
-	    --themeColorTC13: #f53535;
-	    --themeColorTC14: #fff;
-	    --themeColorTC15: #676767;
-	    --themeColorTC16: #a6a6a6;
-	    --themeColorTC17: #ff7921;
-	    --themeColorTC18: #222;
-	    --themeColorTC19: #a6a6a6;
-	    --themeColorTC20: #2761c2;
-	    --themeColorLN1: #404040;
-	    --themeColorLN2: #404040;
-	    --themeColorLN3: rgba(0, 0, 0, 0.06);
-	    --themeColorLN4: #e6e6e6;
-	    --themeColorLN5: #202020;
-	    --themeColorLN6: #202020;
-	    --themeColorBG1: #242424;
-	    --themeColorBG2: #242424;
-	    --themeColorBG3: #242424;
-	    --themeColorBG4: #f5fdf5;
-	    --themeColorBG5: #f5f6f8;
-	    --themeColorBG6: #242424;
-	    --themeColorBG7: #fbfefb;
-	    --themeColorBT1: rgba(3, 199, 90, 0.12);
-	    --themeColorBT2: #009f47;
-	    --themeColorBT3: rgba(0, 118, 255, 0.1);
-	    --themeColorBT4: #2f2f2f;
-	    --themeColorBT5: #2f2f2f;
-	    --themeColorBT6: #e5e7ea;
-	    --themeColorBT7: #2f2f2f;
-	    --themeColorBT8: rgba(245, 53, 53, 0.06);
-	    --themeColorBT9: #a6a6a6;
-	    --themeColorBT10: rgba(0, 159, 71, 0.4);
-	    --themeColorBT11: #323232;
-	    --themeColorHC1:#ffff9f
-	}
-	
 	a {
 		color: #cacaca;
 	}

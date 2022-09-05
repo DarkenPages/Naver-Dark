@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.59
+@version		1.63.60
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -105627,6 +105627,164 @@
 	
 	.is_warning .section_center .disaster_letter .btn_more:after {
 		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	/* Typhoon */
+	
+	@media(min-width: 1025px) {
+		.is_typhoon .typhoon {
+			background-color: #242424;
+		}
+	}
+	
+	.is_typhoon .typhoon .typhoon_order, .is_typhoon .typhoon .typhoon_name {
+		color: #fff;
+	}
+	
+	.is_typhoon .typhoon .btn_alert, .is_typhoon .typhoon .btn_another_typhoon::before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.is_typhoon .typhoon .list_link {
+		color: #cacaca;
+	}
+	
+	.is_typhoon .typhoon .list_link.selected {
+		background-color: #3a3a3a;
+	}
+	
+	.is_typhoon .typhoon .typhoon_list_wrap {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.is_typhoon .typhoon .tab_list .tab_link.is_on {
+		color: #fff;
+	}
+	
+	@media (min-width: 1025px) {
+		.is_typhoon .typhoon .tab_list .tab_link {
+			color: #cacaca;
+		}
+		
+		.is_typhoon .typhoon .tab_list li+li .tab_link:before {
+			background-color: #404040;
+		}
+	}
+	
+	.is_typhoon .typhoon .tab_list .tab_link {
+		color: #cacaca;
+	}
+	
+	.is_typhoon .news_box {
+		border-top: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	.is_typhoon .news_box .sjt {
+		color: #fff;
+	}
+	
+	.is_typhoon .news_box .press_list li {
+		background-color: #242424;
+	}
+	
+	.is_typhoon .news_box .live_news_list .info_area .sjt_box {
+		color: #fff;
+	}
+	
+	.is_typhoon .news_box .live_news_list .info_area .info_dsc {
+		color: #cacaca;
+	}
+	
+	.is_typhoon .news_box .live_news_list li {
+		border-top: 1px solid #404040;
+	}
+	
+	.is_typhoon .news_box .news_more {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.is_typhoon .typhoon .another_info_box {
+		background-color: rgb(53, 76, 96);
+	}
+	
+	.is_typhoon .typhoon .wind_speed_text {
+		color: #fff;
+	}
+	
+	.is_typhoon .typhoon .ms_text {
+		color: #cacaca;
+	}
+	
+	.is_typhoon .typhoon .map_wrap .scroll_control {
+		background-color: rgb(41, 61, 51);
+	}
+	
+	.is_typhoon .typhoon .timeline_date {
+		color: #fff;
+		background-color: rgb(41, 61, 51);
+	}
+	
+	.is_typhoon .typhoon .timeline_date.today::after {
+		filter: invert(100%) hue-rotate(-180deg);
+	}
+	
+	.is_typhoon .typhoon .map_wrap {
+		background-color: #242424;
+	}
+	
+	.is_typhoon .typhoon .inner::before {
+		background-image: -webkit-gradient(linear,left top,left bottom,from(rgb(41, 61, 51)),to(rgba(41, 61, 51, 0)));
+		background-image: -webkit-linear-gradient(top,rgb(41, 61, 51),rgba(41, 61, 51, 0));
+		background-image: linear-gradient(to bottom,rgb(41, 61, 51),rgba(41, 61, 51, 0));
+	}
+	
+	.is_typhoon .typhoon .another_info_box::before {
+		background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(53, 76, 96, 0)),to(rgb(53, 76, 96)));
+		background-image: -webkit-linear-gradient(top,rgba(53, 76, 96, 0),rgb(53, 76, 96));
+		background-image: linear-gradient(to bottom,rgba(53, 76, 96, 0),rgb(53, 76, 96));
+	}
+	
+	.is_typhoon .typhoon .inner > div > div[style] > div[style] > div[style] > div[style]:first-child > div[style]:first-child + div[style] {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.is_typhoon .typhoon .btn_wrap {
+		background-color: #2f2f2f;
+	}
+	
+	.is_typhoon .typhoon .btn_zoom_in, .is_typhoon .typhoon .btn_zoom_out {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.is_typhoon .typhoon .inner > div > div {
+		position: relative;
+		background-image: none !important;
+	}
+	
+	.is_typhoon .typhoon .inner > div > div:before {
+		position: absolute;
+		content: '';
+		background-image: url("https://ssl.pstatic.net/static/maps/mantle/2x/pattern_1.png");
+		background-color: transparent;
+		background-position: 0px 0px;
+		background-repeat: repeat repeat;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.is_typhoon .typhoon_card .video_area_wrap {
+		background-color: #2f2f2f;
+	}
+	
+	.is_typhoon .news_box {
+		overflow: visible;
 	}
 }
 

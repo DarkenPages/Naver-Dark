@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.70
+@version		1.63.71
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -4984,9 +4984,11 @@
     .as_gnb_mnews .Nlist_item a.Nitem_link,.pg_num_area.pg_num_area_v2 .pg_num,html .as_gnb .Nitem_link,html .as_gnb_mnews .Nlnb.is_fixed .Nlist_item.is_active .Nitem_link,html .media_end_head_fontsize_option_is_on a.media_end_head_fontsize_option_text,html .media_end_head_lang_setlayer_select .media_end_head_lang_option_is_on .media_end_head_lang_option_text { color: #fff }
     .gnb_notice_li a.gnb_notice .gnb_icon,.gnb_service_li a.gnb_service .gnb_icon,.mail_li a.gnb_mail .gnb_icon { filter: invert(0%) !important }
     .media_end_head_origin_link { border: 1px solid #404040 }
-    .newsct_article *[style*='border-bottom: 1px solid #ebebeb'],.newsct_article *[style*='border-bottom:1px solid #ebebeb'] { border-bottom: 1px solid #404040 !important }
+    .media_journalistcard_summary_subscribe_inner { color: #cacaca }
+    .media_journalistcard_summary_subscribe_inner + .media_journalistcard_summary_subscribe_inner .u_txt::before { background: #404040 }
+    .newsct_article *[style*='border-bottom: 1px solid #e8e8e8'],.newsct_article *[style*='border-bottom: 1px solid #ebebeb'],.newsct_article *[style*='border-bottom:1px solid #e8e8e8'],.newsct_article *[style*='border-bottom:1px solid #ebebeb'] { border-bottom: 1px solid #404040 !important }
     .newsct_article *[style*='border-left: 2px solid #141414'],.newsct_article *[style*='border-left:2px solid #141414'] { border-left: 2px solid #cacaca !important }
-    .newsct_article *[style*='color: #3e3e40'],.newsct_article *[style*='color:#3e3e40'] { color: #fff !important }
+    .newsct_article *[style*='color: #111'],.newsct_article *[style*='color: #3e3e40'],.newsct_article *[style*='color:#111'],.newsct_article *[style*='color:#3e3e40'] { color: #fff !important }
     @media (min-width: 1025px) {
         html .as_gnb_mnews .Ngnb_inner::before { background-color: #4978f4 }
         html .as_mp_layout .as_gnb_mnews .Nlnb_menu::after { border-bottom-color: #464649;background-color: #39393c }

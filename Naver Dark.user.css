@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.69
+@version		1.63.70
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -8160,6 +8160,7 @@
     .is_typhoon .typhoon .list_link.selected,.is_warning .section_center .btn_tab_wrap.on,.is_warning .warning .btn_tab_wrap.on,.is_warning .warning .skeleton,#container.is_map .btn_cctv.on,#container.is_map .btn_tab_wrap.on { background-color: #3a3a3a }
     .is_typhoon .typhoon .map_wrap .scroll_control { background-color: rgb(41, 61, 51) }
     .is_typhoon .typhoon .timeline_date { color: #fff;background-color: rgb(41, 61, 51) }
+    .is_typhoon .typhoon .timeline_list .timeline_date { color: rgba(255, 255, 255, .24) }
     .is_warning .disaster_letter .btn_action { border: 1px solid #404040;background-color: #3a3a3a }
     .is_warning .section_center .btn_tab_wrap,.is_warning .warning .btn_tab_wrap,#container.is_map .btn_tab_wrap { border-top: 1px solid #404040;background-color: #2f2f2f }
     .is_warning .section_center .disaster_letter .btn_action { border: 1px solid #3a3a3a;background-color: #404040 }

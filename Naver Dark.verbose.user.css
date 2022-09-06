@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.69
+@version		1.63.70
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -106068,6 +106068,10 @@
 	
 	.is_typhoon .news_box {
 		overflow: visible;
+	}
+	
+	.is_typhoon .typhoon .timeline_list .timeline_date {
+		color: rgba(255, 255, 255, .24);
 	}
 }
 

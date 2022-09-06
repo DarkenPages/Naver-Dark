@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.71
+@version		1.63.72
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -17025,6 +17025,40 @@
 	
 	.wrap_search_list .area_result .more_help {
 		color: #cacaca;
+	}
+	
+	div[class*='dropdown_area__'] {
+		background-color: #242424;
+		color: #cacaca;
+	}
+	
+	div[class*='dropdown_area__'] + input {
+		background-color: #242424;
+		color: #cacaca;
+	}
+	
+	div[class*='dropdown_area__'] div[class*='dropdown_select__'] {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+		border-top-color: #404040;
+	}
+	
+	div[class*='dropdown_area__'][data-set=search] div[class*='dropdown_select__'] {
+		border-color: #404040;
+	}
+	
+	
+	div[class*='dropdown_area__'][data-set=search] div[class*='dropdown_select__'] a[class*='item__'] {
+		color: #cacaca;
+	}
+	
+	
+	div[class*='dropdown_area__'][data-set=search] div[class*='dropdown_select__'] a[class*='item__']:hover {
+		background-color: #3a3a3a;
+	}
+	
+	div[class*='search_area__'] a[class*='selected_option__']:after {
+		background-color: #404040;
 	}
 }
 

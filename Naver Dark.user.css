@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.72
+@version		1.63.74
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -4064,19 +4064,22 @@
     body { color: #cacaca;background-color: #242424 }
 }
 @-moz-document url-prefix("https://form.office.naver.com") {
-    .defaultTheme .finishMessage,.formInfo .title span,.defaultTheme .loginPh #userName,.inquiryTheme .loginPh #userName,a.tab_order { color: #fff }
+    .defaultTheme .finishMessage,.formInfo .title span,.defaultTheme .loginPh #userName,.inquiryTheme .loginPh #userName,.surveyTheme .finishMessage,a.tab_order { color: #fff }
     .dialog_footer,#alert_dialog .dialog_body.light_bg,.dialog_body { background: #2f2f2f }
-    .form #login,.form #logout,.promotionPh .promotionLayout { filter: invert(86%) hue-rotate(-180deg) }
+    .form #login,.form #logout,.promotionPh .promotionLayout,#loading-image { filter: invert(86%) hue-rotate(-180deg) }
+    .formInfo .required,.formSubInfo,.gridTableDisplay .gridRowHeader,#alert_dialog .contents { color: #cacaca }
     .formItem .displayModeOption .optionLabel,.formItem .etcOption span,.multipleAnswers_title,:not(.pageBreak) > .formItem:not(.formInfo):not(.pageBreak):not(.sectionHeader):not(.quiz-score-wrap):not(.pageBreak) > div:not(.previewItemLayer) .title span:not(.quiz-score-wrap),.formItem.sectionHeader .title span:not(.quiz-score-wrap) { color: #fff !important }
     .formItem:not(.formInfo):not(.pageBreak):not(.sectionHeader) > div:not(.previewItemLayer) .description,.formItem.sectionHeader .description,#form_response #formInfo .description,.formItem.formInfo .description,.formItem.formInfo .itemOptionPh .description { color: #cacaca !important }
-    .formSubInfo,#alert_dialog .contents { color: #cacaca }
+    .gridTableDisplay { border-top: 1px solid #404040;border-bottom: 1px solid #404040 }
+    .gridTableDisplay .gridColHeader { color: #cacaca;border-bottom: 1px solid #404040 }
+    .gridTableDisplay .oddRow>td,#copyright,#message_area { background-color: #2f2f2f }
     .noResponse { border: 1px solid rgb(123, 74, 57);background-color: rgb(57, 44, 39) }
     .ui_dialog { border: 1px solid #404040 }
     .ui_dialog .cancel_button,.ui_dialog .confirm_button { border-radius: 5px;background: #404040 }
     .ui_inputbox { color: #cacaca;border: 1px solid #404040;border: 1px solid #404040;background: #242424 }
-    #copyright,#message_area { background-color: #2f2f2f }
     #formBody { border: 2px solid #404040 }
-    #formContainerHolder { background-color: #242424 }
+    #formBodyLayout,#formBottomPh,#formContainer,#formContents,#formTop { background: none }
+    #formContainerHolder,#loading-layer { background-color: #242424 }
     #officeGNB.form { background: url(/form/images/layout.png);background-repeat: repeat-x;background-position: 0 0 }
     body { background: #242424 }
 }

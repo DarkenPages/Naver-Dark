@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.74
+@version		1.63.75
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -4989,8 +4989,10 @@
     .media_end_head_origin_link { border: 1px solid #404040 }
     .media_journalistcard_summary_subscribe_inner { color: #cacaca }
     .media_journalistcard_summary_subscribe_inner + .media_journalistcard_summary_subscribe_inner .u_txt::before { background: #404040 }
+    .newsct_article *[style*='background-color: #f7f7f7'],.newsct_article *[style*='background-color:#f7f7f7'] { background-color: #2f2f2f !important }
     .newsct_article *[style*='border-bottom: 1px solid #e8e8e8'],.newsct_article *[style*='border-bottom: 1px solid #ebebeb'],.newsct_article *[style*='border-bottom:1px solid #e8e8e8'],.newsct_article *[style*='border-bottom:1px solid #ebebeb'] { border-bottom: 1px solid #404040 !important }
     .newsct_article *[style*='border-left: 2px solid #141414'],.newsct_article *[style*='border-left:2px solid #141414'] { border-left: 2px solid #cacaca !important }
+    .newsct_article *[style*='border: 1px solid #e6e6e6'],.newsct_article *[style*='border:1px solid #e6e6e6'] { border: 1px solid #404040 !important }
     .newsct_article *[style*='color: #111'],.newsct_article *[style*='color: #3e3e40'],.newsct_article *[style*='color:#111'],.newsct_article *[style*='color:#3e3e40'] { color: #fff !important }
     @media (min-width: 1025px) {
         html .as_gnb_mnews .Ngnb_inner::before { background-color: #4978f4 }

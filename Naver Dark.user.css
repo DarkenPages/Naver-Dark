@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.75
+@version		1.63.76
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -7437,6 +7437,8 @@
     .sp_intent_block .intent_popular_wrap .popular_block_wrap .user_wrap .thumb_area .user_thumb .user { border: 2px solid #2f2f2f;background-color: #2f2f2f }
     .sp_intent_expert .expert_list_wrap .info_area .name .badge_category { border: 1px solid rgb(61, 64, 80) }
     .sp_intent_expert .expert_list_wrap .thumb_area .ico_counsel,.sp_nkin .expert_pp_wrap .pp_wrap .thumb .ico_counsel { border: 2px solid #4f4f4f }
+    .sp_intent_weather .trend_keyword_list .api_btn_page.type_tag .btn_next,.sp_trend .trend_keyword_list .api_btn_page.type_tag .btn_next { background: linear-gradient(to right,rgba(47,47,47,0) 15%,#2f2f2f 46%);background: -webkit-gradient(linear,left top,right top,color-stop(15%,rgba(47,47,47,0)),color-stop(46%,#2f2f2f)) }
+    .sp_intent_weather .trend_keyword_list .api_btn_page.type_tag .btn_prev,.sp_trend .trend_keyword_list .api_btn_page.type_tag .btn_prev { background: linear-gradient(to left,rgba(47,47,47,0) 15%,#2f2f2f 46%);background: -webkit-gradient(linear,right top,left top,color-stop(15%,rgba(47,47,47,0)),color-stop(46%,#2f2f2f)) }
     .sp_mobile .app_wrap.type_half > li { width: calc(50% - 30px);margin-left: 20px }
     .sp_nbook .chart .graph_bar .bar { background-color: rgba(60,76,91, .5) }
     .sp_nbook .chart .graph_bar .grade,#place-app-root .sc_new .api_subject_bx .place_section_content>div:nth-child(2)>div[class]>div>div>span>a[aria-pressed=true]:not([aria-expanded=true]) { color: #3a3a3a }
@@ -7461,8 +7463,6 @@
     .sp_pmusic .btn_all .btn { color: #cacaca;border: 1px solid #404004;background-color: #3a3a3a }
     .sp_pmusic .music_btn .tab_list .item .tab:hover { color: #fff;border-color: #4f4f4f;background-color: #4f4f4f }
     .sp_pmusic .music_btn .tab_list .item .tab[aria-selected=true] { color: #fff;border-color: transparent;background-color: #3a3a3a }
-    .sp_trend .trend_keyword_list .api_btn_page.type_tag .btn_next { background: linear-gradient(to right,rgba(47,47,47,0) 15%,#2f2f2f 46%);background: -webkit-gradient(linear,left top,right top,color-stop(15%,rgba(47,47,47,0)),color-stop(46%,#2f2f2f)) }
-    .sp_trend .trend_keyword_list .api_btn_page.type_tag .btn_prev { background: linear-gradient(to left,rgba(47,47,47,0) 15%,#2f2f2f 46%);background: -webkit-gradient(linear,right top,left top,color-stop(15%,rgba(47,47,47,0)),color-stop(46%,#2f2f2f)) }
     .spi_btn_release .spi_lst_release a.spi_btn_copyurl,.spi_onebtn .spi_lst .spi_btn_release .spi_lst_release a.spi_btn_copyurl,.spi_sns_share .spi_lst .spi_btn_release .spi_lst_release a.spi_btn_copyurl { color: #cacaca !important;border: 1px solid #404040 }
     .sub_pack .ad_section .lst_type .lst.ad_hover { box-shadow: 0 0 0 1px #404040;background-color: #383a3e }
     .sub_pack .ad_section .lst_type .lst.ext_price.ad_hover .lst_price .price { background-color: #383a3e }

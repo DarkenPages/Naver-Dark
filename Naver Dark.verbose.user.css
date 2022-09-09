@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.76
+@version		1.63.78
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -19430,6 +19430,22 @@
 	.content_list .related .info .count, .content_list .related .info .data {
 		color: #999;
 	}
+	
+	.content_list .info_area .cite {
+		color: #cacaca;
+	}
+	
+	.content_list .info_area .cite:before {
+		background: #404040;
+	}
+	
+	.search_group .desc {
+		color: #cacaca;
+	}
+	
+	.headword_info .title img {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
 }
 
 @-moz-document url-prefix("https://terms.naver.com/print.nhn")
@@ -19774,6 +19790,22 @@
 	
 	.cap {
 		color: #cacaca;
+	}
+	
+	.section_area .text {
+		color: #cacaca;
+	}
+	
+	.sub_cont_wrap {
+		border-top: 1px solid #404040;
+	}
+	
+	.info_tmp_wrap .title .text, .content_list .related .info .count, .content_list .related .info .data, .tlist_list_item .dsc {
+		color: #cacaca;
+	}
+	
+	.content_list .related .info {
+		color: #fff;
 	}
 }
 
@@ -38123,6 +38155,23 @@
 	.u_helpdict_module.u_type_hanja .u_headword .u_han_mean {
 		color: #fff;
 	}
+	
+	.u_helpdict_module .u_pronunciation .u_pronunciation_item .u_phonetic_alphabet {
+		color: #cacaca;
+	}
+	
+	.u_helpdict_module .u_definition .u_origin_source {
+		color: #999;
+	}
+	
+	.u_helpdict_module .u_helpdict_tab_area .u_tab_wrap {
+		border: 1px solid #404040;
+		background-color: #3a3a3a;
+	}
+	
+	.u_helpdict_module .u_helpdict_tab_area .u_tab_wrap .u_btn_area .u_btn_tab {
+		color: #cacaca;
+	}
 }
 
 @-moz-document url-prefix("https://news.naver.com"), url-prefix("https://blog.naver.com"), url-prefix("https://guestbook.blog.naver.com"), url-prefix("https://admin.blog.naver.com"), url-prefix("https://cafe.naver.com")
@@ -53939,6 +53988,162 @@
 	.entry_default .cont .player .ly_hanja_stroke .view_inner {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
+	
+	.fnt_e25 {
+		color: #fff;
+	}
+	
+	.component_keyword .listen_global_area, .component_example .listen_global_area {
+		background-color: #2f2f2f;
+	}
+	
+	.component_keyword .pronounce_area, .component_example .pronounce_area {
+		color: #fff;
+	}
+	
+	.component_image .navigation .btn_area .btn_prev, .component_image .navigation .btn_area .btn_next {
+		border: 1px solid #404040;
+	}
+	
+	.component_image .navigation .btn_area .btn_prev .ico, .component_image .navigation .btn_area .btn_next .ico {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.listen_global_list .listen_global_item {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+		color: rgb(165, 180, 218);
+	}
+	
+	.listen_global_list .listen_global_item.all:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.ly_listen {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.ly_listen .play_area .player_setting .player .btn_play:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.ly_listen .play_area .player_setting .player .btn_play {
+		color: #fff;
+	}
+	
+	.ly_listen .listen_item {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.ly_listen .listen_item.countries + .listen_item:before {
+		background-color: #404040;
+	}
+	
+	.ly_listen .listen_item {
+		color: #cacaca;
+	}
+	
+	.ly_play_setting .layer_cont {
+		background: #2f2f2f;
+	}
+	
+	.ly_play_setting .button_area .btn_save {
+		background: #2f2f2f;
+	}
+	
+	.ly_play_setting .title {
+		color: #fff;
+	}
+	
+	.ly_play_setting .notice {
+		color: #cacaca;
+	}
+	
+	.ly_play_setting .play_setting .cate {
+		color: #cacaca;
+	}
+	
+	.ly_play_setting .play_setting .option_wrap {
+		border: 1px solid #404040;
+	}
+	
+	.ly_play_setting .button_area {
+		border-top: 1px solid #404040;
+		background-color: #3a3a3a;
+		color: #cacaca;
+	}
+	
+	.ly_listen .listen_item.is-active {
+		background-color: rgb(46, 50, 64);
+	}
+	
+	.ly_listen .list_area .country_list {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.ly_listen .list_area .country_list .item {
+		color: #cacaca;
+	}
+	
+	.ly_listen .list_area .country_list .item.all:before, .ly_listen .listen_list.is-active .listen_item.countries:after {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.ly_listen .listen_item.countries {
+		background-color: rgb(185, 197, 234);
+		border-color: rgb(162, 177, 214);
+		color: #242424;
+	}
+	
+	.ly_listen .listen_item.countries .num {
+		color: #242424;
+	}
+	
+	.ly_listen .play_area .play_list_area .cate {
+		border-top: 1px solid #404040;
+		background-color: #3a3a3a;
+		color: #fff;
+	}
+	
+	.ly_listen .play_area .play_list_area .play_item {
+		background-color: #2f2f2f;
+	}
+	
+	.ly_listen .play_area .play_list_area .play_item .name {
+		color: #cacaca;
+	}
+	
+	.ly_listen .play_area .play_list_area .play_item .unit_listen {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.ly_listen .play_area .play_list_area .play_item .unit_listen [class^='btn_'] {
+		border-left: 1px solid #404040;
+	}
+	
+	.ly_listen .play_area .play_list_area .play_item [class^='btn_']:first-child {
+		border-left: 0;
+	}
+	
+	.ly_listen .play_area .player_setting .player .btn_repeat.once {
+		color: #fff;
+	}
+	
+	.ly_listen .play_area .player_setting .player .btn_repeat.once:before, .ly_listen .play_area .player_setting .player .btn_repeat.is-active:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.ly_listen .play_area .player_setting .player .btn_repeat.is-active {
+		color: #fff;
+	}
+	
+	.ly_listen .play_area .play_list_area .play_item.is-active {
+		background-color: #3a3a3a;
+	}
 }
 
 @-moz-document url-prefix("https://learn.dict.naver.com/wordbook")
@@ -58324,7 +58529,7 @@
 	}
 }
 
-@-moz-document url-prefix("https://dict.naver.com/search.nhn")
+@-moz-document url-prefix("https://dict.naver.com/search.nhn"), url-prefix("https://dict.naver.com/search.dict")
 {
 	.sta h2 a, .sta .btn_search:before, .btn_know100, .lst_krdic a.play, .dic_search_result a.play, .dic_search_result a.play3, .word_other a.play, .dic_search_result span.collect, .word_other span.collect, .dic_search_result .ask .helpimage, .word_other .ask .helpimage, .ask .que_con .close:before, .dic_search_result .btn_openeng, .word_other .btn_openeng, .aside .section a.x:before, .aside .section .empty, .aside .section.myword .title, .term_result dt .tts, .oxford_wrap .key, .lst_krdic .btn_openeng, .lst_krdic .ask .helpimage, .oxford_wrap .close_btn, .dic_grade span, .word_popup li a {
 		filter: invert(86%) hue-rotate(-180deg);
@@ -58425,10 +58630,6 @@
 		height: 100%;
 		pointer-events: none;
 		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.fnt_e25 {
-		color: #fff;
 	}
 	
 	.ask .que_con, .que_con {

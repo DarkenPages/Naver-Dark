@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.80
+@version		1.63.82
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -54175,6 +54175,69 @@
 	.component_keyword .row > .origin .link img.t_aw {
 		filter: invert(86%) hue-rotate(-190deg);
 	}
+	
+	.select_wrap .btn_selected {
+		border: 1px solid #404040;
+	}
+	
+	.select_wrap .btn_selected span {
+		color: #cacaca;
+	}
+	
+	.select_wrap .lang_list {
+		background: #2f2f2f;
+	}
+	
+	.select_wrap .lang_item {
+		border-bottom: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.select_wrap .lang_item:hover {
+		border-color: #4f4f4f;
+		background: #3a3a3a;
+	}
+	
+	.searching_words_save .ly_tooltip .title, .section .section_title .btn_pronunce .pinyin_generator .label_add_auto {
+		color: #cacaca;
+	}
+	
+	.ly_wordbook_agreement .ly_cont {
+		background: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.ly_wordbook_agreement .container {
+		background-color: #2f2f2f;
+	}
+	
+	.ly_wordbook_agreement .btn_close {
+		background-color: #2f2f2f;
+	}
+	
+	.ly_wordbook_agreement .box_scroll .wrap_agreement {
+		background-color: #242424;
+	}
+	
+	.ly_wordbook_agreement .wrap_agreement .tit {
+		color: #fff;
+	}
+	
+	.ly_wordbook_agreement .wrap_agreement .item_agreement {
+		color: #cacaca;
+	}
+	
+	.ly_wordbook_agreement .wrap_agreement .link_agree {
+		color: #cacaca;
+	}
+	
+	.ly_wordbook_agreement .wrap_btn .btn {
+		background-color: #3a3a3a;
+	}
+	
+	.ly_wordbook_agreement .wrap_btn {
+		border-top: 1px solid #404040;
+	}
 }
 
 @-moz-document url-prefix("https://learn.dict.naver.com/wordbook")
@@ -54708,6 +54771,93 @@
 	
 	.header.white .Ntitle_item {
 		color: #fff;
+	}
+	
+	.agreement, .agreement .container, .agreement .inner_container {
+		background-color: #242424;
+	}
+	
+	.agreement .box_scroll {
+		background-color: #2f2f2f;
+	}
+	
+	.agreement .wrap_agreement .item_agreement {
+		color: #cacaca;
+	}
+	
+	.agreement .wrap_agreement .tit {
+		color: #fff;
+	}
+	
+	.agreement .wrap_agreement .link_agree {
+		color: #cacaca;
+	}
+	
+	.global_side_menu .panel_inner .dict_title_area, .panel_inner {
+		background: #2f2f2f;
+	}
+	
+	.global_side_menu .panel_inner .sub_item {
+		background-color: #3a3a3a;
+		color: #cacaca;
+	}
+	
+	.global_side_menu .panel_inner .dict_title_area .dict_title_wrap .dict_item .dict_title {
+		color: #fff;
+	}
+	
+	.global_side_menu .panel_inner .dict_item .dict_title {
+		color: #fff;
+	}
+	
+	.global_side_menu .panel_inner .sub_item:after {
+		background-color: #404040;
+	}
+	
+	.global_side_menu .panel_inner .sub_item .sub_item_text {
+		color: #cacaca;
+	}
+	
+	.global_side_menu .panel_inner .sub_item .wordbook_list .wordbook_item .link {
+		border-top: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.global_side_menu .panel_inner .dict_item + .dict_item {
+		border-top: 1px solid #404040;
+	}
+	
+	.global_side_menu .panel_inner .global_setting_area .setting_title_area {
+		border-bottom: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.global_side_menu .panel_inner .global_setting_area .setting_title_area .setting_title {
+		color: #fff;
+	}
+	
+	.global_side_menu .panel_inner .global_setting_area .setting_title_area .btn_save {
+		color: #cacaca;
+	}
+	
+	.global_side_menu .panel_inner .global_setting_area .setting_title_area .btn_back:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.global_side_menu .panel_inner .global_setting_area .setting_item .setting_cate {
+		color: #fff;
+	}
+	
+	.global_side_menu .panel_inner .global_setting_area .setting_item .option_area {
+		background-color: #3a3a3a;
+	}
+	
+	.global_side_menu .panel_inner .global_setting_area .setting_item .option_area .radio_item .input_radio_global:checked + .radio_label:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.global_side_menu .panel_inner .global_setting_area .setting_item .option_area .radio_item .input_radio_global:checked + .radio_label {
+		color: rgb(177, 188, 220);
 	}
 }
 

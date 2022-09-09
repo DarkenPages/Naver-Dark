@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.82
+@version		1.63.84
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -52132,7 +52132,7 @@
 		border: 1px solid #404040;
 	}
 	
-	.bar {
+	/*.bar {
 		position: relative;
 		background: none;
 	}
@@ -52146,7 +52146,7 @@
 		height: 100%;
 		content: '';
 		filter: invert(86%) hue-rotate(-180deg);
-	}
+	}*/
 	
 	.hand_wrt_con h5 {
 		color: #cacaca;
@@ -54237,6 +54237,32 @@
 	
 	.ly_wordbook_agreement .wrap_btn {
 		border-top: 1px solid #404040;
+	}
+	
+	[class^="unit_"] .tooltip {
+		z-index: 999;
+		border: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	[class^="unit_"] .tooltip:before {
+		border-bottom: 6px solid #404040;
+	}
+	
+	[class^="unit_"] .tooltip:after {
+		border-bottom: 5px solid #2f2f2f;
+	}
+	
+	[class^="unit_"] .tooltip .desc {
+		color: #cacaca;
+	}
+	
+	[class^="unit_"] .tooltip .btn_close:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.listen_global_list .listen_global_item.user .num {
+		color: #cacaca;
 	}
 }
 
@@ -106980,5 +107006,17 @@
 	
 	.content .se-viewer .se-module-oglink:before {
 		border: 1px solid #404040;
+	}
+}
+
+@-moz-document url-prefix("https://open-pro.dict.naver.com")
+{
+	html, body {
+		background: initial;
+		color: initial;
+	}
+	
+	#content {
+		border: none;
 	}
 }

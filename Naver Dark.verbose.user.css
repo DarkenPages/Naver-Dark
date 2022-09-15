@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.63.86
+@version		1.63.87
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -106912,6 +106912,76 @@
 	
 	#loading-image {
 		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.formItem .phoneDelim, .formItem .zipCodeDelim {
+		color: #cacaca;
+	}
+	
+	.naver .formItem .zipCodeSearchBtn {
+		background: #404040;
+		border-radius: 5px;
+		color: #cacaca;
+	}
+	
+	#zipCodeSearchDialog {
+		background-color: #2f2f2f;
+	}
+	
+	.tab_contents.select {
+		color: #Cacaca;
+	}
+	
+	#group_zipsearch .tab {
+		border-top: 1px solid #404040;
+		border-right: 1px solid #404040;
+	}
+	
+	.tab {
+		background: #242424;
+	}
+	
+	.tab.select a.tab_order span {
+		background: #3a3a3a;
+	}
+	
+	#zipsearch_tab .first {
+		border-left: 1px solid #404040;
+	}
+	
+	.ui_button.small {
+		background: #404040;
+		border-radius: 5px;
+	}
+	
+	#zipCodeSearchDialog.searchResult .searchResultList {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	#zipCodeSearchDialog.searchResult .total {
+		border: 1px solid #404040;
+	}
+	
+	#zipCodeSearchDialog.searchResult h2 {
+		color: #fff;
+	}
+	
+	#zipCodeSearchDialog.searchResult .delim {
+		color: #404040;
+	}
+	
+	#zipCodeSearchDialog.searchResult .list {
+		border-top: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.list_content.select, .list_content.over, .list_content.select.over {
+		background: #3a3a3a;
+	}
+	
+	#zipCodeSearchDialog.searchResult .addressDetail {
+		color: #cacaca;
 	}
 }
 

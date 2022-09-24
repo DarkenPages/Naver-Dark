@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.0
+@version		1.64.1
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -4506,11 +4506,12 @@
     #ct .common_comment .u_cbox .u_cbox_reply_area .u_cbox_btn_upload,.u_cbox .u_cbox_reply_area .u_cbox_attached .u_cbox_btn_upload,.u_cbox .u_cbox_reply_area .u_cbox_focus .u_cbox_btn_upload,.u_cbox .u_cbox_reply_area .u_cbox_write_box .u_cbox_btn_upload,.u_cbox .u_cbox_reply_area .u_cbox_writing .u_cbox_btn_upload { border-top-color: #404040;border-left-color: #404040 }
 }
 @-moz-document url-prefix("https://m.blog.naver.com/PostView.naver"), regexp("https:\\/\\/m\\.blog\\.naver\\.com\\/(.*)\\/(\\d*)+(|\\?.*)+") {
+    .se_documentTitle .se_title,.se_oglink .se_og_tit,.se-viewer .se-file-name-container,.se-viewer .se-material-title,.se-viewer .se-module-code div[class*=language-],.se-viewer .se-module-schedule-finished .se-schedule-date,.se-viewer .se-schedule-title-text,.se-viewer .se-section-oglink .se-oglink-title,.se-viewer .se-section-placesMap .se-map-title,.se-viewer .se-text-list.se-text-list-type-decimal { color: #fff }
+    .se_oglink .se_og_desc,.se-viewer .se-caption span,.se-viewer .se-material-detail,.se-viewer .se-material-detail-title,.se-viewer .se-schedule-duration,.se-viewer .se-schedule-info,.se-viewer .se-schedule-url,.se-viewer .se-section-schedule .se-map-title,.se-viewer .se-section-oglink .se-oglink-summary,.se-viewer .se-section-placesMap .se-map-address,.se-viewer .se-section-quotation .se-cite .se-text-paragraph,.se-viewer .se-video .se-media-meta-info-tag,.se-viewer .se-video .se-media-meta-info,.se-viewer .se-video .se-media-meta-info-title { color: #cacaca }
+    .se_oglink .se_og_wrap { background: none }
+    .se_theme_transparent .se_audio .se_audio_wrap,.se_theme_transparent .se_map.default .se_map_article,.se_theme_transparent .se_map.map_text .ico_map_text,.se_theme_transparent .se_map.map_text .se_map_article,.se_theme_transparent .se_oglink .se_og_wrap,.se_theme_transparent .se_subjectMatter .se_viewArea,.se-viewer .se-module-material,.se-viewer .se-module-oglink,.se-viewer .se-module-schedule,.se-viewer .se-section-placesMap { background-color: #2f2f2f }
     .se-viewer .mq-math-mode .mq-empty:before,.se-viewer .mq-math-mode .mq-hasCursor:before { border: 1px dotted #fff }
-    .se-viewer .se-caption span,.se-viewer .se-material-detail,.se-viewer .se-material-detail-title,.se-viewer .se-schedule-duration,.se-viewer .se-schedule-info,.se-viewer .se-schedule-url,.se-viewer .se-section-schedule .se-map-title,.se-viewer .se-section-oglink .se-oglink-summary,.se-viewer .se-section-placesMap .se-map-address,.se-viewer .se-section-quotation .se-cite .se-text-paragraph,.se-viewer .se-video .se-media-meta-info-tag,.se-viewer .se-video .se-media-meta-info,.se-viewer .se-video .se-media-meta-info-title { color: #cacaca }
-    .se-viewer .se-file-name-container,.se-viewer .se-material-title,.se-viewer .se-module-code div[class*=language-],.se-viewer .se-module-schedule-finished .se-schedule-date,.se-viewer .se-schedule-title-text,.se-viewer .se-section-oglink .se-oglink-title,.se-viewer .se-section-placesMap .se-map-title,.se-viewer .se-text-list.se-text-list-type-decimal { color: #fff }
     .se-viewer .se-module-file { border: none;background-color: #2f2f2f }
-    .se-viewer .se-module-material,.se-viewer .se-module-oglink,.se-viewer .se-module-schedule,.se-viewer .se-section-placesMap { background-color: #2f2f2f }
     .se-viewer .se-schedule-content { border-top: 1px solid #404040 }
     .se-viewer .se-schedule-detail-description .se-schedule-info:before,.se-viewer .se-schedule-detail-url .se-schedule-info:before,.se-viewer .se-section-horizontalLine.se-l-line3 .se-hr,.se-viewer .se-section-placesMap.se-l-default .se-module-map-image > div.se-dynamic-map > div:first-child,.se-viewer .se-section-placesMap.se-l-default .se-module-map-image > div.se-dynamic-map > div:last-child > div > div > div > a > img,.se-viewer .se-section-placesMap.se-l-default .se-module-map-image > div.se-dynamic-map > div:nth-child(2),.se-viewer .se-section-quotation.se-l-quotation_postit .se-quotation-container:before,.se-viewer .se-video .se-media-meta-toggle-button:after { filter: invert(86%) hue-rotate(-180deg) }
     .se-viewer .se-section-code.se-l-code_stripe .se-module-code { background-image: linear-gradient(#2f2f2f 25%,#3a3a3a 0,#3a3a3a 75%,#2f2f2f 0);background-image: -webkit-linear-gradient(#2f2f2f 25%,#3a3a3a 0,#3a3a3a 75%,#2f2f2f 0) }
@@ -4529,12 +4530,12 @@
     .se-viewer .se-section-quotation.se-l-quotation_underline .se-quotation-container { border-bottom: 1px solid #404040 }
     .se-viewer .se-section-table.se-l-default .se-table-content { border: solid #404040;border-width: 1px 0 0 1px }
     .se-viewer .se-section-table.se-l-default .se-table-content .se-cell { border: solid #404040;border-width: 0 1px 1px 0 }
-    .se-viewer *[style*='background-color: #bdfbfa'],.se-viewer *[style*='background-color:#bdfbfa'] { background-color: rgb(25, 56, 56) !important }
-    .se-viewer *[style*='background-color: #c2f4db'],.se-viewer *[style*='background-color:#c2f4db'] { background-color: rgb(34, 60, 44) !important }
-    .se-viewer *[style*='background-color: #e3fdc8'],.se-viewer *[style*='background-color:#e3fdc8'] { background-color: rgb(36, 49, 18) !important }
-    .se-viewer *[style*='background-color: #fdd5f5'],.se-viewer *[style*='background-color:#fdd5f5'] { background-color: rgb(74, 52, 72) !important }
-    .se-viewer *[style*='background-color: #ffffff'],.se-viewer *[style*='background-color:#ffffff'] { background-color: #242424 !important }
-    .se-viewer *[style*='color: #000000'],.se-viewer *[style*='color: #111111'],.se-viewer *[style*='color:#000000'],.se-viewer *[style*='color:#111111'],.se-viewer *[style*='color: #555555'],.se-viewer *[style*='color:#555555'],.se-viewer *[style*='color:#444444'],.se-viewer .se-ff-system[style*='color: #444444'] { color: #fff !important }
+    .se-viewer *[style*='background-color: #bdfbfa'],.se-viewer *[style*='background-color:#bdfbfa'],.se_body_wrap *[style*='background-color: #bdfbfa'],.se_body_wrap *[style*='background-color:#bdfbfa'] { background-color: rgb(25, 56, 56) !important }
+    .se-viewer *[style*='background-color: #c2f4db'],.se-viewer *[style*='background-color:#c2f4db'],.se_body_wrap *[style*='background-color: #c2f4db'],.se_body_wrap *[style*='background-color:#c2f4db'] { background-color: rgb(34, 60, 44) !important }
+    .se-viewer *[style*='background-color: #e3fdc8'],.se-viewer *[style*='background-color:#e3fdc8'],.se_body_wrap *[style*='background-color: #e3fdc8'],.se_body_wrap *[style*='background-color:#e3fdc8'] { background-color: rgb(36, 49, 18) !important }
+    .se-viewer *[style*='background-color: #fdd5f5'],.se-viewer *[style*='background-color:#fdd5f5'],.se_body_wrap *[style*='background-color: #fdd5f5'],.se_body_wrap *[style*='background-color:#fdd5f5'] { background-color: rgb(74, 52, 72) !important }
+    .se-viewer *[style*='background-color: #ffffff'],.se-viewer *[style*='background-color:#ffffff'],.se_body_wrap *[style*='background-color: #ffffff'],.se_body_wrap *[style*='background-color:#ffffff'] { background-color: #242424 !important }
+    .se-viewer *[style*='color: #000000'],.se-viewer *[style*='color: #111111'],.se-viewer *[style*='color: rgb(0, 0, 0)'],.se-viewer *[style*='color:#000000'],.se-viewer *[style*='color:#111111'],.se-viewer *[style*='color:rgb(0, 0, 0)'],.se_body_wrap *[style*='color: #000000'],.se_body_wrap *[style*='color: #111111'],.se_body_wrap *[style*='color: rgb(0, 0, 0)'],.se_body_wrap *[style*='color:#000000'],.se_body_wrap *[style*='color:#111111'],.se_body_wrap *[style*='color:rgb(0, 0, 0)'],.se-viewer *[style*='color: #444444']	.se_body_wrap *[style*='color:#444444'],.se-viewer *[style*='color:#444444'],.se_body_wrap *[style*='color: #444444'],.se-viewer *[style*='color: #555555'],.se-viewer *[style*='color:#555555'],.se_body_wrap *[style*='color: #555555'],.se_body_wrap *[style*='color:#555555'] { color: #fff !important }
     @media (min-width: 768px) and (orientation: portrait), (min-width: 1024px) and (orientation: landscape) {
         .se-viewer .se-section-quotation.se-l-quotation_bubble .se-quotation-container { border-width: 5px }
         .se-viewer .se-section-quotation.se-l-quotation_bubble .se-quotation-container:before { background: linear-gradient(90deg,#404040 0,#404040 30%,transparent 0,transparent 180px,#404040 0,#404040);background: -webkit-linear-gradient(left,#404040,#404040 30%,transparent 0,transparent 180px,#404040 0,#404040) }

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.0
+@version		1.64.1
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -109037,44 +109037,66 @@
 	}
 	
 	.se-viewer *[style*='color:#555555'],
-	.se-viewer *[style*='color: #555555'] {
+	.se-viewer *[style*='color: #555555'],
+	.se_body_wrap *[style*='color:#555555'],
+	.se_body_wrap *[style*='color: #555555'] {
 		color: #fff !important;
 	}
 	
 	.se-viewer *[style*='color:#444444'],
-	.se-viewer .se-ff-system[style*='color: #444444'] {
+	.se-viewer *[style*='color: #444444']
+	.se_body_wrap *[style*='color:#444444'],
+	.se_body_wrap *[style*='color: #444444'] {
 		color: #fff !important;
 	}
 	
 	.se-viewer *[style*='color:#000000'],
 	.se-viewer *[style*='color: #000000'],
+	.se-viewer *[style*='color:rgb(0, 0, 0)'],
+	.se-viewer *[style*='color: rgb(0, 0, 0)'],
 	.se-viewer *[style*='color:#111111'],
-	.se-viewer *[style*='color: #111111']{
+	.se-viewer *[style*='color: #111111'],
+	.se_body_wrap *[style*='color:#000000'],
+	.se_body_wrap *[style*='color: #000000'],
+	.se_body_wrap *[style*='color:rgb(0, 0, 0)'],
+	.se_body_wrap *[style*='color: rgb(0, 0, 0)'],
+	.se_body_wrap *[style*='color:#111111'],
+	.se_body_wrap *[style*='color: #111111'] {
 		color: #fff !important;
 	}
 	
 	.se-viewer *[style*='background-color:#ffffff'],
-	.se-viewer *[style*='background-color: #ffffff'] {
+	.se-viewer *[style*='background-color: #ffffff'],
+	.se_body_wrap *[style*='background-color:#ffffff'],
+	.se_body_wrap *[style*='background-color: #ffffff'] {
 		background-color: #242424 !important;
 	}
 	
 	.se-viewer *[style*='background-color:#e3fdc8'],
-	.se-viewer *[style*='background-color: #e3fdc8'] {
+	.se-viewer *[style*='background-color: #e3fdc8'],
+	.se_body_wrap *[style*='background-color:#e3fdc8'],
+	.se_body_wrap *[style*='background-color: #e3fdc8'] {
 		background-color: rgb(36, 49, 18) !important;
 	}
 	
 	.se-viewer *[style*='background-color:#fdd5f5'],
-	.se-viewer *[style*='background-color: #fdd5f5'] {
+	.se-viewer *[style*='background-color: #fdd5f5'],
+	.se_body_wrap *[style*='background-color:#fdd5f5'],
+	.se_body_wrap *[style*='background-color: #fdd5f5']{
 		background-color: rgb(74, 52, 72) !important;
 	}
 	
 	.se-viewer *[style*='background-color:#bdfbfa'],
-	.se-viewer *[style*='background-color: #bdfbfa'] {
+	.se-viewer *[style*='background-color: #bdfbfa'],
+	.se_body_wrap *[style*='background-color:#bdfbfa'],
+	.se_body_wrap *[style*='background-color: #bdfbfa'] {
 		background-color: rgb(25, 56, 56) !important;
 	}
 	
 	.se-viewer *[style*='background-color:#c2f4db'],
-	.se-viewer *[style*='background-color: #c2f4db'] {
+	.se-viewer *[style*='background-color: #c2f4db'],
+	.se_body_wrap *[style*='background-color:#c2f4db'],
+	.se_body_wrap *[style*='background-color: #c2f4db']{
 		background-color: rgb(34, 60, 44) !important;
 	}
 	
@@ -109317,5 +109339,25 @@
 		.se-viewer .se-section-placesMap.se-l-map_text .se-map-marker {
 			border-right: 1px solid #404040;
 		}
+	}
+	
+	.se_documentTitle .se_title {
+		color: #fff;
+	}
+	
+	.se_theme_transparent .se_audio .se_audio_wrap, .se_theme_transparent .se_map.default .se_map_article, .se_theme_transparent .se_map.map_text .ico_map_text, .se_theme_transparent .se_map.map_text .se_map_article, .se_theme_transparent .se_oglink .se_og_wrap, .se_theme_transparent .se_subjectMatter .se_viewArea {
+		background-color: #2f2f2f;
+	}
+	
+	.se_oglink .se_og_wrap {
+		background: none;
+	}
+	
+	.se_oglink .se_og_tit {
+		color: #fff;
+	}
+	
+	.se_oglink .se_og_desc {
+		color: #cacaca;
 	}
 }

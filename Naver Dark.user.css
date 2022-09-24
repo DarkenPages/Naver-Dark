@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.1
+@version		1.64.2
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -8402,7 +8402,7 @@
     .card_nation .weekly_list { border-top: 1px solid #404040;background: #242424 }
     .card_weathermap .map_area,.is_typhoon .typhoon .inner > div > div { position: relative;background-image: none !important }
     .card_weathermap .map_area:before { width: 100%;top: 0;position: absolute;left: 0;height: 100%;filter: invert(86%) hue-rotate(-180deg);content: '';background-image: url("https://ssl.pstatic.net/static/maps/mantle/2x/pattern_1.png") }
-    .card,.form_wrap,.is_dust .button_area,.is_dust .card_dust .level_point .point,.is_dust .card_map .content_area .offer_area,.is_today .card_weather_graph .weather_graph .no_border+tr .data:before,.is_today .card_weather_graph .weather_graph tr:nth-of-type(2) .data:before,.is_today.foreign .card_week .week_item .day_data,.is_typhoon .news_box .press_list li,.is_typhoon .typhoon .map_wrap,.is_warning .disaster_letter .letter_list,.is_warning .section_center .disaster_letter .btn_more_wrap,.is_warning .section_center .disaster_letter .letter_list,.is_warning .section_center .weather_report .report,.is_warning .warning .video_area_wrap,.is_warning .warning .warning_info,.is_warning .weather_report,.is_warning .weather_report .report,.layer_search .layer_content,#container,#container.is_image .offer_area_wrap,#header:before,body { background-color: #242424 }
+    .card,.form_wrap,.is_dust .button_area,.is_dust .card_dust .level_point .point,.is_dust .card_map .content_area .offer_area,.is_today .card_weather_graph .weather_graph .no_border+tr .data:before,.is_today .card_weather_graph .weather_graph tr:nth-of-type(2) .data:before,.is_today.foreign .card_week .week_item .day_data,.is_typhoon .news_box .press_list li,.is_typhoon .typhoon .map_wrap,.is_warning .disaster_letter .letter_list,.is_warning .section_center .disaster_letter .btn_more_wrap,.is_warning .section_center .disaster_letter .letter_list,.is_warning .section_center .none_card,.is_warning .section_center .weather_report .report,.is_warning .warning .video_area_wrap,.is_warning .warning .warning_info,.is_warning .weather_report,.is_warning .weather_report .report,.layer_search .layer_content,#container,#container.is_image .offer_area_wrap,#header:before,body { background-color: #242424 }
     .form_wrap .search_input { color: #fff;border-bottom: 2px solid #404040;background: #242424 }
     .is_dust .card_dust .btn_area .station:after,.is_today .card_today_weather .weather_area .weather_now .summary .temperature:after,.is_today .card_weather_graph .help_icon .ico_help:after,.is_typhoon .typhoon .timeline_date.today::after,.is_warning .warning .warning_info .btn_alert,.lnb_area .logo:before { filter: invert(100%) hue-rotate(-180deg) }
     .is_dust .card_dust .chart_tab.on,.popup_cp .list_setting [class^=item_].on { background: #3a3a3a }

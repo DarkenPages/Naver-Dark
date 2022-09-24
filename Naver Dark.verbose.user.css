@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.1
+@version		1.64.2
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -106508,6 +106508,10 @@
 	
 	.is_warning .section_center .disaster_letter .btn_more:after {
 		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.is_warning .section_center .none_card {
+		background-color: #242424;
 	}
 	
 	/* Typhoon */

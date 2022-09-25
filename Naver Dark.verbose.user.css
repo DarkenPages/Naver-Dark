@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.7
+@version		1.64.8
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -92783,7 +92783,7 @@
 	}
 	
 	html .u_ft .u_hs .u_it::-webkit-input-placeholder {
-		color: #a5a5a7
+		color: #a5a5a8
 	}
 	
 	html .airs_info_inner::before, html .sh_info_icon {
@@ -92816,7 +92816,7 @@
 	}
 	
 	html .news_guide~.u_ft .u_it:-ms-input-placeholder, html .news_guide~.u_ft .u_it::-moz-placeholder, html .news_guide~.u_ft .u_it::-ms-input-placeholder, html .news_guide~.u_ft .u_it::-webkit-input-placeholder, html .news_guide~.u_ft .u_it::placeholder, html .u_it:-ms-input-placeholder, html .u_it::-moz-placeholder, html .u_it::-ms-input-placeholder, html .u_it::-webkit-input-placeholder, html .u_it::placeholder {
-		color: #dadde0
+		color: #dadde1
 	}
 	
 	html .article_nav3, html .article_nav3 li+li, html .bigger_size, html .smaller_size, html .column_columnist .columnist_item, html .comp_common .cc_chart_expand .cc_chart_item, html .comp_common .cc_chart_expand .cc_chart_keyword_wrap, html .comp_common .cc_column_list+.cc_text_list .cc_text_item:first-child, html .comp_common .cc_list_wrap:first-child+.cc_recommend_title, html .comp_common .cc_recommend_title, html .comp_common .cc_text_item, html .comp_common .cc_tw, html .comp_common.comp_nodivider .cc_text_list .cc_text_item:last-child, html .comp_journal_subscribe .btn_refresh~[class^='btn'], html .comp_journal_subscribe .cjs_btn_unsubscribe~[class^='cjs_btn'], html .comp_journal_subscribe .cjs_channel_info, html .comp_journal_subscribe .cjs_death_a::after, html .comp_journal_subscribe .cjs_journal_info, html .comp_journal_subscribe .cjs_news_a, html .comp_journal_subscribe .cjs_title_wrap+.cjs_newsflash_list, html .crosslight_item_bunch+.r_more_load, html .editorial_press .opinion_more, html .editorial_press .press_article, html .editorial_press .press_topic, html .editorial_today .today_item, html .factcheck_source_news, html .factcheck_source_text_inner table td, html .factcheck_source_text_inner table th, html .guide_section .noti_lst li, html .home .column_columnist, html .home .column_today, html .home .column_today .today_column:last-of-type, html .home .column_topic, html .home .column_topic .topic_item:last-of-type, html .home .editorial_today, html .lst_tv_press .inner, html .main_sublnb_item::before, html .newspaper_article_lst li a, html .offc_head .cal_b, html .press_wrap .tv_cal .cal_b, html .sc_offc_lst .cal_b, html .press_hd_subscribe_layer .phsl_list, html .press_item_bunch+.r_more_load, html .press_layer_hd, html .press_list_logo_item, html .press_list_only_logo_item, html .press_ranking_list .list_content::before, html .press_ranking_list .rankingnews_error::after, html .press_special_col .p_linkinner::after, html .press_special_flat .p_item, html .press_special_row .p_noticeinner::before, html .rankingnews_list .list_content::after, html .rankingnews_list .list_content::before, html .rankingnews_press_list li, html .section_list li::after, html .sh_item+.sh_item, html .subscribe_guide_footer, html .tv_bn2 .tv_bn2_li::after, html .tv_broad_nav a.nav_ti, html .u_atcp_l, html .u_sggt_wrap2 .kwd_lst li {
@@ -93471,9 +93471,9 @@
 		color: #5066b7
 	}
 	
-	html .news_header.as_white_type .Ngnb_service .Nservice_subitem .Nicon_family {
-		background-position: -260px -417px
-	}
+	/*html .news_header.as_white_type .Ngnb_service .Nservice_subitem .Nicon_family {*/
+	/*	background-position: -260px -417px*/
+	/*}*/
 	
 	html .news_header.as_white_type .Ngnb_logo .Nlogo_link .Nicon_logo {
 		background-position: -425px -488px

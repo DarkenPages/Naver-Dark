@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.8
+@version		1.64.9
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -91184,6 +91184,11 @@
 		background-color: #242424;
 		color: #cacaca;
 	}
+	
+	/* Summarization */
+	#dic_area > div[style] > div[style*='color'] {
+		color: #cacaca !important;
+	}
 }
 
 @-moz-document url-prefix("https://n.news.naver.com"), url-prefix("https://contents.premium.naver.com")
@@ -94359,6 +94364,9 @@
 			background-color: #39393c
 		}
 	}
+	
+	/* .press_edit_news_link와 .press_edit_news_link:visited의 경우 ::-ms-input-placeholder과 같은 선택자와 분리토록 한다.*/
+	/* 또한 분리된 쪽의 색상은 1 정도 차이를 둬서 합쳐지지 않도록 유도한다. */
 	
 	.light_type {
 		display: none !important;

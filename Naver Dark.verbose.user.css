@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.11
+@version		1.64.12
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -19445,6 +19445,59 @@
 	
 	.headword_info .title img {
 		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.relate_item .title a {
+		color: #fff;
+	}
+	
+	.search_diff_area .search_group .keyword {
+		color: #cacaca;
+	}
+	
+	.search_diff_area .search_group {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.relate_item .desc .info a {
+		color: #cacaca;
+	}
+	
+	.relate_item .desc .info a .count {
+		color: #fff;
+	}
+	
+	.more_msg_area {
+		border: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.more_msg_area .text {
+		color: #cacaca;
+	}
+	
+	.more_msg_area .link {
+		color: #536daa;
+	}
+	
+	.search_msg_area .title {
+		color: #fff;
+	}
+	
+	.aside .btn_area .state {
+		color: #cacaca;
+	}
+	
+	.aside .btn_area .btn_item {
+		border: 1px solid #404040;
+	}
+	
+	.aside .btn_area .btn_item .prev, .aside .btn_area .btn_item .next {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cite_area_wrap .sub_info {
+		color: #cacaca;
 	}
 }
 
@@ -109303,6 +109356,20 @@
 	.se_body_wrap *[style*='color:#444444'],
 	.se_body_wrap *[style*='color: #444444'] {
 		color: #fff !important;
+	}
+	
+	.se-viewer *[style*='color:#464646'],
+	.se-viewer *[style*='color: #464646']
+	.se_body_wrap *[style*='color:#464646'],
+	.se_body_wrap *[style*='color: #464646'] {
+		color: #fff !important;
+	}
+	
+	.se-viewer *[style*='color:#999999'],
+	.se-viewer *[style*='color: #999999']
+	.se_body_wrap *[style*='color:#999999'],
+	.se_body_wrap *[style*='color: #999999'] {
+		color: #cacaca !important;
 	}
 	
 	.se-viewer *[style*='color:#000000'],

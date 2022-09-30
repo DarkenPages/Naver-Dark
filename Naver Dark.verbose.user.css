@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.12
+@version		1.64.13
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -109344,6 +109344,8 @@
 		color: #cacaca;
 	}
 	
+	.post_ct *[style*='color:#555555'],
+	.post_ct *[style*='color: #555555'],
 	.se-viewer *[style*='color:#555555'],
 	.se-viewer *[style*='color: #555555'],
 	.se_body_wrap *[style*='color:#555555'],
@@ -109351,27 +109353,39 @@
 		color: #fff !important;
 	}
 	
+	.post_ct *[style*='color:#444444'],
+	.post_ct *[style*='color: #444444'],
 	.se-viewer *[style*='color:#444444'],
-	.se-viewer *[style*='color: #444444']
+	.se-viewer *[style*='color: #444444'],
 	.se_body_wrap *[style*='color:#444444'],
 	.se_body_wrap *[style*='color: #444444'] {
 		color: #fff !important;
 	}
 	
+	.post_ct *[style*='color:#464646'],
+	.post_ct *[style*='color: #464646'],
 	.se-viewer *[style*='color:#464646'],
-	.se-viewer *[style*='color: #464646']
+	.se-viewer *[style*='color: #464646'],
 	.se_body_wrap *[style*='color:#464646'],
 	.se_body_wrap *[style*='color: #464646'] {
 		color: #fff !important;
 	}
 	
+	.post_ct *[style*='color:#999999'],
+	.post_ct *[style*='color: #999999'],
 	.se-viewer *[style*='color:#999999'],
-	.se-viewer *[style*='color: #999999']
+	.se-viewer *[style*='color: #999999'],
 	.se_body_wrap *[style*='color:#999999'],
 	.se_body_wrap *[style*='color: #999999'] {
 		color: #cacaca !important;
 	}
 	
+	.post_ct *[style*='color:#000000'],
+	.post_ct *[style*='color: #000000'],
+	.post_ct *[style*='color:rgb(0, 0, 0)'],
+	.post_ct *[style*='color: rgb(0, 0, 0)'],
+	.post_ct *[style*='color:#111111'],
+	.post_ct *[style*='color: #111111'],
 	.se-viewer *[style*='color:#000000'],
 	.se-viewer *[style*='color: #000000'],
 	.se-viewer *[style*='color:rgb(0, 0, 0)'],
@@ -109387,6 +109401,8 @@
 		color: #fff !important;
 	}
 	
+	.post_ct *[style*='background-color:#ffffff'],
+	.post_ct *[style*='background-color: #ffffff'],
 	.se-viewer *[style*='background-color:#ffffff'],
 	.se-viewer *[style*='background-color: #ffffff'],
 	.se_body_wrap *[style*='background-color:#ffffff'],
@@ -109394,6 +109410,17 @@
 		background-color: #242424 !important;
 	}
 	
+	.post_ct *[style*='background-color:rgb(241, 241, 241)'],
+	.post_ct *[style*='background-color: rgb(241, 241, 241)'],
+	.se-viewer *[style*='background-color:rgb(241, 241, 241)'],
+	.se-viewer *[style*='background-color: rgb(241, 241, 241)'],
+	.se_body_wrap *[style*='background-color:rgb(241, 241, 241)'],
+	.se_body_wrap *[style*='background-color: rgb(241, 241, 241)'] {
+		background-color: #282828 !important;
+	}
+	
+	.post_ct *[style*='background-color:#e3fdc8'],
+	.post_ct *[style*='background-color: #e3fdc8'],
 	.se-viewer *[style*='background-color:#e3fdc8'],
 	.se-viewer *[style*='background-color: #e3fdc8'],
 	.se_body_wrap *[style*='background-color:#e3fdc8'],
@@ -109401,6 +109428,8 @@
 		background-color: rgb(36, 49, 18) !important;
 	}
 	
+	.post_ct *[style*='background-color:#fdd5f5'],
+	.post_ct *[style*='background-color: #fdd5f5'],
 	.se-viewer *[style*='background-color:#fdd5f5'],
 	.se-viewer *[style*='background-color: #fdd5f5'],
 	.se_body_wrap *[style*='background-color:#fdd5f5'],
@@ -109408,6 +109437,8 @@
 		background-color: rgb(74, 52, 72) !important;
 	}
 	
+	.post_ct *[style*='background-color:#bdfbfa'],
+	.post_ct *[style*='background-color: #bdfbfa'],
 	.se-viewer *[style*='background-color:#bdfbfa'],
 	.se-viewer *[style*='background-color: #bdfbfa'],
 	.se_body_wrap *[style*='background-color:#bdfbfa'],
@@ -109415,6 +109446,8 @@
 		background-color: rgb(25, 56, 56) !important;
 	}
 	
+	.post_ct *[style*='background-color:#c2f4db'],
+	.post_ct *[style*='background-color: #c2f4db'],
 	.se-viewer *[style*='background-color:#c2f4db'],
 	.se-viewer *[style*='background-color: #c2f4db'],
 	.se_body_wrap *[style*='background-color:#c2f4db'],

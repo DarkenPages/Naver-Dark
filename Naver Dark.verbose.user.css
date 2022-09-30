@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.13
+@version		1.64.14
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -108273,6 +108273,14 @@
 	.head .btn_back .sp {
 		background: url("data:image/svg+xml,%3Csvg width='25' height='25' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M0 0h25v25H0z'/%3E%3Cpath d='m15.5 3-8.793 8.793a1 1 0 0 0 0 1.414l8.788 8.788h0' stroke='%23fff' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/g%3E%3C/svg%3E") no-repeat;
 	}
+	
+	.files strong {
+		color: #fff;
+	}
+	
+	.files ul {
+		border: 1px solid #404040;
+	}
 }
 
 @-moz-document url-prefix("https://m.blog.naver.com/SympathyHistoryList.naver"), url-prefix("https://m.blog.naver.com/CommentList.naver"), url-prefix("https://m.blog.naver.com/PostSearchList.naver"), url-prefix("https://m.blog.naver.com/PostTagSearchList.naver"), url-prefix("https://m.blog.naver.com/FeedList.naver"), url-prefix("https://m.blog.naver.com/Recommendation.naver"), url-prefix("https://m.blog.naver.com/News.naver"), url-prefix("https://m.blog.naver.com/PostList.naver"), url-prefix("https://m.blog.naver.com/ReadHistoryList.naver"), url-prefix("https://m.blog.naver.com/MomentList.naver"), url-prefix("https://m.blog.naver.com/PopularBlog.naver"), url-prefix("https://m.blog.naver.com/PreviousThisMonthBlog.naver"), url-prefix("https://m.blog.naver.com/SectionPostSearch.naver"), url-prefix("https://m.blog.naver.com/SectionTagSearch.naver"), url-prefix("https://m.blog.naver.com/SectionMarketSearch.naver"), url-prefix("https://m.blog.naver.com/SectionMomentSearch.naver"), url-prefix("https://m.blog.naver.com/SectionVideoSearch.naver"), url-prefix("https://m.blog.naver.com/SectionBlogSearch.naver"), url-prefix("https://m.blog.naver.com/SectionNicknameNIdSearch.naver"), url-prefix("https://m.blog.naver.com/MyVideo.naver"), regexp("https:\\/\\/m\\.blog\\.naver\\.com\\/(.(?!\\.naver))+")
@@ -109410,13 +109418,22 @@
 		background-color: #242424 !important;
 	}
 	
-	.post_ct *[style*='background-color:rgb(241, 241, 241)'],
-	.post_ct *[style*='background-color: rgb(241, 241, 241)'],
-	.se-viewer *[style*='background-color:rgb(241, 241, 241)'],
-	.se-viewer *[style*='background-color: rgb(241, 241, 241)'],
-	.se_body_wrap *[style*='background-color:rgb(241, 241, 241)'],
-	.se_body_wrap *[style*='background-color: rgb(241, 241, 241)'] {
+	.post_ct *[style*='background-color:rgb(241, 241, 241)'i],
+	.post_ct *[style*='background-color: rgb(241, 241, 241)'i],
+	.se-viewer *[style*='background-color:rgb(241, 241, 241)'i],
+	.se-viewer *[style*='background-color: rgb(241, 241, 241)'i],
+	.se_body_wrap *[style*='background-color:rgb(241, 241, 241)'i],
+	.se_body_wrap *[style*='background-color: rgb(241, 241, 241)'i] {
 		background-color: #282828 !important;
+	}
+	
+	.post_ct *[style*='background-color:#8e8e8e'i],
+	.post_ct *[style*='background-color: #8e8e8e'i],
+	.se-viewer *[style*='background-color:#8e8e8e'i],
+	.se-viewer *[style*='background-color: #8e8e8e'i],
+	.se_body_wrap *[style*='background-color:#8e8e8e'i],
+	.se_body_wrap *[style*='background-color: #8e8e8e'i] {
+		background-color: #2f2f2f !important;
 	}
 	
 	.post_ct *[style*='background-color:#e3fdc8'],
@@ -109426,6 +109443,30 @@
 	.se_body_wrap *[style*='background-color:#e3fdc8'],
 	.se_body_wrap *[style*='background-color: #e3fdc8'] {
 		background-color: rgb(36, 49, 18) !important;
+	}
+	
+	.post_ct *[style*='border-bottom: windowtext 1pt solid'i],
+	.se-viewer *[style*='border-bottom: windowtext 1pt solid'i],
+	.se_body_wrap *[style*='border-bottom: windowtext 1pt solid'i] {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	.post_ct *[style*='border-left: windowtext 1pt solid'i],
+	.se-viewer *[style*='border-left: windowtext 1pt solid'i],
+	.se_body_wrap *[style*='border-left: windowtext 1pt solid'i] {
+		border-left: 1px solid #404040 !important;
+	}
+	
+	.post_ct *[style*='border-right: windowtext 1pt solid'i],
+	.se-viewer *[style*='border-right: windowtext 1pt solid'i],
+	.se_body_wrap *[style*='border-right: windowtext 1pt solid'i] {
+		border-right: 1px solid #404040 !important;
+	}
+	
+	.post_ct *[style*='border-top: windowtext 1pt solid'i],
+	.se-viewer *[style*='border-top: windowtext 1pt solid'i],
+	.se_body_wrap *[style*='border-top: windowtext 1pt solid'i] {
+		border-top: 1px solid #404040 !important;
 	}
 	
 	.post_ct *[style*='background-color:#fdd5f5'],

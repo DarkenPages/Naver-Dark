@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.14
+@version		1.64.16
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -86420,6 +86420,11 @@
 		color: #cacaca;
 		border: 1px solid #404040;
 	}
+	
+	.sp_ntotal .info_card_list_wrap .info_item {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
 }
 
 @-moz-document url-prefix("https://section.cafe.naver.com/ca-fe/home/search"), url-prefix("https://cafe.naver.com/ca-fe/home/search/")
@@ -109375,7 +109380,13 @@
 	.se-viewer *[style*='color:#464646'],
 	.se-viewer *[style*='color: #464646'],
 	.se_body_wrap *[style*='color:#464646'],
-	.se_body_wrap *[style*='color: #464646'] {
+	.se_body_wrap *[style*='color: #464646'],
+	.post_ct *[style*='color:rgb(64, 64, 64)'],
+	.post_ct *[style*='color: rgb(64, 64, 64)'],
+	.se-viewer *[style*='color:rgb(64, 64, 64)'],
+	.se-viewer *[style*='color: rgb(64, 64, 64)'],
+	.se_body_wrap *[style*='color:rgb(64, 64, 64)'],
+	.se_body_wrap *[style*='color: rgb(64, 64, 64)'] {
 		color: #fff !important;
 	}
 	

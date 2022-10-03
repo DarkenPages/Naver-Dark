@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.16
+@version		1.64.17
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -43804,6 +43804,42 @@
 	}
 	
 	.popup_da_wrap .popup_da_content .desc {
+		color: #fff;
+	}
+	
+	#blog-profile .btn_area .btn_talk_reserve {
+		background: url("data:image/svg+xml,%3Csvg width='143' height='36' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23242424' stroke='%23404040' d='M.5.5h142v35H.5z'/%3E%3Cpath d='M109.617 18.75v3.731h1.261V11.665h-1.261v2.418h-1.495c-.39-.988-1.079-1.651-2.106-1.651-1.729 0-2.496 1.859-2.496 4.043 0 2.197.767 4.069 2.496 4.069 1.079 0 1.768-.715 2.158-1.794h1.443Zm3.536 4.277V11.444h-1.274v11.583h1.274Zm-5.902-6.539c0 1.677-.39 2.886-1.222 2.886-.819 0-1.222-1.209-1.222-2.886s.403-2.912 1.222-2.912c.832 0 1.222 1.235 1.222 2.912Zm1.261 0c0-.468-.039-.923-.117-1.352h1.222v2.574h-1.196c.052-.377.091-.793.091-1.222Zm12.145-1.651c0-1.625-1.339-2.743-2.977-2.743s-2.964 1.144-2.964 2.743c0 1.638 1.339 2.665 2.964 2.665 1.651 0 2.977-1.027 2.977-2.665Zm4.68.715h-1.703v-1.547h1.703v-1.092h-1.703v-1.469h-1.339v6.786h1.339v-1.599h1.703v-1.079Zm-9.243 3.276v1.053h6.214v3.159h1.339v-4.212h-7.553Zm3.25-4.004c0 .949-.676 1.664-1.664 1.664-.988 0-1.664-.689-1.664-1.664 0-.897.663-1.625 1.664-1.625 1.04 0 1.664.715 1.664 1.625Z' fill='%23cacaca'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M92 11h1v1h2v-1h2v1h3v11H88V12h3v-1h1Zm4 3h-7v8h10v-8h-3Zm-5 1v6h2v-2h1v1h1v1h2v-6h-2v2h-1v-1h-1v-1h-2Z' fill='%2303C75A'/%3E%3Cpath fill='%23404040' d='M71 9h1v18h-1z'/%3E%3Cpath d='M41.594 16.449v-1.04H35.12v-.806h5.993v-1.027H35.12v-.767h6.396v-1.066h-7.735v4.706h3.159v1.027h-4.55v1.079h10.465v-1.079h-4.589v-1.027h3.328ZM33.612 19.4v1.066h6.552v2.6h1.326V19.4h-7.878Zm19.23-2.951v-1.04h-6.474v-.806h5.993v-1.027h-5.993v-.767h6.396v-1.066h-7.735v4.706h3.159v1.027h-4.55v1.079h10.465v-1.079h-4.589v-1.027h3.328ZM44.86 19.4v1.066h6.552v2.6h1.326V19.4H44.86Z' fill='%23cacaca'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M19.63 11c-1.175 0-2.13.955-2.13 2.13v8.586c0 1.027 1.242 1.54 1.967.815l1.337-1.337c.11-.11.26-.171.415-.171h5.151c1.175 0 2.13-.955 2.13-2.13V13.13c0-1.175-.955-2.13-2.13-2.13h-6.74Zm-1.13 2.13c0-.623.507-1.13 1.13-1.13h6.74c.623 0 1.13.507 1.13 1.13v5.763c0 .623-.507 1.13-1.13 1.13h-5.15c-.42 0-.825.166-1.123.464l-1.337 1.337a.153.153 0 0 1-.26-.108V13.13Zm1.923 2.228a.652.652 0 1 1 0 1.305.652.652 0 0 1 0-1.305Zm3.228.653a.652.652 0 1 0-1.304 0 .652.652 0 0 0 1.304 0Zm1.923-.652a.652.652 0 1 1 0 1.304.652.652 0 0 1 0-1.305Z' fill='%2303C75A'/%3E%3C/svg%3E") no-repeat;
+	}
+	
+	.talk_preview_area .banner_type_blog {
+		background: none !important;
+	}
+	
+	.talk_preview_area .banner_type_blog:before {
+		position: absolute;
+		background: url(https://ssl.pstatic.net/static.talk/bizmember/script/2022083100/img/bg_banner_profile.png) 0 0 no-repeat;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.talk_preview_area .talkpartner_thumb {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.talk_preview_area .banner_type_blog .talk_banner_desc {
+		color: #fff;
+	}
+	
+	.talk_preview_area .banner_type_blog .talk_banner_detail {
+		color: #cacaca;
+	}
+	
+	.talk_preview_area .talk_btn_txt {
 		color: #fff;
 	}
 }

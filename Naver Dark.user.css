@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.17
+@version		1.64.18
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -5266,7 +5266,7 @@
     @media not all {
         .dark_type { display: none !important }
     }
-    #dic_area > div[style] > div[style*='color'] { color: #cacaca !important }
+    #dic_area > div[style] > div[style*='color'],#dic_area div[style*='color: #595959'i],#dic_area div[style*='color:#595959'i] { color: #cacaca !important }
     html .as_gnb .Nitem_link_menu::before { background-color: #f0f0f2 }
     html .as_gnb .Nlnb_menu_list::before { background-color: rgba(0, 0, 0, 0.11) }
     html .as_gnb_entertain .Nitem_link_menu,html .as_gnb_sports .Nitem_sub_link_menu { color: rgba(240, 240, 242, 0.7) }

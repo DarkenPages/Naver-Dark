@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.18
+@version		1.64.19
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -33910,6 +33910,7 @@
 	
 	.talk_pc_user .group_message_balloon .chat_btn_wrap .btn_primary, .talk_pc_partner .group_message_balloon .chat_btn_wrap .btn_primary {
 		background-color: #4f4f4f;
+		border: 1px solid #404040;
 		color: #fff;
 	}
 	
@@ -34137,6 +34138,60 @@
 	
 	.talk_pc_partner .new_message_balloon_area .chat_btn_area:not(:last-child), .talk_pc_user .new_message_balloon_area .chat_btn_area:not(:last-child) {
 		border-bottom: 1px solid #404040;
+	}
+	
+	.talk_pc_partner .tit_composite, .talk_pc_user .tit_composite {
+		color: #fff;
+	}
+	
+	.talk_pc_partner .group_message_balloon .message_balloon.card_bizAlarm, .talk_pc_user .group_message_balloon .message_balloon.card_bizAlarm {
+		border-color: rgb(66, 83, 100);
+		background-color: rgb(62, 67, 73);
+	}
+	
+	.talk_pc_partner .group_message_balloon .new_message_balloon_area .chat_message_nickname.tag .emphasis, .talk_pc_user .group_message_balloon .new_message_balloon_area .chat_message_nickname.tag .emphasis {
+		color: rgb(161, 167, 173);
+	}
+	
+	.talk_pc_user .chat_header .folded_layer_wrap {
+		background-color: #2f2f2f;
+	}
+	
+	.talk_pc_user .chat_header .folded_layer_wrap>div {
+		background-color: #3a3a3a;
+	}
+	
+	.talk_pc_user .chat_header .folded_layer_wrap .title_area {
+		border: 1px solid #404040;
+	}
+	
+	.talk_pc_user .chat_header .folded_layer_wrap .title_area>strong {
+		color: #cacaca;
+	}
+	
+	.talk_pc_user .chat_header .folded_layer_wrap .title_area [class*=ico_] {
+		fill: #cacaca;
+	}
+	
+	.talk_pc_user .chat_header .folded_layer_wrap .info_area {
+		border: 1px solid #404040;
+		border-bottom: none;
+	}
+	
+	.talk_pc_user .chat_header .folded_layer_wrap .info_area>p {
+		color: #cacaca;
+	}
+	
+	.talk_pc_user .chat_header .folded_layer_wrap .btn_area {
+		border-top: 1px solid #404040;
+	}
+	
+	.talk_pc_user .chat_header .folded_layer_wrap .btn_area>a {
+		color: #cacaca;
+	}
+	
+	.talk_pc_user .chat_header .folded_layer_wrap .btn_area>a+a {
+		border-left: 1px solid #404040;
 	}
 }
 

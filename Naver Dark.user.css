@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.19
+@version		1.64.20
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -4514,9 +4514,11 @@
     .post_ct *[style*='background-color: #c2f4db'],.post_ct *[style*='background-color:#c2f4db'],.se-viewer *[style*='background-color: #c2f4db'],.se-viewer *[style*='background-color:#c2f4db'],.se_body_wrap *[style*='background-color: #c2f4db'],.se_body_wrap *[style*='background-color:#c2f4db'] { background-color: rgb(34, 60, 44) !important }
     .post_ct *[style*='background-color: #e3fdc8'],.post_ct *[style*='background-color:#e3fdc8'],.se-viewer *[style*='background-color: #e3fdc8'],.se-viewer *[style*='background-color:#e3fdc8'],.se_body_wrap *[style*='background-color: #e3fdc8'],.se_body_wrap *[style*='background-color:#e3fdc8'] { background-color: rgb(36, 49, 18) !important }
     .post_ct *[style*='background-color: #fdd5f5'],.post_ct *[style*='background-color:#fdd5f5'],.se-viewer *[style*='background-color: #fdd5f5'],.se-viewer *[style*='background-color:#fdd5f5'],.se_body_wrap *[style*='background-color: #fdd5f5'],.se_body_wrap *[style*='background-color:#fdd5f5'] { background-color: rgb(74, 52, 72) !important }
-    .post_ct *[style*='background-color: #ffffff'],.post_ct *[style*='background-color:#ffffff'],.se-viewer *[style*='background-color: #ffffff'],.se-viewer *[style*='background-color:#ffffff'],.se_body_wrap *[style*='background-color: #ffffff'],.se_body_wrap *[style*='background-color:#ffffff'] { background-color: #242424 !important }
+    .post_ct *[style*='background-color: #ffffff'],.post_ct *[style*='background-color:#ffffff'],.se-viewer *[style*='background-color: #ffffff'],.se-viewer *[style*='background-color:#ffffff'],.se_body_wrap *[style*='background-color: #ffffff'],.se_body_wrap *[style*='background-color:#ffffff'],.post_ct *[style*='background-color: rgb(255, 255, 255)'i],.post_ct *[style*='background-color:rgb(255, 255, 255)'i],.se-viewer *[style*='background-color: rgb(255, 255, 255)'i],.se-viewer *[style*='background-color:rgb(255, 255, 255)'i],.se_body_wrap *[style*='background-color: rgb(255, 255, 255)'i],.se_body_wrap *[style*='background-color:rgb(255, 255, 255)'i] { background-color: #242424 !important }
     .post_ct *[style*='background-color: rgb(241, 241, 241)'i],.post_ct *[style*='background-color:rgb(241, 241, 241)'i],.se-viewer *[style*='background-color: rgb(241, 241, 241)'i],.se-viewer *[style*='background-color:rgb(241, 241, 241)'i],.se_body_wrap *[style*='background-color: rgb(241, 241, 241)'i],.se_body_wrap *[style*='background-color:rgb(241, 241, 241)'i] { background-color: #282828 !important }
     .post_ct *[style*='border-bottom: windowtext 1pt solid'i],.se-viewer *[style*='border-bottom: windowtext 1pt solid'i],.se_body_wrap *[style*='border-bottom: windowtext 1pt solid'i] { border-bottom: 1px solid #404040 !important }
+    .post_ct *[style*='border-color: currentColor currentColor rgb(204, 204, 204) rgb(204, 204, 204)'i],.se-viewer *[style*='border-color: currentColor currentColor rgb(204, 204, 204) rgb(204, 204, 204)'i],.se_body_wrap *[style*='border-color: currentColor currentColor rgb(204, 204, 204) rgb(204, 204, 204)'i] { border-color: currentColor currentColor #404040 #404040 !important }
+    .post_ct *[style*='border-color: rgb(204, 204, 204) rgb(204, 204, 204) currentColor currentColor'i],.se-viewer *[style*='border-color: rgb(204, 204, 204) rgb(204, 204, 204) currentColor currentColor'i],.se_body_wrap *[style*='border-color: rgb(204, 204, 204) rgb(204, 204, 204) currentColor currentColor'i] { border-color: #404040 #404040 currentColor currentColor !important }
     .post_ct *[style*='border-left: windowtext 1pt solid'i],.se-viewer *[style*='border-left: windowtext 1pt solid'i],.se_body_wrap *[style*='border-left: windowtext 1pt solid'i] { border-left: 1px solid #404040 !important }
     .post_ct *[style*='border-right: windowtext 1pt solid'i],.se-viewer *[style*='border-right: windowtext 1pt solid'i],.se_body_wrap *[style*='border-right: windowtext 1pt solid'i] { border-right: 1px solid #404040 !important }
     .post_ct *[style*='border-top: windowtext 1pt solid'i],.se-viewer *[style*='border-top: windowtext 1pt solid'i],.se_body_wrap *[style*='border-top: windowtext 1pt solid'i] { border-top: 1px solid #404040 !important }
@@ -5841,6 +5843,43 @@
     .btn_pop_print:before,.head img { filter: invert(86%) hue-rotate(-180deg) }
     .head { border-bottom: 1px solid #404040 }
     .print button { color: #cacaca;border: 1px solid #404040 }
+}
+@-moz-document url-prefix("https://newsstand.naver.com") {
+    .ir,.nav_nm .bar2,.nav_nm em { filter: invert(81.5%) hue-rotate(-180deg) }
+    .nav em,.rolling_inn .panel_dmm .frm_dmm { background: none }
+    .rolling_inn .panel { position: relative;border-radius: 20px;background: transparent }
+    .rolling_inn .panel h3 img,.sc_tp .btn_ombs,.sc_tp .btn_social,.sc_tp .btn_unsbc { filter: invert(81.8%) hue-rotate(-180deg) }
+    .rolling_inn .panel:before { width: calc(100% - 100px);top: 5px;position: absolute;left: 50px;height: calc(100% - 30px);content: '';box-shadow: -5px -5px #3a3a3a, 1px 1px 10px rgba(0, 0, 0, .5);border-radius: 20px;background: #2f2f2f;-webkit-box-shadow: -5px -5px #3a3a3a, 1px 1px 10px rgba(0, 0, 0, .5) }
+    .rolling_inn .panel.panel_dmm:after { width: calc(100% - 100px);top: 5px;position: absolute;left: 50px;height: calc(100% - 30px);content: '';box-shadow: -5px -5px #2f2f2f;border-radius: 20px;background: rgba(0, 0, 0, .25);-webkit-box-shadow: -5px -5px #2f2f2f }
+    .sc_tp .fl,.sc_tp .fl em,a.btn_gomedia { color: #cacaca }
+    body { background: #242424 }
+}
+@-moz-document url-prefix("https://newsstand.naver.com/include/page") {
+    .article_list,.hot_list,.hotclick_title,.list_left,.photo,.top_news_list li:first-child { border-top: 1px solid #404040 }
+    .aside_ed .photo_01 .text,.bottom_list li.article a,.bottom_list li.sub a,.column a h3:before,.exclusive a h3:before,.contSide .title,.cover_item2 .tit,.headline .article:first-child .title,.headline a,.hotclick_list li:hover .tit span,.top_news_img li:hover .tit span,.top_news_list li:hover .tit span,.hotNews a,.main_tit,.main-article .photo-view_ed li p a,.newsList .tit,.newstype1 .main-title_ed .main-text a,.photo .photo-text,.photo img,.photo-news p a:hover,.pic_txt a:hover,.today_hotnews h2.news_tit span,.top .tit a,.top_news:hover .lead span,.topbox .top1title strong,.topTitle,#container .content .cont_group1 .toprel li a,#container .content .cont_group1 .toprel li a,#container .content2 .bestclick h2,#container .content2 .bestclick ul li a,#container .content .topnews .t_list li a,#container .content .topnews h1 a,#kmib_wrap .lft .report strong.tit,#kmib_wrap .lft .top h1 a,#kmib_wrap .rgt .column a,#kmib_wrap .rgt .nws_img strong.tit,#main a,#nsc_lebox #top_news h2 a.top_tit,a,a:active,a:visited,dl.article_list_d dt a,h1,h2,h3,h4,h5,ul.article_list_u li a { color: #fff }
+    .biz li,.headline li,.column li,.enter_news,.exclusive li,.greyBar,.headline,.headline_side .article,.news_list>li,.section-top-biz a,.section-top-nd a,.side-cont-m,.side-cont-t,.top_news_list li,#container .content .topnews h1,#kmib_wrap .lft .top { border-bottom: 1px solid #404040 }
+    .body-text_ed a,.issue-list_ed .issue-first li a,.relation-article2_ed li a,.box2 .phtonews li a span em,.hotlist_txt a,.lead span,.newsList .cont .txt,.nocut_wrap a,.photo-news p a,.pic_txt a,.today_hotnews ul li a,#kmib_wrap .lft .btm .nws_list li a,#kmib_wrap .lft .top .nws_list li a,#kmib_wrap .rgt .mission strong.tit,#kmib_wrap .rgt .tv strong.tit,#kmib_wrap .rgt .wng strong.tit,#main .main1 .main_news1 a,#main .main2 .main_news2 dt p a,#main .main2 .main_news4 dt p a { color: #cacaca }
+    .box2 .phtonews li a span,.geryBackground,.textlist { background-color: #3a3a3a }
+    .box2,.box2 a .txt,.box3 a .txt,.box4 a .txt,.box3,.photo img,.photo-news,#kmib_wrap .rgt .nws_img span.thum,#kmib_wrap .rgt .tv span.thum,#kmib_wrap .rgt .wng span.thum,#main img { border: 1px solid #404040 }
+    .column { border-top: 1px solid #404040;background: #3a3a3a }
+    .column a h3,body { color: #fff;background-color: #2f2f2f }
+    .contMain,.mArticle,#contents_left,#wrap #content_S125 #depth-1 { border-right: 1px solid #404040 }
+    .contSide { border-left: 1px solid #404040 }
+    .enter_news .enter_potho a img[style*='border:1px solid #ccc'],.issue .issue_potho a img[style*='border:1px solid #ccc'] { border: 1px solid #404040 !important }
+    .exclusive a h3 { border-bottom: 1px solid #404040;background-color: #2f2f2f }
+    .exclusive,.hash_tag,.hotclick_list,.photo li,#kmib_wrap p.top_thum,#kmib_wrap span.thum,#main .main1 .main_news1 { background: #3a3a3a }
+    .inx_liststC li.bottom { border-bottom: 1px dotted #404040 }
+    .nocut_wrap .box2,#wrap .box3 { border: none }
+    .onair { border: 1px solid #404040;border-width: 1px 0 }
+    .photo .photo-bottom,.wrapSegye,#main,#wrap { background: #2f2f2f }
+    .sec:after { background: #404040 }
+    .today_hotnews h2.news_tit { border-top: 1px solid #404040;border-bottom: 1px solid #404040 }
+    .top { border: 1px solid #404040;border-top: none }
+    #kmib_wrap .lft .top .nws_list li a:hover { color: #c4c4c4 }
+    #kmib_wrap .rgt .column,#kmib_wrap .rgt .mission { border: 1px solid #404040;background: #3a3a3a }
+    body[style] > div[style*='border-left:1px solid #ececec;'] { border-left: 1px solid #404040 !important }
+    body[style] div[style*='border-right:2px solid #f2f2f2;'] { border-right: 2px solid #404040 !important }
+    body[style*='background:#fff'] { background: #2f2f2f !important }
 }
 @-moz-document url-prefix("https://nid.naver.com/iasystem/pop.nhn"), url-prefix("https://admin.blog.naver.com/AdminUserMobileCertificationForm.nhn") {
     :root .input_check_big label,:root .input_chk_small label { filter: invert(89%) hue-rotate(-180deg) }

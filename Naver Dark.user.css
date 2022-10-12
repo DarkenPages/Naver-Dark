@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.24
+@version		1.64.25
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -1437,26 +1437,26 @@
     .action1.topborder,.action1.topborder3,.category_add .index_category,.chl_ly5 .chl_ly_btn,.groupselectlayer ul li .make,.header__my-menu--line,.layer_popup .btn_2,.layer_popup2 .btn_2,.lnb__depth1,.ly_alert .ly_btns,.music_tb tbody td,.nacon_bt3,.nacon_keep,.table3 tbody td,.table3 tbody th,.wrap_editorset,.wrap_editorset .se-color-picker-more-button { border-top: 1px solid #404040 }
     .admin_buddymanage_wrap .attention2,.buddy_bloggo_wrap .move_btn dt,.buddylist_option *,.buddylist_option .info2,.layer_popup .layer_content *,.layer_popup .layer_desc *,.layer_popup .layer_header,.layer_popup2 .layer_header,.tbl_buddymanage *,.tbl_buddymanage td,.tbl_buddymanage th { font-family: "돋움",Dotum,Helvetica,Sans-serif !important }
     .admin_buddymanage_wrap .btn_bar { border: 1px solid #404040;border-top: 0 }
-    .admin_set_buddy .set_input,.app_txt p,.li2 li,.blog_initialize .desc2,.blog_initialize .notice3 p,.buddylist_option .info2,.category_add dd.category_name .info,.chl_ly5 .chl_ly_cont p,.cmn_slt .selectbox-applied .selectbox-list li,.tbl_buddymanage .select_input .selectbox-list li,.coin_list .category,.coin_list .date,.coin_list .date2,.coin_list .none td,.coin_list .none th,.coin_txt1_l,.footer__address,.footer__menu-item,.groupselectlayer ul li .newgroup_input,.groupselectlayer ul li a,.header__my-menu>a,.info_music,.layer_popup .layer_content *,.layer_popup .layer_desc *,.layer_popup .list1 li,.layer_popup2 *,.layer_popup2 .pr_8,.layer-all-menu__item,.li1 li,.tip1 a,.lnb__item,.movelayer .txt,.music_tb td dd h3,.music_tb td dd h3 span a,.music_tb td dd p,.music_tb td.date,.music_tb td.no_music,.nacon_keep .nacon_bt a,.pagination a,.pagination span,.pagination strong,.select__label,.tab1_skin li a,.table3 tbody .link,.top_desc_2,.table3 tbody .none td,.table4 .none,.tbl_buddymanage .none td,.top_desc_1,.tpl_txt .app_set a,.usedskin_l .submenu a,.wrap_editorset .layer_list_option .option .radio_label .text,.wrap_editorset .layer_list_option .option_lineheight_input .label,.wrap_editorset .se-color-apply-label,.wrap_editorset .se-color-picker-more-label,.wrap_layer_skin_preview .layer_skin_preview .text,.wrap_myvideo_list .list_head .result_num,.wrap_myvideo_list .list_head .wrap_sorting label,a,body,table,td,textarea,tr { color: #cacaca }
-    .admin_set_buddy .tit,.blog_initialize .info dt,.buddy_bloggo_wrap .move_btn dt,.buddy_bloggo_wrap .tree li div.ellipsis2 .nickname,.category_list_area .category_list li em,.tree li.tree-node.tree-selected .tree-div-selected label span,.chl_ly5 h4,.content-title,.lnb__title,.gnb__button-menu-all,.gnb__menu>a,.layer-all-menu__subtitle,.layer-all-menu__title,.li1 li a,.ly_alert strong,.myvideo_table .tbody .video .link,.nacon_dl1 dt,.nacon_h2,.select_skin .none .go,.setting-editor__label,.spam_set .sset,.spam_title,.table1 .blog_address,.tbl_buddymanage td.buddy div .nickname,.usedskin_l h2,.wrap_editorset .selectbox_button .text,.wrap_editorset .wrap_txt .title,.wrap_layer_skin_preview .layer_skin_preview .title { color: #fff }
-    .admin_set_buddy dl,.blog_admin_desc,.category_add dd.layerbox,.category_add dd.view_notice,.music_dl1,.nacon_dl1,.nacon_keep li,.setting-editor,.spam_set,.table1 td,.table1 th,.table2,.tag,#content,table.prologue .s1,table.prologue .s2 { border-bottom: 1px solid #404040 }
+    .admin_set_buddy .set_input,.app_txt p,.li2 li,.blog_initialize .desc2,.blog_initialize .notice3 p,.buddylist_option .info2,.category_add dd.category_name .info,.chl_ly5 .chl_ly_cont p,.cmn_slt .selectbox-applied .selectbox-list li,.tbl_buddymanage .select_input .selectbox-list li,.coin_list .category,.coin_list .date,.coin_list .date2,.coin_list .none td,.coin_list .none th,.coin_txt1_l,.footer__address,.footer__menu-item,.groupselectlayer ul li .newgroup_input,.groupselectlayer ul li a,.header__my-menu>a,.info_music,.InputBlogId_layer_wrap .input_area .label,.layer_popup .layer_content *,.layer_popup .layer_desc *,.layer_popup .list1 li,.layer_popup2 *,.layer_popup2 .pr_8,.layer-all-menu__item,.li1 li,.tip1 a,.lnb__item,.movelayer .txt,.music_tb td dd h3,.music_tb td dd h3 span a,.music_tb td dd p,.music_tb td.date,.music_tb td.no_music,.nacon_keep .nacon_bt a,.pagination a,.pagination span,.pagination strong,.select__label,.SetBlogId_layer_wrap .domain,.SetBlogId_layer_wrap .title_desc,.SetBlogIdAlert_wrap .blogid_area .domain,.tab1_skin li a,.table3 tbody .link,.top_desc_2,.table3 tbody .none td,.table4 .none,.tbl_buddymanage .none td,.top_desc_1,.tpl_txt .app_set a,.tutorial__info-placeholder,.tutorial__skin-category,.usedskin_l .submenu a,.WelcomeSetBlogId_layer_wrap .text_area .domain,.wrap_editorset .layer_list_option .option .radio_label .text,.wrap_editorset .layer_list_option .option_lineheight_input .label,.wrap_editorset .se-color-apply-label,.wrap_editorset .se-color-picker-more-label,.wrap_layer_skin_preview .layer_skin_preview .text,.wrap_myvideo_list .list_head .result_num,.wrap_myvideo_list .list_head .wrap_sorting label,a,body,table,td,textarea,tr { color: #cacaca }
+    .admin_set_buddy .tit,.blog_initialize .info dt,.buddy_bloggo_wrap .move_btn dt,.buddy_bloggo_wrap .tree li div.ellipsis2 .nickname,.category_list_area .category_list li em,.tree li.tree-node.tree-selected .tree-div-selected label span,.chl_ly5 h4,.content-title,.lnb__title,.gnb__button-menu-all,.gnb__menu>a,.InputBlogId_layer_wrap .theme_list_layer .title,.layer-all-menu__subtitle,.layer-all-menu__title,.li1 li a,.ly_alert strong,.myvideo_table .tbody .video .link,.nacon_dl1 dt,.nacon_h2,.select_skin .none .go,.SetBlogId_layer_wrap .domain .blogid,.SetBlogId_layer_wrap .title_h1,.SetBlogIdAlert_wrap .blogid_area .blogid,.SetBlogIdAlert_wrap .text_area .text,.setting-editor__label,.spam_set .sset,.spam_title,.table1 .blog_address,.tbl_buddymanage td.buddy div .nickname,.tutorial__button-sorting.is-on,.tutorial__info-text input,.tutorial__skin-category:focus,.tutorial__skin-category:hover,.tutorial__skin-category.is-on,.tutorial__skin-description,.tutorial__sorting-message,.usedskin_l h2,.WelcomeSetBlogId_layer_wrap .text_area .blogid,.WelcomeSetBlogId_layer_wrap .title_h1,.wrap_editorset .selectbox_button .text,.wrap_editorset .wrap_txt .title,.wrap_layer_skin_preview .layer_skin_preview .title { color: #fff }
+    .admin_set_buddy dl,.blog_admin_desc,.category_add dd.layerbox,.category_add dd.view_notice,.InputBlogId_layer_wrap .theme_list_layer .item,.music_dl1,.nacon_dl1,.nacon_keep li,.setting-editor,.spam_set,.table1 td,.table1 th,.table2,.tag,#content,table.prologue .s1,table.prologue .s2 { border-bottom: 1px solid #404040 }
     .bar1 { color: #4f4f4f }
-    .blog_initialize .info,.bx1,.category_list_area .category_list li div,.category_list_area .category_list,.category_list_area .category_list .tree,.input_text,.textarea1,.music_box,.music_tb td dt img,.nacon_dl1 dd .img,.nacon_keep li dt span.img,.nacon_li1 li span,.pagination strong,.profile_img .tpl,.request_msg textarea,.select_skin li .border,.wrap_editorset .se-selected-color-palette,.wrap_editorset>.list { border: 1px solid #404040 }
+    .blog_initialize .info,.bx1,.category_list_area .category_list li div,.category_list_area .category_list,.category_list_area .category_list .tree,.input_text,.textarea1,.music_box,.music_tb td dt img,.nacon_dl1 dd .img,.nacon_keep li dt span.img,.nacon_li1 li span,.pagination strong,.profile_img .tpl,.request_msg textarea,.select_skin li .border,.table1 .input_text,.table1 .textarea1,.wrap_editorset .se-selected-color-palette,.wrap_editorset>.list { border: 1px solid #404040 }
     .buddy_bloggo_wrap { position: relative;border: 1px solid #404040;background: none }
     .buddy_bloggo_wrap .list_wrap .move_btn,.l__content,.layer-all-menu__depth1:first-child { border-left: 1px solid #404040 }
     .buddy_bloggo_wrap .move_btn { border-top: 1px solid #404040;border-bottom: 1px solid #404040;background: #2f2f2f }
     .buddy_bloggo_wrap .tree li div.ellipsis2 .bar,.music_tb td dd .bar,.nacon_keep .nacon_bt .bar,.select_skin li .preview,.tbl_buddymanage .buddygroup .bar,.tbl_buddymanage td.buddy div .bar { color: #404040 }
-    .buddy_bloggo_wrap .tree li div.tree-selected,.header__layer-box:after,.header__layer-box:before,.paginate a:hover,.select__label:hover,.table3 thead td,.table3 thead th,.table4 th { background: #2f2f2f }
+    .buddy_bloggo_wrap .tree li div.tree-selected,.header__layer-box:after,.header__layer-box:before,.InputBlogId_layer_wrap .theme_list_layer,.paginate a:hover,.select__label:hover,.SetBlogId_layer_wrap .BlogId_content,.SetBlogId_layer_wrap .loading_wrap,.SetBlogIdAlert_wrap .SetBlogIdAlert_content,.SetBlogIdAlert_wrap .blogid_area,.table3 thead td,.table3 thead th,.table4 th,.tutorial__info-content,.tutorial__skin-preview-content,.tutorial__skin-container,.tutorial__skin-content,.tutorial__skin-content.is-fix .tutorial__skin-filter { background: #2f2f2f }
     .buddy_bloggo_wrap:before { width: 100%;top: 0;position: absolute;pointer-events: none;left: 0;height: 100%;filter: invert(86%) hue-rotate(-180deg);content: '';background: url(https://blogimgs.pstatic.net/nblog/admin/buddy/bg_buddybloggo.gif) repeat-y left top }
     .button__type1--fill { color: #242424 !important;border-color: #019341 !important;background: #019341 !important }
-    .button__type1,.select__button,.wrap_myvideo .wrap_search .btn_reset { color: #cacaca;border: 1px solid #404040;background: #242424 }
+    .button__type1,.InputBlogId_layer_wrap .input_area .theme_btn,.select__button,.SetBlogId_layer_wrap .input_area .input_text,.SetBlogId_layer_wrap .input_blogid_area .input_text,.wrap_myvideo .wrap_search .btn_reset { color: #cacaca;border: 1px solid #404040;background: #242424 }
     .bx1_shadow,.header__layer-box,.music_box_inner,.tip1 { border: 1px solid #404040;background: #2f2f2f }
-    .category_add dd .inp,.chl_ly5 .chl_ly_btn a,.layer_popup .txt_2,.layer_popup .txt_3,.myvideo_table .tbody .edit .btn_edit,.ngb_search .input_txt { color: #cacaca;border: 1px solid #404040 }
+    .category_add dd .inp,.chl_ly5 .chl_ly_btn a,.layer_popup .txt_2,.layer_popup .txt_3,.myvideo_table .tbody .edit .btn_edit,.ngb_search .input_txt,.table1 .set_domain_wrap .set_domain_btn,.tutorial__button-sorting { color: #cacaca;border: 1px solid #404040 }
     .category_list_area .category_list .admin_selected_category li.tree-selected { background-color: #404040 !important }
     .category_list_area .category_list li.input .cat_input { color: #fff;border: 1px solid #404040 }
     .ccl_desc { position: relative;color: #cacaca;background: #2f2f2f }
     .ccl_desc:before { width: 100%;top: 0;position: absolute;left: 0;height: 100%;filter: invert(83%) hue-rotate(-180deg);content: '';background: url(https://blogimgs.pstatic.net/nblog/admin50/ic_logo_cc.gif) 15px 14px no-repeat }
-    .chl_ly5,.select__option-list,.theme_select_layer .layer_content,.wrap_editorset .layer_list_option,.wrap_editorset .se-color-apply-button { border: 1px solid #404040;background: #242424 }
+    .chl_ly5,.select__option-list,.theme_select_layer .layer_content,.tutorial__info-text,.wrap_editorset .layer_list_option,.wrap_editorset .se-color-apply-button { border: 1px solid #404040;background: #242424 }
     .cmn_slt .selectbox-applied .selectbox-layer,.selectbox-layer,.tbl_buddymanage .select_input .selectbox-layer,.groupselectlayer,.wrap_editorset .se-color-picker-option { border: 1px solid #404040;background-color: #242424 }
     .cmn_slt .selectbox-applied .selectbox-list li.selectbox-item-hovered,.cmn_slt .selectbox-applied .selectbox-list li.selectbox-item-selected,.tbl_buddymanage .select_input .selectbox-list li.selectbox-item-hovered,.tbl_buddymanage .select_input .selectbox-list li.selectbox-item-selected,.tbl_buddymanage .selectbox-applied .selectbox-list li.selectbox-item-hovered,.tbl_buddymanage .selectbox-applied .selectbox-list li.selectbox-item-selected,.spam_set .sset .list li.selected { background-color: #2f2f2f }
     .footer__menu-item+.footer__menu-item:before,.gnb__button-menu-all:before { background: #404040 }
@@ -1466,8 +1466,10 @@
     .groupselectlayer ul li a:hover,.tbl_buddymanage th { color: #cacaca;background-color: #2f2f2f }
     .header__admin { border-bottom: 1px solid #404040;background: #242424 }
     .header__blog { background: #019341 }
+    .InputBlogId_layer_wrap .theme_list_layer .item .label,.selectbox-list ul li,.SetBlogId_layer_wrap .btn_area .cancel_btn,body,button,input,textarea,body,head,html { color: #cacaca;background: #242424 }
+    .InputBlogId_layer_wrap .theme_list_layer .item .label:hover { background: #3a3a3a }
     .l__aside,.layer-all-menu__depth1,.wrap_editorset>.list>.item { border-right: 1px solid #404040 }
-    .l__footer,.wrap_editorset .layer_list_option .option_lineheight_input { border-top: 1px solid #404040;background: #2f2f2f }
+    .l__footer,.SetBlogId_layer_wrap .btn_area,.wrap_editorset .layer_list_option .option_lineheight_input { border-top: 1px solid #404040;background: #2f2f2f }
     .l__header .module__gnb,.module__layer-all-menu,.wrap_layer_skin_preview .layer_skin_preview .layer_content,.wrap_layer_skin_preview .layer_skin_preview .layer_header,#layerLoadingBar > div >table > tbody tbody tr td[bgcolor] { background: #242424 }
     .layer_popup .layer_content,.layer_popup2 .layer_content,.ly_alert { border: 2px solid #404040;background: #242424 }
     .layer_popup .layer_header,.layer_popup2 .layer_header { color: #fff;background: #2f2f2f }
@@ -1482,8 +1484,16 @@
     .neighbor_add2:before { width: 100%;top: 0;position: absolute;pointer-events: none;left: 0;height: 100%;filter: invert(80%) hue-rotate(-180deg);content: '';background: url(https://blogimgs.pstatic.net/nblog/admin/buddy/line_v.gif) no-repeat 0 0 }
     .paginate a,.paginate strong { color: #cacaca;border-right: 1px solid #404040;border-left: 1px solid #404040;background: #242424 }
     .pagination .btn_next:before,.pagination .btn_prev:before,.wrap_editorset .se-color-apply-button:before { border-color: #cacaca }
-    .selectbox-list ul li,body,button,input,textarea,body,head,html { color: #cacaca;background: #242424 }
     .selectbox-list ul li.selectbox-item-over { background-color: #2f2f2f !important }
+    .SetBlogId_layer_wrap .back_btn_area .back_btn { background: url("data:image/svg+xml,%3Csvg width='12' height='21' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M11.15.378a.9.9 0 0 1-.028 1.272l-9.194 8.793c-.024.023-.028.043-.028.057 0 .014.004.033.028.056l9.19 8.788a.9.9 0 0 1-1.245 1.301L.684 11.857a1.87 1.87 0 0 1 0-2.715L9.878.35a.9.9 0 0 1 1.272.029Z' fill='%23fff'/%3E%3C/svg%3E") 10px 10px/12px 21px no-repeat }
+    .SetBlogId_layer_wrap .btn_area .submit_btn { color: #fff;background: #3a3a3a }
+    .SetBlogId_layer_wrap .btn_area .submit_btn:disabled { color: #666;background: #242424 }
+    .SetBlogId_layer_wrap .desc_area .item:before { background: #cacaca }
+    .SetBlogId_layer_wrap .pagination_area .item { background: #4f4f4f }
+    .SetBlogId_layer_wrap .pagination_area .item.is_active,.tutorial__skin-category-indicator { background: #fff }
+    .SetBlogId_layer_wrap .recommend_blogid .btn { filter: none;background: #3a3a3a }
+    .SetBlogIdAlert_wrap .blogid_area .img_area { filter: invert(84%) hue-rotate(-180deg) }
+    .SetBlogIdAlert_wrap .btn_area .btn { filter: none;color: #cacaca;background: #242424 }
     .spam_set .sset .inputb,.spam_set .sset .list { font-family: "돋움",Dotum,Helvetica,Sans-serif;color: #cacaca;border: 1px solid #404040;background-color: #242424 }
     .spam_set.last-box,.table1 .e td,.table1 .e th { border-bottom-color: #404040 }
     .tab1 .on a { border-color: #404040;background: #242424 }
@@ -1493,9 +1503,13 @@
     .table3,.table4,.tbl_buddymanage { border-top: 1px solid #404040;border-bottom: 1px solid #404040 }
     .tbl_buddymanage td { color: #cacaca;border-top: 1px solid #404040 }
     .theme_select_layer .theme_list { background: none }
-    .tip1 > dl > dt > img { filter: invert(81.5%) hue-rotate(-180deg) }
+    .tip1 > dl > dt > img,.WelcomeSetBlogId_layer_wrap .img_area .img { filter: invert(81.5%) hue-rotate(-180deg) }
     .tree li.tree-node.tree-selected .tree-div-selected { border-color: #404040 !important;background-color: #2f2f2f !important }
+    .tutorial__button-sorting-indicator { border: 1px solid #4f4f4f }
     .tutorial__close { background-color: transparent }
+    .tutorial__info-text:focus,.tutorial__info-text:hover { border-color: #4f4f4f }
+    .tutorial__skin-content.is-fix .tutorial__skin-filter:after { box-shadow: 0 5px 10px -3px rgba(0, 0, 0, 0.5) }
+    .WelcomeSetBlogId_layer_wrap .btn_area .btn { filter: none }
     .wrap_editorset .layer_list_option .option_lineheight_input .set_lineheight_input { color: #fff;background-color: #2f2f2f }
     .wrap_editorset .se-selected-color-hex { border: 1px solid #404040;border-left-width: 0 }
     .wrap_myvideo .wrap_search .input { color: #cacaca;border-color: #404040 }

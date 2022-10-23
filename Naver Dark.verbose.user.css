@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.27
+@version		1.64.28
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -88519,6 +88519,11 @@
 		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
+	div[class*='history_none___'] {
+		background: #242424;
+		color: #cacaca;
+	}
+	
 	@media only screen and (min-width: 961px) {
 		div[class*='setting_wrap___']:not([class*='_setting_wrap___']) ul[class*='view_switch_wrap___'] label[class*='switch___']:not([class*='on___']) {
 			background-color: #242424;
@@ -88714,6 +88719,74 @@
 			background-image: -webkit-gradient(linear,left top,left bottom,from(#2f2f2f),to(#242424));
 			background-image: linear-gradient(#2f2f2f,#242424);
 		}
+		
+		div[class*='mo_lang_select___'] select[class*='select___'] {
+			color: #cacaca;
+		}
+	}
+	
+	div[class*='setting_wrap___'][class*='mo___'] div[class*='setting_header___'] h2 {
+		color: #fff;
+	}
+	
+	div[class*='setting_wrap___'][class*='mo___'] {
+		border: none;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+	
+	div[class*='setting_wrap___'][class*='mo___'] div[class*='setting_header___'] {
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+	
+	div[class*='setting_wrap___'][class*='mo___'] button[class*='setting_header_back___'] {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	div[class*='setting_wrap___'][class*='mo___'] div[class*='setting_view_wrap___'] {
+		border-top: 1px solid #404040;
+	}
+	
+	div[class*='setting_wrap___'][class*='mo___'] div[class*='switch_wrap___'] {
+		border-bottom: 1px solid #404040;
+	}
+	
+	div[class*='setting_wrap___'] div[class*='switch_wrap___']:before {
+		border-top: 1px solid #404040;
+	}
+	
+	div[class*='setting_wrap___'][class*='mo___'] div[class*='setting_view_wrap___'] ul[class*='view_switch_wrap___'] li h4 {
+		color: #fff;
+	}
+	
+	div[class*='mo_menu___'][class*='v2___'] li[class*='list_item___'] a {
+		color: #cacaca;
+	}
+	
+	div[class*='setting_wrap___'][class*='mo___'] select[class*='select_box___'] {
+		background: #242424 !important;
+		border: none;
+	}
+	
+	div[class*='setting_wrap___'][class*='mo___'] div[class*='setting_view_wrap___'] ul[class*='view_switch_wrap___'] label[class*='switch___'] {
+		background: none;
+		background-color: #242424;
+		border: 1px solid #404040;
+	}
+	
+	div[class*='setting_wrap___'][class*='mo___'] div[class*='setting_view_wrap___'] ul[class*='view_switch_wrap___'] label[class*='switch___']:after {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	div[class*='setting_wrap___'][class*='mo___'] div[class*='switch_wrap___'] label[class*='switch___'] {
+		background: none;
+		background-color: #242424;
+		border: 1px solid #404040;
+	}
+	
+	div[class*='setting_wrap___'][class*='mo___'] div[class*='switch_wrap___'] label[class*='switch___']:after {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 }
 

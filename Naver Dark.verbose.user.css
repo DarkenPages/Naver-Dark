@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.28
+@version		1.64.29
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -86786,6 +86786,61 @@
 	
 	.cs_common_simple .cm_info_box .middle_title+.detail_info+.notice_link:before {
 		background: #404040;
+	}
+	
+	.sp_ntotal .multi_dsc_tab .item[aria-selected=true] {
+		color: #fff;
+		border-color: #404040;
+	}
+	
+	.sp_ntotal .multi_dsc_tab .item {
+		color: #cacaca;
+		border: 1px solid #404040;
+	}
+	
+	.sp_ntotal .multi_dsc_tab .item:hover {
+		color: #fff;
+		border-color: #4f4f4f;
+	}
+	
+	.sp_intent_review .tag_list_area .tag {
+		border: 1px solid #404040;
+	}
+	
+	.sp_intent_review .tag_list_area .tag .txt {
+		color: #cacaca;
+	}
+	
+	.sp_intent_review .scroll_review_wrap .product .info_area .title {
+		color: #fff;
+	}
+	
+	.sp_intent_review .scroll_review_wrap .product .info_area .price_info {
+		color: #cacaca;
+	}
+	
+	.sp_intent_review .scroll_review_wrap .product .info_area .review_info .score {
+		color: #cacaca;
+	}
+	
+	.sp_intent_review .scroll_review_wrap .product .info_area .review_info .count {
+		color: #cacaca;
+	}
+	
+	.sp_intent_review .scroll_review_wrap .product .info_area .review_info .score+.count:before {
+		background-color: #404040;
+	}
+	
+	.sp_intent_review .scroll_review_wrap .review {
+		border-top: 1px solid #404040;
+	}
+	
+	.sp_intent_review .scroll_review_wrap .review .txt {
+		color: #cacaca;
+	}
+	
+	.sp_intent_review .scroll_review_wrap .review .ico_review {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 }
 

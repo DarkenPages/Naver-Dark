@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.30
+@version		1.64.31
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -6733,7 +6733,7 @@
 @-moz-document url-prefix("https://nid.naver.com/user2/help/myInfoV2") {
     :root { --text-strong: #fff;--text-normal: #cacaca;--text-invert: #242424;--invert-normal: invert(86%) hue-rotate(-180deg);--invert-level2: invert(81.5%) hue-rotate(-180deg);--invert-full: invert(100%) hue-rotate(-180deg);--border-normal: #404040;--border-level2: #4f4f4f;--bg-normal: #242424;--bg-level3: #3a3a3a;--bg-level2: #2f2f2f }
     .account_box .title_text,.btn_contact,.btn_duo_popup .btn_item .btn_text,.switch_btn .switch_on { color: var(--text-invert) }
-    .account_box .title::after,.close_popup,.popup_row.select::after,.header_left .left_footer .footer_logo { filter: var(--invert-normal) }
+    .account_box .title::after,.close_popup,.popup_row.select::after { filter: var(--invert-normal) }
     .account_row li+li,.myprofile+.subindex_row,.subindex_row li+li { border-top: 1px solid var(--border-level2) }
     .account_row,.info_tooltip,.service_item,.subindex_alarm,.subindex_box,.subindex_onebox { border: 1px solid var(--border-normal);background-color: var(--bg-level2) }
     .alarm_login { border-bottom: 1px solid var(--border-level2) }
@@ -6742,7 +6742,7 @@
     .btn_accent .text,.btn_edit .text,.btn_logout .text,.btn_link .text,.info_tooltip .info_head,.location_select .sel,.myinfo_area .myaccount .myaddress,.popup_input,.row_item .item_text { color: var(--text-normal) }
     .btn_accent,.btn_edit,.btn_logout { border: 1px solid var(--border-level2);background-color: var(--bg-level2) }
     .contact_2step_popup,.contact_edit_popup,.header_subindex,.subindex_greenbox { background-color: var(--bg-level2) }
-    .gnb_area .gnb_title .text { filter: var(--invert-full) }
+    .gnb_notice_li a.gnb_notice .gnb_icon,.gnb_service_li a.gnb_service .gnb_icon,.mail_li a.gnb_mail .gnb_icon { filter: none }
     .location_select { border: 1px solid var(--border-level2) }
     .row_item .manage::before,.row_item .middle_data::before,.row_item .middle_text::before,.switch_btn::before,.switch_checkbox:checked+.switch_btn::before { background-color: var(--border-level2) }
     .row_item.abroad::before,.row_item.connect::before,.row_item.history::before,.row_item.list::before,.row_item.lock::before,.row_item.loginalarm::before,.row_item.mail::before,.row_item.name::before,.row_item.only::before,.row_item.other::before,.row_item.phone::before,.row_item.privacy::before,.row_item.step::before { filter: var(--invert-level2) }

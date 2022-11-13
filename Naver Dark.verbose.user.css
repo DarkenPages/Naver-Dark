@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.30
+@version		1.64.31
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -107878,6 +107878,10 @@
 
 @-moz-document url-prefix("https://nid.naver.com/user2/help/myInfoV2")
 {
+	.gnb_notice_li a.gnb_notice .gnb_icon, .mail_li a.gnb_mail .gnb_icon, .gnb_service_li a.gnb_service .gnb_icon {
+		filter: none;
+	}
+	
 	:root {
 		--bg-normal: #242424;
 		--bg-level2: #2f2f2f;
@@ -107934,10 +107938,6 @@
 	
 	.header_subindex {
 		background-color: var(--bg-level2);
-	}
-	
-	.header_left .left_footer .footer_logo {
-		filter: var(--invert-normal);
 	}
 	
 	.subindex_greenbox {
@@ -108089,10 +108089,6 @@
 	
 	.account_box .title::after {
 		filter: var(--invert-normal);
-	}
-	
-	.gnb_area .gnb_title .text {
-		filter: var(--invert-full);
 	}
 }
 

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.31
+@version		1.64.32
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -112405,8 +112405,20 @@
 	.se-viewer *[style*='color:rgb(64, 64, 64)'],
 	.se-viewer *[style*='color: rgb(64, 64, 64)'],
 	.se_body_wrap *[style*='color:rgb(64, 64, 64)'],
-	.se_body_wrap *[style*='color: rgb(64, 64, 64)'] {
+	.se_body_wrap *[style*='color: rgb(64, 64, 64)'],
+	.post_ct *[style*='color:rgb(33, 37, 41)'],
+	.post_ct *[style*='color: rgb(33, 37, 41)'],
+	.se-viewer *[style*='color:rgb(33, 37, 41)'],
+	.se-viewer *[style*='color: rgb(33, 37, 41)'],
+	.se_body_wrap *[style*='color:rgb(33, 37, 41)'],
+	.se_body_wrap *[style*='color: rgb(33, 37, 41)'] {
 		color: #fff !important;
+	}
+	
+	.post_ct tr[bgcolor='#ffffff'],
+	.se-viewer tr[bgcolor='#ffffff'],
+	.se_body_wrap tr[bgcolor='#ffffff'] {
+		background-color: #242424 !important;
 	}
 	
 	.post_ct *[style*='color:#999999'],
@@ -112445,6 +112457,15 @@
 	.se-viewer *[style*='background-color: #ffffff'],
 	.se_body_wrap *[style*='background-color:#ffffff'],
 	.se_body_wrap *[style*='background-color: #ffffff'] {
+		background-color: #242424 !important;
+	}
+	
+	.post_ct *[style*='background-color:white'],
+	.post_ct *[style*='background-color: white'],
+	.se-viewer *[style*='background-color:white'],
+	.se-viewer *[style*='background-color: white'],
+	.se_body_wrap *[style*='background-color:white'],
+	.se_body_wrap *[style*='background-color: white'] {
 		background-color: #242424 !important;
 	}
 	
@@ -112545,6 +112566,19 @@
 	.se-viewer *[style*='border-color: currentColor currentColor rgb(204, 204, 204) rgb(204, 204, 204)'i],
 	.se_body_wrap *[style*='border-color: currentColor currentColor rgb(204, 204, 204) rgb(204, 204, 204)'i] {
 		border-color: currentColor currentColor #404040 #404040 !important;
+	}
+	
+	.og .txt {
+		border: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.og .tit {
+		color: #fff;
+	}
+	
+	.og .dsc {
+		color: #cacaca;
 	}
 	
 	.se-viewer .se-text-list.se-text-list-type-decimal {

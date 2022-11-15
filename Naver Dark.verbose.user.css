@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.35
+@version		1.64.36
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -27414,8 +27414,8 @@
 		background: #2f2f2f;
 	}
 	
-	.gnb_list_box li:not(.calendar) a, .gnb_area .gnb_list_box .gnb_last .btn_more {
-		filter: invert(86%);
+	#header .pwe_home:before {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.h_calendar .gnb_area .gnb_list_box .gnb_last ul {
@@ -28581,10 +28581,6 @@
 	
 	.skin_set_wrap .skin_p {
 		color: #cacaca;
-	}
-	
-	.gnb_notice_li a.gnb_notice .gnb_icon, .mail_li a.gnb_mail .gnb_icon, .gnb_service_li a.gnb_service .gnb_icon {
-		filter: invert(0%) !important;
 	}
 	
 	.schedule_section a {
@@ -114175,18 +114171,6 @@
 
 @-moz-document url-prefix("https://mail.naver.com")
 {
-	#gnb.gnb_one_flat .gnb_my_li .gnb_my .gnb_name, #gnb.gnb_one_flat .gnb_login_li .gnb_btn_login .gnb_txt {
-		color: #cacaca;
-	}
-	
-	#gnb.gnb_one .gnb_login_li, #gnb.gnb_one_small .gnb_login_li, #gnb.gnb_one .gnb_my_li, #gnb.gnb_one_small .gnb_my_li, #gnb.gnb_one .gnb_notice_li, #gnb.gnb_one_small .gnb_notice_li, #gnb.gnb_one .mail_li, #gnb.gnb_one_small .mail_li, #gnb.gnb_one .gnb_service_li, #gnb.gnb_one_small .gnb_service_li {
-		background: none;
-	}
-	
-	#gnb.gnb_one_pwe .gnb_my_namebox {
-		background-image: url("https://ssl.pstatic.net/static/common/gnb/2014/ico_arrow_bl1.gif") !important;
-	}
-	
 	body, input, textarea, select, button {
 		color: #cacaca;
 	}
@@ -114780,5 +114764,20 @@
 	
 	.ly_text_picker .cp-manual .cp-preview {
 		border: 1px solid #404040;
+	}
+}
+
+@-moz-document url-prefix("https://calendar.naver.com"), url-prefix("https://mail.naver.com")
+{
+	#gnb.gnb_one_flat .gnb_my_li .gnb_my .gnb_name, #gnb.gnb_one_flat .gnb_login_li .gnb_btn_login .gnb_txt {
+		color: #cacaca;
+	}
+	
+	#gnb.gnb_one .gnb_login_li, #gnb.gnb_one_small .gnb_login_li, #gnb.gnb_one .gnb_my_li, #gnb.gnb_one_small .gnb_my_li, #gnb.gnb_one .gnb_notice_li, #gnb.gnb_one_small .gnb_notice_li, #gnb.gnb_one .mail_li, #gnb.gnb_one_small .mail_li, #gnb.gnb_one .gnb_service_li, #gnb.gnb_one_small .gnb_service_li {
+		background: none;
+	}
+	
+	#gnb.gnb_one_pwe .gnb_my_namebox {
+		background-image: url("https://ssl.pstatic.net/static/common/gnb/2014/ico_arrow_bl1.gif") !important;
 	}
 }

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.32
+@version		1.64.33
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -1688,528 +1688,528 @@
 
 @-moz-document regexp("https://mail\\.naver\\.com/(?!address/popup).*")
 {
-	html, head {
-		background: #242424;
-	}
-	
-	.divContent .xBar {
-		background-color: #404040;
-		border-color: #404040;
-	}
-	
-	.cmn_promotion_image {
-		border-bottom: 1px solid #404040;
-		border-radius: 10px;
-		margin: 10px;
-	}
-	
-	.btn_workset, .h_lft_menu, .h_lft_menu .btn_add, .h_lft_menu .btn_setup, .section_etcmail, .section_typemail, div.faq_cover a, h3.h_lft_menu {
-		background: #242424;
-		border-color: #404040 !important;
-	}
-	
-	div.btn_workset, div.faq_cover, div.section_typemail, div.svc_menu_area {
-		border-right-color: #404040 !important;
-	}
-	
-	#nav_snb h3.h_lft_menu .btn_add {
-		background: url(https://ssl.pstatic.net/static/pwe/nm/sp_works_2c5fd8bb.png);
-		background-size: 543px 533px;
-		background-position: -505px -322px;
-		background-repeat: no-repeat;
-		filter: invert(86%);
-	}
-	
-	#nav_snb div.btn_workset .btn_quickwrite strong, #nav_snb div.btn_workset .btn_import strong {
-		color: #000;
-		border: none;
-	}
-	
-	.skin_corp_bg {
-		background-color: #019341;
-	}
-	
-	.mailList .read .no {
-		mix-blend-mode: color-dodge;
-	}
-	
-	#detail_search.section_detail_srch fieldset .srch_item .ipt_text, #detail_search.section_detail_srch fieldset .srch_item2 .ipt_text, #detail_search.section_detail_srch fieldset .srch_item3 .ipt_text {
-		color: #cacaca;
-		border-color: #404040;
-	}
-	
-	.mailListBtn .buttonSet .check_mail:hover {
-		background-color: #2c2c2c;
-		color: #c8c8c8;
-		border-color: #4c4c4c;
-	}
-	
-	.basic_calendar, .color-picker, .dh_layer .ly_alert, .dh_layer .ly_tooltip, .dh_layer .type_a, .dh_layer .type_b, .dh_layer .type_c .layer_content, .ly_pop .ly_pop_inner, .pop_reserve, .section_captcha, .setup_layer {
-		background: #242424;
-		border-color: #404040;
-	}
-	
-	.mailListBtn .buttonSet button:hover {
-		background-color: #2c2c2c;
-		color: #c8c8c8;
-		border-color: #4c4c4c;
-	}
-	
-	.dh_layer .moveBox .mailBoxMove input {
-		border: 1px solid #404040;
-		color: #cacaca;
-		background: #242424;
-	}
-	
-	.dh_layer button, .pop_reserve button, .setup_layer button, .tooltip_cover button {
-		color: #cacaca;
-		border: 1px solid #404040;
-	}
-	
-	div.paginate strong {
-		border-color: #404040 !important;
-	}
-	
-	#detail_search.section_detail_srch .srch_select_box .current_item {
-		border-right: 1px solid #404040;
-	}
-	
-	.dh_layer .type_c .layer_content .hTitle {
-		border-bottom: 1px solid #404040;
-		background-color: #242424;
-	}
-	
-	div.viewTitle {
-		border-bottom-color: #404040;
-	}
-	
-	.viewTitle {
-		border-bottom: 1px solid #404040;
-		color: #cacaca;
-	}
-	
-	div.dh_layer .quickMenu a.selected, div.dh_layer .quickMenu a:hover {
-		color: #c8c8c8;
-	}
-	
-	.tp_layer .tl_con {
-		background: #242424;
-		color: #cacaca;
-		border-color: #404040;
-	}
-	
-	.upld_header {
-		background-color: #242424;
-		border-bottom: 1px solid #404040;
-	}
-	
-	.dh_layer .autoAddr a.btn_del {
-		background-color: transparent;
-	}
-	
-	#smart_editor2 .se2_imoticon_list button span img {
-		filter: invert(100%);
-	}
-	
-	.se2_inputarea table tbody tr td {
-		background-color: #242424 !important;
-		color: #cacaca !important;
-	}
-	
-	.se2_inputarea table {
-		background-color: #404040 !important;
-	}
-	
-	.template_mail .save_to_template {
-		color: #cacaca;
-		border-top: 1px solid #404040;
-	}
-	
-	.dh_layer .type_b .hTitle, .dh_layer .type_b h4, .setup_layer .hTitle {
-		color: #fff;
-		border-bottom: 1px solid #404040;
-	}
-	
-	div.pop_reserve .tab_reserve li a.selected {
-		background-color: #2c2c2c;
-		border-bottom-color: #4c4c4c;
-		color: #c8c8c8;
-	}
-	
-	div.pop_reserve .tab_reserve li a {
-		background: #242424;
-		border: 1px solid #404040;
-		color: #cacaca;
-	}
-	
-	.cp_save_list li .aso {
-		border-left: 1px solid #404040;
-		color: #cacaca;
-	}
-	
-	.cp_body button {
-		background: #242424;
-		color: #cacaca;
-		border: 1px solid #404040;
-	}
-	
-	.setup_lnb .menu_list li.on {
-		border-bottom: 1px solid #242424;
-		background: #242424;
-	}
-	
-	.spam_reason, .translate {
-		background-color: #242424;
-		color: #cacaca;
-		border: 1px solid #404040;
-	}
-	
-	.info_mailbox .result td {
-		background: #2c2c2c;
-		color: #cacaca;
-		border-bottom: 1px solid #404040;
-	}
-	
-	.form_ul1 {
-		border-top: 1px solid #404040;
-		border-bottom: 1px solid #404040;
-		background-color: #2c2c2c;
-	}
-	
-	.classify_fn {
-		background: #242424;
-		border-top: 1px solid #404040;
-		border-bottom: 1px solid #404040;
-	}
-	
-	.search_area .ipt {
-		border: 1px solid #404040;
-		color: #cacaca !important;
-	}
-	
-	.bill_list .link_btn {
-		border: 1px solid #404040;
-		color: #cacaca;
-	}
-	
-	.ly_pop .ly_header {
-		color: #cacaca;
-		border-bottom: 1px solid #404040;
-	}
-	
-	.setup_content .chk_all {
-		background-color: #2c2c2c;
-		border: 1px solid #404040;
-		border-bottom: 0;
-	}
-	
-	.input_keyword .input_text {
-		color: #cacaca;
-		border-color: #404040;
-	}
-	
-	.safelist .title {
-		background-color: #2c2c2c;
-		border-bottom: 1px solid #404040;
-		color: #cacaca;
-	}
-	
-	.tab_ext_reg li {
-		border: 1px solid #404040;
-		border-bottom: 0 none;
-	}
-	
-	.box_ext_reg table th {
-		background-color: #242424 !important;
-	}
-	
-	.box_ext_reg table td input.text {
-		color: #cacaca;
-		border: 1px solid #404040;
-		background: #242424;
-	}
-	
-	.tb_ext_list table thead th {
-		background-color: #2c2c2c;
-		border-top-color: #404040;
-	}
-	
-	.box_ext_reg table td, .box_ext_reg table th {
-		color: #cacaca;
-		border: 0;
-		border-top: 1px solid #404040;
-	}
-	
-	.info_wrap .tip {
-		background: #2c2c2c;
-		border-top: 1px solid #404040;
-	}
-	
-	.shortcut_container td, .shortcut_container th {
-		border: 0;
-		border-top: 1px solid #404040;
-	}
-	
-	.tooltip_cover {
-		background: #242424;
-		border-color: #404040;
-	}
-	
-	.attach_card_body .thumb_img {
-		background-color: #2c2c2c;
-		border: 1px solid #404040;
-	}
-	
-	.file_list {
-		border: 1px solid #404040;
-		border-bottom: 0;
-	}
-	
-	.skin_set_wrap {
-		background: #242424;
-		color: #cacaca;
-		border-color: #404040;
-	}
-	
-	div.relMails .relativeList .mailList {
-		border-top-color: #404040;
-	}
-	
-	ol.mailList li.cv_slave {
-		background-color: #404040;
-		border-bottom: 1px solid #404040;
-		border-color: #404040;
-	}
-	
-	body, .mInput_holder .list_addrobj li.new_addr .addr_input, .mInput_holder .list_addrobj li.new_addr .addr_obj, #smart_editor2 .se2_input_syntax, #smart_editor2 .se2_input_wysiwyg, .pop_reserve .input_area .input_text, input[type=image], input[type=text], textarea, .classify th {
-		background: #242424;
-		color: #cacaca;
-	}
-	
-	.divContent .subMsg2, .divContent .subMsg2 a, div.list_menu .item_wrap a, div.list_menu li.new_folder .input_txt, div.section_typemail a, .mailList .mTitle a, .section_detail_srch .opt_tit, .section_detail_srch .srch_item_row1 .srch_item label, .section_detail_srch .srch_item_row2 .srch_item label, .section_detail_srch label, .mailListHead, .mailListHead .allMail, .searchkey_result .keyword, .dh_layer .moveBox .moveBox_list li label, .dh_layer .type_a .selector li a, .dh_layer .type_a .selector li a:active, .dh_layer .type_a.list_checkall .selector li a:hover, .mailListBtn .buttonSet .btn_txt, .paginate .num, .dh_layer .hTitle, .notice_layer .hTitle, div.viewTitle h4, .viewTitle h4, div.viewTitle dl dt, .viewTitle dl dd a, .viewTitle dl, .mailWriteItem th .raw_label a, .mailWriteItem .txtTlt, .mailWriteItem .private label, .mInput_holder .list_addrobj li .addr_input input, .mInput_holder .list_addrobj li .addr_input textarea, .dh_layer .autoAddr li a, .mailWriteItem .delete, .mail_preview .preview_area .pre_header ul li, .mail_preview .preview_area .pre_attach ul li, .mail_preview .preview_check .option_tit, .mail_preview .preview_check label, .template_mail_save .guide_txt p, .template_mail .template_list li a, .pop_reserve .notice p, .svrMsg h4, .cp_address_save .cp_tit, .spam_reason dt, .noImgs .ico_caution, .setup_gnb .menu_list a, .setup_lnb .menu_list li.on a, .manage_mailbox .posr, .subtitle, .setup_layer .msg, .ly_pop .btn_layer_btm, .cont_flex_setup .classify .condition a, .setup_layer .paragraph, .setup_layer .tt_list li, button.btn_txt, .box_notice .txt, .attach_card_head .subject a, .attach_card_body .file_info .file_name, .file_list li a, .attfile_area h5, .skin_set_wrap .sk_list_area li a, .relMails .relBox .tit, .dh_layer .type_b, .dh_layer .sTipTxt3 li, .divList.grp_sender .infor_sender li.count a, .divList.grp_sender .infor_sender li.count strong, .searchkey_result .keyword .search_keyword .condition {
-		color: #cacaca;
-	}
-	
-	#header, #header.h_mail, div#header {
-		background: #2c2c2c !important;
-	}
-	
-	#container, #nav_snb, div.mailListBtn, .se2_inputarea {
-		background: #242424 !important;
-	}
-	
-	a.btn_change_layout.view_split_hor .spr, a.btn_change_layout.view_split_ver .spr, a.btn_change_type.view_conversation .spr, #nav_snb .foldup .ico_fold, #nav_snb .ico_fold, .icoImportantOff, .attach_card_head .read .yes, .cv_card .read .yes, .cv_card.autoSpread .read .yes, .mailList .read .yes, .mailList .expand button.close, .mailList .expand button.open, .mailListBtn .buttonSet button.sendto .ic_send, .mailListBtn .buttonSet .disabled .buDel, .mailListBtn .buttonSet button[disabled=disabled] .buDel, .mailListBtn .buttonSet .buDel, a.btn_refresh, a.btn_change_type.view_timeline .spr, a.btn_change_layout.view_list .spr, .color-picker .cls_layer:hover, .dh_layer .hTitle .lClose:hover, .dh_layer .ly_alert .btn_layer_close:hover, .dh_layer .type_c .lClose:hover, .dh_layer button.btn_close:hover, .ly_classify .btn_layer_close:hover, .ly_tooltip .btn_layer_close:hover, .notice_layer .hTitle .lClose:hover, .setup_layer .btn_close:hover, .skin_set_wrap .btn_cls:hover, .tooltipLayer2 .t1Con .btn_close:hover, .tp_layer .tl_con .btn_close:hover, .type_alert .btn_close:hover, div.viewTitle .icoVipOff, div.mInput_holder .btn_recentaddr a img, div.mInput_holder .btn_recentaddr a:hover img, .mailWriteItem .private .btn_help, table.mailWriteItem .sClose, table.mailWriteItem .sOpen, div.mailListBtn .layoutSelectText .button_s2 .ico_arrow, div.mailListBtn .layoutSelectText .button_s2 .ico_win, div.mailListBtn .layoutSelectText .button_s2 .ico_setting_write, .icon_attach, #smart_editor2 .se2_conversion_mode, #smart_editor2 .se2_text_tool, #smart_editor2 .se2_reck, #smart_editor2 .se2_ckfin, .pop_reserve .input_area select, .cp_save_list li .imp, .cp_address_save .btn_c .ico, .list_mode_select .list_mode_normal, .list_mode_select .list_mode_hor, .list_mode_select .list_mode_ver, .icon_preview, .setup_layer .folder_preview, .setup_layer .list_preview, .setup_layer .newmail_preview1, .setup_layer .newmail_preview2, .ly_classify .filter_address .btn_toggle, .form_ul1 .form_content .icon_tip, .tooltip_cover .tooltip_arrow_bottom, a.btn_change_type.view_sender .spr, .attach_card_body .btn_savepc, .attfile_area .file_list .btn_savepc, .attfile_area .attfile_toggle, div.relMails .relBox .help, .attach_card_head .read .admin, .cv_card .read .admin, .cv_card.autoSpread .read .admin, .mailList .read .admin, div.nav_endless .ico_view_top, .attach_card_head .read .re, .cv_card .read .re, .cv_card.autoSpread .read .re, .mailList .read .re {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	div.viewTitle dl dt .viewMoreOn {
-		filter: invert(86%) hue-rotate(-180deg);
-		background-position: -481px -114px;
-		width: 15px;
-		height: 15px;
-	}
-	
-	div.viewTitle dl dt .viewMoreOff {
-		filter: invert(86%) hue-rotate(-180deg);
-		background-position: -504px -1px;
-		width: 15px;
-		height: 15px;
-	}
-	
-	.attfile_area .virus {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.attfile_area {
-		margin-bottom: 30px;
-	}
-	
-	#nav_snb h3.h_lft_menu {
-		color: #cacaca;
-	}
-	
-	.toTop {
-		background: #fff;
-		padding-bottom: 10px;
-	}
-	
-	.gnb_area .gnb_list_box .gnb_last ul, .h_mail .gnb_area .gnb_list_box .gnb_last ul, .h_mail_lite .gnb_area .gnb_list_box .gnb_last ul, div.divWrite .mailWriteItem .utx_btn, .setup_lnb .menu_list li {
-		border: 1px solid #404040;
-		background-color: #242424;
-	}
-	
-	div.list_horizontal .divContent .xBar, div.list_vertical .divContent .xBar, div.msearch .detail, div.msearch .search, div.msearch .search_btn, .mailListBtn .buttonSet .check_mail, .mailListBtn .buttonSet button, .dh_layer .moveBox .mailBoxMove button, .dh_layer .moveBox .mailBoxMove input, ol.mailList li, div.mInput_holder, div#smart_editor2 #smart_editor2_content, div.uploader5, .setup_head, .manage_mailbox button, .ly_classify .criteria, .ly_classify .handle, .input_keyword button, div.relMails .relBox, .divList.grp_sender .infor_sender.fold, .mailList li.cv_master {
-		border-color: #404040;
-	}
-	
-	div.list_menu ul li .btn_status, div.list_menu ul li .btn_use, div.list_menu ul li .btn_wr2me, div.list_menu ul li.write_tome.ovr .btn_add_folder, .mailListBtn .buttonSet button[disabled=disabled] {
-		background-color: #242424;
-		border-color: #404040;
-	}
-	
-	div.list_menu ul li .btn_status:hover, div.list_menu ul li .btn_use:hover, div.list_menu ul li .btn_wr2me:hover, div.list_menu ul li.write_tome.ovr .btn_add_folder:hover {
-		border-color: #4c4c4c;
-	}
-	
-	#content, .searchLayer, #container .spam_cause .spam_cause_1, #container .spam_cause .spam_cause_2, #setup_container, .custom_selectbox_layer .autoAddr li label, .ly_classify .dimmed, .ly_pop .btn_layer_btm.b, .box_ext_reg#ext_inp table tbody>tr:last-child>th:last-child {
-		background: #242424;
-	}
-	
-	.mailListBtn, .searchkey_result, .dh_layer .moveBox .mailBoxMove, .dh_layer .type_a .item_tit, .dh_layer .type_a .selector .border a, .section_detail_srch, div.pop_reserve .tab_reserve, .adMsg, .svrMsg, .setup_lnb .menu_list, .mail_preview .preview_area .pre_attach, .mail_preview .preview_area .pre_header, .help_mailbox, .bill_list li, .without_lnb .setup_gnb, .receive_list.divider, .tab_ext_reg, .shortcut_container, .list_by_attachfile .attach_card_head, .file_list li, .skin_set_wrap .skin_title, .divList.grp_sender .infor_sender, .divList.grp_sender .listWrap .more {
-		border-bottom: 1px solid #404040;
-	}
-	
-	.mailList li, .dh_layer .autoAddr {
-		background: #242424;
-		border-bottom: 1px solid #404040;
-	}
-	
-	.btn_fold, .lft_fd .btn_fold, .section_detail_srch select, #detail_search.section_detail_srch .srch_select_box, .dh_layer .moveBox .btn_area button, a.btn_change_layout, a.btn_change_type, div.paginate a.pre_end_n, div.paginate a.pre_n, .paginate strong, div.paginate a.next, div.paginate a.next_end, .mailListBtn .layoutSelect a.btn_print, .mailListBtn .layoutSelectText a.btn_print, div.paginate a.pre_end, div.paginate a.pre, div.paginate a.next_n, div.paginate a.next_end_n, .mInput_holder, .mailWriteItem .sguide, .uploader5, .template_mail_save .template_name .ipt_cover, .input_text, .cp_save_bor, .storage .total, .custom_selectbox .select_button, .ly_classify .flx_guide, .setup_content .slct_mailbox, .keyword_option, .txt_box, .shortcut_container td input, .skin_set_wrap .sk_list_area li, .relMails .relBox {
-		border: 1px solid #404040;
-	}
-	
-	.btn_fold:hover, .lft_fd .btn_fold:hover, div.dh_layer .type_a .selector li a:focus, div.dh_layer .type_a .selector li a:hover, .dh_layer .type_a .selector li a:active, .dh_layer .type_a .selector li a:focus, .dh_layer .type_a .selector li a:hover, div.dh_layer .type_a.list_checkall .selector li a:focus, #detail_search.section_detail_srch fieldset .btn_srch_submit:hover, .simple_search li.selected, .template_mail .save_to_template:hover, .template_mail .template_list li.ovr, .divList .listWrap_attach {
-		background-color: #2c2c2c;
-	}
-	
-	.mailListHead strong .bar, .searchkey_result .keyword .search_keyword .bar, .classify th span, .bill_list .corp_wrap, .rside .keyword_register {
-		border-left: 1px solid #404040;
-	}
-	
-	.searchLayer a.onfocus, .searchLayer a:focus, .searchLayer a:hover, .divList.grp_sender .mailList li.selected, .mailList li.selected, .mailList li.selected .mTitle {
-		background: #2f2f2f;
-	}
-	
-	.mailListBtn .buttonSet .do_send, .mailListBtn .buttonSet .primary, .mailListBtn .buttonSet .do_send[disabled=disabled], .mailListBtn .buttonSet .primary[disabled=disabled], #detail_search.section_detail_srch fieldset .btn_srch_submit, #footer .quick_link, #footer .quick_tools, .dh_layer button.b, .pop_reserve button.b, .setup_layer button.b, .tooltip_cover button.b, .form_ul1 .form_content, .setup_content .btn button.b, .tab_ext_reg li a span {
-		background-color: #242424;
-	}
-	
-	div.divList.grp_sender .mailList li.selected, ol.mailList li.selected, ol.mailList li.selected .mTitle, .dh_layer .moveBox .moveBox_list li:hover, .dh_layer .moveBox .moveBox_list li.hover, .divList.grp_sender .listWrap, .divList.grp_sender .infor_sender:hover {
-		background-color: #2f2f2f;
-	}
-	
-	.dh_layer .list_sorting a:hover .ico_sort, button.disabled, button[disabled=disabled] {
-		background-color: #2c2c2c;
-		border-color: #4c4c4c;
-	}
-	
-	.btn_srch_submit, .button, .buttonSet .check_mail, .txtbtn_white, button, li.write_tome.ovr .btn_add_folder:hover, li.write_tome.tooltip .btn_add_folder:hover, .dh_layer .sTipTxt3 {
-		background-color: #242424;
-		border: 1px solid #404040;
-		color: #cacaca;
-	}
-	
-	.paginate, .faq_exam_list, .mailList.readUnder, .dh_layer .searchLayer .quickMenu, .divWriteOk, .info_mailbox td, .form_ul1 li, .classify td, .ly_classify .classify_section, .ly_classify .retroactive, .setup_layer .under_msg, .nav_endless .list_autoload {
-		border-top: 1px solid #404040;
-	}
-	
-	.bar {
-		background: transparent;
-	}
-	
-	.faq_exam_list .category, .mail_preview .preview_area .pre_body, .readFrame, .upld_flist .attach_type, .upld_flist .down_period, .upld_flist .file_name, .upld_flist .file_select, .upld_flist .file_size, .upld_flist .status, .mail_preview .preview_area .pre_header h4.pre_tit, .divList .nom, .cp_save_list li .name input, .form_ul1 .form_title, .setup_content .m_noti .tx strong, .dh_layer .type_b .view_more a, .dh_layer .type_c .view_more a, .attach_card_head .name a, .divList.grp_sender .infor_sender li.sender a {
-		color: #fff;
-	}
-	
-	.relativeView td {
-		 background-color: #404040;
-		 color: #fff;
-	}
-	
-	.relativeView .to {
-		color: #fff;
-	}
-	
-	#readFrame {
-		background: #fff;
-		color: #000;
-	}
-	
-	#footer, .info_mailbox thead th {
-		background: #242424;
-		border-top: 1px solid #404040;
-	}
-	
-	#footer .bar, .svrMsg .link_cover .bar, .info_mailbox td.box_btn .bar, .classify_fn .posr .bar {
-		color: #404040;
-	}
-	
-	div.dh_layer .quickMenu, .mailWriteItem .sguide .mInput, .tab_ext_reg li span {
-		background-color: #242424;
-		color: #cacaca;
-	}
-	
-	table.mailWriteItem .mInput_holder .mSendName, .template_mail_save .template_name .ipt_cover input, .notify_area .alert p {
-		color: #cacaca;
-		background: #242424;
-	}
-	
-	.autoAddr .selected a, .list_keyword li.selected, .shortcut_container th {
-		background: #2c2c2c;
-	}
-	
-	div.divWrite .utx_btn_b, .mailList button.btn_view_slave {
-		color: #cacaca;
-		background-color: #242424;
-		border: 1px solid #404040;
-	}
-	
-	.uploader5 .chg_type, #smart_editor2 .se2_spell_check, .manage_mailbox input {
-		border: 1px solid #404040;
-		background: #242424;
-		color: #cacaca;
-	}
-	
-	div.section_sendopt .cal .tit, .dh_layer2 .preview_area, .mail_preview .preview_area {
-		background: #242424;
-		border: 1px solid #404040;
-	}
-	
-	.template_mail_save .guide_txt, .list_by_attachfile li {
-		background-color: #242424;
-		border: 1px solid #404040;
-	}
-	
-	.pop_reserve .notice, .cp_save_list li .name, .custom_selectbox_layer, .box_notice {
-		border: 1px solid #404040;
-		background: #242424;
-	}
-	
-	.noImgs, .list_keyword {
-		border: 1px solid #404040;
-		background-color: #242424;
-		color: #cacaca;
-	}
-	
-	.safelist, .box_ext_reg table, .info_wrap {
-		border-top: 1px solid #404040;
-		border-bottom: 1px solid #404040;
-	}
-	
-	select {
-		appearance: none;
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		background: #242424;
-		color: #cacaca;
-		border: 1px solid #404040;
-		background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiNjYWNhY2EiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQuNDI3IDkuNDI3IDMuMzk2IDMuMzk2YS4yNTEuMjUxIDAgMCAwIC4zNTQgMGwzLjM5Ni0zLjM5NkEuMjUuMjUgMCAwIDAgMTEuMzk2IDlINC42MDRhLjI1LjI1IDAgMCAwLS4xNzcuNDI3ek00LjQyMyA2LjQ3IDcuODIgMy4wNzJhLjI1LjI1IDAgMCAxIC4zNTQgMEwxMS41NyA2LjQ3YS4yNS4yNSAwIDAgMS0uMTc3LjQyN0g0LjZhLjI1LjI1IDAgMCAxLS4xNzctLjQyN3oiLz48L3N2Zz4=");
-		background-position: right 2px center;
-		background-repeat: no-repeat;
-		background-size: 16px;
-		padding: 1px 20px 1px 5px;
-		border-radius: 5px;
-		filter: none;
-	}
-	
-	select:focus-visible {
-		outline: none;
-	}
-	
-	select:disabled {
-		color: #666;
-		background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiM2NjYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQuNDI3IDkuNDI3IDMuMzk2IDMuMzk2YS4yNTEuMjUxIDAgMCAwIC4zNTQgMGwzLjM5Ni0zLjM5NkEuMjUuMjUgMCAwIDAgMTEuMzk2IDlINC42MDRhLjI1LjI1IDAgMCAwLS4xNzcuNDI3ek00LjQyMyA2LjQ3IDcuODIgMy4wNzJhLjI1LjI1IDAgMCAxIC4zNTQgMEwxMS41NyA2LjQ3YS4yNS4yNSAwIDAgMS0uMTc3LjQyN0g0LjZhLjI1LjI1IDAgMCAxLS4xNzctLjQyN3oiLz48L3N2Zz4=");
-	}
+	/*html, head {*/
+	/*	background: #242424;*/
+	/*}*/
+	
+	/*.divContent .xBar {*/
+	/*	background-color: #404040;*/
+	/*	border-color: #404040;*/
+	/*}*/
+	
+	/*.cmn_promotion_image {*/
+	/*	border-bottom: 1px solid #404040;*/
+	/*	border-radius: 10px;*/
+	/*	margin: 10px;*/
+	/*}*/
+	
+	/*.btn_workset, .h_lft_menu, .h_lft_menu .btn_add, .h_lft_menu .btn_setup, .section_etcmail, .section_typemail, div.faq_cover a, h3.h_lft_menu {*/
+	/*	background: #242424;*/
+	/*	border-color: #404040 !important;*/
+	/*}*/
+	
+	/*div.btn_workset, div.faq_cover, div.section_typemail, div.svc_menu_area {*/
+	/*	border-right-color: #404040 !important;*/
+	/*}*/
+	
+	/*#nav_snb h3.h_lft_menu .btn_add {*/
+	/*	background: url(https://ssl.pstatic.net/static/pwe/nm/sp_works_2c5fd8bb.png);*/
+	/*	background-size: 543px 533px;*/
+	/*	background-position: -505px -322px;*/
+	/*	background-repeat: no-repeat;*/
+	/*	filter: invert(86%);*/
+	/*}*/
+	
+	/*#nav_snb div.btn_workset .btn_quickwrite strong, #nav_snb div.btn_workset .btn_import strong {*/
+	/*	color: #000;*/
+	/*	border: none;*/
+	/*}*/
+	
+	/*.skin_corp_bg {*/
+	/*	background-color: #019341;*/
+	/*}*/
+	
+	/*.mailList .read .no {*/
+	/*	mix-blend-mode: color-dodge;*/
+	/*}*/
+	
+	/*#detail_search.section_detail_srch fieldset .srch_item .ipt_text, #detail_search.section_detail_srch fieldset .srch_item2 .ipt_text, #detail_search.section_detail_srch fieldset .srch_item3 .ipt_text {*/
+	/*	color: #cacaca;*/
+	/*	border-color: #404040;*/
+	/*}*/
+	
+	/*.mailListBtn .buttonSet .check_mail:hover {*/
+	/*	background-color: #2c2c2c;*/
+	/*	color: #c8c8c8;*/
+	/*	border-color: #4c4c4c;*/
+	/*}*/
+	
+	/*.basic_calendar, .color-picker, .dh_layer .ly_alert, .dh_layer .ly_tooltip, .dh_layer .type_a, .dh_layer .type_b, .dh_layer .type_c .layer_content, .ly_pop .ly_pop_inner, .pop_reserve, .section_captcha, .setup_layer {*/
+	/*	background: #242424;*/
+	/*	border-color: #404040;*/
+	/*}*/
+	
+	/*.mailListBtn .buttonSet button:hover {*/
+	/*	background-color: #2c2c2c;*/
+	/*	color: #c8c8c8;*/
+	/*	border-color: #4c4c4c;*/
+	/*}*/
+	
+	/*.dh_layer .moveBox .mailBoxMove input {*/
+	/*	border: 1px solid #404040;*/
+	/*	color: #cacaca;*/
+	/*	background: #242424;*/
+	/*}*/
+	
+	/*.dh_layer button, .pop_reserve button, .setup_layer button, .tooltip_cover button {*/
+	/*	color: #cacaca;*/
+	/*	border: 1px solid #404040;*/
+	/*}*/
+	
+	/*div.paginate strong {*/
+	/*	border-color: #404040 !important;*/
+	/*}*/
+	
+	/*#detail_search.section_detail_srch .srch_select_box .current_item {*/
+	/*	border-right: 1px solid #404040;*/
+	/*}*/
+	
+	/*.dh_layer .type_c .layer_content .hTitle {*/
+	/*	border-bottom: 1px solid #404040;*/
+	/*	background-color: #242424;*/
+	/*}*/
+	
+	/*div.viewTitle {*/
+	/*	border-bottom-color: #404040;*/
+	/*}*/
+	
+	/*.viewTitle {*/
+	/*	border-bottom: 1px solid #404040;*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*div.dh_layer .quickMenu a.selected, div.dh_layer .quickMenu a:hover {*/
+	/*	color: #c8c8c8;*/
+	/*}*/
+	
+	/*.tp_layer .tl_con {*/
+	/*	background: #242424;*/
+	/*	color: #cacaca;*/
+	/*	border-color: #404040;*/
+	/*}*/
+	
+	/*.upld_header {*/
+	/*	background-color: #242424;*/
+	/*	border-bottom: 1px solid #404040;*/
+	/*}*/
+	
+	/*.dh_layer .autoAddr a.btn_del {*/
+	/*	background-color: transparent;*/
+	/*}*/
+	
+	/*#smart_editor2 .se2_imoticon_list button span img {*/
+	/*	filter: invert(100%);*/
+	/*}*/
+	
+	/*.se2_inputarea table tbody tr td {*/
+	/*	background-color: #242424 !important;*/
+	/*	color: #cacaca !important;*/
+	/*}*/
+	
+	/*.se2_inputarea table {*/
+	/*	background-color: #404040 !important;*/
+	/*}*/
+	
+	/*.template_mail .save_to_template {*/
+	/*	color: #cacaca;*/
+	/*	border-top: 1px solid #404040;*/
+	/*}*/
+	
+	/*.dh_layer .type_b .hTitle, .dh_layer .type_b h4, .setup_layer .hTitle {*/
+	/*	color: #fff;*/
+	/*	border-bottom: 1px solid #404040;*/
+	/*}*/
+	
+	/*div.pop_reserve .tab_reserve li a.selected {*/
+	/*	background-color: #2c2c2c;*/
+	/*	border-bottom-color: #4c4c4c;*/
+	/*	color: #c8c8c8;*/
+	/*}*/
+	
+	/*div.pop_reserve .tab_reserve li a {*/
+	/*	background: #242424;*/
+	/*	border: 1px solid #404040;*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.cp_save_list li .aso {*/
+	/*	border-left: 1px solid #404040;*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.cp_body button {*/
+	/*	background: #242424;*/
+	/*	color: #cacaca;*/
+	/*	border: 1px solid #404040;*/
+	/*}*/
+	
+	/*.setup_lnb .menu_list li.on {*/
+	/*	border-bottom: 1px solid #242424;*/
+	/*	background: #242424;*/
+	/*}*/
+	
+	/*.spam_reason, .translate {*/
+	/*	background-color: #242424;*/
+	/*	color: #cacaca;*/
+	/*	border: 1px solid #404040;*/
+	/*}*/
+	
+	/*.info_mailbox .result td {*/
+	/*	background: #2c2c2c;*/
+	/*	color: #cacaca;*/
+	/*	border-bottom: 1px solid #404040;*/
+	/*}*/
+	
+	/*.form_ul1 {*/
+	/*	border-top: 1px solid #404040;*/
+	/*	border-bottom: 1px solid #404040;*/
+	/*	background-color: #2c2c2c;*/
+	/*}*/
+	
+	/*.classify_fn {*/
+	/*	background: #242424;*/
+	/*	border-top: 1px solid #404040;*/
+	/*	border-bottom: 1px solid #404040;*/
+	/*}*/
+	
+	/*.search_area .ipt {*/
+	/*	border: 1px solid #404040;*/
+	/*	color: #cacaca !important;*/
+	/*}*/
+	
+	/*.bill_list .link_btn {*/
+	/*	border: 1px solid #404040;*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.ly_pop .ly_header {*/
+	/*	color: #cacaca;*/
+	/*	border-bottom: 1px solid #404040;*/
+	/*}*/
+	
+	/*.setup_content .chk_all {*/
+	/*	background-color: #2c2c2c;*/
+	/*	border: 1px solid #404040;*/
+	/*	border-bottom: 0;*/
+	/*}*/
+	
+	/*.input_keyword .input_text {*/
+	/*	color: #cacaca;*/
+	/*	border-color: #404040;*/
+	/*}*/
+	
+	/*.safelist .title {*/
+	/*	background-color: #2c2c2c;*/
+	/*	border-bottom: 1px solid #404040;*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.tab_ext_reg li {*/
+	/*	border: 1px solid #404040;*/
+	/*	border-bottom: 0 none;*/
+	/*}*/
+	
+	/*.box_ext_reg table th {*/
+	/*	background-color: #242424 !important;*/
+	/*}*/
+	
+	/*.box_ext_reg table td input.text {*/
+	/*	color: #cacaca;*/
+	/*	border: 1px solid #404040;*/
+	/*	background: #242424;*/
+	/*}*/
+	
+	/*.tb_ext_list table thead th {*/
+	/*	background-color: #2c2c2c;*/
+	/*	border-top-color: #404040;*/
+	/*}*/
+	
+	/*.box_ext_reg table td, .box_ext_reg table th {*/
+	/*	color: #cacaca;*/
+	/*	border: 0;*/
+	/*	border-top: 1px solid #404040;*/
+	/*}*/
+	
+	/*.info_wrap .tip {*/
+	/*	background: #2c2c2c;*/
+	/*	border-top: 1px solid #404040;*/
+	/*}*/
+	
+	/*.shortcut_container td, .shortcut_container th {*/
+	/*	border: 0;*/
+	/*	border-top: 1px solid #404040;*/
+	/*}*/
+	
+	/*.tooltip_cover {*/
+	/*	background: #242424;*/
+	/*	border-color: #404040;*/
+	/*}*/
+	
+	/*.attach_card_body .thumb_img {*/
+	/*	background-color: #2c2c2c;*/
+	/*	border: 1px solid #404040;*/
+	/*}*/
+	
+	/*.file_list {*/
+	/*	border: 1px solid #404040;*/
+	/*	border-bottom: 0;*/
+	/*}*/
+	
+	/*.skin_set_wrap {*/
+	/*	background: #242424;*/
+	/*	color: #cacaca;*/
+	/*	border-color: #404040;*/
+	/*}*/
+	
+	/*div.relMails .relativeList .mailList {*/
+	/*	border-top-color: #404040;*/
+	/*}*/
+	
+	/*ol.mailList li.cv_slave {*/
+	/*	background-color: #404040;*/
+	/*	border-bottom: 1px solid #404040;*/
+	/*	border-color: #404040;*/
+	/*}*/
+	
+	/*body, .mInput_holder .list_addrobj li.new_addr .addr_input, .mInput_holder .list_addrobj li.new_addr .addr_obj, #smart_editor2 .se2_input_syntax, #smart_editor2 .se2_input_wysiwyg, .pop_reserve .input_area .input_text, input[type=image], input[type=text], textarea, .classify th {*/
+	/*	background: #242424;*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.divContent .subMsg2, .divContent .subMsg2 a, div.list_menu .item_wrap a, div.list_menu li.new_folder .input_txt, div.section_typemail a, .mailList .mTitle a, .section_detail_srch .opt_tit, .section_detail_srch .srch_item_row1 .srch_item label, .section_detail_srch .srch_item_row2 .srch_item label, .section_detail_srch label, .mailListHead, .mailListHead .allMail, .searchkey_result .keyword, .dh_layer .moveBox .moveBox_list li label, .dh_layer .type_a .selector li a, .dh_layer .type_a .selector li a:active, .dh_layer .type_a.list_checkall .selector li a:hover, .mailListBtn .buttonSet .btn_txt, .paginate .num, .dh_layer .hTitle, .notice_layer .hTitle, div.viewTitle h4, .viewTitle h4, div.viewTitle dl dt, .viewTitle dl dd a, .viewTitle dl, .mailWriteItem th .raw_label a, .mailWriteItem .txtTlt, .mailWriteItem .private label, .mInput_holder .list_addrobj li .addr_input input, .mInput_holder .list_addrobj li .addr_input textarea, .dh_layer .autoAddr li a, .mailWriteItem .delete, .mail_preview .preview_area .pre_header ul li, .mail_preview .preview_area .pre_attach ul li, .mail_preview .preview_check .option_tit, .mail_preview .preview_check label, .template_mail_save .guide_txt p, .template_mail .template_list li a, .pop_reserve .notice p, .svrMsg h4, .cp_address_save .cp_tit, .spam_reason dt, .noImgs .ico_caution, .setup_gnb .menu_list a, .setup_lnb .menu_list li.on a, .manage_mailbox .posr, .subtitle, .setup_layer .msg, .ly_pop .btn_layer_btm, .cont_flex_setup .classify .condition a, .setup_layer .paragraph, .setup_layer .tt_list li, button.btn_txt, .box_notice .txt, .attach_card_head .subject a, .attach_card_body .file_info .file_name, .file_list li a, .attfile_area h5, .skin_set_wrap .sk_list_area li a, .relMails .relBox .tit, .dh_layer .type_b, .dh_layer .sTipTxt3 li, .divList.grp_sender .infor_sender li.count a, .divList.grp_sender .infor_sender li.count strong, .searchkey_result .keyword .search_keyword .condition {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*#header, #header.h_mail, div#header {*/
+	/*	background: #2c2c2c !important;*/
+	/*}*/
+	
+	/*#container, #nav_snb, div.mailListBtn, .se2_inputarea {*/
+	/*	background: #242424 !important;*/
+	/*}*/
+	
+	/*a.btn_change_layout.view_split_hor .spr, a.btn_change_layout.view_split_ver .spr, a.btn_change_type.view_conversation .spr, #nav_snb .foldup .ico_fold, #nav_snb .ico_fold, .icoImportantOff, .attach_card_head .read .yes, .cv_card .read .yes, .cv_card.autoSpread .read .yes, .mailList .read .yes, .mailList .expand button.close, .mailList .expand button.open, .mailListBtn .buttonSet button.sendto .ic_send, .mailListBtn .buttonSet .disabled .buDel, .mailListBtn .buttonSet button[disabled=disabled] .buDel, .mailListBtn .buttonSet .buDel, a.btn_refresh, a.btn_change_type.view_timeline .spr, a.btn_change_layout.view_list .spr, .color-picker .cls_layer:hover, .dh_layer .hTitle .lClose:hover, .dh_layer .ly_alert .btn_layer_close:hover, .dh_layer .type_c .lClose:hover, .dh_layer button.btn_close:hover, .ly_classify .btn_layer_close:hover, .ly_tooltip .btn_layer_close:hover, .notice_layer .hTitle .lClose:hover, .setup_layer .btn_close:hover, .skin_set_wrap .btn_cls:hover, .tooltipLayer2 .t1Con .btn_close:hover, .tp_layer .tl_con .btn_close:hover, .type_alert .btn_close:hover, div.viewTitle .icoVipOff, div.mInput_holder .btn_recentaddr a img, div.mInput_holder .btn_recentaddr a:hover img, .mailWriteItem .private .btn_help, table.mailWriteItem .sClose, table.mailWriteItem .sOpen, div.mailListBtn .layoutSelectText .button_s2 .ico_arrow, div.mailListBtn .layoutSelectText .button_s2 .ico_win, div.mailListBtn .layoutSelectText .button_s2 .ico_setting_write, .icon_attach, #smart_editor2 .se2_conversion_mode, #smart_editor2 .se2_text_tool, #smart_editor2 .se2_reck, #smart_editor2 .se2_ckfin, .pop_reserve .input_area select, .cp_save_list li .imp, .cp_address_save .btn_c .ico, .list_mode_select .list_mode_normal, .list_mode_select .list_mode_hor, .list_mode_select .list_mode_ver, .icon_preview, .setup_layer .folder_preview, .setup_layer .list_preview, .setup_layer .newmail_preview1, .setup_layer .newmail_preview2, .ly_classify .filter_address .btn_toggle, .form_ul1 .form_content .icon_tip, .tooltip_cover .tooltip_arrow_bottom, a.btn_change_type.view_sender .spr, .attach_card_body .btn_savepc, .attfile_area .file_list .btn_savepc, .attfile_area .attfile_toggle, div.relMails .relBox .help, .attach_card_head .read .admin, .cv_card .read .admin, .cv_card.autoSpread .read .admin, .mailList .read .admin, div.nav_endless .ico_view_top, .attach_card_head .read .re, .cv_card .read .re, .cv_card.autoSpread .read .re, .mailList .read .re {*/
+	/*	filter: invert(86%) hue-rotate(-180deg);*/
+	/*}*/
+	
+	/*div.viewTitle dl dt .viewMoreOn {*/
+	/*	filter: invert(86%) hue-rotate(-180deg);*/
+	/*	background-position: -481px -114px;*/
+	/*	width: 15px;*/
+	/*	height: 15px;*/
+	/*}*/
+	
+	/*div.viewTitle dl dt .viewMoreOff {*/
+	/*	filter: invert(86%) hue-rotate(-180deg);*/
+	/*	background-position: -504px -1px;*/
+	/*	width: 15px;*/
+	/*	height: 15px;*/
+	/*}*/
+	
+	/*.attfile_area .virus {*/
+	/*	filter: invert(86%) hue-rotate(-180deg);*/
+	/*}*/
+	
+	/*.attfile_area {*/
+	/*	margin-bottom: 30px;*/
+	/*}*/
+	
+	/*#nav_snb h3.h_lft_menu {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.toTop {*/
+	/*	background: #fff;*/
+	/*	padding-bottom: 10px;*/
+	/*}*/
+	
+	/*.gnb_area .gnb_list_box .gnb_last ul, .h_mail .gnb_area .gnb_list_box .gnb_last ul, .h_mail_lite .gnb_area .gnb_list_box .gnb_last ul, div.divWrite .mailWriteItem .utx_btn, .setup_lnb .menu_list li {*/
+	/*	border: 1px solid #404040;*/
+	/*	background-color: #242424;*/
+	/*}*/
+	
+	/*div.list_horizontal .divContent .xBar, div.list_vertical .divContent .xBar, div.msearch .detail, div.msearch .search, div.msearch .search_btn, .mailListBtn .buttonSet .check_mail, .mailListBtn .buttonSet button, .dh_layer .moveBox .mailBoxMove button, .dh_layer .moveBox .mailBoxMove input, ol.mailList li, div.mInput_holder, div#smart_editor2 #smart_editor2_content, div.uploader5, .setup_head, .manage_mailbox button, .ly_classify .criteria, .ly_classify .handle, .input_keyword button, div.relMails .relBox, .divList.grp_sender .infor_sender.fold, .mailList li.cv_master {*/
+	/*	border-color: #404040;*/
+	/*}*/
+	
+	/*div.list_menu ul li .btn_status, div.list_menu ul li .btn_use, div.list_menu ul li .btn_wr2me, div.list_menu ul li.write_tome.ovr .btn_add_folder, .mailListBtn .buttonSet button[disabled=disabled] {*/
+	/*	background-color: #242424;*/
+	/*	border-color: #404040;*/
+	/*}*/
+	
+	/*div.list_menu ul li .btn_status:hover, div.list_menu ul li .btn_use:hover, div.list_menu ul li .btn_wr2me:hover, div.list_menu ul li.write_tome.ovr .btn_add_folder:hover {*/
+	/*	border-color: #4c4c4c;*/
+	/*}*/
+	
+	/*#content, .searchLayer, #container .spam_cause .spam_cause_1, #container .spam_cause .spam_cause_2, #setup_container, .custom_selectbox_layer .autoAddr li label, .ly_classify .dimmed, .ly_pop .btn_layer_btm.b, .box_ext_reg#ext_inp table tbody>tr:last-child>th:last-child {*/
+	/*	background: #242424;*/
+	/*}*/
+	
+	/*.mailListBtn, .searchkey_result, .dh_layer .moveBox .mailBoxMove, .dh_layer .type_a .item_tit, .dh_layer .type_a .selector .border a, .section_detail_srch, div.pop_reserve .tab_reserve, .adMsg, .svrMsg, .setup_lnb .menu_list, .mail_preview .preview_area .pre_attach, .mail_preview .preview_area .pre_header, .help_mailbox, .bill_list li, .without_lnb .setup_gnb, .receive_list.divider, .tab_ext_reg, .shortcut_container, .list_by_attachfile .attach_card_head, .file_list li, .skin_set_wrap .skin_title, .divList.grp_sender .infor_sender, .divList.grp_sender .listWrap .more {*/
+	/*	border-bottom: 1px solid #404040;*/
+	/*}*/
+	
+	/*.mailList li, .dh_layer .autoAddr {*/
+	/*	background: #242424;*/
+	/*	border-bottom: 1px solid #404040;*/
+	/*}*/
+	
+	/*.btn_fold, .lft_fd .btn_fold, .section_detail_srch select, #detail_search.section_detail_srch .srch_select_box, .dh_layer .moveBox .btn_area button, a.btn_change_layout, a.btn_change_type, div.paginate a.pre_end_n, div.paginate a.pre_n, .paginate strong, div.paginate a.next, div.paginate a.next_end, .mailListBtn .layoutSelect a.btn_print, .mailListBtn .layoutSelectText a.btn_print, div.paginate a.pre_end, div.paginate a.pre, div.paginate a.next_n, div.paginate a.next_end_n, .mInput_holder, .mailWriteItem .sguide, .uploader5, .template_mail_save .template_name .ipt_cover, .input_text, .cp_save_bor, .storage .total, .custom_selectbox .select_button, .ly_classify .flx_guide, .setup_content .slct_mailbox, .keyword_option, .txt_box, .shortcut_container td input, .skin_set_wrap .sk_list_area li, .relMails .relBox {*/
+	/*	border: 1px solid #404040;*/
+	/*}*/
+	
+	/*.btn_fold:hover, .lft_fd .btn_fold:hover, div.dh_layer .type_a .selector li a:focus, div.dh_layer .type_a .selector li a:hover, .dh_layer .type_a .selector li a:active, .dh_layer .type_a .selector li a:focus, .dh_layer .type_a .selector li a:hover, div.dh_layer .type_a.list_checkall .selector li a:focus, #detail_search.section_detail_srch fieldset .btn_srch_submit:hover, .simple_search li.selected, .template_mail .save_to_template:hover, .template_mail .template_list li.ovr, .divList .listWrap_attach {*/
+	/*	background-color: #2c2c2c;*/
+	/*}*/
+	
+	/*.mailListHead strong .bar, .searchkey_result .keyword .search_keyword .bar, .classify th span, .bill_list .corp_wrap, .rside .keyword_register {*/
+	/*	border-left: 1px solid #404040;*/
+	/*}*/
+	
+	/*.searchLayer a.onfocus, .searchLayer a:focus, .searchLayer a:hover, .divList.grp_sender .mailList li.selected, .mailList li.selected, .mailList li.selected .mTitle {*/
+	/*	background: #2f2f2f;*/
+	/*}*/
+	
+	/*.mailListBtn .buttonSet .do_send, .mailListBtn .buttonSet .primary, .mailListBtn .buttonSet .do_send[disabled=disabled], .mailListBtn .buttonSet .primary[disabled=disabled], #detail_search.section_detail_srch fieldset .btn_srch_submit, #footer .quick_link, #footer .quick_tools, .dh_layer button.b, .pop_reserve button.b, .setup_layer button.b, .tooltip_cover button.b, .form_ul1 .form_content, .setup_content .btn button.b, .tab_ext_reg li a span {*/
+	/*	background-color: #242424;*/
+	/*}*/
+	
+	/*div.divList.grp_sender .mailList li.selected, ol.mailList li.selected, ol.mailList li.selected .mTitle, .dh_layer .moveBox .moveBox_list li:hover, .dh_layer .moveBox .moveBox_list li.hover, .divList.grp_sender .listWrap, .divList.grp_sender .infor_sender:hover {*/
+	/*	background-color: #2f2f2f;*/
+	/*}*/
+	
+	/*.dh_layer .list_sorting a:hover .ico_sort, button.disabled, button[disabled=disabled] {*/
+	/*	background-color: #2c2c2c;*/
+	/*	border-color: #4c4c4c;*/
+	/*}*/
+	
+	/*.btn_srch_submit, .button, .buttonSet .check_mail, .txtbtn_white, button, li.write_tome.ovr .btn_add_folder:hover, li.write_tome.tooltip .btn_add_folder:hover, .dh_layer .sTipTxt3 {*/
+	/*	background-color: #242424;*/
+	/*	border: 1px solid #404040;*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.paginate, .faq_exam_list, .mailList.readUnder, .dh_layer .searchLayer .quickMenu, .divWriteOk, .info_mailbox td, .form_ul1 li, .classify td, .ly_classify .classify_section, .ly_classify .retroactive, .setup_layer .under_msg, .nav_endless .list_autoload {*/
+	/*	border-top: 1px solid #404040;*/
+	/*}*/
+	
+	/*.bar {*/
+	/*	background: transparent;*/
+	/*}*/
+	
+	/*.faq_exam_list .category, .mail_preview .preview_area .pre_body, .readFrame, .upld_flist .attach_type, .upld_flist .down_period, .upld_flist .file_name, .upld_flist .file_select, .upld_flist .file_size, .upld_flist .status, .mail_preview .preview_area .pre_header h4.pre_tit, .divList .nom, .cp_save_list li .name input, .form_ul1 .form_title, .setup_content .m_noti .tx strong, .dh_layer .type_b .view_more a, .dh_layer .type_c .view_more a, .attach_card_head .name a, .divList.grp_sender .infor_sender li.sender a {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*.relativeView td {*/
+	/*	 background-color: #404040;*/
+	/*	 color: #fff;*/
+	/*}*/
+	
+	/*.relativeView .to {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*#readFrame {*/
+	/*	background: #fff;*/
+	/*	color: #000;*/
+	/*}*/
+	
+	/*#footer, .info_mailbox thead th {*/
+	/*	background: #242424;*/
+	/*	border-top: 1px solid #404040;*/
+	/*}*/
+	
+	/*#footer .bar, .svrMsg .link_cover .bar, .info_mailbox td.box_btn .bar, .classify_fn .posr .bar {*/
+	/*	color: #404040;*/
+	/*}*/
+	
+	/*div.dh_layer .quickMenu, .mailWriteItem .sguide .mInput, .tab_ext_reg li span {*/
+	/*	background-color: #242424;*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*table.mailWriteItem .mInput_holder .mSendName, .template_mail_save .template_name .ipt_cover input, .notify_area .alert p {*/
+	/*	color: #cacaca;*/
+	/*	background: #242424;*/
+	/*}*/
+	
+	/*.autoAddr .selected a, .list_keyword li.selected, .shortcut_container th {*/
+	/*	background: #2c2c2c;*/
+	/*}*/
+	
+	/*div.divWrite .utx_btn_b, .mailList button.btn_view_slave {*/
+	/*	color: #cacaca;*/
+	/*	background-color: #242424;*/
+	/*	border: 1px solid #404040;*/
+	/*}*/
+	
+	/*.uploader5 .chg_type, #smart_editor2 .se2_spell_check, .manage_mailbox input {*/
+	/*	border: 1px solid #404040;*/
+	/*	background: #242424;*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*div.section_sendopt .cal .tit, .dh_layer2 .preview_area, .mail_preview .preview_area {*/
+	/*	background: #242424;*/
+	/*	border: 1px solid #404040;*/
+	/*}*/
+	
+	/*.template_mail_save .guide_txt, .list_by_attachfile li {*/
+	/*	background-color: #242424;*/
+	/*	border: 1px solid #404040;*/
+	/*}*/
+	
+	/*.pop_reserve .notice, .cp_save_list li .name, .custom_selectbox_layer, .box_notice {*/
+	/*	border: 1px solid #404040;*/
+	/*	background: #242424;*/
+	/*}*/
+	
+	/*.noImgs, .list_keyword {*/
+	/*	border: 1px solid #404040;*/
+	/*	background-color: #242424;*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*.safelist, .box_ext_reg table, .info_wrap {*/
+	/*	border-top: 1px solid #404040;*/
+	/*	border-bottom: 1px solid #404040;*/
+	/*}*/
+	
+	/*select {*/
+	/*	appearance: none;*/
+	/*	-moz-appearance: none;*/
+	/*	-webkit-appearance: none;*/
+	/*	background: #242424;*/
+	/*	color: #cacaca;*/
+	/*	border: 1px solid #404040;*/
+	/*	background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiNjYWNhY2EiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQuNDI3IDkuNDI3IDMuMzk2IDMuMzk2YS4yNTEuMjUxIDAgMCAwIC4zNTQgMGwzLjM5Ni0zLjM5NkEuMjUuMjUgMCAwIDAgMTEuMzk2IDlINC42MDRhLjI1LjI1IDAgMCAwLS4xNzcuNDI3ek00LjQyMyA2LjQ3IDcuODIgMy4wNzJhLjI1LjI1IDAgMCAxIC4zNTQgMEwxMS41NyA2LjQ3YS4yNS4yNSAwIDAgMS0uMTc3LjQyN0g0LjZhLjI1LjI1IDAgMCAxLS4xNzctLjQyN3oiLz48L3N2Zz4=");*/
+	/*	background-position: right 2px center;*/
+	/*	background-repeat: no-repeat;*/
+	/*	background-size: 16px;*/
+	/*	padding: 1px 20px 1px 5px;*/
+	/*	border-radius: 5px;*/
+	/*	filter: none;*/
+	/*}*/
+	
+	/*select:focus-visible {*/
+	/*	outline: none;*/
+	/*}*/
+	
+	/*select:disabled {*/
+	/*	color: #666;*/
+	/*	background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiM2NjYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQuNDI3IDkuNDI3IDMuMzk2IDMuMzk2YS4yNTEuMjUxIDAgMCAwIC4zNTQgMGwzLjM5Ni0zLjM5NkEuMjUuMjUgMCAwIDAgMTEuMzk2IDlINC42MDRhLjI1LjI1IDAgMCAwLS4xNzcuNDI3ek00LjQyMyA2LjQ3IDcuODIgMy4wNzJhLjI1LjI1IDAgMCAxIC4zNTQgMEwxMS41NyA2LjQ3YS4yNS4yNSAwIDAgMS0uMTc3LjQyN0g0LjZhLjI1LjI1IDAgMCAxLS4xNzctLjQyN3oiLz48L3N2Zz4=");*/
+	/*}*/
 }
 
 @-moz-document url-prefix("https://mail.naver.com")
@@ -2270,13 +2270,13 @@
 		color: #688cda;
 	}
 	
-	.gnb_notice_li a.gnb_notice .gnb_icon, .mail_li a.gnb_mail .gnb_icon, .gnb_service_li a.gnb_service .gnb_icon {
-		filter: invert(0%) !important;
-	}
+	/*.gnb_notice_li a.gnb_notice .gnb_icon, .mail_li a.gnb_mail .gnb_icon, .gnb_service_li a.gnb_service .gnb_icon {*/
+	/*	filter: invert(0%) !important;*/
+	/*}*/
 	
-	.gnb_area .gnb_list_box .gnb_last .btn_more {
-		filter: invert(86%);
-	}
+	/*.gnb_area .gnb_list_box .gnb_last .btn_more {*/
+	/*	filter: invert(86%);*/
+	/*}*/
 	
 	.form_content .manage_sign p.desc {
 		color: #cacaca;
@@ -3267,17 +3267,17 @@
 
 @-moz-document url-prefix("https://mail.naver.com/notice")
 {
-	html, head {
-		background: #242424;
-	}
+	/*html, head {*/
+	/*	background: #242424;*/
+	/*}*/
 	
-	body div h1 img {
-		filter: invert(86%) hue-rotate(-180deg);
-	}
+	/*body div h1 img {*/
+	/*	filter: invert(86%) hue-rotate(-180deg);*/
+	/*}*/
 	
-	body div h1 {
-		border-bottom: 1px solid #404040 !important;
-	}
+	/*body div h1 {*/
+	/*	border-bottom: 1px solid #404040 !important;*/
+	/*}*/
 }
 
 @-moz-document url-prefix("https://www.navercorp.com")
@@ -114170,5 +114170,371 @@
 	
 	.gnb_notice_li a.gnb_notice .gnb_icon, .mail_li a.gnb_mail .gnb_icon, .gnb_service_li a.gnb_service .gnb_icon {
 		filter: none;
+	}
+}
+
+@-moz-document url-prefix("https://mail.naver.com")
+{
+	#gnb.gnb_one_flat .gnb_my_li .gnb_my .gnb_name, #gnb.gnb_one_flat .gnb_login_li .gnb_btn_login .gnb_txt {
+		color: #cacaca;
+	}
+	
+	#gnb.gnb_one .gnb_login_li, #gnb.gnb_one_small .gnb_login_li, #gnb.gnb_one .gnb_my_li, #gnb.gnb_one_small .gnb_my_li, #gnb.gnb_one .gnb_notice_li, #gnb.gnb_one_small .gnb_notice_li, #gnb.gnb_one .mail_li, #gnb.gnb_one_small .mail_li, #gnb.gnb_one .gnb_service_li, #gnb.gnb_one_small .gnb_service_li {
+		background: none;
+	}
+	
+	#gnb.gnb_one_pwe .gnb_my_namebox {
+		background-image: url("https://ssl.pstatic.net/static/common/gnb/2014/ico_arrow_bl1.gif") !important;
+	}
+	
+	body, input, textarea, select, button, table {
+		color: #cacaca;
+	}
+	
+	html {
+		--color-background: #242424;
+		--color-link: #6b77ac;
+		--color-blue: #0073e6;
+		--color-green: #03c75a;
+		--color-red: #fc193c;
+		--color-line: #efeff0;
+		--color-button-line: #404040;
+		--color-title: #ffffff;
+		--color-body: #cacaca;
+		--color-sub-info-1: #cacaca;
+		--color-sub-info-2: #fff;
+		--color-text: #fff;
+		--color-background-rgb: 36, 36, 36;
+		--color-link-rgb: 107, 119, 172;
+		--color-blue-rgb: 0, 115, 230;
+		--color-green-rgb: 3, 199, 90;
+		--color-red-rgb: 252, 25, 60;
+		--color-line-rgb: 239, 239, 240;
+		--color-button-line-rgb: 64, 64, 64;
+		--color-title-rgb: 255, 255, 255;
+		--color-body-rgb: 202, 202, 202;
+		--color-sub-info-1-rgb: 202, 202, 202;
+		--color-sub-info-2-rgb: 255, 255, 255;
+		--color-text-rgb: 255, 255, 255;
+	}
+	
+	#header {
+		background-color: #242424;
+	}
+	
+	.smart_channel {
+		background-color: transparent;
+	}
+	
+	.mail_skeleton .mail_skeleton_info, .mail_skeleton .mail_skeleton_sub_info {
+		background-color: #2f2f2f;
+	}
+	
+	.layer_context {
+		border: 1px solid #404040;
+	}
+	
+	#header .pwe_home:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.lnb_filtered_mailbox .item.svg_bookmark:before {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 25 24%22%3E%3Cpath d=%22M12.833 17.08c.138 0 .278.039.4.117l5.083 3.208-1.496-5.79a.748.748 0 01.25-.767l4.628-3.806-6-.374a.752.752 0 01-.65-.471L12.833 3.63l-2.217 5.567a.747.747 0 01-.65.47l-6 .375 4.63 3.806a.754.754 0 01.25.767l-1.497 5.79 5.083-3.208a.743.743 0 01.4-.116zM7.223 22c-.296 0-.59-.091-.84-.275a1.407 1.407 0 01-.538-1.497l1.428-5.525-4.422-3.634c-.452-.371-.629-.972-.449-1.53s.676-.943 1.264-.98l5.732-.357 2.112-5.306A1.415 1.415 0 0112.833 2c.586 0 1.105.35 1.322.894L16.267 8.2l5.731.357a1.415 1.415 0 011.265.98c.18.558.003 1.159-.45 1.53l-4.42 3.634 1.427 5.525a1.41 1.41 0 01-.538 1.497 1.416 1.416 0 01-1.6.054l-4.849-3.059-4.849 3.06c-.235.148-.498.22-.76.22z%22 fill=%22%23fff%22 fill-rule=%22nonzero%22/%3E%3C/svg%3E");
+	}
+	
+	.lnb_filtered_mailbox .item.svg_attachments:before {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 25 24%22%3E%3Cpath d=%22M8.413 22.094a4.643 4.643 0 01-3.056-1.358 4.672 4.672 0 01-.165-6.426l.165-.174 7.557-7.555c1.03-1.032 2.825-1.032 3.855 0 .515.514.798 1.198.798 1.926 0 .662-.234 1.287-.663 1.782l-.135.144-6.87 6.87a.783.783 0 01-1.182-1.019l.076-.088 6.87-6.868c.22-.22.34-.511.34-.821 0-.31-.12-.6-.34-.82-.407-.406-1.097-.435-1.544-.087l-.098.087-7.558 7.554a3.108 3.108 0 000 4.39 3.11 3.11 0 004.248.134l.143-.134 7.557-7.556a5.01 5.01 0 001.479-3.568 5.011 5.011 0 00-1.48-3.568 5.053 5.053 0 00-6.96-.168l-.177.168-6.871 6.868a.781.781 0 01-1.181-1.018l.075-.088 6.87-6.867c2.58-2.578 6.775-2.578 9.35 0a6.557 6.557 0 011.939 4.673 6.565 6.565 0 01-1.734 4.463l-.203.211-7.558 7.555a4.641 4.641 0 01-3.055 1.358l-.245.006-.246-.006z%22 fill=%22%23fff%22 fill-rule=%22nonzero%22/%3E%3C/svg%3E");
+	}
+	
+	.lnb_filtered_mailbox .item.svg_to_me:before {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 27 24%22%3E%3Cpath d=%22M17.568 12.818a1.396 1.396 0 01-.512.556 1.44 1.44 0 01-.767.201 1.46 1.46 0 01-.764-.2 1.394 1.394 0 01-.516-.557 1.746 1.746 0 01-.186-.818c0-.31.063-.583.186-.819s.296-.422.516-.555c.221-.134.475-.202.764-.202.294 0 .55.068.767.202.218.133.39.32.512.555.124.236.186.51.186.82 0 .308-.062.581-.186.817m.854-2.988a2.806 2.806 0 00-.945-.614A3.188 3.188 0 0016.29 9c-.43 0-.827.072-1.189.216-.363.145-.678.35-.946.614a2.838 2.838 0 00-.626.95 3.213 3.213 0 00-.224 1.22c0 .446.075.852.224 1.22.151.368.36.684.626.95.268.264.583.468.946.613a3.19 3.19 0 001.19.217c.428 0 .825-.073 1.187-.217.362-.145.678-.349.945-.614.27-.265.477-.58.626-.949a3.2 3.2 0 00.225-1.22c0-.447-.075-.853-.225-1.22a2.78 2.78 0 00-.626-.95m-5.79-.72H7.844c-.079 0-.118.042-.118.126v1.134c0 .078.04.118.118.118h1.661v4.275c0 .084.042.126.126.126h1.221c.084 0 .126-.042.126-.126v-4.275h1.654c.083 0 .125-.04.125-.118V9.236c0-.084-.042-.126-.125-.126M17.5 19.5h-8C5.364 19.5 2 16.135 2 12c0-4.136 3.364-7.5 7.5-7.5h8c4.135 0 7.5 3.364 7.5 7.5 0 4.135-3.365 7.5-7.5 7.5m0-16.5h-8c-4.963 0-9 4.037-9 9s4.037 9 9 9h8c4.962 0 9-4.037 9-9s-4.038-9-9-9%22 fill=%22%23fff%22 fill-rule=%22nonzero%22/%3E%3C/svg%3E");
+	}
+	
+	.lnb_mailbox .svg_trash:before {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 20 20%22%3E%3Cpath d=%22M7.5 15.5a.75.75 0 00.75-.75v-6.5a.75.75 0 00-1.5 0v6.5c0 .414.336.75.75.75zm5 0a.75.75 0 00.75-.75v-6.5a.75.75 0 00-1.5 0v6.5c0 .414.336.75.75.75zm-2.5 0a.75.75 0 00.75-.75v-6.5a.75.75 0 00-1.5 0v6.5c0 .414.336.75.75.75zm5 1.251a.248.248 0 01-.249.249H5.249A.248.248 0 015 16.751V6.001h10v10.75zM8 3.249C8 3.111 8.111 3 8.249 3h3.502c.138 0 .249.111.249.249v1.252H8V3.249zm9.25 1.252H13.5V3.249A1.75 1.75 0 0011.751 1.5H8.249A1.75 1.75 0 006.5 3.249v1.252H2.75a.75.75 0 000 1.5h.75v10.75A1.75 1.75 0 005.249 18.5h9.502a1.75 1.75 0 001.749-1.749V6.001h.75a.75.75 0 000-1.5z%22 fill=%22%23fff%22 fill-rule=%22nonzero%22/%3E%3C/svg%3E");
+	}
+	
+	.lnb_mailbox .svg_spam:before {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 20 20%22%3E%3Cpath d=%22M10 16.5a6.452 6.452 0 01-4.029-1.41l9.119-9.119A6.452 6.452 0 0116.5 10c0 3.584-2.916 6.5-6.5 6.5m0-13c1.522 0 2.921.529 4.029 1.41L4.91 14.029A6.452 6.452 0 013.5 10c0-3.584 2.916-6.5 6.5-6.5m5.673.866c-.007-.007-.009-.016-.016-.023-.007-.007-.016-.009-.024-.016A7.971 7.971 0 0010 2c-4.411 0-8 3.589-8 8a7.98 7.98 0 002.327 5.634c.007.007.009.016.016.023.007.007.016.009.024.016A7.971 7.971 0 0010 18c4.411 0 8-3.589 8-8a7.98 7.98 0 00-2.327-5.634%22 fill=%22%23fff%22 fill-rule=%22nonzero%22/%3E%3C/svg%3E");
+	}
+	
+	.lnb_mailbox .svg_write_to_me:before {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 20 20%22%3E%3Cpath d=%22M13.25 12.75h-6.5a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5zm0-3.5h-6.5a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5zm0-3.5h-6.5a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5zm2.75 11a.25.25 0 01-.25.25H4.25a.25.25 0 01-.25-.25V3.25A.25.25 0 014.25 3h11.5a.25.25 0 01.25.25v13.5zM15.75 1.5H4.25c-.965 0-1.75.785-1.75 1.75v13.5c0 .965.785 1.75 1.75 1.75h11.5c.965 0 1.75-.785 1.75-1.75V3.25c0-.965-.785-1.75-1.75-1.75z%22 fill=%22%23fff%22 fill-rule=%22nonzero%22/%3E%3C/svg%3E");
+	}
+	
+	.lnb_mailbox .svg_temporary:before {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 20 20%22%3E%3Cg fill=%22%23fff%22 fill-rule=%22nonzero%22%3E%3Cpath d=%22M10.95 1.5a2 2 0 011.386.559l4.55 4.378c.185.177.331.385.435.613l.055.055-.027.01a2 2 0 01.151.763v8.872c0 .965-.785 1.75-1.75 1.75H4.25c-.965 0-1.75-.785-1.75-1.75V3.25c0-.965.785-1.75 1.75-1.75zm.103 1.5H4.25a.25.25 0 00-.25.25v13.5c0 .138.112.25.25.25h11.5a.25.25 0 00.25-.25V7.515l-4.968-4.467.021-.048z%22/%3E%3Cpath stroke=%22%23fff%22 stroke-width=%22.2%22 d=%22M11.952 2v5c0 .193.131.355.306.392l.077.008h4.467v1.2h-4.467c-.8 0-1.457-.639-1.527-1.454L10.802 7V2h1.15z%22/%3E%3C/g%3E%3C/svg%3E");
+	}
+	
+	.lnb_mailbox .svg_sent_mail:before {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 20 20%22%3E%3Cpath d=%22M16.382 10.23L3.928 16.713a.274.274 0 01-.29-.002.27.27 0 01-.126-.156l1.799-5.617 5.59-.732c.237-.032.237-.375 0-.407l-5.59-.732-1.8-5.617a.28.28 0 01.128-.157c.054-.031.163-.073.312.01l12.416 6.464c.116.07.133.177.133.235 0 .06-.018.17-.118.228m.717-1.772c-.008-.005-.016-.01-.024-.013L4.668 1.987a1.766 1.766 0 00-1.783.01A1.757 1.757 0 002 3.532a.73.73 0 00.036.228l2 6.242-2 6.243a.73.73 0 00-.036.228c0 .639.33 1.213.885 1.535.284.165.597.247.906.247.297 0 .59-.075.854-.224l12.454-6.484c.564-.32.9-.897.9-1.545 0-.647-.336-1.224-.9-1.544%22 fill=%22%23fff%22 fill-rule=%22nonzero%22/%3E%3C/svg%3E");
+	}
+	
+	.lnb_mailbox .svg_inbox:before {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 20 20%22%3E%3Cpath d=%22M16.5 16.251a.248.248 0 01-.249.249H3.748a.248.248 0 01-.248-.249V8.749c0-.138.111-.249.248-.249H6.75v.251A1.75 1.75 0 008.498 10.5h3.003a1.75 1.75 0 001.749-1.749V8.5h3.001c.138 0 .249.111.249.249v7.502zM5.415 3.5h9.17c.1 0 .191.062.211.101L15.931 7H12.5a.75.75 0 00-.75.75v1.001a.248.248 0 01-.249.249H8.498a.248.248 0 01-.248-.249V7.75A.75.75 0 007.5 7H4.068l1.117-3.348a.253.253 0 01.23-.152zm12.511 4.772c-.004-.015 0-.031-.006-.046l-1.722-5.152A1.744 1.744 0 0014.585 2h-9.17c-.707 0-1.341.422-1.633 1.126l-1.702 5.1c-.006.015-.002.031-.006.046A1.754 1.754 0 002 8.749v7.502A1.75 1.75 0 003.748 18h12.503A1.75 1.75 0 0018 16.251V8.749c0-.166-.031-.324-.074-.477z%22 fill=%22%23fff%22 fill-rule=%22nonzero%22/%3E%3C/svg%3E");
+	}
+	
+	.lnb_mailbox .svg_all:before {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 20 20%22%3E%3Cpath d=%22M16.251 16H3.749a.248.248 0 01-.249-.249V6.908l4.996 4.056.034.026c.201.15.739.489 1.492.51a2.656 2.656 0 001.482-.536L16.5 6.908v8.843a.248.248 0 01-.249.249zM3.5 4.249c0-.138.111-.249.249-.249h12.502c.138 0 .249.111.249.249v.728L10.57 9.79c-.002.002-.269.201-.548.21a1.173 1.173 0 01-.595-.212L3.5 4.977v-.728zM16.251 2.5H3.749A1.75 1.75 0 002 4.249v11.502A1.75 1.75 0 003.749 17.5h12.502A1.75 1.75 0 0018 15.751V4.249A1.75 1.75 0 0016.251 2.5z%22 fill=%22%23fff%22 fill-rule=%22nonzero%22/%3E%3C/svg%3E");
+	}
+	
+	html.pc .mail_toolbar_task .button_previous_mail:before, html.pc .mail_toolbar_task .button_next_mail:before {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22%3E%3Cpath d=%22M14.354 5.454l-6 6a.502.502 0 01-.708 0l-6-6a.502.502 0 01.708-.708L8 10.393l5.646-5.647a.502.502 0 01.708.708z%22 fill=%22%23fff%22 fill-rule=%22nonzero%22/%3E%3C/svg%3E");
+	}
+	
+	html.pc .mail_toolbar_task .icon_write_fold:before, html.pc .mail_toolbar_task .icon_write_popup:before, html.pc .mail_toolbar_task .icon_write_settings:before, html.pc .mail_toolbar_task .icon_sorting_time:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.mail_option .toggle_vip + label:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.smart_tab .button_add:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	html.pc .lnb_footer .other_version_link:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	html.pc .mail_settings_item .logo_box .icon_logo_yahoo:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.layer_common {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	html.pc .mail_view_body .quick_reply_body {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.button_popup:before, html.pc .mail_view_body .quick_reply_header .button_quick_reply:after, html.pc .layer_context.layer_mail_view_quick_reply .button_quick_reply_settings:after {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.mail_view_contents.dark_mode .mail_view_contents_inner {
+		background: #fff;
+	}
+	
+	.mail_search_detail_footer .button_search {
+		color: #242424;
+	}
+	
+	html.pc .mail_view_header .button_svg_print:hover:before, html.pc .mail_view_header .button_svg_print:focus:before {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 18 18%22%3E%3Cg fill=%22none%22 fill-rule=%22evenodd%22%3E%3Crect width=%2210%22 height=%229%22 x=%224%22 y=%222.5%22 stroke=%22%23fff%22 rx=%221%22/%3E%3Crect width=%2214%22 height=%225%22 x=%222%22 y=%2211.5%22 stroke=%22%23FFF%22 rx=%221%22/%3E%3Crect width=%2214%22 height=%225%22 x=%222%22 y=%2211.5%22 stroke=%22%23fff%22 rx=%221%22/%3E%3Cpath stroke=%22%23fff%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 d=%22M6.6 5.5h4.8m-4.8 3h4.8%22/%3E%3C/g%3E%3C/svg%3E");
+	}
+	
+	html.pc .contents_header .title_area.type_read .button_back:before, html.pc .mail_toolbar_task .icon_sorting_conversation:before, .mail_toolbar_task .button_task_dropdown:after, html.pc .mail_toolbar_task .icon_layout_list:before, .mail_view_inner .mail_translation .mail_translation_language + .mail_translation_language:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.workseditor-classic .ft_size, .workseditor-classic .ft_family, .workseditor-classic .btn_group {
+		border-right: 1px solid #404040;
+	}
+	
+	.workseditor-classic .btn_tool {
+		color: #cacaca;
+	}
+	
+	.workseditor-classic .deco_bold .btn_tool .ico:before, .workseditor-classic .deco_italic .btn_tool .ico:before, .workseditor-classic .deco_underline .btn_tool .ico:before, .workseditor-classic .deco_strike .btn_tool .ico:before, .workseditor-classic .ft_bgcolor .btn_tool .ico:before, .workseditor-classic .ft_color .btn_tool .ico:before, .workseditor-classic .align .align_left .ico:before, .workseditor-classic .list_style .lst_none .ico:before, .workseditor-classic .list_style .lst_bigcircle .ico:before, .workseditor-classic .text_indent .outdent .ico:before, .workseditor-classic .text_indent .indent .ico:before, .workseditor-classic .line_height .btn_tool .ico:before, .workseditor-classic .fn_clearformat .btn_tool .ico:before, .workseditor-classic .fn_border .btn_tool .ico:before, .workseditor-classic .fn_symbols .btn_tool .ico:before, .workseditor-classic .fn_hyperlink .btn_tool .ico:before, .workseditor-classic .fn_table .btn_tool .ico:before, .workseditor-classic .fn_translate .btn_tool .ico:before, .workseditor-classic .fn_signature .btn_tool .ico:before, .workseditor-classic .attach_image .btn_tool .ico:before, .workseditor-classic .align .align_center .ico:before, .workseditor-classic .align .align_right .ico:before, .workseditor-classic .align .align_justify .ico:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.workseditor-classic .editor_head {
+		background-color: #2f2f2f;
+		border-color: #404040;
+	}
+	
+	.workseditor-classic .ft_size.open, .workseditor-classic .ft_family.open {
+		background-color: #242424;
+	}
+	
+	.workseditor-classic .dropdown_layer {
+		background-color: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.workseditor-classic .ft_family a {
+		color: #fff;
+	}
+	
+	.workseditor-classic .ft_size a {
+		color: #fff;
+	}
+	
+	.workseditor-classic .ft_size a:hover {
+		background-color: #2f2f2f;
+	}
+	
+	.workseditor-classic .align .align_left:hover .ico:before, .workseditor-classic .align .align_center:hover .ico:before, .workseditor-classic .align .align_right:hover .ico:before, .workseditor-classic .align .align_justify:hover .ico:before, .workseditor-classic .list_style.dropdown_layer .lst_decimal .ico:before, .workseditor-classic .list_style.dropdown_layer .lst_decimal:hover .ico:before, .workseditor-classic .list_style.dropdown_layer .lst_upperalpha .ico:before, .workseditor-classic .list_style.dropdown_layer .lst_upperalpha:hover .ico:before, .workseditor-classic .list_style.dropdown_layer .lst_loweralpha .ico:before, .workseditor-classic .list_style.dropdown_layer .lst_loweralpha:hover .ico:before, .workseditor-classic .list_style.dropdown_layer .lst_upperroman .ico:before, .workseditor-classic .list_style.dropdown_layer .lst_upperroman:hover .ico:before, .workseditor-classic .list_style.dropdown_layer .lst_lowerroman .ico:before, .workseditor-classic .list_style.dropdown_layer .lst_lowerroman:hover .ico:before, .workseditor-classic .list_style.dropdown_layer .lst_square .ico:before, .workseditor-classic .list_style.dropdown_layer .lst_square:hover .ico:before, .workseditor-classic .list_style.dropdown_layer .lst_bigcircle .ico:before, .workseditor-classic .list_style .lst_none:hover .ico:before, .workseditor-classic .list_style .lst_bigcircle:hover .ico:before, .workseditor-classic .list_style.dropdown_layer .lst_disc .ico:before, .workseditor-classic .list_style.dropdown_layer .lst_disc:hover .ico:before, .workseditor-classic .list_style.dropdown_layer .lst_emptydisc .ico:before, .workseditor-classic .list_style.dropdown_layer .lst_emptydisc:hover .ico:before, .workseditor-classic .list_style.dropdown_layer .lst_dashed .ico:before, .workseditor-classic .list_style.dropdown_layer .lst_dashed:hover .ico:before, .workseditor-classic .list_style.dropdown_layer .lst_check .ico:before, .workseditor-classic .list_style.dropdown_layer .lst_check:hover .ico:before, .workseditor-classic .list_style.dropdown_layer .lst_greencheck .ico:before, .workseditor-classic .list_style.dropdown_layer .lst_greencheck:hover .ico:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.workseditor-classic .list_style .dropdown_layer .ordered_list {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.workseditor-classic .line_height a {
+		color: #fff;
+	}
+	
+	.workseditor-classic .line_height a:hover {
+		background-color: #2f2f2f;
+	}
+	
+	.workseditor-classic .fn_symbols .dropdown_layer button {
+		color: #fff;
+	}
+	
+	.workseditor-classic .fn_symbols .dropdown_layer ul {
+		background: none;
+		position: relative;
+	}
+	
+	.workseditor-classic .fn_symbols .dropdown_layer ul:before {
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(86%) hue-rotate(-180deg);
+		background: url("data:image/false;base64,R0lGODlhFgAWAIABAO7u7v///yH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxMzggNzkuMTU5ODI0LCAyMDE2LzA5LzE0LTAxOjA5OjAxICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxNyAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoxOTlDMkRGRDA2RTYxMUU3ODgwRUI1QjNBOTYxMkUyQyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoxOTlDMkRGRTA2RTYxMUU3ODgwRUI1QjNBOTYxMkUyQyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjE5OUMyREZCMDZFNjExRTc4ODBFQjVCM0E5NjEyRTJDIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjE5OUMyREZDMDZFNjExRTc4ODBFQjVCM0E5NjEyRTJDIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Af/+/fz7+vn49/b19PPy8fDv7u3s6+rp6Ofm5eTj4uHg397d3Nva2djX1tXU09LR0M/OzczLysnIx8bFxMPCwcC/vr28u7q5uLe2tbSzsrGwr66trKuqqainpqWko6KhoJ+enZybmpmYl5aVlJOSkZCPjo2Mi4qJiIeGhYSDgoGAf359fHt6eXh3dnV0c3JxcG9ubWxramloZ2ZlZGNiYWBfXl1cW1pZWFdWVVRTUlFQT05NTEtKSUhHRkVEQ0JBQD8+PTw7Ojk4NzY1NDMyMTAvLi0sKyopKCcmJSQjIiEgHx4dHBsaGRgXFhUUExIREA8ODQwLCgkIBwYFBAMCAQAAIfkEAQAAAQAsAAAAABYAFgAAAiuEj6kW7Q8jiLTOit3NeHPqfVAoaiV4Sum4PuT5lrE4fzV3Z3nXmn2wqxQAADs=") repeat;
+	}
+	
+	.workseditor-classic .fn_symbols .dropdown_layer button:hover {
+		border: 1px solid #4f4f4f;
+	}
+	
+	.workseditor-classic .fn_hyperlink .dropdown_layer .ipt_text span, .workseditor-classic .fn_hyperlink .dropdown_layer .ipt_url span {
+		color: #fff;
+	}
+	
+	.workseditor-classic .fn_hyperlink .dropdown_layer .ipt_text input, .workseditor-classic .fn_hyperlink .dropdown_layer .ipt_url input {
+		border: 1px solid #404040;
+		background: #242424;
+		color: #fff;
+	}
+	
+	.workseditor-classic .table_generator .generate_grid td {
+		border: 1px solid #404040;
+	}
+	
+	.workseditor-classic .table_generator .grid_header .tit, .workseditor-classic .table_generator .table_setting_option .ipt_tit {
+		color: #fff;
+	}
+	
+	.workseditor-classic .table_generator .table_setting_option .numberic {
+		border: 1px solid #404040;
+	}
+	
+	.workseditor-classic .table_generator .table_setting_option .numberic input {
+		background: #242424;
+	}
+	
+	.workseditor-classic .table_generator .table_setting_option .border_width_cover .current_width {
+		border: 1px solid #404040;
+	}
+	
+	.workseditor-classic .table_generator .table_setting_option .border_width_cover .current_width:after {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.workseditor-classic .table_generator .table_setting_option .border_width_cover .bd_width_1:before, .workseditor-classic .table_generator .table_setting_option .border_width_cover .bd_width_2:before, .workseditor-classic .table_generator .table_setting_option .border_width_cover .bd_width_3:before, .workseditor-classic .table_generator .table_setting_option .border_width_cover .bd_width_4:before, .workseditor-classic .table_generator .table_setting_option .border_width_cover .bd_width_5:before {
+		border-top: 1px solid #cacaca;
+	}
+	
+	.workseditor-classic .table_generator .table_setting_option .border_width_cover .dropdown_layer a:hover {
+		background-color: #2f2f2f;
+	}
+	
+	.workseditor-classic .table_generator .table_setting_option .border_width_cover .bd_width_2:before {
+		border-top-width: 2px;
+	}
+	
+	.workseditor-classic .table_generator .table_setting_option .border_width_cover .bd_width_3:before {
+		border-top-width: 3px;
+	}
+	
+	.workseditor-classic .table_generator .table_setting_option .border_width_cover .bd_width_4:before {
+		border-top-width: 4px;
+	}
+	
+	.workseditor-classic .table_generator .table_setting_option .border_width_cover .bd_width_5:before {
+		border-top-width: 5px;
+	}
+	
+	.workseditor-classic .table_generator .table_setting_option .color_picker_cover .current_color:before {
+		border: 1px solid #404040;
+	}
+	
+	.workseditor-classic .table_generator .table_setting_option .color_picker_cover .current_color:after {
+		border: 4px solid #242424;
+	}
+	
+	.workseditor-classic .color_picker {
+		background-color: #242424;
+		border: 1px solid #404040;
+	}
+	
+	.workseditor-classic .color_picker .active .item {
+		border-color: #f0f0f0;
+	}
+	
+	.workseditor-classic .fn_signature a:hover {
+		background-color: #2f2f2f;
+	}
+	
+	.workseditor-classic .fn_signature a {
+		color: #fff;
+	}
+	
+	.workseditor-classic .editor_footer.non_resizable {
+		border: 1px solid #404040;
+		border-top: 0;
+		background-color: #2f2f2f;
+	}
+	
+	.workseditor-classic .editor_body {
+		border: 1px solid #404040;
+		border-top: 0;
+		border-bottom-color: #404040;
+	}
+	
+	.workseditor-classic .editor_footer.non_resizable .editor_mode_select button {
+		border-color: #404040;
+		border-left-color: #404040;
+		border-right: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.workseditor-classic .editor_footer .editor_mode_select button {
+		border: 1px solid #404040;
+		border-right: 0;
+		color: #cacaca;
+	}
+	
+	.workseditor-classic .editor_footer.non_resizable .editor_mode_select button.active {
+		background-color: #3a3a3a;
+		border-left-color: #4f4f4f;
+		border-right-color: #4f4f4f;
+		color: #fff;
+	}
+	
+	.workseditor-classic .editor_footer.non_resizable .editor_mode_select button:last-of-type {
+		border-right-color: #404040;
+	}
+	
+	.workseditor-classic .editor_footer.non_resizable .editor_mode_select[style*='border-right:'] {
+		border-right: 1px solid #404040 !important;
+	}
+	
+	.workseditor-classic textarea {
+		background: #242424;
 	}
 }

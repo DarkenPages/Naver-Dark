@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.36
+@version		1.64.37
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -109994,6 +109994,27 @@
 	
 	.is_today .card_today_weather .cctv_link_area .cctv_link:before, .is_today .card_today_weather .cctv_link_area .cctv_link:after {
 		filter: invert(86%) hue-rotate(-180deg) brightness(150%);
+	}
+	
+	.card_climateinfo .box_color .color_inner {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.card_climateinfo .box_color .ttl {
+		color: #fff;
+	}
+	
+	.card_climateinfo .climate_summary {
+		color: #cacaca;
+	}
+	
+	.card_climateinfo .climate_summary+.climate_summary {
+		border-top: 1px solid #404040;
+	}
+	
+	.card_climateinfo .title:after {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 }
 

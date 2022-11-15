@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.33
+@version		1.64.34
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -114187,7 +114187,7 @@
 		background-image: url("https://ssl.pstatic.net/static/common/gnb/2014/ico_arrow_bl1.gif") !important;
 	}
 	
-	body, input, textarea, select, button, table {
+	body, input, textarea, select, button {
 		color: #cacaca;
 	}
 	
@@ -114316,7 +114316,7 @@
 		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
-	.mail_view_contents.dark_mode .mail_view_contents_inner {
+	.mail_view_contents .mail_view_contents_inner {
 		background: #fff;
 	}
 	

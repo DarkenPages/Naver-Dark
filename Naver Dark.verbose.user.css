@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.37
+@version		1.64.38
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -86857,6 +86857,89 @@
 	
 	.sp_intent_fashion .brand_list_wrap .info_area .price {
 		color: #cacaca;
+	}
+	
+	.cs_suneung .sn_tb .all_table.type_subject .tb_box tbody th {
+		color: #fff;
+	}
+	
+	.sc_new .api_channel_wrap .channel_scroll_wrap .channel_item .user_area {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_airport_condition .tab_area .list_tab li a .menu {
+		color: #fff;
+	}
+	
+	.cs_airport_condition .substance {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_airport_condition .day_tap.sub li .mid_title {
+		color: #fff;
+	}
+	
+	.cs_airport_condition .date li[aria-selected="true"] a {
+		color: #fff;
+	}
+	
+	.cs_airport_condition .date li a {
+		color: #cacaca;
+	}
+	
+	.cs_airport_condition .gate_detail th {
+		background: #3a3a3a;
+		border: 1px solid #4f4f4f;
+		border-width: 1px 0 1px 0;
+		color: #cacaca;
+	}
+	
+	.cs_airport_condition .tb_scroll tbody th {
+		background: #2f2f2f;
+		border: 1px solid #404040;
+		border-width: 1px 0 0 0;
+	}
+	
+	.cs_airport_condition .gate_detail .txt_l {
+		color: #fff;
+	}
+	
+	.cs_airport_condition .gate_detail td {
+		border: 1px solid #404040;
+	}
+	
+	.cs_airport_condition .legend_area .info a {
+		color: #cacaca;
+	}
+	
+	.cs_airport_condition .legend_area .info .ico_info {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_airport_condition .airport_popup .layer_close {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_airport_condition .airport_popup {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_airport_condition .airport_popup .pop_header strong {
+		color: #fff;
+	}
+	
+	.cs_airport_condition .airport_popup ul .people_total {
+		color: #cacaca;
+	}
+	
+	.cs_airport_condition .notice_txt {
+		color: #cacaca;
+	}
+	
+	.cs_airport_condition .tb_scroll tbody {
+		border-bottom: 1px solid #404040;
 	}
 }
 

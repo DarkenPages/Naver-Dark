@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.40
+@version		1.64.41
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -113794,6 +113794,10 @@
 	.btn_image_size {
 		background-color: #242424;
 		border: 1px solid #404040;
+	}
+	
+	html.pc .mail_toolbar_task .icon_layout_vertical:before, html.pc .mail_toolbar_task .icon_layout_horizontal:before, html.pc .mail_toolbar_task .icon_sorting_group:before {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 }
 

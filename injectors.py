@@ -1,6 +1,8 @@
 import os
 
 
+HEADER_BEGIN = '/* ==UserStyle=='
+HEADER_END = '==/UserStyle== */'
 FILENAME = './naver-dark.orig.user.css'
 
 
@@ -16,11 +18,13 @@ def main():
     for i in range(len(texts)):
         text = texts[i]
         if not done:
-            if text.startswith('/* ==UserStyle=='):
+            if text.startswith(HEADER_BEGIN):
                 is_header = True
-            elif text.startswith('==/UserStyle== */'):
+                continue
+            elif text.startswith(HEADER_END):
                 is_header = False
                 done = True
+                continue
 
         if is_header:
             if text.startswith('@homepageURL'):
@@ -47,7 +51,10 @@ def main():
         headers.append('@updateURL   \t\thttps://raw.githubusercontent.com/DarkenPages/Naver-Dark/master/naver-dark.user.css')
     
     with open(FILENAME, 'w') as f:
+        f.write('{}\n'.format(HEADER_BEGIN))
         f.write('{}\n'.format('\n'.join(headers)))
+        f.write('{}\n'.format(HEADER_END))
+
         f.write('{}\n'.format('\n'.join(contents)))
 
     print('Total {} lines of {} have been written'.format(len(headers) + len(contents), FILENAME))

@@ -5,7 +5,7 @@
   "main": "compressor/index.js",
   "scripts": {
     "compress-legacy": "node compressor/index.js",
-    "compress": "node usercss-compiler/index.js 'Naver Dark.verbose.user.css' 'Naver Dark.user.css'"
+    "compress": "node usercss-compiler/index.js 'naver-dark.orig.user.css' 'naver-dark.user.css'"
   },
   "repository": {
     "type": "git",

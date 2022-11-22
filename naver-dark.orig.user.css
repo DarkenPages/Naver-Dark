@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.43
+@version		1.64.44
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -107349,19 +107349,19 @@
 		color: #cacaca;
 	}
 	
-	:not(.pageBreak) > .formItem:not(.formInfo):not(.pageBreak):not(.sectionHeader):not(.quiz-score-wrap):not(.pageBreak) > div:not(.previewItemLayer) .title span:not(.quiz-score-wrap), .formItem .displayModeOption .optionLabel, .formItem .etcOption span, .multipleAnswers_title {
+	html :not(.pageBreak) > .formItem:not(.formInfo):not(.pageBreak):not(.sectionHeader):not(.quiz-score-wrap):not(.pageBreak) > div:not(.previewItemLayer) .title span:not(.quiz-score-wrap), html .formItem .displayModeOption .optionLabel, html .formItem .etcOption span, html .multipleAnswers_title {
 		color: #fff !important;
 	}
 	
-	.formItem:not(.formInfo):not(.pageBreak):not(.sectionHeader) > div:not(.previewItemLayer) .description {
+	html .formItem:not(.formInfo):not(.pageBreak):not(.sectionHeader) > div:not(.previewItemLayer) .description {
 		color: #cacaca !important;
 	}
 	
-	.formItem.sectionHeader .description {
+	html .formItem.sectionHeader .description {
 		color: #cacaca !important;
 	}
 	
-	.formItem.sectionHeader .title span:not(.quiz-score-wrap) {
+	html .formItem.sectionHeader .title span:not(.quiz-score-wrap) {
 		color: #fff !important;
 	}
 	

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.45
+@version		1.64.46
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -5145,6 +5145,7 @@
     div.mInput_holder.mInput_over { border-color: #019341 }
     div.viewTitle dl dt .viewMoreOn { filter: none }
     html { --color-title: #ffffff;--color-title-rgb: 255, 255, 255;--color-text: #fff;--color-text-rgb: 255, 255, 255;--color-sub-info-2: #fff;--color-sub-info-2-rgb: 255, 255, 255;--color-sub-info-1: #cacaca;--color-sub-info-1-rgb: 202, 202, 202;--color-red: #fc193c;--color-red-rgb: 252, 25, 60;--color-link: #6b77ac;--color-link-rgb: 107, 119, 172;--color-line: #efeff0;--color-line-rgb: 239, 239, 240;--color-green: #03c75a;--color-green-rgb: 3, 199, 90;--color-button-line: #404040;--color-button-line-rgb: 64, 64, 64;--color-body: #cacaca;--color-body-rgb: 202, 202, 202;--color-blue: #0073e6;--color-blue-rgb: 0, 115, 230;--color-background: #242424;--color-background-rgb: 36, 36, 36 }
+    html.pc .lnb { border-color: rgba(var(--color-body-rgb), 0.15);background-color: var(--color-background) }
     html.pc .mail_toolbar_task .button_next_mail:before,html.pc .mail_toolbar_task .button_previous_mail:before { background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22%3E%3Cpath d=%22M14.354 5.454l-6 6a.502.502 0 01-.708 0l-6-6a.502.502 0 01.708-.708L8 10.393l5.646-5.647a.502.502 0 01.708.708z%22 fill=%22%23fff%22 fill-rule=%22nonzero%22/%3E%3C/svg%3E") }
     html.pc .mail_view_header .button_svg_print:focus:before,html.pc .mail_view_header .button_svg_print:hover:before { background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 18 18%22%3E%3Cg fill=%22none%22 fill-rule=%22evenodd%22%3E%3Crect width=%2210%22 height=%229%22 x=%224%22 y=%222.5%22 stroke=%22%23fff%22 rx=%221%22/%3E%3Crect width=%2214%22 height=%225%22 x=%222%22 y=%2211.5%22 stroke=%22%23FFF%22 rx=%221%22/%3E%3Crect width=%2214%22 height=%225%22 x=%222%22 y=%2211.5%22 stroke=%22%23fff%22 rx=%221%22/%3E%3Cpath stroke=%22%23fff%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 d=%22M6.6 5.5h4.8m-4.8 3h4.8%22/%3E%3C/g%3E%3C/svg%3E") }
     html.pc .smart_tab .button_next_wrap { background-image: linear-gradient(to right, rgba(36, 36, 36, 0) 0%, #242424 33%);background-image: -webkit-gradient(linear, left top, right top, from(rgba(36, 36, 36, 0)), color-stop(33%, #242424)) }

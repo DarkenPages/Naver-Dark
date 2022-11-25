@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.45
+@version		1.64.46
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -111578,6 +111578,11 @@
 	
 	#header {
 		background-color: #242424;
+	}
+	
+	html.pc .lnb {
+		background-color: var(--color-background);
+		border-color: rgba(var(--color-body-rgb), 0.15);
 	}
 	
 	.smart_channel {

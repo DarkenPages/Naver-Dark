@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.44
+@version		1.64.45
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -86954,6 +86954,62 @@
 	
 	.cs_airport_condition .tb_scroll tbody {
 		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_common_module .league_schedule .match_content .match_title {
+		color: #fff;
+	}
+	
+	.cs_common_module .league_schedule.type_sports .match_content .match_area .box .match_btn {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .league_schedule .match_content.live .match_list .team_score {
+		color: #fff;
+	}
+	
+	.cs_common_module .rank_table_area.type_worldcup .rank_table thead th:first-child {
+		color: #fff;
+	}
+	
+	.cs_common_module .rank_table_area .rank_table .info .info_text .name {
+		color: #fff;
+	}
+	
+	.cs_common_module .rank_table_area.type_worldcup .rank_table tbody tr.rank_1st, .cs_common_module .rank_table_area .rank_table tbody tr.rank_1st {
+		background-color: #3a3a3a;
+	}
+	
+	.cs_common_module .rank_table_area .rank_table thead th {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.cs_common_module .rank_table_area.type_worldcup .rank_table thead th {
+		border-top: none;
+	}
+	
+	.cs_common_module .rank_table_area.type_worldcup .rank_table tbody tr:last-child th, .cs_common_module .rank_table_area.type_worldcup .rank_table tbody tr:last-child td {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_common_module .rank_table_area.type_worldcup .rank_table tbody td {
+		border-bottom: none;
+	}
+	
+	.cs_common_module .rank_table_area .rank_table .num {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .league_schedule .match_content .match_list .team_thumb img {
+		clip: initial !important;
+		position: relative !important;
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.ad_section.type_improve .lnk_desc {
+		color: #cacaca;
 	}
 }
 

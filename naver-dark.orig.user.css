@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.47
+@version		1.64.48
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -111712,7 +111712,7 @@
 		color: #cacaca;
 	}
 	
-	.workseditor-classic .deco_bold .btn_tool .ico:before, .workseditor-classic .deco_italic .btn_tool .ico:before, .workseditor-classic .deco_underline .btn_tool .ico:before, .workseditor-classic .deco_strike .btn_tool .ico:before, .workseditor-classic .ft_bgcolor .btn_tool .ico:before, .workseditor-classic .ft_color .btn_tool .ico:before, .workseditor-classic .align .align_left .ico:before, .workseditor-classic .list_style .lst_none .ico:before, .workseditor-classic .list_style .lst_bigcircle .ico:before, .workseditor-classic .text_indent .outdent .ico:before, .workseditor-classic .text_indent .indent .ico:before, .workseditor-classic .line_height .btn_tool .ico:before, .workseditor-classic .fn_clearformat .btn_tool .ico:before, .workseditor-classic .fn_border .btn_tool .ico:before, .workseditor-classic .fn_symbols .btn_tool .ico:before, .workseditor-classic .fn_hyperlink .btn_tool .ico:before, .workseditor-classic .fn_table .btn_tool .ico:before, .workseditor-classic .fn_translate .btn_tool .ico:before, .workseditor-classic .fn_signature .btn_tool .ico:before, .workseditor-classic .attach_image .btn_tool .ico:before, .workseditor-classic .align .align_center .ico:before, .workseditor-classic .align .align_right .ico:before, .workseditor-classic .align .align_justify .ico:before {
+	.workseditor-classic .deco_bold .btn_tool .ico:before, .workseditor-classic .deco_italic .btn_tool .ico:before, .workseditor-classic .deco_underline .btn_tool .ico:before, .workseditor-classic .deco_strike .btn_tool .ico:before, .workseditor-classic .ft_bgcolor .btn_tool .ico:before, .workseditor-classic .ft_color .btn_tool .ico:before, .workseditor-classic .align .align_left .ico:before, .workseditor-classic .list_style .lst_none .ico:before, .workseditor-classic .list_style .lst_bigcircle .ico:before, .workseditor-classic .text_indent .outdent .ico:before, .workseditor-classic .text_indent .indent .ico:before, .workseditor-classic .line_height .btn_tool .ico:before, .workseditor-classic .fn_clearformat .btn_tool .ico:before, .workseditor-classic .fn_border .btn_tool .ico:before, .workseditor-classic .fn_symbols .btn_tool .ico:before, .workseditor-classic .fn_hyperlink .btn_tool .ico:before, .workseditor-classic .fn_table .btn_tool .ico:before, .workseditor-classic .fn_translate .btn_tool .ico:before, .workseditor-classic .fn_signature .btn_tool .ico:before, .workseditor-classic .attach_image .btn_tool .ico:before, .workseditor-classic .align .align_center .ico:before, .workseditor-classic .align .align_right .ico:before, .workseditor-classic .align .align_justify .ico:before, .workseditor-classic .capture_editor .btn_tool .ico:before {
 		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
@@ -111965,6 +111965,14 @@
 	html.pc .lnb_mailbox .mailbox:not(.selected):not(.editing):not([class*='drag']):hover, html.pc .lnb_mailbox .mailbox:not(.selected):not(.editing):not([class*='drag']).focus {
 		background-color: rgba(var(--color-link-rgb), 0.1);
 	}
+	
+	.workseditor-classic .ft_family a:hover {
+		background-color: #2f2f2f;
+	}
+	
+	html.pc .mail_toolbar_task .button_write_change:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
 }
 
 @-moz-document url-prefix("https://mail.naver.com/write/imageCapture")
@@ -112147,6 +112155,10 @@
 	
 	.ly_text_picker .cp-manual .cp-preview {
 		border: 1px solid #404040;
+	}
+	
+	.tool_box.disabled + .canvas_cover .canvas_scroll #canvas_image {
+		filter: invert(86%) hue-rotate(-180deg) brightness(200%);
 	}
 }
 

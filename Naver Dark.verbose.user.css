@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.50
+@version		1.64.51
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -65984,6 +65984,15 @@
 		color: #cacaca;
 	}
 	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div[style]+div[class]+div[class]+ul[class]>li[class][data-laim-exp-id='nmb_res']:nth-child(2n):not(:nth-child(2)):before,
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div[style]+div[class]+div[class]+ul[class]>li[class][data-laim-exp-id='nmb_res']:nth-child(2n+1):not(:first-child):before {
+		background: #404040;
+	}
+	
+	#place-app-root .sc_new .api_subject_bx .api_title_area+div[style]+div[class]+div[class]+ul[class]+div[class] {
+		border-top: 1px solid #404040;
+	}
+	
 	#place-app-root .sc_new .api_subject_bx .place_section_content>div:nth-child(2)>div>div:first-child>div[class] {
 		color: #fff;
 	}
@@ -66025,6 +66034,14 @@
 	
 	#place-app-root .sc_new .api_subject_bx .place_section_content>ul+div[class] {
 		border-top: 1px solid #404040;
+	}
+	
+	.place_label_icon_inner {
+		fill: #2f2f2f;
+	}
+	
+	.place_label_bg {
+		fill: rgb(46, 57, 50);
 	}
 	
 	/* Naver Map */
@@ -87005,11 +87022,23 @@
 	.cs_common_module .league_schedule .match_content .match_list .team_thumb img {
 		clip: initial !important;
 		position: relative !important;
-		filter: invert(86%) hue-rotate(-180deg);
 	}
 	
 	.ad_section.type_improve .lnk_desc {
 		color: #cacaca;
+	}
+	
+	.cs_common_module .league_schedule .match_content.live .match_btn+.match_btn {
+		color: #fff !important;
+	}
+	
+	.sp_ntotal .review_wrap .link_review {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.cs_common_simple .info_check_area .ico_vibe {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 }
 

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.48
+@version		1.64.49
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -5101,7 +5101,7 @@
     .smart_mail_cover .tab_smart_mail li a { color: #cacaca;border-bottom: 2px solid #404040 }
     .tb_ext_list table td,.tb_ext_list table th { color: #cacaca;border-top: 1px solid #404040 }
     .type_alert .btn_area button { color: #fff;border: 1px solid #404040 }
-    .type_alert .btn_area button.b { background-color: #3a3a3a }
+    .type_alert .btn_area button.b,.workseditor-classic .ft_family .btn_next_item:active,.workseditor-classic .ft_family .btn_prev_item:active,.workseditor-classic .ft_size .btn_next_item:active,.workseditor-classic .ft_size .btn_prev_item:active { background-color: #3a3a3a }
     .type_alert .layer_content { border-color: #404040;background: #2f2f2f }
     .upld_file .file_progress { border: 1px solid #404040;border-width: 0 1px }
     .upld_file_head,.upld_file_list li { color: #cacaca;border: 1px solid #404040;border-width: 1px 0;background-color: #2f2f2f }

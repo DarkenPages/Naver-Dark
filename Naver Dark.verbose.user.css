@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.48
+@version		1.64.49
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -111972,6 +111972,10 @@
 	
 	html.pc .mail_toolbar_task .button_write_change:before {
 		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.workseditor-classic .ft_size .btn_prev_item:active, .workseditor-classic .ft_size .btn_next_item:active, .workseditor-classic .ft_family .btn_prev_item:active, .workseditor-classic .ft_family .btn_next_item:active {
+		background-color: #3a3a3a;
 	}
 }
 

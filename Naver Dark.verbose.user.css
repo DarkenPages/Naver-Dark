@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.49
+@version		1.64.50
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -111976,6 +111976,14 @@
 	
 	.workseditor-classic .ft_size .btn_prev_item:active, .workseditor-classic .ft_size .btn_next_item:active, .workseditor-classic .ft_family .btn_prev_item:active, .workseditor-classic .ft_family .btn_next_item:active {
 		background-color: #3a3a3a;
+	}
+	
+	.lnb_mailbox .svg_smartmail:before {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 20 20%22%3E%3Cpath d=%22M3.95 5.939l6.051 2.42 6.049-2.42L10 3.52 3.95 5.94zm.045 4.477l6.006 2.267 5.997-2.265-3.327-1.49-2.107.843a1.514 1.514 0 01-1.127-.001L7.27 8.903l-3.276 1.513zm0 4.315L10.001 17l5.997-2.267-3.26-1.46-2.202.831a1.508 1.508 0 01-1.071 0l-2.263-.853-3.207 1.48zm5.47 3.69l-6.577-2.484a1.253 1.253 0 01-.707-.664 1.255 1.255 0 01-.028-.968c.122-.334.392-.604.735-.734l2.32-1.073-2.32-.876a1.255 1.255 0 01-.706-.662 1.262 1.262 0 01.706-1.705l2.44-1.128-2.532-1.013a1.264 1.264 0 01-.002-2.349L9.437 2.11a1.51 1.51 0 011.127 0l6.64 2.656c.647.257.964.995.707 1.643a1.278 1.278 0 01-.707.707l-2.57 1.027 2.52 1.13c.61.23.942.96.696 1.613-.13.341-.398.61-.74.737l-2.357.89 2.402 1.076c.609.229.94.96.695 1.612-.13.342-.398.611-.74.738l-6.573 2.483a1.514 1.514 0 01-1.072 0z%22 fill=%22%23fff%22 fill-rule=%22evenodd%22/%3E%3C/svg%3E");
+	}
+	
+	.lnb_mailbox .svg_depth:before {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 20 20%22%3E%3Cg fill=%22none%22 fill-rule=%22evenodd%22%3E%3Cpath d=%22M0 0h20v20H0z%22/%3E%3Cpath stroke=%22%23fff%22 d=%22M17 10H9V2%22/%3E%3C/g%3E%3C/svg%3E");
 	}
 }
 

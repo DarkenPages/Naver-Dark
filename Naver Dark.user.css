@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.52
+@version		1.64.53
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -5467,7 +5467,7 @@
 }
 @-moz-document url-prefix("https://n.news.naver.com") {
     :root { --color_visit: #919192;--color_title: #f0f0f2;--color_sub_info: #a5a5a7;--color_sub_info2: #919192;--color_separation: #303033;--color_point_news_text: #5b86fd;--color_point_news_old_text: #5b87fd;--color_point_news_gnb: #4978f4;--color_point_news: #4978f4;--color_line_lv3: #595959;--color_line_lv2: #545457;--color_line_lv1: #464649;--color_line_ad: #303030;--color_likeit_title: #f0f0f2;--color_likeit_sub_info: #a5a5a7;--color_likeit_line_lv3: #595959;--color_likeit_line_lv2: #545457;--color_likeit_line_lv1: #464649;--color_likeit_layer_background_lv2_border: #545457;--color_likeit_layer_background_lv2: #48484b;--color_likeit_body: #dadde0;--color_likeit_background: #39393c;--color_layer_background_lv3_border: #545457;--color_layer_background_lv3: #48484b;--color_layer_background_lv2_border: #545457;--color_layer_background_lv2: #39393c;--color_layer_background_lv1_border: #464649;--color_layer_background_lv1: #303033;--color_icon_arrow: rgba(255, 255, 255, 0.68);--color_body_background: #1a1a1c;--color_body: #dadde0;--color_background_inverse: #fff;--color_background_footer: #303033;--color_background: #242424 }
-    .as_gnb_mnews .Nlist_item a.Nitem_link,.pg_num_area.pg_num_area_v2 .pg_num,.spi_default a:active,.spi_default a:focus,.spi_default a:hover,.spi_default a:visited,.spi_lst a,html .as_gnb .Nitem_link,html .as_gnb_mnews .Nlnb.is_fixed .Nlist_item.is_active .Nitem_link,html .media_end_head_fontsize_option_is_on a.media_end_head_fontsize_option_text,html .media_end_head_lang_setlayer_select .media_end_head_lang_option_is_on .media_end_head_lang_option_text { color: #fff }
+    .as_gnb_mnews .Nlist_item a.Nitem_link,.pg_num_area.pg_num_area_v2 .pg_num,.spi_default a:active,.spi_default a:focus,.spi_default a:hover,.spi_default a:visited,.spi_lst a,html .as_gnb .Nitem_link,html .as_gnb_mnews .Nlnb.is_fixed .Nlist_item.is_active .Nitem_link,html .as_gnb_sports.as_type_esports .Nlist_sub_item.is_active .Nitem_sub_link_menu,html .media_end_head_fontsize_option_is_on a.media_end_head_fontsize_option_text,html .media_end_head_lang_setlayer_select .media_end_head_lang_option_is_on .media_end_head_lang_option_text { color: #fff }
     .gnb_notice_li a.gnb_notice .gnb_icon,.gnb_service_li a.gnb_service .gnb_icon,.mail_li a.gnb_mail .gnb_icon { filter: invert(0%) !important }
     .media_end_head_origin_link { border: 1px solid #404040 }
     .media_journalistcard_summary_subscribe_inner { color: #cacaca }
@@ -5480,6 +5480,13 @@
     .spi_btn_release .spi_lst_release a.spi_btn_copyurl,.spi_onebtn .spi_lst .spi_btn_release .spi_lst_release a.spi_btn_copyurl,.spi_sns_share .spi_lst .spi_btn_release .spi_lst_release a.spi_btn_copyurl { color: #cacaca !important;border: 1px solid #404040 }
     .spi_btn_release .spi_lst_release a.spi_input_copyurl,.spi_onebtn .spi_lst .spi_btn_release .spi_lst_release a.spi_input_copyurl,.spi_sns_share .spi_lst .spi_btn_release .spi_lst_release a.spi_input_copyurl { color: #cacaca;border: 1px solid #404040;background-color: #242424 }
     .spi_lst .spi_lst_release { border: 1px solid #404040;background-color: #2f2f2f }
+    @media (max-width: 1024px) {
+        html .as_gnb_mnews.as_type_series .Nlnb,html .as_gnb_mnews.as_type_series .Nlnb.is_fixed .Nlnb_menu { background-color: #39393c }
+        html .as_gnb_mnews.as_type_series .Nlnb.is_fixed .Nlist_item a.Nitem_link { color: #dadde0 }
+        html .as_gnb_mnews.as_type_series .Nlnb.is_fixed .Nlist_item.is_active .Nitem_link { color: #5b87fd }
+        html .as_gnb_mnews.as_type_series .Nlnb.is_fixed .Nlist_item.is_active .Nitem_link_menu::before { background-color: #5b87fd }
+        html .series_header.is_fixed .sh_container { box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);background-color: #39393c;-webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05) }
+    }
     @media (min-width: 1024px) {
         html .as_mp_layout.n_news_sports .ct_wrap::before { background-color: #303033 }
         html .as_mp_layout.n_news_sports .footer_notice .fn_label,html .as_mp_layout.n_news_sports .footer_notice .fn_link,html .as_mp_layout.n_news_sports .footer_shortcut .fs_link { color: #919192 }
@@ -5490,6 +5497,10 @@
         html .as_mp_layout .Ngnb_search { border-color: #464649 }
         html .as_mp_layout:not(.n_news_sports) .ct_scroll_wrapper::before,html .as_mp_layout:not(.n_news_sports) .ct_wrap::before { background-color: #303033 }
         html .n_news.as_mp_layout,html .n_news_mnews.as_mp_layout { background-color: #39393c }
+        html .series_header .sh_name_button::before { background-color: #464649 }
+        html .shm_layer { background-color: var(--color_layer_background_lv2) }
+        html .shn_layer_inner { border-color: #464649;background-color: #48484b }
+        html .shn_thumb[style*='display'][style*='none']+.shn_text { background-color: transparent }
     }
     @media not all {
         .dark_type { display: none !important }
@@ -5502,35 +5513,38 @@
     html .as_gnb_mnews .Nlist_item a.Nitem_link,html .as_gnb_mnews .u_it::placeholder,html .subscribe_cta_layer .cta_btn:not(.as_subscribe) .cta_text,html .as_gnb_mnews .u_it:-ms-input-placeholder,html .as_gnb_mnews .u_it::-moz-placeholder,html .as_gnb_mnews .u_it::-ms-input-placeholder,html .as_gnb_mnews .u_it::-webkit-input-placeholder { color: #dadde0 }
     html .as_gnb_mnews .Nlist_item.is_active .Nitem_link { color: #5b87fd }
     html .as_gnb_mnews .Nlist_item.is_active .Nitem_link_menu::before { background-color: #5b87fd }
-    html .as_gnb_mnews .Nlnb_menu { border-bottom-color: #464649 }
+    html .as_gnb_mnews .Nlnb_menu,html .series_header .sh_container { border-bottom-color: #464649 }
     html .as_gnb_mnews .Nlnb_menu::after { background-image: linear-gradient(to right, rgba(57, 57, 60, 0) 0%, #39393c 63%);background-image: -webkit-linear-gradient(left, rgba(57, 57, 60, 0) 0%, #39393c 63%);background-image: -webkit-gradient(linear, left top, right top, from(rgba(57, 57, 60, 0)), color-stop(63%, #39393c)) }
     html .as_gnb_mnews .Nlnb_menu::before { background-image: linear-gradient(to left, rgba(57, 57, 60, 0) 32%, #39393c 80%);background-image: -webkit-linear-gradient(right, rgba(57, 57, 60, 0) 32%, #39393c 80%);background-image: -webkit-gradient(linear, right top, left top, color-stop(32%, rgba(57, 57, 60, 0)), color-stop(80%, #39393c)) }
     html .as_gnb_mnews .Nlnb::before { border-bottom-color: #464649;background-color: #39393c }
     html .as_gnb_mnews .Nlnb.is_fixed::after { border-bottom-color: #464649;background-color: #4978f4 }
     html .as_gnb_mnews .Nlnb.is_fixed::before { border-bottom-color: #4978f4;background-color: #4978f4 }
     html .as_gnb_mnews .u_clrt { background-color: rgba(255, 255, 255, 0.13) }
-    html .as_gnb_mnews .u_hs,html .media_journalistcard_recommend,html .media_journalistcard_recommend_inner::before,html .ofpr_recommend,html .ofpr_recommend .ofpr_recommend_inner::before { background-color: #48484b }
+    html .as_gnb_mnews .u_hs,html .media_journalistcard_recommend,html .media_journalistcard_recommend_inner::before,html .ofpr_recommend,html .ofpr_recommend .ofpr_recommend_inner::before,html .related_series .rs_inner,html .shn_thumb[style*='display'][style*='none']+.shn_text,html .suse_link { background-color: #48484b }
     html .as_gnb_mnews .u_hssbt_close::after,html .as_gnb_mnews .u_hssbt_close::before { background-color: findColor("SUB_INFO", "dark") }
     html .as_gnb_mnews .u_hssbt_ss::after,html .gnb_flat .gf_close,html .n_news_entertain .Ntool_button .Nicon_search,html .related_book .rb_btn_next::after,html .related_book .rb_btn_prev::after { filter: invert(100%);-webkit-filter: invert(100%) }
     html .as_gnb_mnews .u_hssbt_us,html .copyright,html .ends_btn_head .ends_help_layer .ends_help_desc,html .media_end_linked_title_desc,html .n_news_sports .u_copyright,html .n_news_sports .u_cri:not(.u_cri_v1),html .n_news_sports .u_ftlk,html .n_news_sports span.u_cri,html .n_news_sports span.u_cri .u_cra_v1,html .u_charge_item { color: #919192 }
-    html .as_gnb_sports .Nitem_sub_link_menu,html .footer_shortcut .fs_link { color: #f0f0f2 }
+    html .as_gnb_sports .Nitem_sub_link_menu,html .footer_shortcut .fs_link,html .shm_title { color: #f0f0f2 }
     html .as_gnb_sports .Nitem_sub_link_menu.as_kbo40 { color: transparent }
     html .as_gnb_sports .Nitem_sub_link_menu.as_kbo40::after { background-position: -89px -108px }
     html .as_gnb_sports .Nlist_sub_item.is_active .Nitem_sub_link_menu,html .footer_notice .fn_label { color: #6b9cff }
     html .as_gnb_sports .Nlist_sub_item.is_active .Nitem_sub_link_menu::before { background-color: #6b9cff }
+    html .as_gnb_sports.as_type_esports .Nitem_sub_link_menu { color: #a0a5b6 }
     html .as_gnb.as_type_a .Nitem_link { color: rgba(255, 255, 255, 0.7) }
-    html .as_mp_layout .ofhe_flick_btn_next,html .as_mp_layout .ofhe_flick_btn_prev,html .ofpr_scroller_btn_next,html .ofpr_scroller_btn_prev { background: #3f4145 }
-    html .as_mp_layout .ofhe_flick_btn_next::before,html .as_mp_layout .ofhe_flick_btn_prev::before,html .ofpr_scroller_btn_next::before,html .ofpr_scroller_btn_prev::before { border-color: rgba(255, 255, 255, 0.7) }
-    html .as_mp_layout .ofhe_flick_btn_next:hover::before,html .as_mp_layout .ofhe_flick_btn_prev:hover::before,html .ofpr_scroller_btn_next:hover::before,html .ofpr_scroller_btn_prev:hover::before { border-color: #fff }
+    html .as_mp_layout .ofhe_flick_btn_next,html .as_mp_layout .ofhe_flick_btn_prev,html .ofpr_scroller_btn_next,html .ofpr_scroller_btn_prev,html .shn_flick_btn_next,html .shn_flick_btn_prev,html .suse_flick_btn_next,html .suse_flick_btn_prev { background: #3f4145 }
+    html .as_mp_layout .ofhe_flick_btn_next::before,html .as_mp_layout .ofhe_flick_btn_prev::before,html .ofpr_scroller_btn_next::before,html .ofpr_scroller_btn_prev::before,html .shn_flick_btn_next::before,html .shn_flick_btn_prev::before,html .suse_flick_btn_next::before,html .suse_flick_btn_prev::before { border-color: rgba(255, 255, 255, 0.7) }
+    html .as_mp_layout .ofhe_flick_btn_next:hover::before,html .as_mp_layout .ofhe_flick_btn_prev:hover::before,html .ofpr_scroller_btn_next:hover::before,html .ofpr_scroller_btn_prev:hover::before,html .shn_flick_btn_next:hover::before,html .shn_flick_btn_prev:hover::before,html .suse_flick_btn_next:hover::before,html .suse_flick_btn_prev:hover::before { border-color: #fff }
     html .as_mp_layout.n_news_sports .as_gnb_sports.as_type_qatar2022~.ct_wrap .rankingnews .ra_tab_item .ra_tab_a { border-color: transparent;background-color: transparent }
     html .as_mp_layout.n_news_sports .as_gnb_sports.as_type_qatar2022~.ct_wrap .rankingnews .ra_tab_item.on .ra_tab_a { border-color: #802045;background-color: #802045 }
+    html .as_setting .shm_item_text::before { background-position: -318px -325px }
+    html .as_subscribe .shm_item_text::before { background-position: 0px -353px }
     html .banner_image { background: transparent }
     html .banner_image[style*='background'i][style*='#ffffff'i],html .newsct_article a[bgcolor],html .newsct_article a[style*='background'i],html .newsct_article b[bgcolor],html .newsct_article b[style*='background'i],html .newsct_article blockquote[bgcolor],html .newsct_article blockquote[style*='background'i],html .newsct_article dd[bgcolor],html .newsct_article dd[style*='background'i],html .newsct_article div[bgcolor],html .newsct_article div[style*='background'i],html .newsct_article dl[bgcolor],html .newsct_article dl[style*='background'i],html .newsct_article dt[bgcolor],html .newsct_article dt[style*='background'i],html .newsct_article figcaption[bgcolor],html .newsct_article figcaption[style*='background'i],html .newsct_article figure[bgcolor],html .newsct_article figure[style*='background'i],html .newsct_article font[bgcolor],html .newsct_article font[style*='background'i],html .newsct_article h1[bgcolor],html .newsct_article h1[style*='background'i],html .newsct_article h2[bgcolor],html .newsct_article h2[style*='background'i],html .newsct_article h3[bgcolor],html .newsct_article h3[style*='background'i],html .newsct_article h4[bgcolor],html .newsct_article h4[style*='background'i],html .newsct_article h5[bgcolor],html .newsct_article h5[style*='background'i],html .newsct_article h6[bgcolor],html .newsct_article h6[style*='background'i],html .newsct_article li[bgcolor],html .newsct_article li[style*='background'i],html .newsct_article ol[bgcolor],html .newsct_article ol[style*='background'i],html .newsct_article p[bgcolor],html .newsct_article p[style*='background'i],html .newsct_article span[bgcolor],html .newsct_article span[style*='background'i],html .newsct_article strong[bgcolor],html .newsct_article strong[style*='background'i],html .newsct_article table[bgcolor],html .newsct_article table[style*='background'i],html .newsct_article td[bgcolor],html .newsct_article td[style*='background'i],html .newsct_article th[bgcolor],html .newsct_article th[style*='background'i],html .newsct_article tr[bgcolor],html .newsct_article tr[style*='background'i],html .newsct_article ul[bgcolor],html .newsct_article ul[style*='background'i] { background: transparent !important }
     html .changecmt_info .changecmt_btn_info_close,html .help_button::before,html .help_layer_close::before,html .media_end_categorize_ct_close::before,html .media_end_factcheck_info_close::after,html .media_end_factcheck_infoicon,html .media_end_head_autosummary_help,html .media_end_head_channel_layer_close::before,html .media_flick .mf_error .mf_desc::before,html .media_journalistcard_recommend_close,html .nocmt_p::before,html .office_headline .ofhe_notice_text::before,html .ofhe_info_button::before,html .ofhe_info_layer_close::before,html .ofpr_m_empty::before,html .ofpr_recommend .ofpr_recommend_close::before,html .pg_num_area.pg_num_area_v1 .pg_num::before,html .ra_extra_area .rl_error .rl_error_desc::before,html .ranking_list .rl_error .rl_error_desc::before,html .rankingnews .ra_error .ra_error_desc::before,html .subscribe_guide_close::before,html .tomain.as_addinfo button.to_infobutton_b::before,html .tomain_info_close::before,html .u_sggt_wrap2 .kwd_info.imsc_bf::before { opacity: 0.46;filter: invert(100%);-webkit-filter: invert(100%) }
-    html .changecmt_info .changecmt_info_icon::before { background-position: -399px -306px }
+    html .changecmt_info .changecmt_info_icon::before { background-position: -399px -194px }
     html .changecmt_layer,html .media_end_factcheck_info,html .subscribe_guide { border: solid 1px rgba(255, 255, 255, 0.05) }
     html .changecmt,html .media_end_channel_banner_link { border-color: #535353;background-color: #434344 }
-    html .ends_addition .spi_wrap .spi .sns_share::after,html .media_end_head_autosummary_layer_close::before,html .media_end_head_top_channel_add.is_disabled::before,html .media_end_head_tts_setlayer_close::before,html .ofpr_btn_confirm.disabled::before,html .ra_extra_area .rl_comment::before,html .ra_extra_area .rl_player::before,html .ra_extra_area .rl_time::before,html .ra_extra_area .rl_visit::before,html .ranking_list .rl_comment::before,html .ranking_list .rl_player::before,html .ranking_list .rl_time::before,html .ranking_list .rl_visit::before,html .simplecmt_link.is_officecomment::after,html .u_atcp_addb,html .u_sggt_wrap2 .kwd_lst .bt_del .imsc { opacity: 0.68;filter: invert(100%);-webkit-filter: invert(100%) }
+    html .ends_addition .spi_wrap .spi .sns_share::after,html .media_end_head_autosummary_layer_close::before,html .media_end_head_top_channel_add.is_disabled::before,html .media_end_head_tts_setlayer_close::before,html .ofpr_btn_confirm.disabled::before,html .ra_extra_area .rl_comment::before,html .ra_extra_area .rl_player::before,html .ra_extra_area .rl_time::before,html .ra_extra_area .rl_visit::before,html .ranking_list .rl_comment::before,html .ranking_list .rl_player::before,html .ranking_list .rl_time::before,html .ranking_list .rl_visit::before,html .related_series .subscribe_guide_close,html .related_series .subscribe_guide_p::after,html .series_header .subscribe_guide_close,html .series_header .subscribe_guide_p::after,html .simplecmt_link.is_officecomment::after,html .u_atcp_addb,html .u_sggt_wrap2 .kwd_lst .bt_del .imsc { opacity: 0.68;filter: invert(100%);-webkit-filter: invert(100%) }
     html .ends_btn_head .ends_help_layer { box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16);border-color: rgba(255, 255, 255, 0.03);background: #48484b;-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16) }
     html .ends_btn_head .ends_help_layer .ends_help_close { width: 8px;position: absolute;line-height: initial;height: 8px;font-size: 1px;color: rgba(1, 0, 0, 0);box-sizing: content-box;-webkit-box-sizing: content-box }
     html .ends_btn_head .ends_help_layer .ends_help_close::after { width: 1px;transform: rotate(-45deg);top: 50%;position: absolute;margin-top: -5.656px;margin-left: -0.5px;left: 50%;height: 11.312px;display: block;content: '';content: '';background-color: rgba(206, 208, 214, 0.6);-webkit-transform: rotate(-45deg) }
@@ -5547,7 +5561,7 @@
     html .light_type { display: none !important }
     html .media_end_categorize_ct,html .n_news .gnb_flat .gf_inner,html .n_news_mnews .gnb_flat .gf_inner,html .tomain_info_layer { border-color: rgba(255, 255, 255, 0.05) }
     html .media_end_categorize_item { background-color: rgba(91, 134, 253, 0.1) }
-    html .media_end_categorize_link::before { background-position: -399px -171px }
+    html .media_end_categorize_link::before { background-position: -399px -59px }
     html .media_end_channel_banner_add.is_disabled,html .media_journalistcard_item .subscribe.on .subscribe_ico,html .media_journalistcard_recommend .subscribe.on .subscribe_ico,html .media_journalistcard_recommend_channel_add.is_disabled,html .rankingnews .ra_title_badge.as_paid { color: #a5a5a7;border-color: #595959 }
     html .media_end_channel_banner_add.is_disabled::after,html .media_journalistcard_item .subscribe.on .subscribe_ico::after,html .media_journalistcard_recommend .subscribe.on .subscribe_ico::after,html .media_journalistcard_recommend_channel_add.is_disabled::after { border-color: rgba(255, 255, 255, 0.36) }
     html .media_end_factcheck_ct { border-top-color: var(--color_line_lv2) }
@@ -5572,10 +5586,10 @@
     html .media_end_head_journalist_talk,html .media_journalistcard_summary_talk { background-color: #444448 }
     html .media_end_head_lang_set::before { background-position: -307px -122px }
     html .media_end_head_lang_setlayer_select .media_end_head_lang_option_text { color: var(--color_sub_info);border: solid 1px #58585a;background-color: #545458 }
-    html .media_end_head_print .media_end_print_link::before { background-position: -399px -98px }
+    html .media_end_head_print .media_end_print_link::before { background-position: -223px -377px }
     html .media_end_head_tts_run::before { background-position: -307px -234px }
     html .media_end_head_tts_setlayer .media_end_head_tts_option::before { background-position: -377px -242px }
-    html .media_end_issuetimeline_go .meig_link::after,html .media_end_linked_more_link::after { background-position: -323px -353px }
+    html .media_end_issuetimeline_go .meig_link::after,html .media_end_linked_more_link::after { background-position: -286px -353px }
     html .media_flick .mf_thumb { background: url("https://ssl.pstatic.net/static.news/image/news/m/noimage/dark/noimage_288x176_dark.png");background-size: 144px }
     html .media_journalistcard_recommend_img_wrap { background-position: 0px 0px }
     html .media_journalistcard_recommend_img_wrap::after { border: 1px solid rgba(255, 255, 255, 0.06);border-radius: 44px }
@@ -5607,12 +5621,26 @@
     html .ra_extra_area .rl_border,html .ranking_list .rl_border { background: url("https://ssl.pstatic.net/static.news/image/news/m/noimage/dark/noimage_190x130_dark.png");background-size: 95px }
     html .rankingnews .noimage::after { opacity: 0.7;filter: invert(100%);-webkit-filter: invert(100%) }
     html .related_book .rb_btn_next.dimmed::after,html .related_book .rb_btn_prev.dimmed::after { opacity: 0.35;filter: invert(0);-webkit-filter: invert(0) }
+    html .related_series .rs_link { border-top-color: rgba(84, 84, 87, 0.8) }
+    html .related_series .subscribe_guide_close::before,html .series_header .subscribe_guide_close::before { opacity: 1;filter: none;-webkit-filter: none }
+    html .related_series .subscribe_guide,html .series_header .subscribe_guide { box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);border-color: #595959;background-color: #39393c;-webkit-box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1) }
+    html .series_header .sh_right .subscribe { border-color: #7fa0f7 }
+    html .series_header .sh_right .subscribe_ico,html .subscribe_guide_em,html .suse_h em { color: #7fa0f7 }
+    html .series_header .sh_right .subscribe_ico::before { background-position: -367px -40px }
+    html .series_header .sh_right .subscribe.on { border-color: #666 }
+    html .series_header .sh_right .subscribe.on .subscribe_ico::before { background-position: -259px -377px }
+    html .series_header button.sh_name_button::after { background-position: -217px -179px }
+    html .sh_menu_button::before { background-position: -411px -337px }
+    html .shm_layer { border-color: #464649;background-color: #222225 }
+    html .shm_layer_close::before,html .shn_layer_close::before { background-position: -208px -303px }
+    html .shn_layer_inner { background-color: #222225 }
     html .subscribe_cta_layer .cta_btn:not(.as_subscribe) { background: #464649 }
     html .subscribe_cta_layer .cta_btn:not(.as_subscribe) .cta_arrow { background: rgba(255, 255, 255, 0.1) }
+    html .suse_name.as_more::after { background-position: -251px -188px }
     html .tomain .to_infobutton::before { background: var(--color_line_lv1) }
     html .u_atcp_fc,html .u_atcp_lsc,html .u_sggt_wrap2 .sggt_footer { background-color: transparent }
     html .u_ft { color: #303033 }
-    html .u_sggt_wrap2 .sggt_header .tit .ico_help { background-position: -399px -354px }
+    html .u_sggt_wrap2 .sggt_header .tit .ico_help { background-position: -399px -242px }
     html a.media_end_head_fontsize_option_text { color: var(--color_title) }
     html body { background: #242424 }
 }

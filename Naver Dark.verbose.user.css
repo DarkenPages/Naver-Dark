@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.52
+@version		1.64.53
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -92769,6 +92769,30 @@
 		filter: invert(0%) !important;
 	}
 	
+	@media (max-width: 1024px) {
+		html .as_gnb_mnews.as_type_series .Nlnb, html .as_gnb_mnews.as_type_series .Nlnb.is_fixed .Nlnb_menu {
+			background-color: #39393c
+		}
+	
+		html .as_gnb_mnews.as_type_series .Nlnb.is_fixed .Nlist_item a.Nitem_link {
+			color: #dadde0
+		}
+	
+		html .as_gnb_mnews.as_type_series .Nlnb.is_fixed .Nlist_item.is_active .Nitem_link {
+			color: #5b87fd
+		}
+	
+		html .as_gnb_mnews.as_type_series .Nlnb.is_fixed .Nlist_item.is_active .Nitem_link_menu::before {
+			background-color: #5b87fd
+		}
+	
+		html .series_header.is_fixed .sh_container {
+			box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
+			background-color: #39393c;
+			-webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05)
+		}
+	}
+	
 	@media (min-width: 1024px) {
 		html .as_mp_layout.n_news_sports .ct_wrap::before {
 			background-color: #303033
@@ -92799,6 +92823,23 @@
 	
 		html .n_news_mnews.as_mp_layout, html .n_news.as_mp_layout {
 			background-color: #39393c
+		}
+	
+		html .series_header .sh_name_button::before {
+			background-color: #464649
+		}
+	
+		html .shm_layer {
+			background-color: var(--color_layer_background_lv2)
+		}
+	
+		html .shn_layer_inner {
+			border-color: #464649;
+			background-color: #48484b
+		}
+	
+		html .shn_thumb[style*='display'][style*='none']+.shn_text {
+			background-color: transparent
 		}
 	}
 	
@@ -92843,7 +92884,7 @@
 		background-color: #f0f0f2
 	}
 	
-	html .as_gnb .Nitem_link, html .as_gnb_mnews .Nlnb.is_fixed .Nlist_item.is_active .Nitem_link, html .media_end_head_fontsize_option_is_on a.media_end_head_fontsize_option_text, html .media_end_head_lang_setlayer_select .media_end_head_lang_option_is_on .media_end_head_lang_option_text {
+	html .as_gnb .Nitem_link, html .as_gnb_mnews .Nlnb.is_fixed .Nlist_item.is_active .Nitem_link, html .as_gnb_sports.as_type_esports .Nlist_sub_item.is_active .Nitem_sub_link_menu, html .media_end_head_fontsize_option_is_on a.media_end_head_fontsize_option_text, html .media_end_head_lang_setlayer_select .media_end_head_lang_option_is_on .media_end_head_lang_option_text {
 		color: #fff
 	}
 	
@@ -92871,7 +92912,7 @@
 		background-color: #5b87fd
 	}
 	
-	html .as_gnb_mnews .Nlnb_menu {
+	html .as_gnb_mnews .Nlnb_menu, html .series_header .sh_container {
 		border-bottom-color: #464649
 	}
 	
@@ -92906,7 +92947,7 @@
 		background-color: rgba(255, 255, 255, 0.13)
 	}
 	
-	html .as_gnb_mnews .u_hs, html .media_journalistcard_recommend, html .media_journalistcard_recommend_inner::before, html .ofpr_recommend, html .ofpr_recommend .ofpr_recommend_inner::before {
+	html .as_gnb_mnews .u_hs, html .media_journalistcard_recommend, html .media_journalistcard_recommend_inner::before, html .ofpr_recommend, html .ofpr_recommend .ofpr_recommend_inner::before, html .related_series .rs_inner, html .shn_thumb[style*='display'][style*='none']+.shn_text, html .suse_link {
 		background-color: #48484b
 	}
 	
@@ -92927,7 +92968,7 @@
 		color: #dadde0
 	}
 	
-	html .as_gnb_sports .Nitem_sub_link_menu, html .footer_shortcut .fs_link {
+	html .as_gnb_sports .Nitem_sub_link_menu, html .footer_shortcut .fs_link, html .shm_title {
 		color: #f0f0f2
 	}
 	
@@ -92947,19 +92988,23 @@
 		background-color: #6b9cff
 	}
 	
+	html .as_gnb_sports.as_type_esports .Nitem_sub_link_menu {
+		color: #a0a5b6
+	}
+	
 	html .as_gnb.as_type_a .Nitem_link {
 		color: rgba(255, 255, 255, 0.7)
 	}
 	
-	html .as_mp_layout .ofhe_flick_btn_next, html .as_mp_layout .ofhe_flick_btn_prev, html .ofpr_scroller_btn_next, html .ofpr_scroller_btn_prev {
+	html .as_mp_layout .ofhe_flick_btn_next, html .as_mp_layout .ofhe_flick_btn_prev, html .ofpr_scroller_btn_next, html .ofpr_scroller_btn_prev, html .shn_flick_btn_next, html .shn_flick_btn_prev, html .suse_flick_btn_next, html .suse_flick_btn_prev {
 		background: #3f4145
 	}
 	
-	html .as_mp_layout .ofhe_flick_btn_next::before, html .as_mp_layout .ofhe_flick_btn_prev::before, html .ofpr_scroller_btn_next::before, html .ofpr_scroller_btn_prev::before {
+	html .as_mp_layout .ofhe_flick_btn_next::before, html .as_mp_layout .ofhe_flick_btn_prev::before, html .ofpr_scroller_btn_next::before, html .ofpr_scroller_btn_prev::before, html .shn_flick_btn_next::before, html .shn_flick_btn_prev::before, html .suse_flick_btn_next::before, html .suse_flick_btn_prev::before {
 		border-color: rgba(255, 255, 255, 0.7)
 	}
 	
-	html .as_mp_layout .ofhe_flick_btn_next:hover::before, html .as_mp_layout .ofhe_flick_btn_prev:hover::before, html .ofpr_scroller_btn_next:hover::before, html .ofpr_scroller_btn_prev:hover::before {
+	html .as_mp_layout .ofhe_flick_btn_next:hover::before, html .as_mp_layout .ofhe_flick_btn_prev:hover::before, html .ofpr_scroller_btn_next:hover::before, html .ofpr_scroller_btn_prev:hover::before, html .shn_flick_btn_next:hover::before, html .shn_flick_btn_prev:hover::before, html .suse_flick_btn_next:hover::before, html .suse_flick_btn_prev:hover::before {
 		border-color: #fff
 	}
 	
@@ -92971,6 +93016,14 @@
 	html .as_mp_layout.n_news_sports .as_gnb_sports.as_type_qatar2022~.ct_wrap .rankingnews .ra_tab_item.on .ra_tab_a {
 		border-color: #802045;
 		background-color: #802045
+	}
+	
+	html .as_setting .shm_item_text::before {
+		background-position: -318px -325px
+	}
+	
+	html .as_subscribe .shm_item_text::before {
+		background-position: 0px -353px
 	}
 	
 	html .banner_image {
@@ -92988,7 +93041,7 @@
 	}
 	
 	html .changecmt_info .changecmt_info_icon::before {
-		background-position: -399px -306px
+		background-position: -399px -194px
 	}
 	
 	html .changecmt_layer, html .media_end_factcheck_info, html .subscribe_guide {
@@ -93000,7 +93053,7 @@
 		background-color: #434344
 	}
 	
-	html .ends_addition .spi_wrap .spi .sns_share::after, html .media_end_head_autosummary_layer_close::before, html .media_end_head_top_channel_add.is_disabled::before, html .media_end_head_tts_setlayer_close::before, html .ofpr_btn_confirm.disabled::before, html .ra_extra_area .rl_comment::before, html .ra_extra_area .rl_player::before, html .ra_extra_area .rl_time::before, html .ra_extra_area .rl_visit::before, html .ranking_list .rl_comment::before, html .ranking_list .rl_player::before, html .ranking_list .rl_time::before, html .ranking_list .rl_visit::before, html .simplecmt_link.is_officecomment::after, html .u_atcp_addb, html .u_sggt_wrap2 .kwd_lst .bt_del .imsc {
+	html .ends_addition .spi_wrap .spi .sns_share::after, html .media_end_head_autosummary_layer_close::before, html .media_end_head_top_channel_add.is_disabled::before, html .media_end_head_tts_setlayer_close::before, html .ofpr_btn_confirm.disabled::before, html .ra_extra_area .rl_comment::before, html .ra_extra_area .rl_player::before, html .ra_extra_area .rl_time::before, html .ra_extra_area .rl_visit::before, html .ranking_list .rl_comment::before, html .ranking_list .rl_player::before, html .ranking_list .rl_time::before, html .ranking_list .rl_visit::before, html .related_series .subscribe_guide_close, html .series_header .subscribe_guide_close, html .related_series .subscribe_guide_p::after, html .series_header .subscribe_guide_p::after, html .simplecmt_link.is_officecomment::after, html .u_atcp_addb, html .u_sggt_wrap2 .kwd_lst .bt_del .imsc {
 		opacity: 0.68;
 		filter: invert(100%);
 		-webkit-filter: invert(100%)
@@ -93108,7 +93161,7 @@
 	}
 	
 	html .media_end_categorize_link::before {
-		background-position: -399px -171px
+		background-position: -399px -59px
 	}
 	
 	html .media_end_channel_banner_add.is_disabled, html .media_journalistcard_item .subscribe.on .subscribe_ico, html .media_journalistcard_recommend .subscribe.on .subscribe_ico, html .media_journalistcard_recommend_channel_add.is_disabled, html .rankingnews .ra_title_badge.as_paid {
@@ -93214,7 +93267,7 @@
 	}
 	
 	html .media_end_head_print .media_end_print_link::before {
-		background-position: -399px -98px
+		background-position: -223px -377px
 	}
 	
 	html .media_end_head_tts_run::before {
@@ -93226,7 +93279,7 @@
 	}
 	
 	html .media_end_issuetimeline_go .meig_link::after, html .media_end_linked_more_link::after {
-		background-position: -323px -353px
+		background-position: -286px -353px
 	}
 	
 	html .media_flick .mf_thumb {
@@ -93363,12 +93416,74 @@
 		-webkit-filter: invert(0)
 	}
 	
+	html .related_series .rs_link {
+		border-top-color: rgba(84, 84, 87, 0.8)
+	}
+	
+	html .related_series .subscribe_guide_close::before, html .series_header .subscribe_guide_close::before {
+		opacity: 1;
+		filter: none;
+		-webkit-filter: none
+	}
+	
+	html .related_series .subscribe_guide, html .series_header .subscribe_guide {
+		box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+		border-color: #595959;
+		background-color: #39393c;
+		-webkit-box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1)
+	}
+	
+	html .series_header .sh_right .subscribe {
+		border-color: #7fa0f7
+	}
+	
+	html .series_header .sh_right .subscribe_ico, html .subscribe_guide_em, html .suse_h em {
+		color: #7fa0f7
+	}
+	
+	html .series_header .sh_right .subscribe_ico::before {
+		background-position: -367px -40px
+	}
+	
+	html .series_header .sh_right .subscribe.on {
+		border-color: #666
+	}
+	
+	html .series_header .sh_right .subscribe.on .subscribe_ico::before {
+		background-position: -259px -377px
+	}
+	
+	html .series_header button.sh_name_button::after {
+		background-position: -217px -179px
+	}
+	
+	html .sh_menu_button::before {
+		background-position: -411px -337px
+	}
+	
+	html .shm_layer {
+		border-color: #464649;
+		background-color: #222225
+	}
+	
+	html .shm_layer_close::before, html .shn_layer_close::before {
+		background-position: -208px -303px
+	}
+	
+	html .shn_layer_inner {
+		background-color: #222225
+	}
+	
 	html .subscribe_cta_layer .cta_btn:not(.as_subscribe) {
 		background: #464649
 	}
 	
 	html .subscribe_cta_layer .cta_btn:not(.as_subscribe) .cta_arrow {
 		background: rgba(255, 255, 255, 0.1)
+	}
+	
+	html .suse_name.as_more::after {
+		background-position: -251px -188px
 	}
 	
 	html .tomain .to_infobutton::before {
@@ -93384,7 +93499,7 @@
 	}
 	
 	html .u_sggt_wrap2 .sggt_header .tit .ico_help {
-		background-position: -399px -354px
+		background-position: -399px -242px
 	}
 	
 	html a.media_end_head_fontsize_option_text {

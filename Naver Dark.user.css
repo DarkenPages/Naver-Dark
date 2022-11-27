@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.51
+@version		1.64.52
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -8668,12 +8668,12 @@
     head,html { background: #242424 }
 }
 @-moz-document url-prefix("https://upm.search.naver.com") {
-    .btn_area a,.tbl_type td .btn input[type=button],.tbl_type td .help,#header h1 a img { filter: invert(86%) hue-rotate(-180deg) }
+    .btn_area a,.tbl_type td .btn input[type=button],.tbl_type td .help,.cont_section .hmr_pg li .ico_1,.cont_section .hmr_pg li .ico_2,.cont_section .hmr_pg li .ico_3,#header h1 a img { filter: invert(86%) hue-rotate(-180deg) }
     .cont_section .hmr_pg li { border: 1px solid #404040 }
     .cont_section .hmr_pg li .ico_mdy,.cont_section .hmr_pg li .ico_rgtn { filter: invert(81.5%) hue-rotate(-180deg) }
     .cont_section .hmr_pg li p { color: #cacaca;background-color: #2f2f2f }
     .cont_section .info_ly { border: 1px solid #404040;background-color: #2f2f2f }
-    .cont_section .lnk_bx { color: #fff;border-top: 1px solid #404040 }
+    .cont_section .lnk_bx { color: #fff;border-top: 1px solid #404040;background: #2f2f2f }
     .info_area .in_bar { color: #404040 }
     .info_area .noti,.info_area li,.tbl_type td,#header h2 { color: #cacaca }
     .info_area li a,.info_area p a { color: #7474e3 }

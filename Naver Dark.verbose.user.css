@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.51
+@version		1.64.52
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -87319,6 +87319,7 @@
 	
 	.cont_section .lnk_bx {
 		border-top: 1px solid #404040;
+		background: #2f2f2f;
 		color: #fff;
 	}
 	
@@ -87345,6 +87346,10 @@
 	
 	.tbl_type td .bx_scroll {
 		font-family: 'Helvetica', 'serif';
+	}
+	
+	.cont_section .hmr_pg li .ico_1, .cont_section .hmr_pg li .ico_2, .cont_section .hmr_pg li .ico_3 {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 }
 

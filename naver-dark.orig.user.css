@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.54
+@version		1.64.55
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -112190,6 +112190,14 @@
 	
 	.lnb_mailbox .svg_depth:before {
 		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 20 20%22%3E%3Cg fill=%22none%22 fill-rule=%22evenodd%22%3E%3Cpath d=%22M0 0h20v20H0z%22/%3E%3Cpath stroke=%22%23fff%22 d=%22M17 10H9V2%22/%3E%3C/g%3E%3C/svg%3E");
+	}
+	
+	html.pc .mail_write .file_attachments_inner .file_volume, html.pc .mail_write .file_attachments_inner .file_date {
+		color: #cacaca;
+	}
+	
+	html.pc .layer_uploading_file_failure .file_name, html.pc .layer_uploading_file_failure .file_extension {
+		color: #cacaca;
 	}
 }
 

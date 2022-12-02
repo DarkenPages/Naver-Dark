@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.57
+@version		1.64.58
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -110032,7 +110032,13 @@
 	.se-viewer *[style*='color:#999999'],
 	.se-viewer *[style*='color: #999999'],
 	.se_body_wrap *[style*='color:#999999'],
-	.se_body_wrap *[style*='color: #999999'] {
+	.se_body_wrap *[style*='color: #999999'],
+	.post_ct *[style*='color:#373a3c'],
+	.post_ct *[style*='color: #373a3c'],
+	.se-viewer *[style*='color:#373a3c'],
+	.se-viewer *[style*='color: #373a3c'],
+	.se_body_wrap *[style*='color:#373a3c'],
+	.se_body_wrap *[style*='color: #373a3c'] {
 		color: #cacaca !important;
 	}
 	
@@ -110089,7 +110095,13 @@
 	.se-viewer *[style*='background-color:#8e8e8e'i],
 	.se-viewer *[style*='background-color: #8e8e8e'i],
 	.se_body_wrap *[style*='background-color:#8e8e8e'i],
-	.se_body_wrap *[style*='background-color: #8e8e8e'i] {
+	.se_body_wrap *[style*='background-color: #8e8e8e'i],
+	.post_ct *[style*='background-color:#eeeeee'i],
+	.post_ct *[style*='background-color: #eeeeee'i],
+	.se-viewer *[style*='background-color:#eeeeee'i],
+	.se-viewer *[style*='background-color: #eeeeee'i],
+	.se_body_wrap *[style*='background-color:#eeeeee'i],
+	.se_body_wrap *[style*='background-color: #eeeeee'i] {
 		background-color: #2f2f2f !important;
 	}
 	

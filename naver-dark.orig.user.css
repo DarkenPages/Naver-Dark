@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.56
+@version		1.64.57
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -93589,14 +93589,24 @@
 		color: var(--color_title)
 	}
 	
+	html .media_journalistcard_summary_talkwrap::after {
+		background: #545457
+	}
+	
 	html body {
 		background: #242424
 	}
 	
-	@media not all {
-		.dark_type {
-			display: none !important
-		}
+	.light_type {
+		display: none !important;
+	}
+	
+	.dark_type {
+		display: initial !important;
+	}
+	
+	html:not(.DARK_THEME) .dark_type {
+		display: block !important;
 	}
 	
 	.as_gnb_mnews .Nlist_item a.Nitem_link {

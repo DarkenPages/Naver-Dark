@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.56
+@version		1.64.57
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -5468,7 +5468,9 @@
 @-moz-document url-prefix("https://n.news.naver.com") {
     :root { --color_visit: #919192;--color_title: #f0f0f2;--color_sub_info: #a5a5a7;--color_sub_info2: #919192;--color_separation: #303033;--color_point_news_text: #5b86fd;--color_point_news_old_text: #5b87fd;--color_point_news_gnb: #4978f4;--color_point_news: #4978f4;--color_line_lv3: #595959;--color_line_lv2: #545457;--color_line_lv1: #464649;--color_line_ad: #303030;--color_likeit_title: #f0f0f2;--color_likeit_sub_info: #a5a5a7;--color_likeit_line_lv3: #595959;--color_likeit_line_lv2: #545457;--color_likeit_line_lv1: #464649;--color_likeit_layer_background_lv2_border: #545457;--color_likeit_layer_background_lv2: #48484b;--color_likeit_body: #dadde0;--color_likeit_background: #39393c;--color_layer_background_lv3_border: #545457;--color_layer_background_lv3: #48484b;--color_layer_background_lv2_border: #545457;--color_layer_background_lv2: #39393c;--color_layer_background_lv1_border: #464649;--color_layer_background_lv1: #303033;--color_icon_arrow: rgba(255, 255, 255, 0.68);--color_body_background: #1a1a1c;--color_body: #dadde0;--color_background_inverse: #fff;--color_background_footer: #303033;--color_background: #242424 }
     .as_gnb_mnews .Nlist_item a.Nitem_link,.pg_num_area.pg_num_area_v2 .pg_num,.spi_default a:active,.spi_default a:focus,.spi_default a:hover,.spi_default a:visited,.spi_lst a,html .as_gnb .Nitem_link,html .as_gnb_mnews .Nlnb.is_fixed .Nlist_item.is_active .Nitem_link,html .as_gnb_sports.as_type_esports .Nlist_sub_item.is_active .Nitem_sub_link_menu,html .media_end_head_fontsize_option_is_on a.media_end_head_fontsize_option_text,html .media_end_head_lang_setlayer_select .media_end_head_lang_option_is_on .media_end_head_lang_option_text { color: #fff }
+    .dark_type { display: initial !important }
     .gnb_notice_li a.gnb_notice .gnb_icon,.gnb_service_li a.gnb_service .gnb_icon,.mail_li a.gnb_mail .gnb_icon { filter: invert(0%) !important }
+    .light_type,html .light_type { display: none !important }
     .media_end_head_origin_link { border: 1px solid #404040 }
     .media_journalistcard_summary_subscribe_inner { color: #cacaca }
     .media_journalistcard_summary_subscribe_inner+.media_journalistcard_summary_subscribe_inner .u_txt::before { background: #404040 }
@@ -5501,9 +5503,6 @@
         html .shm_layer { background-color: var(--color_layer_background_lv2) }
         html .shn_layer_inner { border-color: #464649;background-color: #48484b }
         html .shn_thumb[style*='display'][style*='none']+.shn_text { background-color: transparent }
-    }
-    @media not all {
-        .dark_type { display: none !important }
     }
     #dic_area div[style*='color: #595959'i],#dic_area div[style*='color:#595959'i],#dic_area>div[style]>div[style*='color'] { color: #cacaca !important }
     html .as_gnb .Nitem_link_menu::before { background-color: #f0f0f2 }
@@ -5558,7 +5557,6 @@
     html .footer_shortcut .fs_item::before { background-color: rgba(255, 255, 255, 0.1) }
     html .footer_shortcut .fs_list { background-color: #39393c }
     html .help_layer,html .media_end_head_channel_layer,html .media_end_head_top_channel_layer,html .n_news_sports .u_likeit_button+.u_likeit_layer,html .ofhd_float_subscribe_layer,html .ofhe_info_layer { box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16);border-color: rgba(255, 255, 255, 0.03);-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16) }
-    html .light_type { display: none !important }
     html .media_end_categorize_ct,html .n_news .gnb_flat .gf_inner,html .n_news_mnews .gnb_flat .gf_inner,html .tomain_info_layer { border-color: rgba(255, 255, 255, 0.05) }
     html .media_end_categorize_item { background-color: rgba(91, 134, 253, 0.1) }
     html .media_end_categorize_link::before { background-position: -399px -59px }
@@ -5595,6 +5593,7 @@
     html .media_journalistcard_recommend_img_wrap::after { border: 1px solid rgba(255, 255, 255, 0.06);border-radius: 44px }
     html .media_journalistcard_summary_subscribe_inner { color: #8b8b8d }
     html .media_journalistcard_summary_subscribe_inner+.media_journalistcard_summary_subscribe_inner .u_txt::before { background: #555 }
+    html .media_journalistcard_summary_talkwrap::after { background: #545457 }
     html .modal .m_notification .mn_noti.is_off { background-position: -166px -99px }
     html .modal .m_notification .mn_ok { background-position: 0px -76px }
     html .n_news .gnb_flat .gf_naverlogo,html .n_news_mnews .gnb_flat .gf_naverlogo { background-position: -270px -325px }
@@ -5643,6 +5642,7 @@
     html .u_sggt_wrap2 .sggt_header .tit .ico_help { background-position: -399px -242px }
     html a.media_end_head_fontsize_option_text { color: var(--color_title) }
     html body { background: #242424 }
+    html:not(.DARK_THEME) .dark_type { display: block !important }
 }
 @-moz-document url-prefix("https://n.news.naver.com"), url-prefix("https://contents.premium.naver.com") {
     .u_cbox .u_cbox_comment_box,.u_cbox .u_cbox_manageusers_header,.u_cbox .u_cbox_manageusers_listitem,.u_cbox_userpage .u_cbox_commentset,.u_cbox_userpage .u_cbox_sort { border-bottom: 1px solid #404040 }

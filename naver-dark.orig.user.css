@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.58
+@version		1.64.59
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -33740,11 +33740,11 @@
 	}
 	
 	.talk_pc_user .group_message_balloon .message_balloon.card_message_notice>p, .talk_pc_user .group_message_balloon .message_balloon.card_message_notice>a>p {
-		background: #3f3f3f;
+		background: #3a3a3a;
 	}
 	
 	.talk_pc_user .component_goods {
-		background: #3f3f3f;
+		background: #3a3a3a;
 	}
 	
 	.talk_pc_user .goods_title, .talk_pc_user .chat_info .sub_title .view .text_response {

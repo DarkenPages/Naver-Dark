@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.58
+@version		1.64.59
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -8479,7 +8479,7 @@
     .talk_pc_partner .group_message_balloon .message_balloon.rgt,.talk_pc_user .group_message_balloon .message_balloon.rgt { background: #78b344 }
     .talk_pc_partner .group_message_balloon .message_balloon.rgt.card_message,.talk_pc_user .group_message_balloon .message_balloon.rgt.card_message { border-color: rgb(62, 77, 88);background: rgb(59, 70, 77) }
     .talk_pc_partner .group_message_balloon .message_balloon.rgt.card_og,.talk_pc_user .group_message_balloon .message_balloon.rgt.card_og { background: #3a3a3a !important }
-    .talk_pc_partner .group_message_balloon .message_balloon.type_notice,.talk_pc_user .group_message_balloon .message_balloon.type_notice,.talk_pc_partner .group_message_balloon .new_message_balloon_area .chat_thumbnail,.talk_pc_user .group_message_balloon .new_message_balloon_area .chat_thumbnail,.talk_pc_user .chat_info:after,.talk_pc_user .group_message_balloon .new_message_balloon_area .notice_item { background: #3a3a3a }
+    .talk_pc_partner .group_message_balloon .message_balloon.type_notice,.talk_pc_user .group_message_balloon .message_balloon.type_notice,.talk_pc_partner .group_message_balloon .new_message_balloon_area .chat_thumbnail,.talk_pc_user .group_message_balloon .new_message_balloon_area .chat_thumbnail,.talk_pc_user .chat_info:after,.talk_pc_user .component_goods,.talk_pc_user .group_message_balloon .message_balloon.card_message_notice>a>p,.talk_pc_user .group_message_balloon .message_balloon.card_message_notice>p,.talk_pc_user .group_message_balloon .new_message_balloon_area .notice_item { background: #3a3a3a }
     .talk_pc_partner .group_message_balloon .new_message_balloon_area .chat_message_nickname.tag .emphasis,.talk_pc_user .group_message_balloon .new_message_balloon_area .chat_message_nickname.tag .emphasis { color: rgb(161, 167, 173) }
     .talk_pc_partner .group_message_balloon .new_message_balloon_area .chat_thumbnail img,.talk_pc_user .group_message_balloon .new_message_balloon_area .chat_thumbnail img { right: 0 }
     .talk_pc_partner .group_message_balloon .new_message_balloon_area .thumbnail_profile>a .thumbnail_mask,.talk_pc_user .group_message_balloon .new_message_balloon_area .thumbnail_profile>a .thumbnail_mask,.talk_pc_user .group_message_balloon .message_balloon .balloon_tail { background-image: none }
@@ -8521,7 +8521,6 @@
     .talk_pc_user .chat_sticker { border-color: #404040;background-color: #3a3a3a }
     .talk_pc_user .chat_sticker_list { border-top: 1px solid #404040;background: #3a3a3a }
     .talk_pc_user .common_tooltip_layer { border: 1px solid #404040;background-color: rgb(55, 51, 32) }
-    .talk_pc_user .component_goods,.talk_pc_user .group_message_balloon .message_balloon.card_message_notice>a>p,.talk_pc_user .group_message_balloon .message_balloon.card_message_notice>p { background: #3f3f3f }
     .talk_pc_user .friend_store_list .btn_store_category:not(.on) { color: #000 }
     .talk_pc_user .gnb_notice_li a.gnb_notice .gnb_icon,.talk_pc_user .gnb_service_li a.gnb_service .gnb_icon,.talk_pc_user .mail_li a.gnb_mail .gnb_icon { filter: invert(0%) !important }
     .talk_pc_user .group_message_balloon .date_check>span { border: 1px solid #404040;background: #404040 }

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.59
+@version		1.64.60
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -88592,10 +88592,6 @@
 		color: #cacaca;
 	}
 	
-	div[class*='auto_complete___'] {
-		border-top: 1px solid #404040;
-	}
-	
 	div[class*='auto_complete___'] a[class*='links___'] {
 		color: #cacaca;
 	}
@@ -88937,7 +88933,7 @@
 		div[class*='btn_toolbar___'] button[class*='btn_share___'],
 		div[class*='btn_toolbar___'] button[class*='btn_voice___'],
 		div[class*='btn_toolbar___'] button[class*='btn_handwriting___'] {
-			border: 0
+			border: 0 !important;
 		}
 		
 		div[class*='rwd_layout___']:first-child {
@@ -89064,6 +89060,28 @@
 		div[class*='mo_lang_select___'] select[class*='select___'] {
 			color: #cacaca;
 		}
+		
+		div[class*='auto_complete___'] {
+			background-color: #242424;
+			border-top: none !important;
+		}
+		
+		div[class*='auto_complete___']:before {
+			background: #404040;
+		}
+		
+		div[class*='auto_complete___'] div[class*='section___'] {
+			background-color: #242424;
+			box-shadow: 0 7px 15px 0 rgba(0,0,0,.2);
+		}
+		
+		div[class*='auto_complete___'] a[class*='more___'] span {
+			text-shadow: 0 0 15px #242424;
+		}
+		
+		div[class*='auto_complete___'] a[class*='close___'] span {
+			text-shadow: 0 0 15px #242424;
+		}
 	}
 	
 	div[class*='setting_wrap___'][class*='mo___'] div[class*='setting_header___'] h2 {
@@ -89128,6 +89146,10 @@
 	
 	div[class*='setting_wrap___'][class*='mo___'] div[class*='switch_wrap___'] label[class*='switch___']:after {
 		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	div[class*='auto_complete___'] {
+		border-top: 1px solid #404040;
 	}
 }
 

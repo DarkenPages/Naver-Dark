@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.59
+@version		1.64.60
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -923,12 +923,17 @@
     .spi_lst .spi_lst_release { border: 1px solid #404040;background-color: #2f2f2f }
     .spi_onebtn .spi_dsc { color: #cacaca !important }
     @media only screen and (max-width: 767px) {
+        div[class*='auto_complete___'] { border-top: none !important;background-color: #242424 }
+        div[class*='auto_complete___'] a[class*='close___'] span,div[class*='auto_complete___'] a[class*='more___'] span { text-shadow: 0 0 15px #242424 }
+        div[class*='auto_complete___'] div[class*='section___'] { box-shadow: 0 7px 15px 0 rgba(0,0,0,.2);background-color: #242424 }
+        div[class*='auto_complete___']:before { background: #404040 }
+        div[class*='btn_toolbar___'] { border: 0 }
         div[class*='btn_toolbar___'] button[class*='btn_complete___'] { color: #fff;background-color: #242424 }
         div[class*='btn_toolbar___'] button[class*='btn_complete___'][class*='btn_disabled___'],div[class*='btn_toolbar___'] button[class*='btn_edit___'] { border: 0;background: transparent }
+        div[class*='btn_toolbar___'] button[class*='btn_copy___'],div[class*='btn_toolbar___'] button[class*='btn_favorite___'],div[class*='btn_toolbar___'] button[class*='btn_furigana___'],div[class*='btn_toolbar___'] button[class*='btn_handwriting___'],div[class*='btn_toolbar___'] button[class*='btn_ocr___'],div[class*='btn_toolbar___'] button[class*='btn_phonetic___'],div[class*='btn_toolbar___'] button[class*='btn_share___'],div[class*='btn_toolbar___'] button[class*='btn_sound___'],div[class*='btn_toolbar___'] button[class*='btn_voice___'] { border: 0 !important }
         div[class*='btn_toolbar___'] button[class*='btn_text___']:after,div[class*='home_layer_wrap___'] div[class*='layer_content___'] div[class*='btn_box'] button:before { filter: invert(86%) hue-rotate(-180deg) }
         div[class*='btn_toolbar___'] div[class*='btn_more_btn___']:not(:hover) { position: relative;background: none }
         div[class*='btn_toolbar___'] div[class*='btn_more_btn___']:not(:hover):before { width: 100%;top: 0;position: absolute;pointer-events: none;left: 0;height: 100%;filter: invert(86%) hue-rotate(-180deg);content: '';background-size: 300px 450px;background-repeat: no-repeat;background-position: -51px -193px;background-image: url(/bc7a00ca5cd4440758640c638a511d1d.png) }
-        div[class*='btn_toolbar___'],div[class*='btn_toolbar___'] button[class*='btn_copy___'],div[class*='btn_toolbar___'] button[class*='btn_favorite___'],div[class*='btn_toolbar___'] button[class*='btn_furigana___'],div[class*='btn_toolbar___'] button[class*='btn_handwriting___'],div[class*='btn_toolbar___'] button[class*='btn_ocr___'],div[class*='btn_toolbar___'] button[class*='btn_phonetic___'],div[class*='btn_toolbar___'] button[class*='btn_share___'],div[class*='btn_toolbar___'] button[class*='btn_sound___'],div[class*='btn_toolbar___'] button[class*='btn_voice___'] { border: 0 }
         div[class*='home_layer_wrap___'] div[class*='layer_content___'] button[class*='btn_close___'] { filter: invert(86%) hue-rotate(-180deg);background-color: transparent }
         div[class*='home_layer_wrap___'] div[class*='layer_content___'] div[class*='btn_box'] button { border: 1px solid #404040;background-color: #2f2f2f }
         div[class*='home_layer_wrap___'] div[class*='layer_content___'] div[class*='btn_box'] button span,div[class*='mo_lang_select___'] select[class*='select___'],div[class*='web_trans_wrap___'] div[class*='inp_trans___'][class*='active___'] div[class*='inp_url_wrap___'] input { color: #cacaca }

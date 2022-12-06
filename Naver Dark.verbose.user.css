@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.61
+@version		1.64.62
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -112276,6 +112276,14 @@
 	
 	html.pc .layer_uploading_file_failure .file_name, html.pc .layer_uploading_file_failure .file_extension {
 		color: #cacaca;
+	}
+	
+	.search_bar_wrap .button_detail:after, html.pc .mail_search_detail_period .date_picker + .date_picker:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.calendar .calendar_body {
+		color: #fff;
 	}
 }
 

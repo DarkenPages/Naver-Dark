@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.63
+@version		1.64.64
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -110030,10 +110030,22 @@
 	.se-viewer *[style*='color:#444444'],
 	.se-viewer *[style*='color: #444444'],
 	.se_body_wrap *[style*='color:#444444'],
-	.se_body_wrap *[style*='color: #444444'] {
+	.se_body_wrap *[style*='color: #444444'],
+	.post_ct *[style*='color:#333333'],
+	.post_ct *[style*='color: #333333'],
+	.se-viewer *[style*='color:#333333'],
+	.se-viewer *[style*='color: #333333'],
+	.se_body_wrap *[style*='color:#333333'],
+	.se_body_wrap *[style*='color: #333333'] {
 		color: #fff !important;
 	}
 	
+	.post_ct *[style*='color:#141414'],
+	.post_ct *[style*='color: #141414'],
+	.se-viewer *[style*='color:#141414'],
+	.se-viewer *[style*='color: #141414'],
+	.se_body_wrap *[style*='color:#141414'],
+	.se_body_wrap *[style*='color: #141414'],
 	.post_ct *[style*='color:#464646'],
 	.post_ct *[style*='color: #464646'],
 	.se-viewer *[style*='color:#464646'],

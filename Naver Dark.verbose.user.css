@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.64
+@version		1.64.65
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -87126,6 +87126,64 @@
 	
 	.cs_common_module .rank_table_area.type_worldcup+.league_schedule.type_sports ~ .detail_info ~ .notice_link.type_noborder {
 		border-top: 1px solid #404040;
+	}
+	
+	.cs_korean_quiz .tit_area .quiz_txt strong {
+		color: #fff;
+	}
+	
+	.cs_korean_quiz .tit_area .tit {
+		color: #cacaca;
+	}
+	
+	.cs_korean_quiz .guide_sct:after {
+		background-color: #404040;
+	}
+	
+	.cs_korean_quiz .slt_area .answer_lst li a {
+		color: #fff;
+	}
+	
+	.cs_korean_quiz .slt_area .answer_lst li {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_korean_quiz .sct_correct .tit_area .quiz_txt p {
+		color: #fff;
+	}
+	
+	.cs_korean_quiz .sct_correct .btn_more_dsc {
+		color: #cacaca;
+		border: 1px solid #404040;
+	}
+	
+	.cs_korean_quiz .graph_area strong {
+		color: #fff;
+	}
+	
+	.cs_korean_quiz .graph_area ul li .answer_list {
+		color: #cacaca;
+	}
+	
+	.cs_korean_quiz .graph_area ul li .grp_bx .grp {
+		background: #999;
+	}
+	
+	.cs_korean_quiz .graph_area ul li .grp_bx {
+		background: #4f4f4f;
+	}
+	
+	.cs_korean_quiz .tit_area h4 {
+		color: #fff;
+	}
+	
+	.cs_korean_quiz .guide_sct dt {
+		color: #fff;
+	}
+	
+	.cs_korean_quiz .sct_correct .btn_more_dsc span:after, .cs_korean_quiz .tit_area .quiz_txt strong .quistion {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 }
 

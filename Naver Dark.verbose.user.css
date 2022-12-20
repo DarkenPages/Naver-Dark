@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.65
+@version		1.64.66
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -87184,6 +87184,68 @@
 	
 	.cs_korean_quiz .sct_correct .btn_more_dsc span:after, .cs_korean_quiz .tit_area .quiz_txt strong .quistion {
 		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_influencer .top_wrap .title_area .title {
+		color: #fff;
+	}
+	
+	.cs_influencer .top_wrap {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_influencer .influencer_tab_bx .influencer_tab .influencer_tab_scroll li[aria-selected="true"] a .inner::after {
+		background-color: #fff;
+	}
+	
+	.cs_influencer .influencer_tab_bx .influencer_tab .influencer_tab_scroll li[aria-selected="true"] a {
+		color: #fff;
+	}
+	
+	.cs_influencer .influencer_tab_bx .influencer_tab .influencer_tab_scroll li a {
+		color: #cacaca;
+	}
+	
+	.cs_influencer .influencer_tab_bx::before {
+		background-color: #404040;
+	}
+	
+	.cs_influencer .content_area .info .title a {
+		color: #fff;
+	}
+	
+	.cs_influencer .content_area .item {
+		-webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.4), 0 0 2px 0 rgba(0, 0, 0, 0.2);
+		box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.4), 0 0 2px 0 rgba(0, 0, 0, 0.2);
+	}
+	
+	.cs_influencer .filter_tab_area .api_group_tag .tag[aria-selected="true"] {
+		background-color: #3a3a3a;
+	}
+	
+	.sp_ndic .dic_word_title .tag {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.sp_intent_block .topic_list_wrap .topic_item .link_topic {
+		color: #cacaca;
+	}
+	
+	.sp_intent_block .topic_list_wrap .topic_item .influencer_area .influencer_wrap {
+		border-top: 1px solid #404040;
+	}
+	
+	.sp_intent_block .topic_list_wrap .topic_item .influencer_area {
+		color: #cacaca;
+	}
+	
+	.sp_influencer .ico_title_logo {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.sp_ndic .btn_sound .ico_play {
+		filter: brightness(200%);
 	}
 }
 

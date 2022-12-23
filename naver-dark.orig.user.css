@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.66
+@version		1.64.67
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -33668,7 +33668,7 @@
 	}
 	
 	.talk_pc_user .group_message_balloon .message_balloon {
-		background: #404040;
+		background: #3a3a3a;
 	}
 	
 	.talk_pc_user .group_message_balloon .message_balloon>p, .talk_pc_user .group_message_balloon .message_balloon.card_message_widget {
@@ -33864,7 +33864,7 @@
 	}
 	
 	.talk_pc_user .chat_list_search .search_wrap>label, .talk_pc_user .chat_list_search .text_sch .fn-search, .fn-search:before {
-		color: #fff;
+		color: rgba(255, 255, 255, 0.4);
 	}
 	
 	.talk_pc_user .chat_list_area {
@@ -34198,6 +34198,93 @@
 	
 	.talk_pc_user .chat_header .folded_layer_wrap .btn_area>a+a {
 		border-left: 1px solid #404040;
+	}
+	
+	.talk_pc_partner .new_message_balloon, .talk_pc_user .new_message_balloon {
+		border: 1px solid #404040;
+	}
+	
+	.talk_pc_partner .new_message_balloon .btn_module .btn:hover, .talk_pc_user .new_message_balloon .btn_module .btn:hover {
+		background-color: #3f3f3f;
+	}
+	
+	.talk_pc_partner .new_message_balloon .btn_module .btn, .talk_pc_user .new_message_balloon .btn_module .btn {
+		border: 1px solid #137cf3;
+		background-color: #3a3a3a;
+	}
+	
+	.talk_pc_partner .new_message_balloon.lg+.txt_confirm, .talk_pc_user .new_message_balloon.lg+.txt_confirm {
+		color: #cacaca;
+	}
+	
+	.talk_pc_partner .message_balloon_wrap .txt_confirm .txt_wrap>p .bar:before, .talk_pc_user .message_balloon_wrap .txt_confirm .txt_wrap>p .bar:before {
+		background-color: #404040;
+	}
+	
+	.talk_pc_partner .new_message_balloon .title_module .title, .talk_pc_user .new_message_balloon .title_module .title {
+		color: #fff;
+	}
+	
+	.talk_pc_partner .new_message_balloon .desc, .talk_pc_user .new_message_balloon .desc {
+		color: #cacaca;
+	}
+	
+	.talk_pc_partner .new_message_balloon .title_module .option_wrap .ico_share, .talk_pc_user .new_message_balloon .title_module .option_wrap .ico_share {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.talk_pc_partner .new_message_balloon .coupon_module:after, .talk_pc_partner .new_message_balloon .coupon_module:before, .talk_pc_user .new_message_balloon .coupon_module:after, .talk_pc_user .new_message_balloon .coupon_module:before {
+		background-color: #2f2f2f;
+	}
+	
+	.talk_pc_partner .new_message_balloon .coupon_module .text, .talk_pc_user .new_message_balloon .coupon_module .text {
+		color: #fff;
+	}
+	
+	.talk_pc_partner .new_message_balloon .coupon_module .item_coupon:before, .talk_pc_user .new_message_balloon .coupon_module .item_coupon:before {
+		background: -webkit-gradient(linear,left top,right top,from(#4f4f4f),color-stop(50%,#4f4f4f),color-stop(50%,#3a3a3a),to(#3a3a3a)) repeat-x;
+		background: linear-gradient(90deg,#4f4f4f 0,#4f4f4f 50%,#3a3a3a 0,#3a3a3a) repeat-x;
+		background-position: 5px 0;
+		background-size: 8px 1px;
+	}
+	
+	.talk_pc_partner .group_message_balloon .new_message_balloon_area .chat_message_nickname.tag .tag_text, .talk_pc_user .group_message_balloon .new_message_balloon_area .chat_message_nickname.tag .tag_text {
+		border: 1px solid #4f4f4f;
+		background-color: #3a3a3a;
+	}
+	
+	.talk_pc_user .chat_header_top .chat_menu_wrap>[class*=btn_] .ico_ham_menu {
+		fill: #cacaca;
+	}
+	
+	.talk_pc_user .chat_write_block .chat_block_text {
+		border-top: 1px solid #3a3a3a;
+		background-color: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.talk_pc_user .btn_common.btn_gray {
+		background-color: #3a3a3a;
+	}
+	
+	.talk_pc_user .chat_header_top .lst_setting_menu .common_tooltip_layer .ico_close {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.talk_pc_user .chat_header_top .chat_menu_wrap>[class*=btn_] .ico_alert1, .talk_pc_user .chat_header_top .chat_menu_wrap>[class*=btn_] .ico_alertactive1 {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.talk_pc_user .chat_header_top .chat_menu_wrap .ly_setting_title .title_text {
+		color: #fff;
+	}
+	
+	.talk_pc_user .chat_header_top .txt_info_wrap {
+		color: #cacaca;
+	}
+	
+	.talk_pc_user .chat_message_empty h3 {
+		color: #fff;
 	}
 }
 

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.67
+@version		1.64.68
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -34285,6 +34285,20 @@
 	
 	.talk_pc_user .chat_message_empty h3 {
 		color: #fff;
+	}
+	
+	.talk_pc_user .chat_faq_area .faq_guide_message {
+		background-color: #2f2f2f;
+	}
+	
+	.talk_pc_user .chat_faq_area .btn_faq_message {
+		background-color: #3a3a3a;
+		-webkit-box-shadow: 0 1px rgba(0,0,0,.4);
+		box-shadow: 0 1px rgba(0,0,0,.4);
+	}
+	
+	.talk_pc_user .chat_faq_area .faq_toast {
+		background-color: #404040;
 	}
 }
 

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.68
+@version		1.64.69
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -112723,5 +112723,148 @@
 	
 	#gnb.gnb_one_pwe .gnb_my_namebox {
 		background-image: url("https://ssl.pstatic.net/static/common/gnb/2014/ico_arrow_bl1.gif") !important;
+	}
+}
+
+@-moz-document url-prefix("https://www.naver.com/sidebar")
+{
+	body, button, input, select, table, textarea {
+		color: #cacaca;
+	}
+	
+	.panel_content_wrap, .panel_content .sc_user, .panel_header {
+		background-color: #242424;
+	}
+	
+	.panel_header .title_area {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.sc_user .info_area .user_info .link_my {
+		color: #cacaca;
+	}
+	
+	.sc_user .info_area .user_info .link_my:before {
+		background-color: #404040;
+	}
+	
+	.sc_user .info_area .btn_logout:hover {
+		background-color: #3a3a3a;
+	}
+	
+	.sc_user .info_area .btn_logout {
+		background-color: #2f2f2f;
+	}
+	
+	.panel_content .service_header {
+		background-color: #242424;
+		color: #cacaca;
+	}
+	
+	.sc_user .tab_area .tab+.tab {
+		border-left: 1px solid #404040;
+	}
+	
+	.sc_user .tab_area .tab_box {
+		border: 1px solid #404040;
+		border-width: 1px 0;
+	}
+	
+	.panel_content .sc_user .tab_area .tab_box {
+		background-color: #2f2f2f;
+	}
+	
+	.panel_content .sc_user .tab_area .tab[aria-selected=true] {
+		background-color: #242424;
+	}
+	
+	.list_timeline .item_timeline.type_read .title_box {
+		color: #cacaca;
+	}
+	
+	.list_timeline .dsc_time:before {
+		background-color: #404040;
+	}
+	
+	.list_timeline .dsc_box {
+		color: #cacaca;
+	}
+	
+	.list_timeline .item_timeline+.item_timeline {
+		border-top: 1px solid #404040;
+	}
+	
+	.panel_content .timeline_wrap.type_notice {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.panel_content .timeline_wrap.type_notice:before {
+		background-color: #404040;
+	}
+	
+	.service_header .func_area .func[role=button] {
+		color: #cacaca;
+	}
+	
+	.service_header .func_area .func+.func:before {
+		background-color: #404040;
+	}
+	
+	.flex_list {
+		border: 1px solid #404040;
+	}
+	
+	.flex_list .item_flex+.item_flex:before {
+		background-color: #404040;
+	}
+	
+	.panel_content .list_thumb .post_area {
+		border-top: 1px solid #404040;
+	}
+	
+	.panel_content .list_thumb .post_box .title {
+		color: #cacaca;
+	}
+	
+	.list_thumb .item_thumb+.item_thumb {
+		border-top: 1px solid #404040;
+	}
+	
+	.panel_content .list_thumb .post_box .time, .list_thumb .dsc_wrap {
+		color: #999;
+	}
+	
+	.panel_content .list_thumb {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.panel_content .timeline_wrap .list_timeline {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.list_timeline .title_box .reply {
+		color: #fff;
+	}
+	
+	.ly_popup {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.ly_popup .btn_confirm {
+		background-color: #2f2f2f;
+	}
+	
+	.ly_popup .confirm_area {
+		border-top: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.ly_popup .btn_confirm.type_point {
+		color: #fff;
+	}
+	
+	.ly_popup .btn_confirm+.btn_confirm {
+		border-left: 1px solid #404040;
 	}
 }

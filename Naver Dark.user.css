@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.68
+@version		1.64.69
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -8982,6 +8982,23 @@
     #n2_skin_wrap .skin { position: relative;background: none }
     #n2_skin_wrap .skin:before { width: 100%;top: 0;position: absolute;pointer-events: none;left: 0;height: 100%;filter: invert(86%) hue-rotate(-180deg);content: '';background: url(https://download-nboard2.pstatic.net/design/nboard/ko/img/bg_skin01.gif) repeat-x }
     body { background: #242424 }
+}
+@-moz-document url-prefix("https://www.naver.com/sidebar") {
+    .flex_list { border: 1px solid #404040 }
+    .flex_list .item_flex+.item_flex:before,.list_timeline .dsc_time:before,.panel_content .timeline_wrap.type_notice:before,.sc_user .info_area .user_info .link_my:before,.service_header .func_area .func+.func:before { background-color: #404040 }
+    .list_thumb .dsc_wrap,.panel_content .list_thumb .post_box .time { color: #999 }
+    .list_thumb .item_thumb+.item_thumb,.list_timeline .item_timeline+.item_timeline,.panel_content .list_thumb .post_area { border-top: 1px solid #404040 }
+    .list_timeline .dsc_box,.list_timeline .item_timeline.type_read .title_box,.panel_content .list_thumb .post_box .title,.sc_user .info_area .user_info .link_my,.service_header .func_area .func[role=button],body,button,input,select,table,textarea { color: #cacaca }
+    .list_timeline .title_box .reply,.ly_popup .btn_confirm.type_point { color: #fff }
+    .ly_popup { border: 1px solid #404040;background-color: #2f2f2f }
+    .ly_popup .btn_confirm,.panel_content .sc_user .tab_area .tab_box,.sc_user .info_area .btn_logout { background-color: #2f2f2f }
+    .ly_popup .btn_confirm+.btn_confirm,.sc_user .tab_area .tab+.tab { border-left: 1px solid #404040 }
+    .ly_popup .confirm_area { color: #cacaca;border-top: 1px solid #404040 }
+    .panel_content .list_thumb,.panel_content .timeline_wrap .list_timeline,.panel_content .timeline_wrap.type_notice,.panel_header .title_area { border-bottom: 1px solid #404040 }
+    .panel_content .sc_user .tab_area .tab[aria-selected=true],.panel_content .sc_user,.panel_content_wrap,.panel_header { background-color: #242424 }
+    .panel_content .service_header { color: #cacaca;background-color: #242424 }
+    .sc_user .info_area .btn_logout:hover { background-color: #3a3a3a }
+    .sc_user .tab_area .tab_box { border: 1px solid #404040;border-width: 1px 0 }
 }
 @-moz-document url-prefix("https://www.navercorp.com") {
     .additional_list dt,.affiliate_box .btn_affiliate,.article_list dt,.bg_datacenter_box .bg_datacenter dl,.btn_text,.channel_list h4,.connect_service_list h5,.contact .content_box_right dt,.content_box_right.guide_box strong,.content_container.detail .list_box h5,.content_container.detail .list_box p em,.content_container.detail .list_box p strong,.content_container.detail .manager_box dd strong,.content_container.detail .policy_link,.content_head .page_title,.disclosure_list>li a,.disclosure_top .top_link_box a,.drectors_info .drectors_info_list dt,.faq_title,.form_caleander,.foundation_service_list h5,.history_box .history_year,.incorporation_box .incorporation_list dt,.info_list .info_list_title,.input_form>dt,.investors_table.type2.half .total,.investors_table.type2.half .total_num,.list_box h4,.list_type,.main_con .summaries dt,.news_list .news_list_title,.page_subTab_item:focus,.page_subTab_item:hover,.page_subTab_item[aria-selected="true"],.page_tab .page_tab_item:focus,.page_tab .page_tab_item:hover,.page_tab .page_tab_item[aria-selected="true"],.pop .pop_title,.press_section .press_list .press_info .txt_area .list_title,.privacy_con_list li .type_table.type_notice .top_box,.privacy_con_list li h6,.privacy_con_list li p a.privacy_link,.privacy_view .view_title,.quick_menu_item:focus,.quick_menu_item:hover,.quick_menu_item[aria-selected="true"],.radio_list input:checked+label,.radio_list label:hover,.report_list .report_info_title,.section.ethics_list dl dt,.section.faq_box dl dt,.section.select_year ul li.on a,.service_container .service_title,.service_list li .service_info dt,.service_list li .service_info dt a,.stock_info_top .top_left .price,.sub_con .down_link_area a,.sub_con .tab li a[aria-selected="true"],.sub_con h3,.sub_con h4,.sub_con h5,.sub_con.alliance .alliance_list_box h4 a,.sub_con.alliance .sequence_text .txt_num,.sub_contact .contact_list li dl dt a,.sub_contact .tel_number dt,.summary_title,.support_title,.survey_info .survey_info_list dl dt,.survey_info .survey_info_top .top_left,.survey_info .survey_info_top .top_right dl dt,.table_form .accont_bottom_sub p.autograph,.table_form .txt_black,.table_form tfoot,.table_form thead,.util_box .util_item a,.value_list li dl dt a,.report_view_container strong,.report_wrap_title,.service .util_list .btn_link { color: #fff }

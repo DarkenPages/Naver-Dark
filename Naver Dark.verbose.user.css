@@ -52575,22 +52575,6 @@
 		border: 1px solid #404040;
 	}
 	
-	.bar {
-		position: relative;
-		background: none;
-	}
-	
-	.bar:before {
-		position: absolute;
-		background: url(https://ssl.pstatic.net/sstatic/search/img/sprite_bullet.gif) no-repeat scroll 0 -32px transparent;
-		left: 0;
-		top: 0;
-		width: 100%;
-		height: 100%;
-		content: '';
-		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
 	.hand_wrt_con h5 {
 		color: #cacaca;
 	}

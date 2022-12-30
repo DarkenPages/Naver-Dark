@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.65.1
+@version		1.65.2
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -24096,7 +24096,7 @@
 	}
 	
 	#footer {
-		border-top: 2px solid #404040;
+		background: #2f2f2f;
 	}
 	
 	.notice_foot .inner span:before {
@@ -26523,6 +26523,35 @@
 	
 	.new_news_lnb .sort a, .schedule_nav .link_cal {
 		color: #cacaca;
+	}
+	
+	.sports_header_pc .sports_lnb_sub {
+		border-bottom: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.sports_header_pc .sports_lnb_sub .link_lnb_sub {
+		color: #cacaca;
+	}
+	
+	.news_end > p.source, .news_end .byline {
+		color: #fff;
+	}
+	
+	.categorize .btn_guide_categorize:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.sports_info .button:before, .sports_info .link:before {
+		background: #404040;
+	}
+	
+	.news_headline .info .bar {
+		background: #404040;
+	}
+	
+	.u_likeit_list_btn.u_type_tomain:after {
+		background-color: #404040;
 	}
 }
 

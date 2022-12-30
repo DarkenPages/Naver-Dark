@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.64.70
+@version		1.65.0
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -34610,7 +34610,7 @@
 	}
 }
 
-@-moz-document domain("dict.naver.com"), url-prefix("https://note.naver.com"), url-prefix("https://mail.naver.com"), url-prefix("https://search.naver.com"), url-prefix("https://nid.naver.com/user2/help/"), url-prefix("https://section.cafe.naver.com"), url-prefix("https://cafe.naver.com"), url-prefix("cafe.naver.com"), url-prefix("https://section.blog.naver.com"), url-prefix("http://section.blog.naver.com"), url-prefix("https://terms.naver.com"), url-prefix("https://www.naver.com/NOTICE"), url-prefix("https://www.naver.com/more.html"), url-prefix("https://people.search.naver.com"), url-prefix("https://sports.news.naver.com"), url-prefix("https://noti.naver.com"), url-prefix("https://myfeed.naver.com"), url-prefix("https://editor.post.naver.com"), url-prefix("https://post.stat.naver.com"), url-prefix("https://talk.naver.com"), url-prefix("https://news.naver.com"), url-prefix("https://blog.naver.com"), url-prefix("https://guestbook.blog.naver.com"), url-prefix("https://admin.blog.naver.com"), url-prefix("https://weather.naver.com"), url-prefix("https://policy.naver.com"), url-prefix("https://help.naver.com"), url-prefix("https://s.search.naver.com"), url-prefix("https://media.naver.com"), url-prefix("https://n.news.naver.com"), url-prefix("https://papago.naver.com"), regexp("https://calendar\\.naver\\.com/(?!promotion.nhn|subscribePage.nhn).*"), regexp("https://(.*)dic\\.naver\\.com/.*")
+@-moz-document domain("dict.naver.com"), url-prefix("https://note.naver.com"), url-prefix("https://mail.naver.com"), url-prefix("https://search.naver.com"), url-prefix("https://nid.naver.com/user2/help/"), url-prefix("https://section.cafe.naver.com"), url-prefix("https://cafe.naver.com"), url-prefix("cafe.naver.com"), url-prefix("https://section.blog.naver.com"), url-prefix("http://section.blog.naver.com"), url-prefix("https://terms.naver.com"), url-prefix("https://www.naver.com/NOTICE"), url-prefix("https://www.naver.com/more.html"), url-prefix("https://people.search.naver.com"), url-prefix("https://sports.news.naver.com"), url-prefix("https://noti.naver.com"), url-prefix("https://myfeed.naver.com"), url-prefix("https://editor.post.naver.com"), url-prefix("https://post.stat.naver.com"), url-prefix("https://talk.naver.com"), url-prefix("https://news.naver.com"), url-prefix("https://blog.naver.com"), url-prefix("https://guestbook.blog.naver.com"), url-prefix("https://admin.blog.naver.com"), url-prefix("https://weather.naver.com"), url-prefix("https://policy.naver.com"), url-prefix("https://help.naver.com"), url-prefix("https://s.search.naver.com"), url-prefix("https://media.naver.com"), url-prefix("https://n.news.naver.com"), url-prefix("https://papago.naver.com"), url-prefix("https://map.naver.com"), regexp("https://calendar\\.naver\\.com/(?!promotion.nhn|subscribePage.nhn).*"), regexp("https://(.*)dic\\.naver\\.com/.*")
 {
 	.gnb_notice_li .svc_panel, .gnb_notice_li .svc_scroll {
 		background: #2f2f2f;
@@ -93028,7 +93028,7 @@
 		filter: invert(86.5%) hue-rotate(-180deg) brightness(1000%);
 	}
 	
-	.intro_area .membership_box .h_desc, .intro_area .save_box .h_desc, .intro_area .save_box .desc_box .value:before, .intro_area .save_box .desc_box .point:before, .intro_area .user_box .desc_box .desc:first-child:after, .intro_area .user_box .desc_box .desc:first-child+.desc:after, .intro_area .save_box .notice_box .s_title:after, .intro_area .family_box .h_desc, .intro_area .digital_box .h_desc, .intro_area .shopping_box .h_desc, .intro_area .subscribe_box .h_desc, .intro_area .card_box .h_desc, .intro_area .reaction_box .h_desc {
+	.intro_area .save_box .desc_box .value:before, .intro_area .save_box .desc_box .point:before, .intro_area .user_box .desc_box .desc:first-child:after, .intro_area .user_box .desc_box .desc:first-child+.desc:after, .intro_area .save_box .notice_box .s_title:after {
 		filter: invert(100%) hue-rotate(-180deg);
 	}
 	
@@ -93083,17 +93083,6 @@
 	
 	.intro_area .reaction_box {
 		background-color: #2f2f2f;
-	}
-	
-	.intro_area .reaction_item {
-		background-color: #3a3a3a;
-		border :1px solid #404040;
-	}
-	
-	@media (min-width: 750px) {
-		.intro_area .reaction_item {
-			border: 1.5px solid #404040;
-		}
 	}
 	
 	.intro_area .reaction_item .profile_box .user {
@@ -93171,6 +93160,333 @@
 	
 	.spi_default .spi_ly_pop .spi_close span {
 		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.intro_area .user_box .desc_box .desc, .intro_area .save_box .notice_box .btn_fold .txt, .intro_area .menu_list .menu[aria-current=true] .txt {
+		color: #fff;
+	}
+	
+	.intro_area .family_box, .intro_area .trip_box {
+		background-color: #3a3a3a;
+	}
+	
+	.intro_area .h_title .txt {
+		border: 1px solid #fff;
+	}
+	
+	.intro_area .h_desc {
+		color: #fff;
+	}
+	
+	.intro_area .trip_box .h_desc .ico_travel {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.intro_area .reaction_item .item_box {
+		border: 1px solid #404040;
+		background-color: #3a3a3a;
+	}
+	
+	.intro_area .reaction_item .desc {
+		color: #fff;
+	}
+	
+	.intro_area .promo_banner {
+		background-color: #3a3a3a;
+	}
+	
+	.modal_popup {
+		background-color: #2f2f2f;
+	}
+	
+	.modal_popup .fold_bar {
+		background-color: #2f2f2f;
+	}
+	
+	.modal_popup .fold_bar:before {
+		background-color: #4f4f4f;
+		box-shadow: inset 0 1px 0 0 rgba(60, 60, 60, .2);
+	}
+	
+	.modal_popup .item_content .title {
+		color: #fff;
+	}
+	
+	.modal_popup .item_content .s_desc {
+		color: #cacaca;
+	}
+	
+	.modal_popup .terms_area {
+		border-top: 1px solid #404040;
+	}
+	
+	.modal_popup .terms_all label {
+		color: #fff;
+	}
+	
+	.modal_popup .terms_all label:before, .modal_popup .terms_item label .btn_fold:after {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.modal_popup .terms_item label:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.terms_item label .txt {
+		color: #cacaca;
+	}
+	
+	.modal_popup .btn_box {
+		background-color: #2f2f2f;
+	}
+	
+	.modal_popup .tab_list {
+		border: 1px solid #404040;
+		background-color: #3a3a3a;
+	}
+	
+	.modal_popup .btn_join:disabled {
+		background: #3a3a3a;
+	}
+	
+	.intro_student .content_area {
+		background-color: #2f2f2f;
+	}
+	
+	.intro_student .summary_area .h_desc, .intro_student .summary_area .h_sub, .intro_student h4.sub_title {
+		color: #fff;
+	}
+	
+	.intro_student .save_area .receipt_area {
+		border: 1px solid #404040;
+		border-top: none;
+		background-color: #3a3a3a;
+	}
+	
+	.intro_student .save_area .receipt_box:before {
+		background: linear-gradient(to bottom,#3a3a3a 23%,rgba(58,58,58,0) 76%);
+	}
+	
+	.intro_student .save_area .receipt_box:after {
+		background: linear-gradient(to bottom,rgba(58,58,58,0) 0,#3a3a3a 100%);
+	}
+	
+	.intro_student .save_area .receipt_item {
+		color: #fff;
+	}
+	
+	.intro_student .save_area .receipt_item .point {
+		color: #cacaca;
+	}
+	
+	.intro_student .digital_area .bonus_tit {
+		color: #fff;
+	}
+	
+	.intro_student .mybox_box {
+		background-color: #3a3a3a;
+		color: #fff;
+	}
+	
+	.intro_student .digital_area .notice .lnk_more .txt {
+		color: #cacaca;
+	}
+	
+	.intro_student .digital_area .notice .lnk_more:after {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.intro_student .life_area .life_item {
+		border: 1px solid #404040;
+	}
+	
+	.intro_student .notice_area, .footer {
+		background-color: #3a3a3a;
+	}
+	
+	.intro_student .notice_box .title {
+		color: #fff;
+	}
+	
+	.intro_student .notice_box .item {
+		color: #cacaca;
+	}
+	
+	.intro_student .notice_area .fold_area {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.intro_student .notice_area .fold_area .btn_fold .txt {
+		color: #fff;
+	}
+	
+	.intro_student .notice_area .fold_area .desc_box {
+		color: #cacaca;
+	}
+	
+	.intro_student .banner_box .lnk_banner {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.footer_service .service .txt {
+		color: #cacaca;
+	}
+	
+	.footer_corp {
+		border-top: 1px solid #4f4f4f;
+		border-bottom: 1px solid #4f4f4f;
+	}
+	
+	.footer_corp .corp_list .txt {
+		color: #cacaca;
+	}
+	
+	.footer_corp .corp_list .title {
+		color: #999;
+	}
+	
+	.footer_info .info .txt {
+		color: #cacaca;
+	}
+	
+	.white_dimmed {
+		background-color: rgba(36, 36, 36, .9);
+	}
+	
+	.intro_student .title_area.off:after {
+		background-color: #242424;
+	}
+	
+	.brochure_area .brochure_tab button {
+		color: #fff;
+	}
+	
+	.brochure_area .brochure_tab {
+		background-color: #2f2f2f;
+	}
+	
+	.brochure_area .list_box .h_title {
+		color: #fff;
+	}
+	
+	.brochure_area .digital_list {
+		border: 1px dotted #404040;
+		border-width: 1px 0;
+	}
+	
+	.brochure_area .digital_item .summary {
+		color: #fff;
+	}
+	
+	.brochure_area .digital_item+.digital_item {
+		border-top: 1px dotted #404040;
+	}
+	
+	.brochure_area .digital_item .desc {
+		color: #cacaca;
+	}
+	
+	.brochure_area .dicon_add_desc, .brochure_area .family_desc {
+		border: 1px dotted #404040;
+		border-width: 1px 0;
+	}
+	
+	.brochure_area .dicon_add_desc .title, .brochure_area .family_desc .title {
+		color: #fff;
+	}
+	
+	.brochure_area .dicon_add_desc .desc, .brochure_area .family_desc .desc {
+		color: #cacaca;
+	}
+	
+	.wrap.brochure_scroll .detail_area .brochure_tab {
+		background-color: #2f2f2f;
+	}
+	
+	.brochure_area .list_box .desc_item {
+		color: #cacaca;
+	}
+	
+	.brochure_area .sub_list {
+		color: #cacaca;
+	}
+	
+	.brochure_area .list_box .desc_item .sub_title, .brochure_area .brochure_board .btn_fold .txt {
+		color: #fff;
+	}
+	
+	.brochure_area .brochure_board .btn_fold {
+		border-bottom: 1px solid #1a1a1a;
+	}
+	
+	.brochure_area .brochure_board .btn_fold[aria-expanded=true] {
+		box-shadow: 0 10px 10px -5px rgba(0,0,0,.3);
+	}
+	
+	.brochure_area .brochure_board .btn_fold:after {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.brochure_area .table_list {
+		border: 1px dotted #404040;
+		border-width: 1px 0;
+	}
+	
+	.brochure_area .table_item .desc {
+		color: #cacaca;
+	}
+	
+	.brochure_area .table_item+.table_item {
+		border-top: 1px dotted #404040;
+	}
+	
+	.brochure_area .list_box .desc_item.em .notice, .brochure_area .sub_list .sub_item .desc {
+		color: #cacaca;
+	}
+	
+	.brochure_area .sub_list .sub_item.em {
+		color: #fff;
+	}
+	
+	.brochure_area .list_box .desc_item.em {
+		color: #fff;
+	}
+	
+	.brochure_area .example_area .table_box .desc {
+		color: #fff;
+	}
+	
+	.brochure_area .example_area .title, .brochure_area .example_area .table_box .normal .point {
+		color: #cacaca;
+	}
+	
+	.brochure_area .example_area .table_box .normal {
+		background-color: #2f2f2f;
+	}
+	
+	.brochure_area .example_area .table_box {
+		border: 1px solid #404040;
+	}
+	
+	.brochure_area .example_area+.example_area:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.brochure_area .saving_example+.table_list .table_item .title {
+		color: #fff;
+	}
+	
+	.brochure_area .list_box .desc_list.large .desc_item {
+		color: #cacaca;
+	}
+	
+	.brochure_area .sub_list.example .sub_item {
+		color: #fff;
+	}
+	
+	.brochure_area .saving_example img {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 }
 
@@ -110384,8 +110700,14 @@
 	}
 }
 
-@-moz-document url-prefix("https://m.blog.naver.com/PostView.naver"), regexp("https:\\/\\/m\\.blog\\.naver\\.com\\/(.*)\\/(\\d*)+(|\\?.*)+")
+@-moz-document url-prefix("https://m.blog.naver.com/PostView.naver"), url-prefix("https://map.naver.com"), regexp("https:\\/\\/m\\.blog\\.naver\\.com\\/(.*)\\/(\\d*)+(|\\?.*)+")
 {
+	html {
+		--se-viewer-bg1: #242424;
+		--se-viewer-bg2: #2f2f2f;
+		--se-viewer-bg3: #282828;
+	}
+	
 	.se-viewer .se-video .se-media-meta-info, .se-viewer .se-video .se-media-meta-info-title {
 		color: #cacaca;
 	}
@@ -110437,14 +110759,20 @@
 	.se-viewer *[style*='color:rgb(33, 37, 41)'],
 	.se-viewer *[style*='color: rgb(33, 37, 41)'],
 	.se_body_wrap *[style*='color:rgb(33, 37, 41)'],
-	.se_body_wrap *[style*='color: rgb(33, 37, 41)'] {
+	.se_body_wrap *[style*='color: rgb(33, 37, 41)'],
+	.post_ct *[style*='color:#24292f'],
+	.post_ct *[style*='color: #24292f'],
+	.se-viewer *[style*='color:#24292f'],
+	.se-viewer *[style*='color: #24292f'],
+	.se_body_wrap *[style*='color:#24292f'],
+	.se_body_wrap *[style*='color: #24292f'] {
 		color: #fff !important;
 	}
 	
 	.post_ct tr[bgcolor='#ffffff'],
 	.se-viewer tr[bgcolor='#ffffff'],
 	.se_body_wrap tr[bgcolor='#ffffff'] {
-		background-color: #242424 !important;
+		background-color: var(--se-viewer-bg1) !important;
 	}
 	
 	.post_ct *[style*='color:#999999'],
@@ -110488,17 +110816,14 @@
 	.se-viewer *[style*='background-color:#ffffff'],
 	.se-viewer *[style*='background-color: #ffffff'],
 	.se_body_wrap *[style*='background-color:#ffffff'],
-	.se_body_wrap *[style*='background-color: #ffffff'] {
-		background-color: #242424 !important;
-	}
-	
+	.se_body_wrap *[style*='background-color: #ffffff'],
 	.post_ct *[style*='background-color:white'],
 	.post_ct *[style*='background-color: white'],
 	.se-viewer *[style*='background-color:white'],
 	.se-viewer *[style*='background-color: white'],
 	.se_body_wrap *[style*='background-color:white'],
 	.se_body_wrap *[style*='background-color: white'] {
-		background-color: #242424 !important;
+		background-color: var(--se-viewer-bg1) !important;
 	}
 	
 	.post_ct *[style*='background-color:rgb(241, 241, 241)'i],
@@ -110507,7 +110832,7 @@
 	.se-viewer *[style*='background-color: rgb(241, 241, 241)'i],
 	.se_body_wrap *[style*='background-color:rgb(241, 241, 241)'i],
 	.se_body_wrap *[style*='background-color: rgb(241, 241, 241)'i] {
-		background-color: #282828 !important;
+		background-color: var(--se-viewer-bg3) !important;
 	}
 	
 	.post_ct *[style*='background-color:#8e8e8e'i],
@@ -110522,7 +110847,16 @@
 	.se-viewer *[style*='background-color: #eeeeee'i],
 	.se_body_wrap *[style*='background-color:#eeeeee'i],
 	.se_body_wrap *[style*='background-color: #eeeeee'i] {
-		background-color: #2f2f2f !important;
+		background-color: var(--se-viewer-bg2) !important;
+	}
+	
+	.post_ct *[style*='background-color:rgb(255, 255, 255)'i],
+	.post_ct *[style*='background-color: rgb(255, 255, 255)'i],
+	.se-viewer *[style*='background-color:rgb(255, 255, 255)'i],
+	.se-viewer *[style*='background-color: rgb(255, 255, 255)'i],
+	.se_body_wrap *[style*='background-color:rgb(255, 255, 255)'i],
+	.se_body_wrap *[style*='background-color: rgb(255, 255, 255)'i] {
+		background-color: var(--se-viewer-bg1) !important;
 	}
 	
 	.post_ct *[style*='background-color:#e3fdc8'],
@@ -110583,15 +110917,6 @@
 	.se_body_wrap *[style*='background-color:#c2f4db'],
 	.se_body_wrap *[style*='background-color: #c2f4db']{
 		background-color: rgb(34, 60, 44) !important;
-	}
-	
-	.post_ct *[style*='background-color:rgb(255, 255, 255)'i],
-	.post_ct *[style*='background-color: rgb(255, 255, 255)'i],
-	.se-viewer *[style*='background-color:rgb(255, 255, 255)'i],
-	.se-viewer *[style*='background-color: rgb(255, 255, 255)'i],
-	.se_body_wrap *[style*='background-color:rgb(255, 255, 255)'i],
-	.se_body_wrap *[style*='background-color: rgb(255, 255, 255)'i] {
-		background-color: #242424 !important;
 	}
 	
 	.post_ct *[style*='border-color: rgb(204, 204, 204) rgb(204, 204, 204) currentColor currentColor'i],
@@ -113082,5 +113407,5102 @@
 	
 	.pick_area.ipin .pick_input:checked+.pick_enter+.ipin_nudge img {
 		filter: invert(86%) hue-rotate(-180deg);
+	}
+}
+
+@-moz-document url-prefix("https://map.naver.com")
+{
+	:root {
+		--se-viewer-bg1: #2f2f2f;
+		--se-viewer-bg2: #3a3a3a;
+		--se-viewer-bg3: #383838;
+	}
+	
+	.gnb_notice_li a.gnb_notice .gnb_icon, .mail_li a.gnb_mail .gnb_icon, .gnb_service_li a.gnb_service .gnb_icon {
+		filter: none !important;
+	}
+	
+	body {
+		color: #cacaca;
+		background: #242424;
+	}
+	
+	#sidebar navbar {
+		background-color: #2f2f2f !important;
+	}
+	
+	navbar .logo_box {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	app layout .map_container .sidebar:after {
+		background: #404040 !important;
+	}
+	
+	app layout .list_navbar .link_navbar {
+		color: #cacaca !important;
+	}
+	
+	app layout .list_navbar .link_navbar.active .navbar_text {
+		color: #242424 !important;
+	}
+	
+	.retina layout .list_navbar .link_navbar.bus.active:before, .retina layout .list_navbar .link_navbar.bus:before, .retina layout .list_navbar .link_navbar.bus:hover:before, .retina layout .list_navbar .link_navbar.directions.active:before, .retina layout   .list_navbar .link_navbar.directions:before, .retina layout .list_navbar .link_navbar.directions:hover:before, .retina layout .list_navbar .link_navbar.favorite.active:before, .retina layout   .list_navbar .link_navbar.favorite:before, .retina layout .list_navbar .link_navbar.favorite:hover:before, .retina layout .list_navbar .link_navbar.home.active:before, .retina layout .list_navbar .link_navbar.home:before, .retina layout .list_navbar .link_navbar.home:hover:before, .retina layout .list_navbar .link_navbar.settings.active:before, .retina layout   .list_navbar .link_navbar.settings:before, .retina layout .list_navbar .link_navbar.settings:hover:before, .retina layout .list_navbar .link_navbar.subway.active:before, .retina layout .list_navbar .link_navbar.subway:before, .retina layout .list_navbar .link_navbar.subway:hover:before, .retina layout .list_navbar .link_navbar.train.active:before, .retina layout .list_navbar .link_navbar.train:before, .retina layout .list_navbar .link_navbar.train:hover:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	shrinkable-layout .panel_wrap {
+		background: #2f2f2f !important;
+	}
+	
+	shrinkable-layout .main, shrinkable-layout .sub {
+		background: #2f2f2f !important;
+	}
+	
+	search-input-box .button_clear:after, search-input-box .button_clear:hover:after {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	search-input-box .button_search {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	search-input-box .input_search {
+		color: #fff !important;
+	}
+	
+	search-input-box .result_content {
+		background: #2f2f2f !important;
+	}
+	
+	search-input-box .result_content .history_area, search-input-box .result_content .instant_search_area {
+		border: 1px solid #404040 !important;
+		background: #2f2f2f !important;
+	}
+	
+	nm-list .list_place .place_box .place_text_box {
+		color: #cacaca !important;
+	}
+	
+	nm-list .list_place .place_box .place_text_box .place_text {
+		color: #cacaca !important;
+	}
+	
+	nm-list .list_place .link_place.hover {
+		background-color: #3a3a3a !important;
+	}
+	
+	today-weather-card .weather_card .address {
+		color: #fff !important;
+	}
+	
+	today-weather-card .card_button {
+		border: 1px solid #404040 !important;
+		color: #cacaca !important;
+	}
+	
+	today-weather-card .card_button:hover {
+		border-color: #0475f4 !important;
+		color: #0475f4 !important;
+	}
+	
+	today-weather-card .date_info_wrap:not(.-error):hover {
+		background: #3a3a3a !important;
+	}
+	
+	today-weather-card .weather_area .time_text {
+		color: #cacaca !important;
+	}
+	
+	today-weather-card .weather_area .half + .half:before {
+		background: #4f4f4f !important;
+	}
+	
+	today-weather-card .temper_area .temper {
+		color: #fff !important;
+	}
+	
+	today-weather-card .temper_area .temper:after {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	today-weather-card .dust_area:hover {
+		background: #3a3a3a !important;
+	}
+	
+	today-weather-card .dust_area .label {
+		color: #cacaca !important;
+	}
+	
+	around-contents-card .heading {
+		background: #2f2f2f !important;
+	}
+	
+	around-contents-card .heading:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	around-contents-card .heading:after {
+		background: #4f4f4f !important;
+	}
+	
+	today-pick-card .heading {
+		color: #fff !important;
+	}
+	
+	today-pick-card .text_area .desc_text {
+		color: #cacaca !important;
+	}
+	
+	today-pick-card .info_list .info_item {
+		color: #fff !important;
+	}
+	
+	today-pick-card .info_list .info_item + .info_item:before {
+		color: #4f4f4f !important;
+	}
+	
+	today-pick-card .image_area {
+		background: #2f2f2f !important;
+	}
+	
+	today-pick-card .text_area .badge.-smart_order {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	today-pick-react {
+		border-top: 1px solid #404040 !important;
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	today-pick-react .button.-bad, today-pick-react .button.-like {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	today-pick-react .toast_message {
+		border: 1px solid #404040 !important;
+	}
+	
+	today-pick-react .toast_message .text {
+		background: #2f2f2f !important;
+		color: #cacaca !important;
+	}
+	
+	my-around-place-card .heading {
+		color: #fff !important;
+	}
+	
+	my-around-place-header .option_selector_wrap:hover {
+		background: #3a3a3a !important;
+	}
+	
+	my-around-place-header .option_selector_wrap {
+		color: #fff !important;
+	}
+	
+	my-around-place-header .option_selector_wrap:after {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	my-around-place-item .image_area {
+		background: #2f2f2f !important;
+	}
+	
+	my-around-place-header .option_value_wrap {
+		background: #3a3a3a !important;
+	}
+	
+	my-around-place-header .time_option {
+		background: #2f2f2f !important;
+		color: #cacaca !important;
+	}
+	
+	my-around-place-header .time_option:hover {
+		color: #0475f4 !important;
+	}
+	
+	my-around-place-header input:checked + .time_option {
+		background: #537bf6 !important;
+		color: #fff !important;
+	}
+	
+	my-around-place-header .sort_option {
+		color: #cacaca !important;
+	}
+	
+	my-around-place-header .sort_option:hover, my-around-place-header input:checked + .sort_option {
+		color: #537bf6 !important;
+	}
+	
+	.retina my-around-place-header .button_help {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.scrolled .around_wrap {
+		border-top-color: #404040 !important;
+	}
+	
+	my-around-place-item .text_area .desc_text {
+		color: #cacaca !important;
+	}
+	
+	my-around-place-item .info_list .info_item {
+		color: #fff !important;
+	}
+	
+	my-around-place-item .info_list .info_item + .info_item:before {
+		color: #4f4f4f !important;
+	}
+	
+	my-around-place-item .review_wrap:after, my-around-place-item .review_wrap:before {
+		background: #3a3a3a !important;
+	}
+	
+	my-around-place-item .review_item {
+		background: #3a3a3a !important;
+	}
+	
+	my-around-place-item .review_text_area:before {
+		border-color: #2f2f2f #2f2f2f #3a3a3a !important;
+	}
+	
+	my-around-place-item .review_text_area .nick {
+		color: #fff !important;
+	}
+	
+	my-around-place-item .review_text_area .text {
+		color: #cacaca !important;
+	}
+	
+	my-around-place-item .text_area .badge.-smart_order, my-around-place-item .text_area .badge.-reservation {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	timeline-place-card .heading {
+		background: transparent !important;
+	}
+	
+	gnb-widget #gnb_my_layer .gnb_my:after {
+		border: 1px solid #404040 !important;
+	}
+	
+	around-contents-card .around_wrap::-webkit-scrollbar-thumb {
+		background: #4f4f4f !important;
+	}
+	
+	around-contents-card .around_wrap::-webkit-scrollbar-track-piece {
+		background: #3a3a3a !important;
+	}
+	
+	#baseMap {
+		background: none;
+		position: relative;
+	}
+	
+	#baseMap:before {
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ1IDc5LjE2MzQ5OSwgMjAxOC8wOC8xMy0xNjo0MDoyMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo5NDZmMTM0My05NGZkLTRlMzktOThjZS0wZmUyMTNkN2RhZTgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MkU3Qzg4RkE1MUZEMTFFOUE5RjlEMkFBNjlFM0RGNkYiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MkU3Qzg4Rjk1MUZEMTFFOUE5RjlEMkFBNjlFM0RGNkYiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTkgTWFjaW50b3NoIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6OTQ2ZjEzNDMtOTRmZC00ZTM5LTk4Y2UtMGZlMjEzZDdkYWU4IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjk0NmYxMzQzLTk0ZmQtNGUzOS05OGNlLTBmZTIxM2Q3ZGFlOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pmsmp7UAAAAzSURBVHjaYvz25R0D0eDXr99MDKSAL18+k6aBh4d31IZRG6hmAzDFvnv3jkgSaANAgAEA3PlIwE1zCY4AAAAASUVORK5CYII=");
+		background-color: transparent;
+		background-position: 0px 0px;
+		background-repeat: repeat repeat;
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	/* Legacy Map */
+	#baseMap:not(.mapboxgl-map) > div > div > div > div:first-child + div {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	/* Vector Map */
+	#baseMap > div > div > div:first-child {
+		background-color: #242424 !important;
+	}
+	
+	#baseMap > div > div > div:first-child > div > span:first-child {
+		color: #fff !important;
+	}
+	
+	#baseMap > div > div > div:first-child > div > span:last-child {
+		border-right-color: #fff !important;
+		border-bottom-color: #fff !important;
+		border-left-color: #fff !important;
+	}
+	
+	#baseMap canvas.mapboxgl-canvas {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	entry-address {
+		background-color: #2f2f2f !important;
+	}
+	
+	entry-layout {
+		background-color: #2f2f2f !important;
+	}
+	
+	entry-address .summary_area {
+		background-color: #2f2f2f !important;
+	}
+	
+	entry-address .summary_area:before {
+		background-color: #2f2f2f !important;
+		box-shadow: 3px 0 0 #2f2f2f,-3px 0 0 #2f2f2f,0 1px 2px 0 rgba(255,255,255,.15);
+	}
+	
+	entry-address .summary_area .btn_back_area .btn_back {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	entry-address .summary_area .summary_title_box .summary_title {
+		color: #fff !important;
+	}
+	
+	entry-close-button .btn_entry_close {
+		background: #2f2f2f !important;
+		border: 1px solid #404040 !important;
+		border-left: 0 !important;
+	}
+	
+	entry-close-button .btn_entry_close:hover {
+		background: rgb(48, 50, 53) !important;
+		border-color: #0475f4;
+	}
+	
+	entry-close-button .btn_entry_close:before {
+		background: #242424 !important;
+	}
+	
+	entry-close-button .btn_entry_close:after {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	entry-address .btn_area {
+		background-color: #2f2f2f !important;
+	}
+	
+	entry-address .btn_area .btn_box:not(.direction):not(.bus) .btn.btn_share:before, entry-address .btn_area .btn_box:not(.direction):not(.bus) .btn.btn_favorite:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	entry-address .btn_area .btn_box:not(.direction):not(.bus) .btn:hover {
+		background-color: #3a3a3a !important;
+	}
+	
+	entry-address .btn_area .btn_box.direction .btn.btn_start {
+		border-color: #404040 !important;
+		background-color: #2f2f2f !important;
+		color: #cacaca !important;
+	}
+	
+	entry-common-weather {
+		background-color: #2f2f2f !important;
+	}
+	
+	entry-address .btn_area:before {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	entry-common-weather .summary_box .today_title {
+		color: #fff !important;
+	}
+	
+	entry-common-weather .summary_box .icon_temperature {
+		filter: invert(86%) hue-rotate(-180deg) brightness(200%);
+	}
+	
+	entry-common-weather .summary_box .summary_temperature {
+		color: #cacaca !important;
+	}
+	
+	entry-common-weather .measure_box .measure_text {
+		color: #cacaca !important;
+	}
+	
+	entry-common-weather .list_today {
+		border-left: 1px solid #404040 !important;
+	}
+	
+	entry-common-weather .list_today .item_today {
+		color: #cacaca !important;
+	}
+	
+	entry-common-weather .week_box table th {
+		background-color: #3a3a3a !important;
+	}
+	
+	entry-common-weather .week_box table td, entry-common-weather .week_box table th {
+		color: #cacaca !important;
+		border-top: 1px solid #404040 !important;
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	entry-common-weather .extra_box .info_area {
+		color: #cacaca !important;
+	}
+	
+	entry-common-weather .extra_box .info_text ~ .info_tit:before {
+		background-color: #404040 !important;
+	}
+	
+	entry-common-weather .extra_box .link_weather {
+		border: 1px solid #404040 !important;
+	}
+	
+	entry-common-weather .extra_box .link_weather .link_text {
+		color: #cacaca !important;
+	}
+	
+	entry-address .list_end {
+		background-color: #2f2f2f !important;
+	}
+	
+	entry-address entry-common-weather + .list_end:before {
+		background-color: #404040 !important;
+	}
+	
+	entry-address .entry_wrap {
+		background-color: #2f2f2f !important;
+	}
+	
+	entry-address .list_end .end_box .end_title {
+		color: #fff !important;
+	}
+	
+	entry-address .list_end .item_end.address .end_title:not(.subtitle):hover, entry-address .list_end .item_end.address .link_end:hover, entry-address .list_end .item_end.phone .end_title:not(.subtitle):hover, entry-address .list_end .item_end.phone .link_end:hover {
+		color: #0475f4 !important;
+	}
+	
+	entry-address .end_inner {
+		background-color: #2f2f2f !important;
+	}
+	
+	entry-address .end_inner .title_box .title {
+		color: #fff !important;
+	}
+	
+	entry-address .end_inner:not(:first-child):before {
+		background-color: #404040 !important;
+	}
+	
+	entry-address .list_space .space_title {
+		color: #fff !important;
+	}
+	
+	result-panel-folding-button .btn_fold, result-panel-folding-button .btn_fold:hover {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	report-map-screenshot .report_capture_header {
+		background: #2f2f2f !important;
+	}
+	
+	report-map-screenshot .report_capture_header .title {
+		color: #fff !important;
+	}
+	
+	report-map-screenshot .report_capture_header .btn_back:before, report-map-screenshot .report_capture_header .btn_close {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	report-map-screenshot .report_capture_content {
+		background: #2f2f2f !important;
+	}
+	
+	report-map-screenshot .report_capture_content .main_address {
+		color: #fff !important;
+	}
+	
+	report-container {
+		background-color: #2f2f2f !important;
+	}
+	
+	report-frame {
+		background-color: #2f2f2f !important;
+	}
+	
+	report-frame .panel_header_area .panel_title {
+		color: #fff !important;
+	}
+	
+	report-frame .panel_header_area .btn_back {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	report-frame .panel_content_area {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	nm-content-loader svg {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	#preview_area .navbar_box {
+		background-color: #2f2f2f;
+	}
+	
+	#preview_area .navbar_box:after {
+		background: #404040;
+	}
+	
+	#preview_area .navbar_box .logo_box {
+		border-bottom: 1px solid #404040;
+	}
+	
+	#preview_area .navbar_box .list_navbar .link_navbar {
+		color: #cacaca;
+	}
+	
+	#preview_area .navbar_box .list_navbar .link_navbar.bus.active:before, #preview_area .navbar_box .list_navbar .link_navbar.bus:before, #preview_area .navbar_box .list_navbar .link_navbar.bus:hover:before, #preview_area .navbar_box .list_navbar .link_navbar.directions.active:before, #preview_area .navbar_box .list_navbar .link_navbar.directions:before, #preview_area .navbar_box .list_navbar .link_navbar.directions:hover:before, #preview_area .navbar_box .list_navbar .link_navbar.favorite.active:before, #preview_area .navbar_box .list_navbar .link_navbar.favorite:before, #preview_area .navbar_box .list_navbar .link_navbar.favorite:hover:before, #preview_area .navbar_box .list_navbar .link_navbar.home.active:before, #preview_area .navbar_box .list_navbar .link_navbar.home:before, #preview_area .navbar_box .list_navbar .link_navbar.home:hover:before, #preview_area .navbar_box .list_navbar .link_navbar.settings.active:before, #preview_area .navbar_box .list_navbar .link_navbar.settings:before, #preview_area .navbar_box .list_navbar .link_navbar.settings:hover:before, #preview_area .navbar_box .list_navbar .link_navbar.subway.active:before, #preview_area .navbar_box .list_navbar .link_navbar.subway:before, #preview_area .navbar_box .list_navbar .link_navbar.subway:hover:before, #preview_area .navbar_box .list_navbar .link_navbar.train.active:before, #preview_area .navbar_box .list_navbar .link_navbar.train:before, #preview_area .navbar_box .list_navbar .link_navbar.train:hover:before, #preview_area .navbar_box .logo_box .link_logo:before, .location-info-widget-popup .location_info_area .info_box .icon_road, .location-info-widget-popup .location_info_area .thumb_box .icon_panorama, .toolbox-distance-popup .toolbox_area .btn_box .btn_delete:before, .unsupport_area .icon_caution, .unsupport_area .icon_unsupport.chrome, .unsupport_area .icon_unsupport.edge, .unsupport_area .icon_unsupport.safari, .unsupport_area .icon_unsupport.whale {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	#no-script {
+		background: #2f2f2f;
+	}
+	
+	#no-script .no-script-message .title {
+		color: #fff;
+	}
+	
+	#no-script .no-script-message .desc, #no-script .no-script-message .explain, #no-script .no-script-message .items li {
+		color: #cacaca;
+	}
+	
+	base-card .sub {
+		border-left: 1px solid #404040 !important;
+	}
+	
+	nm-spinner {
+		background: #2f2f2f !important;
+	}
+	
+	entry-place-bridge .entry_wrap {
+		background-color: #2f2f2f !important;
+	}
+	
+	entry-place-bridge {
+		background-color: #2f2f2f !important;
+	}
+	
+	search-input-box .button_clear {
+		background: #2f2f2f !important;
+	}
+	
+	search-input-box .button_clear:before {
+		background: #404040 !important;
+	}
+	
+	salt-marker .marker {
+		background: #2f2f2f !important;
+	}
+	
+	salt-marker .face_marker.-highlight .marker {
+		background: #0475f4 !important;
+	}
+	
+	salt-marker .face_marker .dummy:after {
+		border-color: #2f2f2f transparent transparent !important;
+	}
+	
+	salt-marker .sub_text .star_point + span:before {
+		background: #4f4f4f !important;
+	}
+	
+	salt-marker .sub_text {
+		color: #cacaca !important;
+	}
+	
+	salt-marker .face_marker:not(.-highlight).hover .main_text, 
+	salt-marker .face_marker:not(.-highlight).hover .point, 
+	salt-marker .face_marker:not(.-highlight).hover .sub_text, 
+	salt-marker .face_marker:not(.-highlight).hover .sub_text .busstop_number, 
+	salt-marker .face_marker:not(.-highlight).hover .sub_text .star_point, 
+	salt-marker .face_marker:not(.-highlight):hover .main_text, 
+	salt-marker .face_marker:not(.-highlight):hover .point, 
+	salt-marker .face_marker:not(.-highlight):hover .sub_text, 
+	salt-marker .face_marker:not(.-highlight):hover .sub_text .busstop_number, 
+	salt-marker .face_marker:not(.-highlight):hover .sub_text .star_point {
+		color: #0475f4 !important;
+	}
+	
+	salt-marker .sub_text .star_point {
+		color: #cacaca !important;
+	}
+	
+	salt-marker .face_marker .more_count {
+		background: #2f2f2f !important;
+	}
+	
+	search-layout .sub {
+		border-left: 1px solid #404040 !important;
+	}
+	
+	control-carto-map-satellite .link_carto .carto_name, control-carto-map-normal .link_carto .carto_name, control-carto-map-terrain .link_carto .carto_name {
+		background-color: #2f2f2f !important;
+	}
+	
+	control-carto-map-satellite .link_carto, control-carto-map-normal .link_carto, control-carto-map-terrain .link_carto {
+		color: #cacaca !important;
+	}
+	
+	control-carto-map-satellite .link_carto:hover, control-carto-map-satellite .link_carto.active, control-carto-map-normal .link_carto:hover, control-carto-map-normal .link_carto.active, control-carto-map-terrain .link_carto:hover, control-carto-map-terrain .link_carto.active {
+		color: #0475f4 !important;
+	}
+	
+	control-carto-map-satellite .checkbox_box {
+		background-color: #2f2f2f !important;
+	}
+	
+	control-carto-map-satellite .checkbox_box .label_carto {
+		color: #cacaca !important;
+	}
+	
+	control-carto-map-satellite .checkbox_box:after {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	bubble-filter-list .bubble_filter_area {
+		background: #2f2f2f !important;
+	}
+	
+	bubble-filter-list .bubble_filter {
+		color: #cacaca !important;
+	}
+	
+	bubble-filter-list .bubble_filter.-on, bubble-filter-list .bubble_filter:hover {
+		color: #0475f4 !important;
+	}
+	
+	bubble-filter-list .btn_more_filter {
+		border-left: 1px solid #404040 !important;
+	}
+	
+	bubble-filter-list .btn_more_filter.hover, bubble-filter-list .btn_more_filter:hover {
+		background: #3a3a3a !important;
+	}
+	
+	bubble-filter-list .btn_more_filter:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	bubble-filter-list .appendix_filter_inner {
+		background: #2f2f2f !important;
+	}
+	
+	control-top-widget-holder control-export-group, control-top-widget-holder control-layer-group, control-top-widget-holder control-measure-group {
+		background: #2f2f2f !important;
+	}
+	
+	control-layer-group .item_control, control-measure-group .item_control, control-export-group .item_control {
+		background-color: #2f2f2f !important;
+	}
+	
+	control-theme-group .btn_widget_theme, control-theme-group .btn_widget_theme:hover {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	control-theme-group .layers_popup {
+		background: #2f2f2f !important;
+	}
+	
+	control-carto-traffic, control-carto-cctv, control-carto-bike, control-carto-mountain, control-weather {
+		background-color: #2f2f2f !important;
+	}
+	
+	control-theme-group .item_list .text {
+		color: #cacaca !important;
+	}
+	
+	control-carto-traffic .btn_traffic:before, control-carto-traffic .btn_traffic:hover:before, control-carto-cctv .btn_cctv:before, control-carto-cctv .btn_cctv:hover:before, control-carto-bike .btn_bike:before, control-carto-bike .btn_bike:hover:before, control-carto-mountain .btn_mountain:before, control-carto-mountain .btn_mountain:hover:before, control-weather .btn_weather:before, control-weather .btn_weather:hover:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	control-favorite .btn_widget_favorite:before, control-favorite .btn_widget_favorite:not(:disabled):hover:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	control-carto-land .btn_widget_land, control-carto-land .btn_widget_land:hover {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	control-panorama .btn_widget_panorama, control-panorama .btn_widget_panorama:hover {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	control-toolbox-radius .btn_widget_radius, control-toolbox-radius .btn_widget_radius:hover {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	control-toolbox-area .btn_widget_area, control-toolbox-area .btn_widget_area:hover {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	control-toolbox-distance .btn_widget_measure, control-toolbox-distance .btn_widget_measure:hover {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	control-save .btn_widget_download, control-save .btn_widget_download:hover {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	control-print .btn_widget_print, control-print .btn_widget_print:hover {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	share-url-button .btn_share .icon, share-url-button .btn_share:hover .icon {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	control-location {
+		background-color: #2f2f2f !important;
+	}
+	
+	control-location .btn_location, control-location .btn_location.active {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	control-zoom {
+		background-color: #2f2f2f !important;
+	}
+	
+	control-zoom .btn_zoom_out, control-zoom .btn_zoom_in {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	control-zoom .range_box {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	legend-popup .legend_area {
+		background-color: #2f2f2f !important;
+	}
+	
+	legend-popup .legend_area .btn_area .btn_minimize {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	legend-popup .legend_area .list_tab_sub .item_tab .link_tab {
+		color: #cacaca !important;
+	}
+	
+	legend-popup .legend_area .list_tab_sub .item_tab .link_tab.active {
+		color: #0475f4 !important;
+	}
+	
+	legend-popup .legend_area .panel_area .subpanel_box .img_box img {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	legend-popup .btn_legend {
+		background-color: #2f2f2f !important;
+		color: #cacaca !important;
+	}
+	
+	legend-popup .btn_legend:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	legend-popup .legend_area .panel_area.panorama .subpanel_box .list_panorama .item_panorama .icon {
+		color: #cacaca !important;
+	}
+	
+	legend-popup .legend_area .panel_area.panorama .subpanel_box .text_box {
+		color: #cacaca !important;
+	}
+	
+	pegman-thumbnail .thumb_area .loading {
+		background: #2f2f2f !important;
+	}
+	
+	pegman-thumbnail .thumb_area {
+		border: 1px solid rgba(0,0,0,0.2) !important;
+		box-shadow: 0 1px 3px 0 rgba(0,0,0,.1);
+	}
+	
+	panorama-mini-map {
+		background-color: #2f2f2f !important;
+	}
+	
+	panorama-mini-map .btn_expand, panorama-mini-map .btn_expand:hover {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	panorama-mini-map .zoom {
+		background-color: #2f2f2f !important;
+	}
+	
+	panorama-mini-map .zoom .btn_zoom_in, panorama-mini-map .zoom .btn_zoom_in:hover {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	panorama-mini-map .zoom .btn_zoom_out, panorama-mini-map .zoom .btn_zoom_out:hover {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	panorama-mini-map .size_control .control_box {
+		background: #3a3a3a !important;
+	}
+	
+	panorama-mini-map .size_control .btn_control:before {
+		background: #3a3a3a !important;
+	}
+	
+	panorama-mini-map .size_control .btn_control .icon_size, panorama-mini-map .size_control .btn_control:hover .icon_size {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.toolbox-distance-popup .toolbox_area {
+		background-color: #2f2f2f;
+	}
+	
+	.toolbox-distance-popup .toolbox_area .tooltip_box {
+		color: #cacaca;
+	}
+	
+	.toolbox-distance-popup .toolbox_area .list_toolbox~.tooltip_box {
+		border-top: 1px solid #4f4f4f;
+	}
+	
+	.toolbox-distance-popup .toolbox_area .list_toolbox .item_toolbox .toolbox_box.radius .point {
+		color: rgb(185, 167, 255);
+	}
+	
+	.toolbox-distance-popup .toolbox_area .btn_box .btn_delete {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.toolbox-distance-popup .toolbox_area .btn_box .btn_delete:hover {
+		background-color: #404040;
+	}
+	
+	print-layout .print_wrap .print_main .print_main_top .print_map_icon {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	print-layout .print_wrap .print_main .print_main_top .btn_close, print-layout .print_wrap .print_main .print_main_top .btn_print {
+		border: 1px solid #404040 !important;
+		color: #fff !important;
+	}
+	
+	print-layout .print_wrap .print_main .print_main_content_layout {
+		border: 1px solid #404040 !important;
+	}
+	
+	print-layout .print_wrap .print_main .print_memo_area {
+		border: 1px solid #404040 !important;
+	}
+	
+	print-layout .print_wrap .print_main .print_memo_area .print_memo {
+		color: #cacaca;
+	}
+	
+	summary-place {
+		background: #2f2f2f !important;
+	}
+	
+	summary-place .text_wrap .text4 {
+		color: #cacaca !important;
+	}
+	
+	summary-place .interact_btn_area .btn, summary-place .interact_btn_area .direction {
+		border: 1px solid #404040 !important;
+		background: #2f2f2f !important;
+	}
+	
+	summary-place .interact_btn_area .direction .btn_from {
+		color: #cacaca !important;
+	}
+	
+	summary-place .interact_btn_area .direction .btn_to:before {
+		background: #4f4f4f !important;
+	}
+	
+	summary-place .interact_btn_area .btn.-share:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	summary-place .interact_btn_area .btn.-streetview:before, summary-place .interact_btn_area .btn.-streetview:hover:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	summary-card-content .bg_dummy, summary-card-content .bg_dummy:before {
+		background: #2f2f2f !important;
+	}
+	
+	directions-result .search_area .list_tab {
+		border: 1px solid #404040 !important;
+	}
+	
+	directions-result .search_area .link_tab {
+		color: #cacaca !important;
+		border-left: 1px solid #404040 !important;
+	}
+	
+	directions-result .search_area .link_tab.bus:before, directions-result .search_area .link_tab.car:before, directions-result .search_area .link_tab.walk:before, directions-result .search_area .link_tab.bike:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	directions-result .search_area .item_tab:first-child .link_tab {
+		border-left: 0 !important;
+	}
+	
+	directions-result .search_area .item_tab.active .link_tab {
+		color: #242424 !important;
+		border-left-color: transparent !important;
+	}
+	
+	directions-result .search_area .item_tab.active + .item_tab .link_tab {
+		border-left-color: transparent !important;
+	}
+	
+	directions-search .search_box {
+		border: 1px solid #404040 !important;
+	}
+	
+	directions-search-box .input_box:after {
+		background: linear-gradient(90deg,hsla(0,0%,100%,0),#2f2f2f) !important;
+	}
+	
+	directions-search .search_box .item_search {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	directions-search .search_box .item_search.start, directions-search .search_box .item_search:first-child {
+		border-top: 0 !important;
+	}
+	
+	directions-search-box .input_search {
+		color: #cacaca !important;
+	}
+	
+	directions-search .search_box .btn_switch {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	directions-search .btn_box .btn {
+		color: #cacaca !important;
+		border: 1px solid #404040 !important;
+	}
+	
+	directions-search .btn_box .btn.btn_direction:after {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	favorite-frequent-place-widget .title_box .instant_title {
+		color: #fff !important;
+	}
+	
+	favorite-frequent-place-widget .title_box {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	favorite-frequent-place-widget .instant_box .list_place .place_text {
+		color: #cacaca !important;
+	}
+	
+	favorite-frequent-place-widget .instant_box .list_place .icon_box.home:before, favorite-frequent-place-widget .instant_box .list_place .icon_box.office:before, favorite-frequent-place-widget .instant_box .list_place .icon_box.etc:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	directions-index-search-history .title_box {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	directions-index-search-history .title_box .instant_title {
+		color: #fff !important;
+	}
+	
+	nm-list-container .list_place .btn_delete {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	directions-index-favorites .title_box {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	directions-index-favorites .title_box .instant_title {
+		color: #fff !important;
+	}
+	
+	directions-index-favorites .empty_box {
+		color: #cacaca !important;
+	}
+	
+	directions-search-box-instant-search .directions-search-box-instant-search {
+		border-top: 1px solid #4f4f4f !important;
+		background-color: #2f2f2f !important;
+		box-shadow: 0 -1px 0 #404040 !important;
+	}
+	
+	nm-list .list_place .link_place.hover .place_box .place_text_box.sub {
+		background: transparent !important;
+	}
+	
+	nm-list .list_place .link_place.hover .place_box .place_text.sub {
+		background: transparent !important;
+	}
+	
+	search-list {
+		background-color: #2f2f2f !important;
+	}
+	
+	search-list-tabs .option_box .list_tab .link_tab.active {
+		color: #fff !important;
+	}
+	
+	search-list-tabs .option_box .list_tab .link_tab {
+		color: #cacaca !important;
+	}
+	
+	search-list-tabs .option_box .list_tab .item_tab + .item_tab:before {
+		background-color: #4f4f4f !important;
+	}
+	
+	search-item-place .search_box .search_text_box .search_text.category {
+		color: #cacaca !important;
+	}
+	
+	search-item-place .search_box .search_text_box .search_text:not(.oil) + .search_text:not(.distance):before {
+		background-color: #404040 !important;
+	}
+	
+	search-item-place .btn_box.facility .btn {
+		color: #cacaca !important;
+	}
+	
+	search-item-place .list_facility .link_facility:hover {
+		background-color: #3a3a3a !important;
+	}
+	
+	search-item-place .list_facility .link_facility:hover .facility_title {
+		color: #0475f4 !important;
+	}
+	
+	search-item-place .list_facility .link_facility .facility_title {
+		color: #cacaca !important;
+	}
+	
+	search-item-place .list_facility .link_facility:not(.selected) .btn_box.directions_search .btn {
+		background-color: #404040 !important;
+		border: 1px solid #4f4f4f !important;
+		color: #cacaca !important;
+	}
+	
+	search-item-place .link_search.hover, search-item-place .link_search:hover {
+		background-color: #3a3a3a !important;
+	}
+	
+	search-item-place .link_search:before {
+		background: #404040 !important;
+	}
+	
+	search-item-place .link_search.selected:before, search-item-place:first-of-type .link_search.selected:before {
+		/*background-color: #8ac1ff !important;*/
+		background-color: rgb(68, 95, 131) !important;
+	}
+	
+	search-item-place .link_search.selected {
+		box-shadow: 0 1px 0 rgb(68, 95, 131) !important;
+	}
+	
+	search-item-place .link_search.selected {
+		background-color: rgba(0,123,235,.05) !important;
+	}
+	
+	search-item-place .list_facility .link_facility.selected {
+		background-color: rgba(0,123,235,.05) !important;
+		border-top: 1px solid rgba(68, 95, 131) !important;
+		border-bottom: 1px solid rgba(68, 95, 131) !important;
+	}
+	
+	search-item-place .list_facility .link_facility.selected .facility_title {
+		color: #0475f4 !important;
+	}
+	
+	search-item-place .search_box .search_text_box .search_text.phone {
+		color: rgb(127, 151, 175) !important;
+	}
+	
+	search-item-place .search_box .search_text_box {
+		color: #cacaca !important;
+	}
+	
+	search-item-place .list_facility:after {
+		background: #404040 !important;
+	}
+	
+	search-item-place .link_search:not(.selected) .direction_box .icon_directions {
+		background-color: #404040 !important;
+		border: 1px solid #4f4f4f !important;
+		color: #cacaca !important;
+	}
+	
+	search-item-place .search_box .title_box {
+		color: #fff !important;
+	}
+	
+	search-item-place .link_search.hover .search_box .title_box, search-item-place .link_search.selected .search_box .title_box, search-item-place .link_search:hover .search_box .title_box {
+		color: #0475f4 !important;
+	}
+	
+	search-item-place .btn_box.facility .btn.expand .icon_arrow {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	search-item-place .search_box .search_text_box .search_text.address {
+		color: #cacaca !important;
+	}
+	
+	search-item-place .search_box .title_box .icon_title.smartorder:before, search-item-place .search_box .title_box .icon_title.reserve:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	search-list-contents .scroll_area.top_line {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	search-list-contents .search_pagination .pagination {
+		color: #cacaca !important;
+	}
+	
+	search-list-contents .search_pagination .pagination:hover {
+		background: #3a3a3a !important;
+	}
+	
+	search-list-contents .pagination_area .btn_next, search-list-contents .pagination_area .btn_prev {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	search-list-contents .search_pagination {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	searched-hover-card .marker_info_area {
+		background-color: #2f2f2f !important;
+	}
+	
+	searched-hover-card .marker_info_area .marker_info_box .info_text_box .info_text + .info_text:before {
+		background-color: #4f4f4f !important;
+	}
+	
+	directions-search .btn_box .btn.btn_direction.active {
+		color: #fff !important;
+	}
+	
+	directions-search .btn_box .btn.btn_direction.active:after {
+		filter: none !important;
+	}
+	
+	directions-search .btn_box .btn.btn_direction {
+		color: rgb(88, 134, 194) !important;
+	}
+	
+	directions-summary-list .top_area {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	directions-summary-list-tab .list_tab .link_tab.active {
+		color: #fff;
+	}
+	
+	directions-summary-list-tab .list_tab .link_tab {
+		color: #cacaca !important;
+	}
+	
+	directions-summary-list-transit-option:after {
+		background: #404040 !important;
+	}
+	
+	directions-summary-list-tab .list_tab .link_tab.active:after {
+		background: #fff !important;
+	}
+	
+	directions-summary-list-transit-option .departure_option_box {
+		background: #3a3a3a !important;
+	}
+	
+	directions-summary-list-tab .top_area:after {
+		background: #404040 !important;
+	}
+	
+	directions-summary-list-transit-option .departure_option_box .btn_time_option {
+		color: #cacaca !important;
+	}
+	
+	directions-summary-list-transit-option .departure_option_box .order_option_area .btn_order_option {
+		color: #cacaca !important;
+	}
+	
+	directions-summary-list-transit-option .departure_option_box .btn_option:after {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	directions-hover-scroll .search_result_list .search_result.is_selected {
+		background: rgba(0,123,235,.05) !important;
+	}
+	
+	layout directions-summary-list .search_result_list .search_result.is_selected:after, directions-summary-list .search_result_list .search_result.is_selected:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	directions-summary-item-pubtransit .route_summary_info_area .duration_time {
+		color: #fff !important;
+	}
+	
+	directions-summary-item-pubtransit .route_summary_info_area {
+		color: #fff !important;
+	}
+	
+	directions-summary-item-pubtransit .route_summary_info_area .summary_info:before {
+		background: #4f4f4f !important;
+	}
+	
+	directions-summary-item-pubtransit .step_info_list {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	directions-summary-item-pubtransit .step_info_list .step_info_item .icon_area .icon {
+		background-color: #2f2f2f !important;
+	}
+	
+	directions-summary-item-pubtransit.is_selected .step_info_list .step_info_item .icon_area .icon {
+		background-color: rgba(0,123,235,.05) !important;
+	}
+	
+	directions-summary-item-pubtransit .step_info_list .step_title_area .step_title {
+		color: #fff !important;
+	}
+	
+	directions-summary-item-pubtransit .step_info_list .step_title_area .appendix_btn_area .btn {
+		border: 1px solid #404040 !important;
+		color: #cacaca !important;
+	}
+	
+	directions-summary-item-pubtransit .step_info_list .step_title_area .appendix_btn_area .btn:hover {
+		border-color: rgba(4,117,244,.8) !important;
+		color: #0475f4 !important;
+	}
+	
+	directions-summary-item-pubtransit .step_bottom_area .btn_detail {
+		color: #cacaca !important;
+	}
+	
+	directions-summary-item-pubtransit .step_bottom_area .btn_detail:hover {
+		color: #0475f4 !important;
+	}
+	
+	directions-summary-item-pubtransit .step_info_list:before {
+		background: #4f4f4f !important;
+	}
+	
+	directions-bus-arrival {
+		color: #cacaca !important;
+	}
+	
+	guide-timeline .timeline_item_list {
+		background: #404040 !important;
+	}
+	
+	guide-timeline .timeline_item.walk .timeline_content .time {
+		color: #cacaca !important;
+	}
+	
+	directions-summary-item-pubtransit .step_info_list .step_info_item .vehicle_type_area.last .label {
+		color: #fff !important;
+	}
+	
+	directions-summary-list-timeset .timeset_option_box {
+		border-top: 1px solid #4f4f4f !important;
+	}
+	
+	directions-summary-list-timeset .timeset_option_box .timeset_option {
+		background: #2f2f2f !important;
+		border: 1px solid #4f4f4f !important;
+	}
+	
+	directions-summary-list-timeset .timeset_option_box .timeset_option_hour {
+		border-left: none !important;
+		border-right: none !important;
+	}
+	
+	directions-summary-list-timeset .timeset_option_box .timeset_option .timeset_btn_data {
+		color: #cacaca !important;
+	}
+	
+	directions-summary-list-timeset .timeset_option_box .timeset_option .timeset_btn_data:hover {
+		color: #0475f4 !important;
+	}
+	
+	directions-summary-list-timeset .timeset_option_box .timeset_btn_next .icon, directions-summary-list-timeset .timeset_option_box .timeset_btn_prev .icon {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	directions-summary-list-timeset .timeset_option_box .timeset_btn_now {
+		background: #2f2f2f !important;
+		border: 1px solid #4f4f4f !important;
+		color: #cacaca !important;
+	}
+	
+	directions-summary-list-timeset .timeset_option_box .timeset_btn_now:hover {
+		color: #0475f4 !important;
+	}
+	
+	directions-summary-list-timeset .layer_calendar {
+		background-color: #2f2f2f !important;
+	}
+	
+	directions-summary-list-timeset .layer_calendar .table_calendar {
+		background: #2f2f2f !important;
+	}
+	
+	directions-summary-list-timeset .layer_calendar .nav_calendar .btn_nxt_month .icon, directions-summary-list-timeset .layer_calendar .nav_calendar .btn_prv_month .icon {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	directions-summary-list-timeset .layer_calendar .nav_calendar .txt_month {
+		color: #fff !important;
+	}
+	
+	directions-summary-list-timeset .layer_calendar .table_calendar th {
+		color: #cacaca !important;
+	}
+	
+	directions-summary-list-timeset .layer_calendar .table_calendar .date_weekend, directions-summary-list-timeset .layer_calendar .table_calendar .date_weekend button {
+		color: #fc4a4a !important;
+	}
+	
+	directions-summary-list-timeset .layer_calendar .table_calendar button {
+		color: #cacaca !important;
+	}
+	
+	directions-summary-list-timeset .layer_calendar .table_calendar button:hover {
+		color: #0475f4 !important;
+	}
+	
+	directions-summary-list-timeset .layer_timeset, directions-summary-list-timeset .layer_timeset .wrap_scroll {
+		background-color: #2f2f2f !important;
+	}
+	
+	directions-summary-list-timeset .layer_timeset .wrap_scroll li button {
+		color: #cacaca !important;
+	}
+	
+	directions-summary-list-timeset .layer_timeset .wrap_scroll li button:hover {
+		background: #3a3a3a !important;
+	}
+	
+	directions-summary-list-timeset .layer_timeset::-webkit-scrollbar-thumb {
+		background-color: #4f4f4f !important;
+	}
+	
+	directions-hover-scroll::-webkit-scrollbar-thumb {
+		background-color: #4f4f4f !important;
+	}
+	
+	directions-summary-list-bookmark .route_info {
+		background: #2f2f2f !important;
+		border-top: 1px solid #404040 !important;
+	}
+	
+	directions-summary-list-bookmark .option_box .route_name_box .route_text {
+		color: #cacaca !important;
+	}
+	
+	directions-summary-list-bookmark .option_box .btn_box .btn:hover {
+		background-color: #3a3a3a !important;
+	}
+	
+	directions-summary-list-bookmark .btn_favorite .icon, directions-summary-list-bookmark .btn_share .icon {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	favorite-movement-nickname-edit-modal .modal_content {
+		background: #2f2f2f !important;
+	}
+	
+	favorite-movement-nickname-edit-modal .modal_content .header_area {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	favorite-movement-nickname-edit-modal .modal_content .header_area .header_title {
+		color: #fff !important;
+	}
+	
+	favorite-movement-nickname-edit-modal .route_type_icon {
+		background: #3a3a3a !important;
+	}
+	
+	route-content .route_title {
+		color: #fff !important;
+	}
+	
+	favorite-movement-nickname-edit-modal .nickname_content .input_area .nickname_input {
+		background: #3a3a3a !important;
+		border: 1px solid #404040 !important;
+		color: #cacaca !important;
+	}
+	
+	favorite-movement-nickname-edit-modal .nickname_content .input_area .nickname_input:focus {
+		border-color: #006cff !important;
+	}
+	
+	favorite-movement-nickname-edit-modal .nickname_content .input_area .text_length em {
+		color: #fff !important;
+	}
+	
+	directions-same-route-bus {
+		background: #2f2f2f !important;
+	}
+	
+	directions-same-route-bus .path_eqaul_popup_area .title_box .title, directions-same-route-bus .path_equal_popup_area .title_box .title {
+		color: #fff !important;
+	}
+	
+	directions-same-route-bus .path_eqaul_popup_area .title_box .sub_info, directions-same-route-bus .path_equal_popup_area .title_box .sub_info {
+		color: #cacaca !important;
+	}
+	
+	directions-same-route-bus .btn_popup_close {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	directions-same-route-bus .path_eqaul_popup_area .altbus_info_list .btn_altbus, directions-same-route-bus .path_equal_popup_area .altbus_info_list .btn_altbus {
+		color: #fff !important;
+	}
+	
+	directions-same-route-bus .path_eqaul_popup_area .altbus_info_list .altbus_info_item:hover, directions-same-route-bus .path_equal_popup_area .altbus_info_list .altbus_info_item:hover {
+		background: #3a3a3a !important;
+	}
+	
+	directions-same-route-bus .path_eqaul_popup_area .altbus_info_list .bus_info_area .remain_station_count, directions-same-route-bus .path_equal_popup_area .altbus_info_list .bus_info_area .remain_station_count {
+		color: #cacaca !important;
+	}
+	
+	directions-same-route-bus .path_eqaul_popup_area .bottom_box, directions-same-route-bus .path_equal_popup_area .bottom_box {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	directions-same-route-bus .path_eqaul_popup_area .bottom_box .text, directions-same-route-bus .path_equal_popup_area .bottom_box .text {
+		color: #cacaca !important;
+	}
+	
+	directions-same-route-bus .path_eqaul_popup_area .bottom_box .btn_refresh, directions-same-route-bus .path_equal_popup_area .bottom_box .btn_refresh {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	directions-summary-item-pubtransit .step_info_list .step_info_item .type_subway1 .icon:not(.circle) {
+		background-color: transparent !important;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	directions-summary-item-pubtransit .step_info_list .step_info_item .type_subway1 .vehicle_type_area .label {
+		color: rgb(156, 168, 221) !important;
+	}
+	
+	guide-timeline .timeline_item[style*='rgb(38, 60, 150)'i] {
+		color: rgb(156, 168, 221) !important;
+	}
+	
+	guide-timeline .timeline_item .icon_area[style*='rgb(38, 60, 150)'i] {
+		background-color: rgb(156, 168, 221) !important;
+	}
+	
+	directions-summary-list-transit-option .departure_option_box .order_option_list {
+		background-color: #2f2f2f !important;
+	}
+	
+	directions-summary-list-transit-option .departure_option_box .order_option_list .option_info_text {
+		color: #cacaca !important;
+	}
+	
+	directions-summary-list-transit-option .departure_option_box .order_option_list button {
+		color: #cacaca !important;
+	}
+	
+	directions-summary-list-transit-option .departure_option_box .order_option_list button.active, directions-summary-list-transit-option .departure_option_box .order_option_list button:hover {
+		color: #0475f4 !important;
+	}
+	
+	directions-result .sub {
+		border-left: 1px solid #404040 !important;
+	}
+	
+	directions-details-result {
+		background-color: #2f2f2f !important;
+	}
+	
+	directions-details-summary-pubtransit .summary_area .summary_duration {
+		color: #fff !important;
+	}
+	
+	directions-details-summary-pubtransit .summary_area .summary_time {
+		color: #cacaca !important;
+	}
+	
+	directions-details-summary-pubtransit .summary_area .summary_time:before {
+		background: #4f4f4f !important;
+	}
+	
+	directions-details-summary-pubtransit .summary_area .summary_info_detail .summary_info_item {
+		color: #cacaca !important;
+	}
+	
+	directions-details-summary-pubtransit .summary_area .summary_info_detail .summary_info_item + .summary_info_item:before {
+		background-color: #4f4f4f !important;
+	}
+	
+	directions-details-summary-pubtransit .summary_area .btn_refresh {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	directions-hover-scroll .public_result_area .list_path:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	directions-hover-scroll .public_result_area .list_path .item_path {
+		background: #2f2f2f !important;
+	}
+	
+	directions-hover-scroll .public_result_area .list_path .item_path.selected {
+		background: rgb(48, 51, 57) !important;
+	}
+	
+	directions-hover-scroll .public_result_area .list_path .item_path.selected:before, directions-hover-scroll .public_result_area .list_path .item_path.selected:after {
+		background: rgb(65, 93, 129) !important;
+	}
+	
+	directions-details-summary-pubtransit .summary_area {
+		border-bottom: 1px solid #4f4f4f !important;
+		color: #cacaca !important;
+	}
+	
+	directions-detail-guide-pubtransit .public_path_area .path_name_text {
+		color: #cacaca !important;
+	}
+	
+	directions-detail-guide-pubtransit .public_path_area .path_name_text:hover {
+		color: #0475f4 !important;
+	}
+	
+	directions-detail-guide-pubtransit .public_path_area .arrivalTime, directions-detail-guide-pubtransit .public_path_area .departureTime {
+		color: #cacaca !important;
+	}
+	
+	directions-detail-guide-pubtransit .public_path_area .path_walk_text {
+		color: #cacaca !important;
+	}
+	
+	directions-detail-guide-pubtransit .public_path_area .icon_transport_time {
+		color: #cacaca !important;
+	}
+	
+	directions-transit-icon .wrap.na .icon .inner, directions-transit-icon .wrap.walking .icon .inner {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	directions-detail-guide-pubtransit .public_path_area .path_box.add_line {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	directions-detail-guide-pubtransit .public_path_area .btn_panorama {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	directions-detail-guide-pubtransit .public_path_area .path_detail {
+		color: #cacaca !important;
+	}
+	
+	directions-detail-guide-pubtransit .public_path_area .path_detail_door {
+		color: #cacaca !important;
+	}
+	
+	directions-detail-guide-pubtransit .public_path_area .btn_place_info, directions-detail-guide-pubtransit .public_path_area .btn_transport_info {
+		border: .5px solid #404040 !important;
+		background-color: #2f2f2f !important;
+		color: #cacaca !important;
+	}
+	
+	directions-detail-guide-pubtransit .public_path_area .btn_place_info:hover, directions-detail-guide-pubtransit .public_path_area .btn_transport_info:hover {
+		color: #0475f4 !important;
+		border-color: #0475f4 !important;
+	}
+	
+	guide-subway-arrival {
+		color: #cacaca !important;
+	}
+	
+	directions-transit-icon .wrap.subway1 .color {
+		color: rgb(156, 168, 221) !important;
+	}
+	
+	directions-transit-icon .wrap.subway1 .icon .inner {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	directions-detail-guide-pubtransit .public_path_area .path_box .path[style*='rgb(38, 60, 150)'] {
+		background-color: rgb(156, 168, 221) !important;
+	}
+	
+	directions-detail-guide-pubtransit .public_path_area .path_box .path_icon[style*='rgb(38, 60, 150)'] {
+		border-color: rgb(156, 168, 221) !important;
+	}
+	
+	directions-detail-guide-pubtransit .public_path_area .path_box .path_icon {
+		background-color: #2f2f2f !important;
+	}
+	
+	directions-detail-guide-pubtransit .path_info_area .path_btn_list .btn {
+		color: #cacaca !important;
+	}
+	
+	directions-detail-guide-pubtransit .path_info_area .path_btn_list .btn:hover {
+		color: #0475f4 !important;
+	}
+	
+	directions-detail-guide-pubtransit .path_info_area .path_btn_list .btn_detail:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	report-list {
+		background-color: #2f2f2f !important;
+	}
+	
+	report-list .panel_header_area .panel_title {
+		color: #fff !important;
+	}
+	
+	report-list .panel_header_area .btn_back {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	report-list .report_content_summary {
+		background: #3a3a3a !important;
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	report-list .panel_content_area.has_top_border {
+		border-top: 1px solid #4f4f4f !important;
+	}
+	
+	report-list .report_content_summary .summary_info_desc {
+		color: #cacaca !important;
+	}
+	
+	report-list .report_content_summary .summary_info_term {
+		color: #999 !important;
+	}
+	
+	report-list .report_entry_item {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	report-list .report_entry_item .report_title {
+		color: #fff !important;
+	}
+	
+	report-list .report_entry_item .report_info_text {
+		color: #cacaca !important;
+	}
+	
+	directions-summary-fuel-type .search_result_top_info .info_txt {
+		color: #fff !important;
+	}
+	
+	directions-summary-fuel-type .search_result_top_info .btn_option {
+		color: #cacaca !important;
+	}
+	
+	directions-summary-fuel-type .search_result_top_info .btn_option:hover {
+		color: #0475f4 !important;
+	}
+	
+	directions-summary-item-car-card .route_summary_info_area .duration_time {
+		color: #fff !important;
+	}
+	
+	directions-summary-item-car-card .route_summary_info_area {
+		color: #fff !important;
+	}
+	
+	directions-summary-item-car-card .route_summary_info_area .summary_info:before {
+		background: #4f4f4f !important;
+	}
+	
+	directions-summary-item-car-route-list .route_list .item_route {
+		color: #cacaca !important;
+	}
+	
+	directions-summary-item-car-route-list .route_list .item_distance {
+		color: #fff !important;
+	}
+	
+	directions-summary-item-car-card .step_bottom_area .btn_detail {
+		color: #cacaca !important;
+	}
+	
+	directions-summary-item-car-card .step_bottom_area .btn_detail:hover {
+		color: #0475f4 !important;
+	}
+	
+	directions-summary-list .search_result_list .search_result:before, directions-summary-list .search_result_list .search_result:after {
+		background: #404040 !important;
+	}
+	
+	directions-settings .layer_area {
+		background: #2f2f2f !important;
+	}
+	
+	directions-settings .dimmed {
+		background-color: rgba(0,0,0,.4) !important;
+	}
+	
+	directions-settings .config_title {
+		color: #fff !important;
+	}
+	
+	directions-settings .layer_header .btn_close {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	directions-settings .option_button {
+		border: 1px solid #404040 !important;
+		color: #cacaca;
+	}
+	
+	directions-settings .option_button:hover {
+		color: #0475f4 !important;
+	}
+	
+	directions-settings .type_badge {
+		background: #3a3a3a !important;
+		color: #fff !important;
+	}
+	
+	directions-settings .option_button:hover .type_badge {
+		background: #0475f4 !important;
+	}
+	
+	directions-settings .option_button.on {
+		color: #fff !important;
+	}
+	
+	directions-settings .option_button.on .type_badge {
+		background: #2f2f2f !important;
+	}
+	
+	directions-settings .config_box {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	directions-settings .option_text {
+		border: 1px solid #404040 !important;
+		color: #cacaca !important;
+	}
+	
+	directions-settings .option_text:hover, directions-settings .option_text.on {
+		color: #0475f4 !important;
+	}
+	
+	directions-settings .option_custom {
+		border: 1px solid #404040 !important;
+	}
+	
+	directions-settings .option_custom .custom_value, directions-settings .option_custom .input_value {
+		background: #2f2f2f !important;
+	}
+	
+	directions-settings .option_custom .custom_value, directions-settings .option_custom .input_value, directions-settings .option_custom .unit {
+		color: #cacaca !important;
+	}
+	
+	directions-settings .option_custom.on .custom_value, directions-settings .option_custom.on .input_value, directions-settings .option_custom.on .unit, directions-settings .option_custom:hover .custom_value, directions-settings .option_custom:hover .input_value, directions-settings .option_custom:hover .unit {
+		color: #0475f4 !important;
+	}
+	
+	directions-settings .toggle_option:not(.on) {
+		filter: invert(79%) hue-rotate(-180deg);
+	}
+	
+	directions-settings .option_custom.on .type_badge, directions-settings .option_custom:hover .type_badge, directions-settings .option_text.on .type_badge, directions-settings .option_text:hover .type_badge {
+		background: #0475f4 !important;
+	}
+	
+	directions-settings .option_text.on {
+		border-color: #0475f4 !important;
+	}
+	
+	directions-settings .option_button.on {
+		border-color: #0475f4 !important;
+		background: #0475f4 !important;
+	}
+	
+	directions-details-summary-car {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	directions-detail-guide-car .path_title {
+		color: #cacaca !important;
+	}
+	
+	directions-detail-guide-car .path_box .path_title.hover, directions-detail-guide-car .path_box .path_title.selected, directions-detail-guide-car .path_box .path_title:hover {
+		color: #0475f4 !important;
+	}
+	
+	directions-detail-guide-car .path_icon {
+		color: #fff !important;
+	}
+	
+	directions-detail-guide-car .path_icon img[src*='/navi/'] {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	directions-detail-guide-car .path_btn .btn_panorama {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	directions-detail-guide-car .path_info_area .path_btn_list .btn {
+		color: #cacaca !important;
+	}
+	
+	directions-detail-guide-car .path_info_area .path_btn_list .btn:hover {
+		color: #0475f4 !important;
+	}
+	
+	directions-detail-guide-car .path_info_area .path_btn_list .btn:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	directions-summary-item-car-card .btn_refresh {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	directions-detail-summary-car-tooltip .help_box .btn_help {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	directions-detail-summary-car-tooltip .help_tooltip_layer {
+		background-color: #2f2f2f !important;
+	}
+	
+	directions-detail-summary-car-tooltip .help_tooltip_layer .help_tooltip_title {
+		border-bottom: 1px solid #404040 !important;
+		color: #fff !important;
+	}
+	
+	directions-detail-summary-car-tooltip .help_tooltip_layer .help_tooltip_content dt {
+		color: #fff !important;
+	}
+	
+	directions-detail-summary-car-tooltip .help_tooltip_layer .help_tooltip_content dd {
+		color: #cacaca !important;
+	}
+	
+	directions-detail-summary-car-tooltip .help_tooltip_layer .help_tooltip_text {
+		border-top: 1px solid #404040 !important;
+		color: #cacaca !important;
+	}
+	
+	directions-detail-summary-car-tooltip .help_tooltip_layer .help_tooltip_btn_close {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	directions-summary-item-walking.selected {
+		background-color: rgb(48, 51, 57) !important;
+	}
+	
+	directions-hover-scroll .search_result_list .item_summary.selected:before {
+		background: rgb(65, 93, 129) !important;
+	}
+	
+	directions-summary-item-walking .summary_box .summary_title {
+		color: #fff !important;
+	}
+	
+	directions-summary-item-walking .summary_box {
+		color: #cacaca !important;
+	}
+	
+	directions-summary-item-walking .summary_box .summary_text:before {
+		background-color: #4f4f4f !important;
+	}
+	
+	directions-summary-item-walking .link_box .link_route {
+		color: #cacaca !important;
+	}
+	
+	directions-summary-item-walking.selected .link_box .link_route, directions-summary-item-walking .link_box .link_route:hover {
+		color: #0475f4 !important;
+	}
+	
+	directions-summary-terms .refer_box {
+		color: #cacaca !important;
+	}
+	
+	directions-hover-scroll .search_result_list .item_summary:after {
+		background: #404040 !important;
+	}
+	
+	directions-summary-terms .refer_box .refer_info_box {
+		border: 1px solid #404040 !important;
+	}
+	
+	directions-summary-terms .refer_box .refer_info_box .refer_info_text {
+		color: #cacaca !important;
+	}
+	
+	directions-search .directions_info_box .directions_info_txt {
+		background: #3a3a3a !important;
+		color: rgb(240, 150, 148) !important;
+	}
+	
+	directions-search .directions_info_box .directions_info_txt:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	directions-search .directions_info_box {
+		background: #2f2f2f !important;
+	}
+	
+	directions-hover-scroll .search_result_list .section_divider {
+		background: #3a3a3a !important;
+		border-top: 1px solid #404040 !important;
+		border-bottom: 1px solid #404040 !important;
+		color: #cacaca !important;
+	}
+	
+	directions-hover-scroll .search_result_list .section_divider .info_text {
+		color: #cacaca !important;
+	}
+	
+	directions-hover-scroll .search_result_list .section_divider .info_text:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	directions-summary-item-pubtransit .route_summary_info_area .summary_info .sub_info {
+		color: #fff !important;
+	}
+	
+	directions-detail-guide-pubtransit .public_path_area .path_station_box .path_station.dimmed {
+		color: #777 !important;
+	}
+	
+	directions-detail-guide-pubtransit .public_path_area .path_station_box .path_station {
+		color: #cacaca !important;
+	}
+	
+	directions-detail-guide-car .path_btn .btn_cctv {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	directions-detail-guide-car .accident_box .btn_accident {
+		color: #cacaca !important;
+		border: .5px solid #404040 !important;
+	}
+	
+	directions-detail-guide-car .accident_box .btn_accident:hover {
+		border-color: #0475f4 !important;
+		color: #0475f4 !important;
+	}
+	
+	directions-detail-guide-car .unpublic_path_area {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	directions-detail-guide-car .path_guide_description .path_guide_title {
+		color: #fff !important;
+	}
+	
+	directions-detail-guide-car .path_guide_description .path_guide_text {
+		color: #cacaca !important;
+	}
+	
+	directions-details-summary-walking .summary_area .summary_duration {
+		color: #fff !important;
+	}
+	
+	directions-details-summary-walking .summary_area {
+		color: #cacaca !important;
+	}
+	
+	directions-details-summary-walking .summary_area .summary_option + .summary_distance:before {
+		background-color: #4f4f4f !important;
+	}
+	
+	directions-details-summary-walking .summary_area.type_walk .summary_text_box {
+		color: #cacaca !important;
+	}
+	
+	directions-details-summary-walking .summary_area {
+		border-bottom: 1px solid #404040 !important;
+		color: #cacaca !important;
+	}
+	
+	directions-detail-guide-walking .path_icon .icon {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	directions-detail-guide-walking .path_title {
+		color: #cacaca !important;
+	}
+	
+	directions-detail-guide-walking .path_title.hover, directions-detail-guide-walking .path_title.selected, directions-detail-guide-walking .path_title:hover {
+		color: #0475f4 !important;
+	}
+	
+	directions-tbt-icon .wrap img[src*='navi'] {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	directions-detail-guide-walking .path_guide {
+		background-color: #2f2f2f !important;
+		color: #cacaca !important;
+	}
+	
+	directions-detail-guide-walking .path_guide_box:before {
+		background-color: #404040 !important;
+	}
+	
+	directions-detail-guide-walking .btn_place_info, directions-detail-guide-walking .btn_transport_info {
+		border: 1px solid #4f4f4f !important;
+		background-color: #3a3a3a !important;
+		color: #cacaca !important;
+	}
+	
+	entry-subway {
+		background-color: #2f2f2f !important;
+	}
+	
+	entry-subway .entry_wrap {
+		background-color: #2f2f2f !important;
+	}
+	
+	entry-subway .summary_area {
+		background-color: #2f2f2f !important;
+	}
+	
+	entry-subway .summary_area .summary_title_box .summary_title {
+		color: #fff !important;
+	}
+	
+	entry-subway .summary_area .btn_back_area .btn_back:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	entry-subway .summary_area .type_subway1, entry-subway .title_area .type_subway1 {
+		color: rgb(147, 160, 215) !important;
+	}
+	
+	entry-subway .btn_area {
+		background-color: #2f2f2f !important;
+	}
+	
+	entry-subway .btn_area .btn_box:not(.direction):not(.bus) .btn:hover {
+		background-color: #3a3a3a !important;
+	}
+	
+	entry-subway .btn_area .btn_box:not(.direction):not(.bus) .btn:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	entry-subway .btn_area:before {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	entry-subway .btn_area .btn_box.direction .btn.btn_start {
+		border-color: #4f4f4f !important;
+		background-color: #3a3a3a !important;
+		color: #cacaca !important;
+	}
+	
+	entry-subway .current_area .btn_refresh {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	entry-subway .time_box {
+		color: #cacaca !important;
+	}
+	
+	entry-subway .station_info_box.type_subway1:after {
+		background-color: rgb(147, 160, 215) !important;
+	}
+	
+	entry-subway .station_info_box .station.center {
+		background-color: #2f2f2f !important;
+	}
+	
+	entry-subway .station_info_box.type_subway1 .line {
+		border-color: rgb(147, 160, 215) !important;
+	}
+	
+	entry-subway .station_info_box .station.left .line:before, entry-subway .station_info_box .station.right .line:before {
+		background-color: #2f2f2f !important;
+	}
+	
+	entry-subway .station_info_box.type_subway1 .left .line:before, entry-subway .station_info_box.type_subway1 .right .line:before {
+		border-color: rgb(147, 160, 215) !important;
+	}
+	
+	entry-subway .station_info_box.type_subway1 .number {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	entry-subway .station_info_box .station.center .name {
+		color: #fff !important;
+	}
+	
+	entry-subway .station_area .station_schedule_name {
+		color: #cacaca !important;
+	}
+	
+	entry-subway .station_area .station_schedule_box:after {
+		background-color: #404040 !important;
+	}
+	
+	entry-subway .station_area .btn_box {
+		border: 1px solid #404040 !important;
+	}
+	
+	entry-subway .station_area .btn_box .btn {
+		color: #cacaca !important;
+	}
+	
+	entry-subway .station_area .btn_box .bar:before {
+		background-color: #404040 !important;
+	}
+	
+	entry-subway .station_area .btn_box .btn_inner + .btn_inner {
+		border-left: 1px solid #404040 !important;
+	}
+	
+	entry-subway .station_area .btn_box .btn.btn_bus:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	entry-subway .list_end .link_end {
+		color: #cacaca !important;
+	}
+	
+	entry-subway .list_end .item_end.address .end_title:not(.subtitle):hover, entry-subway .list_end .item_end.address .link_end:hover, entry-subway .list_end .item_end.phone .end_title:not(.subtitle):hover, entry-subway .list_end .item_end.phone .link_end:hover {
+		color: #0475f4 !important;
+	}
+	
+	entry-subway .list_end .end_box .end_title.subtitle .sub {
+		border-left: none !important;
+	}
+	
+	entry-subway .list_end .item_end.address .icon_land {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	entry-subway .list_end .end_box .end_title.subtitle {
+		color: #cacaca !important;
+	}
+	
+	entry-subway .list_end + .section {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	entry-subway .section .tit_section {
+		color: #fff !important;
+	}
+	
+	entry-subway .description_area .description_link {
+		color: #cacaca !important;
+	}
+	
+	entry-subway .description_area .description_title {
+		color: #999 !important;
+	}
+	
+	entry-subway .description_area .item_description_facility {
+		color: #cacaca !important;
+	}
+	
+	entry-subway .description_area .item_description_facility:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	entry-subway .description_area .description_text {
+		color: #cacaca !important;
+	}
+	
+	entry-subway .panorama_area {
+		background-color: #2f2f2f !important;
+	}
+	
+	entry-subway .summary_area .favorite_box .btn_edit {
+		color: #cacaca !important;
+	}
+	
+	entry-subway .summary_area .favorite_box .btn_edit:hover {
+		color: #0475f4 !important;
+	}
+	
+	entry-subway .summary_area .favorite_box + .summary_category:before {
+		background-color: #4f4f4f !important;
+	}
+	
+	entry-subway .summary_area .summary_info_box .summary_category {
+		color: #cacaca !important;
+	}
+	
+	favorite-popup-display-name .layer_box .layer_inner {
+		background-color: #2f2f2f !important;
+	}
+	
+	favorite-popup-display-name .layer_box .layer_title {
+		color: #fff !important;
+	}
+	
+	nm-input-count .input_txt {
+		color: #cacaca !important;
+	}
+	
+	favorite-popup-display-name .layer_box .btn_close {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	favorite-popup-display-name .layer_box .layer_btn .btn:not(:disabled):hover {
+		background-color: #3a3a3a !important;
+	}
+	
+	entry-subway-detail-time-table {
+		background-color: #2f2f2f !important;
+	}
+	
+	entry-subway-detail-time-table .title_area {
+		color: #fff !important;
+		background-color: #2f2f2f !important;
+	}
+	
+	entry-subway-detail-time-table .title_area .title {
+		color: #fff !important;
+	}
+	
+	entry-subway-detail-time-table .title_area .btn_back_box .btn_back:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	entry-subway-detail-time-table .tab_area .link_schedule_tab {
+		background-color: #3a3a3a !important;
+		border: 1px solid #4f4f4f !important;
+		color: #cacaca !important;
+	}
+	
+	entry-subway-detail-time-table .tab_area .link_schedule_tab.active {
+		background-color: #0475f4 !important;
+		color: #fff !important;
+	}
+	
+	entry-subway-detail-time-table .tab_area .link_info_tab {
+		color: #cacaca !important;
+	}
+	
+	entry-subway-detail-time-table .tab_area .link_info_tab.active {
+		color: #0475f4 !important;
+	}
+	
+	entry-subway-detail-time-table .timetable_header {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	entry-subway-detail-time-table .timetable_header .header_table {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	entry-subway-detail-time-table thead tr th {
+		border-top: 1px solid #404040 !important;
+		background-color: #3a3a3a !important;
+		color: #fff !important;
+	}
+	
+	entry-subway-detail-time-table thead tr:first-child th {
+		border-top: none !important;
+	}
+	
+	entry-subway-detail-time-table .schedule_waypoint {
+		color: #fff !important;
+	}
+	
+	entry-subway-detail-time-table thead tr th + th {
+		border-left: 1px solid #404040 !important;
+	}
+	
+	entry-subway-detail-time-table .schedule_select_box .btn_select .text {
+		color: #cacaca !important;
+	}
+	
+	entry-subway-detail-time-table .schedule_select_box .btn_select .is_active {
+		color: rgb(89, 134, 193) !important;
+	}
+	
+	entry-subway-detail-time-table .schedule_select_box .btn_select:after {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	entry-subway-detail-time-table .schedule_select_box .layer_select {
+		background-color: #2f2f2f !important;
+	}
+	
+	entry-subway-detail-time-table .schedule_select_box .option {
+		color: #cacaca !important;
+	}
+	
+	entry-subway-detail-time-table .schedule_select_box .active .option.all {
+		color: #0475f4 !important;
+	}
+	
+	entry-subway-detail-time-table .scroll_area {
+		background-color: #2f2f2f !important;
+	}
+	
+	entry-subway-detail-time-table tbody tr th {
+		border-bottom: 1px solid #404040 !important;
+		color: #fff !important;
+	}
+	
+	entry-subway-detail-time-table td {
+		border: 1px solid #404040 !important;
+		border-width: 1px 0 !important;
+	}
+	
+	entry-subway-detail-time-table td.item_time {
+		background: #3a3a3a !important;
+		color: #fff !important;
+	}
+	
+	entry-subway-detail-time-table .list_schedule .schedule_time {
+		color: #fff !important;
+	}
+	
+	entry-subway-detail-time-table .list_schedule .item_schedule[aria-hidden=true] .schedule_name, entry-subway-detail-time-table .list_schedule .item_schedule[aria-hidden=true] .schedule_time {
+		color: #666 !important;
+	}
+	
+	entry-subway-detail-time-table .list_schedule .schedule_name {
+		color: #cacaca !important;
+	}
+	
+	entry-subway-detail-time-table .btn_view_all {
+		color: #cacaca !important;
+	}
+	
+	entry-subway-detail-time-table .list_schedule .item_schedule.active {
+		background-color: rgb(49, 51, 56) !important;
+	}
+	
+	entry-subway-detail-exit-bus-stop {
+		background-color: #2f2f2f !important;
+	}
+	
+	entry-subway-detail-exit-bus-stop .title_area {
+		border-bottom: 1px solid #404040 !important;
+		color: #fff !important;
+		background-color: #2f2f2f !important;
+	}
+	
+	entry-subway-detail-exit-bus-stop .title_area .btn_back_box .btn_prev:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	entry-subway-detail-exit-bus-stop .title_area .title_box .title {
+		color: #fff !important;
+	}
+	
+	entry-subway-detail-exit-bus-stop .scroll_area {
+		background-color: #2f2f2f !important;
+	}
+	
+	entry-subway-detail-exit-bus-stop .chain_area .chain_title {
+		color: #fff !important;
+	}
+	
+	entry-subway-detail-exit-bus-stop .chain_area .list_chain .item_chain {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	entry-subway-detail-exit-bus-stop .chain_area .list_chain .chain_box, entry-subway-detail-exit-bus-stop .chain_area .list_chain .chain_text {
+		color: #cacaca !important;
+	}
+	
+	entry-subway-detail-exit-bus-stop .chain_area .list_chain .chain_number_box {
+		color: #fff !important;
+	}
+	
+	entry-subway-detail-exit-bus-stop .chain_area .list_chain .chain_bus_box {
+		background-color: #2f2f2f !important;
+		border: 1px solid #404040 !important;
+	}
+	
+	entry-subway-detail-exit-bus-stop .chain_area .list_chain .chain_bus_title_box {
+		background-color: #3a3a3a !important;
+	}
+	
+	entry-subway-detail-exit-bus-stop .chain_area .list_chain .list_chain_bus .chain_bus_text {
+		color: #cacaca !important;
+	}
+	
+	entry-subway-detail-exit-bus-stop .chain_area .list_chain .list_chain_bus .icon_chain_bus:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	entry-bus-station {
+		background-color: #2f2f2f !important;
+	}
+	
+	entry-bus-station .entry_wrap {
+		background-color: #2f2f2f !important;
+	}
+	
+	entry-bus-station .title_area {
+		background-color: #2f2f2f !important;
+	}
+	
+	entry-bus-station .scroll_area::-webkit-scrollbar-thumb {
+		background-color: #404040 !important;
+	}
+	
+	entry-bus-station .summary_area {
+		background-color: #2f2f2f !important;
+	}
+	
+	entry-bus-station .summary_area .summary_title_box .summary_title {
+		color: #fff !important;
+	}
+	
+	entry-bus-station .summary_area .btn_back_area .btn_back:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	entry-bus-station .summary_area .summary_title_box .btn_panorama:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	entry-bus-station .summary_area .summary_text .station_code {
+		color: #fff !important;
+	}
+	
+	entry-bus-station .summary_area .summary_text_box {
+		color: #cacaca !important;
+	}
+	
+	entry-bus-station .btn_area {
+		background-color: #2f2f2f !important;
+	}
+	
+	entry-bus-station .btn_area .btn_box:not(.direction):not(.bus) .btn:hover {
+		background-color: #3a3a3a !important;
+	}
+	
+	entry-bus-station .btn_area .btn_box:not(.direction):not(.bus) .btn:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	entry-bus-station .btn_area .btn_box.direction .btn.btn_start {
+		border-color: #404040 !important;
+		background-color: #3a3a3a !important;
+		color: #cacaca !important;
+	}
+	
+	entry-bus-station .summary_area .favorite_box .btn_edit {
+		color: #cacaca !important;
+	}
+	
+	entry-bus-station .summary_area .favorite_box .btn_edit:hover {
+		color: #0475f4 !important;
+	}
+	
+	entry-bus-station .current_area {
+		background-color: #2f2f2f !important;
+	}
+	
+	entry-bus-station .current_area:after {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	entry-bus-station .current_area .current_text {
+		color: #cacaca !important;
+	}
+	
+	entry-bus-station .current_area .btn_refresh {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	entry-bus-station .btn_area:before {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	entry-bus-station .station_area {
+		background-color: #2f2f2f !important;
+	}
+	
+	entry-bus-station .station_area .link_station:hover {
+		background-color: #3a3a3a !important;
+	}
+	
+	entry-bus-station .station_area .link_station:after {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	entry-bus-station .station_area .station_name {
+		color: #fff !important;
+	}
+	
+	entry-bus-station .station_area .station_name_box {
+		color: #cacaca !important;
+	}
+	
+	entry-bus-station .station_area .station_route {
+		color: #cacaca !important;
+	}
+	
+	entry-bus-station .station_area .station_route + .station_route:before {
+		background-color: #4f4f4f !important;
+	}
+	
+	entry-bus-station .station_area .station_time .station_time_count {
+		color: #cacaca !important;
+	}
+	
+	entry-bus-station .station_area .link_station.type_bus5 .station_name:after {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	entry-bus-station .info_area {
+		background-color: #2f2f2f !important;
+		color: #cacaca !important;
+	}
+	
+	entry-bus-station .route_thumb_area {
+		background-color: #2f2f2f !important;
+	}
+	
+	entry-bus-station .suggest_area:before {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	entry-bus-station .soon_area {
+		background: #2f2f2f !important;
+	}
+	
+	entry-bus-station .soon_area .soon_box {
+		background: #3a3a3a !important;
+	}
+	
+	entry-bus-station .soon_area .soon_box .soon_list {
+		color: #cacaca !important;
+	}
+	
+	entry-bus-station .soon_area .soon_box .soon_tit:after {
+		background: #4f4f4f !important;
+	}
+	
+	entry-bus-station .title_area .title_box .title {
+		color: #fff !important;
+	}
+	
+	entry-bus-station .title_area .btn_back_box .btn_back:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	entry-bus-route {
+		background-color: #2f2f2f !important;
+	}
+	
+	entry-bus-route .entry_wrap {
+		background-color: #2f2f2f !important;
+	}
+	
+	entry-bus-route .title_area {
+		background-color: #2f2f2f !important;
+	}
+	
+	entry-bus-route .title_area .title_box .title {
+		color: #fff !important;
+	}
+	
+	entry-bus-route .title_area .btn_back_area {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	entry-bus-route .list_bus_info {
+		background-color: #2f2f2f !important;
+	}
+	
+	entry-bus-route .info_key {
+		color: #cacaca !important;
+	}
+	
+	entry-bus-route .info_value.region .value.waypoint {
+		color: #fff !important;
+	}
+	
+	entry-bus-route .info_value.region {
+		color: #cacaca !important;
+	}
+	
+	entry-bus-route .info_value.region .value.waypoint:before {
+		background-color: #404040 !important;
+	}
+	
+	entry-bus-route .info_value.region .icon_waypoint {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	entry-bus-route .item_schedule .icon_end, entry-bus-route .item_schedule .icon_start {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	entry-bus-route .info_value .tit_value {
+		color: #999 !important;
+	}
+	
+	entry-bus-route .info_value {
+		color: #cacaca !important;
+	}
+	
+	entry-bus-route .waypoint_box {
+		border: 1px solid #404040 !important;
+		background-color: #3a3a3a !important;
+	}
+	
+	entry-bus-route .list_waypoint {
+		color: #cacaca !important;
+	}
+	
+	entry-bus-route .btn_area {
+		background-color: #2f2f2f !important;
+	}
+	
+	entry-bus-route .btn_area .btn_box:not(.direction):not(.bus) .btn:hover {
+		background-color: #3a3a3a !important;
+	}
+	
+	entry-bus-route .btn_area .btn_box:not(.direction):not(.bus) .btn:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	entry-bus-route .current_box .current_text {
+		color: #cacaca !important;
+	}
+	
+	entry-bus-route .current_box .current_count {
+		color: #fff !important;
+	}
+	
+	entry-bus-route .current_box .standard_text {
+		color: #cacaca !important;
+	}
+	
+	entry-bus-route .current_box .btn_refresh {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	entry-bus-route .summary_area .favorite_box .btn_edit {
+		color: #cacaca !important;
+	}
+	
+	entry-bus-route .summary_area .favorite_box .btn_edit:hover {
+		color: #0475f4 !important;
+	}
+	
+	entry-bus-route .tab_area {
+		background-color: #2f2f2f !important;
+	}
+	
+	entry-bus-route .tab_area .list_route_tab:after {
+		background-color: #404040 !important;
+	}
+	
+	entry-bus-route .btn_area:before {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	entry-bus-route .tab_area .item_route_tab {
+		color: #cacaca !important;
+	}
+	
+	entry-bus-route .tab_area .item_route_tab.active {
+		color: #fff !important;
+	}
+	
+	entry-bus-route .route_area {
+		background-color: #2f2f2f !important;
+	}
+	
+	entry-bus-route .route_area .route_name {
+		color: #fff !important;
+	}
+	
+	entry-bus-route .link_route.focused, entry-bus-route .link_route:hover {
+		background-color: #3a3a3a !important;
+	}
+	
+	entry-bus-route .route_area .icon_end, entry-bus-route .route_area .icon_start {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	entry-bus-route .route_area .route_id {
+		color: #cacaca !important;
+	}
+	
+	entry-bus-route .link_route.selected {
+		background-color: #3a3a3a !important;
+	}
+	
+	entry-bus-route .route_area .route_subway.type_subway1 {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	entry-bus-route .link_route:before {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	entry-bus-route .route_area .icon_route {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	entry-bus-route .info_area {
+		background-color: #2f2f2f !important;
+		color: #cacaca !important;
+	}
+	
+	entry-bus-route .scroll_area::-webkit-scrollbar-thumb {
+		background: #404040 !important;
+	}
+	
+	entry-bus-route .scroll_area::-webkit-scrollbar-track-piece {
+		background: transparent !important;
+	}
+	
+	entry-bus-route .suggest_area:before {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	entry-bus-station .station_area .link_station.type_bus3 .station_name:after {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.bus-station-popup {
+		background-color: #2f2f2f;
+	}
+	
+	.bus-station-popup .popup-close-button {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.bus-station-popup .info_area .title {
+		color: #fff;
+	}
+	
+	.bus-station-popup .info_area .info_box {
+		color: #cacaca;
+	}
+	
+	.bus-station-popup .scroll_area:before {
+		background-color: #2f2f2f;
+	}
+	
+	.bus-station-popup .btn_area .btn_box:not(.direction):not(.bus) .btn:hover {
+		background-color: #3a3a3a;
+	}
+	
+	.bus-station-popup .btn_area .btn_box:not(.direction):not(.bus) .btn.btn_favorite_transport:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.bus-station-popup .btn_area .btn_box.direction .btn.btn_start {
+		border-color: #404040;
+		background-color: #3a3a3a;
+		color: #cacaca;
+	}
+	
+	.bus-station-popup .route_area .list_route {
+		border-top: 1px solid #404040;
+	}
+	
+	.bus-station-popup .route_area .route_number {
+		color: #fff !important;
+	}
+	
+	.bus-station-popup .route_area .route_number.type_bus3:after {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.bus-station-popup .route_area .route_remain {
+		color: #cacaca;
+	}
+	
+	.bus-station-popup .current_area {
+		border-top: 1px solid #404040;
+	}
+	
+	.bus-station-popup .standard_box .standard_text {
+		color: #cacaca;
+	}
+	
+	.bus-station-popup .standard_box .btn_refresh {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	nm-list .list_place .place_box .displayname_box .input_box {
+		color: #fff !important;
+	}
+	
+	nm-list .list_place .place_box .displayname_box .input_box:before {
+		background-color: rgb(100, 109, 116) !important;
+	}
+	
+	favorite-popup-list .favorite_popup {
+		background-color: #2f2f2f !important;
+	}
+	
+	favorite-popup-list .title_area .favorite_title {
+		color: #fff !important;
+	}
+	
+	favorite-popup-list .btn_close {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	favorite-popup-list .favorite_tab_area .favorite_tab_link {
+		color: #cacaca !important;
+	}
+	
+	favorite-popup-list .favorite_tab_area .favorite_tab_link.active {
+		color: #0475f4 !important;
+	}
+	
+	favorite-popup-list .favorite_tab_area:after {
+		background: #404040 !important;
+	}
+	
+	favorite-popup-list .favorite_tab_area .sorting_area .btn_sorting {
+		color: #cacaca !important;
+	}
+	
+	favorite-popup-list .favorite_tab_area .sorting_area .select_list {
+		background-color: #2f2f2f !important;
+	}
+	
+	favorite-popup-list .favorite_tab_area .sorting_area .select_list .btn_option {
+		color: #cacaca !important;
+	}
+	
+	favorite-popup-list .favorite_tab_area .sorting_area .select_list .btn_option.active {
+		color: #0475f4 !important;
+	}
+	
+	favorite-popup-list .favorite_list_area .list_place .place_box .place_text_box .place_text {
+		color: #cacaca !important;
+	}
+	
+	favorite-popup-list .favorite_list_area .type_movement.displayname_box .input_text {
+		color: #fff !important;
+	}
+	
+	favorite-popup-list .list_place .place_box .displayname_box .input_box:before {
+		background-color: rgb(100, 109, 116) !important;
+	}
+	
+	favorite-popup-list .error_area .error_message {
+		color: #cacaca !important;
+	}
+	
+	favorite-popup-list .list_place .place_box .place_text_box .place_text + .place_text:before {
+		background-color: #4f4f4f !important;
+	}
+	
+	favorite-popup-list .favorite_list_area .list_place .place_box .btn_area .btn_option {
+		background: #2f2f2f !important;
+		border: 1px solid #4f4f4f !important;
+	}
+	
+	favorite-popup-list .favorite_list_area .list_place .place_box .btn_area .btn_option_txt {
+		color: #cacaca !important;
+	}
+	
+	favorite-popup-list .favorite_list_area .list_place .place_box .btn_area .btn_option:hover .btn_option_txt {
+		color: #0475f4 !important;
+	}
+	
+	directions-detail-guide-pubtransit .public_path_area .path_equal_box {
+		border: 1px solid #404040 !important;
+	}
+	
+	directions-detail-guide-pubtransit .public_path_area .path_equal_box.hover, directions-detail-guide-pubtransit .public_path_area .path_equal_box:hover {
+		border-color: #8ac1ff !important;
+	}
+	
+	directions-detail-guide-pubtransit .public_path_area .path_equal_box:before {
+		background-color: #404040 !important;
+	}
+	
+	directions-detail-guide-pubtransit .public_path_area .path_equal_box.hover:before, directions-detail-guide-pubtransit .public_path_area .path_equal_box:hover:before {
+		background-color: #8ac1ff !important;
+	}
+	
+	directions-detail-guide-pubtransit .public_path_area .path_equal_box .path_equal_title {
+		color: #cacaca !important;
+	}
+	
+	directions-detail-guide-pubtransit .public_path_area .path_equal_box.hover .path_equal_title, directions-detail-guide-pubtransit .public_path_area .path_equal_box:hover .path_equal_title {
+		color: #0475f4 !important;
+	}
+	
+	directions-detail-guide-pubtransit .public_path_area .path_equal_box .list_path_equal {
+		color: #fff !important;
+	}
+	
+	directions-detail-guide-pubtransit .public_path_area .path_equal_box.hover .list_path_equal, directions-detail-guide-pubtransit .public_path_area .path_equal_box:hover .list_path_equal {
+		color: #0475f4 !important;
+	}
+	
+	favorite-frequent-place-result .layer_frequent_place .layer_area {
+		background-color: #2f2f2f !important;
+	}
+	
+	favorite-frequent-place-result .layer_frequent_place {
+		background-color: rgba(0,0,0,.4) !important;
+	}
+	
+	favorite-frequent-place-result .checkbox_area .checkbox_tit {
+		color: #fff !important;
+	}
+	
+	favorite-frequent-place-result .wrap_list_frequent .modify_name_box .txt_name {
+		color: #fff !important;
+	}
+	
+	favorite-frequent-place-result .section_title_area .btn_close {
+		color: #cacaca !important;
+	}
+	
+	favorite-frequent-place-result .input_modify, favorite-frequent-place-result .input_modify_label {
+		color: #cacaca !important;
+	}
+	
+	favorite-frequent-place-result .input_box {
+		border: 1px solid #404040 !important;
+	}
+	
+	favorite-frequent-place-result .checkbox_area {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	favorite-frequent-place-result .list_place .place_box .place_text_box .place_text + .place_text:before {
+		background-color: #4f4f4f !important;
+	}
+	
+	favorite-frequent-place-result .wrap_list_frequent .modify_name_box .btn_modify:hover {
+		background-color: #3a3a3a !important;
+	}
+	
+	directions-summary-list-tab .checkbox_area .checkbox_box .label_option {
+		color: #cacaca !important;
+	}
+	
+	directions-summary-list-tab .checkbox_area .checkbox_box .label_option:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	directions-summary-item-bike.selected {
+		background-color: rgb(49, 51, 56) !important;
+	}
+	
+	directions-summary-item-bike .summary_box .summary_title {
+		color: #fff !important;
+	}
+	
+	directions-summary-item-bike .summary_box {
+		color: #cacaca !important;
+	}
+	
+	directions-summary-item-bike .summary_box .summary_text:before {
+		background-color: #4f4f4f !important;
+	}
+	
+	directions-summary-item-bike .route_box .route_title_box .route_title {
+		color: #cacaca !important;
+	}
+	
+	directions-summary-item-bike .route_box .route_title_box .route_distance {
+		color: #fff !important;
+	}
+	
+	directions-summary-item-bike .route_text_box.route_bike .route_text {
+		color: #cacaca !important;
+	}
+	
+	directions-details-summary-bike .summary_area .summary_duration {
+		color: #fff !important;
+	}
+	
+	directions-details-summary-bike .summary_area {
+		color: #cacaca !important;
+	}
+	
+	directions-details-summary-bike .summary_area .summary_option + .summary_distance:before {
+		background-color: #4f4f4f !important;
+	}
+	
+	directions-details-summary-bike .route_box .list_route .item_route {
+		color: #cacaca !important;
+	}
+	
+	directions-details-summary-bike .route_box .list_route .item_route .route_distance {
+		color: #fff !important;
+	}
+	
+	directions-details-summary-bike .summary_area {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	directions-detail-guide-bike .path_title {
+		color: #cacaca !important;
+	}
+	
+	directions-detail-guide-bike .path_box .path_title.hover, directions-detail-guide-bike .path_box .path_title.selected, directions-detail-guide-bike .path_box .path_title:hover {
+		color: #0475f4 !important;
+	}
+	
+	directions-detail-guide-bike {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	directions-detail-guide-bike .path_icon .icon {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	directions-detail-guide-bike .btn_place_info, directions-detail-guide-bike .btn_transport_info {
+		border: 1px solid #4f4f4f !important;
+		background-color: #3a3a3a !important;
+		color: #cacaca !important;
+	}
+	
+	directions-bus-arrival .next_bus_info_list .status_label {
+		border: 1px solid #4f4f4f !important;
+		color: #cacaca !important;
+	}
+	
+	.directions-map-popup-guide {
+		background-color: #2f2f2f !important;
+	}
+	
+	.directions-map-popup-guide .path_box .description {
+		color: #fff !important;
+	}
+	
+	.directions-map-popup-guide .btn_box .btn_next:not(:disabled), .directions-map-popup-guide .btn_box .btn_prev:not(:disabled) {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.directions-map-popup-guide .path_area .path_distance {
+		color: #fff !important;
+	}
+	
+	.directions-map-popup-guide.type_min .close {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.directions-map-popup-guide .btn_box .btn_next:disabled, .directions-map-popup-guide .btn_box .btn_prev:disabled {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	search-item-address .link_search.hover, search-item-address .link_search:hover {
+		background-color: #3a3a3a !important;
+	}
+	
+	search-item-address:first-of-type .link_search.selected:before {
+		background-color: rgb(73, 95, 128) !important;
+	}
+	
+	search-item-address .link_search:before {
+		background: #404040 !important;
+	}
+	
+	search-item-address .link_search.selected {
+		box-shadow: 0 1px 0 rgb(73, 95, 128) !important;
+	}
+	
+	fusion-address-item:first-child {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	fusion-address-item {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	fusion-address-item .interact_btn_area .btn, fusion-address-item .interact_btn_area .direction {
+		border: 1px solid #404040 !important;
+		background: #2f2f2f !important;
+	}
+	
+	fusion-address-item .interact_btn_area .direction .btn_from {
+		color: #cacaca !important;
+	}
+	
+	fusion-address-item .interact_btn_area .direction .btn_from:hover, fusion-address-item .interact_btn_area .direction .btn_to:hover {
+		color: #0375f4 !important;
+	}
+	
+	fusion-address-item .interact_btn_area .direction .btn_to:before {
+		background: #404040 !important;
+	}
+	
+	fusion-footer .fixed_area {
+		background: #2f2f2f !important;
+	}
+	
+	fusion-footer .fixed_area:before {
+		background: #404040 !important;
+	}
+	
+	fusion-footer .fixed_area .btn_box .btn_share span {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	fusion-footer .fixed_area .btn_box .btn:hover {
+		background-color: #3a3a3a !important;
+	}
+	
+	fusion-marker .marker {
+		background: #2f2f2f !important;
+	}
+	
+	fusion-marker .face_marker .dummy:after {
+		border-color: #2f2f2f transparent transparent !important;
+	}
+	
+	fusion-marker .face_marker.-highlight .marker {
+		background: #0475f4 !important;
+	}
+	
+	directions-index-search-history .empty_box {
+		color: #cacaca !important;
+	}
+	
+	bus-search .search_area .list_tab {
+		border: 1px solid #404040 !important;
+	}
+	
+	bus-search .search_area .link_tab {
+		color: #cacaca !important;
+		border-left: 1px solid #404040 !important;
+	}
+	
+	bus-search .search_area .item_tab:hover .link_tab {
+		color: #0475f4 !important;
+	}
+	
+	bus-search .search_area .item_tab.active + .item_tab .link_tab {
+		border-left-color: transparent !important;
+	}
+	
+	bus-search .search_area .item_tab.active .link_tab {
+		color: #fff !important;
+		border-left-color: transparent !important;
+	}
+	
+	bus-search .search_area .item_tab:not(:hover):not(.active) .link_tab:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	bus-search .search_area .btn_clear, bus-search .search_area .icon_search {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	bus-search .search_area .input_search {
+		color: #cacaca !important;
+	}
+	
+	bus-search .search_area .label_search {
+		color: #cacaca !important;
+	}
+	
+	bus-search .search_area .input_box:after {
+		background: linear-gradient(90deg,hsla(0,0%,100%,0),#2f2f2f) !important;
+	}
+	
+	bus-search .instant_search_area {
+		border-top: 1px solid #404040 !important;
+		background-color: #2f2f2f !important;
+		box-shadow: 0 -1px 0 #2f2f2f !important;
+	}
+	
+	bus-search .search_area .search_inner:not(.focused).has_result {
+		border-color: #3a3a3a !important;
+		background-color: #3a3a3a !important;
+	}
+	
+	bus-search .search_area .search_inner {
+		border: 1px solid #404040 !important;
+	}
+	
+	bus-latest-history .title_box .instant_title {
+		color: #fff !important;
+	}
+	
+	bus-latest-history .title_box {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	bus-latest-history .list_bus .item_bus:hover .link_bus {
+		background-color: #3a3a3a !important;
+	}
+	
+	bus-latest-history .list_bus .item_bus .link_bus {
+		color: #cacaca !important;
+	}
+	
+	bus-latest-history .bus_text_box .bus_text {
+		color: #fff !important;
+	}
+	
+	bus-latest-history .bus_text_box .bus_text.sub {
+		color: #cacaca !important;
+	}
+	
+	bus-latest-history .bus_text_box .bus_text {
+		color: #fff !important;
+		background: transparent !important;
+	}
+	
+	bus-latest-history .bus_text_box .bus_text + .bus_text:before {
+		background-color: #4f4f4f !important;
+	}
+	
+	bus-latest-history .list_bus .item_bus .btn_edit {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	bus-latest-history .icon_box + .bus_text_box .icon_transport {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	bus-favorite-banner .favorite_area .title_box .instant_title {
+		color: #fff !important;
+	}
+	
+	bus-favorite-banner .favorite_area .title_box {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	bus-favorite-banner .favorite_area .favorite_box .login_box {
+		color: #cacaca !important;
+	}
+	
+	exception-search-list .notice_title {
+		color: #fff !important;
+	}
+	
+	exception-search-list .notice_text {
+		color: #cacaca !important;
+	}
+	
+	exception-search-list .btn_notice {
+		color: #cacaca !important;
+	}
+	
+	exception-search-list .btn_notice + .btn_notice:before {
+		background-color: #404040 !important;
+		box-shadow: 0 0 0 2px #2f2f2f !important;
+	}
+	
+	fusion-marker .sub_text {
+		color: #cacaca !important;
+	}
+	
+	fusion-marker:hover .sub_text, fusion-marker.hover .sub_text {
+		color: #0475f4 !important;
+	}
+	
+	fusion-marker .sub_text .busstop_number:after {
+		background: #4f4f4f !important;
+	}
+	
+	fusion-marker .sub_text .busstop_number {
+		color: #cacaca !important;
+	}
+	
+	fusion-marker:hover .sub_text .busstop_number, fusion-marker.hover .sub_text .busstop_number {
+		color: #0475f4 !important;
+	}
+	
+	nm-select-box.search_result_top .select_box .btn_option, .search_result_top nm-select-box .select_box .btn_option {
+		color: #cacaca !important;
+		border: 1px solid #404040 !important;
+	}
+	
+	nm-select-box.search_result_top .select_box .btn_option.active, .search_result_top nm-select-box .select_box .btn_option.active {
+		background: #3a3a3a !important;
+		color: #03c75a !important;
+	}
+	
+	nm-select-box.search_result_top .select_box .btn_option:hover, .search_result_top nm-select-box .select_box .btn_option:hover {
+		color: #03c75a !important;
+		background: #3a3a3a !important;
+	}
+	
+	nm-select-box.search_result_top .select_box .list_select, .search_result_top nm-select-box .select_box .list_select {
+		background: #2f2f2f !important;
+		box-shadow: 0 1px 6px 0 rgba(0,0,0,.25) !important;
+	}
+	
+	nm-select-box .select_box .list_select .link_select {
+		color: #cacaca !important;
+	}
+	
+	fusion-bus-header .text {
+		color: #cacaca !important;
+	}
+	
+	fusion-bus-station-item:first-child {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	fusion-bus-station-item {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	fusion-bus-station-item .search_text {
+		color: #cacaca !important;
+	}
+	
+	fusion-bus-station-item .interact_btn_area .btn, fusion-bus-station-item .interact_btn_area .direction {
+		border: 1px solid #404040 !important;
+		background: #2f2f2f !important;
+	}
+	
+	fusion-bus-station-item .interact_btn_area .direction .btn_from {
+		color: #cacaca !important;
+	}
+	
+	fusion-bus-station-item .interact_btn_area .direction .btn_from:hover, fusion-bus-station-item .interact_btn_area .direction .btn_to:hover {
+		color: #0375f4 !important;
+	}
+	
+	fusion-bus-station-item .interact_btn_area .direction .btn_to:before {
+		background: #404040 !important;
+	}
+	
+	fusion-bus-station-item .interact_btn_area .btn.-streetview:not(:hover):before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	bus-home .sub {
+		border-left: 1px solid #404040 !important;
+	}
+	
+	fusion-bus-route-item:first-child {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	fusion-bus-route-item {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	fusion-bus-route-item .search_text {
+		color: #cacaca !important;
+	}
+	
+	fusion-bus-route-item .search_text + .search_text:before {
+		background: #4f4f4f !important;
+	}
+	
+	fusion-bus-route-item .type_bus3 ~ .search_result_content_area .icon_transport, fusion-bus-route-item .type_bus5 ~ .search_result_content_area .icon_transport {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	fusion-bus-route-list .section.scrolled {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	subway-map #River rect, subway-map #bg_color rect, subway-map #BG rect {
+		fill: #242424 !important;
+	}
+	
+	subway-map svg path[fill='#dfeefc'i], subway-map svg path[fill='#e3effc'i], subway-map svg path[fill='#eef5fd'i], subway-map svg polygon[fill='#eef5fd'i] {
+		fill: rgb(50, 56, 62) !important;
+	}
+	
+	subway-map svg path[fill='#323232'], subway-map svg polygon[fill='#323232'] {
+		fill: #cacaca !important;
+	}
+	
+	.__subway-engine-dimmed {
+		background-color: #242424 !important;
+	}
+	
+	subway-map svg text:not([fill]):not([stroke]) {
+		fill: #fff !important;
+	}
+	
+	subway-map svg text[fill="#666666"i], subway-map svg text > tspan[fill="#666666"i], subway-map svg text[fill="#656565"i] {
+		fill: #cacaca !important;
+	}
+	
+	subway-map svg text > tspan {
+		fill: #cacaca !important;
+	}
+	
+	subway-map svg path[stroke='#263c96'i], subway-map svg line[stroke='#263c96'i] {
+		stroke: rgb(158, 168, 217) !important;
+	}
+	
+	subway-map svg path[fill='#263c96'i], subway-map svg path[fill='#004199'i]  {
+		fill: rgb(158, 168, 217) !important;
+	}
+	
+	subway-map svg path[fill='#084294'i] {
+		fill: rgb(145, 174, 222) !important;
+	}
+	
+	subway-map svg path[fill='#b72243'i], subway-map svg path[fill='#cb0040'i] {
+		fill: rgb(221, 149, 166) !important;
+	}
+	
+	subway-map svg path[fill='#473147'i], subway-map svg polygon[fill='#473147'i], subway-map svg path[fill='#4c2f48'i], subway-map svg polygon[fill='#4c2f48'i] {
+		fill: rgb(181, 174, 182) !important;
+	}
+	
+	subway-map svg line[stroke='#eeeeee'i], subway-map svg path[stroke='#eeeeee'i] {
+		stroke: #404040 !important;
+	}
+	
+	subway-map svg path[fill='#ffffff'i] {
+		fill: #3a3a3a !important;
+	}
+	
+	subway-map svg path[fill='#1d1d1b'i] {
+		fill: #4f4f4f !important;
+	}
+	
+	subway-map svg path[fill='#231f20'i] {
+		fill: #4f4f4f !important;
+	}
+	
+	subway-map svg > rect[fill='#ffffff'i] {
+		fill: #242424 !important;
+	}
+	
+	.__subway-engine-label-title {
+		border: 1px solid #404040;
+		background: #2f2f2f;
+	}
+	
+	.__subway-engine-label-title:hover, .__subway-engine-label-title.selected {
+		background-color: #3a3a3a;
+	}
+	
+	subway-map .map {
+		background-color: #242424 !important;
+	}
+	
+	subway-ne-control-widget .subway_line_area {
+		background-color: #2f2f2f !important;
+	}
+	
+	subway-ne-control-widget .subway_line_area .btn_next, subway-ne-control-widget .subway_line_area .btn_prev {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	subway-ne-control-widget .subway_line_area .list_line .item_line .btn.type_subway1 .icon {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	subway-ne-control-widget .subway_line_area .list_line .item_line + .item_line {
+		border-left: 1px solid #404040 !important;
+	}
+	
+	subway-se-control-widget .list_control {
+		background-color: #2f2f2f !important;
+	}
+	
+	subway-se-control-widget .list_control .btn:not(.btn_share) {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	subway-se-control-widget .subway {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	subway-se-control-widget .btn_share {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	subway-control-panel .search_area .list_tab {
+		border: 1px solid #404040 !important;
+	}
+	
+	subway-control-panel .search_area .link_tab {
+		border-left: 1px solid #404040 !important;
+		color: #cacaca !important;
+	}
+	
+	subway-control-panel .search_area .item_tab:hover .link_tab {
+		color: #0475f4 !important;
+	}
+	
+	subway-control-panel .search_area .item_tab:first-child .link_tab {
+		border-left: 0 !important;
+	}
+	
+	subway-control-panel .search_area .item_tab.active .link_tab {
+		color: #fff !important;
+		border-left-color: #404040 !important;
+	}
+	
+	subway-input-control .search_box {
+		border: 1px solid #404040 !important;
+	}
+	
+	subway-input-control .serach_box .item_search {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	subway-input-control .search_box .item_search.start, subway-input-control .search_box .item_search:first-child {
+		border-top: 0 !important;
+	}
+	
+	subway-input-control-item .input_box:after {
+		background: linear-gradient(90deg,hsla(0,0%,100%,0),#2f2f2f) !important;
+	}
+	
+	subway-input-control-item .label_search {
+		color: #cacaca !important;
+	}
+	
+	subway-input-control-item .input_search {
+		color: #cacaca !important;
+	}
+	
+	subway-input-control .search_box .item_search {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	subway-input-control .btn_box .btn {
+		color: #cacaca !important;
+		border: 1px solid #404040 !important;
+	}
+	
+	subway-input-control .btn_box .btn.btn_direction:not(.active):after {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	nm-list-container .title_box {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	nm-list-container .title_box .instant_title {
+		color: #fff !important;
+	}
+	
+	nm-list-container .list_place .place_box .place_text_box .place_text {
+		color: #cacaca !important;
+	}
+	
+	nm-list-container .list_place .item_place .btn_edit {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	subway-favorite-banner .title_box .instant_title {
+		color: #fff !important;
+	}
+	
+	subway-favorite-banner .title_box .time {
+		color: #cacaca !important;
+	}
+	
+	subway-favorite-banner .title_box .btn_refresh {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	subway-favorite-banner .title_box {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	subway-favorite-banner .displayname_box .input_text {
+		color: #cacaca !important;
+	}
+	
+	subway-favorite-banner .displayname_box.type_movement .input_box:before {
+		background-color: rgb(102, 109, 115) !important;
+	}
+	
+	subway-favorite-banner .subway_title_box .subway_title:hover {
+		background-color: #3a3a3a !important;
+	}
+	
+	subway-favorite-banner .subway_title_box .subway_title {
+		color: #cacaca !important;
+	}
+	
+	subway-favorite-banner .list_schedule {
+		color: #cacaca !important;
+	}
+	
+	subway-favorite-banner .list_schedule .schedule_time {
+		color: #fff !important;
+	}
+	
+	subway-favorite-banner .list_schedule:after {
+		background-color: #404040 !important;
+	}
+	
+	nm-list-container .list_place .item_place .link_place .place_box .place_text_box .place_text.type_subway1 .icon_box {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	subway-favorite-banner .subway_title_box .subway_title.type_subway1:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	subway-search-list .instant_search_inner {
+		border-top: 1px solid #404040 !important;
+		background-color: #2f2f2f !important;
+		box-shadow: 0 -1px 0 #2f2f2f !important;
+	}
+	
+	subway-search-list .instant_search_inner .link_station {
+		color: #cacaca !important;
+	}
+	
+	subway-search-list .instant_search_inner .link_station.hover, subway-search-list .instant_search_inner .link_station:hover {
+		background-color: #3a3a3a !important;
+	}
+	
+	subway-search-list .instant_search_inner .icon_line.type_subway1:first-child {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	subway-input-control .btn_box .btn.btn_direction.active {
+		color: #fff !important;
+	}
+	
+	subway-directions-options .filter_btn_box .btn {
+		color: #cacaca !important;
+	}
+	
+	subway-directions-options .filter_btn_box .btn.active {
+		color: #0475f4 !important;
+	}
+	
+	subway-directions-options .item_option .label {
+		color: #cacaca !important;
+	}
+	
+	subway-directions-options .pagination .btn {
+		color: #cacaca !important;
+	}
+	
+	subway-directions-options .pagination .btn:hover {
+		color: #0475f4 !important;
+	}
+	
+	subway-directions-options .pagination .btn + .btn:before {
+		background-color: #404040 !important;
+	}
+	
+	subway-directions-options .timeset_box {
+		border: 1px solid #404040 !important;
+	}
+	
+	subway-directions-options .item_timeset + .item_timeset {
+		border-left: 1px solid #404040 !important;
+	}
+	
+	subway-directions-options .item_timeset .btn_select:hover .in, subway-directions-options .item_timeset .input_box:hover, subway-directions-options .item_timeset .option:hover {
+		background-color: #3a3a3a !important;
+	}
+	
+	subway-directions-options .item_timeset .btn_select .in {
+		color: #cacaca !important;
+	}
+	
+	subway-directions-options .item_timeset .btn_select .in:after {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	subway-directions-options .item_timeset .input_box .input, subway-directions-options .item_timeset .input_box .unit {
+		color: #cacaca !important;
+	}
+	
+	subway-directions-options .item_timeset .input_box:after {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	subway-directions-options .layer_timeset {
+		background-color: #2f2f2f !important;
+	}
+	
+	subway-directions-list .direction_summary_area.active {
+		border-color: rgb(68, 95, 131) !important;
+		background-color: rgb(48, 51, 57) !important;
+	}
+	
+	subway-directions-list .summary_area .title_box .title {
+		color: #fff !important;
+	}
+	
+	subway-directions-list .direction_summary_area {
+		border: 1px solid transparent !important;
+		border-top-color: #404040 !important;
+		border-width: 1px 0 !important;
+	}
+	
+	subway-directions-list .summary_area .list_info .info_text {
+		color: #fff !important;
+	}
+	
+	subway-directions-list .summary_area .item_info {
+		color: #cacaca !important;
+	}
+	
+	subway-directions-list .summary_area .item_info + .item_info:before {
+		background-color: #4f4f4f !important;
+	}
+	
+	subway-directions-list .item_route .top_time {
+		color: #cacaca !important;
+	}
+	
+	subway-directions-list .item_route .title_box {
+		color: #cacaca !important;
+	}
+	
+	subway-directions-list .item_route .title_box.hover, subway-directions-list .item_route .title_box:hover {
+		color: #0475f4 !important;
+	}
+	
+	subway-directions-list .item_route.type_subway1 .icon_line, subway-directions-list .item_route .title_box + .item_route.walk .icon_line {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	subway-directions-list .item_route.type_subway1:after {
+		background-color: rgb(156, 168, 220) !important;
+	}
+	
+	subway-directions-list .item_route.type_subway1 .top_box:before {
+		border-color: rgb(156, 168, 220) !important;
+	}
+	
+	subway-directions-list .item_route .top_box:before {
+		background-color: #2f2f2f !important;
+	}
+	
+	subway-directions-list .step_bottom_area .btn_detail {
+		color: #cacaca !important;
+	}
+	
+	subway-directions-list .step_bottom_area .btn_detail:hover {
+		color: #0475f4 !important;
+	}
+	
+	subway-directions-list .item_route .btn_gateway {
+		border: 1px solid #4f4f4f !important;
+		background-color: #3a3a3a !important;
+		color: #cacaca !important;
+	}
+	
+	.subway-direction-summary-popup .subway_wrap {
+		background-color: #2f2f2f;
+	}
+	
+	.subway-direction-summary-popup .direction_summary_popup .popup_area {
+		background-color: #2f2f2f;
+	}
+	
+	.subway-direction-summary-popup .direction_summary_popup .title_box .list_route .item_route {
+		color: #fff;
+	}
+	
+	.subway-direction-summary-popup .direction_summary_popup .content_box {
+		border-top: 1px solid #404040;
+	}
+	
+	.subway-direction-summary-popup .direction_summary_popup .content_box .list_tab .link_tab.active {
+		color: #fff;
+	}
+	
+	.subway-direction-summary-popup .direction_summary_popup .content_box .list_tab .link_tab {
+		color: #cacaca;
+	}
+	
+	.subway-direction-summary-popup .direction_summary_popup .content_box .list_tab .link_tab.active:after {
+		background-color: #fff;
+	}
+	
+	.subway-direction-summary-popup .direction_summary_popup .content_box .panel_box .list_fare .item_fare .value {
+		color: #cacaca;
+	}
+	
+	.subway-direction-summary-popup .direction_summary_popup .content_box .panel_box .list_fare .item_fare {
+		color: #999;
+	}
+	
+	subway-directions-info .direction_info_area {
+		background-color: #2f2f2f !important;
+		border-top: 1px solid #404040 !important;
+	}
+	
+	subway-directions-info .direction_info_area .route_name_box .route_text {
+		color: #cacaca !important;
+	}
+	
+	subway-directions-info .direction_info_area .btn_favorite, subway-directions-info .direction_info_area .btn_share {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	subway-path-content .route_title {
+		color: #fff !important;
+	}
+	
+	subway-home-layout .sub {
+		border-left: 1px solid #404040 !important;
+	}
+	
+	subway-directions-details .summary_area .title_box .title {
+		color: #fff !important;
+	}
+	
+	subway-directions-details .summary_area .list_info .info_text {
+		color: #fff !important;
+	}
+	
+	subway-directions-details .summary_area .item_info {
+		color: #cacaca !important;
+	}
+	
+	subway-directions-details .summary_area .item_info + .item_info:before {
+		background-color: #4f4f4f !important;
+	}
+	
+	subway-directions-details .item_route .title_box {
+		color: #cacaca !important;
+	}
+	
+	subway-directions-details .item_route .title_box.hover, subway-directions-details .item_route .title_box:hover {
+		color: #0475f4 !important;
+	}
+	
+	subway-directions-details .item_route .info_text {
+		color: #cacaca !important;
+	}
+	
+	subway-directions-details .item_route .info_text + .info_text:before {
+		background-color: #4f4f4f !important;
+	}
+	
+	subway-directions-details .item_line {
+		color: #cacaca !important;
+	}
+	
+	subway-directions-details .item_route.walk .icon_route {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	subway-directions-details .item_route .btn_gateway {
+		border: 1px solid #4f4f4f !important;
+		background-color: #3a3a3a !important;
+		color: #cacaca !important;
+	}
+	
+	subway-directions-details .item_route.type_subway1 .icon_line, subway-directions-details .item_route.type_subway1 + .item_route.walk .icon_line {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	subway-directions-details .item_route.type_subway1 .top_box:before, subway-directions-details .item_route.type_subway1 + .item_route.walk .top_box:before {
+		border-color: rgb(156, 168, 220) !important;
+	}
+	
+	subway-directions-details .item_route .top_box:before {
+		background-color: #2f2f2f !important;
+	}
+	
+	subway-directions-details .item_route .top_time {
+		color: #cacaca !important;
+	}
+	
+	subway-directions-details .item_route.type_subway1:after {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	subway-input-control .search_box .btn_switch {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	subway-directions-options .item_option .input:not(:checked) + .label:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	subway-input-control-item .btn_delete {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	directions-search-box .btn_delete {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	frequent-place-header {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	frequent-place-header .favorite_location_list .location_btn:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	frequent-place-header .favorite_location_list .location_label {
+		color: #fff !important;
+	}
+	
+	favorite-tab .tab_list {
+		background: #3a3a3a !important;
+	}
+	
+	favorite-tab .tab {
+		background: transparent !important;
+		border: 1px solid transparent !important;
+		color: #cacaca !important;
+	}
+	
+	favorite-tab .tab.active {
+		background: #2f2f2f !important;
+		border-color: #006cff !important;
+		color: #006cff !important;
+	}
+	
+	favorite-tab .tab:hover {
+		color: #006cff !important;
+	}
+	
+	frequent-layout {
+		background-color: #2f2f2f !important;
+	}
+	
+	frequent-layout .title_area {
+		background-color: #2f2f2f !important;
+	}
+	
+	frequent-layout .title_area .title_box .title {
+		color: #fff !important;
+	}
+	
+	frequent-layout .btn_back_area .btn_back {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	frequent-menu .location_filter_area .btn_filter {
+		border: 1px solid #404040 !important;
+		color: #cacaca !important;
+	}
+	
+	frequent-menu .location_filter_area .btn_filter:hover {
+		color: #006cff !important;
+	}
+	
+	frequent-menu .location_filter_area .btn_filter.active {
+		color: #fff !important;
+	}
+	
+	frequent-menu {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	frequent-place-list .frequent_list .list_item .info_title {
+		color: #cacaca !important;
+	}
+	
+	frequent-place-list .frequent_list li.is_active .info_title {
+		color: #fff !important;
+	}
+	
+	frequent-place-list .frequent_list li:hover {
+		background-color: #3a3a3a !important;
+	}
+	
+	frequent-place-list .frequent_list .list_item .info_address {
+		color: #cacaca !important;
+	}
+	
+	frequent-place-list .frequent_list .btn_area button + button:after {
+		background-color: #4f4f4f !important;
+	}
+	
+	favorite-list-option-area .option_area .text_total {
+		color: #cacaca !important;
+	}
+	
+	bus-content .bus_title .bus_number {
+		color: #fff !important;
+	}
+	
+	movement-item .item_content:hover {
+		background: #3a3a3a !important;
+	}
+	
+	movement-item:after {
+		background: #404040 !important;
+	}
+	
+	bus-content .result_item {
+		color: #cacaca !important;
+	}
+	
+	bus-content .bus_title + .result_item:before {
+		background: #4f4f4f !important;
+	}
+	
+	bus-content .result_name {
+		color: #fff !important;
+	}
+	
+	bus-content .result_name + .result_item:before {
+		background-color: #4f4f4f !important;
+	}
+	
+	movement-item .item_content:not(.-center) + .btn_favorite_item_more:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	favorite-popup-menu .dropdown_box.route {
+		background: #2f2f2f !important;
+	}
+	
+	favorite-popup-menu .dropdown_box {
+		background-color: #2f2f2f !important;
+	}
+	
+	favorite-popup-menu .dropdown_box.route .route_menu_item + .route_menu_item {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	favorite-popup-menu .dropdown_box.route .route_menu {
+		color: #cacaca !important;
+	}
+	
+	favorite-popup-menu .dropdown_box.route .route_menu:hover {
+		color: #006cff !important;
+	}
+	
+	favorite-popup-menu .dropdown_box.route .route_menu.-edit:not(:hover):before, favorite-popup-menu .dropdown_box.route .route_menu.-remove:not(:hover):before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	subway-content .result_name {
+		color: #fff !important;
+	}
+	
+	subway-content .wrap_arrive_item .result_arrive {
+		color: #cacaca !important;
+	}
+	
+	subway-content .wrap_arrive_item .result_arrive .txt_time {
+		color: #fff !important;
+	}
+	
+	favorite-frequent-place-search-box instant-search-list .scroll_area {
+		background-color: #2f2f2f !important;
+		border-top: 1px solid #404040 !important;
+	}
+	
+	frequent-place-list .frequent_list .list_item .icon_area {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	frequent-place-use-agreement-popup .layer_notice_frequent {
+		background-color: #2f2f2f !important;
+	}
+	
+	frequent-place-use-agreement-popup .layer_notice_frequent .title {
+		color: #fff !important;
+	}
+	
+	frequent-place-use-agreement-popup .layer_notice_frequent p {
+		color: #cacaca !important;
+	}
+	
+	common-dialog .layer_box .layer_inner {
+		background-color: #2f2f2f !important;
+	}
+	
+	common-dialog .layer_box .layer_title {
+		color: #fff !important;
+	}
+	
+	common-dialog .layer_box .layer_text {
+		color: #cacaca !important;
+	}
+	
+	common-dialog .layer_box .layer_btn .btn:not(:disabled):hover {
+		background-color: #3a3a3a !important;
+	}
+	
+	common-dialog .layer_box .btn_cancel {
+		color: #cacaca !important;
+	}
+	
+	withdraw-agreement .popup_layer .layer_content {
+		background-color: #2f2f2f !important;
+	}
+	
+	withdraw-agreement .popup_layer.bg_dimmed .layer_content {
+		border-color: #404040 !important;
+	}
+	
+	withdraw-agreement .popup_layer .layer_title {
+		color: #fff !important;
+	}
+	
+	withdraw-agreement .popup_layer .layer_text {
+		color: #cacaca !important;
+	}
+	
+	withdraw-agreement .popup_layer .btn_close {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	favorite-route .header .title {
+		color: #fff !important;
+	}
+	
+	modal .modal_content {
+		background: #2f2f2f !important;
+	}
+	
+	modal .modal_content .header_area {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	modal .modal_content .header_area .header_title {
+		color: #fff !important;
+	}
+	
+	modal .favorite_modal_wrap {
+		background-color: #2f2f2f !important;
+	}
+	
+	modal .scroll_area .btn_delete_all {
+		background-color: #3a3a3a !important;
+		color: #cacaca !important;
+	}
+	
+	modal .scroll_area .btn_delete_all:after {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	route-edit-item .item_result:after {
+		background: #404040 !important;
+	}
+	
+	route-edit-item .item_result .btn_delete {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	route-content .route_type_icon {
+		background: #3a3a3a !important;
+	}
+	
+	route-edit-item .bg {
+		background: #2f2f2f !important;
+	}
+	
+	route-edit-item .item_result.dragging[style*='background-color'i] {
+		background-color: #2f2f2f !important;
+	}
+	
+	favorite-confirm-modal .container {
+		background: #2f2f2f !important;
+		color: #cacaca !important;
+	}
+	
+	panel-layout .sub {
+		border-left: 1px solid #404040 !important;
+	}
+	
+	summary-bus-station {
+		background: #2f2f2f !important;
+	}
+	
+	summary-bus-station .text_wrap .text4 {
+		color: #cacaca !important;
+	}
+	
+	summary-bus-station .interact_btn_area .btn, summary-bus-station .interact_btn_area .direction {
+		border: 1px solid #404040 !important;
+		background: #2f2f2f !important;
+	}
+	
+	summary-bus-station .interact_btn_area .direction .btn_from {
+		color: #cacaca !important;
+	}
+	
+	summary-bus-station .interact_btn_area .direction .btn_from:hover, summary-bus-station .interact_btn_area .direction .btn_to:hover {
+		color: #0375f4 !important;
+	}
+	
+	summary-bus-station .interact_btn_area .direction .btn_to:before {
+		background: #404040 !important;
+	}
+	
+	summary-bus-station .interact_btn_area .btn.-streetview:not(:hover):before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	favorite-error-area .error_area .error_message {
+		color: #cacaca !important;
+	}
+	
+	settings-home {
+		background-color: #2f2f2f !important;
+	}
+	
+	settings-home .account_box .name {
+		color: #fff !important;
+	}
+	
+	settings-home .account_box .description {
+		color: #cacaca !important;
+	}
+	
+	settings-home .list_menu .item_menu .menu {
+		color: #fff !important;
+	}
+	
+	settings-home .list_menu .item_menu {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	settings-home .list_sub_menu .item_menu {
+		color: #cacaca !important;
+	}
+	
+	settings-home .list_sub_menu .btn_more:after {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	settings-home .list_sub_menu .more_area .link_menu {
+		color: #cacaca !important;
+	}
+	
+	settings-home .list_menu .item_menu .description {
+		color: #cacaca !important;
+	}
+	
+	settings-map .title_area {
+		color: #fff !important;
+	}
+	
+	settings-map .title_area .btn_back {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	settings-map .list_input_config .label_config {
+		color: #fff !important;
+	}
+	
+	settings-map .list_input_config {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	settings-map .notice {
+		color: #cacaca !important;
+	}
+	
+	settings-map .notice.type_link .caution {
+		color: #fff !important;
+	}
+	
+	settings-map table th {
+		background-color: #3a3a3a !important;
+		color: #fff !important;
+	}
+	
+	settings-map table td, settings-map table th {
+		border: 1px solid #404040 !important;
+	}
+	
+	settings-map table td {
+		color: #cacaca !important;
+	}
+	
+	settings-map .btn_confirm {
+		color: #fff !important;
+		background-color: #3a3a3a !important;
+	}
+	
+	settings-map .btn_confirm:hover {
+		background-color: #3a3a3a !important;
+	}
+	
+	settings-map .btn_confirm:disabled {
+		background-color: #3a3a3a !important;
+		color: #888 !important;
+	}
+	
+	settings-map .btn_confirm:disabled:before {
+		opacity: 0.3 !important;
+	}
+	
+	settings-legend {
+		background-color: #2f2f2f !important;
+	}
+	
+	settings-legend .title_area {
+		color: #fff !important;
+	}
+	
+	settings-legend .link_tab {
+		color: #cacaca !important;
+	}
+	
+	settings-legend .link_tab.active {
+		color: #fff !important;
+	}
+	
+	settings-legend .item_tab:before {
+		background: #4f4f4f !important;
+	}
+	
+	settings-legend .link_tab {
+		border-bottom: 2px solid #404040 !important;
+	}
+	
+	settings-legend .scroll_area .panel_tab img[src] {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	settings-legend .legend_traffic strong {
+		color: #fff !important;
+	}
+	
+	settings-legend .legend_traffic li b {
+		color: #fff !important;
+	}
+	
+	settings-legend .legend_traffic li {
+		color: #cacaca !important;
+	}
+	
+	settings-legend .legend_traffic li .legend_traffic_delay, settings-legend .legend_traffic li .legend_traffic_good, settings-legend .legend_traffic li .legend_traffic_slow {
+		border: 1px solid #404040 !important;
+	}
+	
+	settings-legend .list_tab {
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	settings-legend .extra_box .text {
+		color: #cacaca !important;
+	}
+	
+	settings-legend .title_area .btn_back {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	settings-config .title_area {
+		color: #fff !important;
+	}
+	
+	settings-config .title_area .btn_back {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	settings-config .scroll_area .config_area {
+		background-color: #2f2f2f !important;
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	settings-config .scroll_area .config_area .config_box .title_box {
+		color: #fff !important;
+	}
+	
+	settings-config .scroll_area .config_area .config_box .config_text {
+		color: #cacaca !important;
+	}
+	
+	settings-config .scroll_area .config_area .config_box + .config_box {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	settings-history {
+		background-color: #2f2f2f !important;
+	}
+	
+	settings-history .title_area {
+		color: #fff !important;
+	}
+	
+	settings-history .title_area .btn_back {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	settings-history .list_tab {
+		color: #cacaca !important;
+	}
+	
+	settings-history .list_tab .item_tab .link_tab.active {
+		color: #fff !important;
+	}
+	
+	settings-history .list_tab .item_tab + .item_tab:before {
+		background-color: #4f4f4f !important;
+	}
+	
+	settings-history .history_area .list_history .item_history .history_box .history_title {
+		color: #fff !important;
+	}
+	
+	settings-history .history_area .list_history .item_history .history_box:hover {
+		background-color: #3a3a3a !important;
+	}
+	
+	settings-history .history_area .list_history .item_history .history_box > .btn_box .btn_delete {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	settings-history .history_area .list_history .item_history .history_box > .btn_box .btn_more {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	settings-history .instant_box .list_place .place_box .place_text_box .place_text {
+		color: #fff !important;
+	}
+	
+	settings-history .instant_box .list_place .place_box .place_text_box {
+		color: #cacaca !important;
+	}
+	
+	settings-history .history_area .list_history {
+		border-top: 1px solid #404040 !important;
+		border-bottom: 1px solid #404040 !important;
+	}
+	
+	settings-history .history_area .list_history .item_history + .item_history {
+		border-top: 1px solid #404040 !important;
+	}
+	
+	settings-history .instant_box .list_place .place_box .place_text_box .place_text + .place_text:before {
+		background-color: #4f4f4f !important;
+	}
+	
+	settings-history .instant_box .list_place .btn_delete {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	remove-all-usage-history .layer_area .layer_inner {
+		background-color: #2f2f2f !important;
+	}
+	
+	remove-all-usage-history .layer_area .config_box .config_title {
+		color: #cacaca !important;
+	}
+	
+	remove-all-usage-history .layer_area .config_box .config_text {
+		color: #cacaca !important;
+	}
+	
+	remove-all-usage-history .layer_area .config_box .caution_text {
+		color: #cacaca !important;
+	}
+	
+	remove-all-usage-history .layer_area .btn_close {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	settings-history .error_area {
+		color: #cacaca !important;
+	}
+	
+	remove-all-usage-history .layer_area .config_box .list_caution {
+		color: #cacaca !important;
+	}
+	
+	settings-home .list_menu .item_menu .version {
+		color: #fff !important;
+	}
+	
+	settings-notice .notice_panel_title_area .title {
+		color: #fff !important;
+	}
+	
+	settings-notice .notice_panel_title_area .btn_back {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	settings-notice .notice_tab_list .tab {
+		border-bottom: 2px solid #404040 !important;
+		color: #cacaca !important;
+	}
+	
+	settings-notice .notice_tab_list .tab.is_active {
+		color: #3a83f6 !important;
+		border-color: #3a83f6 !important;
+	}
+	
+	settings-notice .notice_list .notice_item {
+		border: 1px solid #404040 !important;
+	}
+	
+	settings-notice .notice_header .notice_title {
+		color: #fff !important;
+	}
+	
+	settings-notice .notice_header .btn_fold:after {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	settings-notice .notice_content:before {
+		background: #404040 !important;
+	}
+	
+	settings-notice .notice_empty .alert_message {
+		color: #cacaca !important;
+	}
+	
+	report-list .report_entry_list + .report_entry_list {
+		border-top: 8px solid #3a3a3a !important;
+	}
+	
+	report-list .report_entry_item .report_guide_badge {
+		border: 1px solid #404040 !important;
+		color: #cacaca !important;
+	}
+	
+	settings-home .app_link_area img {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	bus-latest-history .empty_box {
+		color: #cacaca !important;
+	}
+	
+	subway-history-container .empty_box {
+		color: #cacaca !important;
+	}
+	
+	subway-favorite-banner .empty_box {
+		color: #cacaca !important;
+	}
+}
+
+@-moz-document url-prefix("https://help.map.naver.com/report-address"), url-prefix("https://help.map.naver.com/report-pub-trans"), url-prefix("https://help.map.naver.com/report-road"), url-prefix("https://help.map.naver.com/report-map-data")
+{
+	body {
+		color: #cacaca;
+		background: #2f2f2f;
+	}
+	
+	body #__next > div:first-child[style*='background-color'] {
+		background-color: #2f2f2f !important;
+		color: #fff !important;
+	}
+	
+	.report_wrap {
+		background: #2f2f2f;
+	}
+	
+	.report_content_summary {
+		background: #3a3a3a;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.report_content_summary .summary_info_term {
+		color: #cacaca;
+	}
+	
+	.report_content_summary .summary_info_desc {
+		color: #fff;
+	}
+	
+	.report_capture_image {
+		border: 1px solid #404040;
+	}
+	
+	.report_capture_image .image {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.report_section_title {
+		color: #fff;
+	}
+	
+	.report_wrap .report_radio_label:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.report_photo_upload {
+		border-top: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.report_section_title .sub_text {
+		color: #cacaca;
+	}
+	
+	.report_section_title .sub_text+.sub_text:before {
+		background: #404040;
+	}
+	
+	.report_photo_upload .btn_upload_photo {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	div.report_bottom_message {
+		background: #2f2f2f;
+		border-top: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	div.report_bottom_message:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.report_submit .btn_report_submit.is_disabled, .report_submit .btn_report_submit:disabled {
+		background: #3a3a3a;
+		color: #999;
+	}
+	
+	.report_textarea {
+		border: 1px solid #404040;
+	}
+	
+	.report_textarea textarea {
+		color: #cacaca;
+		background: #2f2f2f;
+	}
+	
+	.report_loading_area {
+		background: rgba(0, 0, 0, 0.4);
+	}
+	
+	.report_textarea_oneline .input_text {
+		border: 1px solid #404040;
+		background: #3a3a3a;
+		color: #cacaca;
+	}
+	
+	.report_checklist_oneline .input_text_area .input_text:disabled {
+		background: #2f2f2f;
+		opacity: .5;
+	}
+	
+	.report_checklist_oneline .input_text_area .input_text {
+		border: 1px solid #404040;
+		background: #3a3a3a;
+		color: #cacaca;
+	}
+	
+	.report_wrap .report_check_label:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.report_radiolist_multiline .guide_message {
+		color: #cacaca;
+	}
+}
+
+@-moz-document url-prefix("https://map.naver.com"), url-prefix("https://m.place.naver.com"), url-prefix("https://pcmap.place.naver.com")
+{
+	:root {
+	    --place-color-border1: 44, 44, 47;
+	    --place-color-border2: 70, 70, 73;
+	    --place-color-border3: 79, 79, 79;
+	    --place-color-border4: 70, 70, 73;
+	    --place-color-border5: 70, 70, 73;
+	    --place-color-border6: 0, 0, 0, .02;
+	    --place-color-border7: 70, 70, 73;
+	    --place-color-border9: 254, 254, 253, .04;
+	    --place-color-border10: 79, 79, 79;
+	    --place-color-border11: 3, 201, 91;
+	    --place-color-border12: 70, 70, 73;
+	    --place-color-border13: 70, 70, 73;
+	    --place-color-border14: 66, 98, 123;
+	    --place-color-border15: 84, 84, 87;
+	    --place-color-border16: 84, 84, 87;
+	    --place-color-border17: 70, 70, 73;
+	    --place-color-border18: 70, 70, 73;
+	    --place-color-border19: 70, 70, 73;
+	    --place-color-border20: 70, 70, 73;
+	    --place-color-border21: 84, 84, 87;
+	    --place-color-border22: 64, 64, 64;
+	    --place-color-border23: 77, 77, 80;
+	    --place-color-border24: 77, 77, 80;
+	    --place-color-border25: 72, 72, 76;
+	    --place-color-border26: 70, 70, 73;
+	    --place-color-border27: 102, 102, 102;
+	    --place-color-bg1: 47, 47, 47;
+	    --place-color-bg2: 47, 47, 47;
+	    --place-color-bg3: 61, 61, 64;
+	    --place-color-bg4: 65, 65, 68;
+	    --place-color-bg5: 65, 65, 68;
+	    --place-color-bg6: 165, 165, 167;
+	    --place-color-bg7: 3, 201, 91;
+	    --place-color-bg8: 57, 57, 60;
+	    --place-color-bg9: 153, 153, 153, .1;
+	    --place-color-bg10: 45, 49, 56;
+	    --place-color-bg11: 65, 65, 68;
+	    --place-color-bg12: 165, 165, 167;
+	    --place-color-bg13: 65, 65, 68;
+	    --place-color-bg14: 98, 98, 98;
+	    --place-color-bg15: 98, 98, 98;
+	    --place-color-bg16: 185, 205, 215, .15;
+	    --place-color-bg17: 72, 72, 75;
+	    --place-color-bg18: 65, 65, 68;
+	    --place-color-bg19: 66, 66, 43;
+	    --place-color-bg20: 72, 72, 75;
+	    --place-color-bg21: 72, 72, 75;
+	    --place-color-bg22: 56, 56, 59;
+	    --place-color-bg23: 65, 65, 68;
+	    --place-color-bg24: 53, 53, 56;
+	    --place-color-bg25: 63, 63, 66;
+	    --place-color-bg101: 47, 47, 47;
+	    --place-color-text1: 240, 240, 242;
+	    --place-color-text2: 240, 240, 242;
+	    --place-color-text3: 218, 221, 224;
+	    --place-color-text4: 165, 165, 167;
+	    --place-color-text5: 145, 145, 146;
+	    --place-color-text6: 218, 221, 224;  /* used for border */
+	    --place-color-text7: 171, 174, 178;
+	    --place-color-text8: 3, 199, 90;
+	    --place-color-text9: 3, 201, 91;
+	    --place-color-text10: 238, 83, 83;
+	    --place-color-text11: 41, 131, 225;
+	    --place-color-text12: 145, 145, 146;
+	    --place-color-text15: 145, 145, 146;
+	    --place-color-text16: 145, 145, 146;
+	    --place-color-text17: 165, 165, 167;
+	    --place-color-link: 95, 165, 248;
+	    --place-color-link-pc: 95, 165, 248;
+	    --place-color-link-visited: 151, 119, 185;
+	    --place-color-function-button: 233, 236, 239;
+	    --place-color-bookmark-green: 3, 199, 90;
+	    --place-color-bookmark-border: 64, 64, 64;
+	    --place-color-bookmark-border2: 64, 64, 64;
+	    --place-color-green-pc: 3, 199, 90;
+	    --place-color-filter-border: 70, 70, 73;
+	    --place-color-filter-border-pc: 70, 70, 73;
+	    --place-color-keyword-filter-bg: 65, 65, 68;
+	    --place-color-keyword-filter-bg-hover: 78, 80, 86;
+	    --place-color-keyword-filter-border-active: 165, 165, 167;
+	    --place-color-follow-blue: 95, 165, 248;
+	    --place-color-follow-bg-blue: 63, 67, 73;
+	    --place-color-photogrid-bg: 47, 47, 47;
+	    --place-color-profile-bg: 65, 65, 68;
+	    --place-color-profile-icon: 169, 175, 185, .24;
+	    --place-color-tabfilter-bg:78, 80, 86
+	}
+	
+	.spi_lst .spi_lst_release {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.spi_default a, .spi_default a:hover, .spi_default a:active, .spi_default a:focus, .spi_default a:visited {
+		color: #cacaca;
+	}
+	
+	.spi_btn_release .spi_lst_release a.spi_input_copyurl, .spi_sns_share .spi_lst .spi_btn_release .spi_lst_release a.spi_input_copyurl, .spi_onebtn .spi_lst .spi_btn_release .spi_lst_release a.spi_input_copyurl {
+		color: #cacaca;
+		border: 1px solid #404040;
+		background-color: #242424;
+	}
+	
+	.spi_btn_release .spi_lst_release a.spi_btn_copyurl, .spi_sns_share .spi_lst .spi_btn_release .spi_lst_release a.spi_btn_copyurl, .spi_onebtn .spi_lst .spi_btn_release .spi_lst_release a.spi_btn_copyurl {
+		color: #fff !important;
+		border: 1px solid #404040;
+	}
+	
+	.spi_default .spi_ly_pop {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.spi_onebtn .spi_dsc {
+		color: #cacaca !important;
+	}
+	
+	.spi_default .spi_ly_pop .spi_dsc {
+		color: #cacaca;
+	}
+	
+	.spi_default .spi_ly_pop .spi_close span {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+}
+
+@-moz-document url-prefix("https://m.place.naver.com/my/bookmark")
+{
+	.u_likeit_button.myplace_likeit_bookmark_folder {
+		border-color: #404040;
+		background: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.u_likeit_button.myplace_likeit_bookmark_folder.on {
+		color: #fff;
+	}
+	
+	.place_simple_wrapper > header + div[class] > div[class] + div[class] > h2[class] + div[class] > div[class] + div[class] > button[class] {
+		border-color: #4f4f4f;
+	}
+}
+
+@-moz-document url-prefix("https://pcmap.place.naver.com")
+{
+	#_glad_ad_area {
+		background: #2f2f2f;
+	}
+	
+	.place_section h2.place_section_header > svg {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.place_section .place_section_content > ul > li[class] > strong + div[class] > ul > li > a > div > span > svg {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	#_title + div[class] > span[class] > div[class] > span > svg {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.place_section > div:first-child + div[class] > a[role=button]:first-child {
+		background: #2f2f2f;
+	}
+	
+	.place_section > div[class]:first-child + div[class] + div[class] + div[class] > div[class] > span[class]:first-child {
+		box-shadow: 0 1px 0 0 #242424;
+	}
+	
+	.u_likeit_button.place_likeit_feedtab .place_label_like {
+		color: #cacaca;
+	}
+	
+	#_pcmap_list_scroll_container > ul > li[data-laim-exp-id]:hover,
+	#_pcmap_list_scroll_container > ul > .lazyload-wrapper > li[data-laim-exp-id]:hover {
+		background: #3f3f3f;
+	}
+	
+	#_pcmap_list_scroll_container > ul > li[data-laim-exp-id] > div[class]:first-child + div[class] > div[class] > div[class] > span[class],
+	#_pcmap_list_scroll_container > ul > .lazyload-wrapper > li[data-laim-exp-id] > div[class]:first-child + div[class] > div[class] > div[class] > span[class] {
+		border-color: #404040;
+	}
+	
+	#_pcmap_list_scroll_container > ul > li[data-laim-exp-id] > div[class]:first-child + div[class] > div[class] > div[class] > span[class]:nth-child(2) > a[class] > .place_blind + svg,
+	#_pcmap_list_scroll_container > ul > .lazyload-wrapper > li[data-laim-exp-id] > div[class]:first-child + div[class] > div[class] > div[class] > span[class]:nth-child(2) > a[class] > .place_blind + svg {
+		fill: #cacaca;
+	}
+	
+	#_pcmap_list_scroll_container + div[class] > a:nth-child(1) > svg, #_pcmap_list_scroll_container + div[class] > a:nth-child(3) > svg {
+		filter: invert(86%) hue-rotate(-180deg) brightness(150%);
+	}
+	
+	#_pcmap_list_scroll_container + div[class] > a:nth-child(2):hover {
+		background: #3a3a3a;
+	}
+	
+	#_pcmap_list_scroll_container + div[class]:before {
+		background: #404040;
+	}
+	
+	.place-pcmap-filter-area-wrapper .flicking-viewport .flicking-camera span[class] > a {
+		border-color: #404040 !important;
+	}
+	
+	.place-pcmap-filter-area-wrapper .flicking-viewport .flicking-camera span[class] > a:hover {
+		border-color: #4f4f4f !important;
+	}
+	
+	.place-pcmap-filter-area-wrapper div[class*='_votingkeyword_flicking'] span[class] > a {
+		border-color: #404040 !important;
+		background: #3a3a3a !important;
+	}
+	
+	.place-pcmap-filter-area-wrapper div[class*='_votingkeyword_flicking'] span[class] > a:hover {
+		border-color: #4f4f4f !important;
+		background-color: #404040 !important;
+	}
+	
+	#_popup_keywordFilter + div > a[role=button] {
+		border-color: #404040 !important;
+		background: #3a3a3a !important;
+	}
+	
+	.place_label_bg, .place_label_icon_inner {
+		fill: rgb(46, 57, 50);
+	}
+	
+	#_pcmap_list_scroll_container > ul > li[class][data-laim-exp-id] > div[class]:first-child + div[class] + div[class] + div[class] > span > a > svg {
+		fill: #cacaca;
+	}
+	
+	#_pcmap_list_scroll_container > ul > li[class][data-laim-exp-id] > div[class]:first-child + div[class] + div[class] + div[class] > span > a:hover > svg {
+		fill: #0375f4;
+	}
+	
+	#_pcmap_list_scroll_container > ul > li[class][data-laim-exp-id] > div[class]:first-child > a[role=button] + div[class] > div[class] > span + span:before {
+		background: #cacaca !important;
+	}
+	
+	#_pcmap_list_scroll_container > ul > li[class][data-laim-exp-id]:hover > div[class]:first-child > a[role=button] + div[class] > div[class] > span + span + span > span {
+		background: #2f2f2f;
+	}
+}
+
+@-moz-document url-prefix("https://m.place.naver.com/my")
+{
+	.ptr__children > header + div + div + div > div > div > div[role=tablist],
+	.ptr__children > header + div + div + div > div > div > div[role=tablist] > div {
+		background: #2f2f2f;
+	}
+	
+	.ptr__children > header + div + div + div > div > div > div[role=tablist] > div:last-child:after {
+		background: linear-gradient(to left, #2f2f2f, rgba(47, 47, 47, 0));
+	}
+	
+	.flicking-camera > div[class] > button {
+		box-shadow: 0 2px 6px rgba(0, 0, 0, .3);
+	}
+	
+	div[class][role=tablist] > div[class] > .flicking-viewport > div.flicking-camera + button + button {
+		background: linear-gradient(to right, rgba(47, 47, 47, 0), #2f2f2f 28px);
+	}
+	
+	div[class][role=tablist] > div[class] > .flicking-viewport > div.flicking-camera + button {
+		background: linear-gradient(to left, rgba(47, 47, 47, 0), #2f2f2f 28px);
+	}
+}
+
+@-moz-document url-prefix("https://m.place.naver.com/my/maps")
+{
+	body {
+		background-color: #2f2f2f !important;
+	}
+	
+	button[class*='ContextMenuFolder_btn_filter__'] {
+		color: #fff !important;
+	}
+	
+	li[class*='FolderCard_list_item__'][class*='FolderCard_type_pcmap__'] button[class*='FolderCard_link__']:hover {
+		background: #3a3a3a !important;
+	}
+	
+	li[class*='FolderCard_list_item__'] div[class*='FolderCard_tit_area__'] span[class*='FolderCard_name__'] {
+		color: #fff !important;
+	}
+	
+	div[class*='ContextMenu_context_menu_wrapper__'][class*='ContextMenu_type_pcmap__'] div[class*='ContextMenu_ly_manage__'] button[class*='ContextMenu_btn__'] {
+		color: #cacaca;
+	}
+	
+	div[class*='ContextMenu_context_menu_wrapper__'][class*='ContextMenu_type_pcmap__'] div[class*='ContextMenu_ly_manage__'] button[class*='ContextMenu_btn__'] svg[class*='ContextMenu_icon__'], div[class*='ContextMenu_context_menu_wrapper__'][class*='ContextMenu_type_pcmap__'] div[class*='ContextMenu_ly_manage__'] button[class*='ContextMenu_btn__'] [role=presentation] {
+		fill: #cacaca;
+	}
+	
+	button[class*='Button_btn_manage__'][class*='Button_type_pcmap__']:hover svg[class*='Button_icon__'] {
+		fill: #cacaca;
+	}
+	
+	header[class*='Header_header__'] {
+		color: #fff;
+	}
+	
+	div[class*='FilterTab_sort_area__'] button[class*='FilterTab_btn_sort__'] {
+		color: #cacaca;
+	}
+	
+	div[class*='FilterTab_sort_area__'][class*='FilterTab_type_pcmap__'] ul[class*='FilterTab_sort_list__'] button[class*='FilterTab_btn__'] {
+		color: #cacaca;
+	}
+	
+	div[class*='styles_wrapper__'][class*='styles_type_bookmark__'] div[class*='styles_tit_area__'] {
+		color: #cacaca;
+	}
+	
+	div[class*='styles_modal_new_list__'] div[class*='styles_header__'] {
+		color: #fff;
+	}
+	
+	div[class*='styles_input_name_wrapper__'] input[class*='styles_input_text__'], div[class*='styles_input_text_wrapper__'] input[class*='styles_input_text__'] {
+		color: #cacaca;
+	}
+	
+	div[class*='styles_input_name_wrapper__'] span[class*='styles_count__'] em, div[class*='styles_input_name_wrapper__'] span[class*='styles_count__'] em {
+		color: #fff;
+	}
+	
+	div[class*='styles_modal_new_list__'] h2[class*='styles_section_header__'] {
+		color: #fff;
+	}
+	
+	div[class*='styles_modal_new_list__'] div[class*='styles_section_hr__'] {
+		background: #3a3a3a;
+	}
+	
+	div[class*='InputPublicStatus_input_radio_wrapper__'] label[class*='InputPublicStatus_input_label__'] div[class*='InputPublicStatus_open_info_area__'] div[class*='InputPublicStatus_tit_area__'] {
+		color: #fff;
+	}
+	
+	div[class*='InputPublicStatus_input_radio_wrapper__'] label[class*='InputPublicStatus_input_label__'] div[class*='InputPublicStatus_open_info_area__'] div[class*='InputPublicStatus_txt_area__'] {
+		color: #cacaca;
+	}
+	
+	div[class*='styles_input_text_wrapper__'] {
+		background: #3a3a3a;
+	}
+	
+	div[class*='ContextMenu_context_menu_wrapper__'][class*='ContextMenu_type_pcmap__'] div[class*='ContextMenu_ly_manage__'] div[class*='ContextMenu_btn__'] {
+		color: #cacaca;
+	}
+	
+	div[class*='ContextMenu_ly_manage__'] div[class*='ContextMenu_btn__']+div[class*='ContextMenu_btn__'] {
+		border-top: 1px solid #404040;
+	}
+	
+	div[class*='ContextMenu_context_menu_wrapper__'][class*='ContextMenu_type_pcmap__'] div[class*='ContextMenu_ly_manage__'] div[class*='ContextMenu_btn__'] svg[class*='ContextMenu_icon__'], div[class*='ContextMenu_context_menu_wrapper__'][class*='ContextMenu_type_pcmap__'] div[class*='ContextMenu_ly_manage__'] div[class*='ContextMenu_btn__'] [role=presentation] {
+		fill: #cacaca;
+	}
+	
+	header[class*='Header_header__'] div[class*='Header_txt_area__'] {
+		color: #fff;
+	}
+	
+	header[class*='Header_header__'] div[class*='Header_btn_area__'] [class*='Header_btn__'] {
+		color: #cacaca;
+	}
+	
+	header[class*='Header_header__'] div[class*='Header_btn_area__'] svg[class*='Header_icon__'] {
+		fill: #cacaca;
+	}
+	
+	button[class*='BookmarkCard_list_inner__'] div[class*='BookmarkCard_etc_area__'] span[class*='BookmarkCard_item__'] {
+		color: #fff;
+	}
+	
+	div[class*='DetailList_tab_area__'] button[class*='DetailList_tab__'] {
+		color: #cacaca;
+	}
+	
+	div[class*='Alert_modal_alert__'][class*='Alert_type_pcmap__'] div[class*='Alert_tit_area__'] {
+		color: #fff;
+	}
+	
+	div[class*='Alert_modal_alert__'][class*='Alert_type_pcmap__'] div[class*='Alert_txt_area__'] {
+		color: #cacaca;
+	}
+	
+	div[class*='RemoveBookmarksModal_txt_inner__'] label[class*='RemoveBookmarksModal_input_label__'] {
+		color: #cacaca;
+	}
+	
+	div[class*='Alert_modal_alert__'][class*='Alert_type_pcmap__'] div[class*='Alert_btn_area__'] button[class*='Alert_btn__']:hover {
+		background-color: #3a3a3a;
 	}
 }

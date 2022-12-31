@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.65.5
+@version		1.65.6
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -117659,6 +117659,10 @@
 	
 	subway-favorite-banner .empty_box {
 		color: #cacaca !important;
+	}
+	
+	.__subway-engine-label-title:not(:hover):not(.selected):after {
+		filter: invert(81.5%) hue-rotate(-180deg);
 	}
 }
 

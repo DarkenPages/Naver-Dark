@@ -117664,6 +117664,16 @@
 	.__subway-engine-label-title:not(:hover):not(.selected):after {
 		filter: invert(81.5%) hue-rotate(-180deg);
 	}
+	
+	directions-summary-list-transit-option .departure_time_off_txt {
+		background: #3a3a3a !important;
+		border-top: 1px solid #4f4f4f !important;
+		color: rgb(241, 151, 149) !important;
+	}
+	
+	directions-summary-list-transit-option .departure_time_off_txt:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
 }
 
 @-moz-document url-prefix("https://help.map.naver.com/report-address"), url-prefix("https://help.map.naver.com/report-pub-trans"), url-prefix("https://help.map.naver.com/report-road"), url-prefix("https://help.map.naver.com/report-map-data")

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.65.4
+@version		1.65.5
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -87510,6 +87510,75 @@
 	}
 	
 	.cs_stock_exchange .text_contents .unit_text_kor {
+		color: #fff;
+	}
+	
+	.cs_exam .prcs_detail dd span.inline, .cs_exam .cs_tab a.more {
+		color: #cacaca;
+	}
+	
+	.cs_exam .prcs_detail dt {
+		color: #999;
+	}
+	
+	.cs_exam .cs_tab ul li a {
+		border: 1px solid #404040;
+		border-bottom: 0;
+		background: #2f2f2f;
+		color: #cacaca;
+	}
+	
+	.cs_exam .cs_tab ul li.on a {
+		border: 1px solid #4f4f4f;
+		border-bottom: 0;
+		background: #3a3a3a;
+		color: #fff;
+	}
+	
+	.cs_exam .cs_tab {
+		border-bottom: 2px solid #4f4f4f;
+	}
+	
+	.cs_exam .tb_box {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_exam .tb_box .tb_list th {
+		border-color: #4f4f4f;
+		background: #3a3a3a;
+		color: #fff;
+	}
+	
+	.cs_exam .tb_box .tb_list td {
+		border-color: #404040;
+	}
+	
+	.cs_exam .prcs_guide p {
+		color: #cacaca;
+	}
+	
+	.cs_exam .prcs_guide .ico_alert {
+		background: none;
+		position: relative;
+	}
+	
+	.cs_exam .prcs_guide .ico_alert:before {
+		position: absolute;
+		content: '';
+		background: url(https://ssl.pstatic.net/sstatic/keypage/outside/uio/img/ico_info.gif) 0 3px no-repeat;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_exam .other_links dl {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_exam .other_links dt {
 		color: #fff;
 	}
 }

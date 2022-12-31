@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.65.7
+@version		1.65.8
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -118053,6 +118053,26 @@
 		fill: rgb(46, 57, 50);
 	}
 	
+	#_pcmap_list_scroll_container > ul > div.lazyload-wrapper > li[class][data-laim-exp-id] > div[class]:first-child + div[class] + div[class] + div[class] > span > a > svg {
+		fill: #cacaca;
+	}
+	
+	#_pcmap_list_scroll_container > ul > div.lazyload-wrapper > li[class][data-laim-exp-id] > div[class]:first-child + div[class] + div[class] + div[class] > span > a:hover > svg {
+		fill: #0375f4;
+	}
+	
+	#_pcmap_list_scroll_container > ul > div.lazyload-wrapper > li[class][data-laim-exp-id] > div[class]:first-child > a[role=button] + div[class] > div[class] > span + span:before {
+		background: #cacaca !important;
+	}
+	
+	#_pcmap_list_scroll_container > ul > div.lazyload-wrapper > li[class][data-laim-exp-id] > div[class]:first-child > a[role=button] + div[class] + div[class] > div[class] > span + span:before {
+		background: #cacaca !important;
+	}
+	
+	#_pcmap_list_scroll_container > ul > div.lazyload-wrapper > li[class][data-laim-exp-id]:hover > div[class]:first-child > a[role=button] + div[class] > div[class] > span + span + span > span {
+		background: #2f2f2f;
+	}
+	
 	#_pcmap_list_scroll_container > ul > li[class][data-laim-exp-id] > div[class]:first-child + div[class] + div[class] + div[class] > span > a > svg {
 		fill: #cacaca;
 	}
@@ -118062,6 +118082,10 @@
 	}
 	
 	#_pcmap_list_scroll_container > ul > li[class][data-laim-exp-id] > div[class]:first-child > a[role=button] + div[class] > div[class] > span + span:before {
+		background: #cacaca !important;
+	}
+	
+	#_pcmap_list_scroll_container > ul > li[class][data-laim-exp-id] > div[class]:first-child > a[role=button] + div[class] + div[class] > div[class] > span + span:before {
 		background: #cacaca !important;
 	}
 	

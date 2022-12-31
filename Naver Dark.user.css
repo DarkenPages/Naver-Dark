@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.65.7
+@version		1.65.8
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -6968,7 +6968,7 @@
 @-moz-document url-prefix("https://pcmap.place.naver.com") {
     .place_label_bg,.place_label_icon_inner { fill: rgb(46, 57, 50) }
     .place_section .place_section_content > ul > li[class] > strong + div[class] > ul > li > a > div > span > svg,.place_section h2.place_section_header > svg,#_title + div[class] > span[class] > div[class] > span > svg { filter: invert(86%) hue-rotate(-180deg) }
-    .place_section > div:first-child + div[class] > a[role=button]:first-child,#_glad_ad_area,#_pcmap_list_scroll_container > ul > li[class][data-laim-exp-id]:hover > div[class]:first-child > a[role=button] + div[class] > div[class] > span + span + span > span { background: #2f2f2f }
+    .place_section > div:first-child + div[class] > a[role=button]:first-child,#_glad_ad_area,#_pcmap_list_scroll_container > ul > div.lazyload-wrapper > li[class][data-laim-exp-id]:hover > div[class]:first-child > a[role=button] + div[class] > div[class] > span + span + span > span,#_pcmap_list_scroll_container > ul > li[class][data-laim-exp-id]:hover > div[class]:first-child > a[role=button] + div[class] > div[class] > span + span + span > span { background: #2f2f2f }
     .place_section > div[class]:first-child + div[class] + div[class] + div[class] > div[class] > span[class]:first-child { box-shadow: 0 1px 0 0 #242424 }
     .place-pcmap-filter-area-wrapper .flicking-viewport .flicking-camera span[class] > a { border-color: #404040 !important }
     .place-pcmap-filter-area-wrapper .flicking-viewport .flicking-camera span[class] > a:hover { border-color: #4f4f4f !important }
@@ -6979,10 +6979,10 @@
     #_pcmap_list_scroll_container + div[class] > a:nth-child(2):hover { background: #3a3a3a }
     #_pcmap_list_scroll_container + div[class]:before { background: #404040 }
     #_pcmap_list_scroll_container > ul > .lazyload-wrapper > li[data-laim-exp-id] > div[class]:first-child + div[class] > div[class] > div[class] > span[class],#_pcmap_list_scroll_container > ul > li[data-laim-exp-id] > div[class]:first-child + div[class] > div[class] > div[class] > span[class] { border-color: #404040 }
-    #_pcmap_list_scroll_container > ul > .lazyload-wrapper > li[data-laim-exp-id] > div[class]:first-child + div[class] > div[class] > div[class] > span[class]:nth-child(2) > a[class] > .place_blind + svg,#_pcmap_list_scroll_container > ul > li[data-laim-exp-id] > div[class]:first-child + div[class] > div[class] > div[class] > span[class]:nth-child(2) > a[class] > .place_blind + svg,#_pcmap_list_scroll_container > ul > li[class][data-laim-exp-id] > div[class]:first-child + div[class] + div[class] + div[class] > span > a > svg { fill: #cacaca }
+    #_pcmap_list_scroll_container > ul > .lazyload-wrapper > li[data-laim-exp-id] > div[class]:first-child + div[class] > div[class] > div[class] > span[class]:nth-child(2) > a[class] > .place_blind + svg,#_pcmap_list_scroll_container > ul > li[data-laim-exp-id] > div[class]:first-child + div[class] > div[class] > div[class] > span[class]:nth-child(2) > a[class] > .place_blind + svg,#_pcmap_list_scroll_container > ul > div.lazyload-wrapper > li[class][data-laim-exp-id] > div[class]:first-child + div[class] + div[class] + div[class] > span > a > svg,#_pcmap_list_scroll_container > ul > li[class][data-laim-exp-id] > div[class]:first-child + div[class] + div[class] + div[class] > span > a > svg { fill: #cacaca }
     #_pcmap_list_scroll_container > ul > .lazyload-wrapper > li[data-laim-exp-id]:hover,#_pcmap_list_scroll_container > ul > li[data-laim-exp-id]:hover { background: #3f3f3f }
-    #_pcmap_list_scroll_container > ul > li[class][data-laim-exp-id] > div[class]:first-child + div[class] + div[class] + div[class] > span > a:hover > svg { fill: #0375f4 }
-    #_pcmap_list_scroll_container > ul > li[class][data-laim-exp-id] > div[class]:first-child > a[role=button] + div[class] > div[class] > span + span:before { background: #cacaca !important }
+    #_pcmap_list_scroll_container > ul > div.lazyload-wrapper > li[class][data-laim-exp-id] > div[class]:first-child + div[class] + div[class] + div[class] > span > a:hover > svg,#_pcmap_list_scroll_container > ul > li[class][data-laim-exp-id] > div[class]:first-child + div[class] + div[class] + div[class] > span > a:hover > svg { fill: #0375f4 }
+    #_pcmap_list_scroll_container > ul > div.lazyload-wrapper > li[class][data-laim-exp-id] > div[class]:first-child > a[role=button] + div[class] + div[class] > div[class] > span + span:before,#_pcmap_list_scroll_container > ul > div.lazyload-wrapper > li[class][data-laim-exp-id] > div[class]:first-child > a[role=button] + div[class] > div[class] > span + span:before,#_pcmap_list_scroll_container > ul > li[class][data-laim-exp-id] > div[class]:first-child > a[role=button] + div[class] + div[class] > div[class] > span + span:before,#_pcmap_list_scroll_container > ul > li[class][data-laim-exp-id] > div[class]:first-child > a[role=button] + div[class] > div[class] > span + span:before { background: #cacaca !important }
 }
 @-moz-document url-prefix("https://people.search.naver.com") {
     .age .filter_tit .spic,.job .filter_tit .spic,.banner_area .banner_myprofile,.record_wrap .txt_notice .spic.notice,.sp_noimg,.spic.ic_pic,.workact_wrap .workact .spic.star_wrap .spic.star,.cert_area .spic.help,.filter_footer .bt_reset .spic,.ly_tooltip_wrap .spic.tail,.workact_header dt.spic,.ws_search_wrap:not(#scontent) h1 a + a img,#fix_wrap.index #footer,#fix_wrap.tx #footer address,#fix_wrap.tx #footer ul,#scontent h1 a + img { filter: invert(86%) hue-rotate(-180deg) }

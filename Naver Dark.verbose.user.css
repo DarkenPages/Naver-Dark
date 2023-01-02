@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.65.9
+@version		1.65.10
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -87732,6 +87732,18 @@
 	.ntalk_wrap .sc_new.sp_nchat .nchat_msg_info .popover_report:hover {
 		background-color: #3a3a3a;
 		color: #fff;
+	}
+	
+	.sp_ntotal .list_area {
+		color: #cacaca;
+	}
+	
+	.sp_ntotal .total_info .item .info .review:before {
+		background-color: #4f4f4f;
+	}
+	
+	.sp_ntotal .total_info .item .info .review {
+		color: #cacaca;
 	}
 }
 

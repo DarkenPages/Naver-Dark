@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.65.12
+@version		1.65.13
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -38290,6 +38290,54 @@
 	
 	.comp_journal_subscribe .cjs_ly_linkage .cjs_info_text {
 		color: #cacaca;
+	}
+	
+	.comp_journal_subscribe .cjs_btn_age::after, .comp_journal_subscribe .cjs_title_wrap+.cjs_dept_card::before, .comp_journal_subscribe .cjs_dept_card::after {
+		background-color: #404040;
+	}
+	
+	.comp_journal_subscribe .cjs_dept_list .cjs_dept_item .cjs_dept_box .cjs_dept_desc {
+		color: #cacaca;
+	}
+	
+	.comp_journal_subscribe .cjs_dept_list .cjs_dept_item .cjs_dept_info::before {
+		border: 1px solid #404040;
+	}
+	
+	.comp_journal_subscribe .cjs_dept_card .channel .channel_name {
+		color: #fff;
+	}
+	
+	.comp_twenty_news .ctn_keyword_tab {
+		border: 1px solid #404040;
+	}
+	
+	.comp_twenty_news .cjs_journal_content::before {
+		background-color: #404040;
+	}
+	
+	.comp_twenty_news .ctn_btn_refresh {
+		color: #cacaca;
+		border: 1px solid #4f4f4f;
+	}
+	
+	.comp_twenty_news .ctn_info [class^="ctn_btn"] {
+		background-color: #3a3a3a;
+	}
+	
+	.comp_twenty_news .ctn_btn_refresh::before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	.comp_twenty_news .ctn_help_wrap .ctn_ly_help {
+		background-color: #2f2f2f;
+	}
+	
+	.comp_twenty_news .ctn_help_wrap .ctn_btn_help[aria-pressed="true"]::after {
+		background-color: #2f2f2f;
+	}
+	
+	.comp_twenty_news .ctn_keyword_tab .ctn_num {
+		background-color: #3a3a3a;
 	}
 }
 

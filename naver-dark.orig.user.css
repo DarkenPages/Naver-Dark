@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.65.13
+@version		1.65.14
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -19499,6 +19499,10 @@
 	
 	.cite_area_wrap .sub_info {
 		color: #cacaca;
+	}
+	
+	.cont_util_area .font_area .btn.font:after, .cont_util_area .util_list li a.btn_print:before, .cont_util_area .util_list li a.btn_share:before, .cont_util_area .font_area .btn.big:after, .cont_util_area .font_area .btn.sm:after {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 }
 
@@ -106479,10 +106483,6 @@
 
 @-moz-document url-prefix("https://nid.naver.com/user2/help/myInfoV2")
 {
-	.gnb_notice_li a.gnb_notice .gnb_icon, .mail_li a.gnb_mail .gnb_icon, .gnb_service_li a.gnb_service .gnb_icon {
-		filter: none;
-	}
-	
 	:root {
 		--bg-normal: #242424;
 		--bg-level2: #2f2f2f;
@@ -106690,6 +106690,16 @@
 	
 	.account_box .title::after {
 		filter: var(--invert-normal);
+	}
+	
+	@media (prefers-color-scheme: light) {
+		.gnb_area .gnb_title .text {
+			filter: invert(86%) hue-rotate(-180deg) brightness(200%);
+		}
+		
+		.header_left .left_footer .footer_logo {
+			filter: invert(86%) hue-rotate(-180deg);
+		}
 	}
 }
 

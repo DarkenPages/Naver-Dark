@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.65.14
+@version		1.65.15
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -18579,11 +18579,6 @@
 	
 	.gnb_area {
 		border-bottom: 1px solid #007131;
-	}
-	
-	.gnb_wrap {
-		border-bottom: 1px solid #007131;
-		background: #019341;
 	}
 	
 	.search_box {

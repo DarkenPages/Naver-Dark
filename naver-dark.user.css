@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.65.14
+@version		1.65.15
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -8765,8 +8765,7 @@
     .contents_list a,.section_area .text a { color: #559bfa }
     .gnb_area { border-bottom: 1px solid #404040;border-bottom: 1px solid #007131 }
     .gnb_notice_li a.gnb_notice .gnb_icon,.gnb_service_li a.gnb_service .gnb_icon,.mail_li a.gnb_mail .gnb_icon { filter: invert(0%) !important }
-    .gnb_wrap { border-bottom: 1px solid #404040;border-bottom: 1px solid #007131;background: #242424;background: #019341 }
-    .headword_wrap { border-bottom: 1px solid #404040;background: #242424 }
+    .gnb_wrap,.headword_wrap { border-bottom: 1px solid #404040;background: #242424 }
     .img_view_type,.table_layout1 .se_table_col,.table_layout2 .se_table_col { border: 2px solid #404040 }
     .input_search { color: #fff;border: 1px solid #404040;background: #242424 }
     .layer_content .comment .text_area textarea,.search_box .search_input { color: #fff;background: #242424 }

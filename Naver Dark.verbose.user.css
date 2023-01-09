@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.65.16
+@version		1.65.17
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -106909,6 +106909,12 @@
 		
 		.header_left .left_footer .footer_logo {
 			filter: invert(86%) hue-rotate(-180deg);
+		}
+	}
+	
+	@media (prefers-color-scheme: dark) {
+		.gnb_notice_li a.gnb_notice .gnb_icon, .mail_li a.gnb_mail .gnb_icon, .gnb_service_li a.gnb_service .gnb_icon {
+			filter: none !important;
 		}
 	}
 }

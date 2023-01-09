@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.65.16
+@version		1.65.17
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -6575,6 +6575,9 @@
         .header_left .left_menu .menu_text.on::after { background-color: var(--text-strong) }
         .header_subindex .profile_area,.naverid .header { background-color: var(--bg-level2) }
         .naverid::after { background-color: var(--bg-normal) }
+    }
+    @media (prefers-color-scheme: dark) {
+        .gnb_notice_li a.gnb_notice .gnb_icon,.gnb_service_li a.gnb_service .gnb_icon,.mail_li a.gnb_mail .gnb_icon { filter: none !important }
     }
     @media (prefers-color-scheme: light) {
         .gnb_area .gnb_title .text { filter: invert(86%) hue-rotate(-180deg) brightness(200%) }

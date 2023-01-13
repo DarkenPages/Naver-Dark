@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.65.17
+@version		1.65.18
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -28,6 +28,8 @@
     .gnb_linkwrp a { background: #2f2f2f }
     .gnb_lst .ico_arrow { z-index: 9999;filter: invert(81.5%) hue-rotate(-180deg) !important }
     .gnb_ly_alert { border: 1px solid #404040;background-color: #2f2f2f }
+    .gnb_ly_alert .gnb_btns button { color: #cacaca;border: 1px solid #4f4f4f;background-color: #3a3a3a }
+    .gnb_ly_alert .gnb_msg,.gnb_notice_li .svc_list .gnb_unread .gnb_subject,.gnb_notice_li .svc_list .gnb_unread .svc_name,.mailList .mTitle a,.viewTitle h4,div.viewTitle h4 { color: #fff }
     .gnb_my_li .gnb_my_content { box-shadow: 0 1px 5px 0 black;background: #2f2f2f }
     .gnb_my_li .gnb_my_content .gnb_edit_lst a,.gnb_my_li .gnb_my_content a.gnb_mail_address { color: #cacaca !important }
     .gnb_my_li .gnb_my_content .gnb_img_area img { border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50% }
@@ -36,7 +38,6 @@
     .gnb_notice_li .svc_blank .gnb_desc,.gnb_notice_li .svc_blank .gnb_tit,#gnb,#gnb .gnb_my_li .gnb_my_community a:visited,.gnb_notice_li .gnb_notice_all:visited,.gnb_svc_more .svc_btns:visited,a.gnb_service_all:visited,#gnb a,#gnb a:hover,.gnb_my_li .gnb_my_content .gnb_name,#gnb a,#gnb a:visited,a.gnb_my .gnb_name { color: #cacaca }
     .gnb_notice_li .svc_blank .gnb_tit img { filter: invert(81.5%) hue-rotate(-180deg) }
     .gnb_notice_li .svc_list .gnb_new { background: #404040 }
-    .gnb_notice_li .svc_list .gnb_unread .gnb_subject,.gnb_notice_li .svc_list .gnb_unread .svc_name,.mailList .mTitle a,.viewTitle h4,div.viewTitle h4 { color: #fff }
     .gnb_notice_li .svc_list li,a.gnb_service_all { border-top: 1px solid #404040 }
     .gnb_notice_li .svc_panel,.gnb_notice_li .svc_scroll { box-shadow: 0 1px 7px 0 black;background: #2f2f2f }
     .gnb_pop_input .gnb_pop_lst li a { color: #444 !important }
@@ -4751,7 +4752,7 @@
     .post_ct *[style*='color: #000000'],.post_ct *[style*='color: #111111'],.post_ct *[style*='color: rgb(0, 0, 0)'],.post_ct *[style*='color:#000000'],.post_ct *[style*='color:#111111'],.post_ct *[style*='color:rgb(0, 0, 0)'],.se-viewer *[style*='color: #000000'],.se-viewer *[style*='color: #111111'],.se-viewer *[style*='color: rgb(0, 0, 0)'],.se-viewer *[style*='color:#000000'],.se-viewer *[style*='color:#111111'],.se-viewer *[style*='color:rgb(0, 0, 0)'],.se_body_wrap *[style*='color: #000000'],.se_body_wrap *[style*='color: #111111'],.se_body_wrap *[style*='color: rgb(0, 0, 0)'],.se_body_wrap *[style*='color:#000000'],.se_body_wrap *[style*='color:#111111'],.se_body_wrap *[style*='color:rgb(0, 0, 0)'],.post_ct *[style*='color: #141414'],.post_ct *[style*='color: #24292f'],.post_ct *[style*='color: #464646'],.post_ct *[style*='color: rgb(33, 37, 41)'],.post_ct *[style*='color: rgb(64, 64, 64)'],.post_ct *[style*='color:#141414'],.post_ct *[style*='color:#24292f'],.post_ct *[style*='color:#464646'],.post_ct *[style*='color:rgb(33, 37, 41)'],.post_ct *[style*='color:rgb(64, 64, 64)'],.se-viewer *[style*='color: #141414'],.se-viewer *[style*='color: #24292f'],.se-viewer *[style*='color: #464646'],.se-viewer *[style*='color: rgb(33, 37, 41)'],.se-viewer *[style*='color: rgb(64, 64, 64)'],.se-viewer *[style*='color:#141414'],.se-viewer *[style*='color:#24292f'],.se-viewer *[style*='color:#464646'],.se-viewer *[style*='color:rgb(33, 37, 41)'],.se-viewer *[style*='color:rgb(64, 64, 64)'],.se_body_wrap *[style*='color: #141414'],.se_body_wrap *[style*='color: #24292f'],.se_body_wrap *[style*='color: #464646'],.se_body_wrap *[style*='color: rgb(33, 37, 41)'],.se_body_wrap *[style*='color: rgb(64, 64, 64)'],.se_body_wrap *[style*='color:#141414'],.se_body_wrap *[style*='color:#24292f'],.se_body_wrap *[style*='color:#464646'],.se_body_wrap *[style*='color:rgb(33, 37, 41)'],.se_body_wrap *[style*='color:rgb(64, 64, 64)'],.post_ct *[style*='color: #333333'],.post_ct *[style*='color: #444444'],.post_ct *[style*='color:#333333'],.post_ct *[style*='color:#444444'],.se-viewer *[style*='color: #333333'],.se-viewer *[style*='color: #444444'],.se-viewer *[style*='color:#333333'],.se-viewer *[style*='color:#444444'],.se_body_wrap *[style*='color: #333333'],.se_body_wrap *[style*='color: #444444'],.se_body_wrap *[style*='color:#333333'],.se_body_wrap *[style*='color:#444444'],.post_ct *[style*='color: #555555'],.post_ct *[style*='color:#555555'],.se-viewer *[style*='color: #555555'],.se-viewer *[style*='color:#555555'],.se_body_wrap *[style*='color: #555555'],.se_body_wrap *[style*='color:#555555'] { color: #fff !important }
     .post_ct *[style*='color: #373a3c'],.post_ct *[style*='color: #999999'],.post_ct *[style*='color:#373a3c'],.post_ct *[style*='color:#999999'],.se-viewer *[style*='color: #373a3c'],.se-viewer *[style*='color: #999999'],.se-viewer *[style*='color:#373a3c'],.se-viewer *[style*='color:#999999'],.se_body_wrap *[style*='color: #373a3c'],.se_body_wrap *[style*='color: #999999'],.se_body_wrap *[style*='color:#373a3c'],.se_body_wrap *[style*='color:#999999'],.se-viewer .se-section-placesMap.se-l-default .se-module-map-image > div.se-dynamic-map > div:nth-child(3) > div * { color: #cacaca !important }
     .se_oglink .se_og_wrap { background: none }
-    .se_theme_transparent .se_audio .se_audio_wrap,.se_theme_transparent .se_map.default .se_map_article,.se_theme_transparent .se_map.map_text .ico_map_text,.se_theme_transparent .se_map.map_text .se_map_article,.se_theme_transparent .se_oglink .se_og_wrap,.se_theme_transparent .se_subjectMatter .se_viewArea,.se-viewer .se-module-material,.se-viewer .se-module-oglink,.se-viewer .se-module-schedule,.se-viewer .se-section-placesMap { background-color: #2f2f2f }
+    .se_theme_transparent .se_audio .se_audio_wrap,.se_theme_transparent .se_map.default .se_map_article,.se_theme_transparent .se_map.map_text .ico_map_text,.se_theme_transparent .se_map.map_text .se_map_article,.se_theme_transparent .se_oglink .se_og_wrap,.se_theme_transparent .se_subjectMatter .se_viewArea,.se-viewer .se-module-material,.se-viewer .se-module-oglink,.se-viewer .se-module-schedule,.se-viewer .se-section-code.se-l-default,.se-viewer .se-section-placesMap { background-color: #2f2f2f }
     .se-viewer .mq-math-mode .mq-empty:before,.se-viewer .mq-math-mode .mq-hasCursor:before { border: 1px dotted #fff }
     .se-viewer .se-module-file { border: none;background-color: #2f2f2f }
     .se-viewer .se-schedule-content { border-top: 1px solid #404040 }

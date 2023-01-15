@@ -1,21 +1,7 @@
 #!/bin/bash
-echo 'Updating entire repository components...'
-git submodule update --remote
-
 echo ''
 echo 'Injecting all required headers'
 python3 injectors.py
-
-echo ''
-echo 'All components are ready. Executing compression...'
-npm run compress
-
-echo ''
-echo 'Copying files for backward support'
-echo '- copy naver-dark.orig -> Naver Dark.verbose'
-cp naver-dark.orig.user.css 'Naver Dark.verbose.user.css'
-echo '- copy naver-dark -> Naver Dark'
-cp naver-dark.user.css 'Naver Dark.user.css'
 
 echo ''
 echo 'Would you like to commit?'
@@ -29,5 +15,5 @@ if [ "${flag}" = "y" ] || [ "${flag}" = "Y" ]; then
   git push origin master
 else
   echo ''
-  echo 'Quitting from commitment. Bye.'
+  echo 'Job interrupted.'
 fi

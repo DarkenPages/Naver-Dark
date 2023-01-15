@@ -3,7 +3,7 @@ import os
 
 HEADER_BEGIN = '/* ==UserStyle=='
 HEADER_END = '==/UserStyle== */'
-FILENAME = './naver-dark.orig.user.css'
+FILENAME = './naver-dark.user.css'
 
 
 def main():

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.65.19
+@version		1.65.20
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -118545,127 +118545,327 @@
 {
 	body {
 		background-color: #2f2f2f !important;
-	}
-	
-	button[class*='ContextMenuFolder_btn_filter__'] {
 		color: #fff !important;
 	}
 	
-	li[class*='FolderCard_list_item__'][class*='FolderCard_type_pcmap__'] button[class*='FolderCard_link__']:hover {
-		background: #3a3a3a !important;
-	}
-	
-	li[class*='FolderCard_list_item__'] div[class*='FolderCard_tit_area__'] span[class*='FolderCard_name__'] {
-		color: #fff !important;
-	}
-	
-	div[class*='ContextMenu_context_menu_wrapper__'][class*='ContextMenu_type_pcmap__'] div[class*='ContextMenu_ly_manage__'] button[class*='ContextMenu_btn__'] {
-		color: #cacaca;
-	}
-	
-	div[class*='ContextMenu_context_menu_wrapper__'][class*='ContextMenu_type_pcmap__'] div[class*='ContextMenu_ly_manage__'] button[class*='ContextMenu_btn__'] svg[class*='ContextMenu_icon__'], div[class*='ContextMenu_context_menu_wrapper__'][class*='ContextMenu_type_pcmap__'] div[class*='ContextMenu_ly_manage__'] button[class*='ContextMenu_btn__'] [role=presentation] {
-		fill: #cacaca;
-	}
-	
-	button[class*='Button_btn_manage__'][class*='Button_type_pcmap__']:hover svg[class*='Button_icon__'] {
-		fill: #cacaca;
-	}
-	
-	header[class*='Header_header__'] {
+	body #__next > div:first-child > div:first-child > div:first-child button[class][type=button] {
 		color: #fff;
 	}
 	
-	div[class*='FilterTab_sort_area__'] button[class*='FilterTab_btn_sort__'] {
-		color: #cacaca;
-	}
-	
-	div[class*='FilterTab_sort_area__'][class*='FilterTab_type_pcmap__'] ul[class*='FilterTab_sort_list__'] button[class*='FilterTab_btn__'] {
-		color: #cacaca;
-	}
-	
-	div[class*='styles_wrapper__'][class*='styles_type_bookmark__'] div[class*='styles_tit_area__'] {
-		color: #cacaca;
-	}
-	
-	div[class*='styles_modal_new_list__'] div[class*='styles_header__'] {
-		color: #fff;
-	}
-	
-	div[class*='styles_input_name_wrapper__'] input[class*='styles_input_text__'], div[class*='styles_input_text_wrapper__'] input[class*='styles_input_text__'] {
-		color: #cacaca;
-	}
-	
-	div[class*='styles_input_name_wrapper__'] span[class*='styles_count__'] em, div[class*='styles_input_name_wrapper__'] span[class*='styles_count__'] em {
-		color: #fff;
-	}
-	
-	div[class*='styles_modal_new_list__'] h2[class*='styles_section_header__'] {
-		color: #fff;
-	}
-	
-	div[class*='styles_modal_new_list__'] div[class*='styles_section_hr__'] {
+	body #__next > div:first-child > div:first-child + div + ul > li[class] > button:hover {
 		background: #3a3a3a;
 	}
 	
-	div[class*='InputPublicStatus_input_radio_wrapper__'] label[class*='InputPublicStatus_input_label__'] div[class*='InputPublicStatus_open_info_area__'] div[class*='InputPublicStatus_tit_area__'] {
+	body #__next > div:first-child > div:first-child + div + ul > li[class] > button > div:first-child + div > div:first-child > span {
 		color: #fff;
 	}
 	
-	div[class*='InputPublicStatus_input_radio_wrapper__'] label[class*='InputPublicStatus_input_label__'] div[class*='InputPublicStatus_open_info_area__'] div[class*='InputPublicStatus_txt_area__'] {
+	body #__next > div:first-child > div:first-child + div + ul > li[class] > button + div > div > button > svg {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	body #__next > div:first-child > div:first-child + div + ul > li[class] > button + div > div > button + div > button:not(:hover) {
 		color: #cacaca;
 	}
 	
-	div[class*='styles_input_text_wrapper__'] {
+	body #__next > div:first-child > div:first-child + div + ul > li[class] > button + div > div > button + div > button:not(:hover) svg {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	body #__next > div:first-child > div:first-child + div + ul > li[class] > button + div > div > button + div > div[class] {
+		color: #cacaca;
+	}
+	
+	body #__next > div:first-child > div:first-child + div + ul > li[class] > button + div > div > button + div > div[class] > svg[role=presentation] {
+		fill: #cacaca;
+	}
+	
+	body #__next > div[role=main] > div:first-child + div[class] > header[class] {
+		color: #fff;
+	}
+	
+	body #__next > div[role=main] > div:first-child + div[class] > header[class] > div[class] > div[class] > div[class] > svg + h1 {
+		color: #fff;
+	}
+	
+	body #__next > div[role=main] > div:first-child + div[class] > header[class]:first-child + header[class] + div[class] > div[class]:first-child > div > button {
+		color: #cacaca;
+	}
+	
+	body #__next > div[role=main] > div:first-child + div[class] > header[class]:first-child + header[class] + div[class] > div[class]:first-child > div > button + div[class] > ul > li > button:not(:hover):not([aria-selected=true]) {
+		color: #cacaca;
+	}
+	
+	body #__next > div[role=main] > div:first-child + div[class] > header[class]:first-child + header[class] + div[class] > div[class]:first-child > div[role=tablist] > div[class] > .flicking-viewport .flicking-camera > span > button:not([aria-selected=true]):not(:hover) > span {
+		color: #cacaca;
+	}
+	
+	body #__next > div[role=main] > div:first-child + div[class] > header[class]:first-child + header[class] + div[class] > div[class]:first-child > div[role=tablist] > div[class] > .flicking-viewport .flicking-camera > span > button:hover > span {
+		color: #fff;
+	}
+	
+	body #__next > div[role=main] > div:first-child + div[class] > header[class]:first-child + header[class] + div[class] > div[class]:first-child + div[class] > svg + div {
+		color: #cacaca;
+	}
+	
+	body #__next > div[role=main] > div:first-child + div[class] > header[class]:first-child + header[class] + div[class] > div[class]:first-child + div[class] > ul > li > button[type=button] > div:first-child + div[class] > span {
+		color: #cacaca;
+	}
+	
+	body #__next > div[role=main] > div:first-child + div[class] > header[class]:first-child + header[class] + div[class] > div[class]:first-child + div[class] > ul > li > button[type=button] + div[class] > div[class] > button[type=button] > svg {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	body #__next > div[role=main] > div:first-child + div[class] > header[class]:first-child + header[class] + div[class] > div[class]:first-child + div[class] > ul > li > button[type=button] + div[class] > div[class] > button[type=button] + div[class] > button[type=button]:not(:hover) {
+		color: #cacaca;
+	}
+	
+	body #__next > div[role=main] > div:first-child + div[class] > header[class]:first-child + header[class] + div[class] > div[class]:first-child + div[class] > ul > li > button[type=button] + div[class] > div[class] > button[type=button] + div[class] > button[type=button]:not(:hover) > svg {
+		fill: #cacaca;
+	}
+	
+	body #__next > div[role=main] > div:first-child + div[class] > header[class]:first-child + header[class] > div[class] > div:first-child + div + div > button[type=button]:not(:hover) {
+		color: #cacaca;
+	}
+	
+	body #__next > div[role=main] > div:first-child + div[class] > header[class]:first-child + header[class] > div[class] > div:first-child + div + div > button[type=button] + div[class*='share'][role=button]:not(:hover) {
+		color: #cacaca;
+	}
+	
+	body #__next > div[role=main] > div:first-child + div[class] > header[class]:first-child + header[class] > div[class] > div:first-child + div + div > button[type=button] + div[class*='share'][role=button]:not(:hover) > button > svg {
+		fill: #cacaca;
+	}
+	
+	body #__next > div[role=main] > div:first-child + div[class] > header[class]:first-child + header[class] > div[class] > div:first-child + div + div > button[type=button]:not(:hover) > svg {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	#modal-root > div[role=dialog] > div[class] {
+		color: #fff;
+		border-bottom: 1px solid #404040;
+	}
+	
+	#modal-root > div[role=dialog] > div[class] + ul[class] > li[class] > div:hover {
 		background: #3a3a3a;
 	}
 	
-	div[class*='ContextMenu_context_menu_wrapper__'][class*='ContextMenu_type_pcmap__'] div[class*='ContextMenu_ly_manage__'] div[class*='ContextMenu_btn__'] {
-		color: #cacaca;
+	#modal-root > div[role=dialog] > div[class] + ul[class] > li[class] > div > div > div:first-child {
+		color: #fff;
 	}
 	
-	div[class*='ContextMenu_ly_manage__'] div[class*='ContextMenu_btn__']+div[class*='ContextMenu_btn__'] {
+	#modal-root > div[role=dialog] > div[class] + ul[class] > li[class] + li[class] {
 		border-top: 1px solid #404040;
 	}
 	
-	div[class*='ContextMenu_context_menu_wrapper__'][class*='ContextMenu_type_pcmap__'] div[class*='ContextMenu_ly_manage__'] div[class*='ContextMenu_btn__'] svg[class*='ContextMenu_icon__'], div[class*='ContextMenu_context_menu_wrapper__'][class*='ContextMenu_type_pcmap__'] div[class*='ContextMenu_ly_manage__'] div[class*='ContextMenu_btn__'] [role=presentation] {
-		fill: #cacaca;
+	#modal-root > div[role=dialog] > div[class] + ul[class] > li[class] + li[class] > button:hover {
+		background: #3a3a3a;
 	}
 	
-	header[class*='Header_header__'] div[class*='Header_txt_area__'] {
+	#modal-root > div[role=dialog] > div[class] + ul[class] > li[class] + li[class] > button > div[class] {
 		color: #fff;
 	}
 	
-	header[class*='Header_header__'] div[class*='Header_btn_area__'] [class*='Header_btn__'] {
-		color: #cacaca;
-	}
-	
-	header[class*='Header_header__'] div[class*='Header_btn_area__'] svg[class*='Header_icon__'] {
-		fill: #cacaca;
-	}
-	
-	button[class*='BookmarkCard_list_inner__'] div[class*='BookmarkCard_etc_area__'] span[class*='BookmarkCard_item__'] {
+	body #__next > .place_bookmark_wrapper > header:first-child > div:first-child > div:first-child > div:first-child > svg + h1 {
 		color: #fff;
 	}
 	
-	div[class*='DetailList_tab_area__'] button[class*='DetailList_tab__'] {
+	body #__next > .place_bookmark_wrapper > header:first-child + div[class] > ul[class] > li[class] > input[id*='place-'] + label[for*='place-'] > div:nth-child(2) > div:nth-child(2) > span {
 		color: #cacaca;
 	}
 	
-	div[class*='Alert_modal_alert__'][class*='Alert_type_pcmap__'] div[class*='Alert_tit_area__'] {
-		color: #fff;
-	}
-	
-	div[class*='Alert_modal_alert__'][class*='Alert_type_pcmap__'] div[class*='Alert_txt_area__'] {
+	#modal-root div[role=alert] > div:first-child > div {
 		color: #cacaca;
 	}
 	
-	div[class*='RemoveBookmarksModal_txt_inner__'] label[class*='RemoveBookmarksModal_input_label__'] {
-		color: #cacaca;
-	}
-	
-	div[class*='Alert_modal_alert__'][class*='Alert_type_pcmap__'] div[class*='Alert_btn_area__'] button[class*='Alert_btn__']:hover {
+	#modal-root div[role=alert] > div:nth-child(2) > button[type=button]:hover {
 		background-color: #3a3a3a;
 	}
+	
+	#modal-root div[role=dialog] > div[class] > div:first-child {
+		color: #fff;
+	}
+	
+	#modal-root div[role=dialog] > div[class] > div:nth-child(2) > div > div > div > #inputName {
+		color: #cacaca;
+	}
+	
+	#modal-root div[role=dialog] > div[class] > div:nth-child(2) > div > div > div > #inputName + label + button + span > em {
+		color: #fff;
+	}
+	
+	#modal-root div[role=dialog] > div[class] > div:nth-child(2) > div:first-child > div:nth-child(2) > h2 {
+		color: #fff;
+	}
+	
+	#modal-root div[role=dialog] > div[class] > div:nth-child(2) > div:first-child + div {
+		background: #3a3a3a;
+	}
+	
+	#modal-root div[role=dialog] > div[class] > div:nth-child(2) > div:nth-child(3) > div > h2 {
+		color: #fff;
+	}
+	
+	#modal-root div[role=dialog] > div[class] > div:nth-child(2) > div:nth-child(3) > div > div > input[type=radio] + label > svg + div > div:first-child {
+		color: #fff;
+	}
+	
+	#modal-root div[role=dialog] > div[class] > div:nth-child(2) > div:nth-child(3) > div > div > input[type=radio] + label > svg + div > div:nth-child(2) {
+		color: #cacaca;
+	}
+	
+	#modal-root div[role=dialog] > div[class] > div:nth-child(2) > div:nth-child(3) > div:nth-child(2) > h2 + div > div[role=textbox] {
+		background: #3a3a3a;
+	}
+	
+	#modal-root div[role=dialog] > div[class] > div:nth-child(2) > div:nth-child(3) > div:nth-child(2) > h2 + div > div[role=textbox] > input[type=text] {
+		color: #cacaca;
+	}
+	
+	#modal-root div[role=dialog] > div[class] > div:nth-child(2) > div:nth-child(3) > div:nth-child(2) > h2 + div > div[role=textbox] > input[type=text] + label + span > em {
+		color: #fff;
+	}
+	
+	#modal-root div[role=dialog] > div[class] > div:nth-child(2) > div:nth-child(3) > div:nth-child(2) > h2 + div > div[role=textbox] > input[type=url] {
+		color: #cacaca;
+	}
+	
+	#modal-root div[role=dialog] > div[class] > div[class] > div[class] {
+		color: #fff;
+	}
+	
+	#modal-root div[role=dialog] > div[class] > div[class] + div.place_scrollable_modal_content > div > button[type=button] + ul[class] > li[class] > input[id*='list-'] + label[for*='list-'] > div[class] + div[class] > div[class] > span:first-child {
+		color: #fff;
+	}
+	
+	#modal-root div[role=dialog] > div[class] + div[class] > div[class] > #leave-bookmark + label {
+		border: 1px solid #4f4f4f;
+		background: #3a3a3a;
+		color: #cacaca;
+	}
+	
+	/*body {*/
+	/*	background-color: #2f2f2f !important;*/
+	/*}*/
+	
+	/*button[class*='ContextMenuFolder_btn_filter__'] {*/
+	/*	color: #fff !important;*/
+	/*}*/
+	
+	/*li[class*='FolderCard_list_item__'][class*='FolderCard_type_pcmap__'] button[class*='FolderCard_link__']:hover {*/
+	/*	background: #3a3a3a !important;*/
+	/*}*/
+	
+	/*li[class*='FolderCard_list_item__'] div[class*='FolderCard_tit_area__'] span[class*='FolderCard_name__'] {*/
+	/*	color: #fff !important;*/
+	/*}*/
+	
+	/*div[class*='ContextMenu_context_menu_wrapper__'][class*='ContextMenu_type_pcmap__'] div[class*='ContextMenu_ly_manage__'] button[class*='ContextMenu_btn__'] {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*div[class*='ContextMenu_context_menu_wrapper__'][class*='ContextMenu_type_pcmap__'] div[class*='ContextMenu_ly_manage__'] button[class*='ContextMenu_btn__'] svg[class*='ContextMenu_icon__'], div[class*='ContextMenu_context_menu_wrapper__'][class*='ContextMenu_type_pcmap__'] div[class*='ContextMenu_ly_manage__'] button[class*='ContextMenu_btn__'] [role=presentation] {*/
+	/*	fill: #cacaca;*/
+	/*}*/
+	
+	/*button[class*='Button_btn_manage__'][class*='Button_type_pcmap__']:hover svg[class*='Button_icon__'] {*/
+	/*	fill: #cacaca;*/
+	/*}*/
+	
+	/*header[class*='Header_header__'] {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*div[class*='FilterTab_sort_area__'] button[class*='FilterTab_btn_sort__'] {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*div[class*='FilterTab_sort_area__'][class*='FilterTab_type_pcmap__'] ul[class*='FilterTab_sort_list__'] button[class*='FilterTab_btn__'] {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*div[class*='styles_wrapper__'][class*='styles_type_bookmark__'] div[class*='styles_tit_area__'] {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*div[class*='styles_modal_new_list__'] div[class*='styles_header__'] {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*div[class*='styles_input_name_wrapper__'] input[class*='styles_input_text__'], div[class*='styles_input_text_wrapper__'] input[class*='styles_input_text__'] {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*div[class*='styles_input_name_wrapper__'] span[class*='styles_count__'] em, div[class*='styles_input_name_wrapper__'] span[class*='styles_count__'] em {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*div[class*='styles_modal_new_list__'] h2[class*='styles_section_header__'] {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*div[class*='styles_modal_new_list__'] div[class*='styles_section_hr__'] {*/
+	/*	background: #3a3a3a;*/
+	/*}*/
+	
+	/*div[class*='InputPublicStatus_input_radio_wrapper__'] label[class*='InputPublicStatus_input_label__'] div[class*='InputPublicStatus_open_info_area__'] div[class*='InputPublicStatus_tit_area__'] {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*div[class*='InputPublicStatus_input_radio_wrapper__'] label[class*='InputPublicStatus_input_label__'] div[class*='InputPublicStatus_open_info_area__'] div[class*='InputPublicStatus_txt_area__'] {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*div[class*='styles_input_text_wrapper__'] {*/
+	/*	background: #3a3a3a;*/
+	/*}*/
+	
+	/*div[class*='ContextMenu_context_menu_wrapper__'][class*='ContextMenu_type_pcmap__'] div[class*='ContextMenu_ly_manage__'] div[class*='ContextMenu_btn__'] {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*div[class*='ContextMenu_ly_manage__'] div[class*='ContextMenu_btn__']+div[class*='ContextMenu_btn__'] {*/
+	/*	border-top: 1px solid #404040;*/
+	/*}*/
+	
+	/*div[class*='ContextMenu_context_menu_wrapper__'][class*='ContextMenu_type_pcmap__'] div[class*='ContextMenu_ly_manage__'] div[class*='ContextMenu_btn__'] svg[class*='ContextMenu_icon__'], div[class*='ContextMenu_context_menu_wrapper__'][class*='ContextMenu_type_pcmap__'] div[class*='ContextMenu_ly_manage__'] div[class*='ContextMenu_btn__'] [role=presentation] {*/
+	/*	fill: #cacaca;*/
+	/*}*/
+	
+	/*header[class*='Header_header__'] div[class*='Header_txt_area__'] {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*header[class*='Header_header__'] div[class*='Header_btn_area__'] [class*='Header_btn__'] {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*header[class*='Header_header__'] div[class*='Header_btn_area__'] svg[class*='Header_icon__'] {*/
+	/*	fill: #cacaca;*/
+	/*}*/
+	
+	/*button[class*='BookmarkCard_list_inner__'] div[class*='BookmarkCard_etc_area__'] span[class*='BookmarkCard_item__'] {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*div[class*='DetailList_tab_area__'] button[class*='DetailList_tab__'] {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*div[class*='Alert_modal_alert__'][class*='Alert_type_pcmap__'] div[class*='Alert_tit_area__'] {*/
+	/*	color: #fff;*/
+	/*}*/
+	
+	/*div[class*='Alert_modal_alert__'][class*='Alert_type_pcmap__'] div[class*='Alert_txt_area__'] {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*div[class*='RemoveBookmarksModal_txt_inner__'] label[class*='RemoveBookmarksModal_input_label__'] {*/
+	/*	color: #cacaca;*/
+	/*}*/
+	
+	/*div[class*='Alert_modal_alert__'][class*='Alert_type_pcmap__'] div[class*='Alert_btn_area__'] button[class*='Alert_btn__']:hover {*/
+	/*	background-color: #3a3a3a;*/
+	/*}*/
 }
 
 @-moz-document domain("dict.naver.com")

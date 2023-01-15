@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.65.18
+@version		1.65.19
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -113688,9 +113688,10 @@
 		background: #2f2f2f !important;
 	}
 	
-	today-pick-card .text_area .badge.-smart_order {
+	today-pick-card .text_area .badge.-reservation, today-pick-card .text_area .badge.-smart_order {
 		filter: invert(81.5%) hue-rotate(-180deg);
 	}
+	
 	
 	today-pick-react {
 		border-top: 1px solid #404040 !important;

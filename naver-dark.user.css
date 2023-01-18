@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.65.20
+@version		1.65.21
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -87725,7 +87725,7 @@
 	    --themeColorBT10: #51ab74;
 	    --themeColorBT11: #a6a6a6;
 	    --themeColorHC1: #700;
-	    --chatColorBG01: 57, 57, 60;
+	    --chatColorBG01: 47, 47, 47;
 	    --chatColorBG02: 72, 72, 75;
 	    --chatColorBG03: 72, 72, 75;
 	    --chatColorBG04: 92, 92, 99;
@@ -87749,7 +87749,7 @@
 	    --chatColorIC02: 71, 71, 71;
 	    --chatColorIC03: 103, 103, 103;
 	    --chatColorN_BG01: 57, 57, 60;
-	    --chatColorN_BG02: 65, 65, 68;
+	    --chatColorN_BG02: 58, 58, 58;
 	    --chatColorN_TX01: 240, 240, 242;
 	    --chatColorN_TX02: 240, 240, 242;
 	    --chatColorN_TX03: 145, 145, 146;
@@ -88016,6 +88016,26 @@
 	
 	.cs_earthquake_warning .detail_info_box .manual_list .manual_item.btn_more .text {
 		color: #cacaca;
+	}
+	
+	.cs_sign .tab_wrap2 li[role="tab"][aria-selected="true"] a {
+		color: #fff;
+	}
+	
+	.cs_sign .con_luck .month .arrow_btn a {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_sign .con_luck .month .tab_wrap3_month li[role=tab]:not([aria-selected="true"]) {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_sign .con_luck .my_luck p {
+		color: #cacaca;
+	}
+	
+	.ntalk_wrap .sc_new.sp_nchat .ChatWrap {
+		border-color: #404040;
 	}
 }
 

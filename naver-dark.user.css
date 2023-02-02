@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.65.22
+@version		1.65.23
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -94110,7 +94110,7 @@
 			background-color: #39393c
 		}
 	
-		html .as_gnb_mnews.as_type_series .Nlnb.is_fixed .Nlist_item a.Nitem_link {
+		html .as_gnb_mnews.as_type_series .Nlnb.is_fixed .Nlist_item a.Nitem_link, html .shn_thumb[style*='display'][style*='none']+.shn_text .shn_headline_text {
 			color: #dadde0
 		}
 	
@@ -94137,6 +94137,10 @@
 		html .as_mp_layout.n_news_sports .footer_notice .fn_label, html .as_mp_layout.n_news_sports .footer_notice .fn_link, html .as_mp_layout.n_news_sports .footer_shortcut .fs_link {
 			color: #919192
 		}
+	
+		html .as_mp_layout.n_news_sports .outside_area .flick:not(:last-child) .ranking_list .rl_item:last-child, html .as_mp_layout.n_news_sports .outside_area_inner>div~div {
+			border-color: #464649
+		}
 	}
 	
 	@media (min-width: 1025px) {
@@ -94149,7 +94153,11 @@
 			background-color: #39393c
 		}
 	
-		html .as_mp_layout .Ngnb_search {
+		html .as_mp_layout .as_gnb.as_type_b .Nlnb, html .n_news_mnews.as_mp_layout, html .n_news.as_mp_layout, html .shm_layer {
+			background-color: #242424
+		}
+	
+		html .as_mp_layout .Ngnb_search, html .as_mp_layout:not(.n_news_sports) .outside_area .flick:not(:last-child) .ranking_list .rl_item:last-child, html .as_mp_layout:not(.n_news_sports) .outside_area_inner>div~div {
 			border-color: #464649
 		}
 	
@@ -94157,16 +94165,12 @@
 			background-color: #303033
 		}
 	
-		html .n_news_mnews.as_mp_layout, html .n_news.as_mp_layout {
-			background-color: #39393c
-		}
-	
 		html .series_header .sh_name_button::before {
 			background-color: #464649
 		}
 	
-		html .shm_layer {
-			background-color: var(--color_layer_background_lv2)
+		html .shn_headline {
+			color: #dadde0
 		}
 	
 		html .shn_layer_inner {
@@ -94179,48 +94183,19 @@
 		}
 	}
 	
-	:root {
-		--color_visit: #919192;
-		--color_title: #f0f0f2;
-		--color_sub_info: #a5a5a7;
-		--color_sub_info2: #919192;
-		--color_separation: #303033;
-		--color_point_news_text: #5b86fd;
-		--color_point_news_old_text: #5b87fd;
-		--color_point_news_gnb: #4978f4;
-		--color_point_news: #4978f4;
-		--color_line_lv3: #595959;
-		--color_line_lv2: #545457;
-		--color_line_lv1: #464649;
-		--color_line_ad: #303030;
-		--color_likeit_title: #f0f0f2;
-		--color_likeit_sub_info: #a5a5a7;
-		--color_likeit_line_lv3: #595959;
-		--color_likeit_line_lv2: #545457;
-		--color_likeit_line_lv1: #464649;
-		--color_likeit_layer_background_lv2_border: #545457;
-		--color_likeit_layer_background_lv2: #48484b;
-		--color_likeit_body: #dadde0;
-		--color_likeit_background: #39393c;
-		--color_layer_background_lv3_border: #545457;
-		--color_layer_background_lv3: #48484b;
-		--color_layer_background_lv2_border: #545457;
-		--color_layer_background_lv2: #39393c;
-		--color_layer_background_lv1_border: #464649;
-		--color_layer_background_lv1: #303033;
-		--color_icon_arrow: rgba(255, 255, 255, 0.68);
-		--color_body_background: #1a1a1c;
-		--color_body: #dadde0;
-		--color_background_inverse: #fff;
-		--color_background_footer: #303033;
-		--color_background: #242424;
+	html .ad_area, html .media_end_linked_more_inner, html .more_news2 h4, html .office_headline .ofhe_head, html .ofpr_title, html .rankingnews .ra_head, html .relatedvideo .re_head, html body:not(.as_type_comment) .nocmt, html body:not(.as_type_comment) #cbox_module.u_cbox {
+		border-color: #242424
+	}
+	
+	html .ad_box, html .as_gnb .Nlnb_menu, html .as_gnb_entertain .Nlnb_menu, html .as_gnb_mnews .u_itw, html .as_gnb_sports .Nlnb_sub_menu, html .as_gnb_sports .Nlnb.is_fixed .Nlnb_sub_menu, html .ct_wrap, html .error_msg, html .footer_shortcut .fs_list, html .gnb_flat .gf_inner, html .media_end_head, html .media_end_head_autosummary_layer, html .media_end_head_info, html .media_journalistcard_morenews::before, html .media_journalistcard_recommend_channel, html .more_news2, html .more_news2 .type1, html .more_news2 .type2, html .more_news2 .type3, html .more_news2 h4, html .n_news_entertain .Ngnb_onenaver, html .n_news_sports .u_likeit_layer, html .newsct_body, html .ofcl_banner_count_icon_num::before, html .office_preference, html .ofpr_recommend .ofpr_btn_wrap, html .rankingnews, html .rankingnews .ra_tab_item.on .ra_tab_a, html .related_book_multi .rb_box, html .relatedvideo, html .u_atcp_area, html .u_sggt_wrap2 .sggt_fixer, html #cbox_module, html #cbox_module~.ad_box {
+		background-color: #242424
 	}
 	
 	html .as_gnb .Nitem_link_menu::before {
 		background-color: #f0f0f2
 	}
 	
-	html .as_gnb .Nitem_link, html .as_gnb_mnews .Nlnb.is_fixed .Nlist_item.is_active .Nitem_link, html .as_gnb_sports.as_type_esports .Nlist_sub_item.is_active .Nitem_sub_link_menu, html .media_end_head_fontsize_option_is_on a.media_end_head_fontsize_option_text, html .media_end_head_lang_setlayer_select .media_end_head_lang_option_is_on .media_end_head_lang_option_text {
+	html .as_gnb .Nitem_link, html .as_gnb_mnews .Nlnb.is_fixed .Nlist_item.is_active .Nitem_link, html .as_gnb_sports.as_type_esports .Nlist_sub_item.is_active .Nitem_sub_link_menu, html .media_end_head_fontsize_option_is_on a.media_end_head_fontsize_option_text, html .media_end_head_lang_setlayer_select .media_end_head_lang_option_is_on .media_end_head_lang_option_text, html .modal .m_notification .mn_btn.as_em, html .ofhd_float_title_text, html .related_series .subscribe_ico {
 		color: #fff
 	}
 	
@@ -94236,7 +94211,7 @@
 		background-color: #4978f4
 	}
 	
-	html .as_gnb_mnews .Nlist_item a.Nitem_link, html .as_gnb_mnews .u_it::placeholder, html .subscribe_cta_layer .cta_btn:not(.as_subscribe) .cta_text {
+	html .as_gnb_mnews .Nlist_item a.Nitem_link, html .as_gnb_mnews .u_it::placeholder, html .columnist>a, html .columnist h3, html .columnist p>a, html .error_msg .erms_btn:visited, html .error_msg .erms_h, html .media_end_categorize_ct_report:visited, html .media_end_channel_banner_link:visited, html .media_end_channel_layer_regular .meclr_txt, html .media_end_factcheck_headline, html .media_end_factcheck_owner_desc, html .media_end_factcheck_owner_name, html .media_end_head_autosummary_layer_body, html .media_end_head_autosummary_layer_tit, html .media_end_head_channel_layer_link:visited, html .media_end_head_journalist_layer_name, html .media_end_head_journalist_name, html .media_end_head_top_channel_layer_link:visited, html .media_end_linked_item, html .media_end_linked_item_inner, html .media_end_linked_item_inner:visited, html .media_flick .mf_title .mf_tit, html .media_journalistcard_morenews_item_inner, html .media_journalistcard_morenews_item_inner:visited, html .media_journalistcard_morenews_list, html .media_journalistcard_recommend_name, html .media_journalistcard_summary_name, html .modal .m_btn, html .modal .m_h, html .modal .m_notification .mn_h, html .modal .m_notification .mn_item, html .more_news2 li a, html .more_news2 p, html .n_news_sports .tomain .u_likeit_list_btn .u_cnt, html .n_news_sports .tomain .u_likeit_list_btn .u_txt, html .n_news_sports .u_likeit_list_count, html .newsct_article, html .nocmt_p>em, html .office_headline .ofhe_headline, html .ofhd_float_subscribe_layer:visited, html .ofpr_category_text, html .promotion .p_link, html .ra_extra_area .rl_txt, html .ranking_list .rl_txt, html .rankingnews .ra_tab_item .ra_tab_a, html .related_book .rb_order, html .related_series .subscribe_guide_p, html .series_header .subscribe_guide_p, html .relatedlist .re_list_a, html .shm_item_text, html .shn_profile_subscriber, html .simplecmt_link_text, html .simplecmt_link.is_navercomment .simplecmt_link_text, html .simplecmt_p>em, html .subscribe_alert_btn, html .subscribe_alert_btn:visited, html .subscribe_cta_layer .cta_btn:not(.as_subscribe) .cta_text, html .subscribe_guide_btn:visited, html .subscribe_guide_p>em, html .suse_name, html .tomain_info, html .tomain_info_head {
 		color: #dadde0
 	}
 	
@@ -94264,7 +94239,7 @@
 		background-image: -webkit-gradient(linear, right top, left top, color-stop(32%, rgba(57, 57, 60, 0)), color-stop(80%, #39393c))
 	}
 	
-	html .as_gnb_mnews .Nlnb::before {
+	html .as_gnb_mnews .Nlnb::before, html .offc_end_heading_box {
 		border-bottom-color: #464649;
 		background-color: #39393c
 	}
@@ -94283,29 +94258,30 @@
 		background-color: rgba(255, 255, 255, 0.13)
 	}
 	
-	html .as_gnb_mnews .u_hs, html .media_journalistcard_recommend, html .media_journalistcard_recommend_inner::before, html .ofpr_recommend, html .ofpr_recommend .ofpr_recommend_inner::before, html .related_series .rs_inner, html .shn_thumb[style*='display'][style*='none']+.shn_text, html .suse_link {
+	html .as_gnb_mnews .u_hs, html .media_end_channel_layer, html .media_end_channel_layer .office_preference, html .media_journalistcard_recommend, html .media_journalistcard_recommend_inner::before, html .newsct_body .office_preference, html .ofpr_recommend, html .ofpr_recommend .ofpr_recommend_inner::before, html .related_series .rs_inner, html .shn_thumb[style*='display'][style*='none']+.shn_text, html .suse_link {
 		background-color: #48484b
 	}
 	
 	html .as_gnb_mnews .u_hssbt_close::after, html .as_gnb_mnews .u_hssbt_close::before {
-		background-color: findColor("SUB_INFO", "dark")
+		background-color: #a5a5a7
 	}
 	
-	html .as_gnb_mnews .u_hssbt_ss::after, html .gnb_flat .gf_close, html .n_news_entertain .Ntool_button .Nicon_search, html .related_book .rb_btn_next::after, html .related_book .rb_btn_prev::after {
+	html .as_gnb_mnews .u_hssbt_ss::after, html .gnb_flat .gf_close, html .media_end_head_journalist_btn_subscribe.is_on::before, html .n_news_entertain .Ntool_button .Nicon_search, html .related_book .rb_btn_next::after, html .related_book .rb_btn_prev::after {
 		filter: invert(100%);
 		-webkit-filter: invert(100%)
 	}
 	
-	html .as_gnb_mnews .u_hssbt_us, html .copyright, html .ends_btn_head .ends_help_layer .ends_help_desc, html .media_end_linked_title_desc, html .n_news_sports .u_copyright, html .n_news_sports .u_cri:not(.u_cri_v1), html .n_news_sports .u_ftlk, html .n_news_sports span.u_cri, html .n_news_sports span.u_cri .u_cra_v1, html .u_charge_item {
-		color: #919192
+	html .as_gnb_mnews .u_hssbt_us {
+		color: #919192;
+		background-color: #39393c
+	}
+	
+	html .as_gnb_mnews .u_it, html .as_gnb_sports .Nitem_sub_link_menu, html .changecmt_info_title, html .footer_shortcut .fs_link, html .gnb_flat .gf_titleitem:visited, html .media_end_categorize_ct_title, html .media_end_channel_layer_title, html .media_end_channel_layer_title:visited, html .media_end_factcheck_logo, html .media_end_head_autosummary_layer_head_tit, html .media_end_head_cmtcount_button:visited, html .media_end_head_info_origin_link, html .media_end_head_info_origin_link:visited, html .media_end_head_title, html .media_end_head_tts_setlayer .media_end_head_tts_option_tit, html .media_end_linked_more_link:visited, html .media_end_linked_title, html .media_journalistcard_recommend_title, html .more_news2 strong, html .n_news .gnb_flat .gf_titleitem, html .n_news_mnews .gnb_flat .gf_titleitem, html .n_news .gnb_flat .gf_titleitem:visited, html .n_news_mnews .gnb_flat .gf_titleitem:visited, html .n_news_entertain .gnb_flat .gf_titleitem, html .n_news_entertain .gnb_flat .gf_titleitem:visited, html .n_news_sports .u_likeit_text, html .offc_end_heading_page, html .office_headline .ofhe_head_title_link, html .ofpr_recommend .ofpr_tit, html .ofpr_title_main, html .ra_extra_area .rl_ranking, html .ranking_list .rl_ranking, html .rankingnews .ra_title, html .series_header .sh_name_text, html .shm_title, html .shn_profile_name, html .simplecmt_h, html .suse_h, html .u_atcp_a, html .u_sggt_wrap2 .kwd_lst .kwd, html a.media_end_head_fontsize_option_text {
+		color: #f0f0f2
 	}
 	
 	html .as_gnb_mnews .u_it:-ms-input-placeholder, html .as_gnb_mnews .u_it::-moz-placeholder, html .as_gnb_mnews .u_it::-ms-input-placeholder, html .as_gnb_mnews .u_it::-webkit-input-placeholder {
-		color: #dadde1
-	}
-	
-	html .as_gnb_sports .Nitem_sub_link_menu, html .footer_shortcut .fs_link, html .shm_title {
-		color: #f0f0f2
+		color: #dadde0
 	}
 	
 	html .as_gnb_sports .Nitem_sub_link_menu.as_kbo40 {
@@ -94324,12 +94300,32 @@
 		background-color: #6b9cff
 	}
 	
+	html .as_gnb_sports .Nlnb.is_fixed .Nlnb_sub_menu::before, html .as_type_border .ranking_list .rl_item:last-of-type, html .changecmt+#cbox_module.u_cbox, html .ends_btn, html .modal .m_btn+.m_btn, html .modal .m_btns, html .modal .m_notification .mn_list, html .more_news2 .type1~.type3, html .more_news2 .type2~.type3, html .n_news_entertain .gnb_flat .gf_inner, html .ofpr_btn_wrap button+button, html .ranking_list .rl_item, html .rankingnews .ra_error, html .rankingnews.as_type_border .ra_area, html .statement_cmt, html .subscribe_alert_btn+.subscribe_alert_btn, html .subscribe_alert_btns, html .u_atcp_l, html .u_sggt_wrap2 .kwd_lst li {
+		border-color: #464649
+	}
+	
 	html .as_gnb_sports.as_type_esports .Nitem_sub_link_menu {
 		color: #a0a5b6
 	}
 	
+	html .as_gnb_sports.as_type_esports .Nlnb_sub_menu, html .as_gnb_sports.as_type_esports .Nlnb.is_fixed .Nlnb_sub_menu {
+		background-color: #151618
+	}
+	
+	html .as_gnb_sports.as_type_golf .Nlist_sub_item.is_active .Nitem_sub_link_menu {
+		color: #009e66
+	}
+	
+	html .as_gnb_sports.as_type_golf .Nlist_sub_item.is_active .Nitem_sub_link_menu::before {
+		background-color: #009e66
+	}
+	
 	html .as_gnb.as_type_a .Nitem_link {
 		color: rgba(255, 255, 255, 0.7)
+	}
+	
+	html .as_gnb.as_type_a .Nlnb_menu, html .as_gnb.as_type_c .Nlnb_menu {
+		background-color: currentColor
 	}
 	
 	html .as_mp_layout .ofhe_flick_btn_next, html .as_mp_layout .ofhe_flick_btn_prev, html .ofpr_scroller_btn_next, html .ofpr_scroller_btn_prev, html .shn_flick_btn_next, html .shn_flick_btn_prev, html .suse_flick_btn_next, html .suse_flick_btn_prev {
@@ -94358,11 +94354,18 @@
 	}
 	
 	html .banner_image {
+		border-color: #303033;
 		background: transparent
 	}
 	
 	html .banner_image[style*='background'i][style*='#ffffff'i], html .newsct_article a[bgcolor], html .newsct_article a[style*='background'i], html .newsct_article b[bgcolor], html .newsct_article b[style*='background'i], html .newsct_article blockquote[bgcolor], html .newsct_article blockquote[style*='background'i], html .newsct_article dd[bgcolor], html .newsct_article dd[style*='background'i], html .newsct_article div[bgcolor], html .newsct_article div[style*='background'i], html .newsct_article dl[bgcolor], html .newsct_article dl[style*='background'i], html .newsct_article dt[bgcolor], html .newsct_article dt[style*='background'i], html .newsct_article figcaption[bgcolor], html .newsct_article figcaption[style*='background'i], html .newsct_article figure[bgcolor], html .newsct_article figure[style*='background'i], html .newsct_article font[bgcolor], html .newsct_article font[style*='background'i], html .newsct_article h1[bgcolor], html .newsct_article h1[style*='background'i], html .newsct_article h2[bgcolor], html .newsct_article h2[style*='background'i], html .newsct_article h3[bgcolor], html .newsct_article h3[style*='background'i], html .newsct_article h4[bgcolor], html .newsct_article h4[style*='background'i], html .newsct_article h5[bgcolor], html .newsct_article h5[style*='background'i], html .newsct_article h6[bgcolor], html .newsct_article h6[style*='background'i], html .newsct_article li[bgcolor], html .newsct_article li[style*='background'i], html .newsct_article ol[bgcolor], html .newsct_article ol[style*='background'i], html .newsct_article p[bgcolor], html .newsct_article p[style*='background'i], html .newsct_article span[bgcolor], html .newsct_article span[style*='background'i], html .newsct_article strong[bgcolor], html .newsct_article strong[style*='background'i], html .newsct_article table[bgcolor], html .newsct_article table[style*='background'i], html .newsct_article td[bgcolor], html .newsct_article td[style*='background'i], html .newsct_article th[bgcolor], html .newsct_article th[style*='background'i], html .newsct_article tr[bgcolor], html .newsct_article tr[style*='background'i], html .newsct_article ul[bgcolor], html .newsct_article ul[style*='background'i] {
 		background: transparent !important
+	}
+	
+	html .changecmt {
+		color: #a5a5a7;
+		border-color: #535353;
+		background-color: #434344
 	}
 	
 	html .changecmt_info .changecmt_btn_info_close, html .help_button::before, html .ofhe_info_button::before, html .help_layer_close::before, html .ofhe_info_layer_close::before, html .media_end_categorize_ct_close::before, html .media_end_factcheck_info_close::after, html .media_end_factcheck_infoicon, html .media_end_head_autosummary_help, html .media_end_head_channel_layer_close::before, html .media_flick .mf_error .mf_desc::before, html .media_journalistcard_recommend_close, html .nocmt_p::before, html .office_headline .ofhe_notice_text::before, html .ofpr_m_empty::before, html .ofpr_recommend .ofpr_recommend_close::before, html .pg_num_area.pg_num_area_v1 .pg_num::before, html .ra_extra_area .rl_error .rl_error_desc::before, html .ranking_list .rl_error .rl_error_desc::before, html .rankingnews .ra_error .ra_error_desc::before, html .subscribe_guide_close::before, html .tomain_info_close::before, html .tomain.as_addinfo button.to_infobutton_b::before, html .u_sggt_wrap2 .kwd_info.imsc_bf::before {
@@ -94375,13 +94378,30 @@
 		background-position: -365px -207px
 	}
 	
-	html .changecmt_layer, html .media_end_factcheck_info, html .subscribe_guide {
-		border: solid 1px rgba(255, 255, 255, 0.05)
+	html .changecmt_info_txt, html .columnist p, html .error_msg .erms_p, html .media_end_categorize_link, html .media_end_categorize_link:visited, html .media_end_head_autosummary_layer_head_txt, html .media_end_head_fontsize_option_name, html .media_end_head_lang_option_name, html .media_end_head_top_channel_add.is_disabled, html .media_end_head_top_channel_layer:visited, html .media_end_head_top_logo_text, html .media_end_head_tts_setlayer .media_end_head_tts_option, html .media_end_issuetimeline_go .meig_link:visited, html .media_flick .mf_error .mf_desc, html .media_journalistcard_recommend_channel_layer:visited, html .media_journalistcard_recommend_subscribe, html .modal .m_notification .mn_p, html .modal .m_p, html .more_news2 .by, html .n_news_sports .u_likeit_list_name, html .newsct_body .img_desc, html .office_headline .ofhe_lede, html .office_headline .ofhe_notice_text, html .ofpr_btn_confirm.disabled, html .ofpr_btn_more, html .ofpr_recommend .ofpr_btn_confirm.disabled, html .ofpr_recommend .ofpr_btn_more, html .ofpr_text, html .pac_cmt p, html .ra_extra_area .rl_author_name, html .ranking_list .rl_author_name, html .ra_extra_area .rl_comment, html .ra_extra_area .rl_player, html .ra_extra_area .rl_time, html .ra_extra_area .rl_visit, html .ranking_list .rl_comment, html .ranking_list .rl_player, html .ranking_list .rl_time, html .ranking_list .rl_visit, html .ra_extra_area .rl_date, html .ra_extra_area .rl_date_time, html .ranking_list .rl_date, html .ranking_list .rl_date_time, html .ra_extra_area .rl_error .rl_error_desc, html .ranking_list .rl_error .rl_error_desc, html .ra_extra_area .rl_press, html .ranking_list .rl_press, html .ra_extra_area .rl_time_news, html .ranking_list .rl_time_news, html .rankingnews .ra_error .ra_error_desc, html .rankingnews .ra_time, html .related_book .rb_txt, html .relatedlist .re_list_d, html .relatedlist .re_title_badge, html .relatedlist .re_title_text, html .relatedvideo .re_error .re_error_desc, html .series_header .sh_right .subscribe.on .subscribe_ico, html .shn_thumb[style*='display'][style*='none']+.shn_text .shn_summary, html .simplecmt_p, html .statement_cmt p, html .subscribe_alert_p_dsc, html .tomain_info_body, html .tomain_info_link, html .u_cr, html .u_ftlk {
+		color: #a5a5a7
 	}
 	
-	html .changecmt, html .media_end_channel_banner_link {
-		border-color: #535353;
-		background-color: #434344
+	html .changecmt_layer {
+		border: solid 1px rgba(255, 255, 255, 0.05);
+		background-color: #48484b
+	}
+	
+	html .columnist>a::after, html .columnist p>a::after, html .media_end_categorize_ct_report::after, html .media_end_factcheck_link::after, html .media_journalistcard_summary_name_text::after, html .media_more::after, html .office_headline .ofhe_head_title_link::after, html .ofpr_btn_more::after, html .relatedlist .re_title_a::after, html .subscribe_guide_btn::after, html a.ofpr_title_inner::after {
+		border-color: rgba(255, 255, 255, 0.68)
+	}
+	
+	html .columnist h3>a, html .copyright, html .ends_btn_head .ends_help_layer .ends_help_desc, html .media_end_factcheck_source, html .media_end_head_info_datestamp, html .media_end_head_journalist_layer_subscriber, html .media_end_linked_title_desc, html .media_journalistcard_word, html .n_news .u_copyright, html .n_news_mnews .u_copyright, html .n_news_sports .u_copyright, html .n_news_sports .u_cri:not(.u_cri_v1), html .n_news_sports .u_ftlk, html .n_news_sports span.u_cri, html .n_news_sports span.u_cri .u_cra_v1, html .related_book .rb_txt_term, html .shn_date, html .u_atcp_fcb, html .u_atcp_l .u_atcp_date, html .u_charge_item, html .u_cri, html .u_sggt_wrap2 .kwd_info, html .u_sggt_wrap2 .kwd_lst li.type_date .date, html .u_sggt_wrap2 .sggt_footer [class^='opt_'] a, html a.u_cra, html span.u_cri, html span.u_cri .u_cra_v1 {
+		color: #919192
+	}
+	
+	html .ct_scroll_wrapper::after, html .n_news_entertain .Ngnb_service::after, html .subscribe_cta_layer .cta_btn:not(.as_subscribe), html .tomain .to_infobutton::before {
+		background: #464649
+	}
+	
+	html .ends_addition .spi_wrap .spi .sns_share {
+		border-color: #595959;
+		background: #39393c
 	}
 	
 	html .ends_addition .spi_wrap .spi .sns_share::after, html .media_end_head_autosummary_layer_close::before, html .media_end_head_top_channel_add.is_disabled::before, html .media_end_head_tts_setlayer_close::before, html .ofpr_btn_confirm.disabled::before, html .ra_extra_area .rl_comment::before, html .ra_extra_area .rl_player::before, html .ra_extra_area .rl_time::before, html .ra_extra_area .rl_visit::before, html .ranking_list .rl_comment::before, html .ranking_list .rl_player::before, html .ranking_list .rl_time::before, html .ranking_list .rl_visit::before, html .related_series .subscribe_guide_close, html .series_header .subscribe_guide_close, html .related_series .subscribe_guide_p::after, html .series_header .subscribe_guide_p::after, html .simplecmt_link.is_officecomment::after, html .u_atcp_addb, html .u_sggt_wrap2 .kwd_lst .bt_del .imsc {
@@ -94448,13 +94468,22 @@
 		background-position: -313px -280px
 	}
 	
-	html .footer_notice .fn_link {
+	html .error_msg .erms_btn, html .modal .m_notification .mn_btn, html .related_book .rb_btn_buy, html .related_book .rb_btn_more, html .simplecmt_links {
+		color: #dadde0;
+		border-color: #464649
+	}
+	
+	html .error_msg.is_noicon .erms_btns::before, html .n_news_entertain .Nicon_family::before, html .u_atcp_dv {
+		background-color: #464649
+	}
+	
+	html .footer_notice .fn_link, html .media_end_linked_more_link, html .office_headline {
 		color: #f0f0f2;
 		background-color: #39393c
 	}
 	
 	html .footer_notice .fn_link::after {
-		background-position: -274px -269px
+		background-position: -266px -269px
 	}
 	
 	html .footer_notice, html .footer_shortcut, html .n_news_sports .u_ft, html .ofpr_item::before, html .ofpr_scroller .ofpr_item::before, html .rankingnews .ra_tab_list {
@@ -94469,13 +94498,15 @@
 		background-color: rgba(255, 255, 255, 0.1)
 	}
 	
-	html .footer_shortcut .fs_list {
-		background-color: #39393c
+	html .gnb_flat.is_whitelogo .gf_inner {
+		background-color: #1e1e41
 	}
 	
-	html .help_layer, html .ofhe_info_layer, html .media_end_head_channel_layer, html .media_end_head_top_channel_layer, html .n_news_sports .u_likeit_button+.u_likeit_layer, html .ofhd_float_subscribe_layer {
+	html .help_layer, html .ofhe_info_layer, html .media_end_head_channel_layer, html .media_end_head_top_channel_layer, html .ofhd_float_subscribe_layer {
+		color: #dadde0;
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16);
 		border-color: rgba(255, 255, 255, 0.03);
+		background-color: #48484b;
 		-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16)
 	}
 	
@@ -94483,8 +94514,16 @@
 		display: none !important
 	}
 	
-	html .media_end_categorize_ct, html .n_news .gnb_flat .gf_inner, html .n_news_mnews .gnb_flat .gf_inner, html .tomain_info_layer {
-		border-color: rgba(255, 255, 255, 0.05)
+	html .media_end_categorize_ct {
+		color: #a5a5a7;
+		border-color: rgba(255, 255, 255, 0.05);
+		background: #48484b
+	}
+	
+	html .media_end_categorize_ct_report {
+		color: #dadde0;
+		border-color: #595959;
+		background: #48484b
 	}
 	
 	html .media_end_categorize_item {
@@ -94495,7 +94534,7 @@
 		background-position: -365px -89px
 	}
 	
-	html .media_end_channel_banner_add.is_disabled, html .media_journalistcard_item .subscribe.on .subscribe_ico, html .media_journalistcard_recommend .subscribe.on .subscribe_ico, html .media_journalistcard_recommend_channel_add.is_disabled, html .rankingnews .ra_title_badge.as_paid {
+	html .media_end_channel_banner_add.is_disabled, html .media_end_head_journalist_btn_subscribe.is_on, html .media_journalistcard_item .subscribe.on .subscribe_ico, html .media_journalistcard_recommend .subscribe.on .subscribe_ico, html .media_journalistcard_recommend_channel_add.is_disabled, html .rankingnews .ra_title_badge.as_paid, html .relatedlist .re_more_b {
 		color: #a5a5a7;
 		border-color: #595959
 	}
@@ -94504,17 +94543,43 @@
 		border-color: rgba(255, 255, 255, 0.36)
 	}
 	
+	html .media_end_channel_banner_link {
+		color: #dadde0;
+		border-color: #535353;
+		background-color: #434344
+	}
+	
+	html .media_end_channel_layer_regular .meclr_btn {
+		color: #dadde0;
+		border-color: #464649;
+		background-color: #39393c
+	}
+	
+	html .media_end_channel_layer_regular .meclr_ct, html .media_journalistcard_recommend_item_inner, html .ofpr_a[aria-checked='true']::before, html .ofpr_recommend .ofpr_a, html .related_series {
+		background: #39393c
+	}
+	
 	html .media_end_factcheck_ct {
-		border-top-color: var(--color_line_lv2)
+		border-top-color: #545457
+	}
+	
+	html .media_end_factcheck_info {
+		color: #a5a5a7;
+		border: solid 1px rgba(255, 255, 255, 0.05);
+		background: #39393c
 	}
 	
 	html .media_end_factcheck_inner {
 		border-color: #39393b;
-		background: var(--color_layer_background_lv3)
+		background: #48484b
 	}
 	
 	html .media_end_factcheck_owner_photo {
 		background-position: 0px -359px
+	}
+	
+	html .media_end_factcheck_tag, html .media_end_factcheck_tag:visited, html .media_end_issuetimeline_go .meig_point, html .media_end_linked_more_point, html .more_news2 h4 em, html .n_news .field_article, html .n_news_mnews .field_article, html .n_news .media_end_head_fontsize_option_is_on .media_end_head_fontsize_option_name, html .n_news_mnews .media_end_head_fontsize_option_is_on .media_end_head_fontsize_option_name, html .n_news .media_end_head_fontsize_option_is_on .media_end_head_fontsize_option_name:visited, html .n_news_mnews .media_end_head_fontsize_option_is_on .media_end_head_fontsize_option_name:visited, html .n_news .media_end_head_tts_setlayer .media_end_head_tts_option.media_end_head_tts_option_is_on, html .n_news_mnews .media_end_head_tts_setlayer .media_end_head_tts_option.media_end_head_tts_option_is_on, html .n_news .media_end_linked_title_text, html .n_news_mnews .media_end_linked_title_text, html .n_news .media_journalistcard_summary_press_text, html .n_news_mnews .media_journalistcard_summary_press_text, html .n_news .subscribe_ico, html .n_news_mnews .subscribe_ico, html .u_atcp_mk {
+		color: #5b86fd
 	}
 	
 	html .media_end_head_autosummary_button::before {
@@ -94525,12 +94590,22 @@
 		background-position: -313px -56px
 	}
 	
-	html .media_end_head_autosummary_layer_head::after {
-		border-color: var(--color_line_lv2)
+	html .media_end_head_autosummary_layer_head::after, html .media_end_head_journalist_layer_item, html .media_end_head_journalist_layer_talk::after, html .simplecmt_link.is_navercomment {
+		border-color: #545457
+	}
+	
+	html .media_end_head_channel_layer_link, html .media_end_head_top_channel_layer_link, html .ofhd_float_subscribe_layer_link, html .subscribe_guide_btn {
+		color: #dadde0;
+		border-color: #595959
 	}
 	
 	html .media_end_head_channel_layer_link::after, html .media_end_head_top_channel_layer_link::after, html .ofhd_float_subscribe_layer_link::after, html button.media_end_head_journalist_box::after {
-		background-position: -242px -269px
+		background-position: -234px -269px
+	}
+	
+	html .media_end_head_cmtcount_button {
+		color: #f0f0f2;
+		border-color: #595959
 	}
 	
 	html .media_end_head_cmtcount_button::before {
@@ -94538,7 +94613,8 @@
 	}
 	
 	html .media_end_head_fontsize_is_on .media_end_head_fontsize_set::after, html .media_end_head_fontsize_setlayer, html .media_end_head_journalist_layer, html .media_end_head_journalist_layer::before, html .media_end_head_lang_is_on .media_end_head_lang_set::after, html .media_end_head_lang_setlayer, html .media_end_head_tts_run.is_active::after, html .media_end_head_tts_setlayer, html .n_news_sports .u_likeit_button+.u_likeit_layer::before {
-		border-color: rgba(255, 255, 255, 0.03)
+		border-color: rgba(255, 255, 255, 0.03);
+		background-color: #48484b
 	}
 	
 	html .media_end_head_fontsize_option1, html .media_end_head_fontsize_option2, html .media_end_head_fontsize_option3, html .media_end_head_fontsize_option4, html .media_end_head_fontsize_option5 {
@@ -94559,16 +94635,21 @@
 		background-color: #303038
 	}
 	
-	html .media_end_head_info_origin_inner {
+	html .media_end_head_info_datestamp_bunch+.media_end_head_info_datestamp_bunch::before, html .media_end_head_journalist_name+.media_end_head_journalist_name::before {
+		background-color: #595959
+	}
+	
+	html .media_end_head_info_origin_inner, html .media_end_head_journalist_layer_definition_wrap:nth-of-type(n + 2) dt::before, html .media_journalistcard_item, html .n_news_sports .tomain .u_likeit_list_btn, html .ofpr_item.is_empty::before, html .ra_extra_area .rl_press::before, html .ranking_list .rl_press::before {
 		border-color: #595959
 	}
 	
 	html .media_end_head_journalist_layer_talk {
+		border-color: rgba(73, 120, 244, 0.61);
 		background-color: #4f4f51
 	}
 	
-	html .media_end_head_journalist_layer_talk_new, html .media_end_head_journalist_talk_new, html .media_journalistcard_summary_talk_new {
-		border-color: #4f4f51
+	html .media_end_head_journalist_layer_talk_new {
+		border-color: #48484b
 	}
 	
 	html .media_end_head_journalist_layer_thumb {
@@ -94579,12 +94660,13 @@
 		background-position: -239px -120px
 	}
 	
-	html .media_end_head_journalist_name+.media_end_head_journalist_name::before {
-		background-color: #595959
+	html .media_end_head_journalist_talk {
+		color: #4978f4;
+		background-color: #444448
 	}
 	
-	html .media_end_head_journalist_talk, html .media_journalistcard_summary_talk {
-		background-color: #444448
+	html .media_end_head_journalist_talk_new {
+		border-color: #4f4f51
 	}
 	
 	html .media_end_head_lang_set::before {
@@ -94592,13 +94674,23 @@
 	}
 	
 	html .media_end_head_lang_setlayer_select .media_end_head_lang_option_text {
-		color: var(--color_sub_info);
+		color: #a5a5a7;
 		border: solid 1px #58585a;
 		background-color: #545458
 	}
 	
+	html .media_end_head_origin_link, html .u_sggt_wrap2 .sggt_header {
+		color: #a5a5a7;
+		border-color: #464649
+	}
+	
 	html .media_end_head_print .media_end_print_link::before {
 		background-position: -118px -269px
+	}
+	
+	html .media_end_head_tts_desc {
+		color: #a5a5a7;
+		border-color: #545457
 	}
 	
 	html .media_end_head_tts_run::before {
@@ -94609,13 +94701,29 @@
 		background-position: -44px -359px
 	}
 	
+	html .media_end_issuetimeline_go .meig_link {
+		color: #a5a5a7;
+		border-color: #464649;
+		background-color: #39393c
+	}
+	
 	html .media_end_issuetimeline_go .meig_link::after, html .media_end_linked_more_link::after {
 		background-position: -215px -338px
+	}
+	
+	html .media_end_summary::before {
+		background: #dadde0
 	}
 	
 	html .media_flick .mf_thumb {
 		background: url("https://ssl.pstatic.net/static.news/image/news/m/noimage/dark/noimage_288x176_dark.png");
 		background-size: 144px
+	}
+	
+	html .media_journalistcard_recommend_channel_layer {
+		color: #a5a5a7;
+		border-color: #464649;
+		background-color: #303033
 	}
 	
 	html .media_journalistcard_recommend_img_wrap, html .modal .m_notification .mn_ok {
@@ -94643,44 +94751,103 @@
 		background: #555
 	}
 	
+	html .media_journalistcard_summary_talk {
+		background-color: #444448
+	}
+	
+	html .media_journalistcard_summary_talk_new {
+		border-color: #39393c
+	}
+	
 	html .media_journalistcard_summary_talkwrap::after {
 		background: #545457
+	}
+	
+	html .modal .m_modal, html .modal .m_notification {
+		color: #dadde0;
+		background-color: #39393c
 	}
 	
 	html .modal .m_notification .mn_noti.is_off {
 		background-position: -192px -91px
 	}
 	
+	html .n_news .gnb_flat .gf_inner, html .n_news_mnews .gnb_flat .gf_inner {
+		border-color: rgba(255, 255, 255, 0.05)
+	}
+	
 	html .n_news .gnb_flat .gf_naverlogo, html .n_news_mnews .gnb_flat .gf_naverlogo {
 		background-position: -341px 0px
+	}
+	
+	html .n_news .rankingnews .ra_tab_item.on .ra_tab_a, html .n_news_mnews .rankingnews .ra_tab_item.on .ra_tab_a {
+		color: #4978f4
 	}
 	
 	html .n_news_entertain .media_end_head_fontsize_option1.media_end_head_fontsize_option_is_on, html .n_news_entertain .media_end_head_fontsize_option2.media_end_head_fontsize_option_is_on, html .n_news_entertain .media_end_head_fontsize_option3.media_end_head_fontsize_option_is_on, html .n_news_entertain .media_end_head_fontsize_option4.media_end_head_fontsize_option_is_on, html .n_news_entertain .media_end_head_fontsize_option5.media_end_head_fontsize_option_is_on {
 		background-color: #e2458f
 	}
 	
-	html .n_news_entertain .media_end_head_journalist_layer_talk, html .n_news_entertain .media_end_head_journalist_talk, html .n_news_entertain .media_journalistcard_summary_talk {
+	html .n_news_entertain .media_end_head_journalist_layer_talk {
+		border-color: rgba(226, 69, 143, 0.28)
+	}
+	
+	html .n_news_entertain .media_end_head_journalist_talk {
+		color: #e2458f;
 		border-color: rgba(226, 69, 143, 0.44)
 	}
 	
-	html .n_news_entertain .Nicon_family::before {
-		background-color: #464649
+	html .n_news_entertain .media_journalistcard_summary_talk {
+		border-color: rgba(226, 69, 143, 0.44)
 	}
 	
 	html .n_news_error {
 		background-color: #1a1a1c
 	}
 	
+	html .n_news_sports .gnb_flat .gf_inner {
+		background: transparent
+	}
+	
 	html .n_news_sports .media_end_head_fontsize_option1.media_end_head_fontsize_option_is_on, html .n_news_sports .media_end_head_fontsize_option2.media_end_head_fontsize_option_is_on, html .n_news_sports .media_end_head_fontsize_option3.media_end_head_fontsize_option_is_on, html .n_news_sports .media_end_head_fontsize_option4.media_end_head_fontsize_option_is_on, html .n_news_sports .media_end_head_fontsize_option5.media_end_head_fontsize_option_is_on {
 		background-color: #3680f7
 	}
 	
-	html .n_news_sports .media_end_head_journalist_layer_talk, html .n_news_sports .media_end_head_journalist_talk, html .n_news_sports .media_journalistcard_summary_talk {
+	html .n_news_sports .media_end_head_journalist_layer_talk {
+		border-color: rgba(54, 128, 247, 0.28)
+	}
+	
+	html .n_news_sports .media_end_head_journalist_talk {
+		color: #3680f7;
 		border-color: rgba(54, 128, 247, 0.44)
+	}
+	
+	html .n_news_sports .media_journalistcard_summary_talk {
+		border-color: rgba(54, 128, 247, 0.44)
+	}
+	
+	html .n_news_sports .tomain .u_likeit_list_btn.on .u_cnt {
+		color: #03c75a
+	}
+	
+	html .n_news_sports .tomain .u_likeit_list_btn.on, html .ofpr_category_a[aria-checked='true'] {
+		border-color: #03c75a
 	}
 	
 	html .n_news_sports .u_ftlk::before, html .u_charge_item::before {
 		background-color: rgba(240, 240, 242, 0.1)
+	}
+	
+	html .n_news_sports .u_likeit_button {
+		border-color: #595959;
+		background-color: #39393c
+	}
+	
+	html .n_news_sports .u_likeit_button+.u_likeit_layer {
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16);
+		border-color: rgba(255, 255, 255, 0.03);
+		background-color: #48484b;
+		-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16)
 	}
 	
 	html .n_news, html .n_news_entertain, html .n_news_sports, html .n_news_mnews, html .noimage {
@@ -94688,11 +94855,16 @@
 	}
 	
 	html .newsct_article a[style*='color'i], html .newsct_article b[style*='color'i], html .newsct_article blockquote[style*='color'i], html .newsct_article dd[style*='color'i], html .newsct_article div[style*='color'i], html .newsct_article dl[style*='color'i], html .newsct_article dt[style*='color'i], html .newsct_article figcaption[style*='color'i], html .newsct_article figure[style*='color'i], html .newsct_article font[style*='color'i], html .newsct_article h1[style*='color'i], html .newsct_article h2[style*='color'i], html .newsct_article h3[style*='color'i], html .newsct_article h4[style*='color'i], html .newsct_article h5[style*='color'i], html .newsct_article h6[style*='color'i], html .newsct_article li[style*='color'i], html .newsct_article ol[style*='color'i], html .newsct_article p[style*='color'i], html .newsct_article span[style*='color'i], html .newsct_article strong[style*='color'i], html .newsct_article table[style*='color'i], html .newsct_article td[style*='color'i], html .newsct_article th[style*='color'i], html .newsct_article tr[style*='color'i], html .newsct_article ul[style*='color'i] {
-		color: var(--color_body) !important
+		color: #dadde0 !important
 	}
 	
 	html .newsct_body .ad_box {
-		background: none
+		background: none;
+		background-color: #39393c
+	}
+	
+	html .newsct_body .ad_box .ad_area {
+		border-color: #303030
 	}
 	
 	html .newsct_journalist_button {
@@ -94704,8 +94876,14 @@
 		background-position: -239px 0px
 	}
 	
-	html .ofcl_banner, html .ofpr_btn_wrap button+button, html .rankingnews.as_type_border .ra_area {
-		border-color: #464649
+	html .nocmt {
+		color: #a5a5a7;
+		background-color: #39393c
+	}
+	
+	html .ofcl_banner, html .ofpr_btn_wrap, html .u_atcp {
+		border-color: #464649;
+		background-color: #39393c
 	}
 	
 	html .offc_end_heading_navi .next_btn span {
@@ -94716,21 +94894,33 @@
 		background-position: -166px -269px
 	}
 	
+	html .office_cluster.is_fixed .ofcl_banner {
+		border-top-color: #39393c;
+		background: #39393c
+	}
+	
+	html .office_headline .ofhe_item::before {
+		border-color: #464649;
+		background: #39393c
+	}
+	
 	html .office_headline .ofhe_thumb {
 		background: url("https://ssl.pstatic.net/static.news/image/news/m/noimage/dark/noimage_336x206_dark.png");
 		background-size: 100%
 	}
 	
-	html .pac_cmt, html .tomain_info_phrase {
+	html .ofpr_category_a {
+		border-color: #595959;
+		background-color: #48484b
+	}
+	
+	html .pac_cmt {
+		color: #a5a5a7;
 		background-color: #2b2b2e
 	}
 	
 	html .r_pg_top {
 		background-position: -48px -112px
-	}
-	
-	html .ra_extra_area .rl_author_name, html .ranking_list .rl_author_name {
-		color: #a5a5a7
 	}
 	
 	html .ra_extra_area .rl_border, html .ranking_list .rl_border {
@@ -94744,6 +94934,20 @@
 		-webkit-filter: invert(100%)
 	}
 	
+	html .rankingnews .ra_sub_tab {
+		box-shadow: 0 1px 0 0 #464649;
+		-webkit-box-shadow: 0 1px 0 0 #464649
+	}
+	
+	html .re_title_info .subscribe.on .subscribe_ico {
+		color: #a5a5a7;
+		color: #a5a5a7
+	}
+	
+	html .related_book .rb_bar {
+		background-color: #545457
+	}
+	
 	html .related_book .rb_btn_next.dimmed::after, html .related_book .rb_btn_prev.dimmed::after {
 		opacity: 0.35;
 		filter: invert(0);
@@ -94751,6 +94955,7 @@
 	}
 	
 	html .related_series .rs_link {
+		color: #dadde0;
 		border-top-color: rgba(84, 84, 87, 0.8)
 	}
 	
@@ -94767,6 +94972,15 @@
 		-webkit-box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1)
 	}
 	
+	html .relatedlist .re_list_a:visited {
+		color: #929294
+	}
+	
+	html .relatedvideo .re_talk .re_link_talk {
+		color: #dadde0;
+		border-color: #545457
+	}
+	
 	html .series_header .sh_right .subscribe {
 		border-color: #7fa0f7
 	}
@@ -94776,7 +94990,7 @@
 	}
 	
 	html .series_header .sh_right .subscribe_ico::before {
-		background-position: -213px -251px
+		background-position: -219px -251px
 	}
 	
 	html .series_header .sh_right .subscribe.on {
@@ -94808,23 +95022,46 @@
 		background-color: #222225
 	}
 	
-	html .subscribe_cta_layer .cta_btn:not(.as_subscribe) {
-		background: #464649
+	html .simplecmt {
+		border-color: #303033;
+		background-color: #39393c
+	}
+	
+	html .subscribe_alert {
+		color: #dadde0;
+		background-color: #48484b
 	}
 	
 	html .subscribe_cta_layer .cta_btn:not(.as_subscribe) .cta_arrow {
 		background: rgba(255, 255, 255, 0.1)
 	}
 	
+	html .subscribe_guide {
+		color: #a5a5a7;
+		border: solid 1px rgba(255, 255, 255, 0.05);
+		background-color: #39393c
+	}
+	
 	html .suse_name.as_more::after {
 		background-position: -59px -179px
 	}
 	
-	html .tomain .to_infobutton::before {
-		background: var(--color_line_lv1)
+	html .tomain_info_layer {
+		border-color: rgba(255, 255, 255, 0.05);
+		background: #48484b
 	}
 	
-	html .u_atcp_fc, html .u_atcp_lsc, html .u_sggt_wrap2 .sggt_footer {
+	html .tomain_info_phrase {
+		color: #dadde0;
+		background-color: #2b2b2e
+	}
+	
+	html .u_atcp_fc {
+		background-color: transparent
+	}
+	
+	html .u_atcp_lsc {
+		border-color: #464649;
 		background-color: transparent
 	}
 	
@@ -94832,15 +95069,21 @@
 		color: #303033
 	}
 	
+	html .u_sggt_wrap2 .sggt_footer {
+		border-top-color: #464649;
+		background-color: transparent
+	}
+	
+	html .u_sggt_wrap2 .sggt_footer .opt_close, html .u_sggt_wrap2 .sggt_footer [class^='opt_']::before {
+		border-left-color: #464649
+	}
+	
 	html .u_sggt_wrap2 .sggt_header .tit .ico_help {
 		background-position: -365px -255px
 	}
 	
-	html a.media_end_head_fontsize_option_text {
-		color: var(--color_title)
-	}
-	
 	html body {
+		color: #dadde0;
 		background: #242424
 	}
 	
@@ -94934,11 +95177,15 @@
 	#dic_area>div[style]>div[style*='color'] {
 		color: #cacaca !important;
 	}
+	
+	.u_cbox {
+		background: #242424;
+	}
 }
 
 @-moz-document url-prefix("https://n.news.naver.com"), url-prefix("https://contents.premium.naver.com")
 {
-	html {
+	:root, html {
 		--color_body_background: #1a1a1c;
 		--color_background: #39393c;
 		--color_background_inverse: #fff;
@@ -94964,11 +95211,21 @@
 		--color_point_news_text: #5b86fd;
 		--color_point_news_old_text: #5b87fd;
 		--color_point_news_gnb: #4978f4;
+		--color_likeit_background: #39393C;
+		--color_likeit_title: #F0F0F2;
+		--color_likeit_body: #DADDE0;
+		--color_likeit_sub_info: #A5A5A7;
+		--color_likeit_line_lv1: #464649;
+		--color_likeit_line_lv2: #545457;
+		--color_likeit_line_lv3: #595959;
+		--color_likeit_layer_background_lv2: #48484b;
+		--color_likeit_layer_background_lv2_border: #545457;
 	}
+	
 	
 	@media (min-width: 1025px) {
 		html .as_mp_layout .u_cbox .u_cbox_layer_report {
-			background: #242424
+			background: #39393C
 		}
 	}
 	
@@ -94976,53 +95233,57 @@
 		background-color: inherit
 	}
 	
-	html .u_cbox .u_cbox_article_title, html .u_cbox .u_cbox_cleanbot_content, html .u_cbox .u_cbox_cleanbot_contents, html .u_cbox .u_cbox_fold_contents, html .u_cbox .u_cbox_good_section .u_cbox_good_msg, html .u_cbox .u_cbox_item_inform, html .u_cbox .u_cbox_layer_captcha .u_cbox_captcha_dsc, html .u_cbox .u_cbox_layer_cleanbot2_checklabel, html .u_cbox .u_cbox_layer_cleanbot_checklabel, html .u_cbox .u_cbox_layer_cleanbot2_description, html .u_cbox .u_cbox_layer_cleanbot_description, html .u_cbox .u_cbox_layer_common .u_cbox_layer_head+.u_cbox_layer_common_cont .u_cbox_layer_msg, html .u_cbox .u_cbox_layer_common_choice_label, html .u_cbox .u_cbox_layer_fold_cont .u_cbox_fold_dsc2, html .u_cbox .u_cbox_layer_follow_content, html .u_cbox .u_cbox_layer_follow_standardbtn, html .u_cbox .u_cbox_layer_goodcomment_msg, html .u_cbox .u_cbox_layer_goodcomment_msg2, html .u_cbox .u_cbox_layer_report_item .u_cbox_layer_report_item_tit, html .u_cbox .u_cbox_layer_report_item_dsc, html .u_cbox .u_cbox_layer_userblock_content, html .u_cbox .u_cbox_manage_wrap .u_cbox_btn_comment_manage, html .u_cbox .u_cbox_manageusers_helplayer_closebtn, html .u_cbox .u_cbox_manageusers_none_content, html .u_cbox .u_cbox_user .u_cbox_article_title, html .u_cbox .u_cbox_user .u_cbox_btn_fold, html .u_cbox .u_cbox_user .u_cbox_more_wrap .u_cbox_btn_more, html .u_cbox .u_cbox_user .u_cbox_comment_none .u_cbox_con_inform_linktxt, html .u_cbox .u_cbox_user .u_cbox_myinfo_wrap .u_cbox_public_title, html .u_cbox .u_cbox_user .u_cbox_user_header .u_cbox_user_helplayer .u_cbox_user_helpdesc, html .u_cbox .u_cbox_user .u_cbox_user_header .u_cbox_user_moremenutext, html .u_cbox .u_cbox_user .u_cbox_userinfo_laststats_helplayer_desc, html .u_cbox .u_cbox_user .u_cbox_userinfo_laststats_progresstitle, html .u_cbox .u_cbox_user .u_cbox_userinfo_totalstats_title, html .u_cbox .u_cbox_userpage_helpdesc, html .u_cbox .u_cbox_userpage_helplist, html .u_cbox .u_cbox_write_notice_checkbox.is_checked+.u_cbox_write_notice_checklabel, html .u_cbox_layer_report_guide, html .u_cbox_layer_report_item_guide .u_cbox_layer_report_item_data, html .u_cbox_user .u_cbox_user_header .u_cbox_user_helplayer .u_cbox_user_helplist dd, html .u_cbox_userpage .u_cbox_comment_none .u_cbox_con_inform_linktxt, html .u_cbox_userpage .u_cbox_followmsg_content, html .u_cbox_userpage .u_cbox_lateststats_helplayer_desc, html .u_cbox_userpage .u_cbox_lateststats_progresstitle, html .u_cbox_userpage .u_cbox_overallstats_label, html #cbox_module .u_cbox_btn_fold, html #cbox_module .u_cbox_btn_more, html #cbox_module .u_cbox_notice .u_cbox_con_notice a a:visited {
+	html .u_cbox .u_cbox_article_title, html .u_cbox .u_cbox_cleanbot_content, html .u_cbox .u_cbox_cleanbot_contents, html .u_cbox .u_cbox_fold_contents, html .u_cbox .u_cbox_good_section .u_cbox_good_msg, html .u_cbox .u_cbox_item_inform, html .u_cbox .u_cbox_layer_captcha .u_cbox_captcha_dsc, html .u_cbox .u_cbox_layer_cleanbot2_checklabel, html .u_cbox .u_cbox_layer_cleanbot_checklabel, html .u_cbox .u_cbox_layer_cleanbot2_description, html .u_cbox .u_cbox_layer_cleanbot_description, html .u_cbox .u_cbox_layer_common .u_cbox_layer_head+.u_cbox_layer_common_cont .u_cbox_layer_msg, html .u_cbox .u_cbox_layer_common_choice_label, html .u_cbox .u_cbox_layer_fold_cont .u_cbox_fold_dsc2, html .u_cbox .u_cbox_layer_follow_content, html .u_cbox .u_cbox_layer_follow_standardbtn, html .u_cbox .u_cbox_layer_goodcomment_msg, html .u_cbox .u_cbox_layer_goodcomment_msg2, html .u_cbox .u_cbox_layer_help .u_cbox_info_txt, html .u_cbox .u_cbox_layer_report_item .u_cbox_layer_report_item_tit, html .u_cbox .u_cbox_layer_report_item_dsc, html .u_cbox .u_cbox_layer_userblock_content, html .u_cbox .u_cbox_manage_wrap .u_cbox_btn_comment_manage, html .u_cbox .u_cbox_manageusers_helplayer_closebtn, html .u_cbox .u_cbox_manageusers_none_content, html .u_cbox .u_cbox_user .u_cbox_article_title, html .u_cbox .u_cbox_user .u_cbox_btn_fold, html .u_cbox .u_cbox_user .u_cbox_more_wrap .u_cbox_btn_more, html .u_cbox .u_cbox_user .u_cbox_comment_none .u_cbox_con_inform_linktxt, html .u_cbox .u_cbox_user .u_cbox_myinfo_wrap .u_cbox_public_title, html .u_cbox .u_cbox_user .u_cbox_user_header .u_cbox_user_helplayer .u_cbox_user_helpdesc, html .u_cbox .u_cbox_user .u_cbox_user_header .u_cbox_user_moremenutext, html .u_cbox .u_cbox_user .u_cbox_userinfo_laststats_helplayer_desc, html .u_cbox .u_cbox_user .u_cbox_userinfo_laststats_progresstitle, html .u_cbox .u_cbox_user .u_cbox_userinfo_totalstats_title, html .u_cbox .u_cbox_userpage_helpdesc, html .u_cbox .u_cbox_userpage_helplist, html .u_cbox .u_cbox_write_notice_checkbox.is_checked+.u_cbox_write_notice_checklabel, html .u_cbox_layer_report_guide, html .u_cbox_layer_report_item_guide .u_cbox_layer_report_item_data, html .u_cbox_user .u_cbox_user_header .u_cbox_user_helplayer .u_cbox_user_helplist dd, html .u_cbox_userpage .u_cbox_comment_none .u_cbox_con_inform_linktxt, html .u_cbox_userpage .u_cbox_followmsg_content, html .u_cbox_userpage .u_cbox_lateststats_helplayer_desc, html .u_cbox_userpage .u_cbox_lateststats_progresstitle, html .u_cbox_userpage .u_cbox_overallstats_label, html #cbox_module .u_cbox_btn_fold, html #cbox_module .u_cbox_btn_more, html #cbox_module .u_cbox_notice .u_cbox_con_notice a a:visited {
 		color: #a5a5a7
 	}
 	
 	html .u_cbox .u_cbox_btn_fold_float {
 		color: #a5a5a7;
-		background: #303033
+		background: #242424
 	}
 	
-	html .u_cbox .u_cbox_btn_more, html .u_cbox .u_cbox_btn_report, html .u_cbox .u_cbox_btn_unhide, html .u_cbox .u_cbox_chart_cnt, html .u_cbox .u_cbox_cleanbot_setbutton, html .u_cbox .u_cbox_date, html .u_cbox .u_cbox_delete_contents, html .u_cbox .u_cbox_good_section .u_cbox_msg_point, html .u_cbox .u_cbox_layer_help .u_cbox_info_txt, html .u_cbox .u_cbox_manageblock_date, html .u_cbox .u_cbox_manageblock_totaldesc, html .u_cbox .u_cbox_manageusers_date, html .u_cbox .u_cbox_manageusers_id, html .u_cbox .u_cbox_manageusers_helplayer_content, html .u_cbox .u_cbox_orgsource_count, html .u_cbox .u_cbox_orgsource_name, html .u_cbox .u_cbox_refresh_wrap .u_cbox_txt_refresh, html .u_cbox .u_cbox_sort .u_cbox_sort_label, html .u_cbox .u_cbox_user .u_cbox_sort .u_cbox_sort_label, html .u_cbox .u_cbox_user .u_cbox_userblockmsg_content, html .u_cbox .u_cbox_user .u_cbox_userinfo_laststats_dataitem, html .u_cbox .u_cbox_user .u_cbox_userinfo_laststats_helplayer_desc em, html .u_cbox .u_cbox_user .u_cbox_userinfo_meta_date, html .u_cbox .u_cbox_user .u_cbox_userinfo_meta_id, html .u_cbox .u_cbox_user .u_cbox_write_count, html .u_cbox_layer_report_btn_more, html .u_cbox_layer_report_reason_list, html .u_cbox_user .u_cbox_tool .u_cbox_recomm_set .u_cbox_btn_recomm, html .u_cbox_user .u_cbox_tool .u_cbox_recomm_set .u_cbox_btn_unrecomm, html .u_cbox_userpage .u_cbox_followset_label, html .u_cbox_userpage .u_cbox_lateststats_dataitem, html .u_cbox_userpage .u_cbox_lateststats_helplayer_desc em, html .u_cbox_userpage .u_cbox_userblockmsg_content, html .u_cbox_userpage .u_cbox_userinfo_meta_date, html .u_cbox_userpage .u_cbox_userinfo_meta_id, html #cbox_module .u_cbox_comment_count .u_cbox_info_title, html #cbox_module .u_cbox_delete_contents, html #cbox_module .u_cbox_loading_fail .u_cbox_btn_refresh .u_cbox_txt_refresh, html #cbox_module .u_cbox_recomm_set .u_cbox_btn_recomm, html #cbox_module .u_cbox_recomm_set .u_cbox_btn_unrecomm, html #cbox_module .u_cbox_sort .u_cbox_sort_label, html #cbox_module .u_cbox_write .u_cbox_inbox .u_cbox_guide, html #cbox_module .u_cbox_write_count {
+	html .u_cbox .u_cbox_btn_more, html .u_cbox .u_cbox_btn_report, html .u_cbox .u_cbox_btn_unhide, html .u_cbox .u_cbox_chart_cnt, html .u_cbox .u_cbox_cleanbot_setbutton, html .u_cbox .u_cbox_date, html .u_cbox .u_cbox_delete_contents, html .u_cbox .u_cbox_good_section .u_cbox_msg_point, html .u_cbox .u_cbox_manageblock_date, html .u_cbox .u_cbox_manageblock_totaldesc, html .u_cbox .u_cbox_manageusers_date, html .u_cbox .u_cbox_manageusers_id, html .u_cbox .u_cbox_manageusers_helplayer_content, html .u_cbox .u_cbox_myfollowing_foldlabel, html .u_cbox .u_cbox_myfollowing_morelabel, html .u_cbox .u_cbox_orgsource_count, html .u_cbox .u_cbox_orgsource_name, html .u_cbox .u_cbox_refresh_wrap .u_cbox_txt_refresh, html .u_cbox .u_cbox_sort .u_cbox_sort_label, html .u_cbox .u_cbox_user .u_cbox_sort .u_cbox_sort_label, html .u_cbox .u_cbox_user .u_cbox_userblockmsg_content, html .u_cbox .u_cbox_user .u_cbox_userinfo_laststats_dataitem, html .u_cbox .u_cbox_user .u_cbox_userinfo_laststats_helplayer_desc em, html .u_cbox .u_cbox_user .u_cbox_userinfo_meta_date, html .u_cbox .u_cbox_user .u_cbox_userinfo_meta_id, html .u_cbox .u_cbox_user .u_cbox_write_count, html .u_cbox_layer_report_btn_more, html .u_cbox_layer_report_reason_list, html .u_cbox_user .u_cbox_tool .u_cbox_recomm_set .u_cbox_btn_recomm, html .u_cbox_user .u_cbox_tool .u_cbox_recomm_set .u_cbox_btn_unrecomm, html .u_cbox_userpage .u_cbox_followset_label, html .u_cbox_userpage .u_cbox_lateststats_dataitem, html .u_cbox_userpage .u_cbox_lateststats_helplayer_desc em, html .u_cbox_userpage .u_cbox_userblockmsg_content, html .u_cbox_userpage .u_cbox_userinfo_meta_date, html .u_cbox_userpage .u_cbox_userinfo_meta_id, html #cbox_module .u_cbox_comment_count .u_cbox_info_title, html #cbox_module .u_cbox_delete_contents, html #cbox_module .u_cbox_loading_fail .u_cbox_btn_refresh .u_cbox_txt_refresh, html #cbox_module .u_cbox_recomm_set .u_cbox_btn_recomm, html #cbox_module .u_cbox_recomm_set .u_cbox_btn_unrecomm, html #cbox_module .u_cbox_sort .u_cbox_sort_label, html #cbox_module .u_cbox_txt_translate_set, html #cbox_module .u_cbox_write .u_cbox_inbox .u_cbox_guide, html #cbox_module .u_cbox_write_count {
 		color: #919192
 	}
 	
-	html .u_cbox .u_cbox_chart_age, html .u_cbox .u_cbox_chart_age .u_cbox_chart_per, html .u_cbox .u_cbox_chart_country .u_cbox_chart_per, html .u_cbox .u_cbox_chart_progress_0 .u_cbox_chart_per, html .u_cbox .u_cbox_chart_progress_btm .u_cbox_chart_per, html .u_cbox .u_cbox_comment .u_cbox_text_wrap, html .u_cbox .u_cbox_comment .u_cbox_text_wrap a, html .u_cbox .u_cbox_comment_none, html .u_cbox .u_cbox_con_inform .u_cbox_txt_mark, html .u_cbox .u_cbox_good_section .u_cbox_good_title, html .u_cbox .u_cbox_good_wrap .u_cbox_btns_section .u_cbox_btn_confirm, html .u_cbox .u_cbox_good_wrap .u_cbox_btns_section .u_cbox_primarybtn, html .u_cbox .u_cbox_good_wrap .u_cbox_btns_section .u_cbox_standardbtn, html .u_cbox .u_cbox_inform, html .u_cbox .u_cbox_layer_captcha .u_cbox_captcha_input .u_cbox_guide, html .u_cbox .u_cbox_layer_cleanbot_checklabel strong, html .u_cbox .u_cbox_layer_cleanbot2_extrabtn, html .u_cbox .u_cbox_layer_cleanbot_extrabutton, html .u_cbox .u_cbox_layer_common .u_cbox_layer_msg_point, html .u_cbox .u_cbox_layer_follow_title, html .u_cbox .u_cbox_layer_help .u_cbox_info_title, html .u_cbox .u_cbox_layer_report_item .u_cbox_layer_report_item_data, html .u_cbox .u_cbox_layer_userblock_standardbtn, html .u_cbox .u_cbox_layer_userblock_titlemark, html .u_cbox .u_cbox_manageblock_nonemsg, html .u_cbox .u_cbox_manageusers_title, html .u_cbox .u_cbox_orgsource_header, html .u_cbox .u_cbox_tool .u_cbox_btn_reply, html .u_cbox .u_cbox_translate_contents .u_cbox_contents, html .u_cbox .u_cbox_user .u_cbox_box_name .u_cbox_write_name, html .u_cbox .u_cbox_user .u_cbox_comment_none, html .u_cbox .u_cbox_user .u_cbox_reply_area .u_cbox_focus .u_cbox_btn_upload, html .u_cbox .u_cbox_user .u_cbox_reply_area .u_cbox_writing .u_cbox_btn_upload, html .u_cbox .u_cbox_user .u_cbox_sort .u_cbox_sort_option_on .u_cbox_sort_label, html .u_cbox .u_cbox_user .u_cbox_tool .u_cbox_btn_reply .u_cbox_reply_cnt.u_vc::after, html .u_cbox .u_cbox_user .u_cbox_tool .u_cbox_btn_reply .u_cbox_reply_txt, html .u_cbox .u_cbox_user .u_cbox_user_header .u_cbox_user_helplayer .u_cbox_user_helptitle, html .u_cbox .u_cbox_user .u_cbox_userblockmsg_title, html .u_cbox .u_cbox_user .u_cbox_userinfo_laststats_title, html .u_cbox .u_cbox_user .u_cbox_userinfo_totalstats_value, html .u_cbox .u_cbox_user .u_cbox_write_count .u_cbox_count_num, html .u_cbox .u_cbox_userpage_helptitle, html .u_cbox .u_cbox_userpage_moremenulayer a, html .u_cbox .u_cbox_userpage_title, html .u_cbox .u_cbox_view_comment .u_cbox_count_view_comment, html .u_cbox .u_cbox_view_comment .u_cbox_in_view_comment, html .u_cbox .u_cbox_work_sub a, html .u_cbox .u_cbox_write .u_cbox_inbox .u_cbox_text, html .u_cbox_layer_report_item_data, html .u_cbox_user .u_cbox_tool .u_cbox_recomm_set .u_cbox_btn_recomm_on .u_cbox_cnt_recomm, html .u_cbox_user .u_cbox_tool .u_cbox_recomm_set .u_cbox_btn_unrecomm_on .u_cbox_cnt_unrecomm, html .u_cbox_userpage .u_cbox_followset_button[aria-pressed=true] .u_cbox_followset_label, html .u_cbox_userpage .u_cbox_lateststats_title, html .u_cbox_userpage .u_cbox_overallstats_number, html .u_cbox_userpage .u_cbox_tool .u_cbox_btn_reply .u_cbox_reply_txt, html .u_cbox_userpage .u_cbox_tool .u_cbox_recomm_set .u_cbox_btn_recomm_on .u_cbox_cnt_recomm, html .u_cbox_userpage .u_cbox_tool .u_cbox_recomm_set .u_cbox_btn_unrecomm_on .u_cbox_cnt_unrecomm, html .u_cbox_userpage .u_cbox_userblockmsg_title, html #cbox_module .u_cbox_chart_fold_cnt, html #cbox_module .u_cbox_comment .u_cbox_text_wrap, html #cbox_module .u_cbox_comment_count .u_cbox_info_txt, html #cbox_module .u_cbox_comment_none, html #cbox_module .u_cbox_loading_fail_contents, html #cbox_module .u_cbox_notice .u_cbox_con_notice a, html #cbox_module .u_cbox_recomm_set .u_cbox_btn_recomm_on .u_cbox_cnt_recomm, html #cbox_module .u_cbox_recomm_set .u_cbox_btn_unrecomm_on .u_cbox_cnt_unrecomm, html #cbox_module .u_cbox_tool .u_cbox_btn_reply .u_cbox_reply_cnt.u_vc:after, html #cbox_module .u_cbox_tool .u_cbox_btn_reply .u_cbox_reply_txt, html #cbox_module .u_cbox_write_count .u_cbox_count_num {
+	html .u_cbox .u_cbox_btn_translate_lang, html .u_cbox .u_cbox_layer_captcha .u_cbox_captcha_title, html .u_cbox .u_cbox_layer_common .u_cbox_layer_msg, html .u_cbox .u_cbox_layer_common .u_cbox_layer_title, html .u_cbox .u_cbox_layer_fold_cont .u_cbox_fold_dsc1, html .u_cbox .u_cbox_layer_goodcomment_title, html .u_cbox .u_cbox_layer_report_item_reason .u_cbox_layer_report_item_tit, html .u_cbox .u_cbox_layer_report_radio_label, html .u_cbox .u_cbox_layer_report_radio_title, html .u_cbox .u_cbox_layer_userblock_title, html .u_cbox .u_cbox_manageblock_id, html .u_cbox .u_cbox_manageblock_nickname, html .u_cbox .u_cbox_manageblock_totaltitle, html .u_cbox .u_cbox_manageusers_nickname_content, html .u_cbox .u_cbox_name, html .u_cbox .u_cbox_target_name, html .u_cbox .u_cbox_title, html .u_cbox .u_cbox_user .u_cbox_myinfo_wrap .u_cbox_nick, html .u_cbox .u_cbox_user .u_cbox_user_header .u_cbox_user_moremenulayer a, html .u_cbox_userpage .u_cbox_currentstats_item, html .u_cbox_userpage .u_cbox_currentstats_title, html .u_cbox_userpage .u_cbox_sort .u_cbox_sort_option_on .u_cbox_sort_label, html .u_cbox_userpage .u_cbox_userinfo_meta_nickname, html #cbox_module .u_cbox_box_name .u_cbox_write_name, html #cbox_module .u_cbox_count, html #cbox_module .u_cbox_sort .u_cbox_sort_option_on .u_cbox_sort_label {
+		color: #F0F0F2
+	}
+	
+	html .u_cbox .u_cbox_chart_age, html .u_cbox .u_cbox_chart_age .u_cbox_chart_per, html .u_cbox .u_cbox_chart_country .u_cbox_chart_per, html .u_cbox .u_cbox_chart_progress_0 .u_cbox_chart_per, html .u_cbox .u_cbox_chart_progress_btm .u_cbox_chart_per, html .u_cbox .u_cbox_comment .u_cbox_text_wrap, html .u_cbox .u_cbox_comment .u_cbox_text_wrap a, html .u_cbox .u_cbox_comment_none, html .u_cbox .u_cbox_con_inform .u_cbox_txt_mark, html .u_cbox .u_cbox_good_section .u_cbox_good_title, html .u_cbox .u_cbox_good_wrap .u_cbox_btns_section .u_cbox_btn_confirm, html .u_cbox .u_cbox_good_wrap .u_cbox_btns_section .u_cbox_primarybtn, html .u_cbox .u_cbox_good_wrap .u_cbox_btns_section .u_cbox_standardbtn, html .u_cbox .u_cbox_inform, html .u_cbox .u_cbox_layer_captcha .u_cbox_captcha_input .u_cbox_guide, html .u_cbox .u_cbox_layer_cleanbot_checklabel strong, html .u_cbox .u_cbox_layer_cleanbot2_extrabtn, html .u_cbox .u_cbox_layer_cleanbot_extrabutton, html .u_cbox .u_cbox_layer_common .u_cbox_layer_msg_point, html .u_cbox .u_cbox_layer_follow_title, html .u_cbox .u_cbox_layer_report_item .u_cbox_layer_report_item_data, html .u_cbox .u_cbox_layer_userblock_standardbtn, html .u_cbox .u_cbox_layer_userblock_titlemark, html .u_cbox .u_cbox_manageblock_nonemsg, html .u_cbox .u_cbox_manageusers_title, html .u_cbox .u_cbox_orgsource_header, html .u_cbox .u_cbox_tool .u_cbox_btn_reply, html .u_cbox .u_cbox_translate_contents .u_cbox_contents, html .u_cbox .u_cbox_user .u_cbox_box_name .u_cbox_write_name, html .u_cbox .u_cbox_user .u_cbox_comment_none, html .u_cbox .u_cbox_user .u_cbox_reply_area .u_cbox_focus .u_cbox_btn_upload, html .u_cbox .u_cbox_user .u_cbox_reply_area .u_cbox_writing .u_cbox_btn_upload, html .u_cbox .u_cbox_user .u_cbox_sort .u_cbox_sort_option_on .u_cbox_sort_label, html .u_cbox .u_cbox_user .u_cbox_tool .u_cbox_btn_reply .u_cbox_reply_cnt.u_vc::after, html .u_cbox .u_cbox_user .u_cbox_tool .u_cbox_btn_reply .u_cbox_reply_txt, html .u_cbox .u_cbox_user .u_cbox_user_header .u_cbox_user_helplayer .u_cbox_user_helptitle, html .u_cbox .u_cbox_user .u_cbox_userblockmsg_title, html .u_cbox .u_cbox_user .u_cbox_userinfo_laststats_title, html .u_cbox .u_cbox_user .u_cbox_userinfo_totalstats_value, html .u_cbox .u_cbox_user .u_cbox_write_count .u_cbox_count_num, html .u_cbox .u_cbox_userpage_helptitle, html .u_cbox .u_cbox_userpage_moremenulayer a, html .u_cbox .u_cbox_userpage_title, html .u_cbox .u_cbox_view_comment .u_cbox_count_view_comment, html .u_cbox .u_cbox_view_comment .u_cbox_in_view_comment, html .u_cbox .u_cbox_work_sub a, html .u_cbox .u_cbox_write .u_cbox_inbox .u_cbox_text, html .u_cbox_layer_report_item_data, html .u_cbox_user .u_cbox_tool .u_cbox_recomm_set .u_cbox_btn_recomm_on .u_cbox_cnt_recomm, html .u_cbox_user .u_cbox_tool .u_cbox_recomm_set .u_cbox_btn_unrecomm_on .u_cbox_cnt_unrecomm, html .u_cbox_userpage .u_cbox_followset_button[aria-pressed="true"] .u_cbox_followset_label, html .u_cbox_userpage .u_cbox_lateststats_title, html .u_cbox_userpage .u_cbox_overallstats_number, html .u_cbox_userpage .u_cbox_tool .u_cbox_btn_reply .u_cbox_reply_txt, html .u_cbox_userpage .u_cbox_tool .u_cbox_recomm_set .u_cbox_btn_recomm_on .u_cbox_cnt_recomm, html .u_cbox_userpage .u_cbox_tool .u_cbox_recomm_set .u_cbox_btn_unrecomm_on .u_cbox_cnt_unrecomm, html .u_cbox_userpage .u_cbox_userblockmsg_title, html #cbox_module .u_cbox_chart_fold_cnt, html #cbox_module .u_cbox_comment .u_cbox_text_wrap, html #cbox_module .u_cbox_comment_count .u_cbox_info_txt, html #cbox_module .u_cbox_comment_none, html #cbox_module .u_cbox_loading_fail_contents, html #cbox_module .u_cbox_notice .u_cbox_con_notice a, html #cbox_module .u_cbox_recomm_set .u_cbox_btn_recomm_on .u_cbox_cnt_recomm, html #cbox_module .u_cbox_recomm_set .u_cbox_btn_unrecomm_on .u_cbox_cnt_unrecomm, html #cbox_module .u_cbox_tool .u_cbox_btn_reply .u_cbox_reply_cnt.u_vc:after, html #cbox_module .u_cbox_tool .u_cbox_btn_reply .u_cbox_reply_txt, html #cbox_module .u_cbox_write_count .u_cbox_count_num {
 		color: #dadde0
 	}
 	
 	html .u_cbox .u_cbox_chart_female {
 		width: 46px;
 		height: 84px;
-		background-size: 223px 201px;
-		background-position: 0 0;
-		background-image: url(https://ssl.pstatic.net/static.news/image/news/m/2022/07/27/sp_comment_overwrite.png)
+		background-size: 226px 201px;
+		background-position: 0px 0px;
+		background-image: url(https://ssl.pstatic.net/static.news/image/news/m/2022/11/13/sp_comment_overwrite.png)
 	}
 	
 	html .u_cbox .u_cbox_chart_female .u_cbox_chart_mask {
 		width: 46px;
 		height: 84px;
-		background-size: 223px 201px;
-		background-position: -48px 0;
-		background-image: url(https://ssl.pstatic.net/static.news/image/news/m/2022/07/27/sp_comment_overwrite.png)
+		background-size: 226px 201px;
+		background-position: -48px 0px;
+		background-image: url(https://ssl.pstatic.net/static.news/image/news/m/2022/11/13/sp_comment_overwrite.png)
 	}
 	
 	html .u_cbox .u_cbox_chart_male {
 		width: 46px;
 		height: 84px;
-		background-size: 223px 201px;
-		background-position: -96px 0;
-		background-image: url(https://ssl.pstatic.net/static.news/image/news/m/2022/07/27/sp_comment_overwrite.png)
+		background-size: 226px 201px;
+		background-position: -96px 0px;
+		background-image: url(https://ssl.pstatic.net/static.news/image/news/m/2022/11/13/sp_comment_overwrite.png)
 	}
 	
 	html .u_cbox .u_cbox_chart_male .u_cbox_chart_mask {
 		width: 46px;
 		height: 84px;
-		background-size: 223px 201px;
-		background-position: -144px 0;
-		background-image: url(https://ssl.pstatic.net/static.news/image/news/m/2022/07/27/sp_comment_overwrite.png)
+		background-size: 226px 201px;
+		background-position: -144px 0px;
+		background-image: url(https://ssl.pstatic.net/static.news/image/news/m/2022/11/13/sp_comment_overwrite.png)
 	}
 	
 	html .u_cbox .u_cbox_chart_progress_100 .u_cbox_chart_per, html .u_cbox .u_cbox_chart_progress_top .u_cbox_chart_per {
@@ -95043,7 +95304,7 @@
 		background-color: #39393C !important
 	}
 	
-	html .u_cbox .u_cbox_good_wrap .u_cbox_btns_section .u_cbox_btns_wrap, html .u_cbox .u_cbox_good_wrap .u_cbox_btns_section .u_cbox_primarybtn, html .u_cbox .u_cbox_head+.u_cbox_inform, html .u_cbox .u_cbox_head~.u_cbox_inform, html .u_cbox .u_cbox_layer_captcha .u_cbox_captcha_btn, html .u_cbox .u_cbox_layer_captcha .u_cbox_captcha_inner, html .u_cbox .u_cbox_layer_captcha .u_cbox_captcha_input, html .u_cbox .u_cbox_layer_cleanbot2_extra, html .u_cbox .u_cbox_layer_cleanbot_extra, html .u_cbox .u_cbox_layer_common .seperate_line, html .u_cbox .u_cbox_layer_common .type_wide .u_cbox_btn_cancel+.u_cbox_btn_confirm, html .u_cbox .u_cbox_layer_common .u_cbox_btn_confirm, html .u_cbox .u_cbox_layer_goodcomment_extra, html .u_cbox .u_cbox_layer_userblock_extra, html .u_cbox .u_cbox_layer_userblock_primarybtn, html .u_cbox .u_cbox_manageblock_listitem, html .u_cbox .u_cbox_manageblock_total, html .u_cbox .u_cbox_password_inner .u_cbox_password_input, html .u_cbox .u_cbox_refresh_wrap, html .u_cbox .u_cbox_translate_set, html .u_cbox .u_cbox_user .u_cbox_btn_fold, html .u_cbox .u_cbox_user .u_cbox_reply_area .u_cbox_comment_box, html .u_cbox .u_cbox_user .u_cbox_sort, html .u_cbox .u_cbox_user .u_cbox_user_count, html .u_cbox .u_cbox_user .u_cbox_userinfo_laststats_header, html .u_cbox .u_cbox_view_comment, html .u_cbox_layer_report_item_guide, html .u_cbox_layer_report_item_reason, html #cbox_module .u_cbox_btn_fold_float::before, html #cbox_module .u_cbox_btn_more_pre, html #cbox_module .u_cbox_comment_box, html #cbox_module .u_cbox_reply_area .u_cbox_comment_box, html #cbox_module .u_cbox_content_wrap+.u_cbox_view_comment {
+	html .u_cbox .u_cbox_good_wrap .u_cbox_btns_section .u_cbox_btns_wrap, html .u_cbox .u_cbox_good_wrap .u_cbox_btns_section .u_cbox_primarybtn, html .u_cbox .u_cbox_head+.u_cbox_inform, html .u_cbox .u_cbox_head~.u_cbox_inform, html .u_cbox .u_cbox_layer_captcha .u_cbox_captcha_btn, html .u_cbox .u_cbox_layer_captcha .u_cbox_captcha_inner, html .u_cbox .u_cbox_layer_captcha .u_cbox_captcha_input, html .u_cbox .u_cbox_layer_cleanbot2_extra, html .u_cbox .u_cbox_layer_cleanbot_extra, html .u_cbox .u_cbox_layer_common .seperate_line, html .u_cbox .u_cbox_layer_common .type_wide .u_cbox_btn_cancel+.u_cbox_btn_confirm, html .u_cbox .u_cbox_layer_common .u_cbox_btn_confirm, html .u_cbox .u_cbox_layer_goodcomment_extra, html .u_cbox .u_cbox_layer_userblock_extra, html .u_cbox .u_cbox_layer_userblock_primarybtn, html .u_cbox .u_cbox_manageblock_listitem, html .u_cbox .u_cbox_manageblock_total, html .u_cbox .u_cbox_myfollowing_extra, html .u_cbox .u_cbox_myfollowing_extra .u_cbox_myfollowing_fold, html .u_cbox .u_cbox_myfollowing_extra .u_cbox_myfollowing_more, html .u_cbox .u_cbox_myfollowing::after, html .u_cbox .u_cbox_password_inner .u_cbox_password_input, html .u_cbox .u_cbox_refresh_wrap, html .u_cbox .u_cbox_translate_list li, html .u_cbox .u_cbox_translate_set, html .u_cbox .u_cbox_user .u_cbox_btn_fold, html .u_cbox .u_cbox_user .u_cbox_reply_area .u_cbox_comment_box, html .u_cbox .u_cbox_user .u_cbox_sort, html .u_cbox .u_cbox_user .u_cbox_user_count, html .u_cbox .u_cbox_user .u_cbox_userinfo_laststats_header, html .u_cbox .u_cbox_view_comment, html .u_cbox_layer_report_item_guide, html .u_cbox_layer_report_item_reason, html #cbox_module .u_cbox_btn_fold_float::before, html #cbox_module .u_cbox_btn_more_pre, html #cbox_module .u_cbox_comment_box, html #cbox_module .u_cbox_reply_area .u_cbox_comment_box, html #cbox_module .u_cbox_content_wrap+.u_cbox_view_comment {
 		border-color: #464649
 	}
 	
@@ -95076,32 +95337,28 @@
 		background-color: #39393C
 	}
 	
-	html .u_cbox .u_cbox_layer_captcha .u_cbox_captcha_title, html .u_cbox .u_cbox_layer_common .u_cbox_layer_msg, html .u_cbox .u_cbox_layer_common .u_cbox_layer_title, html .u_cbox .u_cbox_layer_fold_cont .u_cbox_fold_dsc1, html .u_cbox .u_cbox_layer_goodcomment_title, html .u_cbox .u_cbox_layer_report_item_reason .u_cbox_layer_report_item_tit, html .u_cbox .u_cbox_layer_report_radio_label, html .u_cbox .u_cbox_layer_report_radio_title, html .u_cbox .u_cbox_layer_userblock_title, html .u_cbox .u_cbox_manageblock_id, html .u_cbox .u_cbox_manageblock_nickname, html .u_cbox .u_cbox_manageblock_totaltitle, html .u_cbox .u_cbox_manageusers_nickname_content, html .u_cbox .u_cbox_name, html .u_cbox .u_cbox_target_name, html .u_cbox .u_cbox_title, html .u_cbox .u_cbox_user .u_cbox_myinfo_wrap .u_cbox_nick, html .u_cbox .u_cbox_user .u_cbox_user_header .u_cbox_user_moremenulayer a, html .u_cbox_userpage .u_cbox_currentstats_item, html .u_cbox_userpage .u_cbox_currentstats_title, html .u_cbox_userpage .u_cbox_sort .u_cbox_sort_option_on .u_cbox_sort_label, html .u_cbox_userpage .u_cbox_userinfo_meta_nickname, html #cbox_module .u_cbox_box_name .u_cbox_write_name, html #cbox_module .u_cbox_count, html #cbox_module .u_cbox_sort .u_cbox_sort_option_on .u_cbox_sort_label {
-		color: #F0F0F2
-	}
-	
 	html .u_cbox .u_cbox_layer_captcha_cont, html .u_cbox .u_cbox_layer_common, html .u_cbox .u_cbox_layer_fold_cont, html .u_cbox .u_cbox_layer_good, html .u_cbox .u_cbox_layer_manageblock, html .u_cbox .u_cbox_layer_userblock, html .u_cbox .u_cbox_upload_image, html .u_cbox .u_cbox_upload_sticker, html .u_cbox .u_cbox_upload_voice, html .u_cbox .u_cbox_upload_thumb_link, html .u_cbox .u_cbox_user .u_cbox_profile_area, html .u_cbox .u_cbox_user .u_cbox_write .u_cbox_write_area {
 		background-color: #39393C
 	}
 	
 	html .u_cbox .u_cbox_layer_cleanbot, html .u_cbox .u_cbox_layer_cleanbot2, html .u_cbox .u_cbox_layer_goodcomment {
-		box-shadow: 0 0 5px 0 rgba(0, 0, 0, .2);
+		box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
 		background: #39393C;
-		-webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, .2)
+		-webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2)
 	}
 	
 	html .u_cbox .u_cbox_layer_cleanbot2_checkwrap, html .u_cbox .u_cbox_layer_cleanbot_checklabel {
 		background: #545457
 	}
 	
-	html .u_cbox .u_cbox_layer_cleanbot2_closeicon, html .u_cbox .u_cbox_layer_cleanbot_closeicon, html .u_cbox .u_cbox_layer_help .u_cbox_btn_info_close:after, html .u_cbox .u_cbox_layer_report .u_cbox_ico_close_hide, html .u_cbox .u_cbox_manageblock_noneicon, html .u_cbox_user .u_cbox_userblockmsg_icon, html #cbox_module .u_cbox_cleanbot_setbutton:before, html #cbox_module .u_cbox_comment .u_cbox_ico_exclamation, html .u_cbox_user .u_cbox_comment .u_cbox_text_wrap .u_cbox_ico_exclamation, html #cbox_module .u_cbox_con_inform .u_cbox_ico_comment_none, html .u_cbox_user .u_cbox_comment_none .u_cbox_con_inform .u_cbox_ico_comment_none, html #cbox_module .u_cbox_work_sub .u_cbox_ico_open, html .u_cbox .u_cbox_work_sub .u_cbox_ico_open {
-		opacity: .46;
+	html .u_cbox .u_cbox_layer_cleanbot2_closeicon, html .u_cbox .u_cbox_layer_cleanbot_closeicon, html .u_cbox .u_cbox_layer_help .u_cbox_btn_info_close, html .u_cbox .u_cbox_layer_report .u_cbox_ico_close_hide, html .u_cbox .u_cbox_manageblock_noneicon, html .u_cbox_user .u_cbox_userblockmsg_icon, html #cbox_module .u_cbox_cleanbot_setbutton:before, html #cbox_module .u_cbox_comment .u_cbox_ico_exclamation, html .u_cbox_user .u_cbox_comment .u_cbox_text_wrap .u_cbox_ico_exclamation, html #cbox_module .u_cbox_con_inform .u_cbox_ico_comment_none, html .u_cbox_user .u_cbox_comment_none .u_cbox_con_inform .u_cbox_ico_comment_none, html #cbox_module .u_cbox_work_sub .u_cbox_ico_open, html .u_cbox .u_cbox_work_sub .u_cbox_ico_open {
+		opacity: 0.46;
 		filter: invert(100%);
 		-webkit-filter: invert(100%)
 	}
 	
 	html .u_cbox .u_cbox_layer_cleanbot2_titleicon {
-		background-image: url(https://ssl.pstatic.net/static.news/image/news/m/2021/05/17/cbox_cleanbot2_on_w_dark.gif)
+		background-image: url("https://ssl.pstatic.net/static.news/image/news/m/2021/05/17/cbox_cleanbot2_on_w_dark.gif")
 	}
 	
 	html .u_cbox .u_cbox_layer_cleanbot2_titleicon, html .u_cbox .u_cbox_layer_cleanbot2_titleicon2 {
@@ -95109,7 +95366,7 @@
 	}
 	
 	html .u_cbox .u_cbox_layer_cleanbot2_titleicon2 {
-		background-image: url(https://ssl.pstatic.net/static.news/image/news/m/2021/05/17/cbox_cleanbot2_off_w_dark.gif)
+		background-image: url("https://ssl.pstatic.net/static.news/image/news/m/2021/05/17/cbox_cleanbot2_off_w_dark.gif")
 	}
 	
 	html .u_cbox .u_cbox_layer_common .type_wide .u_cbox_btn_cancel {
@@ -95126,56 +95383,60 @@
 	}
 	
 	html .u_cbox .u_cbox_layer_dimmed {
-		opacity: .5;
+		opacity: 0.5;
 		background-color: #000
 	}
 	
 	html .u_cbox .u_cbox_layer_fold .u_cbox_ico_close_fold, html .u_cbox .u_cbox_layer_follow_closebtn, html .u_cbox .u_cbox_manageusers_morebtn::after, html .u_cbox .u_cbox_userpage_moremenuico, html .u_cbox .u_cbox_view_comment .u_cbox_ico_view_comment, html .u_cbox_user .u_cbox_article_source_area .u_cbox_ico_more, html .u_cbox_user .u_cbox_comment_none .u_cbox_con_inform_linkicon, html .u_cbox_user .u_cbox_tool .u_cbox_recomm_set .u_cbox_ico_recomm, html .u_cbox_user .u_cbox_tool .u_cbox_recomm_set .u_cbox_ico_unrecomm, html .u_cbox_user .u_cbox_userinfo_laststats_helpbtn, html .u_cbox_userpage .u_cbox_btn_fold_wrap .u_cbox_ico_fold, html .u_cbox_userpage .u_cbox_btn_more_pre .u_cbox_ico_more, html .u_cbox_userpage .u_cbox_comment_none .u_cbox_con_inform_linkicon, html .u_cbox_userpage .u_cbox_more_wrap .u_cbox_ico_more, html .u_cbox_userpage .u_cbox_tool .u_cbox_recomm_set .u_cbox_btn_unrecomm_on .u_cbox_ico_unrecomm, html #cbox_module .u_cbox_btn_more_pre .u_cbox_ico_more, html #cbox_module .u_cbox_ico_fold, html #cbox_module .u_cbox_ico_more, html .u_cbox .u_cbox_manageblock_morebtn::after, html .u_cbox_user .u_cbox_btn_fold_wrap .u_cbox_ico_fold, html .u_cbox_user .u_cbox_more_wrap .u_cbox_ico_more, html #cbox_module .u_cbox_recomm_set .u_cbox_ico_recomm, html #cbox_module .u_cbox_recomm_set .u_cbox_ico_unrecomm {
-		opacity: .68;
+		opacity: 0.68;
 		filter: invert(100%);
 		-webkit-filter: invert(100%)
 	}
 	
 	html .u_cbox .u_cbox_layer_follow {
-		box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .07), 0 0 5px 0 rgba(0, 0, 0, .2);
+		box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.07), 0 0 5px 0 rgba(0, 0, 0, 0.2);
 		background-color: #39393C;
-		-webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .07), 0 0 5px 0 rgba(0, 0, 0, .2)
+		-webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.07), 0 0 5px 0 rgba(0, 0, 0, 0.2)
 	}
 	
 	html .u_cbox .u_cbox_layer_goodcomment_datetimemsg {
 		color: #dadde0;
-		background: 0 0
+		background: transparent
 	}
 	
-	html .u_cbox .u_cbox_layer_goodcomment_extra .u_cbox_layer_goodcomment_primarybtn, html .u_cbox .u_cbox_layer_goodcomment_extra .u_cbox_layer_goodcomment_standardbtn, html #cbox_module .u_cbox_chart_title {
+	html .u_cbox .u_cbox_layer_goodcomment_extra .u_cbox_layer_goodcomment_primarybtn, html .u_cbox .u_cbox_layer_goodcomment_extra .u_cbox_layer_goodcomment_standardbtn, html .u_cbox .u_cbox_manageusers_morebtn, html #cbox_module .u_cbox_chart_title {
 		color: #dadde0;
 		border-color: #464649
 	}
 	
 	html .u_cbox .u_cbox_layer_goodcomment_headericon {
-		background-image: url(https://ssl.pstatic.net/static.news/image/news/m/2021/05/17/cbox_cleanbot_reconsider_w_dark.gif)
+		background-image: url("https://ssl.pstatic.net/static.news/image/news/m/2021/05/17/cbox_cleanbot_reconsider_w_dark.gif")
 	}
 	
 	html .u_cbox .u_cbox_layer_goodcomment_headericon2 {
-		background-image: url(https://ssl.pstatic.net/static.news/image/news/m/2021/05/17/cbox_cleanbot_impossible_w_dark.gif)
+		background-image: url("https://ssl.pstatic.net/static.news/image/news/m/2021/05/17/cbox_cleanbot_impossible_w_dark.gif")
+	}
+	
+	html .u_cbox .u_cbox_layer_help {
+		border-color: rgba(255, 255, 255, 0.05);
+		background-color: #48484b
 	}
 	
 	html .u_cbox .u_cbox_layer_help .u_cbox_ico_help, html #cbox_module .u_cbox_help_info .u_cbox_ico_help {
-		background-position: -175px -136px
+		background-position: -166px -120px
 	}
 	
-	html .u_cbox .u_cbox_layer_help, html .u_cbox .u_cbox_user .u_cbox_user_header .u_cbox_user_helplayer, html .u_cbox .u_cbox_user .u_cbox_user_header .u_cbox_user_moremenulayer, html .u_cbox .u_cbox_user .u_cbox_userinfo_laststats_helplayer, html .u_cbox .u_cbox_userpage_helplayer, html .u_cbox .u_cbox_userpage_moremenulayer, html .u_cbox_userpage .u_cbox_lateststats_helplayer {
-		border-color: #545457;
-		background-color: #48484b
+	html .u_cbox .u_cbox_layer_help .u_cbox_info_title {
+		color: #f0f0f2
 	}
 	
 	html .u_cbox .u_cbox_layer_report_radio_label::before {
 		width: 22px;
 		height: 22px;
 		filter: brightness(2);
-		background-size: 223px 201px;
-		background-position: -107px -136px;
-		background-image: url(https://ssl.pstatic.net/static.news/image/news/m/2022/07/27/sp_comment_overwrite.png);
+		background-size: 226px 201px;
+		background-position: -136px -136px;
+		background-image: url(https://ssl.pstatic.net/static.news/image/news/m/2022/11/13/sp_comment_overwrite.png);
 		-webkit-filter: brightness(2)
 	}
 	
@@ -95183,9 +95444,9 @@
 		width: 22px;
 		height: 22px;
 		filter: none;
-		background-size: 223px 201px;
-		background-position: -83px -136px;
-		background-image: url(https://ssl.pstatic.net/static.news/image/news/m/2022/07/27/sp_comment_overwrite.png);
+		background-size: 226px 201px;
+		background-position: -112px -136px;
+		background-image: url(https://ssl.pstatic.net/static.news/image/news/m/2022/11/13/sp_comment_overwrite.png);
 		-webkit-filter: none
 	}
 	
@@ -95195,13 +95456,18 @@
 		background-color: #48484b
 	}
 	
-	html .u_cbox .u_cbox_layer_report_reason_select:last-child, html .u_cbox .u_cbox_manageusers_header, html .u_cbox .u_cbox_manageusers_listitem, html .u_cbox .u_cbox_user .u_cbox_btn_more_pre, html .u_cbox_comment_box, html .u_cbox .u_cbox_write_notice, html .u_cbox_userpage .u_cbox_btn_more_pre, html .u_cbox_userpage .u_cbox_comment_box, html .u_cbox_userpage .u_cbox_commentset, html .u_cbox_userpage .u_cbox_followset_list, html .u_cbox_userpage .u_cbox_reply_area .u_cbox_comment_box {
+	html .u_cbox .u_cbox_layer_report_reason_select:last-child, html .u_cbox .u_cbox_manageusers_header, html .u_cbox .u_cbox_manageusers_listitem, html .u_cbox .u_cbox_myfollowing .u_cbox_reply_area .u_cbox_comment_box, html .u_cbox .u_cbox_myfollowing.u_cbox_content_wrap>.u_cbox_list>.u_cbox_comment:not(:last-of-type), html .u_cbox .u_cbox_user .u_cbox_btn_more_pre, html .u_cbox_comment_box, html .u_cbox .u_cbox_write_notice, html .u_cbox_userpage .u_cbox_btn_more_pre, html .u_cbox_userpage .u_cbox_comment_box, html .u_cbox_userpage .u_cbox_commentset, html .u_cbox_userpage .u_cbox_followset_list, html .u_cbox_userpage .u_cbox_reply_area .u_cbox_comment_box {
 		border-bottom-color: #464649
 	}
 	
-	html .u_cbox .u_cbox_layer_report_title {
+	html .u_cbox .u_cbox_layer_report_title, html .u_cbox .u_cbox_myfollowing_header {
 		color: #F0F0F2;
 		border-color: #464649
+	}
+	
+	html .u_cbox .u_cbox_layer_translate, html #cbox_module .u_cbox_chart_foot, html #cbox_module .u_cbox_chart_wrap, html #cbox_module .u_cbox_reply_area {
+		border-color: #464649;
+		background: #303033
 	}
 	
 	html .u_cbox .u_cbox_layer_userblock_primarybtn+.u_cbox_layer_userblock_standardbtn {
@@ -95219,31 +95485,20 @@
 		border-color: #464649
 	}
 	
-	html .u_cbox .u_cbox_manageblock_standardbtn {
+	html .u_cbox .u_cbox_manageblock_standardbtn, html .u_cbox .u_cbox_manageusers_standardbtn {
 		color: #dadde0;
 		border-color: #595959;
 		background-color: #39393C
 	}
 	
 	html .u_cbox .u_cbox_manageusers_helplayer {
-		box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .07), 0 0 5px 0 rgba(0, 0, 0, .2);
+		box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.07), 0 0 5px 0 rgba(0, 0, 0, 0.2);
 		border-color: #545457;
 		background-color: #48484b;
-		-webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .07), 0 0 5px 0 rgba(0, 0, 0, .2)
+		-webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.07), 0 0 5px 0 rgba(0, 0, 0, 0.2)
 	}
 	
-	html .u_cbox .u_cbox_manageusers_morebtn {
-		color: #dadde0;
-		border-color: #464649
-	}
-	
-	html .u_cbox .u_cbox_manageusers_standardbtn {
-		color: #dadde0;
-		border-color: #595959;
-		background-color: #39393C
-	}
-	
-	html .u_cbox .u_cbox_manageusers_tab[aria-selected=true] .u_cbox_manageusers_tablabel {
+	html .u_cbox .u_cbox_manageusers_tab[aria-selected="true"] .u_cbox_manageusers_tablabel {
 		color: #dadde0;
 		border-bottom-color: #dadde0
 	}
@@ -95253,7 +95508,7 @@
 	}
 	
 	html .u_cbox .u_cbox_manageusers_totalcomment_icon {
-		background-position: -210px -49px
+		background-position: -213px -49px
 	}
 	
 	html .u_cbox .u_cbox_manageusers, html .u_cbox .u_cbox_user .u_cbox_userinfo_wrap, html #cbox_module .u_cbox_profile_area, html #cbox_module .u_cbox_write .u_cbox_inbox, html #cbox_module, html .u_cbox {
@@ -95261,8 +95516,18 @@
 	}
 	
 	html .u_cbox .u_cbox_mine .u_cbox_area {
+		margin-bottom: -1px;
 		border-bottom: 1px solid #464649;
 		background-color: #303033
+	}
+	
+	html .u_cbox .u_cbox_myfollowing {
+		border-color: #464649;
+		background: transparent
+	}
+	
+	html .u_cbox .u_cbox_myfollowing_extra.u_cbox_type_2x1 .u_cbox_myfollowing_more::after {
+		background: #464649
 	}
 	
 	html .u_cbox .u_cbox_no_image {
@@ -95272,18 +95537,18 @@
 	}
 	
 	html .u_cbox .u_cbox_orgsource>a, html .u_cbox .u_cbox_orgsourcedel {
-		border-color: rgba(255, 255, 255, .04);
+		border-color: rgba(255, 255, 255, 0.04);
 		background: #48484b
 	}
 	
 	html .u_cbox .u_cbox_password_inner .u_cbox_text {
 		color: #dadde0;
-		background: 0 0
+		background: none
 	}
 	
 	html .u_cbox .u_cbox_refresh_wrap .u_cbox_ico_refresh_man {
 		border-color: #595959;
-		background-color: #39393C
+		background-color: #242424
 	}
 	
 	html .u_cbox .u_cbox_sort_scroll::after, html .u_cbox .u_cbox_sort_scroll::before {
@@ -95309,6 +95574,11 @@
 	html .u_cbox .u_cbox_user .u_cbox_reply_area {
 		border-color: #464649;
 		background-color: #303033
+	}
+	
+	html .u_cbox .u_cbox_user .u_cbox_user_header .u_cbox_user_helplayer, html .u_cbox .u_cbox_user .u_cbox_user_header .u_cbox_user_moremenulayer, html .u_cbox .u_cbox_user .u_cbox_userinfo_laststats_helplayer, html .u_cbox .u_cbox_userpage_helplayer, html .u_cbox .u_cbox_userpage_moremenulayer, html .u_cbox_userpage .u_cbox_lateststats_helplayer {
+		border-color: #545457;
+		background-color: #48484b
 	}
 	
 	html .u_cbox .u_cbox_user .u_cbox_userblockmsg_button {
@@ -95357,8 +95627,8 @@
 		background-color: transparent
 	}
 	
-	html .u_cbox .u_cbox_write_notice_checklabel {
-		color: rgba(165, 165, 167, .4)
+	html .u_cbox .u_cbox_write_notice_checklabel, html .u_cbox_userpage.u_cbox_type_blocked .u_cbox_overallstats_label {
+		color: rgba(165, 165, 167, 0.4)
 	}
 	
 	html .u_cbox_layer_report_btn_cancel {
@@ -95372,7 +95642,7 @@
 	}
 	
 	html .u_cbox_user .u_cbox_userinfo_profile_link {
-		background-position: -29px -136px
+		background-position: -58px -136px
 	}
 	
 	html .u_cbox_userpage .u_cbox_btn_fold {
@@ -95384,10 +95654,10 @@
 	}
 	
 	html .u_cbox_userpage .u_cbox_btn_totalcomment .u_cbox_ico_arrow, html #cbox_module .u_cbox_btn_totalcomment .u_cbox_ico_arrow, html #cbox_module .u_cbox_ico_usercomment {
-		background-position: -210px -17px
+		background-position: -213px -17px
 	}
 	
-	html .u_cbox_userpage .u_cbox_commentset_button[aria-pressed=true] .u_cbox_commentset_label {
+	html .u_cbox_userpage .u_cbox_commentset_button[aria-pressed="true"] .u_cbox_commentset_label {
 		color: #F0F0F2;
 		border-bottom-color: #dadde0
 	}
@@ -95403,7 +95673,7 @@
 	}
 	
 	html .u_cbox_userpage .u_cbox_overallstats::after {
-		border-bottom-color: rgba(216, 216, 216, .07);
+		border-bottom-color: rgba(216, 216, 216, 0.07);
 		background-color: #303033
 	}
 	
@@ -95429,7 +95699,23 @@
 	}
 	
 	html .u_cbox_userpage .u_cbox_userinfo_profile_link {
-		background-position: -150px -86px
+		background-position: 0px -136px
+	}
+	
+	html .u_cbox_userpage.u_cbox_type_blocked .u_cbox_overallstats_item::before, html .u_cbox_userpage.u_cbox_type_blocked .u_cbox_userinfo_meta_date::before {
+		background-color: rgba(70, 70, 73, 0.4)
+	}
+	
+	html .u_cbox_userpage.u_cbox_type_blocked .u_cbox_overallstats_number {
+		color: rgba(218, 221, 224, 0.4)
+	}
+	
+	html .u_cbox_userpage.u_cbox_type_blocked .u_cbox_userinfo_meta_date, html .u_cbox_userpage.u_cbox_type_blocked .u_cbox_userinfo_meta_id {
+		color: rgba(145, 145, 146, 0.4)
+	}
+	
+	html .u_cbox_userpage.u_cbox_type_blocked .u_cbox_userinfo_meta_nickname {
+		color: rgba(240, 240, 242, 0.4)
 	}
 	
 	html #cbox_module .u_cbox_attached .u_cbox_inbox .u_cbox_guide, html #cbox_module .u_cbox_edit .u_cbox_inbox .u_cbox_guide, html #cbox_module .u_cbox_focus .u_cbox_inbox .u_cbox_guide, html #cbox_module .u_cbox_writing .u_cbox_inbox .u_cbox_guide {
@@ -95441,29 +95727,29 @@
 		background: #39393C
 	}
 	
+	html #cbox_module .u_cbox_btn_translate_set {
+		color: #F0F0F2;
+		background: transparent
+	}
+	
 	html #cbox_module .u_cbox_btn_usercomment {
 		color: #dadde0;
 		border-color: #545457;
-		background-color: rgba(72, 72, 75, .8)
+		background-color: rgba(72, 72, 75, 0.8)
 	}
 	
 	html #cbox_module .u_cbox_chart_cont {
-		background-image: url(https://ssl.pstatic.net/static.news/image/news/m/2022/07/27/bg_chart_cont_w_dark.gif)
+		background-image: url("https://ssl.pstatic.net/static.news/image/news/m/2022/07/27/bg_chart_cont_w_dark.gif")
 	}
 	
 	html #cbox_module .u_cbox_chart_fold_ico {
 		width: 14px;
 		transform: rotate(180deg);
 		height: 14px;
-		background-size: 223px 201px;
-		background-position: -192px -157px;
-		background-image: url(https://ssl.pstatic.net/static.news/image/news/m/2022/07/27/sp_comment_overwrite.png);
+		background-size: 226px 201px;
+		background-position: -150px -120px;
+		background-image: url(https://ssl.pstatic.net/static.news/image/news/m/2022/11/13/sp_comment_overwrite.png);
 		-webkit-transform: rotate(180deg)
-	}
-	
-	html #cbox_module .u_cbox_chart_foot, html #cbox_module .u_cbox_chart_wrap {
-		border-color: #464649;
-		background: #303033
 	}
 	
 	html #cbox_module .u_cbox_chart_open .u_cbox_chart_fold_ico {
@@ -95474,16 +95760,16 @@
 	html #cbox_module .u_cbox_cleanbot {
 		border-color: #545457;
 		border-color: #464649;
-		background: rgba(72, 72, 75, .8);
+		background: rgba(72, 72, 75, 0.8);
 		background: #39393C
 	}
 	
 	html #cbox_module .u_cbox_cleanbot_content::before {
-		background-position: -132px -165px
+		background-position: -192px -21px
 	}
 	
 	html #cbox_module .u_cbox_cleanbot_setbutton.is_highlight:before {
-		opacity: .5;
+		opacity: 0.5;
 		filter: invert(0);
 		-webkit-filter: invert(0)
 	}
@@ -95494,12 +95780,17 @@
 	}
 	
 	html #cbox_module .u_cbox_head .u_cbox_btn_refresh .u_cbox_ico_refresh {
-		background-position: 0 -165px
+		background-position: -22px -165px
 	}
 	
 	html #cbox_module .u_cbox_ico_loading_fail {
-		filter: brightness(.5);
-		-webkit-filter: brightness(.5)
+		filter: brightness(0.5);
+		-webkit-filter: brightness(0.5)
+	}
+	
+	html #cbox_module .u_cbox_ico_translate_arr {
+		filter: invert(65%);
+		-webkit-filter: invert(65%)
 	}
 	
 	html #cbox_module .u_cbox_info_base .u_cbox_ico_bar {
@@ -95513,7 +95804,7 @@
 	}
 	
 	html #cbox_module .u_cbox_loading_fail .u_cbox_btn_refresh .u_cbox_ico_refresh {
-		opacity: .48;
+		opacity: 0.48;
 		filter: invert(100%);
 		-webkit-filter: invert(100%)
 	}
@@ -95527,17 +95818,12 @@
 	}
 	
 	html #cbox_module .u_cbox_notice .u_cbox_notice_tit::after {
-		background-position: -210px -167px
+		background-position: -213px -167px
 	}
 	
 	html #cbox_module .u_cbox_recomm_set .u_cbox_btn_recomm_on .u_cbox_ico_recomm, html .u_cbox_user .u_cbox_tool .u_cbox_recomm_set .u_cbox_btn_recomm_on .u_cbox_ico_recomm {
-		filter: invert(0);
-		-webkit-filter: invert(0)
-	}
-	
-	html #cbox_module .u_cbox_reply_area {
-		border-color: #464649;
-		background: #303033
+		filter: invert(0%);
+		-webkit-filter: invert(0%)
 	}
 	
 	html #cbox_module .u_cbox_sort {
@@ -95546,12 +95832,6 @@
 	
 	html #cbox_module .u_cbox_write .u_cbox_write_inner {
 		border-color: #7b7b7b
-	}
-	
-	@media (min-width: 1025px) {
-		.as_mp_layout .u_cbox .u_cbox_layer_report {
-			background: #39393C
-		}
 	}
 	
 	#cbox_module .u_cbox_notice .u_cbox_ico_notice {

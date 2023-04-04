@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.65.29
+@version		1.65.30
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -64371,22 +64371,22 @@
 		position: relative;
 	}
 	
-	.cs_common_module .cm_content_wrap:before {
-		position: absolute;
-		content: '';
-		left: -1px;
-		top: 0px;
-		width: calc(100% + 2px);
-		height: calc(100% + 1px);
-		background: rgba(0, 0, 0, 0.75);
-		border-radius: 0 0 6px 6px;
-		pointer-events: none;
-	}
+	/*.cs_common_module .cm_content_wrap:before {*/
+	/*	position: absolute;*/
+	/*	content: '';*/
+	/*	left: -1px;*/
+	/*	top: 0px;*/
+	/*	width: calc(100% + 2px);*/
+	/*	height: calc(100% + 1px);*/
+	/*	background: rgba(0, 0, 0, 0.75);*/
+	/*	border-radius: 0 0 6px 6px;*/
+	/*	pointer-events: none;*/
+	/*}*/
 	
-	.cs_common_module .cm_content_wrap {
-		border: 1px solid #000 !important;
-		border-width: 0 1px 1px !important;
-	}
+	/*.cs_common_module .cm_content_wrap {*/
+	/*	border: 1px solid #000 !important;*/
+	/*	border-width: 0 1px 1px !important;*/
+	/*}*/
 	
 	.cs_common_module .cm_top_wrap:before {
 		position: absolute;
@@ -64395,10 +64395,9 @@
 		top: 0px;
 		width: 100%;
 		height: 100%;
-		background: rgba(0, 0, 0, 0.75);
-		border: 1px solid rgba(0, 0, 0, 0.75);
+		background: rgba(0, 0, 0, 0.815);
+		border: 1px solid #404040;
 		border-width: 0 1px 0;
-		border-radius: 6px 6px 0 0;
 		pointer-events: none;
 	}
 	
@@ -64406,9 +64405,9 @@
 		border-left: 1px solid #404040;
 	}
 	
-	.cs_common_module .cm_info_box {
-		background-color: #242424;
-	}
+	/*.cs_common_module .cm_info_box {*/
+	/*	background-color: #242424;*/
+	/*}*/
 	
 	.cs_common_module .text_expand .desc {
 		color: #cacaca;
@@ -64614,10 +64613,6 @@
 	
 	.cs_common_module .cm_expand_box .area_button_arrow.state_open:hover .area_inner, .cs_common_module .cm_expand_box .area_button_arrow:hover .area_inner, .cs_common_module .cm_expand_box .area_button_arrow.state_open .area_inner {
 		filter: invert(86%) hue-rotate(-180deg);
-	}
-	
-	.cs_common_module .play_list_wrap .music_play_list {
-		border-top: 1px solid #404040;
 	}
 	
 	.cs_common_module .cm_tab_info_box {
@@ -73236,9 +73231,9 @@
 		margin: 0px 9px 0;
 	}
 	
-	.sc_new.cs_common_module .cm_content_wrap {
-		padding-top: 12px;
-	}
+	/*.sc_new.cs_common_module .cm_content_wrap {*/
+	/*	padding-top: 12px;*/
+	/*}*/
 	
 	.cards .orders .order[aria-selected=true] {
 		color: #fff;
@@ -74613,8 +74608,8 @@
 	}
 	
 	.cs_common_module .cm_top_wrap {
-		border-left-color: #000 !important;
-		border-right-color: #000 !important;
+		border-left-color: #404040 !important;
+		border-right-color: #404040 !important;
 	}
 	
 	.cs_common_module .detail_info .info .cm_bar_info {
@@ -76623,10 +76618,6 @@
 	
 	.cs_common_module .cm_info_box .scroll_box .area_deposit_card .title_txt {
 		color: #fff;
-	}
-	
-	.cs_common_module .cm_info_box {
-		position: relative;
 	}
 	
 	.cs_common_module .accordion_list .list_title {
@@ -79827,13 +79818,14 @@
 	}
 	
 	.cs_common_module .cm_content_area>.lego_title_tab_outer {
-		background-color: #242424;
-		box-shadow: none !important;
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+		border-width: 0 1px;
 	}
 	
-	.cs_common_module .cm_content_area>.lego_title_tab_outer ~ .cm_info_box, .cs_common_module .cm_content_area>.lego_title_tab_outer ~ .cm_pure_box {
-		box-shadow: none !important;
-	}
+	/*.cs_common_module .cm_content_area>.lego_title_tab_outer ~ .cm_info_box, .cs_common_module .cm_content_area>.lego_title_tab_outer ~ .cm_pure_box {*/
+	/*	box-shadow: none !important;*/
+	/*}*/
 	
 	.cs_common_simple .cm_content_wrap.simple_list_type .cm_info_box .scroll_box {
 		border-top: 1px solid #404040;
@@ -86500,7 +86492,7 @@
 	}
 	
 	.cs_common_module .play_list_wrap:before {
-		background: #242424;
+		background: #2f2f2f;
 	}
 	
 	.cs_common_module .video_list .video_item .video_title, .cs_common_module .activity_list .video_item .video_title {
@@ -88134,6 +88126,75 @@
 	
 	.ntalk_wrap .sc_new.sp_nchat .ChatWrap {
 		border-color: #404040;
+	}
+	
+	.cs_common_module .cm_info_box {
+		border: 1px solid #404040;
+	}
+	
+	.cs_common_module .cm_content_wrap .cm_content_area:first-child>div:first-child {
+		border-top: 0;
+	}
+	
+	.cs_common_module .cm_content_area>.lego_title_tab_outer:first-child {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_common_module .cm_content_wrap>.cm_content_area:first-of-type>div:first-child:before, .cs_common_module .cm_content_wrap>.cm_tab_info_box:first-of-type>div:first-child:before, .cs_common_module .cm_content_wrap>.cm_info_box:first-of-type>div:first-child:before {
+		background: #404040;
+		top: 0px;
+	}
+	
+	.cs_common_module .cm_info_box {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_common_module .middle_title .more_link:after, .cs_common_module .area_more_tab .area_inner {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.cs_common_module .cm_info_box[class*="scroll_img"] .list>li .area_card:before, .cs_common_module .cm_info_box .scroll_img_vertical_75_84 .list>li .area_card:before, .cs_common_module .cm_info_box .scroll_music_chart .list>li .area_card:before, .cs_common_module .cm_tab_info_box[class*="scroll_img"] .list>li .area_card:before, .cs_common_module .cm_tab_info_box .scroll_img_vertical_75_84 .list>li .area_card:before, .cs_common_module .cm_tab_info_box .scroll_music_chart .list>li .area_card:before {
+		border: 1px solid #404040;
+	}
+	
+	.cs_common_module .cm_pure_box, .cs_common_module .box_card_image_list .info_box, .cs_common_module .scroll_music_chart .info_box, .cs_common_module .card_wrap .card_content .card_item {
+		border: 1px solid #404040;
+	}
+	
+	.cs_common_module .pro_tab_list .pro_info_box dd em {
+		color: #fff;
+	}
+	
+	.cs_common_module.case_empasis.color_2 .cm_info_box .button_area .button_box .type_border li .mp3_down, .cs_common_module.case_empasis.color_2 .cm_tab_info_box .button_area .button_box .type_border li .mp3_down, .cs_common_module.case_empasis.color_2 .rel_answer_wrap .button_area .button_box .type_border li .mp3_down {
+		background-color: #2f2f2f;
+	}
+	
+	.cs_common_module.case_empasis .cm_content_wrap>.cm_content_area:first-of-type>div:first-child, .cs_common_module.case_empasis .cm_content_wrap>.cm_tab_info_box:first-of-type>div:first-child, .cs_common_module.case_empasis .cm_content_wrap>.cm_info_box:first-of-type>div:first-child {
+		background: #2f2f2f;
+	}
+	
+	.cs_common_module .cm_tab_info_box {
+		border: 1px solid #404040;
+	}
+	
+	.cs_common_module .video_list>ul>li:before {
+		border: 1px solid #404040;
+	}
+	
+	.cs_common_module .play_list_wrap .music_play_list {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_common_module .list_image_info .item:before {
+		border: 1px solid #404040;
+	}
+	
+	.cs_common_simple .cm_content_wrap>.cm_content_area:first-of-type>div:first-child:before, .cs_common_simple .cm_content_wrap>.cm_tab_info_box:first-of-type>div:first-child:before, .cs_common_simple .cm_content_wrap>.cm_info_box:first-of-type>div:first-child:before {
+		background: #404040;
+	}
+	
+	.cs_common_simple .answer_more .link_box .link_text:after {
+		filter: invert(86%) hue-rotate(-180deg);
 	}
 }
 

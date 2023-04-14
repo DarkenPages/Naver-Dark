@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.65.36
+@version		1.65.37
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -88338,6 +88338,26 @@
 	
 	.cs_nonsense .relative_area dt {
 		color: #fff;
+	}
+	
+	.cs_common_module.case_list.color_5 .lego_scroll_middle .next_visual, .cs_common_module.case_list.color_5 .lego_scroll_middle .next_visual:hover, .cs_common_module.case_list.color_5 .lego_scroll_middle .next_visual.on, .cs_common_module.case_list.color_5 .lego_scroll_middle .next_visual.seletced {
+		background-image: linear-gradient(to left, #2f2f2f 50%, rgba(45,45,46,0)) !important;
+	}
+	
+	.cs_common_module.case_list.color_5 .lego_scroll_middle .pre_visual, .cs_common_module.case_list.color_5 .lego_scroll_middle .pre_visual:hover, .cs_common_module.case_list.color_5 .lego_scroll_middle .pre_visual.on, .cs_common_module.case_list.color_5 .lego_scroll_middle .pre_visual.seletced {
+		background-image: linear-gradient(to right, #2f2f2f 50%, rgba(45,45,46,0)) !important;
+	}
+	
+	.cs_common_module .cm_content_area {
+		margin-top: 1px;
+	}
+	
+	.cs_common_module.case_list .list_type ~ .cm_content_wrap .cm_tab_info_box .cm_filter_tap:before, .cs_common_module.case_list .list_type ~ .cm_content_wrap .cm_pure_box .cm_filter_tap:before {
+		top: 0px;
+	}
+	
+	.cs_common_module .cm_filter_tap .filter_tap_area .type_scroll .tab .menu {
+		border: 1px solid #404040;
 	}
 }
 

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.65.37
+@version		1.65.38
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -88358,6 +88358,52 @@
 	
 	.cs_common_module .cm_filter_tap .filter_tap_area .type_scroll .tab .menu {
 		border: 1px solid #404040;
+	}
+	
+	.cs_mgame2 .prsn_num .people_num {
+		color: #fff;
+	}
+	
+	.cs_mgame2 .prsn_num button {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_mgame2 .prsn_num em {
+		color: #fff;
+	}
+	
+	.cs_mgame2 .ifm {
+		color: #cacaca;
+	}
+	
+	.cs_mgame2 .rel_link dl {
+		color: #fff;
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_mgame2 .rel_link dl dt {
+		color: #fff;
+	}
+	
+	.cs_mgame2 .cnt_area .entry_area input {
+		color: #fff !important;
+	}
+	
+	.cs_mgame2 .cnt_area {
+		background: #3a3a3a;
+		border: 1px solid #404040;
+	}
+	
+	.cs_mgame2 .cnt_area .situation, .cs_mgame2 .cnt_area .choice_area dd:nth-child(2) {
+		color: #fff;
+	}
+	
+	.cs_mgame2 .cnt_area .choice_area dd:nth-child(4) {
+		color: #cacaca;
+	}
+	
+	.cs_mgame2 .cnt_area .entry_area li {
+		color: #242424;
 	}
 }
 

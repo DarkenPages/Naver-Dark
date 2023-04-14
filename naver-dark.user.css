@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.65.32
+@version		1.65.33
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -34956,6 +34956,37 @@
 		color: #cacaca;
 		border: 1px solid #4f4f4f;
 		background-color: #3a3a3a;
+	}
+	
+	#gnb .gnb_my_li .gnb_my_community a.gnb_pay i {
+		background: none !important;
+		position: relative;
+	}
+	
+	#gnb .gnb_my_li .gnb_my_community a.gnb_pay i:before {
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 61px;
+		height: 20px;
+		background: url(https://ssl.pstatic.net/static/common/gnb/banner/promo_membership.png) no-repeat !important;
+		background-position-x: 20px;
+		background-size: 61px 20px !important;
+		overflow: none;
+		filter: invert(86%) hue-rotate(-180deg) brightness(500%);
+	}
+	
+	#gnb .gnb_my_li .gnb_my_community a.gnb_pay i:after {
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 20px;
+		height: 20px;
+		background: url(https://ssl.pstatic.net/static/common/gnb/banner/promo_membership.png) no-repeat !important;
+		background-size: 61px 20px !important;
+		overflow: none;
 	}
 }
 

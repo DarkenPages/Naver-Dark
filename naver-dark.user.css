@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.65.41
+@version		1.65.42
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -88570,6 +88570,182 @@
 	
 	.cs_common_module .cm_basic_top_wrap+.cm_content_wrap .cm_tab_info_box .cm_filter_tap .filter_option+.filter_tap_area .pre_visual, .cs_common_module .cm_white_top_wrap+.cm_content_wrap .cm_tab_info_box .cm_filter_tap .filter_option+.filter_tap_area .pre_visual {
 		background-image: linear-gradient(to right, #2f2f2f 53%, rgba(47,47,47,0) 100%) !important;
+	}
+	
+	.cs_abandoned_animal .info_select {
+		border-bottom: 1px solid #404040;
+		background-color: #3a3a3a;
+	}
+	
+	.cs_abandoned_animal .lst_wrap {
+		border: 1px solid #404040;
+	}
+	
+	.cs_abandoned_animal .page_area {
+		border-top: 1px solid #404040;
+		background-color: #3a3a3a;
+	}
+	
+	.cs_abandoned_animal .animal_lst ul li::after {
+		background-color: #404040;
+	}
+	
+	.cs_abandoned_animal .page_area .paging_bx a[class^=btn_page_] {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_abandoned_animal .page_area .paging_bx .page_number .total {
+		color: #fff;
+	}
+	
+	.cs_abandoned_animal .page_area .paging_bx .page_number {
+		color: #4f4f4f;
+	}
+	
+	.cs_abandoned_animal .animal_notice p {
+		color: #cacaca;
+	}
+	
+	.cs_abandoned_animal .animal_notice p .ico_bar {
+		background-color: #404040;
+	}
+	
+	.cs_abandoned_animal .animal_lst ul li strong a, .cs_abandoned_animal .animal_lst ul li dd .txt_animal {
+		color: #fff;
+	}
+	
+	.cs_abandoned_animal .animal_lst ul li dd {
+		color: #cacaca;
+	}
+	
+	.cs_abandoned_animal .animal_lst ul li dt {
+		color: #999 !important;
+	}
+	
+	.cs_abandoned_animal .animal_lst ul li dl .ico_bar {
+		background-color: #404040;
+	}
+	
+	.cs_abandoned_animal .animal_lst ul li .lst_line {
+		background-color: #404040;
+	}
+	
+	.cs_abandoned_animal .btn_reset {
+		border-left: 1px solid #404040;
+	}
+	
+	.cs_abandoned_animal .info_select .btn_select {
+		color: #fff;
+	}
+	
+	.cs_abandoned_animal .select_box .list_select {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.cs_abandoned_animal .list_select [class^=list_box] strong {
+		color: #fff;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_abandoned_animal .list_select [class^=list_box] ul li a {
+		color: #cacaca;
+	}
+	
+	.cs_abandoned_animal .list_select [class^=list_box] ul {
+		border-right: 1px solid #404040;
+	}
+	
+	.cs_abandoned_animal .info_select .select_box.date .animal_calendar {
+		border: 1px solid #404040;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_abandoned_animal .info_select .select_box.date .animal_calendar .input_box {
+		border: 1px solid #404040;
+	}
+	
+	.cs_abandoned_animal .info_select .select_box.date .animal_calendar .input_txt {
+		color: #cacaca;
+		background-color: #2f2f2f;
+	}
+	
+	.cs_abandoned_animal .info_select .select_box.date .animal_calendar .btn_inp .tx {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.cs_abandoned_animal .info_select .select_box.date .animal_calendar .btn_inp button {
+		background: #3a3a3a;
+	}
+	
+	.cs_abandoned_animal .info_select .select_box.date .animal_calendar .input_box.selected .input_txt {
+		color: #fff;
+	}
+	
+	.cs_abandoned_animal .ui-datepicker .ui-datepicker-header {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_abandoned_animal .ui-datepicker {
+		background: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.cs_abandoned_animal .ui-datepicker .ui-datepicker-header .ui-datepicker-year, .cs_abandoned_animal .ui-datepicker .ui-datepicker-header .ui-datepicker-month {
+		color: #fff;
+	}
+	
+	.cs_abandoned_animal .ui-datepicker table td a:active, .cs_abandoned_animal .ui-datepicker table td a:visited {
+		color: #fff;
+	}
+	
+	.cs_abandoned_animal .ui-datepicker table td a:focus, .cs_abandoned_animal .ui-datepicker table td a:hover {
+		background: #3a3a3a;
+		color: #cacaca;
+	}
+	
+	.cs_abandoned_animal .ui-datepicker table td a, .cs_abandoned_animal .ui-datepicker table td span {
+		color: #fff;
+	}
+	
+	.cs_abandoned_animal .ui-datepicker .ui-datepicker-buttonpane .today {
+		border-top: 1px solid #404040;
+		background-color: #3a3a3a;
+		color: #cacaca;
+	}
+	
+	.cs_abandoned_animal .ui-datepicker .ui-datepicker-buttonpane .today span {
+		background: none;
+	}
+	
+	.cs_abandoned_animal .ui-datepicker .ly_close img {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_abandoned_animal .ui-datepicker table tbody .ui-datepicker-week-end a, .cs_abandoned_animal .ui-datepicker table tbody .ui-datepicker-week-end a:active, .cs_abandoned_animal .ui-datepicker table .ui-datepicker-week-end tbody a:hover, .cs_abandoned_animal .ui-datepicker table tbody .ui-datepicker-week-end a:visited {
+		color: #e82828;
+	}
+	
+	.cs_abandoned_animal .ui-datepicker table tbody td:last-child a, .cs_abandoned_animal .ui-datepicker table tbody td:last-child a:active, .cs_abandoned_animal .ui-datepicker table tbody td:last-child a:hover, .cs_abandoned_animal .ui-datepicker table tbody td:last-child a:visited {
+		color: #5f5fcd;
+	}
+	
+	.cs_abandoned_animal .ui-datepicker table tbody .ui-datepicker-unselectable span {
+		color: #666;
+	}
+	
+	.cs_abandoned_animal .err_sec .txt_err {
+		color: #fff;
+	}
+	
+	.cs_abandoned_animal .err_sec .txt_err .txt_err_sub {
+		color: #cacaca;
+	}
+	
+	.cs_abandoned_animal .page_area .paging_bx a[class^=btn_page_] .ico_spr {
+		filter: invert(81.5%) hue-rotate(-180deg);
 	}
 }
 

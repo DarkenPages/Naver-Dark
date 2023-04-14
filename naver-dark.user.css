@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.65.31
+@version		1.65.32
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -112853,6 +112853,10 @@
 	
 	html.pc .mail_status .toggle_vip + label:before {
 		filter: invert(86%) hue-rotate(-180deg) brightness(200%);
+	}
+	
+	html.pc .lnb_notice .notice_main_link:hover {
+		background-color: rgba(var(--color-link-rgb), 0.1);
 	}
 }
 

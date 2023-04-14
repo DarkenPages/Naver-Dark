@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.65.34
+@version		1.65.35
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -88252,25 +88252,25 @@
 		color: #cacaca;
 	}
 	
-	.cs_korean_quiz .option_group .ly_option {
-		background-color: #2f2f2f;
-		border: 1px solid #404040;
+	html .option_group .ly_option {
+		background-color: #2f2f2f !important;
+		border: 1px solid #404040 !important;
 	}
 	
-	.cs_korean_quiz .option_group .ly_option > a {
-		color: #cacaca;
+	html .option_group .ly_option > a {
+		color: #cacaca !important;
 	}
 	
-	.cs_korean_quiz .option_group .ly_option > a:hover {
-		background-color: #3a3a3a;
+	html .option_group .ly_option > a:hover {
+		background-color: #3a3a3a !important;
 	}
 	
-	.cs_korean_quiz .option_group .ly_option > a + a {
-		border-top: 1px solid #404040;
+	html .option_group .ly_option > a + a {
+		border-top: 1px solid #404040 !important;
 	}
 	
-	.cs_korean_quiz .option_group .ly_option .api_common_like .u_cnt {
-		color: #fff;
+	html .option_group .ly_option .api_common_like .u_cnt {
+		color: #fff !important;
 	}
 	
 	.cs_common_module .cm_content_wrap .cm_content_area:first-child .cm_tab_info_box>.cm_tap_area:first-child .select_tab, .cs_common_module .cm_content_wrap .cm_content_area:first-child .cm_pure_box>.cm_tap_area:first-child .select_tab, .cs_common_module .cm_content_wrap .cm_content_area:first-child .cm_tab_info_box>.cm_tap_area:first-child .select_tab, .cs_common_module .cm_content_wrap .cm_content_area:first-child .cm_pure_box>.cm_tap_area:first-child .select_tab {
@@ -88312,6 +88312,32 @@
 	
 	.cs_common_module .sec_movie_photo .movie_photo_list .grid_box:before {
 		border: 1px solid #404040;
+	}
+	
+	.cs_nonsense .ns_cont .ns_answer .ns_answer_txt input {
+		color: #fff;
+		border: 1px solid #404040;
+	}
+	
+	.cs_nonsense .ns_cont .ns_answer .button_box > a, .cs_nonsense .ns_cont .ns_answer .button_box .hint_area {
+		background-color: #3a3a3a;
+		border: 1px solid #404040;
+	}
+	
+	.cs_nonsense .ns_cont .ns_answer .answer, .cs_nonsense .ns_cont .ns_answer .hint {
+		color: #cacaca;
+	}
+	
+	.cs_nonsense .relative_area:after {
+		background-color: #404040;
+	}
+	
+	.cs_nonsense .ns_cont .ns_answer .ns_why {
+		color: #cacaca;
+	}
+	
+	.cs_nonsense .relative_area dt {
+		color: #fff;
 	}
 }
 

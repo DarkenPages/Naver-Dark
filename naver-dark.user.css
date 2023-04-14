@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.65.39
+@version		1.65.40
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -88412,6 +88412,23 @@
 	
 	.cs_mgame2 .cnt_area .entry_area li {
 		color: #242424;
+	}
+	
+	.cs_common_module .cm_info_box .terms_box {
+		border-top: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.cs_common_module .cm_info_box .terms_box .source {
+		color: #cacaca;
+	}
+	
+	.cs_common_simple .cm_content_wrap.simple_list_type .cm_info_box {
+		border-top: 1px solid #4f4f4f !important;
+	}
+	
+	.cs_common_simple .cm_info_box[class*="scroll_img"] .list>li .area_card:before, .cs_common_simple .cm_info_box .scroll_img_vertical_75_84 .list>li .area_card:before, .cs_common_simple .cm_info_box .scroll_music_chart .list>li .area_card:before, .cs_common_simple .cm_tab_info_box[class*="scroll_img"] .list>li .area_card:before, .cs_common_simple .cm_tab_info_box .scroll_img_vertical_75_84 .list>li .area_card:before, .cs_common_simple .cm_tab_info_box .scroll_music_chart .list>li .area_card:before {
+		border: 1px solid #404040;
 	}
 }
 

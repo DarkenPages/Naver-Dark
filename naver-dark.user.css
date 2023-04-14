@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.65.33
+@version		1.65.34
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -76326,6 +76326,22 @@
 		background-color: #2f2f2f;
 	}
 	
+	.spi_default .spi_lst li .spi_lst_release {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.spi_default .spi_lst li .spi_lst_release li.spi_lnk_copyurl .spi_btn_copyurl {
+		color: #fff !important;
+		border: 1px solid #404040;
+	}
+	
+	.spi_default .spi_lst li .spi_lst_release li.spi_lnk_copyurl .spi_input_copyurl {
+		color: #cacaca;
+		border: 1px solid #404040;
+		background-color: #242424;
+	}
+	
 	.spi_default a {
 		color: #cacaca;
 	}
@@ -76404,7 +76420,7 @@
 	}
 	
 	.cs_common_module .select_tab .btn_refresh, .cs_common_module .cm_tap_area .btn_refresh {
-		border-left: 1px solid #404040;
+		border: 1px solid #404040;
 		background: #2f2f2f;
 	}
 	
@@ -88234,6 +88250,68 @@
 	
 	.sp_intent_shop_together .together_list_wrap .info_area .name {
 		color: #cacaca;
+	}
+	
+	.cs_korean_quiz .option_group .ly_option {
+		background-color: #2f2f2f;
+		border: 1px solid #404040;
+	}
+	
+	.cs_korean_quiz .option_group .ly_option > a {
+		color: #cacaca;
+	}
+	
+	.cs_korean_quiz .option_group .ly_option > a:hover {
+		background-color: #3a3a3a;
+	}
+	
+	.cs_korean_quiz .option_group .ly_option > a + a {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_korean_quiz .option_group .ly_option .api_common_like .u_cnt {
+		color: #fff;
+	}
+	
+	.cs_common_module .cm_content_wrap .cm_content_area:first-child .cm_tab_info_box>.cm_tap_area:first-child .select_tab, .cs_common_module .cm_content_wrap .cm_content_area:first-child .cm_pure_box>.cm_tap_area:first-child .select_tab, .cs_common_module .cm_content_wrap .cm_content_area:first-child .cm_tab_info_box>.cm_tap_area:first-child .select_tab, .cs_common_module .cm_content_wrap .cm_content_area:first-child .cm_pure_box>.cm_tap_area:first-child .select_tab {
+		background: #2f2f2f;
+	}
+	
+	.cs_common_module.case_list .list_type ~ .cm_content_wrap .cm_tab_info_box>.cm_tap_area:first-of-type:before, .cs_common_module.case_list .list_type ~ .cm_content_wrap .cm_tab_info_box>.cm_tap_area:first-of-type:before {
+		top: 0;
+	}
+	
+	.cs_common_module .select_tab .select_tab .type_scroll .tab_list .tab>a, .cs_common_module .cm_tap_area .select_tab .type_scroll .tab_list .tab>a {
+		border: 1px solid #404040;
+	}
+	
+	.cs_common_module .select_tab .btn_refresh:after, .cs_common_module .cm_tap_area .btn_refresh:after {
+		background-image: linear-gradient(to left, #2f2f2f, rgba(47,47,47,0));
+	}
+	
+	.cs_common_module .list_type ~ .cm_content_wrap {
+		background-image: none;
+	}
+	
+	.cs_common_module.case_list .list_type ~ .cm_content_wrap .select_tab {
+		margin-top: 1px;
+	}
+	
+	.cs_common_module.case_normal .rel_img, .cs_common_module.case_rel .rel_img {
+		background: #2f2f2f;
+	}
+	
+	.cs_common_module .rel_img {
+		border: 1px solid #404040;
+		border-width: 0 1px;
+	}
+	
+	.cs_common_module .text_expand:first-child ~ .info {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_common_module .sec_movie_photo .movie_photo_list .grid_box:before {
+		border: 1px solid #404040;
 	}
 }
 

@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.65.40
+@version		1.65.41
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -81699,8 +81699,8 @@
 	}
 	
 	.cs_common_module .cm_basic_top_wrap {
-		border-color: #000;
-		background-color: rgb(64, 64, 64);
+		background-color: #2f2f2f;
+		border-color: #404040;
 	}
 	
 	.cs_common_module .cm_basic_top_wrap .title_area .title .area_text_title {
@@ -88196,7 +88196,7 @@
 	}
 	
 	.cs_common_module .cm_content_wrap>.cm_content_area:first-of-type>div:first-child:before, .cs_common_module .cm_content_wrap>.cm_tab_info_box:first-of-type>div:first-child:before, .cs_common_module .cm_content_wrap>.cm_info_box:first-of-type>div:first-child:before {
-		background: #404040;
+		background: #404040 !important;
 		top: 0px;
 	}
 	
@@ -88429,6 +88429,147 @@
 	
 	.cs_common_simple .cm_info_box[class*="scroll_img"] .list>li .area_card:before, .cs_common_simple .cm_info_box .scroll_img_vertical_75_84 .list>li .area_card:before, .cs_common_simple .cm_info_box .scroll_music_chart .list>li .area_card:before, .cs_common_simple .cm_tab_info_box[class*="scroll_img"] .list>li .area_card:before, .cs_common_simple .cm_tab_info_box .scroll_img_vertical_75_84 .list>li .area_card:before, .cs_common_simple .cm_tab_info_box .scroll_music_chart .list>li .area_card:before {
 		border: 1px solid #404040;
+	}
+	
+	.cs_common_module .cm_basic_top_wrap+.cm_content_wrap .cm_tab_info_box .cm_filter_tap, .cs_common_module .cm_white_top_wrap+.cm_content_wrap .cm_tab_info_box .cm_filter_tap {
+		background: #2f2f2f;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_common_module .cm_basic_top_wrap ~ .cm_content_wrap .cm_tap_area .type_scroll.type_dot, .cs_common_module .cm_white_top_wrap ~ .cm_content_wrap .cm_tap_area .type_scroll.type_dot {
+		background: #2f2f2f;
+	}
+	
+	.cs_common_module .cm_basic_top_wrap+.cm_content_wrap, .cs_common_module .cm_white_top_wrap+.cm_content_wrap {
+		background: #2f2f2f !important;
+	}
+	
+	.cs_common_module .horizon_box_image .list_info .info_box:before {
+		border: 1px solid #404040;
+	}
+	
+	.cs_common_module .cm_basic_top_wrap+.cm_content_wrap .cm_tab_info_box .cm_filter_tap .filter_option+.filter_tap_area .next_visual, .cs_common_module .cm_white_top_wrap+.cm_content_wrap .cm_tab_info_box .cm_filter_tap .filter_option+.filter_tap_area .next_visual {
+		background-image: linear-gradient(to left, #2f2f2f 53%, rgba(47,47,47,0) 100%) !important;
+	}
+	
+	.cs_common_module .cm_basic_top_wrap+.cm_content_wrap .cm_tab_info_box .cm_filter_tap .filter_option, .cs_common_module .cm_white_top_wrap+.cm_content_wrap .cm_tab_info_box .cm_filter_tap .filter_option {
+		background: #2f2f2f;
+	}
+	
+	.cs_common_module .cm_filter_tap .filter_option {
+		background: #2f2f2f;
+	}
+	
+	.cs_common_module .cm_basic_top_wrap+.cm_content_wrap .cm_tab_info_box .cm_filter_tap .filter_option:before, .cs_common_module .cm_white_top_wrap+.cm_content_wrap .cm_tab_info_box .cm_filter_tap .filter_option:before {
+		background-image: linear-gradient(to left, #2f2f2f 3px, rgba(47,47,47,0));
+	}
+	
+	.cs_common_module .cm_filter_tap .filter_option:before {
+		background-image: linear-gradient(to left, #2f2f2f 3px, rgba(47,47,47,0));
+	}
+	
+	.cs_common_module .cm_basic_top_wrap+.cm_content_wrap .cm_tab_info_box .cm_filter_tap .filter_option:after, .cs_common_module .cm_white_top_wrap+.cm_content_wrap .cm_tab_info_box .cm_filter_tap .filter_option:after {
+		background: #2f2f2f;
+	}
+	
+	.cs_common_module .cm_filter_tap .filter_option:after {
+		background: #2f2f2f;
+	}
+	
+	.cs_common_module .cm_filter_tap .filter_option .option_btn {
+		background: #3a3a3a;
+	}
+	
+	.cs_common_module .cm_filter_tap .filter_option .option_btn:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_common_module .cm_filter_tap .filter_option .option_btn:after {
+		border: 1px solid #404040;
+	}
+	
+	.cs_common_module .panel_ly_wrap .refrsh_title .title_box .btn_refresh .text {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .panel_ly_wrap .refrsh_title .title_box .btn_refresh:before {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_common_module .option_info .select_tab_area .select_btn {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_common_module .option_info .select_tab_area .select_btn .text {
+		color: #fff;
+	}
+	
+	.cs_common_module .option_info .select_tab_area .select_panel .list .item {
+		border-right: 1px solid #404040;
+		border-bottom: 1px solid #404040;
+	}
+	
+	.cs_common_module .option_info .select_tab_area .select_panel .list .item[aria-selected="true"] {
+		background-color: #3a3a3a;
+	}
+	
+	.cs_common_module .option_info .select_tab_area .select_panel .list .item:nth-child(4n+1) {
+		border-left: 0;
+	}
+	
+	.cs_common_module .option_info .select_tab_area .select_panel {
+		border-top: 1px solid #404040;
+	}
+	
+	.cs_common_module .option_info .select_tab_area .select_panel .list .item .inner .text {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .option_info .select_tab_area .select_panel .list .item[aria-selected="true"] .inner .text {
+		color: #fff;
+	}
+	
+	.cs_common_module .option_info .select_tab_area .select_panel .list:before {
+		background: #404040;
+	}
+	
+	.cs_common_module .option_info .select_tab_area .select_panel .list .item .inner img {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.cs_common_module .rel_paging_area .rel_dot_page {
+		background-color: #4f4f4f;
+	}
+	
+	.cs_common_module .option_info .option_title {
+		color: #fff;
+	}
+	
+	.cs_common_module .option_info .scroll_tab_area .segment_list .item .inner {
+		background-color: #3a3a3a;
+		border: 1px solid #404040;
+	}
+	
+	.cs_common_module.case_list.color_5 .option_info .scroll_tab_area .segment_list .item .text {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .range_bar_area .range_slider .irs-from, .cs_common_module .range_bar_area .range_slider .irs-to, .cs_common_module .range_bar_area .range_slider .irs-single {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .range_bar_area .range_slider .irs-line {
+		background-color: #404040;
+	}
+	
+	.cs_common_module .option_info .filter_tab_area .list .item .menu {
+		background-color: #3a3a3a;
+		color: #cacaca;
+		border: 1px solid #4f4f4f;
+	}
+	
+	.cs_common_module .cm_basic_top_wrap+.cm_content_wrap .cm_tab_info_box .cm_filter_tap .filter_option+.filter_tap_area .pre_visual, .cs_common_module .cm_white_top_wrap+.cm_content_wrap .cm_tab_info_box .cm_filter_tap .filter_option+.filter_tap_area .pre_visual {
+		background-image: linear-gradient(to right, #2f2f2f 53%, rgba(47,47,47,0) 100%) !important;
 	}
 }
 

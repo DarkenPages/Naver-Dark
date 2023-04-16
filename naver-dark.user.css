@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.65.42
+@version		1.65.43
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -112933,7 +112933,7 @@
 
 @-moz-document url-prefix("https://mail.naver.com")
 {
-	body, input, textarea, select, button {
+	body, input, textarea, select, button, table {
 		color: #cacaca;
 	}
 	
@@ -112964,7 +112964,7 @@
 		--color-title-rgb: 255, 255, 255;
 		--color-body-rgb: 202, 202, 202;
 		--color-sub-info-1-rgb: 202, 202, 202;
-		--color-sub-info-2-rgb: 255, 255, 255;
+		--color-sub-info-2-rgb: 130, 130, 130;
 		--color-text-rgb: 255, 255, 255;
 	}
 	
@@ -113400,6 +113400,88 @@
 	
 	html.pc .lnb_notice .notice_main_link:hover {
 		background-color: rgba(var(--color-link-rgb), 0.1);
+	}
+	
+	.pagination button[class^='button']:before, .mail_item .mail_sender .icon_vip:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	html.pc .layer_common.layer_add_contact .icon_vip_off:before {
+		filter: invert(86%) hue-rotate(-180deg) brightness(200%);
+	}
+	
+	html.pc .layer_wrap .layer_common.layer_add_classification .color_item:nth-child(1) .color_option_label {
+		background-color: rgb(49, 49, 36);  /* yellow */
+	}
+	
+	html.pc .layer_wrap .layer_common.layer_add_classification .color_item:nth-child(2) .color_option_label {
+		background-color: rgb(60, 53, 46);  /* orange */
+	}
+	
+	html.pc .layer_wrap .layer_common.layer_add_classification .color_item:nth-child(3) .color_option_label {
+		background-color: rgb(47, 55, 44);  /* green */
+	}
+	
+	html.pc .layer_wrap .layer_common.layer_add_classification .color_item:nth-child(4) .color_option_label {
+		background-color: rgb(46, 54, 56);  /* cyan */
+	}
+	
+	html.pc .layer_wrap .layer_common.layer_add_classification .color_item:nth-child(5) .color_option_label {
+		background-color: rgb(53, 52, 57);  /* blue */
+	}
+	
+	html.pc .layer_wrap .layer_common.layer_add_classification .color_item:nth-child(6) .color_option_label {
+		background-color: rgb(55, 50, 54);  /* purple */
+	}
+	
+	html.pc .layer_wrap .layer_common.layer_color_picker {
+		border: 1px solid #404040;
+	}
+	
+	html.pc .mail_classification_table tbody tr.selected {
+		background-color: #2f2f2f;
+	}
+	
+	html.pc .mail_item:not(.selected) .mail[style*='background-color: rgb(255, 253, 224)'] {
+		background-color: rgb(49, 49, 36) !important;  /* yellow */
+	}
+	
+	html.pc .mail_item:not(.selected) .mail[style*='background-color: rgb(255, 239, 224)'] {
+		background-color: rgb(60, 53, 46) !important;  /* orange */
+	}
+	
+	html.pc .mail_item:not(.selected) .mail[style*='background-color: rgb(230, 250, 227)'] {
+		background-color: rgb(47, 55, 44) !important;  /* green */
+	}
+	
+	html.pc .mail_item:not(.selected) .mail[style*='background-color: rgb(232, 248, 253)'] {
+		background-color: rgb(46, 54, 56) !important;  /* cyan */
+	}
+	
+	html.pc .mail_item:not(.selected) .mail[style*='background-color: rgb(245, 242, 255)'] {
+		background-color: rgb(53, 52, 57) !important;  /* blue */
+	}
+	
+	html.pc .mail_item:not(.selected) .mail[style*='background-color: rgb(255, 243, 249)'] {
+		background-color: rgb(55, 50, 54) !important;  /* purple */
+	}
+	
+	html.pc .mail_item:not(.selected) .mail[style*='background-color:']:not([style*='background-color: rgb(255, 253, 224)']):not([style*='background-color: rgb(255, 239, 224)']):not([style*='background-color: rgb(230, 250, 227)']):not([style*='background-color: rgb(232, 248, 253)']):not([style*='background-color: rgb(245, 242, 255)']) {
+		background-color: rgb(49, 49, 36) !important;  /* default yellow */
+	}
+	
+	html.pc .mail_classification_table tbody tr.drag, html.pc .mail_classification_table tbody tr.dragging {
+		background-color: #2f2f2f;
+	}
+	
+	html.pc .mail_classification_table tbody tr.drag_up {
+		-webkit-box-shadow: inset 0 1px 0 0 rgba(100, 100, 100, 0.8);
+		box-shadow: inset 0 1px 0 0 rgba(100, 100, 100, 0.8);
+	}
+	
+	html.pc .mail_classification_table tbody tr.drag_down {
+		-webkit-box-shadow: inset 0 1px 0 0 rgba(var(--color-button-line-rgb), 0.4), inset 0 -1px 0 0 rgba(100, 100, 100, 0.8);
+		box-shadow: inset 0 1px 0 0 rgba(var(--color-button-line-rgb), 0.4), inset 0 -1px 0 0 rgba(100, 100, 100, 0.8);
 	}
 }
 

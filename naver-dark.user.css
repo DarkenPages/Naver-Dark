@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.65.44
+@version		1.65.45
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -64423,9 +64423,10 @@
 		position: absolute;
 		content: '';
 		left: -1px;
+		right: -1px;
 		top: 0px;
 		width: 100%;
-		height: 100%;
+		height: calc(100% - 1px);
 		background: rgba(0, 0, 0, 0.815);
 		border: 1px solid #404040;
 		border-width: 0 1px 0;
@@ -69851,6 +69852,7 @@
 	
 	.cs_common_module .cm_pure_box.lego_rating_slide_outer .list>li {
 		background-color: #2f2f2f;
+		border: 1px solid #404040;
 	}
 	
 	.cs_common_module .lego_rating_box_change_sex .area_subtitle {
@@ -76402,11 +76404,6 @@
 		background-color: #4f4f4f;
 	}
 	
-	.cs_common_module .list_type .top_answer_area {
-		position: relative;
-		z-index: 999;
-	}
-	
 	.cs_common_module .list_type .top_answer_area .category {
 		z-index: 1;
 		color: #cacaca !important;
@@ -77904,7 +77901,7 @@
 	
 	.cs_common_module .top_answer_area {
 		position: relative;
-		z-index: 9999;
+		z-index: 10;
 	}
 	
 	.cs_common_module .top_answer_area .category {
@@ -88928,6 +88925,134 @@
 	
 	.cs_common_module .offer_box .cm_bar {
 		background-color: #404040;
+	}
+	
+	.sp_nshop .shop_product .product_info .shipping .ico_ship_status {
+		background-color: #2f2f2f;
+		border: 1px solid rgb(65, 145, 77);
+	}
+	
+	.sp_nshop .vertical_tab_list .item:hover {
+		color: #fff;
+	}
+	
+	.sp_nshop .vertical_tab_list .item {
+		color: #fff;
+	}
+	
+	.sp_nshop .vertical_tab_list .item:after {
+		border-bottom: 1px solid #fff;
+	}
+	
+	.sp_nshop .vertical_tab_list_wrap {
+		border-bottom: 1px solid #404040;
+	}
+	
+	.sp_nshop .mall_list_wrap .mall_tab[aria-selected=true] .info_area {
+		color: #fff;
+	}
+	
+	.sp_nshop .mall_list_wrap .info_area {
+		color: #cacaca;
+	}
+	
+	.sp_nshop .mall_list_wrap .mall_tab {
+		border: 1px solid #404040;
+	}
+	
+	.sp_nshop .mall_list_wrap .mall_tab:hover .mall_area {
+		color: #fff;
+	}
+	
+	.sp_nshop .mall_list_wrap .mall_area {
+		color: #cacaca;
+	}
+	
+	.sp_nshop .mall_list_wrap .mall_tab:hover .info_area {
+		color: #fff;
+	}
+	
+	.sp_nshop .mall_list_wrap .mall_area+.info_area {
+		color: #cacaca;
+	}
+	
+	.sp_nshop .mall_list_wrap .api_btn_page .btn_next {
+		background-image: -webkit-gradient(linear,left top,right top,color-stop(14%,rgba(47,47,47,0)),color-stop(50%,#2f2f2f));
+		background-image: linear-gradient(to right,rgba(47,47,47,0) 14%,#2f2f2f 50%);
+	}
+	
+	.sp_nshop .mall_list_wrap .api_btn_page .btn_prev {
+		background-image: -webkit-gradient(linear,right top,left top,color-stop(14%,rgba(47,47,47,0)),color-stop(50%,#2f2f2f));
+		background-image: linear-gradient(to left,rgba(47,47,47,0) 14%,#2f2f2f 50%);
+	}
+	
+	.sp_nshop .mall_list_wrap .mall_tab[aria-selected=true] {
+		border-color: #4f4f4f;
+	}
+	
+	.sp_nshop .shop_vertical_wrap .vertical_item .info_group .name {
+		color: #cacaca;
+	}
+	
+	.sp_nshop .shop_vertical_wrap .vertical_item .info_group .info {
+		color: #fff;
+	}
+	
+	.sp_nshop .shop_vertical_wrap .vertical_item .info_group .sub_info {
+		color: #cacaca;
+	}
+	
+	.sp_nshop .shop_vertical_wrap .vertical_item .info_group .sub_info [class*=api_ico_npay] {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.laws_info .srch_box {
+		background: #3a3a3a;
+		border-top: 3px solid #4f4f4f;
+		box-sizing: border-box;
+	}
+	
+	.sp_nsite .nsite_source .link_source {
+		color: #cacaca;
+	}
+	
+	.cs_common_module .lego_rating_box_point .area_chart_doughnut .area_label_box [class*="this_label"] {
+		color: #fff;
+		background-color: #3a3a3a;
+	}
+	
+	.cs_common_module .cm_info_box.scroll_relation .scroll_box .list_info .list li .info_box {
+		border: 1px solid #404040;
+	}
+	
+	.cs_common_module .cm_info_box.scroll_relation .scroll_box .list_info .list li .info_box .text {
+		color: #fff;
+	}
+	
+	.cs_common_module .rel_answer_list .area_inner_btn:after {
+		filter: invert(81.5%) hue-rotate(-180deg);
+	}
+	
+	.sp_ntotal .kin_snippet .snippet_dsc {
+		color: #fff;
+	}
+	
+	.sp_ntotal .card_list_area .card_link .info_area {
+		color: #fff;
+		background-color: #2f2f2f;
+		border: 1px solid #4f4f4f;
+		border-top: 0;
+	}
+	
+	.cs_seasonal_divisions .cs_tab ul li a {
+		border: 1px solid #404040;
+		border-bottom: 0;
+		background: #2f2f2f;
+		color: #fff;
+	}
+	
+	.cs_seasonal_divisions .prcs_hr {
+		border-top: 1px solid #404040;
 	}
 }
 

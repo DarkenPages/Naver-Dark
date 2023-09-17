@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.65.47
+@version		1.65.48
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -34338,6 +34338,38 @@
 	
 	.talk_pc_partner .group_message_balloon .new_message_balloon_area .info_item.type_neighbor span+span:before, .talk_pc_user .group_message_balloon .new_message_balloon_area .info_item.type_neighbor span+span:before {
 		background-color: #4f4f4f;
+	}
+	
+	.talk_pc_partner .composite_component .composite_text.-large, .talk_pc_user .composite_component .composite_text.-large {
+		color: #fff;
+	}
+	
+	.talk_pc_partner .group_message_balloon .new_message_balloon_area .thumbnail_profile .thumbnail_link .thumbnail_mask, .talk_pc_user .group_message_balloon .new_message_balloon_area .thumbnail_profile .thumbnail_link .thumbnail_mask {
+		background: none
+	}
+	
+	.talk_pc_partner .group_message_balloon .new_message_balloon_area .thumbnail_profile .thumbnail_link img, .talk_pc_user .group_message_balloon .new_message_balloon_area .thumbnail_profile .thumbnail_link img {
+		border-radius: 50%;
+	}
+	
+	.talk_pc_partner .group_message_balloon .new_message_balloon_area .thumbnail_profile .thumbnail_link, .talk_pc_user .group_message_balloon .new_message_balloon_area .thumbnail_profile .thumbnail_link {
+		background: #2f2f2f;
+	}
+	
+	.talk_pc_partner ._expiredMessage.chat_message_notice .no_chat .no_chat_desc, .talk_pc_user ._expiredMessage.chat_message_notice .no_chat .no_chat_desc {
+		color: #cacaca;
+	}
+	
+	.talk_pc_user .friend_store_list .title_text {
+		color: #fff;
+	}
+	
+	.talk_pc_user .friend_store_list .btn_list_back .ico_backward {
+		fill: #fff;
+	}
+	
+	.talk_pc_user .friend_list_wrap .title {
+		color: #cacaca;
 	}
 }
 

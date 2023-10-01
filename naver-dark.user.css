@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.65.49
+@version		1.65.50
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -89237,7 +89237,7 @@
 		--gpt-theme30: 98,133,233;
 		--gpt-theme95: 41,41,41;
 		--gpt-theme99: 41,41,41;
-		--bgBlock: 33,33,33;
+		--bgBlock: 36,36,36;
 	}
 	
 	.ly_search_gpt .initial_group .initial_desc {
@@ -89392,6 +89392,28 @@
 	
 	.ly_search_gpt .guide_wrap .txt_bx {
 		color: #cacaca;
+	}
+	
+	.ly_search_gpt .ly_gpt_profile .option_bx, .ly_search_gpt .ly_gpt_profile .btn_bx {
+		border-color: #404040;
+	}
+	
+	.ly_search_gpt .ly_gpt_profile .info_group {
+		background-color: #2f2f2f;
+	}
+	
+	.ly_search_gpt .gpt_sub_pack {
+		background-color: #2f2f2f;
+	}
+	
+	.ly_search_gpt .history_content:before {
+		background: -webkit-gradient(linear,left bottom,left top,from(rgba(47, 47, 47,0)),to(rgba(47, 47, 47,1)));
+		background: linear-gradient(0deg,rgba(47, 47, 47,0) 0,rgba(47, 47, 47,1) 100%);
+	}
+	
+	.ly_search_gpt .history_content:after {
+		background: -webkit-gradient(linear,left top,left bottom,from(rgba(47, 47, 47,0)),to(rgba(47, 47, 47,1)));
+		background: linear-gradient(180deg,rgba(47, 47, 47,0) 0,rgba(47, 47, 47,1) 100%);
 	}
 }
 

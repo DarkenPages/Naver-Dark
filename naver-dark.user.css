@@ -2,7 +2,7 @@
 @name			Naver Dark
 @author			OrigamiDream
 @description	Dark mode for NAVER
-@version		1.65.50
+@version		1.65.51
 @namespace		Avis Studio
 @license		CC BY-NC-SA
 @preprocessor	default
@@ -108391,17 +108391,33 @@
 		}
 	}
 	
-	#header:before {
+	#header {
 		background-color: #242424;
 	}
 	
-	#header .notify_area .notify_inner.flash {
-		background: rgb(47, 41, 40);
+	.lnb_area .menu_area, .lnb_area .lnb {
+		background-color: #242424;
+	}
+	
+	.lnb_area .logo_area .page_name {
+		color: #fff;
+	}
+	
+	.notify_area .notify_inner {
+		background-color: #3a3a3a;
+	}
+	
+	.notify_area .text {
+		color: #cacaca;
 	}
 	
 	@media (min-width: 1025px) {
-		.lnb_area {
-			border-top: 1px solid #404040;
+		#header .inner_header {
+			background-color: #242424;
+		}
+		#header .inner_header {
+			-webkit-box-shadow: 0 1px 0 0 #404040;
+			box-shadow: 0 1px 0 0 #404040;
 		}
 	}
 	
@@ -109438,6 +109454,9 @@
 		.is_dust .card_map .content_area .offer_area span {
 			color: #cacaca;
 		}
+		.is_dust .card_dust {
+			border-top: 1px solid #404040;
+		}
 	}
 	
 	.is_dust .card_dust .chart_value .ttl {
@@ -110186,8 +110205,89 @@
 		color: #fff;
 	}
 	
-	.card_now .dust_area {
+	.layer_detail .inner, .layer_sea .inner {
+		background-color: #242424;
+	}
+	
+	#container.is_map .btn_tab:not([disabled]) {
+		color: #cacaca;
+	}
+	
+	.layer_detail .layer_title .label {
+		border: 1px solid #404040;
+		color: #cacaca;
+	}
+	
+	.layer_detail .layer_title .layer_title_inner {
+		color: #fff;
+	}
+	
+	.layer_detail .weather_data .cell.now {
+		border: 1px solid #404040;
+		background-color: #3a3a3a;
+	}
+	
+	.layer_detail .weather_data .value {
+		color: #fff;
+	}
+	
+	.layer_detail .button_fold:before, .layer_sea .button_fold:before, #container.is_map .map_more .map_more_provide .map_provide_button.type_basic::after {
+		filter: invert(100%);
+	}
+	
+	#container.is_map .map_more .map_more_provide .map_provide_button.type_basic {
+		color: #fff;
+	}
+	
+	.is_warning .btn_pin_wrap .btn_pin {
+		background-color: #2f2f2f;
+	}
+	
+	.is_warning .btn_pin_wrap .btn_pin+.btn_pin {
 		border-top: 1px solid #404040;
+	}
+	
+	.is_warning .btn_pin_wrap .btn_pin:not([disabled]) {
+		color: #cacaca;
+	}
+	
+	.is_warning .btn_pin_wrap .btn_pin:before {
+		filter: invert(86%) hue-rotate(-180deg);
+	}
+	
+	.is_warning .btn_pin_wrap .btn_pin.on:before, .is_warning .btn_pin_wrap .btn_pin.wind.on:before {
+		filter: none;
+	}
+	
+	.is_warning .btn_pin_wrap .btn_pin.on {
+		background-color: #3a3a3a;
+		color: #fff;
+	}
+	
+	@media all and (min-width: 1025px) {
+		#container.is_image .section_single .content_area_wrap {
+			background-color: #242424;
+		}
+		
+		#container.is_image .section_single .tit strong {
+			color: #fff;
+		}
+		
+		.is_warning .section_right {
+			background-color: #242424;
+		}
+	}
+	
+	.card_now .today_list .today_item .day {
+		color: #cacaca;
+	}
+	
+	.card_now .today_list .today_item .degree {
+		color: #fff;
+	}
+	
+	.card_now .info .weather {
+		color: #fff;
 	}
 }
 
